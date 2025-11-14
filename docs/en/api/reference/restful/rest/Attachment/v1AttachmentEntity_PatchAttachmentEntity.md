@@ -14,7 +14,8 @@ PATCH /api/v1/Attachment/{id}
 Update a AttachmentEntity with changes, as described in a JSON Patch or a JSON Merge Patch document.
 
 
-See <a href="https://tools.ietf.org/html/rfc6902">RFC6902</a> and <a href="https://tools.ietf.org/html/rfc7386">RFC 7396</a>. Update the Department field to "foo" can be done either as a JSON PATCH:
+See <a href="https://tools.ietf.org/html/rfc6902">RFC6902</a> and <a href="https://tools.ietf.org/html/rfc7386">RFC 7396</a>.
+NsApiSlow threshold: 5000 ms. Update the Department field to "foo" can be done either as a JSON PATCH:
 
 ```js
 
@@ -116,18 +117,18 @@ AttachmentEntity  updated.
 PATCH /api/v1/Attachment/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "ex",
+    "path": "ipsum",
     "value": {}
   },
   {
     "op": "add",
-    "path": "ex",
+    "path": "ipsum",
     "value": {}
   }
 ]
@@ -140,25 +141,25 @@ HTTP/1.1 200 AttachmentEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 638,
-  "Name": "Ratke-Graham",
-  "ContentType": "dolorem",
-  "AttSize": 282,
+  "AttachmentId": 459,
+  "Name": "Stanton, Fadel and Sauer",
+  "ContentType": "cum",
+  "AttSize": 119,
   "InlineImage": true,
-  "ContentId": "maiores",
-  "AuthKey": "quas",
-  "IsSafeFileExtension": false,
+  "ContentId": "suscipit",
+  "AuthKey": "laboriosam",
+  "IsSafeFileExtension": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 61
+      "FieldLength": 847
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

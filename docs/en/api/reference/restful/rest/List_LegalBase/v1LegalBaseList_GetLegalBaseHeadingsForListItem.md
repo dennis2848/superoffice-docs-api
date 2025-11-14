@@ -32,7 +32,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/LegalBase/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/LegalBase/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -86,7 +86,7 @@ OK
 GET /api/v1/List/LegalBase/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -97,56 +97,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 677,
-    "Name": "Baumbach, Nitzsche and Turner",
-    "ToolTip": "Cupiditate mollitia laudantium modi vel perferendis rem iure.",
-    "Deleted": false,
-    "Rank": 973,
-    "Type": "sint",
-    "ColorBlock": 512,
-    "IconHint": "veniam",
+    "Id": 4,
+    "Name": "Gulgowski, Armstrong and Veum",
+    "ToolTip": "Quod illum.",
+    "Deleted": true,
+    "Rank": 539,
+    "Type": "blanditiis",
+    "ColorBlock": 519,
+    "IconHint": "eos",
     "Selected": false,
-    "LastChanged": "2008-11-16T03:47:00.6755475+01:00",
+    "LastChanged": "1998-08-02T02:30:53.3036395+02:00",
     "ChildItems": [
       {
-        "Id": 674,
-        "Name": "Huels-Reilly",
-        "ToolTip": "Eaque maxime qui consequatur consequatur.",
+        "Id": 495,
+        "Name": "Goldner, Mann and Schamberger",
+        "ToolTip": "Fuga est vel aut.",
         "Deleted": false,
-        "Rank": 145,
-        "Type": "aliquid",
-        "ColorBlock": 460,
-        "IconHint": "quaerat",
-        "Selected": false,
-        "LastChanged": "2002-12-06T03:47:00.6755475+01:00",
+        "Rank": 740,
+        "Type": "reprehenderit",
+        "ColorBlock": 429,
+        "IconHint": "fugit",
+        "Selected": true,
+        "LastChanged": "2008-12-19T02:30:53.3036395+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "reiciendis",
-        "StyleHint": "et",
+        "ExtraInfo": "quod",
+        "StyleHint": "voluptas",
         "Hidden": false,
-        "FullName": "Ms. Jaylin Muller III",
+        "FullName": "Jessyca Nikolaus",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 74
+            "FieldType": "System.String",
+            "FieldLength": 143
           }
         }
       }
     ],
-    "ExtraInfo": "eos",
-    "StyleHint": "minus",
-    "Hidden": true,
-    "FullName": "Rashad Beahan",
+    "ExtraInfo": "dolores",
+    "StyleHint": "dolores",
+    "Hidden": false,
+    "FullName": "Sean Gutmann",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 768
+        "FieldLength": 968
       }
     }
   }

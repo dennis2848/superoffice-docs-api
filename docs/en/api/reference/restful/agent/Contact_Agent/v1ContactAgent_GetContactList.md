@@ -14,6 +14,8 @@ POST /api/v1/Agents/Contact/GetContactList
 Gets an array of Contact objects.
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -105,36 +107,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 162,
-    "Name": "Dietrich, Kihn and Rempel",
-    "OrgNr": "944373",
+    "ContactId": 579,
+    "Name": "Medhurst, Powlowski and Skiles",
+    "OrgNr": "663234",
     "Department": "",
     "URL": "http://www.example.com/",
-    "City": "placeat",
-    "DirectPhone": "1-287-568-4713 x3827",
-    "AssociateId": 570,
-    "CountryId": 865,
-    "EmailAddress": "retta@hartmann.uk",
-    "Kananame": "molestias",
-    "EmailAddressName": "xavier.farrell@price.us",
+    "City": "autem",
+    "DirectPhone": "(729)741-4355 x8872",
+    "AssociateId": 216,
+    "CountryId": 192,
+    "EmailAddress": "isaias@romagueralemke.name",
+    "Kananame": "et",
+    "EmailAddressName": "jamarcus.pfeffer@bernhardlabadie.co.uk",
     "URLName": "http://www.example.com/",
-    "AssociateFullName": "Prof. Junius Willard Oberbrunner IV",
+    "AssociateFullName": "Junior Friesen",
     "BusinessName": "Information Technology",
     "CategoryName": "VIP Customer",
     "CountryName": "Sokovia",
     "Address": null,
-    "FormattedAddress": "consequatur",
-    "FullName": "Kamryn Marvin",
+    "FormattedAddress": "mollitia",
+    "FullName": "Logan Ritchie",
     "IsOwnerContact": false,
-    "ActiveErpLinks": 323,
-    "Number1": "1690768",
-    "Number2": "1031281",
+    "ActiveErpLinks": 903,
+    "Number1": "1030653",
+    "Number2": "1248622",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 502
+        "FieldType": "System.String",
+        "FieldLength": 215
       }
     }
   }

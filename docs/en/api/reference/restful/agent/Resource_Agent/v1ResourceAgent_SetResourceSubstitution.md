@@ -14,6 +14,8 @@ POST /api/v1/Agents/Resource/SetResourceSubstitution
 Create or update a resource substitution
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -68,13 +70,13 @@ No Content
 POST /api/v1/Agents/Resource/SetResourceSubstitution
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ResourceName": "Witting, Ernser and Ondricka",
-  "ResourceValues": "sit",
-  "Culture": "soluta",
+  "ResourceName": "Cummings, Altenwerth and King",
+  "ResourceValues": "est",
+  "Culture": "est",
   "IsActive": false
 }
 ```

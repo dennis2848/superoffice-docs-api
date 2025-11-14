@@ -97,56 +97,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 761,
-    "Name": "Blanda-Rogahn",
-    "ToolTip": "Voluptas sint qui voluptas sequi commodi est quidem.",
-    "Deleted": true,
-    "Rank": 663,
-    "Type": "optio",
-    "ColorBlock": 151,
+    "Id": 984,
+    "Name": "Hagenes, Wilderman and Hirthe",
+    "ToolTip": "Sequi facilis quaerat autem.",
+    "Deleted": false,
+    "Rank": 624,
+    "Type": "delectus",
+    "ColorBlock": 819,
     "IconHint": "sit",
     "Selected": false,
-    "LastChanged": "2001-05-06T03:47:00.6130405+02:00",
+    "LastChanged": "2005-01-27T02:30:53.2411414+01:00",
     "ChildItems": [
       {
-        "Id": 885,
-        "Name": "Treutel, Wintheiser and Barton",
-        "ToolTip": "Ex sit neque dolorum sunt.",
-        "Deleted": true,
-        "Rank": 54,
-        "Type": "quaerat",
-        "ColorBlock": 178,
-        "IconHint": "optio",
-        "Selected": false,
-        "LastChanged": "2011-10-21T03:47:00.6130405+02:00",
+        "Id": 753,
+        "Name": "Ziemann-Bosco",
+        "ToolTip": "Iure aut dolor suscipit odit provident.",
+        "Deleted": false,
+        "Rank": 49,
+        "Type": "vero",
+        "ColorBlock": 105,
+        "IconHint": "reprehenderit",
+        "Selected": true,
+        "LastChanged": "2023-05-21T02:30:53.2411414+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "placeat",
-        "StyleHint": "quia",
+        "ExtraInfo": "dolor",
+        "StyleHint": "itaque",
         "Hidden": false,
-        "FullName": "Mr. Vickie Bauch",
+        "FullName": "Blanca Carmella Dietrich MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 414
+            "FieldLength": 518
           }
         }
       }
     ],
-    "ExtraInfo": "necessitatibus",
-    "StyleHint": "architecto",
+    "ExtraInfo": "voluptatem",
+    "StyleHint": "harum",
     "Hidden": false,
-    "FullName": "Leo Kohler I",
+    "FullName": "Uriah Toy",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 124
+        "FieldType": "System.Int32",
+        "FieldLength": 194
       }
     }
   }

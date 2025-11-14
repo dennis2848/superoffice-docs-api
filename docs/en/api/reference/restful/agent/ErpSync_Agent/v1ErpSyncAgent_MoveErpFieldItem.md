@@ -14,6 +14,9 @@ POST /api/v1/Agents/ErpSync/MoveErpFieldItem
 Moves the rank of the erp field up or down
 
 
+NsApiSlow threshold: 5000 ms.
+
+
 ## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
 
 
@@ -74,9 +77,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpFieldId": 918,
-  "Direction": 265,
-  "ErpConnectionId": 816,
+  "ErpFieldId": 479,
+  "Direction": 41,
+  "ErpConnectionId": 968,
   "ErpActorType": "Customer"
 }
 ```

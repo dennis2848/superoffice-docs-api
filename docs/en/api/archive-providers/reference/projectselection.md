@@ -78,7 +78,7 @@ This is the archive Provider for the Selection Project archive.
 |projectAssociate/assocType|listAny|Type: Type of user: associate, external user, system user, anonymous account| x |
 |projectAssociate/ejUserId|int|Service user ID: The database ID of a Service user|  |
 |projectAssociate/simultaneousEjUser|bool|Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|projectAssociate/ejDisplayName|string|Nick name: User's nick name in Service| x |
+|projectAssociate/ejDisplayName|string|Nickname: User's nickname in Service| x |
 |projectAssociate/ejStatus|int|Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |projectAssociate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in| x |
 |projectAssociate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
@@ -158,7 +158,7 @@ This is the archive Provider for the Selection Project archive.
 |sale/earning|decimal|Profit: Gross profit (gross sales total - cost) for the sale| x |
 |sale/earningPercent|decimal|Profit as % : The profit as a percentage of the gross sales total| x |
 |sale/probPercent|int|Probability as %: Probability as %| x |
-|sale/originalStage|listAny|Stage: Displays the stage of the sale| x |
+|sale/originalStage|listAny|Stage when closed: Stage when closed| x |
 |sale/stage|listAny|Stage: Displays the stage of the sale| x |
 |sale/stageName| *None* |Stage name: Displays the stage of the sale| x |
 |sale/saleStatus|listAny|Status: The status of the sale - open, lost or sold| x |
@@ -180,6 +180,7 @@ This is the archive Provider for the Selection Project archive.
 |sale/createdByWorkflow|listAny|Created by flow: Created by flow| x |
 |sale/amountInBaseCurrency| *None* |Amount (BaseCurrency): The gross sales total| x |
 |sale/amountWeightedInBaseCurrency| *None* |Weighted amount (BaseCurrency): Virtual field calculated from amount * probability percent.| x |
+|sale/daysInStage| *None* |Days in stage: Total number of days in this stage| x |
 |sale/visibleFor|listAny|Visible for|  |
 |sale/sale/textId|int|Text ID| x |
 |sale/sale/description|positiveString|Text: Displays the text entered in the description field| x |
@@ -208,7 +209,7 @@ This is the archive Provider for the Selection Project archive.
 |sale/associate/assocType|listAny|Type: Type of user: associate, external user, system user, anonymous account| x |
 |sale/associate/ejUserId|int|Service user ID: The database ID of a Service user|  |
 |sale/associate/simultaneousEjUser|bool|Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|sale/associate/ejDisplayName|string|Nick name: User's nick name in Service| x |
+|sale/associate/ejDisplayName|string|Nickname: User's nickname in Service| x |
 |sale/associate/ejStatus|int|Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |sale/associate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in| x |
 |sale/associate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
@@ -224,11 +225,11 @@ This is the archive Provider for the Selection Project archive.
 |sale/saleUdef/SuperOffice:2|string|salelongtext| x |
 |sale/saleUdef/SuperOffice:3|int|salenumber| x |
 |sale/saleUdef/SuperOffice:4|date|saledate| x |
-|sale/saleUdef/SuperOffice:5|unlimitedDate|saleunlimiteddate| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|sale/saleUdef/SuperOffice:5|unlimitedDate|saleunlimiteddate| x |
 |sale/saleUdef/SuperOffice:6|bool|salecheckbox| x |
 |sale/saleUdef/SuperOffice:7|listAny|saledropdownlistbox| x |
 |sale/saleUdef/SuperOffice:8|decimal|saledecimal| x |
@@ -309,7 +310,7 @@ This is the archive Provider for the Selection Project archive.
 |appointment/associate/assocType|listAny|Type: Type of user: associate, external user, system user, anonymous account| x |
 |appointment/associate/ejUserId|int|Service user ID: The database ID of a Service user|  |
 |appointment/associate/simultaneousEjUser|bool|Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|appointment/associate/ejDisplayName|string|Nick name: User's nick name in Service| x |
+|appointment/associate/ejDisplayName|string|Nickname: User's nickname in Service| x |
 |appointment/associate/ejStatus|int|Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |appointment/associate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in| x |
 |appointment/associate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
@@ -328,11 +329,11 @@ This is the archive Provider for the Selection Project archive.
 |appointment/appointment/agendaHtml| *None* |!!Agenda Html| x |
 |appointment/appointment/isConverted| *None* |!!Is Converted|  |
 |appointment/appointment/textId|int|Text ID| x |
-|appointment/appointment/internalNotes|positiveString|Internal notes: Displays the text entered in the description field| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|appointment/appointment/internalNotes|positiveString|Internal notes: Displays the text entered in the description field| x |
 |appointment/appointment/internalNotesHtml|positiveString|!!Internal Notes Html| x |
 |document/completed|bool|Completed: Displays a checkbox showing if an appointment is completed| x |
 |document/icon|listAny|Category: Displays the icon for an activity type| x |
@@ -393,7 +394,7 @@ This is the archive Provider for the Selection Project archive.
 |document/associate/assocType|listAny|Type: Type of user: associate, external user, system user, anonymous account| x |
 |document/associate/ejUserId|int|Service user ID: The database ID of a Service user|  |
 |document/associate/simultaneousEjUser|bool|Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|document/associate/ejDisplayName|string|Nick name: User's nick name in Service| x |
+|document/associate/ejDisplayName|string|Nickname: User's nickname in Service| x |
 |document/associate/ejStatus|int|Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |document/associate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in| x |
 |document/associate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
@@ -421,6 +422,8 @@ This is the archive Provider for the Selection Project archive.
 |projectMember/personId|int|Contact ID: Database ID of the contact row| x |
 |projectMember/function|listAny|Function: Displays the project member's function in the project| x |
 |projectMember/hasInfoText|bool|Project member information: Displays an icon indicating that there is additional information available for the project member| x |
+|projectMember/registered|datetime|Registered date: The date/time the data was registered in UTC.| x |
+|projectMember/updated|datetime|Updated: The date/time the data was last updated in UTC.| x |
 |projectMember/textId|int|Text ID| x |
 |projectMember/infoText|positiveString|Information: Displays the text entered in the description field| x |
 |projectMember/firstName|string|First name: Displays the contact's first name| x |
@@ -430,13 +433,13 @@ This is the archive Provider for the Selection Project archive.
 |projectMember/hasInterests|bool|Has interests: Displays an Icon indicating if the contact has active interests| x |
 |projectMember/personHasInterests|bool|Has interests: Displays an Icon indicating if the contact has active interests| x |
 |projectMember/mrMrs|string|Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
-|projectMember/position|listAny|Position| x |
-|projectMember/personNumber|string|Number: Displays the contact's number| x |
-|projectMember/title|string|Title: Displays the contact's job title| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|projectMember/position|listAny|Position| x |
+|projectMember/personNumber|string|Number: Displays the contact's number| x |
+|projectMember/title|string|Title: Displays the contact's job title| x |
 |projectMember/personCountry|listAny|Country: Country| x |
 |projectMember/personCountryId|int|Country ID: Country ID| x |
 |projectMember/personNoMail|bool|No Mailings: Displays the contact's No Mailings checkbox| x |
@@ -466,7 +469,11 @@ This is the archive Provider for the Selection Project archive.
 |projectMember/personAssociateId|associate|Our contact: Displays our contact| x |
 |projectMember/personAssociateFullName|associate|Our contact - Full name: Displays our contact| x |
 |projectMember/personCategory|listAny|Category| x |
+|projectMember/personCategoryGroup|listAny|Category group| x |
+|projectMember/personCategoryRank|int|!!Category rank| x |
 |projectMember/personBusiness|listAny|Business| x |
+|projectMember/leadStatus|listAny|Lead status| x |
+|projectMember/leadstatusRank|int|!!Lead status RANK| x |
 |projectMember/personDeletedDate|datetime|Deleted date: Deleted date|  |
 |projectMember/hasCompany|bool|Has company: The contact is associated with a company| x |
 |projectMember/isProjectMember|bool|Is project member: This person is a project member| x |
@@ -530,6 +537,10 @@ This is the archive Provider for the Selection Project archive.
 |projectMember/personUdef/SuperOffice:4|date|contactdate| x |
 |projectMember/personUdef/SuperOffice:5|unlimitedDate|contactunlimiteddate: tooltipunlimiteddate| x |
 |projectMember/personUdef/SuperOffice:6|bool|contactcheckbox| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |projectMember/personUdef/SuperOffice:7|listAny|contactdropdownlistbox| x |
 |projectMember/personUdef/SuperOffice:8|decimal|contactdecimal| x |
 |projectMember/personUdef/SuperOffice:9|string|page1saleonly| x |
@@ -537,10 +548,6 @@ This is the archive Provider for the Selection Project archive.
 |projectMember/personUdef/SuperOffice:11|string|page1adminonly| x |
 |projectMember/personExtra/x\_person\_integer|int|Extra Integer: Custom person integer| x |
 |projectMember/personExtra/x\_person\_hidden\_integer|int|Extra hidden integer: Custom integer field that is hidden| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |projectMember/personExtra/x\_person\_float|decimal|Extra float: Custom float field| x |
 |projectMember/personExtra/x\_person\_longtext|string|Extra Long Text: Custom long text field on person, keep HTML tags. Simple input, not text area. Default value = 'Hello there'| x |
 |projectMember/personExtra/x\_person\_date|date|Extra date: Custom date field on person. Default value = 28.03.2019| x |
@@ -557,8 +564,8 @@ This is the archive Provider for the Selection Project archive.
 |projectMember/personExtra/x\_person\_appointment\_relation|stringorPK|Extra appointment relation: Appointment relation on person| x |
 |projectMember/personExtra/x\_person\_contact\_relation|stringorPK|Extra company relation: Company relation on contact| x |
 |projectMember/personExtra/y\_rental/id|int|Rental - id: Displays the row's primary key (y\_rental)| x |
-|projectMember/personExtra/y\_rental/x\_start|date|Rental - Start rental| x |
-|projectMember/personExtra/y\_rental/x\_end|date|Rental - End| x |
+|projectMember/personExtra/y\_rental/x\_start|date|Rental - Start rental: Start rental| x |
+|projectMember/personExtra/y\_rental/x\_end|date|Rental - End: End| x |
 |projectMember/personExtra/y\_rental/x\_amount|int|Rental - Amount: Number to rent. Default = 1| x |
 |projectMember/personExtra/y\_rental/x\_contact|stringorPK|Rental - Renter: Company that rents equipment| x |
 |projectMember/personExtra/y\_rental/y\_equipment/x\_name|string|Rental - Equipment - Name: Equpment name custom field. Cannot be null., show in table| x |
@@ -584,7 +591,7 @@ This is the archive Provider for the Selection Project archive.
 |projectMember/personAssociate/assocType|listAny|Type: Type of user: associate, external user, system user, anonymous account| x |
 |projectMember/personAssociate/ejUserId|int|Service user ID: The database ID of a Service user|  |
 |projectMember/personAssociate/simultaneousEjUser|bool|Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|projectMember/personAssociate/ejDisplayName|string|Nick name: User's nick name in Service| x |
+|projectMember/personAssociate/ejDisplayName|string|Nickname: User's nickname in Service| x |
 |projectMember/personAssociate/ejStatus|int|Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |projectMember/personAssociate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in| x |
 |projectMember/personAssociate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
@@ -617,7 +624,7 @@ This is the archive Provider for the Selection Project archive.
 |projectMember/correspondingAssociate/assocType|listAny|Type: Type of user: associate, external user, system user, anonymous account| x |
 |projectMember/correspondingAssociate/ejUserId|int|Service user ID: The database ID of a Service user|  |
 |projectMember/correspondingAssociate/simultaneousEjUser|bool|Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|projectMember/correspondingAssociate/ejDisplayName|string|Nick name: User's nick name in Service| x |
+|projectMember/correspondingAssociate/ejDisplayName|string|Nickname: User's nickname in Service| x |
 |projectMember/correspondingAssociate/ejStatus|int|Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |projectMember/correspondingAssociate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in| x |
 |projectMember/correspondingAssociate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
@@ -634,6 +641,10 @@ This is the archive Provider for the Selection Project archive.
 |projectMember/withdrawnStoreConsent|bool|Consent is withdrawn - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.|  |
 |projectMember/hasEmarketingConsent|bool|Consent - E-marketing: The purpose is to gain the explicit consent to communicate electronically (bulk e-mail) on topics related to our products and services. This might include newsletters, invitations and product-related content. The subscription system is used to refine the individual marketing choices this contact makes.|  |
 |projectMember/withdrawnEmarketingConsent|bool|Consent is withdrawn - E-marketing: The purpose is to gain the explicit consent to communicate electronically (bulk e-mail) on topics related to our products and services. This might include newsletters, invitations and product-related content. The subscription system is used to refine the individual marketing choices this contact makes.|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |projectMember/subscription|listAny|Subscription: Subscription for marketing| x |
 |projectMember/legalBaseStore|listAny|Legal basis - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.| x |
 |projectMember/legalBaseEmarketing|listAny|Legal basis - E-marketing: The purpose is to gain the explicit consent to communicate electronically (bulk e-mail) on topics related to our products and services. This might include newsletters, invitations and product-related content. The subscription system is used to refine the individual marketing choices this contact makes.| x |
@@ -641,13 +652,11 @@ This is the archive Provider for the Selection Project archive.
 |projectMember/consentSourceEmarketing|listAny|Source - E-marketing: The purpose is to gain the explicit consent to communicate electronically (bulk e-mail) on topics related to our products and services. This might include newsletters, invitations and product-related content. The subscription system is used to refine the individual marketing choices this contact makes.| x |
 |projectMember/name|stringorPK|Company name| x |
 |projectMember/department|string|Department| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |projectMember/nameDepartment| *None* |Company: Displays the company an activity is linked to| x |
 |projectMember/associateId|associate|Our contact: Displays our contact| x |
 |projectMember/category|listAny|Category| x |
+|projectMember/categoryGroup|listAny|Category group| x |
+|projectMember/companyCategoryRank|int|Category rank| x |
 |projectMember/business|listAny|Business| x |
 |projectMember/country|listAny|Country: This criterion corresponds to the Country field on the Company card.| x |
 |projectMember/countryId|int|Country ID: Country ID| x |
@@ -667,6 +676,7 @@ This is the archive Provider for the Selection Project archive.
 |projectMember/activeErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
 |projectMember/deletedDate|datetime|Deleted date: Deleted date|  |
 |projectMember/mainContact| *None* |Main contact: Main contact for this company| x |
+|projectMember/forceCompany|bool|Dummy: Dummy|  |
 |projectMember/contactPhone/formattedNumber|string|Telephone - Phone: Displays phone number|  |
 |projectMember/contactPhone/description|string|Telephone - Description: Phone number description| x |
 |projectMember/contactFax/formattedNumber|string|Fax - Phone: Displays phone number|  |
@@ -718,7 +728,7 @@ This is the archive Provider for the Selection Project archive.
 |projectMember/contactAssociate/assocType|listAny|Type: Type of user: associate, external user, system user, anonymous account| x |
 |projectMember/contactAssociate/ejUserId|int|Service user ID: The database ID of a Service user|  |
 |projectMember/contactAssociate/simultaneousEjUser|bool|Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|projectMember/contactAssociate/ejDisplayName|string|Nick name: User's nick name in Service| x |
+|projectMember/contactAssociate/ejDisplayName|string|Nickname: User's nickname in Service| x |
 |projectMember/contactAssociate/ejStatus|int|Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |projectMember/contactAssociate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in| x |
 |projectMember/contactAssociate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
@@ -735,6 +745,10 @@ This is the archive Provider for the Selection Project archive.
 |projectMember/contactUdef/SuperOffice:2|string|companylongtext: tooltiplongtext| x |
 |projectMember/contactUdef/SuperOffice:3|int|companynumber| x |
 |projectMember/contactUdef/SuperOffice:4|date|companydate| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |projectMember/contactUdef/SuperOffice:5|unlimitedDate|companyunlimiteddate: tooltipunlimiteddate| x |
 |projectMember/contactUdef/SuperOffice:6|bool|companycheckbox| x |
 |projectMember/contactUdef/SuperOffice:7|listAny|companydropdownlistbox| x |
@@ -745,10 +759,6 @@ This is the archive Provider for the Selection Project archive.
 |projectMember/contactUdef/SuperOffice:12|listAny|Udlist one: Static tooltip for udlist one| x |
 |projectMember/contactUdef/SuperOffice:13|listAny|Udlist two: Static tooltip for udlist two| x |
 |projectMember/contactExtra/x\_contact\_integer|int|Extra Integer: Custom integer field| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |projectMember/contactExtra/x\_contact\_hidden\_integer|int|Extra hidden integer: Custom integer field - hidden| x |
 |projectMember/contactExtra/x\_contact\_default\_integer|int|Extra Default Integer: Custom integer field with default value 123.| x |
 |projectMember/contactExtra/x\_contact\_float|decimal|Extra Float: Custom float field with 3 decimals| x |
@@ -764,7 +774,7 @@ This is the archive Provider for the Selection Project archive.
 |projectMember/contactExtra/x\_contact\_contact\_relation|stringorPK|Extra Company: Custom company relation. Do not show one-to-many relations. Show function buttons| x |
 |projectMember/contactExtra/x\_contact\_request\_relation|stringorPK|Extra Request relation: Request relation on company| x |
 |projectMember/contactExtra/x\_contact\_contact|stringorPK|Extra contact relation: Contact relation on company| x |
-|projectMember/contactExtra/y\_organization/x\_name|string|Organization - Name| x |
+|projectMember/contactExtra/y\_organization/x\_name|string|Organization - Name: Name| x |
 |projectMember/NumberOfActivities|int|Number of activities|  |
 |projectMember/NumberOfActivitiesInPeriod|int|Number of activities in last 90 days|  |
 |projectMember/NumberOfNotCompletedActivities|int|Number of non-completed activities|  |
@@ -816,7 +826,7 @@ This is the archive Provider for the Selection Project archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/ProjectSelection?$select=number,associateId,appointment/isFree,document/saleId,document/registeredBy
+GET /api/v1/archive/ProjectSelection?$select=projectEvent/hasSignOn,appointment/registeredDate,appointment/appointmentPublish/publishedBy,appointment/associate/contactId,projectMember/personCategoryRank
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

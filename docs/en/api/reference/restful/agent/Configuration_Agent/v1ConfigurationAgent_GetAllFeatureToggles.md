@@ -14,6 +14,8 @@ POST /api/v1/Agents/Configuration/GetAllFeatureToggles
 Get all the feature toggles with their state (on/off)
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -61,7 +63,7 @@ OK
 POST /api/v1/Agents/Configuration/GetAllFeatureToggles
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -72,6 +74,6 @@ Content-Type: application/json; charset=utf-8
 
 {
   "1": true,
-  "2": false
+  "2": true
 }
 ```

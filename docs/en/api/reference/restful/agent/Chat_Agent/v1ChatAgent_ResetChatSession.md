@@ -15,6 +15,7 @@ Reset chat session, put it back on the queue for pickup.
 
 
 Used by bots to hand off a session to human
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -106,11 +107,11 @@ OK
 POST /api/v1/Agents/Chat/ResetChatSession
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 426
+  "ChatSessionId": 811
 }
 ```
 
@@ -121,29 +122,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 417,
-  "TopicId": 199,
+  "ChatSessionId": 435,
+  "TopicId": 706,
   "User": null,
   "Person": null,
-  "CustomerAlias": "totam",
-  "CustomerHost": "illum",
-  "CustomerName": "McLaughlin-Kris",
-  "CustomerEmail": "carole@stokes.us",
-  "CustomerPhone": "538.429.5760",
-  "CustomerConsented": true,
-  "CustomerCompanyName": "Swift Inc and Sons",
+  "CustomerAlias": "sequi",
+  "CustomerHost": "consequuntur",
+  "CustomerName": "Kulas LLC",
+  "CustomerEmail": "breana_kuhlman@luettgen.co.uk",
+  "CustomerPhone": "(373)706-2053",
+  "CustomerConsented": false,
+  "CustomerCompanyName": "Gleason Group",
   "Status": "Closed",
-  "FirstMessage": "nobis",
-  "LastMessage": "ut",
-  "WhenRequested": "2016-10-08T03:46:54.3788954+02:00",
-  "WhenStarted": "2017-01-25T03:46:54.3788954+01:00",
-  "WhenEnded": "2018-11-02T03:46:54.3788954+01:00",
-  "WhenIdle": "2014-01-25T03:46:54.3788954+01:00",
-  "WhenFetched": "2000-01-06T03:46:54.3788954+01:00",
-  "SessionKey": "tempora",
-  "InitialQueuePos": 746,
-  "AlertLevel": 873,
-  "Rank": 250,
+  "FirstMessage": "placeat",
+  "LastMessage": "non",
+  "WhenRequested": "2023-06-01T02:30:46.8975935+02:00",
+  "WhenStarted": "2011-11-20T02:30:46.8975935+01:00",
+  "WhenEnded": "2012-12-14T02:30:46.8975935+01:00",
+  "WhenIdle": "2020-09-18T02:30:46.8975935+02:00",
+  "WhenFetched": "2005-08-06T02:30:46.8975935+02:00",
+  "SessionKey": "explicabo",
+  "InitialQueuePos": 803,
+  "AlertLevel": 25,
+  "Rank": 83,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -151,13 +152,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 27,
+  "Rating": 851,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 573
+      "FieldLength": 11
     }
   }
 }

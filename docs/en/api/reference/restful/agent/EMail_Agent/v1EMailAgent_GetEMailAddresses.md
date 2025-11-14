@@ -14,6 +14,9 @@ POST /api/v1/Agents/EMail/GetEMailAddresses
 Get information about one or more email addresses, identified by IDs
 
 
+NsApiSlow threshold: 5000 ms.
+
+
 ## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 
@@ -84,13 +87,13 @@ OK
 POST /api/v1/Agents/EMail/GetEMailAddresses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "EmailIds": [
-    969,
-    276
+    930,
+    569
   ]
 }
 ```
@@ -103,24 +106,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 413,
-    "ContactName": "Luettgen Inc and Sons",
-    "PersonId": 386,
-    "PersonName": "Rice Inc and Sons",
-    "AssociateId": 897,
-    "Address": "dolores",
-    "EmailId": 458,
+    "ContactId": 106,
+    "ContactName": "Kshlerin, Hammes and Emmerich",
+    "PersonId": 552,
+    "PersonName": "Braun LLC",
+    "AssociateId": 29,
+    "Address": "odit",
+    "EmailId": 1002,
     "DuplicatePersonIds": [
-      268,
-      815
+      345,
+      522
     ],
-    "Name": "Goyette-Vandervort",
+    "Name": "Stiedemann LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 507
+        "FieldType": "System.String",
+        "FieldLength": 988
       }
     }
   }

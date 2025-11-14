@@ -14,6 +14,9 @@ POST /api/v1/Agents/EMail/CreateNewPhysicalDocumentFromEmailAttachment
 Save the Email from the server as a document file connected to existing document
 
 
+NsApiSlow threshold: 5000 ms.
+
+
 ## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 
@@ -115,9 +118,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 643,
-  "EmailItemId": 204,
-  "AttachmentId": "neque"
+  "DocumentId": 712,
+  "EmailItemId": 113,
+  "AttachmentId": "quo"
 }
 ```
 
@@ -128,88 +131,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 578,
+  "DocumentId": 545,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "saepe",
-  "Header": "voluptatem",
-  "Name": "Bartoletti, Heathcote and Stanton",
-  "OurRef": "et",
-  "YourRef": "impedit",
-  "CreatedDate": "2017-01-08T03:46:54.7226337+01:00",
-  "UpdatedDate": "2013-11-09T03:46:54.7226337+01:00",
-  "Description": "Configurable context-sensitive forecast",
+  "Attention": "beatae",
+  "Header": "debitis",
+  "Name": "Tillman, Senger and Tromp",
+  "OurRef": "nobis",
+  "YourRef": "aliquid",
+  "CreatedDate": "1998-07-06T02:30:47.2413353+02:00",
+  "UpdatedDate": "2004-04-22T02:30:47.2413353+02:00",
+  "Description": "Intuitive mission-critical architecture",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2013-05-23T03:46:54.7226337+02:00",
-  "ExternalRef": "natus",
+  "Date": "2005-12-21T02:30:47.2413353+01:00",
+  "ExternalRef": "et",
   "Completed": "Completed",
-  "ActiveLinks": 746,
+  "ActiveLinks": 821,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Kozey-Jakubowski",
-      "Id": 163,
-      "Description": "Horizontal client-driven workforce",
-      "ExtraInfo": "hic",
-      "LinkId": 842,
+      "EntityName": "Hessel-Conn",
+      "Id": 420,
+      "Description": "Adaptive asynchronous Graphic Interface",
+      "ExtraInfo": "ab",
+      "LinkId": 194,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 290
+          "FieldLength": 369
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 873,
-  "Snum": 841,
+  "SuggestedDocumentId": 787,
+  "Snum": 417,
   "UserDefinedFields": {
-    "SuperOffice:1": "False",
+    "SuperOffice:1": "Dr. Ursula Cooper Heathcote",
     "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "tempore",
-    "ExtraFields2": "quia"
+    "ExtraFields1": "architecto",
+    "ExtraFields2": "aut"
   },
   "CustomFields": {
-    "CustomFields1": "et",
-    "CustomFields2": "ut"
+    "CustomFields1": "illum",
+    "CustomFields2": "aut"
   },
-  "PublishEventDate": "2007-08-22T03:46:54.7226337+02:00",
-  "PublishTo": "2017-09-15T03:46:54.7226337+02:00",
-  "PublishFrom": "2024-07-07T03:46:54.7226337+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "2019-11-25T02:30:47.2413353+01:00",
+  "PublishTo": "2006-10-29T02:30:47.2413353+01:00",
+  "PublishFrom": "2022-10-16T02:30:47.2413353+02:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 897,
+      "VisibleId": 802,
       "Visibility": "All",
-      "DisplayValue": "ab",
+      "DisplayValue": "nam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 993
+          "FieldLength": 1002
         }
       }
     },
     {
-      "VisibleId": 897,
+      "VisibleId": 802,
       "Visibility": "All",
-      "DisplayValue": "ab",
+      "DisplayValue": "nam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 993
+          "FieldLength": 1002
         }
       }
     }
@@ -219,7 +222,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 598
+      "FieldLength": 945
     }
   }
 }

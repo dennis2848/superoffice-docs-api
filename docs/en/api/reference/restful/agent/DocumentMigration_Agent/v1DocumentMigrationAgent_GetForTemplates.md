@@ -14,6 +14,9 @@ POST /api/v1/Agents/DocumentMigration/GetForTemplates
 Gets a migration summary for all templates stored in CRM.
 
 
+NsApiSlow threshold: 5000 ms.
+
+
 ## Online Restricted: ## The DocumentMigration agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for SuperOffice-internal apps.
 
 
@@ -81,8 +84,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetDocumentPluginId": 555,
-  "IncludeEmails": true
+  "TargetDocumentPluginId": 930,
+  "IncludeEmails": false
 }
 ```
 
@@ -93,11 +96,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumTemplatesOmitted": 917,
-  "NumTemplatesAlreadyMigrated": 483,
+  "NumTemplatesOmitted": 626,
+  "NumTemplatesAlreadyMigrated": 428,
   "TemplateIds": [
-    152,
-    606
+    775,
+    23
   ]
 }
 ```

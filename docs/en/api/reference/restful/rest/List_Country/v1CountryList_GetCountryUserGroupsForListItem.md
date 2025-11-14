@@ -76,7 +76,7 @@ OK
 GET /api/v1/List/Country/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -87,56 +87,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 216,
-    "Name": "Larson Group",
-    "ToolTip": "Similique tenetur non voluptas quo sed.",
-    "Deleted": true,
-    "Rank": 447,
-    "Type": "maiores",
-    "ColorBlock": 630,
-    "IconHint": "odio",
-    "Selected": true,
-    "LastChanged": "2012-09-15T03:47:00.6130405+02:00",
+    "Id": 850,
+    "Name": "Murray-Hoeger",
+    "ToolTip": "Consequatur et sapiente ab quidem earum.",
+    "Deleted": false,
+    "Rank": 506,
+    "Type": "ipsam",
+    "ColorBlock": 861,
+    "IconHint": "repudiandae",
+    "Selected": false,
+    "LastChanged": "2022-02-15T02:30:53.2411414+01:00",
     "ChildItems": [
       {
-        "Id": 843,
-        "Name": "Koepp, Weimann and Muller",
-        "ToolTip": "Odit aut rerum aut nemo sed.",
-        "Deleted": false,
-        "Rank": 986,
-        "Type": "blanditiis",
-        "ColorBlock": 122,
-        "IconHint": "dolorem",
+        "Id": 139,
+        "Name": "Kunze Group",
+        "ToolTip": "Rem fugiat quas.",
+        "Deleted": true,
+        "Rank": 98,
+        "Type": "rerum",
+        "ColorBlock": 866,
+        "IconHint": "earum",
         "Selected": false,
-        "LastChanged": "2000-03-11T03:47:00.6130405+01:00",
+        "LastChanged": "2001-02-17T02:30:53.2411414+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "labore",
-        "StyleHint": "tenetur",
+        "ExtraInfo": "pariatur",
+        "StyleHint": "quisquam",
         "Hidden": false,
-        "FullName": "Prof. Bertha Derrick Mayer III",
+        "FullName": "Melody Abdiel Windler PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 60
+            "FieldLength": 732
           }
         }
       }
     ],
-    "ExtraInfo": "dolorem",
-    "StyleHint": "quis",
+    "ExtraInfo": "nesciunt",
+    "StyleHint": "ea",
     "Hidden": true,
-    "FullName": "Janiya Hettinger",
+    "FullName": "Dawn Carter",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 450
+        "FieldLength": 853
       }
     }
   }

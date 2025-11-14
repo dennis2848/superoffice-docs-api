@@ -18,6 +18,7 @@ NetServer calculates default values on the entity, which is required when creati
 
 
 ## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered. Calls the CRMScript agent service CreateDefaultCRMScriptEntity.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -89,53 +90,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 838,
-  "UniqueIdentifier": "nesciunt",
-  "Name": "Grant-Hauck",
-  "Description": "Networked directional moratorium",
-  "IncludeId": "sed",
-  "AccessKey": "assumenda",
-  "HierarchyId": 423,
-  "Source": "ut",
-  "SourceCode": "porro",
+  "EjscriptId": 190,
+  "UniqueIdentifier": "quia",
+  "Name": "Cremin-Waelchi",
+  "Description": "Realigned zero administration pricing structure",
+  "IncludeId": "voluptatem",
+  "AccessKey": "quia",
+  "HierarchyId": 788,
+  "Source": "temporibus",
+  "SourceCode": "aut",
   "ScriptType": "CRMScript",
-  "HtmlOutput": 908,
+  "HtmlOutput": 410,
   "Includes": [
-    127,
-    120
+    708,
+    242
   ],
   "SourceMaps": [
     {
-      "LineNumberFrom": 41,
-      "LineNumberTo": 546,
-      "Delta": 261,
-      "IncludeId": "sint",
+      "LineNumberFrom": 5,
+      "LineNumberTo": 685,
+      "Delta": 546,
+      "IncludeId": "est",
       "IncludedFrom": [
-        "id",
-        "ipsa"
+        "aut",
+        "ut"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 847
+          "FieldLength": 64
         }
       }
     }
   ],
   "ValidationResult": null,
-  "Registered": "2023-05-11T03:46:59.8943184+02:00",
-  "RegisteredAssociateId": 807,
-  "Updated": "2010-11-11T03:46:59.8943184+01:00",
-  "UpdatedAssociateId": 750,
+  "Registered": "2019-06-25T02:30:52.522416+02:00",
+  "RegisteredAssociateId": 586,
+  "Updated": "2019-02-23T02:30:52.522416+01:00",
+  "UpdatedAssociateId": 455,
   "BlockedVerbs": "BlockAll",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 766
+      "FieldType": "System.Int32",
+      "FieldLength": 861
     }
   }
 }

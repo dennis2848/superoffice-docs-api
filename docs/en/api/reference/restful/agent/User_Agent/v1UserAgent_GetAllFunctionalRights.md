@@ -15,6 +15,7 @@ Get a list of all functional rights for the given type of role.
 
 
 MDO List name = 'FunctionRights', extra='roleType=0' 
+NsApiSlow threshold: 2000 ms.
 
 
 ## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
@@ -93,7 +94,7 @@ OK
 POST /api/v1/Agents/User/GetAllFunctionalRights
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -109,56 +110,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 99,
-    "Name": "Rosenbaum Inc and Sons",
-    "ToolTip": "Qui earum.",
+    "Id": 900,
+    "Name": "Bartell Group",
+    "ToolTip": "Alias debitis nesciunt at.",
     "Deleted": false,
-    "Rank": 355,
-    "Type": "sapiente",
-    "ColorBlock": 9,
-    "IconHint": "porro",
+    "Rank": 662,
+    "Type": "aliquam",
+    "ColorBlock": 334,
+    "IconHint": "quo",
     "Selected": false,
-    "LastChanged": "1999-01-24T03:46:55.581978+01:00",
+    "LastChanged": "2006-08-18T02:30:48.0850579+02:00",
     "ChildItems": [
       {
-        "Id": 802,
-        "Name": "Wolf, Kuhlman and Lang",
-        "ToolTip": "Adipisci officiis fugiat iure sed est deleniti.",
+        "Id": 498,
+        "Name": "Haley, Lakin and Mohr",
+        "ToolTip": "Laudantium cumque mollitia omnis.",
         "Deleted": false,
-        "Rank": 703,
-        "Type": "qui",
-        "ColorBlock": 578,
-        "IconHint": "reiciendis",
-        "Selected": true,
-        "LastChanged": "2005-10-27T03:46:55.581978+02:00",
+        "Rank": 527,
+        "Type": "totam",
+        "ColorBlock": 604,
+        "IconHint": "et",
+        "Selected": false,
+        "LastChanged": "2003-06-27T02:30:48.0850579+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "itaque",
-        "StyleHint": "maxime",
-        "Hidden": true,
-        "FullName": "Mr. Joan Cummerata",
+        "ExtraInfo": "et",
+        "StyleHint": "ad",
+        "Hidden": false,
+        "FullName": "Laisha Hayley Witting V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 31
+            "FieldType": "System.String",
+            "FieldLength": 350
           }
         }
       }
     ],
-    "ExtraInfo": "facilis",
-    "StyleHint": "sit",
+    "ExtraInfo": "consectetur",
+    "StyleHint": "architecto",
     "Hidden": false,
-    "FullName": "Myriam White",
+    "FullName": "Prof. Yolanda Bessie Connelly",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 972
+        "FieldType": "System.String",
+        "FieldLength": 470
       }
     }
   }

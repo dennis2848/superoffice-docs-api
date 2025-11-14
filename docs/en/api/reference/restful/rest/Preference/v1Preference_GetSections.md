@@ -69,7 +69,7 @@ OK
 GET /api/v1/Preference
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -80,50 +80,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 43,
-    "Name": "Wiza LLC",
-    "ToolTip": "Qui alias eius sint ut qui molestias ut.",
+    "Id": 654,
+    "Name": "Hammes Group",
+    "ToolTip": "Magni reiciendis ea laudantium consequatur aperiam non.",
     "Deleted": false,
-    "Rank": 752,
-    "Type": "voluptatem",
+    "Rank": 914,
+    "Type": "nobis",
     "ChildItems": [
       {
-        "Id": 320,
-        "Name": "Marquardt Group",
-        "ToolTip": "Neque sapiente odit.",
-        "Deleted": true,
-        "Rank": 372,
-        "Type": "distinctio",
+        "Id": 203,
+        "Name": "Ratke-Krajcik",
+        "ToolTip": "Ea corporis numquam vel ex.",
+        "Deleted": false,
+        "Rank": 815,
+        "Type": "cum",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "quae",
-        "ColorBlock": 71,
-        "ExtraInfo": "dolorem",
-        "StyleHint": "atque",
-        "FullName": "Mr. Gabe Brown",
+        "IconHint": "exercitationem",
+        "ColorBlock": 185,
+        "ExtraInfo": "amet",
+        "StyleHint": "aperiam",
+        "FullName": "Prof. Dejah Pearl Steuber",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 311
+            "FieldType": "System.Int32",
+            "FieldLength": 542
           }
         }
       }
     ],
-    "IconHint": "nemo",
-    "ColorBlock": 262,
-    "ExtraInfo": "aperiam",
-    "StyleHint": "est",
-    "FullName": "Cullen Hunter Kemmer DDS",
+    "IconHint": "nihil",
+    "ColorBlock": 238,
+    "ExtraInfo": "non",
+    "StyleHint": "minus",
+    "FullName": "Ludwig Kuhlman",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 106
+        "FieldType": "System.String",
+        "FieldLength": 287
       }
     }
   }

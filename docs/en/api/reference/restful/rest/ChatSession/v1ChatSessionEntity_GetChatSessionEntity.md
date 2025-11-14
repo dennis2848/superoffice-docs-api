@@ -15,6 +15,7 @@ Gets a ChatSessionEntity object.
 
 
 Calls the Chat agent service GetChatSessionEntity.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -114,43 +115,43 @@ HTTP/1.1 200 ChatSessionEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 951,
-  "TopicId": 411,
+  "ChatSessionId": 770,
+  "TopicId": 7,
   "User": null,
   "Person": null,
-  "CustomerAlias": "est",
-  "CustomerHost": "beatae",
-  "CustomerName": "Rowe-Klein",
-  "CustomerEmail": "matilde@greenfelder.name",
-  "CustomerPhone": "023-221-4292 x2928",
-  "CustomerConsented": false,
-  "CustomerCompanyName": "Davis Group",
+  "CustomerAlias": "debitis",
+  "CustomerHost": "tenetur",
+  "CustomerName": "Parker Inc and Sons",
+  "CustomerEmail": "theo.nader@schroedercasper.ca",
+  "CustomerPhone": "(594)446-4144",
+  "CustomerConsented": true,
+  "CustomerCompanyName": "Turner, Kiehn and Anderson",
   "Status": "Closed",
-  "FirstMessage": "ab",
-  "LastMessage": "debitis",
-  "WhenRequested": "1999-03-05T03:46:59.7380732+01:00",
-  "WhenStarted": "2017-11-03T03:46:59.7380732+01:00",
-  "WhenEnded": "2008-11-11T03:46:59.7380732+01:00",
-  "WhenIdle": "2014-05-25T03:46:59.7380732+02:00",
-  "WhenFetched": "2000-07-09T03:46:59.7380732+02:00",
-  "SessionKey": "pariatur",
-  "InitialQueuePos": 754,
-  "AlertLevel": 731,
-  "Rank": 217,
+  "FirstMessage": "voluptatum",
+  "LastMessage": "esse",
+  "WhenRequested": "2007-11-04T02:30:52.3661722+01:00",
+  "WhenStarted": "2005-01-05T02:30:52.3661722+01:00",
+  "WhenEnded": "2017-05-09T02:30:52.3661722+02:00",
+  "WhenIdle": "2004-11-09T02:30:52.3661722+01:00",
+  "WhenFetched": "2015-12-27T02:30:52.3661722+01:00",
+  "SessionKey": "quae",
+  "InitialQueuePos": 45,
+  "AlertLevel": 222,
+  "Rank": 238,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": true,
-  "Rating": 551,
+  "ChatbotIsActive": false,
+  "Rating": 665,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 283
+      "FieldLength": 862
     }
   },
   "_Links": {

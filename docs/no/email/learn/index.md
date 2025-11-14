@@ -2,10 +2,14 @@
 uid: help-no-email
 title: E-post
 description: Med SuperOffice CRM kan du velge å lagre og dele e-postene dine på ulike måter som får deg og teamet ditt til å jobbe mer produktivt.
-author: SuperOffice RnD
-date: 02.10.2023
 keywords: e-post, innboks
+author: SuperOffice Product and Engineering
+date: 09.16.2025
+version: 11.3
 content_type: concept
+license: salesessentials, serviceessentials, marketingessentials
+audience: person
+audience_tooltip: SuperOffice CRM
 language: no
 ---
 
@@ -58,18 +62,30 @@ Hvis du vil lagre et e-postvedlegg, men ikke selve e-posten i SuperOffice CRM, k
 * [Arkiver e-postvedlegg med WebTools og Mail Link][9]
 * [Arkiver e-postvedlegg med Gmail Link][5]
 
+## <a id="preview"></a>Forhåndsvis lagret e-post i SuperOffice
+
+Klikk på en e-post i [detaljkortet Aktiviteter][14] for å se detaljene i [sidepanelet][15]. (Aktiver forhåndsvisningen ved å velge den fra rullegardinmenyen øverst på sidepanelet).
+
+* Klikk på et vedlegg for å åpne det.
+* Klikk på <i class="ph ph-dots-three-circle-vertical" aria-label="Oppgavemeny"></i> og velg **Svar** eller **Svar til alle** for å svare på e-posten, eller **Videresend** for å sende den til noen andre.
+
+![E-post forhåndsvisning med uthevede oppgavemenyalternativer -screenshot][img1]
+
 <!-- Referenced links -->
 [1]: ../inbox/learn/index.md
-[2]: ../gmail-link/learn/index.md
-[3]: ../gmail-link/learn/email-archive-incoming.md
-[4]: ../gmail-link/learn/archive-emails-as-activities.md
-[5]: ../gmail-link/learn/archive-attachments.md
-[6]: ../mail-link/learn/index.md
-[7]: ../mail-link/learn/archive-as-activity.md
-[8]: ../mail-link/learn/archive-on-contact.md
-[9]: ../mail-link/learn/archive-attachment.md
+[2]: ../../../../integrations/gmail-link/index.md
+[3]: ../../../../integrations/gmail-link/email-archive-incoming.md
+[4]: ../../../../integrations/gmail-link/archive-emails-as-activities.md
+[5]: ../../../../integrations/gmail-link/archive-attachments.md
+[6]: ../../../../integrations/mail-link/index.md
+[7]: ../../../../integrations/mail-link/archive-as-activity.md
+[8]: ../../../../integrations/mail-link/archive-on-contact.md
+[9]: ../../../../integrations/mail-link/archive-attachment.md
 [11]: ../../contact/learn/send-email.md
 [12]: ../../document/learn/send-as-email.md
 [13]: ../../learn/getting-started/connect-email-doc/index.md
+[14]: ../../learn/section-tabs/activities-tab.md
+[15]: ../../learn/getting-started/main-screen/side-panel.md
 
 <!-- Referenced images -->
+[img1]: ../../../media/loc/en/learn/side-panel-preview-email-tasks.png

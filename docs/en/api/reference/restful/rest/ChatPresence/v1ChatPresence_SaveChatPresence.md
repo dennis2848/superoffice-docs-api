@@ -59,28 +59,28 @@ No Content
 POST /api/v1/Presence/SaveAll
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UserId": 762,
-    "DisplayName": "Heller-Herzog",
-    "OngoingChats": 240,
-    "Present": true,
+    "UserId": 808,
+    "DisplayName": "Lueilwitz Inc and Sons",
+    "OngoingChats": 171,
+    "Present": false,
     "ChatTopics": [
-      467,
-      848
+      306,
+      809
     ]
   },
   {
-    "UserId": 762,
-    "DisplayName": "Heller-Herzog",
-    "OngoingChats": 240,
-    "Present": true,
+    "UserId": 808,
+    "DisplayName": "Lueilwitz Inc and Sons",
+    "OngoingChats": 171,
+    "Present": false,
     "ChatTopics": [
-      467,
-      848
+      306,
+      809
     ]
   }
 ]

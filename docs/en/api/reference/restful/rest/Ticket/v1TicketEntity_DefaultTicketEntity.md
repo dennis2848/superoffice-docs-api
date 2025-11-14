@@ -15,6 +15,7 @@ Set default values into a new TicketEntity.
 
 
 NetServer calculates default values on the entity, which is required when creating/storing a new instance Calls the Ticket agent service CreateDefaultTicketEntity.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -115,7 +116,7 @@ OK
 GET /api/v1/Ticket/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -125,21 +126,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 40,
-  "Title": "eaque",
-  "CreatedAt": "2007-11-04T03:47:00.316185+01:00",
-  "LastChanged": "2024-01-13T03:47:00.316185+01:00",
-  "ReadByOwner": "2021-04-12T03:47:00.316185+02:00",
-  "ReadByCustomer": "2002-06-15T03:47:00.316185+02:00",
-  "FirstReadByOwner": "2019-09-15T03:47:00.316185+02:00",
-  "FirstReadByUser": "2019-04-26T03:47:00.316185+02:00",
-  "Activate": "2010-02-04T03:47:00.316185+01:00",
-  "ClosedAt": "2003-12-01T03:47:00.316185+01:00",
-  "RepliedAt": "2004-10-11T03:47:00.316185+02:00",
-  "AlertTimeout": "2004-08-01T03:47:00.316185+02:00",
-  "Deadline": "2018-12-15T03:47:00.316185+01:00",
+  "TicketId": 396,
+  "Title": "voluptatem",
+  "CreatedAt": "2003-05-22T02:30:52.9442767+02:00",
+  "LastChanged": "2000-11-22T02:30:52.9442767+01:00",
+  "ReadByOwner": "2006-07-09T02:30:52.9442767+02:00",
+  "ReadByCustomer": "2020-12-12T02:30:52.9442767+01:00",
+  "FirstReadByOwner": "2015-03-22T02:30:52.9442767+01:00",
+  "FirstReadByUser": "2019-05-05T02:30:52.9442767+02:00",
+  "Activate": "2009-09-29T02:30:52.9442767+02:00",
+  "ClosedAt": "2012-04-08T02:30:52.9442767+02:00",
+  "RepliedAt": "2011-11-07T02:30:52.9442767+01:00",
+  "AlertTimeout": "2015-12-23T02:30:52.9442767+01:00",
+  "Deadline": "2024-11-21T02:30:52.9442767+01:00",
   "CreatedBy": null,
-  "Author": "voluptates",
+  "Author": "repellendus",
   "OwnedBy": null,
   "Category": null,
   "Slevel": "External",
@@ -150,163 +151,163 @@ Content-Type: application/json; charset=utf-8
   "Person": null,
   "SecondaryPersons": [
     {
-      "Position": "laboriosam",
-      "PersonId": 752,
-      "Mrmrs": "enim",
-      "Firstname": "Lempi",
-      "Lastname": "Little",
-      "MiddleName": "Ebert Group",
-      "Title": "ut",
-      "Description": "Profound static database",
-      "Email": "polly@hagenesbogan.com",
-      "FullName": "Jessika Volkman I",
-      "DirectPhone": "(543)223-3080",
-      "FormalName": "Keebler, Dooley and Crooks",
-      "CountryId": 235,
-      "ContactId": 354,
-      "ContactName": "Schaefer, Hudson and Koepp",
-      "Retired": 289,
-      "Rank": 511,
-      "ActiveInterests": 415,
-      "ContactDepartment": "envisioneer dot-com e-services",
-      "ContactCountryId": 87,
-      "ContactOrgNr": "1550863",
-      "FaxPhone": "362.944.3988 x1614",
-      "MobilePhone": "1-862-969-8558 x452",
-      "ContactPhone": "(657)672-5310 x9912",
-      "AssociateName": "Johnston, Willms and Bradtke",
-      "AssociateId": 709,
+      "Position": "iure",
+      "PersonId": 844,
+      "Mrmrs": "voluptatibus",
+      "Firstname": "Kaitlyn",
+      "Lastname": "Rutherford",
+      "MiddleName": "Kuhic Inc and Sons",
+      "Title": "quo",
+      "Description": "Monitored dynamic instruction set",
+      "Email": "jerod@jewess.us",
+      "FullName": "Rosalyn Auer PhD",
+      "DirectPhone": "675-899-9582 x5632",
+      "FormalName": "Rosenbaum Inc and Sons",
+      "CountryId": 420,
+      "ContactId": 413,
+      "ContactName": "Keebler-Hegmann",
+      "Retired": 881,
+      "Rank": 395,
+      "ActiveInterests": 291,
+      "ContactDepartment": "",
+      "ContactCountryId": 382,
+      "ContactOrgNr": "1233825",
+      "FaxPhone": "(145)640-8959",
+      "MobilePhone": "1-883-729-0382 x2183",
+      "ContactPhone": "1-149-364-7450 x95956",
+      "AssociateName": "Kohler-Zemlak",
+      "AssociateId": 913,
       "UsePersonAddress": false,
-      "ContactFax": "ipsum",
-      "Kanafname": "est",
-      "Kanalname": "corporis",
-      "Post1": "expedita",
-      "Post2": "reprehenderit",
-      "Post3": "ipsum",
-      "EmailName": "felicia.schinner@pfeffer.ca",
-      "ContactFullName": "Ms. Claudia Mabelle Medhurst",
-      "ActiveErpLinks": 633,
-      "TicketPriorityId": 596,
-      "SupportLanguageId": 56,
-      "SupportAssociateId": 108,
+      "ContactFax": "molestiae",
+      "Kanafname": "tempore",
+      "Kanalname": "nisi",
+      "Post1": "ut",
+      "Post2": "nam",
+      "Post3": "mollitia",
+      "EmailName": "dusty@watsica.co.uk",
+      "ContactFullName": "Dr. Quentin Bahringer V",
+      "ActiveErpLinks": 611,
+      "TicketPriorityId": 797,
+      "SupportLanguageId": 639,
+      "SupportAssociateId": 902,
       "CategoryName": "VIP Customer",
-      "PersonNumber": "1437624",
+      "PersonNumber": "359871",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 455
+          "FieldLength": 80
         }
       }
     }
   ],
-  "AlertLevel": 535,
-  "ConnectId": 156,
+  "AlertLevel": 721,
+  "ConnectId": 567,
   "ReadStatus": "Green",
-  "TimeToReply": 226,
-  "RealTimeToReply": 409,
-  "TimeToClose": 973,
-  "RealTimeToClose": 627,
-  "TimeSpentInternally": 965,
-  "TimeSpentExternally": 470,
-  "TimeSpentQueue": 522,
-  "RealTimeSpentInternally": 928,
-  "RealTimeSpentExternally": 442,
-  "RealTimeSpentQueue": 700,
-  "TimeSpent": 297,
-  "HasAttachment": true,
-  "NumReplies": 524,
-  "NumMessages": 131,
-  "FromAddress": "officiis",
+  "TimeToReply": 445,
+  "RealTimeToReply": 974,
+  "TimeToClose": 816,
+  "RealTimeToClose": 880,
+  "TimeSpentInternally": 926,
+  "TimeSpentExternally": 250,
+  "TimeSpentQueue": 143,
+  "RealTimeSpentInternally": 480,
+  "RealTimeSpentExternally": 20,
+  "RealTimeSpentQueue": 201,
+  "TimeSpent": 471,
+  "HasAttachment": false,
+  "NumReplies": 651,
+  "NumMessages": 936,
+  "FromAddress": "atque",
   "Messages": [
     {
-      "TicketMessageId": 388,
-      "CreatedAt": "2001-12-09T03:47:00.316185+01:00",
+      "TicketMessageId": 758,
+      "CreatedAt": "2000-01-01T02:30:52.9442767+01:00",
       "Slevel": "External",
-      "Important": false,
-      "Author": "laudantium",
-      "PersonId": 199,
-      "PersonFullName": "Gordon Effertz",
-      "ContactId": 160,
-      "ContactName": "Cole, Bednar and Ullrich",
+      "Important": true,
+      "Author": "sed",
+      "PersonId": 231,
+      "PersonFullName": "Dr. Regan Carter II",
+      "ContactId": 15,
+      "ContactName": "Crist Group",
       "ContactDepartment": "",
-      "NumAttachments": 719,
-      "EmailHeader": "armand@cartergislason.info",
+      "NumAttachments": 686,
+      "EmailHeader": "rhianna@boscostreich.info",
       "MessageHeaders": [
         {},
         {}
       ],
-      "Language": "eaque",
-      "Sentiment": 780,
-      "SentimentConfidence": 115,
-      "CreatedBy": 685,
-      "ChangedAt": "2019-02-27T03:47:00.316185+01:00",
+      "Language": "occaecati",
+      "Sentiment": 659,
+      "SentimentConfidence": 829,
+      "CreatedBy": 535,
+      "ChangedAt": "2018-04-04T02:30:52.9442767+02:00",
       "Badge": "Comment",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 143
+          "FieldType": "System.String",
+          "FieldLength": 17
         }
       }
     }
   ],
   "Tags": [
     {
-      "Id": 442,
-      "Name": "Heidenreich LLC",
-      "ToolTip": "Unde dolorum unde voluptatem et iusto et.",
+      "Id": 861,
+      "Name": "Bergnaum Group",
+      "ToolTip": "Non doloremque.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 208
+          "FieldType": "System.Int32",
+          "FieldLength": 359
         }
       }
     },
     {
-      "Id": 442,
-      "Name": "Heidenreich LLC",
-      "ToolTip": "Unde dolorum unde voluptatem et iusto et.",
+      "Id": 861,
+      "Name": "Bergnaum Group",
+      "ToolTip": "Non doloremque.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 208
+          "FieldType": "System.Int32",
+          "FieldLength": 359
         }
       }
     }
   ],
-  "Language": "dolorem",
-  "Sentiment": 187,
-  "SentimentConfidence": 613,
-  "SuggestedCategoryId": 1001,
+  "Language": "accusamus",
+  "Sentiment": 273,
+  "SentimentConfidence": 42,
+  "SuggestedCategoryId": 591,
   "SuggestedCategoryName": "VIP Customer",
-  "OrigHumanCategoryId": 356,
-  "IconHint": "consectetur",
+  "OrigHumanCategoryId": 269,
+  "IconHint": "architecto",
   "Sale": null,
   "Project": null,
   "FormSubmission": null,
   "TicketType": null,
-  "ActiveStatusMonitorId": 528,
+  "ActiveStatusMonitorId": 704,
   "ExtraFields": {
-    "ExtraFields1": "dolore",
-    "ExtraFields2": "asperiores"
+    "ExtraFields1": "reiciendis",
+    "ExtraFields2": "voluptatem"
   },
   "CustomFields": {
-    "CustomFields1": "et",
-    "CustomFields2": "veritatis"
+    "CustomFields1": "libero",
+    "CustomFields2": "ab"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 439
+      "FieldType": "System.Int32",
+      "FieldLength": 587
     }
   }
 }

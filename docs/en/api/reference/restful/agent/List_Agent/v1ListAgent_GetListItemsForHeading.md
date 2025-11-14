@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/GetListItemsForHeading
 List of list items that is selected if under this heading
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -89,12 +91,12 @@ OK
 POST /api/v1/Agents/List/GetListItemsForHeading
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 82,
-  "HeadingId": 866
+  "UdListDefinitionId": 750,
+  "HeadingId": 342
 }
 ```
 
@@ -106,56 +108,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 656,
-    "Name": "Bailey, Goyette and Christiansen",
-    "ToolTip": "Natus sequi reiciendis a veniam ut qui nihil.",
+    "Id": 793,
+    "Name": "Langworth, Mertz and Schaefer",
+    "ToolTip": "In soluta.",
     "Deleted": false,
-    "Rank": 972,
-    "Type": "quis",
-    "ColorBlock": 549,
-    "IconHint": "alias",
-    "Selected": false,
-    "LastChanged": "2025-05-07T03:46:54.9569999+02:00",
+    "Rank": 902,
+    "Type": "ducimus",
+    "ColorBlock": 618,
+    "IconHint": "dolores",
+    "Selected": true,
+    "LastChanged": "2018-08-05T02:30:47.4132046+02:00",
     "ChildItems": [
       {
-        "Id": 504,
-        "Name": "Bosco-Runolfsdottir",
-        "ToolTip": "Voluptas quis expedita fugit harum ea ut.",
+        "Id": 786,
+        "Name": "Reinger, Conroy and Braun",
+        "ToolTip": "Consequuntur quis ex non id et porro.",
         "Deleted": false,
-        "Rank": 833,
-        "Type": "sunt",
-        "ColorBlock": 240,
-        "IconHint": "maiores",
-        "Selected": false,
-        "LastChanged": "2010-12-28T03:46:54.9569999+01:00",
+        "Rank": 764,
+        "Type": "corporis",
+        "ColorBlock": 173,
+        "IconHint": "omnis",
+        "Selected": true,
+        "LastChanged": "2015-10-16T02:30:47.4132046+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "facere",
-        "StyleHint": "quibusdam",
+        "ExtraInfo": "et",
+        "StyleHint": "eum",
         "Hidden": true,
-        "FullName": "Dr. Keyshawn Dino Roberts",
+        "FullName": "Kaia Dietrich",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 109
+            "FieldType": "System.String",
+            "FieldLength": 319
           }
         }
       }
     ],
-    "ExtraInfo": "culpa",
-    "StyleHint": "rerum",
+    "ExtraInfo": "doloremque",
+    "StyleHint": "et",
     "Hidden": false,
-    "FullName": "Miss Lexi Marilyne Rutherford",
+    "FullName": "Abdiel Boris Mosciski PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 137
+        "FieldLength": 508
       }
     }
   }

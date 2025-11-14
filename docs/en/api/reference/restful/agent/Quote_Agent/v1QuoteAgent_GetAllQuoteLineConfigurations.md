@@ -14,6 +14,8 @@ POST /api/v1/Agents/Quote/GetAllQuoteLineConfigurations
 Returns all the configuration fields
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -85,21 +87,21 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineConfigurationId": 710,
-    "FieldName": "Schroeder, Roberts and Ledner",
-    "Label": "voluptas",
-    "Tooltip": "nam",
-    "Editable": true,
+    "QuoteLineConfigurationId": 943,
+    "FieldName": "Balistreri Inc and Sons",
+    "Label": "non",
+    "Tooltip": "corporis",
+    "Editable": false,
     "InUse": true,
     "Mandatory": false,
-    "Rank": 836,
-    "RestrictEdit": false,
+    "Rank": 209,
+    "RestrictEdit": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 382
+        "FieldLength": 583
       }
     }
   }

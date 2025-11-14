@@ -15,6 +15,7 @@ Force resync from CRM or given Erp connection to all other connections, using ex
 
 
 Useful on import.
+NsApiSlow threshold: 5000 ms.
 
 
 ## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
@@ -86,15 +87,15 @@ OK
 POST /api/v1/Agents/ErpSync/ForceResyncExternalNoBlankValues
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 395,
+  "ErpConnectionId": 1002,
   "ErpActorType": "Customer",
   "ExternalKeys": [
-    "quia",
-    "aut"
+    "dolores",
+    "vero"
   ]
 }
 ```
@@ -106,10 +107,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "IsOk": false,
-  "UserExplanation": "atque",
-  "TechExplanation": "alias",
-  "ErrorCode": "aut",
+  "IsOk": true,
+  "UserExplanation": "ipsa",
+  "TechExplanation": "ut",
+  "ErrorCode": "in",
   "Changes": null,
   "Status": "Error",
   "TableRight": null,
@@ -117,7 +118,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 759
+      "FieldLength": 570
     }
   }
 }

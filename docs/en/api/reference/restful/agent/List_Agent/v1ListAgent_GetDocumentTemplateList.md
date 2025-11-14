@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/GetDocumentTemplateList
 Gets an array of DocumentTemplate objects.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -81,7 +83,7 @@ OK
 POST /api/v1/Agents/List/GetDocumentTemplateList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -92,23 +94,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentTemplateId": 672,
-    "Name": "Goyette-Hoeger",
-    "Tooltip": "odit",
-    "SaveInDb": 353,
-    "Filename": "est",
-    "DefaultOref": "iste",
+    "DocumentTemplateId": 156,
+    "Name": "Stamm-Klocko",
+    "Tooltip": "quidem",
+    "SaveInDb": 211,
+    "Filename": "perferendis",
+    "DefaultOref": "ratione",
     "RecordType": "Appointment",
-    "Deleted": 301,
+    "Deleted": 151,
     "Direction": "Incoming",
-    "AutoeventId": 622,
+    "AutoeventId": 420,
     "QuoteDocType": "ConfirmationLines",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 342
+        "FieldLength": 199
       }
     }
   }

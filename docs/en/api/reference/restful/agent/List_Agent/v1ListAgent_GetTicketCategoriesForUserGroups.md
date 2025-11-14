@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/GetTicketCategoriesForUserGroups
 Ticket categories for user groups
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -85,13 +87,13 @@ OK
 POST /api/v1/Agents/List/GetTicketCategoriesForUserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "UserGroupIds": [
-    985,
-    289
+    462,
+    970
   ]
 }
 ```
@@ -104,50 +106,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 196,
-    "Name": "Witting, Auer and Hand",
-    "ToolTip": "Omnis inventore quae aut voluptas ducimus error eveniet.",
+    "Id": 795,
+    "Name": "Thompson LLC",
+    "ToolTip": "Voluptates praesentium quo enim quo.",
     "Deleted": false,
-    "Rank": 74,
-    "Type": "qui",
+    "Rank": 112,
+    "Type": "dicta",
     "ChildItems": [
       {
-        "Id": 725,
-        "Name": "Kohler-Bogisich",
-        "ToolTip": "Sed sit et.",
-        "Deleted": false,
-        "Rank": 583,
-        "Type": "consequatur",
+        "Id": 239,
+        "Name": "Hickle, Mann and Williamson",
+        "ToolTip": "Voluptatem qui.",
+        "Deleted": true,
+        "Rank": 771,
+        "Type": "possimus",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "inventore",
-        "ColorBlock": 632,
-        "ExtraInfo": "et",
-        "StyleHint": "adipisci",
-        "FullName": "Woodrow Blanda",
+        "IconHint": "illo",
+        "ColorBlock": 323,
+        "ExtraInfo": "eveniet",
+        "StyleHint": "rerum",
+        "FullName": "Lauren Wisoky Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 372
+            "FieldLength": 267
           }
         }
       }
     ],
-    "IconHint": "qui",
-    "ColorBlock": 66,
-    "ExtraInfo": "asperiores",
-    "StyleHint": "vel",
-    "FullName": "Mrs. Velma Jones",
+    "IconHint": "rerum",
+    "ColorBlock": 251,
+    "ExtraInfo": "facere",
+    "StyleHint": "ipsa",
+    "FullName": "Sam Halvorson DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 840
+        "FieldLength": 823
       }
     }
   }

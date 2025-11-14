@@ -20,6 +20,7 @@ items:
   - SuperOffice.CRM.Webhooks.WebhookManager
   - SuperOffice.CRM.Webhooks.WebhookPayload
   - SuperOffice.CRM.Webhooks.WebhookResponse
+  - SuperOffice.CRM.Webhooks.WebhookSlowDispatcher
   - SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin
   - SuperOffice.CRM.Webhooks.WebhookState
   - SuperOffice.CRM.Webhooks.WebhookTaskInfo
@@ -34,6 +35,13 @@ items:
   assemblies:
   - SoDataBase.BusinessLogic
 references:
+- uid: SuperOffice.CRM.Webhooks.CrmScriptWebhookPlugin
+  commentId: T:SuperOffice.CRM.Webhooks.CrmScriptWebhookPlugin
+  isExternal: true
+  href: SuperOffice.CRM.Webhooks.CrmScriptWebhookPlugin.html
+  name: CrmScriptWebhookPlugin
+  nameWithType: CrmScriptWebhookPlugin
+  fullName: SuperOffice.CRM.Webhooks.CrmScriptWebhookPlugin
 - uid: SuperOffice.CRM.Webhooks.IWebhookTransmitter
   commentId: T:SuperOffice.CRM.Webhooks.IWebhookTransmitter
   parent: SuperOffice.CRM.Webhooks
@@ -71,6 +79,13 @@ references:
   name: WebhookManager
   nameWithType: WebhookManager
   fullName: SuperOffice.CRM.Webhooks.WebhookManager
+- uid: SuperOffice.CRM.Webhooks.WebhookSlowDispatcher
+  commentId: T:SuperOffice.CRM.Webhooks.WebhookSlowDispatcher
+  isExternal: true
+  href: SuperOffice.CRM.Webhooks.WebhookSlowDispatcher.html
+  name: WebhookSlowDispatcher
+  nameWithType: WebhookSlowDispatcher
+  fullName: SuperOffice.CRM.Webhooks.WebhookSlowDispatcher
 - uid: SuperOffice.CRM.Webhooks.WebhookTransmitter
   commentId: T:SuperOffice.CRM.Webhooks.WebhookTransmitter
   isExternal: true
@@ -78,13 +93,6 @@ references:
   name: WebhookTransmitter
   nameWithType: WebhookTransmitter
   fullName: SuperOffice.CRM.Webhooks.WebhookTransmitter
-- uid: SuperOffice.CRM.Webhooks.CrmScriptWebhookPlugin
-  commentId: T:SuperOffice.CRM.Webhooks.CrmScriptWebhookPlugin
-  isExternal: true
-  href: SuperOffice.CRM.Webhooks.CrmScriptWebhookPlugin.html
-  name: CrmScriptWebhookPlugin
-  nameWithType: CrmScriptWebhookPlugin
-  fullName: SuperOffice.CRM.Webhooks.CrmScriptWebhookPlugin
 - uid: SuperOffice.CRM.Webhooks.ChangeType
   commentId: T:SuperOffice.CRM.Webhooks.ChangeType
   parent: SuperOffice.CRM.Webhooks

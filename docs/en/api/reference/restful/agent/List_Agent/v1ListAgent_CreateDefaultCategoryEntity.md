@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/CreateDefaultCategoryEntity
 Loading default values into a new CategoryEntity.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -73,20 +75,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CategoryId": 268,
-  "Name": "Bogan Group",
+  "CategoryId": 63,
+  "Name": "Jacobs Inc and Sons",
   "CategoryGroup": "Customer",
-  "Tooltip": "placeat",
-  "Rank": 77,
-  "EnableLeadStatus": true,
-  "CategoryFamilyId": 228,
+  "Tooltip": "nam",
+  "Rank": 240,
+  "EnableLeadStatus": false,
+  "CategoryFamilyId": 13,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 540
+      "FieldLength": 856
     }
   }
 }

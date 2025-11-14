@@ -15,6 +15,7 @@ Gets the next due date for a sale.
 
 
 The next due date is the next future appointment that is not completed.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -75,7 +76,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 682
+  "SaleId": 661
 }
 ```
 
@@ -85,5 +86,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"2015-10-30T03:46:55.2694888+01:00"
+"2004-02-03T02:30:47.7881925+01:00"
 ```

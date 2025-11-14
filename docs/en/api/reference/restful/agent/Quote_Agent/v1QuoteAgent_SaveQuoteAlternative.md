@@ -14,6 +14,8 @@ POST /api/v1/Agents/Quote/SaveQuoteAlternative
 Updates the existing QuoteAlternative or creates a new QuoteAlternative if the id parameter is 0.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -108,33 +110,33 @@ OK
 POST /api/v1/Agents/Quote/SaveQuoteAlternative
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 841,
-  "ERPQuoteAlternativeKey": "aut",
-  "QuoteVersionId": 378,
-  "Name": "Pagac, Vandervort and Rosenbaum",
-  "Description": "Implemented directional superstructure",
+  "QuoteAlternativeId": 366,
+  "ERPQuoteAlternativeKey": "saepe",
+  "QuoteVersionId": 466,
+  "Name": "Jacobson-Mohr",
+  "Description": "Progressive full-range concept",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 28572.678,
-  "ERPDiscountAmount": 2967.8979999999997,
-  "DiscountPercent": 23570.814,
-  "DiscountAmount": 17863.8,
+  "ERPDiscountPercent": 27996.022,
+  "ERPDiscountAmount": 14228.359999999999,
+  "DiscountPercent": 13570.22,
+  "DiscountAmount": 14065.392,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "ducimus",
-  "VAT": 13347.706,
-  "EarningPercent": 11498.645999999999,
-  "EarningAmount": 14933.51,
-  "SubTotal": 22063.36,
-  "TotalPrice": 29519.146,
-  "ExtraField1": "est",
-  "ExtraField2": "vel",
-  "ExtraField3": "placeat",
-  "ExtraField4": "vero",
-  "ExtraField5": "aliquid"
+  "VATInfo": "nostrum",
+  "VAT": 23179.064,
+  "EarningPercent": 4318.652,
+  "EarningAmount": 19129.935999999998,
+  "SubTotal": 5136.626,
+  "TotalPrice": 26924.194,
+  "ExtraField1": "quia",
+  "ExtraField2": "deleniti",
+  "ExtraField3": "molestias",
+  "ExtraField4": "libero",
+  "ExtraField5": "vel"
 }
 ```
 
@@ -145,35 +147,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 370,
-  "ERPQuoteAlternativeKey": "similique",
-  "QuoteVersionId": 190,
-  "Name": "Pacocha-Rutherford",
-  "Description": "Multi-channelled holistic protocol",
+  "QuoteAlternativeId": 829,
+  "ERPQuoteAlternativeKey": "inventore",
+  "QuoteVersionId": 822,
+  "Name": "Reichel, Nienow and Roob",
+  "Description": "Down-sized foreground benchmark",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 3666.7799999999997,
-  "ERPDiscountAmount": 29575.557999999997,
-  "DiscountPercent": 8082.5859999999993,
-  "DiscountAmount": 26664.072,
+  "ERPDiscountPercent": 18556.414,
+  "ERPDiscountAmount": 14826.954,
+  "DiscountPercent": 31236.577999999998,
+  "DiscountAmount": 17710.234,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "et",
-  "VAT": 17766.646,
-  "EarningPercent": 25194.226,
-  "EarningAmount": 22793.582,
-  "SubTotal": 30434.273999999998,
-  "TotalPrice": 15566.578,
-  "ExtraField1": "iure",
-  "ExtraField2": "quia",
-  "ExtraField3": "est",
-  "ExtraField4": "quae",
-  "ExtraField5": "quis",
+  "VATInfo": "adipisci",
+  "VAT": 24232.088,
+  "EarningPercent": 12548.536,
+  "EarningAmount": 20220.568,
+  "SubTotal": 22696.428,
+  "TotalPrice": 29230.818,
+  "ExtraField1": "voluptatem",
+  "ExtraField2": "a",
+  "ExtraField3": "velit",
+  "ExtraField4": "quaerat",
+  "ExtraField5": "temporibus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 507
+      "FieldType": "System.String",
+      "FieldLength": 789
     }
   }
 }

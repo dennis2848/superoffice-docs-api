@@ -15,6 +15,7 @@ Creates a new ChatTopicEntity
 
 
 Calls the Chat agent service SaveChatTopicEntity.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -137,41 +138,41 @@ OK
 POST /api/v1/ChatTopic
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 428,
-  "Name": "Lesch-Kulas",
-  "Description": "Ameliorated secondary middleware",
-  "WelcomeMessage": "ut",
+  "ChatTopicId": 960,
+  "Name": "Fadel-Hermann",
+  "Description": "Total static knowledge user",
+  "WelcomeMessage": "ea",
   "Language": null,
-  "LastAccept": "1999-05-22T03:46:59.8005718+02:00",
-  "SecondsPrAccept": 821,
-  "AlertRecipient": "ut",
+  "LastAccept": "2008-06-11T02:30:52.413044+02:00",
+  "SecondsPrAccept": 565,
+  "AlertRecipient": "repellendus",
   "AlertTemplate": null,
-  "CollectConsent": true,
-  "BadgeHeader": "architecto",
-  "CustomQueueTextEnabled": true,
-  "CustomQueueText": "ipsa",
-  "WarnNewChatMinutes": 164,
-  "WarnManagerNewChatMinutes": 590,
-  "TicketEnabled": false,
+  "CollectConsent": false,
+  "BadgeHeader": "facilis",
+  "CustomQueueTextEnabled": false,
+  "CustomQueueText": "id",
+  "WarnNewChatMinutes": 484,
+  "WarnManagerNewChatMinutes": 969,
+  "TicketEnabled": true,
   "TicketCategory": null,
   "TicketPriority": null,
-  "OpeningHoursEnabled": false,
+  "OpeningHoursEnabled": true,
   "OpeningHours": null,
   "Widget": null,
-  "BotEnabled": false,
+  "BotEnabled": true,
   "BotSettings": null,
   "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 429,
-  "WarnManagerChatMessageMinutes": 378,
+  "WarnChatMessageMinutes": 137,
+  "WarnManagerChatMessageMinutes": 708,
   "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 861,
-  "OfflineFormQueueLength": 836,
-  "WidgetEnableRating": true,
-  "WidgetRatingText": "sit"
+  "OfflineFormTimeLimit": 306,
+  "OfflineFormQueueLength": 329,
+  "WidgetEnableRating": false,
+  "WidgetRatingText": "eius"
 }
 ```
 
@@ -182,22 +183,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 706,
-  "Name": "Farrell-Hermann",
-  "Description": "Exclusive content-based pricing structure",
-  "WelcomeMessage": "quia",
+  "ChatTopicId": 460,
+  "Name": "Haley-Hilll",
+  "Description": "Sharable client-driven local area network",
+  "WelcomeMessage": "necessitatibus",
   "Language": null,
-  "LastAccept": "2020-05-26T03:46:59.8005718+02:00",
-  "SecondsPrAccept": 545,
-  "AlertRecipient": "quia",
+  "LastAccept": "2024-08-18T02:30:52.413044+02:00",
+  "SecondsPrAccept": 415,
+  "AlertRecipient": "id",
   "AlertTemplate": null,
   "CollectConsent": true,
-  "BadgeHeader": "aut",
-  "CustomQueueTextEnabled": false,
-  "CustomQueueText": "ipsam",
-  "WarnNewChatMinutes": 732,
-  "WarnManagerNewChatMinutes": 28,
-  "TicketEnabled": true,
+  "BadgeHeader": "doloremque",
+  "CustomQueueTextEnabled": true,
+  "CustomQueueText": "consequatur",
+  "WarnNewChatMinutes": 152,
+  "WarnManagerNewChatMinutes": 992,
+  "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
   "OpeningHoursEnabled": false,
@@ -206,18 +207,18 @@ Content-Type: application/json; charset=utf-8
   "BotEnabled": false,
   "BotSettings": null,
   "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 853,
-  "WarnManagerChatMessageMinutes": 878,
-  "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 534,
-  "OfflineFormQueueLength": 550,
-  "WidgetEnableRating": true,
-  "WidgetRatingText": "assumenda",
+  "WarnChatMessageMinutes": 372,
+  "WarnManagerChatMessageMinutes": 480,
+  "UseQueueOfflineForm": true,
+  "OfflineFormTimeLimit": 540,
+  "OfflineFormQueueLength": 696,
+  "WidgetEnableRating": false,
+  "WidgetRatingText": "a",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
+      "FieldType": "System.Int32",
       "FieldLength": 167
     }
   },

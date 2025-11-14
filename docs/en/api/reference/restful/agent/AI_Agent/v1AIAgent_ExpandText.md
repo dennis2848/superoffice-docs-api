@@ -14,6 +14,11 @@ POST /api/v1/Agents/AI/ExpandText
 Generate a longer version of a text
 
 
+NsApiSlow threshold: 2000 ms.
+
+
+## Experimental: ## The AI agent is experimental, subject to change, and not intended for partners.
+
 
 
 
@@ -75,9 +80,9 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Text": "eos",
-  "PercentBigger": 506,
-  "IsoLangCode": "tempore"
+  "Text": "ipsa",
+  "PercentBigger": 763,
+  "IsoLangCode": "dicta"
 }
 ```
 
@@ -87,5 +92,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"est"
+"qui"
 ```

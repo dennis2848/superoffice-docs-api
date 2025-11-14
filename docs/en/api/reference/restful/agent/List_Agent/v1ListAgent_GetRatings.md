@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/GetRatings
 Returns all ratings
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -68,7 +70,7 @@ OK
 POST /api/v1/Agents/List/GetRatings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -79,28 +81,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 843,
-    "Value": "quo",
-    "Tooltip": "aut",
+    "Id": 624,
+    "Value": "officia",
+    "Tooltip": "sed",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 629
+        "FieldLength": 42
       }
     }
   },
   {
-    "Id": 843,
-    "Value": "quo",
-    "Tooltip": "aut",
+    "Id": 624,
+    "Value": "officia",
+    "Tooltip": "sed",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 629
+        "FieldLength": 42
       }
     }
   }

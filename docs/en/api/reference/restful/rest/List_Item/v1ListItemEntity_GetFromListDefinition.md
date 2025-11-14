@@ -67,7 +67,7 @@ OK
 GET /api/v1/List/{udListDefinitionId}/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -77,18 +77,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 537,
-  "Name": "Hilll LLC",
-  "Tooltip": "rerum",
-  "Deleted": false,
-  "UdListDefinitionId": 861,
-  "Rank": 392,
+  "Id": 981,
+  "Name": "Walsh, Hermann and Wisoky",
+  "Tooltip": "est",
+  "Deleted": true,
+  "UdListDefinitionId": 333,
+  "Rank": 714,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 979
+      "FieldType": "System.String",
+      "FieldLength": 765
     }
   }
 }

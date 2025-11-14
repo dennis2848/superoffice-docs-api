@@ -86,7 +86,7 @@ OK
 GET /api/v1/List/DeliveryTerm/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -97,56 +97,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 90,
-    "Name": "Satterfield, Wuckert and Gibson",
-    "ToolTip": "Commodi repellendus saepe laboriosam at.",
+    "Id": 352,
+    "Name": "Jast, Reichel and Heaney",
+    "ToolTip": "Autem saepe eos aut aut.",
     "Deleted": true,
-    "Rank": 429,
-    "Type": "culpa",
-    "ColorBlock": 138,
-    "IconHint": "minima",
+    "Rank": 171,
+    "Type": "fugiat",
+    "ColorBlock": 496,
+    "IconHint": "officiis",
     "Selected": false,
-    "LastChanged": "2007-02-09T03:47:00.6442984+01:00",
+    "LastChanged": "2008-01-06T02:30:53.2723907+01:00",
     "ChildItems": [
       {
-        "Id": 250,
-        "Name": "Quigley, O'Hara and Kassulke",
-        "ToolTip": "Blanditiis iste numquam non exercitationem saepe voluptas iure.",
-        "Deleted": true,
-        "Rank": 446,
-        "Type": "sunt",
-        "ColorBlock": 492,
-        "IconHint": "et",
+        "Id": 286,
+        "Name": "Flatley-Becker",
+        "ToolTip": "Eaque est.",
+        "Deleted": false,
+        "Rank": 639,
+        "Type": "incidunt",
+        "ColorBlock": 801,
+        "IconHint": "in",
         "Selected": false,
-        "LastChanged": "1999-08-11T03:47:00.6442984+02:00",
+        "LastChanged": "2005-02-06T02:30:53.2723907+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "deleniti",
-        "StyleHint": "commodi",
+        "ExtraInfo": "facilis",
+        "StyleHint": "ullam",
         "Hidden": false,
-        "FullName": "Beulah Thompson",
+        "FullName": "Cyrus Reynolds",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 59
+            "FieldType": "System.Int32",
+            "FieldLength": 87
           }
         }
       }
     ],
-    "ExtraInfo": "quo",
-    "StyleHint": "consectetur",
-    "Hidden": true,
-    "FullName": "Barton Walker",
+    "ExtraInfo": "at",
+    "StyleHint": "voluptatem",
+    "Hidden": false,
+    "FullName": "Dusty Gaylord DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 268
+        "FieldType": "System.Int32",
+        "FieldLength": 418
       }
     }
   }

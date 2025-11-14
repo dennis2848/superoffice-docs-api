@@ -94,7 +94,7 @@ PersonEntity found.
 GET /api/v1/Person/UdefLayout/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -104,46 +104,46 @@ HTTP/1.1 200 PersonEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 180,
-  "ColumnId": 149,
-  "FieldDefault": "similique",
-  "FieldHeight": 496,
-  "FieldLabel": "architecto",
-  "FieldLeft": 985,
-  "FieldTop": 447,
+  "UDefFieldId": 582,
+  "ColumnId": 219,
+  "FieldDefault": "iste",
+  "FieldHeight": 751,
+  "FieldLabel": "autem",
+  "FieldLeft": 831,
+  "FieldTop": 195,
   "FieldType": "Checkbox",
-  "FieldWidth": 590,
-  "FormatMask": "sit",
-  "HideLabel": false,
-  "IsIndexed": false,
-  "LabelHeight": 368,
-  "LabelLeft": 297,
-  "LabelTop": 972,
-  "LabelWidth": 357,
-  "LastVersionId": 643,
-  "ListTableId": 79,
-  "IsMandatory": true,
+  "FieldWidth": 560,
+  "FormatMask": "velit",
+  "HideLabel": true,
+  "IsIndexed": true,
+  "LabelHeight": 266,
+  "LabelLeft": 639,
+  "LabelTop": 716,
+  "LabelWidth": 782,
+  "LastVersionId": 420,
+  "ListTableId": 622,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 112,
-  "ProgId": "labore",
-  "IsReadOnly": false,
-  "ShortLabel": "distinctio",
-  "TabOrder": 672,
-  "TextLength": 588,
-  "Tooltip": "omnis",
-  "UdefIdentity": 81,
-  "UDListDefinitionId": 804,
+  "Page1LineNo": 78,
+  "ProgId": "qui",
+  "IsReadOnly": true,
+  "ShortLabel": "ipsum",
+  "TabOrder": 197,
+  "TextLength": 470,
+  "Tooltip": "atque",
+  "UdefIdentity": 192,
+  "UDListDefinitionId": 754,
   "Justification": "Center",
-  "Version": 732,
-  "TemplateVariableName": "Wilderman, Kozey and Nicolas",
-  "HasBeenPublished": true,
-  "MdoListName": "Crona-Prosacco",
+  "Version": 473,
+  "TemplateVariableName": "Weimann, Gusikowski and Glover",
+  "HasBeenPublished": false,
+  "MdoListName": "Howe Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 740
+      "FieldType": "System.String",
+      "FieldLength": 609
     }
   }
 }

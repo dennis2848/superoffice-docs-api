@@ -74,18 +74,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 502,
-    "Name": "Kuhlman, Murphy and Hand",
-    "Tooltip": "minus",
-    "Deleted": true,
-    "Rank": 699,
-    "UdListDefinitionId": 625,
+    "HeadingId": 404,
+    "Name": "Cronin-Feil",
+    "Tooltip": "quaerat",
+    "Deleted": false,
+    "Rank": 369,
+    "UdListDefinitionId": 359,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 888
+        "FieldLength": 154
       }
     }
   }

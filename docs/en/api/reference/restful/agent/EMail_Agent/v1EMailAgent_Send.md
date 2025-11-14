@@ -14,6 +14,9 @@ POST /api/v1/Agents/EMail/Send
 Send the provided e-mails
 
 
+NsApiSlow threshold: 5000 ms.
+
+
 ## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 
@@ -119,18 +122,18 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "Subject": "nobis",
-      "HTMLBody": "omnis",
+      "Subject": "et",
+      "HTMLBody": "excepturi",
       "From": null,
-      "Sent": "2006-08-23T03:46:54.707009+02:00",
-      "Size": 759,
+      "Sent": "2005-05-03T02:30:47.2257111+02:00",
+      "Size": 929,
       "Priority": "High",
       "Flags": "Answered",
-      "MessageID": "temporibus",
-      "PlainBody": "dolor",
+      "MessageID": "nihil",
+      "PlainBody": "dolorem",
       "IsSent": false,
       "EMailSOInfo": null,
-      "ServerId": 369,
+      "ServerId": 49,
       "Attachments": [
         {},
         {}
@@ -139,13 +142,13 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "FolderName": "Tromp, Douglas and Kessler",
-      "EmailItemId": 89,
-      "AccountId": 536,
-      "ReceivedAt": "2002-06-12T03:46:54.707009+02:00",
+      "FolderName": "Brakus LLC",
+      "EmailItemId": 119,
+      "AccountId": 212,
+      "ReceivedAt": "2024-08-27T02:30:47.2257111+02:00",
       "InReplyTo": null,
-      "RepliedAt": "2014-11-15T03:46:54.707009+01:00",
-      "HasCalendarData": true,
+      "RepliedAt": "2010-06-04T02:30:47.2257111+02:00",
+      "HasCalendarData": false,
       "CalMethod": "Add",
       "CalReplyStatus": "Accepted"
     }
@@ -163,97 +166,97 @@ Content-Type: application/json; charset=utf-8
   {
     "To": [
       {
-        "ContactId": 806,
-        "ContactName": "Ernser-Leannon",
-        "PersonId": 886,
-        "PersonName": "Feest-Bogan",
-        "AssociateId": 727,
-        "Address": "non",
-        "EmailId": 559,
+        "ContactId": 160,
+        "ContactName": "Rutherford-Kub",
+        "PersonId": 210,
+        "PersonName": "Howe-Pouros",
+        "AssociateId": 874,
+        "Address": "sint",
+        "EmailId": 848,
         "DuplicatePersonIds": [
-          630,
-          955
+          838,
+          814
         ],
-        "Name": "Miller-Barton",
+        "Name": "Stiedemann, Willms and Connelly",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 67
+            "FieldType": "System.Int32",
+            "FieldLength": 815
           }
         }
       }
     ],
     "Cc": [
       {
-        "ContactId": 634,
-        "ContactName": "Boehm-Ortiz",
-        "PersonId": 728,
-        "PersonName": "Schulist-Kub",
-        "AssociateId": 619,
-        "Address": "natus",
-        "EmailId": 424,
+        "ContactId": 991,
+        "ContactName": "Schmidt-Fritsch",
+        "PersonId": 915,
+        "PersonName": "Hyatt LLC",
+        "AssociateId": 330,
+        "Address": "magni",
+        "EmailId": 307,
         "DuplicatePersonIds": [
-          921,
-          24
+          874,
+          565
         ],
-        "Name": "Cartwright-Klocko",
+        "Name": "Kautzer-Kautzer",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 836
+            "FieldLength": 321
           }
         }
       }
     ],
     "Bcc": [
       {
-        "ContactId": 149,
-        "ContactName": "Swaniawski-Cummings",
-        "PersonId": 597,
-        "PersonName": "Grant, Boyle and Gottlieb",
-        "AssociateId": 522,
-        "Address": "suscipit",
-        "EmailId": 473,
+        "ContactId": 54,
+        "ContactName": "Yundt-Grimes",
+        "PersonId": 440,
+        "PersonName": "Eichmann Group",
+        "AssociateId": 70,
+        "Address": "adipisci",
+        "EmailId": 194,
         "DuplicatePersonIds": [
-          83,
-          563
+          63,
+          903
         ],
-        "Name": "Nolan, Miller and White",
+        "Name": "Stark-Hyatt",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 784
+            "FieldType": "System.Int32",
+            "FieldLength": 632
           }
         }
       }
     ],
-    "Subject": "expedita",
-    "HTMLBody": "repellat",
+    "Subject": "suscipit",
+    "HTMLBody": "aliquam",
     "From": null,
-    "Sent": "2006-05-01T03:46:54.707009+02:00",
-    "Size": 5,
+    "Sent": "2004-10-08T02:30:47.2257111+02:00",
+    "Size": 216,
     "Priority": "High",
     "Flags": "Answered",
-    "MessageID": "itaque",
-    "PlainBody": "quia",
-    "IsSent": false,
+    "MessageID": "reiciendis",
+    "PlainBody": "eveniet",
+    "IsSent": true,
     "EMailSOInfo": null,
-    "ServerId": 289,
+    "ServerId": 624,
     "Attachments": [
       {
-        "Description": "Intuitive stable capacity",
-        "Filename": "atque",
-        "Size": 164,
-        "Type": "eaque",
-        "Encoding": "sit",
-        "Id": "esse",
-        "Disposition": "perferendis",
+        "Description": "Ameliorated zero tolerance focus group",
+        "Filename": "impedit",
+        "Size": 45,
+        "Type": "consequatur",
+        "Encoding": "dolorem",
+        "Id": "consequatur",
+        "Disposition": "assumenda",
         "IsSafeFileExtension": false,
         "Stream": "GIF89....File contents as raw bytes...",
         "TableRight": null,
@@ -261,49 +264,49 @@ Content-Type: application/json; charset=utf-8
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 287
+            "FieldLength": 368
           }
         }
       }
     ],
     "CustomHeaderList": [
       {
-        "Name": "Johnson Inc and Sons",
+        "Name": "Torp, Fahey and Thompson",
         "Values": [
-          "maxime",
-          "alias"
+          "sunt",
+          "est"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 848
+            "FieldLength": 49
           }
         }
       },
       {
-        "Name": "Johnson Inc and Sons",
+        "Name": "Torp, Fahey and Thompson",
         "Values": [
-          "maxime",
-          "alias"
+          "sunt",
+          "est"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 848
+            "FieldLength": 49
           }
         }
       }
     ],
-    "FolderName": "Parker Inc and Sons",
-    "EmailItemId": 446,
-    "AccountId": 134,
-    "ReceivedAt": "2020-01-01T03:46:54.707009+01:00",
+    "FolderName": "Jenkins Inc and Sons",
+    "EmailItemId": 339,
+    "AccountId": 737,
+    "ReceivedAt": "2003-08-09T02:30:47.2257111+02:00",
     "InReplyTo": null,
-    "RepliedAt": "2025-05-30T03:46:54.707009+02:00",
+    "RepliedAt": "2000-12-14T02:30:47.2257111+01:00",
     "HasCalendarData": false,
     "CalMethod": "Add",
     "CalReplyStatus": "Accepted",
@@ -312,7 +315,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 880
+        "FieldLength": 901
       }
     }
   }

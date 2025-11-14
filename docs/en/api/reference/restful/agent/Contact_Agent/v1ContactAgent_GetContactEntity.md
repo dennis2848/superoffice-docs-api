@@ -14,6 +14,8 @@ POST /api/v1/Agents/Contact/GetContactEntity
 Gets a ContactEntity object.
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -27,7 +29,7 @@ Gets a ContactEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Contact/GetContactEntity?contactEntityId=321
+POST /api/v1/Agents/Contact/GetContactEntity?contactEntityId=323
 POST /api/v1/Agents/Contact/GetContactEntity?$select=name,department,category/id
 ```
 
@@ -99,7 +101,7 @@ OK
 | ActiveErpLinks | int32 | The number of active erp links |
 | BounceEmails | array | Email addresses with a positive bounce counter. |
 | Domains | array | Web domains for this contact, ordered in array by rank |
-| InitialUtmParameters | InitalUtmParameters | Initial utm parameters when creating first person, readonly field |
+| UtmParameters | SavedUtmParameters | Utm parameters when creating first person and contact, readonly field |
 | UserDefinedFields | object | Deprecated: Use {SuperOffice.CRM.Services.ContactEntity.CustomFields} instead. Dictionary of user defined field data. The key string is the ProgId of the UdefField, or if the ProgId is empty it is a string of the format "SuperOffice:[UdefFieldIdentity]", e.g. "SuperOffice:1234" |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.ContactEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.ContactEntity.ExtraFields} and UserDefinedFields properties are deprecated in favor of this combined collection. |
@@ -122,157 +124,157 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 822,
-  "Name": "Orn, Emard and Hamill",
-  "Department": "",
-  "OrgNr": "537400",
-  "Number1": "1303059",
-  "Number2": "1097869",
-  "UpdatedDate": "2023-07-28T03:46:54.4882666+02:00",
-  "CreatedDate": "2022-04-08T03:46:54.4882666+02:00",
+  "ContactId": 333,
+  "Name": "Johnson, Witting and Bradtke",
+  "Department": "facilitate transparent communities",
+  "OrgNr": "1054427",
+  "Number1": "803040",
+  "Number2": "1352875",
+  "UpdatedDate": "2013-10-27T02:30:46.9600922+01:00",
+  "CreatedDate": "2016-01-31T02:30:46.9600922+01:00",
   "Emails": [
     {
-      "Value": "nesciunt",
-      "StrippedValue": "omnis",
-      "Description": "Balanced motivating neural-net",
+      "Value": "qui",
+      "StrippedValue": "rerum",
+      "Description": "Face to face attitude-oriented alliance",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 284
+          "FieldType": "System.String",
+          "FieldLength": 687
         }
       }
     },
     {
-      "Value": "nesciunt",
-      "StrippedValue": "omnis",
-      "Description": "Balanced motivating neural-net",
+      "Value": "qui",
+      "StrippedValue": "rerum",
+      "Description": "Face to face attitude-oriented alliance",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 284
+          "FieldType": "System.String",
+          "FieldLength": 687
         }
       }
     }
   ],
   "Interests": [
     {
-      "Id": 221,
-      "Name": "O'Reilly-Blick",
-      "ToolTip": "Quibusdam et eos.",
-      "Deleted": false,
-      "Rank": 26,
-      "Type": "nesciunt",
-      "ColorBlock": 355,
-      "IconHint": "totam",
-      "Selected": true,
-      "LastChanged": "2002-09-17T03:46:54.4882666+02:00",
+      "Id": 59,
+      "Name": "Armstrong, Douglas and Hermiston",
+      "ToolTip": "Consequatur repudiandae aliquid officiis voluptate totam.",
+      "Deleted": true,
+      "Rank": 842,
+      "Type": "similique",
+      "ColorBlock": 903,
+      "IconHint": "aut",
+      "Selected": false,
+      "LastChanged": "2009-04-06T02:30:46.9600922+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "neque",
-      "StyleHint": "officiis",
+      "ExtraInfo": "nesciunt",
+      "StyleHint": "voluptatum",
       "Hidden": true,
-      "FullName": "Lonie Rowe",
+      "FullName": "Miss Amanda Kihn II",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 876
+          "FieldLength": 496
         }
       }
     }
   ],
   "Urls": [
     {
-      "Value": "quo",
-      "StrippedValue": "velit",
-      "Description": "Reduced empowering website",
+      "Value": "necessitatibus",
+      "StrippedValue": "ratione",
+      "Description": "Re-engineered multimedia throughput",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 285
+          "FieldType": "System.Int32",
+          "FieldLength": 300
         }
       }
     },
     {
-      "Value": "quo",
-      "StrippedValue": "velit",
-      "Description": "Reduced empowering website",
+      "Value": "necessitatibus",
+      "StrippedValue": "ratione",
+      "Description": "Re-engineered multimedia throughput",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 285
+          "FieldType": "System.Int32",
+          "FieldLength": 300
         }
       }
     }
   ],
   "Phones": [
     {
-      "Value": "quis",
-      "StrippedValue": "exercitationem",
-      "Description": "Vision-oriented systematic emulation",
+      "Value": "assumenda",
+      "StrippedValue": "quos",
+      "Description": "Pre-emptive hybrid flexibility",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 617
+          "FieldType": "System.Int32",
+          "FieldLength": 718
         }
       }
     },
     {
-      "Value": "quis",
-      "StrippedValue": "exercitationem",
-      "Description": "Vision-oriented systematic emulation",
+      "Value": "assumenda",
+      "StrippedValue": "quos",
+      "Description": "Pre-emptive hybrid flexibility",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 617
+          "FieldType": "System.Int32",
+          "FieldLength": 718
         }
       }
     }
   ],
   "Faxes": [
     {
-      "Value": "est",
-      "StrippedValue": "mollitia",
-      "Description": "Switchable user-facing Graphical User Interface",
+      "Value": "debitis",
+      "StrippedValue": "consectetur",
+      "Description": "Profit-focused even-keeled policy",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 563
+          "FieldLength": 44
         }
       }
     },
     {
-      "Value": "est",
-      "StrippedValue": "mollitia",
-      "Description": "Switchable user-facing Graphical User Interface",
+      "Value": "debitis",
+      "StrippedValue": "consectetur",
+      "Description": "Profit-focused even-keeled policy",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 563
+          "FieldLength": 44
         }
       }
     }
   ],
-  "Description": "Horizontal tangible core",
+  "Description": "De-engineered systematic support",
   "UpdatedBy": null,
   "CreatedBy": null,
   "Associate": null,
@@ -281,102 +283,102 @@ Content-Type: application/json; charset=utf-8
   "Country": null,
   "Persons": [
     {
-      "Position": "eius",
-      "PersonId": 623,
-      "Mrmrs": "dolores",
-      "Firstname": "Vincenza",
-      "Lastname": "Bartoletti",
-      "MiddleName": "Parisian-Renner",
-      "Title": "optio",
-      "Description": "Progressive stable framework",
-      "Email": "estel@mcglynngraham.com",
-      "FullName": "Dr. Madisen Rath Sr.",
-      "DirectPhone": "427-368-0369",
-      "FormalName": "Hammes-Heathcote",
-      "CountryId": 447,
-      "ContactId": 100,
-      "ContactName": "Morissette-Greenfelder",
-      "Retired": 751,
-      "Rank": 530,
-      "ActiveInterests": 737,
+      "Position": "accusamus",
+      "PersonId": 467,
+      "Mrmrs": "occaecati",
+      "Firstname": "Tommie",
+      "Lastname": "Kuhic",
+      "MiddleName": "Frami Inc and Sons",
+      "Title": "dolores",
+      "Description": "Persevering coherent interface",
+      "Email": "brenna@nader.info",
+      "FullName": "Orlando Adams IV",
+      "DirectPhone": "1-203-133-8290",
+      "FormalName": "Pacocha-Jones",
+      "CountryId": 437,
+      "ContactId": 323,
+      "ContactName": "Kassulke-Braun",
+      "Retired": 281,
+      "Rank": 31,
+      "ActiveInterests": 951,
       "ContactDepartment": "",
-      "ContactCountryId": 778,
-      "ContactOrgNr": "879849",
-      "FaxPhone": "987.214.0921 x55676",
-      "MobilePhone": "1-001-643-0755",
-      "ContactPhone": "1-478-570-4506 x156",
-      "AssociateName": "Hintz, Jast and Maggio",
-      "AssociateId": 777,
-      "UsePersonAddress": true,
-      "ContactFax": "sit",
-      "Kanafname": "dolores",
-      "Kanalname": "quia",
-      "Post1": "recusandae",
-      "Post2": "occaecati",
-      "Post3": "sit",
-      "EmailName": "sunny.schoen@paucek.name",
-      "ContactFullName": "Esmeralda Ziemann",
-      "ActiveErpLinks": 57,
-      "TicketPriorityId": 84,
-      "SupportLanguageId": 269,
-      "SupportAssociateId": 991,
+      "ContactCountryId": 310,
+      "ContactOrgNr": "587689",
+      "FaxPhone": "432-326-4334",
+      "MobilePhone": "564-792-0974 x11731",
+      "ContactPhone": "(988)349-4169",
+      "AssociateName": "Ankunding, Harber and Hermann",
+      "AssociateId": 898,
+      "UsePersonAddress": false,
+      "ContactFax": "doloribus",
+      "Kanafname": "ullam",
+      "Kanalname": "aspernatur",
+      "Post1": "et",
+      "Post2": "laborum",
+      "Post3": "saepe",
+      "EmailName": "nicolas@kirlinthiel.co.uk",
+      "ContactFullName": "Melyna Bosco",
+      "ActiveErpLinks": 907,
+      "TicketPriorityId": 302,
+      "SupportLanguageId": 638,
+      "SupportAssociateId": 597,
       "CategoryName": "VIP Customer",
-      "PersonNumber": "672413",
+      "PersonNumber": "977922",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 783
+          "FieldType": "System.String",
+          "FieldLength": 884
         }
       }
     }
   ],
   "NoMailing": true,
-  "Kananame": "error",
+  "Kananame": "labore",
   "Xstop": false,
-  "ActiveInterests": 625,
-  "GroupId": 614,
-  "ActiveStatusMonitorId": 202,
+  "ActiveInterests": 438,
+  "GroupId": 328,
+  "ActiveStatusMonitorId": 473,
   "SupportAssociate": null,
   "TicketPriority": null,
   "CustomerLanguage": null,
-  "Deleted": 548,
-  "DbiAgentId": 623,
-  "DbiLastSyncronized": "2005-08-12T03:46:54.5038911+02:00",
-  "DbiKey": "incidunt",
-  "DbiLastModified": "2025-05-07T03:46:54.5038911+02:00",
+  "Deleted": 289,
+  "DbiAgentId": 384,
+  "DbiLastSyncronized": "2005-12-17T02:30:46.9600922+01:00",
+  "DbiKey": "qui",
+  "DbiLastModified": "2012-06-23T02:30:46.9600922+02:00",
   "SupportPerson": null,
   "Address": null,
-  "Source": 199,
-  "ActiveErpLinks": 353,
+  "Source": 677,
+  "ActiveErpLinks": 776,
   "BounceEmails": [
-    "hugh@russel.info",
-    "bobby.ondricka@strosinconroy.com"
+    "zetta.wilkinson@hackett.info",
+    "herminia@durgan.biz"
   ],
   "Domains": [
-    "non",
-    "praesentium"
+    "commodi",
+    "vel"
   ],
-  "InitialUtmParameters": null,
+  "UtmParameters": null,
   "UserDefinedFields": {
     "SuperOffice:1": "False",
-    "SuperOffice:2": "Sheila Corwin"
+    "SuperOffice:2": "Prof. Peter Tracy West"
   },
   "ExtraFields": {
-    "ExtraFields1": "vero",
-    "ExtraFields2": "impedit"
+    "ExtraFields1": "explicabo",
+    "ExtraFields2": "sit"
   },
   "CustomFields": {
-    "CustomFields1": "facere",
-    "CustomFields2": "exercitationem"
+    "CustomFields1": "sunt",
+    "CustomFields2": "deserunt"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 95
+      "FieldType": "System.String",
+      "FieldLength": 827
     }
   }
 }

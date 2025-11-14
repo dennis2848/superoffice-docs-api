@@ -14,6 +14,8 @@ POST /api/v1/Agents/Contact/GetPreviewEnrichContact
 Get a contact from its ID
 
 
+NsApiSlow threshold: 1000 ms.
+
 
 
 
@@ -87,7 +89,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EnrichId": "maxime"
+  "EnrichId": "velit"
 }
 ```
 
@@ -98,17 +100,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 269,
-  "Name": "Ruecker-Mann",
+  "ContactId": 709,
+  "Name": "Metz-Keebler",
   "Department": "",
-  "CountryId": 940,
-  "Number2": "1401007",
-  "DirectPhone": "1-352-073-2561 x67812",
+  "CountryId": 22,
+  "Number2": "724616",
+  "DirectPhone": "(546)428-9640",
   "URL": "http://www.example.com/",
-  "EmailAddress": "lenna@yundt.us",
+  "EmailAddress": "diamond.ohara@okon.biz",
   "BusinessName": "Information Technology",
   "CategoryName": "VIP Customer",
-  "AssociateFullName": "Celia Katelyn White II",
+  "AssociateFullName": "Simone Jacobi",
   "Address": null
 }
 ```

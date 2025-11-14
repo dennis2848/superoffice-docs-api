@@ -14,6 +14,8 @@ POST /api/v1/Agents/Targets/CreateDefaultTargetAssignmentForCompany
 Returns a default target assignment for the owner company.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -74,7 +76,7 @@ OK
 POST /api/v1/Agents/Targets/CreateDefaultTargetAssignmentForCompany
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -84,24 +86,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetAssignmentInfoId": 755,
+  "TargetAssignmentInfoId": 189,
   "Values": [
-    498,
-    585
+    299,
+    304
   ],
   "Locked": false,
   "TargetAssociate": null,
   "TargetContact": null,
   "TargetUserGroup": null,
   "Currency": null,
-  "DimensionListItem": 288,
-  "DimensionListItemDisplayName": "VonRueden LLC",
+  "DimensionListItem": 794,
+  "DimensionListItemDisplayName": "Turcotte-Kuphal",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 35
+      "FieldLength": 601
     }
   }
 }

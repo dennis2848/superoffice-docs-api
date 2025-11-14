@@ -14,6 +14,8 @@ POST /api/v1/Agents/Appointment/CreateDefaultReOpenAppointment
 A re-open appointment should be created as a reminder to re-open the sale at a certain date with information regarding the stalled sale.
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -137,7 +139,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 650
+  "SaleId": 838
 }
 ```
 
@@ -152,121 +154,121 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2024-04-27T03:46:54.2226522+02:00",
-  "AppointmentId": 68,
-  "Description": "Stand-alone methodical structure",
-  "Title": "quam",
-  "Agenda": "sint",
-  "InternalNotes": "quia",
-  "StartDate": "2004-10-16T03:46:54.2226522+02:00",
-  "EndDate": "2018-06-24T03:46:54.2226522+02:00",
+  "CreatedDate": "2009-05-17T02:30:46.6788509+02:00",
+  "AppointmentId": 800,
+  "Description": "Enterprise-wide bifurcated success",
+  "Title": "possimus",
+  "Agenda": "quia",
+  "InternalNotes": "modi",
+  "StartDate": "2024-09-08T02:30:46.6788509+02:00",
+  "EndDate": "2021-07-11T02:30:46.6788509+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 294,
+  "MotherId": 303,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2011-07-25T03:46:54.2226522+02:00",
+  "UpdatedDate": "2006-07-28T02:30:46.6944758+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 14,
+  "ActiveLinks": 314,
   "Links": [
     {
-      "EntityName": "Lynch, Thiel and Hagenes",
-      "Id": 27,
-      "Description": "Team-oriented 6th generation synergy",
-      "ExtraInfo": "ipsam",
-      "LinkId": 496,
+      "EntityName": "Weissnat, Metz and Franecki",
+      "Id": 414,
+      "Description": "Re-engineered content-based leverage",
+      "ExtraInfo": "in",
+      "LinkId": 479,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 980
+          "FieldLength": 568
         }
       }
     }
   ],
-  "AlarmLeadTime": "ullam",
+  "AlarmLeadTime": "nemo",
   "HasAlarm": false,
-  "ColorIndex": 577,
+  "ColorIndex": 379,
   "IsFree": false,
   "IsAlldayEvent": true,
-  "LagTime": "ea",
-  "LeadTime": "molestias",
-  "Location": "ut",
-  "RejectCounter": 82,
+  "LagTime": "non",
+  "LeadTime": "ut",
+  "Location": "et",
+  "RejectCounter": 128,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 40,
-      "PersonId": 563,
-      "ContactId": 982,
-      "EmailId": 338,
+      "AssociateId": 329,
+      "PersonId": 331,
+      "ContactId": 780,
+      "EmailId": 352,
       "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "josiah.heidenreich@schuster.info",
-      "Description": "Devolved mission-critical moratorium"
+      "EmailAddress": "ansley.gutmann@stokes.com",
+      "Description": "Quality-focused discrete application"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2012-09-15T03:46:54.2226522+02:00",
+  "ActiveDate": "2018-10-29T02:30:46.6944758+01:00",
   "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 911,
+  "PreferredTZLocation": 625,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 557,
+  "SuggestedAppointmentId": 731,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "OwnedExternally": "Google",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "quaerat",
+  "CentralserviceVideomeetId": "itaque",
   "UserDefinedFields": {
-    "SuperOffice:1": "Raphael Kerluke",
-    "SuperOffice:2": "False"
+    "SuperOffice:1": "1021366605",
+    "SuperOffice:2": "Adele Johns"
   },
   "ExtraFields": {
-    "ExtraFields1": "commodi",
-    "ExtraFields2": "modi"
+    "ExtraFields1": "cum",
+    "ExtraFields2": "sunt"
   },
   "CustomFields": {
-    "CustomFields1": "omnis",
-    "CustomFields2": "consequuntur"
+    "CustomFields1": "sed",
+    "CustomFields2": "ab"
   },
-  "PublishEventDate": "2004-04-24T03:46:54.2226522+02:00",
-  "PublishTo": "2011-11-05T03:46:54.2226522+01:00",
-  "PublishFrom": "2006-02-24T03:46:54.2226522+01:00",
-  "IsPublished": false,
+  "PublishEventDate": "2023-05-15T02:30:46.6944758+02:00",
+  "PublishTo": "2024-08-19T02:30:46.6944758+02:00",
+  "PublishFrom": "1999-05-18T02:30:46.6944758+02:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 939,
+      "VisibleId": 861,
       "Visibility": "All",
-      "DisplayValue": "fugit",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 487
+          "FieldLength": 815
         }
       }
     },
     {
-      "VisibleId": 939,
+      "VisibleId": 861,
       "Visibility": "All",
-      "DisplayValue": "fugit",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 487
+          "FieldLength": 815
         }
       }
     }
@@ -276,7 +278,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 355
+      "FieldLength": 567
     }
   }
 }

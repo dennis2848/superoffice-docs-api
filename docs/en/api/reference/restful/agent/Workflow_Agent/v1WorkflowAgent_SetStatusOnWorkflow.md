@@ -14,6 +14,8 @@ POST /api/v1/Agents/Workflow/SetStatusOnWorkflow
 Set status on workflow, Run or pause flow
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -70,11 +72,11 @@ OK
 POST /api/v1/Agents/Workflow/SetStatusOnWorkflow
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailFlowId": 923,
+  "EmailFlowId": 399,
   "Status": "None"
 }
 ```

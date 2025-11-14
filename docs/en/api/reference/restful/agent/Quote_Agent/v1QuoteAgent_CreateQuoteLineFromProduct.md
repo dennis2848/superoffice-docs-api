@@ -14,6 +14,8 @@ POST /api/v1/Agents/Quote/CreateQuoteLineFromProduct
 Create a quoteline based on a product.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -127,7 +129,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 849,
+  "QuoteAlternativeId": 883,
   "Product": null
 }
 ```
@@ -139,88 +141,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 711,
-  "ERPQuoteLineKey": "consequatur",
-  "QuoteAlternativeId": 935,
-  "ERPProductKey": "ex",
+  "QuoteLineId": 840,
+  "ERPQuoteLineKey": "harum",
+  "QuoteAlternativeId": 210,
+  "ERPProductKey": "dolore",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 30029.987999999998,
-  "DeliveredQuantity": 20740.811999999998,
-  "Rank": 786,
-  "Name": "Ernser-Reinger",
-  "Description": "Compatible system-worthy parallelism",
-  "Code": "iste",
-  "QuantityUnit": "corporis",
-  "PriceUnit": "rerum",
-  "ItemNumber": "787906",
+  "Quantity": 21593.26,
+  "DeliveredQuantity": 1999.492,
+  "Rank": 888,
+  "Name": "Daugherty, Blanda and Kassulke",
+  "Description": "Adaptive contextually-based leverage",
+  "Code": "aut",
+  "QuantityUnit": "cupiditate",
+  "PriceUnit": "error",
+  "ItemNumber": "1095536",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "laboriosam",
-  "ProductTypeKey": "dolor",
-  "Supplier": "in",
-  "SupplierCode": "accusamus",
+  "ProductFamilyKey": "cupiditate",
+  "ProductTypeKey": "placeat",
+  "Supplier": "optio",
+  "SupplierCode": "et",
   "Thumbnail": "voluptatem",
-  "VATInfo": "sed",
-  "VAT": 19117.399999999998,
-  "UnitCost": 25006.185999999998,
-  "UnitMinimumPrice": 6246.062,
-  "UnitListPrice": 19603.17,
+  "VATInfo": "occaecati",
+  "VAT": 28083.773999999998,
+  "UnitCost": 27610.54,
+  "UnitMinimumPrice": 19600.036,
+  "UnitListPrice": 14287.905999999999,
   "ExtraInfo": [
     {
-      "Name": "Medhurst, Carroll and Pollich",
-      "Value": "labore",
+      "Name": "Hirthe-Larkin",
+      "Value": "nihil",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 94
+          "FieldLength": 276
         }
       }
     },
     {
-      "Name": "Medhurst, Carroll and Pollich",
-      "Value": "labore",
+      "Name": "Hirthe-Larkin",
+      "Value": "nihil",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 94
+          "FieldLength": 276
         }
       }
     }
   ],
-  "RawExtraInfo": "adipisci",
+  "RawExtraInfo": "voluptatum",
   "IsSubscription": false,
-  "SubscriptionUnit": "sunt",
-  "SubscriptionQuantity": 573.52199999999993,
-  "SubscriptionStart": "2013-06-13T03:46:55.2226157+02:00",
-  "ERPDiscountPercent": 3763.9339999999997,
-  "ERPDiscountAmount": 14635.779999999999,
-  "DiscountPercent": 26425.888,
-  "DiscountAmount": 23063.106,
+  "SubscriptionUnit": "suscipit",
+  "SubscriptionQuantity": 2974.1659999999997,
+  "SubscriptionStart": "2011-09-28T02:30:47.7413192+02:00",
+  "ERPDiscountPercent": 18333.899999999998,
+  "ERPDiscountAmount": 16378.284,
+  "DiscountPercent": 20051.332,
+  "DiscountAmount": 28958.16,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 18728.784,
-  "EarningAmount": 5493.902,
-  "SubTotal": 29290.363999999998,
-  "TotalPrice": 9226.496,
-  "Rights": "a",
-  "Rule": "id",
-  "ExtraField1": "consequatur",
-  "ExtraField2": "consectetur",
-  "ExtraField3": "est",
-  "ExtraField4": "eos",
-  "ExtraField5": "sunt",
+  "EarningPercent": 27692.023999999998,
+  "EarningAmount": 1250.466,
+  "SubTotal": 16252.923999999999,
+  "TotalPrice": 24959.176,
+  "Rights": "rerum",
+  "Rule": "voluptatem",
+  "ExtraField1": "ab",
+  "ExtraField2": "sit",
+  "ExtraField3": "sit",
+  "ExtraField4": "ut",
+  "ExtraField5": "distinctio",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 974
+      "FieldLength": 389
     }
   }
 }

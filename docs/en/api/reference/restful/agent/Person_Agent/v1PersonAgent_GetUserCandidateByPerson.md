@@ -14,6 +14,8 @@ POST /api/v1/Agents/Person/GetUserCandidateByPerson
 Gets user candidate linked to a person.
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -81,7 +83,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 119
+  "PersonId": 694
 }
 ```
 
@@ -92,16 +94,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UserCandidateId": 277,
-  "PersonId": 760,
-  "SecretKey": "ratione",
-  "SecretValue": "ipsum",
+  "UserCandidateId": 857,
+  "PersonId": 297,
+  "SecretKey": "ut",
+  "SecretValue": "iure",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 325
+      "FieldType": "System.String",
+      "FieldLength": 817
     }
   }
 }

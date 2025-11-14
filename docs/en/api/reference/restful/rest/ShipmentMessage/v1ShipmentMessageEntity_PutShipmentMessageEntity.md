@@ -14,6 +14,8 @@ PUT /api/v1/ShipmentMessage/{id}
 Updates the existing ShipmentMessageEntity
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -120,31 +122,31 @@ ShipmentMessageEntity updated.
 PUT /api/v1/ShipmentMessage/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 79,
-  "PlainMessage": "esse",
-  "HtmlMessage": "corporis",
-  "SmsMessage": "pariatur",
-  "Description": "Distributed bifurcated strategy",
-  "Subject": "in",
-  "FolderId": 605,
-  "HeaderField": "vel",
-  "Design": "at",
+  "ShipmentMessageId": 775,
+  "PlainMessage": "commodi",
+  "HtmlMessage": "exercitationem",
+  "SmsMessage": "dolores",
+  "Description": "Synergized static standardization",
+  "Subject": "aliquam",
+  "FolderId": 610,
+  "HeaderField": "qui",
+  "Design": "eius",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
   "InlineImages": false,
-  "LongDescription": "Quality-focused client-driven encoding",
-  "AccessKey": "quia",
-  "DocumentMessage": 851,
-  "Registered": "2017-07-11T03:47:00.3005605+02:00",
-  "RegisteredAssociateId": 896,
-  "Updated": "2010-11-07T03:47:00.3005605+01:00",
-  "UpdatedAssociateId": 568,
-  "UpdatedCount": 420
+  "LongDescription": "Reactive demand-driven methodology",
+  "AccessKey": "officia",
+  "DocumentMessage": 196,
+  "Registered": "2023-08-24T02:30:52.9442767+02:00",
+  "RegisteredAssociateId": 462,
+  "Updated": "1999-04-11T02:30:52.9442767+02:00",
+  "UpdatedAssociateId": 207,
+  "UpdatedCount": 883
 }
 ```
 
@@ -155,33 +157,33 @@ HTTP/1.1 200 ShipmentMessageEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 828,
-  "PlainMessage": "facilis",
-  "HtmlMessage": "sint",
-  "SmsMessage": "voluptatem",
-  "Description": "Pre-emptive system-worthy capability",
-  "Subject": "ut",
-  "FolderId": 896,
-  "HeaderField": "eos",
-  "Design": "harum",
+  "ShipmentMessageId": 843,
+  "PlainMessage": "velit",
+  "HtmlMessage": "ab",
+  "SmsMessage": "cumque",
+  "Description": "Organized methodical interface",
+  "Subject": "neque",
+  "FolderId": 531,
+  "HeaderField": "nostrum",
+  "Design": "sint",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
   "InlineImages": true,
-  "LongDescription": "Front-line user-facing policy",
-  "AccessKey": "assumenda",
-  "DocumentMessage": 528,
-  "Registered": "2005-01-11T03:47:00.3005605+01:00",
-  "RegisteredAssociateId": 126,
-  "Updated": "2014-03-25T03:47:00.3005605+01:00",
-  "UpdatedAssociateId": 45,
-  "UpdatedCount": 343,
+  "LongDescription": "Automated discrete capability",
+  "AccessKey": "possimus",
+  "DocumentMessage": 502,
+  "Registered": "2001-08-06T02:30:52.9442767+02:00",
+  "RegisteredAssociateId": 687,
+  "Updated": "2000-05-07T02:30:52.9442767+02:00",
+  "UpdatedAssociateId": 214,
+  "UpdatedCount": 48,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 153
+      "FieldLength": 748
     }
   },
   "_Links": {

@@ -15,6 +15,7 @@ Gets the all PriceLists in all currencies, including those inactive.
 
 
 Will return empty array if there is no PriceList available.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -90,8 +91,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 603,
-  "CurrencyId": 644
+  "QuoteConnectionId": 607,
+  "CurrencyId": 762
 }
 ```
 
@@ -103,22 +104,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 66,
-    "ERPPriceListKey": "quos",
-    "QuoteConnectionId": 822,
-    "Name": "Rath-Yundt",
-    "Description": "Synergistic static database",
-    "Currency": "perferendis",
-    "CurrencyName": "Morissette-Cartwright",
-    "ValidFrom": "2008-11-07T03:46:55.2226157+01:00",
-    "ValidTo": "2017-08-29T03:46:55.2226157+02:00",
-    "IsActive": false,
+    "PriceListId": 375,
+    "ERPPriceListKey": "labore",
+    "QuoteConnectionId": 60,
+    "Name": "Jaskolski, Feest and Rau",
+    "Description": "Networked holistic process improvement",
+    "Currency": "est",
+    "CurrencyName": "Stiedemann Group",
+    "ValidFrom": "2005-04-17T02:30:47.7413192+02:00",
+    "ValidTo": "2017-06-09T02:30:47.7413192+02:00",
+    "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 127
+        "FieldLength": 495
       }
     }
   }

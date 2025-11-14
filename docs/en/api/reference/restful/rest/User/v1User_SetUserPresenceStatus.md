@@ -75,7 +75,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Status": "StatusDeleted",
-  "Message": "repellendus"
+  "Message": "nisi"
 }
 ```
 
@@ -87,6 +87,6 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Status": "StatusDeleted",
-  "Message": "et"
+  "Message": "laborum"
 }
 ```

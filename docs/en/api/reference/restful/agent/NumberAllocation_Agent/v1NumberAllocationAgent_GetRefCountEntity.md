@@ -14,6 +14,8 @@ POST /api/v1/Agents/NumberAllocation/GetRefCountEntity
 Gets a RefCountEntity object.
 
 
+NsApiSlow threshold: 1000 ms.
+
 
 
 
@@ -27,7 +29,7 @@ Gets a RefCountEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/NumberAllocation/GetRefCountEntity?refCountEntityId=129
+POST /api/v1/Agents/NumberAllocation/GetRefCountEntity?refCountEntityId=732
 POST /api/v1/Agents/NumberAllocation/GetRefCountEntity?$select=name,department,category/id
 ```
 
@@ -78,7 +80,7 @@ OK
 POST /api/v1/Agents/NumberAllocation/GetRefCountEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -88,40 +90,40 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RefCountsId": 636,
-  "Field": "dolorem",
-  "RecordId": 864,
+  "RefCountsId": 714,
+  "Field": "ut",
+  "RecordId": 901,
   "SuggestedRecords": [
     {
-      "Id": 144,
-      "Name": "Von, Fisher and Stokes",
-      "ToolTip": "Dolor laboriosam aut.",
-      "Deleted": true,
-      "Rank": 675,
-      "Type": "aliquid",
+      "Id": 314,
+      "Name": "Balistreri LLC",
+      "ToolTip": "Voluptatum enim enim inventore.",
+      "Deleted": false,
+      "Rank": 174,
+      "Type": "rerum",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "itaque",
-      "ColorBlock": 781,
-      "ExtraInfo": "vitae",
-      "StyleHint": "eligendi",
-      "FullName": "Tia Crooks",
+      "IconHint": "esse",
+      "ColorBlock": 114,
+      "ExtraInfo": "voluptate",
+      "StyleHint": "in",
+      "FullName": "Adelle Beer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 716
+          "FieldLength": 514
         }
       }
     }
   ],
-  "CurrentValue": 938,
-  "TravelPrefix": 535,
-  "SatPrefix": 565,
-  "Allocate": false,
+  "CurrentValue": 855,
+  "TravelPrefix": 648,
+  "SatPrefix": 786,
+  "Allocate": true,
   "Unique": false,
   "ReadOnly": false,
   "AllowBlank": false,
@@ -129,8 +131,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 983
+      "FieldType": "System.Int32",
+      "FieldLength": 64
     }
   }
 }

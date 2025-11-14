@@ -1,17 +1,20 @@
----
+﻿---
 uid: help-sv-mailing-settings
 title: Ange inställningar för utskick
 description: Ange inställningar för utskick
 keywords: Marknadsföring, inställningar
-author: SuperOffice RnD
-date: 02.12.2024
-version: 10
+author: SuperOffice Product and Engineering
+date: 09.26.2025
+version: 10.5
 content_type: howto
-language: sv
-deployment: onsite
+category: marketing
+topic: mailing
+license: marketingessentials
 audience: person
 audience_tooltip: SuperOffice Marketing
 redirect_from: /sv/marketing/mailing/learn/admin/define-settings-for-mailings
+language: sv
+deployment: onsite
 ---
 
 # Ange inställningar för utskick
@@ -54,6 +57,6 @@ Testa inställningarna genom att ange ett mobiltelefonnummer och lite text, och 
 Information om ytterligare moduler finns i [SMS][1].
 
 <!-- Referenced links -->
-[1]: ../../../admin/preferences/learn/global-preferences/sms.md
+[1]: ../../../../en/marketing/sms/it/set-up.md
 
 <!-- Referenced images -->

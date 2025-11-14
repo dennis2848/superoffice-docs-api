@@ -15,6 +15,7 @@ Create a new role entity of the specified role type.
 
 
 The role type cannot be changed after the entity is created.
+NsApiSlow threshold: 2000 ms.
 
 
 ## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
@@ -90,7 +91,7 @@ OK
 POST /api/v1/Agents/User/CreateDefaultRoleEntityFromType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -105,24 +106,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 910,
-  "Name": "Cremin-Parisian",
-  "Tooltip": "consectetur",
+  "RoleId": 834,
+  "Name": "Jacobi-Armstrong",
+  "Tooltip": "vel",
   "RoleType": "Anonymous",
-  "Deleted": 758,
-  "Rank": 637,
-  "Created": "2006-08-26T03:46:55.581978+02:00",
-  "UseCategories": 979,
+  "Deleted": 854,
+  "Rank": 329,
+  "Created": "2022-05-26T02:30:48.0850579+02:00",
+  "UseCategories": 387,
   "CreatedBy": null,
-  "Updated": "2022-12-23T03:46:55.581978+01:00",
+  "Updated": "2025-02-07T02:30:48.0850579+01:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 612
+      "FieldType": "System.String",
+      "FieldLength": 903
     }
   }
 }

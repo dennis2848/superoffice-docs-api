@@ -15,6 +15,7 @@ Update existing project members.
 
 
 Not creating new (only projectmember_id &gt; 0 accepted)
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -68,34 +69,36 @@ No Content
 POST /api/v1/Agents/Project/UpdateProjectMembers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 791,
+  "ProjectId": 276,
   "ProjectMembers": [
     {
-      "ProjectmemberId": 395,
-      "ContactId": 553,
-      "ProjectId": 337,
-      "ContactName": "Gleichner Group",
+      "ProjectmemberId": 53,
+      "ContactId": 791,
+      "ProjectId": 546,
+      "ContactName": "Jenkins, Hettinger and Breitenberg",
       "ContactDepartment": "",
-      "ProjectName": "Murray, Beer and Sanford",
-      "EmailId": 957,
-      "EmailAddress": "kailee.watsica@beahan.info",
-      "CountryId": 832,
-      "Firstname": "Nils",
-      "MiddleName": "Daniel-Beer",
-      "Lastname": "Leuschke",
-      "PersonId": 805,
-      "Mrmrs": "delectus",
-      "ProjectMemberTypeName": "Kuhn LLC",
-      "Phone": "831.490.0324 x171",
-      "PhoneId": 373,
-      "ProjectMemberTypeId": 763,
-      "EmailAddressName": "fabiola@huel.info",
-      "Comment": "autem",
-      "FullName": "Marcus Bashirian"
+      "ProjectName": "Welch LLC",
+      "EmailId": 659,
+      "EmailAddress": "kelsi.mertz@lubowitz.us",
+      "CountryId": 311,
+      "Firstname": "Loy",
+      "MiddleName": "Cummings, Kassulke and Kilback",
+      "Lastname": "Kuhic",
+      "PersonId": 843,
+      "Mrmrs": "voluptatem",
+      "ProjectMemberTypeName": "Rodriguez, Schmitt and Denesik",
+      "Phone": "(426)520-5273 x357",
+      "PhoneId": 362,
+      "ProjectMemberTypeId": 373,
+      "EmailAddressName": "chelsie@tillman.com",
+      "Comment": "quaerat",
+      "FullName": "Kaden Prohaska",
+      "Registered": "2020-07-08T02:30:47.6944454+02:00",
+      "Updated": "2009-08-07T02:30:47.6944454+02:00"
     }
   ]
 }

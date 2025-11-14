@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/DeleteTicketPriorityEntity
 Deletes the TicketPriorityEntity
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -26,7 +28,7 @@ Deletes the TicketPriorityEntity
 | ticketPriorityEntityId | int32 | **Required** The identity of the TicketPriorityEntity |
 
 ```http
-POST /api/v1/Agents/List/DeleteTicketPriorityEntity?ticketPriorityEntityId=524
+POST /api/v1/Agents/List/DeleteTicketPriorityEntity?ticketPriorityEntityId=120
 ```
 
 

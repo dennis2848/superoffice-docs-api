@@ -80,21 +80,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 564,
-  "Name": "Boyle Group",
-  "CreatedDate": "2013-04-26T03:47:00.0349452+02:00",
-  "UpdatedDate": "2010-10-24T03:47:00.0349452+02:00",
-  "AssociateFullName": "Adonis Weimann",
-  "CreatedBy": "rem",
-  "UpdatedBy": "enim",
-  "DeviceIdentifier": "sit",
-  "ForeignAppId": 659,
+  "ForeignDeviceId": 179,
+  "Name": "Hauck Inc and Sons",
+  "CreatedDate": "2012-05-14T02:30:52.6474115+02:00",
+  "UpdatedDate": "2018-06-24T02:30:52.6474115+02:00",
+  "AssociateFullName": "Katarina Daugherty",
+  "CreatedBy": "sint",
+  "UpdatedBy": "et",
+  "DeviceIdentifier": "distinctio",
+  "ForeignAppId": 205,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 672
+      "FieldType": "System.String",
+      "FieldLength": 282
     }
   }
 }

@@ -15,6 +15,7 @@ Save an array of restrictions for later use as search criteria (including as dyn
 
 
 Then, return the same result as a call to GetCriteriaInformation would have done. The purpose is to encapsulate saving and updating of a GUI in one round trip.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -83,39 +84,39 @@ OK
 POST /api/v1/Agents/Find/SaveRestrictionsAndGetCriteriaInformation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "impedit",
-  "ProviderName": "Stokes-Senger",
-  "StorageKey": "ad",
+  "StorageType": "et",
+  "ProviderName": "Schaefer-Grant",
+  "StorageKey": "id",
   "Restrictions": [
     {
-      "Name": "Nienow Group",
-      "Operator": "dolor",
+      "Name": "Cremin LLC",
+      "Operator": "tempore",
       "Values": [
-        "cupiditate",
-        "omnis"
+        "incidunt",
+        "ipsum"
       ],
       "DisplayValues": [
-        "at",
-        "doloremque"
+        "et",
+        "reprehenderit"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 23,
+      "InterParenthesis": 430,
       "InterOperator": "And",
-      "UniqueHash": 285
+      "UniqueHash": 975
     }
   ],
   "StaticColumns": [
-    "cupiditate",
-    "eius"
+    "hic",
+    "at"
   ]
 }
 ```
@@ -129,81 +130,81 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Pacocha, Schuppe and McKenzie",
-      "Operator": "natus",
+      "Name": "Haag Group",
+      "Operator": "nihil",
       "Values": [
-        "necessitatibus",
-        "deserunt"
+        "aliquid",
+        "suscipit"
       ],
       "DisplayValues": [
-        "culpa",
-        "voluptates"
+        "deleniti",
+        "qui"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 117,
+      "InterParenthesis": 717,
       "InterOperator": "And",
-      "UniqueHash": 977
+      "UniqueHash": 99
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Crist, Watsica and Hyatt",
-      "DisplayTooltip": "qui",
-      "DisplayType": "mollitia",
+      "DisplayName": "Jacobson, Auer and Borer",
+      "DisplayTooltip": "enim",
+      "DisplayType": "omnis",
       "CanOrderBy": false,
-      "Name": "Frami-Goyette",
+      "Name": "Gaylord, Roberts and Halvorson",
       "CanRestrictBy": false,
-      "RestrictionType": "nemo",
-      "RestrictionListName": "Legros, Hills and Wilkinson",
+      "RestrictionType": "possimus",
+      "RestrictionListName": "Emmerich, Lehner and Spencer",
       "IsVisible": false,
-      "ExtraInfo": "est",
-      "Width": "magni",
-      "IconHint": "id",
-      "HeadingIconHint": "amet"
+      "ExtraInfo": "dicta",
+      "Width": "voluptatem",
+      "IconHint": "vitae",
+      "HeadingIconHint": "est"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Crist Group",
-      "PrimaryKey": 568,
+      "EntityName": "Hickle-Denesik",
+      "PrimaryKey": 477,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "laborum",
-          "TooltipHint": "voluptate",
-          "LinkHint": "provident"
+          "DisplayValue": "ea",
+          "TooltipHint": "fuga",
+          "LinkHint": "quasi"
         }
       },
-      "LinkHint": "earum",
-      "StyleHint": "qui",
+      "LinkHint": "autem",
+      "StyleHint": "beatae",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 504
+          "FieldLength": 506
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Klocko Inc and Sons",
-      "Description": "Expanded encompassing local area network",
-      "Rank": 945,
+      "Name": "Emmerich LLC",
+      "Description": "Monitored mobile concept",
+      "Rank": 875,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Klocko Inc and Sons",
-      "Description": "Expanded encompassing local area network",
-      "Rank": 945,
+      "Name": "Emmerich LLC",
+      "Description": "Monitored mobile concept",
+      "Rank": 875,
       "Restrictions": [
         {},
         {}
@@ -215,7 +216,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 267
+      "FieldLength": 13
     }
   }
 }

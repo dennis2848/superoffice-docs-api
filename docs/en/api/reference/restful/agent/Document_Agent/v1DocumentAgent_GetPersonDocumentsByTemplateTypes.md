@@ -14,7 +14,8 @@ POST /api/v1/Agents/Document/GetPersonDocumentsByTemplateTypes
 Method that returns a specified number of document appointments within a time range, filtered by document template types.
 
 
-The document appointments belong to the person specified.
+The document appointments belong to the person specified. 
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -104,14 +105,14 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 884,
-  "IncludeProjectDocuments": false,
-  "StartTime": "2003-03-27T03:46:54.6288867+01:00",
-  "EndTime": "2012-11-19T03:46:54.6288867+01:00",
-  "Count": 145,
+  "PersonId": 329,
+  "IncludeProjectDocuments": true,
+  "StartTime": "2001-08-20T02:30:47.0850878+02:00",
+  "EndTime": "2013-12-09T02:30:47.0850878+01:00",
+  "Count": 844,
   "DocumentTemplateIds": [
-    955,
-    767
+    960,
+    752
   ]
 }
 ```
@@ -124,32 +125,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 20,
-    "Attention": "pariatur",
-    "Header": "laborum",
-    "Name": "Morar, Huels and Roob",
-    "OurRef": "alias",
-    "YourRef": "pariatur",
-    "Description": "Fully-configurable executive circuit",
-    "DocumentTemplate": "est",
-    "IsPublished": true,
-    "PersonId": 863,
-    "PersonFullName": "Stuart Gleason",
-    "AssociateFullName": "Lucienne Wolf",
-    "ContactId": 635,
-    "ContactName": "West-Huel",
-    "ProjectId": 665,
-    "ProjectName": "Kunze-Spinka",
-    "AssociateId": 450,
-    "Snum": 888,
-    "SaleId": 504,
-    "SaleName": "Sipes-Larkin",
+    "DocumentId": 983,
+    "Attention": "sint",
+    "Header": "quas",
+    "Name": "Marvin-Franecki",
+    "OurRef": "quia",
+    "YourRef": "laboriosam",
+    "Description": "Mandatory intangible conglomeration",
+    "DocumentTemplate": "sed",
+    "IsPublished": false,
+    "PersonId": 74,
+    "PersonFullName": "Hermina Gerhold",
+    "AssociateFullName": "Marlee Schultz",
+    "ContactId": 516,
+    "ContactName": "Lind-Blick",
+    "ProjectId": 233,
+    "ProjectName": "Reynolds-Brekke",
+    "AssociateId": 372,
+    "Snum": 760,
+    "SaleId": 700,
+    "SaleName": "Gerlach LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 393
+        "FieldType": "System.Int32",
+        "FieldLength": 215
       }
     }
   }

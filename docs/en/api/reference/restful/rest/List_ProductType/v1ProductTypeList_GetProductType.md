@@ -66,7 +66,7 @@ OK
 GET /api/v1/List/ProductType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -76,18 +76,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 91,
-  "Name": "Fahey Group",
-  "Tooltip": "facere",
+  "Id": 728,
+  "Name": "Schamberger, Kessler and Lebsack",
+  "Tooltip": "labore",
   "Deleted": false,
-  "UdListDefinitionId": 106,
-  "Rank": 80,
+  "UdListDefinitionId": 542,
+  "Rank": 866,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 418
+      "FieldLength": 101
     }
   }
 }

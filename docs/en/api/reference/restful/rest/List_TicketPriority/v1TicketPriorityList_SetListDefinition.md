@@ -89,16 +89,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 915,
-  "Name": "Ondricka, Orn and Bosco",
-  "Tooltip": "aut",
-  "Deleted": true,
-  "Rank": 1001,
-  "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "temporibus",
-  "InUseByUserDefinedFields": true
+  "Id": 238,
+  "Name": "Jakubowski Inc and Sons",
+  "Tooltip": "consequatur",
+  "Deleted": false,
+  "Rank": 444,
+  "IsCustomList": true,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "illum",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -109,22 +109,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 563,
-  "Name": "Sanford-King",
-  "Tooltip": "sed",
+  "Id": 418,
+  "Name": "Roob, Orn and Bergnaum",
+  "Tooltip": "dicta",
   "Deleted": false,
-  "Rank": 561,
-  "IsCustomList": false,
+  "Rank": 556,
+  "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "sed",
+  "UseGroupsAndHeadings": false,
+  "ListType": "vitae",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 601
+      "FieldLength": 327
     }
   }
 }

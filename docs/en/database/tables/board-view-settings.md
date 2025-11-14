@@ -8,7 +8,7 @@ content_type: reference
 envir: onsite, online
 ---
 
-# board\_view\_settings Table (495)
+# board\_view\_settings Table (497)
 
 Settings for selection board view
 

@@ -14,6 +14,8 @@ POST /api/v1/Agents/Find/GetRestrictionGroup
 Return the restriction group with given rank or a blank carrier.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -79,15 +81,15 @@ OK
 POST /api/v1/Agents/Find/GetRestrictionGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "illum",
-  "ProviderName": "Mosciski, Friesen and Wisozk",
-  "StorageKey": "ut",
-  "Rank": 293,
-  "Context": "aut"
+  "StorageType": "et",
+  "ProviderName": "DuBuque, Goyette and Dibbert",
+  "StorageKey": "unde",
+  "Rank": 838,
+  "Context": "cupiditate"
 }
 ```
 
@@ -98,30 +100,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Dare Group",
-  "Description": "User-friendly analyzing intranet",
-  "Rank": 162,
+  "Name": "Friesen-Bernhard",
+  "Description": "Vision-oriented intangible framework",
+  "Rank": 732,
   "Restrictions": [
     {
-      "Name": "Ortiz-Walter",
-      "Operator": "rerum",
+      "Name": "Klein, Osinski and Abernathy",
+      "Operator": "ad",
       "Values": [
-        "temporibus",
-        "non"
+        "voluptas",
+        "officia"
       ],
       "DisplayValues": [
-        "rerum",
-        "consequatur"
+        "molestias",
+        "ad"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 447,
+      "InterParenthesis": 287,
       "InterOperator": "And",
-      "UniqueHash": 677
+      "UniqueHash": 207
     }
   ]
 }

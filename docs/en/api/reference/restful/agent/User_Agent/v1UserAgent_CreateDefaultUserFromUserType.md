@@ -15,6 +15,7 @@ Create default User providing the user type.
 
 
 Only System and Anonymous users can be created without an exsisting person.  Use CreateDefaultUserFromUserTypeAndPersonId to create internal (i.e. Employee) or external users.
+NsApiSlow threshold: 2000 ms.
 
 
 ## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
@@ -103,7 +104,7 @@ OK
 POST /api/v1/Agents/User/CreateDefaultUserFromUserType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -118,14 +119,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 469,
-  "Name": "Stroman Group",
-  "Rank": 127,
-  "Tooltip": "culpa",
+  "AssociateId": 672,
+  "Name": "Abshire Inc and Sons",
+  "Rank": 610,
+  "Tooltip": "natus",
   "LicenseOwners": [
     {
-      "Name": "Considine LLC",
-      "Description": "Inverse full-range portal",
+      "Name": "Ruecker Group",
+      "Description": "Cross-group fresh-thinking emulation",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -138,14 +139,14 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 749
+          "FieldType": "System.String",
+          "FieldLength": 21
         }
       }
     },
     {
-      "Name": "Considine LLC",
-      "Description": "Inverse full-range portal",
+      "Name": "Ruecker Group",
+      "Description": "Cross-group fresh-thinking emulation",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -158,8 +159,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 749
+          "FieldType": "System.String",
+          "FieldLength": 21
         }
       }
     }
@@ -168,110 +169,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "asperiores",
-      "Tooltip": "doloremque",
-      "Id": 636,
-      "Rank": 375,
+      "Value": "qui",
+      "Tooltip": "fuga",
+      "Id": 419,
+      "Rank": 221,
       "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 470
+          "FieldType": "System.String",
+          "FieldLength": 648
         }
       }
     }
   ],
   "Person": null,
-  "Deleted": false,
-  "Lastlogin": "2023-11-12T03:46:55.6132266+01:00",
-  "Lastlogout": "2007-01-21T03:46:55.6132266+01:00",
-  "EjUserId": 74,
-  "RequestSignature": "et",
+  "Deleted": true,
+  "Lastlogin": "2021-11-28T02:30:48.1319312+01:00",
+  "Lastlogout": "2003-05-19T02:30:48.1319312+02:00",
+  "EjUserId": 357,
+  "RequestSignature": "explicabo",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": true,
   "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "quisquam",
-      "DisplayValue": "nemo",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 351
-        }
-      }
-    },
-    {
-      "Type": null,
-      "Value": "quisquam",
-      "DisplayValue": "nemo",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 351
-        }
-      }
-    }
-  ],
-  "UserName": "Gibson, Hammes and Sipes",
-  "TicketCategories": [
-    {
-      "Id": 435,
-      "Name": "Ledner LLC",
-      "ToolTip": "Voluptatum quis dolorem eum sed sed ullam.",
-      "Deleted": false,
-      "Rank": 823,
-      "Type": "ea",
-      "ChildItems": [
-        {},
-        {}
-      ],
-      "IconHint": "voluptate",
-      "ColorBlock": 130,
-      "ExtraInfo": "omnis",
-      "StyleHint": "necessitatibus",
-      "FullName": "Dr. Mayra Favian Mosciski",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 879
-        }
-      }
-    }
-  ],
-  "NickName": "Hane, Roob and Hermiston",
-  "WaitingForApproval": true,
-  "ExtraFields": {
-    "ExtraFields1": "voluptatem",
-    "ExtraFields2": "est"
-  },
-  "CustomFields": {
-    "CustomFields1": "inventore",
-    "CustomFields2": "voluptatem"
-  },
-  "PostSaveCommands": [
-    {
-      "Name": "Gorczany, Senger and Lynch",
-      "DisplayName": "Keebler, Streich and Nolan",
-      "Description": "Cross-platform interactive complexity",
-      "ToolTip": "Ullam quibusdam recusandae eum dicta vero sint.",
-      "Actions": "Implicit",
-      "ActionData": "perferendis",
+      "Value": "iure",
+      "DisplayValue": "quas",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 301
+          "FieldLength": 216
+        }
+      }
+    },
+    {
+      "Type": null,
+      "Value": "iure",
+      "DisplayValue": "quas",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 216
+        }
+      }
+    }
+  ],
+  "UserName": "Roob, Bartoletti and Sauer",
+  "TicketCategories": [
+    {
+      "Id": 340,
+      "Name": "Eichmann-Mayert",
+      "ToolTip": "Asperiores facere nulla natus.",
+      "Deleted": true,
+      "Rank": 175,
+      "Type": "nulla",
+      "ChildItems": [
+        {},
+        {}
+      ],
+      "IconHint": "recusandae",
+      "ColorBlock": 774,
+      "ExtraInfo": "perferendis",
+      "StyleHint": "repellat",
+      "FullName": "Elmer Cummings",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 934
+        }
+      }
+    }
+  ],
+  "NickName": "Howe, Hansen and Lehner",
+  "WaitingForApproval": false,
+  "ExtraFields": {
+    "ExtraFields1": "sequi",
+    "ExtraFields2": "et"
+  },
+  "CustomFields": {
+    "CustomFields1": "accusamus",
+    "CustomFields2": "magni"
+  },
+  "PostSaveCommands": [
+    {
+      "Name": "Skiles-Schiller",
+      "DisplayName": "Kunde Inc and Sons",
+      "Description": "Re-contextualized content-based structure",
+      "ToolTip": "Quia necessitatibus est dolore autem.",
+      "Actions": "Implicit",
+      "ActionData": "perspiciatis",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 729
         }
       }
     }
@@ -281,7 +282,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 783
+      "FieldLength": 631
     }
   }
 }

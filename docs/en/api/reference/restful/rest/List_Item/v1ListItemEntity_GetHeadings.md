@@ -31,7 +31,7 @@ Gets a selectable MDO list of the headings for this list item
 | showDeleted | bool |  Set to true if you want deleted headings |
 
 ```http
-GET /api/v1/List/{udListDefinitionId}/Items/{listItemId}/Headings?showDeleted=False
+GET /api/v1/List/{udListDefinitionId}/Items/{listItemId}/Headings?showDeleted=True
 ```
 
 
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 799,
-    "Name": "Purdy-Cummings",
-    "ToolTip": "Exercitationem dolorem et iste ex sed.",
+    "Id": 476,
+    "Name": "Pouros-Greenfelder",
+    "ToolTip": "Ex accusamus dolor laborum eum consequatur iste assumenda.",
     "Deleted": false,
-    "Rank": 467,
-    "Type": "aliquam",
-    "ColorBlock": 128,
-    "IconHint": "tenetur",
+    "Rank": 764,
+    "Type": "quis",
+    "ColorBlock": 92,
+    "IconHint": "est",
     "Selected": false,
-    "LastChanged": "2011-09-14T03:47:00.5661762+02:00",
+    "LastChanged": "2005-06-21T02:30:53.194268+02:00",
     "ChildItems": [
       {
-        "Id": 411,
-        "Name": "Kris Group",
-        "ToolTip": "Odio architecto aut qui molestiae.",
-        "Deleted": true,
-        "Rank": 765,
-        "Type": "similique",
-        "ColorBlock": 206,
-        "IconHint": "rerum",
-        "Selected": true,
-        "LastChanged": "2005-06-01T03:47:00.5661762+02:00",
+        "Id": 459,
+        "Name": "Douglas, Schmeler and Nikolaus",
+        "ToolTip": "Non quia est cum.",
+        "Deleted": false,
+        "Rank": 261,
+        "Type": "cum",
+        "ColorBlock": 71,
+        "IconHint": "architecto",
+        "Selected": false,
+        "LastChanged": "2005-11-19T02:30:53.194268+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolores",
-        "StyleHint": "neque",
+        "ExtraInfo": "sit",
+        "StyleHint": "aut",
         "Hidden": false,
-        "FullName": "Tristin O'Kon",
+        "FullName": "Ms. Uriah Mittie Hamill I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 666
+            "FieldLength": 957
           }
         }
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "animi",
-    "Hidden": false,
-    "FullName": "Mr. Lucio Amalia Nienow",
+    "ExtraInfo": "dignissimos",
+    "StyleHint": "consequatur",
+    "Hidden": true,
+    "FullName": "Miss Jodie Rau V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 513
+        "FieldType": "System.Int32",
+        "FieldLength": 421
       }
     }
   }

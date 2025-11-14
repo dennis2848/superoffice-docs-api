@@ -15,6 +15,7 @@ Change the new serial number for the installation.
 
 
 Requests a new license from SuperLicense, checks if change is authorized.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -78,12 +79,12 @@ OK
 POST /api/v1/Agents/License/ChangeSerialNumber
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "NewCompanyName": "Schimmel-Morissette",
-  "NewSerialNumber": "1058544"
+  "NewCompanyName": "Shields, Halvorson and Kohler",
+  "NewSerialNumber": "924756"
 }
 ```
 
@@ -101,7 +102,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 266
+      "FieldLength": 996
     }
   }
 }

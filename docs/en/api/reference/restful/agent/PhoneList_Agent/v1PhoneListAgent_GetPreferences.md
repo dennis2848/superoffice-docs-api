@@ -14,6 +14,8 @@ POST /api/v1/Agents/PhoneList/GetPreferences
 Getting Phone List Preferences from the CRM 5 user preferences
 
 
+NsApiSlow threshold: 1000 ms.
+
 
 
 
@@ -84,7 +86,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "SearchCompany": false,
-  "SearchFirstname": true,
+  "SearchFirstname": false,
   "SearchLastname": false,
   "SearchDepartment": false,
   "SearchModeCompany": "BeginsWith",
@@ -96,7 +98,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 298
+      "FieldLength": 186
     }
   }
 }

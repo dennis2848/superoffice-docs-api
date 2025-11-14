@@ -89,7 +89,7 @@ OK
 GET /api/v1/Sale/UdefLayout/Published
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -100,46 +100,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 223,
-    "ColumnId": 270,
-    "FieldDefault": "libero",
-    "FieldHeight": 970,
-    "FieldLabel": "itaque",
-    "FieldLeft": 179,
-    "FieldTop": 929,
+    "UDefFieldId": 22,
+    "ColumnId": 257,
+    "FieldDefault": "ea",
+    "FieldHeight": 435,
+    "FieldLabel": "similique",
+    "FieldLeft": 570,
+    "FieldTop": 731,
     "FieldType": "Checkbox",
-    "FieldWidth": 695,
-    "FormatMask": "dolor",
+    "FieldWidth": 905,
+    "FormatMask": "quae",
     "HideLabel": true,
     "IsIndexed": false,
-    "LabelHeight": 579,
-    "LabelLeft": 7,
-    "LabelTop": 532,
-    "LabelWidth": 897,
-    "LastVersionId": 441,
-    "ListTableId": 43,
-    "IsMandatory": true,
+    "LabelHeight": 883,
+    "LabelLeft": 311,
+    "LabelTop": 186,
+    "LabelWidth": 235,
+    "LastVersionId": 840,
+    "ListTableId": 651,
+    "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 490,
-    "ProgId": "autem",
+    "Page1LineNo": 841,
+    "ProgId": "odit",
     "IsReadOnly": false,
-    "ShortLabel": "est",
-    "TabOrder": 920,
-    "TextLength": 547,
-    "Tooltip": "officia",
-    "UdefIdentity": 827,
-    "UDListDefinitionId": 645,
+    "ShortLabel": "modi",
+    "TabOrder": 552,
+    "TextLength": 49,
+    "Tooltip": "soluta",
+    "UdefIdentity": 737,
+    "UDListDefinitionId": 489,
     "Justification": "Center",
-    "Version": 250,
-    "TemplateVariableName": "Fahey-Hudson",
+    "Version": 506,
+    "TemplateVariableName": "Bahringer-Auer",
     "HasBeenPublished": false,
-    "MdoListName": "Stokes Inc and Sons",
+    "MdoListName": "Cummings-Hintz",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 56
+        "FieldLength": 164
       }
     }
   }

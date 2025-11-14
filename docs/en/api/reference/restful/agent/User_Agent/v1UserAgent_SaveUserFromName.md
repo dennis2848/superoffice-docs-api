@@ -14,6 +14,9 @@ POST /api/v1/Agents/User/SaveUserFromName
 Save a user, with lookup based on the user name.
 
 
+NsApiSlow threshold: 2000 ms.
+
+
 ## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
 
 
@@ -105,7 +108,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UserName": "Jenkins, Hodkiewicz and Stokes",
+  "UserName": "Nikolaus, Fahey and Russel",
   "User": null
 }
 ```
@@ -117,14 +120,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 812,
-  "Name": "Reichel, Effertz and Hodkiewicz",
-  "Rank": 88,
-  "Tooltip": "praesentium",
+  "AssociateId": 590,
+  "Name": "Daniel, Anderson and Emmerich",
+  "Rank": 241,
+  "Tooltip": "libero",
   "LicenseOwners": [
     {
-      "Name": "Nicolas, Mills and Raynor",
-      "Description": "Inverse 6th generation utilisation",
+      "Name": "Hettinger-Gislason",
+      "Description": "Front-line client-server orchestration",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -138,13 +141,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 857
+          "FieldLength": 704
         }
       }
     },
     {
-      "Name": "Nicolas, Mills and Raynor",
-      "Description": "Inverse 6th generation utilisation",
+      "Name": "Hettinger-Gislason",
+      "Description": "Front-line client-server orchestration",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -158,7 +161,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 857
+          "FieldLength": 704
         }
       }
     }
@@ -167,110 +170,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "impedit",
-      "Tooltip": "magni",
-      "Id": 728,
-      "Rank": 367,
+      "Value": "est",
+      "Tooltip": "officiis",
+      "Id": 153,
+      "Rank": 839,
       "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 68
+          "FieldLength": 900
         }
       }
     }
   ],
   "Person": null,
-  "Deleted": true,
-  "Lastlogin": "2006-12-06T03:46:55.6132266+01:00",
-  "Lastlogout": "2008-03-17T03:46:55.6132266+01:00",
-  "EjUserId": 179,
-  "RequestSignature": "ex",
+  "Deleted": false,
+  "Lastlogin": "2008-11-03T02:30:48.1163068+01:00",
+  "Lastlogout": "2017-02-27T02:30:48.1163068+01:00",
+  "EjUserId": 15,
+  "RequestSignature": "aut",
   "Type": "AnonymousAssociate",
-  "IsPersonRetired": false,
+  "IsPersonRetired": true,
   "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "voluptatem",
-      "DisplayValue": "consequatur",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 634
-        }
-      }
-    },
-    {
-      "Type": null,
-      "Value": "voluptatem",
-      "DisplayValue": "consequatur",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 634
-        }
-      }
-    }
-  ],
-  "UserName": "Runte-Hills",
-  "TicketCategories": [
-    {
-      "Id": 594,
-      "Name": "Botsford Group",
-      "ToolTip": "Ullam maiores rerum repellendus eveniet ut.",
-      "Deleted": true,
-      "Rank": 935,
-      "Type": "aut",
-      "ChildItems": [
-        {},
-        {}
-      ],
-      "IconHint": "rem",
-      "ColorBlock": 807,
-      "ExtraInfo": "rerum",
-      "StyleHint": "sed",
-      "FullName": "Dr. Misty Balistreri III",
+      "Value": "officia",
+      "DisplayValue": "rerum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 51
+          "FieldLength": 417
         }
       }
-    }
-  ],
-  "NickName": "Hoeger Group",
-  "WaitingForApproval": true,
-  "ExtraFields": {
-    "ExtraFields1": "velit",
-    "ExtraFields2": "magnam"
-  },
-  "CustomFields": {
-    "CustomFields1": "saepe",
-    "CustomFields2": "ut"
-  },
-  "PostSaveCommands": [
+    },
     {
-      "Name": "Cremin Group",
-      "DisplayName": "Herzog-Walker",
-      "Description": "Triple-buffered dynamic forecast",
-      "ToolTip": "Ea non labore amet modi rerum tenetur sit.",
-      "Actions": "Implicit",
-      "ActionData": "ipsa",
+      "Type": null,
+      "Value": "officia",
+      "DisplayValue": "rerum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 204
+          "FieldType": "System.Int32",
+          "FieldLength": 417
+        }
+      }
+    }
+  ],
+  "UserName": "Kling-Graham",
+  "TicketCategories": [
+    {
+      "Id": 638,
+      "Name": "Auer-O'Connell",
+      "ToolTip": "Tempore vel rerum dolorem.",
+      "Deleted": false,
+      "Rank": 796,
+      "Type": "ullam",
+      "ChildItems": [
+        {},
+        {}
+      ],
+      "IconHint": "dolores",
+      "ColorBlock": 271,
+      "ExtraInfo": "a",
+      "StyleHint": "aperiam",
+      "FullName": "Bradly Murphy",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 906
+        }
+      }
+    }
+  ],
+  "NickName": "Weissnat Inc and Sons",
+  "WaitingForApproval": false,
+  "ExtraFields": {
+    "ExtraFields1": "nobis",
+    "ExtraFields2": "ut"
+  },
+  "CustomFields": {
+    "CustomFields1": "rerum",
+    "CustomFields2": "porro"
+  },
+  "PostSaveCommands": [
+    {
+      "Name": "Davis, Murphy and Moore",
+      "DisplayName": "Hilll-Nolan",
+      "Description": "Synergized real-time secured line",
+      "ToolTip": "Voluptatem est illum suscipit dolor aliquid.",
+      "Actions": "Implicit",
+      "ActionData": "aliquam",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 639
         }
       }
     }
@@ -279,8 +282,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 175
+      "FieldType": "System.Int32",
+      "FieldLength": 713
     }
   }
 }

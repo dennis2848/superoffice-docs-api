@@ -14,6 +14,9 @@ POST /api/v1/Agents/EMail/GetEMail
 Get en e-mail based on its primary key in the DB
 
 
+NsApiSlow threshold: 5000 ms.
+
+
 ## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 
@@ -102,11 +105,11 @@ OK
 POST /api/v1/Agents/EMail/GetEMail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 301,
+  "Id": 255,
   "IncludeAttachments": true
 }
 ```
@@ -120,97 +123,97 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 209,
-      "ContactName": "Berge Inc and Sons",
-      "PersonId": 179,
-      "PersonName": "Koch-Hermann",
-      "AssociateId": 118,
-      "Address": "nemo",
-      "EmailId": 11,
+      "ContactId": 975,
+      "ContactName": "Osinski, Stamm and Funk",
+      "PersonId": 605,
+      "PersonName": "Botsford LLC",
+      "AssociateId": 241,
+      "Address": "ullam",
+      "EmailId": 652,
       "DuplicatePersonIds": [
-        398,
-        542
+        901,
+        162
       ],
-      "Name": "Gislason-Donnelly",
+      "Name": "Rosenbaum-Schuppe",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 389
+          "FieldLength": 112
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 347,
-      "ContactName": "Beier Group",
-      "PersonId": 448,
-      "PersonName": "Witting, Bashirian and Rogahn",
-      "AssociateId": 510,
-      "Address": "velit",
-      "EmailId": 979,
+      "ContactId": 241,
+      "ContactName": "Zboncak, Wiza and Kihn",
+      "PersonId": 536,
+      "PersonName": "Konopelski-Rice",
+      "AssociateId": 691,
+      "Address": "quasi",
+      "EmailId": 355,
       "DuplicatePersonIds": [
-        991,
-        259
+        379,
+        225
       ],
-      "Name": "Cremin, Rohan and Luettgen",
+      "Name": "Gerhold, Wolff and Collier",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 959
+          "FieldLength": 96
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 720,
-      "ContactName": "Schaden Group",
-      "PersonId": 131,
-      "PersonName": "Rath-Bogan",
-      "AssociateId": 414,
-      "Address": "id",
-      "EmailId": 489,
+      "ContactId": 714,
+      "ContactName": "Padberg Group",
+      "PersonId": 701,
+      "PersonName": "Block Inc and Sons",
+      "AssociateId": 264,
+      "Address": "in",
+      "EmailId": 829,
       "DuplicatePersonIds": [
-        166,
-        120
+        512,
+        626
       ],
-      "Name": "Kozey-Funk",
+      "Name": "Leuschke-Dibbert",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 735
+          "FieldLength": 709
         }
       }
     }
   ],
-  "Subject": "possimus",
-  "HTMLBody": "facere",
+  "Subject": "voluptatem",
+  "HTMLBody": "eum",
   "From": null,
-  "Sent": "2013-06-26T03:46:54.8007556+02:00",
-  "Size": 350,
+  "Sent": "2023-02-02T02:30:47.3194579+01:00",
+  "Size": 997,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "beatae",
-  "PlainBody": "vel",
-  "IsSent": true,
+  "MessageID": "iusto",
+  "PlainBody": "id",
+  "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 910,
+  "ServerId": 826,
   "Attachments": [
     {
-      "Description": "Right-sized bottom-line ability",
+      "Description": "Extended dedicated encoding",
       "Filename": "optio",
-      "Size": 217,
-      "Type": "voluptatem",
-      "Encoding": "ipsa",
-      "Id": "porro",
-      "Disposition": "ducimus",
+      "Size": 807,
+      "Type": "voluptate",
+      "Encoding": "magni",
+      "Id": "voluptates",
+      "Disposition": "illum",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
@@ -218,58 +221,58 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 883
+          "FieldLength": 664
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Weissnat, Schultz and Bosco",
+      "Name": "Mosciski, Mosciski and Blanda",
       "Values": [
-        "ab",
-        "aut"
+        "tempore",
+        "pariatur"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 891
+          "FieldType": "System.Int32",
+          "FieldLength": 747
         }
       }
     },
     {
-      "Name": "Weissnat, Schultz and Bosco",
+      "Name": "Mosciski, Mosciski and Blanda",
       "Values": [
-        "ab",
-        "aut"
+        "tempore",
+        "pariatur"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 891
+          "FieldType": "System.Int32",
+          "FieldLength": 747
         }
       }
     }
   ],
-  "FolderName": "Witting Group",
-  "EmailItemId": 224,
-  "AccountId": 355,
-  "ReceivedAt": "2005-01-20T03:46:54.8007556+01:00",
+  "FolderName": "Schmeler, Keebler and Kuvalis",
+  "EmailItemId": 14,
+  "AccountId": 584,
+  "ReceivedAt": "2025-09-16T02:30:47.3194579+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2011-10-19T03:46:54.8007556+02:00",
-  "HasCalendarData": true,
+  "RepliedAt": "2016-03-12T02:30:47.3194579+01:00",
+  "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 796
+      "FieldType": "System.String",
+      "FieldLength": 928
     }
   }
 }

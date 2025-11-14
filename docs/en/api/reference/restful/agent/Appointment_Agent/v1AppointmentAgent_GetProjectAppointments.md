@@ -15,6 +15,7 @@ Method that returns a specified number of appointments within a time range.
 
 
 The appointments belong to the project specified. If the logged on user is not allowed to view this projects appointments an exception is thrown.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -133,14 +134,14 @@ OK
 POST /api/v1/Agents/Appointment/GetProjectAppointments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 82,
-  "StartTime": "2006-07-30T03:46:53.9726601+02:00",
-  "EndTime": "2010-03-23T03:46:53.9726601+01:00",
-  "Count": 59
+  "ProjectId": 253,
+  "StartTime": "2019-11-11T02:30:46.4913585+01:00",
+  "EndTime": "2003-04-11T02:30:46.4913585+02:00",
+  "Count": 644
 }
 ```
 
@@ -152,67 +153,67 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 789,
-    "StartDate": "2022-02-22T03:46:53.9726601+01:00",
-    "EndDate": "2016-07-31T03:46:53.9726601+02:00",
+    "AppointmentId": 15,
+    "StartDate": "2022-10-26T02:30:46.4913585+02:00",
+    "EndDate": "2011-08-04T02:30:46.4913585+02:00",
     "Type": "BookingForChecklist",
-    "Task": "est",
-    "AssociateFullName": "Prof. Stephanie Polly Berge",
-    "ContactName": "Reinger, Nolan and Kunde",
-    "Description": "Reactive responsive utilisation",
-    "PersonFullName": "Ms. Jasmin McClure MD",
-    "PersonId": 140,
-    "ContactId": 22,
-    "ProjectId": 688,
-    "ProjectName": "Upton LLC",
+    "Task": "iste",
+    "AssociateFullName": "Juliana Kihn",
+    "ContactName": "Schinner-Kuhn",
+    "Description": "Optional analyzing ability",
+    "PersonFullName": "Eden Kihn",
+    "PersonId": 305,
+    "ContactId": 863,
+    "ProjectId": 189,
+    "ProjectName": "Rempel-Walter",
     "IsPublished": false,
-    "AssociateId": 613,
-    "ColorIndex": 816,
+    "AssociateId": 857,
+    "ColorIndex": 998,
     "IsFree": false,
     "HasAlarm": false,
-    "IsAlldayEvent": false,
+    "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 792,
-    "PriorityName": "Durgan-Wilderman",
+    "PriorityId": 635,
+    "PriorityName": "Langosh-Lang",
     "TaskType": "Appointment",
     "IsBookingMain": false,
     "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "2005-03-01T03:46:53.9726601+01:00",
+    "ActiveDate": "2023-09-18T02:30:46.4913585+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2000-06-01T03:46:53.9726601+02:00",
-    "RecurringEndDate": "1999-07-26T03:46:53.9726601+02:00",
-    "MotherId": 86,
-    "AssignedBy": 77,
-    "AssignedByFullName": "Mose Becker",
+    "RecurringStartDate": "2013-11-15T02:30:46.4913585+01:00",
+    "RecurringEndDate": "2001-09-29T02:30:46.4913585+02:00",
+    "MotherId": 310,
+    "AssignedBy": 496,
+    "AssignedByFullName": "Malika Providenci Ortiz III",
     "RejectReason": "",
-    "Location": "veritatis",
-    "AlarmLeadTime": "qui",
-    "SaleId": 697,
-    "SaleName": "Schmidt LLC",
-    "AssociateName": "Schmidt LLC",
-    "CreatedDate": "2022-11-25T03:46:53.9726601+01:00",
-    "CreatedBy": "quod",
-    "CreatedByFullName": "Jaylon Herbert Purdy III",
-    "CreatedByAssociateId": 792,
+    "Location": "ut",
+    "AlarmLeadTime": "aut",
+    "SaleId": 973,
+    "SaleName": "Cole-Bernhard",
+    "AssociateName": "Jakubowski-Hand",
+    "CreatedDate": "2013-06-15T02:30:46.4913585+02:00",
+    "CreatedBy": "ut",
+    "CreatedByFullName": "Monserrate Torp",
+    "CreatedByAssociateId": 692,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "OwnedExternally": "Google",
-    "MotherAssociateId": 243,
+    "MotherAssociateId": 334,
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 478,
-    "Title": "odio",
-    "Agenda": "rerum",
-    "InternalNotes": "mollitia",
+    "PreferredTZLocation": 737,
+    "Title": "rerum",
+    "Agenda": "ut",
+    "InternalNotes": "occaecati",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 918
+        "FieldType": "System.Int32",
+        "FieldLength": 671
       }
     }
   }

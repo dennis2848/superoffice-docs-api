@@ -14,6 +14,8 @@ POST /api/v1/Agents/ForeignSystem/GetDeviceKeysOnDeviceIdentifierTable
 Returns all ForeignKeys that belong to a device with a given deviceIdentifier and table name.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -84,14 +86,14 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetDeviceKeysOnDeviceIdentifierTable
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Koepp Group",
-  "DeviceName": "Langosh-Auer",
-  "DeviceIdentifier": "qui",
-  "TableName": "Lind-Kemmer"
+  "ApplicationName": "Koss, Monahan and McLaughlin",
+  "DeviceName": "Strosin-Farrell",
+  "DeviceIdentifier": "porro",
+  "TableName": "Hackett Group"
 }
 ```
 
@@ -103,20 +105,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "expedita",
-    "Value": "omnis",
-    "RecordId": 483,
-    "CreatedDate": "2013-09-17T03:46:54.9107593+02:00",
-    "UpdatedDate": "2010-09-10T03:46:54.9107593+02:00",
-    "UpdatedBy": "enim",
-    "CreatedBy": "facere",
-    "TableName": "Gottlieb-Shanahan",
+    "Key": "sit",
+    "Value": "maiores",
+    "RecordId": 549,
+    "CreatedDate": "2012-02-27T02:30:47.366331+01:00",
+    "UpdatedDate": "2023-10-10T02:30:47.366331+02:00",
+    "UpdatedBy": "maxime",
+    "CreatedBy": "placeat",
+    "TableName": "Boehm, McLaughlin and Quitzon",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 389
+        "FieldLength": 938
       }
     }
   }

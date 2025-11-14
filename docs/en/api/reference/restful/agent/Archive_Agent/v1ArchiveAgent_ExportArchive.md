@@ -14,6 +14,8 @@ POST /api/v1/Agents/Archive/ExportArchive
 Exports the target archive to a downloadable format.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -84,59 +86,59 @@ OK
 POST /api/v1/Agents/Archive/ExportArchive
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Klocko-Kling",
-  "Context": "quidem",
+  "ProviderName": "Satterfield Inc and Sons",
+  "Context": "illum",
   "DesiredEntities": [
-    "aut",
-    "numquam"
+    "ut",
+    "mollitia"
   ],
   "Columns": [
-    "beatae",
-    "sunt"
+    "nesciunt",
+    "tempore"
   ],
   "SortOrder": [
     {
-      "Name": "Tremblay Inc and Sons",
+      "Name": "Jenkins-Walsh",
       "Direction": "ASC"
     },
     {
-      "Name": "Tremblay Inc and Sons",
+      "Name": "Jenkins-Walsh",
       "Direction": "ASC"
     }
   ],
   "Restrictions": [
     {
-      "Name": "West-Beatty",
-      "Operator": "non",
+      "Name": "Ruecker-Olson",
+      "Operator": "error",
       "Values": [
-        "iste",
-        "ducimus"
+        "corrupti",
+        "soluta"
       ],
       "DisplayValues": [
-        "sit",
-        "vel"
+        "harum",
+        "quod"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 474,
+      "InterParenthesis": 70,
       "InterOperator": "And",
-      "UniqueHash": 365
+      "UniqueHash": 408
     }
   ],
-  "ExportType": "saepe",
+  "ExportType": "et",
   "SelectedRowIds": [
-    "blanditiis",
-    "quas"
+    "ducimus",
+    "numquam"
   ],
-  "EstimatedRowCount": 190
+  "EstimatedRowCount": 940
 }
 ```
 
@@ -147,15 +149,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BatchTaskId": 422,
-  "FileName": "Crooks, Torp and Harber",
-  "Message": "magni",
+  "BatchTaskId": 463,
+  "FileName": "Kunze, Braun and Dach",
+  "Message": "vel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 820
+      "FieldType": "System.String",
+      "FieldLength": 577
     }
   }
 }

@@ -14,6 +14,8 @@ POST /api/v1/Agents/ForeignSystem/GetForeignAppEntity
 Gets a ForeignAppEntity object.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -27,7 +29,7 @@ Gets a ForeignAppEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/ForeignSystem/GetForeignAppEntity?foreignAppEntityId=511
+POST /api/v1/Agents/ForeignSystem/GetForeignAppEntity?foreignAppEntityId=87
 POST /api/v1/Agents/ForeignSystem/GetForeignAppEntity?$select=name,department,category/id
 ```
 
@@ -74,7 +76,7 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetForeignAppEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -84,29 +86,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 882,
-  "Name": "Koelpin LLC",
-  "CreatedDate": "2013-09-13T03:46:54.847629+02:00",
-  "UpdatedDate": "2006-02-23T03:46:54.847629+01:00",
+  "ForeignAppId": 289,
+  "Name": "Fay, Abbott and Bashirian",
+  "CreatedDate": "2005-01-26T02:30:47.350707+01:00",
+  "UpdatedDate": "2023-05-26T02:30:47.350707+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 121,
-      "Name": "Auer, Deckow and Aufderhar",
-      "CreatedDate": "2005-10-25T03:46:54.847629+02:00",
-      "UpdatedDate": "2007-07-20T03:46:54.847629+02:00",
-      "AssociateFullName": "Joannie Kerluke",
-      "CreatedBy": "labore",
-      "UpdatedBy": "assumenda",
-      "DeviceIdentifier": "porro",
-      "ForeignAppId": 147,
+      "ForeignDeviceId": 575,
+      "Name": "Anderson-Sanford",
+      "CreatedDate": "1998-09-17T02:30:47.350707+02:00",
+      "UpdatedDate": "2016-01-05T02:30:47.350707+01:00",
+      "AssociateFullName": "Belle Roberts",
+      "CreatedBy": "et",
+      "UpdatedBy": "aliquid",
+      "DeviceIdentifier": "autem",
+      "ForeignAppId": 260,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 599
+          "FieldLength": 681
         }
       }
     }
@@ -115,8 +117,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 435
+      "FieldType": "System.String",
+      "FieldLength": 99
     }
   }
 }

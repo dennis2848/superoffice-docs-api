@@ -62,7 +62,7 @@ OK
 GET /api/v1/TimeZone/current
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -72,31 +72,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TZLocationID": 180,
-  "Name": "Hilpert-Skiles",
-  "TZLocationCode": "exercitationem",
-  "TZLocationCities": "harum",
-  "IsoNumber": 383,
+  "TZLocationID": 490,
+  "Name": "Mraz Inc and Sons",
+  "TZLocationCode": "labore",
+  "TZLocationCities": "consequatur",
+  "IsoNumber": 136,
   "TimeZoneSTDRules": {
     "fieldName": {
-      "StartDay": 108,
-      "StartMonth": 977,
-      "EndDay": 839,
-      "EndMonth": 909,
-      "TZOffset": 909,
-      "StartRulePattern": "magnam",
-      "EndRulePattern": "eius"
+      "StartDay": 473,
+      "StartMonth": 393,
+      "EndDay": 936,
+      "EndMonth": 880,
+      "TZOffset": 860,
+      "StartRulePattern": "ea",
+      "EndRulePattern": "ducimus"
     }
   },
   "TimeZoneDSTRules": {
     "fieldName": {
-      "StartDay": 535,
-      "StartMonth": 513,
-      "EndDay": 687,
-      "EndMonth": 735,
-      "TZOffset": 227,
-      "StartRulePattern": "autem",
-      "EndRulePattern": "quia"
+      "StartDay": 73,
+      "StartMonth": 376,
+      "EndDay": 331,
+      "EndMonth": 729,
+      "TZOffset": 639,
+      "StartRulePattern": "deserunt",
+      "EndRulePattern": "dolore"
     }
   }
 }

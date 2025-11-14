@@ -15,6 +15,7 @@ Get all installed connections.
 
 
 Some installed connections may not be available to the user.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -82,7 +83,7 @@ OK
 POST /api/v1/Agents/Quote/GetAllInstalledQuoteConnections
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -93,54 +94,54 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteConnectionId": 382,
-    "ERPName": "Durgan, Littel and Lang",
-    "DisplayName": "Satterfield-Bayer",
-    "DisplayDescription": "Balanced cohesive solution",
-    "Rank": 929,
-    "ConnectorName": "Rutherford-Gulgowski",
-    "ErpConnectionId": 805,
+    "QuoteConnectionId": 807,
+    "ERPName": "Stamm Inc and Sons",
+    "DisplayName": "McClure-Lehner",
+    "DisplayDescription": "Down-sized context-sensitive strategy",
+    "Rank": 668,
+    "ConnectorName": "Kuhn, Kuhlman and Moore",
+    "ErpConnectionId": 952,
     "ExtraData": "placeat",
     "IsAvailable": false,
     "InitializeResponse": null,
     "PriceLists": [
       {
-        "PriceListId": 988,
-        "ERPPriceListKey": "et",
-        "QuoteConnectionId": 352,
-        "Name": "VonRueden, Bradtke and Terry",
-        "Description": "Cloned exuding hub",
-        "Currency": "deserunt",
-        "CurrencyName": "Crooks Group",
-        "ValidFrom": "2021-12-17T03:46:55.2069913+01:00",
-        "ValidTo": "2009-11-10T03:46:55.2069913+01:00",
+        "PriceListId": 942,
+        "ERPPriceListKey": "voluptatibus",
+        "QuoteConnectionId": 438,
+        "Name": "Corwin Inc and Sons",
+        "Description": "Open-source cohesive artificial intelligence",
+        "Currency": "ipsum",
+        "CurrencyName": "Huels LLC",
+        "ValidFrom": "2005-09-22T02:30:47.7256947+02:00",
+        "ValidTo": "2004-04-06T02:30:47.7256947+02:00",
         "IsActive": true,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 500
+            "FieldType": "System.String",
+            "FieldLength": 354
           }
         }
       }
     ],
-    "AllAccess": true,
+    "AllAccess": false,
     "Deleted": false,
     "UserGroupAccessIds": [
-      15,
-      519
+      579,
+      488
     ],
     "AssociateAccessIds": [
-      456,
-      156
+      832,
+      307
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 649
+        "FieldLength": 941
       }
     }
   }

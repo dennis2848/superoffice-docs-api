@@ -79,16 +79,16 @@ OK
 PUT /api/v1/List/DeliveryType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 59,
-  "Name": "Leuschke Group",
-  "Tooltip": "et",
+  "Id": 877,
+  "Name": "Lang-Bartoletti",
+  "Tooltip": "dignissimos",
   "Deleted": false,
-  "UdListDefinitionId": 724,
-  "Rank": 403
+  "UdListDefinitionId": 505,
+  "Rank": 600
 }
 ```
 
@@ -99,18 +99,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 153,
-  "Name": "Hudson-Altenwerth",
-  "Tooltip": "quis",
-  "Deleted": false,
-  "UdListDefinitionId": 936,
-  "Rank": 606,
+  "Id": 797,
+  "Name": "Koelpin LLC",
+  "Tooltip": "ratione",
+  "Deleted": true,
+  "UdListDefinitionId": 829,
+  "Rank": 303,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 697
+      "FieldLength": 996
     }
   }
 }

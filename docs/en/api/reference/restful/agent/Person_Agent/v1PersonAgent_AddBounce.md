@@ -14,6 +14,8 @@ POST /api/v1/Agents/Person/AddBounce
 Add a bounce count on the email address if it exists
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -69,7 +71,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailAddress": "nickolas_donnelly@schaeferbrekke.co.uk"
+  "EmailAddress": "lenna@rau.uk"
 }
 ```
 

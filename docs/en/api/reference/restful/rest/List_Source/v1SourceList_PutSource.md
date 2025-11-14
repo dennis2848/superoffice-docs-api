@@ -83,12 +83,12 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 1001,
-  "Name": "Nader-Gusikowski",
-  "Tooltip": "dolore",
+  "Id": 134,
+  "Name": "Dietrich, Schamberger and Fadel",
+  "Tooltip": "officia",
   "Deleted": true,
-  "UdListDefinitionId": 737,
-  "Rank": 146
+  "UdListDefinitionId": 315,
+  "Rank": 738
 }
 ```
 
@@ -99,18 +99,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 749,
-  "Name": "Strosin, Bailey and Stiedemann",
-  "Tooltip": "quisquam",
+  "Id": 72,
+  "Name": "Windler, Abbott and Auer",
+  "Tooltip": "nulla",
   "Deleted": false,
-  "UdListDefinitionId": 447,
-  "Rank": 466,
+  "UdListDefinitionId": 685,
+  "Rank": 258,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 945
+      "FieldType": "System.Int32",
+      "FieldLength": 151
     }
   }
 }

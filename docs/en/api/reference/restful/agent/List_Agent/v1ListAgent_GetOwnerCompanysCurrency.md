@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/GetOwnerCompanysCurrency
 Get the currency of the user's owner company
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -78,15 +80,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 717,
-  "Value": "dolores",
-  "Tooltip": "qui",
+  "Id": 644,
+  "Value": "quia",
+  "Tooltip": "sapiente",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 178
+      "FieldLength": 328
     }
   }
 }

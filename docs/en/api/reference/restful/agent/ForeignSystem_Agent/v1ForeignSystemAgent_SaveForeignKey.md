@@ -14,6 +14,8 @@ POST /api/v1/Agents/ForeignSystem/SaveForeignKey
 Saves a key belonging to the ForeignApp and ForeignDevice specified.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -84,14 +86,14 @@ OK
 POST /api/v1/Agents/ForeignSystem/SaveForeignKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ForeignKey": null,
-  "ApplicationName": "Wiegand-Kris",
-  "DeviceName": "Fisher-Gutmann",
-  "DeviceIdentifier": "laboriosam"
+  "ApplicationName": "Von Inc and Sons",
+  "DeviceName": "Rohan LLC",
+  "DeviceIdentifier": "odit"
 }
 ```
 
@@ -102,20 +104,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "repellat",
-  "Value": "at",
-  "RecordId": 906,
-  "CreatedDate": "2025-08-16T03:46:54.9107593+02:00",
-  "UpdatedDate": "2022-07-21T03:46:54.9107593+02:00",
-  "UpdatedBy": "hic",
-  "CreatedBy": "rerum",
-  "TableName": "Langosh-Bode",
+  "Key": "accusamus",
+  "Value": "totam",
+  "RecordId": 807,
+  "CreatedDate": "2003-08-20T02:30:47.366331+02:00",
+  "UpdatedDate": "2016-06-22T02:30:47.366331+02:00",
+  "UpdatedBy": "velit",
+  "CreatedBy": "ab",
+  "TableName": "Jacobs-Schiller",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 64
+      "FieldLength": 311
     }
   }
 }

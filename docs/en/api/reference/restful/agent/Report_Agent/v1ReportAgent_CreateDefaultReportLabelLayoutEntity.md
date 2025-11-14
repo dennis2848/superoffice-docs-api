@@ -14,6 +14,8 @@ POST /api/v1/Agents/Report/CreateDefaultReportLabelLayoutEntity
 Loading default values into a new ReportLabelLayoutEntity.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -77,24 +79,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportLabelLayoutId": 873,
-  "Name": "Steuber Group",
-  "Description": "Re-engineered heuristic matrix",
+  "ReportLabelLayoutId": 835,
+  "Name": "Ferry Group",
+  "Description": "Multi-tiered 3rd generation application",
   "Orientation": "Landscape",
-  "PaperWidth": 705,
-  "PaperHeight": 611,
-  "LeftMargin": 276,
-  "RightMargin": 580,
-  "TopMargin": 924,
-  "BottomMargin": 635,
-  "CountColumns": 293,
-  "CountRows": 732,
+  "PaperWidth": 391,
+  "PaperHeight": 12,
+  "LeftMargin": 715,
+  "RightMargin": 266,
+  "TopMargin": 219,
+  "BottomMargin": 461,
+  "CountColumns": 55,
+  "CountRows": 586,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 560
+      "FieldType": "System.Int32",
+      "FieldLength": 21
     }
   }
 }

@@ -76,16 +76,16 @@ OK
 POST /api/v1/List/UserGroup/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 630,
-  "Name": "DuBuque-Dickinson",
-  "Tooltip": "voluptatem",
+  "HeadingId": 491,
+  "Name": "Greenfelder Inc and Sons",
+  "Tooltip": "velit",
   "Deleted": false,
-  "Rank": 180,
-  "UdListDefinitionId": 736
+  "Rank": 897,
+  "UdListDefinitionId": 367
 }
 ```
 
@@ -96,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 145,
-  "Name": "Sauer, Harvey and Rice",
-  "Tooltip": "quisquam",
+  "HeadingId": 992,
+  "Name": "Waelchi LLC",
+  "Tooltip": "repellat",
   "Deleted": true,
-  "Rank": 752,
-  "UdListDefinitionId": 824,
+  "Rank": 502,
+  "UdListDefinitionId": 257,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 907
+      "FieldLength": 999
     }
   }
 }

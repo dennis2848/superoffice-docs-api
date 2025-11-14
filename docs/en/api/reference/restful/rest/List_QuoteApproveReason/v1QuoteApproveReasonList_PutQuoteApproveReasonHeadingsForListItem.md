@@ -98,47 +98,47 @@ OK
 PUT /api/v1/List/QuoteApproveReason/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 128,
-    "Name": "Larson Group",
-    "ToolTip": "Quis veritatis ut voluptatem error.",
+    "Id": 589,
+    "Name": "Grant, Brakus and Turner",
+    "ToolTip": "Et pariatur voluptatem sit blanditiis ut.",
     "Deleted": false,
-    "Rank": 56,
-    "Type": "nihil",
-    "ColorBlock": 375,
-    "IconHint": "distinctio",
+    "Rank": 575,
+    "Type": "dolorem",
+    "ColorBlock": 818,
+    "IconHint": "nulla",
     "Selected": true,
-    "LastChanged": "2002-04-30T03:47:00.7692942+02:00",
+    "LastChanged": "2003-12-03T02:30:53.3973865+01:00",
     "ChildItems": [
       {
-        "Id": 881,
-        "Name": "Hoppe, Gleichner and Blick",
-        "ToolTip": "Sed dicta possimus quisquam similique aut optio.",
+        "Id": 319,
+        "Name": "Gottlieb LLC",
+        "ToolTip": "Quas omnis dolor.",
         "Deleted": true,
-        "Rank": 231,
-        "Type": "et",
-        "ColorBlock": 447,
-        "IconHint": "earum",
+        "Rank": 544,
+        "Type": "aut",
+        "ColorBlock": 474,
+        "IconHint": "exercitationem",
         "Selected": false,
-        "LastChanged": "2008-03-27T03:47:00.7692942+01:00",
+        "LastChanged": "2025-09-03T02:30:53.3973865+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "omnis",
-        "StyleHint": "quaerat",
+        "ExtraInfo": "qui",
+        "StyleHint": "soluta",
         "Hidden": false,
-        "FullName": "Mona Shanahan"
+        "FullName": "Alexys Kihn"
       }
     ],
-    "ExtraInfo": "ea",
-    "StyleHint": "sint",
-    "Hidden": true,
-    "FullName": "Ms. Ian Tiara Hansen DDS"
+    "ExtraInfo": "consequuntur",
+    "StyleHint": "consequatur",
+    "Hidden": false,
+    "FullName": "Phyllis Goldner"
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 376,
-    "Name": "Ledner, Ondricka and Marks",
-    "ToolTip": "Porro dolorem quo.",
+    "Id": 595,
+    "Name": "Wilderman Inc and Sons",
+    "ToolTip": "A eligendi doloribus dolore commodi ut eveniet.",
     "Deleted": true,
-    "Rank": 744,
-    "Type": "aut",
-    "ColorBlock": 729,
-    "IconHint": "consequatur",
-    "Selected": false,
-    "LastChanged": "2020-02-26T03:47:00.7692942+01:00",
+    "Rank": 721,
+    "Type": "consequatur",
+    "ColorBlock": 59,
+    "IconHint": "repellat",
+    "Selected": true,
+    "LastChanged": "2007-03-06T02:30:53.3973865+01:00",
     "ChildItems": [
       {
-        "Id": 849,
-        "Name": "Weissnat, Kutch and Kiehn",
-        "ToolTip": "Voluptas harum.",
-        "Deleted": false,
-        "Rank": 670,
-        "Type": "consequatur",
-        "ColorBlock": 100,
-        "IconHint": "saepe",
+        "Id": 768,
+        "Name": "DuBuque-Howell",
+        "ToolTip": "Ex ut voluptatibus neque porro omnis sit.",
+        "Deleted": true,
+        "Rank": 686,
+        "Type": "iste",
+        "ColorBlock": 200,
+        "IconHint": "ullam",
         "Selected": false,
-        "LastChanged": "2019-03-09T03:47:00.7692942+01:00",
+        "LastChanged": "2013-12-21T02:30:53.3973865+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "cum",
+        "ExtraInfo": "veritatis",
+        "StyleHint": "voluptas",
         "Hidden": false,
-        "FullName": "Enoch Bernard Price DVM",
+        "FullName": "Miss Maude Norbert Cremin DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 287
+            "FieldLength": 856
           }
         }
       }
     ],
-    "ExtraInfo": "ab",
-    "StyleHint": "quaerat",
+    "ExtraInfo": "voluptatem",
+    "StyleHint": "ut",
     "Hidden": false,
-    "FullName": "Adelbert Pinkie Pfannerstill I",
+    "FullName": "Mr. Maida Mortimer Murazik",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 702
+        "FieldType": "System.Int32",
+        "FieldLength": 811
       }
     }
   }

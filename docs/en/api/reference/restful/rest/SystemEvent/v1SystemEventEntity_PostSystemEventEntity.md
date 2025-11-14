@@ -15,6 +15,7 @@ Creates a new SystemEventEntity
 
 
 Calls the Configuration agent service SaveSystemEventEntity.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -95,19 +96,19 @@ OK
 POST /api/v1/SystemEvent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 380,
+  "SystemEventId": 320,
   "Scope": "Database",
-  "Eta": "1998-11-08T03:47:00.3005605+01:00",
-  "Eventkey": "voluptatem",
-  "Eventmess": "est",
-  "ExtraInfo": 131,
-  "Owner": 170,
-  "UpdatedCount": 136,
-  "Registered": "2008-10-25T03:47:00.3005605+02:00",
+  "Eta": "2022-01-20T02:30:52.9442767+01:00",
+  "Eventkey": "ab",
+  "Eventmess": "asperiores",
+  "ExtraInfo": 732,
+  "Owner": 753,
+  "UpdatedCount": 412,
+  "Registered": "2000-07-17T02:30:52.9442767+02:00",
   "ActivatedBy": null
 }
 ```
@@ -119,27 +120,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 443,
+  "SystemEventId": 208,
   "Scope": "Database",
-  "Eta": "2007-04-18T03:47:00.3005605+02:00",
-  "Eventkey": "commodi",
-  "Eventmess": "sunt",
-  "ExtraInfo": 823,
-  "Owner": 905,
-  "UpdatedCount": 46,
-  "Registered": "2004-08-24T03:47:00.3005605+02:00",
+  "Eta": "2025-08-03T02:30:52.9442767+02:00",
+  "Eventkey": "adipisci",
+  "Eventmess": "ut",
+  "ExtraInfo": 377,
+  "Owner": 799,
+  "UpdatedCount": 838,
+  "Registered": "1999-03-07T02:30:52.9442767+01:00",
   "ActivatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 886
+      "FieldType": "System.Int32",
+      "FieldLength": 880
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

@@ -14,6 +14,8 @@ POST /api/v1/Agents/Person/DeleteTemporaryKeysOfDomain
 Delete all temporary keys for a given domain and person
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -66,12 +68,12 @@ No Content
 POST /api/v1/Agents/Person/DeleteTemporaryKeysOfDomain
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Domain": "ChangePasswordCustomerCenter",
-  "PersonId": 457
+  "PersonId": 566
 }
 ```
 

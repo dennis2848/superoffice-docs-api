@@ -14,6 +14,8 @@ POST /api/v1/Agents/Selection/CreateTemporaryContactSelectionFromSelectionMember
 Creates a temporary selection with members from a collection of selectionmember id's.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -119,10 +121,10 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 326,
+  "SelectionId": 892,
   "SelectionMemberIds": [
-    941,
-    222
+    967,
+    761
   ]
 }
 ```
@@ -134,70 +136,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Optional content-based algorithm",
-  "Postit": "atque",
+  "Description": "Seamless responsive parallelism",
+  "Postit": "officia",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 963,
-  "IncludePerson": 379,
+  "GroupIdx": 361,
+  "IncludePerson": 167,
   "MemberCount": 99.99,
-  "Name": "Hermiston Group",
-  "PostitTextId": 711,
-  "CreatedDate": "2000-03-29T03:46:55.3788724+02:00",
-  "SelectionId": 558,
-  "SoundEx": "facere",
-  "Source": 761,
-  "TextId": 681,
-  "UpdatedDate": "2002-07-29T03:46:55.3788724+02:00",
-  "UpdatedCount": 991,
-  "Visibility": 25,
+  "Name": "Runolfsdottir, Crooks and Fay",
+  "PostitTextId": 208,
+  "CreatedDate": "2018-01-27T02:30:47.8350657+01:00",
+  "SelectionId": 834,
+  "SoundEx": "voluptatibus",
+  "Source": 170,
+  "TextId": 690,
+  "UpdatedDate": "2006-10-20T02:30:47.8350657+02:00",
+  "UpdatedCount": 57,
+  "Visibility": 123,
   "SelectionType": "Combined",
   "CompanyUnique": true,
-  "TargetTableNumber": 903,
-  "TargetTableName": "Kub, Hudson and Kilback",
+  "TargetTableNumber": 416,
+  "TargetTableName": "Green Group",
   "Completed": false,
-  "LeftSelectionId": 772,
-  "RightSelectionId": 74,
+  "LeftSelectionId": 800,
+  "RightSelectionId": 621,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Mraz, Hilll and Hamill",
-  "ShadowProviderName": "Rath LLC",
-  "ChartKey": "quia",
-  "LastLoaded": "2013-09-17T03:46:55.3788724+02:00",
-  "LastLoadedBy": 707,
+  "MainProviderName": "Aufderhar Group",
+  "ShadowProviderName": "Murphy LLC",
+  "ChartKey": "alias",
+  "LastLoaded": "2024-12-09T02:30:47.8350657+01:00",
+  "LastLoadedBy": 472,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2024-06-19T03:46:55.3788724+02:00",
-  "LastMembershipChangeBy": 941,
+  "LastMembershipChange": "2010-12-26T02:30:47.8350657+01:00",
+  "LastMembershipChangeBy": 366,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "inventore",
-  "MemberTabHeading": "corrupti",
-  "MailingsProviderName": "Haag, Lueilwitz and Thiel",
-  "DashboardTileDefinitionId": 55,
+  "MainHeading": "eum",
+  "MemberTabHeading": "ab",
+  "MailingsProviderName": "Pfannerstill, O'Connell and Dicki",
+  "DashboardTileDefinitionId": 747,
   "VisibleFor": [
     {
-      "VisibleId": 723,
+      "VisibleId": 417,
       "Visibility": "All",
-      "DisplayValue": "ea",
+      "DisplayValue": "laudantium",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 448
+          "FieldType": "System.Int32",
+          "FieldLength": 174
         }
       }
     },
     {
-      "VisibleId": 723,
+      "VisibleId": 417,
       "Visibility": "All",
-      "DisplayValue": "ea",
+      "DisplayValue": "laudantium",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 448
+          "FieldType": "System.Int32",
+          "FieldLength": 174
         }
       }
     }
@@ -207,7 +209,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 907
+      "FieldLength": 208
     }
   }
 }

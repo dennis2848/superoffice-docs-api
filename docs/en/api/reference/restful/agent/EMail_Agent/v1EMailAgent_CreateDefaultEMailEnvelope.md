@@ -14,6 +14,9 @@ POST /api/v1/Agents/EMail/CreateDefaultEMailEnvelope
 Loading default values into a new EMailEnvelope.
 
 
+NsApiSlow threshold: 5000 ms.
+
+
 ## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 
@@ -67,7 +70,7 @@ OK
 POST /api/v1/Agents/EMail/CreateDefaultEMailEnvelope
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -77,45 +80,45 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ServerId": 795,
-  "MessageId": "error",
-  "Subject": "consequatur",
+  "ServerId": 713,
+  "MessageId": "laudantium",
+  "Subject": "quaerat",
   "From": null,
   "To": [
     {
-      "ContactId": 842,
-      "ContactName": "Haag-Pollich",
-      "PersonId": 176,
-      "PersonName": "Boyle Inc and Sons",
-      "AssociateId": 205,
-      "Address": "nobis",
-      "EmailId": 141,
+      "ContactId": 808,
+      "ContactName": "Konopelski LLC",
+      "PersonId": 362,
+      "PersonName": "Schultz Group",
+      "AssociateId": 700,
+      "Address": "doloribus",
+      "EmailId": 419,
       "DuplicatePersonIds": [
-        999,
-        633
+        175,
+        966
       ],
-      "Name": "Hartmann, Spinka and Gerhold",
+      "Name": "Runolfsdottir, Rutherford and Schuster",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 870
+          "FieldLength": 295
         }
       }
     }
   ],
-  "Sent": "2004-04-26T03:46:54.7538824+02:00",
+  "Sent": "2020-05-07T02:30:47.2569602+02:00",
   "Priority": "High",
   "Flags": "Answered",
-  "Size": 816,
+  "Size": 996,
   "EMailSOInfo": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 36
+      "FieldLength": 679
     }
   }
 }

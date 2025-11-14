@@ -1,12 +1,15 @@
----
+﻿---
 uid: help-nl-flow-create
 title: Een nieuwe flow maken
 description: Hoe een nieuwe flow te maken en de flowinstellingen te definiëren in SuperOffice Marketing
 keywords: Marketing, flow, flow-controle, flow maken, flow-instelling
 author: Bergfrid Dias, Trude Lien Smedbråten
-date: 09.01.2025
+date: 09.26.2025
 version: 11.3
 content_type: howto
+category: marketing
+topic: flows
+license: marketingpremium
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: nl
@@ -223,7 +226,7 @@ Na het ontwerpen van een flow en het opslaan ervan, sluit de **Flow-editor** en 
 [7]: index.md#success
 [9]: step-settings.md
 [8]: ../../learn/create-folder.md
-[12]: ../../../admin/lists/learn/add-items-to-mailing-domain.md
+[12]: ../../mailing/admin/add-domain.md
 [13]: ../../../search-options/learn/search-criteria.md
 [14]: ../../../search-options/selection/learn/index.md
 

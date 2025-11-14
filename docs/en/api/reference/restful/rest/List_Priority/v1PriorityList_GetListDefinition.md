@@ -76,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 527,
-  "Name": "Block LLC",
-  "Tooltip": "dicta",
+  "Id": 827,
+  "Name": "Fahey-Rosenbaum",
+  "Tooltip": "quo",
   "Deleted": false,
-  "Rank": 401,
-  "IsCustomList": false,
-  "IsMDOList": true,
+  "Rank": 903,
+  "IsCustomList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "incidunt",
-  "InUseByUserDefinedFields": true,
+  "ListType": "rerum",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 417
+      "FieldLength": 968
     }
   },
   "_Links": {

@@ -14,6 +14,8 @@ POST /api/v1/Agents/Preference/GetFromSectionAndKey
 Gets a PreferenceDescription based on the section and key
 
 
+NsApiSlow threshold: 1000 ms.
+
 
 
 
@@ -92,12 +94,12 @@ OK
 POST /api/v1/Agents/Preference/GetFromSectionAndKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Section": "est",
-  "Key": "rem"
+  "Section": "voluptas",
+  "Key": "libero"
 }
 ```
 
@@ -108,30 +110,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 620,
-  "Section": "et",
-  "Key": "enim",
-  "Name": "Koepp, Cruickshank and Ullrich",
+  "PrefDescId": 816,
+  "Section": "dolore",
+  "Key": "deleniti",
+  "Name": "Greenfelder, Ratke and Considine",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "User-friendly fresh-thinking Graphical User Interface",
-  "IsBuiltin": false,
-  "TableName": "Rosenbaum Group",
-  "UserDefinedListId": 587,
-  "Rank": 705,
-  "SubGroup": "et",
-  "MinLevel": 178,
-  "MaxValue": 24,
-  "MinValue": 42,
-  "RequiredLicense": "ratione",
+  "Description": "Balanced local moderator",
+  "IsBuiltin": true,
+  "TableName": "Renner, Jakubowski and Schmitt",
+  "UserDefinedListId": 40,
+  "Rank": 669,
+  "SubGroup": "voluptate",
+  "MinLevel": 713,
+  "MaxValue": 478,
+  "MinValue": 40,
+  "RequiredLicense": "sed",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 941
+      "FieldType": "System.Int32",
+      "FieldLength": 85
     }
   }
 }

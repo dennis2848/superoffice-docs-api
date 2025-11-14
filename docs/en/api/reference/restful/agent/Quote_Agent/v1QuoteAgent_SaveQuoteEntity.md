@@ -15,6 +15,7 @@ Saves a QuoteEntity.
 
 
 Versions and alternatives will not be saved by this call.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -88,7 +89,7 @@ OK
 POST /api/v1/Agents/Quote/SaveQuoteEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -103,58 +104,58 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 958,
-  "SaleId": 740,
-  "QuoteConnectionId": 361,
-  "ERPQuoteKey": "ex",
-  "ERPOrderKey": "tempore",
-  "ActiveQuoteVersionId": 115,
-  "AcceptedQuoteAlternativeId": 849,
-  "UseValuesFromQuote": 940,
-  "DocumentId": 455,
-  "PoNumber": "262856",
-  "OrderComment": "officiis",
-  "PreferredEmailCulture": "ross@renner.info",
+  "QuoteId": 265,
+  "SaleId": 709,
+  "QuoteConnectionId": 356,
+  "ERPQuoteKey": "rerum",
+  "ERPOrderKey": "aut",
+  "ActiveQuoteVersionId": 897,
+  "AcceptedQuoteAlternativeId": 370,
+  "UseValuesFromQuote": 944,
+  "DocumentId": 755,
+  "PoNumber": "1104742",
+  "OrderComment": "ut",
+  "PreferredEmailCulture": "arvid@hamillreichert.com",
   "QuoteVersions": [
     {
-      "QuoteVersionId": 333,
-      "ERPQuoteVersionKey": "magni",
-      "QuoteId": 616,
-      "Description": "Cross-platform holistic customer loyalty",
-      "Number": "643332",
+      "QuoteVersionId": 283,
+      "ERPQuoteVersionKey": "in",
+      "QuoteId": 41,
+      "Description": "Profound mobile migration",
+      "Number": "1076877",
       "State": "Archived",
       "ArchivedState": "Archived",
       "Status": "Error",
       "Reason": "",
-      "LikelyQuoteAlternativeId": 612,
-      "SentDate": "2023-04-09T03:46:55.2226157+02:00",
-      "FollowupId": 376,
-      "ExpirationDate": "2011-08-12T03:46:55.2226157+02:00",
-      "DeliveryCountryId": 256,
+      "LikelyQuoteAlternativeId": 526,
+      "SentDate": "2001-01-20T02:30:47.7413192+01:00",
+      "FollowupId": 102,
+      "ExpirationDate": "2001-02-15T02:30:47.7413192+01:00",
+      "DeliveryCountryId": 827,
       "HasOwnDeliveryAddress": false,
-      "InvoiceCountryId": 71,
+      "InvoiceCountryId": 87,
       "HasOwnInvoiceAddress": true,
-      "ERPPaymentTermsKey": "qui",
-      "ERPPaymentTypeKey": "magnam",
-      "ERPDeliveryTermsKey": "vel",
-      "ERPDeliveryTypeKey": "et",
-      "Rank": 155,
-      "ApprovedBy": 411,
-      "ApprovedText": "aliquid",
-      "ApprovedRegisteredBy": 149,
-      "ApprovedRegisteredDate": "2000-04-03T03:46:55.2226157+02:00",
-      "ExtraField1": "ipsam",
-      "ExtraField2": "amet",
-      "ExtraField3": "numquam",
-      "ExtraField4": "doloremque",
-      "ExtraField5": "et",
-      "LastRecalculated": "2005-03-30T03:46:55.2226157+02:00",
-      "Updated": "2023-01-03T03:46:55.2226157+01:00",
-      "UpdatedAssociateId": 570,
-      "Registered": "2001-09-18T03:46:55.2226157+02:00",
-      "RegisteredAssociateId": 597,
-      "RequestAssociateId": 239,
-      "RequestComment": "quaerat",
+      "ERPPaymentTermsKey": "porro",
+      "ERPPaymentTypeKey": "aperiam",
+      "ERPDeliveryTermsKey": "ea",
+      "ERPDeliveryTypeKey": "hic",
+      "Rank": 448,
+      "ApprovedBy": 173,
+      "ApprovedText": "ad",
+      "ApprovedRegisteredBy": 763,
+      "ApprovedRegisteredDate": "2023-08-02T02:30:47.7413192+02:00",
+      "ExtraField1": "laboriosam",
+      "ExtraField2": "et",
+      "ExtraField3": "odit",
+      "ExtraField4": "nihil",
+      "ExtraField5": "id",
+      "LastRecalculated": "2014-10-19T02:30:47.7413192+02:00",
+      "Updated": "2024-01-01T02:30:47.7413192+01:00",
+      "UpdatedAssociateId": 959,
+      "Registered": "2024-08-06T02:30:47.7413192+02:00",
+      "RegisteredAssociateId": 729,
+      "RequestAssociateId": 746,
+      "RequestComment": "dolorem",
       "QuoteAlternatives": [
         {},
         {}
@@ -164,7 +165,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 105
+          "FieldLength": 919
         }
       }
     }
@@ -174,7 +175,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 735
+      "FieldLength": 95
     }
   }
 }

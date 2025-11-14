@@ -15,6 +15,7 @@ Get criteria information from a set of saved criteria.
 
 
 The result contains the restrictions in two forms: fully populated ArchiveRestrictionInfo objects, used to display details and for saving changes; and as a list suitable for an Archive control
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -87,14 +88,14 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "adipisci",
-  "ProviderName": "Beier, Powlowski and Nikolaus",
-  "StorageKey": "voluptas",
+  "StorageType": "aut",
+  "ProviderName": "Cartwright LLC",
+  "StorageKey": "ducimus",
   "StaticColumns": [
-    "omnis",
-    "enim"
+    "in",
+    "sit"
   ],
-  "Context": "consequatur"
+  "Context": "repellendus"
 }
 ```
 
@@ -107,81 +108,81 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Feeney-Dare",
-      "Operator": "illum",
+      "Name": "Rempel-Kunze",
+      "Operator": "vitae",
       "Values": [
-        "ipsam",
-        "alias"
+        "inventore",
+        "est"
       ],
       "DisplayValues": [
-        "consequuntur",
-        "architecto"
+        "necessitatibus",
+        "doloribus"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 922,
+      "InterParenthesis": 466,
       "InterOperator": "And",
-      "UniqueHash": 557
+      "UniqueHash": 962
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Grant LLC",
-      "DisplayTooltip": "qui",
-      "DisplayType": "minus",
+      "DisplayName": "Predovic Group",
+      "DisplayTooltip": "accusamus",
+      "DisplayType": "rem",
       "CanOrderBy": false,
-      "Name": "Bauch-Thompson",
-      "CanRestrictBy": false,
-      "RestrictionType": "itaque",
-      "RestrictionListName": "Emmerich, Deckow and Mertz",
+      "Name": "Hagenes-Ryan",
+      "CanRestrictBy": true,
+      "RestrictionType": "est",
+      "RestrictionListName": "Yost, Pfannerstill and Huels",
       "IsVisible": false,
-      "ExtraInfo": "assumenda",
-      "Width": "vel",
-      "IconHint": "fugiat",
-      "HeadingIconHint": "quo"
+      "ExtraInfo": "impedit",
+      "Width": "quae",
+      "IconHint": "iusto",
+      "HeadingIconHint": "aliquam"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Harris, Bernier and Herman",
-      "PrimaryKey": 998,
+      "EntityName": "VonRueden Inc and Sons",
+      "PrimaryKey": 48,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "ad",
-          "TooltipHint": "optio",
-          "LinkHint": "dolores"
+          "DisplayValue": "rem",
+          "TooltipHint": "omnis",
+          "LinkHint": "exercitationem"
         }
       },
-      "LinkHint": "sint",
+      "LinkHint": "odit",
       "StyleHint": "sed",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 287
+          "FieldType": "System.Int32",
+          "FieldLength": 987
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Stehr-Wolff",
-      "Description": "Polarised 3rd generation alliance",
-      "Rank": 413,
+      "Name": "Lebsack, Kertzmann and Smith",
+      "Description": "Synergistic exuding initiative",
+      "Rank": 864,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Stehr-Wolff",
-      "Description": "Polarised 3rd generation alliance",
-      "Rank": 413,
+      "Name": "Lebsack, Kertzmann and Smith",
+      "Description": "Synergistic exuding initiative",
+      "Rank": 864,
       "Restrictions": [
         {},
         {}
@@ -193,7 +194,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 793
+      "FieldLength": 495
     }
   }
 }

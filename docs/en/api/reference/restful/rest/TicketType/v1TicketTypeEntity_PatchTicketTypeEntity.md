@@ -14,7 +14,8 @@ PATCH /api/v1/TicketType/{id}
 Update a TicketTypeEntity with changes, as described in a JSON Patch or a JSON Merge Patch document.
 
 
-See <a href="https://tools.ietf.org/html/rfc6902">RFC6902</a> and <a href="https://tools.ietf.org/html/rfc7386">RFC 7396</a>. Update the Department field to "foo" can be done either as a JSON PATCH:
+See <a href="https://tools.ietf.org/html/rfc6902">RFC6902</a> and <a href="https://tools.ietf.org/html/rfc7386">RFC 7396</a>.
+NsApiSlow threshold: 5000 ms. Update the Department field to "foo" can be done either as a JSON PATCH:
 
 ```js
 
@@ -133,12 +134,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "cumque",
+    "path": "non",
     "value": {}
   },
   {
     "op": "add",
-    "path": "cumque",
+    "path": "non",
     "value": {}
   }
 ]
@@ -151,40 +152,40 @@ HTTP/1.1 200 TicketTypeEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 501,
-  "Name": "Legros, Sauer and Fay",
-  "Rank": 148,
-  "Tooltip": "aut",
-  "Icon": "occaecati",
-  "DefaultTicketStatus": 666,
+  "TicketTypeId": 561,
+  "Name": "Witting, Barton and Labadie",
+  "Rank": 420,
+  "Tooltip": "eum",
+  "Icon": "quas",
+  "DefaultTicketStatus": 447,
   "TicketStatuses": [
-    931,
-    832
+    270,
+    945
   ],
-  "DefaultTicketPriority": 574,
+  "DefaultTicketPriority": 887,
   "TicketPriorities": [
-    542,
-    66
+    130,
+    362
   ],
-  "ReplyTemplate": 488,
-  "IsExternalVisible": true,
-  "IsDefault": true,
-  "ShowInNew": false,
-  "ExcludeSignature": true,
-  "ExcludeEmailRecipients": false,
+  "ReplyTemplate": 137,
+  "IsExternalVisible": false,
+  "IsDefault": false,
+  "ShowInNew": true,
+  "ExcludeSignature": false,
+  "ExcludeEmailRecipients": true,
   "ExternalAsDefault": false,
   "VisibleForGroups": [
-    526,
-    551
+    877,
+    191
   ],
   "ReplyForwardNoSignature": false,
-  "ReplyExternalAsDefault": false,
+  "ReplyExternalAsDefault": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 873
+      "FieldType": "System.Int32",
+      "FieldLength": 426
     }
   },
   "_Links": {

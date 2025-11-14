@@ -14,6 +14,8 @@ POST /api/v1/Agents/Dash/SaveDashTiles
 Saves the ordered list of tiles for a dashboard
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -66,26 +68,26 @@ No Content
 POST /api/v1/Agents/Dash/SaveDashTiles
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 642,
+  "DashboardId": 150,
   "DashTiles": [
     {
-      "DashboardTileId": 890,
-      "DashboardId": 800,
-      "Height": 292,
-      "Width": 374,
-      "Rank": 255,
+      "DashboardTileId": 503,
+      "DashboardId": 905,
+      "Height": 962,
+      "Width": 361,
+      "Rank": 38,
       "DashTileDefinition": null
     },
     {
-      "DashboardTileId": 890,
-      "DashboardId": 800,
-      "Height": 292,
-      "Width": 374,
-      "Rank": 255,
+      "DashboardTileId": 503,
+      "DashboardId": 905,
+      "Height": 962,
+      "Width": 361,
+      "Rank": 38,
       "DashTileDefinition": null
     }
   ]

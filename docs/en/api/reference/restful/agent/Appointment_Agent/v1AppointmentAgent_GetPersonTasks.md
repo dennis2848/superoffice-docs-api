@@ -15,6 +15,7 @@ Method that returns a specified number of appointments within a time range.
 
 
 It only returns appointments that would be displayed in the user's task list. The appointments belong to the person specified. If the person not is a SuperOffice user (associate) or the logged on user is not allowed to view this persons appointments an exception is thrown.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -131,12 +132,12 @@ OK
 POST /api/v1/Agents/Appointment/GetPersonTasks
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 77,
-  "Count": 744
+  "PersonId": 906,
+  "Count": 149
 }
 ```
 
@@ -148,67 +149,67 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 305,
-    "StartDate": "2020-07-11T03:46:54.2695244+02:00",
-    "EndDate": "2021-08-12T03:46:54.2695244+02:00",
+    "AppointmentId": 370,
+    "StartDate": "2022-02-22T02:30:46.7882228+01:00",
+    "EndDate": "2006-11-01T02:30:46.7882228+01:00",
     "Type": "BookingForChecklist",
-    "Task": "neque",
-    "AssociateFullName": "Danielle Koepp",
-    "ContactName": "Mayer, Stiedemann and Jerde",
-    "Description": "Innovative 4th generation functionalities",
-    "PersonFullName": "Mrs. Annabel Gleason",
-    "PersonId": 420,
-    "ContactId": 471,
-    "ProjectId": 248,
-    "ProjectName": "Bashirian, Mraz and Rodriguez",
+    "Task": "est",
+    "AssociateFullName": "Forest Will",
+    "ContactName": "Pacocha, Cartwright and Pfeffer",
+    "Description": "Upgradable transitional concept",
+    "PersonFullName": "Prof. Rick Demetris Kulas Sr.",
+    "PersonId": 979,
+    "ContactId": 498,
+    "ProjectId": 184,
+    "ProjectName": "Kirlin, Mraz and Champlin",
     "IsPublished": false,
-    "AssociateId": 848,
-    "ColorIndex": 646,
-    "IsFree": false,
+    "AssociateId": 850,
+    "ColorIndex": 743,
+    "IsFree": true,
     "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 191,
-    "PriorityName": "Feil, Stark and Wyman",
+    "PriorityId": 821,
+    "PriorityName": "McGlynn, Lemke and Emmerich",
     "TaskType": "Appointment",
     "IsBookingMain": false,
-    "IsRecurrence": true,
+    "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "2003-01-02T03:46:54.2695244+01:00",
+    "ActiveDate": "2003-12-03T02:30:46.7882228+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2012-10-16T03:46:54.2695244+02:00",
-    "RecurringEndDate": "2017-03-14T03:46:54.2695244+01:00",
-    "MotherId": 763,
-    "AssignedBy": 196,
-    "AssignedByFullName": "Ms. Nathanial Feil",
+    "RecurringStartDate": "2025-06-19T02:30:46.7882228+02:00",
+    "RecurringEndDate": "2003-08-28T02:30:46.7882228+02:00",
+    "MotherId": 258,
+    "AssignedBy": 877,
+    "AssignedByFullName": "Stephan Citlalli Kerluke Jr.",
     "RejectReason": "",
-    "Location": "rerum",
-    "AlarmLeadTime": "quia",
-    "SaleId": 402,
-    "SaleName": "Marquardt-Carroll",
-    "AssociateName": "Shanahan, Breitenberg and Mante",
-    "CreatedDate": "2016-03-09T03:46:54.2695244+01:00",
-    "CreatedBy": "numquam",
-    "CreatedByFullName": "Sebastian Ebert",
-    "CreatedByAssociateId": 189,
+    "Location": "aperiam",
+    "AlarmLeadTime": "similique",
+    "SaleId": 522,
+    "SaleName": "Collins, Gutkowski and Bogisich",
+    "AssociateName": "Green Inc and Sons",
+    "CreatedDate": "2001-02-09T02:30:46.7882228+01:00",
+    "CreatedBy": "omnis",
+    "CreatedByFullName": "Prof. Oswald Emelia Senger Sr.",
+    "CreatedByAssociateId": 92,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "OwnedExternally": "Google",
-    "MotherAssociateId": 56,
+    "MotherAssociateId": 22,
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 981,
-    "Title": "voluptatum",
-    "Agenda": "eaque",
-    "InternalNotes": "cumque",
+    "PreferredTZLocation": 778,
+    "Title": "eligendi",
+    "Agenda": "unde",
+    "InternalNotes": "tenetur",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 154
+        "FieldType": "System.Int32",
+        "FieldLength": 605
       }
     }
   }

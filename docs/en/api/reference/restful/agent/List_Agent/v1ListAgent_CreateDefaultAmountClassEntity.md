@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/CreateDefaultAmountClassEntity
 Loading default values into a new AmountClassEntity.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -63,7 +65,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultAmountClassEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -73,20 +75,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AmountClassId": 242,
-  "Name": "Johnson-Kilback",
-  "Tooltip": "ex",
-  "Rank": 327,
-  "AmountFrom": 11448.502,
-  "AmountTo": 23357.701999999997,
-  "Deleted": false,
-  "CurrencyId": 333,
+  "AmountClassId": 974,
+  "Name": "Smitham-Baumbach",
+  "Tooltip": "perspiciatis",
+  "Rank": 287,
+  "AmountFrom": 13071.913999999999,
+  "AmountTo": 7430.714,
+  "Deleted": true,
+  "CurrencyId": 468,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 295
+      "FieldType": "System.Int32",
+      "FieldLength": 884
     }
   }
 }

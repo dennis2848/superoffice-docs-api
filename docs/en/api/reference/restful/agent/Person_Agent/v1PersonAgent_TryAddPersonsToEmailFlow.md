@@ -14,6 +14,8 @@ POST /api/v1/Agents/Person/TryAddPersonsToEmailFlow
 Try to add a participant to the EmailFlow, Same function available in WorkflowAgent
 
 
+NsApiSlow threshold: 1000 ms.
+
 
 
 
@@ -74,10 +76,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailFlowId": 798,
+  "EmailFlowId": 327,
   "PersonIds": [
-    17,
-    140
+    137,
+    669
   ]
 }
 ```
@@ -89,7 +91,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  false,
+  true,
   false
 ]
 ```

@@ -14,6 +14,8 @@ POST /api/v1/Agents/Quote/CopyQuoteAlternative
 Copy a quote alternative from the same sale and adds it to a version.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -98,13 +100,13 @@ OK
 POST /api/v1/Agents/Quote/CopyQuoteAlternative
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 949,
-  "QuoteAlternativeId": 920,
-  "QuoteAlternativeName": "Kessler-Hintz"
+  "QuoteVersionId": 965,
+  "QuoteAlternativeId": 74,
+  "QuoteAlternativeName": "Brakus Group"
 }
 ```
 
@@ -115,35 +117,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 639,
-  "ERPQuoteAlternativeKey": "atque",
-  "QuoteVersionId": 322,
-  "Name": "Marquardt, Kerluke and Olson",
-  "Description": "User-centric fresh-thinking challenge",
+  "QuoteAlternativeId": 498,
+  "ERPQuoteAlternativeKey": "ea",
+  "QuoteVersionId": 144,
+  "Name": "Zboncak Group",
+  "Description": "Mandatory eco-centric strategy",
   "Status": "Error",
-  "Reason": "optimize front-end paradigms",
-  "ERPDiscountPercent": 7512.1979999999994,
-  "ERPDiscountAmount": 28412.843999999997,
-  "DiscountPercent": 10207.438,
-  "DiscountAmount": 18647.3,
+  "Reason": "",
+  "ERPDiscountPercent": 8173.472,
+  "ERPDiscountAmount": 1899.204,
+  "DiscountPercent": 27701.426,
+  "DiscountAmount": 15234.374,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "omnis",
-  "VAT": 26497.969999999998,
-  "EarningPercent": 18321.363999999998,
-  "EarningAmount": 16882.858,
-  "SubTotal": 24733.528,
-  "TotalPrice": 12504.66,
-  "ExtraField1": "natus",
-  "ExtraField2": "labore",
-  "ExtraField3": "ut",
-  "ExtraField4": "commodi",
-  "ExtraField5": "repudiandae",
+  "VATInfo": "aut",
+  "VAT": 12410.64,
+  "EarningPercent": 25833.561999999998,
+  "EarningAmount": 30822.89,
+  "SubTotal": 2259.614,
+  "TotalPrice": 7737.846,
+  "ExtraField1": "illo",
+  "ExtraField2": "quas",
+  "ExtraField3": "dignissimos",
+  "ExtraField4": "et",
+  "ExtraField5": "et",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 499
+      "FieldLength": 458
     }
   }
 }

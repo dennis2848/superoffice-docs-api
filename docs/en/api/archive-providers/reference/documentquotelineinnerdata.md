@@ -151,7 +151,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |alternative/version/quote/sale/earning|decimal|Sale - Profit: Gross profit (gross sales total - cost) for the sale| x |
 |alternative/version/quote/sale/earningPercent|decimal|Sale - Profit as %: The profit as a percentage of the gross sales total| x |
 |alternative/version/quote/sale/probPercent|int|Sale - Probability as %: Probability as %| x |
-|alternative/version/quote/sale/originalStage|listAny|Sale - Stage: Displays the stage of the sale| x |
+|alternative/version/quote/sale/originalStage|listAny|Sale - Stage when closed: Stage when closed| x |
 |alternative/version/quote/sale/stage|listAny|Sale - Stage: Displays the stage of the sale| x |
 |alternative/version/quote/sale/stageName| *None* |Sale - Stage name: Displays the stage of the sale| x |
 |alternative/version/quote/sale/saleStatus|listAny|Sale - Status: The status of the sale - open, lost or sold| x |
@@ -173,6 +173,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |alternative/version/quote/sale/createdByWorkflow|listAny|Sale - Created by flow: Created by flow| x |
 |alternative/version/quote/sale/amountInBaseCurrency| *None* |Sale - Amount (BaseCurrency): The gross sales total| x |
 |alternative/version/quote/sale/amountWeightedInBaseCurrency| *None* |Sale - Weighted amount (BaseCurrency): Virtual field calculated from amount * probability percent.| x |
+|alternative/version/quote/sale/daysInStage| *None* |Sale - Days in stage: Total number of days in this stage| x |
 |alternative/version/quote/sale/visibleFor|listAny|Sale - Visible for|  |
 |alternative/version/quote/sale/sale/textId|int|Sale - Text ID| x |
 |alternative/version/quote/sale/sale/description|positiveString|Sale - Text: Displays the text entered in the description field| x |
@@ -197,7 +198,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |alternative/version/quote/sale/associate/assocType|listAny|Sale - Type: Type of user: associate, external user, system user, anonymous account| x |
 |alternative/version/quote/sale/associate/ejUserId|int|Sale - Service user ID: The database ID of a Service user|  |
 |alternative/version/quote/sale/associate/simultaneousEjUser|bool|Sale - Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|alternative/version/quote/sale/associate/ejDisplayName|string|Sale - Nick name: User's nick name in Service| x |
+|alternative/version/quote/sale/associate/ejDisplayName|string|Sale - Nickname: User's nickname in Service| x |
 |alternative/version/quote/sale/associate/ejStatus|int|Sale - Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |alternative/version/quote/sale/associate/credentialType| *None* |Sale - Auth. type: What type of credentials to use when this user logs in| x |
 |alternative/version/quote/sale/associate/credentialDisplayValue| *None* |Sale - Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
@@ -222,11 +223,11 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |alternative/version/quote/connection/allAccess|bool|ERP connection - Unrestricted: There are no access restrictions on this ERP connection| x |
 |alternative/version/quote/connection/erpName|int|ERP connection - ERP name: Name of ERP system| x |
 |alternative/version/quote/connection/displayName|string|ERP connection - Name: Localized display name| x |
-|alternative/version/quote/connection/displayDescription|string|ERP connection - Description: Describes the connection in more detail.| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|alternative/version/quote/connection/displayDescription|string|ERP connection - Description: Describes the connection in more detail.| x |
 |alternative/version/quote/connection/connectorName|string|ERP connection - Quote Connector name: Name of Quote Connector module. Defined by the developer of the module.| x |
 |alternative/version/quote/connection/extraData|string|ERP connection - Extra data: XML encoded data.| x |
 |alternative/version/quote/connection/updatedBy|associate|ERP connection - Updated by: The user who last updated the data| x |
@@ -256,7 +257,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/DocumentQuoteLineInnerData?$select=alternative/version/state,alternative/version/quote/sale/registeredBy
+GET /api/v1/archive/DocumentQuoteLineInnerData?$select=alternative/version/status,alternative/version/quote/sale/registeredBy
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

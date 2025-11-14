@@ -15,6 +15,7 @@ Execute a Find operation and return a page of results.
 
 
 The criteria for the Find are fetched from the restriction storage provider according to the given parameters. In addition an extra set of restrictions can be added to the search. These restrictions will not be saved, they are only valid for the current search. Extra restrictions will override restrictions with the same key already stored on the storagekey.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -85,52 +86,52 @@ OK
 POST /api/v1/Agents/Find/FindWithExtraRestrictions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "officia",
-  "ProviderName": "Schulist-Leannon",
-  "StorageKey": "perspiciatis",
+  "StorageType": "quia",
+  "ProviderName": "Jerde-Zieme",
+  "StorageKey": "sunt",
   "ExtraRestrictions": [
     {
-      "Name": "Jenkins-Lockman",
-      "Operator": "sit",
+      "Name": "Bauch-Dare",
+      "Operator": "inventore",
       "Values": [
-        "in",
-        "repellendus"
+        "quidem",
+        "consequatur"
       ],
       "DisplayValues": [
-        "doloribus",
-        "numquam"
+        "iusto",
+        "quidem"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 335,
+      "InterParenthesis": 526,
       "InterOperator": "And",
-      "UniqueHash": 308
+      "UniqueHash": 898
     }
   ],
   "OrderBy": [
     {
-      "Name": "Cummerata-Romaguera",
+      "Name": "Ankunding, Cormier and Larson",
       "Direction": "ASC"
     },
     {
-      "Name": "Cummerata-Romaguera",
+      "Name": "Ankunding, Cormier and Larson",
       "Direction": "ASC"
     }
   ],
   "DesiredColumns": [
-    "et",
-    "sunt"
+    "officiis",
+    "quod"
   ],
-  "PageSize": 442,
-  "PageNumber": 454
+  "PageSize": 445,
+  "PageNumber": 18
 }
 ```
 
@@ -143,51 +144,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Gleason-Haley",
-      "DisplayTooltip": "et",
-      "DisplayType": "quia",
+      "DisplayName": "Jacobson Group",
+      "DisplayTooltip": "laborum",
+      "DisplayType": "corrupti",
       "CanOrderBy": false,
-      "Name": "Kutch-Hodkiewicz",
-      "CanRestrictBy": false,
-      "RestrictionType": "quis",
-      "RestrictionListName": "Kuphal-Abbott",
-      "IsVisible": true,
-      "ExtraInfo": "vel",
-      "Width": "est",
-      "IconHint": "officia",
-      "HeadingIconHint": "voluptas"
+      "Name": "Beer-Treutel",
+      "CanRestrictBy": true,
+      "RestrictionType": "excepturi",
+      "RestrictionListName": "Pollich, Kunze and Pfeffer",
+      "IsVisible": false,
+      "ExtraInfo": "et",
+      "Width": "eligendi",
+      "IconHint": "sit",
+      "HeadingIconHint": "cupiditate"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Prosacco Inc and Sons",
-      "PrimaryKey": 725,
+      "EntityName": "Bednar, Ullrich and Grimes",
+      "PrimaryKey": 940,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "maiores",
-          "TooltipHint": "magni",
-          "LinkHint": "est"
+          "DisplayValue": "iste",
+          "TooltipHint": "rerum",
+          "LinkHint": "aut"
         }
       },
-      "LinkHint": "sed",
-      "StyleHint": "qui",
+      "LinkHint": "consectetur",
+      "StyleHint": "est",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 945
+          "FieldType": "System.String",
+          "FieldLength": 383
         }
       }
     }
   ],
-  "RowCount": 581,
+  "RowCount": 905,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 417
+      "FieldLength": 137
     }
   }
 }

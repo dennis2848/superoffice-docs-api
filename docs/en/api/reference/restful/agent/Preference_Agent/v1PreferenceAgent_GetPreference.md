@@ -14,6 +14,8 @@ POST /api/v1/Agents/Preference/GetPreference
 Get a preference by id
 
 
+NsApiSlow threshold: 1000 ms.
+
 
 
 
@@ -84,11 +86,11 @@ OK
 POST /api/v1/Agents/Preference/GetPreference
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 320
+  "Id": 747
 }
 ```
 
@@ -100,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "qui",
+  "RawValue": "sequi",
   "Specification": null,
-  "DisplayValue": "et",
-  "DisplayTooltip": "fuga",
+  "DisplayValue": "consequuntur",
+  "DisplayTooltip": "vel",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 872,
-  "PrefDescId": 589,
-  "TableName": "Miller-Dare",
-  "UserPreferenceId": 944,
+  "TargetId": 463,
+  "PrefDescId": 324,
+  "TableName": "Reichert LLC",
+  "UserPreferenceId": 760,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 419
+      "FieldType": "System.String",
+      "FieldLength": 509
     }
   }
 }

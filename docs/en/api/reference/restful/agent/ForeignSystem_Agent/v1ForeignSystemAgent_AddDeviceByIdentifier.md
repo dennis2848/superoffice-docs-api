@@ -14,6 +14,8 @@ POST /api/v1/Agents/ForeignSystem/AddDeviceByIdentifier
 Adds a new ForeignDevice with deviceName that belongs to the application with applicationName, with an optional device-specific identifier.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -84,13 +86,13 @@ OK
 POST /api/v1/Agents/ForeignSystem/AddDeviceByIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Effertz, Jacobson and Labadie",
-  "DeviceName": "Durgan-Roob",
-  "DeviceIdentifier": "qui"
+  "ApplicationName": "Okuneva, Gulgowski and Keebler",
+  "DeviceName": "Parker-Blanda",
+  "DeviceIdentifier": "deleniti"
 }
 ```
 
@@ -101,21 +103,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 763,
-  "Name": "Rath Group",
-  "CreatedDate": "2004-11-27T03:46:54.8788782+01:00",
-  "UpdatedDate": "2016-12-02T03:46:54.8788782+01:00",
-  "AssociateFullName": "Emie Hilll",
-  "CreatedBy": "nihil",
-  "UpdatedBy": "doloribus",
-  "DeviceIdentifier": "nesciunt",
-  "ForeignAppId": 31,
+  "ForeignDeviceId": 188,
+  "Name": "Ullrich-Bergstrom",
+  "CreatedDate": "2019-05-03T02:30:47.366331+02:00",
+  "UpdatedDate": "2023-01-27T02:30:47.366331+01:00",
+  "AssociateFullName": "Mr. Lexus Steve Murazik",
+  "CreatedBy": "cumque",
+  "UpdatedBy": "beatae",
+  "DeviceIdentifier": "et",
+  "ForeignAppId": 182,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 676
+      "FieldType": "System.String",
+      "FieldLength": 247
     }
   }
 }

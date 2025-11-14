@@ -14,6 +14,8 @@ POST /api/v1/Agents/Preference/GetPreferenceByName
 Get a preference by name
 
 
+NsApiSlow threshold: 1000 ms.
+
 
 
 
@@ -90,8 +92,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefSection": "distinctio",
-  "PrefKey": "dolorem",
+  "PrefSection": "incidunt",
+  "PrefKey": "quas",
   "PrefLevel": "Database"
 }
 ```
@@ -104,22 +106,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "et",
+  "RawValue": "quo",
   "Specification": null,
-  "DisplayValue": "quisquam",
-  "DisplayTooltip": "quia",
+  "DisplayValue": "et",
+  "DisplayTooltip": "et",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 878,
-  "PrefDescId": 373,
-  "TableName": "Raynor Inc and Sons",
-  "UserPreferenceId": 463,
+  "TargetId": 169,
+  "PrefDescId": 536,
+  "TableName": "Kemmer, Gerhold and Herzog",
+  "UserPreferenceId": 147,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 310
+      "FieldLength": 948
     }
   }
 }

@@ -15,6 +15,7 @@ Store document content from stream.
 
 
 Since there is a potential for a name conflict (the file name stored by the document entity earlier may prove to be invalid), the (possibly amended) document entity is returned. The client should not assume that any earlier, cached entity information is valid.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -110,11 +111,11 @@ OK
 POST /api/v1/Agents/Document/SetDocumentStreamFromId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 682,
+  "DocumentId": 45,
   "Stream": "GIF89....File contents as raw bytes..."
 }
 ```
@@ -126,88 +127,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 503,
+  "DocumentId": 87,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "commodi",
-  "Header": "ullam",
-  "Name": "McKenzie-Doyle",
-  "OurRef": "aperiam",
-  "YourRef": "voluptatem",
-  "CreatedDate": "2009-12-21T03:46:54.6913844+01:00",
-  "UpdatedDate": "2003-04-20T03:46:54.6913844+02:00",
-  "Description": "Ergonomic optimizing moratorium",
+  "Attention": "esse",
+  "Header": "neque",
+  "Name": "Williamson-Ortiz",
+  "OurRef": "quidem",
+  "YourRef": "fugit",
+  "CreatedDate": "2024-09-30T02:30:47.2100867+02:00",
+  "UpdatedDate": "2001-12-20T02:30:47.2100867+01:00",
+  "Description": "Profit-focused global emulation",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2022-05-06T03:46:54.707009+02:00",
-  "ExternalRef": "porro",
+  "Date": "2019-12-20T02:30:47.2257111+01:00",
+  "ExternalRef": "in",
   "Completed": "Completed",
-  "ActiveLinks": 973,
+  "ActiveLinks": 730,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Macejkovic Group",
-      "Id": 143,
-      "Description": "Phased coherent product",
-      "ExtraInfo": "totam",
-      "LinkId": 942,
+      "EntityName": "Moore Inc and Sons",
+      "Id": 973,
+      "Description": "User-centric systemic hardware",
+      "ExtraInfo": "eum",
+      "LinkId": 407,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 493
+          "FieldLength": 527
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 471,
-  "Snum": 963,
+  "SuggestedDocumentId": 696,
+  "Snum": 435,
   "UserDefinedFields": {
-    "SuperOffice:1": "Vena Fahey",
-    "SuperOffice:2": "Miss Eloy Spencer Stiedemann Sr."
+    "SuperOffice:1": "1478654446",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "et",
-    "ExtraFields2": "rerum"
+    "ExtraFields1": "vel",
+    "ExtraFields2": "aliquam"
   },
   "CustomFields": {
-    "CustomFields1": "voluptatem",
-    "CustomFields2": "voluptatum"
+    "CustomFields1": "ullam",
+    "CustomFields2": "non"
   },
-  "PublishEventDate": "2021-04-18T03:46:54.707009+02:00",
-  "PublishTo": "2024-10-22T03:46:54.707009+02:00",
-  "PublishFrom": "2005-01-25T03:46:54.707009+01:00",
-  "IsPublished": true,
+  "PublishEventDate": "2013-03-09T02:30:47.2257111+01:00",
+  "PublishTo": "2023-05-04T02:30:47.2257111+02:00",
+  "PublishFrom": "2005-03-31T02:30:47.2257111+02:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 273,
+      "VisibleId": 851,
       "Visibility": "All",
-      "DisplayValue": "numquam",
+      "DisplayValue": "voluptatem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 423
+          "FieldLength": 312
         }
       }
     },
     {
-      "VisibleId": 273,
+      "VisibleId": 851,
       "Visibility": "All",
-      "DisplayValue": "numquam",
+      "DisplayValue": "voluptatem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 423
+          "FieldLength": 312
         }
       }
     }
@@ -217,7 +218,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 482
+      "FieldLength": 239
     }
   }
 }

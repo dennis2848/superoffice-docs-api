@@ -30,8 +30,8 @@ Returns all webhooks, according to filter criteria
 | statusFilter | Enum: Unknown, Active, Stopped, TooManyErrors |  Only return hooks with this status. Default Unknown = no filter, returns all. |
 
 ```http
-GET /api/v1/Webhook?nameFilter=aut
-GET /api/v1/Webhook?eventFilter=assumenda
+GET /api/v1/Webhook?nameFilter=quia
+GET /api/v1/Webhook?eventFilter=consequatur
 GET /api/v1/Webhook?statusFilter=Active
 ```
 
@@ -83,7 +83,7 @@ OK
 GET /api/v1/Webhook
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -94,28 +94,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebhookId": 562,
-    "Name": "Ryan, Parker and Rempel",
+    "WebhookId": 673,
+    "Name": "Torphy Inc and Sons",
     "Events": [
-      "modi",
-      "unde"
+      "ex",
+      "qui"
     ],
     "TargetUrl": "http://www.example.com/",
-    "Secret": "placeat",
+    "Secret": "hic",
     "State": "Active",
-    "Type": "magnam",
+    "Type": "explicabo",
     "Headers": {
-      "Headers1": "fugit",
-      "Headers2": "quos"
+      "Headers1": "rerum",
+      "Headers2": "minus"
     },
     "Properties": {
       "fieldName": {}
     },
-    "Registered": "2001-05-04T03:47:00.5505518+02:00",
+    "Registered": "2017-08-11T02:30:53.1786436+02:00",
     "RegisteredAssociate": null,
-    "Updated": "2015-09-28T03:47:00.5505518+02:00",
+    "Updated": "2016-04-07T02:30:53.1786436+02:00",
     "UpdatedAssociate": null,
-    "ErrorsEmail": "marquis@okon.ca"
+    "ErrorsEmail": "jaiden_zieme@lesch.co.uk"
   }
 ]
 ```

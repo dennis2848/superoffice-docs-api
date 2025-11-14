@@ -15,6 +15,7 @@ Returns an array of phone list items with the in-parameter as restriction.
 
 
 The in-parameter must be a valid department id (UserGroupId).
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -85,11 +86,11 @@ OK
 POST /api/v1/Agents/PhoneList/GetDepartmentPhones
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DepartmentId": 864
+  "DepartmentId": 322
 }
 ```
 
@@ -101,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "1-028-253-8280 x2430",
-    "PersonCellPhone": "1-257-737-8496",
-    "PersonPrivatePhone": "(404)825-4615 x7826",
-    "PersonFaxNumber": "1427227",
-    "PersonPagerNumber": "1134951",
-    "PersonEmail": "lenore_rempel@dietrichzboncak.biz",
-    "Id": 580,
-    "Name": "Bosco, Brakus and Sporer",
-    "Tooltip": "saepe",
-    "UniqueId": "autem",
+    "PersonDirectPhone": "(188)205-0612 x34848",
+    "PersonCellPhone": "348-790-2731 x932",
+    "PersonPrivatePhone": "718.997.1109",
+    "PersonFaxNumber": "447169",
+    "PersonPagerNumber": "1212573",
+    "PersonEmail": "olin@kohler.name",
+    "Id": 655,
+    "Name": "Mraz-Becker",
+    "Tooltip": "voluptatem",
+    "UniqueId": "et",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 501
+        "FieldLength": 191
       }
     }
   }

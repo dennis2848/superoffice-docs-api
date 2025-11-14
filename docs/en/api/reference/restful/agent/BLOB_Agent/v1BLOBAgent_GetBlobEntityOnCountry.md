@@ -14,6 +14,8 @@ POST /api/v1/Agents/BLOB/GetBlobEntityOnCountry
 Gets the blob entity that represents the country flag binary object.
 
 
+NsApiSlow threshold: 3000 ms.
+
 
 
 
@@ -86,11 +88,11 @@ OK
 POST /api/v1/Agents/BLOB/GetBlobEntityOnCountry
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 624
+  "CountryId": 197
 }
 ```
 
@@ -101,25 +103,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 627,
-  "BlobSize": 369,
-  "Description": "Open-source holistic service-desk",
-  "ExtraInfo": "modi",
-  "IsEncrypted": true,
-  "IsZipped": false,
-  "MimeType": "saepe",
-  "OriginalSize": 995,
-  "CreatedDate": "2000-01-16T03:46:54.3163903+01:00",
-  "UpdatedDate": "2019-08-26T03:46:54.3163903+02:00",
+  "BlobId": 745,
+  "BlobSize": 415,
+  "Description": "Digitized multimedia budgetary management",
+  "ExtraInfo": "ducimus",
+  "IsEncrypted": false,
+  "IsZipped": true,
+  "MimeType": "delectus",
+  "OriginalSize": 651,
+  "CreatedDate": "2007-06-20T02:30:46.8350962+02:00",
+  "UpdatedDate": "2018-11-06T02:30:46.8350962+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "repudiandae",
+  "ConceptualType": "et",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 179
+      "FieldType": "System.String",
+      "FieldLength": 454
     }
   }
 }

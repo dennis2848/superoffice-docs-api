@@ -15,6 +15,7 @@ Set default values into a new DashTheme.
 
 
 NetServer calculates default values on the entity, which is required when creating/storing a new instance Calls the Dash agent service CreateDefaultDashTheme.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -63,7 +64,7 @@ OK
 GET /api/v1/DashTheme/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +74,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 77,
-  "Name": "Konopelski-Emmerich",
-  "Config": "porro",
-  "Rank": 843,
-  "Client": "cum",
-  "Style": "assumenda",
+  "DashboardThemeId": 483,
+  "Name": "Kertzmann LLC",
+  "Config": "incidunt",
+  "Rank": 228,
+  "Client": "neque",
+  "Style": "libero",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 425
+      "FieldType": "System.String",
+      "FieldLength": 296
     }
   }
 }

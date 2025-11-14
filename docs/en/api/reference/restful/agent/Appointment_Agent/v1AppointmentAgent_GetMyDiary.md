@@ -15,6 +15,7 @@ Method that returns a specified number of appointments within a time range.
 
 
 It only returns appointments that would be displayed in the user's diary. The appointments belong to the currently logged on user.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -132,13 +133,13 @@ OK
 POST /api/v1/Agents/Appointment/GetMyDiary
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StartTime": "2011-04-29T03:46:54.2695244+02:00",
-  "EndTime": "2009-10-10T03:46:54.2695244+02:00",
-  "Count": 175
+  "StartTime": "1998-12-24T02:30:46.7882228+01:00",
+  "EndTime": "2016-10-05T02:30:46.7882228+02:00",
+  "Count": 637
 }
 ```
 
@@ -150,67 +151,67 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 116,
-    "StartDate": "2004-01-05T03:46:54.2695244+01:00",
-    "EndDate": "2011-04-08T03:46:54.2695244+02:00",
+    "AppointmentId": 332,
+    "StartDate": "2007-07-28T02:30:46.7882228+02:00",
+    "EndDate": "2013-10-16T02:30:46.7882228+02:00",
     "Type": "BookingForChecklist",
-    "Task": "ad",
-    "AssociateFullName": "Wilhelm Deshaun Fadel V",
-    "ContactName": "Herzog-Schoen",
-    "Description": "Optional multi-tasking solution",
-    "PersonFullName": "Destinee Mills",
-    "PersonId": 456,
-    "ContactId": 842,
-    "ProjectId": 809,
-    "ProjectName": "O'Hara-Bode",
+    "Task": "iusto",
+    "AssociateFullName": "Marion Bauch",
+    "ContactName": "Nienow Inc and Sons",
+    "Description": "Operative neutral process improvement",
+    "PersonFullName": "Dagmar Heidenreich PhD",
+    "PersonId": 92,
+    "ContactId": 626,
+    "ProjectId": 434,
+    "ProjectName": "Ebert-Ondricka",
     "IsPublished": false,
-    "AssociateId": 200,
-    "ColorIndex": 839,
+    "AssociateId": 781,
+    "ColorIndex": 45,
     "IsFree": false,
-    "HasAlarm": true,
+    "HasAlarm": false,
     "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 757,
-    "PriorityName": "McDermott Group",
+    "PriorityId": 290,
+    "PriorityName": "Reinger-Harber",
     "TaskType": "Appointment",
     "IsBookingMain": false,
-    "IsRecurrence": true,
+    "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "2006-09-28T03:46:54.2695244+02:00",
+    "ActiveDate": "2024-06-12T02:30:46.7882228+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2015-09-05T03:46:54.2695244+02:00",
-    "RecurringEndDate": "1999-06-04T03:46:54.2695244+02:00",
-    "MotherId": 691,
-    "AssignedBy": 439,
-    "AssignedByFullName": "Dr. Mohammed Bert Reichert PhD",
-    "RejectReason": "",
-    "Location": "ut",
-    "AlarmLeadTime": "est",
-    "SaleId": 674,
-    "SaleName": "Okuneva Group",
-    "AssociateName": "Daugherty Group",
-    "CreatedDate": "2009-05-08T03:46:54.2695244+02:00",
-    "CreatedBy": "nostrum",
-    "CreatedByFullName": "Marlin Cartwright",
-    "CreatedByAssociateId": 244,
+    "RecurringStartDate": "2020-09-17T02:30:46.7882228+02:00",
+    "RecurringEndDate": "2002-03-04T02:30:46.7882228+01:00",
+    "MotherId": 697,
+    "AssignedBy": 956,
+    "AssignedByFullName": "Alden Fritsch",
+    "RejectReason": "drive proactive ROI",
+    "Location": "quod",
+    "AlarmLeadTime": "minus",
+    "SaleId": 665,
+    "SaleName": "Abbott, Schmidt and Mayer",
+    "AssociateName": "Zieme LLC",
+    "CreatedDate": "2017-04-18T02:30:46.7882228+02:00",
+    "CreatedBy": "maiores",
+    "CreatedByFullName": "Trent Mayert IV",
+    "CreatedByAssociateId": 901,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "OwnedExternally": "Google",
-    "MotherAssociateId": 778,
+    "MotherAssociateId": 626,
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 979,
-    "Title": "ut",
-    "Agenda": "cupiditate",
-    "InternalNotes": "odit",
+    "PreferredTZLocation": 488,
+    "Title": "iure",
+    "Agenda": "aliquam",
+    "InternalNotes": "non",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 734
+        "FieldLength": 278
       }
     }
   }

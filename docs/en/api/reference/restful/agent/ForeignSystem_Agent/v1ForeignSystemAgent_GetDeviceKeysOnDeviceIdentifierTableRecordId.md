@@ -14,6 +14,8 @@ POST /api/v1/Agents/ForeignSystem/GetDeviceKeysOnDeviceIdentifierTableRecordId
 Returns all ForeignKeys that belong to a device with a given deviceIdentifier and table name, as well as record id.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -89,11 +91,11 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Kuvalis, Goyette and Gutkowski",
-  "DeviceName": "Cummings-Bechtelar",
-  "DeviceIdentifier": "vero",
-  "TableName": "Herman, Crona and Schaefer",
-  "RecordId": 812
+  "ApplicationName": "Hackett Inc and Sons",
+  "DeviceName": "VonRueden Inc and Sons",
+  "DeviceIdentifier": "debitis",
+  "TableName": "Greenfelder-Swift",
+  "RecordId": 768
 }
 ```
 
@@ -105,20 +107,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "vitae",
-    "Value": "omnis",
-    "RecordId": 459,
-    "CreatedDate": "2014-12-06T03:46:54.9107593+01:00",
-    "UpdatedDate": "2017-12-03T03:46:54.9107593+01:00",
-    "UpdatedBy": "tenetur",
-    "CreatedBy": "omnis",
-    "TableName": "Haley Inc and Sons",
+    "Key": "expedita",
+    "Value": "error",
+    "RecordId": 838,
+    "CreatedDate": "2020-12-08T02:30:47.366331+01:00",
+    "UpdatedDate": "2020-06-26T02:30:47.366331+02:00",
+    "UpdatedBy": "magni",
+    "CreatedBy": "asperiores",
+    "TableName": "Blick, Turcotte and Fadel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 476
+        "FieldType": "System.String",
+        "FieldLength": 771
       }
     }
   }

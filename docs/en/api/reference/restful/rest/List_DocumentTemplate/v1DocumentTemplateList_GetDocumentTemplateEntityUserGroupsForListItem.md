@@ -76,7 +76,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -87,56 +87,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 659,
-    "Name": "Russel Inc and Sons",
-    "ToolTip": "Assumenda et consequatur magnam ea magnam veritatis suscipit.",
+    "Id": 304,
+    "Name": "Langosh Group",
+    "ToolTip": "Rerum et sunt.",
     "Deleted": false,
-    "Rank": 72,
-    "Type": "quo",
-    "ColorBlock": 100,
-    "IconHint": "et",
+    "Rank": 838,
+    "Type": "sint",
+    "ColorBlock": 504,
+    "IconHint": "omnis",
     "Selected": false,
-    "LastChanged": "2021-01-23T03:47:00.6599229+01:00",
+    "LastChanged": "2008-05-02T02:30:53.288015+02:00",
     "ChildItems": [
       {
-        "Id": 718,
-        "Name": "Marks, Strosin and Kunze",
-        "ToolTip": "Similique incidunt deserunt ex est.",
+        "Id": 166,
+        "Name": "Jaskolski LLC",
+        "ToolTip": "Voluptatem fuga.",
         "Deleted": true,
-        "Rank": 242,
-        "Type": "sed",
-        "ColorBlock": 943,
-        "IconHint": "nemo",
-        "Selected": false,
-        "LastChanged": "2008-03-05T03:47:00.6599229+01:00",
+        "Rank": 446,
+        "Type": "nam",
+        "ColorBlock": 781,
+        "IconHint": "et",
+        "Selected": true,
+        "LastChanged": "2020-09-27T02:30:53.288015+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "qui",
-        "StyleHint": "amet",
-        "Hidden": false,
-        "FullName": "Mrs. Chadd Kreiger MD",
+        "ExtraInfo": "dolor",
+        "StyleHint": "nostrum",
+        "Hidden": true,
+        "FullName": "Abbey Kunde",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 844
+            "FieldLength": 672
           }
         }
       }
     ],
-    "ExtraInfo": "modi",
-    "StyleHint": "in",
-    "Hidden": false,
-    "FullName": "Cathrine Windler",
+    "ExtraInfo": "consequatur",
+    "StyleHint": "quam",
+    "Hidden": true,
+    "FullName": "Miss Ewell Fahey DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 745
+        "FieldType": "System.Int32",
+        "FieldLength": 211
       }
     }
   }

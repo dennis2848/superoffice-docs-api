@@ -14,6 +14,8 @@ POST /api/v1/Agents/MDO/GetListWithHistory
 Method to get a MDO list with own history list.
 
 
+NsApiSlow threshold: 1700 ms.
+
 
 
 
@@ -89,18 +91,18 @@ OK
 POST /api/v1/Agents/MDO/GetListWithHistory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Kihn, Towne and Reinger",
-  "ForceFlatList": true,
-  "AdditionalInfo": "eligendi",
+  "Name": "Hahn-Rogahn",
+  "ForceFlatList": false,
+  "AdditionalInfo": "et",
   "HistoryItems": [
-    856,
-    300
+    694,
+    410
   ],
-  "OnlyHistory": false
+  "OnlyHistory": true
 }
 ```
 
@@ -112,50 +114,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 798,
-    "Name": "Pouros-Bogan",
-    "ToolTip": "Ipsa incidunt.",
-    "Deleted": false,
-    "Rank": 23,
-    "Type": "aut",
+    "Id": 51,
+    "Name": "Mann, Hoeger and Macejkovic",
+    "ToolTip": "Amet aut sint nihil.",
+    "Deleted": true,
+    "Rank": 670,
+    "Type": "quaerat",
     "ChildItems": [
       {
-        "Id": 614,
-        "Name": "Mueller, Rath and Huel",
-        "ToolTip": "Repudiandae animi aperiam et sit odio fuga occaecati.",
-        "Deleted": false,
-        "Rank": 51,
-        "Type": "amet",
+        "Id": 627,
+        "Name": "Christiansen Group",
+        "ToolTip": "Et iure magnam.",
+        "Deleted": true,
+        "Rank": 137,
+        "Type": "qui",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "magnam",
-        "ColorBlock": 230,
-        "ExtraInfo": "non",
-        "StyleHint": "dolorem",
-        "FullName": "Dr. Violette Tremblay MD",
+        "IconHint": "quo",
+        "ColorBlock": 586,
+        "ExtraInfo": "ipsa",
+        "StyleHint": "quam",
+        "FullName": "Mortimer Schmitt",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 530
+            "FieldLength": 25
           }
         }
       }
     ],
-    "IconHint": "suscipit",
-    "ColorBlock": 601,
-    "ExtraInfo": "voluptate",
-    "StyleHint": "voluptas",
-    "FullName": "Mr. Benny Goodwin Sr.",
+    "IconHint": "inventore",
+    "ColorBlock": 460,
+    "ExtraInfo": "fuga",
+    "StyleHint": "aut",
+    "FullName": "Alexa Welch",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 955
+        "FieldLength": 256
       }
     }
   }

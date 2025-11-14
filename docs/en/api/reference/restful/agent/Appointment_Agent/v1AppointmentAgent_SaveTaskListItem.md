@@ -14,6 +14,8 @@ POST /api/v1/Agents/Appointment/SaveTaskListItem
 Updates the existing TaskListItem or creates a new TaskListItem if the id parameter is 0.
 
 
+NsApiSlow threshold: 1000 ms.
+
 
 
 
@@ -92,16 +94,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskListItemId": 472,
-  "Value": "ea",
+  "TaskListItemId": 592,
+  "Value": "omnis",
   "Direction": "Incoming",
   "Type": "Appointment",
-  "Tooltip": "odit",
-  "Deleted": false,
-  "IntentId": 354,
-  "Rank": 920,
+  "Tooltip": "voluptatem",
+  "Deleted": true,
+  "IntentId": 662,
+  "Rank": 506,
   "IsDefaultAlldayEvent": false,
-  "IsDefaultFree": false,
+  "IsDefaultFree": true,
   "IsDefaultPublished": false,
   "ColorIndex": "BlueAlt1",
   "DefaultVideomeetingStatus": "NoChange"
@@ -115,16 +117,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskListItemId": 699,
-  "Value": "temporibus",
+  "TaskListItemId": 681,
+  "Value": "doloremque",
   "Direction": "Incoming",
   "Type": "Appointment",
-  "Tooltip": "laborum",
-  "Deleted": false,
-  "IntentId": 938,
-  "Rank": 917,
-  "IsDefaultAlldayEvent": true,
-  "IsDefaultFree": true,
+  "Tooltip": "quisquam",
+  "Deleted": true,
+  "IntentId": 521,
+  "Rank": 5,
+  "IsDefaultAlldayEvent": false,
+  "IsDefaultFree": false,
   "IsDefaultPublished": false,
   "ColorIndex": "BlueAlt1",
   "DefaultVideomeetingStatus": "NoChange",
@@ -133,7 +135,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 557
+      "FieldLength": 309
     }
   }
 }

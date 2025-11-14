@@ -14,6 +14,8 @@ POST /api/v1/Agents/Contact/GetPersons
 Returns an array of all the contact persons for the company card.
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -118,7 +120,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 846
+  "ContactId": 680
 }
 ```
 
@@ -130,53 +132,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "ullam",
-    "PersonId": 212,
-    "Mrmrs": "architecto",
-    "Firstname": "Gaston",
-    "Lastname": "Ratke",
-    "MiddleName": "Hermann, Collier and Nader",
-    "Title": "aperiam",
-    "Description": "Profit-focused fresh-thinking project",
-    "Email": "emmy@gorczany.ca",
-    "FullName": "Kendrick Pfannerstill",
-    "DirectPhone": "821-591-7649",
-    "FormalName": "Quitzon Inc and Sons",
-    "CountryId": 774,
-    "ContactId": 914,
-    "ContactName": "Fritsch Group",
-    "Retired": 138,
-    "Rank": 155,
-    "ActiveInterests": 652,
+    "Position": "sapiente",
+    "PersonId": 199,
+    "Mrmrs": "fugit",
+    "Firstname": "Velma",
+    "Lastname": "Tromp",
+    "MiddleName": "Mayert LLC",
+    "Title": "doloribus",
+    "Description": "Seamless 24 hour website",
+    "Email": "brad@blandakerluke.biz",
+    "FullName": "Fatima Cassin",
+    "DirectPhone": "913.206.0381 x001",
+    "FormalName": "Schamberger, Jacobson and Grant",
+    "CountryId": 411,
+    "ContactId": 951,
+    "ContactName": "Bogan, Doyle and Langosh",
+    "Retired": 118,
+    "Rank": 462,
+    "ActiveInterests": 437,
     "ContactDepartment": "",
-    "ContactCountryId": 689,
-    "ContactOrgNr": "1392234",
-    "FaxPhone": "1-234-941-3514 x6847",
-    "MobilePhone": "(240)367-7258 x631",
-    "ContactPhone": "(326)101-2867",
-    "AssociateName": "Hansen-Klein",
-    "AssociateId": 357,
+    "ContactCountryId": 200,
+    "ContactOrgNr": "1836440",
+    "FaxPhone": "501-436-5457 x772",
+    "MobilePhone": "078.283.4740 x659",
+    "ContactPhone": "1-911-778-4393 x18653",
+    "AssociateName": "Beahan, Auer and Leannon",
+    "AssociateId": 858,
     "UsePersonAddress": false,
-    "ContactFax": "qui",
-    "Kanafname": "nostrum",
-    "Kanalname": "ipsum",
-    "Post1": "voluptatem",
-    "Post2": "sit",
-    "Post3": "a",
-    "EmailName": "danyka_nolan@mohr.com",
-    "ContactFullName": "Ms. Lizeth Flatley",
-    "ActiveErpLinks": 926,
-    "TicketPriorityId": 816,
-    "SupportLanguageId": 264,
-    "SupportAssociateId": 62,
+    "ContactFax": "et",
+    "Kanafname": "error",
+    "Kanalname": "quasi",
+    "Post1": "omnis",
+    "Post2": "dolor",
+    "Post3": "maiores",
+    "EmailName": "marcos_pagac@friesen.com",
+    "ContactFullName": "Lora Murazik",
+    "ActiveErpLinks": 307,
+    "TicketPriorityId": 355,
+    "SupportLanguageId": 385,
+    "SupportAssociateId": 961,
     "CategoryName": "VIP Customer",
-    "PersonNumber": "1488577",
+    "PersonNumber": "863395",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 298
+        "FieldType": "System.Int32",
+        "FieldLength": 703
       }
     }
   }

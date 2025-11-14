@@ -14,6 +14,8 @@ PUT /api/v1/ChatTopic/{id}
 Updates the existing ChatTopicEntity
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -140,25 +142,25 @@ ChatTopicEntity updated.
 PUT /api/v1/ChatTopic/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 39,
-  "Name": "Kemmer, Gaylord and Thompson",
-  "Description": "Cloned cohesive data-warehouse",
-  "WelcomeMessage": "itaque",
+  "ChatTopicId": 879,
+  "Name": "Greenholt-Heathcote",
+  "Description": "Decentralized incremental groupware",
+  "WelcomeMessage": "neque",
   "Language": null,
-  "LastAccept": "2022-08-20T03:46:59.8005718+02:00",
-  "SecondsPrAccept": 70,
-  "AlertRecipient": "quod",
+  "LastAccept": "2023-10-16T02:30:52.4286686+02:00",
+  "SecondsPrAccept": 694,
+  "AlertRecipient": "saepe",
   "AlertTemplate": null,
   "CollectConsent": false,
-  "BadgeHeader": "voluptatem",
-  "CustomQueueTextEnabled": false,
-  "CustomQueueText": "sit",
-  "WarnNewChatMinutes": 574,
-  "WarnManagerNewChatMinutes": 577,
+  "BadgeHeader": "est",
+  "CustomQueueTextEnabled": true,
+  "CustomQueueText": "sint",
+  "WarnNewChatMinutes": 185,
+  "WarnManagerNewChatMinutes": 358,
   "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
@@ -167,14 +169,14 @@ Content-Type: application/json; charset=utf-8
   "Widget": null,
   "BotEnabled": false,
   "BotSettings": null,
-  "OfflineCollectConsent": true,
-  "WarnChatMessageMinutes": 879,
-  "WarnManagerChatMessageMinutes": 288,
+  "OfflineCollectConsent": false,
+  "WarnChatMessageMinutes": 152,
+  "WarnManagerChatMessageMinutes": 827,
   "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 490,
-  "OfflineFormQueueLength": 676,
-  "WidgetEnableRating": false,
-  "WidgetRatingText": "et"
+  "OfflineFormTimeLimit": 755,
+  "OfflineFormQueueLength": 375,
+  "WidgetEnableRating": true,
+  "WidgetRatingText": "laborum"
 }
 ```
 
@@ -185,43 +187,43 @@ HTTP/1.1 200 ChatTopicEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 64,
-  "Name": "Nikolaus, Berge and Bayer",
-  "Description": "Reverse-engineered national implementation",
-  "WelcomeMessage": "eligendi",
+  "ChatTopicId": 4,
+  "Name": "Jast, Johnson and Lesch",
+  "Description": "Configurable object-oriented help-desk",
+  "WelcomeMessage": "aut",
   "Language": null,
-  "LastAccept": "2010-11-14T03:46:59.8005718+01:00",
-  "SecondsPrAccept": 852,
-  "AlertRecipient": "aut",
+  "LastAccept": "2008-10-30T02:30:52.4286686+01:00",
+  "SecondsPrAccept": 554,
+  "AlertRecipient": "velit",
   "AlertTemplate": null,
   "CollectConsent": false,
-  "BadgeHeader": "et",
-  "CustomQueueTextEnabled": true,
-  "CustomQueueText": "dolor",
-  "WarnNewChatMinutes": 273,
-  "WarnManagerNewChatMinutes": 501,
-  "TicketEnabled": true,
+  "BadgeHeader": "quam",
+  "CustomQueueTextEnabled": false,
+  "CustomQueueText": "aut",
+  "WarnNewChatMinutes": 416,
+  "WarnManagerNewChatMinutes": 656,
+  "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
-  "OpeningHoursEnabled": true,
+  "OpeningHoursEnabled": false,
   "OpeningHours": null,
   "Widget": null,
   "BotEnabled": true,
   "BotSettings": null,
   "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 983,
-  "WarnManagerChatMessageMinutes": 325,
+  "WarnChatMessageMinutes": 721,
+  "WarnManagerChatMessageMinutes": 926,
   "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 422,
-  "OfflineFormQueueLength": 750,
-  "WidgetEnableRating": false,
-  "WidgetRatingText": "recusandae",
+  "OfflineFormTimeLimit": 990,
+  "OfflineFormQueueLength": 123,
+  "WidgetEnableRating": true,
+  "WidgetRatingText": "nesciunt",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 841
+      "FieldLength": 855
     }
   },
   "_Links": {

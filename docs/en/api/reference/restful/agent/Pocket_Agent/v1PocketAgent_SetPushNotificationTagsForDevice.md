@@ -14,6 +14,8 @@ POST /api/v1/Agents/Pocket/SetPushNotificationTagsForDevice
 Specify what kind of notification events a device should receive push notifications for
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -66,12 +68,12 @@ No Content
 POST /api/v1/Agents/Pocket/SetPushNotificationTagsForDevice
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DeviceIdentifier": "et",
-  "Tags": "consequuntur"
+  "DeviceIdentifier": "nisi",
+  "Tags": "necessitatibus"
 }
 ```
 

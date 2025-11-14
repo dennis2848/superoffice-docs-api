@@ -76,7 +76,7 @@ OK
 GET /api/v1/List/Credited/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -87,56 +87,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 522,
-    "Name": "Ratke, Lowe and Hartmann",
-    "ToolTip": "Delectus id.",
+    "Id": 136,
+    "Name": "Waelchi, Roberts and Parker",
+    "ToolTip": "Harum et rerum.",
     "Deleted": false,
-    "Rank": 670,
-    "Type": "accusamus",
-    "ColorBlock": 27,
-    "IconHint": "numquam",
+    "Rank": 795,
+    "Type": "qui",
+    "ColorBlock": 572,
+    "IconHint": "ipsum",
     "Selected": false,
-    "LastChanged": "2025-02-26T03:47:00.628674+01:00",
+    "LastChanged": "2000-06-28T02:30:53.2567659+02:00",
     "ChildItems": [
       {
-        "Id": 557,
-        "Name": "Ortiz, Balistreri and Blick",
-        "ToolTip": "Fugit officiis.",
-        "Deleted": false,
-        "Rank": 960,
+        "Id": 357,
+        "Name": "Bogan Group",
+        "ToolTip": "Atque magni fugiat et omnis dolor eveniet.",
+        "Deleted": true,
+        "Rank": 654,
         "Type": "eum",
-        "ColorBlock": 879,
-        "IconHint": "minus",
+        "ColorBlock": 296,
+        "IconHint": "qui",
         "Selected": false,
-        "LastChanged": "2004-06-23T03:47:00.628674+02:00",
+        "LastChanged": "2020-05-14T02:30:53.2567659+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quis",
-        "StyleHint": "et",
-        "Hidden": false,
-        "FullName": "Harold Jewess",
+        "ExtraInfo": "et",
+        "StyleHint": "voluptatem",
+        "Hidden": true,
+        "FullName": "Murphy Krajcik III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 597
+            "FieldType": "System.String",
+            "FieldLength": 296
           }
         }
       }
     ],
-    "ExtraInfo": "facilis",
-    "StyleHint": "ad",
-    "Hidden": true,
-    "FullName": "Miss Dariana Evans Ernser",
+    "ExtraInfo": "consequatur",
+    "StyleHint": "blanditiis",
+    "Hidden": false,
+    "FullName": "Russ Wilderman",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 982
+        "FieldLength": 336
       }
     }
   }

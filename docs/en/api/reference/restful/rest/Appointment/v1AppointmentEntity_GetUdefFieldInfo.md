@@ -94,7 +94,7 @@ AppointmentEntity found.
 GET /api/v1/Appointment/UdefLayout/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -104,46 +104,46 @@ HTTP/1.1 200 AppointmentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 863,
-  "ColumnId": 549,
-  "FieldDefault": "molestiae",
-  "FieldHeight": 116,
-  "FieldLabel": "praesentium",
-  "FieldLeft": 584,
-  "FieldTop": 234,
+  "UDefFieldId": 929,
+  "ColumnId": 776,
+  "FieldDefault": "ab",
+  "FieldHeight": 605,
+  "FieldLabel": "autem",
+  "FieldLeft": 165,
+  "FieldTop": 877,
   "FieldType": "Checkbox",
-  "FieldWidth": 537,
-  "FormatMask": "omnis",
+  "FieldWidth": 841,
+  "FormatMask": "dolorem",
   "HideLabel": true,
   "IsIndexed": false,
-  "LabelHeight": 31,
-  "LabelLeft": 387,
-  "LabelTop": 98,
-  "LabelWidth": 893,
-  "LastVersionId": 620,
-  "ListTableId": 308,
+  "LabelHeight": 619,
+  "LabelLeft": 638,
+  "LabelTop": 231,
+  "LabelWidth": 410,
+  "LastVersionId": 409,
+  "ListTableId": 557,
   "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 20,
-  "ProgId": "enim",
+  "Page1LineNo": 939,
+  "ProgId": "fugiat",
   "IsReadOnly": false,
-  "ShortLabel": "voluptatem",
-  "TabOrder": 444,
-  "TextLength": 623,
+  "ShortLabel": "voluptatibus",
+  "TabOrder": 61,
+  "TextLength": 551,
   "Tooltip": "et",
-  "UdefIdentity": 511,
-  "UDListDefinitionId": 793,
+  "UdefIdentity": 792,
+  "UDListDefinitionId": 694,
   "Justification": "Center",
-  "Version": 351,
-  "TemplateVariableName": "Pollich, Grady and Leffler",
-  "HasBeenPublished": false,
-  "MdoListName": "Langworth LLC",
+  "Version": 274,
+  "TemplateVariableName": "Treutel, Botsford and Walker",
+  "HasBeenPublished": true,
+  "MdoListName": "Grimes-Renner",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 638
+      "FieldLength": 332
     }
   }
 }

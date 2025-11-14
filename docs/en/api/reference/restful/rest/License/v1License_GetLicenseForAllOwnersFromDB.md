@@ -70,7 +70,7 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Reason": "",
+    "Reason": "streamline front-end supply-chains",
     "CanBeActivated": false,
     "New": null,
     "Current": null,
@@ -78,18 +78,18 @@ Content-Type: application/json; charset=utf-8
       {
         "New": null,
         "Current": null,
-        "NumberOfLicensesInUse": 226,
-        "NumberOfLicensesFree": 71,
-        "NumberOfLicensesAdded": 522,
-        "NumberOfLicensesNewTotal": 757,
-        "NumberOfLicensesNewFree": 687,
-        "NumberOfLicensesTotal": 346
+        "NumberOfLicensesInUse": 324,
+        "NumberOfLicensesFree": 909,
+        "NumberOfLicensesAdded": 414,
+        "NumberOfLicensesNewTotal": 814,
+        "NumberOfLicensesNewFree": 460,
+        "NumberOfLicensesTotal": 116
       }
     ],
-    "AccumulatedNextCheckDate": "2017-10-16T03:47:00.4099317+02:00"
+    "AccumulatedNextCheckDate": "2023-08-12T02:30:53.0380235+02:00"
   },
   {
-    "Reason": "",
+    "Reason": "streamline front-end supply-chains",
     "CanBeActivated": false,
     "New": null,
     "Current": null,
@@ -97,15 +97,15 @@ Content-Type: application/json; charset=utf-8
       {
         "New": null,
         "Current": null,
-        "NumberOfLicensesInUse": 226,
-        "NumberOfLicensesFree": 71,
-        "NumberOfLicensesAdded": 522,
-        "NumberOfLicensesNewTotal": 757,
-        "NumberOfLicensesNewFree": 687,
-        "NumberOfLicensesTotal": 346
+        "NumberOfLicensesInUse": 324,
+        "NumberOfLicensesFree": 909,
+        "NumberOfLicensesAdded": 414,
+        "NumberOfLicensesNewTotal": 814,
+        "NumberOfLicensesNewFree": 460,
+        "NumberOfLicensesTotal": 116
       }
     ],
-    "AccumulatedNextCheckDate": "2017-10-16T03:47:00.4099317+02:00"
+    "AccumulatedNextCheckDate": "2023-08-12T02:30:53.0380235+02:00"
   }
 ]
 ```

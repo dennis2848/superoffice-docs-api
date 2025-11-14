@@ -15,6 +15,7 @@ Gets a ShipmentMessageBlockEntity object.
 
 
 Calls the Marketing agent service GetShipmentMessageBlockEntity.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -91,20 +92,20 @@ HTTP/1.1 200 ShipmentMessageBlockEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageBlockId": 965,
-  "AssociateId": 396,
-  "Block": "quia",
-  "Registered": "2008-04-13T03:47:00.3005605+02:00",
-  "RegisteredAssociateId": 33,
-  "Updated": "2018-08-08T03:47:00.3005605+02:00",
-  "UpdatedAssociateId": 635,
-  "UpdatedCount": 155,
+  "ShipmentMessageBlockId": 654,
+  "AssociateId": 641,
+  "Block": "exercitationem",
+  "Registered": "2024-09-14T02:30:52.9286519+02:00",
+  "RegisteredAssociateId": 912,
+  "Updated": "2017-06-30T02:30:52.9286519+02:00",
+  "UpdatedAssociateId": 213,
+  "UpdatedCount": 90,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 536
+      "FieldLength": 696
     }
   },
   "_Links": {

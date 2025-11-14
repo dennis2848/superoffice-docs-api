@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/SaveDocumentTemplateEntity
 Updates the existing DocumentTemplateEntity or creates a new DocumentTemplateEntity if the id parameter is 0.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -116,30 +118,30 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 309,
-  "Name": "Volkman, Murazik and Heaney",
-  "Tooltip": "et",
-  "SaveInDb": 175,
-  "Filename": "quo",
-  "DefaultOref": "sint",
+  "DocumentTemplateId": 878,
+  "Name": "Schmitt LLC",
+  "Tooltip": "qui",
+  "SaveInDb": 991,
+  "Filename": "qui",
+  "DefaultOref": "nihil",
   "RecordType": "Appointment",
-  "Deleted": false,
+  "Deleted": true,
   "Direction": "Incoming",
-  "AutoeventId": 822,
-  "IntentId": 997,
+  "AutoeventId": 638,
+  "IntentId": 529,
   "IsDefaultPublished": true,
-  "Rank": 955,
-  "LoadTemplateFromPlugin": 609,
-  "MimeType": "occaecati",
+  "Rank": 202,
+  "LoadTemplateFromPlugin": 964,
+  "MimeType": "voluptatem",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 620,
+  "DocumentTypeKey": 420,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "luna@luettgen.biz",
+  "EmailSubject": "sigmund_greenfelder@gusikowski.co.uk",
   "IncludeSignature": false,
-  "ShowCurrents": true,
+  "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "oda@wisoky.info",
+  "SenderEmailAddress": "sid@berniermorar.co.uk",
   "InvitationDocType": "Cancelled"
 }
 ```
@@ -151,37 +153,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 910,
-  "Name": "Kuhn, O'Conner and Schneider",
-  "Tooltip": "excepturi",
-  "SaveInDb": 562,
-  "Filename": "et",
-  "DefaultOref": "nobis",
+  "DocumentTemplateId": 679,
+  "Name": "Cruickshank-Reichel",
+  "Tooltip": "reprehenderit",
+  "SaveInDb": 39,
+  "Filename": "fuga",
+  "DefaultOref": "in",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 754,
-  "IntentId": 674,
-  "IsDefaultPublished": false,
-  "Rank": 207,
-  "LoadTemplateFromPlugin": 894,
-  "MimeType": "deserunt",
-  "IsInUseInGuides": false,
-  "DocumentTypeKey": 343,
+  "AutoeventId": 530,
+  "IntentId": 227,
+  "IsDefaultPublished": true,
+  "Rank": 811,
+  "LoadTemplateFromPlugin": 47,
+  "MimeType": "at",
+  "IsInUseInGuides": true,
+  "DocumentTypeKey": 331,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "lourdes@hayes.biz",
-  "IncludeSignature": true,
+  "EmailSubject": "juvenal@mcculloughquigley.biz",
+  "IncludeSignature": false,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "maddison.smitham@gutmannpacocha.co.uk",
+  "SenderEmailAddress": "lambert@waelchi.us",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 971
+      "FieldType": "System.String",
+      "FieldLength": 898
     }
   }
 }

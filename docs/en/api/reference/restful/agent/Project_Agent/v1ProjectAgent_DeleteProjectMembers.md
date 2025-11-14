@@ -14,6 +14,8 @@ POST /api/v1/Agents/Project/DeleteProjectMembers
 Delete the given project members from a project
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -66,14 +68,14 @@ No Content
 POST /api/v1/Agents/Project/DeleteProjectMembers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectEntityId": 711,
+  "ProjectEntityId": 507,
   "MemberIds": [
-    166,
-    850
+    987,
+    230
   ]
 }
 ```

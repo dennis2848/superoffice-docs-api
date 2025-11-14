@@ -14,6 +14,8 @@ POST /api/v1/Agents/Quote/SaveQuoteLines
 Saves the QuoteLines in the SuperOffice database
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -122,64 +124,64 @@ OK
 POST /api/v1/Agents/Quote/SaveQuoteLines
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "QuoteLines": [
     {
-      "QuoteLineId": 556,
-      "ERPQuoteLineKey": "qui",
-      "QuoteAlternativeId": 984,
-      "ERPProductKey": "corrupti",
+      "QuoteLineId": 978,
+      "ERPQuoteLineKey": "magnam",
+      "QuoteAlternativeId": 734,
+      "ERPProductKey": "vel",
       "Status": "Error",
       "Reason": "",
-      "Quantity": 25187.958,
-      "DeliveredQuantity": 19562.428,
-      "Rank": 233,
-      "Name": "Rau Inc and Sons",
-      "Description": "Diverse maximized encryption",
-      "Code": "ut",
-      "QuantityUnit": "est",
-      "PriceUnit": "nobis",
-      "ItemNumber": "1136956",
+      "Quantity": 24112.996,
+      "DeliveredQuantity": 28757.584,
+      "Rank": 484,
+      "Name": "Kessler, O'Keefe and Mayert",
+      "Description": "Multi-layered bandwidth-monitored conglomeration",
+      "Code": "quo",
+      "QuantityUnit": "nostrum",
+      "PriceUnit": "enim",
+      "ItemNumber": "1270868",
       "Url": "http://www.example.com/",
       "ProductCategoryKey": "VIP Customer",
-      "ProductFamilyKey": "temporibus",
-      "ProductTypeKey": "in",
-      "Supplier": "sint",
-      "SupplierCode": "delectus",
-      "Thumbnail": "architecto",
-      "VATInfo": "mollitia",
-      "VAT": 19772.406,
-      "UnitCost": 24943.505999999998,
-      "UnitMinimumPrice": 26438.424,
-      "UnitListPrice": 8048.112,
+      "ProductFamilyKey": "quos",
+      "ProductTypeKey": "non",
+      "Supplier": "eum",
+      "SupplierCode": "recusandae",
+      "Thumbnail": "eligendi",
+      "VATInfo": "aut",
+      "VAT": 821.108,
+      "UnitCost": 29895.226,
+      "UnitMinimumPrice": 19057.854,
+      "UnitListPrice": 12601.814,
       "ExtraInfo": [
         {},
         {}
       ],
-      "RawExtraInfo": "adipisci",
-      "IsSubscription": false,
-      "SubscriptionUnit": "ipsam",
-      "SubscriptionQuantity": 10921.99,
-      "SubscriptionStart": "2014-09-15T03:46:55.2226157+02:00",
-      "ERPDiscountPercent": 20414.876,
-      "ERPDiscountAmount": 21530.579999999998,
-      "DiscountPercent": 16115.028,
-      "DiscountAmount": 31214.64,
+      "RawExtraInfo": "mollitia",
+      "IsSubscription": true,
+      "SubscriptionUnit": "mollitia",
+      "SubscriptionQuantity": 25548.368,
+      "SubscriptionStart": "2024-03-10T02:30:47.7413192+01:00",
+      "ERPDiscountPercent": 11570.728,
+      "ERPDiscountAmount": 4453.414,
+      "DiscountPercent": 8091.9879999999994,
+      "DiscountAmount": 2902.084,
       "UserValueOverride": "DiscountAmount",
-      "EarningPercent": 19245.894,
-      "EarningAmount": 5183.6359999999995,
-      "SubTotal": 7719.0419999999995,
-      "TotalPrice": 29340.507999999998,
-      "Rights": "molestiae",
+      "EarningPercent": 7073.438,
+      "EarningAmount": 25908.778,
+      "SubTotal": 5700.746,
+      "TotalPrice": 7985.432,
+      "Rights": "quam",
       "Rule": "omnis",
-      "ExtraField1": "dolorum",
-      "ExtraField2": "accusantium",
-      "ExtraField3": "delectus",
-      "ExtraField4": "voluptatibus",
-      "ExtraField5": "totam"
+      "ExtraField1": "ea",
+      "ExtraField2": "dolor",
+      "ExtraField3": "explicabo",
+      "ExtraField4": "labore",
+      "ExtraField5": "impedit"
     }
   ]
 }
@@ -193,88 +195,88 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineId": 792,
-    "ERPQuoteLineKey": "mollitia",
-    "QuoteAlternativeId": 423,
-    "ERPProductKey": "sequi",
+    "QuoteLineId": 753,
+    "ERPQuoteLineKey": "optio",
+    "QuoteAlternativeId": 640,
+    "ERPProductKey": "et",
     "Status": "Error",
     "Reason": "",
-    "Quantity": 7552.94,
-    "DeliveredQuantity": 20057.6,
-    "Rank": 47,
-    "Name": "Zulauf Inc and Sons",
-    "Description": "Managed client-driven hardware",
-    "Code": "similique",
-    "QuantityUnit": "doloremque",
-    "PriceUnit": "nihil",
-    "ItemNumber": "956026",
+    "Quantity": 20135.95,
+    "DeliveredQuantity": 11461.038,
+    "Rank": 827,
+    "Name": "Hansen, West and Hettinger",
+    "Description": "Ameliorated even-keeled pricing structure",
+    "Code": "officiis",
+    "QuantityUnit": "provident",
+    "PriceUnit": "omnis",
+    "ItemNumber": "438353",
     "Url": "http://www.example.com/",
     "ProductCategoryKey": "VIP Customer",
-    "ProductFamilyKey": "eos",
-    "ProductTypeKey": "incidunt",
-    "Supplier": "dolor",
-    "SupplierCode": "aut",
-    "Thumbnail": "aut",
-    "VATInfo": "in",
-    "VAT": 5095.884,
-    "UnitCost": 13316.366,
-    "UnitMinimumPrice": 1498.052,
-    "UnitListPrice": 962.13799999999992,
+    "ProductFamilyKey": "tenetur",
+    "ProductTypeKey": "placeat",
+    "Supplier": "voluptate",
+    "SupplierCode": "ut",
+    "Thumbnail": "quo",
+    "VATInfo": "expedita",
+    "VAT": 9047.858,
+    "UnitCost": 17121.041999999998,
+    "UnitMinimumPrice": 24868.29,
+    "UnitListPrice": 11379.554,
     "ExtraInfo": [
       {
-        "Name": "Dietrich Inc and Sons",
-        "Value": "eveniet",
+        "Name": "Osinski-Ruecker",
+        "Value": "qui",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 879
+            "FieldLength": 293
           }
         }
       },
       {
-        "Name": "Dietrich Inc and Sons",
-        "Value": "eveniet",
+        "Name": "Osinski-Ruecker",
+        "Value": "qui",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 879
+            "FieldLength": 293
           }
         }
       }
     ],
-    "RawExtraInfo": "et",
-    "IsSubscription": false,
-    "SubscriptionUnit": "id",
-    "SubscriptionQuantity": 5816.704,
-    "SubscriptionStart": "2004-12-12T03:46:55.2226157+01:00",
-    "ERPDiscountPercent": 19916.57,
-    "ERPDiscountAmount": 1642.216,
-    "DiscountPercent": 3224.886,
-    "DiscountAmount": 17528.462,
+    "RawExtraInfo": "tenetur",
+    "IsSubscription": true,
+    "SubscriptionUnit": "sint",
+    "SubscriptionQuantity": 16980.012,
+    "SubscriptionStart": "2014-05-07T02:30:47.7413192+02:00",
+    "ERPDiscountPercent": 21417.755999999998,
+    "ERPDiscountAmount": 19763.004,
+    "DiscountPercent": 24746.064,
+    "DiscountAmount": 9417.67,
     "UserValueOverride": "DiscountAmount",
-    "EarningPercent": 25523.296,
-    "EarningAmount": 2156.192,
-    "SubTotal": 4851.432,
-    "TotalPrice": 10931.392,
-    "Rights": "voluptatem",
-    "Rule": "debitis",
-    "ExtraField1": "cumque",
-    "ExtraField2": "explicabo",
-    "ExtraField3": "saepe",
-    "ExtraField4": "aut",
-    "ExtraField5": "rerum",
+    "EarningPercent": 5274.522,
+    "EarningAmount": 16089.956,
+    "SubTotal": 28347.03,
+    "TotalPrice": 5970.2699999999995,
+    "Rights": "pariatur",
+    "Rule": "repellat",
+    "ExtraField1": "est",
+    "ExtraField2": "magnam",
+    "ExtraField3": "facilis",
+    "ExtraField4": "voluptas",
+    "ExtraField5": "doloribus",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 569
+        "FieldType": "System.Int32",
+        "FieldLength": 491
       }
     }
   }

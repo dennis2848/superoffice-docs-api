@@ -15,6 +15,7 @@ Adds a sales lead (task) to a contact in SuperOffice.
 
 
 If the contact or person is known, the sales lead is added to the current contact. If not, a new contact is created, with the associate with ownerIdForNewContact as responsible (Our Contact). A relation is created between the contact and the person submitting the lead. Based on wether the person the request is made for is found or not, the following happens: If the person is found, the person, person's contact and sales representative is returned. If neither the person nor the contact is found a new person and contact is created (if sufficient data is supplied), and the person, person's contact and sales representative is returned. If the contact and not the person is found a new person is created on this contact, and the contact, salesrep, and person is returned (if there was enough data to return the person). If more than one contact is found a list of contacts is returned.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -89,22 +90,22 @@ OK
 POST /api/v1/Agents/Appointment/GenerateLead
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateIdForNewContact": 524,
-  "LeadDescription": "Team-oriented demand-driven policy",
-  "Relation": "sit",
-  "RelationId": 61,
-  "LeadContact": "et",
-  "LeadPersonFirstname": "Reese",
-  "LeadPersonLastname": "Schmitt",
-  "LeadPersonEmail": "jayden.rowe@emmerich.uk",
-  "LeadPhoneNumber": "568461",
-  "CreatorsContact": "non",
-  "CreatorsFirstname": "Ahmed",
-  "CreatorsLastname": "Kautzer"
+  "AssociateIdForNewContact": 213,
+  "LeadDescription": "Organized dedicated instruction set",
+  "Relation": "iste",
+  "RelationId": 453,
+  "LeadContact": "culpa",
+  "LeadPersonFirstname": "Tyree",
+  "LeadPersonLastname": "Beatty",
+  "LeadPersonEmail": "lavonne@schaefer.biz",
+  "LeadPhoneNumber": "405475",
+  "CreatorsContact": "ipsam",
+  "CreatorsFirstname": "Wanda",
+  "CreatorsLastname": "Heller"
 }
 ```
 
@@ -117,36 +118,36 @@ Content-Type: application/json; charset=utf-8
 {
   "RequestedContacts": [
     {
-      "ContactId": 366,
-      "Name": "Herzog Inc and Sons",
-      "OrgNr": "1169258",
+      "ContactId": 634,
+      "Name": "Brown-Willms",
+      "OrgNr": "1400053",
       "Department": "",
       "URL": "http://www.example.com/",
-      "City": "ullam",
-      "DirectPhone": "(079)275-9150 x12904",
-      "AssociateId": 317,
-      "CountryId": 890,
-      "EmailAddress": "salvatore.mante@kuhic.co.uk",
-      "Kananame": "dicta",
-      "EmailAddressName": "wilford_ward@kulas.info",
+      "City": "sint",
+      "DirectPhone": "446.894.3182 x588",
+      "AssociateId": 788,
+      "CountryId": 789,
+      "EmailAddress": "enola@quitzonpfeffer.com",
+      "Kananame": "nemo",
+      "EmailAddressName": "velda@fritsch.info",
       "URLName": "http://www.example.com/",
-      "AssociateFullName": "Daniela Becker",
+      "AssociateFullName": "Mireille Weber DVM",
       "BusinessName": "Information Technology",
       "CategoryName": "VIP Customer",
       "CountryName": "Sokovia",
       "Address": null,
-      "FormattedAddress": "reiciendis",
-      "FullName": "Euna Conroy",
+      "FormattedAddress": "dolor",
+      "FullName": "Wiley Jenkins",
       "IsOwnerContact": false,
-      "ActiveErpLinks": 854,
-      "Number1": "814642",
-      "Number2": "1241474",
+      "ActiveErpLinks": 16,
+      "Number1": "903496",
+      "Number2": "420967",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 291
+          "FieldType": "System.Int32",
+          "FieldLength": 167
         }
       }
     }
@@ -157,8 +158,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 73
+      "FieldType": "System.String",
+      "FieldLength": 669
     }
   }
 }

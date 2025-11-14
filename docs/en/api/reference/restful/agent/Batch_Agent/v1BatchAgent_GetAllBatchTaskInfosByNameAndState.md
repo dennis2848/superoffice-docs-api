@@ -14,6 +14,8 @@ POST /api/v1/Agents/Batch/GetAllBatchTaskInfosByNameAndState
 Get an array of system and user BatchTaskInfo for the provided task name and state.
 
 
+NsApiSlow threshold: 3000 ms.
+
 
 
 
@@ -96,11 +98,11 @@ OK
 POST /api/v1/Agents/Batch/GetAllBatchTaskInfosByNameAndState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskName": "Bayer Group",
+  "TaskName": "Wisoky Group",
   "State": "All"
 }
 ```
@@ -113,37 +115,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 842,
-    "Name": "Hilpert LLC",
-    "AssociateId": 630,
-    "DetailsTable": 673,
-    "DetailsRecord": 832,
+    "Id": 886,
+    "Name": "Feil-Bins",
+    "AssociateId": 411,
+    "DetailsTable": 973,
+    "DetailsRecord": 844,
     "IsSystemTask": false,
-    "IsInternalTask": true,
+    "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "quam",
-      "ParameterObject2": "magni"
+      "ParameterObject1": "eum",
+      "ParameterObject2": "natus"
     },
-    "LastStarted": "2023-11-29T03:46:54.3007673+01:00",
-    "Created": "2014-09-11T03:46:54.3007673+02:00",
-    "StartCount": 705,
-    "DatabaseSerialNumber": "943115",
-    "Context": "ad",
-    "Result": "harum",
+    "LastStarted": "2021-08-02T02:30:46.8194719+02:00",
+    "Created": "2017-12-08T02:30:46.8194719+01:00",
+    "StartCount": 46,
+    "DatabaseSerialNumber": "1081324",
+    "Context": "sit",
+    "Result": "minima",
     "State": "All",
-    "Description": "Reduced eco-centric paradigm",
-    "Response": "dolores",
-    "Request": "eius",
-    "ProgressDescription": "Open-source foreground infrastructure",
-    "ProgressPercent": 585,
-    "FileName": "Kilback, Rutherford and Rempel",
+    "Description": "Fundamental 4th generation parallelism",
+    "Response": "eaque",
+    "Request": "rerum",
+    "ProgressDescription": "Managed zero defect project",
+    "ProgressPercent": 813,
+    "FileName": "Lowe, Waelchi and Runolfsdottir",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 84
+        "FieldLength": 624
       }
     }
   }

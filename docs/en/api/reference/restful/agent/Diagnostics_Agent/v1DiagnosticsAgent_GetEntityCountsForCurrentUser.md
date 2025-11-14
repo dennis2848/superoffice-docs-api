@@ -14,6 +14,8 @@ POST /api/v1/Agents/Diagnostics/GetEntityCountsForCurrentUser
 Get an array of entities and number of entities created for the current associate
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -67,7 +69,7 @@ OK
 POST /api/v1/Agents/Diagnostics/GetEntityCountsForCurrentUser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -78,26 +80,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Daugherty-Pfeffer",
-    "Records": 478,
+    "EntityName": "Jones Inc and Sons",
+    "Records": 206,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 442
+        "FieldType": "System.Int32",
+        "FieldLength": 808
       }
     }
   },
   {
-    "EntityName": "Daugherty-Pfeffer",
-    "Records": 478,
+    "EntityName": "Jones Inc and Sons",
+    "Records": 206,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 442
+        "FieldType": "System.Int32",
+        "FieldLength": 808
       }
     }
   }

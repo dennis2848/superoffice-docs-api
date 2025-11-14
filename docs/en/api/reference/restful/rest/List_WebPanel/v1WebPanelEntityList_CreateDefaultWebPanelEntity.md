@@ -77,7 +77,7 @@ OK
 GET /api/v1/List/WebPanel/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -87,34 +87,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 808,
-  "Name": "Cruickshank, Kuvalis and Rogahn",
-  "Tooltip": "libero",
-  "Deleted": false,
-  "Rank": 351,
+  "WebPanelId": 233,
+  "Name": "Kertzmann-Stanton",
+  "Tooltip": "molestias",
+  "Deleted": true,
+  "Rank": 991,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": true,
-  "OnSatellite": false,
+  "OnCentral": false,
+  "OnSatellite": true,
   "OnTravel": false,
   "OnSalesMarketingWeb": false,
   "OnSalesMarketingPocket": false,
-  "ShowInMenuBar": true,
+  "ShowInMenuBar": false,
   "ShowInToolBar": false,
   "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "WindowName": "Bergstrom Group",
+  "WindowName": "Dooley-Stroman",
   "Url": "http://www.example.com/",
-  "ProgId": "rerum",
-  "Icon": 185,
-  "AlwaysReloadOnShow": false,
+  "ProgId": "recusandae",
+  "Icon": 895,
+  "AlwaysReloadOnShow": true,
   "NeverReloadOnCurrentChange": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 163
+      "FieldType": "System.String",
+      "FieldLength": 452
     }
   }
 }

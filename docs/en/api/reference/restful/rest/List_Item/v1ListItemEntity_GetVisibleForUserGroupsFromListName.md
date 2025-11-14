@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 651,
-    "Name": "Reichel Group",
-    "ToolTip": "Aut odio quas.",
+    "Id": 501,
+    "Name": "Wolf Inc and Sons",
+    "ToolTip": "Est sunt nostrum ipsa placeat.",
     "Deleted": false,
-    "Rank": 174,
-    "Type": "aut",
-    "ColorBlock": 78,
-    "IconHint": "ut",
+    "Rank": 444,
+    "Type": "quam",
+    "ColorBlock": 31,
+    "IconHint": "harum",
     "Selected": false,
-    "LastChanged": "2021-09-22T03:47:00.5661762+02:00",
+    "LastChanged": "2018-06-21T02:30:53.194268+02:00",
     "ChildItems": [
       {
-        "Id": 404,
-        "Name": "Mayer-Gusikowski",
-        "ToolTip": "Voluptates consectetur vel quia cumque.",
-        "Deleted": false,
-        "Rank": 276,
-        "Type": "a",
-        "ColorBlock": 971,
-        "IconHint": "veritatis",
+        "Id": 282,
+        "Name": "Harber, Rosenbaum and Tromp",
+        "ToolTip": "Rerum laudantium nesciunt atque rerum officia perspiciatis nihil.",
+        "Deleted": true,
+        "Rank": 790,
+        "Type": "soluta",
+        "ColorBlock": 475,
+        "IconHint": "natus",
         "Selected": false,
-        "LastChanged": "2001-05-31T03:47:00.5661762+02:00",
+        "LastChanged": "2003-02-11T02:30:53.194268+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "perspiciatis",
-        "StyleHint": "quisquam",
-        "Hidden": true,
-        "FullName": "Irma Jewess",
+        "ExtraInfo": "adipisci",
+        "StyleHint": "veritatis",
+        "Hidden": false,
+        "FullName": "Miss Rachel Rogahn I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 412
+            "FieldLength": 938
           }
         }
       }
     ],
-    "ExtraInfo": "id",
-    "StyleHint": "tenetur",
+    "ExtraInfo": "consequuntur",
+    "StyleHint": "dolor",
     "Hidden": false,
-    "FullName": "Gus Carroll",
+    "FullName": "Gaetano Balistreri",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 186
+        "FieldType": "System.String",
+        "FieldLength": 91
       }
     }
   }

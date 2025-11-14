@@ -14,6 +14,8 @@ POST /api/v1/Agents/BulkUpdate/RemoveStoredFields
 Remove the stored settings of the bulk update for this table from this context
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -70,12 +72,12 @@ OK
 POST /api/v1/Agents/BulkUpdate/RemoveStoredFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Torp, Powlowski and Graham",
-  "Context": "neque"
+  "TableName": "Marvin, Ondricka and Senger",
+  "Context": "provident"
 }
 ```
 
@@ -85,5 +87,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-true
+false
 ```

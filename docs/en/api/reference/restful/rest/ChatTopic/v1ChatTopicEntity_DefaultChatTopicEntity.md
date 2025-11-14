@@ -15,6 +15,7 @@ Set default values into a new ChatTopicEntity.
 
 
 NetServer calculates default values on the entity, which is required when creating/storing a new instance Calls the Chat agent service CreateDefaultChatTopicEntity.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -88,7 +89,7 @@ OK
 GET /api/v1/ChatTopic/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -98,43 +99,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 898,
-  "Name": "Toy-Lind",
-  "Description": "Future-proofed cohesive strategy",
-  "WelcomeMessage": "assumenda",
+  "ChatTopicId": 945,
+  "Name": "Waelchi-Halvorson",
+  "Description": "Seamless heuristic software",
+  "WelcomeMessage": "illum",
   "Language": null,
-  "LastAccept": "2011-05-28T03:46:59.8005718+02:00",
-  "SecondsPrAccept": 218,
-  "AlertRecipient": "aspernatur",
+  "LastAccept": "2020-05-12T02:30:52.413044+02:00",
+  "SecondsPrAccept": 427,
+  "AlertRecipient": "assumenda",
   "AlertTemplate": null,
-  "CollectConsent": true,
-  "BadgeHeader": "pariatur",
+  "CollectConsent": false,
+  "BadgeHeader": "omnis",
   "CustomQueueTextEnabled": false,
-  "CustomQueueText": "accusamus",
-  "WarnNewChatMinutes": 491,
-  "WarnManagerNewChatMinutes": 918,
+  "CustomQueueText": "qui",
+  "WarnNewChatMinutes": 672,
+  "WarnManagerNewChatMinutes": 77,
   "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
-  "OpeningHoursEnabled": false,
+  "OpeningHoursEnabled": true,
   "OpeningHours": null,
   "Widget": null,
-  "BotEnabled": true,
+  "BotEnabled": false,
   "BotSettings": null,
-  "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 485,
-  "WarnManagerChatMessageMinutes": 748,
+  "OfflineCollectConsent": true,
+  "WarnChatMessageMinutes": 355,
+  "WarnManagerChatMessageMinutes": 780,
   "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 695,
-  "OfflineFormQueueLength": 4,
+  "OfflineFormTimeLimit": 276,
+  "OfflineFormQueueLength": 286,
   "WidgetEnableRating": false,
-  "WidgetRatingText": "nihil",
+  "WidgetRatingText": "reprehenderit",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 385
+      "FieldLength": 555
     }
   }
 }

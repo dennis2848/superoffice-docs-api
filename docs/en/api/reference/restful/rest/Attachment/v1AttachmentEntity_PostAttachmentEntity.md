@@ -15,6 +15,7 @@ Creates a new AttachmentEntity
 
 
 Calls the Ticket agent service SaveAttachmentEntity.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -95,14 +96,14 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 809,
-  "Name": "Rosenbaum, Schuster and Carter",
-  "ContentType": "rerum",
-  "AttSize": 717,
-  "InlineImage": false,
-  "ContentId": "eum",
-  "AuthKey": "blanditiis",
-  "IsSafeFileExtension": false
+  "AttachmentId": 934,
+  "Name": "Fadel LLC",
+  "ContentType": "sunt",
+  "AttSize": 339,
+  "InlineImage": true,
+  "ContentId": "qui",
+  "AuthKey": "nesciunt",
+  "IsSafeFileExtension": true
 }
 ```
 
@@ -113,25 +114,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 203,
-  "Name": "Hoeger, Kertzmann and O'Hara",
-  "ContentType": "omnis",
-  "AttSize": 339,
+  "AttachmentId": 738,
+  "Name": "Dickens-Franecki",
+  "ContentType": "assumenda",
+  "AttSize": 779,
   "InlineImage": true,
-  "ContentId": "asperiores",
-  "AuthKey": "ut",
+  "ContentId": "est",
+  "AuthKey": "consequatur",
   "IsSafeFileExtension": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 61
+      "FieldType": "System.Int32",
+      "FieldLength": 870
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

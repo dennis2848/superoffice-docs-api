@@ -66,7 +66,7 @@ OK
 GET /api/v1/List/PaymentType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -76,18 +76,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 29,
-  "Name": "Glover Inc and Sons",
-  "Tooltip": "aliquid",
-  "Deleted": true,
-  "UdListDefinitionId": 370,
-  "Rank": 912,
+  "Id": 674,
+  "Name": "Hahn, Donnelly and Herman",
+  "Tooltip": "iure",
+  "Deleted": false,
+  "UdListDefinitionId": 841,
+  "Rank": 544,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 528
+      "FieldType": "System.String",
+      "FieldLength": 138
     }
   }
 }

@@ -14,6 +14,8 @@ POST /api/v1/Agents/Quote/FindProduct
 Gets a product, from the ProductProvider
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -109,13 +111,13 @@ OK
 POST /api/v1/Agents/Quote/FindProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 398,
-  "UserInput": "occaecati",
-  "PriceListKey": "labore"
+  "QuoteAlternativeId": 280,
+  "UserInput": "iusto",
+  "PriceListKey": "et"
 }
 ```
 
@@ -127,73 +129,73 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProductId": 232,
-    "ERPProductKey": "dolorem",
-    "ERPPriceListKey": "illum",
-    "Name": "Raynor, Hilpert and Reichert",
-    "Description": "Exclusive asynchronous moratorium",
-    "Code": "velit",
-    "PriceUnit": "sint",
-    "QuantityUnit": "voluptatem",
+    "ProductId": 472,
+    "ERPProductKey": "sit",
+    "ERPPriceListKey": "vitae",
+    "Name": "Stoltenberg, Gerhold and Ratke",
+    "Description": "Visionary analyzing Graphical User Interface",
+    "Code": "nesciunt",
+    "PriceUnit": "ut",
+    "QuantityUnit": "minima",
     "IsSubscription": false,
-    "SubscriptionUnit": "non",
-    "DefaultSubscriptionQuantity": 10523.972,
-    "ItemNumber": "365677",
+    "SubscriptionUnit": "et",
+    "DefaultSubscriptionQuantity": 12752.246,
+    "ItemNumber": "1376750",
     "Url": "http://www.example.com/",
     "ProductCategoryKey": "VIP Customer",
-    "ProductFamilyKey": "eveniet",
-    "ProductTypeKey": "temporibus",
-    "VAT": 8493.14,
-    "VATInfo": "rerum",
-    "UnitCost": 9010.25,
-    "UnitMinimumPrice": 24730.394,
-    "UnitListPrice": 733.356,
+    "ProductFamilyKey": "quae",
+    "ProductTypeKey": "nesciunt",
+    "VAT": 27845.59,
+    "VATInfo": "itaque",
+    "UnitCost": 20389.804,
+    "UnitMinimumPrice": 10498.9,
+    "UnitListPrice": 601.728,
     "InAssortment": false,
-    "Supplier": "quibusdam",
-    "SupplierCode": "et",
-    "Rights": "expedita",
-    "Rule": "voluptates",
+    "Supplier": "qui",
+    "SupplierCode": "aspernatur",
+    "Rights": "atque",
+    "Rule": "voluptate",
     "ExtraInfo": [
       {
-        "Name": "Hand Inc and Sons",
-        "Value": "eius",
+        "Name": "Hintz Group",
+        "Value": "quos",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 45
+            "FieldLength": 794
           }
         }
       },
       {
-        "Name": "Hand Inc and Sons",
-        "Value": "eius",
+        "Name": "Hintz Group",
+        "Value": "quos",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 45
+            "FieldLength": 794
           }
         }
       }
     ],
-    "RawExtraInfo": "est",
-    "ExtraField1": "et",
-    "ExtraField2": "accusamus",
-    "ExtraField3": "facere",
-    "ExtraField4": "minima",
-    "ExtraField5": "quos",
-    "InStock": 13419.788,
+    "RawExtraInfo": "qui",
+    "ExtraField1": "at",
+    "ExtraField2": "assumenda",
+    "ExtraField3": "ex",
+    "ExtraField4": "unde",
+    "ExtraField5": "eos",
+    "InStock": 10154.16,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 72
+        "FieldType": "System.String",
+        "FieldLength": 765
       }
     }
   }

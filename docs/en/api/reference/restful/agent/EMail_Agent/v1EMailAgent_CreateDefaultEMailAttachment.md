@@ -14,6 +14,9 @@ POST /api/v1/Agents/EMail/CreateDefaultEMailAttachment
 Loading default values into a new EMailAttachment.
 
 
+NsApiSlow threshold: 5000 ms.
+
+
 ## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 
@@ -66,7 +69,7 @@ OK
 POST /api/v1/Agents/EMail/CreateDefaultEMailAttachment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -76,13 +79,13 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Enhanced global encoding",
-  "Filename": "harum",
-  "Size": 309,
-  "Type": "praesentium",
-  "Encoding": "sed",
-  "Id": "omnis",
-  "Disposition": "quis",
+  "Description": "Team-oriented uniform software",
+  "Filename": "officiis",
+  "Size": 644,
+  "Type": "quia",
+  "Encoding": "delectus",
+  "Id": "et",
+  "Disposition": "optio",
   "IsSafeFileExtension": false,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
@@ -90,7 +93,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 158
+      "FieldLength": 279
     }
   }
 }

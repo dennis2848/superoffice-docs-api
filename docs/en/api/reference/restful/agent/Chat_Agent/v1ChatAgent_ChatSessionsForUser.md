@@ -15,6 +15,7 @@ Get all chat sessions which this user is a member of.
 
 
 Members means that you have at least one of: Can Respond, Notifications, Listen or Manager
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -98,7 +99,7 @@ OK
 POST /api/v1/Agents/Chat/ChatSessionsForUser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -109,29 +110,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ChatSessionId": 75,
-    "TopicId": 249,
+    "ChatSessionId": 231,
+    "TopicId": 673,
     "User": null,
     "Person": null,
-    "CustomerAlias": "nemo",
-    "CustomerHost": "consequatur",
-    "CustomerName": "Murray Group",
-    "CustomerEmail": "garrison_moen@cronin.us",
-    "CustomerPhone": "135.859.5095",
-    "CustomerConsented": true,
-    "CustomerCompanyName": "Bergnaum-Greenholt",
+    "CustomerAlias": "quo",
+    "CustomerHost": "cum",
+    "CustomerName": "Schmitt, Russel and Gusikowski",
+    "CustomerEmail": "elnora_lubowitz@rowealtenwerth.us",
+    "CustomerPhone": "(371)326-7799 x720",
+    "CustomerConsented": false,
+    "CustomerCompanyName": "Kihn Group",
     "Status": "Closed",
-    "FirstMessage": "sit",
-    "LastMessage": "atque",
-    "WhenRequested": "2003-07-17T03:46:54.3476466+02:00",
-    "WhenStarted": "2004-12-30T03:46:54.3476466+01:00",
-    "WhenEnded": "2007-07-16T03:46:54.3476466+02:00",
-    "WhenIdle": "2000-09-20T03:46:54.3476466+02:00",
-    "WhenFetched": "2000-02-24T03:46:54.3476466+01:00",
-    "SessionKey": "possimus",
-    "InitialQueuePos": 20,
-    "AlertLevel": 706,
-    "Rank": 981,
+    "FirstMessage": "culpa",
+    "LastMessage": "earum",
+    "WhenRequested": "1999-03-09T02:30:46.8663446+01:00",
+    "WhenStarted": "2009-08-22T02:30:46.8663446+02:00",
+    "WhenEnded": "2025-10-29T02:30:46.8663446+01:00",
+    "WhenIdle": "2011-08-05T02:30:46.8663446+02:00",
+    "WhenFetched": "2017-08-22T02:30:46.8663446+02:00",
+    "SessionKey": "enim",
+    "InitialQueuePos": 695,
+    "AlertLevel": 718,
+    "Rank": 734,
     "Flags": "CustomerIsTyping",
     "Contact": null,
     "Project": null,
@@ -139,13 +140,13 @@ Content-Type: application/json; charset=utf-8
     "Ticket": null,
     "TransferTo": null,
     "ChatbotIsActive": false,
-    "Rating": 496,
+    "Rating": 593,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 384
+        "FieldType": "System.String",
+        "FieldLength": 362
       }
     }
   }

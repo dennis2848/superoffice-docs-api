@@ -14,6 +14,9 @@ POST /api/v1/Agents/EMail/CreateDefaultEMailFolder
 Loading default values into a new EMailFolder.
 
 
+NsApiSlow threshold: 5000 ms.
+
+
 ## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 
@@ -74,19 +77,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Bahringer, Fay and Homenick",
-  "Delimiter": "perferendis",
-  "Flags": "velit",
-  "TotalItems": 377,
-  "UnreadItems": 597,
-  "Subscribed": false,
-  "EmailFolderId": 530,
+  "Name": "Konopelski-Klocko",
+  "Delimiter": "amet",
+  "Flags": "sunt",
+  "TotalItems": 688,
+  "UnreadItems": 380,
+  "Subscribed": true,
+  "EmailFolderId": 559,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 503
+      "FieldLength": 508
     }
   }
 }

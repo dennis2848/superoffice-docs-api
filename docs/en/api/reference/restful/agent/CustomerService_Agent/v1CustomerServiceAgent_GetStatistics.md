@@ -14,6 +14,8 @@ POST /api/v1/Agents/CustomerService/GetStatistics
 Returns the calculated results for the required statistics for the Customer Service Status Page
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -76,13 +78,13 @@ OK
 POST /api/v1/Agents/CustomerService/GetStatistics
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Functions": [
-    "nam",
-    "veritatis"
+    "unde",
+    "dolor"
   ]
 }
 ```
@@ -95,82 +97,82 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Label": "adipisci",
+    "Label": "ducimus",
     "Values": [
       {
-        "Label": "ipsa",
-        "Value": 19750.468,
-        "Description": "Assimilated incremental intranet",
+        "Label": "necessitatibus",
+        "Value": 7813.062,
+        "Description": "Mandatory fresh-thinking strategy",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 142
+            "FieldLength": 238
           }
         }
       },
       {
-        "Label": "ipsa",
-        "Value": 19750.468,
-        "Description": "Assimilated incremental intranet",
+        "Label": "necessitatibus",
+        "Value": 7813.062,
+        "Description": "Mandatory fresh-thinking strategy",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 142
+            "FieldLength": 238
           }
         }
       }
     ],
-    "Description": "Persevering secondary projection",
+    "Description": "Self-enabling disintermediate challenge",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 517
+        "FieldLength": 528
       }
     }
   },
   {
-    "Label": "adipisci",
+    "Label": "ducimus",
     "Values": [
       {
-        "Label": "ipsa",
-        "Value": 19750.468,
-        "Description": "Assimilated incremental intranet",
+        "Label": "necessitatibus",
+        "Value": 7813.062,
+        "Description": "Mandatory fresh-thinking strategy",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 142
+            "FieldLength": 238
           }
         }
       },
       {
-        "Label": "ipsa",
-        "Value": 19750.468,
-        "Description": "Assimilated incremental intranet",
+        "Label": "necessitatibus",
+        "Value": 7813.062,
+        "Description": "Mandatory fresh-thinking strategy",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 142
+            "FieldLength": 238
           }
         }
       }
     ],
-    "Description": "Persevering secondary projection",
+    "Description": "Self-enabling disintermediate challenge",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 517
+        "FieldLength": 528
       }
     }
   }

@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/GetQuoteApproveReason
 Gets a QuoteApproveReason object.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -27,7 +29,7 @@ Gets a QuoteApproveReason object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetQuoteApproveReason?quoteApproveReasonId=678
+POST /api/v1/Agents/List/GetQuoteApproveReason?quoteApproveReasonId=277
 POST /api/v1/Agents/List/GetQuoteApproveReason?$select=name,department,category/id
 ```
 
@@ -70,7 +72,7 @@ OK
 POST /api/v1/Agents/List/GetQuoteApproveReason
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -80,15 +82,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 93,
-  "Value": "est",
-  "Tooltip": "quasi",
+  "Id": 933,
+  "Value": "rerum",
+  "Tooltip": "enim",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 568
+      "FieldType": "System.String",
+      "FieldLength": 690
     }
   }
 }

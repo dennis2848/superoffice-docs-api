@@ -29,7 +29,7 @@ Users with Chat-CALs from the MDO list 'chatuser'
 | onlyPresent | bool |  Only show users who are present |
 
 ```http
-GET /api/v1/ChatTopic/UserAgents?flat=True
+GET /api/v1/ChatTopic/UserAgents?flat=False
 GET /api/v1/ChatTopic/UserAgents?onlyPresent=True
 ```
 
@@ -81,7 +81,7 @@ OK
 GET /api/v1/ChatTopic/UserAgents
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -92,50 +92,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 774,
-    "Name": "Parker, Kerluke and Osinski",
-    "ToolTip": "Rerum et sit harum provident officia vel.",
-    "Deleted": true,
-    "Rank": 976,
-    "Type": "soluta",
+    "Id": 262,
+    "Name": "Nitzsche, Oberbrunner and Schmitt",
+    "ToolTip": "Tenetur dolor voluptatem molestiae voluptas.",
+    "Deleted": false,
+    "Rank": 832,
+    "Type": "aut",
     "ChildItems": [
       {
-        "Id": 998,
-        "Name": "Torphy LLC",
-        "ToolTip": "Veritatis atque tenetur id vitae laudantium in commodi.",
-        "Deleted": false,
-        "Rank": 286,
-        "Type": "aut",
+        "Id": 348,
+        "Name": "Gottlieb, Witting and Sipes",
+        "ToolTip": "Ipsum ratione et quam fuga.",
+        "Deleted": true,
+        "Rank": 852,
+        "Type": "velit",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "a",
-        "ColorBlock": 820,
-        "ExtraInfo": "consectetur",
-        "StyleHint": "tempora",
-        "FullName": "Vernie Hamill",
+        "IconHint": "autem",
+        "ColorBlock": 723,
+        "ExtraInfo": "reiciendis",
+        "StyleHint": "libero",
+        "FullName": "Jaida Francis Lehner II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 432
+            "FieldType": "System.Int32",
+            "FieldLength": 678
           }
         }
       }
     ],
-    "IconHint": "quo",
-    "ColorBlock": 362,
-    "ExtraInfo": "non",
-    "StyleHint": "libero",
-    "FullName": "Danyka Morar",
+    "IconHint": "velit",
+    "ColorBlock": 116,
+    "ExtraInfo": "id",
+    "StyleHint": "nemo",
+    "FullName": "Yesenia Stark",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 433
+        "FieldType": "System.Int32",
+        "FieldLength": 985
       }
     }
   }

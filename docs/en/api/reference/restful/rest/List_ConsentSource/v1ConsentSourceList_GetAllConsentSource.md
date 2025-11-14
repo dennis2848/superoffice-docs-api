@@ -64,7 +64,7 @@ OK
 GET /api/v1/List/ConsentSource/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,19 +75,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentSourceId": 455,
-    "Name": "Green-Feest",
-    "Tooltip": "nostrum",
-    "Rank": 661,
-    "Key": "possimus",
-    "MailTemplateId": 575,
-    "Deleted": false,
+    "ConsentSourceId": 275,
+    "Name": "Carter Inc and Sons",
+    "Tooltip": "quia",
+    "Rank": 777,
+    "Key": "voluptatem",
+    "MailTemplateId": 836,
+    "Deleted": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 1002
+        "FieldLength": 168
       }
     }
   }

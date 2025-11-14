@@ -14,6 +14,8 @@ POST /api/v1/Agents/Contact/GetPreviewContact
 Get a contact from its ID
 
 
+NsApiSlow threshold: 1000 ms.
+
 
 
 
@@ -83,11 +85,11 @@ OK
 POST /api/v1/Agents/Contact/GetPreviewContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 802
+  "ContactId": 803
 }
 ```
 
@@ -98,17 +100,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 501,
-  "Name": "Kshlerin-Senger",
+  "ContactId": 312,
+  "Name": "Kuhic LLC",
   "Department": "",
-  "CountryId": 31,
-  "Number2": "821505",
-  "DirectPhone": "017-153-7608",
+  "CountryId": 157,
+  "Number2": "1088029",
+  "DirectPhone": "(931)987-5422",
   "URL": "http://www.example.com/",
-  "EmailAddress": "rylan@volkman.uk",
+  "EmailAddress": "neha@schroederbeier.ca",
   "BusinessName": "Information Technology",
   "CategoryName": "VIP Customer",
-  "AssociateFullName": "Barry Stoltenberg",
+  "AssociateFullName": "Ms. Theodore Cummings PhD",
   "Address": null
 }
 ```

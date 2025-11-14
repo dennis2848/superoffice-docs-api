@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/SetDocumentTemplateFromDocumentTemplate
 Create a new document template based on another template
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -99,11 +101,11 @@ OK
 POST /api/v1/Agents/List/SetDocumentTemplateFromDocumentTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceDocumentTemplateId": 285,
+  "SourceDocumentTemplateId": 62,
   "DocumentTemplateEntity": null
 }
 ```
@@ -115,37 +117,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 655,
-  "Name": "Turcotte, Cassin and Dickens",
-  "Tooltip": "animi",
-  "SaveInDb": 93,
-  "Filename": "qui",
-  "DefaultOref": "ut",
+  "DocumentTemplateId": 322,
+  "Name": "Willms LLC",
+  "Tooltip": "in",
+  "SaveInDb": 827,
+  "Filename": "sed",
+  "DefaultOref": "eum",
   "RecordType": "Appointment",
-  "Deleted": false,
+  "Deleted": true,
   "Direction": "Incoming",
-  "AutoeventId": 20,
-  "IntentId": 325,
-  "IsDefaultPublished": false,
-  "Rank": 869,
-  "LoadTemplateFromPlugin": 915,
-  "MimeType": "neque",
+  "AutoeventId": 981,
+  "IntentId": 899,
+  "IsDefaultPublished": true,
+  "Rank": 278,
+  "LoadTemplateFromPlugin": 631,
+  "MimeType": "tempore",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 25,
+  "DocumentTypeKey": 126,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "cheyenne@oberbrunnermann.info",
-  "IncludeSignature": true,
+  "EmailSubject": "cortez@weissnat.biz",
+  "IncludeSignature": false,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "leonor.huel@mccullough.uk",
+  "SenderEmailAddress": "serenity.boyer@hahndeckow.biz",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 417
+      "FieldLength": 115
     }
   }
 }

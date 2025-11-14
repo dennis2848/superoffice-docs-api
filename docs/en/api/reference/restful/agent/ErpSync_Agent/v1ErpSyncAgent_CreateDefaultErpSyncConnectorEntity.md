@@ -14,6 +14,9 @@ POST /api/v1/Agents/ErpSync/CreateDefaultErpSyncConnectorEntity
 Loading default values into a new ErpSyncConnectorEntity.
 
 
+NsApiSlow threshold: 5000 ms.
+
+
 ## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
 
 
@@ -71,16 +74,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectorId": 168,
-  "DisplayName": "Kautzer, Paucek and Ziemann",
+  "ErpConnectorId": 337,
+  "DisplayName": "Bailey LLC",
   "URL": "http://www.example.com/",
-  "Deleted": false,
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 759
+      "FieldLength": 64
     }
   }
 }

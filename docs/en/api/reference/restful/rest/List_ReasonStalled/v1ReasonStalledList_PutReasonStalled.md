@@ -83,12 +83,12 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 962,
-  "Name": "McClure Inc and Sons",
-  "Tooltip": "voluptatum",
-  "Deleted": false,
-  "UdListDefinitionId": 858,
-  "Rank": 296
+  "Id": 16,
+  "Name": "Considine-Donnelly",
+  "Tooltip": "occaecati",
+  "Deleted": true,
+  "UdListDefinitionId": 24,
+  "Rank": 289
 }
 ```
 
@@ -99,18 +99,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 173,
-  "Name": "VonRueden-Abshire",
-  "Tooltip": "quis",
-  "Deleted": true,
-  "UdListDefinitionId": 332,
-  "Rank": 763,
+  "Id": 887,
+  "Name": "Stanton-Dare",
+  "Tooltip": "facere",
+  "Deleted": false,
+  "UdListDefinitionId": 856,
+  "Rank": 992,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 141
+      "FieldType": "System.Int32",
+      "FieldLength": 927
     }
   }
 }

@@ -33,8 +33,8 @@ Get the list items in a named list.
 
 ```http
 GET /api/v1/MDOList/{listname}?flat=False
-GET /api/v1/MDOList/{listname}?additional=ut
-GET /api/v1/MDOList/{listname}?query=eveniet
+GET /api/v1/MDOList/{listname}?additional=provident
+GET /api/v1/MDOList/{listname}?query=in
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/MDOList/{listname}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,50 +96,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 928,
-    "Name": "Conroy, Schaden and Rice",
-    "ToolTip": "Eos id.",
+    "Id": 697,
+    "Name": "Hahn Inc and Sons",
+    "ToolTip": "Sint voluptas ratione distinctio sunt.",
     "Deleted": false,
-    "Rank": 321,
-    "Type": "qui",
+    "Rank": 811,
+    "Type": "vel",
     "ChildItems": [
       {
-        "Id": 905,
-        "Name": "Conn LLC",
-        "ToolTip": "Repellendus aut maiores pariatur maiores voluptas aliquid dolores.",
+        "Id": 635,
+        "Name": "Fahey LLC",
+        "ToolTip": "At aspernatur temporibus ut.",
         "Deleted": false,
-        "Rank": 197,
-        "Type": "provident",
+        "Rank": 254,
+        "Type": "fuga",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "est",
-        "ColorBlock": 559,
-        "ExtraInfo": "fuga",
-        "StyleHint": "occaecati",
-        "FullName": "Timmothy Wyman",
+        "IconHint": "nihil",
+        "ColorBlock": 840,
+        "ExtraInfo": "et",
+        "StyleHint": "quia",
+        "FullName": "Dr. Loy Ruecker",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 515
+            "FieldLength": 4
           }
         }
       }
     ],
     "IconHint": "ut",
-    "ColorBlock": 691,
-    "ExtraInfo": "dolorem",
-    "StyleHint": "id",
-    "FullName": "Lavina Okuneva",
+    "ColorBlock": 927,
+    "ExtraInfo": "aut",
+    "StyleHint": "iusto",
+    "FullName": "Mr. Irving Cremin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 908
+        "FieldLength": 805
       }
     }
   }

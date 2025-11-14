@@ -98,47 +98,47 @@ OK
 PUT /api/v1/List/SelectionCategory/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 457,
-    "Name": "Krajcik-Johns",
-    "ToolTip": "Cumque sapiente maiores.",
-    "Deleted": true,
-    "Rank": 227,
-    "Type": "dignissimos",
-    "ColorBlock": 547,
-    "IconHint": "incidunt",
-    "Selected": false,
-    "LastChanged": "2002-12-21T03:47:00.8161673+01:00",
+    "Id": 411,
+    "Name": "Hand, Bechtelar and Rau",
+    "ToolTip": "Aut aut architecto dolor perspiciatis.",
+    "Deleted": false,
+    "Rank": 98,
+    "Type": "sed",
+    "ColorBlock": 203,
+    "IconHint": "laboriosam",
+    "Selected": true,
+    "LastChanged": "2022-06-03T02:30:53.4442597+02:00",
     "ChildItems": [
       {
-        "Id": 80,
-        "Name": "Bernhard LLC",
-        "ToolTip": "Expedita porro consequatur voluptatum impedit perferendis.",
-        "Deleted": false,
-        "Rank": 220,
-        "Type": "iusto",
-        "ColorBlock": 917,
-        "IconHint": "magni",
-        "Selected": true,
-        "LastChanged": "2024-04-04T03:47:00.8161673+02:00",
+        "Id": 268,
+        "Name": "Sipes, Hagenes and Bashirian",
+        "ToolTip": "Sed harum error numquam necessitatibus et sit vel.",
+        "Deleted": true,
+        "Rank": 187,
+        "Type": "officia",
+        "ColorBlock": 773,
+        "IconHint": "sunt",
+        "Selected": false,
+        "LastChanged": "2024-06-23T02:30:53.4442597+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "optio",
-        "StyleHint": "voluptates",
-        "Hidden": false,
-        "FullName": "Zander Paucek"
+        "ExtraInfo": "alias",
+        "StyleHint": "ea",
+        "Hidden": true,
+        "FullName": "Mr. Presley Corkery"
       }
     ],
-    "ExtraInfo": "ipsa",
-    "StyleHint": "ullam",
+    "ExtraInfo": "nihil",
+    "StyleHint": "assumenda",
     "Hidden": false,
-    "FullName": "Dr. Rozella Jeffry Medhurst DVM"
+    "FullName": "Shania Rowe"
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 798,
-    "Name": "Kub, Powlowski and Schimmel",
-    "ToolTip": "Cumque dolore nostrum sequi.",
+    "Id": 591,
+    "Name": "Gleichner Group",
+    "ToolTip": "Distinctio debitis.",
     "Deleted": false,
-    "Rank": 765,
-    "Type": "amet",
-    "ColorBlock": 289,
-    "IconHint": "ut",
-    "Selected": false,
-    "LastChanged": "2023-01-17T03:47:00.8161673+01:00",
+    "Rank": 977,
+    "Type": "aut",
+    "ColorBlock": 432,
+    "IconHint": "ipsum",
+    "Selected": true,
+    "LastChanged": "2008-08-14T02:30:53.4442597+02:00",
     "ChildItems": [
       {
-        "Id": 456,
-        "Name": "McLaughlin-Goyette",
-        "ToolTip": "Velit sint.",
+        "Id": 783,
+        "Name": "Dach Inc and Sons",
+        "ToolTip": "Et minus.",
         "Deleted": false,
-        "Rank": 73,
-        "Type": "aperiam",
-        "ColorBlock": 611,
-        "IconHint": "provident",
-        "Selected": true,
-        "LastChanged": "2002-06-20T03:47:00.8161673+02:00",
+        "Rank": 807,
+        "Type": "eveniet",
+        "ColorBlock": 136,
+        "IconHint": "vitae",
+        "Selected": false,
+        "LastChanged": "2010-05-30T02:30:53.4442597+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "molestiae",
-        "StyleHint": "cum",
+        "ExtraInfo": "ea",
+        "StyleHint": "illum",
         "Hidden": false,
-        "FullName": "Jerome Boyle",
+        "FullName": "Jedediah Zboncak",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 48
+            "FieldLength": 746
           }
         }
       }
     ],
-    "ExtraInfo": "nihil",
-    "StyleHint": "facilis",
+    "ExtraInfo": "sequi",
+    "StyleHint": "ipsam",
     "Hidden": false,
-    "FullName": "Llewellyn Hyatt PhD",
+    "FullName": "Felicia Stamm Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 254
+        "FieldType": "System.Int32",
+        "FieldLength": 403
       }
     }
   }

@@ -76,16 +76,16 @@ OK
 POST /api/v1/List/Business/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 737,
-  "Name": "Gaylord, Roob and Harvey",
-  "Tooltip": "unde",
+  "HeadingId": 215,
+  "Name": "Littel LLC",
+  "Tooltip": "ex",
   "Deleted": false,
-  "Rank": 872,
-  "UdListDefinitionId": 317
+  "Rank": 39,
+  "UdListDefinitionId": 439
 }
 ```
 
@@ -96,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 581,
-  "Name": "Conroy, Tromp and Crooks",
-  "Tooltip": "ipsum",
-  "Deleted": false,
-  "Rank": 834,
-  "UdListDefinitionId": 771,
+  "HeadingId": 375,
+  "Name": "Hermann Inc and Sons",
+  "Tooltip": "occaecati",
+  "Deleted": true,
+  "Rank": 854,
+  "UdListDefinitionId": 879,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 708
+      "FieldType": "System.Int32",
+      "FieldLength": 383
     }
   }
 }

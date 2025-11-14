@@ -15,6 +15,7 @@ Get combined day information (activity + redletter summary) for one or more days
 
 
 The time portion of the dates is ignored. Private appointments are counted, but may not be visible through tooltips or other more detailed services.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -80,13 +81,13 @@ OK
 POST /api/v1/Agents/Appointment/GetDayInformationListByDatesAndAssociate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "StartDate": "2000-10-24T03:46:54.0195335+02:00",
-  "EndDate": "2014-12-12T03:46:54.0195335+01:00",
-  "AssociateId": 866
+  "StartDate": "2007-11-25T02:30:46.5382305+01:00",
+  "EndDate": "2011-02-20T02:30:46.5382305+01:00",
+  "AssociateId": 343
 }
 ```
 
@@ -100,26 +101,26 @@ Content-Type: application/json; charset=utf-8
   {
     "ActivityInformation": null,
     "RedLetterInformation": null,
-    "Date": "2021-03-06T03:46:54.0195335+01:00",
+    "Date": "2010-07-20T02:30:46.5382305+02:00",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 21
+        "FieldLength": 913
       }
     }
   },
   {
     "ActivityInformation": null,
     "RedLetterInformation": null,
-    "Date": "2021-03-06T03:46:54.0195335+01:00",
+    "Date": "2010-07-20T02:30:46.5382305+02:00",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 21
+        "FieldLength": 913
       }
     }
   }

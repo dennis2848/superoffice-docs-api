@@ -15,6 +15,7 @@ Deletes all persons from a selection.
 
 
 If a person does not have delete rights, it will be skipped.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -67,11 +68,11 @@ No Content
 POST /api/v1/Agents/Selection/DeletePersons
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 707
+  "SelectionId": 940
 }
 ```
 

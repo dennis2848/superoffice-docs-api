@@ -14,6 +14,8 @@ POST /api/v1/Agents/Report/SaveReportLabelLayoutEntity
 Updates the existing ReportLabelLayoutEntity or creates a new ReportLabelLayoutEntity if the id parameter is 0.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -86,22 +88,22 @@ OK
 POST /api/v1/Agents/Report/SaveReportLabelLayoutEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportLabelLayoutId": 412,
-  "Name": "Gerhold, Graham and Beer",
-  "Description": "Cross-group fresh-thinking time-frame",
+  "ReportLabelLayoutId": 92,
+  "Name": "Strosin-Casper",
+  "Description": "Realigned well-modulated groupware",
   "Orientation": "Landscape",
-  "PaperWidth": 404,
-  "PaperHeight": 271,
-  "LeftMargin": 290,
-  "RightMargin": 178,
-  "TopMargin": 716,
-  "BottomMargin": 988,
-  "CountColumns": 525,
-  "CountRows": 395
+  "PaperWidth": 411,
+  "PaperHeight": 936,
+  "LeftMargin": 930,
+  "RightMargin": 604,
+  "TopMargin": 510,
+  "BottomMargin": 259,
+  "CountColumns": 533,
+  "CountRows": 468
 }
 ```
 
@@ -112,24 +114,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportLabelLayoutId": 762,
-  "Name": "Bashirian Group",
-  "Description": "Stand-alone modular support",
+  "ReportLabelLayoutId": 763,
+  "Name": "Steuber, Hodkiewicz and Frami",
+  "Description": "Organic fresh-thinking architecture",
   "Orientation": "Landscape",
-  "PaperWidth": 362,
-  "PaperHeight": 424,
-  "LeftMargin": 19,
-  "RightMargin": 949,
-  "TopMargin": 277,
-  "BottomMargin": 793,
-  "CountColumns": 306,
-  "CountRows": 374,
+  "PaperWidth": 636,
+  "PaperHeight": 479,
+  "LeftMargin": 991,
+  "RightMargin": 611,
+  "TopMargin": 88,
+  "BottomMargin": 15,
+  "CountColumns": 221,
+  "CountRows": 185,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 157
+      "FieldType": "System.String",
+      "FieldLength": 896
     }
   }
 }

@@ -82,28 +82,28 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sun, 28 Feb 2021 03:47:00 G2T
+Last-Modified: Sun, 29 Oct 2017 02:30:52 G10T
 
 {
-  "BlobId": 208,
-  "BlobSize": 202,
-  "Description": "Balanced client-server matrix",
+  "BlobId": 163,
+  "BlobSize": 101,
+  "Description": "Inverse mobile paradigm",
   "ExtraInfo": "voluptatem",
-  "IsEncrypted": false,
-  "IsZipped": false,
-  "MimeType": "consequuntur",
-  "OriginalSize": 478,
-  "CreatedDate": "2017-11-10T03:47:00.1599324+01:00",
-  "UpdatedDate": "2021-02-28T03:47:00.1599324+01:00",
+  "IsEncrypted": true,
+  "IsZipped": true,
+  "MimeType": "autem",
+  "OriginalSize": 694,
+  "CreatedDate": "2002-11-06T02:30:52.7880482+01:00",
+  "UpdatedDate": "2017-10-29T02:30:52.7880482+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "aliquam",
+  "ConceptualType": "minus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 521
+      "FieldType": "System.Int32",
+      "FieldLength": 268
     }
   }
 }

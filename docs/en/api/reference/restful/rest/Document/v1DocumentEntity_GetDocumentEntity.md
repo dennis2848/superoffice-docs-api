@@ -15,6 +15,7 @@ Gets a DocumentEntity object.
 
 
 Calls the Document agent service GetDocumentEntity.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -34,7 +35,7 @@ Calls the Document agent service GetDocumentEntity.
 
 ```http
 GET /api/v1/Document/{id}?$select=name,department,category/id
-GET /api/v1/Document/{id}?fk=False
+GET /api/v1/Document/{id}?fk=True
 ```
 
 
@@ -110,7 +111,7 @@ DocumentEntity found.
 GET /api/v1/Document/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -118,91 +119,91 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 DocumentEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Thu, 05 Oct 2017 03:46:59 G10T
+Last-Modified: Sun, 23 Feb 2020 02:30:52 G2T
 
 {
-  "DocumentId": 939,
+  "DocumentId": 365,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "ipsum",
-  "Header": "repellat",
-  "Name": "Connelly Inc and Sons",
-  "OurRef": "in",
-  "YourRef": "nihil",
-  "CreatedDate": "2004-11-22T03:46:59.9724437+01:00",
-  "UpdatedDate": "2017-10-05T03:46:59.9724437+02:00",
-  "Description": "Automated stable open system",
+  "Attention": "quibusdam",
+  "Header": "ducimus",
+  "Name": "Cassin-Satterfield",
+  "OurRef": "totam",
+  "YourRef": "nam",
+  "CreatedDate": "2024-05-11T02:30:52.6005389+02:00",
+  "UpdatedDate": "2020-02-23T02:30:52.6005389+01:00",
+  "Description": "Distributed responsive process improvement",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "1998-09-10T03:46:59.9724437+02:00",
-  "ExternalRef": "consequatur",
+  "Date": "2000-11-30T02:30:52.6005389+01:00",
+  "ExternalRef": "harum",
   "Completed": "Completed",
-  "ActiveLinks": 243,
+  "ActiveLinks": 296,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Johnston, Schaden and Runolfsson",
-      "Id": 256,
-      "Description": "Networked attitude-oriented internet solution",
-      "ExtraInfo": "suscipit",
-      "LinkId": 152,
+      "EntityName": "Crona-Langosh",
+      "Id": 989,
+      "Description": "Ameliorated 5th generation neural-net",
+      "ExtraInfo": "dolore",
+      "LinkId": 310,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 514
+          "FieldLength": 332
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 716,
-  "Snum": 880,
+  "SuggestedDocumentId": 610,
+  "Snum": 852,
   "UserDefinedFields": {
-    "SuperOffice:1": "1769644707",
-    "SuperOffice:2": "Jason Parker"
+    "SuperOffice:1": "1827137812",
+    "SuperOffice:2": "Terrence Considine"
   },
   "ExtraFields": {
-    "ExtraFields1": "dolore",
-    "ExtraFields2": "qui"
+    "ExtraFields1": "omnis",
+    "ExtraFields2": "dignissimos"
   },
   "CustomFields": {
-    "CustomFields1": "ut",
-    "CustomFields2": "officia"
+    "CustomFields1": "facilis",
+    "CustomFields2": "non"
   },
-  "PublishEventDate": "2009-03-05T03:46:59.9724437+01:00",
-  "PublishTo": "2014-04-11T03:46:59.9724437+02:00",
-  "PublishFrom": "2016-12-29T03:46:59.9724437+01:00",
+  "PublishEventDate": "2012-05-25T02:30:52.6005389+02:00",
+  "PublishTo": "2009-04-12T02:30:52.6005389+02:00",
+  "PublishFrom": "2015-04-04T02:30:52.6005389+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 929,
+      "VisibleId": 377,
       "Visibility": "All",
-      "DisplayValue": "provident",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 905
+          "FieldLength": 741
         }
       }
     },
     {
-      "VisibleId": 929,
+      "VisibleId": 377,
       "Visibility": "All",
-      "DisplayValue": "provident",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 905
+          "FieldLength": 741
         }
       }
     }
@@ -212,12 +213,12 @@ Last-Modified: Thu, 05 Oct 2017 03:46:59 G10T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 485
+      "FieldLength": 643
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

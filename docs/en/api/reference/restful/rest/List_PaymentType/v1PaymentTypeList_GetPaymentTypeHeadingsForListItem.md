@@ -86,7 +86,7 @@ OK
 GET /api/v1/List/PaymentType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -97,56 +97,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 299,
-    "Name": "Reilly LLC",
-    "ToolTip": "Reiciendis atque et harum officiis illum reprehenderit et.",
+    "Id": 492,
+    "Name": "Gerhold Inc and Sons",
+    "ToolTip": "Aperiam qui sit voluptatum dolore voluptates blanditiis.",
     "Deleted": false,
-    "Rank": 777,
-    "Type": "similique",
-    "ColorBlock": 921,
-    "IconHint": "vel",
+    "Rank": 754,
+    "Type": "at",
+    "ColorBlock": 20,
+    "IconHint": "molestias",
     "Selected": false,
-    "LastChanged": "2022-07-13T03:47:00.6911718+02:00",
+    "LastChanged": "2013-01-13T02:30:53.3348881+01:00",
     "ChildItems": [
       {
-        "Id": 975,
-        "Name": "Kirlin Group",
-        "ToolTip": "Et rerum quasi doloribus quia aut quo.",
+        "Id": 956,
+        "Name": "Rodriguez Group",
+        "ToolTip": "Laboriosam voluptatem velit inventore qui perspiciatis rerum.",
         "Deleted": false,
-        "Rank": 996,
-        "Type": "natus",
-        "ColorBlock": 266,
-        "IconHint": "aut",
-        "Selected": false,
-        "LastChanged": "2000-01-11T03:47:00.6911718+01:00",
+        "Rank": 135,
+        "Type": "ipsa",
+        "ColorBlock": 384,
+        "IconHint": "fuga",
+        "Selected": true,
+        "LastChanged": "2011-10-04T02:30:53.3348881+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "id",
-        "StyleHint": "voluptatem",
+        "ExtraInfo": "velit",
+        "StyleHint": "sit",
         "Hidden": false,
-        "FullName": "Jonatan Mills V",
+        "FullName": "Sydnee Bergnaum",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 426
+            "FieldType": "System.String",
+            "FieldLength": 142
           }
         }
       }
     ],
-    "ExtraInfo": "omnis",
-    "StyleHint": "quo",
+    "ExtraInfo": "quod",
+    "StyleHint": "nam",
     "Hidden": false,
-    "FullName": "Catherine Luettgen",
+    "FullName": "Manley Mosciski IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 383
+        "FieldLength": 327
       }
     }
   }

@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/CreateDefaultExtAppEntity
 Loading default values into a new ExtAppEntity.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -87,34 +89,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExtAppId": 854,
-  "Name": "Will Group",
-  "Tooltip": "ipsum",
-  "Deleted": true,
-  "Rank": 74,
-  "Filename": "error",
-  "Parameters": "adipisci",
-  "Workdir": "reprehenderit",
+  "ExtAppId": 475,
+  "Name": "Schamberger, Treutel and Barrows",
+  "Tooltip": "facere",
+  "Deleted": false,
+  "Rank": 737,
+  "Filename": "explicabo",
+  "Parameters": "quod",
+  "Workdir": "natus",
   "ShowState": "AddressBar",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
   "OnSatellite": false,
-  "OnTravel": true,
+  "OnTravel": false,
   "OnSalesMarketingPocket": false,
-  "ShowInMenuBar": false,
+  "ShowInMenuBar": true,
   "ShowInToolBar": false,
-  "ShowInAddressBar": false,
-  "ShowInStatusBar": true,
-  "Icon": 653,
-  "WaitToFinish": true,
+  "ShowInAddressBar": true,
+  "ShowInStatusBar": false,
+  "Icon": 192,
+  "WaitToFinish": false,
   "ExecuteOnEvent": "LocalUpdate",
-  "Path": "minus",
+  "Path": "quas",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 155
+      "FieldLength": 899
     }
   }
 }

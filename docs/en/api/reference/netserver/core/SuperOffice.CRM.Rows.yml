@@ -1175,10 +1175,10 @@ items:
   - SuperOffice.CRM.Rows.EmailAccountRow
   - SuperOffice.CRM.Rows.EmailAccountRow.CustomSearch
   - SuperOffice.CRM.Rows.EmailAccountRow.IdxEmailAccountId
-  - SuperOffice.CRM.Rows.EmailAccountRow.IdxEmailAddress
   - SuperOffice.CRM.Rows.EmailAccountRows
   - SuperOffice.CRM.Rows.EmailAccountRows.CustomSearch
   - SuperOffice.CRM.Rows.EmailAccountRows.IdxAssociateId
+  - SuperOffice.CRM.Rows.EmailAccountRows.IdxEmailAddress
   - SuperOffice.CRM.Rows.EmailAttachmentRecordData
   - SuperOffice.CRM.Rows.EmailAttachmentRecordDataExtensions
   - SuperOffice.CRM.Rows.EmailAttachmentRow
@@ -1409,6 +1409,15 @@ items:
   - SuperOffice.CRM.Rows.ExternalEventRows.IdxEventEnabled
   - SuperOffice.CRM.Rows.ExternalEventRows.IdxParentRecord
   - SuperOffice.CRM.Rows.ExternalEventRows.IdxParentTable
+  - SuperOffice.CRM.Rows.ExternalOwnerRecordData
+  - SuperOffice.CRM.Rows.ExternalOwnerRecordDataExtensions
+  - SuperOffice.CRM.Rows.ExternalOwnerRow
+  - SuperOffice.CRM.Rows.ExternalOwnerRow.CustomSearch
+  - SuperOffice.CRM.Rows.ExternalOwnerRow.IdxExternalOwnerId
+  - SuperOffice.CRM.Rows.ExternalOwnerRows
+  - SuperOffice.CRM.Rows.ExternalOwnerRows.CustomSearch
+  - SuperOffice.CRM.Rows.ExternalOwnerRows.IdxOwner
+  - SuperOffice.CRM.Rows.ExternalOwnerRows.IdxSourceKey
   - SuperOffice.CRM.Rows.ExtraFieldsHelper
   - SuperOffice.CRM.Rows.ExtraFieldsRecordData
   - SuperOffice.CRM.Rows.ExtraFieldsRecordDataExtensions
@@ -1953,6 +1962,14 @@ items:
   - SuperOffice.CRM.Rows.LanguageInfoRow.IdxLanguageInfoId
   - SuperOffice.CRM.Rows.LanguageInfoRows
   - SuperOffice.CRM.Rows.LanguageInfoRows.CustomSearch
+  - SuperOffice.CRM.Rows.LeadstatusRecordData
+  - SuperOffice.CRM.Rows.LeadstatusRecordDataExtensions
+  - SuperOffice.CRM.Rows.LeadstatusRow
+  - SuperOffice.CRM.Rows.LeadstatusRow.CustomSearch
+  - SuperOffice.CRM.Rows.LeadstatusRow.IdxLeadstatusId
+  - SuperOffice.CRM.Rows.LeadstatusRow.IdxName
+  - SuperOffice.CRM.Rows.LeadstatusRows
+  - SuperOffice.CRM.Rows.LeadstatusRows.CustomSearch
   - SuperOffice.CRM.Rows.LegalBaseRecordData
   - SuperOffice.CRM.Rows.LegalBaseRecordDataExtensions
   - SuperOffice.CRM.Rows.LegalBaseRow
@@ -2541,6 +2558,7 @@ items:
   - SuperOffice.CRM.Rows.PersonRows.IdxKanafname
   - SuperOffice.CRM.Rows.PersonRows.IdxKanalname
   - SuperOffice.CRM.Rows.PersonRows.IdxLastname
+  - SuperOffice.CRM.Rows.PersonRows.IdxLeadstatusId
   - SuperOffice.CRM.Rows.PersonRows.IdxMiddleName
   - SuperOffice.CRM.Rows.PersonRows.IdxModifiedByWorkflowId
   - SuperOffice.CRM.Rows.PersonRows.IdxPersonNumber
@@ -2891,6 +2909,14 @@ items:
   - SuperOffice.CRM.Rows.PushNotificationServiceRow.IdxPushNotificationServiceId
   - SuperOffice.CRM.Rows.PushNotificationServiceRows
   - SuperOffice.CRM.Rows.PushNotificationServiceRows.CustomSearch
+  - SuperOffice.CRM.Rows.QuickFilterInfoRecordData
+  - SuperOffice.CRM.Rows.QuickFilterInfoRecordDataExtensions
+  - SuperOffice.CRM.Rows.QuickFilterInfoRow
+  - SuperOffice.CRM.Rows.QuickFilterInfoRow.CustomSearch
+  - SuperOffice.CRM.Rows.QuickFilterInfoRow.IdxQuickFilterInfoId
+  - SuperOffice.CRM.Rows.QuickFilterInfoRows
+  - SuperOffice.CRM.Rows.QuickFilterInfoRows.CustomSearch
+  - SuperOffice.CRM.Rows.QuickFilterInfoRows.IdxDashboardId
   - SuperOffice.CRM.Rows.QuickReplyRecordData
   - SuperOffice.CRM.Rows.QuickReplyRecordDataExtensions
   - SuperOffice.CRM.Rows.QuickReplyRow
@@ -4295,11 +4321,11 @@ items:
   - SuperOffice.CRM.Rows.TargetRevisionHistoryRecordDataExtensions
   - SuperOffice.CRM.Rows.TargetRevisionHistoryRow
   - SuperOffice.CRM.Rows.TargetRevisionHistoryRow.CustomSearch
-  - SuperOffice.CRM.Rows.TargetRevisionHistoryRow.IdxTargetGroupId
   - SuperOffice.CRM.Rows.TargetRevisionHistoryRow.IdxTargetRevisionHistoryId
   - SuperOffice.CRM.Rows.TargetRevisionHistoryRows
   - SuperOffice.CRM.Rows.TargetRevisionHistoryRows.CustomSearch
   - SuperOffice.CRM.Rows.TargetRevisionHistoryRows.IdxTargetAssignmentInfoId
+  - SuperOffice.CRM.Rows.TargetRevisionHistoryRows.IdxTargetGroupId
   - SuperOffice.CRM.Rows.TargetRevisionRecordData
   - SuperOffice.CRM.Rows.TargetRevisionRecordDataExtensions
   - SuperOffice.CRM.Rows.TargetRevisionRow
@@ -4544,6 +4570,16 @@ items:
   - SuperOffice.CRM.Rows.TicketTypeStatusRow.IdxTicketTypeStatusId
   - SuperOffice.CRM.Rows.TicketTypeStatusRows
   - SuperOffice.CRM.Rows.TicketTypeStatusRows.CustomSearch
+  - SuperOffice.CRM.Rows.TimeKeepingRecordData
+  - SuperOffice.CRM.Rows.TimeKeepingRecordDataExtensions
+  - SuperOffice.CRM.Rows.TimeKeepingRow
+  - SuperOffice.CRM.Rows.TimeKeepingRow.CustomSearch
+  - SuperOffice.CRM.Rows.TimeKeepingRow.IdxTimeKeepingId
+  - SuperOffice.CRM.Rows.TimeKeepingRows
+  - SuperOffice.CRM.Rows.TimeKeepingRows.CustomSearch
+  - SuperOffice.CRM.Rows.TimeKeepingRows.IdxEntityId
+  - SuperOffice.CRM.Rows.TimeKeepingRows.IdxEntityIdStateId
+  - SuperOffice.CRM.Rows.TimeKeepingRows.IdxEntityIdStateIdTimeKeepingType
   - SuperOffice.CRM.Rows.TimestampsRecordData
   - SuperOffice.CRM.Rows.TimestampsRecordDataExtensions
   - SuperOffice.CRM.Rows.TimestampsRow
@@ -28156,6 +28192,33 @@ references:
     name: IdxAssociateId
     isExternal: true
     href: SuperOffice.CRM.Rows.EmailAccountRows.IdxAssociateId.html
+- uid: SuperOffice.CRM.Rows.EmailAccountRows.IdxEmailAddress
+  commentId: T:SuperOffice.CRM.Rows.EmailAccountRows.IdxEmailAddress
+  isExternal: true
+  href: SuperOffice.CRM.Rows.EmailAccountRows.html
+  name: EmailAccountRows.IdxEmailAddress
+  nameWithType: EmailAccountRows.IdxEmailAddress
+  fullName: SuperOffice.CRM.Rows.EmailAccountRows.IdxEmailAddress
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.EmailAccountRows
+    name: EmailAccountRows
+    isExternal: true
+    href: SuperOffice.CRM.Rows.EmailAccountRows.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows.EmailAccountRows.IdxEmailAddress
+    name: IdxEmailAddress
+    isExternal: true
+    href: SuperOffice.CRM.Rows.EmailAccountRows.IdxEmailAddress.html
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.EmailAccountRows
+    name: EmailAccountRows
+    isExternal: true
+    href: SuperOffice.CRM.Rows.EmailAccountRows.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows.EmailAccountRows.IdxEmailAddress
+    name: IdxEmailAddress
+    isExternal: true
+    href: SuperOffice.CRM.Rows.EmailAccountRows.IdxEmailAddress.html
 - uid: SuperOffice.CRM.Rows.EmailAccountRows.CustomSearch
   commentId: T:SuperOffice.CRM.Rows.EmailAccountRows.CustomSearch
   parent: SuperOffice.CRM.Rows
@@ -28219,33 +28282,6 @@ references:
     name: IdxEmailAccountId
     isExternal: true
     href: SuperOffice.CRM.Rows.EmailAccountRow.IdxEmailAccountId.html
-- uid: SuperOffice.CRM.Rows.EmailAccountRow.IdxEmailAddress
-  commentId: T:SuperOffice.CRM.Rows.EmailAccountRow.IdxEmailAddress
-  isExternal: true
-  href: SuperOffice.CRM.Rows.EmailAccountRow.html
-  name: EmailAccountRow.IdxEmailAddress
-  nameWithType: EmailAccountRow.IdxEmailAddress
-  fullName: SuperOffice.CRM.Rows.EmailAccountRow.IdxEmailAddress
-  spec.csharp:
-  - uid: SuperOffice.CRM.Rows.EmailAccountRow
-    name: EmailAccountRow
-    isExternal: true
-    href: SuperOffice.CRM.Rows.EmailAccountRow.html
-  - name: .
-  - uid: SuperOffice.CRM.Rows.EmailAccountRow.IdxEmailAddress
-    name: IdxEmailAddress
-    isExternal: true
-    href: SuperOffice.CRM.Rows.EmailAccountRow.IdxEmailAddress.html
-  spec.vb:
-  - uid: SuperOffice.CRM.Rows.EmailAccountRow
-    name: EmailAccountRow
-    isExternal: true
-    href: SuperOffice.CRM.Rows.EmailAccountRow.html
-  - name: .
-  - uid: SuperOffice.CRM.Rows.EmailAccountRow.IdxEmailAddress
-    name: IdxEmailAddress
-    isExternal: true
-    href: SuperOffice.CRM.Rows.EmailAccountRow.IdxEmailAddress.html
 - uid: SuperOffice.CRM.Rows.EmailAccountRow.CustomSearch
   commentId: T:SuperOffice.CRM.Rows.EmailAccountRow.CustomSearch
   parent: SuperOffice.CRM.Rows
@@ -31927,6 +31963,175 @@ references:
   name: ExternalEventRecordDataExtensions
   nameWithType: ExternalEventRecordDataExtensions
   fullName: SuperOffice.CRM.Rows.ExternalEventRecordDataExtensions
+- uid: SuperOffice.CRM.Rows.ExternalOwnerRows
+  commentId: T:SuperOffice.CRM.Rows.ExternalOwnerRows
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  href: SuperOffice.CRM.Rows.ExternalOwnerRows.html
+  name: ExternalOwnerRows
+  nameWithType: ExternalOwnerRows
+  fullName: SuperOffice.CRM.Rows.ExternalOwnerRows
+- uid: SuperOffice.CRM.Rows.ExternalOwnerRows.IdxOwner
+  commentId: T:SuperOffice.CRM.Rows.ExternalOwnerRows.IdxOwner
+  isExternal: true
+  href: SuperOffice.CRM.Rows.ExternalOwnerRows.html
+  name: ExternalOwnerRows.IdxOwner
+  nameWithType: ExternalOwnerRows.IdxOwner
+  fullName: SuperOffice.CRM.Rows.ExternalOwnerRows.IdxOwner
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.ExternalOwnerRows
+    name: ExternalOwnerRows
+    isExternal: true
+    href: SuperOffice.CRM.Rows.ExternalOwnerRows.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows.ExternalOwnerRows.IdxOwner
+    name: IdxOwner
+    isExternal: true
+    href: SuperOffice.CRM.Rows.ExternalOwnerRows.IdxOwner.html
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.ExternalOwnerRows
+    name: ExternalOwnerRows
+    isExternal: true
+    href: SuperOffice.CRM.Rows.ExternalOwnerRows.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows.ExternalOwnerRows.IdxOwner
+    name: IdxOwner
+    isExternal: true
+    href: SuperOffice.CRM.Rows.ExternalOwnerRows.IdxOwner.html
+- uid: SuperOffice.CRM.Rows.ExternalOwnerRows.IdxSourceKey
+  commentId: T:SuperOffice.CRM.Rows.ExternalOwnerRows.IdxSourceKey
+  isExternal: true
+  href: SuperOffice.CRM.Rows.ExternalOwnerRows.html
+  name: ExternalOwnerRows.IdxSourceKey
+  nameWithType: ExternalOwnerRows.IdxSourceKey
+  fullName: SuperOffice.CRM.Rows.ExternalOwnerRows.IdxSourceKey
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.ExternalOwnerRows
+    name: ExternalOwnerRows
+    isExternal: true
+    href: SuperOffice.CRM.Rows.ExternalOwnerRows.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows.ExternalOwnerRows.IdxSourceKey
+    name: IdxSourceKey
+    isExternal: true
+    href: SuperOffice.CRM.Rows.ExternalOwnerRows.IdxSourceKey.html
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.ExternalOwnerRows
+    name: ExternalOwnerRows
+    isExternal: true
+    href: SuperOffice.CRM.Rows.ExternalOwnerRows.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows.ExternalOwnerRows.IdxSourceKey
+    name: IdxSourceKey
+    isExternal: true
+    href: SuperOffice.CRM.Rows.ExternalOwnerRows.IdxSourceKey.html
+- uid: SuperOffice.CRM.Rows.ExternalOwnerRows.CustomSearch
+  commentId: T:SuperOffice.CRM.Rows.ExternalOwnerRows.CustomSearch
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  href: SuperOffice.CRM.Rows.ExternalOwnerRows.html
+  name: ExternalOwnerRows.CustomSearch
+  nameWithType: ExternalOwnerRows.CustomSearch
+  fullName: SuperOffice.CRM.Rows.ExternalOwnerRows.CustomSearch
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.ExternalOwnerRows
+    name: ExternalOwnerRows
+    isExternal: true
+    href: SuperOffice.CRM.Rows.ExternalOwnerRows.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows.ExternalOwnerRows.CustomSearch
+    name: CustomSearch
+    isExternal: true
+    href: SuperOffice.CRM.Rows.ExternalOwnerRows.CustomSearch.html
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.ExternalOwnerRows
+    name: ExternalOwnerRows
+    isExternal: true
+    href: SuperOffice.CRM.Rows.ExternalOwnerRows.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows.ExternalOwnerRows.CustomSearch
+    name: CustomSearch
+    isExternal: true
+    href: SuperOffice.CRM.Rows.ExternalOwnerRows.CustomSearch.html
+- uid: SuperOffice.CRM.Rows.ExternalOwnerRow
+  commentId: T:SuperOffice.CRM.Rows.ExternalOwnerRow
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  href: SuperOffice.CRM.Rows.ExternalOwnerRow.html
+  name: ExternalOwnerRow
+  nameWithType: ExternalOwnerRow
+  fullName: SuperOffice.CRM.Rows.ExternalOwnerRow
+- uid: SuperOffice.CRM.Rows.ExternalOwnerRow.IdxExternalOwnerId
+  commentId: T:SuperOffice.CRM.Rows.ExternalOwnerRow.IdxExternalOwnerId
+  isExternal: true
+  href: SuperOffice.CRM.Rows.ExternalOwnerRow.html
+  name: ExternalOwnerRow.IdxExternalOwnerId
+  nameWithType: ExternalOwnerRow.IdxExternalOwnerId
+  fullName: SuperOffice.CRM.Rows.ExternalOwnerRow.IdxExternalOwnerId
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.ExternalOwnerRow
+    name: ExternalOwnerRow
+    isExternal: true
+    href: SuperOffice.CRM.Rows.ExternalOwnerRow.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows.ExternalOwnerRow.IdxExternalOwnerId
+    name: IdxExternalOwnerId
+    isExternal: true
+    href: SuperOffice.CRM.Rows.ExternalOwnerRow.IdxExternalOwnerId.html
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.ExternalOwnerRow
+    name: ExternalOwnerRow
+    isExternal: true
+    href: SuperOffice.CRM.Rows.ExternalOwnerRow.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows.ExternalOwnerRow.IdxExternalOwnerId
+    name: IdxExternalOwnerId
+    isExternal: true
+    href: SuperOffice.CRM.Rows.ExternalOwnerRow.IdxExternalOwnerId.html
+- uid: SuperOffice.CRM.Rows.ExternalOwnerRow.CustomSearch
+  commentId: T:SuperOffice.CRM.Rows.ExternalOwnerRow.CustomSearch
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  href: SuperOffice.CRM.Rows.ExternalOwnerRow.html
+  name: ExternalOwnerRow.CustomSearch
+  nameWithType: ExternalOwnerRow.CustomSearch
+  fullName: SuperOffice.CRM.Rows.ExternalOwnerRow.CustomSearch
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.ExternalOwnerRow
+    name: ExternalOwnerRow
+    isExternal: true
+    href: SuperOffice.CRM.Rows.ExternalOwnerRow.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows.ExternalOwnerRow.CustomSearch
+    name: CustomSearch
+    isExternal: true
+    href: SuperOffice.CRM.Rows.ExternalOwnerRow.CustomSearch.html
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.ExternalOwnerRow
+    name: ExternalOwnerRow
+    isExternal: true
+    href: SuperOffice.CRM.Rows.ExternalOwnerRow.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows.ExternalOwnerRow.CustomSearch
+    name: CustomSearch
+    isExternal: true
+    href: SuperOffice.CRM.Rows.ExternalOwnerRow.CustomSearch.html
+- uid: SuperOffice.CRM.Rows.ExternalOwnerRecordData
+  commentId: T:SuperOffice.CRM.Rows.ExternalOwnerRecordData
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  href: SuperOffice.CRM.Rows.ExternalOwnerRecordData.html
+  name: ExternalOwnerRecordData
+  nameWithType: ExternalOwnerRecordData
+  fullName: SuperOffice.CRM.Rows.ExternalOwnerRecordData
+- uid: SuperOffice.CRM.Rows.ExternalOwnerRecordDataExtensions
+  commentId: T:SuperOffice.CRM.Rows.ExternalOwnerRecordDataExtensions
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  href: SuperOffice.CRM.Rows.ExternalOwnerRecordDataExtensions.html
+  name: ExternalOwnerRecordDataExtensions
+  nameWithType: ExternalOwnerRecordDataExtensions
+  fullName: SuperOffice.CRM.Rows.ExternalOwnerRecordDataExtensions
 - uid: SuperOffice.CRM.Rows.ExtFieldRows
   commentId: T:SuperOffice.CRM.Rows.ExtFieldRows
   parent: SuperOffice.CRM.Rows
@@ -42575,6 +42780,148 @@ references:
   name: LanguageInfoCountryRecordDataExtensions
   nameWithType: LanguageInfoCountryRecordDataExtensions
   fullName: SuperOffice.CRM.Rows.LanguageInfoCountryRecordDataExtensions
+- uid: SuperOffice.CRM.Rows.LeadstatusRows
+  commentId: T:SuperOffice.CRM.Rows.LeadstatusRows
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  href: SuperOffice.CRM.Rows.LeadstatusRows.html
+  name: LeadstatusRows
+  nameWithType: LeadstatusRows
+  fullName: SuperOffice.CRM.Rows.LeadstatusRows
+- uid: SuperOffice.CRM.Rows.LeadstatusRows.CustomSearch
+  commentId: T:SuperOffice.CRM.Rows.LeadstatusRows.CustomSearch
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  href: SuperOffice.CRM.Rows.LeadstatusRows.html
+  name: LeadstatusRows.CustomSearch
+  nameWithType: LeadstatusRows.CustomSearch
+  fullName: SuperOffice.CRM.Rows.LeadstatusRows.CustomSearch
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.LeadstatusRows
+    name: LeadstatusRows
+    isExternal: true
+    href: SuperOffice.CRM.Rows.LeadstatusRows.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows.LeadstatusRows.CustomSearch
+    name: CustomSearch
+    isExternal: true
+    href: SuperOffice.CRM.Rows.LeadstatusRows.CustomSearch.html
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.LeadstatusRows
+    name: LeadstatusRows
+    isExternal: true
+    href: SuperOffice.CRM.Rows.LeadstatusRows.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows.LeadstatusRows.CustomSearch
+    name: CustomSearch
+    isExternal: true
+    href: SuperOffice.CRM.Rows.LeadstatusRows.CustomSearch.html
+- uid: SuperOffice.CRM.Rows.LeadstatusRow
+  commentId: T:SuperOffice.CRM.Rows.LeadstatusRow
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  href: SuperOffice.CRM.Rows.LeadstatusRow.html
+  name: LeadstatusRow
+  nameWithType: LeadstatusRow
+  fullName: SuperOffice.CRM.Rows.LeadstatusRow
+- uid: SuperOffice.CRM.Rows.LeadstatusRow.IdxLeadstatusId
+  commentId: T:SuperOffice.CRM.Rows.LeadstatusRow.IdxLeadstatusId
+  isExternal: true
+  href: SuperOffice.CRM.Rows.LeadstatusRow.html
+  name: LeadstatusRow.IdxLeadstatusId
+  nameWithType: LeadstatusRow.IdxLeadstatusId
+  fullName: SuperOffice.CRM.Rows.LeadstatusRow.IdxLeadstatusId
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.LeadstatusRow
+    name: LeadstatusRow
+    isExternal: true
+    href: SuperOffice.CRM.Rows.LeadstatusRow.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows.LeadstatusRow.IdxLeadstatusId
+    name: IdxLeadstatusId
+    isExternal: true
+    href: SuperOffice.CRM.Rows.LeadstatusRow.IdxLeadstatusId.html
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.LeadstatusRow
+    name: LeadstatusRow
+    isExternal: true
+    href: SuperOffice.CRM.Rows.LeadstatusRow.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows.LeadstatusRow.IdxLeadstatusId
+    name: IdxLeadstatusId
+    isExternal: true
+    href: SuperOffice.CRM.Rows.LeadstatusRow.IdxLeadstatusId.html
+- uid: SuperOffice.CRM.Rows.LeadstatusRow.IdxName
+  commentId: T:SuperOffice.CRM.Rows.LeadstatusRow.IdxName
+  isExternal: true
+  href: SuperOffice.CRM.Rows.LeadstatusRow.html
+  name: LeadstatusRow.IdxName
+  nameWithType: LeadstatusRow.IdxName
+  fullName: SuperOffice.CRM.Rows.LeadstatusRow.IdxName
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.LeadstatusRow
+    name: LeadstatusRow
+    isExternal: true
+    href: SuperOffice.CRM.Rows.LeadstatusRow.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows.LeadstatusRow.IdxName
+    name: IdxName
+    isExternal: true
+    href: SuperOffice.CRM.Rows.LeadstatusRow.IdxName.html
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.LeadstatusRow
+    name: LeadstatusRow
+    isExternal: true
+    href: SuperOffice.CRM.Rows.LeadstatusRow.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows.LeadstatusRow.IdxName
+    name: IdxName
+    isExternal: true
+    href: SuperOffice.CRM.Rows.LeadstatusRow.IdxName.html
+- uid: SuperOffice.CRM.Rows.LeadstatusRow.CustomSearch
+  commentId: T:SuperOffice.CRM.Rows.LeadstatusRow.CustomSearch
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  href: SuperOffice.CRM.Rows.LeadstatusRow.html
+  name: LeadstatusRow.CustomSearch
+  nameWithType: LeadstatusRow.CustomSearch
+  fullName: SuperOffice.CRM.Rows.LeadstatusRow.CustomSearch
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.LeadstatusRow
+    name: LeadstatusRow
+    isExternal: true
+    href: SuperOffice.CRM.Rows.LeadstatusRow.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows.LeadstatusRow.CustomSearch
+    name: CustomSearch
+    isExternal: true
+    href: SuperOffice.CRM.Rows.LeadstatusRow.CustomSearch.html
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.LeadstatusRow
+    name: LeadstatusRow
+    isExternal: true
+    href: SuperOffice.CRM.Rows.LeadstatusRow.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows.LeadstatusRow.CustomSearch
+    name: CustomSearch
+    isExternal: true
+    href: SuperOffice.CRM.Rows.LeadstatusRow.CustomSearch.html
+- uid: SuperOffice.CRM.Rows.LeadstatusRecordData
+  commentId: T:SuperOffice.CRM.Rows.LeadstatusRecordData
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  href: SuperOffice.CRM.Rows.LeadstatusRecordData.html
+  name: LeadstatusRecordData
+  nameWithType: LeadstatusRecordData
+  fullName: SuperOffice.CRM.Rows.LeadstatusRecordData
+- uid: SuperOffice.CRM.Rows.LeadstatusRecordDataExtensions
+  commentId: T:SuperOffice.CRM.Rows.LeadstatusRecordDataExtensions
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  href: SuperOffice.CRM.Rows.LeadstatusRecordDataExtensions.html
+  name: LeadstatusRecordDataExtensions
+  nameWithType: LeadstatusRecordDataExtensions
+  fullName: SuperOffice.CRM.Rows.LeadstatusRecordDataExtensions
 - uid: SuperOffice.CRM.Rows.LegalBaseRows
   commentId: T:SuperOffice.CRM.Rows.LegalBaseRows
   parent: SuperOffice.CRM.Rows
@@ -52371,6 +52718,33 @@ references:
     name: IdxModifiedByWorkflowId
     isExternal: true
     href: SuperOffice.CRM.Rows.PersonRows.IdxModifiedByWorkflowId.html
+- uid: SuperOffice.CRM.Rows.PersonRows.IdxLeadstatusId
+  commentId: T:SuperOffice.CRM.Rows.PersonRows.IdxLeadstatusId
+  isExternal: true
+  href: SuperOffice.CRM.Rows.PersonRows.html
+  name: PersonRows.IdxLeadstatusId
+  nameWithType: PersonRows.IdxLeadstatusId
+  fullName: SuperOffice.CRM.Rows.PersonRows.IdxLeadstatusId
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.PersonRows
+    name: PersonRows
+    isExternal: true
+    href: SuperOffice.CRM.Rows.PersonRows.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows.PersonRows.IdxLeadstatusId
+    name: IdxLeadstatusId
+    isExternal: true
+    href: SuperOffice.CRM.Rows.PersonRows.IdxLeadstatusId.html
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.PersonRows
+    name: PersonRows
+    isExternal: true
+    href: SuperOffice.CRM.Rows.PersonRows.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows.PersonRows.IdxLeadstatusId
+    name: IdxLeadstatusId
+    isExternal: true
+    href: SuperOffice.CRM.Rows.PersonRows.IdxLeadstatusId.html
 - uid: SuperOffice.CRM.Rows.PersonRows.CustomSearch
   commentId: T:SuperOffice.CRM.Rows.PersonRows.CustomSearch
   parent: SuperOffice.CRM.Rows
@@ -60110,6 +60484,148 @@ references:
   name: PushNotificationServiceRecordDataExtensions
   nameWithType: PushNotificationServiceRecordDataExtensions
   fullName: SuperOffice.CRM.Rows.PushNotificationServiceRecordDataExtensions
+- uid: SuperOffice.CRM.Rows.QuickFilterInfoRows
+  commentId: T:SuperOffice.CRM.Rows.QuickFilterInfoRows
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  href: SuperOffice.CRM.Rows.QuickFilterInfoRows.html
+  name: QuickFilterInfoRows
+  nameWithType: QuickFilterInfoRows
+  fullName: SuperOffice.CRM.Rows.QuickFilterInfoRows
+- uid: SuperOffice.CRM.Rows.QuickFilterInfoRows.IdxDashboardId
+  commentId: T:SuperOffice.CRM.Rows.QuickFilterInfoRows.IdxDashboardId
+  isExternal: true
+  href: SuperOffice.CRM.Rows.QuickFilterInfoRows.html
+  name: QuickFilterInfoRows.IdxDashboardId
+  nameWithType: QuickFilterInfoRows.IdxDashboardId
+  fullName: SuperOffice.CRM.Rows.QuickFilterInfoRows.IdxDashboardId
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.QuickFilterInfoRows
+    name: QuickFilterInfoRows
+    isExternal: true
+    href: SuperOffice.CRM.Rows.QuickFilterInfoRows.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows.QuickFilterInfoRows.IdxDashboardId
+    name: IdxDashboardId
+    isExternal: true
+    href: SuperOffice.CRM.Rows.QuickFilterInfoRows.IdxDashboardId.html
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.QuickFilterInfoRows
+    name: QuickFilterInfoRows
+    isExternal: true
+    href: SuperOffice.CRM.Rows.QuickFilterInfoRows.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows.QuickFilterInfoRows.IdxDashboardId
+    name: IdxDashboardId
+    isExternal: true
+    href: SuperOffice.CRM.Rows.QuickFilterInfoRows.IdxDashboardId.html
+- uid: SuperOffice.CRM.Rows.QuickFilterInfoRows.CustomSearch
+  commentId: T:SuperOffice.CRM.Rows.QuickFilterInfoRows.CustomSearch
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  href: SuperOffice.CRM.Rows.QuickFilterInfoRows.html
+  name: QuickFilterInfoRows.CustomSearch
+  nameWithType: QuickFilterInfoRows.CustomSearch
+  fullName: SuperOffice.CRM.Rows.QuickFilterInfoRows.CustomSearch
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.QuickFilterInfoRows
+    name: QuickFilterInfoRows
+    isExternal: true
+    href: SuperOffice.CRM.Rows.QuickFilterInfoRows.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows.QuickFilterInfoRows.CustomSearch
+    name: CustomSearch
+    isExternal: true
+    href: SuperOffice.CRM.Rows.QuickFilterInfoRows.CustomSearch.html
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.QuickFilterInfoRows
+    name: QuickFilterInfoRows
+    isExternal: true
+    href: SuperOffice.CRM.Rows.QuickFilterInfoRows.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows.QuickFilterInfoRows.CustomSearch
+    name: CustomSearch
+    isExternal: true
+    href: SuperOffice.CRM.Rows.QuickFilterInfoRows.CustomSearch.html
+- uid: SuperOffice.CRM.Rows.QuickFilterInfoRow
+  commentId: T:SuperOffice.CRM.Rows.QuickFilterInfoRow
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  href: SuperOffice.CRM.Rows.QuickFilterInfoRow.html
+  name: QuickFilterInfoRow
+  nameWithType: QuickFilterInfoRow
+  fullName: SuperOffice.CRM.Rows.QuickFilterInfoRow
+- uid: SuperOffice.CRM.Rows.QuickFilterInfoRow.IdxQuickFilterInfoId
+  commentId: T:SuperOffice.CRM.Rows.QuickFilterInfoRow.IdxQuickFilterInfoId
+  isExternal: true
+  href: SuperOffice.CRM.Rows.QuickFilterInfoRow.html
+  name: QuickFilterInfoRow.IdxQuickFilterInfoId
+  nameWithType: QuickFilterInfoRow.IdxQuickFilterInfoId
+  fullName: SuperOffice.CRM.Rows.QuickFilterInfoRow.IdxQuickFilterInfoId
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.QuickFilterInfoRow
+    name: QuickFilterInfoRow
+    isExternal: true
+    href: SuperOffice.CRM.Rows.QuickFilterInfoRow.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows.QuickFilterInfoRow.IdxQuickFilterInfoId
+    name: IdxQuickFilterInfoId
+    isExternal: true
+    href: SuperOffice.CRM.Rows.QuickFilterInfoRow.IdxQuickFilterInfoId.html
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.QuickFilterInfoRow
+    name: QuickFilterInfoRow
+    isExternal: true
+    href: SuperOffice.CRM.Rows.QuickFilterInfoRow.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows.QuickFilterInfoRow.IdxQuickFilterInfoId
+    name: IdxQuickFilterInfoId
+    isExternal: true
+    href: SuperOffice.CRM.Rows.QuickFilterInfoRow.IdxQuickFilterInfoId.html
+- uid: SuperOffice.CRM.Rows.QuickFilterInfoRow.CustomSearch
+  commentId: T:SuperOffice.CRM.Rows.QuickFilterInfoRow.CustomSearch
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  href: SuperOffice.CRM.Rows.QuickFilterInfoRow.html
+  name: QuickFilterInfoRow.CustomSearch
+  nameWithType: QuickFilterInfoRow.CustomSearch
+  fullName: SuperOffice.CRM.Rows.QuickFilterInfoRow.CustomSearch
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.QuickFilterInfoRow
+    name: QuickFilterInfoRow
+    isExternal: true
+    href: SuperOffice.CRM.Rows.QuickFilterInfoRow.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows.QuickFilterInfoRow.CustomSearch
+    name: CustomSearch
+    isExternal: true
+    href: SuperOffice.CRM.Rows.QuickFilterInfoRow.CustomSearch.html
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.QuickFilterInfoRow
+    name: QuickFilterInfoRow
+    isExternal: true
+    href: SuperOffice.CRM.Rows.QuickFilterInfoRow.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows.QuickFilterInfoRow.CustomSearch
+    name: CustomSearch
+    isExternal: true
+    href: SuperOffice.CRM.Rows.QuickFilterInfoRow.CustomSearch.html
+- uid: SuperOffice.CRM.Rows.QuickFilterInfoRecordData
+  commentId: T:SuperOffice.CRM.Rows.QuickFilterInfoRecordData
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  href: SuperOffice.CRM.Rows.QuickFilterInfoRecordData.html
+  name: QuickFilterInfoRecordData
+  nameWithType: QuickFilterInfoRecordData
+  fullName: SuperOffice.CRM.Rows.QuickFilterInfoRecordData
+- uid: SuperOffice.CRM.Rows.QuickFilterInfoRecordDataExtensions
+  commentId: T:SuperOffice.CRM.Rows.QuickFilterInfoRecordDataExtensions
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  href: SuperOffice.CRM.Rows.QuickFilterInfoRecordDataExtensions.html
+  name: QuickFilterInfoRecordDataExtensions
+  nameWithType: QuickFilterInfoRecordDataExtensions
+  fullName: SuperOffice.CRM.Rows.QuickFilterInfoRecordDataExtensions
 - uid: SuperOffice.CRM.Rows.QuickReplyRows
   commentId: T:SuperOffice.CRM.Rows.QuickReplyRows
   parent: SuperOffice.CRM.Rows
@@ -86298,6 +86814,33 @@ references:
     name: IdxTargetAssignmentInfoId
     isExternal: true
     href: SuperOffice.CRM.Rows.TargetRevisionHistoryRows.IdxTargetAssignmentInfoId.html
+- uid: SuperOffice.CRM.Rows.TargetRevisionHistoryRows.IdxTargetGroupId
+  commentId: T:SuperOffice.CRM.Rows.TargetRevisionHistoryRows.IdxTargetGroupId
+  isExternal: true
+  href: SuperOffice.CRM.Rows.TargetRevisionHistoryRows.html
+  name: TargetRevisionHistoryRows.IdxTargetGroupId
+  nameWithType: TargetRevisionHistoryRows.IdxTargetGroupId
+  fullName: SuperOffice.CRM.Rows.TargetRevisionHistoryRows.IdxTargetGroupId
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.TargetRevisionHistoryRows
+    name: TargetRevisionHistoryRows
+    isExternal: true
+    href: SuperOffice.CRM.Rows.TargetRevisionHistoryRows.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows.TargetRevisionHistoryRows.IdxTargetGroupId
+    name: IdxTargetGroupId
+    isExternal: true
+    href: SuperOffice.CRM.Rows.TargetRevisionHistoryRows.IdxTargetGroupId.html
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.TargetRevisionHistoryRows
+    name: TargetRevisionHistoryRows
+    isExternal: true
+    href: SuperOffice.CRM.Rows.TargetRevisionHistoryRows.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows.TargetRevisionHistoryRows.IdxTargetGroupId
+    name: IdxTargetGroupId
+    isExternal: true
+    href: SuperOffice.CRM.Rows.TargetRevisionHistoryRows.IdxTargetGroupId.html
 - uid: SuperOffice.CRM.Rows.TargetRevisionHistoryRows.CustomSearch
   commentId: T:SuperOffice.CRM.Rows.TargetRevisionHistoryRows.CustomSearch
   parent: SuperOffice.CRM.Rows
@@ -86361,33 +86904,6 @@ references:
     name: IdxTargetRevisionHistoryId
     isExternal: true
     href: SuperOffice.CRM.Rows.TargetRevisionHistoryRow.IdxTargetRevisionHistoryId.html
-- uid: SuperOffice.CRM.Rows.TargetRevisionHistoryRow.IdxTargetGroupId
-  commentId: T:SuperOffice.CRM.Rows.TargetRevisionHistoryRow.IdxTargetGroupId
-  isExternal: true
-  href: SuperOffice.CRM.Rows.TargetRevisionHistoryRow.html
-  name: TargetRevisionHistoryRow.IdxTargetGroupId
-  nameWithType: TargetRevisionHistoryRow.IdxTargetGroupId
-  fullName: SuperOffice.CRM.Rows.TargetRevisionHistoryRow.IdxTargetGroupId
-  spec.csharp:
-  - uid: SuperOffice.CRM.Rows.TargetRevisionHistoryRow
-    name: TargetRevisionHistoryRow
-    isExternal: true
-    href: SuperOffice.CRM.Rows.TargetRevisionHistoryRow.html
-  - name: .
-  - uid: SuperOffice.CRM.Rows.TargetRevisionHistoryRow.IdxTargetGroupId
-    name: IdxTargetGroupId
-    isExternal: true
-    href: SuperOffice.CRM.Rows.TargetRevisionHistoryRow.IdxTargetGroupId.html
-  spec.vb:
-  - uid: SuperOffice.CRM.Rows.TargetRevisionHistoryRow
-    name: TargetRevisionHistoryRow
-    isExternal: true
-    href: SuperOffice.CRM.Rows.TargetRevisionHistoryRow.html
-  - name: .
-  - uid: SuperOffice.CRM.Rows.TargetRevisionHistoryRow.IdxTargetGroupId
-    name: IdxTargetGroupId
-    isExternal: true
-    href: SuperOffice.CRM.Rows.TargetRevisionHistoryRow.IdxTargetGroupId.html
 - uid: SuperOffice.CRM.Rows.TargetRevisionHistoryRow.CustomSearch
   commentId: T:SuperOffice.CRM.Rows.TargetRevisionHistoryRow.CustomSearch
   parent: SuperOffice.CRM.Rows
@@ -91102,6 +91618,202 @@ references:
   name: TicketTypeStatusRecordDataExtensions
   nameWithType: TicketTypeStatusRecordDataExtensions
   fullName: SuperOffice.CRM.Rows.TicketTypeStatusRecordDataExtensions
+- uid: SuperOffice.CRM.Rows.TimeKeepingRows
+  commentId: T:SuperOffice.CRM.Rows.TimeKeepingRows
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  href: SuperOffice.CRM.Rows.TimeKeepingRows.html
+  name: TimeKeepingRows
+  nameWithType: TimeKeepingRows
+  fullName: SuperOffice.CRM.Rows.TimeKeepingRows
+- uid: SuperOffice.CRM.Rows.TimeKeepingRows.IdxEntityId
+  commentId: T:SuperOffice.CRM.Rows.TimeKeepingRows.IdxEntityId
+  isExternal: true
+  href: SuperOffice.CRM.Rows.TimeKeepingRows.html
+  name: TimeKeepingRows.IdxEntityId
+  nameWithType: TimeKeepingRows.IdxEntityId
+  fullName: SuperOffice.CRM.Rows.TimeKeepingRows.IdxEntityId
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.TimeKeepingRows
+    name: TimeKeepingRows
+    isExternal: true
+    href: SuperOffice.CRM.Rows.TimeKeepingRows.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows.TimeKeepingRows.IdxEntityId
+    name: IdxEntityId
+    isExternal: true
+    href: SuperOffice.CRM.Rows.TimeKeepingRows.IdxEntityId.html
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.TimeKeepingRows
+    name: TimeKeepingRows
+    isExternal: true
+    href: SuperOffice.CRM.Rows.TimeKeepingRows.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows.TimeKeepingRows.IdxEntityId
+    name: IdxEntityId
+    isExternal: true
+    href: SuperOffice.CRM.Rows.TimeKeepingRows.IdxEntityId.html
+- uid: SuperOffice.CRM.Rows.TimeKeepingRows.IdxEntityIdStateId
+  commentId: T:SuperOffice.CRM.Rows.TimeKeepingRows.IdxEntityIdStateId
+  isExternal: true
+  href: SuperOffice.CRM.Rows.TimeKeepingRows.html
+  name: TimeKeepingRows.IdxEntityIdStateId
+  nameWithType: TimeKeepingRows.IdxEntityIdStateId
+  fullName: SuperOffice.CRM.Rows.TimeKeepingRows.IdxEntityIdStateId
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.TimeKeepingRows
+    name: TimeKeepingRows
+    isExternal: true
+    href: SuperOffice.CRM.Rows.TimeKeepingRows.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows.TimeKeepingRows.IdxEntityIdStateId
+    name: IdxEntityIdStateId
+    isExternal: true
+    href: SuperOffice.CRM.Rows.TimeKeepingRows.IdxEntityIdStateId.html
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.TimeKeepingRows
+    name: TimeKeepingRows
+    isExternal: true
+    href: SuperOffice.CRM.Rows.TimeKeepingRows.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows.TimeKeepingRows.IdxEntityIdStateId
+    name: IdxEntityIdStateId
+    isExternal: true
+    href: SuperOffice.CRM.Rows.TimeKeepingRows.IdxEntityIdStateId.html
+- uid: SuperOffice.CRM.Rows.TimeKeepingRows.IdxEntityIdStateIdTimeKeepingType
+  commentId: T:SuperOffice.CRM.Rows.TimeKeepingRows.IdxEntityIdStateIdTimeKeepingType
+  isExternal: true
+  href: SuperOffice.CRM.Rows.TimeKeepingRows.html
+  name: TimeKeepingRows.IdxEntityIdStateIdTimeKeepingType
+  nameWithType: TimeKeepingRows.IdxEntityIdStateIdTimeKeepingType
+  fullName: SuperOffice.CRM.Rows.TimeKeepingRows.IdxEntityIdStateIdTimeKeepingType
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.TimeKeepingRows
+    name: TimeKeepingRows
+    isExternal: true
+    href: SuperOffice.CRM.Rows.TimeKeepingRows.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows.TimeKeepingRows.IdxEntityIdStateIdTimeKeepingType
+    name: IdxEntityIdStateIdTimeKeepingType
+    isExternal: true
+    href: SuperOffice.CRM.Rows.TimeKeepingRows.IdxEntityIdStateIdTimeKeepingType.html
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.TimeKeepingRows
+    name: TimeKeepingRows
+    isExternal: true
+    href: SuperOffice.CRM.Rows.TimeKeepingRows.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows.TimeKeepingRows.IdxEntityIdStateIdTimeKeepingType
+    name: IdxEntityIdStateIdTimeKeepingType
+    isExternal: true
+    href: SuperOffice.CRM.Rows.TimeKeepingRows.IdxEntityIdStateIdTimeKeepingType.html
+- uid: SuperOffice.CRM.Rows.TimeKeepingRows.CustomSearch
+  commentId: T:SuperOffice.CRM.Rows.TimeKeepingRows.CustomSearch
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  href: SuperOffice.CRM.Rows.TimeKeepingRows.html
+  name: TimeKeepingRows.CustomSearch
+  nameWithType: TimeKeepingRows.CustomSearch
+  fullName: SuperOffice.CRM.Rows.TimeKeepingRows.CustomSearch
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.TimeKeepingRows
+    name: TimeKeepingRows
+    isExternal: true
+    href: SuperOffice.CRM.Rows.TimeKeepingRows.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows.TimeKeepingRows.CustomSearch
+    name: CustomSearch
+    isExternal: true
+    href: SuperOffice.CRM.Rows.TimeKeepingRows.CustomSearch.html
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.TimeKeepingRows
+    name: TimeKeepingRows
+    isExternal: true
+    href: SuperOffice.CRM.Rows.TimeKeepingRows.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows.TimeKeepingRows.CustomSearch
+    name: CustomSearch
+    isExternal: true
+    href: SuperOffice.CRM.Rows.TimeKeepingRows.CustomSearch.html
+- uid: SuperOffice.CRM.Rows.TimeKeepingRow
+  commentId: T:SuperOffice.CRM.Rows.TimeKeepingRow
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  href: SuperOffice.CRM.Rows.TimeKeepingRow.html
+  name: TimeKeepingRow
+  nameWithType: TimeKeepingRow
+  fullName: SuperOffice.CRM.Rows.TimeKeepingRow
+- uid: SuperOffice.CRM.Rows.TimeKeepingRow.IdxTimeKeepingId
+  commentId: T:SuperOffice.CRM.Rows.TimeKeepingRow.IdxTimeKeepingId
+  isExternal: true
+  href: SuperOffice.CRM.Rows.TimeKeepingRow.html
+  name: TimeKeepingRow.IdxTimeKeepingId
+  nameWithType: TimeKeepingRow.IdxTimeKeepingId
+  fullName: SuperOffice.CRM.Rows.TimeKeepingRow.IdxTimeKeepingId
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.TimeKeepingRow
+    name: TimeKeepingRow
+    isExternal: true
+    href: SuperOffice.CRM.Rows.TimeKeepingRow.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows.TimeKeepingRow.IdxTimeKeepingId
+    name: IdxTimeKeepingId
+    isExternal: true
+    href: SuperOffice.CRM.Rows.TimeKeepingRow.IdxTimeKeepingId.html
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.TimeKeepingRow
+    name: TimeKeepingRow
+    isExternal: true
+    href: SuperOffice.CRM.Rows.TimeKeepingRow.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows.TimeKeepingRow.IdxTimeKeepingId
+    name: IdxTimeKeepingId
+    isExternal: true
+    href: SuperOffice.CRM.Rows.TimeKeepingRow.IdxTimeKeepingId.html
+- uid: SuperOffice.CRM.Rows.TimeKeepingRow.CustomSearch
+  commentId: T:SuperOffice.CRM.Rows.TimeKeepingRow.CustomSearch
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  href: SuperOffice.CRM.Rows.TimeKeepingRow.html
+  name: TimeKeepingRow.CustomSearch
+  nameWithType: TimeKeepingRow.CustomSearch
+  fullName: SuperOffice.CRM.Rows.TimeKeepingRow.CustomSearch
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.TimeKeepingRow
+    name: TimeKeepingRow
+    isExternal: true
+    href: SuperOffice.CRM.Rows.TimeKeepingRow.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows.TimeKeepingRow.CustomSearch
+    name: CustomSearch
+    isExternal: true
+    href: SuperOffice.CRM.Rows.TimeKeepingRow.CustomSearch.html
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.TimeKeepingRow
+    name: TimeKeepingRow
+    isExternal: true
+    href: SuperOffice.CRM.Rows.TimeKeepingRow.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows.TimeKeepingRow.CustomSearch
+    name: CustomSearch
+    isExternal: true
+    href: SuperOffice.CRM.Rows.TimeKeepingRow.CustomSearch.html
+- uid: SuperOffice.CRM.Rows.TimeKeepingRecordData
+  commentId: T:SuperOffice.CRM.Rows.TimeKeepingRecordData
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  href: SuperOffice.CRM.Rows.TimeKeepingRecordData.html
+  name: TimeKeepingRecordData
+  nameWithType: TimeKeepingRecordData
+  fullName: SuperOffice.CRM.Rows.TimeKeepingRecordData
+- uid: SuperOffice.CRM.Rows.TimeKeepingRecordDataExtensions
+  commentId: T:SuperOffice.CRM.Rows.TimeKeepingRecordDataExtensions
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  href: SuperOffice.CRM.Rows.TimeKeepingRecordDataExtensions.html
+  name: TimeKeepingRecordDataExtensions
+  nameWithType: TimeKeepingRecordDataExtensions
+  fullName: SuperOffice.CRM.Rows.TimeKeepingRecordDataExtensions
 - uid: SuperOffice.CRM.Rows.TimestampsRows
   commentId: T:SuperOffice.CRM.Rows.TimestampsRows
   parent: SuperOffice.CRM.Rows

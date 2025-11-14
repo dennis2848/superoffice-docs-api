@@ -31,7 +31,7 @@ Change a SaleEntity user-defined field's type based on the prog-id or label.
 | isIndexed | bool |  Should we put data in an indexed column for faster access? Default no |
 
 ```http
-POST /api/v1/Sale/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=True
+POST /api/v1/Sale/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=False
 ```
 
 
@@ -105,7 +105,7 @@ SaleEntity found.
 POST /api/v1/Sale/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -115,46 +115,46 @@ HTTP/1.1 200 SaleEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 922,
-  "ColumnId": 543,
-  "FieldDefault": "exercitationem",
-  "FieldHeight": 640,
-  "FieldLabel": "voluptatem",
-  "FieldLeft": 56,
-  "FieldTop": 561,
+  "UDefFieldId": 149,
+  "ColumnId": 748,
+  "FieldDefault": "fugiat",
+  "FieldHeight": 320,
+  "FieldLabel": "doloribus",
+  "FieldLeft": 90,
+  "FieldTop": 295,
   "FieldType": "Checkbox",
-  "FieldWidth": 225,
-  "FormatMask": "quo",
-  "HideLabel": false,
+  "FieldWidth": 788,
+  "FormatMask": "aperiam",
+  "HideLabel": true,
   "IsIndexed": false,
-  "LabelHeight": 746,
-  "LabelLeft": 588,
-  "LabelTop": 697,
-  "LabelWidth": 302,
-  "LastVersionId": 427,
-  "ListTableId": 853,
+  "LabelHeight": 496,
+  "LabelLeft": 182,
+  "LabelTop": 160,
+  "LabelWidth": 69,
+  "LastVersionId": 948,
+  "ListTableId": 409,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 308,
-  "ProgId": "voluptate",
+  "Page1LineNo": 950,
+  "ProgId": "adipisci",
   "IsReadOnly": false,
-  "ShortLabel": "iusto",
-  "TabOrder": 547,
-  "TextLength": 689,
-  "Tooltip": "reiciendis",
-  "UdefIdentity": 607,
-  "UDListDefinitionId": 108,
+  "ShortLabel": "eum",
+  "TabOrder": 586,
+  "TextLength": 829,
+  "Tooltip": "dolores",
+  "UdefIdentity": 583,
+  "UDListDefinitionId": 405,
   "Justification": "Center",
-  "Version": 43,
-  "TemplateVariableName": "Schroeder-Abernathy",
-  "HasBeenPublished": true,
-  "MdoListName": "Hegmann-Kohler",
+  "Version": 638,
+  "TemplateVariableName": "Schaefer-Mitchell",
+  "HasBeenPublished": false,
+  "MdoListName": "Aufderhar, Wisozk and Bernier",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 437
+      "FieldType": "System.String",
+      "FieldLength": 595
     }
   }
 }

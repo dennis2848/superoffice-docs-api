@@ -81,20 +81,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 757,
-    "Name": "Stracke, Miller and Batz",
-    "Tooltip": "sunt",
+    "HeadingId": 900,
+    "Name": "Sawayn-Auer",
+    "Tooltip": "voluptas",
     "Deleted": true,
-    "Rank": 257,
-    "UdListDefinitionId": 932
+    "Rank": 794,
+    "UdListDefinitionId": 79
   },
   {
-    "HeadingId": 757,
-    "Name": "Stracke, Miller and Batz",
-    "Tooltip": "sunt",
+    "HeadingId": 900,
+    "Name": "Sawayn-Auer",
+    "Tooltip": "voluptas",
     "Deleted": true,
-    "Rank": 257,
-    "UdListDefinitionId": 932
+    "Rank": 794,
+    "UdListDefinitionId": 79
   }
 ]
 ```
@@ -107,18 +107,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 702,
-    "Name": "Hessel-Johnson",
-    "Tooltip": "aut",
+    "HeadingId": 190,
+    "Name": "Langworth-Krajcik",
+    "Tooltip": "et",
     "Deleted": false,
-    "Rank": 41,
-    "UdListDefinitionId": 984,
+    "Rank": 51,
+    "UdListDefinitionId": 334,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 118
+        "FieldType": "System.Int32",
+        "FieldLength": 722
       }
     }
   }

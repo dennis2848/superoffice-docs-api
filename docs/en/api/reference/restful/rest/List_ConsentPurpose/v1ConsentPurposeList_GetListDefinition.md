@@ -66,7 +66,7 @@ OK
 GET /api/v1/List/ConsentPurpose
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -76,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 317,
-  "Name": "Wiza, Rowe and Larson",
-  "Tooltip": "tempora",
-  "Deleted": false,
-  "Rank": 252,
+  "Id": 264,
+  "Name": "Emmerich, Wuckert and Luettgen",
+  "Tooltip": "eligendi",
+  "Deleted": true,
+  "Rank": 856,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "veniam",
+  "ListType": "minima",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 619
+      "FieldType": "System.String",
+      "FieldLength": 472
     }
   },
   "_Links": {

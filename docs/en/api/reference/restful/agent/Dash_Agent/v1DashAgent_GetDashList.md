@@ -14,6 +14,8 @@ POST /api/v1/Agents/Dash/GetDashList
 Gets the ordered list of dashboards
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -86,13 +88,13 @@ OK
 POST /api/v1/Agents/Dash/GetDashList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Dashboards": [
-    575,
-    751
+    254,
+    418
   ]
 }
 ```
@@ -105,37 +107,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DashboardId": 278,
-    "UniqueId": "velit",
-    "Name": "Roob-Bailey",
-    "Description": "Innovative tertiary moratorium",
-    "AssociateId": 482,
-    "Columns": 434,
+    "DashboardId": 163,
+    "UniqueId": "illum",
+    "Name": "Ondricka, Cassin and Stiedemann",
+    "Description": "Re-engineered regional access",
+    "AssociateId": 49,
+    "Columns": 954,
     "Theme": null,
-    "VisibleForAll": 243,
+    "VisibleForAll": 895,
     "VisibleForAssociates": [
-      240,
-      213
+      132,
+      206
     ],
     "VisibleForGroups": [
-      234,
-      682
+      512,
+      160
     ],
-    "PinForAll": 851,
+    "PinForAll": 989,
     "PinForAssociates": [
-      390,
-      148
+      15,
+      560
     ],
     "PinForGroups": [
-      628,
-      302
+      860,
+      298
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 448
+        "FieldType": "System.String",
+        "FieldLength": 432
       }
     }
   }

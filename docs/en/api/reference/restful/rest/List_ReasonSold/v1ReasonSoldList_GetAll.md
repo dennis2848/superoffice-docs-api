@@ -71,7 +71,7 @@ OK
 GET /api/v1/List/ReasonSold/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -82,18 +82,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 430,
-    "Name": "Runolfsdottir LLC",
-    "Tooltip": "accusamus",
+    "Id": 485,
+    "Name": "Kertzmann-Klocko",
+    "Tooltip": "reiciendis",
     "Deleted": false,
-    "UdListDefinitionId": 192,
-    "Rank": 756,
+    "UdListDefinitionId": 263,
+    "Rank": 625,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 575
+        "FieldType": "System.Int32",
+        "FieldLength": 87
       }
     }
   }

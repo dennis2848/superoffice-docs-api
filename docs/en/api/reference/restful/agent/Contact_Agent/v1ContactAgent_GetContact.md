@@ -14,6 +14,8 @@ POST /api/v1/Agents/Contact/GetContact
 Gets a Contact object.
 
 
+NsApiSlow threshold: 1000 ms.
+
 
 
 
@@ -27,7 +29,7 @@ Gets a Contact object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Contact/GetContact?contactId=353
+POST /api/v1/Agents/Contact/GetContact?contactId=857
 POST /api/v1/Agents/Contact/GetContact?$select=name,department,category/id
 ```
 
@@ -91,7 +93,7 @@ OK
 POST /api/v1/Agents/Contact/GetContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -101,36 +103,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 328,
-  "Name": "Osinski Inc and Sons",
-  "OrgNr": "804229",
+  "ContactId": 758,
+  "Name": "Huels, Feeney and Predovic",
+  "OrgNr": "1212481",
   "Department": "",
   "URL": "http://www.example.com/",
-  "City": "sit",
-  "DirectPhone": "925-857-4342",
-  "AssociateId": 21,
-  "CountryId": 265,
-  "EmailAddress": "howell@haag.uk",
-  "Kananame": "sapiente",
-  "EmailAddressName": "valerie@robelritchie.com",
+  "City": "aut",
+  "DirectPhone": "1-975-468-6448",
+  "AssociateId": 671,
+  "CountryId": 556,
+  "EmailAddress": "maggie@eichmannbahringer.us",
+  "Kananame": "vel",
+  "EmailAddressName": "keeley@mcdermottreichert.us",
   "URLName": "http://www.example.com/",
-  "AssociateFullName": "Jaquan Altenwerth",
+  "AssociateFullName": "Brandon DuBuque Jr.",
   "BusinessName": "Information Technology",
   "CategoryName": "VIP Customer",
   "CountryName": "Sokovia",
   "Address": null,
-  "FormattedAddress": "sit",
-  "FullName": "Virginia Kozey",
-  "IsOwnerContact": false,
-  "ActiveErpLinks": 582,
-  "Number1": "640905",
-  "Number2": "1022473",
+  "FormattedAddress": "quia",
+  "FullName": "Prof. Vernie Williamson",
+  "IsOwnerContact": true,
+  "ActiveErpLinks": 381,
+  "Number1": "639563",
+  "Number2": "623769",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 591
+      "FieldType": "System.String",
+      "FieldLength": 656
     }
   }
 }

@@ -84,22 +84,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "sint",
+  "RawValue": "porro",
   "Specification": null,
-  "DisplayValue": "voluptatibus",
-  "DisplayTooltip": "vel",
+  "DisplayValue": "velit",
+  "DisplayTooltip": "ad",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 818,
-  "PrefDescId": 480,
-  "TableName": "Cummerata-Predovic",
-  "UserPreferenceId": 502,
+  "TargetId": 207,
+  "PrefDescId": 465,
+  "TableName": "Ward LLC",
+  "UserPreferenceId": 476,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 218
+      "FieldLength": 695
     }
   }
 }

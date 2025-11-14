@@ -14,6 +14,9 @@ POST /api/v1/Agents/EMail/GetEMailFromDocumentId
 Get an e-mail based on an archived document
 
 
+NsApiSlow threshold: 5000 ms.
+
+
 ## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 
@@ -101,11 +104,11 @@ OK
 POST /api/v1/Agents/EMail/GetEMailFromDocumentId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 981
+  "DocumentId": 294
 }
 ```
 
@@ -118,97 +121,97 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 350,
-      "ContactName": "Jerde, Schultz and Treutel",
-      "PersonId": 962,
-      "PersonName": "Lebsack, Tromp and Schimmel",
-      "AssociateId": 89,
-      "Address": "debitis",
-      "EmailId": 733,
+      "ContactId": 122,
+      "ContactName": "Weimann, Borer and Okuneva",
+      "PersonId": 94,
+      "PersonName": "Stokes, Ratke and Bernier",
+      "AssociateId": 628,
+      "Address": "nemo",
+      "EmailId": 4,
       "DuplicatePersonIds": [
-        665,
-        233
+        170,
+        514
       ],
-      "Name": "Bergnaum Inc and Sons",
+      "Name": "Wisoky Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 615
+          "FieldType": "System.String",
+          "FieldLength": 189
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 582,
-      "ContactName": "Kulas, Lehner and Leffler",
-      "PersonId": 308,
-      "PersonName": "Tillman, Greenholt and Beatty",
-      "AssociateId": 112,
-      "Address": "ut",
-      "EmailId": 473,
+      "ContactId": 528,
+      "ContactName": "Casper-Turcotte",
+      "PersonId": 576,
+      "PersonName": "Schinner, Bernhard and Bode",
+      "AssociateId": 51,
+      "Address": "et",
+      "EmailId": 313,
       "DuplicatePersonIds": [
-        949,
-        638
+        693,
+        246
       ],
-      "Name": "Mosciski, Wilkinson and Bednar",
+      "Name": "Bernier Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 642
+          "FieldType": "System.Int32",
+          "FieldLength": 735
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 675,
-      "ContactName": "Denesik, Kunze and Hand",
-      "PersonId": 671,
-      "PersonName": "Parker-Gerhold",
-      "AssociateId": 100,
-      "Address": "nulla",
-      "EmailId": 193,
+      "ContactId": 113,
+      "ContactName": "Rolfson, Beer and Bode",
+      "PersonId": 181,
+      "PersonName": "Borer, Terry and Blanda",
+      "AssociateId": 171,
+      "Address": "consequatur",
+      "EmailId": 989,
       "DuplicatePersonIds": [
-        419,
-        74
+        15,
+        394
       ],
-      "Name": "Lowe-Rodriguez",
+      "Name": "Bayer-Frami",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 379
+          "FieldType": "System.String",
+          "FieldLength": 827
         }
       }
     }
   ],
-  "Subject": "amet",
-  "HTMLBody": "explicabo",
+  "Subject": "voluptas",
+  "HTMLBody": "officia",
   "From": null,
-  "Sent": "2020-06-06T03:46:54.7695066+02:00",
-  "Size": 143,
+  "Sent": "2007-11-30T02:30:47.3038336+01:00",
+  "Size": 628,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "doloribus",
-  "PlainBody": "voluptatem",
-  "IsSent": false,
+  "MessageID": "eum",
+  "PlainBody": "voluptatum",
+  "IsSent": true,
   "EMailSOInfo": null,
-  "ServerId": 906,
+  "ServerId": 826,
   "Attachments": [
     {
-      "Description": "Mandatory exuding analyzer",
-      "Filename": "voluptas",
-      "Size": 97,
-      "Type": "enim",
-      "Encoding": "excepturi",
-      "Id": "doloribus",
-      "Disposition": "qui",
+      "Description": "Stand-alone multi-tasking project",
+      "Filename": "voluptatem",
+      "Size": 607,
+      "Type": "odio",
+      "Encoding": "sapiente",
+      "Id": "rem",
+      "Disposition": "ducimus",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
@@ -216,58 +219,58 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 984
+          "FieldLength": 289
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Mraz, McLaughlin and Armstrong",
+      "Name": "Kris-Skiles",
       "Values": [
-        "et",
-        "aut"
+        "quia",
+        "sunt"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 444
+          "FieldLength": 103
         }
       }
     },
     {
-      "Name": "Mraz, McLaughlin and Armstrong",
+      "Name": "Kris-Skiles",
       "Values": [
-        "et",
-        "aut"
+        "quia",
+        "sunt"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 444
+          "FieldLength": 103
         }
       }
     }
   ],
-  "FolderName": "Mosciski, Skiles and Huel",
-  "EmailItemId": 54,
-  "AccountId": 505,
-  "ReceivedAt": "2022-10-14T03:46:54.7695066+02:00",
+  "FolderName": "Toy Inc and Sons",
+  "EmailItemId": 371,
+  "AccountId": 449,
+  "ReceivedAt": "2001-11-22T02:30:47.3038336+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2004-08-31T03:46:54.7695066+02:00",
-  "HasCalendarData": false,
+  "RepliedAt": "2019-09-05T02:30:47.3038336+02:00",
+  "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 162
+      "FieldType": "System.Int32",
+      "FieldLength": 478
     }
   }
 }

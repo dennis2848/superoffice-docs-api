@@ -14,6 +14,8 @@ POST /api/v1/Agents/Marketing/DeleteFormEntity
 Deletes the FormEntity
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -26,7 +28,7 @@ Deletes the FormEntity
 | formEntityId | int32 | **Required** The identity of the FormEntity |
 
 ```http
-POST /api/v1/Agents/Marketing/DeleteFormEntity?formEntityId=386
+POST /api/v1/Agents/Marketing/DeleteFormEntity?formEntityId=947
 ```
 
 

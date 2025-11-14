@@ -74,7 +74,7 @@ OK
 GET /api/v1/License/{moduleOwner}/{associateId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -86,25 +86,25 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Unrestricted": false,
-    "Total": 347,
-    "Tooltip": "molestiae",
-    "CanAssign": false,
-    "Free": 538,
-    "InUse": 245,
+    "Total": 581,
+    "Tooltip": "ut",
+    "CanAssign": true,
+    "Free": 861,
+    "InUse": 993,
     "IsHidden": false,
-    "Assigned": true,
-    "ModuleLicenseId": 969,
-    "Name": "Green-Farrell",
-    "Description": "Triple-buffered high-level ability",
-    "PrerequisiteModuleName": "Thompson Inc and Sons",
-    "SortOrder": 391,
-    "ExtraFlags": 226,
+    "Assigned": false,
+    "ModuleLicenseId": 669,
+    "Name": "Rau-Rice",
+    "Description": "Profound tertiary help-desk",
+    "PrerequisiteModuleName": "Langosh-Kulas",
+    "SortOrder": 107,
+    "ExtraFlags": 844,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 721
+        "FieldLength": 626
       }
     }
   }

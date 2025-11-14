@@ -14,6 +14,8 @@ POST /api/v1/Agents/Appointment/GetAppointmentEntity
 Gets a AppointmentEntity object.
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -27,7 +29,7 @@ Gets a AppointmentEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Appointment/GetAppointmentEntity?appointmentEntityId=290
+POST /api/v1/Agents/Appointment/GetAppointmentEntity?appointmentEntityId=366
 POST /api/v1/Agents/Appointment/GetAppointmentEntity?$select=name,department,category/id
 ```
 
@@ -127,7 +129,7 @@ OK
 POST /api/v1/Agents/Appointment/GetAppointmentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -141,121 +143,121 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2010-06-11T03:46:54.0664078+02:00",
-  "AppointmentId": 778,
-  "Description": "Open-architected tangible hardware",
-  "Title": "rerum",
-  "Agenda": "illo",
-  "InternalNotes": "nobis",
-  "StartDate": "2014-01-26T03:46:54.0664078+01:00",
-  "EndDate": "2012-10-02T03:46:54.0664078+02:00",
+  "CreatedDate": "2002-08-21T02:30:46.5851045+02:00",
+  "AppointmentId": 148,
+  "Description": "Polarised leading edge portal",
+  "Title": "voluptatibus",
+  "Agenda": "sed",
+  "InternalNotes": "soluta",
+  "StartDate": "2025-07-21T02:30:46.5851045+02:00",
+  "EndDate": "2002-11-23T02:30:46.5851045+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 582,
+  "MotherId": 172,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2005-02-24T03:46:54.0664078+01:00",
+  "UpdatedDate": "2006-10-17T02:30:46.5851045+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 972,
+  "ActiveLinks": 182,
   "Links": [
     {
-      "EntityName": "Schinner, Erdman and Pouros",
-      "Id": 783,
-      "Description": "Re-engineered client-driven flexibility",
-      "ExtraInfo": "voluptatem",
-      "LinkId": 734,
+      "EntityName": "Wiza, Greenfelder and Klein",
+      "Id": 666,
+      "Description": "Front-line incremental customer loyalty",
+      "ExtraInfo": "at",
+      "LinkId": 625,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 788
+          "FieldType": "System.Int32",
+          "FieldLength": 103
         }
       }
     }
   ],
-  "AlarmLeadTime": "voluptatum",
+  "AlarmLeadTime": "accusamus",
   "HasAlarm": false,
-  "ColorIndex": 997,
-  "IsFree": false,
-  "IsAlldayEvent": false,
-  "LagTime": "labore",
-  "LeadTime": "optio",
-  "Location": "neque",
-  "RejectCounter": 421,
+  "ColorIndex": 31,
+  "IsFree": true,
+  "IsAlldayEvent": true,
+  "LagTime": "enim",
+  "LeadTime": "commodi",
+  "Location": "suscipit",
+  "RejectCounter": 990,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 173,
-      "PersonId": 551,
-      "ContactId": 688,
-      "EmailId": 633,
-      "SendEmail": false,
+      "AssociateId": 483,
+      "PersonId": 371,
+      "ContactId": 718,
+      "EmailId": 69,
+      "SendEmail": true,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "malcolm.haag@pacocha.biz",
-      "Description": "Synergized impactful frame"
+      "EmailAddress": "conner_daugherty@kilback.info",
+      "Description": "Pre-emptive cohesive interface"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2013-05-20T03:46:54.0664078+02:00",
-  "HasConflict": true,
+  "ActiveDate": "2016-05-11T02:30:46.5851045+02:00",
+  "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 623,
+  "PreferredTZLocation": 520,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 609,
+  "SuggestedAppointmentId": 203,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "OwnedExternally": "Google",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "totam",
+  "CentralserviceVideomeetId": "amet",
   "UserDefinedFields": {
-    "SuperOffice:1": "Miss Thaddeus Collins DDS",
-    "SuperOffice:2": "275568627"
+    "SuperOffice:1": "Clay Bailey",
+    "SuperOffice:2": "Allison Langosh"
   },
   "ExtraFields": {
-    "ExtraFields1": "et",
-    "ExtraFields2": "fugit"
+    "ExtraFields1": "distinctio",
+    "ExtraFields2": "similique"
   },
   "CustomFields": {
-    "CustomFields1": "pariatur",
-    "CustomFields2": "impedit"
+    "CustomFields1": "placeat",
+    "CustomFields2": "incidunt"
   },
-  "PublishEventDate": "2002-03-09T03:46:54.0664078+01:00",
-  "PublishTo": "2002-01-30T03:46:54.0664078+01:00",
-  "PublishFrom": "2021-05-28T03:46:54.0664078+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "2012-06-06T02:30:46.5851045+02:00",
+  "PublishTo": "2021-10-24T02:30:46.5851045+02:00",
+  "PublishFrom": "2023-03-17T02:30:46.5851045+01:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 484,
+      "VisibleId": 524,
       "Visibility": "All",
-      "DisplayValue": "quia",
+      "DisplayValue": "omnis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 289
+          "FieldLength": 926
         }
       }
     },
     {
-      "VisibleId": 484,
+      "VisibleId": 524,
       "Visibility": "All",
-      "DisplayValue": "quia",
+      "DisplayValue": "omnis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 289
+          "FieldLength": 926
         }
       }
     }
@@ -265,7 +267,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 916
+      "FieldLength": 197
     }
   }
 }

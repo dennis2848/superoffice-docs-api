@@ -14,6 +14,8 @@ POST /api/v1/Agents/License/GetLicenseFromDB
 Get license, with usage, as it is stored in the database for one particular module owner.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -77,11 +79,11 @@ OK
 POST /api/v1/Agents/License/GetLicenseFromDB
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Howell-Moore"
+  "OwnerName": "Gulgowski, Hauck and Sawayn"
 }
 ```
 
@@ -100,14 +102,14 @@ Content-Type: application/json; charset=utf-8
     {
       "New": null,
       "Current": null,
-      "NumberOfLicensesInUse": 973,
-      "NumberOfLicensesFree": 964,
-      "NumberOfLicensesAdded": 981,
-      "NumberOfLicensesNewTotal": 797,
-      "NumberOfLicensesNewFree": 264,
-      "NumberOfLicensesTotal": 548
+      "NumberOfLicensesInUse": 669,
+      "NumberOfLicensesFree": 662,
+      "NumberOfLicensesAdded": 81,
+      "NumberOfLicensesNewTotal": 829,
+      "NumberOfLicensesNewFree": 745,
+      "NumberOfLicensesTotal": 608
     }
   ],
-  "AccumulatedNextCheckDate": "2018-01-07T03:46:54.9107593+01:00"
+  "AccumulatedNextCheckDate": "2019-09-29T02:30:47.366331+02:00"
 }
 ```

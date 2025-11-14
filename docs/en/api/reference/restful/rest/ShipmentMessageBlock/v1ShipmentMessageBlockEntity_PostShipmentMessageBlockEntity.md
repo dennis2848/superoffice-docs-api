@@ -15,6 +15,7 @@ Creates a new ShipmentMessageBlockEntity
 
 
 Calls the Marketing agent service SaveShipmentMessageBlockEntity.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -91,18 +92,18 @@ OK
 POST /api/v1/ShipmentMessageBlock
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageBlockId": 934,
-  "AssociateId": 290,
-  "Block": "ea",
-  "Registered": "2013-12-21T03:47:00.3005605+01:00",
-  "RegisteredAssociateId": 649,
-  "Updated": "2003-05-25T03:47:00.3005605+02:00",
-  "UpdatedAssociateId": 762,
-  "UpdatedCount": 340
+  "ShipmentMessageBlockId": 736,
+  "AssociateId": 998,
+  "Block": "quibusdam",
+  "Registered": "2021-07-31T02:30:52.9286519+02:00",
+  "RegisteredAssociateId": 6,
+  "Updated": "2019-02-04T02:30:52.9286519+01:00",
+  "UpdatedAssociateId": 734,
+  "UpdatedCount": 649
 }
 ```
 
@@ -113,20 +114,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageBlockId": 688,
-  "AssociateId": 595,
-  "Block": "iusto",
-  "Registered": "2010-04-10T03:47:00.3005605+02:00",
-  "RegisteredAssociateId": 731,
-  "Updated": "1999-05-30T03:47:00.3005605+02:00",
-  "UpdatedAssociateId": 556,
-  "UpdatedCount": 318,
+  "ShipmentMessageBlockId": 620,
+  "AssociateId": 721,
+  "Block": "ea",
+  "Registered": "2020-07-11T02:30:52.9286519+02:00",
+  "RegisteredAssociateId": 628,
+  "Updated": "2019-07-27T02:30:52.9286519+02:00",
+  "UpdatedAssociateId": 191,
+  "UpdatedCount": 271,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 225
+      "FieldLength": 944
     }
   },
   "_Links": {

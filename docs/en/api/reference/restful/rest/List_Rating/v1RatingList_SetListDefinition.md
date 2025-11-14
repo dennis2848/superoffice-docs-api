@@ -89,16 +89,16 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 752,
-  "Name": "Reichert Group",
-  "Tooltip": "deserunt",
-  "Deleted": false,
-  "Rank": 602,
-  "IsCustomList": true,
+  "Id": 75,
+  "Name": "Strosin-Willms",
+  "Tooltip": "nostrum",
+  "Deleted": true,
+  "Rank": 88,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "voluptates",
-  "InUseByUserDefinedFields": true
+  "ListType": "et",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -109,22 +109,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 232,
-  "Name": "Hagenes Group",
-  "Tooltip": "sequi",
-  "Deleted": false,
-  "Rank": 598,
-  "IsCustomList": true,
+  "Id": 795,
+  "Name": "Collier-Rau",
+  "Tooltip": "consectetur",
+  "Deleted": true,
+  "Rank": 935,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "facere",
-  "InUseByUserDefinedFields": true,
+  "ListType": "animi",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 367
+      "FieldLength": 395
     }
   }
 }

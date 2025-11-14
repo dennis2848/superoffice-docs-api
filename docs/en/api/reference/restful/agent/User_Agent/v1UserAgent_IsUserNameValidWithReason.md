@@ -11,7 +11,7 @@ content_type: reference
 POST /api/v1/Agents/User/IsUserNameValidWithReason
 ```
 
-<para />
+NsApiSlow threshold: 2000 ms.
 
 
 ## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
@@ -80,14 +80,14 @@ OK
 POST /api/v1/Agents/User/IsUserNameValidWithReason
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 897,
+  "AssociateId": 535,
   "Type": "AnonymousAssociate",
-  "PersonId": 234,
-  "UserName": "Stanton, Fadel and Gutmann"
+  "PersonId": 117,
+  "UserName": "Wolff-Deckow"
 }
 ```
 
@@ -105,7 +105,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 971
+      "FieldLength": 195
     }
   }
 }

@@ -14,6 +14,8 @@ POST /api/v1/Agents/Selection/GetBoardViewSettings
 Get BoardViewSettings by ID
 
 
+NsApiSlow threshold: 1000 ms.
+
 
 
 
@@ -83,11 +85,11 @@ OK
 POST /api/v1/Agents/Selection/GetBoardViewSettings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "BoardViewSettingsId": 904
+  "BoardViewSettingsId": 786
 }
 ```
 
@@ -98,17 +100,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BoardViewSettingsId": 407,
-  "EntityType": "None",
-  "AssociateId": 531,
-  "SelectionId": 102,
+  "BoardViewSettingsId": 845,
+  "EntityType": "ContactPerson",
+  "AssociateId": 259,
+  "SelectionId": 366,
   "HideEmptyGroups": false,
-  "GroupBy": "perferendis",
-  "SubGroupBy": "et",
-  "SortBy": "iure",
+  "GroupBy": "deserunt",
+  "SubGroupBy": "temporibus",
+  "SortBy": "officia",
   "SortDesc": false,
-  "SumBy": "expedita",
-  "ColorBy": "ratione",
-  "Filters": "ut"
+  "SumBy": "et",
+  "ColorBy": "sed",
+  "Filters": "quam"
 }
 ```

@@ -14,6 +14,8 @@ POST /api/v1/Agents/ForeignSystem/GetKeyByValue
 Get a foreignkey based on its name and value, that belongs to the specified device and application.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -85,15 +87,15 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetKeyByValue
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Block Group",
-  "DeviceName": "Konopelski, Mraz and Reinger",
-  "KeyName": "Reichel-Walter",
-  "KeyValue": "qui",
-  "TableName": "Mills-Jenkins"
+  "ApplicationName": "Lockman LLC",
+  "DeviceName": "Prohaska Group",
+  "KeyName": "Tromp Inc and Sons",
+  "KeyValue": "est",
+  "TableName": "Brown LLC"
 }
 ```
 
@@ -104,20 +106,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "quos",
-  "Value": "inventore",
-  "RecordId": 278,
-  "CreatedDate": "2014-11-20T03:46:54.9107593+01:00",
-  "UpdatedDate": "1999-05-09T03:46:54.9107593+02:00",
-  "UpdatedBy": "dolorem",
-  "CreatedBy": "placeat",
-  "TableName": "Reichel-McCullough",
+  "Key": "accusantium",
+  "Value": "aut",
+  "RecordId": 822,
+  "CreatedDate": "2005-05-09T02:30:47.366331+02:00",
+  "UpdatedDate": "2006-06-11T02:30:47.366331+02:00",
+  "UpdatedBy": "quo",
+  "CreatedBy": "ullam",
+  "TableName": "Olson-Veum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 185
+      "FieldLength": 351
     }
   }
 }

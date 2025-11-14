@@ -14,6 +14,8 @@ POST /api/v1/Agents/Favourite/ToggleFavourite
 Toggle a record in a table as a favourite for an associate
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -72,14 +74,14 @@ OK
 POST /api/v1/Agents/Favourite/ToggleFavourite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Schulist-Walker",
-  "RecordId": 287,
-  "AssociateId": 55,
-  "ExtraInfo": "est"
+  "TableName": "Block-Larkin",
+  "RecordId": 720,
+  "AssociateId": 638,
+  "ExtraInfo": "quia"
 }
 ```
 

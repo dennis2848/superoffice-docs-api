@@ -75,7 +75,7 @@ OK
 DELETE /api/v1/License/{moduleOwner}/{associateId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,26 +86,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Unrestricted": true,
-    "Total": 337,
-    "Tooltip": "occaecati",
+    "Unrestricted": false,
+    "Total": 176,
+    "Tooltip": "architecto",
     "CanAssign": false,
-    "Free": 475,
-    "InUse": 450,
+    "Free": 621,
+    "InUse": 804,
     "IsHidden": false,
-    "Assigned": true,
-    "ModuleLicenseId": 378,
-    "Name": "Murazik LLC",
-    "Description": "Ameliorated uniform solution",
-    "PrerequisiteModuleName": "Dibbert, Mitchell and Zulauf",
-    "SortOrder": 910,
-    "ExtraFlags": 638,
+    "Assigned": false,
+    "ModuleLicenseId": 168,
+    "Name": "Greenholt-Reilly",
+    "Description": "Realigned analyzing matrix",
+    "PrerequisiteModuleName": "Orn, Pouros and Keebler",
+    "SortOrder": 30,
+    "ExtraFlags": 782,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 84
+        "FieldLength": 497
       }
     }
   }

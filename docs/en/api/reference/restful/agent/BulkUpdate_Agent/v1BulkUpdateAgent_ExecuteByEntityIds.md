@@ -14,6 +14,8 @@ POST /api/v1/Agents/BulkUpdate/ExecuteByEntityIds
 Do the batchupdate on selected
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -72,36 +74,36 @@ OK
 POST /api/v1/Agents/BulkUpdate/ExecuteByEntityIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "FieldValueInfos": [
     {
-      "CanSupportMultiUse": true,
-      "DefaultShowInGui": false,
-      "DefaultShowInSelector": false,
-      "IsActive": false,
-      "Key": "blanditiis",
-      "ValueType": "asperiores",
+      "CanSupportMultiUse": false,
+      "DefaultShowInGui": true,
+      "DefaultShowInSelector": true,
+      "IsActive": true,
+      "Key": "iste",
+      "ValueType": "sit",
       "Mandatory": true,
-      "EncodedDisplayName": "Jacobs-Boehm",
-      "EncodedDisplayDescription": "Assimilated intangible firmware",
-      "IconHint": "dolor",
+      "EncodedDisplayName": "Emard, Lebsack and Jacobson",
+      "EncodedDisplayDescription": "Versatile bifurcated definition",
+      "IconHint": "et",
       "ControlInfos": [
         {},
         {}
       ],
-      "EncodedDataCaption": "velit",
-      "EncodedDataCaptionDescription": "Self-enabling optimizing pricing structure",
-      "CurrentOperationType": "commodi",
+      "EncodedDataCaption": "nihil",
+      "EncodedDataCaptionDescription": "Distributed client-driven complexity",
+      "CurrentOperationType": "aut",
       "Values": [
-        "et",
-        "et"
+        "voluptatem",
+        "amet"
       ],
       "DisplayValues": [
-        "maxime",
-        "nobis"
+        "et",
+        "autem"
       ],
       "OperationInfos": [
         {},
@@ -109,9 +111,9 @@ Content-Type: application/json; charset=utf-8
       ]
     }
   ],
-  "TableName": "Bogisich-Abernathy",
-  "Context": "animi",
-  "Ids": "debitis"
+  "TableName": "Durgan Group",
+  "Context": "aliquid",
+  "Ids": "possimus"
 }
 ```
 
@@ -121,5 +123,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-576
+67
 ```

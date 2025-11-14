@@ -14,6 +14,8 @@ POST /api/v1/Agents/Find/GetRestrictionGroups
 Return all the restriction groups.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -78,14 +80,14 @@ OK
 POST /api/v1/Agents/Find/GetRestrictionGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "velit",
-  "ProviderName": "Torphy-Wuckert",
-  "StorageKey": "vero",
-  "Context": "eius"
+  "StorageType": "veritatis",
+  "ProviderName": "Braun, Effertz and Koelpin",
+  "StorageKey": "dicta",
+  "Context": "rerum"
 }
 ```
 
@@ -97,58 +99,58 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Breitenberg Inc and Sons",
-    "Description": "Inverse uniform matrix",
-    "Rank": 575,
+    "Name": "Kirlin-Turcotte",
+    "Description": "Switchable assymetric strategy",
+    "Rank": 592,
     "Restrictions": [
       {
-        "Name": "Littel, Dickens and Hermiston",
-        "Operator": "vitae",
+        "Name": "Mayer-Heidenreich",
+        "Operator": "deserunt",
         "Values": [
-          "qui",
-          "magni"
+          "et",
+          "et"
         ],
         "DisplayValues": [
-          "porro",
-          "vero"
+          "est",
+          "et"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 734,
+        "InterParenthesis": 923,
         "InterOperator": "And",
-        "UniqueHash": 150
+        "UniqueHash": 667
       }
     ]
   },
   {
-    "Name": "Breitenberg Inc and Sons",
-    "Description": "Inverse uniform matrix",
-    "Rank": 575,
+    "Name": "Kirlin-Turcotte",
+    "Description": "Switchable assymetric strategy",
+    "Rank": 592,
     "Restrictions": [
       {
-        "Name": "Littel, Dickens and Hermiston",
-        "Operator": "vitae",
+        "Name": "Mayer-Heidenreich",
+        "Operator": "deserunt",
         "Values": [
-          "qui",
-          "magni"
+          "et",
+          "et"
         ],
         "DisplayValues": [
-          "porro",
-          "vero"
+          "est",
+          "et"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 734,
+        "InterParenthesis": 923,
         "InterOperator": "And",
-        "UniqueHash": 150
+        "UniqueHash": 667
       }
     ]
   }

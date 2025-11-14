@@ -14,6 +14,8 @@ POST /api/v1/Agents/Quote/SaveConnectionConfigFields
 Saves the connection config fields
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -70,14 +72,14 @@ OK
 POST /api/v1/Agents/Quote/SaveConnectionConfigFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 188,
+  "QuoteConnectionId": 633,
   "ConnectionConfigFields": {
-    "ConnectionConfigFields1": "quasi",
-    "ConnectionConfigFields2": "asperiores"
+    "ConnectionConfigFields1": "vitae",
+    "ConnectionConfigFields2": "incidunt"
   }
 }
 ```
@@ -89,7 +91,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "deserunt",
-  "2": "aperiam"
+  "1": "error",
+  "2": "quidem"
 }
 ```

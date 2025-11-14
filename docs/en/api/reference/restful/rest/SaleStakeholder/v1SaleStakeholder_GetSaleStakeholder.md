@@ -15,6 +15,7 @@ Gets a SaleStakeholder object.
 
 
 Calls the Sale agent service GetSaleStakeholder.
+NsApiSlow threshold: 1000 ms.
 
 
 
@@ -92,7 +93,7 @@ SaleStakeholder found.
 GET /api/v1/SaleStakeholder/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -102,31 +103,31 @@ HTTP/1.1 200 SaleStakeholder found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Kris, Lueilwitz and Mertz",
-  "Comment": "dignissimos",
-  "StakeholderRoleId": 761,
-  "CountryId": 784,
-  "PersonId": 947,
-  "EmailDescription": "hollie@dicki.biz",
-  "EmailId": 211,
-  "EmailAddress": "edward.lockman@jones.ca",
-  "PhoneId": 426,
-  "ContactName": "Stracke-Braun",
-  "ContactId": 588,
-  "SaleId": 590,
-  "Mrmrs": "est",
-  "Firstname": "Helena",
-  "MiddleName": "West LLC",
-  "Lastname": "Harber",
-  "SaleStakeholderId": 309,
-  "Rank": 364,
-  "Phone": "1-346-105-1411",
+  "StakeholderRoleName": "Paucek Group",
+  "Comment": "id",
+  "StakeholderRoleId": 751,
+  "CountryId": 119,
+  "PersonId": 732,
+  "EmailDescription": "myrtis@mcglynnframi.biz",
+  "EmailId": 622,
+  "EmailAddress": "beverly@nikolaus.com",
+  "PhoneId": 669,
+  "ContactName": "Kovacek, Russel and Wyman",
+  "ContactId": 355,
+  "SaleId": 158,
+  "Mrmrs": "iusto",
+  "Firstname": "Jimmie",
+  "MiddleName": "O'Reilly-Baumbach",
+  "Lastname": "Barton",
+  "SaleStakeholderId": 248,
+  "Rank": 776,
+  "Phone": "(843)994-1788 x463",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 165
+      "FieldLength": 150
     }
   },
   "_Links": {

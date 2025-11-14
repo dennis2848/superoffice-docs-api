@@ -15,6 +15,7 @@ Removes headers from the message as specified in the collection of entity ids.
 
 
 The ids are message header ids (message header primary key)
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -67,13 +68,13 @@ No Content
 POST /api/v1/Agents/Ticket/DeleteMessageHeaders
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "HeaderIds": [
-    326,
-    711
+    253,
+    54
   ]
 }
 ```

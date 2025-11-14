@@ -14,6 +14,8 @@ POST /api/v1/Agents/Ticket/CopyFromCRMDocument
 Copy CRM document to an attachment
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -81,11 +83,11 @@ OK
 POST /api/v1/Agents/Ticket/CopyFromCRMDocument
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 501
+  "DocumentId": 697
 }
 ```
 
@@ -96,20 +98,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 531,
-  "Name": "Shields, Botsford and Heaney",
-  "ContentType": "voluptates",
-  "AttSize": 888,
-  "InlineImage": true,
-  "ContentId": "qui",
-  "AuthKey": "enim",
+  "AttachmentId": 785,
+  "Name": "Green-Strosin",
+  "ContentType": "officia",
+  "AttSize": 514,
+  "InlineImage": false,
+  "ContentId": "et",
+  "AuthKey": "unde",
   "IsSafeFileExtension": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 662
+      "FieldLength": 288
     }
   }
 }

@@ -14,6 +14,9 @@ POST /api/v1/Agents/ErpSync/TryConnectActor
 Create a link between Erp and Crm and set default values
 
 
+NsApiSlow threshold: 5000 ms.
+
+
 ## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
 
 
@@ -76,29 +79,29 @@ OK
 POST /api/v1/Agents/ErpSync/TryConnectActor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 588,
-  "CrmRecordId": 207,
+  "ErpConnectionId": 303,
+  "CrmRecordId": 444,
   "CrmActorType": "Contact",
-  "ErpKey": "alias",
+  "ErpKey": "omnis",
   "ErpActorType": "Customer",
   "FieldValues": [
     {
-      "DisplayName": "Hoppe, Purdy and Fadel",
-      "CrmFieldKey": "sint",
-      "Value": "velit",
-      "DisplayValue": "tenetur",
+      "DisplayName": "Homenick, Marks and Bartoletti",
+      "CrmFieldKey": "dolorem",
+      "Value": "deserunt",
+      "DisplayValue": "omnis",
       "SyncToCrm": false,
       "SyncToErp": false
     },
     {
-      "DisplayName": "Hoppe, Purdy and Fadel",
-      "CrmFieldKey": "sint",
-      "Value": "velit",
-      "DisplayValue": "tenetur",
+      "DisplayName": "Homenick, Marks and Bartoletti",
+      "CrmFieldKey": "dolorem",
+      "Value": "deserunt",
+      "DisplayValue": "omnis",
       "SyncToCrm": false,
       "SyncToErp": false
     }
@@ -112,5 +115,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-true
+false
 ```

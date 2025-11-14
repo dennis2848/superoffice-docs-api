@@ -15,6 +15,7 @@ Creates a new TriggerScriptEntity
 
 
 Calls the CRMScript agent service SaveTriggerScriptEntity.
+NsApiSlow threshold: 5000 ms.
 
 
 ## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
@@ -102,16 +103,16 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 246,
-  "Name": "Murphy Group",
+  "ScreenChooserId": 302,
+  "Name": "Gutkowski-Jones",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "mollitia",
-  "Source": "aspernatur",
-  "Registered": "2001-03-19T03:47:00.3943072+01:00",
-  "RegisteredAssociateId": 453,
-  "Updated": "2003-02-03T03:47:00.3943072+01:00",
-  "UpdatedAssociateId": 718
+  "UniqueIdentifier": "praesentium",
+  "Source": "iste",
+  "Registered": "2016-10-03T02:30:53.022399+02:00",
+  "RegisteredAssociateId": 481,
+  "Updated": "2015-10-23T02:30:53.022399+02:00",
+  "UpdatedAssociateId": 239
 }
 ```
 
@@ -122,22 +123,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 392,
-  "Name": "Paucek LLC",
+  "ScreenChooserId": 809,
+  "Name": "Haag LLC",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "non",
-  "Source": "nihil",
-  "Registered": "2015-04-07T03:47:00.3943072+02:00",
-  "RegisteredAssociateId": 949,
-  "Updated": "2013-09-11T03:47:00.3943072+02:00",
-  "UpdatedAssociateId": 187,
+  "UniqueIdentifier": "sequi",
+  "Source": "sunt",
+  "Registered": "2007-01-11T02:30:53.022399+01:00",
+  "RegisteredAssociateId": 433,
+  "Updated": "2011-09-05T02:30:53.022399+02:00",
+  "UpdatedAssociateId": 690,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 911
+      "FieldLength": 475
     }
   },
   "_Links": {

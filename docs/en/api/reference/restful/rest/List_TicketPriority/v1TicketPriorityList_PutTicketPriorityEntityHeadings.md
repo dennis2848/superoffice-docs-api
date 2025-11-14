@@ -76,25 +76,25 @@ OK
 PUT /api/v1/List/TicketPriority/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 77,
-    "Name": "Thiel Inc and Sons",
-    "Tooltip": "voluptates",
-    "Deleted": false,
-    "Rank": 741,
-    "UdListDefinitionId": 693
+    "HeadingId": 562,
+    "Name": "Schuppe-Schinner",
+    "Tooltip": "laboriosam",
+    "Deleted": true,
+    "Rank": 792,
+    "UdListDefinitionId": 678
   },
   {
-    "HeadingId": 77,
-    "Name": "Thiel Inc and Sons",
-    "Tooltip": "voluptates",
-    "Deleted": false,
-    "Rank": 741,
-    "UdListDefinitionId": 693
+    "HeadingId": 562,
+    "Name": "Schuppe-Schinner",
+    "Tooltip": "laboriosam",
+    "Deleted": true,
+    "Rank": 792,
+    "UdListDefinitionId": 678
   }
 ]
 ```
@@ -107,18 +107,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 788,
-    "Name": "Mraz-Robel",
-    "Tooltip": "labore",
-    "Deleted": false,
-    "Rank": 429,
-    "UdListDefinitionId": 617,
+    "HeadingId": 440,
+    "Name": "Ryan-Williamson",
+    "Tooltip": "vero",
+    "Deleted": true,
+    "Rank": 30,
+    "UdListDefinitionId": 117,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 550
+        "FieldLength": 279
       }
     }
   }

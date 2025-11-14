@@ -11,7 +11,7 @@ content_type: reference
 POST /api/v1/Agents/List/GetTicketPriorities
 ```
 
-
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -79,28 +79,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 758,
-    "Value": "rem",
-    "Tooltip": "quos",
+    "Id": 976,
+    "Value": "praesentium",
+    "Tooltip": "magnam",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 519
+        "FieldLength": 228
       }
     }
   },
   {
-    "Id": 758,
-    "Value": "rem",
-    "Tooltip": "quos",
+    "Id": 976,
+    "Value": "praesentium",
+    "Tooltip": "magnam",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 519
+        "FieldLength": 228
       }
     }
   }

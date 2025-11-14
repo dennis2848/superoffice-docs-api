@@ -14,6 +14,8 @@ POST /api/v1/Agents/CustomerService/ExecuteEventHandlers
 This method will execute event handlers in CRMScript for a given event.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -87,7 +89,7 @@ OK
 POST /api/v1/Agents/CustomerService/ExecuteEventHandlers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -104,42 +106,42 @@ Content-Type: application/json; charset=utf-8
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "quo",
-    "InputValues2": "molestiae"
+    "InputValues1": "consectetur",
+    "InputValues2": "incidunt"
   },
-  "BlockExecution": true,
-  "NavigateTo": "quia",
-  "Message": "illo",
-  "ShowDialog": "quia",
+  "BlockExecution": false,
+  "NavigateTo": "quibusdam",
+  "Message": "exercitationem",
+  "ShowDialog": "excepturi",
   "OutputValues": {
-    "OutputValues1": "architecto",
-    "OutputValues2": "sit"
+    "OutputValues1": "expedita",
+    "OutputValues2": "alias"
   },
   "StateValues": {
-    "StateValues1": "eos",
-    "StateValues2": "tempora"
+    "StateValues1": "doloribus",
+    "StateValues2": "exercitationem"
   },
-  "Exception": "animi",
+  "Exception": "aut",
   "ParserValues": {
-    "ParserValues1": "consequatur",
-    "ParserValues2": "id"
+    "ParserValues1": "rem",
+    "ParserValues2": "rem"
   },
   "CgiVariables": {
-    "CgiVariables1": "dolore",
-    "CgiVariables2": "et"
+    "CgiVariables1": "iusto",
+    "CgiVariables2": "culpa"
   },
-  "CgiContent": "quia",
+  "CgiContent": "dolores",
   "Headers": {
-    "Headers1": "quia",
-    "Headers2": "voluptates"
+    "Headers1": "dolor",
+    "Headers2": "voluptate"
   },
-  "TraceExecution": true,
+  "TraceExecution": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 260
+      "FieldType": "System.Int32",
+      "FieldLength": 185
     }
   }
 }

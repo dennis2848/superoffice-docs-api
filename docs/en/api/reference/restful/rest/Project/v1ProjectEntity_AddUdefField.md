@@ -99,7 +99,7 @@ OK
 POST /api/v1/Project/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -109,46 +109,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 399,
-  "ColumnId": 725,
-  "FieldDefault": "eum",
-  "FieldHeight": 755,
-  "FieldLabel": "quibusdam",
-  "FieldLeft": 485,
-  "FieldTop": 441,
+  "UDefFieldId": 253,
+  "ColumnId": 677,
+  "FieldDefault": "necessitatibus",
+  "FieldHeight": 599,
+  "FieldLabel": "voluptatem",
+  "FieldLeft": 970,
+  "FieldTop": 631,
   "FieldType": "Checkbox",
-  "FieldWidth": 203,
-  "FormatMask": "magni",
+  "FieldWidth": 559,
+  "FormatMask": "sint",
   "HideLabel": false,
-  "IsIndexed": true,
-  "LabelHeight": 341,
-  "LabelLeft": 92,
-  "LabelTop": 640,
-  "LabelWidth": 311,
-  "LastVersionId": 791,
-  "ListTableId": 962,
+  "IsIndexed": false,
+  "LabelHeight": 776,
+  "LabelLeft": 60,
+  "LabelTop": 862,
+  "LabelWidth": 300,
+  "LastVersionId": 212,
+  "ListTableId": 595,
   "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 715,
-  "ProgId": "consequatur",
-  "IsReadOnly": false,
-  "ShortLabel": "et",
-  "TabOrder": 251,
-  "TextLength": 948,
-  "Tooltip": "commodi",
-  "UdefIdentity": 102,
-  "UDListDefinitionId": 922,
+  "Page1LineNo": 956,
+  "ProgId": "et",
+  "IsReadOnly": true,
+  "ShortLabel": "eos",
+  "TabOrder": 984,
+  "TextLength": 451,
+  "Tooltip": "corporis",
+  "UdefIdentity": 168,
+  "UDListDefinitionId": 674,
   "Justification": "Center",
-  "Version": 239,
-  "TemplateVariableName": "Trantow Group",
+  "Version": 178,
+  "TemplateVariableName": "Kiehn-Terry",
   "HasBeenPublished": false,
-  "MdoListName": "Williamson, Treutel and Kilback",
+  "MdoListName": "Parisian Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 375
+      "FieldLength": 870
     }
   }
 }

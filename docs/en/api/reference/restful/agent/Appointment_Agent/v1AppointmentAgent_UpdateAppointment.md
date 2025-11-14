@@ -14,6 +14,8 @@ POST /api/v1/Agents/Appointment/UpdateAppointment
 Updates an appointment record.
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -133,16 +135,16 @@ OK
 POST /api/v1/Agents/Appointment/UpdateAppointment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 126,
-  "StartTime": "2002-10-18T03:46:54.0039095+02:00",
-  "EndTime": "2003-11-15T03:46:54.0039095+01:00",
-  "Status": 565,
-  "Type": 28,
-  "AssociateId": 457
+  "Id": 563,
+  "StartTime": "2001-11-03T02:30:46.522607+01:00",
+  "EndTime": "2019-03-11T02:30:46.522607+01:00",
+  "Status": 745,
+  "Type": 471,
+  "AssociateId": 170
 }
 ```
 
@@ -153,67 +155,67 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 862,
-  "StartDate": "2014-01-14T03:46:54.0039095+01:00",
-  "EndDate": "2004-06-06T03:46:54.0039095+02:00",
+  "AppointmentId": 496,
+  "StartDate": "2017-11-30T02:30:46.522607+01:00",
+  "EndDate": "2014-08-26T02:30:46.522607+02:00",
   "Type": "BookingForChecklist",
-  "Task": "esse",
-  "AssociateFullName": "Harmon Crist",
-  "ContactName": "Spinka Inc and Sons",
-  "Description": "Expanded maximized architecture",
-  "PersonFullName": "Prof. Winfield Cassandre Schaefer Sr.",
-  "PersonId": 126,
-  "ContactId": 66,
-  "ProjectId": 56,
-  "ProjectName": "Olson-Thompson",
+  "Task": "nobis",
+  "AssociateFullName": "Scarlett Grady",
+  "ContactName": "O'Conner LLC",
+  "Description": "Cross-group discrete model",
+  "PersonFullName": "Ms. Toney Kasandra Kunde",
+  "PersonId": 706,
+  "ContactId": 89,
+  "ProjectId": 530,
+  "ProjectName": "Streich LLC",
   "IsPublished": false,
-  "AssociateId": 295,
-  "ColorIndex": 745,
-  "IsFree": false,
+  "AssociateId": 504,
+  "ColorIndex": 228,
+  "IsFree": true,
   "HasAlarm": true,
-  "IsAlldayEvent": false,
+  "IsAlldayEvent": true,
   "Private": "PrivateGroup",
-  "PriorityId": 747,
-  "PriorityName": "Dickinson-Champlin",
+  "PriorityId": 638,
+  "PriorityName": "Cremin, Rohan and Volkman",
   "TaskType": "Appointment",
-  "IsBookingMain": false,
+  "IsBookingMain": true,
   "IsRecurrence": true,
-  "IsBooking": true,
-  "ActiveDate": "2009-12-22T03:46:54.0039095+01:00",
+  "IsBooking": false,
+  "ActiveDate": "2000-02-12T02:30:46.522607+01:00",
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
   "Completed": "Completed",
   "RecurringPattern": "Custom",
-  "RecurringStartDate": "2010-07-26T03:46:54.0039095+02:00",
-  "RecurringEndDate": "2001-06-21T03:46:54.0039095+02:00",
-  "MotherId": 15,
-  "AssignedBy": 371,
-  "AssignedByFullName": "Mr. Reanna Sidney Bergnaum PhD",
+  "RecurringStartDate": "2016-03-17T02:30:46.522607+01:00",
+  "RecurringEndDate": "2003-11-22T02:30:46.522607+01:00",
+  "MotherId": 2,
+  "AssignedBy": 484,
+  "AssignedByFullName": "Miss Dixie Daniel",
   "RejectReason": "",
-  "Location": "sunt",
-  "AlarmLeadTime": "repellat",
-  "SaleId": 55,
-  "SaleName": "Feeney, Emmerich and Simonis",
-  "AssociateName": "Gulgowski-Ankunding",
-  "CreatedDate": "2004-10-21T03:46:54.0039095+02:00",
-  "CreatedBy": "similique",
-  "CreatedByFullName": "Johnny Dach",
-  "CreatedByAssociateId": 522,
+  "Location": "pariatur",
+  "AlarmLeadTime": "corporis",
+  "SaleId": 899,
+  "SaleName": "Fisher-Carroll",
+  "AssociateName": "Heller, Dickens and Schinner",
+  "CreatedDate": "2023-07-05T02:30:46.522607+02:00",
+  "CreatedBy": "quia",
+  "CreatedByFullName": "Isidro Jerde",
+  "CreatedByAssociateId": 463,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "OwnedExternally": "Google",
-  "MotherAssociateId": 244,
+  "MotherAssociateId": 767,
   "JoinVideomeetUrl": "http://www.example.com/",
-  "PreferredTZLocation": 538,
-  "Title": "accusantium",
-  "Agenda": "dicta",
-  "InternalNotes": "explicabo",
+  "PreferredTZLocation": 327,
+  "Title": "recusandae",
+  "Agenda": "mollitia",
+  "InternalNotes": "atque",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 523
+      "FieldType": "System.String",
+      "FieldLength": 688
     }
   }
 }

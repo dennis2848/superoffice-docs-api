@@ -15,6 +15,7 @@ Method that returns a specified number of appointments within a time range.
 
 
 The appointments belong to the projects where the person specified is member.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -137,10 +138,10 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 537,
-  "StartTime": "2020-07-01T03:46:53.9726601+02:00",
-  "EndTime": "2015-05-15T03:46:53.9726601+02:00",
-  "Count": 640
+  "PersonId": 762,
+  "StartTime": "2001-02-18T02:30:46.5069828+01:00",
+  "EndTime": "1999-07-25T02:30:46.5069828+02:00",
+  "Count": 133
 }
 ```
 
@@ -152,67 +153,67 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 24,
-    "StartDate": "2011-01-18T03:46:53.9726601+01:00",
-    "EndDate": "2018-02-14T03:46:53.9726601+01:00",
+    "AppointmentId": 797,
+    "StartDate": "2007-08-28T02:30:46.5069828+02:00",
+    "EndDate": "2000-07-25T02:30:46.5069828+02:00",
     "Type": "BookingForChecklist",
-    "Task": "consectetur",
-    "AssociateFullName": "Susana Ullrich",
-    "ContactName": "Schultz-Rodriguez",
-    "Description": "Persevering systemic alliance",
-    "PersonFullName": "Garland Durgan",
-    "PersonId": 73,
-    "ContactId": 1001,
-    "ProjectId": 902,
-    "ProjectName": "Sporer LLC",
+    "Task": "nostrum",
+    "AssociateFullName": "Miss Mauricio Isom Koelpin V",
+    "ContactName": "Johnston, Bednar and Kunde",
+    "Description": "Seamless assymetric application",
+    "PersonFullName": "Ms. Haley Isidro Lesch DVM",
+    "PersonId": 834,
+    "ContactId": 353,
+    "ProjectId": 212,
+    "ProjectName": "Paucek Group",
     "IsPublished": true,
-    "AssociateId": 430,
-    "ColorIndex": 121,
-    "IsFree": false,
-    "HasAlarm": false,
+    "AssociateId": 195,
+    "ColorIndex": 623,
+    "IsFree": true,
+    "HasAlarm": true,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 653,
-    "PriorityName": "Swaniawski Inc and Sons",
+    "PriorityId": 103,
+    "PriorityName": "Zieme, Mills and Cremin",
     "TaskType": "Appointment",
     "IsBookingMain": false,
     "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "2006-09-20T03:46:53.9726601+02:00",
+    "ActiveDate": "2018-06-22T02:30:46.5069828+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2004-09-14T03:46:53.9726601+02:00",
-    "RecurringEndDate": "2001-01-10T03:46:53.9726601+01:00",
-    "MotherId": 348,
-    "AssignedBy": 676,
-    "AssignedByFullName": "Prof. Franco Gutmann Sr.",
+    "RecurringStartDate": "2020-09-01T02:30:46.5069828+02:00",
+    "RecurringEndDate": "2002-11-23T02:30:46.5069828+01:00",
+    "MotherId": 258,
+    "AssignedBy": 681,
+    "AssignedByFullName": "German Hyman Kerluke PhD",
     "RejectReason": "",
-    "Location": "omnis",
-    "AlarmLeadTime": "dignissimos",
-    "SaleId": 849,
-    "SaleName": "Cartwright, Koss and Eichmann",
-    "AssociateName": "Wisozk-Hermann",
-    "CreatedDate": "2004-01-27T03:46:53.9726601+01:00",
-    "CreatedBy": "maiores",
-    "CreatedByFullName": "Name Kacey Lang V",
-    "CreatedByAssociateId": 1002,
+    "Location": "et",
+    "AlarmLeadTime": "quae",
+    "SaleId": 48,
+    "SaleName": "Hoeger Group",
+    "AssociateName": "Abshire-Streich",
+    "CreatedDate": "2020-07-16T02:30:46.5069828+02:00",
+    "CreatedBy": "quod",
+    "CreatedByFullName": "Devyn Lebsack",
+    "CreatedByAssociateId": 961,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "OwnedExternally": "Google",
-    "MotherAssociateId": 437,
+    "MotherAssociateId": 661,
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 122,
-    "Title": "ea",
-    "Agenda": "architecto",
-    "InternalNotes": "est",
+    "PreferredTZLocation": 874,
+    "Title": "modi",
+    "Agenda": "hic",
+    "InternalNotes": "quia",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 77
+        "FieldLength": 107
       }
     }
   }

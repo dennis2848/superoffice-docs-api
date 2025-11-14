@@ -28,7 +28,7 @@ Get the MDO list items for "PaymentTerms" - with headings and filtering by user 
 
 ```http
 GET /api/v1/List/PaymentTerm/MDOItems?flat=False
-GET /api/v1/List/PaymentTerm/MDOItems?query=doloremque
+GET /api/v1/List/PaymentTerm/MDOItems?query=voluptas
 ```
 
 
@@ -79,7 +79,7 @@ OK
 GET /api/v1/List/PaymentTerm/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -90,50 +90,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 690,
-    "Name": "Prosacco-Lindgren",
-    "ToolTip": "Iste quaerat consectetur numquam laboriosam suscipit qui.",
-    "Deleted": true,
-    "Rank": 946,
-    "Type": "odit",
+    "Id": 569,
+    "Name": "Harris-McLaughlin",
+    "ToolTip": "Quae minus quis quos repudiandae aliquam.",
+    "Deleted": false,
+    "Rank": 672,
+    "Type": "consequatur",
     "ChildItems": [
       {
-        "Id": 190,
-        "Name": "Fisher Inc and Sons",
-        "ToolTip": "Molestiae commodi ut.",
-        "Deleted": false,
-        "Rank": 1000,
-        "Type": "nostrum",
+        "Id": 660,
+        "Name": "Schaefer LLC",
+        "ToolTip": "Ratione earum voluptas quo aperiam.",
+        "Deleted": true,
+        "Rank": 31,
+        "Type": "omnis",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "ut",
-        "ColorBlock": 692,
-        "ExtraInfo": "quasi",
-        "StyleHint": "sed",
-        "FullName": "Georgianna Mann",
+        "IconHint": "voluptatem",
+        "ColorBlock": 207,
+        "ExtraInfo": "est",
+        "StyleHint": "quia",
+        "FullName": "Susanna Twila Dare II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 966
+            "FieldLength": 546
           }
         }
       }
     ],
-    "IconHint": "non",
-    "ColorBlock": 764,
-    "ExtraInfo": "molestiae",
-    "StyleHint": "non",
-    "FullName": "Brendon Smitham",
+    "IconHint": "quibusdam",
+    "ColorBlock": 627,
+    "ExtraInfo": "totam",
+    "StyleHint": "blanditiis",
+    "FullName": "Alexzander Boyle",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 80
+        "FieldType": "System.Int32",
+        "FieldLength": 186
       }
     }
   }

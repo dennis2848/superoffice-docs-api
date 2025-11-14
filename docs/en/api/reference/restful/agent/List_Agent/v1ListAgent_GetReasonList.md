@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/GetReasonList
 Gets an array of Reason objects.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -84,28 +86,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 440,
-    "Value": "culpa",
-    "Tooltip": "voluptatem",
+    "Id": 495,
+    "Value": "cumque",
+    "Tooltip": "sit",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 852
+        "FieldLength": 106
       }
     }
   },
   {
-    "Id": 440,
-    "Value": "culpa",
-    "Tooltip": "voluptatem",
+    "Id": 495,
+    "Value": "cumque",
+    "Tooltip": "sit",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 852
+        "FieldLength": 106
       }
     }
   }

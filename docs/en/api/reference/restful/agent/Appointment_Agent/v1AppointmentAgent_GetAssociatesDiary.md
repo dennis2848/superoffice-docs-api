@@ -14,6 +14,8 @@ POST /api/v1/Agents/Appointment/GetAssociatesDiary
 Fetch appointments for given associates
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -135,11 +137,11 @@ Content-Type: application/json; charset=utf-8
 
 {
   "AssociateIds": [
-    377,
-    964
+    372,
+    885
   ],
-  "StartTime": "2000-10-20T03:46:54.0039095+02:00",
-  "EndTime": "2018-10-21T03:46:54.0039095+02:00"
+  "StartTime": "2013-11-02T02:30:46.5382305+01:00",
+  "EndTime": "2016-10-15T02:30:46.5382305+02:00"
 }
 ```
 
@@ -151,67 +153,67 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 644,
-    "StartDate": "2002-10-21T03:46:54.0195335+02:00",
-    "EndDate": "2014-08-17T03:46:54.0195335+02:00",
+    "AppointmentId": 411,
+    "StartDate": "2006-05-27T02:30:46.5382305+02:00",
+    "EndDate": "2018-06-02T02:30:46.5382305+02:00",
     "Type": "BookingForChecklist",
-    "Task": "temporibus",
-    "AssociateFullName": "Maximillia Wunsch",
-    "ContactName": "Cummings, Morissette and Mayert",
-    "Description": "Intuitive actuating structure",
-    "PersonFullName": "Santa Daugherty",
-    "PersonId": 622,
-    "ContactId": 97,
-    "ProjectId": 76,
-    "ProjectName": "Wunsch, Lakin and Abernathy",
+    "Task": "laboriosam",
+    "AssociateFullName": "Armand Bartell",
+    "ContactName": "Lindgren LLC",
+    "Description": "Organized heuristic moderator",
+    "PersonFullName": "Prof. Lloyd Monroe Little V",
+    "PersonId": 153,
+    "ContactId": 805,
+    "ProjectId": 981,
+    "ProjectName": "West-Ward",
     "IsPublished": true,
-    "AssociateId": 928,
-    "ColorIndex": 512,
+    "AssociateId": 712,
+    "ColorIndex": 390,
     "IsFree": false,
     "HasAlarm": false,
-    "IsAlldayEvent": true,
+    "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 449,
-    "PriorityName": "Stehr Inc and Sons",
+    "PriorityId": 639,
+    "PriorityName": "Raynor, Schiller and Schinner",
     "TaskType": "Appointment",
     "IsBookingMain": false,
     "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "2020-11-05T03:46:54.0195335+01:00",
+    "ActiveDate": "1998-07-02T02:30:46.5382305+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2004-10-10T03:46:54.0195335+02:00",
-    "RecurringEndDate": "2023-10-14T03:46:54.0195335+02:00",
-    "MotherId": 252,
-    "AssignedBy": 735,
-    "AssignedByFullName": "Mercedes McCullough",
-    "RejectReason": "matrix strategic interfaces",
-    "Location": "repudiandae",
-    "AlarmLeadTime": "quis",
-    "SaleId": 252,
-    "SaleName": "Hansen, Jerde and Leannon",
-    "AssociateName": "Bruen-Abbott",
-    "CreatedDate": "2022-05-31T03:46:54.0195335+02:00",
-    "CreatedBy": "molestiae",
-    "CreatedByFullName": "Mr. Amparo Charlene Anderson",
-    "CreatedByAssociateId": 360,
+    "RecurringStartDate": "2010-08-22T02:30:46.5382305+02:00",
+    "RecurringEndDate": "2010-01-02T02:30:46.5382305+01:00",
+    "MotherId": 749,
+    "AssignedBy": 506,
+    "AssignedByFullName": "Claudine Koepp",
+    "RejectReason": "",
+    "Location": "accusantium",
+    "AlarmLeadTime": "enim",
+    "SaleId": 602,
+    "SaleName": "Bayer, Smitham and Maggio",
+    "AssociateName": "Hodkiewicz LLC",
+    "CreatedDate": "2022-08-20T02:30:46.5382305+02:00",
+    "CreatedBy": "aut",
+    "CreatedByFullName": "Maci Monte Jacobs V",
+    "CreatedByAssociateId": 361,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "OwnedExternally": "Google",
-    "MotherAssociateId": 230,
+    "MotherAssociateId": 259,
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 2,
-    "Title": "odio",
-    "Agenda": "enim",
-    "InternalNotes": "odio",
+    "PreferredTZLocation": 961,
+    "Title": "ut",
+    "Agenda": "tempore",
+    "InternalNotes": "aut",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 121
+        "FieldType": "System.Int32",
+        "FieldLength": 631
       }
     }
   }

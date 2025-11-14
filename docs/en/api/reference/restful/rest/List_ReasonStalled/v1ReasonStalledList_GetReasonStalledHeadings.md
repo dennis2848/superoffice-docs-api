@@ -74,18 +74,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 629,
-    "Name": "Hickle, Nikolaus and Morar",
-    "Tooltip": "aut",
-    "Deleted": false,
-    "Rank": 664,
-    "UdListDefinitionId": 536,
+    "HeadingId": 539,
+    "Name": "Bins, Metz and Fay",
+    "Tooltip": "qui",
+    "Deleted": true,
+    "Rank": 479,
+    "UdListDefinitionId": 720,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 713
+        "FieldLength": 317
       }
     }
   }

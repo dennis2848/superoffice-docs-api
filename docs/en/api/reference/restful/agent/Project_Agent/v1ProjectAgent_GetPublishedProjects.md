@@ -14,6 +14,8 @@ POST /api/v1/Agents/Project/GetPublishedProjects
 Get published projects by project ids.
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -96,8 +98,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ProjectIds": [
-    678,
-    305
+    914,
+    843
   ]
 }
 ```
@@ -110,30 +112,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 5,
-    "Name": "Konopelski Inc and Sons",
-    "Description": "Automated optimal extranet",
+    "ProjectId": 567,
+    "Name": "Thiel Group",
+    "Description": "User-centric needs-based hardware",
     "URL": "http://www.example.com/",
-    "Type": "iure",
-    "AssociateId": 876,
-    "AssociateFullName": "Miss Moshe Candelario Conn III",
-    "TypeId": 616,
-    "Updated": "2017-09-06T03:46:55.1757421+02:00",
-    "StatusId": 450,
-    "Status": "assumenda",
-    "TextId": 722,
-    "PublishTo": "2000-06-02T03:46:55.1757421+02:00",
-    "PublishFrom": "1999-02-09T03:46:55.1757421+01:00",
+    "Type": "at",
+    "AssociateId": 96,
+    "AssociateFullName": "Prof. Hanna Toy Jr.",
+    "TypeId": 454,
+    "Updated": "2002-03-16T02:30:47.6944454+01:00",
+    "StatusId": 977,
+    "Status": "libero",
+    "TextId": 462,
+    "PublishTo": "2010-08-16T02:30:47.6944454+02:00",
+    "PublishFrom": "2000-05-29T02:30:47.6944454+02:00",
     "IsPublished": true,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "1103289",
-    "ActiveErpLinks": 25,
+    "ProjectNumber": "1058167",
+    "ActiveErpLinks": 665,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 480
+        "FieldType": "System.String",
+        "FieldLength": 477
       }
     }
   }

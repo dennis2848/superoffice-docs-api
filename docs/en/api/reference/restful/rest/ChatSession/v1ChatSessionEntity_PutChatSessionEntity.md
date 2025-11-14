@@ -14,6 +14,8 @@ PUT /api/v1/ChatSession/{id}
 Updates the existing ChatSessionEntity
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -140,33 +142,33 @@ ChatSessionEntity updated.
 PUT /api/v1/ChatSession/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 199,
-  "TopicId": 972,
+  "ChatSessionId": 525,
+  "TopicId": 842,
   "User": null,
   "Person": null,
-  "CustomerAlias": "sed",
-  "CustomerHost": "voluptas",
-  "CustomerName": "Kilback LLC",
-  "CustomerEmail": "salma_heathcote@emard.info",
-  "CustomerPhone": "029.748.2758 x6185",
-  "CustomerConsented": false,
-  "CustomerCompanyName": "Lynch Inc and Sons",
+  "CustomerAlias": "odio",
+  "CustomerHost": "nostrum",
+  "CustomerName": "Rosenbaum Group",
+  "CustomerEmail": "allie@feest.com",
+  "CustomerPhone": "1-472-441-6819",
+  "CustomerConsented": true,
+  "CustomerCompanyName": "Willms-Towne",
   "Status": "Closed",
-  "FirstMessage": "tempora",
-  "LastMessage": "numquam",
-  "WhenRequested": "2017-07-04T03:46:59.7380732+02:00",
-  "WhenStarted": "2023-10-09T03:46:59.7380732+02:00",
-  "WhenEnded": "2023-11-17T03:46:59.7380732+01:00",
-  "WhenIdle": "2002-09-12T03:46:59.7380732+02:00",
-  "WhenFetched": "2014-09-22T03:46:59.7380732+02:00",
-  "SessionKey": "ipsam",
-  "InitialQueuePos": 82,
-  "AlertLevel": 437,
-  "Rank": 917,
+  "FirstMessage": "consequatur",
+  "LastMessage": "rerum",
+  "WhenRequested": "2020-02-18T02:30:52.3661722+01:00",
+  "WhenStarted": "2001-03-16T02:30:52.3661722+01:00",
+  "WhenEnded": "2015-11-03T02:30:52.3661722+01:00",
+  "WhenIdle": "2008-11-16T02:30:52.3661722+01:00",
+  "WhenFetched": "2005-04-10T02:30:52.3661722+02:00",
+  "SessionKey": "est",
+  "InitialQueuePos": 463,
+  "AlertLevel": 386,
+  "Rank": 495,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -174,7 +176,7 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 277
+  "Rating": 412
 }
 ```
 
@@ -185,29 +187,29 @@ HTTP/1.1 200 ChatSessionEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 692,
-  "TopicId": 700,
+  "ChatSessionId": 22,
+  "TopicId": 990,
   "User": null,
   "Person": null,
-  "CustomerAlias": "est",
-  "CustomerHost": "inventore",
-  "CustomerName": "Howe, Kuvalis and Kuhn",
-  "CustomerEmail": "nora@champlin.com",
-  "CustomerPhone": "(539)385-4237 x56137",
-  "CustomerConsented": true,
-  "CustomerCompanyName": "Borer-Greenfelder",
+  "CustomerAlias": "quia",
+  "CustomerHost": "quos",
+  "CustomerName": "Thompson, Collier and Armstrong",
+  "CustomerEmail": "violet@thiel.info",
+  "CustomerPhone": "978.777.7988 x790",
+  "CustomerConsented": false,
+  "CustomerCompanyName": "Davis, Macejkovic and Towne",
   "Status": "Closed",
-  "FirstMessage": "minus",
-  "LastMessage": "et",
-  "WhenRequested": "2001-07-16T03:46:59.7536971+02:00",
-  "WhenStarted": "2000-12-30T03:46:59.7536971+01:00",
-  "WhenEnded": "2008-03-30T03:46:59.7536971+02:00",
-  "WhenIdle": "2023-04-28T03:46:59.7536971+02:00",
-  "WhenFetched": "2019-08-28T03:46:59.7536971+02:00",
-  "SessionKey": "sunt",
-  "InitialQueuePos": 843,
-  "AlertLevel": 882,
-  "Rank": 694,
+  "FirstMessage": "laudantium",
+  "LastMessage": "qui",
+  "WhenRequested": "2012-11-02T02:30:52.3661722+01:00",
+  "WhenStarted": "2002-06-19T02:30:52.3661722+02:00",
+  "WhenEnded": "2023-04-03T02:30:52.3661722+02:00",
+  "WhenIdle": "2003-03-29T02:30:52.3661722+01:00",
+  "WhenFetched": "2024-05-24T02:30:52.3661722+02:00",
+  "SessionKey": "voluptatem",
+  "InitialQueuePos": 980,
+  "AlertLevel": 811,
+  "Rank": 625,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -215,13 +217,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 732,
+  "Rating": 658,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 8
+      "FieldType": "System.Int32",
+      "FieldLength": 123
     }
   },
   "_Links": {

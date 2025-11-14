@@ -14,6 +14,8 @@ POST /api/v1/Agents/Chat/CreateDefaultChatSessionEntity
 Loading default values into a new ChatSessionEntity.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -96,43 +98,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 701,
-  "TopicId": 473,
+  "ChatSessionId": 13,
+  "TopicId": 881,
   "User": null,
   "Person": null,
-  "CustomerAlias": "molestiae",
-  "CustomerHost": "et",
-  "CustomerName": "Buckridge, Bernhard and Murazik",
-  "CustomerEmail": "yoshiko@ernsercorkery.info",
-  "CustomerPhone": "(827)587-8793",
-  "CustomerConsented": false,
-  "CustomerCompanyName": "Leffler-Cummings",
+  "CustomerAlias": "est",
+  "CustomerHost": "velit",
+  "CustomerName": "Bayer Group",
+  "CustomerEmail": "agustin.waelchi@schmitt.co.uk",
+  "CustomerPhone": "(977)622-1626 x72580",
+  "CustomerConsented": true,
+  "CustomerCompanyName": "Rowe-Sanford",
   "Status": "Closed",
-  "FirstMessage": "magnam",
-  "LastMessage": "sed",
-  "WhenRequested": "2004-09-11T03:46:54.3163903+02:00",
-  "WhenStarted": "2021-11-25T03:46:54.3163903+01:00",
-  "WhenEnded": "1998-09-22T03:46:54.3163903+02:00",
-  "WhenIdle": "2024-08-10T03:46:54.3163903+02:00",
-  "WhenFetched": "1998-08-03T03:46:54.3163903+02:00",
-  "SessionKey": "corrupti",
-  "InitialQueuePos": 221,
-  "AlertLevel": 590,
-  "Rank": 583,
+  "FirstMessage": "omnis",
+  "LastMessage": "ut",
+  "WhenRequested": "2001-12-08T02:30:46.8350962+01:00",
+  "WhenStarted": "2002-01-27T02:30:46.8350962+01:00",
+  "WhenEnded": "2009-03-06T02:30:46.8350962+01:00",
+  "WhenIdle": "2016-09-26T02:30:46.8350962+02:00",
+  "WhenFetched": "2009-08-21T02:30:46.8350962+02:00",
+  "SessionKey": "quia",
+  "InitialQueuePos": 868,
+  "AlertLevel": 565,
+  "Rank": 780,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": true,
-  "Rating": 721,
+  "ChatbotIsActive": false,
+  "Rating": 691,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 747
+      "FieldLength": 469
     }
   }
 }

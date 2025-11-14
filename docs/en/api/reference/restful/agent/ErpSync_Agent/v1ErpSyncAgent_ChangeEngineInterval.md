@@ -14,6 +14,9 @@ POST /api/v1/Agents/ErpSync/ChangeEngineInterval
 Change the interval for each run of the Sync Engine
 
 
+NsApiSlow threshold: 5000 ms.
+
+
 ## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
 
 
@@ -71,7 +74,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Interval": "neque"
+  "Interval": "et"
 }
 ```
 

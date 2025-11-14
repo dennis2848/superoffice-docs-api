@@ -14,6 +14,8 @@ POST /api/v1/Agents/Quote/CopySuperOfficePriceList
 Create a copy of a PriceList in the SuperOffice database
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -88,15 +90,15 @@ OK
 POST /api/v1/Agents/Quote/CopySuperOfficePriceList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "OriginalPriceListId": 197,
-  "NewName": "Ziemann LLC",
-  "ValidFrom": "2006-06-14T03:46:55.2069913+02:00",
-  "ValidTo": "2016-05-06T03:46:55.2069913+02:00",
-  "NewCurrencyId": 420,
+  "OriginalPriceListId": 165,
+  "NewName": "Kuhn, Will and Hermiston",
+  "ValidFrom": "2019-11-14T02:30:47.7100701+01:00",
+  "ValidTo": "2021-01-22T02:30:47.7100701+01:00",
+  "NewCurrencyId": 650,
   "ConvertCurrency": false
 }
 ```
@@ -108,22 +110,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 627,
-  "ERPPriceListKey": "assumenda",
-  "QuoteConnectionId": 914,
-  "Name": "Maggio, Carroll and Feil",
-  "Description": "Fundamental 5th generation website",
-  "Currency": "numquam",
-  "CurrencyName": "Windler, Schinner and Nitzsche",
-  "ValidFrom": "2009-06-04T03:46:55.2069913+02:00",
-  "ValidTo": "2012-10-02T03:46:55.2069913+02:00",
+  "PriceListId": 296,
+  "ERPPriceListKey": "sapiente",
+  "QuoteConnectionId": 171,
+  "Name": "Marvin-Upton",
+  "Description": "Down-sized logistical capability",
+  "Currency": "possimus",
+  "CurrencyName": "Adams-Rogahn",
+  "ValidFrom": "2009-01-28T02:30:47.7100701+01:00",
+  "ValidTo": "2022-12-29T02:30:47.7100701+01:00",
   "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 36
+      "FieldType": "System.String",
+      "FieldLength": 989
     }
   }
 }

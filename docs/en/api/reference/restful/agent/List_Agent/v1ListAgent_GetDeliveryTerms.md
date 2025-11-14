@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/GetDeliveryTerms
 Returns all DeliveryTerms in SuperOffice db.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -68,7 +70,7 @@ OK
 POST /api/v1/Agents/List/GetDeliveryTerms
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -79,28 +81,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 858,
-    "Value": "delectus",
-    "Tooltip": "nihil",
+    "Id": 704,
+    "Value": "est",
+    "Tooltip": "earum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 287
+        "FieldLength": 495
       }
     }
   },
   {
-    "Id": 858,
-    "Value": "delectus",
-    "Tooltip": "nihil",
+    "Id": 704,
+    "Value": "est",
+    "Tooltip": "earum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 287
+        "FieldLength": 495
       }
     }
   }

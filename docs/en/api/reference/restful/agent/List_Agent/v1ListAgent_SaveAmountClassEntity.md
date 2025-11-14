@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/SaveAmountClassEntity
 Updates the existing AmountClassEntity or creates a new AmountClassEntity if the id parameter is 0.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -78,18 +80,18 @@ OK
 POST /api/v1/Agents/List/SaveAmountClassEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AmountClassId": 464,
-  "Name": "Corwin Inc and Sons",
-  "Tooltip": "laudantium",
-  "Rank": 55,
-  "AmountFrom": 7311.6219999999994,
-  "AmountTo": 16716.756,
+  "AmountClassId": 539,
+  "Name": "Breitenberg, Bartoletti and O'Keefe",
+  "Tooltip": "consequuntur",
+  "Rank": 658,
+  "AmountFrom": 8511.944,
+  "AmountTo": 2062.172,
   "Deleted": false,
-  "CurrencyId": 807
+  "CurrencyId": 906
 }
 ```
 
@@ -100,20 +102,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AmountClassId": 33,
-  "Name": "Hahn-Sipes",
-  "Tooltip": "repellat",
-  "Rank": 2,
-  "AmountFrom": 26535.577999999998,
-  "AmountTo": 2018.2959999999998,
-  "Deleted": false,
-  "CurrencyId": 683,
+  "AmountClassId": 35,
+  "Name": "Hoeger-Tillman",
+  "Tooltip": "atque",
+  "Rank": 257,
+  "AmountFrom": 5851.178,
+  "AmountTo": 31280.453999999998,
+  "Deleted": true,
+  "CurrencyId": 194,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 2
+      "FieldLength": 344
     }
   }
 }

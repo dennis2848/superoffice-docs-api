@@ -94,7 +94,7 @@ AppointmentEntity found.
 GET /api/v1/Appointment/UdefLayout/Published/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -104,46 +104,46 @@ HTTP/1.1 200 AppointmentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 966,
-  "ColumnId": 747,
-  "FieldDefault": "ad",
-  "FieldHeight": 234,
-  "FieldLabel": "sequi",
-  "FieldLeft": 126,
-  "FieldTop": 209,
+  "UDefFieldId": 954,
+  "ColumnId": 193,
+  "FieldDefault": "dolores",
+  "FieldHeight": 804,
+  "FieldLabel": "nulla",
+  "FieldLeft": 637,
+  "FieldTop": 572,
   "FieldType": "Checkbox",
-  "FieldWidth": 631,
-  "FormatMask": "harum",
+  "FieldWidth": 499,
+  "FormatMask": "veniam",
   "HideLabel": false,
   "IsIndexed": true,
-  "LabelHeight": 285,
-  "LabelLeft": 529,
-  "LabelTop": 107,
-  "LabelWidth": 676,
-  "LastVersionId": 770,
-  "ListTableId": 727,
+  "LabelHeight": 21,
+  "LabelLeft": 331,
+  "LabelTop": 594,
+  "LabelWidth": 472,
+  "LastVersionId": 638,
+  "ListTableId": 925,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 132,
-  "ProgId": "enim",
+  "Page1LineNo": 206,
+  "ProgId": "quis",
   "IsReadOnly": false,
-  "ShortLabel": "quis",
-  "TabOrder": 215,
-  "TextLength": 216,
-  "Tooltip": "ea",
-  "UdefIdentity": 460,
-  "UDListDefinitionId": 89,
+  "ShortLabel": "est",
+  "TabOrder": 583,
+  "TextLength": 501,
+  "Tooltip": "numquam",
+  "UdefIdentity": 699,
+  "UDListDefinitionId": 657,
   "Justification": "Center",
-  "Version": 97,
-  "TemplateVariableName": "Heaney-Sipes",
+  "Version": 135,
+  "TemplateVariableName": "Smith, Jewess and Wuckert",
   "HasBeenPublished": false,
-  "MdoListName": "Muller, Gerhold and Cummerata",
+  "MdoListName": "Simonis-Tremblay",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 696
+      "FieldType": "System.Int32",
+      "FieldLength": 333
     }
   }
 }

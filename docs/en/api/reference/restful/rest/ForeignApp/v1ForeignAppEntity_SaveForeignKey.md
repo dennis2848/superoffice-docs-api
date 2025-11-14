@@ -84,18 +84,18 @@ OK
 PUT /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "eos",
-  "Value": "molestias",
-  "RecordId": 917,
-  "CreatedDate": "2020-12-27T03:47:00.0349452+01:00",
-  "UpdatedDate": "2021-01-12T03:47:00.0349452+01:00",
-  "UpdatedBy": "aliquam",
-  "CreatedBy": "quisquam",
-  "TableName": "Goyette-Braun"
+  "Key": "dicta",
+  "Value": "dignissimos",
+  "RecordId": 300,
+  "CreatedDate": "2008-02-19T02:30:52.6630355+01:00",
+  "UpdatedDate": "2019-08-23T02:30:52.6630355+02:00",
+  "UpdatedBy": "est",
+  "CreatedBy": "consequuntur",
+  "TableName": "Hartmann-Willms"
 }
 ```
 
@@ -106,20 +106,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "recusandae",
-  "Value": "minus",
-  "RecordId": 646,
-  "CreatedDate": "2003-07-06T03:47:00.0349452+02:00",
-  "UpdatedDate": "2024-07-16T03:47:00.0349452+02:00",
-  "UpdatedBy": "laborum",
-  "CreatedBy": "eum",
-  "TableName": "Dickens Inc and Sons",
+  "Key": "inventore",
+  "Value": "qui",
+  "RecordId": 708,
+  "CreatedDate": "2005-03-17T02:30:52.6630355+01:00",
+  "UpdatedDate": "2014-12-14T02:30:52.6630355+01:00",
+  "UpdatedBy": "rerum",
+  "CreatedBy": "harum",
+  "TableName": "Pfannerstill-Baumbach",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 723
+      "FieldType": "System.String",
+      "FieldLength": 185
     }
   }
 }

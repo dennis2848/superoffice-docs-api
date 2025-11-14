@@ -74,18 +74,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 531,
-    "Name": "Sanford, Nicolas and Ferry",
-    "Tooltip": "assumenda",
-    "Deleted": true,
-    "Rank": 559,
-    "UdListDefinitionId": 416,
+    "HeadingId": 747,
+    "Name": "King Group",
+    "Tooltip": "omnis",
+    "Deleted": false,
+    "Rank": 587,
+    "UdListDefinitionId": 252,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 42
+        "FieldType": "System.String",
+        "FieldLength": 626
       }
     }
   }

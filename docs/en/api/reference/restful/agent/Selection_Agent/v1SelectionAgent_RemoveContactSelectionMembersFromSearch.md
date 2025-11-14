@@ -14,6 +14,8 @@ POST /api/v1/Agents/Selection/RemoveContactSelectionMembersFromSearch
 Removes members from the selection using the search result.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -70,12 +72,12 @@ OK
 POST /api/v1/Agents/Selection/RemoveContactSelectionMembersFromSearch
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 780,
-  "StorageKey": "qui"
+  "SelectionId": 439,
+  "StorageKey": "eius"
 }
 ```
 
@@ -85,5 +87,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-745
+381
 ```

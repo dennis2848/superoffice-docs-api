@@ -14,7 +14,8 @@ PATCH /api/v1/PreferenceDescriptionLine/{id}
 Update a PreferenceDescriptionLine with changes, as described in a JSON Patch or a JSON Merge Patch document.
 
 
-See <a href="https://tools.ietf.org/html/rfc6902">RFC6902</a> and <a href="https://tools.ietf.org/html/rfc7386">RFC 7396</a>. Update the Department field to "foo" can be done either as a JSON PATCH:
+See <a href="https://tools.ietf.org/html/rfc6902">RFC6902</a> and <a href="https://tools.ietf.org/html/rfc7386">RFC 7396</a>.
+NsApiSlow threshold: 1000 ms. Update the Department field to "foo" can be done either as a JSON PATCH:
 
 ```js
 
@@ -114,18 +115,18 @@ PreferenceDescriptionLine  updated.
 PATCH /api/v1/PreferenceDescriptionLine/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "asperiores",
+    "path": "quisquam",
     "value": {}
   },
   {
     "op": "add",
-    "path": "asperiores",
+    "path": "quisquam",
     "value": {}
   }
 ]
@@ -138,18 +139,18 @@ HTTP/1.1 200 PreferenceDescriptionLine  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 304,
-  "PrefDescId": 395,
-  "PrefValue": "fugit",
-  "PrefShowValue": "odit",
-  "Description": "Automated zero defect application",
-  "IsBuiltin": true,
+  "PrefDescLineId": 21,
+  "PrefDescId": 617,
+  "PrefValue": "omnis",
+  "PrefShowValue": "maxime",
+  "Description": "Fundamental multi-state challenge",
+  "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 543
+      "FieldLength": 682
     }
   },
   "_Links": {

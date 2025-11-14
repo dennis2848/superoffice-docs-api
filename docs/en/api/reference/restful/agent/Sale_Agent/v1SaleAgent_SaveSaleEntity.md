@@ -14,6 +14,8 @@ POST /api/v1/Agents/Sale/SaveSaleEntity
 Updates the existing SaleEntity or creates a new SaleEntity if the id parameter is 0.
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -150,7 +152,7 @@ OK
 POST /api/v1/Agents/Sale/SaveSaleEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -160,7 +162,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "maiores",
+  "SaleText": "quia",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -169,90 +171,90 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2002-09-27T03:46:55.2538645+02:00",
-  "Amount": 8386.5839999999989,
-  "SaleId": 564,
-  "Earning": 26338.136,
-  "EarningPercent": 22865.664,
-  "Heading": "unde",
-  "Number": "767804",
-  "Probability": 721,
-  "CreatedDate": "2000-04-10T03:46:55.2538645+02:00",
-  "UpdatedDate": "2024-02-02T03:46:55.2538645+01:00",
+  "Saledate": "2007-01-23T02:30:47.7725683+01:00",
+  "Amount": 7289.684,
+  "SaleId": 774,
+  "Earning": 17265.206,
+  "EarningPercent": 3456.8019999999997,
+  "Heading": "nesciunt",
+  "Number": "1392028",
+  "Probability": 979,
+  "CreatedDate": "2014-09-28T02:30:47.7725683+02:00",
+  "UpdatedDate": "2024-11-07T02:30:47.7725683+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 692,
+  "ActiveLinks": 699,
   "Links": [
     {
-      "EntityName": "Ziemann-Moen",
-      "Id": 78,
-      "Description": "Re-engineered grid-enabled migration",
-      "ExtraInfo": "voluptatem",
-      "LinkId": 815
+      "EntityName": "Ziemann, O'Reilly and Blick",
+      "Id": 264,
+      "Description": "Right-sized assymetric core",
+      "ExtraInfo": "veniam",
+      "LinkId": 229
     },
     {
-      "EntityName": "Ziemann-Moen",
-      "Id": 78,
-      "Description": "Re-engineered grid-enabled migration",
-      "ExtraInfo": "voluptatem",
-      "LinkId": 815
+      "EntityName": "Ziemann, O'Reilly and Blick",
+      "Id": 264,
+      "Description": "Right-sized assymetric core",
+      "ExtraInfo": "veniam",
+      "LinkId": 229
     }
   ],
-  "NextDueDate": "2023-06-30T03:46:55.2538645+02:00",
-  "Postit": "sit",
+  "NextDueDate": "2021-08-21T02:30:47.7725683+02:00",
+  "Postit": "corporis",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2007-12-05T03:46:55.2538645+01:00",
+  "ReopenDate": "2001-12-07T02:30:47.7725683+01:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Kerluke Group",
-      "Comment": "unde",
-      "StakeholderRoleId": 656,
-      "CountryId": 469,
-      "PersonId": 724,
-      "EmailDescription": "derrick.crona@greenholt.uk",
-      "EmailId": 882,
-      "EmailAddress": "annamae.purdy@schustervonrueden.co.uk",
-      "PhoneId": 134,
-      "ContactName": "Kuhn, Tillman and Cronin",
-      "ContactId": 261,
-      "SaleId": 403,
-      "Mrmrs": "eaque",
-      "Firstname": "Brown",
-      "MiddleName": "Lehner, McKenzie and Legros",
-      "Lastname": "Davis",
-      "SaleStakeholderId": 435,
-      "Rank": 557,
-      "Phone": "964-498-5722"
+      "StakeholderRoleName": "Hilll LLC",
+      "Comment": "in",
+      "StakeholderRoleId": 280,
+      "CountryId": 774,
+      "PersonId": 477,
+      "EmailDescription": "percy_stracke@sauer.info",
+      "EmailId": 503,
+      "EmailAddress": "deborah_leuschke@sporer.biz",
+      "PhoneId": 858,
+      "ContactName": "Balistreri, Haag and Gottlieb",
+      "ContactId": 679,
+      "SaleId": 228,
+      "Mrmrs": "consequuntur",
+      "Firstname": "Roosevelt",
+      "MiddleName": "Schamberger-Leannon",
+      "Lastname": "Schmitt",
+      "SaleStakeholderId": 33,
+      "Rank": 390,
+      "Phone": "1-110-381-7326"
     }
   ],
-  "ActiveErpLinks": 502,
+  "ActiveErpLinks": 783,
   "UserDefinedFields": {
-    "SuperOffice:1": "1369531858",
-    "SuperOffice:2": "Zoila Doyle"
+    "SuperOffice:1": "Prof. Gertrude Dovie Waters",
+    "SuperOffice:2": "Josiah Sanford Sr."
   },
   "ExtraFields": {
-    "ExtraFields1": "aut",
-    "ExtraFields2": "consequatur"
+    "ExtraFields1": "qui",
+    "ExtraFields2": "architecto"
   },
   "CustomFields": {
-    "CustomFields1": "sed",
-    "CustomFields2": "corporis"
+    "CustomFields1": "expedita",
+    "CustomFields2": "temporibus"
   },
-  "PublishEventDate": "2008-03-04T03:46:55.2538645+01:00",
-  "PublishTo": "2000-10-07T03:46:55.2538645+02:00",
-  "PublishFrom": "2021-07-25T03:46:55.2538645+02:00",
+  "PublishEventDate": "2021-11-23T02:30:47.7725683+01:00",
+  "PublishTo": "2018-04-02T02:30:47.7725683+02:00",
+  "PublishFrom": "2018-05-16T02:30:47.7725683+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 59,
+      "VisibleId": 446,
       "Visibility": "All",
-      "DisplayValue": "et"
+      "DisplayValue": "ipsum"
     },
     {
-      "VisibleId": 59,
+      "VisibleId": 446,
       "Visibility": "All",
-      "DisplayValue": "et"
+      "DisplayValue": "ipsum"
     }
   ]
 }
@@ -271,7 +273,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "mollitia",
+  "SaleText": "laudantium",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -280,113 +282,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2023-04-24T03:46:55.2538645+02:00",
-  "Amount": 14767.408,
-  "SaleId": 37,
-  "Earning": 7787.99,
-  "EarningPercent": 5086.482,
-  "Heading": "sunt",
-  "Number": "355760",
-  "Probability": 992,
-  "CreatedDate": "2010-04-14T03:46:55.2538645+02:00",
-  "UpdatedDate": "2006-01-26T03:46:55.2538645+01:00",
+  "Saledate": "2005-12-10T02:30:47.7725683+01:00",
+  "Amount": 27024.482,
+  "SaleId": 81,
+  "Earning": 14660.851999999999,
+  "EarningPercent": 12586.144,
+  "Heading": "sint",
+  "Number": "607575",
+  "Probability": 603,
+  "CreatedDate": "2017-10-25T02:30:47.7725683+02:00",
+  "UpdatedDate": "2012-10-11T02:30:47.7725683+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 119,
+  "ActiveLinks": 821,
   "Links": [
     {
-      "EntityName": "McGlynn Group",
-      "Id": 648,
-      "Description": "Diverse multi-tasking model",
-      "ExtraInfo": "exercitationem",
-      "LinkId": 377,
+      "EntityName": "Labadie, Douglas and Moore",
+      "Id": 871,
+      "Description": "Re-engineered asynchronous secured line",
+      "ExtraInfo": "libero",
+      "LinkId": 54,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 944
+          "FieldLength": 807
         }
       }
     }
   ],
-  "NextDueDate": "2008-04-21T03:46:55.2538645+02:00",
-  "Postit": "velit",
+  "NextDueDate": "2014-02-02T02:30:47.7725683+01:00",
+  "Postit": "magnam",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2019-12-02T03:46:55.2538645+01:00",
+  "ReopenDate": "2005-12-31T02:30:47.7725683+01:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Wuckert, Doyle and Littel",
-      "Comment": "quo",
-      "StakeholderRoleId": 972,
-      "CountryId": 1001,
-      "PersonId": 133,
-      "EmailDescription": "modesta@wiegandbaumbach.name",
-      "EmailId": 520,
-      "EmailAddress": "fatima_mann@schadenlemke.ca",
-      "PhoneId": 901,
-      "ContactName": "Marks-Boyer",
-      "ContactId": 432,
-      "SaleId": 909,
-      "Mrmrs": "est",
-      "Firstname": "Waldo",
-      "MiddleName": "Jenkins-Hickle",
-      "Lastname": "Harris",
-      "SaleStakeholderId": 550,
-      "Rank": 58,
-      "Phone": "1-790-980-7273",
+      "StakeholderRoleName": "Turcotte, Abernathy and Halvorson",
+      "Comment": "omnis",
+      "StakeholderRoleId": 275,
+      "CountryId": 799,
+      "PersonId": 962,
+      "EmailDescription": "maxwell@goodwin.com",
+      "EmailId": 272,
+      "EmailAddress": "devin_smitham@farrell.co.uk",
+      "PhoneId": 597,
+      "ContactName": "Runte LLC",
+      "ContactId": 602,
+      "SaleId": 266,
+      "Mrmrs": "quo",
+      "Firstname": "Dereck",
+      "MiddleName": "Koepp, Beatty and Fadel",
+      "Lastname": "Zemlak",
+      "SaleStakeholderId": 396,
+      "Rank": 618,
+      "Phone": "287.923.6229 x91931",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 546
+          "FieldType": "System.String",
+          "FieldLength": 651
         }
       }
     }
   ],
-  "ActiveErpLinks": 544,
+  "ActiveErpLinks": 403,
   "UserDefinedFields": {
-    "SuperOffice:1": "Prof. Naomi Trisha Tromp",
-    "SuperOffice:2": "Prof. Aniya Nicolas"
+    "SuperOffice:1": "Mrs. Nadia Celestino Schaden MD",
+    "SuperOffice:2": "1541870710"
   },
   "ExtraFields": {
-    "ExtraFields1": "architecto",
-    "ExtraFields2": "ut"
+    "ExtraFields1": "et",
+    "ExtraFields2": "adipisci"
   },
   "CustomFields": {
-    "CustomFields1": "sint",
-    "CustomFields2": "iste"
+    "CustomFields1": "ut",
+    "CustomFields2": "non"
   },
-  "PublishEventDate": "2000-02-08T03:46:55.2538645+01:00",
-  "PublishTo": "2006-03-28T03:46:55.2538645+02:00",
-  "PublishFrom": "2004-11-19T03:46:55.2538645+01:00",
+  "PublishEventDate": "2025-04-11T02:30:47.7725683+02:00",
+  "PublishTo": "2022-03-23T02:30:47.7725683+01:00",
+  "PublishFrom": "2005-07-26T02:30:47.7725683+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 644,
+      "VisibleId": 979,
       "Visibility": "All",
-      "DisplayValue": "voluptatum",
+      "DisplayValue": "iure",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 695
+          "FieldLength": 667
         }
       }
     },
     {
-      "VisibleId": 644,
+      "VisibleId": 979,
       "Visibility": "All",
-      "DisplayValue": "voluptatum",
+      "DisplayValue": "iure",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 695
+          "FieldLength": 667
         }
       }
     }
@@ -395,8 +397,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 341
+      "FieldType": "System.Int32",
+      "FieldLength": 844
     }
   }
 }

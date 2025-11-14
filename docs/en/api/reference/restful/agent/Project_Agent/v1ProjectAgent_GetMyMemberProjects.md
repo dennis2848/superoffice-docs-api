@@ -14,6 +14,8 @@ POST /api/v1/Agents/Project/GetMyMemberProjects
 Returning the projects where an user is project member.
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -94,30 +96,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 826,
-    "Name": "Klein, Boyle and Rath",
-    "Description": "Multi-channelled dynamic hub",
+    "ProjectId": 979,
+    "Name": "Runolfsson, Lueilwitz and Rath",
+    "Description": "Sharable encompassing infrastructure",
     "URL": "http://www.example.com/",
-    "Type": "sint",
-    "AssociateId": 528,
-    "AssociateFullName": "Keely Sawayn",
-    "TypeId": 726,
-    "Updated": "2020-06-23T03:46:55.1757421+02:00",
-    "StatusId": 962,
-    "Status": "et",
-    "TextId": 720,
-    "PublishTo": "2008-11-30T03:46:55.1757421+01:00",
-    "PublishFrom": "2006-05-11T03:46:55.1757421+02:00",
+    "Type": "nostrum",
+    "AssociateId": 162,
+    "AssociateFullName": "Estel Schaden",
+    "TypeId": 987,
+    "Updated": "2008-07-07T02:30:47.6944454+02:00",
+    "StatusId": 608,
+    "Status": "est",
+    "TextId": 967,
+    "PublishTo": "2006-04-03T02:30:47.6944454+02:00",
+    "PublishFrom": "2006-11-23T02:30:47.6944454+01:00",
     "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "1067068",
-    "ActiveErpLinks": 347,
+    "ProjectNumber": "1461569",
+    "ActiveErpLinks": 265,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 799
+        "FieldType": "System.String",
+        "FieldLength": 720
       }
     }
   }

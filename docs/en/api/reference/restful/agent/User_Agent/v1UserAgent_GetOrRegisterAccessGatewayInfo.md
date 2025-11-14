@@ -14,6 +14,9 @@ POST /api/v1/Agents/User/GetOrRegisterAccessGatewayInfo
 Returns accessgateway registration info and registers a new or adds the url if necessary
 
 
+NsApiSlow threshold: 1000 ms.
+
+
 ## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
 
 
@@ -77,11 +80,11 @@ OK
 POST /api/v1/Agents/User/GetOrRegisterAccessGatewayInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "RedirectUri": "ea"
+  "RedirectUri": "ratione"
 }
 ```
 
@@ -92,14 +95,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ClientId": "molestiae",
-  "RedirectUri": "aspernatur",
+  "ClientId": "dolorum",
+  "RedirectUri": "accusantium",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 718
+      "FieldLength": 64
     }
   }
 }

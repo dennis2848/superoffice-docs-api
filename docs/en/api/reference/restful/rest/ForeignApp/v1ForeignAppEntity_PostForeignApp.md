@@ -68,7 +68,7 @@ OK
 POST /api/v1/ForeignApp/{appName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -78,29 +78,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 97,
-  "Name": "Bogan-Kertzmann",
-  "CreatedDate": "2012-11-25T03:47:00.0193121+01:00",
-  "UpdatedDate": "2023-06-02T03:47:00.0193121+02:00",
+  "ForeignAppId": 278,
+  "Name": "Senger Group",
+  "CreatedDate": "2020-09-01T02:30:52.6474115+02:00",
+  "UpdatedDate": "1999-12-14T02:30:52.6474115+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 97,
-      "Name": "Cummerata-Williamson",
-      "CreatedDate": "2020-03-24T03:47:00.0193121+01:00",
-      "UpdatedDate": "2013-07-19T03:47:00.0193121+02:00",
-      "AssociateFullName": "Hortense Reichert",
-      "CreatedBy": "et",
-      "UpdatedBy": "sit",
-      "DeviceIdentifier": "sunt",
-      "ForeignAppId": 334,
+      "ForeignDeviceId": 264,
+      "Name": "Mertz Inc and Sons",
+      "CreatedDate": "2005-04-21T02:30:52.6474115+02:00",
+      "UpdatedDate": "2023-03-06T02:30:52.6474115+01:00",
+      "AssociateFullName": "Ms. Margarita Lucas Ondricka IV",
+      "CreatedBy": "dolorem",
+      "UpdatedBy": "assumenda",
+      "DeviceIdentifier": "in",
+      "ForeignAppId": 59,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 265
+          "FieldType": "System.Int32",
+          "FieldLength": 883
         }
       }
     }
@@ -110,7 +110,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 21
+      "FieldLength": 797
     }
   }
 }

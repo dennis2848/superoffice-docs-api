@@ -55,7 +55,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Items/{documentTemplateId}/Extension
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -64,5 +64,5 @@ Accept-Language: en
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"sequi"
+"porro"
 ```

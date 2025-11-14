@@ -14,6 +14,8 @@ POST /api/v1/Agents/Ticket/CalculateMessageRecipients
 Gets recipients for new message
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -80,9 +82,9 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 711,
+  "TicketId": 615,
   "ActionType": "Forward",
-  "MessageId": 66
+  "MessageId": 38
 }
 ```
 
@@ -95,13 +97,13 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Type": "BCC",
-    "Value": "sed",
-    "DisplayValue": "accusamus"
+    "Value": "aut",
+    "DisplayValue": "eligendi"
   },
   {
     "Type": "BCC",
-    "Value": "sed",
-    "DisplayValue": "accusamus"
+    "Value": "aut",
+    "DisplayValue": "eligendi"
   }
 ]
 ```

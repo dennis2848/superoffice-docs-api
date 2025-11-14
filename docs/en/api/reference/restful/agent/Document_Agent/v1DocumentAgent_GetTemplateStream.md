@@ -14,6 +14,8 @@ POST /api/v1/Agents/Document/GetTemplateStream
 Retrieve a stream to a mail template based on its name
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -75,9 +77,9 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TemplateName": "Tromp-Towne",
-  "AllowPersonal": true,
-  "UiCulture": "labore"
+  "TemplateName": "Koss, Strosin and Rohan",
+  "AllowPersonal": false,
+  "UiCulture": "ex"
 }
 ```
 

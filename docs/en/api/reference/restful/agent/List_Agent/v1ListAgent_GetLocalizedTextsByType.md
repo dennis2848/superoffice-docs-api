@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/GetLocalizedTextsByType
 Gets localized text by their type
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -79,13 +81,13 @@ OK
 POST /api/v1/Agents/List/GetLocalizedTextsByType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "TextTypes": [
-    "reprehenderit",
-    "blanditiis"
+    "reiciendis",
+    "accusantium"
   ]
 }
 ```
@@ -98,18 +100,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageId": 74,
-    "ResourceId": 716,
-    "Text": "et",
+    "LanguageId": 279,
+    "ResourceId": 565,
+    "Text": "quia",
     "Type": "Column",
-    "LocalizedTextId": 631,
-    "IsBuiltIn": true,
+    "LocalizedTextId": 918,
+    "IsBuiltIn": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 164
+        "FieldType": "System.Int32",
+        "FieldLength": 36
       }
     }
   }

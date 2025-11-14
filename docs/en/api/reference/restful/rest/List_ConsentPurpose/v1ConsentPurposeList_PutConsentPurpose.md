@@ -95,22 +95,22 @@ OK
 PUT /api/v1/List/ConsentPurpose/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 272,
-  "Name": "Dickinson Inc and Sons",
-  "ConsentText": "ut",
-  "FormText": "debitis",
-  "Key": "quo",
-  "Tooltip": "maiores",
-  "Active": 228,
-  "UpdatedDate": "2024-05-16T03:47:00.5974251+02:00",
+  "ConsentPurposeId": 880,
+  "Name": "Hauck Group",
+  "ConsentText": "impedit",
+  "FormText": "perspiciatis",
+  "Key": "assumenda",
+  "Tooltip": "totam",
+  "Active": 952,
+  "UpdatedDate": "2015-04-16T02:30:53.2255171+02:00",
   "UpdatedBy": null,
-  "Deleted": false,
-  "Rank": 412,
-  "PrivacyStatementDesc": "debitis",
+  "Deleted": true,
+  "Rank": 64,
+  "PrivacyStatementDesc": "et",
   "PrivacyStatementUrl": "http://www.example.com/"
 }
 ```
@@ -122,25 +122,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 407,
-  "Name": "Lemke, Gaylord and Hodkiewicz",
-  "ConsentText": "necessitatibus",
-  "FormText": "facilis",
-  "Key": "voluptatum",
-  "Tooltip": "dicta",
-  "Active": 764,
-  "UpdatedDate": "2003-09-04T03:47:00.5974251+02:00",
+  "ConsentPurposeId": 390,
+  "Name": "Kris Inc and Sons",
+  "ConsentText": "nesciunt",
+  "FormText": "occaecati",
+  "Key": "ex",
+  "Tooltip": "autem",
+  "Active": 179,
+  "UpdatedDate": "2025-05-10T02:30:53.2255171+02:00",
   "UpdatedBy": null,
-  "Deleted": false,
-  "Rank": 968,
-  "PrivacyStatementDesc": "enim",
+  "Deleted": true,
+  "Rank": 398,
+  "PrivacyStatementDesc": "dolores",
   "PrivacyStatementUrl": "http://www.example.com/",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 938
+      "FieldLength": 445
     }
   }
 }

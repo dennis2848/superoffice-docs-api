@@ -15,6 +15,7 @@ Creates a new PriceList
 
 
 Calls the Quote agent service SavePriceList.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -99,15 +100,15 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 373,
-  "ERPPriceListKey": "in",
-  "QuoteConnectionId": 405,
-  "Name": "Fay, Kiehn and Satterfield",
-  "Description": "Business-focused web-enabled attitude",
-  "Currency": "modi",
-  "CurrencyName": "Kohler LLC",
-  "ValidFrom": "2006-06-04T03:47:00.7067961+02:00",
-  "ValidTo": "2014-06-22T03:47:00.7067961+02:00",
+  "PriceListId": 214,
+  "ERPPriceListKey": "voluptatem",
+  "QuoteConnectionId": 61,
+  "Name": "Nicolas-Quigley",
+  "Description": "Mandatory tertiary internet solution",
+  "Currency": "recusandae",
+  "CurrencyName": "Gibson Group",
+  "ValidFrom": "2009-10-26T02:30:53.3348881+01:00",
+  "ValidTo": "2018-06-19T02:30:53.3348881+02:00",
   "IsActive": false
 }
 ```
@@ -119,27 +120,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 774,
-  "ERPPriceListKey": "dolores",
-  "QuoteConnectionId": 665,
-  "Name": "Wisoky-Homenick",
-  "Description": "Integrated neutral moderator",
-  "Currency": "magnam",
-  "CurrencyName": "Smith, Hamill and Crooks",
-  "ValidFrom": "2003-11-04T03:47:00.7067961+01:00",
-  "ValidTo": "2013-04-22T03:47:00.7067961+02:00",
+  "PriceListId": 155,
+  "ERPPriceListKey": "in",
+  "QuoteConnectionId": 218,
+  "Name": "Ritchie, Schuppe and Schowalter",
+  "Description": "Phased foreground throughput",
+  "Currency": "cupiditate",
+  "CurrencyName": "Denesik LLC",
+  "ValidFrom": "2021-10-25T02:30:53.3348881+02:00",
+  "ValidTo": "2005-06-05T02:30:53.3348881+02:00",
   "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 267
+      "FieldLength": 639
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

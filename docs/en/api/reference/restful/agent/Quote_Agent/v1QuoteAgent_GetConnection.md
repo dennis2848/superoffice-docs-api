@@ -14,6 +14,8 @@ POST /api/v1/Agents/Quote/GetConnection
 Returns the specified connection.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -88,11 +90,11 @@ OK
 POST /api/v1/Agents/Quote/GetConnection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 930
+  "QuoteConnectionId": 481
 }
 ```
 
@@ -103,34 +105,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 922,
-  "ERPName": "Hagenes Inc and Sons",
-  "DisplayName": "Cronin, Cartwright and Kuvalis",
-  "DisplayDescription": "Intuitive regional application",
-  "Rank": 743,
-  "ConnectorName": "Huels LLC",
-  "ErpConnectionId": 625,
-  "ExtraData": "cum",
+  "QuoteConnectionId": 939,
+  "ERPName": "Schaefer Group",
+  "DisplayName": "Wilderman-Beatty",
+  "DisplayDescription": "Synergized impactful function",
+  "Rank": 562,
+  "ConnectorName": "Cummerata, Mayert and Bechtelar",
+  "ErpConnectionId": 955,
+  "ExtraData": "et",
   "IsAvailable": false,
   "InitializeResponse": null,
   "PriceLists": [
     {
-      "PriceListId": 642,
-      "ERPPriceListKey": "beatae",
-      "QuoteConnectionId": 907,
-      "Name": "Marquardt Group",
-      "Description": "Proactive modular product",
-      "Currency": "numquam",
-      "CurrencyName": "Rau LLC",
-      "ValidFrom": "2010-04-26T03:46:55.2226157+02:00",
-      "ValidTo": "2014-02-07T03:46:55.2226157+01:00",
+      "PriceListId": 654,
+      "ERPPriceListKey": "laborum",
+      "QuoteConnectionId": 575,
+      "Name": "Jewess, Brekke and Aufderhar",
+      "Description": "Compatible local help-desk",
+      "Currency": "est",
+      "CurrencyName": "Rath Group",
+      "ValidFrom": "2024-01-29T02:30:47.7256947+01:00",
+      "ValidTo": "2008-06-02T02:30:47.7256947+02:00",
       "IsActive": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 493
+          "FieldType": "System.String",
+          "FieldLength": 273
         }
       }
     }
@@ -138,19 +140,19 @@ Content-Type: application/json; charset=utf-8
   "AllAccess": false,
   "Deleted": false,
   "UserGroupAccessIds": [
-    97,
-    86
+    883,
+    210
   ],
   "AssociateAccessIds": [
-    867,
-    21
+    274,
+    781
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 634
+      "FieldLength": 729
     }
   }
 }

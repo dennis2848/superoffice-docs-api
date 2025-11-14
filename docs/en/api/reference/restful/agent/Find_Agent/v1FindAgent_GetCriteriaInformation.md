@@ -15,6 +15,7 @@ Get criteria information from a set of saved criteria.
 
 
 The result contains the restrictions in two forms: fully populated ArchiveRestrictionInfo objects, used to display details and for saving changes; and as a list suitable for an Archive control
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -86,12 +87,12 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "dolor",
-  "ProviderName": "Rutherford-Breitenberg",
-  "StorageKey": "enim",
+  "StorageType": "qui",
+  "ProviderName": "Connelly, Toy and Thiel",
+  "StorageKey": "aut",
   "StaticColumns": [
-    "nisi",
-    "et"
+    "repudiandae",
+    "aperiam"
   ]
 }
 ```
@@ -105,15 +106,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Heller Group",
-      "Operator": "ea",
+      "Name": "West Group",
+      "Operator": "debitis",
       "Values": [
-        "dolorem",
-        "et"
+        "deleniti",
+        "unde"
       ],
       "DisplayValues": [
-        "recusandae",
-        "voluptatem"
+        "iure",
+        "dolorum"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -121,65 +122,65 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 273,
+      "InterParenthesis": 600,
       "InterOperator": "And",
-      "UniqueHash": 4
+      "UniqueHash": 631
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Considine-Kautzer",
-      "DisplayTooltip": "aut",
-      "DisplayType": "quasi",
-      "CanOrderBy": true,
-      "Name": "Connelly, O'Keefe and Keeling",
+      "DisplayName": "Anderson, Nicolas and Roob",
+      "DisplayTooltip": "quam",
+      "DisplayType": "molestiae",
+      "CanOrderBy": false,
+      "Name": "Koepp, Dickens and Abbott",
       "CanRestrictBy": false,
-      "RestrictionType": "atque",
-      "RestrictionListName": "Becker, Flatley and Lynch",
+      "RestrictionType": "voluptatem",
+      "RestrictionListName": "Homenick, Cassin and Pagac",
       "IsVisible": false,
-      "ExtraInfo": "aut",
-      "Width": "possimus",
-      "IconHint": "incidunt",
-      "HeadingIconHint": "aut"
+      "ExtraInfo": "impedit",
+      "Width": "necessitatibus",
+      "IconHint": "quo",
+      "HeadingIconHint": "minima"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Kihn Group",
-      "PrimaryKey": 950,
+      "EntityName": "Hermann Group",
+      "PrimaryKey": 123,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "enim",
-          "TooltipHint": "voluptate",
-          "LinkHint": "nostrum"
+          "DisplayValue": "maiores",
+          "TooltipHint": "deleniti",
+          "LinkHint": "dolores"
         }
       },
-      "LinkHint": "deserunt",
-      "StyleHint": "temporibus",
+      "LinkHint": "ad",
+      "StyleHint": "fugiat",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 548
+          "FieldType": "System.Int32",
+          "FieldLength": 852
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Schmitt, Haley and Davis",
-      "Description": "Decentralized human-resource collaboration",
-      "Rank": 468,
+      "Name": "Dare, Stanton and Harvey",
+      "Description": "Quality-focused web-enabled framework",
+      "Rank": 739,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Schmitt, Haley and Davis",
-      "Description": "Decentralized human-resource collaboration",
-      "Rank": 468,
+      "Name": "Dare, Stanton and Harvey",
+      "Description": "Quality-focused web-enabled framework",
+      "Rank": 739,
       "Restrictions": [
         {},
         {}
@@ -191,7 +192,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 457
+      "FieldLength": 99
     }
   }
 }

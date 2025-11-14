@@ -81,23 +81,23 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Mon, 15 Jul 2024 03:47:00 G7T
+Last-Modified: Sun, 08 Oct 2000 02:30:52 G10T
 
 {
-  "Key": "sint",
-  "Value": "corporis",
-  "RecordId": 285,
-  "CreatedDate": "2016-02-25T03:47:00.0349452+01:00",
-  "UpdatedDate": "2024-07-15T03:47:00.0349452+02:00",
-  "UpdatedBy": "repellat",
-  "CreatedBy": "cupiditate",
-  "TableName": "Rath, Schmidt and Friesen",
+  "Key": "neque",
+  "Value": "aut",
+  "RecordId": 255,
+  "CreatedDate": "2005-03-08T02:30:52.6474115+01:00",
+  "UpdatedDate": "2000-10-08T02:30:52.6474115+02:00",
+  "UpdatedBy": "excepturi",
+  "CreatedBy": "dolor",
+  "TableName": "Harvey Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 898
+      "FieldType": "System.String",
+      "FieldLength": 431
     }
   }
 }

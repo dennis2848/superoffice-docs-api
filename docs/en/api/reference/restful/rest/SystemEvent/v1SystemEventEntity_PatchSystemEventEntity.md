@@ -14,7 +14,8 @@ PATCH /api/v1/SystemEvent/{id}
 Update a SystemEventEntity with changes, as described in a JSON Patch or a JSON Merge Patch document.
 
 
-See <a href="https://tools.ietf.org/html/rfc6902">RFC6902</a> and <a href="https://tools.ietf.org/html/rfc7386">RFC 7396</a>. Update the Department field to "foo" can be done either as a JSON PATCH:
+See <a href="https://tools.ietf.org/html/rfc6902">RFC6902</a> and <a href="https://tools.ietf.org/html/rfc7386">RFC 7396</a>.
+NsApiSlow threshold: 5000 ms. Update the Department field to "foo" can be done either as a JSON PATCH:
 
 ```js
 
@@ -118,18 +119,18 @@ SystemEventEntity  updated.
 PATCH /api/v1/SystemEvent/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "ex",
+    "path": "quam",
     "value": {}
   },
   {
     "op": "add",
-    "path": "ex",
+    "path": "quam",
     "value": {}
   }
 ]
@@ -142,27 +143,27 @@ HTTP/1.1 200 SystemEventEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 264,
+  "SystemEventId": 910,
   "Scope": "Database",
-  "Eta": "2019-09-08T03:47:00.3005605+02:00",
-  "Eventkey": "accusantium",
-  "Eventmess": "asperiores",
-  "ExtraInfo": 363,
-  "Owner": 92,
-  "UpdatedCount": 478,
-  "Registered": "2006-12-15T03:47:00.3005605+01:00",
+  "Eta": "2007-06-01T02:30:52.9442767+02:00",
+  "Eventkey": "voluptatem",
+  "Eventmess": "quis",
+  "ExtraInfo": 614,
+  "Owner": 293,
+  "UpdatedCount": 617,
+  "Registered": "2001-06-15T02:30:52.9442767+02:00",
   "ActivatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 328
+      "FieldType": "System.String",
+      "FieldLength": 961
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

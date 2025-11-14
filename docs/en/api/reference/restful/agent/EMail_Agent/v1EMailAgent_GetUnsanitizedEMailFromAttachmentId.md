@@ -15,6 +15,7 @@ Get an e-mail based on an email and attachment id.
 
 
 The returned value is not sanitized.
+NsApiSlow threshold: 5000 ms.
 
 
 ## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
@@ -106,16 +107,16 @@ OK
 POST /api/v1/Agents/EMail/GetUnsanitizedEMailFromAttachmentId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailId": 442,
+  "EmailId": 557,
   "AttachmentIds": [
-    "impedit",
-    "vel"
+    "dolor",
+    "nesciunt"
   ],
-  "IncludeAttachments": false
+  "IncludeAttachments": true
 }
 ```
 
@@ -128,147 +129,147 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 83,
-      "ContactName": "Littel Inc and Sons",
-      "PersonId": 331,
-      "PersonName": "Dach Group",
-      "AssociateId": 181,
-      "Address": "iste",
-      "EmailId": 236,
+      "ContactId": 75,
+      "ContactName": "Dickinson LLC",
+      "PersonId": 881,
+      "PersonName": "Cormier-Fritsch",
+      "AssociateId": 33,
+      "Address": "repudiandae",
+      "EmailId": 271,
       "DuplicatePersonIds": [
-        698,
-        288
+        836,
+        109
       ],
-      "Name": "Littel Group",
+      "Name": "Kihn-Mayer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 603
+          "FieldType": "System.Int32",
+          "FieldLength": 168
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 60,
-      "ContactName": "Turcotte-Russel",
-      "PersonId": 1002,
-      "PersonName": "Bosco Inc and Sons",
-      "AssociateId": 391,
-      "Address": "asperiores",
-      "EmailId": 384,
+      "ContactId": 350,
+      "ContactName": "Hermann-Hudson",
+      "PersonId": 273,
+      "PersonName": "Kassulke Group",
+      "AssociateId": 26,
+      "Address": "repudiandae",
+      "EmailId": 270,
       "DuplicatePersonIds": [
-        6,
-        782
+        760,
+        686
       ],
-      "Name": "Cruickshank-Boyle",
+      "Name": "Sawayn-Okuneva",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 193
+          "FieldType": "System.Int32",
+          "FieldLength": 182
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 716,
-      "ContactName": "Lebsack, Lynch and Nolan",
-      "PersonId": 216,
-      "PersonName": "Wolf, O'Kon and Schaden",
-      "AssociateId": 141,
-      "Address": "qui",
-      "EmailId": 462,
+      "ContactId": 82,
+      "ContactName": "Flatley-Koelpin",
+      "PersonId": 747,
+      "PersonName": "Pacocha, Bartoletti and Douglas",
+      "AssociateId": 48,
+      "Address": "et",
+      "EmailId": 103,
       "DuplicatePersonIds": [
-        154,
-        872
+        775,
+        361
       ],
-      "Name": "Maggio, Ratke and Kilback",
+      "Name": "Reinger Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 780
+          "FieldLength": 75
         }
       }
     }
   ],
-  "Subject": "nam",
-  "HTMLBody": "laborum",
+  "Subject": "molestias",
+  "HTMLBody": "vero",
   "From": null,
-  "Sent": "2019-08-02T03:46:54.785131+02:00",
-  "Size": 902,
+  "Sent": "2013-02-07T02:30:47.3038336+01:00",
+  "Size": 327,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "veniam",
-  "PlainBody": "voluptatum",
-  "IsSent": false,
+  "MessageID": "officiis",
+  "PlainBody": "recusandae",
+  "IsSent": true,
   "EMailSOInfo": null,
-  "ServerId": 764,
+  "ServerId": 630,
   "Attachments": [
     {
-      "Description": "Synchronised asynchronous Graphical User Interface",
-      "Filename": "qui",
-      "Size": 50,
-      "Type": "voluptate",
-      "Encoding": "voluptatum",
-      "Id": "consequatur",
-      "Disposition": "non",
+      "Description": "Expanded 6th generation productivity",
+      "Filename": "illo",
+      "Size": 254,
+      "Type": "magnam",
+      "Encoding": "quidem",
+      "Id": "delectus",
+      "Disposition": "soluta",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 461
+          "FieldType": "System.Int32",
+          "FieldLength": 778
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Johns-Jacobi",
+      "Name": "Haag-Klocko",
       "Values": [
-        "veniam",
-        "voluptatem"
+        "omnis",
+        "velit"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 481
+          "FieldType": "System.Int32",
+          "FieldLength": 375
         }
       }
     },
     {
-      "Name": "Johns-Jacobi",
+      "Name": "Haag-Klocko",
       "Values": [
-        "veniam",
-        "voluptatem"
+        "omnis",
+        "velit"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 481
+          "FieldType": "System.Int32",
+          "FieldLength": 375
         }
       }
     }
   ],
-  "FolderName": "Cummings-Kshlerin",
-  "EmailItemId": 332,
-  "AccountId": 272,
-  "ReceivedAt": "1999-03-07T03:46:54.785131+01:00",
+  "FolderName": "Franecki LLC",
+  "EmailItemId": 851,
+  "AccountId": 300,
+  "ReceivedAt": "2004-02-01T02:30:47.3038336+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2005-02-09T03:46:54.785131+01:00",
+  "RepliedAt": "2014-08-25T02:30:47.3038336+02:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -277,7 +278,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 313
+      "FieldLength": 957
     }
   }
 }

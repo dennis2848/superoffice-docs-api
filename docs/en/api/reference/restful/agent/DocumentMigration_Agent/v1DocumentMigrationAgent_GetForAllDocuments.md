@@ -15,6 +15,7 @@ Gets a migration summary for all documents stored in CRM.
 
 
 Warning: Expensive!
+NsApiSlow threshold: 5000 ms.
 
 
 ## Online Restricted: ## The DocumentMigration agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for SuperOffice-internal apps.
@@ -81,12 +82,12 @@ OK
 POST /api/v1/Agents/DocumentMigration/GetForAllDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentPluginId": 576,
-  "IncludeEmails": false
+  "DocumentPluginId": 709,
+  "IncludeEmails": true
 }
 ```
 
@@ -97,29 +98,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumDocumentsOmitted": 43,
-  "NumDocumentsAlreadyMigrated": 799,
+  "NumDocumentsOmitted": 985,
+  "NumDocumentsAlreadyMigrated": 412,
   "Documents": [
     {
-      "DocumentId": 699,
-      "ContactId": 935,
-      "PersonId": 411,
-      "SaleId": 989,
-      "ProjectId": 811,
-      "DocTmplId": 475,
-      "AssociateId": 536,
-      "UserGroupId": 508,
-      "VisibleForId": 223
+      "DocumentId": 342,
+      "ContactId": 55,
+      "PersonId": 658,
+      "SaleId": 776,
+      "ProjectId": 7,
+      "DocTmplId": 980,
+      "AssociateId": 300,
+      "UserGroupId": 390,
+      "VisibleForId": 950
     }
   ],
   "Associates": [
     {
-      "AssociateId": 721,
-      "EmailAddress": "arch@emardleannon.ca"
+      "AssociateId": 846,
+      "EmailAddress": "gretchen@goodwin.co.uk"
     },
     {
-      "AssociateId": 721,
-      "EmailAddress": "arch@emardleannon.ca"
+      "AssociateId": 846,
+      "EmailAddress": "gretchen@goodwin.co.uk"
     }
   ]
 }

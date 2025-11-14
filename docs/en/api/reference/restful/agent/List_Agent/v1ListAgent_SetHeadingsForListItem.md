@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/SetHeadingsForListItem
 Set headings which this list item should be listed under
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -72,13 +74,13 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 177,
-  "ListItemId": 409,
+  "UdListDefinitionId": 415,
+  "ListItemId": 479,
   "HeadingIds": [
-    201,
-    226
+    233,
+    886
   ],
-  "Enable": false
+  "Enable": true
 }
 ```
 

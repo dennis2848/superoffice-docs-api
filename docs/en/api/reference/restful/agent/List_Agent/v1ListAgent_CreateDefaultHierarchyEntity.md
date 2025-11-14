@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/CreateDefaultHierarchyEntity
 Loading default values into a new HierarchyEntity.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -75,46 +77,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 841,
+  "HierarchyId": 928,
   "Domain": "Dashboards",
-  "Name": "Bergnaum LLC",
-  "Fullname": "cupiditate",
-  "ParentId": 633,
+  "Name": "Bailey-Morissette",
+  "Fullname": "earum",
+  "ParentId": 240,
   "Children": [
     {
-      "HierarchyId": 334,
+      "HierarchyId": 992,
       "Domain": "Dashboards",
-      "Name": "Russel, Muller and Heidenreich",
-      "Fullname": "enim",
-      "ParentId": 493,
+      "Name": "Harris, Schowalter and Christiansen",
+      "Fullname": "provident",
+      "ParentId": 423,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2019-08-20T03:46:54.9726245+02:00",
-      "RegisteredAssociateId": 937,
-      "Updated": "2020-12-01T03:46:54.9726245+01:00",
-      "UpdatedAssociateId": 788,
+      "Registered": "2006-10-08T02:30:47.4288293+02:00",
+      "RegisteredAssociateId": 325,
+      "Updated": "2003-08-14T02:30:47.4288293+02:00",
+      "UpdatedAssociateId": 115,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 539
+          "FieldType": "System.Int32",
+          "FieldLength": 421
         }
       }
     }
   ],
-  "Registered": "2002-09-02T03:46:54.9726245+02:00",
-  "RegisteredAssociateId": 148,
-  "Updated": "2002-03-06T03:46:54.9726245+01:00",
-  "UpdatedAssociateId": 54,
+  "Registered": "2012-01-25T02:30:47.4288293+01:00",
+  "RegisteredAssociateId": 629,
+  "Updated": "2018-01-29T02:30:47.4288293+01:00",
+  "UpdatedAssociateId": 437,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 929
+      "FieldLength": 806
     }
   }
 }

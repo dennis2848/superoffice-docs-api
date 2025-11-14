@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/CreateDefaultRelationDefinitionEntity
 Loading default values into a new RelationDefinitionEntity.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -63,7 +65,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultRelationDefinitionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -73,20 +75,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 162,
-  "Name": "Kshlerin, Jakubowski and Kling",
-  "Tooltip": "saepe",
-  "PassiveText": "enim",
-  "Deleted": true,
-  "Rank": 362,
+  "ReldefId": 760,
+  "Name": "Rosenbaum LLC",
+  "Tooltip": "minus",
+  "PassiveText": "recusandae",
+  "Deleted": false,
+  "Rank": 16,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 917
+      "FieldType": "System.String",
+      "FieldLength": 531
     }
   }
 }

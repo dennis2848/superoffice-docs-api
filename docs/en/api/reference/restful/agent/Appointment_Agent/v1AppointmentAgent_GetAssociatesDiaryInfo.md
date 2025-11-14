@@ -14,6 +14,8 @@ POST /api/v1/Agents/Appointment/GetAssociatesDiaryInfo
 Fetch appointment info for given associates
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -102,16 +104,16 @@ OK
 POST /api/v1/Agents/Appointment/GetAssociatesDiaryInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "AssociateIds": [
-    851,
-    559
+    671,
+    216
   ],
-  "StartTime": "2016-08-05T03:46:54.0195335+02:00",
-  "EndTime": "1998-09-30T03:46:54.0195335+02:00"
+  "StartTime": "2003-06-27T02:30:46.5382305+02:00",
+  "EndTime": "2003-11-30T02:30:46.5382305+01:00"
 }
 ```
 
@@ -123,39 +125,39 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 55,
-    "AssociateId": 628,
-    "MotherId": 718,
-    "StartDate": "2019-07-30T03:46:54.0195335+02:00",
-    "EndDate": "2007-01-19T03:46:54.0195335+01:00",
+    "AppointmentId": 672,
+    "AssociateId": 937,
+    "MotherId": 803,
+    "StartDate": "2005-08-16T02:30:46.5382305+02:00",
+    "EndDate": "2005-08-09T02:30:46.5382305+02:00",
     "ColorIndex": "BlueAlt1",
-    "TaskName": "Ziemann, Corwin and Eichmann",
-    "ContactName": "Moen, Rosenbaum and Zboncak",
-    "ProjectName": "Koss-Little",
-    "Title": "cupiditate",
-    "Agenda": "praesentium",
-    "IsAllDay": false,
-    "IsBusy": true,
+    "TaskName": "Carter Inc and Sons",
+    "ContactName": "Harris Group",
+    "ProjectName": "Rempel Inc and Sons",
+    "Title": "voluptas",
+    "Agenda": "nobis",
+    "IsAllDay": true,
+    "IsBusy": false,
     "IsRecurring": true,
     "IsVideoMeeting": true,
     "HasAlarm": true,
     "IsCompleted": false,
     "IsTentative": false,
     "IsBookingMain": false,
-    "SendEmail": false,
+    "SendEmail": true,
     "AnySendEmail": false,
     "IsPrivate": false,
     "RecurrenceInfo": null,
-    "PersonName": "Lockman-Koepp",
+    "PersonName": "Bashirian Inc and Sons",
     "IsBooking": false,
     "OwnedExternally": "Google",
-    "MotherAssociateId": 191,
+    "MotherAssociateId": 240,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 139
+        "FieldLength": 423
       }
     }
   }

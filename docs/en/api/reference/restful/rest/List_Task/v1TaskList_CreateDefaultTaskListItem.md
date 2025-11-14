@@ -78,25 +78,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskListItemId": 708,
-  "Value": "ducimus",
+  "TaskListItemId": 465,
+  "Value": "magnam",
   "Direction": "Incoming",
   "Type": "Appointment",
-  "Tooltip": "quam",
+  "Tooltip": "eos",
   "Deleted": false,
-  "IntentId": 931,
-  "Rank": 245,
+  "IntentId": 438,
+  "Rank": 546,
   "IsDefaultAlldayEvent": false,
-  "IsDefaultFree": true,
-  "IsDefaultPublished": true,
+  "IsDefaultFree": false,
+  "IsDefaultPublished": false,
   "ColorIndex": "BlueAlt1",
   "DefaultVideomeetingStatus": "NoChange",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 489
+      "FieldType": "System.Int32",
+      "FieldLength": 293
     }
   }
 }

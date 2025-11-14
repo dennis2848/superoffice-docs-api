@@ -14,6 +14,8 @@ POST /api/v1/Agents/ForeignSystem/GetApplicationDevices
 Gets all devices that belong to a foreign application.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -82,11 +84,11 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetApplicationDevices
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Boehm, Daniel and Witting"
+  "ApplicationName": "Wehner Group"
 }
 ```
 
@@ -98,21 +100,21 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ForeignDeviceId": 706,
-    "Name": "Thompson-Kuhn",
-    "CreatedDate": "2014-05-22T03:46:54.847629+02:00",
-    "UpdatedDate": "2009-07-22T03:46:54.847629+02:00",
-    "AssociateFullName": "Miss Jonathon Declan Kunze",
-    "CreatedBy": "qui",
-    "UpdatedBy": "sit",
-    "DeviceIdentifier": "eligendi",
-    "ForeignAppId": 879,
+    "ForeignDeviceId": 42,
+    "Name": "Murazik Inc and Sons",
+    "CreatedDate": "2000-09-05T02:30:47.366331+02:00",
+    "UpdatedDate": "2017-09-08T02:30:47.366331+02:00",
+    "AssociateFullName": "Dr. Asha Giuseppe Koch",
+    "CreatedBy": "ut",
+    "UpdatedBy": "dolore",
+    "DeviceIdentifier": "quam",
+    "ForeignAppId": 211,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 219
+        "FieldType": "System.String",
+        "FieldLength": 515
       }
     }
   }

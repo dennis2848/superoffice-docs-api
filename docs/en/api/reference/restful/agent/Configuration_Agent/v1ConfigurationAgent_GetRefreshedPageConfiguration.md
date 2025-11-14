@@ -15,6 +15,7 @@ Get the configuration for one whole web page, including all its panels etc.
 
 
 totally asynchronous items like menus are not included, but all references are resolved and all special processing is applied. Does not use cache for fetching, but updates the cache with refreshed configuration.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -73,13 +74,13 @@ OK
 POST /api/v1/Agents/Configuration/GetRefreshedPageConfiguration
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Application": "eum",
-  "Instance": "iste",
-  "Page": "voluptatem"
+  "Application": "molestias",
+  "Instance": "aut",
+  "Page": "molestiae"
 }
 ```
 
@@ -89,5 +90,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"rerum"
+"repellendus"
 ```

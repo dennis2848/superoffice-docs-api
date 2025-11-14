@@ -14,6 +14,11 @@ POST /api/v1/Agents/AI/Search
 Returns semantic search results from vector database.
 
 
+NsApiSlow threshold: 1000 ms.
+
+
+## Experimental: ## The AI agent is experimental, subject to change, and not intended for partners.
+
 
 
 
@@ -84,10 +89,10 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "NamespaceName": "Ratke, Harris and Mann",
-  "Query": "eos",
+  "NamespaceName": "Swift, Padberg and Wiegand",
+  "Query": "rerum",
   "Type": "Document",
-  "Top": 571
+  "Top": 563
 }
 ```
 
@@ -99,21 +104,21 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Chunk": "consectetur",
-    "Title": "cupiditate",
-    "Id": "error",
+    "Chunk": "dolore",
+    "Title": "ab",
+    "Id": "officia",
     "Type": "Document",
-    "Score": 16585.128,
+    "Score": 6521.8539999999994,
     "Metadata": {
       "fieldName": {}
     }
   },
   {
-    "Chunk": "consectetur",
-    "Title": "cupiditate",
-    "Id": "error",
+    "Chunk": "dolore",
+    "Title": "ab",
+    "Id": "officia",
     "Type": "Document",
-    "Score": 16585.128,
+    "Score": 6521.8539999999994,
     "Metadata": {
       "fieldName": {}
     }

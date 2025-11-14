@@ -14,6 +14,8 @@ POST /api/v1/Agents/Appointment/DeleteVideoMeetingReservation
 Delete a VideoMeetingReservation.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -69,7 +71,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "VideoMeetingId": "unde"
+  "VideoMeetingId": "eius"
 }
 ```
 

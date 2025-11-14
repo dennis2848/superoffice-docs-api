@@ -79,7 +79,7 @@ OK
 GET /api/v1/List/WebPanel/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -90,11 +90,11 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebPanelId": 431,
-    "Name": "Bogan Inc and Sons",
-    "Tooltip": "odit",
+    "WebPanelId": 933,
+    "Name": "O'Keefe Group",
+    "Tooltip": "et",
     "Deleted": false,
-    "Rank": 696,
+    "Rank": 461,
     "UrlEncoding": "ANSI",
     "VisibleIn": "ActivityDialog",
     "OnCentral": false,
@@ -105,19 +105,19 @@ Content-Type: application/json; charset=utf-8
     "ShowInMenuBar": true,
     "ShowInToolBar": true,
     "ShowInAddressBar": true,
-    "ShowInStatusBar": true,
-    "WindowName": "Dickens Inc and Sons",
+    "ShowInStatusBar": false,
+    "WindowName": "Williamson, Boyle and Kertzmann",
     "Url": "http://www.example.com/",
-    "ProgId": "ullam",
-    "Icon": 551,
-    "AlwaysReloadOnShow": true,
+    "ProgId": "ipsam",
+    "Icon": 795,
+    "AlwaysReloadOnShow": false,
     "NeverReloadOnCurrentChange": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 2
+        "FieldType": "System.Int32",
+        "FieldLength": 1001
       }
     }
   }

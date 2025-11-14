@@ -98,47 +98,47 @@ OK
 PUT /api/v1/List/ProductType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 966,
-    "Name": "Hessel-Feeney",
-    "ToolTip": "Nihil qui repellat consequatur quis.",
+    "Id": 346,
+    "Name": "Heaney-Morissette",
+    "ToolTip": "Dignissimos id non esse quisquam accusamus.",
     "Deleted": true,
-    "Rank": 838,
-    "Type": "nulla",
-    "ColorBlock": 636,
-    "IconHint": "facere",
-    "Selected": true,
-    "LastChanged": "2014-05-07T03:47:00.7380451+02:00",
+    "Rank": 369,
+    "Type": "repellendus",
+    "ColorBlock": 28,
+    "IconHint": "similique",
+    "Selected": false,
+    "LastChanged": "2025-03-18T02:30:53.3661371+01:00",
     "ChildItems": [
       {
-        "Id": 78,
-        "Name": "Douglas Inc and Sons",
-        "ToolTip": "Vitae et asperiores.",
-        "Deleted": false,
-        "Rank": 291,
-        "Type": "animi",
-        "ColorBlock": 123,
-        "IconHint": "minus",
+        "Id": 290,
+        "Name": "Berge Inc and Sons",
+        "ToolTip": "Praesentium et et fuga enim quia.",
+        "Deleted": true,
+        "Rank": 814,
+        "Type": "cupiditate",
+        "ColorBlock": 795,
+        "IconHint": "dignissimos",
         "Selected": false,
-        "LastChanged": "2005-07-22T03:47:00.7380451+02:00",
+        "LastChanged": "2024-08-15T02:30:53.3661371+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "cupiditate",
-        "StyleHint": "laboriosam",
-        "Hidden": false,
-        "FullName": "Mrs. Karli Hilll"
+        "ExtraInfo": "quidem",
+        "StyleHint": "alias",
+        "Hidden": true,
+        "FullName": "Ms. Tate Richie Mann"
       }
     ],
-    "ExtraInfo": "non",
-    "StyleHint": "et",
+    "ExtraInfo": "voluptatem",
+    "StyleHint": "ut",
     "Hidden": false,
-    "FullName": "Vicenta Langosh"
+    "FullName": "Brett Franco Lebsack DVM"
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 753,
-    "Name": "Cronin Inc and Sons",
-    "ToolTip": "Voluptatem qui molestiae quod sed sit dolores.",
+    "Id": 255,
+    "Name": "Murray-Koepp",
+    "ToolTip": "Inventore illum non et omnis modi eos placeat.",
     "Deleted": false,
-    "Rank": 714,
-    "Type": "modi",
-    "ColorBlock": 129,
-    "IconHint": "voluptate",
+    "Rank": 148,
+    "Type": "ratione",
+    "ColorBlock": 59,
+    "IconHint": "voluptas",
     "Selected": false,
-    "LastChanged": "2007-11-30T03:47:00.7380451+01:00",
+    "LastChanged": "2003-02-04T02:30:53.3661371+01:00",
     "ChildItems": [
       {
-        "Id": 962,
-        "Name": "Deckow, D'Amore and Jacobson",
-        "ToolTip": "Quisquam libero aut est incidunt ut.",
+        "Id": 299,
+        "Name": "Tremblay, Abbott and Predovic",
+        "ToolTip": "Ipsam numquam et.",
         "Deleted": false,
-        "Rank": 82,
-        "Type": "pariatur",
-        "ColorBlock": 463,
-        "IconHint": "sit",
-        "Selected": false,
-        "LastChanged": "2015-06-24T03:47:00.7380451+02:00",
+        "Rank": 553,
+        "Type": "et",
+        "ColorBlock": 129,
+        "IconHint": "id",
+        "Selected": true,
+        "LastChanged": "1998-08-26T02:30:53.3661371+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "asperiores",
-        "StyleHint": "illo",
-        "Hidden": false,
-        "FullName": "Juanita Ullrich",
+        "ExtraInfo": "nihil",
+        "StyleHint": "harum",
+        "Hidden": true,
+        "FullName": "Blanca Thiel",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 631
+            "FieldLength": 777
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "reiciendis",
+    "ExtraInfo": "officia",
+    "StyleHint": "sit",
     "Hidden": false,
-    "FullName": "Virginie Marvin I",
+    "FullName": "Wallace Wisozk",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 210
+        "FieldType": "System.Int32",
+        "FieldLength": 965
       }
     }
   }

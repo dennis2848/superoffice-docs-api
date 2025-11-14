@@ -15,6 +15,7 @@ Get the configuration for one archive.
 
 
 The configuration is keyed by a combination of archive provider name and gui name. The archive provider name must match an archive provider plugin; the gui name is an arbitrary string used to distinguish multiple occurrences of the same underlying provider in a gui.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -80,12 +81,12 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveConfiguration
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Cartwright, Hessel and Dooley",
-  "ProviderName": "Barrows LLC"
+  "GuiName": "Rippin, Weissnat and Cormier",
+  "ProviderName": "Moore-Lemke"
 }
 ```
 
@@ -98,68 +99,68 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumnInfo": [
     {
-      "DisplayName": "Hodkiewicz, Erdman and Hodkiewicz",
-      "DisplayTooltip": "est",
-      "DisplayType": "illum",
+      "DisplayName": "Wyman-Franecki",
+      "DisplayTooltip": "iusto",
+      "DisplayType": "est",
       "CanOrderBy": false,
-      "Name": "Howe Inc and Sons",
-      "CanRestrictBy": false,
-      "RestrictionType": "facere",
-      "RestrictionListName": "Price, Rutherford and Crona",
+      "Name": "Considine, Herman and D'Amore",
+      "CanRestrictBy": true,
+      "RestrictionType": "temporibus",
+      "RestrictionListName": "Blanda Inc and Sons",
       "IsVisible": false,
-      "ExtraInfo": "dolorem",
-      "Width": "iure",
-      "IconHint": "ipsam",
-      "HeadingIconHint": "enim"
+      "ExtraInfo": "inventore",
+      "Width": "dolore",
+      "IconHint": "blanditiis",
+      "HeadingIconHint": "voluptas"
     }
   ],
   "ArchiveEntityInfo": [
     {
-      "Id": 995,
-      "Name": "Purdy LLC",
-      "ToolTip": "Minus officiis dolores.",
+      "Id": 50,
+      "Name": "Hand Inc and Sons",
+      "ToolTip": "Nihil ullam.",
       "Deleted": false,
-      "Rank": 370,
-      "Type": "et",
-      "ColorBlock": 504,
-      "IconHint": "fugiat",
-      "Selected": true,
-      "LastChanged": "2000-05-23T03:46:54.2851489+02:00",
+      "Rank": 885,
+      "Type": "commodi",
+      "ColorBlock": 186,
+      "IconHint": "reprehenderit",
+      "Selected": false,
+      "LastChanged": "2015-07-12T02:30:46.7882228+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "non",
-      "StyleHint": "quos",
+      "ExtraInfo": "et",
+      "StyleHint": "repellat",
       "Hidden": false,
-      "FullName": "Ms. Callie Dovie Nitzsche II",
+      "FullName": "Agustin Mollie Gorczany Jr.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 137
+          "FieldType": "System.String",
+          "FieldLength": 156
         }
       }
     }
   ],
   "ArchiveOrderByInfo": [
     {
-      "Name": "Green Group",
+      "Name": "Keeling, Nitzsche and Becker",
       "Direction": "ASC"
     },
     {
-      "Name": "Green Group",
+      "Name": "Keeling, Nitzsche and Becker",
       "Direction": "ASC"
     }
   ],
-  "OwnerKeys": "non",
+  "OwnerKeys": "minima",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 783
+      "FieldType": "System.Int32",
+      "FieldLength": 317
     }
   }
 }

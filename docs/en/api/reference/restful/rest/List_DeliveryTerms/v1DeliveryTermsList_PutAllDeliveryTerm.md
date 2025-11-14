@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/DeliveryTerm/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 326,
-    "Name": "Hermiston, Abshire and Jaskolski",
-    "Tooltip": "inventore",
+    "Id": 546,
+    "Name": "Runolfsdottir-Schinner",
+    "Tooltip": "magni",
     "Deleted": false,
-    "UdListDefinitionId": 936,
-    "Rank": 774
+    "UdListDefinitionId": 393,
+    "Rank": 421
   },
   {
-    "Id": 326,
-    "Name": "Hermiston, Abshire and Jaskolski",
-    "Tooltip": "inventore",
+    "Id": 546,
+    "Name": "Runolfsdottir-Schinner",
+    "Tooltip": "magni",
     "Deleted": false,
-    "UdListDefinitionId": 936,
-    "Rank": 774
+    "UdListDefinitionId": 393,
+    "Rank": 421
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 157,
-    "Name": "Maggio-Hane",
-    "Tooltip": "non",
-    "Deleted": true,
-    "UdListDefinitionId": 16,
-    "Rank": 677,
+    "Id": 992,
+    "Name": "Kemmer, Goldner and O'Kon",
+    "Tooltip": "nam",
+    "Deleted": false,
+    "UdListDefinitionId": 442,
+    "Rank": 622,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 799
+        "FieldLength": 511
       }
     }
   }

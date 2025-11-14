@@ -14,6 +14,8 @@ POST /api/v1/Agents/Quote/GetQuote
 Get a Quote
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -87,11 +89,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuote
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 884
+  "QuoteId": 50
 }
 ```
 
@@ -102,26 +104,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 453,
-  "SaleId": 79,
-  "QuoteConnectionId": 335,
-  "ERPQuoteKey": "qui",
-  "ERPOrderKey": "officiis",
-  "ActiveQuoteVersionId": 706,
-  "AcceptedQuoteAlternativeId": 221,
-  "UseValuesFromQuote": 693,
-  "DocumentId": 479,
-  "PoNumber": "727100",
-  "OrderComment": "totam",
-  "PreferredEmailCulture": "bennie@hartmannkuhlman.ca",
+  "QuoteId": 913,
+  "SaleId": 310,
+  "QuoteConnectionId": 298,
+  "ERPQuoteKey": "eius",
+  "ERPOrderKey": "sapiente",
+  "ActiveQuoteVersionId": 850,
+  "AcceptedQuoteAlternativeId": 369,
+  "UseValuesFromQuote": 740,
+  "DocumentId": 846,
+  "PoNumber": "1278768",
+  "OrderComment": "assumenda",
+  "PreferredEmailCulture": "jada_lang@herman.biz",
   "ActiveQuoteVersion": null,
   "FavoriteQuoteAlternative": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 225
+      "FieldType": "System.Int32",
+      "FieldLength": 639
     }
   }
 }

@@ -11,7 +11,7 @@ content_type: reference
 POST /api/v1/Agents/Appointment/GetAssociateDiary
 ```
 
-
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -131,14 +131,14 @@ OK
 POST /api/v1/Agents/Appointment/GetAssociateDiary
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 402,
-  "StartTime": "2021-08-25T03:46:54.0039095+02:00",
-  "EndTime": "2007-07-23T03:46:54.0039095+02:00",
-  "Count": 914
+  "AssociateId": 916,
+  "StartTime": "2019-12-27T02:30:46.522607+01:00",
+  "EndTime": "2022-10-16T02:30:46.522607+02:00",
+  "Count": 514
 }
 ```
 
@@ -150,67 +150,67 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 317,
-    "StartDate": "2011-03-06T03:46:54.0039095+01:00",
-    "EndDate": "2022-09-06T03:46:54.0039095+02:00",
+    "AppointmentId": 92,
+    "StartDate": "1999-09-01T02:30:46.522607+02:00",
+    "EndDate": "2022-01-20T02:30:46.522607+01:00",
     "Type": "BookingForChecklist",
-    "Task": "cumque",
-    "AssociateFullName": "Marlee Harber",
-    "ContactName": "O'Conner LLC",
-    "Description": "Persevering homogeneous approach",
-    "PersonFullName": "Miss Adrianna Lueilwitz I",
-    "PersonId": 91,
-    "ContactId": 300,
-    "ProjectId": 853,
-    "ProjectName": "Wunsch Group",
-    "IsPublished": true,
-    "AssociateId": 340,
-    "ColorIndex": 558,
+    "Task": "dolore",
+    "AssociateFullName": "Arielle Smith",
+    "ContactName": "Boyer-Friesen",
+    "Description": "Switchable mobile model",
+    "PersonFullName": "Dr. Mellie Jessie Hudson II",
+    "PersonId": 866,
+    "ContactId": 408,
+    "ProjectId": 601,
+    "ProjectName": "Hessel-Von",
+    "IsPublished": false,
+    "AssociateId": 981,
+    "ColorIndex": 929,
     "IsFree": true,
-    "HasAlarm": true,
+    "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 540,
-    "PriorityName": "Mohr-Schaefer",
+    "PriorityId": 610,
+    "PriorityName": "Feil, Gleason and Kertzmann",
     "TaskType": "Appointment",
     "IsBookingMain": false,
     "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "2021-10-14T03:46:54.0039095+02:00",
+    "ActiveDate": "2024-06-16T02:30:46.522607+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2010-09-09T03:46:54.0039095+02:00",
-    "RecurringEndDate": "2021-06-25T03:46:54.0039095+02:00",
-    "MotherId": 263,
-    "AssignedBy": 902,
-    "AssignedByFullName": "Uriel Pouros",
+    "RecurringStartDate": "2022-06-10T02:30:46.522607+02:00",
+    "RecurringEndDate": "2004-01-24T02:30:46.522607+01:00",
+    "MotherId": 387,
+    "AssignedBy": 471,
+    "AssignedByFullName": "Dr. Fern Morissette MD",
     "RejectReason": "",
-    "Location": "consequatur",
-    "AlarmLeadTime": "impedit",
-    "SaleId": 808,
-    "SaleName": "Sipes Group",
-    "AssociateName": "Abbott Inc and Sons",
-    "CreatedDate": "2017-05-23T03:46:54.0039095+02:00",
-    "CreatedBy": "facere",
-    "CreatedByFullName": "Gilbert Maida Bernier I",
-    "CreatedByAssociateId": 80,
+    "Location": "est",
+    "AlarmLeadTime": "odio",
+    "SaleId": 444,
+    "SaleName": "Gusikowski-Strosin",
+    "AssociateName": "Schroeder LLC",
+    "CreatedDate": "2017-06-06T02:30:46.522607+02:00",
+    "CreatedBy": "nam",
+    "CreatedByFullName": "Ms. Halie Pouros",
+    "CreatedByAssociateId": 819,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "OwnedExternally": "Google",
-    "MotherAssociateId": 279,
+    "MotherAssociateId": 853,
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 656,
-    "Title": "nostrum",
-    "Agenda": "error",
-    "InternalNotes": "distinctio",
+    "PreferredTZLocation": 652,
+    "Title": "fuga",
+    "Agenda": "voluptatum",
+    "InternalNotes": "repudiandae",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 177
+        "FieldLength": 725
       }
     }
   }

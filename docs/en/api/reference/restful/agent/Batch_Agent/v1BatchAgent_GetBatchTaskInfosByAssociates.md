@@ -14,6 +14,8 @@ POST /api/v1/Agents/Batch/GetBatchTaskInfosByAssociates
 Get an array of BatchTaskInfo for the provided associate id's.
 
 
+NsApiSlow threshold: 3000 ms.
+
 
 
 
@@ -100,7 +102,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "AssociateIds": [
-    920,
+    1000,
     24
   ]
 }
@@ -114,37 +116,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 609,
-    "Name": "Runolfsdottir Group",
-    "AssociateId": 79,
-    "DetailsTable": 772,
-    "DetailsRecord": 842,
-    "IsSystemTask": true,
+    "Id": 175,
+    "Name": "Stokes-Wilderman",
+    "AssociateId": 346,
+    "DetailsTable": 815,
+    "DetailsRecord": 584,
+    "IsSystemTask": false,
     "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "cum",
-      "ParameterObject2": "libero"
+      "ParameterObject1": "iste",
+      "ParameterObject2": "ad"
     },
-    "LastStarted": "2005-04-03T03:46:54.3007673+02:00",
-    "Created": "2022-04-07T03:46:54.3007673+02:00",
-    "StartCount": 956,
-    "DatabaseSerialNumber": "811505",
-    "Context": "illo",
-    "Result": "eum",
+    "LastStarted": "2004-03-04T02:30:46.8194719+01:00",
+    "Created": "2019-02-03T02:30:46.8194719+01:00",
+    "StartCount": 49,
+    "DatabaseSerialNumber": "854879",
+    "Context": "soluta",
+    "Result": "velit",
     "State": "All",
-    "Description": "Self-enabling tangible project",
-    "Response": "nostrum",
-    "Request": "esse",
-    "ProgressDescription": "Up-sized maximized protocol",
-    "ProgressPercent": 958,
-    "FileName": "Windler-Nienow",
+    "Description": "Persevering heuristic data-warehouse",
+    "Response": "magnam",
+    "Request": "cupiditate",
+    "ProgressDescription": "Visionary solution-oriented migration",
+    "ProgressPercent": 282,
+    "FileName": "Kihn-Nader",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 562
+        "FieldLength": 240
       }
     }
   }

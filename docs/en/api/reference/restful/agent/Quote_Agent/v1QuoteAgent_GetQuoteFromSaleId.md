@@ -14,6 +14,8 @@ POST /api/v1/Agents/Quote/GetQuoteFromSaleId
 Get a Quote for a sale
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -87,11 +89,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteFromSaleId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 358
+  "SaleId": 385
 }
 ```
 
@@ -102,18 +104,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 704,
-  "SaleId": 385,
-  "QuoteConnectionId": 825,
-  "ERPQuoteKey": "tenetur",
-  "ERPOrderKey": "doloremque",
-  "ActiveQuoteVersionId": 762,
-  "AcceptedQuoteAlternativeId": 571,
-  "UseValuesFromQuote": 166,
-  "DocumentId": 551,
-  "PoNumber": "1775120",
-  "OrderComment": "blanditiis",
-  "PreferredEmailCulture": "gavin@wintheiser.uk",
+  "QuoteId": 568,
+  "SaleId": 229,
+  "QuoteConnectionId": 451,
+  "ERPQuoteKey": "in",
+  "ERPOrderKey": "numquam",
+  "ActiveQuoteVersionId": 928,
+  "AcceptedQuoteAlternativeId": 196,
+  "UseValuesFromQuote": 997,
+  "DocumentId": 861,
+  "PoNumber": "234585",
+  "OrderComment": "voluptas",
+  "PreferredEmailCulture": "elliott_gutmann@von.co.uk",
   "ActiveQuoteVersion": null,
   "FavoriteQuoteAlternative": null,
   "TableRight": null,
@@ -121,7 +123,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 541
+      "FieldLength": 228
     }
   }
 }

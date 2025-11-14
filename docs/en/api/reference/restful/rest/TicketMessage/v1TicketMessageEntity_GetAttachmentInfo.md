@@ -67,7 +67,7 @@ OK
 GET /api/v1/TicketMessage/{ticketMessageEntityId}/Attachment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -78,20 +78,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 31,
-    "Name": "Kulas LLC",
-    "ContentType": "voluptatum",
-    "AttSize": 647,
-    "InlineImage": false,
-    "ContentId": "esse",
-    "AuthKey": "velit",
+    "AttachmentId": 888,
+    "Name": "Herman Inc and Sons",
+    "ContentType": "voluptatem",
+    "AttSize": 204,
+    "InlineImage": true,
+    "ContentId": "non",
+    "AuthKey": "sed",
     "IsSafeFileExtension": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 904
+        "FieldType": "System.Int32",
+        "FieldLength": 890
       }
     }
   }

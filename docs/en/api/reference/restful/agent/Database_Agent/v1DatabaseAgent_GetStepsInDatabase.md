@@ -14,6 +14,8 @@ POST /api/v1/Agents/Database/GetStepsInDatabase
 Get information about the dictionary steps that are in the currently-loggedon database
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -78,26 +80,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Moen, Anderson and Crist",
-    "StepNumber": 605,
+    "Name": "Nolan, Rippin and Robel",
+    "StepNumber": 991,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 803
+        "FieldLength": 873
       }
     }
   },
   {
-    "Name": "Moen, Anderson and Crist",
-    "StepNumber": 605,
+    "Name": "Nolan, Rippin and Robel",
+    "StepNumber": 991,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 803
+        "FieldLength": 873
       }
     }
   }

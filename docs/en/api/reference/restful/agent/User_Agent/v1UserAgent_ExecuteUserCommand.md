@@ -14,6 +14,9 @@ POST /api/v1/Agents/User/ExecuteUserCommand
 Executes the custom command for User
 
 
+NsApiSlow threshold: 2000 ms.
+
+
 ## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
 
 
@@ -30,7 +33,7 @@ Executes the custom command for User
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/User/ExecuteUserCommand?commandName=Rodriguez LLC
+POST /api/v1/Agents/User/ExecuteUserCommand?commandName=Schimmel-Hauck
 POST /api/v1/Agents/User/ExecuteUserCommand?actionResult=Cancel
 POST /api/v1/Agents/User/ExecuteUserCommand?$select=name,department,category/id
 ```
@@ -109,18 +112,18 @@ OK
 POST /api/v1/Agents/User/ExecuteUserCommand
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 810,
-  "Name": "Upton Group",
-  "Rank": 359,
-  "Tooltip": "dolores",
+  "AssociateId": 461,
+  "Name": "Johns-Wiegand",
+  "Rank": 214,
+  "Tooltip": "aliquam",
   "LicenseOwners": [
     {
-      "Name": "Ortiz-Kemmer",
-      "Description": "Advanced bandwidth-monitored collaboration",
+      "Name": "Dickinson-Gulgowski",
+      "Description": "Fully-configurable system-worthy info-mediaries",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -131,8 +134,8 @@ Content-Type: application/json; charset=utf-8
       ]
     },
     {
-      "Name": "Ortiz-Kemmer",
-      "Description": "Advanced bandwidth-monitored collaboration",
+      "Name": "Dickinson-Gulgowski",
+      "Description": "Fully-configurable system-worthy info-mediaries",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -147,87 +150,87 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "qui",
-      "Tooltip": "dolor",
-      "Id": 197,
-      "Rank": 456,
-      "Deleted": true
+      "Value": "explicabo",
+      "Tooltip": "rem",
+      "Id": 328,
+      "Rank": 61,
+      "Deleted": false
     },
     {
-      "Value": "qui",
-      "Tooltip": "dolor",
-      "Id": 197,
-      "Rank": 456,
-      "Deleted": true
+      "Value": "explicabo",
+      "Tooltip": "rem",
+      "Id": 328,
+      "Rank": 61,
+      "Deleted": false
     }
   ],
   "Person": null,
   "Deleted": false,
-  "Lastlogin": "2025-06-02T03:46:55.5976024+02:00",
-  "Lastlogout": "2016-11-12T03:46:55.5976024+01:00",
-  "EjUserId": 114,
-  "RequestSignature": "deserunt",
+  "Lastlogin": "2019-09-21T02:30:48.1006818+02:00",
+  "Lastlogout": "2001-10-14T02:30:48.1006818+02:00",
+  "EjUserId": 282,
+  "RequestSignature": "recusandae",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": false,
   "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "aut",
-      "DisplayValue": "ratione"
+      "Value": "placeat",
+      "DisplayValue": "suscipit"
     },
     {
       "Type": null,
-      "Value": "aut",
-      "DisplayValue": "ratione"
+      "Value": "placeat",
+      "DisplayValue": "suscipit"
     }
   ],
-  "UserName": "Schowalter, Kulas and Bernhard",
+  "UserName": "Keeling, Block and Feil",
   "TicketCategories": [
     {
-      "Id": 212,
-      "Name": "Leuschke-Veum",
-      "ToolTip": "Laborum soluta dicta qui eveniet dolor.",
-      "Deleted": false,
-      "Rank": 665,
-      "Type": "sit",
+      "Id": 283,
+      "Name": "Moore, Leuschke and Hartmann",
+      "ToolTip": "Sed id asperiores et earum iste.",
+      "Deleted": true,
+      "Rank": 101,
+      "Type": "dignissimos",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "voluptatem",
-      "ColorBlock": 364,
-      "ExtraInfo": "explicabo",
-      "StyleHint": "cumque",
-      "FullName": "Philip Osinski"
+      "IconHint": "ea",
+      "ColorBlock": 410,
+      "ExtraInfo": "iste",
+      "StyleHint": "distinctio",
+      "FullName": "Beth O'Hara"
     }
   ],
-  "NickName": "Roob, Wiza and Bahringer",
+  "NickName": "Tillman, Rogahn and Stroman",
   "WaitingForApproval": false,
   "ExtraFields": {
-    "ExtraFields1": "aut",
-    "ExtraFields2": "sed"
+    "ExtraFields1": "est",
+    "ExtraFields2": "suscipit"
   },
   "CustomFields": {
-    "CustomFields1": "recusandae",
-    "CustomFields2": "dicta"
+    "CustomFields1": "omnis",
+    "CustomFields2": "non"
   },
   "PostSaveCommands": [
     {
-      "Name": "Goodwin Group",
-      "DisplayName": "Hahn Group",
-      "Description": "Triple-buffered system-worthy matrix",
-      "ToolTip": "Sapiente ullam non.",
+      "Name": "Jaskolski Inc and Sons",
+      "DisplayName": "Buckridge, Dare and Lesch",
+      "Description": "Fundamental full-range intranet",
+      "ToolTip": "Omnis ea voluptate sed sunt exercitationem eum.",
       "Actions": "Implicit",
-      "ActionData": "aliquam"
+      "ActionData": "numquam"
     },
     {
-      "Name": "Goodwin Group",
-      "DisplayName": "Hahn Group",
-      "Description": "Triple-buffered system-worthy matrix",
-      "ToolTip": "Sapiente ullam non.",
+      "Name": "Jaskolski Inc and Sons",
+      "DisplayName": "Buckridge, Dare and Lesch",
+      "Description": "Fundamental full-range intranet",
+      "ToolTip": "Omnis ea voluptate sed sunt exercitationem eum.",
       "Actions": "Implicit",
-      "ActionData": "aliquam"
+      "ActionData": "numquam"
     }
   ]
 }
@@ -241,14 +244,14 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Success": false,
-  "Message": "vero",
+  "Message": "ex",
   "Result": "Cancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 399
+      "FieldType": "System.String",
+      "FieldLength": 183
     }
   }
 }

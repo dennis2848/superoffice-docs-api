@@ -14,6 +14,8 @@ POST /api/v1/Agents/CustomerService/EventHandlersExists
 Check if any given eventhandler exists
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -74,8 +76,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "EventHandlerTypes": [
-    "necessitatibus",
-    "amet"
+    "natus",
+    "tenetur"
   ]
 }
 ```
@@ -87,7 +89,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  "molestiae",
-  "nihil"
+  "iste",
+  "aspernatur"
 ]
 ```

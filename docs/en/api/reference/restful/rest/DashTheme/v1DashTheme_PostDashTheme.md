@@ -15,6 +15,7 @@ Creates a new DashTheme
 
 
 Calls the Dash agent service SaveDashTheme.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -87,16 +88,16 @@ OK
 POST /api/v1/DashTheme
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 814,
-  "Name": "Batz-Ryan",
-  "Config": "est",
-  "Rank": 15,
-  "Client": "maiores",
-  "Style": "ut"
+  "DashboardThemeId": 73,
+  "Name": "Keebler, Langosh and Turner",
+  "Config": "ea",
+  "Rank": 115,
+  "Client": "rem",
+  "Style": "dolorem"
 }
 ```
 
@@ -107,18 +108,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 500,
-  "Name": "Spinka LLC",
-  "Config": "omnis",
-  "Rank": 619,
-  "Client": "quia",
-  "Style": "quaerat",
+  "DashboardThemeId": 645,
+  "Name": "Littel-Bergnaum",
+  "Config": "rerum",
+  "Rank": 810,
+  "Client": "dolores",
+  "Style": "corrupti",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 60
+      "FieldType": "System.Int32",
+      "FieldLength": 427
     }
   },
   "_Links": {

@@ -14,6 +14,8 @@ POST /api/v1/Agents/Document/UndoCheckoutDocument
 Undo (abandon) a checkout
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -78,14 +80,14 @@ OK
 POST /api/v1/Agents/Document/UndoCheckoutDocument
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 569,
+  "DocumentId": 18,
   "AllowedReturnTypes": [
-    "culpa",
-    "animi"
+    "quia",
+    "nihil"
   ]
 }
 ```
@@ -97,11 +99,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExternalReference": "optio",
-  "VersionId": "accusantium",
-  "Success": false,
+  "ExternalReference": "et",
+  "VersionId": "modi",
+  "Success": true,
   "Type": "CustomGui",
-  "Value": "iste",
-  "AdditionalInfo": "sint"
+  "Value": "omnis",
+  "AdditionalInfo": "et"
 }
 ```

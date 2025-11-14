@@ -14,6 +14,11 @@ POST /api/v1/Agents/AI/TranslateEntity
 Retrieve, format and translate text for an entity to a specified language
 
 
+NsApiSlow threshold: 2000 ms.
+
+
+## Experimental: ## The AI agent is experimental, subject to change, and not intended for partners.
+
 
 
 
@@ -71,13 +76,13 @@ OK
 POST /api/v1/Agents/AI/TranslateEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "EntityName": "Bashirian Group",
-  "EntityId": 510,
-  "TargetLanguage": "ut"
+  "EntityName": "Schuppe, Schiller and Dickinson",
+  "EntityId": 220,
+  "TargetLanguage": "facere"
 }
 ```
 
@@ -87,5 +92,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"quasi"
+"sunt"
 ```

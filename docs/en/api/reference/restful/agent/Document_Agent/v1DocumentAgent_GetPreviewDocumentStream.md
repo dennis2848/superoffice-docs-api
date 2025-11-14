@@ -15,6 +15,7 @@ Get the preview version of the document content as a stream.
 
 
 Retrieves a sanitized version if possible
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -79,11 +80,11 @@ OK
 POST /api/v1/Agents/Document/GetPreviewDocumentStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 907
+  "DocumentId": 133
 }
 ```
 
@@ -94,16 +95,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Abernathy-Waelchi",
-  "Type": "labore",
-  "Size": 309,
+  "Name": "Ritchie, Berge and Carroll",
+  "Type": "architecto",
+  "Size": 281,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 336
+      "FieldLength": 792
     }
   }
 }

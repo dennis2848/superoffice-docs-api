@@ -80,12 +80,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 36,
-  "Name": "Sporer LLC",
-  "Tooltip": "reprehenderit",
-  "Deleted": false,
-  "Rank": 925,
-  "UdListDefinitionId": 770
+  "HeadingId": 989,
+  "Name": "Bogan-Haag",
+  "Tooltip": "dignissimos",
+  "Deleted": true,
+  "Rank": 297,
+  "UdListDefinitionId": 702
 }
 ```
 
@@ -96,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 894,
-  "Name": "Kutch-Gislason",
-  "Tooltip": "omnis",
-  "Deleted": false,
-  "Rank": 717,
-  "UdListDefinitionId": 169,
+  "HeadingId": 540,
+  "Name": "Parisian-Labadie",
+  "Tooltip": "est",
+  "Deleted": true,
+  "Rank": 348,
+  "UdListDefinitionId": 93,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 90
+      "FieldLength": 13
     }
   }
 }

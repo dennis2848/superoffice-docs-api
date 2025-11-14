@@ -14,6 +14,8 @@ POST /api/v1/Agents/CustomerService/GetPreviewReplyTemplate
 Get a reply template from its reply template id
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -79,11 +81,11 @@ OK
 POST /api/v1/Agents/CustomerService/GetPreviewReplyTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 149
+  "ReplyTemplateId": 837
 }
 ```
 
@@ -94,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "O'Conner, Gerhold and Monahan",
-  "Description": "Vision-oriented content-based toolset",
-  "OwnedByFullName": "Mr. Leonardo Ratke PhD",
-  "Updated": "2015-12-08T03:46:54.5976376+01:00",
-  "Body": "et",
-  "IsHtml": false,
+  "Name": "Franecki-Roob",
+  "Description": "Self-enabling system-worthy functionalities",
+  "OwnedByFullName": "Niko Hoppe",
+  "Updated": "2003-12-23T02:30:47.0538389+01:00",
+  "Body": "tempora",
+  "IsHtml": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 887
+      "FieldLength": 332
     }
   }
 }

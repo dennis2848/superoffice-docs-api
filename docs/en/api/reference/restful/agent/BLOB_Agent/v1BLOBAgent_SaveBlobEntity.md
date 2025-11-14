@@ -14,6 +14,8 @@ POST /api/v1/Agents/BLOB/SaveBlobEntity
 Updates the existing BlobEntity or creates a new BlobEntity if the id parameter is 0.
 
 
+NsApiSlow threshold: 3000 ms.
+
 
 
 
@@ -88,23 +90,23 @@ OK
 POST /api/v1/Agents/BLOB/SaveBlobEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 841,
-  "BlobSize": 176,
-  "Description": "Adaptive 24 hour policy",
-  "ExtraInfo": "cumque",
+  "BlobId": 563,
+  "BlobSize": 970,
+  "Description": "Up-sized bi-directional Graphical User Interface",
+  "ExtraInfo": "atque",
   "IsEncrypted": false,
-  "IsZipped": false,
-  "MimeType": "quas",
-  "OriginalSize": 900,
-  "CreatedDate": "2008-10-23T03:46:54.3007673+02:00",
-  "UpdatedDate": "2022-11-14T03:46:54.3007673+01:00",
+  "IsZipped": true,
+  "MimeType": "voluptas",
+  "OriginalSize": 887,
+  "CreatedDate": "2016-12-29T02:30:46.8194719+01:00",
+  "UpdatedDate": "2007-06-04T02:30:46.8194719+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "voluptatibus"
+  "ConceptualType": "assumenda"
 }
 ```
 
@@ -115,25 +117,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 898,
-  "BlobSize": 966,
-  "Description": "Multi-channelled well-modulated neural-net",
-  "ExtraInfo": "eum",
+  "BlobId": 352,
+  "BlobSize": 993,
+  "Description": "Polarised fresh-thinking core",
+  "ExtraInfo": "corporis",
   "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "tenetur",
-  "OriginalSize": 972,
-  "CreatedDate": "1999-09-21T03:46:54.3007673+02:00",
-  "UpdatedDate": "2019-05-18T03:46:54.3007673+02:00",
+  "MimeType": "nihil",
+  "OriginalSize": 186,
+  "CreatedDate": "2017-03-18T02:30:46.8194719+01:00",
+  "UpdatedDate": "2003-06-25T02:30:46.8194719+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "et",
+  "ConceptualType": "sint",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 891
+      "FieldLength": 502
     }
   }
 }

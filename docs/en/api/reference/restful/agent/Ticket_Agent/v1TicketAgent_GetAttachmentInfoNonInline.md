@@ -14,6 +14,8 @@ POST /api/v1/Agents/Ticket/GetAttachmentInfoNonInline
 Get a list with meta data for all attached attachments, EXCEPT those marked as inline
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -81,11 +83,11 @@ OK
 POST /api/v1/Agents/Ticket/GetAttachmentInfoNonInline
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageEntityId": 429
+  "TicketMessageEntityId": 713
 }
 ```
 
@@ -97,20 +99,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 980,
-    "Name": "Nienow Group",
-    "ContentType": "neque",
-    "AttSize": 845,
+    "AttachmentId": 918,
+    "Name": "Schumm Inc and Sons",
+    "ContentType": "facilis",
+    "AttSize": 222,
     "InlineImage": false,
-    "ContentId": "et",
-    "AuthKey": "inventore",
-    "IsSafeFileExtension": true,
+    "ContentId": "inventore",
+    "AuthKey": "nam",
+    "IsSafeFileExtension": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 387
+        "FieldLength": 311
       }
     }
   }

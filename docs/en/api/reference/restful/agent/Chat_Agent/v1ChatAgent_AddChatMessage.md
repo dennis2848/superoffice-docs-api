@@ -14,6 +14,8 @@ POST /api/v1/Agents/Chat/AddChatMessage
 Add a new message to a chat session
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -81,11 +83,11 @@ OK
 POST /api/v1/Agents/Chat/AddChatMessage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 548,
+  "ChatSessionId": 511,
   "Message": null
 }
 ```
@@ -97,14 +99,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatMessageId": 918,
-  "ChatSessionId": 758,
+  "ChatMessageId": 965,
+  "ChatSessionId": 32,
   "Type": "Invalid",
-  "Message": "cumque",
-  "Author": "culpa",
-  "ReadByCustomer": 867,
+  "Message": "consequatur",
+  "Author": "inventore",
+  "ReadByCustomer": 491,
   "SpecialType": "Block",
-  "SpecialParam": "labore",
-  "WhenPosted": "2011-03-21T03:46:54.3788954+01:00"
+  "SpecialParam": "quod",
+  "WhenPosted": "2025-01-20T02:30:46.8975935+01:00"
 }
 ```

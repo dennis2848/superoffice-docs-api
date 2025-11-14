@@ -14,6 +14,9 @@ POST /api/v1/Agents/EMail/SaveDraft
 Save the Email entity to the drafts folder
 
 
+NsApiSlow threshold: 5000 ms.
+
+
 ## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 
@@ -118,147 +121,147 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 306,
-      "ContactName": "Luettgen Inc and Sons",
-      "PersonId": 193,
-      "PersonName": "Lubowitz, Schowalter and Toy",
-      "AssociateId": 713,
-      "Address": "non",
-      "EmailId": 818,
+      "ContactId": 976,
+      "ContactName": "Schoen Inc and Sons",
+      "PersonId": 452,
+      "PersonName": "Pfeffer, Stanton and Spencer",
+      "AssociateId": 669,
+      "Address": "et",
+      "EmailId": 180,
       "DuplicatePersonIds": [
-        67,
-        418
+        734,
+        970
       ],
-      "Name": "Gerhold-Schroeder",
+      "Name": "Durgan-Jaskolski",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 249
+          "FieldType": "System.Int32",
+          "FieldLength": 359
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 305,
-      "ContactName": "O'Keefe LLC",
-      "PersonId": 88,
-      "PersonName": "Armstrong Group",
-      "AssociateId": 929,
-      "Address": "suscipit",
-      "EmailId": 851,
+      "ContactId": 679,
+      "ContactName": "Simonis, Ward and Leffler",
+      "PersonId": 89,
+      "PersonName": "Conn LLC",
+      "AssociateId": 145,
+      "Address": "animi",
+      "EmailId": 321,
       "DuplicatePersonIds": [
-        385,
-        651
+        312,
+        817
       ],
-      "Name": "Rolfson, Ebert and Little",
+      "Name": "Bosco Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 610
+          "FieldType": "System.Int32",
+          "FieldLength": 999
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 286,
-      "ContactName": "Pfeffer-Crona",
-      "PersonId": 8,
-      "PersonName": "Hills Inc and Sons",
-      "AssociateId": 788,
-      "Address": "dolore",
-      "EmailId": 815,
+      "ContactId": 822,
+      "ContactName": "Osinski LLC",
+      "PersonId": 953,
+      "PersonName": "Walter Group",
+      "AssociateId": 94,
+      "Address": "et",
+      "EmailId": 621,
       "DuplicatePersonIds": [
-        110,
-        384
+        616,
+        912
       ],
-      "Name": "Dare, Weimann and McKenzie",
+      "Name": "Rosenbaum, Dach and Lynch",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 840
+          "FieldLength": 428
         }
       }
     }
   ],
-  "Subject": "atque",
-  "HTMLBody": "est",
+  "Subject": "sint",
+  "HTMLBody": "corporis",
   "From": null,
-  "Sent": "2006-01-09T03:46:54.7382579+01:00",
-  "Size": 664,
+  "Sent": "2025-01-04T02:30:47.2569602+01:00",
+  "Size": 347,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "ducimus",
-  "PlainBody": "velit",
-  "IsSent": true,
+  "MessageID": "totam",
+  "PlainBody": "quo",
+  "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 483,
+  "ServerId": 400,
   "Attachments": [
     {
-      "Description": "Realigned composite projection",
-      "Filename": "qui",
-      "Size": 622,
-      "Type": "necessitatibus",
-      "Encoding": "quo",
-      "Id": "ducimus",
-      "Disposition": "enim",
-      "IsSafeFileExtension": true,
+      "Description": "Quality-focused client-driven complexity",
+      "Filename": "enim",
+      "Size": 697,
+      "Type": "eos",
+      "Encoding": "molestiae",
+      "Id": "et",
+      "Disposition": "quod",
+      "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 31
+          "FieldLength": 654
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Witting, Langosh and Stoltenberg",
+      "Name": "Thiel-Schmidt",
       "Values": [
-        "quia",
-        "aspernatur"
+        "totam",
+        "similique"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 276
+          "FieldType": "System.Int32",
+          "FieldLength": 514
         }
       }
     },
     {
-      "Name": "Witting, Langosh and Stoltenberg",
+      "Name": "Thiel-Schmidt",
       "Values": [
-        "quia",
-        "aspernatur"
+        "totam",
+        "similique"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 276
+          "FieldType": "System.Int32",
+          "FieldLength": 514
         }
       }
     }
   ],
-  "FolderName": "Bergstrom, Mueller and Cremin",
-  "EmailItemId": 525,
-  "AccountId": 12,
-  "ReceivedAt": "2016-12-21T03:46:54.7382579+01:00",
+  "FolderName": "Herman, Hermann and Littel",
+  "EmailItemId": 856,
+  "AccountId": 913,
+  "ReceivedAt": "2005-05-03T02:30:47.2569602+02:00",
   "InReplyTo": null,
-  "RepliedAt": "1998-09-02T03:46:54.7382579+02:00",
+  "RepliedAt": "2008-08-29T02:30:47.2569602+02:00",
   "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -267,7 +270,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 859
+      "FieldLength": 568
     }
   }
 }

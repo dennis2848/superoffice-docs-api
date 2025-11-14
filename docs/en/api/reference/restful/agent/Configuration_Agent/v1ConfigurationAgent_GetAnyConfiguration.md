@@ -15,6 +15,7 @@ Get one defined configuration fragment, with full reference resolution and parsi
 
 
 This is essentially the same service as the GetPageConfiguration, except that this service is not locked to objects of type Page.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -74,14 +75,14 @@ OK
 POST /api/v1/Agents/Configuration/GetAnyConfiguration
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Application": "accusamus",
-  "Instance": "saepe",
-  "Item": "id",
-  "Type": "est"
+  "Application": "quidem",
+  "Instance": "ex",
+  "Item": "iste",
+  "Type": "quis"
 }
 ```
 
@@ -91,5 +92,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"ipsum"
+"et"
 ```

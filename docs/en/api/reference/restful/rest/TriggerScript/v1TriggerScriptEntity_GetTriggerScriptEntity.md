@@ -15,6 +15,7 @@ Gets a TriggerScriptEntity object.
 
 
 Calls the CRMScript agent service GetTriggerScriptEntity.
+NsApiSlow threshold: 5000 ms.
 
 
 ## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
@@ -86,7 +87,7 @@ TriggerScriptEntity found.
 GET /api/v1/TriggerScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,22 +97,22 @@ HTTP/1.1 200 TriggerScriptEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 358,
-  "Name": "Rempel-Frami",
+  "ScreenChooserId": 894,
+  "Name": "Boehm-Altenwerth",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": true,
-  "UniqueIdentifier": "voluptatum",
-  "Source": "harum",
-  "Registered": "2020-05-17T03:47:00.3943072+02:00",
-  "RegisteredAssociateId": 14,
-  "Updated": "2015-10-29T03:47:00.3943072+01:00",
-  "UpdatedAssociateId": 483,
+  "UniqueIdentifier": "magni",
+  "Source": "itaque",
+  "Registered": "2013-02-06T02:30:53.022399+01:00",
+  "RegisteredAssociateId": 414,
+  "Updated": "2002-08-28T02:30:53.022399+02:00",
+  "UpdatedAssociateId": 452,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 318
+      "FieldLength": 902
     }
   },
   "_Links": {

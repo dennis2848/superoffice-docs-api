@@ -15,6 +15,7 @@ Mass-insert rows, with or without primary keys specified.
 
 
 Works on physical tables with no special processing for udef etc.; traveltransactionlog and WebHooks are supported
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -83,14 +84,14 @@ OK
 POST /api/v1/Agents/DatabaseTable/Insert
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Steuber Inc and Sons",
+  "TableName": "Bogisich Inc and Sons",
   "Columns": [
-    "voluptatibus",
-    "possimus"
+    "nihil",
+    "et"
   ],
   "Data": [
     [
@@ -110,41 +111,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Success": true,
-  "Message": "aut",
-  "Inserts": 130,
-  "Updates": 700,
-  "Deletes": 958,
+  "Success": false,
+  "Message": "est",
+  "Inserts": 686,
+  "Updates": 251,
+  "Deletes": 430,
   "RowStatus": [
     {
-      "PrimaryKey": 523,
+      "PrimaryKey": 335,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "est",
-        "iusto"
+        "hic",
+        "est"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 696
+          "FieldLength": 490
         }
       }
     },
     {
-      "PrimaryKey": 523,
+      "PrimaryKey": 335,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "est",
-        "iusto"
+        "hic",
+        "est"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 696
+          "FieldLength": 490
         }
       }
     }
@@ -154,7 +155,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 24
+      "FieldLength": 966
     }
   }
 }

@@ -82,18 +82,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 449,
-    "Name": "Wintheiser, Bailey and Witting",
-    "Tooltip": "vero",
+    "Id": 39,
+    "Name": "Batz Inc and Sons",
+    "Tooltip": "et",
     "Deleted": false,
-    "UdListDefinitionId": 246,
-    "Rank": 369,
+    "UdListDefinitionId": 440,
+    "Rank": 108,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 174
+        "FieldType": "System.Int32",
+        "FieldLength": 698
       }
     }
   }

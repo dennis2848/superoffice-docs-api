@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/GetTicketCategory
 Gets a TicketCategory object.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -27,7 +29,7 @@ Gets a TicketCategory object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetTicketCategory?ticketCategoryId=677
+POST /api/v1/Agents/List/GetTicketCategory?ticketCategoryId=586
 POST /api/v1/Agents/List/GetTicketCategory?$select=name,department,category/id
 ```
 
@@ -70,7 +72,7 @@ OK
 POST /api/v1/Agents/List/GetTicketCategory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -80,15 +82,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 58,
-  "Value": "dignissimos",
-  "Tooltip": "nobis",
+  "Id": 66,
+  "Value": "distinctio",
+  "Tooltip": "quam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 927
+      "FieldLength": 652
     }
   }
 }

@@ -15,6 +15,7 @@ Deletes the SaleEntity
 
 
 Calls the Sale agent service DeleteSaleEntity.
+NsApiSlow threshold: 2000 ms.
 
 
 

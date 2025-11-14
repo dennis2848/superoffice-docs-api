@@ -15,6 +15,7 @@ Returns all open sales, sorted descending with the latest first.
 
 
 If the weigthed amount is -1, the amount restriction is omitted.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -105,8 +106,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "WeightedAmountLimit": 654,
-  "Count": 833
+  "WeightedAmountLimit": 71,
+  "Count": 309
 }
 ```
 
@@ -118,37 +119,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Daniel-Lynch",
-    "SaleDate": "1998-12-29T03:46:55.2694888+01:00",
-    "SaleId": 647,
-    "Probability": 692,
-    "Title": "sequi",
-    "Amount": 22527.192,
-    "Currency": "sint",
-    "ProjectName": "Schulist LLC",
-    "AssociateFullName": "Olen Gulgowski",
-    "Description": "Seamless solution-oriented monitoring",
+    "ContactName": "Anderson-Stamm",
+    "SaleDate": "2022-12-16T02:30:47.7881925+01:00",
+    "SaleId": 494,
+    "Probability": 267,
+    "Title": "sunt",
+    "Amount": 29340.507999999998,
+    "Currency": "id",
+    "ProjectName": "Runolfsson-Friesen",
+    "AssociateFullName": "Enid Treutel",
+    "Description": "Multi-channelled upward-trending analyzer",
     "Status": "Lost",
-    "WeightedAmount": 5446.892,
-    "ProjectId": 826,
-    "EarningPercent": 29876.422,
-    "Earning": 18775.793999999998,
-    "ContactId": 750,
-    "AssociateId": 103,
-    "PersonId": 309,
-    "SaleTypeId": 62,
-    "SaleTypeName": "Bauch, Keebler and Schmitt",
-    "PersonFullName": "Earnestine Thompson",
+    "WeightedAmount": 17656.956,
+    "ProjectId": 160,
+    "EarningPercent": 5666.272,
+    "Earning": 28892.345999999998,
+    "ContactId": 166,
+    "AssociateId": 806,
+    "PersonId": 42,
+    "SaleTypeId": 332,
+    "SaleTypeName": "Pfeffer Group",
+    "PersonFullName": "May Kuvalis",
     "Completed": "Completed",
-    "ActiveErpLinks": 507,
-    "NextDueDate": "2010-06-12T03:46:55.2694888+02:00",
-    "Number": "531691",
+    "ActiveErpLinks": 671,
+    "NextDueDate": "2007-09-29T02:30:47.7881925+02:00",
+    "Number": "1647087",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 55
+        "FieldType": "System.String",
+        "FieldLength": 870
       }
     }
   }

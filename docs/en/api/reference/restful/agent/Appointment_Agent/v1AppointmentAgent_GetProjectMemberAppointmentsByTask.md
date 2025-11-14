@@ -15,6 +15,7 @@ Method that returns a specified number of appointments of a specific appointment
 
 
 The appointments belong to the projects where the person specified is member. Task represents the different types of activities, like “Phone call”, “Meeting” and so on.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -134,15 +135,15 @@ OK
 POST /api/v1/Agents/Appointment/GetProjectMemberAppointmentsByTask
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 256,
-  "StartTime": "2014-08-12T03:46:53.9882851+02:00",
-  "EndTime": "2021-12-04T03:46:53.9882851+01:00",
-  "Count": 453,
-  "TaskId": 308
+  "PersonId": 259,
+  "StartTime": "2025-09-11T02:30:46.5069828+02:00",
+  "EndTime": "2000-07-22T02:30:46.5069828+02:00",
+  "Count": 386,
+  "TaskId": 810
 }
 ```
 
@@ -154,67 +155,67 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 103,
-    "StartDate": "2018-03-16T03:46:53.9882851+01:00",
-    "EndDate": "2016-02-23T03:46:53.9882851+01:00",
+    "AppointmentId": 322,
+    "StartDate": "2019-06-04T02:30:46.5069828+02:00",
+    "EndDate": "2014-08-07T02:30:46.5069828+02:00",
     "Type": "BookingForChecklist",
-    "Task": "asperiores",
-    "AssociateFullName": "Brionna Gleason",
-    "ContactName": "Haag, Murphy and Herzog",
-    "Description": "Up-sized dynamic matrix",
-    "PersonFullName": "Christopher Murphy",
-    "PersonId": 439,
-    "ContactId": 861,
-    "ProjectId": 34,
-    "ProjectName": "McLaughlin-Douglas",
+    "Task": "quae",
+    "AssociateFullName": "George Gorczany",
+    "ContactName": "Effertz-Howell",
+    "Description": "Secured hybrid infrastructure",
+    "PersonFullName": "Mr. Morgan Pacocha III",
+    "PersonId": 351,
+    "ContactId": 393,
+    "ProjectId": 451,
+    "ProjectName": "Friesen-Green",
     "IsPublished": false,
-    "AssociateId": 167,
-    "ColorIndex": 441,
+    "AssociateId": 144,
+    "ColorIndex": 417,
     "IsFree": false,
-    "HasAlarm": true,
+    "HasAlarm": false,
     "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 40,
-    "PriorityName": "O'Conner, Runolfsson and Hickle",
+    "PriorityId": 580,
+    "PriorityName": "Wintheiser, Schneider and Champlin",
     "TaskType": "Appointment",
-    "IsBookingMain": false,
-    "IsRecurrence": false,
+    "IsBookingMain": true,
+    "IsRecurrence": true,
     "IsBooking": false,
-    "ActiveDate": "2007-11-17T03:46:53.9882851+01:00",
+    "ActiveDate": "2013-07-04T02:30:46.5069828+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2009-02-19T03:46:53.9882851+01:00",
-    "RecurringEndDate": "1999-12-23T03:46:53.9882851+01:00",
-    "MotherId": 685,
-    "AssignedBy": 697,
-    "AssignedByFullName": "Deanna Marvin Sr.",
+    "RecurringStartDate": "2015-04-18T02:30:46.5069828+02:00",
+    "RecurringEndDate": "2013-02-24T02:30:46.5069828+01:00",
+    "MotherId": 877,
+    "AssignedBy": 484,
+    "AssignedByFullName": "Miss Ramona Pat Mayer",
     "RejectReason": "",
-    "Location": "omnis",
-    "AlarmLeadTime": "enim",
-    "SaleId": 281,
-    "SaleName": "Blick Group",
-    "AssociateName": "Bashirian, Gaylord and Kunze",
-    "CreatedDate": "2017-07-22T03:46:53.9882851+02:00",
-    "CreatedBy": "velit",
-    "CreatedByFullName": "Jeromy Lehner",
-    "CreatedByAssociateId": 181,
+    "Location": "rerum",
+    "AlarmLeadTime": "voluptates",
+    "SaleId": 530,
+    "SaleName": "Heller Inc and Sons",
+    "AssociateName": "Emmerich LLC",
+    "CreatedDate": "2006-10-15T02:30:46.5069828+02:00",
+    "CreatedBy": "nostrum",
+    "CreatedByFullName": "Johnnie Emard",
+    "CreatedByAssociateId": 744,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "OwnedExternally": "Google",
-    "MotherAssociateId": 34,
+    "MotherAssociateId": 720,
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 584,
-    "Title": "provident",
-    "Agenda": "deleniti",
-    "InternalNotes": "id",
+    "PreferredTZLocation": 833,
+    "Title": "voluptatum",
+    "Agenda": "nobis",
+    "InternalNotes": "quia",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 779
+        "FieldLength": 836
       }
     }
   }

@@ -15,6 +15,7 @@ POST /api/v1/Agents/Chat/PickUpChatSession
 
 
 The welcome message is sent to the customer. Returns NULL if session was not in queue.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -110,7 +111,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 369
+  "ChatSessionId": 959
 }
 ```
 
@@ -121,29 +122,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 617,
-  "TopicId": 156,
+  "ChatSessionId": 706,
+  "TopicId": 569,
   "User": null,
   "Person": null,
-  "CustomerAlias": "excepturi",
-  "CustomerHost": "fugit",
-  "CustomerName": "McKenzie-Dietrich",
-  "CustomerEmail": "reina@morissette.name",
-  "CustomerPhone": "1-825-196-3533",
-  "CustomerConsented": false,
-  "CustomerCompanyName": "Spencer, Hammes and Reilly",
+  "CustomerAlias": "voluptas",
+  "CustomerHost": "autem",
+  "CustomerName": "Johnson-Brakus",
+  "CustomerEmail": "connie@williamson.us",
+  "CustomerPhone": "(511)279-1637 x217",
+  "CustomerConsented": true,
+  "CustomerCompanyName": "Hansen, Bayer and Thompson",
   "Status": "Closed",
-  "FirstMessage": "aut",
-  "LastMessage": "maiores",
-  "WhenRequested": "2005-02-26T03:46:54.3632712+01:00",
-  "WhenStarted": "2023-12-14T03:46:54.3632712+01:00",
-  "WhenEnded": "2000-02-26T03:46:54.3632712+01:00",
-  "WhenIdle": "2020-08-04T03:46:54.3632712+02:00",
-  "WhenFetched": "2001-11-27T03:46:54.3632712+01:00",
-  "SessionKey": "sed",
-  "InitialQueuePos": 970,
-  "AlertLevel": 361,
-  "Rank": 650,
+  "FirstMessage": "officiis",
+  "LastMessage": "repellat",
+  "WhenRequested": "2006-10-22T02:30:46.8819694+02:00",
+  "WhenStarted": "2009-06-09T02:30:46.8819694+02:00",
+  "WhenEnded": "2021-08-27T02:30:46.8819694+02:00",
+  "WhenIdle": "2002-06-18T02:30:46.8819694+02:00",
+  "WhenFetched": "2019-10-01T02:30:46.8819694+02:00",
+  "SessionKey": "nisi",
+  "InitialQueuePos": 101,
+  "AlertLevel": 650,
+  "Rank": 18,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -151,13 +152,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 162,
+  "Rating": 127,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 32
+      "FieldLength": 830
     }
   }
 }

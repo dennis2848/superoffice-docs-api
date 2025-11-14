@@ -14,6 +14,11 @@ POST /api/v1/Agents/AI/GetChatbotPromptSuggestions
 Return one or more suggested prompts as actions to display in an empty chat window
 
 
+NsApiSlow threshold: 2000 ms.
+
+
+## Experimental: ## The AI agent is experimental, subject to change, and not intended for partners.
+
 
 
 
@@ -83,9 +88,9 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "IsoLangCode": "perspiciatis",
-  "SoProtocol": "nulla",
-  "CurrentId": 672
+  "IsoLangCode": "adipisci",
+  "SoProtocol": "accusamus",
+  "CurrentId": 403
 }
 ```
 
@@ -96,17 +101,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Timestamp": "2009-10-14T03:46:53.9726601+02:00",
-  "UserPrompt": "velit",
-  "UserDisplayText": "quis",
-  "BotResponse": "iusto",
+  "Timestamp": "2020-04-02T02:30:46.4913585+02:00",
+  "UserPrompt": "iure",
+  "UserDisplayText": "eum",
+  "BotResponse": "laborum",
   "BotActions": {
-    "BotActions1": "ad",
-    "BotActions2": "rerum"
+    "BotActions1": "qui",
+    "BotActions2": "totam"
   },
   "Attachments": [
-    "amet",
-    "non"
+    "aut",
+    "illum"
   ]
 }
 ```

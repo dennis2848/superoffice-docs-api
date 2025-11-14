@@ -14,6 +14,8 @@ POST /api/v1/Agents/Workflow/GetWorkflowGoal
 Gets a WorkflowGoal object.
 
 
+NsApiSlow threshold: 1500 ms.
+
 
 
 
@@ -27,7 +29,7 @@ Gets a WorkflowGoal object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Workflow/GetWorkflowGoal?workflowGoalId=435
+POST /api/v1/Agents/Workflow/GetWorkflowGoal?workflowGoalId=408
 POST /api/v1/Agents/Workflow/GetWorkflowGoal?$select=name,department,category/id
 ```
 
@@ -81,23 +83,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowGoalId": 161,
-  "WorkflowId": 246,
+  "WorkflowGoalId": 83,
+  "WorkflowId": 34,
   "GoalType": "AddedToProject",
   "RestrictionGroups": [
     {
-      "Name": "Crona Inc and Sons",
-      "Description": "Inverse background concept",
-      "Rank": 944,
+      "Name": "Bradtke Group",
+      "Description": "Stand-alone local secured line",
+      "Rank": 575,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Crona Inc and Sons",
-      "Description": "Inverse background concept",
-      "Rank": 944,
+      "Name": "Bradtke Group",
+      "Description": "Stand-alone local secured line",
+      "Rank": 575,
       "Restrictions": [
         {},
         {}
@@ -109,7 +111,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 90
+      "FieldLength": 873
     }
   }
 }

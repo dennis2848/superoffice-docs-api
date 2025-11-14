@@ -14,6 +14,8 @@ POST /api/v1/Agents/Find/SaveRestrictionGroups
 Save and rerank an array of restriction groups, returning the possibly modified array.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -83,30 +85,30 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "molestiae",
-  "ProviderName": "McCullough-Torphy",
-  "StorageKey": "qui",
+  "StorageType": "dolor",
+  "ProviderName": "Stamm, Muller and Haag",
+  "StorageKey": "nihil",
   "RestrictionGroups": [
     {
-      "Name": "Homenick Inc and Sons",
-      "Description": "Future-proofed upward-trending benchmark",
-      "Rank": 970,
+      "Name": "Hilpert Inc and Sons",
+      "Description": "Integrated systematic attitude",
+      "Rank": 188,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Homenick Inc and Sons",
-      "Description": "Future-proofed upward-trending benchmark",
-      "Rank": 970,
+      "Name": "Hilpert Inc and Sons",
+      "Description": "Integrated systematic attitude",
+      "Rank": 188,
       "Restrictions": [
         {},
         {}
       ]
     }
   ],
-  "Context": "omnis"
+  "Context": "itaque"
 }
 ```
 
@@ -118,58 +120,58 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Smitham, Wiegand and Kessler",
-    "Description": "Progressive fault-tolerant portal",
-    "Rank": 591,
+    "Name": "Maggio, Daugherty and Powlowski",
+    "Description": "Inverse zero administration knowledge user",
+    "Rank": 853,
     "Restrictions": [
       {
-        "Name": "Wilderman, Reynolds and Boyer",
-        "Operator": "illo",
+        "Name": "Anderson LLC",
+        "Operator": "laborum",
         "Values": [
-          "alias",
-          "voluptatum"
+          "similique",
+          "aut"
         ],
         "DisplayValues": [
-          "officia",
-          "qui"
+          "iure",
+          "doloremque"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 884,
+        "InterParenthesis": 667,
         "InterOperator": "And",
-        "UniqueHash": 439
+        "UniqueHash": 969
       }
     ]
   },
   {
-    "Name": "Smitham, Wiegand and Kessler",
-    "Description": "Progressive fault-tolerant portal",
-    "Rank": 591,
+    "Name": "Maggio, Daugherty and Powlowski",
+    "Description": "Inverse zero administration knowledge user",
+    "Rank": 853,
     "Restrictions": [
       {
-        "Name": "Wilderman, Reynolds and Boyer",
-        "Operator": "illo",
+        "Name": "Anderson LLC",
+        "Operator": "laborum",
         "Values": [
-          "alias",
-          "voluptatum"
+          "similique",
+          "aut"
         ],
         "DisplayValues": [
-          "officia",
-          "qui"
+          "iure",
+          "doloremque"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 884,
+        "InterParenthesis": 667,
         "InterOperator": "And",
-        "UniqueHash": 439
+        "UniqueHash": 969
       }
     ]
   }

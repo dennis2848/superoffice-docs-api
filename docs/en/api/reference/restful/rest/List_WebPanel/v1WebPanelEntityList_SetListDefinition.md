@@ -85,20 +85,20 @@ OK
 PUT /api/v1/List/WebPanel
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 835,
-  "Name": "Wiza Inc and Sons",
-  "Tooltip": "veniam",
+  "Id": 274,
+  "Name": "Kling LLC",
+  "Tooltip": "quis",
   "Deleted": true,
-  "Rank": 954,
+  "Rank": 829,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "facere",
-  "InUseByUserDefinedFields": true
+  "ListType": "et",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -109,22 +109,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 907,
-  "Name": "Ferry-Fadel",
-  "Tooltip": "quae",
+  "Id": 275,
+  "Name": "Hagenes Group",
+  "Tooltip": "itaque",
   "Deleted": false,
-  "Rank": 110,
+  "Rank": 223,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "reiciendis",
+  "ListType": "rerum",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 452
+      "FieldLength": 688
     }
   }
 }

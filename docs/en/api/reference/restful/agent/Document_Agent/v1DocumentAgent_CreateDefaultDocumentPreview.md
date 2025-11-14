@@ -14,6 +14,8 @@ POST /api/v1/Agents/Document/CreateDefaultDocumentPreview
 Loading default values into a new DocumentPreview.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -69,16 +71,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Fahey Group",
-  "Type": "qui",
-  "Size": 782,
+  "Name": "Jast-Bode",
+  "Type": "vel",
+  "Size": 148,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 665
+      "FieldLength": 971
     }
   }
 }

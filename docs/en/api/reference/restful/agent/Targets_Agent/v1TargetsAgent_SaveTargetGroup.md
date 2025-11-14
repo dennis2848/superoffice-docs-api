@@ -14,6 +14,8 @@ POST /api/v1/Agents/Targets/SaveTargetGroup
 Updates the existing TargetGroup or creates a new TargetGroup if the id parameter is 0.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -78,24 +80,24 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 50,
-  "Year": 56,
+  "TargetGroupId": 937,
+  "Year": 944,
   "EntityType": "None",
   "PeriodType": "HalfYear",
   "TargetAssignments": [
     {
-      "TargetAssignmentInfoId": 395,
+      "TargetAssignmentInfoId": 563,
       "Values": [
-        576,
-        406
+        389,
+        403
       ],
       "Locked": true,
       "TargetAssociate": null,
       "TargetContact": null,
       "TargetUserGroup": null,
       "Currency": null,
-      "DimensionListItem": 773,
-      "DimensionListItemDisplayName": "Medhurst LLC"
+      "DimensionListItem": 430,
+      "DimensionListItemDisplayName": "Spencer, Bednar and Koss"
     }
   ],
   "TargetDimension": null
@@ -109,30 +111,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 486,
-  "Year": 475,
+  "TargetGroupId": 71,
+  "Year": 12,
   "EntityType": "None",
   "PeriodType": "HalfYear",
   "TargetAssignments": [
     {
-      "TargetAssignmentInfoId": 885,
+      "TargetAssignmentInfoId": 459,
       "Values": [
-        678,
-        242
+        800,
+        761
       ],
       "Locked": false,
       "TargetAssociate": null,
       "TargetContact": null,
       "TargetUserGroup": null,
       "Currency": null,
-      "DimensionListItem": 907,
-      "DimensionListItemDisplayName": "Ernser, Weber and Douglas",
+      "DimensionListItem": 70,
+      "DimensionListItemDisplayName": "Murazik, McClure and Keeling",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 914
+          "FieldType": "System.String",
+          "FieldLength": 940
         }
       }
     }
@@ -142,8 +144,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 521
+      "FieldType": "System.Int32",
+      "FieldLength": 586
     }
   }
 }

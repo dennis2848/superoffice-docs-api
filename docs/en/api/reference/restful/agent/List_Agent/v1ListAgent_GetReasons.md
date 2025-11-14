@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/GetReasons
 Returns all reasons
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -79,28 +81,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 126,
-    "Value": "temporibus",
-    "Tooltip": "a",
+    "Id": 53,
+    "Value": "consequatur",
+    "Tooltip": "exercitationem",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 325
+        "FieldType": "System.Int32",
+        "FieldLength": 464
       }
     }
   },
   {
-    "Id": 126,
-    "Value": "temporibus",
-    "Tooltip": "a",
+    "Id": 53,
+    "Value": "consequatur",
+    "Tooltip": "exercitationem",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 325
+        "FieldType": "System.Int32",
+        "FieldLength": 464
       }
     }
   }

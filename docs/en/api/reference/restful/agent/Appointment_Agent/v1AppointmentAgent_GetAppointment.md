@@ -14,6 +14,8 @@ POST /api/v1/Agents/Appointment/GetAppointment
 Gets a Appointment object.
 
 
+NsApiSlow threshold: 1000 ms.
+
 
 
 
@@ -27,7 +29,7 @@ Gets a Appointment object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Appointment/GetAppointment?appointmentId=603
+POST /api/v1/Agents/Appointment/GetAppointment?appointmentId=444
 POST /api/v1/Agents/Appointment/GetAppointment?$select=name,department,category/id
 ```
 
@@ -122,7 +124,7 @@ OK
 POST /api/v1/Agents/Appointment/GetAppointment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -132,67 +134,67 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 918,
-  "StartDate": "2006-01-13T03:46:54.0351587+01:00",
-  "EndDate": "2009-05-14T03:46:54.0351587+02:00",
+  "AppointmentId": 536,
+  "StartDate": "2006-05-01T02:30:46.5538551+02:00",
+  "EndDate": "2015-07-14T02:30:46.5538551+02:00",
   "Type": "BookingForChecklist",
-  "Task": "voluptas",
-  "AssociateFullName": "Sigmund O'Hara",
-  "ContactName": "Heller Inc and Sons",
-  "Description": "Synergistic reciprocal application",
-  "PersonFullName": "Genoveva Pfeffer",
-  "PersonId": 436,
-  "ContactId": 591,
-  "ProjectId": 42,
-  "ProjectName": "Sawayn-Corkery",
+  "Task": "odio",
+  "AssociateFullName": "Dr. Tremayne Donny Ebert",
+  "ContactName": "Schaden-Runte",
+  "Description": "Reverse-engineered eco-centric collaboration",
+  "PersonFullName": "Sylvia Stark",
+  "PersonId": 644,
+  "ContactId": 542,
+  "ProjectId": 974,
+  "ProjectName": "Mayer LLC",
   "IsPublished": true,
-  "AssociateId": 849,
-  "ColorIndex": 518,
+  "AssociateId": 77,
+  "ColorIndex": 411,
   "IsFree": false,
-  "HasAlarm": false,
+  "HasAlarm": true,
   "IsAlldayEvent": false,
   "Private": "PrivateGroup",
-  "PriorityId": 597,
-  "PriorityName": "Purdy-Satterfield",
+  "PriorityId": 880,
+  "PriorityName": "Treutel-Pagac",
   "TaskType": "Appointment",
   "IsBookingMain": false,
   "IsRecurrence": false,
   "IsBooking": false,
-  "ActiveDate": "2008-10-13T03:46:54.0351587+02:00",
+  "ActiveDate": "2009-04-15T02:30:46.5538551+02:00",
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
   "Completed": "Completed",
   "RecurringPattern": "Custom",
-  "RecurringStartDate": "2020-12-09T03:46:54.0351587+01:00",
-  "RecurringEndDate": "2005-03-05T03:46:54.0351587+01:00",
-  "MotherId": 241,
-  "AssignedBy": 863,
-  "AssignedByFullName": "Cletus Gerhold",
-  "RejectReason": "engineer B2C relationships",
-  "Location": "quibusdam",
+  "RecurringStartDate": "2000-05-05T02:30:46.5538551+02:00",
+  "RecurringEndDate": "2024-04-08T02:30:46.5538551+02:00",
+  "MotherId": 520,
+  "AssignedBy": 696,
+  "AssignedByFullName": "Calista Spinka PhD",
+  "RejectReason": "",
+  "Location": "doloribus",
   "AlarmLeadTime": "quia",
-  "SaleId": 91,
-  "SaleName": "Mills-Berge",
-  "AssociateName": "Gerhold Inc and Sons",
-  "CreatedDate": "2024-11-09T03:46:54.0351587+01:00",
-  "CreatedBy": "rem",
-  "CreatedByFullName": "Miss Emie Feeney MD",
-  "CreatedByAssociateId": 802,
+  "SaleId": 845,
+  "SaleName": "Satterfield LLC",
+  "AssociateName": "Jenkins LLC",
+  "CreatedDate": "2018-04-18T02:30:46.5538551+02:00",
+  "CreatedBy": "adipisci",
+  "CreatedByFullName": "Trace Schiller",
+  "CreatedByAssociateId": 663,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "OwnedExternally": "Google",
-  "MotherAssociateId": 176,
+  "MotherAssociateId": 665,
   "JoinVideomeetUrl": "http://www.example.com/",
-  "PreferredTZLocation": 801,
-  "Title": "eum",
-  "Agenda": "quae",
-  "InternalNotes": "vero",
+  "PreferredTZLocation": 778,
+  "Title": "beatae",
+  "Agenda": "exercitationem",
+  "InternalNotes": "rerum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 586
+      "FieldType": "System.String",
+      "FieldLength": 133
     }
   }
 }

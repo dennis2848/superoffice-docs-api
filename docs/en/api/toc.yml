@@ -1,6 +1,8 @@
 items:
   - name: SuperOffice APIs
     href: overview/index.md
+  - name: Develop Apps or Integrations
+    href: overview/develop-apps-or-integrations.md
   - name: NetServer fundamentals
     href: overview/netserver.md
   - name: Quick-start
@@ -85,6 +87,9 @@ items:
                 href: authentication/onsite/com/index.md
               - name: From secret to ticket
                 href: authentication/onsite/from-secret-to-ticket.md
+  - name: Localization
+    href: localization/toc.yml
+    topicHref: localization/index.md
   - name: Configuration
     href: config/index.md
     items:
@@ -413,6 +418,13 @@ items:
             items:
               - name: Link sale to appointment
                 href: web-services/howto/sale/link-sale-to-appointment.md
+          - name: User preferences
+            topicHref: web-services/howto/user-preferences/get-preferences-preferenceagent.md
+            items:
+              - name: Get preferences
+                href: web-services/howto/user-preferences/get-preferences-preferenceagent.md
+              - name: Set preferences
+                href: web-services/howto/user-preferences/set-preferences-preferenceagent.md
   - name: Entities
     href: entities/index.md
     items:
@@ -511,6 +523,13 @@ items:
             items:
               - name: Link sale to appointment
                 href: entities/howto/sale/link-sale-to-appointment.md
+          - name: User preferences
+            topicHref: entities/howto/user-preferences/get-preferences-sopreference.md
+            items:
+              - name: Get preferences
+                href: entities/howto/user-preferences/get-preferences-sopreference.md
+              - name: Set preferences
+                href: entities/howto/user-preferences/set-preferences-sopreference.md
   - name: Rows
     href: rows/index.md
     items:
@@ -687,6 +706,11 @@ items:
         items:
           - name: Stakeholders
             href: sql/howto/sale/stakeholders.md
+      - name: User preferences
+        topicHref: sql/howto/user-preferences/add-prefdesc.md
+        items:
+          - name: Add prefdesc
+            href: sql/howto/user-preferences/add-prefdesc.md
   - name: Bulk Operation
     href: bulk-operations/index.md
     items:
@@ -863,3 +887,12 @@ items:
   - name: Plug-ins
     href: plugins/toc.yml
     topicHref: plugins/index.md
+  - name: Tutorials
+    href: tutorials/index.md
+    items:
+      - name: iTunes-like client for activities
+        href: tutorials/itunes-like-activities/index.md
+      - name: SuperOffice iCal Feed
+        href: tutorials/so-ical-feed/index.md
+      - name: Generate RSS feed in VB.Net
+        href: tutorials/rss-feed-vb/index.md

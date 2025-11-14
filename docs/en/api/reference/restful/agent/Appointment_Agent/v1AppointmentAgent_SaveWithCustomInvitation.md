@@ -14,6 +14,8 @@ POST /api/v1/Agents/Appointment/SaveWithCustomInvitation
 Save a booking and send a custom invitation email to participants
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -91,9 +93,9 @@ Content-Type: application/json; charset=utf-8
   "SendEmailToParticipants": false,
   "SmtpEMailConnectionInfo": null,
   "ImapEMailConnectionInfo": null,
-  "EmailBody": "amy@beier.name",
-  "Subject": "quia",
-  "TemplateLanguage": "sit"
+  "EmailBody": "stephen@wuckert.name",
+  "Subject": "commodi",
+  "TemplateLanguage": "at"
 }
 ```
 
@@ -110,8 +112,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 329
+      "FieldType": "System.Int32",
+      "FieldLength": 794
     }
   }
 }

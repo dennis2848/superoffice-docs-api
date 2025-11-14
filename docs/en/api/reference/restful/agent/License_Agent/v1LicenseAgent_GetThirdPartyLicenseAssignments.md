@@ -14,6 +14,8 @@ POST /api/v1/Agents/License/GetThirdPartyLicenseAssignments
 Get license assignments for an associate for licenses belonging to an other module owner than SuperOffice
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -92,8 +94,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 609,
-  "ModuleOwner": "repudiandae"
+  "AssociateId": 485,
+  "ModuleOwner": "ipsa"
 }
 ```
 
@@ -105,26 +107,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Unrestricted": true,
-    "Total": 678,
-    "Tooltip": "magni",
-    "CanAssign": true,
-    "Free": 768,
-    "InUse": 838,
+    "Unrestricted": false,
+    "Total": 734,
+    "Tooltip": "voluptatem",
+    "CanAssign": false,
+    "Free": 101,
+    "InUse": 561,
     "IsHidden": false,
-    "Assigned": false,
-    "ModuleLicenseId": 232,
-    "Name": "Bayer-Feil",
-    "Description": "Realigned grid-enabled frame",
-    "PrerequisiteModuleName": "Bayer Group",
-    "SortOrder": 403,
-    "ExtraFlags": 131,
+    "Assigned": true,
+    "ModuleLicenseId": 257,
+    "Name": "Harris-Nolan",
+    "Description": "Multi-channelled grid-enabled extranet",
+    "PrerequisiteModuleName": "Gulgowski Inc and Sons",
+    "SortOrder": 108,
+    "ExtraFlags": 236,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 24
+        "FieldType": "System.String",
+        "FieldLength": 630
       }
     }
   }

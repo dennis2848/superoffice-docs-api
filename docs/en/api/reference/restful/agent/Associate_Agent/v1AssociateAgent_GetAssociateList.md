@@ -14,6 +14,8 @@ POST /api/v1/Agents/Associate/GetAssociateList
 Gets an array of Associate objects.
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -84,7 +86,7 @@ OK
 POST /api/v1/Agents/Associate/GetAssociateList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -95,32 +97,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AssociateId": 780,
-    "Name": "Braun LLC",
-    "PersonId": 215,
-    "Rank": 763,
-    "Tooltip": "esse",
+    "AssociateId": 890,
+    "Name": "Jenkins Inc and Sons",
+    "PersonId": 510,
+    "Rank": 36,
+    "Tooltip": "itaque",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 252,
-    "FullName": "Dr. Eleanora Kelton Legros",
-    "FormalName": "Grady Inc and Sons",
-    "Deleted": false,
-    "EjUserId": 51,
-    "UserName": "Jacobson-Hane",
+    "GroupIdx": 766,
+    "FullName": "Hillary Bechtelar",
+    "FormalName": "Kris-Moore",
+    "Deleted": true,
+    "EjUserId": 662,
+    "UserName": "Kertzmann-Price",
     "ExtraFields": {
-      "ExtraFields1": "saepe",
-      "ExtraFields2": "omnis"
+      "ExtraFields1": "nihil",
+      "ExtraFields2": "consequatur"
     },
     "CustomFields": {
-      "CustomFields1": "suscipit",
-      "CustomFields2": "rerum"
+      "CustomFields1": "aut",
+      "CustomFields2": "culpa"
     },
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 5
+        "FieldLength": 601
       }
     }
   }

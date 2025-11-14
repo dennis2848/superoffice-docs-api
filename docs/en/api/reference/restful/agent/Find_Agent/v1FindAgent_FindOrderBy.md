@@ -15,6 +15,7 @@ Execute a Find operation and return a page of results.
 
 
 The criteria for the Find are fetched from the restriction storage provider according to the given parameters. The columns of the result are calculated based on the restriction. The orderby parameter is used for sorting the results.&lt;para/&gt;The other variants of the Find method allow you greater control over the individual aspects of the process.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -87,18 +88,18 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "enim",
-  "ProviderName": "Zboncak, Schmitt and Jakubowski",
-  "StorageKey": "eum",
-  "PageSize": 71,
-  "PageNumber": 681,
+  "StorageType": "ipsum",
+  "ProviderName": "Streich, Klocko and Casper",
+  "StorageKey": "fugiat",
+  "PageSize": 719,
+  "PageNumber": 893,
   "OrderBy": [
     {
-      "Name": "Hilll Group",
+      "Name": "Stiedemann-Bartell",
       "Direction": "ASC"
     },
     {
-      "Name": "Hilll Group",
+      "Name": "Stiedemann-Bartell",
       "Direction": "ASC"
     }
   ]
@@ -114,51 +115,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Beatty-Murphy",
-      "DisplayTooltip": "suscipit",
-      "DisplayType": "tenetur",
-      "CanOrderBy": false,
-      "Name": "Yost Inc and Sons",
-      "CanRestrictBy": true,
-      "RestrictionType": "explicabo",
-      "RestrictionListName": "Sanford LLC",
-      "IsVisible": true,
-      "ExtraInfo": "fugiat",
-      "Width": "in",
-      "IconHint": "rerum",
-      "HeadingIconHint": "voluptatum"
+      "DisplayName": "Langosh Group",
+      "DisplayTooltip": "nemo",
+      "DisplayType": "est",
+      "CanOrderBy": true,
+      "Name": "Wyman LLC",
+      "CanRestrictBy": false,
+      "RestrictionType": "necessitatibus",
+      "RestrictionListName": "Pouros-Hackett",
+      "IsVisible": false,
+      "ExtraInfo": "ipsa",
+      "Width": "numquam",
+      "IconHint": "qui",
+      "HeadingIconHint": "quo"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Grant LLC",
-      "PrimaryKey": 702,
+      "EntityName": "Torphy Group",
+      "PrimaryKey": 561,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "qui",
-          "TooltipHint": "enim",
-          "LinkHint": "unde"
+          "DisplayValue": "sed",
+          "TooltipHint": "dolores",
+          "LinkHint": "beatae"
         }
       },
-      "LinkHint": "voluptas",
-      "StyleHint": "est",
+      "LinkHint": "sint",
+      "StyleHint": "ipsa",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 836
+          "FieldType": "System.Int32",
+          "FieldLength": 985
         }
       }
     }
   ],
-  "RowCount": 625,
+  "RowCount": 304,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 52
+      "FieldLength": 798
     }
   }
 }

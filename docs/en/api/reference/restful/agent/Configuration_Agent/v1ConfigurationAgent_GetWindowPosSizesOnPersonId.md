@@ -14,6 +14,8 @@ POST /api/v1/Agents/Configuration/GetWindowPosSizesOnPersonId
 Gets the window and dialog position and size settings belonging to the specified person
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -88,7 +90,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 855
+  "PersonId": 15
 }
 ```
 
@@ -100,23 +102,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "OwnerWindow": "commodi",
-    "PersonId": 941,
-    "AssociateId": 415,
-    "ExtraId": 736,
-    "ExtraInfo": "eum",
-    "Height": 467,
-    "LeftX": 386,
+    "OwnerWindow": "veniam",
+    "PersonId": 561,
+    "AssociateId": 677,
+    "ExtraId": 771,
+    "ExtraInfo": "aliquam",
+    "Height": 360,
+    "LeftX": 944,
     "State": "Maximized",
-    "UpperY": 581,
-    "Width": 324,
-    "WindowPosSizeId": 595,
+    "UpperY": 926,
+    "Width": 869,
+    "WindowPosSizeId": 539,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 877
+        "FieldLength": 753
       }
     }
   }

@@ -85,20 +85,20 @@ OK
 PUT /api/v1/List/TicketCategory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 324,
-  "Name": "Jacobson-Ward",
-  "Tooltip": "sed",
-  "Deleted": false,
-  "Rank": 89,
+  "Id": 418,
+  "Name": "Feil, Hackett and Gleason",
+  "Tooltip": "a",
+  "Deleted": true,
+  "Rank": 371,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "aliquam",
-  "InUseByUserDefinedFields": false
+  "ListType": "voluptas",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -109,22 +109,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 609,
-  "Name": "Dare LLC",
-  "Tooltip": "et",
-  "Deleted": true,
-  "Rank": 959,
-  "IsCustomList": true,
+  "Id": 31,
+  "Name": "Kuphal Inc and Sons",
+  "Tooltip": "illum",
+  "Deleted": false,
+  "Rank": 181,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "quod",
+  "ListType": "sed",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 682
+      "FieldType": "System.String",
+      "FieldLength": 898
     }
   }
 }

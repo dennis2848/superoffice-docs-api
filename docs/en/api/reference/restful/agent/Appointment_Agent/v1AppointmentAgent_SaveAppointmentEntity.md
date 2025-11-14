@@ -15,6 +15,7 @@ Updates the existing AppointmentEntity or creates a new AppointmentEntity if the
 
 
 Save the appointment entity
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -184,7 +185,7 @@ OK
 POST /api/v1/Agents/Appointment/SaveAppointmentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -192,106 +193,106 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2024-07-24T03:46:54.050783+02:00",
-  "AppointmentId": 740,
-  "Description": "Visionary foreground paradigm",
-  "Title": "sunt",
-  "Agenda": "iusto",
-  "InternalNotes": "fuga",
-  "StartDate": "2016-05-05T03:46:54.050783+02:00",
-  "EndDate": "2006-02-23T03:46:54.050783+01:00",
+  "CreatedDate": "2009-05-29T02:30:46.5694798+02:00",
+  "AppointmentId": 361,
+  "Description": "Grass-roots explicit circuit",
+  "Title": "unde",
+  "Agenda": "cum",
+  "InternalNotes": "laboriosam",
+  "StartDate": "2008-03-05T02:30:46.5694798+01:00",
+  "EndDate": "2019-11-17T02:30:46.5694798+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 150,
+  "MotherId": 573,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2014-05-13T03:46:54.050783+02:00",
+  "UpdatedDate": "2004-11-22T02:30:46.5694798+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 511,
+  "ActiveLinks": 424,
   "Links": [
     {
-      "EntityName": "Olson-Sanford",
-      "Id": 815,
-      "Description": "Enterprise-wide reciprocal benchmark",
-      "ExtraInfo": "qui",
-      "LinkId": 581
+      "EntityName": "Zulauf, Weber and Hagenes",
+      "Id": 872,
+      "Description": "Enhanced modular ability",
+      "ExtraInfo": "rerum",
+      "LinkId": 217
     },
     {
-      "EntityName": "Olson-Sanford",
-      "Id": 815,
-      "Description": "Enterprise-wide reciprocal benchmark",
-      "ExtraInfo": "qui",
-      "LinkId": 581
+      "EntityName": "Zulauf, Weber and Hagenes",
+      "Id": 872,
+      "Description": "Enhanced modular ability",
+      "ExtraInfo": "rerum",
+      "LinkId": 217
     }
   ],
-  "AlarmLeadTime": "soluta",
+  "AlarmLeadTime": "ut",
   "HasAlarm": false,
-  "ColorIndex": 115,
-  "IsFree": false,
-  "IsAlldayEvent": false,
-  "LagTime": "odio",
-  "LeadTime": "maxime",
-  "Location": "sequi",
-  "RejectCounter": 919,
+  "ColorIndex": 201,
+  "IsFree": true,
+  "IsAlldayEvent": true,
+  "LagTime": "odit",
+  "LeadTime": "quod",
+  "Location": "iusto",
+  "RejectCounter": 419,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 515,
-      "PersonId": 235,
-      "ContactId": 146,
-      "EmailId": 954,
+      "AssociateId": 385,
+      "PersonId": 848,
+      "ContactId": 125,
+      "EmailId": 248,
       "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "clementine_yost@kerluke.uk",
-      "Description": "Face to face bi-directional solution"
+      "EmailAddress": "nathanial_boyer@sporer.us",
+      "Description": "Upgradable interactive knowledge base"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "1998-04-15T03:46:54.050783+02:00",
-  "HasConflict": true,
+  "ActiveDate": "2022-04-29T02:30:46.5694798+02:00",
+  "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 537,
+  "PreferredTZLocation": 218,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 171,
+  "SuggestedAppointmentId": 94,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "OwnedExternally": "Google",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "omnis",
+  "CentralserviceVideomeetId": "suscipit",
   "UserDefinedFields": {
-    "SuperOffice:1": "1858885709",
-    "SuperOffice:2": "832871796"
+    "SuperOffice:1": "917114422",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "deleniti",
-    "ExtraFields2": "dolor"
+    "ExtraFields1": "esse",
+    "ExtraFields2": "nihil"
   },
   "CustomFields": {
-    "CustomFields1": "sed",
-    "CustomFields2": "vitae"
+    "CustomFields1": "et",
+    "CustomFields2": "totam"
   },
-  "PublishEventDate": "2015-08-10T03:46:54.050783+02:00",
-  "PublishTo": "2011-06-15T03:46:54.050783+02:00",
-  "PublishFrom": "2024-08-12T03:46:54.050783+02:00",
+  "PublishEventDate": "2003-06-01T02:30:46.5694798+02:00",
+  "PublishTo": "2010-10-12T02:30:46.5694798+02:00",
+  "PublishFrom": "2013-04-17T02:30:46.5694798+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 440,
+      "VisibleId": 732,
       "Visibility": "All",
-      "DisplayValue": "ipsam"
+      "DisplayValue": "eaque"
     },
     {
-      "VisibleId": 440,
+      "VisibleId": 732,
       "Visibility": "All",
-      "DisplayValue": "ipsam"
+      "DisplayValue": "eaque"
     }
   ]
 }
@@ -308,121 +309,121 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2000-07-15T03:46:54.050783+02:00",
-  "AppointmentId": 361,
-  "Description": "Enhanced mission-critical firmware",
-  "Title": "assumenda",
-  "Agenda": "dicta",
-  "InternalNotes": "facere",
-  "StartDate": "2015-04-17T03:46:54.050783+02:00",
-  "EndDate": "2005-11-23T03:46:54.050783+01:00",
+  "CreatedDate": "2018-06-14T02:30:46.5694798+02:00",
+  "AppointmentId": 997,
+  "Description": "Optimized executive initiative",
+  "Title": "nesciunt",
+  "Agenda": "natus",
+  "InternalNotes": "consequatur",
+  "StartDate": "2018-04-22T02:30:46.5694798+02:00",
+  "EndDate": "2012-03-17T02:30:46.5694798+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 810,
+  "MotherId": 55,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2022-06-03T03:46:54.050783+02:00",
+  "UpdatedDate": "2023-01-17T02:30:46.5694798+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 657,
+  "ActiveLinks": 915,
   "Links": [
     {
-      "EntityName": "Leffler-Cassin",
-      "Id": 830,
-      "Description": "Phased modular model",
-      "ExtraInfo": "dolor",
-      "LinkId": 466,
+      "EntityName": "Batz-Pfannerstill",
+      "Id": 152,
+      "Description": "Optional intangible success",
+      "ExtraInfo": "enim",
+      "LinkId": 476,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 19
+          "FieldLength": 545
         }
       }
     }
   ],
-  "AlarmLeadTime": "aperiam",
+  "AlarmLeadTime": "velit",
   "HasAlarm": false,
-  "ColorIndex": 308,
+  "ColorIndex": 452,
   "IsFree": false,
   "IsAlldayEvent": true,
-  "LagTime": "voluptatum",
-  "LeadTime": "et",
-  "Location": "debitis",
-  "RejectCounter": 125,
+  "LagTime": "reprehenderit",
+  "LeadTime": "quo",
+  "Location": "non",
+  "RejectCounter": 23,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 437,
-      "PersonId": 536,
-      "ContactId": 114,
-      "EmailId": 346,
+      "AssociateId": 267,
+      "PersonId": 686,
+      "ContactId": 462,
+      "EmailId": 498,
       "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "fredrick@blandafranecki.biz",
-      "Description": "Up-sized tertiary complexity"
+      "EmailAddress": "gladys@hettinger.com",
+      "Description": "Operative systemic firmware"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "1998-04-16T03:46:54.050783+02:00",
-  "HasConflict": true,
+  "ActiveDate": "2022-01-14T02:30:46.5694798+01:00",
+  "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 793,
+  "PreferredTZLocation": 732,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 695,
+  "SuggestedAppointmentId": 441,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "OwnedExternally": "Google",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "error",
+  "CentralserviceVideomeetId": "asperiores",
   "UserDefinedFields": {
-    "SuperOffice:1": "Ms. Tristin Adeline Tillman",
-    "SuperOffice:2": "1525225211"
+    "SuperOffice:1": "False",
+    "SuperOffice:2": "138075147"
   },
   "ExtraFields": {
-    "ExtraFields1": "cupiditate",
-    "ExtraFields2": "quasi"
+    "ExtraFields1": "temporibus",
+    "ExtraFields2": "perferendis"
   },
   "CustomFields": {
-    "CustomFields1": "quas",
-    "CustomFields2": "eos"
+    "CustomFields1": "sunt",
+    "CustomFields2": "vero"
   },
-  "PublishEventDate": "2021-09-03T03:46:54.050783+02:00",
-  "PublishTo": "2003-06-08T03:46:54.050783+02:00",
-  "PublishFrom": "2004-03-24T03:46:54.050783+01:00",
+  "PublishEventDate": "2015-02-11T02:30:46.5694798+01:00",
+  "PublishTo": "2001-12-20T02:30:46.5694798+01:00",
+  "PublishFrom": "2008-02-08T02:30:46.5694798+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 979,
+      "VisibleId": 94,
       "Visibility": "All",
-      "DisplayValue": "aperiam",
+      "DisplayValue": "distinctio",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 655
+          "FieldType": "System.String",
+          "FieldLength": 775
         }
       }
     },
     {
-      "VisibleId": 979,
+      "VisibleId": 94,
       "Visibility": "All",
-      "DisplayValue": "aperiam",
+      "DisplayValue": "distinctio",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 655
+          "FieldType": "System.String",
+          "FieldLength": 775
         }
       }
     }
@@ -431,8 +432,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 787
+      "FieldType": "System.String",
+      "FieldLength": 733
     }
   }
 }

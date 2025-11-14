@@ -14,7 +14,8 @@ POST /api/v1/Agents/Appointment/GetRedLetterInformationListByDatesAndAssociate
 Get detailed red letter day information (redletter summary + individual day texts) for one or more days according to the given date interval.
 
 
-The time portion of the dates is ignored.
+The time portion of the dates is ignored. 
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -84,9 +85,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StartDate": "2023-02-24T03:46:54.0195335+01:00",
-  "EndDate": "2001-01-04T03:46:54.0195335+01:00",
-  "AssociateId": 742
+  "StartDate": "2007-06-30T02:30:46.5382305+02:00",
+  "EndDate": "2016-07-05T02:30:46.5382305+02:00",
+  "AssociateId": 317
 }
 ```
 
@@ -98,7 +99,7 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Date": "2004-10-31T03:46:54.0195335+01:00",
+    "Date": "2014-02-01T02:30:46.5382305+01:00",
     "RedLetterInformation": null,
     "RedLetterDetails": null,
     "TableRight": null,
@@ -106,12 +107,12 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 914
+        "FieldLength": 590
       }
     }
   },
   {
-    "Date": "2004-10-31T03:46:54.0195335+01:00",
+    "Date": "2014-02-01T02:30:46.5382305+01:00",
     "RedLetterInformation": null,
     "RedLetterDetails": null,
     "TableRight": null,
@@ -119,7 +120,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 914
+        "FieldLength": 590
       }
     }
   }

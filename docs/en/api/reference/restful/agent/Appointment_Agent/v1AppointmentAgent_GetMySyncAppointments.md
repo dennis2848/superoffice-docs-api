@@ -15,6 +15,7 @@ Method that returns a specified number of appointments within a time range.
 
 
 The appointments belong to the currently logged on user.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -106,8 +107,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StartTime": "2008-05-31T03:46:54.0195335+02:00",
-  "EndTime": "2022-11-06T03:46:54.0195335+01:00"
+  "StartTime": "2023-10-04T02:30:46.5382305+02:00",
+  "EndTime": "2005-05-19T02:30:46.5382305+02:00"
 }
 ```
 
@@ -119,72 +120,72 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AlarmTime": "2025-02-15T03:46:54.0195335+01:00",
-    "AppointmentId": 681,
-    "AppointmentText": "ut",
+    "AlarmTime": "2022-03-01T02:30:46.5382305+01:00",
+    "AppointmentId": 671,
+    "AppointmentText": "quidem",
     "ContactDepartment": "",
-    "ContactFullName": "Miss Axel Baylee Botsford V",
-    "ContactName": "Klocko LLC",
-    "ContactId": 112,
-    "EndDate": "2021-06-02T03:46:54.0195335+02:00",
+    "ContactFullName": "Tianna Shields",
+    "ContactName": "Kassulke LLC",
+    "ContactId": 661,
+    "EndDate": "2008-06-09T02:30:46.5382305+02:00",
     "HasAlarm": true,
     "IsAllDay": true,
     "IsAssignment": false,
     "IsBusy": false,
     "IsCompleted": false,
     "IsInvitation": false,
-    "IsTentative": true,
-    "Location": "perferendis",
+    "IsTentative": false,
+    "Location": "quis",
     "Participants": [
       {
-        "PersonId": 623,
-        "PersonFirstName": "Hansen, Ebert and Schoen",
-        "PersonMiddleName": "Turner Inc and Sons",
-        "PersonLastname": "Altenwerth",
-        "PersonMrmrs": "autem",
-        "PersonTitle": "molestiae",
-        "PersonPosition": "laboriosam",
-        "PersonAcademicTitle": "minima",
-        "PersonFormalName": "Homenick Inc and Sons",
-        "PersonFullName": "Eliane Abernathy",
-        "ContactId": 413,
-        "ContactName": "Fritsch, Casper and Konopelski",
+        "PersonId": 688,
+        "PersonFirstName": "Zieme Inc and Sons",
+        "PersonMiddleName": "Moore-Steuber",
+        "PersonLastname": "Stracke",
+        "PersonMrmrs": "reprehenderit",
+        "PersonTitle": "laborum",
+        "PersonPosition": "enim",
+        "PersonAcademicTitle": "autem",
+        "PersonFormalName": "Wiza Group",
+        "PersonFullName": "Reanna Brekke",
+        "ContactId": 371,
+        "ContactName": "Lind Inc and Sons",
         "ContactDepartment": "",
         "ContactBusiness": "Information Technology",
         "ContactCountry": "Sokovia",
         "ContactCategory": "VIP Customer",
-        "ContactFullName": "Miss Tommie Glenna Koelpin",
+        "ContactFullName": "Glenda Bayer",
         "EMail": [
-          "consequatur",
-          "est"
+          "sapiente",
+          "aut"
         ],
         "PhonePrivate": [
-          "275.346.0500 x4952",
-          "1-868-086-4834"
+          "(210)701-1771 x05805",
+          "660-820-0003"
         ],
         "PhoneFax": [
-          "459.095.1419 x2141",
-          "(246)081-6033"
+          "462-634-1385 x487",
+          "(885)886-7363 x98455"
         ],
         "PhoneMobile": [
-          "989.023.4219",
-          "787-228-6026 x4972"
+          "(061)212-2769",
+          "750.191.2175"
         ],
         "PhoneDirect": [
-          "1-588-887-6182",
-          "170-341-5124 x62221"
+          "(608)779-9319 x85790",
+          "1-234-717-2727 x414"
         ],
         "PhoneContact": [
-          "790.105.9103",
-          "925.336.6584"
+          "(901)236-4431",
+          "389.218.0673 x891"
         ],
         "Messenger": [
-          "repellat",
-          "perferendis"
+          "et",
+          "ipsa"
         ],
         "Voip": [
-          "non",
-          "eos"
+          "consequatur",
+          "voluptatem"
         ],
         "ContactUrl": [
           "http://www.example.com/",
@@ -205,26 +206,26 @@ Content-Type: application/json; charset=utf-8
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 757
+            "FieldLength": 506
           }
         }
       }
     ],
-    "PersonFormalName": "Schumm Inc and Sons",
-    "PersonFullName": "Axel Torrance Hessel DDS",
-    "PersonId": 814,
-    "ProjectId": 327,
-    "ProjectName": "Denesik Inc and Sons",
-    "SaleId": 142,
-    "SaleName": "McKenzie-Hackett",
-    "StartDate": "2005-11-23T03:46:54.0195335+01:00",
-    "TaskName": "Jacobi Group",
+    "PersonFormalName": "Goodwin-Koepp",
+    "PersonFullName": "Dr. Stanton Eichmann Jr.",
+    "PersonId": 1002,
+    "ProjectId": 721,
+    "ProjectName": "Osinski Inc and Sons",
+    "SaleId": 719,
+    "SaleName": "Weber-Kunde",
+    "StartDate": "2015-12-20T02:30:46.5382305+01:00",
+    "TaskName": "Abernathy Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 329
+        "FieldLength": 901
       }
     }
   }

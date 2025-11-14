@@ -14,6 +14,9 @@ POST /api/v1/Agents/User/GetCredentialUsersInGroup
 Get credential users within a user group
 
 
+NsApiSlow threshold: 1000 ms.
+
+
 ## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
 
 
@@ -78,12 +81,12 @@ OK
 POST /api/v1/Agents/User/GetCredentialUsersInGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Type": "ut",
-  "GroupName": "Emmerich-Kertzmann"
+  "Type": "in",
+  "GroupName": "Hoeger-Fay"
 }
 ```
 
@@ -95,41 +98,41 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Headings": [
-    "est",
-    "voluptatibus"
+    "quia",
+    "voluptates"
   ],
   "Users": [
     {
-      "Value": "aliquid",
-      "DisplayValue": "minus",
+      "Value": "optio",
+      "DisplayValue": "nostrum",
       "Columns": [
-        "sequi",
-        "illum"
+        "vitae",
+        "et"
       ],
-      "CanCreatePerson": false,
+      "CanCreatePerson": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 704
+          "FieldLength": 276
         }
       }
     },
     {
-      "Value": "aliquid",
-      "DisplayValue": "minus",
+      "Value": "optio",
+      "DisplayValue": "nostrum",
       "Columns": [
-        "sequi",
-        "illum"
+        "vitae",
+        "et"
       ],
-      "CanCreatePerson": false,
+      "CanCreatePerson": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 704
+          "FieldLength": 276
         }
       }
     }
@@ -139,7 +142,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 840
+      "FieldLength": 392
     }
   }
 }

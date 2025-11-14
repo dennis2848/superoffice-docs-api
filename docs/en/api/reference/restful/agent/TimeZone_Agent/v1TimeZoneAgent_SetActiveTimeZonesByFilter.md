@@ -14,6 +14,8 @@ POST /api/v1/Agents/TimeZone/SetActiveTimeZonesByFilter
 Toggles active state of a single row in the TZLocation table
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -70,8 +72,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Filter": "voluptatibus",
-  "Active": false
+  "Filter": "sequi",
+  "Active": true
 }
 ```
 

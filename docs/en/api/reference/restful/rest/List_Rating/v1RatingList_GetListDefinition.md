@@ -66,7 +66,7 @@ OK
 GET /api/v1/List/Rating
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -76,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 826,
-  "Name": "Moore, Feest and Berge",
-  "Tooltip": "quia",
+  "Id": 863,
+  "Name": "Cremin-Robel",
+  "Tooltip": "vel",
   "Deleted": false,
-  "Rank": 616,
-  "IsCustomList": true,
+  "Rank": 71,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "ratione",
-  "InUseByUserDefinedFields": false,
+  "ListType": "in",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 61
+      "FieldLength": 844
     }
   },
   "_Links": {

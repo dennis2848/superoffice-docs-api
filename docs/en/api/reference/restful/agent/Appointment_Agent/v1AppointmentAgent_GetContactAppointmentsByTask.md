@@ -15,6 +15,7 @@ Method that returns a specified number of appointments of a specific appointment
 
 
 The appointments belong to the contact specified. Task represents the different types of activities, like “Phone call”, “Meeting” and so on.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -134,15 +135,15 @@ OK
 POST /api/v1/Agents/Appointment/GetContactAppointmentsByTask
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 639,
-  "StartTime": "2018-01-17T03:46:53.9882851+01:00",
-  "EndTime": "2013-09-16T03:46:53.9882851+02:00",
-  "Count": 741,
-  "TaskId": 118
+  "ContactId": 605,
+  "StartTime": "2019-03-17T02:30:46.5069828+01:00",
+  "EndTime": "2020-09-23T02:30:46.5069828+02:00",
+  "Count": 58,
+  "TaskId": 531
 }
 ```
 
@@ -154,67 +155,67 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 389,
-    "StartDate": "1999-02-24T03:46:53.9882851+01:00",
-    "EndDate": "2007-09-22T03:46:53.9882851+02:00",
+    "AppointmentId": 344,
+    "StartDate": "2012-04-26T02:30:46.5069828+02:00",
+    "EndDate": "2017-06-01T02:30:46.5069828+02:00",
     "Type": "BookingForChecklist",
-    "Task": "blanditiis",
-    "AssociateFullName": "Randi Strosin",
-    "ContactName": "Dare-Donnelly",
-    "Description": "User-centric multimedia Graphic Interface",
-    "PersonFullName": "Dr. Emma Benny Strosin IV",
-    "PersonId": 409,
-    "ContactId": 737,
-    "ProjectId": 874,
-    "ProjectName": "Bins, Hintz and Rolfson",
+    "Task": "ut",
+    "AssociateFullName": "Ima Dawn Bernhard DDS",
+    "ContactName": "Olson, Ledner and Wiza",
+    "Description": "Business-focused incremental attitude",
+    "PersonFullName": "Richard Kling",
+    "PersonId": 614,
+    "ContactId": 875,
+    "ProjectId": 470,
+    "ProjectName": "Bartell, Waelchi and Watsica",
     "IsPublished": false,
-    "AssociateId": 156,
-    "ColorIndex": 20,
-    "IsFree": false,
+    "AssociateId": 791,
+    "ColorIndex": 878,
+    "IsFree": true,
     "HasAlarm": false,
-    "IsAlldayEvent": false,
+    "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 406,
-    "PriorityName": "Towne, Dietrich and Miller",
+    "PriorityId": 893,
+    "PriorityName": "Spinka-Larkin",
     "TaskType": "Appointment",
-    "IsBookingMain": true,
+    "IsBookingMain": false,
     "IsRecurrence": false,
-    "IsBooking": false,
-    "ActiveDate": "2013-05-31T03:46:53.9882851+02:00",
+    "IsBooking": true,
+    "ActiveDate": "2001-09-25T02:30:46.522607+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2005-07-31T03:46:53.9882851+02:00",
-    "RecurringEndDate": "2004-06-11T03:46:53.9882851+02:00",
-    "MotherId": 137,
-    "AssignedBy": 143,
-    "AssignedByFullName": "Mr. Tianna Kelvin Aufderhar",
+    "RecurringStartDate": "2025-03-09T02:30:46.522607+01:00",
+    "RecurringEndDate": "2022-07-08T02:30:46.522607+02:00",
+    "MotherId": 48,
+    "AssignedBy": 118,
+    "AssignedByFullName": "Ms. Fletcher Ritchie",
     "RejectReason": "",
-    "Location": "aspernatur",
-    "AlarmLeadTime": "velit",
-    "SaleId": 910,
-    "SaleName": "Considine-Osinski",
-    "AssociateName": "Sipes-Schumm",
-    "CreatedDate": "2007-10-02T03:46:53.9882851+02:00",
-    "CreatedBy": "nostrum",
-    "CreatedByFullName": "Bryon Sauer",
-    "CreatedByAssociateId": 732,
+    "Location": "aut",
+    "AlarmLeadTime": "aut",
+    "SaleId": 413,
+    "SaleName": "Klein-Cummings",
+    "AssociateName": "Boyle Group",
+    "CreatedDate": "2022-04-03T02:30:46.522607+02:00",
+    "CreatedBy": "nam",
+    "CreatedByFullName": "Dr. Jamel O'Connell",
+    "CreatedByAssociateId": 591,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "OwnedExternally": "Google",
-    "MotherAssociateId": 975,
+    "MotherAssociateId": 80,
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 37,
-    "Title": "voluptas",
-    "Agenda": "sint",
-    "InternalNotes": "aut",
+    "PreferredTZLocation": 688,
+    "Title": "facere",
+    "Agenda": "pariatur",
+    "InternalNotes": "reprehenderit",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 998
+        "FieldLength": 868
       }
     }
   }

@@ -15,6 +15,7 @@ Get a set of credentials of a specified type for a specified user.
 
 
 SecretValue is only populated for authenticated user, and system users.
+NsApiSlow threshold: 2000 ms.
 
 
 ## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
@@ -89,8 +90,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 542,
-  "Type": "et"
+  "AssociateId": 283,
+  "Type": "voluptas"
 }
 ```
 
@@ -102,18 +103,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ValidFrom": "2006-08-03T03:46:55.6132266+02:00",
-    "ValidTo": "2017-09-18T03:46:55.6132266+02:00",
-    "Comment": "non",
-    "SecretValue": "sed",
-    "PublicValue": "minima",
-    "IsActive": true,
+    "ValidFrom": "2015-06-21T02:30:48.1163068+02:00",
+    "ValidTo": "2025-02-06T02:30:48.1163068+01:00",
+    "Comment": "omnis",
+    "SecretValue": "aliquid",
+    "PublicValue": "aspernatur",
+    "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 784
+        "FieldType": "System.String",
+        "FieldLength": 254
       }
     }
   }

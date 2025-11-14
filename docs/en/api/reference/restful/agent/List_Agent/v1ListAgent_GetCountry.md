@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/GetCountry
 Gets a Country object.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -27,7 +29,7 @@ Gets a Country object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetCountry?countryId=788
+POST /api/v1/Agents/List/GetCountry?countryId=96
 POST /api/v1/Agents/List/GetCountry?$select=name,department,category/id
 ```
 
@@ -85,7 +87,7 @@ OK
 POST /api/v1/Agents/List/GetCountry
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,30 +97,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 13,
-  "Name": "Rohan LLC",
-  "CurrencyId": 24,
-  "EnglishName": "Rohan, Upton and Johns",
+  "CountryId": 566,
+  "Name": "Purdy LLC",
+  "CurrencyId": 28,
+  "EnglishName": "Torp, King and Bradtke",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Devolved demand-driven product",
-  "OrgNrText": "1188870",
-  "InterAreaPrefix": "ut",
-  "DialInPrefix": "fugiat",
-  "ZipPrefix": "voluptates",
-  "DomainName": "Rippin-Spencer",
-  "AddressLayoutId": 276,
-  "DomesticAddressLayoutId": 986,
-  "ForeignAddressLayoutId": 135,
-  "Rank": 179,
-  "Tooltip": "voluptas",
-  "Deleted": false,
+  "ImageDescription": "Synchronised 6th generation infrastructure",
+  "OrgNrText": "583531",
+  "InterAreaPrefix": "nihil",
+  "DialInPrefix": "sint",
+  "ZipPrefix": "eum",
+  "DomainName": "Windler-Wolf",
+  "AddressLayoutId": 79,
+  "DomesticAddressLayoutId": 668,
+  "ForeignAddressLayoutId": 875,
+  "Rank": 784,
+  "Tooltip": "quia",
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 42
+      "FieldLength": 24
     }
   }
 }

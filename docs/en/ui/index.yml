@@ -13,7 +13,7 @@ metadata:
   so.collection: collection
   author: Bergfrid Dias
   so.author: digitaldiina
-  so.date: 09.04.2024
+  so.date: 10.03.2025
 
 # highlightedContent section (optional)
 # Maximum of 8 items
@@ -25,7 +25,7 @@ highlightedContent:
     - title: "Configurable screens"
       itemType: map
       typeDesc: overview
-      url: screen-designer/learn/index.md
+      url: ../customization/screen-designer/admin/index.md
     # Card
     - title: "Web application API"
       itemType: library_books
@@ -52,87 +52,83 @@ conceptualContent:
     - title: Configurable screens
       summary: "Configurable screens enable CRM Administrators to customize SuperOffice CRM user interface controls."
       links:
-        - url: screen-designer/learn/index.md
+        - url: ../customization/screen-designer/admin/index.md
           itemType: explore
           typeDesc: concept
           text: Intro
         - text: Add a layout
           itemType: list
           typeDesc: how-to-guide
-          url: screen-designer/learn/add-layout.md
+          url: ../customization/screen-designer/admin/add-layout.md
         - text: Edit the layout of a card
           itemType: list
           typeDesc: how-to-guide
-          url: screen-designer/learn/edit-layout.md
+          url: ../customization/screen-designer/admin/edit-layout.md
         - text: Working with fields
           itemType: list
           typeDesc: how-to-guide
-          url: screen-designer/learn/working-with-fields.md
+          url: ../customization/screen-designer/admin/working-with-fields.md
         - text: Add a link or button
           itemType: list
           typeDesc: how-to-guide
-          url: screen-designer/learn/add-button.md
+          url: ../customization/screen-designer/admin/add-button.md
         - text: Working with tabs
           itemType: list
           typeDesc: how-to-guide
-          url: screen-designer/learn/working-with-tabs.md
+          url: ../customization/screen-designer/admin/working-with-tabs.md
         - text: Assign layout to group or type
           itemType: list
           typeDesc: how-to-guide
-          url: screen-designer/learn/assign-layout.md
+          url: ../customization/screen-designer/admin/assign-layout.md
     # Card
     - title: Web panels
       summary: ""
       links:
-      - url: web-panels/index.md
+      - url: ../customization/web-panels/admin/index.md
         itemType: explore
         typeDesc: concept
         text: Overview
-      - url: web-panels/add-web-panel.md
+      - url: ../customization/web-panels/admin/add-web-panel.md
         itemType: list
         typeDesc: how-to-guide
         text: Add a web panel
-      - url: web-panels/url-encoding.md
+      - url: ../customization/web-panels/admin/url-encoding.md
         itemType: list
         typeDesc: how-to-guide
         text: URL encoding
-      - url: web-panels/passing-data.md
+      - url: ../customization/web-panels/dev/index.md#variables
         itemType: list
         typeDesc: how-to-guide
         text: Pass data with template variables
-      - url: web-panels/create-link-to.md
+      - url: ../customization/web-panels/dev/index.md
         itemType: list
         typeDesc: how-to-guide
         text: Create link to
-      - url: web-panels/detect-superoffice.md
-        itemType: list
-        typeDesc: how-to-guide
-        text: Detect running inside SuperOffice
     # Card
     - title: SOProtocol
       summary: ""
       links:
-      - url: soprotocol/index.md
+      - url: ../customization/soprotocol/index.md
         itemType: explore
         typeDesc: concept
         text: Overview
-      - url: soprotocol/navigation-points.md
+      - url: ../customization/soprotocol/navigation-points.md
         itemType: explore
         typeDesc: concept
         text: Navigation points
-      - url: soprotocol/page-control-and-cache.md
+      - url: ../customization/soprotocol/page-control-and-cache.md
         itemType: explore
         typeDesc: concept
         text: Page control and cache
-      - url: soprotocol/in-crmscript.md
+      - url: ../customization/soprotocol/in-crmscript.md
         itemType: explore
         typeDesc: concept
         text: In CRMScript
-      - url: soprotocol/used-in-webpanels-web.md
+      - url: ../customization/soprotocol/used-in-webpanels-web.md
         itemType: explore
         typeDesc: concept
         text: In web panels (Web)
-      - url: soprotocol/get-contact.md
+      - url: ../customization/soprotocol/howto/open-contact.md
         itemType: list
         typeDesc: how-to-guide
         text: How to get a contact

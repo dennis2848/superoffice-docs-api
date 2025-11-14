@@ -14,7 +14,8 @@ POST /api/v1/Agents/Find/FindFromRestrictions2
 Execute a Find operation and return a page of results.
 
 
-The criteria for the Find are passed in directly, not fetched by a restriction storage provider. The columns of the result are calculated based on the restriction. 
+The criteria for the Find are passed in directly, not fetched by a restriction storage provider. The columns of the result are calculated based on the restriction.
+NsApiSlow threshold: 5000 ms. 
 
 Archive Restriction strings are OData or SQL-ish.
 They are parsed and converted into ArchiveRestrictions.
@@ -164,14 +165,14 @@ OK
 POST /api/v1/Agents/Find/FindFromRestrictions2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Restrictions": "vitae",
-  "ProviderName": "Douglas Group",
-  "PageSize": 232,
-  "PageNumber": 977
+  "Restrictions": "ut",
+  "ProviderName": "Bednar LLC",
+  "PageSize": 174,
+  "PageNumber": 862
 }
 ```
 
@@ -184,51 +185,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Schaden Group",
-      "DisplayTooltip": "consectetur",
-      "DisplayType": "modi",
+      "DisplayName": "Lindgren LLC",
+      "DisplayTooltip": "molestiae",
+      "DisplayType": "quasi",
       "CanOrderBy": false,
-      "Name": "Swift Group",
+      "Name": "Senger, O'Keefe and Yost",
       "CanRestrictBy": false,
-      "RestrictionType": "voluptatem",
-      "RestrictionListName": "Abernathy-Greenfelder",
+      "RestrictionType": "veritatis",
+      "RestrictionListName": "Powlowski, Walsh and Ziemann",
       "IsVisible": true,
-      "ExtraInfo": "voluptatem",
-      "Width": "natus",
-      "IconHint": "ducimus",
-      "HeadingIconHint": "velit"
+      "ExtraInfo": "et",
+      "Width": "ut",
+      "IconHint": "quibusdam",
+      "HeadingIconHint": "et"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Boyer LLC",
-      "PrimaryKey": 222,
+      "EntityName": "Hamill-Greenholt",
+      "PrimaryKey": 434,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "qui",
-          "TooltipHint": "hic",
-          "LinkHint": "nesciunt"
+          "DisplayValue": "nulla",
+          "TooltipHint": "ut",
+          "LinkHint": "aut"
         }
       },
-      "LinkHint": "voluptatem",
-      "StyleHint": "dolorem",
+      "LinkHint": "itaque",
+      "StyleHint": "nesciunt",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 311
+          "FieldLength": 525
         }
       }
     }
   ],
-  "RowCount": 496,
+  "RowCount": 334,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 9
+      "FieldType": "System.Int32",
+      "FieldLength": 624
     }
   }
 }

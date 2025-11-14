@@ -14,6 +14,8 @@ POST /api/v1/Agents/Contact/GetContactSummary
 Get summary of contact and its recent activity.
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -78,12 +80,12 @@ OK
 POST /api/v1/Agents/Contact/GetContactSummary
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 579,
-  "Limit": 4
+  "ContactId": 328,
+  "Limit": 634
 }
 ```
 
@@ -97,79 +99,79 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "Tickets": [
     {
-      "TicketId": 994,
-      "TicketStatus": 356,
-      "Title": "nisi",
-      "Registered": "2018-05-11T03:46:54.5507645+02:00",
-      "IconHint": "neque"
+      "TicketId": 461,
+      "TicketStatus": 795,
+      "Title": "illo",
+      "Registered": "2008-09-16T02:30:47.0225898+02:00",
+      "IconHint": "tenetur"
     },
     {
-      "TicketId": 994,
-      "TicketStatus": 356,
-      "Title": "nisi",
-      "Registered": "2018-05-11T03:46:54.5507645+02:00",
-      "IconHint": "neque"
+      "TicketId": 461,
+      "TicketStatus": 795,
+      "Title": "illo",
+      "Registered": "2008-09-16T02:30:47.0225898+02:00",
+      "IconHint": "tenetur"
     }
   ],
   "Followups": [
     {
-      "AppointmentId": 688,
-      "DocumentId": 876,
-      "Date": "2010-11-24T03:46:54.5507645+01:00",
-      "Description": "Balanced value-added collaboration",
+      "AppointmentId": 328,
+      "DocumentId": 30,
+      "Date": "1998-11-20T02:30:47.0225898+01:00",
+      "Description": "Synchronised hybrid leverage",
       "Completed": "Completed",
-      "Registered": "2022-03-15T03:46:54.5507645+01:00"
+      "Registered": "2015-09-20T02:30:47.0225898+02:00"
     },
     {
-      "AppointmentId": 688,
-      "DocumentId": 876,
-      "Date": "2010-11-24T03:46:54.5507645+01:00",
-      "Description": "Balanced value-added collaboration",
+      "AppointmentId": 328,
+      "DocumentId": 30,
+      "Date": "1998-11-20T02:30:47.0225898+01:00",
+      "Description": "Synchronised hybrid leverage",
       "Completed": "Completed",
-      "Registered": "2022-03-15T03:46:54.5507645+01:00"
+      "Registered": "2015-09-20T02:30:47.0225898+02:00"
     }
   ],
   "Documents": [
     {
-      "AppointmentId": 481,
-      "DocumentId": 2,
-      "Date": "2004-11-25T03:46:54.5507645+01:00",
-      "Description": "Fundamental mobile core",
+      "AppointmentId": 346,
+      "DocumentId": 224,
+      "Date": "2007-12-25T02:30:47.0225898+01:00",
+      "Description": "Organized zero tolerance encryption",
       "Completed": "Completed",
-      "Registered": "2014-05-25T03:46:54.5507645+02:00"
+      "Registered": "2007-06-08T02:30:47.0225898+02:00"
     },
     {
-      "AppointmentId": 481,
-      "DocumentId": 2,
-      "Date": "2004-11-25T03:46:54.5507645+01:00",
-      "Description": "Fundamental mobile core",
+      "AppointmentId": 346,
+      "DocumentId": 224,
+      "Date": "2007-12-25T02:30:47.0225898+01:00",
+      "Description": "Organized zero tolerance encryption",
       "Completed": "Completed",
-      "Registered": "2014-05-25T03:46:54.5507645+02:00"
+      "Registered": "2007-06-08T02:30:47.0225898+02:00"
     }
   ],
   "Sales": [
     {
-      "SaleId": 816,
-      "SaleDate": "2018-03-15T03:46:54.5507645+01:00",
-      "Probability": 147,
-      "Heading": "autem",
-      "Amount": 10038.202,
-      "Currency": "consectetur",
-      "AmountInBaseCurrency": 9480.35,
+      "SaleId": 413,
+      "SaleDate": "2006-11-26T02:30:47.0225898+01:00",
+      "Probability": 232,
+      "Heading": "est",
+      "Amount": 1184.652,
+      "Currency": "sit",
+      "AmountInBaseCurrency": 21276.726,
       "Status": "Lost",
       "Completed": "Completed",
-      "Registered": "2014-11-19T03:46:54.5507645+01:00"
+      "Registered": "2020-09-06T02:30:47.0225898+02:00"
     }
   ],
   "Chats": [
     {
-      "ChatSessionId": 191,
-      "Name": "Toy Inc and Sons",
-      "CompanyName": "Crist, McClure and Hahn",
-      "FirstMessage": "libero",
-      "LastMessage": "sunt",
-      "WhenRequested": "2004-03-20T03:46:54.5507645+01:00",
-      "WhenEnded": "2021-07-09T03:46:54.5507645+02:00"
+      "ChatSessionId": 153,
+      "Name": "Yundt, Stanton and Koelpin",
+      "CompanyName": "Koelpin, Swaniawski and Runolfsson",
+      "FirstMessage": "qui",
+      "LastMessage": "dolores",
+      "WhenRequested": "2010-08-24T02:30:47.0225898+02:00",
+      "WhenEnded": "2018-12-15T02:30:47.0225898+01:00"
     }
   ]
 }

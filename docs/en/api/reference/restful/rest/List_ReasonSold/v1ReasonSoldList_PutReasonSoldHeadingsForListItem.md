@@ -103,42 +103,42 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 549,
-    "Name": "Cassin-Gutkowski",
-    "ToolTip": "Quidem temporibus in quaerat et cupiditate unde.",
+    "Id": 8,
+    "Name": "Cartwright-Adams",
+    "ToolTip": "Iure vitae quod laudantium nulla voluptas vero error.",
     "Deleted": false,
-    "Rank": 910,
-    "Type": "numquam",
-    "ColorBlock": 824,
-    "IconHint": "aut",
+    "Rank": 248,
+    "Type": "animi",
+    "ColorBlock": 455,
+    "IconHint": "magni",
     "Selected": false,
-    "LastChanged": "2007-10-16T03:47:00.8005429+02:00",
+    "LastChanged": "2015-12-12T02:30:53.4286352+01:00",
     "ChildItems": [
       {
-        "Id": 969,
-        "Name": "Schuster-Hoeger",
-        "ToolTip": "Tenetur voluptate.",
-        "Deleted": false,
-        "Rank": 429,
-        "Type": "est",
-        "ColorBlock": 897,
-        "IconHint": "facere",
+        "Id": 756,
+        "Name": "Connelly-Hermann",
+        "ToolTip": "Ipsa cupiditate pariatur soluta magnam culpa quibusdam reprehenderit.",
+        "Deleted": true,
+        "Rank": 14,
+        "Type": "id",
+        "ColorBlock": 458,
+        "IconHint": "dolorum",
         "Selected": false,
-        "LastChanged": "2008-06-18T03:47:00.8005429+02:00",
+        "LastChanged": "2001-05-26T02:30:53.4286352+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "rerum",
-        "StyleHint": "repellendus",
-        "Hidden": false,
-        "FullName": "Jeromy Schmidt"
+        "ExtraInfo": "sed",
+        "StyleHint": "vel",
+        "Hidden": true,
+        "FullName": "Prof. Jesse Sipes"
       }
     ],
-    "ExtraInfo": "ad",
-    "StyleHint": "nihil",
-    "Hidden": false,
-    "FullName": "Vickie Collier"
+    "ExtraInfo": "hic",
+    "StyleHint": "iste",
+    "Hidden": true,
+    "FullName": "Mrs. Belle Howard Bauch III"
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 308,
-    "Name": "Bahringer, Witting and Lindgren",
-    "ToolTip": "Velit rerum maiores iusto reiciendis eum.",
+    "Id": 881,
+    "Name": "Koepp Group",
+    "ToolTip": "In aut.",
     "Deleted": false,
-    "Rank": 346,
-    "Type": "et",
-    "ColorBlock": 610,
-    "IconHint": "vero",
+    "Rank": 642,
+    "Type": "occaecati",
+    "ColorBlock": 302,
+    "IconHint": "nostrum",
     "Selected": true,
-    "LastChanged": "2001-06-24T03:47:00.8005429+02:00",
+    "LastChanged": "2025-10-21T02:30:53.4286352+02:00",
     "ChildItems": [
       {
-        "Id": 9,
-        "Name": "Nitzsche Inc and Sons",
-        "ToolTip": "Excepturi provident nisi et veniam iure.",
+        "Id": 26,
+        "Name": "Ruecker, Conroy and Nader",
+        "ToolTip": "Ut voluptas.",
         "Deleted": false,
-        "Rank": 994,
-        "Type": "est",
-        "ColorBlock": 760,
-        "IconHint": "dolores",
-        "Selected": false,
-        "LastChanged": "2025-06-26T03:47:00.8005429+02:00",
+        "Rank": 430,
+        "Type": "voluptas",
+        "ColorBlock": 853,
+        "IconHint": "repudiandae",
+        "Selected": true,
+        "LastChanged": "2005-07-03T02:30:53.4286352+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "pariatur",
-        "StyleHint": "debitis",
+        "ExtraInfo": "molestiae",
+        "StyleHint": "fugiat",
         "Hidden": true,
-        "FullName": "Ocie Huels",
+        "FullName": "Alessandro Adams",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 226
+            "FieldLength": 930
           }
         }
       }
     ],
-    "ExtraInfo": "earum",
-    "StyleHint": "eveniet",
+    "ExtraInfo": "harum",
+    "StyleHint": "accusamus",
     "Hidden": false,
-    "FullName": "Miss Derek Baumbach DVM",
+    "FullName": "Mrs. Patricia Gibson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 362
+        "FieldType": "System.String",
+        "FieldLength": 380
       }
     }
   }

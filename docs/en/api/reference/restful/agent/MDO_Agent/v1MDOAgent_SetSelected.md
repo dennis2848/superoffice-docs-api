@@ -14,6 +14,8 @@ POST /api/v1/Agents/MDO/SetSelected
 Saves the selected values as selected by their given list representation.
 
 
+NsApiSlow threshold: 1700 ms.
+
 
 
 
@@ -90,32 +92,32 @@ OK
 POST /api/v1/Agents/MDO/SetSelected
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Hermann LLC",
-  "AdditionalInfo": "rerum",
+  "Name": "Gutmann-Douglas",
+  "AdditionalInfo": "occaecati",
   "SelectableMDOList": [
     {
-      "Id": 284,
-      "Name": "Jacobs-Goldner",
-      "ToolTip": "Quia vitae ea.",
+      "Id": 719,
+      "Name": "Wunsch LLC",
+      "ToolTip": "Iusto nihil voluptatem aut accusantium suscipit.",
       "Deleted": false,
-      "Rank": 592,
-      "Type": "laborum",
-      "ColorBlock": 472,
-      "IconHint": "molestias",
+      "Rank": 101,
+      "Type": "dolorem",
+      "ColorBlock": 574,
+      "IconHint": "pariatur",
       "Selected": false,
-      "LastChanged": "2009-10-28T03:46:55.0194982+01:00",
+      "LastChanged": "2005-02-28T02:30:47.4757021+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "voluptatem",
-      "StyleHint": "voluptatem",
-      "Hidden": false,
-      "FullName": "Mrs. Royal Cassandra Lesch V"
+      "ExtraInfo": "ut",
+      "StyleHint": "qui",
+      "Hidden": true,
+      "FullName": "Tre West"
     }
   ]
 }
@@ -129,56 +131,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 961,
-    "Name": "Rice LLC",
-    "ToolTip": "Tempora quibusdam vitae.",
-    "Deleted": true,
-    "Rank": 579,
-    "Type": "enim",
-    "ColorBlock": 879,
-    "IconHint": "explicabo",
+    "Id": 452,
+    "Name": "Wiza-Senger",
+    "ToolTip": "Ratione quisquam.",
+    "Deleted": false,
+    "Rank": 228,
+    "Type": "quia",
+    "ColorBlock": 653,
+    "IconHint": "magni",
     "Selected": false,
-    "LastChanged": "2013-05-24T03:46:55.0194982+02:00",
+    "LastChanged": "2010-04-29T02:30:47.4757021+02:00",
     "ChildItems": [
       {
-        "Id": 101,
-        "Name": "White Group",
-        "ToolTip": "Ut placeat reiciendis eius distinctio necessitatibus accusantium sit.",
+        "Id": 488,
+        "Name": "Kuhn, Moore and Feest",
+        "ToolTip": "Doloribus neque ut velit in voluptate qui autem.",
         "Deleted": false,
-        "Rank": 262,
-        "Type": "quod",
-        "ColorBlock": 569,
-        "IconHint": "nihil",
+        "Rank": 826,
+        "Type": "commodi",
+        "ColorBlock": 639,
+        "IconHint": "perspiciatis",
         "Selected": true,
-        "LastChanged": "2010-07-03T03:46:55.0194982+02:00",
+        "LastChanged": "2022-04-26T02:30:47.4757021+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "adipisci",
-        "StyleHint": "necessitatibus",
+        "ExtraInfo": "exercitationem",
+        "StyleHint": "facere",
         "Hidden": false,
-        "FullName": "Hipolito Roob",
+        "FullName": "Alexie Zemlak",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 100
+            "FieldType": "System.String",
+            "FieldLength": 73
           }
         }
       }
     ],
-    "ExtraInfo": "doloremque",
-    "StyleHint": "et",
-    "Hidden": false,
-    "FullName": "Carter Kshlerin",
+    "ExtraInfo": "consectetur",
+    "StyleHint": "dolorem",
+    "Hidden": true,
+    "FullName": "Johnnie Grady",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 249
+        "FieldLength": 180
       }
     }
   }

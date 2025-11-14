@@ -3,7 +3,7 @@ items:
   topicHref: index.yml
   items:
   - name: Screen designer
-    topicHref: screen-designer/learn/index.md
+    topicHref: ../customization/screen-designer/admin/index.md
   - name: Web application
     href: web-app/toc.yml
     topicHref: web-app/index.yml
@@ -11,11 +11,7 @@ items:
     href: blogic/toc.yml
     topicHref: blogic/index.yml
   - name: SOProtocol
-    href: soprotocol/toc.yml
-    topicHref: soprotocol/index.md
+    href: ../customization/soprotocol/toc.yml
+    topicHref: ../customization/soprotocol/index.md
   - name: Web panels
-    href: web-panels/toc.yml
-    topicHref: web-panels/index.md
-  - name: Design
-    href: design/toc.yml
-    topicHref: design/index.md
+    topicHref: ../customization/web-panels/admin/index.md

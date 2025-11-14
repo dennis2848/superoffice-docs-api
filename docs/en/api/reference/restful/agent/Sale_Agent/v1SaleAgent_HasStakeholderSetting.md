@@ -11,7 +11,7 @@ content_type: reference
 POST /api/v1/Agents/Sale/HasStakeholderSetting
 ```
 
-
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -69,11 +69,11 @@ OK
 POST /api/v1/Agents/Sale/HasStakeholderSetting
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 448
+  "SaleId": 668
 }
 ```
 
@@ -83,5 +83,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-true
+false
 ```

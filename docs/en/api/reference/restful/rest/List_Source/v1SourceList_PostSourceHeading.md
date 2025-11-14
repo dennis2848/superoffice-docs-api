@@ -80,12 +80,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 342,
-  "Name": "Grimes Group",
-  "Tooltip": "est",
+  "HeadingId": 209,
+  "Name": "Simonis-Streich",
+  "Tooltip": "molestiae",
   "Deleted": false,
-  "Rank": 660,
-  "UdListDefinitionId": 14
+  "Rank": 778,
+  "UdListDefinitionId": 261
 }
 ```
 
@@ -96,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 364,
-  "Name": "Pagac LLC",
-  "Tooltip": "voluptatem",
-  "Deleted": true,
-  "Rank": 717,
-  "UdListDefinitionId": 294,
+  "HeadingId": 650,
+  "Name": "Denesik Inc and Sons",
+  "Tooltip": "et",
+  "Deleted": false,
+  "Rank": 114,
+  "UdListDefinitionId": 689,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 444
+      "FieldType": "System.String",
+      "FieldLength": 240
     }
   }
 }

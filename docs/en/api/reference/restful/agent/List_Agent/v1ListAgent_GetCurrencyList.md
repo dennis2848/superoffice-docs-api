@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/GetCurrencyList
 Gets an array of Currency objects.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -84,28 +86,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 785,
-    "Value": "qui",
-    "Tooltip": "aut",
+    "Id": 64,
+    "Value": "eius",
+    "Tooltip": "libero",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 660
+        "FieldType": "System.Int32",
+        "FieldLength": 508
       }
     }
   },
   {
-    "Id": 785,
-    "Value": "qui",
-    "Tooltip": "aut",
+    "Id": 64,
+    "Value": "eius",
+    "Tooltip": "libero",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 660
+        "FieldType": "System.Int32",
+        "FieldLength": 508
       }
     }
   }

@@ -32,7 +32,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Business/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/Business/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -86,7 +86,7 @@ OK
 GET /api/v1/List/Business/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -97,56 +97,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 449,
-    "Name": "Morissette-Moen",
-    "ToolTip": "Est facere et ab et nisi molestias exercitationem.",
+    "Id": 273,
+    "Name": "Konopelski Inc and Sons",
+    "ToolTip": "Odit est.",
     "Deleted": false,
-    "Rank": 684,
-    "Type": "fuga",
-    "ColorBlock": 207,
-    "IconHint": "et",
+    "Rank": 418,
+    "Type": "quos",
+    "ColorBlock": 843,
+    "IconHint": "occaecati",
     "Selected": true,
-    "LastChanged": "2011-01-08T03:47:00.5818006+01:00",
+    "LastChanged": "2012-03-14T02:30:53.2098926+01:00",
     "ChildItems": [
       {
-        "Id": 526,
-        "Name": "Hagenes, Mayer and Murphy",
-        "ToolTip": "Dolores sed incidunt corrupti est est.",
+        "Id": 22,
+        "Name": "Prohaska, Mann and Daugherty",
+        "ToolTip": "Odio dolores ut dolor quis.",
         "Deleted": false,
-        "Rank": 522,
-        "Type": "veritatis",
-        "ColorBlock": 597,
-        "IconHint": "commodi",
+        "Rank": 558,
+        "Type": "autem",
+        "ColorBlock": 212,
+        "IconHint": "adipisci",
         "Selected": false,
-        "LastChanged": "2005-03-27T03:47:00.5818006+02:00",
+        "LastChanged": "2002-07-18T02:30:53.2098926+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolorem",
-        "StyleHint": "est",
-        "Hidden": false,
-        "FullName": "Darian Kling",
+        "ExtraInfo": "eos",
+        "StyleHint": "deleniti",
+        "Hidden": true,
+        "FullName": "Imogene Lehner",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 135
+            "FieldType": "System.Int32",
+            "FieldLength": 226
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "assumenda",
+    "ExtraInfo": "in",
+    "StyleHint": "nobis",
     "Hidden": false,
-    "FullName": "William Glover",
+    "FullName": "Filomena Willms",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 216
+        "FieldLength": 484
       }
     }
   }

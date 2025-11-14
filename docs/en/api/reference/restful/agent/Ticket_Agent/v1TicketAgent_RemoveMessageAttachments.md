@@ -15,6 +15,7 @@ Removes attachments from the message as specified in the collection of entity id
 
 
 The ids are attachment ids (attachment primary key)
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -72,10 +73,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageEntityId": 274,
+  "TicketMessageEntityId": 230,
   "AttachmentIds": [
-    904,
-    16
+    598,
+    944
   ]
 }
 ```

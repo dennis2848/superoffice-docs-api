@@ -1,16 +1,18 @@
----
+﻿---
 uid: help-da-marketing-best-practices
 title: Bedste praksis
 description: Bedste praksis
-keywords: Marketing, marketingkampagne, udsendelse
+keywords: Marketing, marketingkampagne, udsendelse, tjekliste
 author: Bergfrid Dias, Jeanette Small Strøm
-date: 06.14.2024
-version: 10.3.5
+date: 09.26.2025
+version: 10.5
 content_type: howto
+category: marketing
+license: marketingessentials
 audience: person
 audience_tooltip: SuperOffice Marketing
-language: da
 redirect_from: /da/marketing/learn/customize-for-mobile
+language: da
 ---
 
 # Bedste praksis
@@ -41,8 +43,6 @@ At skabe en god besked, der er relevant for dit publikum, er, hvor det hele bør
 * **Gør det super nemt at [afmelde sig][3]**. Ingen vil miste abonnenter, men hvis nogen ikke længere ønsker at modtage dine e-mails, skal de nemt kunne finde den mulighed. Hvis ikke kan folk være tilbøjelige til at rapportere dig som SPAM, hvilket vil være meget værre.
 
 * **Sørg for, at folk genkender dig**. Når folk ser på din e-mail i deres indbakke, bør de straks genkende, at den er fra dit firma. Vær igen ægte med dit publikum. Hvorfor skulle de åbne en besked fra nogen, de ikke kender?
-
-![Vælg afsendernavn for at gøre din e-mail genkendelig -screenshot][img2]
 
 **Undgå:**
 
@@ -102,10 +102,9 @@ Hvis du vil justere mobilspecifikke indstillinger for en meddelelse, skal du væ
 [3]: ../editor/learn/add-unsubscribe-link.md
 [4]: ../mailing/learn/create/send-test-email.md
 [5]: ../../security/privacy/admin/add-legal-base.md
-[6]: ../../admin/lists/learn/add-items-to-mailing-domain.md
+[6]: ../mailing/admin/add-domain.md
 [7]: ../../../en/email/mailgun/spf/index.md
 [10]: https://mailtrap.io/
 [11]: https://putsmail.com/
 
 <!-- Referenced images -->
-[img2]: ../../../media/loc/en/marketing/from-name.gif

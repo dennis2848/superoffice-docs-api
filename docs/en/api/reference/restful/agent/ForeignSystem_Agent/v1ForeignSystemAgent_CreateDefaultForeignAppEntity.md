@@ -14,6 +14,8 @@ POST /api/v1/Agents/ForeignSystem/CreateDefaultForeignAppEntity
 Loading default values into a new ForeignAppEntity.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -62,7 +64,7 @@ OK
 POST /api/v1/Agents/ForeignSystem/CreateDefaultForeignAppEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -72,29 +74,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 48,
-  "Name": "Klocko-Smith",
-  "CreatedDate": "2016-10-13T03:46:54.8320045+02:00",
-  "UpdatedDate": "2006-08-24T03:46:54.8320045+02:00",
+  "ForeignAppId": 789,
+  "Name": "Adams LLC",
+  "CreatedDate": "2023-01-08T02:30:47.350707+01:00",
+  "UpdatedDate": "2017-06-06T02:30:47.350707+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 263,
-      "Name": "Quigley-O'Reilly",
-      "CreatedDate": "1999-02-14T03:46:54.8320045+01:00",
-      "UpdatedDate": "2010-07-08T03:46:54.8320045+02:00",
-      "AssociateFullName": "Dr. Caroline Justice Bahringer Sr.",
-      "CreatedBy": "non",
-      "UpdatedBy": "eligendi",
-      "DeviceIdentifier": "tenetur",
-      "ForeignAppId": 384,
+      "ForeignDeviceId": 916,
+      "Name": "Hermiston-Kreiger",
+      "CreatedDate": "2011-11-10T02:30:47.350707+01:00",
+      "UpdatedDate": "2012-05-24T02:30:47.350707+02:00",
+      "AssociateFullName": "Hillary Luettgen",
+      "CreatedBy": "placeat",
+      "UpdatedBy": "accusamus",
+      "DeviceIdentifier": "dolores",
+      "ForeignAppId": 979,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 236
+          "FieldType": "System.Int32",
+          "FieldLength": 404
         }
       }
     }
@@ -104,7 +106,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 623
+      "FieldLength": 618
     }
   }
 }

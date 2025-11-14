@@ -15,6 +15,7 @@ Get the associated billing and invoice quote version addresses.
 
 
 These addresses might be address on the contact, or a custom address.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -81,11 +82,11 @@ OK
 POST /api/v1/Agents/Contact/GetQuoteVersionAddresses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 835
+  "QuoteVersionId": 596
 }
 ```
 
@@ -97,41 +98,41 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Wgs84Latitude": 2131.12,
-    "Wgs84Longitude": 17064.63,
+    "Wgs84Latitude": 22868.798,
+    "Wgs84Longitude": 6991.954,
     "LocalizedAddress": [
       [
         {
-          "Name": "Daniel, Kris and Schultz",
-          "Value": "error",
-          "Tooltip": "est",
-          "Label": "dolores",
-          "ValueLength": 624,
-          "AddressType": "inventore",
+          "Name": "Emmerich LLC",
+          "Value": "ullam",
+          "Tooltip": "omnis",
+          "Label": "provident",
+          "ValueLength": 643,
+          "AddressType": "et",
           "TableRight": null,
           "FieldProperties": {
             "fieldName": {
               "FieldRight": null,
               "FieldType": "System.Int32",
-              "FieldLength": 720
+              "FieldLength": 991
             }
           }
         }
       ],
       [
         {
-          "Name": "Lesch-Bradtke",
-          "Value": "cum",
-          "Tooltip": "sed",
-          "Label": "qui",
-          "ValueLength": 679,
-          "AddressType": "facere",
+          "Name": "Feest Group",
+          "Value": "non",
+          "Tooltip": "nobis",
+          "Label": "dolore",
+          "ValueLength": 325,
+          "AddressType": "praesentium",
           "TableRight": null,
           "FieldProperties": {
             "fieldName": {
               "FieldRight": null,
               "FieldType": "System.String",
-              "FieldLength": 614
+              "FieldLength": 690
             }
           }
         }
@@ -139,13 +140,13 @@ Content-Type: application/json; charset=utf-8
     ],
     "Street": null,
     "Postal": null,
-    "Formatted": "exercitationem",
+    "Formatted": "veritatis",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 330
+        "FieldType": "System.String",
+        "FieldLength": 347
       }
     }
   }

@@ -14,6 +14,8 @@ POST /api/v1/Agents/BLOB/GetBlobEntityOnContact
 Gets the blob entity that represents the contact image binary object.
 
 
+NsApiSlow threshold: 3000 ms.
+
 
 
 
@@ -86,11 +88,11 @@ OK
 POST /api/v1/Agents/BLOB/GetBlobEntityOnContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 454
+  "ContactId": 910
 }
 ```
 
@@ -101,25 +103,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 931,
-  "BlobSize": 487,
-  "Description": "Synergistic regional pricing structure",
-  "ExtraInfo": "laudantium",
-  "IsEncrypted": false,
-  "IsZipped": true,
-  "MimeType": "necessitatibus",
-  "OriginalSize": 610,
-  "CreatedDate": "2024-06-08T03:46:54.3163903+02:00",
-  "UpdatedDate": "2015-08-08T03:46:54.3163903+02:00",
+  "BlobId": 100,
+  "BlobSize": 701,
+  "Description": "Profit-focused zero tolerance moratorium",
+  "ExtraInfo": "nihil",
+  "IsEncrypted": true,
+  "IsZipped": false,
+  "MimeType": "ut",
+  "OriginalSize": 514,
+  "CreatedDate": "2013-09-30T02:30:46.8350962+02:00",
+  "UpdatedDate": "2002-09-29T02:30:46.8350962+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "non",
+  "ConceptualType": "nam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 269
+      "FieldLength": 267
     }
   }
 }

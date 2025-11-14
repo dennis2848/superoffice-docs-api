@@ -15,6 +15,7 @@ Get a FAQ entry, ment to be displayed for a customer.
 
 
 This can either be a link to the FAQ entry on Custom Center, or it can be the answer and question. This is dependent on Registry setting with reg_id=157
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -71,11 +72,11 @@ OK
 POST /api/v1/Agents/CustomerService/GetFaqForCustomer
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "FaqEntryId": 421
+  "FaqEntryId": 261
 }
 ```
 
@@ -85,5 +86,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"similique"
+"quae"
 ```

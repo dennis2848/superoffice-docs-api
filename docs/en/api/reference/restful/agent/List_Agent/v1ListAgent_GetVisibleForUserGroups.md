@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/GetVisibleForUserGroups
 List of User groups that this list item is visible for
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -93,8 +95,8 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 191,
-  "ListItemId": 99
+  "UdListDefinitionId": 201,
+  "ListItemId": 17
 }
 ```
 
@@ -106,56 +108,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 321,
-    "Name": "Rempel, Miller and Greenfelder",
-    "ToolTip": "Nobis qui occaecati molestiae soluta cumque impedit.",
+    "Id": 397,
+    "Name": "Langosh-Moore",
+    "ToolTip": "Qui fugiat doloribus ut ipsam.",
     "Deleted": false,
-    "Rank": 131,
-    "Type": "repudiandae",
-    "ColorBlock": 195,
-    "IconHint": "excepturi",
-    "Selected": true,
-    "LastChanged": "2021-07-26T03:46:54.9882491+02:00",
+    "Rank": 561,
+    "Type": "sit",
+    "ColorBlock": 492,
+    "IconHint": "qui",
+    "Selected": false,
+    "LastChanged": "2024-07-27T02:30:47.4444538+02:00",
     "ChildItems": [
       {
-        "Id": 664,
-        "Name": "Abshire-Labadie",
-        "ToolTip": "Molestias voluptatem.",
+        "Id": 603,
+        "Name": "Yundt Group",
+        "ToolTip": "Odio commodi a temporibus modi.",
         "Deleted": false,
-        "Rank": 314,
-        "Type": "nobis",
-        "ColorBlock": 496,
-        "IconHint": "veritatis",
-        "Selected": false,
-        "LastChanged": "2009-06-17T03:46:54.9882491+02:00",
+        "Rank": 511,
+        "Type": "minima",
+        "ColorBlock": 272,
+        "IconHint": "corporis",
+        "Selected": true,
+        "LastChanged": "2001-10-17T02:30:47.4444538+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ab",
-        "StyleHint": "natus",
+        "ExtraInfo": "aliquid",
+        "StyleHint": "quidem",
         "Hidden": false,
-        "FullName": "General Corwin",
+        "FullName": "Nyasia Little",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 575
+            "FieldLength": 34
           }
         }
       }
     ],
-    "ExtraInfo": "sunt",
-    "StyleHint": "consequatur",
+    "ExtraInfo": "qui",
+    "StyleHint": "accusamus",
     "Hidden": false,
-    "FullName": "Prof. Elvis Cecil Hintz",
+    "FullName": "Bennie Daniel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 667
+        "FieldLength": 738
       }
     }
   }

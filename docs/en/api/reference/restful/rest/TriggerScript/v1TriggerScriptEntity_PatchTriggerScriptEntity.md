@@ -15,6 +15,7 @@ Update a TriggerScriptEntity with changes, as described in a JSON Patch or a JSO
 
 
 See <a href="https://tools.ietf.org/html/rfc6902">RFC6902</a> and <a href="https://tools.ietf.org/html/rfc7386">RFC 7396</a>.
+NsApiSlow threshold: 5000 ms.
 
 
 ## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered. Update the Department field to "foo" can be done either as a JSON PATCH:
@@ -121,18 +122,18 @@ TriggerScriptEntity  updated.
 PATCH /api/v1/TriggerScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "officiis",
+    "path": "ut",
     "value": {}
   },
   {
     "op": "add",
-    "path": "officiis",
+    "path": "ut",
     "value": {}
   }
 ]
@@ -145,22 +146,22 @@ HTTP/1.1 200 TriggerScriptEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 140,
-  "Name": "Corwin, Tremblay and Jewess",
+  "ScreenChooserId": 116,
+  "Name": "Jakubowski, Carter and Fay",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "omnis",
-  "Source": "fuga",
-  "Registered": "2008-11-18T03:47:00.3943072+01:00",
-  "RegisteredAssociateId": 701,
-  "Updated": "2008-12-25T03:47:00.3943072+01:00",
-  "UpdatedAssociateId": 829,
+  "UniqueIdentifier": "sed",
+  "Source": "quia",
+  "Registered": "2017-04-22T02:30:53.022399+02:00",
+  "RegisteredAssociateId": 631,
+  "Updated": "1999-05-03T02:30:53.022399+02:00",
+  "UpdatedAssociateId": 257,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 276
+      "FieldType": "System.Int32",
+      "FieldLength": 50
     }
   },
   "_Links": {

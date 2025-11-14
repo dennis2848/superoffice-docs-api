@@ -14,6 +14,8 @@ POST /api/v1/Agents/Pocket/NotifyUsers
 Notify users about a new or changed entity
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -71,7 +73,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "NotificationEventType": "AppointmentCancelled",
-  "Id": 864
+  "Id": 803
 }
 ```
 

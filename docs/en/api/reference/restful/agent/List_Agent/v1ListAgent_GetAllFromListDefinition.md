@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/GetAllFromListDefinition
 Get all list items for the specified list defintion
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -80,12 +82,12 @@ OK
 POST /api/v1/Agents/List/GetAllFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 542,
-  "IncludeDeleted": false
+  "UdListDefinitionId": 442,
+  "IncludeDeleted": true
 }
 ```
 
@@ -97,18 +99,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 581,
-    "Name": "Willms, Stanton and Kemmer",
-    "Tooltip": "quo",
+    "Id": 541,
+    "Name": "Raynor, Kautzer and Mosciski",
+    "Tooltip": "dolorem",
     "Deleted": false,
-    "UdListDefinitionId": 115,
-    "Rank": 587,
+    "UdListDefinitionId": 840,
+    "Rank": 553,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 277
+        "FieldType": "System.String",
+        "FieldLength": 358
       }
     }
   }

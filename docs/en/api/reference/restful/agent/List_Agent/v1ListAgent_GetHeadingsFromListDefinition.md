@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/GetHeadingsFromListDefinition
 Gets headings for list resolved by the provided id.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -79,11 +81,11 @@ OK
 POST /api/v1/Agents/List/GetHeadingsFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 139
+  "Id": 414
 }
 ```
 
@@ -95,18 +97,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 927,
-    "Name": "Larkin-Brown",
-    "Tooltip": "aliquam",
+    "HeadingId": 854,
+    "Name": "Hane Inc and Sons",
+    "Tooltip": "nam",
     "Deleted": false,
-    "Rank": 37,
-    "UdListDefinitionId": 375,
+    "Rank": 905,
+    "UdListDefinitionId": 460,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 202
+        "FieldLength": 904
       }
     }
   }

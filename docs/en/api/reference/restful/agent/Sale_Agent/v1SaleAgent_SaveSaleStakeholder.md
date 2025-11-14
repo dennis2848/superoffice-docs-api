@@ -14,6 +14,8 @@ POST /api/v1/Agents/Sale/SaveSaleStakeholder
 Updates the existing SaleStakeholder or creates a new SaleStakeholder if the id parameter is 0.
 
 
+NsApiSlow threshold: 1000 ms.
+
 
 
 
@@ -100,29 +102,29 @@ OK
 POST /api/v1/Agents/Sale/SaveSaleStakeholder
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Weber, Hegmann and Kuvalis",
-  "Comment": "et",
-  "StakeholderRoleId": 37,
-  "CountryId": 135,
-  "PersonId": 289,
-  "EmailDescription": "jordane.spinka@okon.info",
-  "EmailId": 4,
-  "EmailAddress": "marcellus.wisozk@kulas.uk",
-  "PhoneId": 970,
-  "ContactName": "Weimann-Raynor",
-  "ContactId": 304,
-  "SaleId": 365,
-  "Mrmrs": "odit",
-  "Firstname": "Annie",
-  "MiddleName": "McClure-Kunde",
-  "Lastname": "Blanda",
-  "SaleStakeholderId": 604,
-  "Rank": 940,
-  "Phone": "1-114-399-2575 x18476"
+  "StakeholderRoleName": "Nienow Group",
+  "Comment": "sapiente",
+  "StakeholderRoleId": 455,
+  "CountryId": 221,
+  "PersonId": 689,
+  "EmailDescription": "clifton.huel@boganheathcote.ca",
+  "EmailId": 842,
+  "EmailAddress": "newton_cassin@wymantorphy.info",
+  "PhoneId": 427,
+  "ContactName": "Wilkinson, Waelchi and Casper",
+  "ContactId": 535,
+  "SaleId": 246,
+  "Mrmrs": "et",
+  "Firstname": "Marc",
+  "MiddleName": "Emmerich Group",
+  "Lastname": "Glover",
+  "SaleStakeholderId": 908,
+  "Rank": 269,
+  "Phone": "1-608-027-7242 x2271"
 }
 ```
 
@@ -133,31 +135,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Tillman LLC",
-  "Comment": "quas",
-  "StakeholderRoleId": 881,
-  "CountryId": 386,
-  "PersonId": 335,
-  "EmailDescription": "deshaun@rice.biz",
-  "EmailId": 186,
-  "EmailAddress": "lavern_kiehn@lindgren.ca",
-  "PhoneId": 427,
-  "ContactName": "Schinner Group",
-  "ContactId": 575,
-  "SaleId": 878,
-  "Mrmrs": "expedita",
-  "Firstname": "Beverly",
-  "MiddleName": "Bogan, Larkin and Wilkinson",
-  "Lastname": "Hammes",
-  "SaleStakeholderId": 989,
-  "Rank": 620,
-  "Phone": "1-781-749-3934",
+  "StakeholderRoleName": "McGlynn Group",
+  "Comment": "laboriosam",
+  "StakeholderRoleId": 100,
+  "CountryId": 342,
+  "PersonId": 617,
+  "EmailDescription": "jenifer@stoltenbergmoore.uk",
+  "EmailId": 299,
+  "EmailAddress": "icie_witting@fritsch.name",
+  "PhoneId": 373,
+  "ContactName": "Nolan-O'Conner",
+  "ContactId": 272,
+  "SaleId": 558,
+  "Mrmrs": "omnis",
+  "Firstname": "Estelle",
+  "MiddleName": "Cassin-Wilderman",
+  "Lastname": "Kunze",
+  "SaleStakeholderId": 528,
+  "Rank": 10,
+  "Phone": "1-533-852-6030",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 371
+      "FieldType": "System.String",
+      "FieldLength": 341
     }
   }
 }

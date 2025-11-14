@@ -76,18 +76,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 628,
-  "Name": "Jenkins-Lueilwitz",
-  "Tooltip": "culpa",
-  "Deleted": true,
-  "UdListDefinitionId": 918,
-  "Rank": 174,
+  "Id": 83,
+  "Name": "Pacocha LLC",
+  "Tooltip": "ut",
+  "Deleted": false,
+  "UdListDefinitionId": 442,
+  "Rank": 29,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 995
+      "FieldType": "System.String",
+      "FieldLength": 311
     }
   }
 }

@@ -14,6 +14,9 @@ POST /api/v1/Agents/User/SetPasswordFromName
 Change password for a user.
 
 
+NsApiSlow threshold: 2000 ms.
+
+
 ## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
 
 
@@ -72,12 +75,12 @@ OK
 POST /api/v1/Agents/User/SetPasswordFromName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateName": "Ullrich, Hoeger and Fadel",
-  "Password": "autem"
+  "AssociateName": "Streich, Beier and Hartmann",
+  "Password": "odio"
 }
 ```
 

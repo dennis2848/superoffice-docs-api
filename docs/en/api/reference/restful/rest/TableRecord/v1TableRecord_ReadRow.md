@@ -73,15 +73,15 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Values": {
-    "Values1": "eveniet",
-    "Values2": "veritatis"
+    "Values1": "veniam",
+    "Values2": "voluptas"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 960
+      "FieldLength": 111
     }
   }
 }

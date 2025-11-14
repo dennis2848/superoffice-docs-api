@@ -14,6 +14,8 @@ POST /api/v1/Agents/Relation/GetContactRelationEntity
 Gets a ContactRelationEntity object.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -27,7 +29,7 @@ Gets a ContactRelationEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Relation/GetContactRelationEntity?contactRelationEntityId=422
+POST /api/v1/Agents/Relation/GetContactRelationEntity?contactRelationEntityId=823
 POST /api/v1/Agents/Relation/GetContactRelationEntity?$select=name,department,category/id
 ```
 
@@ -85,7 +87,7 @@ OK
 POST /api/v1/Agents/Relation/GetContactRelationEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,30 +97,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 993,
-  "SourcePersonId": 342,
-  "DestinationContactId": 228,
-  "DestinationPersonId": 319,
-  "RelationId": 681,
-  "Comment": "eum",
-  "RelationDefinitionId": 89,
-  "Reversed": 849,
-  "UpdatedDate": "2009-01-06T03:46:55.2382402+01:00",
-  "CreatedDate": "2014-11-25T03:46:55.2382402+01:00",
+  "SourceContactId": 223,
+  "SourcePersonId": 876,
+  "DestinationContactId": 484,
+  "DestinationPersonId": 583,
+  "RelationId": 996,
+  "Comment": "quibusdam",
+  "RelationDefinitionId": 537,
+  "Reversed": 952,
+  "UpdatedDate": "2017-11-05T02:30:47.7413192+01:00",
+  "CreatedDate": "2008-11-21T02:30:47.7413192+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Jewess, Zboncak and Swift",
-  "SourcePersonName": "Conroy, Swift and Gottlieb",
-  "DestinationContactName": "Schumm, Grady and Gerhold",
-  "DestinationPersonName": "Hamill-Schimmel",
-  "ActiveText": "et",
-  "PassiveText": "eligendi",
+  "SourceContactName": "Schmeler LLC",
+  "SourcePersonName": "Robel Group",
+  "DestinationContactName": "Kessler Group",
+  "DestinationPersonName": "Lynch-Christiansen",
+  "ActiveText": "ea",
+  "PassiveText": "dolor",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 52
+      "FieldType": "System.Int32",
+      "FieldLength": 800
     }
   }
 }

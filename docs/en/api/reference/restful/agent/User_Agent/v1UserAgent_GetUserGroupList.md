@@ -14,6 +14,9 @@ POST /api/v1/Agents/User/GetUserGroupList
 Gets an array of UserGroup objects.
 
 
+NsApiSlow threshold: 1000 ms.
+
+
 ## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
 
 
@@ -77,7 +80,7 @@ OK
 POST /api/v1/Agents/User/GetUserGroupList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -88,17 +91,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Value": "a",
-    "Tooltip": "omnis",
-    "Id": 536,
-    "Rank": 692,
-    "Deleted": true,
+    "Value": "odit",
+    "Tooltip": "totam",
+    "Id": 801,
+    "Rank": 344,
+    "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 264
+        "FieldType": "System.String",
+        "FieldLength": 842
       }
     }
   }

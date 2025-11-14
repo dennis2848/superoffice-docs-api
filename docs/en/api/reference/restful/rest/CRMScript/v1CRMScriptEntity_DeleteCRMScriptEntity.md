@@ -15,6 +15,7 @@ Deletes the CRMScriptEntity
 
 
 ## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered. Calls the CRMScript agent service DeleteCRMScriptEntity.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -53,7 +54,7 @@ CRMScriptEntity deleted.
 DELETE /api/v1/CRMScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response

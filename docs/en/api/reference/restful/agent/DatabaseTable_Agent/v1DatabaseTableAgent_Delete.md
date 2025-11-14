@@ -14,6 +14,8 @@ POST /api/v1/Agents/DatabaseTable/Delete
 Delete rows, by primary key; traveltransactionlog and WebHooks are supported
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -84,10 +86,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Casper-Jerde",
+  "TableName": "Littel Inc and Sons",
   "IDs": [
-    299,
-    130
+    330,
+    729
   ]
 }
 ```
@@ -100,40 +102,40 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Success": false,
-  "Message": "maiores",
-  "Inserts": 728,
-  "Updates": 329,
-  "Deletes": 892,
+  "Message": "id",
+  "Inserts": 272,
+  "Updates": 189,
+  "Deletes": 734,
   "RowStatus": [
     {
-      "PrimaryKey": 946,
+      "PrimaryKey": 423,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "praesentium",
-        "eum"
+        "molestiae",
+        "unde"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 632
+          "FieldLength": 901
         }
       }
     },
     {
-      "PrimaryKey": 946,
+      "PrimaryKey": 423,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "praesentium",
-        "eum"
+        "molestiae",
+        "unde"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 632
+          "FieldLength": 901
         }
       }
     }
@@ -143,7 +145,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 537
+      "FieldLength": 196
     }
   }
 }

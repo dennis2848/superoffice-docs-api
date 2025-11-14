@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/GetTicketTypeEntity
 Gets a TicketTypeEntity object.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -27,7 +29,7 @@ Gets a TicketTypeEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetTicketTypeEntity?ticketTypeEntityId=424
+POST /api/v1/Agents/List/GetTicketTypeEntity?ticketTypeEntityId=705
 POST /api/v1/Agents/List/GetTicketTypeEntity?$select=name,department,category/id
 ```
 
@@ -96,40 +98,40 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 60,
-  "Name": "Muller, Runte and Prohaska",
-  "Rank": 158,
-  "Tooltip": "perferendis",
-  "Icon": "modi",
-  "DefaultTicketStatus": 309,
+  "TicketTypeId": 676,
+  "Name": "Okuneva LLC",
+  "Rank": 690,
+  "Tooltip": "accusantium",
+  "Icon": "ut",
+  "DefaultTicketStatus": 968,
   "TicketStatuses": [
-    125,
-    370
+    412,
+    907
   ],
-  "DefaultTicketPriority": 885,
+  "DefaultTicketPriority": 316,
   "TicketPriorities": [
-    13,
-    303
+    436,
+    100
   ],
-  "ReplyTemplate": 856,
+  "ReplyTemplate": 376,
   "IsExternalVisible": false,
   "IsDefault": false,
-  "ShowInNew": true,
+  "ShowInNew": false,
   "ExcludeSignature": false,
-  "ExcludeEmailRecipients": false,
+  "ExcludeEmailRecipients": true,
   "ExternalAsDefault": true,
   "VisibleForGroups": [
-    929,
-    252
+    344,
+    558
   ],
   "ReplyForwardNoSignature": false,
-  "ReplyExternalAsDefault": true,
+  "ReplyExternalAsDefault": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 73
+      "FieldType": "System.String",
+      "FieldLength": 192
     }
   }
 }

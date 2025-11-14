@@ -14,6 +14,8 @@ POST /api/v1/Agents/Quote/SaveConnection
 Saves a connection to the database.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -88,7 +90,7 @@ OK
 POST /api/v1/Agents/Quote/SaveConnection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -103,54 +105,54 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 839,
-  "ERPName": "Muller LLC",
-  "DisplayName": "Douglas-Reichel",
-  "DisplayDescription": "Integrated hybrid info-mediaries",
-  "Rank": 707,
-  "ConnectorName": "Moen Group",
-  "ErpConnectionId": 421,
-  "ExtraData": "explicabo",
+  "QuoteConnectionId": 463,
+  "ERPName": "O'Kon, Crist and Jenkins",
+  "DisplayName": "Ebert Inc and Sons",
+  "DisplayDescription": "Reduced empowering encoding",
+  "Rank": 428,
+  "ConnectorName": "Pacocha Inc and Sons",
+  "ErpConnectionId": 406,
+  "ExtraData": "ut",
   "IsAvailable": false,
   "InitializeResponse": null,
   "PriceLists": [
     {
-      "PriceListId": 242,
-      "ERPPriceListKey": "similique",
-      "QuoteConnectionId": 730,
-      "Name": "Frami Inc and Sons",
-      "Description": "Up-sized disintermediate throughput",
-      "Currency": "nostrum",
-      "CurrencyName": "Sawayn-Stracke",
-      "ValidFrom": "2010-07-08T03:46:55.2226157+02:00",
-      "ValidTo": "2023-04-02T03:46:55.2226157+02:00",
+      "PriceListId": 16,
+      "ERPPriceListKey": "voluptatem",
+      "QuoteConnectionId": 605,
+      "Name": "Reinger Group",
+      "Description": "Intuitive value-added task-force",
+      "Currency": "doloribus",
+      "CurrencyName": "Block-Rosenbaum",
+      "ValidFrom": "2019-07-20T02:30:47.7256947+02:00",
+      "ValidTo": "2004-07-06T02:30:47.7256947+02:00",
       "IsActive": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 6
+          "FieldLength": 618
         }
       }
     }
   ],
   "AllAccess": false,
-  "Deleted": false,
+  "Deleted": true,
   "UserGroupAccessIds": [
-    370,
-    243
+    325,
+    965
   ],
   "AssociateAccessIds": [
-    624,
-    171
+    785,
+    411
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 968
+      "FieldLength": 187
     }
   }
 }

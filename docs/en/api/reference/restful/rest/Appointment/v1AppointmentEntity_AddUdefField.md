@@ -99,7 +99,7 @@ OK
 POST /api/v1/Appointment/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -109,46 +109,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 580,
-  "ColumnId": 760,
-  "FieldDefault": "aliquam",
-  "FieldHeight": 727,
-  "FieldLabel": "nulla",
-  "FieldLeft": 682,
-  "FieldTop": 716,
+  "UDefFieldId": 399,
+  "ColumnId": 350,
+  "FieldDefault": "harum",
+  "FieldHeight": 193,
+  "FieldLabel": "eligendi",
+  "FieldLeft": 631,
+  "FieldTop": 236,
   "FieldType": "Checkbox",
-  "FieldWidth": 842,
-  "FormatMask": "nisi",
+  "FieldWidth": 979,
+  "FormatMask": "non",
   "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 906,
-  "LabelLeft": 246,
-  "LabelTop": 494,
-  "LabelWidth": 15,
-  "LastVersionId": 33,
-  "ListTableId": 654,
-  "IsMandatory": false,
+  "LabelHeight": 613,
+  "LabelLeft": 375,
+  "LabelTop": 65,
+  "LabelWidth": 208,
+  "LastVersionId": 382,
+  "ListTableId": 999,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 378,
-  "ProgId": "nisi",
+  "Page1LineNo": 517,
+  "ProgId": "deserunt",
   "IsReadOnly": false,
-  "ShortLabel": "saepe",
-  "TabOrder": 814,
-  "TextLength": 595,
-  "Tooltip": "voluptas",
-  "UdefIdentity": 512,
-  "UDListDefinitionId": 194,
+  "ShortLabel": "ipsam",
+  "TabOrder": 100,
+  "TextLength": 685,
+  "Tooltip": "nemo",
+  "UdefIdentity": 339,
+  "UDListDefinitionId": 331,
   "Justification": "Center",
-  "Version": 702,
-  "TemplateVariableName": "Cormier Group",
-  "HasBeenPublished": false,
-  "MdoListName": "Strosin-Bayer",
+  "Version": 899,
+  "TemplateVariableName": "Morissette, Howell and Jewess",
+  "HasBeenPublished": true,
+  "MdoListName": "Schultz, Powlowski and Okuneva",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 222
+      "FieldType": "System.Int32",
+      "FieldLength": 736
     }
   }
 }

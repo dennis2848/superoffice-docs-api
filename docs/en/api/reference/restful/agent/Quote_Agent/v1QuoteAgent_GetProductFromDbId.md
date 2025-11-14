@@ -14,6 +14,8 @@ POST /api/v1/Agents/Quote/GetProductFromDbId
 Get a product with the given database id
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -107,11 +109,11 @@ OK
 POST /api/v1/Agents/Quote/GetProductFromDbId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 522
+  "ProductId": 961
 }
 ```
 
@@ -122,73 +124,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 211,
-  "ERPProductKey": "occaecati",
-  "ERPPriceListKey": "fugit",
-  "Name": "Reichel-Mann",
-  "Description": "Phased actuating strategy",
-  "Code": "amet",
-  "PriceUnit": "rem",
-  "QuantityUnit": "iste",
+  "ProductId": 792,
+  "ERPProductKey": "minus",
+  "ERPPriceListKey": "culpa",
+  "Name": "Pagac-Schuppe",
+  "Description": "Mandatory zero defect workforce",
+  "Code": "eos",
+  "PriceUnit": "dolore",
+  "QuantityUnit": "ratione",
   "IsSubscription": true,
-  "SubscriptionUnit": "reprehenderit",
-  "DefaultSubscriptionQuantity": 19023.38,
-  "ItemNumber": "1053678",
+  "SubscriptionUnit": "quidem",
+  "DefaultSubscriptionQuantity": 8242.42,
+  "ItemNumber": "1914753",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "veritatis",
-  "ProductTypeKey": "reprehenderit",
-  "VAT": 21793.836,
-  "VATInfo": "dolorum",
-  "UnitCost": 8518.212,
-  "UnitMinimumPrice": 3998.984,
-  "UnitListPrice": 20101.476,
-  "InAssortment": true,
-  "Supplier": "qui",
-  "SupplierCode": "nemo",
-  "Rights": "nesciunt",
-  "Rule": "facere",
+  "ProductFamilyKey": "delectus",
+  "ProductTypeKey": "vero",
+  "VAT": 10884.382,
+  "VATInfo": "odio",
+  "UnitCost": 11956.21,
+  "UnitMinimumPrice": 30948.25,
+  "UnitListPrice": 22737.17,
+  "InAssortment": false,
+  "Supplier": "autem",
+  "SupplierCode": "aut",
+  "Rights": "officiis",
+  "Rule": "ea",
   "ExtraInfo": [
     {
-      "Name": "Swift, Muller and Kertzmann",
-      "Value": "aspernatur",
+      "Name": "Metz, Kub and Spencer",
+      "Value": "laboriosam",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 122
+          "FieldType": "System.Int32",
+          "FieldLength": 933
         }
       }
     },
     {
-      "Name": "Swift, Muller and Kertzmann",
-      "Value": "aspernatur",
+      "Name": "Metz, Kub and Spencer",
+      "Value": "laboriosam",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 122
+          "FieldType": "System.Int32",
+          "FieldLength": 933
         }
       }
     }
   ],
-  "RawExtraInfo": "aut",
-  "ExtraField1": "voluptas",
-  "ExtraField2": "numquam",
-  "ExtraField3": "perferendis",
-  "ExtraField4": "iusto",
-  "ExtraField5": "praesentium",
-  "InStock": 11561.326,
+  "RawExtraInfo": "est",
+  "ExtraField1": "temporibus",
+  "ExtraField2": "laudantium",
+  "ExtraField3": "qui",
+  "ExtraField4": "veniam",
+  "ExtraField5": "aut",
+  "InStock": 28676.1,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 269
+      "FieldLength": 954
     }
   }
 }

@@ -14,6 +14,8 @@ POST /api/v1/Agents/UserDefinedFieldInfo/ChangeFieldType
 Create a UserDefinedFieldInfo based on a owner-entity id
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -115,7 +117,7 @@ Content-Type: application/json; charset=utf-8
 {
   "Info": null,
   "FieldType": "Checkbox",
-  "IsIndexed": true
+  "IsIndexed": false
 }
 ```
 
@@ -126,46 +128,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 313,
-  "ColumnId": 494,
-  "FieldDefault": "harum",
-  "FieldHeight": 521,
-  "FieldLabel": "quia",
-  "FieldLeft": 517,
-  "FieldTop": 995,
+  "UDefFieldId": 424,
+  "ColumnId": 647,
+  "FieldDefault": "consectetur",
+  "FieldHeight": 321,
+  "FieldLabel": "labore",
+  "FieldLeft": 212,
+  "FieldTop": 782,
   "FieldType": "Checkbox",
-  "FieldWidth": 582,
-  "FormatMask": "facilis",
-  "HideLabel": true,
-  "IsIndexed": false,
-  "LabelHeight": 937,
-  "LabelLeft": 144,
-  "LabelTop": 539,
-  "LabelWidth": 997,
-  "LastVersionId": 662,
-  "ListTableId": 74,
-  "IsMandatory": true,
+  "FieldWidth": 254,
+  "FormatMask": "nisi",
+  "HideLabel": false,
+  "IsIndexed": true,
+  "LabelHeight": 655,
+  "LabelLeft": 559,
+  "LabelTop": 80,
+  "LabelWidth": 906,
+  "LastVersionId": 995,
+  "ListTableId": 488,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 573,
-  "ProgId": "nesciunt",
-  "IsReadOnly": true,
-  "ShortLabel": "enim",
-  "TabOrder": 723,
-  "TextLength": 271,
-  "Tooltip": "maiores",
-  "UdefIdentity": 902,
-  "UDListDefinitionId": 667,
+  "Page1LineNo": 471,
+  "ProgId": "cumque",
+  "IsReadOnly": false,
+  "ShortLabel": "quia",
+  "TabOrder": 442,
+  "TextLength": 665,
+  "Tooltip": "quod",
+  "UdefIdentity": 86,
+  "UDListDefinitionId": 40,
   "Justification": "Center",
-  "Version": 27,
-  "TemplateVariableName": "Bahringer, Smitham and Goyette",
-  "HasBeenPublished": true,
-  "MdoListName": "Ullrich-Mitchell",
+  "Version": 691,
+  "TemplateVariableName": "Marvin-Gulgowski",
+  "HasBeenPublished": false,
+  "MdoListName": "Schmeler Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 291
+      "FieldLength": 357
     }
   }
 }

@@ -15,6 +15,10 @@ Return the prompt used to get a short summary of the activities on a sale.
 
 
 Does not call the chatbot for a response. Used for transfering a summary to a chat session.
+NsApiSlow threshold: 2000 ms.
+
+
+## Experimental: ## The AI agent is experimental, subject to change, and not intended for partners.
 
 
 
@@ -82,14 +86,14 @@ OK
 POST /api/v1/Agents/AI/GetSummarizeSalePrompt
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 923,
-  "NumSentences": 397,
-  "Summary": "quibusdam",
-  "IsoLangCode": "est"
+  "SaleId": 522,
+  "NumSentences": 601,
+  "Summary": "saepe",
+  "IsoLangCode": "rerum"
 }
 ```
 
@@ -100,17 +104,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Timestamp": "2018-09-11T03:46:53.9726601+02:00",
-  "UserPrompt": "fugiat",
-  "UserDisplayText": "qui",
-  "BotResponse": "et",
+  "Timestamp": "2002-03-28T02:30:46.4913585+01:00",
+  "UserPrompt": "reprehenderit",
+  "UserDisplayText": "tempore",
+  "BotResponse": "qui",
   "BotActions": {
-    "BotActions1": "sit",
-    "BotActions2": "accusantium"
+    "BotActions1": "libero",
+    "BotActions2": "itaque"
   },
   "Attachments": [
-    "necessitatibus",
-    "doloremque"
+    "saepe",
+    "incidunt"
   ]
 }
 ```

@@ -58,20 +58,20 @@ No Content
 PUT /api/v1/Project/DuplicateRules
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Hirthe-Towne",
-    "DisplayName": "Bahringer LLC",
-    "DisplayTooltip": "et",
+    "Name": "Hintz LLC",
+    "DisplayName": "Donnelly, Botsford and Hettinger",
+    "DisplayTooltip": "omnis",
     "IsActive": false
   },
   {
-    "Name": "Hirthe-Towne",
-    "DisplayName": "Bahringer LLC",
-    "DisplayTooltip": "et",
+    "Name": "Hintz LLC",
+    "DisplayName": "Donnelly, Botsford and Hettinger",
+    "DisplayTooltip": "omnis",
     "IsActive": false
   }
 ]

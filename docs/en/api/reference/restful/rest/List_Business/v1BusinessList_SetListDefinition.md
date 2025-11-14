@@ -85,19 +85,19 @@ OK
 PUT /api/v1/List/Business
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 997,
-  "Name": "Sipes, Labadie and Crona",
-  "Tooltip": "est",
-  "Deleted": false,
-  "Rank": 598,
+  "Id": 377,
+  "Name": "Hessel, Bergnaum and Cummerata",
+  "Tooltip": "officiis",
+  "Deleted": true,
+  "Rank": 304,
   "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "ut",
+  "ListType": "sint",
   "InUseByUserDefinedFields": true
 }
 ```
@@ -109,22 +109,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 231,
-  "Name": "Hauck-Kunze",
-  "Tooltip": "dolorum",
+  "Id": 251,
+  "Name": "Bruen, Tillman and Koelpin",
+  "Tooltip": "sequi",
   "Deleted": false,
-  "Rank": 419,
-  "IsCustomList": false,
-  "IsMDOList": false,
+  "Rank": 535,
+  "IsCustomList": true,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "velit",
-  "InUseByUserDefinedFields": false,
+  "ListType": "veritatis",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 659
+      "FieldLength": 820
     }
   }
 }

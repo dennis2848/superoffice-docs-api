@@ -63,7 +63,7 @@ OK
 GET /api/v1/List/Country/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -74,18 +74,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 327,
-    "Name": "Huel-Heathcote",
-    "Tooltip": "animi",
-    "Deleted": true,
-    "Rank": 27,
-    "UdListDefinitionId": 895,
+    "HeadingId": 517,
+    "Name": "Koepp LLC",
+    "Tooltip": "reiciendis",
+    "Deleted": false,
+    "Rank": 11,
+    "UdListDefinitionId": 674,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 741
+        "FieldLength": 134
       }
     }
   }

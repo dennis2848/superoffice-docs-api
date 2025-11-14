@@ -15,6 +15,7 @@ Method that returns a specified number of appointments of a specific appointment
 
 
 The appointments belong to the person specified.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -139,11 +140,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 343,
+  "PersonId": 23,
   "IncludeProjectAppointments": false,
-  "StartTime": "2004-02-19T03:46:54.2695244+01:00",
-  "EndTime": "2006-07-04T03:46:54.2695244+02:00",
-  "Count": 574,
+  "StartTime": "2007-11-02T02:30:46.7882228+01:00",
+  "EndTime": "2011-06-02T02:30:46.7882228+02:00",
+  "Count": 23,
   "AppointmentType": "BookingForChecklist"
 }
 ```
@@ -156,67 +157,67 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 874,
-    "StartDate": "2008-03-14T03:46:54.2695244+01:00",
-    "EndDate": "2003-07-07T03:46:54.2695244+02:00",
+    "AppointmentId": 821,
+    "StartDate": "2013-03-16T02:30:46.7882228+01:00",
+    "EndDate": "2013-02-12T02:30:46.7882228+01:00",
     "Type": "BookingForChecklist",
-    "Task": "rem",
-    "AssociateFullName": "Mrs. Godfrey Will",
-    "ContactName": "Hudson-Bradtke",
-    "Description": "User-friendly demand-driven website",
-    "PersonFullName": "Ms. Joy O'Connell",
-    "PersonId": 377,
-    "ContactId": 838,
-    "ProjectId": 960,
-    "ProjectName": "Hayes Group",
+    "Task": "similique",
+    "AssociateFullName": "Mrs. Margaretta Goyette DVM",
+    "ContactName": "Fisher-Becker",
+    "Description": "Stand-alone 24 hour concept",
+    "PersonFullName": "Ole Weissnat",
+    "PersonId": 763,
+    "ContactId": 237,
+    "ProjectId": 563,
+    "ProjectName": "Bruen Inc and Sons",
     "IsPublished": true,
-    "AssociateId": 329,
-    "ColorIndex": 745,
+    "AssociateId": 348,
+    "ColorIndex": 330,
     "IsFree": false,
-    "HasAlarm": true,
-    "IsAlldayEvent": false,
+    "HasAlarm": false,
+    "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 815,
-    "PriorityName": "Denesik Inc and Sons",
+    "PriorityId": 766,
+    "PriorityName": "Green-Dach",
     "TaskType": "Appointment",
-    "IsBookingMain": true,
+    "IsBookingMain": false,
     "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "2019-11-20T03:46:54.2695244+01:00",
+    "ActiveDate": "2020-10-31T02:30:46.7882228+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2015-12-27T03:46:54.2695244+01:00",
-    "RecurringEndDate": "2007-07-11T03:46:54.2695244+02:00",
-    "MotherId": 340,
-    "AssignedBy": 373,
-    "AssignedByFullName": "Maryam Goldner",
+    "RecurringStartDate": "2024-12-03T02:30:46.7882228+01:00",
+    "RecurringEndDate": "2008-04-10T02:30:46.7882228+02:00",
+    "MotherId": 224,
+    "AssignedBy": 71,
+    "AssignedByFullName": "Ms. Jerry Guy Wunsch Sr.",
     "RejectReason": "",
-    "Location": "quia",
-    "AlarmLeadTime": "ut",
-    "SaleId": 793,
-    "SaleName": "Osinski-Crooks",
-    "AssociateName": "Kub-Lemke",
-    "CreatedDate": "2019-06-23T03:46:54.2695244+02:00",
-    "CreatedBy": "distinctio",
-    "CreatedByFullName": "Kimberly Kuhn",
-    "CreatedByAssociateId": 521,
+    "Location": "est",
+    "AlarmLeadTime": "provident",
+    "SaleId": 679,
+    "SaleName": "Halvorson, Berge and Rempel",
+    "AssociateName": "Sipes, Bosco and Kuvalis",
+    "CreatedDate": "2020-09-22T02:30:46.7882228+02:00",
+    "CreatedBy": "quibusdam",
+    "CreatedByFullName": "Dana Zulauf",
+    "CreatedByAssociateId": 642,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "OwnedExternally": "Google",
-    "MotherAssociateId": 1000,
+    "MotherAssociateId": 6,
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 5,
-    "Title": "dolorem",
-    "Agenda": "cumque",
-    "InternalNotes": "qui",
+    "PreferredTZLocation": 442,
+    "Title": "possimus",
+    "Agenda": "odit",
+    "InternalNotes": "sed",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 480
+        "FieldType": "System.String",
+        "FieldLength": 52
       }
     }
   }

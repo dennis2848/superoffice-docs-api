@@ -15,6 +15,7 @@ Resynchronize user information with SuperOffice Community, if opted-out then thi
 
 
 The call returns immediately (starting a background thread), and updates CS scheduler table to set the next run time.
+NsApiSlow threshold: 2000 ms.
 
 
 

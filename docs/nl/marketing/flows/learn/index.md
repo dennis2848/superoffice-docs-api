@@ -1,12 +1,15 @@
----
+﻿---
 uid: help-nl-flows
 title: Marketing automatisering - flows
 description: Inleiding tot SuperOffice marketingautomatisering en flows.
 keywords: Marketing, flow, automatisering, klantsegment, klantreis, segment, campaign, succespercentage, succescriteria
 author: Bergfrid Dias, Trude Lien Smedbråten
-date: 09.01.2025
+date: 09.26.2025
 version: 11.3
 content_type: howto
+category: marketing
+topic: flows
+license: marketingpremium
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: nl
@@ -74,8 +77,8 @@ Kies tussen de weergave in **lijst- of tegelmodus** in de rechterbenedenhoek.
 
 | Pictogram | Modus | Beschrijving |
 |:-:|---|---|
-| ![pictogram][img9] | Tegel (miniatuur) | Toont een miniatuur van elke flow met essentiële gegevens. Klik op <i class="ph ph-list" aria-label="Task menu"></i> om de flow te openen, bewerken, kopiëren of verwijderen. |
-| ![pictogram][img8] | Lijst (archief, raster) | Toont een lijst van alle flows met informatie gepresenteerd in kolommen. Je kunt groeperen, filteren en de kolommen aanpassen vergelijkbaar met kolommen in [sectietabbladen][12]. Klik met de rechtermuisknop om het contextmenu te openen om de flow te openen, bewerken, kopiëren of verwijderen. |
+| <i class="ph ph-squares-four" aria-label="2x2 tegels"></i> | Tegel (miniatuur) | Toont een miniatuur van elke flow met essentiële gegevens. Klik op <i class="ph ph-dots-three-circle-vertical" aria-label="Taak menu"></i> om de flow te openen, bewerken, kopiëren of verwijderen. |
+| <i class="ph ph-list" aria-label="Lijst"></i> | Lijst (archief, raster) | Toont een lijst van alle flows met informatie gepresenteerd in kolommen. Je kunt groeperen, filteren en de kolommen aanpassen vergelijkbaar met kolommen in [sectietabbladen][12]. Klik met de rechtermuisknop om het contextmenu te openen om de flow te openen, bewerken, kopiëren of verwijderen. |
 
 ## <a id="view"></a>Het scherm Flow weergeven
 
@@ -150,11 +153,9 @@ Toegang tot flows en flowinhoud wordt beheerd door de rol en [functionele rechte
 [6]: define-flow-actions.md
 [7]: content.md
 [9]: ../../forms/learn/tutorial-contact-me.md
-[11]: ../../../admin/user-management/learn/role/functional-rights.md
+[11]: ../../../admin/user-management/role/functional-rights.md
 [12]: ../../../learn/section-tabs/index.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/marketing/flows-panel.png
 [img2]: ../../../../media/loc/en/marketing/flow-editor-with-step-menu.png
-[img8]: ../../../../../common/icons/view-list.png
-[img9]: ../../../../../common/icons/view-thumbs.png

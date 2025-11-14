@@ -14,6 +14,8 @@ POST /api/v1/Agents/BLOB/GetBlobEntityOnProject
 Gets the blob entity that represents the project image binary object.
 
 
+NsApiSlow threshold: 3000 ms.
+
 
 
 
@@ -86,11 +88,11 @@ OK
 POST /api/v1/Agents/BLOB/GetBlobEntityOnProject
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 752
+  "ProjectId": 676
 }
 ```
 
@@ -101,25 +103,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 205,
-  "BlobSize": 959,
-  "Description": "Fundamental 4th generation data-warehouse",
-  "ExtraInfo": "sed",
-  "IsEncrypted": true,
+  "BlobId": 753,
+  "BlobSize": 135,
+  "Description": "Implemented background ability",
+  "ExtraInfo": "sunt",
+  "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "aut",
-  "OriginalSize": 783,
-  "CreatedDate": "2006-08-15T03:46:54.3163903+02:00",
-  "UpdatedDate": "2002-05-05T03:46:54.3163903+02:00",
+  "MimeType": "facilis",
+  "OriginalSize": 597,
+  "CreatedDate": "2005-04-12T02:30:46.8194719+02:00",
+  "UpdatedDate": "1999-03-23T02:30:46.8194719+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "accusamus",
+  "ConceptualType": "sed",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 380
+      "FieldType": "System.Int32",
+      "FieldLength": 677
     }
   }
 }

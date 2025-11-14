@@ -15,6 +15,7 @@ This method will change all references from one ticket status to another.
 
 
 Typically used in conjuction with delete
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -72,8 +73,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "FromTicketStatusId": 399,
-  "ToTicketStatusId": 43
+  "FromTicketStatusId": 884,
+  "ToTicketStatusId": 835
 }
 ```
 

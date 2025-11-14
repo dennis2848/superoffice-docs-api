@@ -14,6 +14,8 @@ POST /api/v1/Agents/BLOB/CleanupBatchTask
 Removes the binary objects linked to the batch task, the links themselves and the batch task.
 
 
+NsApiSlow threshold: 3000 ms.
+
 
 
 
@@ -69,7 +71,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "BatchTaskId": 409
+  "BatchTaskId": 52
 }
 ```
 

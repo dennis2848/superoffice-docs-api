@@ -15,6 +15,7 @@ Gets a ForeignAppEntity object.
 
 
 Calls the ForeignSystem agent service GetForeignAppEntity.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -89,32 +90,32 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 ForeignAppEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Tue, 09 Jun 2020 03:47:00 G6T
+Last-Modified: Tue, 26 Apr 2005 02:30:52 G4T
 
 {
-  "ForeignAppId": 337,
-  "Name": "Ferry-Pfeffer",
-  "CreatedDate": "2015-09-05T03:47:00.0193121+02:00",
-  "UpdatedDate": "2020-06-09T03:47:00.0193121+02:00",
+  "ForeignAppId": 253,
+  "Name": "McDermott-Metz",
+  "CreatedDate": "2025-07-21T02:30:52.6474115+02:00",
+  "UpdatedDate": "2005-04-26T02:30:52.6474115+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 669,
-      "Name": "Schamberger Inc and Sons",
-      "CreatedDate": "2013-05-04T03:47:00.0193121+02:00",
-      "UpdatedDate": "2004-08-19T03:47:00.0193121+02:00",
-      "AssociateFullName": "Ursula Anderson MD",
-      "CreatedBy": "eos",
-      "UpdatedBy": "dolores",
-      "DeviceIdentifier": "ipsam",
-      "ForeignAppId": 996,
+      "ForeignDeviceId": 761,
+      "Name": "Reichert Group",
+      "CreatedDate": "2015-01-27T02:30:52.6474115+01:00",
+      "UpdatedDate": "2024-10-19T02:30:52.6474115+02:00",
+      "AssociateFullName": "Van Homenick",
+      "CreatedBy": "ad",
+      "UpdatedBy": "ut",
+      "DeviceIdentifier": "atque",
+      "ForeignAppId": 118,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 306
+          "FieldType": "System.Int32",
+          "FieldLength": 299
         }
       }
     }
@@ -123,8 +124,8 @@ Last-Modified: Tue, 09 Jun 2020 03:47:00 G6T
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 923
+      "FieldType": "System.String",
+      "FieldLength": 308
     }
   },
   "_Links": {

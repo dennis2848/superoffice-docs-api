@@ -14,6 +14,8 @@ POST /api/v1/Agents/Targets/GetTargetAssignmentForYearAndDimension
 Returns the target assignment for the specified year, entity type and dimension.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -86,15 +88,15 @@ OK
 POST /api/v1/Agents/Targets/GetTargetAssignmentForYearAndDimension
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetYear": 1000,
+  "TargetYear": 802,
   "EntityType": "None",
   "TargetLevel": "Associate",
-  "Id": 83,
-  "DimensionId": 820
+  "Id": 839,
+  "DimensionId": 196
 }
 ```
 
@@ -105,24 +107,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetAssignmentInfoId": 470,
+  "TargetAssignmentInfoId": 144,
   "Values": [
-    155,
-    520
+    555,
+    71
   ],
-  "Locked": false,
+  "Locked": true,
   "TargetAssociate": null,
   "TargetContact": null,
   "TargetUserGroup": null,
   "Currency": null,
-  "DimensionListItem": 179,
-  "DimensionListItemDisplayName": "Nikolaus-Ebert",
+  "DimensionListItem": 36,
+  "DimensionListItemDisplayName": "Kreiger-Heidenreich",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 8
+      "FieldLength": 63
     }
   }
 }

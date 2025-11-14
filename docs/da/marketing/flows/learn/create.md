@@ -1,12 +1,15 @@
----
+﻿---
 uid: help-da-flow-create
 title: Opret et nyt flow
 description: Opret et nyt flow
 keywords: Marketing, flow
 author: Bergfrid Dias, Trude Lien Smedbråten
-date: 09.01.2025
+date: 09.26.2025
 version: 11.3
 content_type: howto
+category: marketing
+topic: flows
+license: marketingpremium
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: da
@@ -223,7 +226,7 @@ Efter at have designet et flow og gemt det, lukkes **Floweditoen**, og flowdiagr
 [7]: index.md#success
 [9]: step-settings.md
 [8]: ../../learn/create-folder.md
-[12]: ../../../admin/lists/learn/add-items-to-mailing-domain.md
+[12]: ../../mailing/admin/add-domain.md
 [13]: ../../../search-options/learn/search-criteria.md
 [14]: ../../../search-options/selection/learn/index.md
 

@@ -85,19 +85,19 @@ OK
 PUT /api/v1/List/Category
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 822,
-  "Name": "Jaskolski LLC",
-  "Tooltip": "ullam",
+  "Id": 538,
+  "Name": "Kihn-Upton",
+  "Tooltip": "quaerat",
   "Deleted": false,
-  "Rank": 817,
-  "IsCustomList": true,
-  "IsMDOList": false,
+  "Rank": 161,
+  "IsCustomList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "ullam",
+  "ListType": "aut",
   "InUseByUserDefinedFields": true
 }
 ```
@@ -109,22 +109,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 850,
-  "Name": "Ullrich, Yundt and Schroeder",
-  "Tooltip": "voluptas",
-  "Deleted": true,
-  "Rank": 706,
+  "Id": 208,
+  "Name": "Christiansen LLC",
+  "Tooltip": "enim",
+  "Deleted": false,
+  "Rank": 327,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "qui",
-  "InUseByUserDefinedFields": false,
+  "ListType": "voluptatibus",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 358
+      "FieldLength": 243
     }
   }
 }

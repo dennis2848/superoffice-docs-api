@@ -14,6 +14,9 @@ POST /api/v1/Agents/CRMScript/ResolveIncludes
 Will resolve all includes for a TypeScript and return an array of the IDs
 
 
+NsApiSlow threshold: 5000 ms.
+
+
 ## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 
@@ -72,11 +75,11 @@ OK
 POST /api/v1/Agents/CRMScript/ResolveIncludes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Script": "odit",
+  "Script": "aut",
   "IgnoreErrors": false
 }
 ```
@@ -88,7 +91,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  398,
-  156
+  40,
+  904
 ]
 ```

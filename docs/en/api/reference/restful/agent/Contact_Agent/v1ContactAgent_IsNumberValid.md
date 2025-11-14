@@ -15,6 +15,7 @@ Checks if the number is unique or required.
 
 
 The setting is configured from admin under system options.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -72,12 +73,12 @@ OK
 POST /api/v1/Agents/Contact/IsNumberValid
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 376,
-  "Number": "506791"
+  "ContactId": 675,
+  "Number": "693400"
 }
 ```
 

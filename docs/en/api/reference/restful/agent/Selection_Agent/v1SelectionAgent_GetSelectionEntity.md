@@ -14,6 +14,8 @@ POST /api/v1/Agents/Selection/GetSelectionEntity
 Gets a SelectionEntity object.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -27,7 +29,7 @@ Gets a SelectionEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Selection/GetSelectionEntity?selectionEntityId=329
+POST /api/v1/Agents/Selection/GetSelectionEntity?selectionEntityId=381
 POST /api/v1/Agents/Selection/GetSelectionEntity?$select=name,department,category/id
 ```
 
@@ -108,7 +110,7 @@ OK
 POST /api/v1/Agents/Selection/GetSelectionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -118,70 +120,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Profit-focused solution-oriented success",
-  "Postit": "iure",
+  "Description": "Operative holistic hardware",
+  "Postit": "natus",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 176,
-  "IncludePerson": 739,
+  "GroupIdx": 516,
+  "IncludePerson": 869,
   "MemberCount": 99.99,
-  "Name": "Boyle-Hudson",
-  "PostitTextId": 883,
-  "CreatedDate": "2007-07-14T03:46:55.3007553+02:00",
-  "SelectionId": 451,
-  "SoundEx": "magnam",
-  "Source": 815,
-  "TextId": 867,
-  "UpdatedDate": "2006-12-22T03:46:55.3007553+01:00",
-  "UpdatedCount": 943,
-  "Visibility": 908,
+  "Name": "Jast, DuBuque and Mann",
+  "PostitTextId": 966,
+  "CreatedDate": "2000-02-17T02:30:47.819441+01:00",
+  "SelectionId": 721,
+  "SoundEx": "ut",
+  "Source": 682,
+  "TextId": 730,
+  "UpdatedDate": "2003-09-26T02:30:47.819441+02:00",
+  "UpdatedCount": 630,
+  "Visibility": 82,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 285,
-  "TargetTableName": "Cassin Group",
+  "TargetTableNumber": 767,
+  "TargetTableName": "Zieme LLC",
   "Completed": false,
-  "LeftSelectionId": 237,
-  "RightSelectionId": 221,
+  "LeftSelectionId": 823,
+  "RightSelectionId": 1000,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Spencer, Corwin and Gleason",
-  "ShadowProviderName": "Daniel Group",
-  "ChartKey": "impedit",
-  "LastLoaded": "2000-09-07T03:46:55.3007553+02:00",
-  "LastLoadedBy": 134,
+  "MainProviderName": "Franecki-Goyette",
+  "ShadowProviderName": "Gislason LLC",
+  "ChartKey": "inventore",
+  "LastLoaded": "2025-08-28T02:30:47.819441+02:00",
+  "LastLoadedBy": 953,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2003-11-26T03:46:55.3007553+01:00",
-  "LastMembershipChangeBy": 446,
+  "LastMembershipChange": "2019-10-20T02:30:47.819441+02:00",
+  "LastMembershipChangeBy": 165,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "sed",
-  "MemberTabHeading": "dolorum",
-  "MailingsProviderName": "Greenfelder Inc and Sons",
-  "DashboardTileDefinitionId": 501,
+  "MainHeading": "nobis",
+  "MemberTabHeading": "ut",
+  "MailingsProviderName": "Balistreri Group",
+  "DashboardTileDefinitionId": 180,
   "VisibleFor": [
     {
-      "VisibleId": 209,
+      "VisibleId": 932,
       "Visibility": "All",
-      "DisplayValue": "facilis",
+      "DisplayValue": "tenetur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 593
+          "FieldLength": 781
         }
       }
     },
     {
-      "VisibleId": 209,
+      "VisibleId": 932,
       "Visibility": "All",
-      "DisplayValue": "facilis",
+      "DisplayValue": "tenetur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 593
+          "FieldLength": 781
         }
       }
     }
@@ -191,7 +193,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 705
+      "FieldLength": 282
     }
   }
 }

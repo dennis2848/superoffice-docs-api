@@ -98,47 +98,47 @@ OK
 PUT /api/v1/List/Position/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 432,
-    "Name": "Dietrich LLC",
-    "ToolTip": "Nihil harum.",
+    "Id": 231,
+    "Name": "Renner-Hilpert",
+    "ToolTip": "Sit ea.",
     "Deleted": false,
-    "Rank": 883,
-    "Type": "quam",
-    "ColorBlock": 774,
-    "IconHint": "et",
-    "Selected": true,
-    "LastChanged": "2007-02-28T03:47:00.7067961+01:00",
+    "Rank": 979,
+    "Type": "reiciendis",
+    "ColorBlock": 521,
+    "IconHint": "ipsam",
+    "Selected": false,
+    "LastChanged": "1998-07-22T02:30:53.3348881+02:00",
     "ChildItems": [
       {
-        "Id": 764,
-        "Name": "Gislason, Mertz and Gulgowski",
-        "ToolTip": "Voluptas quo nihil nostrum illo eaque et.",
-        "Deleted": false,
-        "Rank": 822,
-        "Type": "inventore",
-        "ColorBlock": 493,
-        "IconHint": "commodi",
-        "Selected": false,
-        "LastChanged": "2005-11-25T03:47:00.7067961+01:00",
+        "Id": 458,
+        "Name": "Jacobson-Bruen",
+        "ToolTip": "Et et.",
+        "Deleted": true,
+        "Rank": 227,
+        "Type": "nihil",
+        "ColorBlock": 222,
+        "IconHint": "qui",
+        "Selected": true,
+        "LastChanged": "2015-04-20T02:30:53.3348881+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "maxime",
-        "StyleHint": "rem",
-        "Hidden": false,
-        "FullName": "Hannah Kreiger"
+        "ExtraInfo": "blanditiis",
+        "StyleHint": "sed",
+        "Hidden": true,
+        "FullName": "Jamarcus O'Reilly"
       }
     ],
-    "ExtraInfo": "incidunt",
-    "StyleHint": "cum",
+    "ExtraInfo": "autem",
+    "StyleHint": "nihil",
     "Hidden": false,
-    "FullName": "Mrs. Schuyler Verdie Parisian"
+    "FullName": "Mervin Romaguera"
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 976,
-    "Name": "Hickle, Farrell and Harvey",
-    "ToolTip": "Tempore neque.",
+    "Id": 660,
+    "Name": "Gulgowski-Wisoky",
+    "ToolTip": "Harum voluptatem ea quos corrupti adipisci quia.",
     "Deleted": false,
-    "Rank": 812,
-    "Type": "saepe",
-    "ColorBlock": 486,
-    "IconHint": "ea",
+    "Rank": 689,
+    "Type": "esse",
+    "ColorBlock": 241,
+    "IconHint": "qui",
     "Selected": false,
-    "LastChanged": "2014-04-01T03:47:00.7067961+02:00",
+    "LastChanged": "2005-01-22T02:30:53.3348881+01:00",
     "ChildItems": [
       {
-        "Id": 129,
-        "Name": "Schuster-Friesen",
-        "ToolTip": "At omnis deserunt in quibusdam.",
-        "Deleted": false,
-        "Rank": 69,
-        "Type": "aspernatur",
-        "ColorBlock": 444,
-        "IconHint": "deleniti",
-        "Selected": true,
-        "LastChanged": "1999-10-20T03:47:00.7067961+02:00",
+        "Id": 732,
+        "Name": "Fay Group",
+        "ToolTip": "Cumque aut expedita voluptatum autem repudiandae officia.",
+        "Deleted": true,
+        "Rank": 662,
+        "Type": "quidem",
+        "ColorBlock": 815,
+        "IconHint": "architecto",
+        "Selected": false,
+        "LastChanged": "2005-08-08T02:30:53.3348881+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quae",
-        "StyleHint": "laboriosam",
-        "Hidden": true,
-        "FullName": "Henri Hoppe",
+        "ExtraInfo": "maiores",
+        "StyleHint": "rerum",
+        "Hidden": false,
+        "FullName": "Devante Mann",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 819
+            "FieldLength": 584
           }
         }
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "pariatur",
-    "Hidden": true,
-    "FullName": "Vicenta Halvorson",
+    "ExtraInfo": "fuga",
+    "StyleHint": "aliquam",
+    "Hidden": false,
+    "FullName": "Miss Walker Marcus Kiehn DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 181
+        "FieldLength": 666
       }
     }
   }

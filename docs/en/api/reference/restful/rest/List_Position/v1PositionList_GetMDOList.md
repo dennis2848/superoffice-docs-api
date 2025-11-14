@@ -28,7 +28,7 @@ Get the MDO list items for "PersPos" - with headings and filtering by user group
 
 ```http
 GET /api/v1/List/Position/MDOItems?flat=False
-GET /api/v1/List/Position/MDOItems?query=nihil
+GET /api/v1/List/Position/MDOItems?query=voluptatem
 ```
 
 
@@ -79,7 +79,7 @@ OK
 GET /api/v1/List/Position/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -90,50 +90,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 204,
-    "Name": "Rutherford LLC",
-    "ToolTip": "Nihil architecto amet perferendis suscipit dolores.",
+    "Id": 433,
+    "Name": "Mohr-Swaniawski",
+    "ToolTip": "Quos architecto.",
     "Deleted": false,
-    "Rank": 616,
-    "Type": "sit",
+    "Rank": 4,
+    "Type": "necessitatibus",
     "ChildItems": [
       {
-        "Id": 932,
-        "Name": "Leuschke-Bode",
-        "ToolTip": "Dolores dolores deserunt ut officiis.",
-        "Deleted": false,
-        "Rank": 788,
-        "Type": "repellat",
+        "Id": 780,
+        "Name": "Balistreri Inc and Sons",
+        "ToolTip": "Velit impedit aliquid ea id sint animi.",
+        "Deleted": true,
+        "Rank": 960,
+        "Type": "exercitationem",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "nulla",
-        "ColorBlock": 55,
-        "ExtraInfo": "error",
-        "StyleHint": "optio",
-        "FullName": "Janick Waldo Williamson IV",
+        "IconHint": "facere",
+        "ColorBlock": 314,
+        "ExtraInfo": "quisquam",
+        "StyleHint": "magnam",
+        "FullName": "Dr. Alisha Ullrich",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 662
+            "FieldType": "System.Int32",
+            "FieldLength": 393
           }
         }
       }
     ],
-    "IconHint": "blanditiis",
-    "ColorBlock": 618,
-    "ExtraInfo": "est",
-    "StyleHint": "vero",
-    "FullName": "Kasandra Sawayn",
+    "IconHint": "deleniti",
+    "ColorBlock": 906,
+    "ExtraInfo": "numquam",
+    "StyleHint": "eos",
+    "FullName": "Jedidiah O'Kon",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 497
+        "FieldType": "System.Int32",
+        "FieldLength": 790
       }
     }
   }

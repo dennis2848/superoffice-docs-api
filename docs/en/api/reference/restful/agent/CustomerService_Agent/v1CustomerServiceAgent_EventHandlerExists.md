@@ -14,6 +14,8 @@ POST /api/v1/Agents/CustomerService/EventHandlerExists
 Check if an eventhandler exists for a given enum
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -69,7 +71,7 @@ OK
 POST /api/v1/Agents/CustomerService/EventHandlerExists
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {

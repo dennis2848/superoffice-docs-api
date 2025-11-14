@@ -15,6 +15,7 @@ Method that returns appointments of a specific appointment task heading.
 
 
 Task represents the different types of activities, like “Phone call”, “Meeting” and so on. The heading represents a grouping or filtering of tasks.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -134,7 +135,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskHeadingId": 521
+  "TaskHeadingId": 659
 }
 ```
 
@@ -146,67 +147,67 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 233,
-    "StartDate": "2019-05-15T03:46:54.0039095+02:00",
-    "EndDate": "2024-06-13T03:46:54.0039095+02:00",
+    "AppointmentId": 202,
+    "StartDate": "2011-03-03T02:30:46.522607+01:00",
+    "EndDate": "2023-11-24T02:30:46.522607+01:00",
     "Type": "BookingForChecklist",
-    "Task": "consequatur",
-    "AssociateFullName": "Ora Considine",
-    "ContactName": "Ruecker Group",
-    "Description": "Programmable interactive algorithm",
-    "PersonFullName": "Colt Rath",
-    "PersonId": 318,
-    "ContactId": 815,
-    "ProjectId": 811,
-    "ProjectName": "Bergnaum-Borer",
-    "IsPublished": true,
-    "AssociateId": 629,
-    "ColorIndex": 1002,
-    "IsFree": true,
+    "Task": "sed",
+    "AssociateFullName": "Addie Mayert",
+    "ContactName": "Schimmel-Cassin",
+    "Description": "Profit-focused analyzing knowledge user",
+    "PersonFullName": "Ms. Lauriane Bartell I",
+    "PersonId": 69,
+    "ContactId": 899,
+    "ProjectId": 819,
+    "ProjectName": "Block LLC",
+    "IsPublished": false,
+    "AssociateId": 179,
+    "ColorIndex": 407,
+    "IsFree": false,
     "HasAlarm": false,
-    "IsAlldayEvent": false,
+    "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 938,
-    "PriorityName": "Jenkins-Stehr",
+    "PriorityId": 458,
+    "PriorityName": "Keeling, Haag and Toy",
     "TaskType": "Appointment",
     "IsBookingMain": false,
     "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "2022-02-12T03:46:54.0039095+01:00",
+    "ActiveDate": "2017-07-10T02:30:46.522607+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "1998-12-06T03:46:54.0039095+01:00",
-    "RecurringEndDate": "2003-05-27T03:46:54.0039095+02:00",
-    "MotherId": 797,
-    "AssignedBy": 294,
-    "AssignedByFullName": "Ottis Leuschke",
+    "RecurringStartDate": "2008-07-14T02:30:46.522607+02:00",
+    "RecurringEndDate": "2024-07-29T02:30:46.522607+02:00",
+    "MotherId": 359,
+    "AssignedBy": 288,
+    "AssignedByFullName": "Krystina Conn",
     "RejectReason": "",
-    "Location": "perferendis",
-    "AlarmLeadTime": "voluptatum",
-    "SaleId": 971,
-    "SaleName": "Wilderman LLC",
-    "AssociateName": "VonRueden, Williamson and McGlynn",
-    "CreatedDate": "2010-04-05T03:46:54.0039095+02:00",
-    "CreatedBy": "doloremque",
-    "CreatedByFullName": "Miss Tracey Lind",
-    "CreatedByAssociateId": 515,
+    "Location": "occaecati",
+    "AlarmLeadTime": "corrupti",
+    "SaleId": 766,
+    "SaleName": "Rippin-Corkery",
+    "AssociateName": "Kohler, Mraz and Wuckert",
+    "CreatedDate": "2001-01-06T02:30:46.522607+01:00",
+    "CreatedBy": "nostrum",
+    "CreatedByFullName": "Mozell Wintheiser",
+    "CreatedByAssociateId": 506,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "OwnedExternally": "Google",
-    "MotherAssociateId": 404,
+    "MotherAssociateId": 287,
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 295,
-    "Title": "veritatis",
-    "Agenda": "fugiat",
-    "InternalNotes": "quos",
+    "PreferredTZLocation": 519,
+    "Title": "a",
+    "Agenda": "ducimus",
+    "InternalNotes": "maiores",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 14
+        "FieldLength": 953
       }
     }
   }

@@ -85,20 +85,20 @@ OK
 PUT /api/v1/List/Task
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 337,
-  "Name": "Orn-Feil",
-  "Tooltip": "eligendi",
+  "Id": 920,
+  "Name": "Donnelly, Waelchi and Hackett",
+  "Tooltip": "tempore",
   "Deleted": true,
-  "Rank": 434,
-  "IsCustomList": false,
-  "IsMDOList": false,
+  "Rank": 756,
+  "IsCustomList": true,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "ratione",
-  "InUseByUserDefinedFields": true
+  "ListType": "eaque",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -109,22 +109,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 316,
-  "Name": "Von, Wintheiser and Reichel",
-  "Tooltip": "quod",
+  "Id": 997,
+  "Name": "Shanahan, Kris and Schuster",
+  "Tooltip": "voluptatum",
   "Deleted": true,
-  "Rank": 771,
-  "IsCustomList": true,
+  "Rank": 965,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "sapiente",
-  "InUseByUserDefinedFields": true,
+  "ListType": "veniam",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 625
+      "FieldLength": 681
     }
   }
 }

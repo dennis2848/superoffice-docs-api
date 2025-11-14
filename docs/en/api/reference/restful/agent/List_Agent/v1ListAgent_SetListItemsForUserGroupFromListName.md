@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/SetListItemsForUserGroupFromListName
 Update listItems that will be visible for this usergroup
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -68,15 +70,15 @@ No Content
 POST /api/v1/Agents/List/SetListItemsForUserGroupFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Conroy, Metz and Bogisich",
-  "UsergroupId": 527,
+  "UdListDefinitionName": "Corkery-Batz",
+  "UsergroupId": 383,
   "ListItemsID": [
-    585,
-    934
+    620,
+    681
   ],
   "Enable": false
 }

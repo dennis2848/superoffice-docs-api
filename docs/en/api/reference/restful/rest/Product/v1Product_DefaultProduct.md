@@ -15,6 +15,7 @@ Set default values into a new Product.
 
 
 NetServer calculates default values on the entity, which is required when creating/storing a new instance Calls the Quote agent service CreateDefaultProduct.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -91,7 +92,7 @@ OK
 GET /api/v1/Product/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -101,73 +102,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 601,
-  "ERPProductKey": "pariatur",
-  "ERPPriceListKey": "eos",
-  "Name": "Kozey Inc and Sons",
-  "Description": "Balanced motivating archive",
-  "Code": "architecto",
-  "PriceUnit": "ut",
-  "QuantityUnit": "culpa",
-  "IsSubscription": true,
-  "SubscriptionUnit": "repellendus",
-  "DefaultSubscriptionQuantity": 19929.106,
-  "ItemNumber": "1035505",
+  "ProductId": 893,
+  "ERPProductKey": "molestiae",
+  "ERPPriceListKey": "nihil",
+  "Name": "Walker Inc and Sons",
+  "Description": "Reverse-engineered zero defect definition",
+  "Code": "deleniti",
+  "PriceUnit": "soluta",
+  "QuantityUnit": "aut",
+  "IsSubscription": false,
+  "SubscriptionUnit": "inventore",
+  "DefaultSubscriptionQuantity": 11084.958,
+  "ItemNumber": "849371",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "cum",
-  "ProductTypeKey": "officiis",
-  "VAT": 1009.1479999999999,
-  "VATInfo": "placeat",
-  "UnitCost": 21088.685999999998,
-  "UnitMinimumPrice": 23771.39,
-  "UnitListPrice": 22818.654,
+  "ProductFamilyKey": "dolores",
+  "ProductTypeKey": "tempore",
+  "VAT": 14642.047999999999,
+  "VATInfo": "nesciunt",
+  "UnitCost": 13748.858,
+  "UnitMinimumPrice": 22041.422,
+  "UnitListPrice": 10639.93,
   "InAssortment": false,
-  "Supplier": "nihil",
-  "SupplierCode": "distinctio",
-  "Rights": "rem",
-  "Rule": "et",
+  "Supplier": "natus",
+  "SupplierCode": "et",
+  "Rights": "ad",
+  "Rule": "dolor",
   "ExtraInfo": [
     {
-      "Name": "Emmerich Inc and Sons",
-      "Value": "rem",
+      "Name": "Kilback Group",
+      "Value": "ad",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 398
+          "FieldLength": 554
         }
       }
     },
     {
-      "Name": "Emmerich Inc and Sons",
-      "Value": "rem",
+      "Name": "Kilback Group",
+      "Value": "ad",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 398
+          "FieldLength": 554
         }
       }
     }
   ],
-  "RawExtraInfo": "dicta",
-  "ExtraField1": "corporis",
-  "ExtraField2": "dolores",
-  "ExtraField3": "maiores",
-  "ExtraField4": "autem",
-  "ExtraField5": "impedit",
-  "InStock": 24673.982,
+  "RawExtraInfo": "est",
+  "ExtraField1": "commodi",
+  "ExtraField2": "id",
+  "ExtraField3": "incidunt",
+  "ExtraField4": "inventore",
+  "ExtraField5": "eum",
+  "InStock": 15673.134,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 366
+      "FieldType": "System.String",
+      "FieldLength": 908
     }
   }
 }

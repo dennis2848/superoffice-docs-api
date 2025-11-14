@@ -76,7 +76,7 @@ OK
 GET /api/v1/List/Category/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -87,56 +87,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 985,
-    "Name": "Murazik, Gleason and Tromp",
-    "ToolTip": "Culpa rerum.",
+    "Id": 753,
+    "Name": "Monahan Inc and Sons",
+    "ToolTip": "Expedita quis doloremque debitis.",
     "Deleted": false,
-    "Rank": 509,
-    "Type": "soluta",
-    "ColorBlock": 74,
+    "Rank": 122,
+    "Type": "et",
+    "ColorBlock": 312,
     "IconHint": "qui",
-    "Selected": true,
-    "LastChanged": "2022-05-09T03:47:00.5818006+02:00",
+    "Selected": false,
+    "LastChanged": "2013-08-22T02:30:53.2098926+02:00",
     "ChildItems": [
       {
-        "Id": 86,
-        "Name": "McClure Group",
-        "ToolTip": "Eum laboriosam tempora provident dolore aperiam.",
-        "Deleted": true,
-        "Rank": 412,
-        "Type": "aut",
-        "ColorBlock": 526,
-        "IconHint": "harum",
-        "Selected": true,
-        "LastChanged": "2013-09-25T03:47:00.5818006+02:00",
+        "Id": 658,
+        "Name": "Adams LLC",
+        "ToolTip": "Omnis quisquam quia molestias totam.",
+        "Deleted": false,
+        "Rank": 233,
+        "Type": "eaque",
+        "ColorBlock": 24,
+        "IconHint": "ullam",
+        "Selected": false,
+        "LastChanged": "2014-07-29T02:30:53.2098926+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "minus",
-        "StyleHint": "et",
+        "ExtraInfo": "et",
+        "StyleHint": "magnam",
         "Hidden": false,
-        "FullName": "Ms. Lura Brayan Bergstrom",
+        "FullName": "Justus Ritchie",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 55
+            "FieldLength": 393
           }
         }
       }
     ],
-    "ExtraInfo": "asperiores",
-    "StyleHint": "ut",
+    "ExtraInfo": "quia",
+    "StyleHint": "voluptatem",
     "Hidden": false,
-    "FullName": "Lorenza Stamm DVM",
+    "FullName": "Mr. Felipe Lorna Wehner",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 859
+        "FieldLength": 666
       }
     }
   }

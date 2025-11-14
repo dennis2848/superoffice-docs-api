@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/CreateDefaultListItemEntity
 Loading default values into a new ListItemEntity.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -71,18 +73,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 110,
-  "Name": "Watsica, Schroeder and Spinka",
-  "Tooltip": "adipisci",
-  "Deleted": false,
-  "UdListDefinitionId": 366,
-  "Rank": 389,
+  "Id": 842,
+  "Name": "Terry, West and Murphy",
+  "Tooltip": "et",
+  "Deleted": true,
+  "UdListDefinitionId": 238,
+  "Rank": 5,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 99
+      "FieldType": "System.String",
+      "FieldLength": 49
     }
   }
 }

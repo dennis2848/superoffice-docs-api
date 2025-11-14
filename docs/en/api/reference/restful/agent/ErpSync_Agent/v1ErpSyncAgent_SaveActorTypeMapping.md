@@ -14,6 +14,9 @@ POST /api/v1/Agents/ErpSync/SaveActorTypeMapping
 Save mappings for a connection/actor
 
 
+NsApiSlow threshold: 5000 ms.
+
+
 ## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
 
 
@@ -80,7 +83,7 @@ OK
 POST /api/v1/Agents/ErpSync/SaveActorTypeMapping
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -95,33 +98,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 840,
+  "ErpConnectionId": 892,
   "IsActive": false,
   "FieldMappings": [
     {
-      "ErpFieldId": 713,
-      "CrmFieldKey": "quis",
-      "CrmDisplayName": "Becker Group",
-      "CrmDisplayTooltip": "porro",
-      "ErpFieldKey": "commodi",
+      "ErpFieldId": 684,
+      "CrmFieldKey": "iusto",
+      "CrmDisplayName": "Rosenbaum, Nader and Becker",
+      "CrmDisplayTooltip": "tempora",
+      "ErpFieldKey": "sit",
       "FieldType": "Checkbox",
-      "ErpDisplayName": "Kuvalis Group",
-      "ErpDisplayTooltip": "expedita",
-      "SyncToCrm": false,
-      "SyncToErp": true,
-      "ShowInGui": false,
-      "ShowInSearch": true,
-      "AlreadyMapped": true,
+      "ErpDisplayName": "Windler-Schimmel",
+      "ErpDisplayTooltip": "et",
+      "SyncToCrm": true,
+      "SyncToErp": false,
+      "ShowInGui": true,
+      "ShowInSearch": false,
+      "AlreadyMapped": false,
       "MissingInERP": true,
       "MissingInCRM": true,
       "Access": "Mandatory",
-      "ListReference": "autem",
+      "ListReference": "adipisci",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 701
+          "FieldLength": 613
         }
       }
     }
@@ -133,7 +136,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 69
+      "FieldLength": 102
     }
   }
 }

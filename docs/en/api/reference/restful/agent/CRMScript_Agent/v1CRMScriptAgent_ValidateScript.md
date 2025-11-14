@@ -15,6 +15,7 @@ Validate a CRMScript.
 
 
 This will check that the syntax is correct
+NsApiSlow threshold: 5000 ms.
 
 
 ## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
@@ -85,11 +86,11 @@ OK
 POST /api/v1/Agents/CRMScript/ValidateScript
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "CRMScriptId": 798
+  "CRMScriptId": 180
 }
 ```
 
@@ -101,30 +102,30 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Valid": false,
-  "ErrorMessage": "voluptas",
-  "LineNumber": 57,
+  "ErrorMessage": "vel",
+  "LineNumber": 200,
   "ErrorInformation": null,
-  "Transpiled": "quas",
+  "Transpiled": "ut",
   "Includes": [
-    574,
-    20
+    868,
+    642
   ],
   "SourceMaps": [
     {
-      "LineNumberFrom": 332,
-      "LineNumberTo": 340,
-      "Delta": 579,
-      "IncludeId": "illo",
+      "LineNumberFrom": 508,
+      "LineNumberTo": 820,
+      "Delta": 950,
+      "IncludeId": "neque",
       "IncludedFrom": [
-        "et",
-        "sint"
+        "voluptatem",
+        "est"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 367
+          "FieldLength": 142
         }
       }
     }
@@ -133,8 +134,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 915
+      "FieldType": "System.String",
+      "FieldLength": 786
     }
   }
 }

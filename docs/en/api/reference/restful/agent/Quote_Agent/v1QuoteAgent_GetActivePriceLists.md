@@ -15,6 +15,7 @@ Gets the available active PriceLists in a specific currency.
 
 
 Will return empty array if there is no PriceList with the stated currency available.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -90,8 +91,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 995,
-  "Currency": "nam"
+  "QuoteConnectionId": 792,
+  "Currency": "cupiditate"
 }
 ```
 
@@ -103,22 +104,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 931,
-    "ERPPriceListKey": "et",
-    "QuoteConnectionId": 56,
-    "Name": "Cole-Jacobson",
-    "Description": "Re-contextualized uniform monitoring",
-    "Currency": "ab",
-    "CurrencyName": "Mann, Ryan and Streich",
-    "ValidFrom": "2000-06-27T03:46:55.2226157+02:00",
-    "ValidTo": "2016-02-29T03:46:55.2226157+01:00",
+    "PriceListId": 60,
+    "ERPPriceListKey": "dolor",
+    "QuoteConnectionId": 835,
+    "Name": "Lehner-Haley",
+    "Description": "Integrated system-worthy alliance",
+    "Currency": "sit",
+    "CurrencyName": "Batz, Graham and Muller",
+    "ValidFrom": "2019-07-02T02:30:47.7256947+02:00",
+    "ValidTo": "2001-01-01T02:30:47.7256947+01:00",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 582
+        "FieldType": "System.Int32",
+        "FieldLength": 409
       }
     }
   }

@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/SaveHierarchyEntity
 Updates the existing HierarchyEntity or creates a new HierarchyEntity if the id parameter is 0.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -82,36 +84,36 @@ OK
 POST /api/v1/Agents/List/SaveHierarchyEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 268,
+  "HierarchyId": 728,
   "Domain": "Dashboards",
-  "Name": "Moore Inc and Sons",
+  "Name": "Schultz Group",
   "Fullname": "et",
-  "ParentId": 4,
+  "ParentId": 264,
   "Children": [
     {
-      "HierarchyId": 486,
+      "HierarchyId": 183,
       "Domain": "Dashboards",
-      "Name": "Lubowitz-Jast",
-      "Fullname": "vel",
-      "ParentId": 378,
+      "Name": "Blick-Heller",
+      "Fullname": "beatae",
+      "ParentId": 988,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2008-02-04T03:46:54.9726245+01:00",
-      "RegisteredAssociateId": 237,
-      "Updated": "2020-01-16T03:46:54.9726245+01:00",
-      "UpdatedAssociateId": 361
+      "Registered": "2001-07-28T02:30:47.4288293+02:00",
+      "RegisteredAssociateId": 178,
+      "Updated": "2021-10-22T02:30:47.4288293+02:00",
+      "UpdatedAssociateId": 84
     }
   ],
-  "Registered": "2001-01-17T03:46:54.9726245+01:00",
-  "RegisteredAssociateId": 847,
-  "Updated": "2011-09-06T03:46:54.9726245+02:00",
-  "UpdatedAssociateId": 894
+  "Registered": "2013-05-14T02:30:47.4288293+02:00",
+  "RegisteredAssociateId": 408,
+  "Updated": "1998-11-05T02:30:47.4288293+01:00",
+  "UpdatedAssociateId": 483
 }
 ```
 
@@ -122,46 +124,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 162,
+  "HierarchyId": 159,
   "Domain": "Dashboards",
-  "Name": "Hodkiewicz, Johnson and Kerluke",
-  "Fullname": "ducimus",
-  "ParentId": 713,
+  "Name": "Ortiz-Leuschke",
+  "Fullname": "sed",
+  "ParentId": 199,
   "Children": [
     {
-      "HierarchyId": 311,
+      "HierarchyId": 964,
       "Domain": "Dashboards",
-      "Name": "Collins, Mayer and Feeney",
-      "Fullname": "necessitatibus",
-      "ParentId": 386,
+      "Name": "Runolfsdottir-Denesik",
+      "Fullname": "voluptatum",
+      "ParentId": 167,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2003-02-06T03:46:54.9726245+01:00",
-      "RegisteredAssociateId": 357,
-      "Updated": "2024-07-30T03:46:54.9726245+02:00",
-      "UpdatedAssociateId": 734,
+      "Registered": "2013-10-09T02:30:47.4288293+02:00",
+      "RegisteredAssociateId": 943,
+      "Updated": "1999-03-31T02:30:47.4288293+02:00",
+      "UpdatedAssociateId": 862,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 100
+          "FieldType": "System.Int32",
+          "FieldLength": 397
         }
       }
     }
   ],
-  "Registered": "2008-11-23T03:46:54.9726245+01:00",
-  "RegisteredAssociateId": 480,
-  "Updated": "2007-04-12T03:46:54.9726245+02:00",
-  "UpdatedAssociateId": 439,
+  "Registered": "2023-11-19T02:30:47.4288293+01:00",
+  "RegisteredAssociateId": 165,
+  "Updated": "2014-01-05T02:30:47.4288293+01:00",
+  "UpdatedAssociateId": 171,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 292
+      "FieldLength": 947
     }
   }
 }

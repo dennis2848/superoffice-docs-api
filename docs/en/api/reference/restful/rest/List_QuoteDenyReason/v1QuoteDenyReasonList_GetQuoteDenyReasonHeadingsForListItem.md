@@ -32,7 +32,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/QuoteDenyReason/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/QuoteDenyReason/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -86,7 +86,7 @@ OK
 GET /api/v1/List/QuoteDenyReason/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -97,56 +97,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 265,
-    "Name": "Koss-Grady",
-    "ToolTip": "Recusandae quidem qui voluptatibus et impedit sed quam.",
+    "Id": 894,
+    "Name": "Buckridge-Ledner",
+    "ToolTip": "Officiis molestiae eveniet vero.",
     "Deleted": true,
-    "Rank": 463,
-    "Type": "fugit",
-    "ColorBlock": 792,
-    "IconHint": "ad",
+    "Rank": 285,
+    "Type": "qui",
+    "ColorBlock": 133,
+    "IconHint": "eos",
     "Selected": false,
-    "LastChanged": "2024-04-17T03:47:00.7692942+02:00",
+    "LastChanged": "2017-01-15T02:30:53.3973865+01:00",
     "ChildItems": [
       {
-        "Id": 472,
-        "Name": "Bednar, Schamberger and Wilkinson",
-        "ToolTip": "Et sunt ut accusantium impedit.",
+        "Id": 170,
+        "Name": "Schaden LLC",
+        "ToolTip": "Aut dolor iusto et aut dolorum est placeat.",
         "Deleted": false,
-        "Rank": 856,
-        "Type": "omnis",
-        "ColorBlock": 204,
-        "IconHint": "voluptatibus",
+        "Rank": 643,
+        "Type": "libero",
+        "ColorBlock": 135,
+        "IconHint": "quidem",
         "Selected": false,
-        "LastChanged": "2011-03-09T03:47:00.7692942+01:00",
+        "LastChanged": "2010-01-30T02:30:53.3973865+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nihil",
-        "StyleHint": "nesciunt",
-        "Hidden": false,
-        "FullName": "Damion Reichert",
+        "ExtraInfo": "cumque",
+        "StyleHint": "dignissimos",
+        "Hidden": true,
+        "FullName": "Kamren Ritchie",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 863
+            "FieldLength": 329
           }
         }
       }
     ],
-    "ExtraInfo": "nesciunt",
-    "StyleHint": "incidunt",
-    "Hidden": true,
-    "FullName": "Mrs. Murray Ally Conroy",
+    "ExtraInfo": "nobis",
+    "StyleHint": "nihil",
+    "Hidden": false,
+    "FullName": "Dedric Strosin III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 473
+        "FieldType": "System.Int32",
+        "FieldLength": 592
       }
     }
   }

@@ -86,7 +86,7 @@ OK
 GET /api/v1/List/PaymentTerm/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -97,56 +97,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 563,
-    "Name": "Altenwerth LLC",
-    "ToolTip": "Qui veniam officiis id ratione.",
-    "Deleted": false,
-    "Rank": 488,
-    "Type": "non",
-    "ColorBlock": 272,
-    "IconHint": "sit",
+    "Id": 110,
+    "Name": "Nikolaus, Klein and Bailey",
+    "ToolTip": "Corporis eum.",
+    "Deleted": true,
+    "Rank": 680,
+    "Type": "qui",
+    "ColorBlock": 965,
+    "IconHint": "in",
     "Selected": false,
-    "LastChanged": "2001-04-06T03:47:00.6911718+02:00",
+    "LastChanged": "2007-08-21T02:30:53.3192639+02:00",
     "ChildItems": [
       {
-        "Id": 187,
-        "Name": "Kohler Group",
-        "ToolTip": "Architecto eos quaerat quos officiis voluptatibus qui sed.",
+        "Id": 680,
+        "Name": "Jones, Langosh and Terry",
+        "ToolTip": "Sint deserunt vitae voluptas nemo.",
         "Deleted": true,
-        "Rank": 257,
-        "Type": "in",
-        "ColorBlock": 21,
-        "IconHint": "quo",
+        "Rank": 930,
+        "Type": "illum",
+        "ColorBlock": 218,
+        "IconHint": "ad",
         "Selected": false,
-        "LastChanged": "2004-06-12T03:47:00.6911718+02:00",
+        "LastChanged": "2008-06-04T02:30:53.3192639+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "error",
-        "StyleHint": "velit",
+        "ExtraInfo": "quisquam",
+        "StyleHint": "laborum",
         "Hidden": false,
-        "FullName": "Irma Elwyn McCullough I",
+        "FullName": "Mrs. Leone Bashirian",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 146
+            "FieldType": "System.Int32",
+            "FieldLength": 110
           }
         }
       }
     ],
-    "ExtraInfo": "quis",
-    "StyleHint": "et",
+    "ExtraInfo": "quidem",
+    "StyleHint": "unde",
     "Hidden": true,
-    "FullName": "Mr. Jeremie Dach",
+    "FullName": "Marjolaine Funk",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 567
+        "FieldLength": 557
       }
     }
   }

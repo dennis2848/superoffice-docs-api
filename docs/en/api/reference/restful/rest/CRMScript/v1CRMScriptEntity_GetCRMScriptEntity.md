@@ -15,6 +15,7 @@ Gets a CRMScriptEntity object.
 
 
 Calls the CRMScript agent service GetCRMScriptEntity.
+NsApiSlow threshold: 5000 ms.
 
 
 ## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
@@ -95,7 +96,7 @@ CRMScriptEntity found.
 GET /api/v1/CRMScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -105,58 +106,58 @@ HTTP/1.1 200 CRMScriptEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 34,
-  "UniqueIdentifier": "ut",
-  "Name": "Feest-Conroy",
-  "Description": "Polarised incremental open system",
-  "IncludeId": "expedita",
-  "AccessKey": "consectetur",
-  "HierarchyId": 395,
-  "Source": "necessitatibus",
-  "SourceCode": "officia",
+  "EjscriptId": 307,
+  "UniqueIdentifier": "non",
+  "Name": "Olson-Simonis",
+  "Description": "Expanded methodical knowledge user",
+  "IncludeId": "omnis",
+  "AccessKey": "ut",
+  "HierarchyId": 492,
+  "Source": "dolorem",
+  "SourceCode": "harum",
   "ScriptType": "CRMScript",
-  "HtmlOutput": 641,
+  "HtmlOutput": 542,
   "Includes": [
-    681,
-    58
+    33,
+    973
   ],
   "SourceMaps": [
     {
-      "LineNumberFrom": 970,
-      "LineNumberTo": 612,
-      "Delta": 995,
-      "IncludeId": "dolor",
+      "LineNumberFrom": 384,
+      "LineNumberTo": 374,
+      "Delta": 442,
+      "IncludeId": "sint",
       "IncludedFrom": [
-        "et",
-        "aut"
+        "tempora",
+        "earum"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 108
+          "FieldLength": 26
         }
       }
     }
   ],
   "ValidationResult": null,
-  "Registered": "2012-02-03T03:46:59.8943184+01:00",
-  "RegisteredAssociateId": 405,
-  "Updated": "2023-08-26T03:46:59.8943184+02:00",
-  "UpdatedAssociateId": 311,
+  "Registered": "2013-05-04T02:30:52.522416+02:00",
+  "RegisteredAssociateId": 579,
+  "Updated": "2009-01-06T02:30:52.522416+01:00",
+  "UpdatedAssociateId": 957,
   "BlockedVerbs": "BlockAll",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 508
+      "FieldLength": 542
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

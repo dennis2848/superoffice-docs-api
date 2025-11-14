@@ -14,6 +14,9 @@ POST /api/v1/Agents/EMail/GetCurrentAccount
 Get current account (last logged into should normally be current) for logged in associate
 
 
+NsApiSlow threshold: 5000 ms.
+
+
 ## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 
@@ -79,7 +82,7 @@ OK
 POST /api/v1/Agents/EMail/GetCurrentAccount
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,24 +92,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EMailAccountId": 165,
-  "EMailAddress": "nostrum",
-  "AssociateId": 252,
+  "EMailAccountId": 13,
+  "EMailAddress": "itaque",
+  "AssociateId": 927,
   "IncomingCredentials": null,
   "OutgoingCredentials": null,
-  "AccountStatus": 710,
-  "ErrorCount": 445,
+  "AccountStatus": 810,
+  "ErrorCount": 644,
   "ErrorReason": "",
-  "InboxFolder": "ut",
-  "SentFolder": "ut",
-  "SimpleMode": 513,
-  "LastFetch": "2008-11-02T03:46:54.7538824+01:00",
+  "InboxFolder": "odit",
+  "SentFolder": "doloremque",
+  "SimpleMode": 122,
+  "LastFetch": "2021-04-26T02:30:47.2725845+02:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 904
+      "FieldType": "System.Int32",
+      "FieldLength": 712
     }
   }
 }

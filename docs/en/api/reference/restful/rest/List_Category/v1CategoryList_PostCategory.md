@@ -74,16 +74,16 @@ OK
 POST /api/v1/List/Category/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 436,
-  "Name": "Metz, Ernser and Koch",
-  "Tooltip": "totam",
-  "Deleted": false,
-  "UdListDefinitionId": 470,
-  "Rank": 438
+  "Id": 937,
+  "Name": "Grady Inc and Sons",
+  "Tooltip": "optio",
+  "Deleted": true,
+  "UdListDefinitionId": 54,
+  "Rank": 708
 }
 ```
 
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 338,
-  "Name": "Towne, Cole and Hartmann",
-  "Tooltip": "quas",
+  "Id": 828,
+  "Name": "Hermann Group",
+  "Tooltip": "asperiores",
   "Deleted": false,
-  "UdListDefinitionId": 200,
-  "Rank": 566,
+  "UdListDefinitionId": 902,
+  "Rank": 924,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 523
+      "FieldLength": 526
     }
   }
 }

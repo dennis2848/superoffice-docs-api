@@ -76,7 +76,7 @@ OK
 GET /api/v1/List/QuoteDenyReason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -87,56 +87,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 469,
-    "Name": "Sipes, Fay and Ritchie",
-    "ToolTip": "Fuga quaerat recusandae aliquam.",
+    "Id": 361,
+    "Name": "Anderson, Hartmann and Medhurst",
+    "ToolTip": "Doloremque ipsa eum rerum fugiat ipsum possimus et.",
     "Deleted": false,
-    "Rank": 943,
-    "Type": "qui",
-    "ColorBlock": 643,
-    "IconHint": "quos",
-    "Selected": false,
-    "LastChanged": "2014-07-27T03:47:00.7692942+02:00",
+    "Rank": 749,
+    "Type": "quibusdam",
+    "ColorBlock": 712,
+    "IconHint": "et",
+    "Selected": true,
+    "LastChanged": "2002-07-11T02:30:53.3973865+02:00",
     "ChildItems": [
       {
-        "Id": 406,
-        "Name": "Pagac, Dooley and Morar",
-        "ToolTip": "Ut asperiores rem.",
+        "Id": 162,
+        "Name": "Hessel, Effertz and Shields",
+        "ToolTip": "Qui placeat accusantium et minus.",
         "Deleted": false,
-        "Rank": 167,
-        "Type": "dolores",
-        "ColorBlock": 31,
-        "IconHint": "at",
-        "Selected": true,
-        "LastChanged": "2009-05-24T03:47:00.7692942+02:00",
+        "Rank": 632,
+        "Type": "rerum",
+        "ColorBlock": 141,
+        "IconHint": "nam",
+        "Selected": false,
+        "LastChanged": "2024-11-03T02:30:53.3973865+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "vero",
-        "StyleHint": "nam",
+        "ExtraInfo": "eos",
+        "StyleHint": "ipsum",
         "Hidden": false,
-        "FullName": "Torrance King",
+        "FullName": "Otha Langosh Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 153
+            "FieldLength": 497
           }
         }
       }
     ],
-    "ExtraInfo": "dignissimos",
-    "StyleHint": "occaecati",
+    "ExtraInfo": "quia",
+    "StyleHint": "a",
     "Hidden": false,
-    "FullName": "Maximillian Leannon",
+    "FullName": "Price Buckridge",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 534
+        "FieldLength": 772
       }
     }
   }

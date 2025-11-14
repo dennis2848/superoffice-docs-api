@@ -14,6 +14,9 @@ POST /api/v1/Agents/User/RegisterWithAccessGateway
 Registers with access gateway if not already done, otherwise will attempt to update
 
 
+NsApiSlow threshold: 1000 ms.
+
+
 ## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
 
 
@@ -81,7 +84,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RedirectUri": "est"
+  "RedirectUri": "voluptatem"
 }
 ```
 
@@ -92,14 +95,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ClientId": "eveniet",
-  "RedirectUri": "provident",
+  "ClientId": "quae",
+  "RedirectUri": "ut",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 24
+      "FieldType": "System.Int32",
+      "FieldLength": 883
     }
   }
 }

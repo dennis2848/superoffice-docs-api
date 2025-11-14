@@ -14,6 +14,8 @@ POST /api/v1/Agents/Dash/CreateDefaultDashTile
 Loading default values into a new DashTile.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -61,7 +63,7 @@ OK
 POST /api/v1/Agents/Dash/CreateDefaultDashTile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -71,18 +73,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 780,
-  "DashboardId": 455,
-  "Height": 230,
-  "Width": 147,
-  "Rank": 231,
+  "DashboardTileId": 678,
+  "DashboardId": 900,
+  "Height": 852,
+  "Width": 221,
+  "Rank": 883,
   "DashTileDefinition": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 333
+      "FieldType": "System.Int32",
+      "FieldLength": 987
     }
   }
 }

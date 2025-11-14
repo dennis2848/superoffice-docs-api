@@ -228,6 +228,7 @@ items:
   - SuperOffice.CRM.Rows.ExtTableRow
   - SuperOffice.CRM.Rows.ExternalDocumentRow
   - SuperOffice.CRM.Rows.ExternalEventRow
+  - SuperOffice.CRM.Rows.ExternalOwnerRow
   - SuperOffice.CRM.Rows.ExtraFieldsRow
   - SuperOffice.CRM.Rows.ExtraMenusRow
   - SuperOffice.CRM.Rows.ExtraTablesEntryRow
@@ -283,6 +284,7 @@ items:
   - SuperOffice.CRM.Rows.KbWorkflowRow
   - SuperOffice.CRM.Rows.LanguageInfoCountryRow
   - SuperOffice.CRM.Rows.LanguageInfoRow
+  - SuperOffice.CRM.Rows.LeadstatusRow
   - SuperOffice.CRM.Rows.LegalBaseRow
   - SuperOffice.CRM.Rows.LegalHtmlTagsRow
   - SuperOffice.CRM.Rows.LicenseAssocLinkRow
@@ -385,6 +387,7 @@ items:
   - SuperOffice.CRM.Rows.ProjectTypeStatusLinkRow
   - SuperOffice.CRM.Rows.PublishRow
   - SuperOffice.CRM.Rows.PushNotificationServiceRow
+  - SuperOffice.CRM.Rows.QuickFilterInfoRow
   - SuperOffice.CRM.Rows.QuickReplyRow
   - SuperOffice.CRM.Rows.QuoteAlternativeRow
   - SuperOffice.CRM.Rows.QuoteApprReasonGroupLinkRow
@@ -561,6 +564,7 @@ items:
   - SuperOffice.CRM.Rows.TicketTypePriorityRow
   - SuperOffice.CRM.Rows.TicketTypeRow
   - SuperOffice.CRM.Rows.TicketTypeStatusRow
+  - SuperOffice.CRM.Rows.TimeKeepingRow
   - SuperOffice.CRM.Rows.TimestampsRow
   - SuperOffice.CRM.Rows.TravelCurrentRow
   - SuperOffice.CRM.Rows.TravelGeneratedDatabaseRow

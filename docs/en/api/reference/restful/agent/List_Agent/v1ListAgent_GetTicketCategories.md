@@ -11,7 +11,7 @@ content_type: reference
 POST /api/v1/Agents/List/GetTicketCategories
 ```
 
-
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -83,7 +83,7 @@ OK
 POST /api/v1/Agents/List/GetTicketCategories
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -94,36 +94,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketCategoryId": 808,
-    "ParentId": 277,
-    "Name": "Bernhard LLC",
-    "Fullname": "qui",
-    "CategoryMaster": 235,
+    "TicketCategoryId": 363,
+    "ParentId": 154,
+    "Name": "Gorczany-Champlin",
+    "Fullname": "molestiae",
+    "CategoryMaster": 619,
     "Flags": "AcceptWhenReplying",
     "DelegateMethod": "Even",
-    "ExternalName": "Swaniawski, Kirlin and Feeney",
+    "ExternalName": "Sporer-Smith",
     "ClosingStatus": "Active",
     "MsgClosingStatus": "Active",
-    "AssignmentLag": 640,
-    "ReplyTemplate": 132,
-    "NotificationEmail": "gayle@considineschuster.name",
+    "AssignmentLag": 306,
+    "ReplyTemplate": 74,
+    "NotificationEmail": "edgar_turner@shanahanmuller.name",
     "DefaultTicketStatus": null,
     "DefaultMessageStatus": null,
-    "EffectiveReplyTemplateId": 369,
+    "EffectiveReplyTemplateId": 564,
     "ExtraFields": {
-      "ExtraFields1": "sed",
-      "ExtraFields2": "eligendi"
+      "ExtraFields1": "in",
+      "ExtraFields2": "culpa"
     },
     "CustomFields": {
-      "CustomFields1": "ea",
-      "CustomFields2": "corporis"
+      "CustomFields1": "ipsam",
+      "CustomFields2": "dolores"
     },
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 682
+        "FieldType": "System.Int32",
+        "FieldLength": 758
       }
     }
   }

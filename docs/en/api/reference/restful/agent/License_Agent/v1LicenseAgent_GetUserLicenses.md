@@ -14,6 +14,8 @@ POST /api/v1/Agents/License/GetUserLicenses
 Obtain information about associate module licenses
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -77,11 +79,11 @@ OK
 POST /api/v1/Agents/License/GetUserLicenses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 44
+  "AssociateId": 249
 }
 ```
 
@@ -93,30 +95,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Murphy Inc and Sons",
-    "Description": "Vision-oriented zero defect artificial intelligence",
+    "Name": "Kertzmann, Streich and Heidenreich",
+    "Description": "Distributed content-based neural-net",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 336,
-        "Tooltip": "magni",
-        "CanAssign": false,
-        "Free": 922,
-        "InUse": 184,
-        "IsHidden": true,
+        "Total": 420,
+        "Tooltip": "voluptatem",
+        "CanAssign": true,
+        "Free": 606,
+        "InUse": 228,
+        "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 312,
-        "Name": "Gibson LLC",
-        "Description": "Devolved directional success",
-        "PrerequisiteModuleName": "Jacobson, Brakus and Huel",
-        "SortOrder": 374,
-        "ExtraFlags": 293,
+        "ModuleLicenseId": 125,
+        "Name": "Lebsack, Goldner and Feest",
+        "Description": "Polarised 5th generation frame",
+        "PrerequisiteModuleName": "Cole, Marks and Koch",
+        "SortOrder": 88,
+        "ExtraFlags": 951,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 906
+            "FieldLength": 206
           }
         }
       }
@@ -124,25 +126,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": true,
-        "Total": 521,
-        "Tooltip": "ea",
-        "CanAssign": true,
-        "Free": 674,
-        "InUse": 981,
+        "Total": 251,
+        "Tooltip": "porro",
+        "CanAssign": false,
+        "Free": 834,
+        "InUse": 7,
         "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 603,
-        "Name": "Lueilwitz Inc and Sons",
-        "Description": "Proactive homogeneous open architecture",
-        "PrerequisiteModuleName": "Balistreri-West",
-        "SortOrder": 66,
-        "ExtraFlags": 566,
+        "ModuleLicenseId": 958,
+        "Name": "Schultz Inc and Sons",
+        "Description": "Face to face homogeneous capacity",
+        "PrerequisiteModuleName": "Abshire-Walker",
+        "SortOrder": 106,
+        "ExtraFlags": 165,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 507
+            "FieldLength": 874
           }
         }
       }
@@ -151,36 +153,36 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 85
+        "FieldType": "System.Int32",
+        "FieldLength": 181
       }
     }
   },
   {
-    "Name": "Murphy Inc and Sons",
-    "Description": "Vision-oriented zero defect artificial intelligence",
+    "Name": "Kertzmann, Streich and Heidenreich",
+    "Description": "Distributed content-based neural-net",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 336,
-        "Tooltip": "magni",
-        "CanAssign": false,
-        "Free": 922,
-        "InUse": 184,
-        "IsHidden": true,
+        "Total": 420,
+        "Tooltip": "voluptatem",
+        "CanAssign": true,
+        "Free": 606,
+        "InUse": 228,
+        "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 312,
-        "Name": "Gibson LLC",
-        "Description": "Devolved directional success",
-        "PrerequisiteModuleName": "Jacobson, Brakus and Huel",
-        "SortOrder": 374,
-        "ExtraFlags": 293,
+        "ModuleLicenseId": 125,
+        "Name": "Lebsack, Goldner and Feest",
+        "Description": "Polarised 5th generation frame",
+        "PrerequisiteModuleName": "Cole, Marks and Koch",
+        "SortOrder": 88,
+        "ExtraFlags": 951,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 906
+            "FieldLength": 206
           }
         }
       }
@@ -188,25 +190,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": true,
-        "Total": 521,
-        "Tooltip": "ea",
-        "CanAssign": true,
-        "Free": 674,
-        "InUse": 981,
+        "Total": 251,
+        "Tooltip": "porro",
+        "CanAssign": false,
+        "Free": 834,
+        "InUse": 7,
         "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 603,
-        "Name": "Lueilwitz Inc and Sons",
-        "Description": "Proactive homogeneous open architecture",
-        "PrerequisiteModuleName": "Balistreri-West",
-        "SortOrder": 66,
-        "ExtraFlags": 566,
+        "ModuleLicenseId": 958,
+        "Name": "Schultz Inc and Sons",
+        "Description": "Face to face homogeneous capacity",
+        "PrerequisiteModuleName": "Abshire-Walker",
+        "SortOrder": 106,
+        "ExtraFlags": 165,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 507
+            "FieldLength": 874
           }
         }
       }
@@ -215,8 +217,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 85
+        "FieldType": "System.Int32",
+        "FieldLength": 181
       }
     }
   }

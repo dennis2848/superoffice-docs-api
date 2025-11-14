@@ -15,6 +15,7 @@ Returns the latest sales (that are sold) limited by their amount.
 
 
 The result is sorted descending with the latest first. If the amount is -1, the amount restriction is omitted.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -101,12 +102,12 @@ OK
 POST /api/v1/Agents/Sale/GetRecentSales
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "AmountLimit": 250,
-  "Count": 571
+  "AmountLimit": 113,
+  "Count": 137
 }
 ```
 
@@ -118,37 +119,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Borer Inc and Sons",
-    "SaleDate": "2004-10-15T03:46:55.2694888+02:00",
-    "SaleId": 312,
-    "Probability": 913,
-    "Title": "enim",
-    "Amount": 3810.944,
-    "Currency": "repudiandae",
-    "ProjectName": "Wolf-Reinger",
-    "AssociateFullName": "Joshuah Tillman II",
-    "Description": "Secured value-added info-mediaries",
+    "ContactName": "Cartwright-Larson",
+    "SaleDate": "2003-08-19T02:30:47.7881925+02:00",
+    "SaleId": 434,
+    "Probability": 928,
+    "Title": "dolore",
+    "Amount": 7900.8139999999994,
+    "Currency": "quia",
+    "ProjectName": "Klein, Wintheiser and Kozey",
+    "AssociateFullName": "Quincy Cormier",
+    "Description": "Secured solution-oriented access",
     "Status": "Lost",
-    "WeightedAmount": 30854.23,
-    "ProjectId": 51,
-    "EarningPercent": 5697.612,
-    "Earning": 21333.138,
-    "ContactId": 295,
-    "AssociateId": 840,
-    "PersonId": 423,
-    "SaleTypeId": 776,
-    "SaleTypeName": "Walsh Inc and Sons",
-    "PersonFullName": "Amaya Hoeger",
+    "WeightedAmount": 20678.131999999998,
+    "ProjectId": 829,
+    "EarningPercent": 4707.268,
+    "Earning": 17240.134,
+    "ContactId": 993,
+    "AssociateId": 697,
+    "PersonId": 850,
+    "SaleTypeId": 29,
+    "SaleTypeName": "Haag, Schaden and Rutherford",
+    "PersonFullName": "Ms. Alisa Cormier",
     "Completed": "Completed",
-    "ActiveErpLinks": 296,
-    "NextDueDate": "2019-02-19T03:46:55.2694888+01:00",
-    "Number": "770645",
+    "ActiveErpLinks": 859,
+    "NextDueDate": "2022-03-26T02:30:47.7881925+01:00",
+    "Number": "1402226",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 240
+        "FieldType": "System.Int32",
+        "FieldLength": 195
       }
     }
   }

@@ -14,6 +14,8 @@ POST /api/v1/Agents/Configuration/GetConfigurableScreenDelta
 Gets a ConfigurableScreenDelta object.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -27,7 +29,7 @@ Gets a ConfigurableScreenDelta object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Configuration/GetConfigurableScreenDelta?configurableScreenDeltaId=113
+POST /api/v1/Agents/Configuration/GetConfigurableScreenDelta?configurableScreenDeltaId=524
 POST /api/v1/Agents/Configuration/GetConfigurableScreenDelta?$select=name,department,category/id
 ```
 
@@ -80,7 +82,7 @@ OK
 POST /api/v1/Agents/Configuration/GetConfigurableScreenDelta
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -90,28 +92,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 584,
-  "Name": "Parker, Medhurst and Metz",
-  "Description": "Balanced web-enabled secured line",
-  "DeltaJson": "vel",
+  "ConfigurableScreenDeltaId": 59,
+  "Name": "Christiansen Group",
+  "Description": "Vision-oriented high-level capability",
+  "DeltaJson": "ut",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "nobis",
-  "UpdatedDate": "2024-03-09T03:46:54.4570178+01:00",
-  "CreatedDate": "2024-05-18T03:46:54.4570178+02:00",
+  "RecipeId": "praesentium",
+  "UpdatedDate": "2008-10-02T02:30:46.9132188+02:00",
+  "CreatedDate": "2009-10-08T02:30:46.9132188+02:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    795,
-    826
+    589,
+    662
   ],
-  "AppliesToKey": "qui",
+  "AppliesToKey": "dignissimos",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 312
+      "FieldType": "System.Int32",
+      "FieldLength": 467
     }
   }
 }

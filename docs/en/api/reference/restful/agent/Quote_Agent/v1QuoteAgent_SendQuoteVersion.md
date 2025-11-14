@@ -15,6 +15,7 @@ Send the quote to the user's customer.
 
 
 More parameters to be added later...
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -86,15 +87,15 @@ OK
 POST /api/v1/Agents/Quote/SendQuoteVersion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 698,
-  "ExpiryDate": "2000-08-31T03:46:55.1913666+02:00",
-  "FollowupDate": "2018-01-13T03:46:55.1913666+01:00",
-  "FollowupText": "quae",
-  "Culture": "rerum"
+  "QuoteVersionId": 540,
+  "ExpiryDate": "2021-05-19T02:30:47.7100701+02:00",
+  "FollowupDate": "2014-10-26T02:30:47.7100701+01:00",
+  "FollowupText": "a",
+  "Culture": "et"
 }
 ```
 
@@ -106,9 +107,9 @@ Content-Type: application/json; charset=utf-8
 
 {
   "IsOk": false,
-  "UserExplanation": "nostrum",
-  "TechExplanation": "et",
-  "ErrorCode": "vitae",
+  "UserExplanation": "cumque",
+  "TechExplanation": "id",
+  "ErrorCode": "illo",
   "Changes": null,
   "Url": "http://www.example.com/",
   "Status": "Error",
@@ -116,8 +117,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 458
+      "FieldType": "System.String",
+      "FieldLength": 563
     }
   }
 }

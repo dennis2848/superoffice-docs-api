@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/PaymentTerm/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 564,
-    "Name": "Pagac LLC",
-    "Tooltip": "facilis",
-    "Deleted": true,
-    "UdListDefinitionId": 84,
-    "Rank": 216
+    "Id": 766,
+    "Name": "Abbott-Stark",
+    "Tooltip": "nisi",
+    "Deleted": false,
+    "UdListDefinitionId": 115,
+    "Rank": 294
   },
   {
-    "Id": 564,
-    "Name": "Pagac LLC",
-    "Tooltip": "facilis",
-    "Deleted": true,
-    "UdListDefinitionId": 84,
-    "Rank": 216
+    "Id": 766,
+    "Name": "Abbott-Stark",
+    "Tooltip": "nisi",
+    "Deleted": false,
+    "UdListDefinitionId": 115,
+    "Rank": 294
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 871,
-    "Name": "Padberg-Pagac",
-    "Tooltip": "aut",
-    "Deleted": false,
-    "UdListDefinitionId": 98,
-    "Rank": 961,
+    "Id": 346,
+    "Name": "Weimann, Luettgen and Brekke",
+    "Tooltip": "numquam",
+    "Deleted": true,
+    "UdListDefinitionId": 100,
+    "Rank": 54,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 824
+        "FieldLength": 670
       }
     }
   }

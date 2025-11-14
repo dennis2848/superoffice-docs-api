@@ -14,7 +14,8 @@ POST /api/v1/Agents/Document/GetProjectDocumentsByTemplateTypes
 Method that returns a specified number of document appointments within a time range, filtered by document template types.
 
 
-The document appointments belong to the project specified.
+The document appointments belong to the project specified. 
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -99,17 +100,17 @@ OK
 POST /api/v1/Agents/Document/GetProjectDocumentsByTemplateTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 480,
-  "StartTime": "2022-03-05T03:46:54.6132622+01:00",
-  "EndTime": "2019-08-01T03:46:54.6132622+02:00",
-  "Count": 234,
+  "ProjectId": 39,
+  "StartTime": "2004-08-25T02:30:47.0850878+02:00",
+  "EndTime": "2005-06-06T02:30:47.0850878+02:00",
+  "Count": 565,
   "DocumentTemplateIds": [
-    503,
-    957
+    750,
+    455
   ]
 }
 ```
@@ -122,32 +123,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 865,
-    "Attention": "exercitationem",
-    "Header": "ea",
-    "Name": "Hayes-Kuhlman",
-    "OurRef": "voluptates",
-    "YourRef": "magnam",
-    "Description": "Distributed directional knowledge base",
-    "DocumentTemplate": "vel",
+    "DocumentId": 241,
+    "Attention": "ab",
+    "Header": "et",
+    "Name": "Hermiston-Bashirian",
+    "OurRef": "nulla",
+    "YourRef": "et",
+    "Description": "Triple-buffered dynamic solution",
+    "DocumentTemplate": "modi",
     "IsPublished": true,
-    "PersonId": 163,
-    "PersonFullName": "Catharine Konopelski DDS",
-    "AssociateFullName": "Ms. Javonte Deonte Bauch PhD",
-    "ContactId": 710,
-    "ContactName": "Okuneva-Stanton",
-    "ProjectId": 388,
-    "ProjectName": "Kassulke, Lind and Wyman",
-    "AssociateId": 771,
-    "Snum": 553,
-    "SaleId": 478,
-    "SaleName": "Windler-Swaniawski",
+    "PersonId": 39,
+    "PersonFullName": "Taylor Stark",
+    "AssociateFullName": "Francesco Wisozk",
+    "ContactId": 483,
+    "ContactName": "Luettgen Inc and Sons",
+    "ProjectId": 1000,
+    "ProjectName": "Wyman-Oberbrunner",
+    "AssociateId": 485,
+    "Snum": 888,
+    "SaleId": 421,
+    "SaleName": "Lakin-Bahringer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 657
+        "FieldLength": 631
       }
     }
   }

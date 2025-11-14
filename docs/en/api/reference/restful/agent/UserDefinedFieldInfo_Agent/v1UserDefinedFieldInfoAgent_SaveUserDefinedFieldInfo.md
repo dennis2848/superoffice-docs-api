@@ -14,6 +14,8 @@ POST /api/v1/Agents/UserDefinedFieldInfo/SaveUserDefinedFieldInfo
 Updates the existing UserDefinedFieldInfo or creates a new UserDefinedFieldInfo if the id parameter is 0.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -130,44 +132,44 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/SaveUserDefinedFieldInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 734,
-  "ColumnId": 786,
-  "FieldDefault": "eos",
-  "FieldHeight": 808,
-  "FieldLabel": "est",
-  "FieldLeft": 552,
-  "FieldTop": 751,
+  "UDefFieldId": 853,
+  "ColumnId": 530,
+  "FieldDefault": "sint",
+  "FieldHeight": 800,
+  "FieldLabel": "tempore",
+  "FieldLeft": 158,
+  "FieldTop": 877,
   "FieldType": "Checkbox",
-  "FieldWidth": 109,
-  "FormatMask": "ut",
+  "FieldWidth": 856,
+  "FormatMask": "voluptas",
   "HideLabel": false,
-  "IsIndexed": false,
-  "LabelHeight": 381,
-  "LabelLeft": 365,
-  "LabelTop": 460,
-  "LabelWidth": 843,
-  "LastVersionId": 971,
-  "ListTableId": 334,
+  "IsIndexed": true,
+  "LabelHeight": 718,
+  "LabelLeft": 467,
+  "LabelTop": 880,
+  "LabelWidth": 153,
+  "LastVersionId": 471,
+  "ListTableId": 210,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 5,
-  "ProgId": "quas",
-  "IsReadOnly": false,
-  "ShortLabel": "ipsum",
-  "TabOrder": 223,
-  "TextLength": 762,
-  "Tooltip": "sit",
-  "UdefIdentity": 965,
-  "UDListDefinitionId": 345,
+  "Page1LineNo": 839,
+  "ProgId": "rerum",
+  "IsReadOnly": true,
+  "ShortLabel": "consequatur",
+  "TabOrder": 32,
+  "TextLength": 46,
+  "Tooltip": "distinctio",
+  "UdefIdentity": 702,
+  "UDListDefinitionId": 268,
   "Justification": "Center",
-  "Version": 970,
-  "TemplateVariableName": "Ullrich-Mraz",
+  "Version": 596,
+  "TemplateVariableName": "Waelchi-Littel",
   "HasBeenPublished": false,
-  "MdoListName": "Runte, Collins and Gaylord"
+  "MdoListName": "Harber, Kuvalis and Stark"
 }
 ```
 
@@ -178,46 +180,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 86,
-  "ColumnId": 433,
-  "FieldDefault": "dolorem",
-  "FieldHeight": 596,
-  "FieldLabel": "et",
-  "FieldLeft": 990,
-  "FieldTop": 59,
+  "UDefFieldId": 257,
+  "ColumnId": 403,
+  "FieldDefault": "neque",
+  "FieldHeight": 595,
+  "FieldLabel": "omnis",
+  "FieldLeft": 428,
+  "FieldTop": 490,
   "FieldType": "Checkbox",
-  "FieldWidth": 728,
-  "FormatMask": "voluptatum",
-  "HideLabel": false,
-  "IsIndexed": true,
-  "LabelHeight": 336,
-  "LabelLeft": 871,
-  "LabelTop": 817,
-  "LabelWidth": 279,
-  "LastVersionId": 682,
-  "ListTableId": 198,
-  "IsMandatory": false,
+  "FieldWidth": 326,
+  "FormatMask": "perspiciatis",
+  "HideLabel": true,
+  "IsIndexed": false,
+  "LabelHeight": 414,
+  "LabelLeft": 918,
+  "LabelTop": 301,
+  "LabelWidth": 696,
+  "LastVersionId": 157,
+  "ListTableId": 21,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 454,
-  "ProgId": "est",
-  "IsReadOnly": false,
-  "ShortLabel": "labore",
-  "TabOrder": 727,
-  "TextLength": 368,
-  "Tooltip": "rerum",
-  "UdefIdentity": 114,
-  "UDListDefinitionId": 188,
+  "Page1LineNo": 793,
+  "ProgId": "aliquam",
+  "IsReadOnly": true,
+  "ShortLabel": "dolores",
+  "TabOrder": 308,
+  "TextLength": 758,
+  "Tooltip": "et",
+  "UdefIdentity": 194,
+  "UDListDefinitionId": 644,
   "Justification": "Center",
-  "Version": 363,
-  "TemplateVariableName": "Murazik, Bauch and Murray",
-  "HasBeenPublished": true,
-  "MdoListName": "Marks, Mills and Ruecker",
+  "Version": 814,
+  "TemplateVariableName": "Donnelly-Waelchi",
+  "HasBeenPublished": false,
+  "MdoListName": "Dietrich LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 662
+      "FieldLength": 682
     }
   }
 }

@@ -15,6 +15,7 @@ Read one specific data right at the given position.
 
 
 An exception will be thrown if non existing position is specified.
+NsApiSlow threshold: 2000 ms.
 
 
 ## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
@@ -76,12 +77,12 @@ OK
 POST /api/v1/Agents/User/GetDataRight
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 328,
-  "TableName": "Marquardt-Kling",
+  "RoleId": 505,
+  "TableName": "Stracke-Renner",
   "RelationToOwner": "Anonymous"
 }
 ```
@@ -92,5 +93,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"repellat"
+"animi"
 ```

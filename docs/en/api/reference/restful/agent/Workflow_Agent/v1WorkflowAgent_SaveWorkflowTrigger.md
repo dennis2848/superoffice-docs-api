@@ -14,6 +14,8 @@ POST /api/v1/Agents/Workflow/SaveWorkflowTrigger
 Updates the existing WorkflowTrigger or creates a new WorkflowTrigger if the id parameter is 0.
 
 
+NsApiSlow threshold: 1000 ms.
+
 
 
 
@@ -70,27 +72,27 @@ OK
 POST /api/v1/Agents/Workflow/SaveWorkflowTrigger
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowTriggerId": 785,
-  "WorkflowId": 117,
+  "WorkflowTriggerId": 773,
+  "WorkflowId": 534,
   "TriggerType": "AddedMessage",
   "RestrictionGroups": [
     {
-      "Name": "Walker, Gerhold and Wolf",
-      "Description": "Down-sized context-sensitive synergy",
-      "Rank": 76,
+      "Name": "Konopelski Inc and Sons",
+      "Description": "Implemented stable core",
+      "Rank": 236,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Walker, Gerhold and Wolf",
-      "Description": "Down-sized context-sensitive synergy",
-      "Rank": 76,
+      "Name": "Konopelski Inc and Sons",
+      "Description": "Implemented stable core",
+      "Rank": 236,
       "Restrictions": [
         {},
         {}
@@ -107,23 +109,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowTriggerId": 676,
-  "WorkflowId": 123,
+  "WorkflowTriggerId": 71,
+  "WorkflowId": 747,
   "TriggerType": "AddedMessage",
   "RestrictionGroups": [
     {
-      "Name": "Jones-Turner",
-      "Description": "Extended even-keeled installation",
-      "Rank": 940,
+      "Name": "Johns-Donnelly",
+      "Description": "Triple-buffered impactful orchestration",
+      "Rank": 786,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Jones-Turner",
-      "Description": "Extended even-keeled installation",
-      "Rank": 940,
+      "Name": "Johns-Donnelly",
+      "Description": "Triple-buffered impactful orchestration",
+      "Rank": 786,
       "Restrictions": [
         {},
         {}
@@ -135,7 +137,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 641
+      "FieldLength": 932
     }
   }
 }

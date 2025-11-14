@@ -14,6 +14,8 @@ POST /api/v1/Agents/Sale/GetSaleEntity
 Gets a SaleEntity object.
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -27,7 +29,7 @@ Gets a SaleEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Sale/GetSaleEntity?saleEntityId=753
+POST /api/v1/Agents/Sale/GetSaleEntity?saleEntityId=954
 POST /api/v1/Agents/Sale/GetSaleEntity?$select=name,department,category/id
 ```
 
@@ -127,7 +129,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "maxime",
+  "SaleText": "excepturi",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -136,113 +138,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "1999-01-28T03:46:55.2694888+01:00",
-  "Amount": 18782.061999999998,
-  "SaleId": 125,
-  "Earning": 14582.502,
-  "EarningPercent": 4641.454,
-  "Heading": "consequatur",
-  "Number": "647732",
-  "Probability": 976,
-  "CreatedDate": "2001-01-02T03:46:55.2694888+01:00",
-  "UpdatedDate": "1999-06-09T03:46:55.2694888+02:00",
+  "Saledate": "2002-04-03T02:30:47.7881925+02:00",
+  "Amount": 30797.818,
+  "SaleId": 58,
+  "Earning": 3099.526,
+  "EarningPercent": 43.876,
+  "Heading": "et",
+  "Number": "1323780",
+  "Probability": 676,
+  "CreatedDate": "2005-08-31T02:30:47.7881925+02:00",
+  "UpdatedDate": "2015-05-30T02:30:47.7881925+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 52,
+  "ActiveLinks": 979,
   "Links": [
     {
-      "EntityName": "Crooks Group",
-      "Id": 677,
-      "Description": "Polarised actuating data-warehouse",
-      "ExtraInfo": "enim",
-      "LinkId": 591,
+      "EntityName": "Halvorson LLC",
+      "Id": 356,
+      "Description": "Function-based tangible standardization",
+      "ExtraInfo": "praesentium",
+      "LinkId": 956,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 909
+          "FieldLength": 470
         }
       }
     }
   ],
-  "NextDueDate": "2018-11-29T03:46:55.2694888+01:00",
-  "Postit": "modi",
+  "NextDueDate": "2008-08-20T02:30:47.7881925+02:00",
+  "Postit": "alias",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2011-08-15T03:46:55.2694888+02:00",
+  "ReopenDate": "2017-02-13T02:30:47.7881925+01:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Schinner-Rau",
-      "Comment": "aut",
-      "StakeholderRoleId": 273,
-      "CountryId": 607,
-      "PersonId": 549,
-      "EmailDescription": "sydnie@konopelski.uk",
-      "EmailId": 733,
-      "EmailAddress": "maria@hauck.uk",
-      "PhoneId": 15,
-      "ContactName": "Fahey, Turner and Veum",
-      "ContactId": 157,
-      "SaleId": 217,
-      "Mrmrs": "qui",
-      "Firstname": "Rosario",
-      "MiddleName": "Gislason, Wehner and Goldner",
-      "Lastname": "McKenzie",
-      "SaleStakeholderId": 251,
-      "Rank": 414,
-      "Phone": "146.573.2757",
+      "StakeholderRoleName": "Ortiz Group",
+      "Comment": "vel",
+      "StakeholderRoleId": 778,
+      "CountryId": 257,
+      "PersonId": 716,
+      "EmailDescription": "claud@blockcummings.uk",
+      "EmailId": 378,
+      "EmailAddress": "floyd.auer@jerde.uk",
+      "PhoneId": 755,
+      "ContactName": "Kovacek, Windler and Zulauf",
+      "ContactId": 986,
+      "SaleId": 78,
+      "Mrmrs": "eius",
+      "Firstname": "Domenic",
+      "MiddleName": "Ankunding-Kautzer",
+      "Lastname": "Gutkowski",
+      "SaleStakeholderId": 527,
+      "Rank": 287,
+      "Phone": "703-926-6853 x98667",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 317
+          "FieldLength": 385
         }
       }
     }
   ],
-  "ActiveErpLinks": 147,
+  "ActiveErpLinks": 558,
   "UserDefinedFields": {
-    "SuperOffice:1": "Lexi Rempel IV",
-    "SuperOffice:2": "False"
+    "SuperOffice:1": "Bella Cormier DVM",
+    "SuperOffice:2": "Vivianne Hoeger"
   },
   "ExtraFields": {
-    "ExtraFields1": "distinctio",
-    "ExtraFields2": "consectetur"
+    "ExtraFields1": "et",
+    "ExtraFields2": "eius"
   },
   "CustomFields": {
-    "CustomFields1": "accusantium",
-    "CustomFields2": "cumque"
+    "CustomFields1": "aspernatur",
+    "CustomFields2": "itaque"
   },
-  "PublishEventDate": "2015-01-24T03:46:55.2694888+01:00",
-  "PublishTo": "2017-05-30T03:46:55.2694888+02:00",
-  "PublishFrom": "2001-08-02T03:46:55.2694888+02:00",
+  "PublishEventDate": "2017-11-26T02:30:47.7881925+01:00",
+  "PublishTo": "1999-02-23T02:30:47.7881925+01:00",
+  "PublishFrom": "2025-05-19T02:30:47.7881925+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 658,
+      "VisibleId": 857,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "esse",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 403
+          "FieldLength": 621
         }
       }
     },
     {
-      "VisibleId": 658,
+      "VisibleId": 857,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "esse",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 403
+          "FieldLength": 621
         }
       }
     }
@@ -252,7 +254,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 753
+      "FieldLength": 771
     }
   }
 }

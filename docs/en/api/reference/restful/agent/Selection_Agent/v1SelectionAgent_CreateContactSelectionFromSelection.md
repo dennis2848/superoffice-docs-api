@@ -14,6 +14,8 @@ POST /api/v1/Agents/Selection/CreateContactSelectionFromSelection
 Creates a new selection based on selection members from an existing selection.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -121,8 +123,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 201,
-  "Name": "Shields, Gerhold and Halvorson",
+  "SelectionId": 181,
+  "Name": "Dare-Mertz",
   "TargetSelectionType": "Combined",
   "CopyMembers": true
 }
@@ -135,70 +137,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "User-friendly next generation migration",
-  "Postit": "molestias",
+  "Description": "Programmable tertiary encryption",
+  "Postit": "enim",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 83,
-  "IncludePerson": 979,
+  "GroupIdx": 122,
+  "IncludePerson": 530,
   "MemberCount": 99.99,
-  "Name": "Fay Inc and Sons",
-  "PostitTextId": 294,
-  "CreatedDate": "2002-12-19T03:46:55.3007553+01:00",
-  "SelectionId": 377,
-  "SoundEx": "veritatis",
-  "Source": 287,
-  "TextId": 743,
-  "UpdatedDate": "2014-10-28T03:46:55.3007553+01:00",
-  "UpdatedCount": 797,
-  "Visibility": 87,
+  "Name": "Hoppe, Vandervort and Kshlerin",
+  "PostitTextId": 905,
+  "CreatedDate": "2002-03-31T02:30:47.819441+01:00",
+  "SelectionId": 228,
+  "SoundEx": "quisquam",
+  "Source": 835,
+  "TextId": 423,
+  "UpdatedDate": "2014-05-31T02:30:47.819441+02:00",
+  "UpdatedCount": 599,
+  "Visibility": 434,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 990,
-  "TargetTableName": "Funk-Senger",
+  "TargetTableNumber": 643,
+  "TargetTableName": "Shields-Kozey",
   "Completed": false,
-  "LeftSelectionId": 386,
-  "RightSelectionId": 996,
+  "LeftSelectionId": 572,
+  "RightSelectionId": 820,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Beer, Von and Champlin",
-  "ShadowProviderName": "Rippin Inc and Sons",
-  "ChartKey": "ut",
-  "LastLoaded": "2018-11-25T03:46:55.3007553+01:00",
-  "LastLoadedBy": 966,
+  "MainProviderName": "Goodwin-Kris",
+  "ShadowProviderName": "Feil, Morissette and Miller",
+  "ChartKey": "vel",
+  "LastLoaded": "2015-07-22T02:30:47.819441+02:00",
+  "LastLoadedBy": 695,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2020-04-04T03:46:55.3007553+02:00",
-  "LastMembershipChangeBy": 909,
+  "LastMembershipChange": "2017-08-11T02:30:47.819441+02:00",
+  "LastMembershipChangeBy": 493,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "et",
-  "MemberTabHeading": "eos",
-  "MailingsProviderName": "Turcotte LLC",
-  "DashboardTileDefinitionId": 82,
+  "MainHeading": "est",
+  "MemberTabHeading": "saepe",
+  "MailingsProviderName": "Crooks-Bartell",
+  "DashboardTileDefinitionId": 309,
   "VisibleFor": [
     {
-      "VisibleId": 71,
+      "VisibleId": 232,
       "Visibility": "All",
-      "DisplayValue": "impedit",
+      "DisplayValue": "qui",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 333
+          "FieldType": "System.String",
+          "FieldLength": 414
         }
       }
     },
     {
-      "VisibleId": 71,
+      "VisibleId": 232,
       "Visibility": "All",
-      "DisplayValue": "impedit",
+      "DisplayValue": "qui",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 333
+          "FieldType": "System.String",
+          "FieldLength": 414
         }
       }
     }
@@ -208,7 +210,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 242
+      "FieldLength": 853
     }
   }
 }

@@ -76,16 +76,16 @@ OK
 POST /api/v1/List/WebPanel/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 674,
-  "Name": "Wiza, Harris and Roob",
-  "Tooltip": "dolorum",
+  "HeadingId": 320,
+  "Name": "Herzog Group",
+  "Tooltip": "eveniet",
   "Deleted": false,
-  "Rank": 243,
-  "UdListDefinitionId": 491
+  "Rank": 247,
+  "UdListDefinitionId": 378
 }
 ```
 
@@ -96,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 633,
-  "Name": "DuBuque, Barton and Ruecker",
-  "Tooltip": "voluptatem",
+  "HeadingId": 85,
+  "Name": "Grimes-Hoeger",
+  "Tooltip": "in",
   "Deleted": false,
-  "Rank": 335,
-  "UdListDefinitionId": 621,
+  "Rank": 858,
+  "UdListDefinitionId": 428,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 426
+      "FieldType": "System.Int32",
+      "FieldLength": 215
     }
   }
 }

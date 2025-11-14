@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/GetWebPanelEntity
 Gets a WebPanelEntity object.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -27,7 +29,7 @@ Gets a WebPanelEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetWebPanelEntity?webPanelEntityId=433
+POST /api/v1/Agents/List/GetWebPanelEntity?webPanelEntityId=641
 POST /api/v1/Agents/List/GetWebPanelEntity?$select=name,department,category/id
 ```
 
@@ -99,34 +101,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 817,
-  "Name": "Pacocha Inc and Sons",
-  "Tooltip": "architecto",
-  "Deleted": false,
-  "Rank": 831,
+  "WebPanelId": 470,
+  "Name": "Fay-Walsh",
+  "Tooltip": "nostrum",
+  "Deleted": true,
+  "Rank": 404,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": false,
+  "OnCentral": true,
   "OnSatellite": false,
-  "OnTravel": true,
+  "OnTravel": false,
   "OnSalesMarketingWeb": false,
   "OnSalesMarketingPocket": false,
-  "ShowInMenuBar": true,
-  "ShowInToolBar": false,
-  "ShowInAddressBar": false,
-  "ShowInStatusBar": false,
-  "WindowName": "Mann LLC",
+  "ShowInMenuBar": false,
+  "ShowInToolBar": true,
+  "ShowInAddressBar": true,
+  "ShowInStatusBar": true,
+  "WindowName": "Willms, Cronin and Jakubowski",
   "Url": "http://www.example.com/",
-  "ProgId": "ut",
-  "Icon": 392,
-  "AlwaysReloadOnShow": false,
+  "ProgId": "quidem",
+  "Icon": 181,
+  "AlwaysReloadOnShow": true,
   "NeverReloadOnCurrentChange": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 379
+      "FieldType": "System.String",
+      "FieldLength": 538
     }
   }
 }

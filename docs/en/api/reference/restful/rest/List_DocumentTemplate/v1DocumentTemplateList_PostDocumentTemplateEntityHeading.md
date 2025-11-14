@@ -76,16 +76,16 @@ OK
 POST /api/v1/List/DocumentTemplate/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 511,
-  "Name": "Pollich-Schmeler",
-  "Tooltip": "perspiciatis",
-  "Deleted": false,
-  "Rank": 14,
-  "UdListDefinitionId": 533
+  "HeadingId": 355,
+  "Name": "Pollich, Hane and DuBuque",
+  "Tooltip": "dolorem",
+  "Deleted": true,
+  "Rank": 177,
+  "UdListDefinitionId": 984
 }
 ```
 
@@ -96,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 108,
-  "Name": "Leuschke LLC",
-  "Tooltip": "est",
+  "HeadingId": 520,
+  "Name": "Jerde, Dickinson and Ward",
+  "Tooltip": "voluptatem",
   "Deleted": false,
-  "Rank": 845,
-  "UdListDefinitionId": 107,
+  "Rank": 105,
+  "UdListDefinitionId": 752,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 872
+      "FieldLength": 988
     }
   }
 }

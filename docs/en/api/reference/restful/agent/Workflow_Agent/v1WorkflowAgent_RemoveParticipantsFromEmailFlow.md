@@ -14,6 +14,8 @@ POST /api/v1/Agents/Workflow/RemoveParticipantsFromEmailFlow
 Remove participants (actually workflow instances) from the workflow
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -66,14 +68,14 @@ No Content
 POST /api/v1/Agents/Workflow/RemoveParticipantsFromEmailFlow
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailFlowId": 653,
+  "EmailFlowId": 823,
   "WorkflowInstanceIds": [
-    444,
-    856
+    266,
+    480
   ]
 }
 ```

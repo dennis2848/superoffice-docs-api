@@ -14,6 +14,8 @@ POST /api/v1/Agents/UserDefinedFieldInfo/SetPageOneFieldGrouping
 Sets the Page One Field grouping for a specific entity
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -66,7 +68,7 @@ No Content
 POST /api/v1/Agents/UserDefinedFieldInfo/SetPageOneFieldGrouping
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {

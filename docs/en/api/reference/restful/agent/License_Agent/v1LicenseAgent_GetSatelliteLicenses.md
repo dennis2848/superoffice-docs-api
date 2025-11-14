@@ -14,6 +14,8 @@ POST /api/v1/Agents/License/GetSatelliteLicenses
 Obtain information about satellite module licenses
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -77,11 +79,11 @@ OK
 POST /api/v1/Agents/License/GetSatelliteLicenses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SatelliteId": 891
+  "SatelliteId": 6
 }
 ```
 
@@ -93,30 +95,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Carroll-Jerde",
-    "Description": "Multi-lateral user-facing emulation",
+    "Name": "Conn Group",
+    "Description": "Decentralized systematic conglomeration",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 593,
-        "Tooltip": "laboriosam",
+        "Unrestricted": false,
+        "Total": 868,
+        "Tooltip": "commodi",
         "CanAssign": false,
-        "Free": 328,
-        "InUse": 69,
-        "IsHidden": false,
+        "Free": 568,
+        "InUse": 640,
+        "IsHidden": true,
         "Assigned": false,
-        "ModuleLicenseId": 71,
-        "Name": "Boehm, Bernier and King",
-        "Description": "Compatible composite policy",
-        "PrerequisiteModuleName": "Lakin Group",
-        "SortOrder": 163,
-        "ExtraFlags": 834,
+        "ModuleLicenseId": 201,
+        "Name": "O'Connell Group",
+        "Description": "Robust 6th generation utilisation",
+        "PrerequisiteModuleName": "Roob, Pfannerstill and Zulauf",
+        "SortOrder": 325,
+        "ExtraFlags": 736,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 976
+            "FieldLength": 395
           }
         }
       }
@@ -124,25 +126,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 144,
-        "Tooltip": "nisi",
-        "CanAssign": true,
-        "Free": 133,
-        "InUse": 770,
-        "IsHidden": true,
-        "Assigned": true,
-        "ModuleLicenseId": 995,
-        "Name": "Okuneva Inc and Sons",
-        "Description": "Ergonomic actuating hub",
-        "PrerequisiteModuleName": "Doyle Inc and Sons",
-        "SortOrder": 252,
-        "ExtraFlags": 195,
+        "Total": 944,
+        "Tooltip": "quia",
+        "CanAssign": false,
+        "Free": 637,
+        "InUse": 731,
+        "IsHidden": false,
+        "Assigned": false,
+        "ModuleLicenseId": 588,
+        "Name": "Bosco LLC",
+        "Description": "Open-source context-sensitive database",
+        "PrerequisiteModuleName": "Reichel, Kihn and Streich",
+        "SortOrder": 58,
+        "ExtraFlags": 527,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 524
+            "FieldLength": 264
           }
         }
       }
@@ -152,35 +154,35 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 846
+        "FieldLength": 89
       }
     }
   },
   {
-    "Name": "Carroll-Jerde",
-    "Description": "Multi-lateral user-facing emulation",
+    "Name": "Conn Group",
+    "Description": "Decentralized systematic conglomeration",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 593,
-        "Tooltip": "laboriosam",
+        "Unrestricted": false,
+        "Total": 868,
+        "Tooltip": "commodi",
         "CanAssign": false,
-        "Free": 328,
-        "InUse": 69,
-        "IsHidden": false,
+        "Free": 568,
+        "InUse": 640,
+        "IsHidden": true,
         "Assigned": false,
-        "ModuleLicenseId": 71,
-        "Name": "Boehm, Bernier and King",
-        "Description": "Compatible composite policy",
-        "PrerequisiteModuleName": "Lakin Group",
-        "SortOrder": 163,
-        "ExtraFlags": 834,
+        "ModuleLicenseId": 201,
+        "Name": "O'Connell Group",
+        "Description": "Robust 6th generation utilisation",
+        "PrerequisiteModuleName": "Roob, Pfannerstill and Zulauf",
+        "SortOrder": 325,
+        "ExtraFlags": 736,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 976
+            "FieldLength": 395
           }
         }
       }
@@ -188,25 +190,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 144,
-        "Tooltip": "nisi",
-        "CanAssign": true,
-        "Free": 133,
-        "InUse": 770,
-        "IsHidden": true,
-        "Assigned": true,
-        "ModuleLicenseId": 995,
-        "Name": "Okuneva Inc and Sons",
-        "Description": "Ergonomic actuating hub",
-        "PrerequisiteModuleName": "Doyle Inc and Sons",
-        "SortOrder": 252,
-        "ExtraFlags": 195,
+        "Total": 944,
+        "Tooltip": "quia",
+        "CanAssign": false,
+        "Free": 637,
+        "InUse": 731,
+        "IsHidden": false,
+        "Assigned": false,
+        "ModuleLicenseId": 588,
+        "Name": "Bosco LLC",
+        "Description": "Open-source context-sensitive database",
+        "PrerequisiteModuleName": "Reichel, Kihn and Streich",
+        "SortOrder": 58,
+        "ExtraFlags": 527,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 524
+            "FieldLength": 264
           }
         }
       }
@@ -216,7 +218,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 846
+        "FieldLength": 89
       }
     }
   }

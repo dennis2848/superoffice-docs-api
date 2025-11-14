@@ -76,25 +76,25 @@ OK
 PUT /api/v1/List/QuoteApproveReason/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 162,
-    "Name": "Ortiz, Hermiston and Murphy",
-    "Tooltip": "cum",
-    "Deleted": true,
-    "Rank": 253,
-    "UdListDefinitionId": 798
+    "HeadingId": 466,
+    "Name": "Kling, Miller and Purdy",
+    "Tooltip": "ipsa",
+    "Deleted": false,
+    "Rank": 208,
+    "UdListDefinitionId": 268
   },
   {
-    "HeadingId": 162,
-    "Name": "Ortiz, Hermiston and Murphy",
-    "Tooltip": "cum",
-    "Deleted": true,
-    "Rank": 253,
-    "UdListDefinitionId": 798
+    "HeadingId": 466,
+    "Name": "Kling, Miller and Purdy",
+    "Tooltip": "ipsa",
+    "Deleted": false,
+    "Rank": 208,
+    "UdListDefinitionId": 268
   }
 ]
 ```
@@ -107,18 +107,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 812,
-    "Name": "Connelly Inc and Sons",
-    "Tooltip": "quidem",
+    "HeadingId": 86,
+    "Name": "Russel-DuBuque",
+    "Tooltip": "eius",
     "Deleted": false,
-    "Rank": 283,
-    "UdListDefinitionId": 249,
+    "Rank": 767,
+    "UdListDefinitionId": 55,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 315
+        "FieldLength": 452
       }
     }
   }

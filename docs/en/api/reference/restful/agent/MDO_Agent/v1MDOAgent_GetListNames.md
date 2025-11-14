@@ -15,6 +15,7 @@ Returns a list of all MDO List names.
 
 
 These names can also be used with the Archive agent as ProviderNames.
+NsApiSlow threshold: 1700 ms.
 
 
 
@@ -63,7 +64,7 @@ OK
 POST /api/v1/Agents/MDO/GetListNames
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -73,7 +74,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  "vel",
-  "error"
+  "voluptas",
+  "dicta"
 ]
 ```

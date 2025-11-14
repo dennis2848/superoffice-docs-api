@@ -14,6 +14,9 @@ POST /api/v1/Agents/CRMScript/SaveCRMScriptEntity
 Updates the existing CRMScriptEntity or creates a new CRMScriptEntity if the id parameter is 0.
 
 
+NsApiSlow threshold: 5000 ms.
+
+
 ## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 
@@ -106,48 +109,48 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 451,
-  "UniqueIdentifier": "est",
-  "Name": "Zboncak-Kris",
-  "Description": "Focused local customer loyalty",
-  "IncludeId": "ut",
-  "AccessKey": "dignissimos",
-  "HierarchyId": 948,
-  "Source": "architecto",
-  "SourceCode": "ut",
+  "EjscriptId": 18,
+  "UniqueIdentifier": "vero",
+  "Name": "Swaniawski, Harris and Vandervort",
+  "Description": "Stand-alone tangible orchestration",
+  "IncludeId": "eligendi",
+  "AccessKey": "et",
+  "HierarchyId": 69,
+  "Source": "tempora",
+  "SourceCode": "laboriosam",
   "ScriptType": "CRMScript",
-  "HtmlOutput": 623,
+  "HtmlOutput": 886,
   "Includes": [
-    55,
-    364
+    708,
+    109
   ],
   "SourceMaps": [
     {
-      "LineNumberFrom": 155,
-      "LineNumberTo": 619,
-      "Delta": 728,
-      "IncludeId": "rerum",
+      "LineNumberFrom": 192,
+      "LineNumberTo": 109,
+      "Delta": 714,
+      "IncludeId": "repellendus",
       "IncludedFrom": [
-        "tempore",
-        "dolor"
+        "ut",
+        "tenetur"
       ]
     },
     {
-      "LineNumberFrom": 155,
-      "LineNumberTo": 619,
-      "Delta": 728,
-      "IncludeId": "rerum",
+      "LineNumberFrom": 192,
+      "LineNumberTo": 109,
+      "Delta": 714,
+      "IncludeId": "repellendus",
       "IncludedFrom": [
-        "tempore",
-        "dolor"
+        "ut",
+        "tenetur"
       ]
     }
   ],
   "ValidationResult": null,
-  "Registered": "2005-10-31T03:46:54.5663888+01:00",
-  "RegisteredAssociateId": 747,
-  "Updated": "2004-09-24T03:46:54.5663888+02:00",
-  "UpdatedAssociateId": 361,
+  "Registered": "2016-10-18T02:30:47.0382145+02:00",
+  "RegisteredAssociateId": 204,
+  "Updated": "2014-06-12T02:30:47.0382145+02:00",
+  "UpdatedAssociateId": 682,
   "BlockedVerbs": "BlockAll"
 }
 ```
@@ -159,53 +162,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 357,
-  "UniqueIdentifier": "tenetur",
-  "Name": "Grant-Kunde",
-  "Description": "Vision-oriented holistic array",
-  "IncludeId": "quidem",
-  "AccessKey": "atque",
-  "HierarchyId": 842,
-  "Source": "maiores",
-  "SourceCode": "sit",
+  "EjscriptId": 636,
+  "UniqueIdentifier": "consequatur",
+  "Name": "Metz LLC",
+  "Description": "Sharable reciprocal help-desk",
+  "IncludeId": "reprehenderit",
+  "AccessKey": "culpa",
+  "HierarchyId": 92,
+  "Source": "ab",
+  "SourceCode": "nulla",
   "ScriptType": "CRMScript",
-  "HtmlOutput": 585,
+  "HtmlOutput": 118,
   "Includes": [
-    414,
-    438
+    294,
+    285
   ],
   "SourceMaps": [
     {
-      "LineNumberFrom": 495,
-      "LineNumberTo": 26,
-      "Delta": 733,
-      "IncludeId": "deserunt",
+      "LineNumberFrom": 152,
+      "LineNumberTo": 395,
+      "Delta": 725,
+      "IncludeId": "reprehenderit",
       "IncludedFrom": [
-        "laboriosam",
-        "aut"
+        "eligendi",
+        "alias"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 360
+          "FieldLength": 252
         }
       }
     }
   ],
   "ValidationResult": null,
-  "Registered": "2023-12-25T03:46:54.5663888+01:00",
-  "RegisteredAssociateId": 841,
-  "Updated": "2004-12-01T03:46:54.5663888+01:00",
-  "UpdatedAssociateId": 725,
+  "Registered": "2020-11-26T02:30:47.0382145+01:00",
+  "RegisteredAssociateId": 959,
+  "Updated": "2021-04-24T02:30:47.0382145+02:00",
+  "UpdatedAssociateId": 798,
   "BlockedVerbs": "BlockAll",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 839
+      "FieldType": "System.Int32",
+      "FieldLength": 699
     }
   }
 }

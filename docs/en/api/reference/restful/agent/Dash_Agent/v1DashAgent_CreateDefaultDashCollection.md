@@ -14,6 +14,8 @@ POST /api/v1/Agents/Dash/CreateDefaultDashCollection
 Loading default values into a new DashCollection.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -58,7 +60,7 @@ OK
 POST /api/v1/Agents/Dash/CreateDefaultDashCollection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,111 +72,111 @@ Content-Type: application/json; charset=utf-8
 {
   "Pinned": [
     {
-      "DashboardId": 887,
-      "UniqueId": "nisi",
-      "Name": "Lind, Lynch and Homenick",
-      "Description": "Balanced even-keeled orchestration",
-      "AssociateId": 339,
-      "Columns": 720,
+      "DashboardId": 680,
+      "UniqueId": "sed",
+      "Name": "Roberts, Mitchell and Sauer",
+      "Description": "Right-sized radical customer loyalty",
+      "AssociateId": 181,
+      "Columns": 850,
       "Theme": null,
-      "VisibleForAll": 377,
+      "VisibleForAll": 310,
       "VisibleForAssociates": [
-        909,
-        661
+        268,
+        496
       ],
       "VisibleForGroups": [
-        234,
-        139
+        752,
+        182
       ],
-      "PinForAll": 351,
+      "PinForAll": 656,
       "PinForAssociates": [
-        904,
-        434
+        814,
+        29
       ],
       "PinForGroups": [
-        52,
-        722
+        304,
+        650
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 427
+          "FieldLength": 950
         }
       }
     }
   ],
   "Favourites": [
     {
-      "DashboardId": 928,
-      "UniqueId": "enim",
-      "Name": "Rodriguez-Nienow",
-      "Description": "Triple-buffered human-resource methodology",
-      "AssociateId": 252,
-      "Columns": 627,
+      "DashboardId": 446,
+      "UniqueId": "et",
+      "Name": "O'Connell-Nolan",
+      "Description": "Organic analyzing archive",
+      "AssociateId": 974,
+      "Columns": 45,
       "Theme": null,
-      "VisibleForAll": 928,
+      "VisibleForAll": 503,
       "VisibleForAssociates": [
-        322,
-        839
+        687,
+        503
       ],
       "VisibleForGroups": [
-        594,
-        533
+        160,
+        419
       ],
-      "PinForAll": 459,
+      "PinForAll": 461,
       "PinForAssociates": [
-        59,
-        307
+        91,
+        246
       ],
       "PinForGroups": [
-        1000,
-        832
+        245,
+        491
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 195
+          "FieldLength": 492
         }
       }
     }
   ],
   "Other": [
     {
-      "DashboardId": 821,
-      "UniqueId": "architecto",
-      "Name": "Green, Gibson and Prosacco",
-      "Description": "Synergized optimal support",
-      "AssociateId": 51,
-      "Columns": 137,
+      "DashboardId": 381,
+      "UniqueId": "sit",
+      "Name": "Jenkins Inc and Sons",
+      "Description": "Visionary fresh-thinking internet solution",
+      "AssociateId": 266,
+      "Columns": 602,
       "Theme": null,
-      "VisibleForAll": 47,
+      "VisibleForAll": 64,
       "VisibleForAssociates": [
-        447,
-        13
+        262,
+        39
       ],
       "VisibleForGroups": [
-        159,
-        907
+        404,
+        818
       ],
-      "PinForAll": 556,
+      "PinForAll": 715,
       "PinForAssociates": [
-        10,
-        647
+        430,
+        444
       ],
       "PinForGroups": [
-        523,
-        315
+        268,
+        307
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 55
+          "FieldType": "System.Int32",
+          "FieldLength": 373
         }
       }
     }
@@ -183,8 +185,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 111
+      "FieldType": "System.String",
+      "FieldLength": 604
     }
   }
 }

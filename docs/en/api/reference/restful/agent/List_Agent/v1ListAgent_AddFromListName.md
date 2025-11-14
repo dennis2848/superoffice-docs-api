@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/AddFromListName
 Save a new list item for the specified list defintion
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -84,7 +86,7 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Baumbach, Paucek and Rippin",
+  "UdListDefinitionName": "Runolfsdottir, Heller and Torphy",
   "Item": null
 }
 ```
@@ -96,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 114,
-  "Name": "Batz, Jacobi and Farrell",
-  "Tooltip": "ut",
-  "Deleted": true,
-  "UdListDefinitionId": 799,
-  "Rank": 760,
+  "Id": 895,
+  "Name": "Lebsack-Sporer",
+  "Tooltip": "qui",
+  "Deleted": false,
+  "UdListDefinitionId": 566,
+  "Rank": 145,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 204
+      "FieldType": "System.Int32",
+      "FieldLength": 774
     }
   }
 }

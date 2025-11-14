@@ -74,7 +74,7 @@ OK
 GET /api/v1/Contact/{contactId}/Imageinfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -82,28 +82,28 @@ Accept-Language: *
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sat, 05 Jan 2002 03:46:59 G1T
+Last-Modified: Tue, 27 Dec 2022 02:30:52 G12T
 
 {
-  "BlobId": 352,
-  "BlobSize": 276,
-  "Description": "Robust asynchronous frame",
-  "ExtraInfo": "vel",
+  "BlobId": 217,
+  "BlobSize": 62,
+  "Description": "Synchronised client-server data-warehouse",
+  "ExtraInfo": "amet",
   "IsEncrypted": true,
   "IsZipped": false,
-  "MimeType": "quae",
-  "OriginalSize": 748,
-  "CreatedDate": "2000-02-17T03:46:59.8161962+01:00",
-  "UpdatedDate": "2002-01-05T03:46:59.8161962+01:00",
+  "MimeType": "iste",
+  "OriginalSize": 608,
+  "CreatedDate": "2010-12-22T02:30:52.4442929+01:00",
+  "UpdatedDate": "2022-12-27T02:30:52.4442929+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "recusandae",
+  "ConceptualType": "architecto",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 666
+      "FieldLength": 758
     }
   }
 }

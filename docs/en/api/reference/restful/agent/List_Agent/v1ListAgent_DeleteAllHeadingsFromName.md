@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/DeleteAllHeadingsFromName
 Delete all headings for list resolved by the provided name.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -65,11 +67,11 @@ No Content
 POST /api/v1/Agents/List/DeleteAllHeadingsFromName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Heller-Schowalter"
+  "Name": "Kunze-Volkman"
 }
 ```
 

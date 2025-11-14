@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/SaveAllFromListDefinition
 Save all list items for the specified list defintion
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -80,27 +82,27 @@ OK
 POST /api/v1/Agents/List/SaveAllFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 754,
+  "UdListDefinitionId": 712,
   "Items": [
     {
-      "Id": 406,
-      "Name": "Kozey LLC",
-      "Tooltip": "aspernatur",
-      "Deleted": false,
-      "UdListDefinitionId": 46,
-      "Rank": 697
+      "Id": 64,
+      "Name": "Schowalter, Ernser and Ledner",
+      "Tooltip": "qui",
+      "Deleted": true,
+      "UdListDefinitionId": 59,
+      "Rank": 627
     },
     {
-      "Id": 406,
-      "Name": "Kozey LLC",
-      "Tooltip": "aspernatur",
-      "Deleted": false,
-      "UdListDefinitionId": 46,
-      "Rank": 697
+      "Id": 64,
+      "Name": "Schowalter, Ernser and Ledner",
+      "Tooltip": "qui",
+      "Deleted": true,
+      "UdListDefinitionId": 59,
+      "Rank": 627
     }
   ]
 }
@@ -114,18 +116,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 774,
-    "Name": "Shanahan Group",
-    "Tooltip": "sint",
+    "Id": 189,
+    "Name": "Hyatt Inc and Sons",
+    "Tooltip": "nostrum",
     "Deleted": false,
-    "UdListDefinitionId": 414,
-    "Rank": 774,
+    "UdListDefinitionId": 832,
+    "Rank": 387,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 703
+        "FieldType": "System.String",
+        "FieldLength": 819
       }
     }
   }

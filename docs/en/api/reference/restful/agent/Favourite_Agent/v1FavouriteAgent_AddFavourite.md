@@ -14,6 +14,8 @@ POST /api/v1/Agents/Favourite/AddFavourite
 Add a record in a table as a favourite for an associate
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -72,10 +74,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Jaskolski Inc and Sons",
-  "RecordId": 919,
-  "AssociateId": 466,
-  "ExtraInfo": "quaerat"
+  "TableName": "Reichert, Predovic and Prohaska",
+  "RecordId": 365,
+  "AssociateId": 593,
+  "ExtraInfo": "velit"
 }
 ```
 

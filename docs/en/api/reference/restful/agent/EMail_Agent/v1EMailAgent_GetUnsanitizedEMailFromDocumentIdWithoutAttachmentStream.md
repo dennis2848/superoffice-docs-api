@@ -15,6 +15,7 @@ Get an e-mail based on an archived document.
 
 
 The returned value is not sanitized.
+NsApiSlow threshold: 5000 ms.
 
 
 ## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
@@ -104,11 +105,11 @@ OK
 POST /api/v1/Agents/EMail/GetUnsanitizedEMailFromDocumentIdWithoutAttachmentStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 5
+  "DocumentId": 687
 }
 ```
 
@@ -121,148 +122,148 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 817,
-      "ContactName": "Miller, Shanahan and Rutherford",
-      "PersonId": 19,
-      "PersonName": "Nader, Kessler and Vandervort",
-      "AssociateId": 782,
-      "Address": "possimus",
-      "EmailId": 411,
+      "ContactId": 964,
+      "ContactName": "Mosciski Group",
+      "PersonId": 415,
+      "PersonName": "Legros-Lueilwitz",
+      "AssociateId": 654,
+      "Address": "rerum",
+      "EmailId": 34,
       "DuplicatePersonIds": [
-        754,
-        234
+        914,
+        119
       ],
-      "Name": "Wehner-Jenkins",
+      "Name": "Harber LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 636
+          "FieldLength": 701
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 737,
-      "ContactName": "Borer, Fahey and Koepp",
-      "PersonId": 676,
-      "PersonName": "Langosh-Schinner",
-      "AssociateId": 222,
-      "Address": "quis",
-      "EmailId": 511,
+      "ContactId": 631,
+      "ContactName": "Haley-Kilback",
+      "PersonId": 9,
+      "PersonName": "Hammes, Schumm and Roberts",
+      "AssociateId": 745,
+      "Address": "possimus",
+      "EmailId": 319,
       "DuplicatePersonIds": [
-        820,
-        709
+        448,
+        421
       ],
-      "Name": "Braun Inc and Sons",
+      "Name": "Hegmann-Bogisich",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 751
+          "FieldType": "System.String",
+          "FieldLength": 124
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 456,
-      "ContactName": "Carroll Inc and Sons",
-      "PersonId": 589,
-      "PersonName": "Glover-Schneider",
-      "AssociateId": 292,
-      "Address": "cumque",
-      "EmailId": 38,
+      "ContactId": 602,
+      "ContactName": "Kohler-DuBuque",
+      "PersonId": 878,
+      "PersonName": "Gusikowski, Monahan and Purdy",
+      "AssociateId": 932,
+      "Address": "adipisci",
+      "EmailId": 572,
       "DuplicatePersonIds": [
-        9,
-        601
+        924,
+        599
       ],
-      "Name": "Douglas-Abbott",
+      "Name": "Halvorson-Quitzon",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 476
+          "FieldType": "System.String",
+          "FieldLength": 521
         }
       }
     }
   ],
-  "Subject": "molestias",
-  "HTMLBody": "impedit",
+  "Subject": "quae",
+  "HTMLBody": "et",
   "From": null,
-  "Sent": "2000-06-10T03:46:54.7382579+02:00",
-  "Size": 850,
+  "Sent": "2002-07-03T02:30:47.2569602+02:00",
+  "Size": 260,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "voluptatem",
-  "PlainBody": "adipisci",
-  "IsSent": true,
+  "MessageID": "voluptate",
+  "PlainBody": "quia",
+  "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 130,
+  "ServerId": 997,
   "Attachments": [
     {
-      "Description": "Ergonomic disintermediate capacity",
-      "Filename": "ipsam",
-      "Size": 289,
-      "Type": "quo",
-      "Encoding": "quibusdam",
-      "Id": "tempora",
-      "Disposition": "veritatis",
-      "IsSafeFileExtension": true,
+      "Description": "Sharable systematic architecture",
+      "Filename": "molestiae",
+      "Size": 461,
+      "Type": "praesentium",
+      "Encoding": "veritatis",
+      "Id": "hic",
+      "Disposition": "cumque",
+      "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 13
+          "FieldLength": 517
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Jones, Luettgen and Gerlach",
+      "Name": "Mayert-Cremin",
       "Values": [
-        "ipsum",
-        "amet"
+        "rerum",
+        "voluptatem"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 414
+          "FieldLength": 37
         }
       }
     },
     {
-      "Name": "Jones, Luettgen and Gerlach",
+      "Name": "Mayert-Cremin",
       "Values": [
-        "ipsum",
-        "amet"
+        "rerum",
+        "voluptatem"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 414
+          "FieldLength": 37
         }
       }
     }
   ],
-  "FolderName": "Gorczany Inc and Sons",
-  "EmailItemId": 348,
-  "AccountId": 199,
-  "ReceivedAt": "2003-10-31T03:46:54.7382579+01:00",
+  "FolderName": "Hirthe Group",
+  "EmailItemId": 951,
+  "AccountId": 842,
+  "ReceivedAt": "2022-12-29T02:30:47.2569602+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2015-05-18T03:46:54.7382579+02:00",
-  "HasCalendarData": true,
+  "RepliedAt": "2018-04-29T02:30:47.2569602+02:00",
+  "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
@@ -270,7 +271,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 173
+      "FieldLength": 275
     }
   }
 }

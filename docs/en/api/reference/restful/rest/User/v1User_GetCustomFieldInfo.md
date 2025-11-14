@@ -84,18 +84,18 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Bins LLC",
-  "DisplayName": "Willms-Krajcik",
-  "Description": "Multi-channelled solution-oriented structure",
-  "ShortLabel": "qui",
+  "FieldName": "Thompson LLC",
+  "DisplayName": "Wilderman, Zboncak and Rath",
+  "Description": "Distributed user-facing contingency",
+  "ShortLabel": "delectus",
   "HideLabel": false,
-  "HideField": true,
-  "IsIndexed": false,
+  "HideField": false,
+  "IsIndexed": true,
   "IsMandatory": false,
   "IsReadOnly": true,
-  "IsExternal": true,
-  "IsDisplayField": true,
-  "Rank": 783,
-  "TemplateVariableName": "Carroll-Mraz"
+  "IsExternal": false,
+  "IsDisplayField": false,
+  "Rank": 94,
+  "TemplateVariableName": "Bergnaum, Wolf and Jewess"
 }
 ```

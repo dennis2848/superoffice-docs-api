@@ -15,6 +15,7 @@ Get all documents that are linked to the sale.
 
 
 I.e. the documents that are listed in the sale dialog.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -99,7 +100,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 752
+  "SaleId": 652
 }
 ```
 
@@ -111,32 +112,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 6,
-    "Attention": "eligendi",
-    "Header": "nulla",
-    "Name": "Hegmann, Schuppe and Ziemann",
-    "OurRef": "perspiciatis",
-    "YourRef": "laborum",
-    "Description": "Fundamental background focus group",
-    "DocumentTemplate": "recusandae",
-    "IsPublished": true,
-    "PersonId": 527,
-    "PersonFullName": "Mr. Noemie Cristal Hagenes",
-    "AssociateFullName": "Alivia Sanford",
-    "ContactId": 185,
-    "ContactName": "Langosh, Fadel and Brakus",
-    "ProjectId": 983,
-    "ProjectName": "Rippin, Kunze and Considine",
-    "AssociateId": 749,
-    "Snum": 318,
-    "SaleId": 363,
-    "SaleName": "Roberts Inc and Sons",
+    "DocumentId": 720,
+    "Attention": "sed",
+    "Header": "quam",
+    "Name": "Aufderhar-VonRueden",
+    "OurRef": "cumque",
+    "YourRef": "nesciunt",
+    "Description": "Ergonomic analyzing process improvement",
+    "DocumentTemplate": "in",
+    "IsPublished": false,
+    "PersonId": 264,
+    "PersonFullName": "Prof. Pamela Columbus Hickle DDS",
+    "AssociateFullName": "Erna Marks",
+    "ContactId": 65,
+    "ContactName": "Schneider Inc and Sons",
+    "ProjectId": 969,
+    "ProjectName": "Stiedemann, Willms and Littel",
+    "AssociateId": 336,
+    "Snum": 581,
+    "SaleId": 354,
+    "SaleName": "Harber, Kling and Morar",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 393
+        "FieldLength": 561
       }
     }
   }

@@ -11,7 +11,7 @@ content_type: reference
 POST /api/v1/Agents/BLOB/ChangePersonImage
 ```
 
-
+NsApiSlow threshold: 3000 ms.
 
 
 
@@ -66,12 +66,12 @@ No Content
 POST /api/v1/Agents/BLOB/ChangePersonImage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 187,
-  "BlobId": 175
+  "PersonId": 850,
+  "BlobId": 31
 }
 ```
 

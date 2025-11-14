@@ -14,6 +14,9 @@ POST /api/v1/Agents/DocumentMigration/MigrateDocumentToNewDocPlugin
 Migrates the document with the provided id to the specified document-plugin.
 
 
+NsApiSlow threshold: 5000 ms.
+
+
 ## Online Restricted: ## The DocumentMigration agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for SuperOffice-internal apps.
 
 
@@ -72,8 +75,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 366,
-  "DocumentPluginId": 879
+  "DocumentId": 858,
+  "DocumentPluginId": 454
 }
 ```
 

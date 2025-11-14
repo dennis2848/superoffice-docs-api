@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/SaveExtAppEntity
 Updates the existing ExtAppEntity or creates a new ExtAppEntity if the id parameter is 0.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -110,28 +112,28 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExtAppId": 216,
-  "Name": "Ratke, Hane and Kris",
-  "Tooltip": "quia",
+  "ExtAppId": 920,
+  "Name": "Mills, Kunze and Robel",
+  "Tooltip": "qui",
   "Deleted": false,
-  "Rank": 724,
-  "Filename": "corrupti",
-  "Parameters": "blanditiis",
-  "Workdir": "occaecati",
+  "Rank": 975,
+  "Filename": "et",
+  "Parameters": "velit",
+  "Workdir": "blanditiis",
   "ShowState": "AddressBar",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
   "OnSatellite": true,
   "OnTravel": false,
-  "OnSalesMarketingPocket": false,
-  "ShowInMenuBar": true,
+  "OnSalesMarketingPocket": true,
+  "ShowInMenuBar": false,
   "ShowInToolBar": true,
-  "ShowInAddressBar": false,
-  "ShowInStatusBar": true,
-  "Icon": 326,
+  "ShowInAddressBar": true,
+  "ShowInStatusBar": false,
+  "Icon": 464,
   "WaitToFinish": false,
   "ExecuteOnEvent": "LocalUpdate",
-  "Path": "non"
+  "Path": "eos"
 }
 ```
 
@@ -142,34 +144,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExtAppId": 534,
-  "Name": "Gorczany-Macejkovic",
-  "Tooltip": "hic",
+  "ExtAppId": 763,
+  "Name": "Greenholt LLC",
+  "Tooltip": "veritatis",
   "Deleted": false,
-  "Rank": 555,
-  "Filename": "ut",
-  "Parameters": "sed",
-  "Workdir": "qui",
+  "Rank": 357,
+  "Filename": "quidem",
+  "Parameters": "officiis",
+  "Workdir": "in",
   "ShowState": "AddressBar",
   "VisibleIn": "ActivityDialog",
   "OnCentral": true,
   "OnSatellite": false,
-  "OnTravel": false,
+  "OnTravel": true,
   "OnSalesMarketingPocket": false,
   "ShowInMenuBar": true,
   "ShowInToolBar": false,
-  "ShowInAddressBar": true,
-  "ShowInStatusBar": true,
-  "Icon": 344,
-  "WaitToFinish": true,
+  "ShowInAddressBar": false,
+  "ShowInStatusBar": false,
+  "Icon": 643,
+  "WaitToFinish": false,
   "ExecuteOnEvent": "LocalUpdate",
-  "Path": "ut",
+  "Path": "occaecati",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 852
+      "FieldType": "System.String",
+      "FieldLength": 340
     }
   }
 }

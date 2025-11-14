@@ -66,7 +66,7 @@ OK
 GET /api/v1/List/Position
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -76,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 351,
-  "Name": "Goyette-Rempel",
-  "Tooltip": "nobis",
+  "Id": 596,
+  "Name": "Klocko-Turner",
+  "Tooltip": "veniam",
   "Deleted": false,
-  "Rank": 484,
-  "IsCustomList": false,
-  "IsMDOList": false,
+  "Rank": 811,
+  "IsCustomList": true,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "quod",
-  "InUseByUserDefinedFields": true,
+  "ListType": "eveniet",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 336
+      "FieldLength": 861
     }
   },
   "_Links": {

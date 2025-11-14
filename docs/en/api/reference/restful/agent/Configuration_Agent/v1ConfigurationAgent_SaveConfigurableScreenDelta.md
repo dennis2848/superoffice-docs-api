@@ -14,6 +14,8 @@ POST /api/v1/Agents/Configuration/SaveConfigurableScreenDelta
 Updates the existing ConfigurableScreenDelta or creates a new ConfigurableScreenDelta if the id parameter is 0.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -88,26 +90,26 @@ OK
 POST /api/v1/Agents/Configuration/SaveConfigurableScreenDelta
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 251,
-  "Name": "Connelly-Marquardt",
-  "Description": "Reactive directional utilisation",
-  "DeltaJson": "ipsam",
+  "ConfigurableScreenDeltaId": 488,
+  "Name": "Kessler LLC",
+  "Description": "Digitized responsive artificial intelligence",
+  "DeltaJson": "esse",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "ipsum",
-  "UpdatedDate": "2004-03-31T03:46:54.4570178+02:00",
-  "CreatedDate": "2023-01-30T03:46:54.4570178+01:00",
+  "RecipeId": "nihil",
+  "UpdatedDate": "2022-03-25T02:30:46.9132188+01:00",
+  "CreatedDate": "2011-06-27T02:30:46.9132188+02:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    836,
-    677
+    151,
+    502
   ],
-  "AppliesToKey": "quo"
+  "AppliesToKey": "sit"
 }
 ```
 
@@ -118,28 +120,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 863,
-  "Name": "Ebert, Johnston and Harvey",
-  "Description": "Quality-focused directional extranet",
-  "DeltaJson": "optio",
+  "ConfigurableScreenDeltaId": 654,
+  "Name": "Bins-Larkin",
+  "Description": "Cross-platform scalable firmware",
+  "DeltaJson": "quam",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "eos",
-  "UpdatedDate": "2002-12-24T03:46:54.4570178+01:00",
-  "CreatedDate": "2010-08-28T03:46:54.4570178+02:00",
+  "RecipeId": "qui",
+  "UpdatedDate": "2016-03-21T02:30:46.9132188+01:00",
+  "CreatedDate": "2012-01-25T02:30:46.9132188+01:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    676,
-    804
+    332,
+    120
   ],
-  "AppliesToKey": "ratione",
+  "AppliesToKey": "impedit",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 336
+      "FieldLength": 880
     }
   }
 }

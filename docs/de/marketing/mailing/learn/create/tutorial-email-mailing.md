@@ -1,12 +1,16 @@
----
+﻿---
 uid: help-de-tutorial-email-mailing
 title: Tutorial - E-Mail-Kampagne
 description: Wenn Sie die notwendigen Vorbereitungen getroffen haben, einschließlich der Erstellung Ihrer Zielliste und der Vorbereitung Ihrer Kampagnevorlage, können Sie eine neue Kampagne in SuperOffice CRM erstellen. In diesem Tutorial erfahren Sie, wie Sie eine E-Mail-Kampagne erstellen.
 keywords: e-mail-kampagne
-date: 06.27.2025
+date: 09.26.2025
 version: 10.5
 content_type: tutorial
+category: marketing
+topic: mailing
+license: marketingessentials
 audience: person
+audience_tooltip: SuperOffice Marketing
 language: de
 ---
 
@@ -77,5 +81,5 @@ Wenn Sie versuchen, von einer Domain zu senden, die keinen gültigen SPF-Eintrag
 [!include[So bestätigen und versenden Sie eine Kampagne](includes/step-5-confirm-and-send-mailing.md)]
 
 <!-- Referenced links -->
-[2]: ../../../../admin/lists/learn/add-items-to-mailing-domain.md
+[2]: ../../admin/add-domain.md
 [4]: ../../../learn/create-folder.md

@@ -14,6 +14,8 @@ POST /api/v1/Agents/Pocket/SendPushNotification
 Send a push notification to one or more associates
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -66,13 +68,13 @@ No Content
 POST /api/v1/Agents/Pocket/SendPushNotification
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "AssociateIds": [
-    343,
-    202
+    863,
+    69
   ],
   "Message": null
 }

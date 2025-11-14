@@ -15,6 +15,7 @@ GetAppointmentHaveParticipantsWithEmail will check if any of the participants is
 
 
 If no participants are defined, false will be returned.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -71,11 +72,11 @@ OK
 POST /api/v1/Agents/Appointment/GetAppointmentHaveParticipantsWithEmail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 790
+  "AppointmentId": 566
 }
 ```
 

@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/GetTaskList
 Gets an array of SoTask objects.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -73,7 +75,7 @@ OK
 POST /api/v1/Agents/List/GetTaskList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -84,28 +86,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 686,
-    "Value": "voluptatem",
-    "Tooltip": "optio",
+    "Id": 208,
+    "Value": "optio",
+    "Tooltip": "rerum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 602
+        "FieldLength": 730
       }
     }
   },
   {
-    "Id": 686,
-    "Value": "voluptatem",
-    "Tooltip": "optio",
+    "Id": 208,
+    "Value": "optio",
+    "Tooltip": "rerum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 602
+        "FieldLength": 730
       }
     }
   }

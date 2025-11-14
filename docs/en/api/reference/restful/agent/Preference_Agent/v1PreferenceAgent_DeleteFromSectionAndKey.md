@@ -14,6 +14,8 @@ POST /api/v1/Agents/Preference/DeleteFromSectionAndKey
 Gets a PreferenceDescription based on the section and key
 
 
+NsApiSlow threshold: 1000 ms.
+
 
 
 
@@ -66,12 +68,12 @@ No Content
 POST /api/v1/Agents/Preference/DeleteFromSectionAndKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Section": "dolores",
-  "Key": "voluptatem"
+  "Section": "omnis",
+  "Key": "incidunt"
 }
 ```
 

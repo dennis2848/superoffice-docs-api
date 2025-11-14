@@ -14,6 +14,8 @@ POST /api/v1/Agents/Selection/GetSelectionSummaries
 Get an array of summaryitem for the given selections
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -76,13 +78,13 @@ OK
 POST /api/v1/Agents/Selection/GetSelectionSummaries
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "SelectionIds": [
-    525,
-    891
+    438,
+    644
   ]
 }
 ```
@@ -95,18 +97,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "SelectionId": 843,
-    "Name": "Kuhlman-Schmeler",
-    "TargetTable": "dolores",
-    "Registered": "2024-07-11T03:46:55.3944846+02:00",
-    "ProviderName": "Stroman, Feest and West"
+    "SelectionId": 886,
+    "Name": "Erdman LLC",
+    "TargetTable": "quo",
+    "Registered": "2010-11-10T02:30:47.8506907+01:00",
+    "ProviderName": "Hansen-Lubowitz"
   },
   {
-    "SelectionId": 843,
-    "Name": "Kuhlman-Schmeler",
-    "TargetTable": "dolores",
-    "Registered": "2024-07-11T03:46:55.3944846+02:00",
-    "ProviderName": "Stroman, Feest and West"
+    "SelectionId": 886,
+    "Name": "Erdman LLC",
+    "TargetTable": "quo",
+    "Registered": "2010-11-10T02:30:47.8506907+01:00",
+    "ProviderName": "Hansen-Lubowitz"
   }
 ]
 ```

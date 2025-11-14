@@ -15,6 +15,7 @@ Returns URL to status service.
 
 
 e.g. 'https://help.superoffice.com/sodispatcher/v1/status' Returns NULL if status does not need to be checked yet.
+NsApiSlow threshold: 1000 ms.
 
 
 
@@ -63,7 +64,7 @@ OK
 POST /api/v1/Agents/Preference/GetNetServicesStatusUrl
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response

@@ -14,6 +14,8 @@ POST /api/v1/Agents/Person/GetMyOwner
 Get the owner of the logged in person.
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -116,53 +118,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Position": "non",
-  "PersonId": 830,
-  "Mrmrs": "commodi",
-  "Firstname": "Harley",
-  "Lastname": "Murphy",
-  "MiddleName": "Green LLC",
-  "Title": "nesciunt",
-  "Description": "Grass-roots holistic ability",
-  "Email": "bria_reinger@rogahn.us",
-  "FullName": "Calista Gleason",
-  "DirectPhone": "181.544.1423 x66162",
-  "FormalName": "Rau LLC",
-  "CountryId": 707,
-  "ContactId": 303,
-  "ContactName": "Medhurst-Zieme",
-  "Retired": 84,
-  "Rank": 614,
-  "ActiveInterests": 818,
+  "Position": "hic",
+  "PersonId": 981,
+  "Mrmrs": "quia",
+  "Firstname": "Michale",
+  "Lastname": "Douglas",
+  "MiddleName": "Deckow-O'Connell",
+  "Title": "quam",
+  "Description": "Face to face fresh-thinking attitude",
+  "Email": "lenora@collins.name",
+  "FullName": "Dr. Buddy Nienow DDS",
+  "DirectPhone": "885-074-3588 x981",
+  "FormalName": "Deckow, Witting and Goodwin",
+  "CountryId": 287,
+  "ContactId": 945,
+  "ContactName": "Davis-Collins",
+  "Retired": 199,
+  "Rank": 839,
+  "ActiveInterests": 28,
   "ContactDepartment": "",
-  "ContactCountryId": 987,
-  "ContactOrgNr": "820954",
-  "FaxPhone": "912-723-6311 x58228",
-  "MobilePhone": "074.872.8243 x163",
-  "ContactPhone": "1-662-685-0667 x6224",
-  "AssociateName": "Cormier LLC",
-  "AssociateId": 76,
+  "ContactCountryId": 342,
+  "ContactOrgNr": "1391293",
+  "FaxPhone": "1-674-908-2734 x15005",
+  "MobilePhone": "(746)103-2941 x661",
+  "ContactPhone": "1-291-476-7734",
+  "AssociateName": "Lesch, Heathcote and Cronin",
+  "AssociateId": 407,
   "UsePersonAddress": false,
-  "ContactFax": "beatae",
-  "Kanafname": "corrupti",
-  "Kanalname": "impedit",
-  "Post1": "praesentium",
-  "Post2": "dolores",
-  "Post3": "veniam",
-  "EmailName": "lora@douglasohara.biz",
-  "ContactFullName": "King Oberbrunner",
-  "ActiveErpLinks": 444,
-  "TicketPriorityId": 339,
-  "SupportLanguageId": 970,
-  "SupportAssociateId": 662,
+  "ContactFax": "debitis",
+  "Kanafname": "soluta",
+  "Kanalname": "atque",
+  "Post1": "numquam",
+  "Post2": "itaque",
+  "Post3": "ipsam",
+  "EmailName": "cathy.mitchell@boyle.us",
+  "ContactFullName": "Mr. Jon Miller Sr.",
+  "ActiveErpLinks": 502,
+  "TicketPriorityId": 420,
+  "SupportLanguageId": 110,
+  "SupportAssociateId": 24,
   "CategoryName": "VIP Customer",
-  "PersonNumber": "1481613",
+  "PersonNumber": "100142",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 479
+      "FieldType": "System.Int32",
+      "FieldLength": 718
     }
   }
 }

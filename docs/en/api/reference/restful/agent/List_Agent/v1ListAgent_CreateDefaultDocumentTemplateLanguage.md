@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/CreateDefaultDocumentTemplateLanguage
 Create a new document template language based on an existing template
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -66,12 +68,12 @@ No Content
 POST /api/v1/Agents/List/CreateDefaultDocumentTemplateLanguage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 377,
-  "LanguageCode": "qui"
+  "DocumentTemplateId": 594,
+  "LanguageCode": "repudiandae"
 }
 ```
 

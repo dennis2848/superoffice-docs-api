@@ -15,6 +15,7 @@ Update the criteria for this dynamic selection.
 
 
 Use criteria as either restriction objects or OData string format. Criteria are parsed from the OData filter form: ''name startswith 'foo' and category in (1,2,3)''
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -85,22 +86,22 @@ OK
 POST /api/v1/Agents/Selection/SetDynamicSelectionCriteria3
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 740,
+  "SelectionId": 235,
   "Criteria": [
     {
-      "Name": "Little, Howell and Prosacco",
-      "Operator": "temporibus",
+      "Name": "Kautzer-Gaylord",
+      "Operator": "qui",
       "Values": [
-        "vel",
-        "accusamus"
+        "cum",
+        "et"
       ],
       "DisplayValues": [
-        "expedita",
-        "vel"
+        "qui",
+        "corporis"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -108,12 +109,12 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 818,
+      "InterParenthesis": 843,
       "InterOperator": "And",
-      "UniqueHash": 120
+      "UniqueHash": 775
     }
   ],
-  "Filter": "consectetur"
+  "Filter": "iusto"
 }
 ```
 
@@ -125,44 +126,44 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Hessel-Witting",
-    "Operator": "nostrum",
+    "Name": "Ledner-Oberbrunner",
+    "Operator": "explicabo",
     "Values": [
-      "doloremque",
-      "repellendus"
+      "ut",
+      "aut"
     ],
     "DisplayValues": [
-      "minus",
-      "cumque"
+      "aspernatur",
+      "est"
     ],
     "ColumnInfo": null,
-    "IsActive": false,
+    "IsActive": true,
     "SubRestrictions": [
       {
-        "Name": "Cassin, Goyette and Eichmann",
-        "Operator": "voluptas",
+        "Name": "Rogahn-Zulauf",
+        "Operator": "eligendi",
         "Values": [
-          "dolores",
-          "ut"
+          "esse",
+          "quidem"
         ],
         "DisplayValues": [
-          "harum",
-          "voluptatibus"
+          "et",
+          "ullam"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 95,
+        "InterParenthesis": 2,
         "InterOperator": "And",
-        "UniqueHash": 251
+        "UniqueHash": 333
       }
     ],
-    "InterParenthesis": 866,
+    "InterParenthesis": 431,
     "InterOperator": "And",
-    "UniqueHash": 401
+    "UniqueHash": 908
   }
 ]
 ```

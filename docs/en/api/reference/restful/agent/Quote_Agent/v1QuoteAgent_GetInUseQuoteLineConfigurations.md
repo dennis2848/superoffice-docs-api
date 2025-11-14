@@ -14,6 +14,8 @@ POST /api/v1/Agents/Quote/GetInUseQuoteLineConfigurations
 Returns the configuration fields that should be visible in the GUI.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -74,7 +76,7 @@ OK
 POST /api/v1/Agents/Quote/GetInUseQuoteLineConfigurations
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,21 +87,21 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineConfigurationId": 34,
-    "FieldName": "Parker, Stracke and Goodwin",
-    "Label": "vel",
-    "Tooltip": "ut",
-    "Editable": false,
-    "InUse": false,
+    "QuoteLineConfigurationId": 214,
+    "FieldName": "Hoeger Group",
+    "Label": "magni",
+    "Tooltip": "consectetur",
+    "Editable": true,
+    "InUse": true,
     "Mandatory": false,
-    "Rank": 944,
-    "RestrictEdit": false,
+    "Rank": 463,
+    "RestrictEdit": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 931
+        "FieldType": "System.String",
+        "FieldLength": 217
       }
     }
   }

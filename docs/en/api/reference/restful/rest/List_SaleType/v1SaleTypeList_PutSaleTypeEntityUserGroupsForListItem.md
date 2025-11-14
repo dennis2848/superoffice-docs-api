@@ -98,47 +98,47 @@ OK
 PUT /api/v1/List/SaleType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 351,
-    "Name": "Altenwerth, Altenwerth and Herzog",
-    "ToolTip": "Quas ipsa.",
+    "Id": 442,
+    "Name": "Oberbrunner-Turcotte",
+    "ToolTip": "Omnis placeat ut.",
     "Deleted": false,
-    "Rank": 330,
-    "Type": "aspernatur",
-    "ColorBlock": 28,
-    "IconHint": "non",
+    "Rank": 690,
+    "Type": "ea",
+    "ColorBlock": 698,
+    "IconHint": "perferendis",
     "Selected": false,
-    "LastChanged": "2019-01-30T03:47:00.8161673+01:00",
+    "LastChanged": "2024-03-23T02:30:53.4442597+01:00",
     "ChildItems": [
       {
-        "Id": 458,
-        "Name": "Deckow, Hudson and Watsica",
-        "ToolTip": "Nisi suscipit ducimus voluptas possimus odio voluptatem.",
+        "Id": 596,
+        "Name": "Thompson Group",
+        "ToolTip": "Et fugit.",
         "Deleted": false,
-        "Rank": 1002,
-        "Type": "aut",
-        "ColorBlock": 76,
-        "IconHint": "vitae",
+        "Rank": 273,
+        "Type": "accusantium",
+        "ColorBlock": 925,
+        "IconHint": "maxime",
         "Selected": false,
-        "LastChanged": "2010-08-15T03:47:00.8161673+02:00",
+        "LastChanged": "2007-12-22T02:30:53.4442597+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "fugit",
-        "StyleHint": "ipsum",
-        "Hidden": false,
-        "FullName": "Madisyn Bechtelar IV"
+        "ExtraInfo": "et",
+        "StyleHint": "unde",
+        "Hidden": true,
+        "FullName": "Miss Sallie Kulas"
       }
     ],
-    "ExtraInfo": "laboriosam",
-    "StyleHint": "excepturi",
+    "ExtraInfo": "enim",
+    "StyleHint": "magnam",
     "Hidden": false,
-    "FullName": "Dr. Tyler Favian Mills PhD"
+    "FullName": "Garret Wuckert"
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 808,
-    "Name": "Ruecker LLC",
-    "ToolTip": "Alias ut voluptate vel.",
-    "Deleted": false,
-    "Rank": 110,
-    "Type": "rerum",
-    "ColorBlock": 350,
-    "IconHint": "sit",
-    "Selected": false,
-    "LastChanged": "2003-04-02T03:47:00.8161673+02:00",
+    "Id": 964,
+    "Name": "Rath Inc and Sons",
+    "ToolTip": "Vero exercitationem illo molestias quod.",
+    "Deleted": true,
+    "Rank": 606,
+    "Type": "id",
+    "ColorBlock": 111,
+    "IconHint": "repellat",
+    "Selected": true,
+    "LastChanged": "2014-09-04T02:30:53.4442597+02:00",
     "ChildItems": [
       {
-        "Id": 666,
-        "Name": "Reynolds-Hettinger",
-        "ToolTip": "Voluptatem ut perspiciatis minima.",
-        "Deleted": true,
-        "Rank": 73,
-        "Type": "rem",
-        "ColorBlock": 35,
-        "IconHint": "maxime",
+        "Id": 992,
+        "Name": "Pfannerstill LLC",
+        "ToolTip": "Ut qui consequatur praesentium ullam sequi et.",
+        "Deleted": false,
+        "Rank": 556,
+        "Type": "vel",
+        "ColorBlock": 103,
+        "IconHint": "hic",
         "Selected": true,
-        "LastChanged": "2022-12-29T03:47:00.8161673+01:00",
+        "LastChanged": "2023-05-21T02:30:53.4442597+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "dolor",
-        "Hidden": true,
-        "FullName": "Dessie Jerde",
+        "ExtraInfo": "voluptate",
+        "StyleHint": "aut",
+        "Hidden": false,
+        "FullName": "Destiny Zboncak",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 402
+            "FieldLength": 179
           }
         }
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "sit",
-    "Hidden": true,
-    "FullName": "Anya Witting",
+    "ExtraInfo": "iure",
+    "StyleHint": "dolor",
+    "Hidden": false,
+    "FullName": "Abraham Luz Hoppe IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 21
+        "FieldType": "System.Int32",
+        "FieldLength": 702
       }
     }
   }

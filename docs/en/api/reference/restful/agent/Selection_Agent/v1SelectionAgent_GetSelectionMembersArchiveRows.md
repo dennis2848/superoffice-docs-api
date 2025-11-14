@@ -15,6 +15,7 @@ Get the list of members in this selection.
 
 
 The type of members depends on the target table of the selection.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -81,12 +82,12 @@ OK
 POST /api/v1/Agents/Selection/GetSelectionMembersArchiveRows
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 693,
-  "Select": "non"
+  "SelectionId": 520,
+  "Select": "mollitia"
 }
 ```
 
@@ -98,23 +99,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Jones, Funk and Wuckert",
-    "PrimaryKey": 466,
+    "EntityName": "Murphy-Kuhn",
+    "PrimaryKey": 998,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "voluptatem",
-        "TooltipHint": "cupiditate",
-        "LinkHint": "maiores"
+        "DisplayValue": "non",
+        "TooltipHint": "vitae",
+        "LinkHint": "quia"
       }
     },
-    "LinkHint": "magnam",
-    "StyleHint": "architecto",
+    "LinkHint": "nostrum",
+    "StyleHint": "sit",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 547
+        "FieldLength": 378
       }
     }
   }

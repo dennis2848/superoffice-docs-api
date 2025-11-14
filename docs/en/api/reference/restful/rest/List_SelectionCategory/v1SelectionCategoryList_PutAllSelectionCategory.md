@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/SelectionCategory/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 322,
-    "Name": "Schmeler LLC",
-    "Tooltip": "exercitationem",
-    "Deleted": true,
-    "UdListDefinitionId": 850,
-    "Rank": 12
+    "Id": 573,
+    "Name": "Kohler-Volkman",
+    "Tooltip": "at",
+    "Deleted": false,
+    "UdListDefinitionId": 174,
+    "Rank": 578
   },
   {
-    "Id": 322,
-    "Name": "Schmeler LLC",
-    "Tooltip": "exercitationem",
-    "Deleted": true,
-    "UdListDefinitionId": 850,
-    "Rank": 12
+    "Id": 573,
+    "Name": "Kohler-Volkman",
+    "Tooltip": "at",
+    "Deleted": false,
+    "UdListDefinitionId": 174,
+    "Rank": 578
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 354,
-    "Name": "Hyatt Inc and Sons",
-    "Tooltip": "nostrum",
-    "Deleted": true,
-    "UdListDefinitionId": 669,
-    "Rank": 489,
+    "Id": 429,
+    "Name": "Kohler-Kirlin",
+    "Tooltip": "voluptas",
+    "Deleted": false,
+    "UdListDefinitionId": 512,
+    "Rank": 963,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 663
+        "FieldLength": 263
       }
     }
   }

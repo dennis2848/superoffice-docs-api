@@ -61,7 +61,7 @@ OK
 GET /api/v1/List/QuoteDenyReason/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -71,18 +71,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 584,
-  "Name": "Daugherty, Kuhic and Boyer",
-  "Tooltip": "nesciunt",
+  "Id": 748,
+  "Name": "Block LLC",
+  "Tooltip": "facere",
   "Deleted": false,
-  "UdListDefinitionId": 464,
-  "Rank": 909,
+  "UdListDefinitionId": 731,
+  "Rank": 885,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 921
+      "FieldLength": 954
     }
   }
 }

@@ -15,6 +15,7 @@ Get the image for a set of persons scaled to a specific size.
 
 
 Returned images are in PNG format.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -82,11 +83,11 @@ Content-Type: application/json; charset=utf-8
 
 {
   "PersonIds": [
-    414,
-    995
+    975,
+    261
   ],
-  "ScaledWidth": 619,
-  "ScaledHeight": 190
+  "ScaledWidth": 248,
+  "ScaledHeight": 465
 }
 ```
 
@@ -98,11 +99,11 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonId": 196,
+    "PersonId": 707,
     "ImageData": "GIF89....File contents as raw bytes..."
   },
   {
-    "PersonId": 196,
+    "PersonId": 707,
     "ImageData": "GIF89....File contents as raw bytes..."
   }
 ]

@@ -14,6 +14,8 @@ POST /api/v1/Agents/Selection/CreateSelectionEntity
 Create (but do not save) a new selection entity, for the current user and the given target table; other fields populated as by CreateDefaultSelectionEntity()
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -114,11 +116,11 @@ OK
 POST /api/v1/Agents/Selection/CreateSelectionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetTableName": "Reilly, Cole and Kuhlman"
+  "TargetTableName": "Walker-Welch"
 }
 ```
 
@@ -129,70 +131,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Reverse-engineered discrete system engine",
-  "Postit": "illo",
+  "Description": "Multi-layered 5th generation approach",
+  "Postit": "aliquam",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 543,
-  "IncludePerson": 919,
+  "GroupIdx": 829,
+  "IncludePerson": 356,
   "MemberCount": 99.99,
-  "Name": "Zemlak-Cruickshank",
-  "PostitTextId": 556,
-  "CreatedDate": "2012-06-25T03:46:55.3007553+02:00",
-  "SelectionId": 198,
-  "SoundEx": "nobis",
-  "Source": 916,
-  "TextId": 245,
-  "UpdatedDate": "2000-11-17T03:46:55.3007553+01:00",
-  "UpdatedCount": 545,
-  "Visibility": 96,
+  "Name": "Legros Group",
+  "PostitTextId": 868,
+  "CreatedDate": "2007-10-03T02:30:47.819441+02:00",
+  "SelectionId": 207,
+  "SoundEx": "est",
+  "Source": 277,
+  "TextId": 310,
+  "UpdatedDate": "2011-10-09T02:30:47.819441+02:00",
+  "UpdatedCount": 447,
+  "Visibility": 981,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 437,
-  "TargetTableName": "Purdy, Wisoky and Treutel",
+  "CompanyUnique": true,
+  "TargetTableNumber": 139,
+  "TargetTableName": "Blick-Blanda",
   "Completed": false,
-  "LeftSelectionId": 471,
-  "RightSelectionId": 237,
+  "LeftSelectionId": 715,
+  "RightSelectionId": 585,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Lakin-Goodwin",
-  "ShadowProviderName": "Jerde, Rohan and Koss",
-  "ChartKey": "ut",
-  "LastLoaded": "2017-07-16T03:46:55.3007553+02:00",
-  "LastLoadedBy": 692,
+  "MainProviderName": "Russel, Grant and Heidenreich",
+  "ShadowProviderName": "Halvorson LLC",
+  "ChartKey": "ea",
+  "LastLoaded": "2024-08-04T02:30:47.819441+02:00",
+  "LastLoadedBy": 177,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2009-01-19T03:46:55.3007553+01:00",
-  "LastMembershipChangeBy": 951,
+  "LastMembershipChange": "2000-07-18T02:30:47.819441+02:00",
+  "LastMembershipChangeBy": 829,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "odio",
-  "MemberTabHeading": "sit",
-  "MailingsProviderName": "Kihn, Howell and Kunde",
-  "DashboardTileDefinitionId": 726,
+  "MainHeading": "sunt",
+  "MemberTabHeading": "exercitationem",
+  "MailingsProviderName": "Robel, DuBuque and Vandervort",
+  "DashboardTileDefinitionId": 748,
   "VisibleFor": [
     {
-      "VisibleId": 799,
+      "VisibleId": 915,
       "Visibility": "All",
-      "DisplayValue": "officiis",
+      "DisplayValue": "voluptatum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 90
+          "FieldType": "System.String",
+          "FieldLength": 913
         }
       }
     },
     {
-      "VisibleId": 799,
+      "VisibleId": 915,
       "Visibility": "All",
-      "DisplayValue": "officiis",
+      "DisplayValue": "voluptatum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 90
+          "FieldType": "System.String",
+          "FieldLength": 913
         }
       }
     }
@@ -202,7 +204,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 674
+      "FieldLength": 879
     }
   }
 }

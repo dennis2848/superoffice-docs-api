@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/GetQuoteDenyReasonList
 Gets an array of QuoteDenyReason objects.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -73,7 +75,7 @@ OK
 POST /api/v1/Agents/List/GetQuoteDenyReasonList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -84,28 +86,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 1002,
-    "Value": "velit",
-    "Tooltip": "voluptas",
+    "Id": 629,
+    "Value": "dolorum",
+    "Tooltip": "consequatur",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 937
+        "FieldLength": 39
       }
     }
   },
   {
-    "Id": 1002,
-    "Value": "velit",
-    "Tooltip": "voluptas",
+    "Id": 629,
+    "Value": "dolorum",
+    "Tooltip": "consequatur",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 937
+        "FieldLength": 39
       }
     }
   }

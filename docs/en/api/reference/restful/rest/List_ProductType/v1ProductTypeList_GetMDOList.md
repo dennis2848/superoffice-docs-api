@@ -28,7 +28,7 @@ Get the MDO list items for "ProductType" - with headings and filtering by user g
 
 ```http
 GET /api/v1/List/ProductType/MDOItems?flat=False
-GET /api/v1/List/ProductType/MDOItems?query=sequi
+GET /api/v1/List/ProductType/MDOItems?query=omnis
 ```
 
 
@@ -79,7 +79,7 @@ OK
 GET /api/v1/List/ProductType/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -90,50 +90,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 549,
-    "Name": "McClure-Lemke",
-    "ToolTip": "Doloribus dignissimos sit iste.",
+    "Id": 328,
+    "Name": "Stiedemann LLC",
+    "ToolTip": "Qui dolore.",
     "Deleted": false,
-    "Rank": 113,
-    "Type": "quod",
+    "Rank": 527,
+    "Type": "maiores",
     "ChildItems": [
       {
-        "Id": 389,
-        "Name": "Raynor, Balistreri and Wunsch",
-        "ToolTip": "Sit aperiam labore rerum corrupti voluptatem perspiciatis et.",
+        "Id": 577,
+        "Name": "Dickinson Group",
+        "ToolTip": "Ut velit voluptatem.",
         "Deleted": true,
-        "Rank": 493,
-        "Type": "dolores",
+        "Rank": 471,
+        "Type": "dolor",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "fuga",
-        "ColorBlock": 80,
-        "ExtraInfo": "beatae",
-        "StyleHint": "id",
-        "FullName": "Cedrick Eichmann",
+        "IconHint": "aut",
+        "ColorBlock": 753,
+        "ExtraInfo": "qui",
+        "StyleHint": "commodi",
+        "FullName": "Bria Abbott",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 510
+            "FieldType": "System.Int32",
+            "FieldLength": 961
           }
         }
       }
     ],
-    "IconHint": "rem",
-    "ColorBlock": 439,
-    "ExtraInfo": "totam",
-    "StyleHint": "numquam",
-    "FullName": "Mr. Coralie Welch",
+    "IconHint": "voluptatem",
+    "ColorBlock": 547,
+    "ExtraInfo": "expedita",
+    "StyleHint": "minus",
+    "FullName": "Kendall Cruickshank PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 124
+        "FieldType": "System.String",
+        "FieldLength": 143
       }
     }
   }

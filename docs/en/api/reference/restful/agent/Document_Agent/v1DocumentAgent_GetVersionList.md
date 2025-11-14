@@ -14,6 +14,8 @@ POST /api/v1/Agents/Document/GetVersionList
 Get a list of existing, committed  versions for a given document
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -80,11 +82,11 @@ OK
 POST /api/v1/Agents/Document/GetVersionList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 294
+  "DocumentId": 988
 }
 ```
 
@@ -96,17 +98,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ExternalReference": "aut",
-    "DocumentId": 964,
-    "VersionId": "laborum",
-    "CheckedInDate": "2014-10-10T03:46:54.6913844+02:00",
-    "CheckedInByName": "Mills-Wiegand",
-    "CheckedInByAssociateId": 936,
-    "Description": "Reactive client-driven database",
-    "DisplayText": "et",
+    "ExternalReference": "voluptate",
+    "DocumentId": 965,
+    "VersionId": "dolor",
+    "CheckedInDate": "2002-10-30T02:30:47.2100867+01:00",
+    "CheckedInByName": "Beahan Group",
+    "CheckedInByAssociateId": 487,
+    "Description": "Automated fresh-thinking database",
+    "DisplayText": "nesciunt",
     "ExtraFields": [
-      "et",
-      "laborum"
+      "repellendus",
+      "provident"
     ]
   }
 ]

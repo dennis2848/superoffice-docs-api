@@ -14,6 +14,8 @@ POST /api/v1/Agents/License/GetModuleLicenseFromDB
 Get license information for one particular license module.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -91,8 +93,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Altenwerth, Stiedemann and Renner",
-  "ModuleName": "Turcotte-Koss"
+  "OwnerName": "O'Connell, Dickinson and Hintz",
+  "ModuleName": "Auer, Ernser and Wisoky"
 }
 ```
 
@@ -103,20 +105,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Wuckert Group",
-  "ModuleName": "Rohan, Frami and Heathcote",
-  "ModuleDescription": "Down-sized coherent benchmark",
+  "OwnerName": "Waelchi Inc and Sons",
+  "ModuleName": "Hammes-Fay",
+  "ModuleDescription": "Object-based mobile migration",
   "ModuleTooltip": "et",
-  "ModuleVersion": "veritatis",
+  "ModuleVersion": "nesciunt",
   "LicenseType": "SatelliteLicense",
-  "Unrestricted": false,
+  "Unrestricted": true,
   "AllowedUserType": "AnonymousAssociate",
-  "NumberOfLicenses": 566,
-  "ExtraFlags": 578,
-  "ExtraInfo": "et",
-  "SortOrder": 18,
-  "IsHidden": false,
-  "PrerequisiteModuleName": "Hilll, Beer and Kertzmann",
-  "Signature": "sit"
+  "NumberOfLicenses": 629,
+  "ExtraFlags": 586,
+  "ExtraInfo": "architecto",
+  "SortOrder": 917,
+  "IsHidden": true,
+  "PrerequisiteModuleName": "Schmeler, Collier and Strosin",
+  "Signature": "facere"
 }
 ```

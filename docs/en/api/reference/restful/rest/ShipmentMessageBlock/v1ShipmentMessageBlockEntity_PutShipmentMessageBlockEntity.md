@@ -14,6 +14,8 @@ PUT /api/v1/ShipmentMessageBlock/{id}
 Updates the existing ShipmentMessageBlockEntity
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -94,18 +96,18 @@ ShipmentMessageBlockEntity updated.
 PUT /api/v1/ShipmentMessageBlock/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageBlockId": 826,
-  "AssociateId": 419,
-  "Block": "dolorem",
-  "Registered": "2012-02-17T03:47:00.3005605+01:00",
-  "RegisteredAssociateId": 269,
-  "Updated": "2001-07-29T03:47:00.3005605+02:00",
-  "UpdatedAssociateId": 944,
-  "UpdatedCount": 29
+  "ShipmentMessageBlockId": 822,
+  "AssociateId": 458,
+  "Block": "quidem",
+  "Registered": "2006-12-08T02:30:52.9286519+01:00",
+  "RegisteredAssociateId": 65,
+  "Updated": "2022-07-16T02:30:52.9286519+02:00",
+  "UpdatedAssociateId": 997,
+  "UpdatedCount": 818
 }
 ```
 
@@ -116,25 +118,25 @@ HTTP/1.1 200 ShipmentMessageBlockEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageBlockId": 896,
-  "AssociateId": 8,
-  "Block": "ut",
-  "Registered": "2021-06-04T03:47:00.3005605+02:00",
-  "RegisteredAssociateId": 374,
-  "Updated": "2005-06-10T03:47:00.3005605+02:00",
-  "UpdatedAssociateId": 491,
-  "UpdatedCount": 317,
+  "ShipmentMessageBlockId": 958,
+  "AssociateId": 536,
+  "Block": "libero",
+  "Registered": "2009-07-04T02:30:52.9286519+02:00",
+  "RegisteredAssociateId": 875,
+  "Updated": "2016-11-30T02:30:52.9286519+01:00",
+  "UpdatedAssociateId": 221,
+  "UpdatedCount": 649,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 377
+      "FieldType": "System.String",
+      "FieldLength": 386
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

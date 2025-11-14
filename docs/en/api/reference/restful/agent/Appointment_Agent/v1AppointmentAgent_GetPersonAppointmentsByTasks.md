@@ -15,6 +15,7 @@ Method that returns a specified number of appointments from a list of appointmen
 
 
 The appointments belong to the person specified.  Task represents the different types of activities, like “Phone call”, “Meeting” and so on.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -139,14 +140,14 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 75,
+  "PersonId": 857,
   "IncludeProjectAppointments": false,
-  "StartTime": "2016-01-17T03:46:53.9882851+01:00",
-  "EndTime": "2015-02-08T03:46:53.9882851+01:00",
-  "Count": 624,
+  "StartTime": "2001-06-29T02:30:46.5069828+02:00",
+  "EndTime": "2018-08-15T02:30:46.5069828+02:00",
+  "Count": 431,
   "TaskIds": [
-    652,
-    380
+    730,
+    865
   ]
 }
 ```
@@ -159,67 +160,67 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 679,
-    "StartDate": "2021-03-14T03:46:53.9882851+01:00",
-    "EndDate": "2002-03-10T03:46:53.9882851+01:00",
+    "AppointmentId": 697,
+    "StartDate": "2025-03-19T02:30:46.5069828+01:00",
+    "EndDate": "2024-12-27T02:30:46.5069828+01:00",
     "Type": "BookingForChecklist",
-    "Task": "debitis",
-    "AssociateFullName": "Katrine Weimann",
-    "ContactName": "Okuneva, Jacobi and Kuhlman",
-    "Description": "Optimized intermediate knowledge base",
-    "PersonFullName": "Mrs. Elise Stroman",
-    "PersonId": 307,
-    "ContactId": 921,
-    "ProjectId": 287,
-    "ProjectName": "Cormier, McClure and Quitzon",
+    "Task": "id",
+    "AssociateFullName": "Ophelia Stroman",
+    "ContactName": "Botsford Group",
+    "Description": "Quality-focused zero defect framework",
+    "PersonFullName": "Florine Jacobi",
+    "PersonId": 102,
+    "ContactId": 197,
+    "ProjectId": 182,
+    "ProjectName": "Crist, Stiedemann and Stoltenberg",
     "IsPublished": true,
-    "AssociateId": 276,
-    "ColorIndex": 886,
-    "IsFree": true,
+    "AssociateId": 600,
+    "ColorIndex": 290,
+    "IsFree": false,
     "HasAlarm": false,
-    "IsAlldayEvent": false,
+    "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 406,
-    "PriorityName": "Shanahan, Ernser and Rempel",
+    "PriorityId": 776,
+    "PriorityName": "Wolf Inc and Sons",
     "TaskType": "Appointment",
     "IsBookingMain": false,
-    "IsRecurrence": true,
-    "IsBooking": true,
-    "ActiveDate": "2007-06-19T03:46:53.9882851+02:00",
+    "IsRecurrence": false,
+    "IsBooking": false,
+    "ActiveDate": "2007-11-23T02:30:46.5069828+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2013-05-19T03:46:53.9882851+02:00",
-    "RecurringEndDate": "2021-04-07T03:46:53.9882851+02:00",
-    "MotherId": 515,
-    "AssignedBy": 371,
-    "AssignedByFullName": "Lila Geovanni Blanda I",
-    "RejectReason": "enhance killer e-commerce",
-    "Location": "rem",
-    "AlarmLeadTime": "aut",
-    "SaleId": 946,
-    "SaleName": "Brekke LLC",
-    "AssociateName": "Hintz, Armstrong and Rath",
-    "CreatedDate": "2001-10-08T03:46:53.9882851+02:00",
-    "CreatedBy": "ut",
-    "CreatedByFullName": "Sarah Wiza",
-    "CreatedByAssociateId": 962,
+    "RecurringStartDate": "2018-06-25T02:30:46.5069828+02:00",
+    "RecurringEndDate": "2023-01-28T02:30:46.5069828+01:00",
+    "MotherId": 863,
+    "AssignedBy": 277,
+    "AssignedByFullName": "Waino Farrell",
+    "RejectReason": "",
+    "Location": "sit",
+    "AlarmLeadTime": "non",
+    "SaleId": 812,
+    "SaleName": "Stracke-Jaskolski",
+    "AssociateName": "Connelly-Hartmann",
+    "CreatedDate": "2012-03-16T02:30:46.5069828+01:00",
+    "CreatedBy": "laboriosam",
+    "CreatedByFullName": "Chesley Moen",
+    "CreatedByAssociateId": 187,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "OwnedExternally": "Google",
-    "MotherAssociateId": 378,
+    "MotherAssociateId": 119,
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 797,
-    "Title": "incidunt",
-    "Agenda": "consequatur",
-    "InternalNotes": "labore",
+    "PreferredTZLocation": 169,
+    "Title": "ut",
+    "Agenda": "praesentium",
+    "InternalNotes": "ab",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 196
+        "FieldType": "System.Int32",
+        "FieldLength": 803
       }
     }
   }

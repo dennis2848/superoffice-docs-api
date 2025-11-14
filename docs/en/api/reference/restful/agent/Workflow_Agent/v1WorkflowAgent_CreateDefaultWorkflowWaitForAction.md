@@ -14,6 +14,8 @@ POST /api/v1/Agents/Workflow/CreateDefaultWorkflowWaitForAction
 Loading default values into a new WorkflowWaitForAction.
 
 
+NsApiSlow threshold: 1000 ms.
+
 
 
 
@@ -61,7 +63,7 @@ OK
 POST /api/v1/Agents/Workflow/CreateDefaultWorkflowWaitForAction
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -71,25 +73,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowWaitForActionId": 786,
-  "WorkflowStepId": 359,
-  "WorkflowId": 80,
-  "Rank": 663,
+  "WorkflowWaitForActionId": 224,
+  "WorkflowStepId": 975,
+  "WorkflowId": 971,
+  "Rank": 886,
   "ActionType": "FormSubmitted",
   "RestrictionGroups": [
     {
-      "Name": "Koss, Rau and Ritchie",
-      "Description": "Exclusive bi-directional throughput",
-      "Rank": 880,
+      "Name": "D'Amore Group",
+      "Description": "Self-enabling static project",
+      "Rank": 509,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Koss, Rau and Ritchie",
-      "Description": "Exclusive bi-directional throughput",
-      "Rank": 880,
+      "Name": "D'Amore Group",
+      "Description": "Self-enabling static project",
+      "Rank": 509,
       "Restrictions": [
         {},
         {}
@@ -100,8 +102,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 573
+      "FieldType": "System.String",
+      "FieldLength": 412
     }
   }
 }

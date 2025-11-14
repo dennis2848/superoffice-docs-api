@@ -14,6 +14,8 @@ POST /api/v1/Agents/Project/AddProjectMembers
 Add multiple project members to a project
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -66,34 +68,36 @@ No Content
 POST /api/v1/Agents/Project/AddProjectMembers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectEntityId": 132,
+  "ProjectEntityId": 240,
   "ProjectMembers": [
     {
-      "ProjectmemberId": 510,
-      "ContactId": 299,
-      "ProjectId": 511,
-      "ContactName": "Feeney, Nolan and Bernhard",
+      "ProjectmemberId": 998,
+      "ContactId": 363,
+      "ProjectId": 222,
+      "ContactName": "Bartell-Tremblay",
       "ContactDepartment": "",
-      "ProjectName": "Feest, O'Conner and Hessel",
-      "EmailId": 242,
-      "EmailAddress": "tyrell_schmidt@hayes.com",
-      "CountryId": 481,
-      "Firstname": "Nathan",
-      "MiddleName": "Kautzer, Morissette and Waelchi",
-      "Lastname": "Runolfsdottir",
-      "PersonId": 615,
-      "Mrmrs": "voluptas",
-      "ProjectMemberTypeName": "Murazik Inc and Sons",
-      "Phone": "294-570-9509 x375",
-      "PhoneId": 844,
-      "ProjectMemberTypeId": 866,
-      "EmailAddressName": "viva@gottlieb.co.uk",
-      "Comment": "ratione",
-      "FullName": "Mrs. Blake Rice DVM"
+      "ProjectName": "Doyle, Satterfield and Halvorson",
+      "EmailId": 898,
+      "EmailAddress": "mable@gleichner.uk",
+      "CountryId": 702,
+      "Firstname": "Dayton",
+      "MiddleName": "Aufderhar, Braun and Cassin",
+      "Lastname": "Hackett",
+      "PersonId": 182,
+      "Mrmrs": "harum",
+      "ProjectMemberTypeName": "Kshlerin-Braun",
+      "Phone": "373-007-0225",
+      "PhoneId": 391,
+      "ProjectMemberTypeId": 919,
+      "EmailAddressName": "jammie_cronin@kutch.uk",
+      "Comment": "ex",
+      "FullName": "Juvenal Collier",
+      "Registered": "2008-05-19T02:30:47.6632017+02:00",
+      "Updated": "2024-04-23T02:30:47.6632017+02:00"
     }
   ]
 }

@@ -11,7 +11,7 @@ content_type: reference
 POST /api/v1/Agents/Sale/AddSaleStakeholders
 ```
 
-
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -70,28 +70,28 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 127,
+  "SaleId": 404,
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Bode-Gottlieb",
-      "Comment": "rerum",
-      "StakeholderRoleId": 443,
-      "CountryId": 479,
-      "PersonId": 746,
-      "EmailDescription": "tierra_hartmann@nitzsche.us",
-      "EmailId": 917,
-      "EmailAddress": "clemens_lockman@wyman.info",
-      "PhoneId": 674,
-      "ContactName": "Dickens Group",
-      "ContactId": 467,
-      "SaleId": 429,
-      "Mrmrs": "omnis",
-      "Firstname": "Enid",
-      "MiddleName": "Ankunding-Raynor",
-      "Lastname": "Borer",
-      "SaleStakeholderId": 871,
-      "Rank": 91,
-      "Phone": "1-276-718-2852"
+      "StakeholderRoleName": "O'Conner-Larson",
+      "Comment": "consequuntur",
+      "StakeholderRoleId": 988,
+      "CountryId": 60,
+      "PersonId": 753,
+      "EmailDescription": "ambrose@huel.co.uk",
+      "EmailId": 560,
+      "EmailAddress": "chaim@bednar.ca",
+      "PhoneId": 100,
+      "ContactName": "Hintz, Padberg and Turcotte",
+      "ContactId": 252,
+      "SaleId": 543,
+      "Mrmrs": "quisquam",
+      "Firstname": "Rick",
+      "MiddleName": "McLaughlin-Schmidt",
+      "Lastname": "Steuber",
+      "SaleStakeholderId": 575,
+      "Rank": 272,
+      "Phone": "1-276-722-6398 x72110"
     }
   ]
 }

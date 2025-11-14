@@ -14,6 +14,9 @@ POST /api/v1/Agents/EMail/CreateNewPhysicalDocumentFromEmail
 Save the Email from the server as a document file connected to existing document
 
 
+NsApiSlow threshold: 5000 ms.
+
+
 ## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 
@@ -110,12 +113,12 @@ OK
 POST /api/v1/Agents/EMail/CreateNewPhysicalDocumentFromEmail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 676,
-  "EmailItemId": 711
+  "DocumentId": 576,
+  "EmailItemId": 534
 }
 ```
 
@@ -126,88 +129,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 841,
+  "DocumentId": 877,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "debitis",
-  "Header": "praesentium",
-  "Name": "Kemmer-Langosh",
-  "OurRef": "consequatur",
-  "YourRef": "tempora",
-  "CreatedDate": "2009-06-17T03:46:54.7382579+02:00",
-  "UpdatedDate": "2002-09-13T03:46:54.7382579+02:00",
-  "Description": "Secured empowering project",
+  "Attention": "nostrum",
+  "Header": "molestiae",
+  "Name": "Parker, Jerde and Kessler",
+  "OurRef": "dicta",
+  "YourRef": "ullam",
+  "CreatedDate": "2003-02-19T02:30:47.2569602+01:00",
+  "UpdatedDate": "2020-05-01T02:30:47.2569602+02:00",
+  "Description": "Polarised eco-centric circuit",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2009-06-14T03:46:54.7382579+02:00",
-  "ExternalRef": "autem",
+  "Date": "2019-05-23T02:30:47.2569602+02:00",
+  "ExternalRef": "quia",
   "Completed": "Completed",
-  "ActiveLinks": 162,
+  "ActiveLinks": 619,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Sawayn LLC",
-      "Id": 575,
-      "Description": "Seamless zero tolerance protocol",
-      "ExtraInfo": "quaerat",
-      "LinkId": 364,
+      "EntityName": "Predovic LLC",
+      "Id": 885,
+      "Description": "Total hybrid methodology",
+      "ExtraInfo": "nobis",
+      "LinkId": 201,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 553
+          "FieldType": "System.String",
+          "FieldLength": 691
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 722,
-  "Snum": 774,
+  "SuggestedDocumentId": 963,
+  "Snum": 281,
   "UserDefinedFields": {
-    "SuperOffice:1": "Carter Fred Emmerich DVM",
-    "SuperOffice:2": "Prof. Grant Sebastian Carter"
+    "SuperOffice:1": "False",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "iusto",
-    "ExtraFields2": "quas"
+    "ExtraFields1": "molestiae",
+    "ExtraFields2": "veniam"
   },
   "CustomFields": {
-    "CustomFields1": "nobis",
-    "CustomFields2": "illo"
+    "CustomFields1": "voluptatem",
+    "CustomFields2": "qui"
   },
-  "PublishEventDate": "2005-11-16T03:46:54.7382579+01:00",
-  "PublishTo": "2024-10-24T03:46:54.7382579+02:00",
-  "PublishFrom": "2008-11-07T03:46:54.7382579+01:00",
-  "IsPublished": false,
+  "PublishEventDate": "2014-09-24T02:30:47.2569602+02:00",
+  "PublishTo": "2003-12-19T02:30:47.2569602+01:00",
+  "PublishFrom": "2022-04-01T02:30:47.2569602+02:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 544,
+      "VisibleId": 202,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "rem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 592
+          "FieldType": "System.Int32",
+          "FieldLength": 853
         }
       }
     },
     {
-      "VisibleId": 544,
+      "VisibleId": 202,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "rem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 592
+          "FieldType": "System.Int32",
+          "FieldLength": 853
         }
       }
     }
@@ -216,8 +219,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 999
+      "FieldType": "System.String",
+      "FieldLength": 299
     }
   }
 }

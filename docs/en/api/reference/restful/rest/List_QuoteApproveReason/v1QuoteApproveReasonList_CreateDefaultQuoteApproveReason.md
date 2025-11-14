@@ -61,7 +61,7 @@ OK
 GET /api/v1/List/QuoteApproveReason/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -71,18 +71,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 475,
-  "Name": "O'Kon Inc and Sons",
-  "Tooltip": "nostrum",
-  "Deleted": false,
-  "UdListDefinitionId": 368,
-  "Rank": 342,
+  "Id": 380,
+  "Name": "Quigley, Satterfield and Ward",
+  "Tooltip": "quasi",
+  "Deleted": true,
+  "UdListDefinitionId": 784,
+  "Rank": 414,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 125
+      "FieldLength": 61
     }
   }
 }

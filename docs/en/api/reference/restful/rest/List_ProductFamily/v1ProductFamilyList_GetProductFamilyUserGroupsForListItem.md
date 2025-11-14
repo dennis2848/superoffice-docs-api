@@ -76,7 +76,7 @@ OK
 GET /api/v1/List/ProductFamily/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -87,56 +87,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 58,
-    "Name": "Upton Group",
-    "ToolTip": "Sed fuga iure corporis.",
-    "Deleted": false,
-    "Rank": 925,
-    "Type": "delectus",
-    "ColorBlock": 18,
-    "IconHint": "quidem",
+    "Id": 689,
+    "Name": "Ondricka Inc and Sons",
+    "ToolTip": "Vel enim dolor minima perferendis itaque.",
+    "Deleted": true,
+    "Rank": 221,
+    "Type": "voluptates",
+    "ColorBlock": 103,
+    "IconHint": "cupiditate",
     "Selected": true,
-    "LastChanged": "2001-12-25T03:47:00.7224209+01:00",
+    "LastChanged": "2021-05-30T02:30:53.3661371+02:00",
     "ChildItems": [
       {
-        "Id": 548,
-        "Name": "Yundt-Runolfsson",
-        "ToolTip": "Suscipit temporibus accusantium est ut.",
+        "Id": 860,
+        "Name": "Graham-Abernathy",
+        "ToolTip": "Soluta velit.",
         "Deleted": false,
-        "Rank": 818,
-        "Type": "a",
-        "ColorBlock": 283,
-        "IconHint": "voluptas",
-        "Selected": false,
-        "LastChanged": "2016-07-31T03:47:00.7224209+02:00",
+        "Rank": 218,
+        "Type": "dolor",
+        "ColorBlock": 288,
+        "IconHint": "expedita",
+        "Selected": true,
+        "LastChanged": "2020-02-26T02:30:53.3661371+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quod",
-        "StyleHint": "similique",
-        "Hidden": true,
-        "FullName": "Golda Pouros",
+        "ExtraInfo": "molestiae",
+        "StyleHint": "ipsam",
+        "Hidden": false,
+        "FullName": "Prince Hodkiewicz",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 19
+            "FieldLength": 828
           }
         }
       }
     ],
-    "ExtraInfo": "ea",
-    "StyleHint": "autem",
-    "Hidden": false,
-    "FullName": "Ernestine Hilpert",
+    "ExtraInfo": "fuga",
+    "StyleHint": "nemo",
+    "Hidden": true,
+    "FullName": "Arvilla Alfonzo McLaughlin MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 108
+        "FieldType": "System.String",
+        "FieldLength": 607
       }
     }
   }

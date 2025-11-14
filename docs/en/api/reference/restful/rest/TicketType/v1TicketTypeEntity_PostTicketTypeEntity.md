@@ -15,6 +15,7 @@ Creates a new TicketTypeEntity
 
 
 Calls the List agent service SaveTicketTypeEntity.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -113,37 +114,37 @@ OK
 POST /api/v1/TicketType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 363,
-  "Name": "Kuhlman, O'Connell and Ortiz",
-  "Rank": 8,
-  "Tooltip": "velit",
-  "Icon": "quae",
-  "DefaultTicketStatus": 579,
+  "TicketTypeId": 251,
+  "Name": "Prohaska-Macejkovic",
+  "Rank": 700,
+  "Tooltip": "et",
+  "Icon": "exercitationem",
+  "DefaultTicketStatus": 654,
   "TicketStatuses": [
-    620,
-    519
+    145,
+    266
   ],
-  "DefaultTicketPriority": 952,
+  "DefaultTicketPriority": 662,
   "TicketPriorities": [
-    833,
-    407
+    481,
+    73
   ],
-  "ReplyTemplate": 933,
+  "ReplyTemplate": 981,
   "IsExternalVisible": true,
   "IsDefault": true,
-  "ShowInNew": false,
+  "ShowInNew": true,
   "ExcludeSignature": false,
   "ExcludeEmailRecipients": false,
   "ExternalAsDefault": true,
   "VisibleForGroups": [
-    237,
-    858
+    275,
+    762
   ],
-  "ReplyForwardNoSignature": false,
+  "ReplyForwardNoSignature": true,
   "ReplyExternalAsDefault": true
 }
 ```
@@ -155,40 +156,40 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 956,
-  "Name": "Becker LLC",
-  "Rank": 252,
-  "Tooltip": "nam",
-  "Icon": "ut",
-  "DefaultTicketStatus": 454,
+  "TicketTypeId": 182,
+  "Name": "Connelly, Marks and Prohaska",
+  "Rank": 762,
+  "Tooltip": "qui",
+  "Icon": "omnis",
+  "DefaultTicketStatus": 455,
   "TicketStatuses": [
-    392,
-    810
+    534,
+    977
   ],
-  "DefaultTicketPriority": 500,
+  "DefaultTicketPriority": 327,
   "TicketPriorities": [
-    852,
-    222
+    668,
+    481
   ],
-  "ReplyTemplate": 922,
+  "ReplyTemplate": 153,
   "IsExternalVisible": false,
-  "IsDefault": true,
-  "ShowInNew": false,
+  "IsDefault": false,
+  "ShowInNew": true,
   "ExcludeSignature": false,
-  "ExcludeEmailRecipients": false,
-  "ExternalAsDefault": true,
+  "ExcludeEmailRecipients": true,
+  "ExternalAsDefault": false,
   "VisibleForGroups": [
-    379,
-    449
+    860,
+    437
   ],
-  "ReplyForwardNoSignature": true,
-  "ReplyExternalAsDefault": true,
+  "ReplyForwardNoSignature": false,
+  "ReplyExternalAsDefault": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 564
+      "FieldLength": 35
     }
   },
   "_Links": {

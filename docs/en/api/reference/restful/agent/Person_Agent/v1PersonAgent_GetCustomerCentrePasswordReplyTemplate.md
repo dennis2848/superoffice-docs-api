@@ -14,6 +14,8 @@ POST /api/v1/Agents/Person/GetCustomerCentrePasswordReplyTemplate
 Gets a parsed Customer Centre password reply template for a particular customer
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -78,11 +80,11 @@ OK
 POST /api/v1/Agents/Person/GetCustomerCentrePasswordReplyTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 590
+  "PersonId": 119
 }
 ```
 
@@ -93,36 +95,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 210,
-  "PlainParsed": "qui",
-  "HtmlParsed": "dolor",
+  "ReplyTemplateId": 929,
+  "PlainParsed": "et",
+  "HtmlParsed": "voluptas",
   "Attachments": [
     {
-      "AttachmentId": 867,
-      "Name": "Reynolds, Corkery and Kulas",
-      "ContentType": "id",
-      "AttSize": 627,
+      "AttachmentId": 183,
+      "Name": "Von, Dare and Hamill",
+      "ContentType": "quia",
+      "AttSize": 888,
       "InlineImage": false,
-      "ContentId": "sed",
-      "AuthKey": "deleniti",
+      "ContentId": "tenetur",
+      "AuthKey": "delectus",
       "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 779
+          "FieldLength": 622
         }
       }
     }
   ],
-  "Subject": "culpa",
+  "Subject": "rerum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 39
+      "FieldLength": 18
     }
   }
 }

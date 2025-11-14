@@ -14,6 +14,8 @@ POST /api/v1/Agents/Marketing/GetFormEntity
 Gets a FormEntity object.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -27,7 +29,7 @@ Gets a FormEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Marketing/GetFormEntity?formEntityId=104
+POST /api/v1/Agents/Marketing/GetFormEntity?formEntityId=765
 POST /api/v1/Agents/Marketing/GetFormEntity?$select=name,department,category/id
 ```
 
@@ -90,7 +92,7 @@ OK
 POST /api/v1/Agents/Marketing/GetFormEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -100,38 +102,38 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormId": 775,
-  "FormKey": "enim",
-  "Name": "Walsh LLC",
-  "Description": "Implemented human-resource infrastructure",
-  "Config": "provident",
-  "FolderId": 712,
-  "ScriptId": 401,
-  "ResponseShipmentId": 547,
+  "FormId": 693,
+  "FormKey": "non",
+  "Name": "Russel Group",
+  "Description": "Programmable mission-critical data-warehouse",
+  "Config": "quibusdam",
+  "FolderId": 437,
+  "ScriptId": 595,
+  "ResponseShipmentId": 475,
   "Active": false,
-  "Expires": "2024-03-03T03:46:55.0038735+01:00",
-  "MaxSubmits": 428,
+  "Expires": "2022-02-24T02:30:47.4600781+01:00",
+  "MaxSubmits": 502,
   "Type": "Normal",
-  "Recipe": "ipsam",
-  "GroupId": 892,
-  "NewTicket": false,
+  "Recipe": "aut",
+  "GroupId": 890,
+  "NewTicket": true,
   "RecaptchaMode": "GlobalKeysExist",
-  "Registered": "2005-07-14T03:46:55.0038735+02:00",
-  "RegisteredAssociateId": 367,
-  "Updated": "2010-12-01T03:46:55.0038735+01:00",
-  "UpdatedAssociateId": 878,
-  "UpdatedCount": 797,
+  "Registered": "2016-04-14T02:30:47.4600781+02:00",
+  "RegisteredAssociateId": 670,
+  "Updated": "2024-03-31T02:30:47.4600781+01:00",
+  "UpdatedAssociateId": 666,
+  "UpdatedCount": 459,
   "EmailFlows": [
-    271,
-    325
+    120,
+    392
   ],
-  "FolderName": "Rowe-Donnelly",
+  "FolderName": "Brown, Raynor and Littel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 241
+      "FieldLength": 244
     }
   }
 }

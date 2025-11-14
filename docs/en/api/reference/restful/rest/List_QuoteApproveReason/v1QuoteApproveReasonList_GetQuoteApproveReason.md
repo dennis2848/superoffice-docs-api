@@ -76,18 +76,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 256,
-  "Name": "McDermott-Swift",
-  "Tooltip": "facere",
+  "Id": 989,
+  "Name": "Berge, Lesch and Rice",
+  "Tooltip": "ipsa",
   "Deleted": false,
-  "UdListDefinitionId": 431,
-  "Rank": 268,
+  "UdListDefinitionId": 851,
+  "Rank": 66,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 853
+      "FieldType": "System.Int32",
+      "FieldLength": 526
     }
   }
 }

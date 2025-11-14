@@ -71,7 +71,7 @@ OK
 GET /api/v1/List/ProductFamily/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -82,18 +82,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 230,
-    "Name": "Harris-Bashirian",
-    "Tooltip": "libero",
-    "Deleted": false,
-    "UdListDefinitionId": 922,
-    "Rank": 449,
+    "Id": 509,
+    "Name": "Pouros LLC",
+    "Tooltip": "tempore",
+    "Deleted": true,
+    "UdListDefinitionId": 869,
+    "Rank": 588,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 949
+        "FieldLength": 485
       }
     }
   }

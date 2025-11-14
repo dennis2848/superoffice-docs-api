@@ -76,25 +76,25 @@ OK
 PUT /api/v1/List/Country/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 172,
-    "Name": "Wiza Inc and Sons",
-    "Tooltip": "repellat",
+    "HeadingId": 493,
+    "Name": "Eichmann LLC",
+    "Tooltip": "quia",
     "Deleted": false,
-    "Rank": 831,
-    "UdListDefinitionId": 901
+    "Rank": 37,
+    "UdListDefinitionId": 983
   },
   {
-    "HeadingId": 172,
-    "Name": "Wiza Inc and Sons",
-    "Tooltip": "repellat",
+    "HeadingId": 493,
+    "Name": "Eichmann LLC",
+    "Tooltip": "quia",
     "Deleted": false,
-    "Rank": 831,
-    "UdListDefinitionId": 901
+    "Rank": 37,
+    "UdListDefinitionId": 983
   }
 ]
 ```
@@ -107,18 +107,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 375,
-    "Name": "Fisher LLC",
-    "Tooltip": "consequuntur",
-    "Deleted": true,
-    "Rank": 408,
-    "UdListDefinitionId": 961,
+    "HeadingId": 836,
+    "Name": "Price-Cronin",
+    "Tooltip": "qui",
+    "Deleted": false,
+    "Rank": 186,
+    "UdListDefinitionId": 642,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 65
+        "FieldLength": 378
       }
     }
   }

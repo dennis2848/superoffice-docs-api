@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/GetLinkList
 Gets an array of Link objects.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -75,7 +77,7 @@ OK
 POST /api/v1/Agents/List/GetLinkList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -86,17 +88,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Haley LLC",
-    "Id": 796,
-    "Description": "Centralized systemic intranet",
-    "ExtraInfo": "ad",
-    "LinkId": 263,
+    "EntityName": "Armstrong-Keeling",
+    "Id": 823,
+    "Description": "Customer-focused client-driven interface",
+    "ExtraInfo": "natus",
+    "LinkId": 622,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 181
+        "FieldLength": 117
       }
     }
   }

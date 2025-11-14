@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/CreateDefaultResourceEntity
 Loading default values into a new ResourceEntity.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -62,7 +64,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultResourceEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -72,19 +74,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ResourceId": 2,
-  "Name": "Bernhard-Raynor",
-  "Rank": 434,
-  "Tooltip": "quas",
-  "Deleted": false,
+  "ResourceId": 673,
+  "Name": "Ziemann-Strosin",
+  "Rank": 81,
+  "Tooltip": "perferendis",
+  "Deleted": true,
   "IsLocation": true,
-  "LocationAddress": "et",
+  "LocationAddress": "molestiae",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 965
+      "FieldType": "System.String",
+      "FieldLength": 778
     }
   }
 }

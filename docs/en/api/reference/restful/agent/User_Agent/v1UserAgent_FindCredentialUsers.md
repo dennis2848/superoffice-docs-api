@@ -14,6 +14,9 @@ POST /api/v1/Agents/User/FindCredentialUsers
 Find users matching the partial name.
 
 
+NsApiSlow threshold: 1000 ms.
+
+
 ## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
 
 
@@ -78,12 +81,12 @@ OK
 POST /api/v1/Agents/User/FindCredentialUsers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Type": "id",
-  "SearchString": "inventore"
+  "Type": "harum",
+  "SearchString": "perspiciatis"
 }
 ```
 
@@ -95,41 +98,41 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Headings": [
-    "sit",
-    "amet"
+    "eum",
+    "molestiae"
   ],
   "Users": [
     {
-      "Value": "et",
-      "DisplayValue": "voluptas",
+      "Value": "magnam",
+      "DisplayValue": "totam",
       "Columns": [
-        "officiis",
-        "eveniet"
+        "fugiat",
+        "dignissimos"
       ],
-      "CanCreatePerson": true,
+      "CanCreatePerson": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 538
+          "FieldLength": 678
         }
       }
     },
     {
-      "Value": "et",
-      "DisplayValue": "voluptas",
+      "Value": "magnam",
+      "DisplayValue": "totam",
       "Columns": [
-        "officiis",
-        "eveniet"
+        "fugiat",
+        "dignissimos"
       ],
-      "CanCreatePerson": true,
+      "CanCreatePerson": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 538
+          "FieldLength": 678
         }
       }
     }
@@ -139,7 +142,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 356
+      "FieldLength": 240
     }
   }
 }

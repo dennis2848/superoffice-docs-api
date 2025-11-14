@@ -85,19 +85,19 @@ OK
 PUT /api/v1/List/DeliveryTerm
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 442,
-  "Name": "Hettinger-McDermott",
-  "Tooltip": "odio",
+  "Id": 759,
+  "Name": "Gorczany LLC",
+  "Tooltip": "eveniet",
   "Deleted": true,
-  "Rank": 963,
+  "Rank": 694,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "harum",
+  "ListType": "vero",
   "InUseByUserDefinedFields": true
 }
 ```
@@ -109,22 +109,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 272,
-  "Name": "Cummings Group",
-  "Tooltip": "consequatur",
-  "Deleted": false,
-  "Rank": 288,
-  "IsCustomList": true,
+  "Id": 731,
+  "Name": "Strosin, Walker and Hilll",
+  "Tooltip": "inventore",
+  "Deleted": true,
+  "Rank": 607,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "impedit",
+  "ListType": "ea",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 381
+      "FieldLength": 983
     }
   }
 }

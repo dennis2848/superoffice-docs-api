@@ -11,7 +11,7 @@ content_type: reference
 POST /api/v1/Agents/User/IsPasswordValidWithReason
 ```
 
-<para />
+NsApiSlow threshold: 2000 ms.
 
 
 ## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
@@ -84,10 +84,10 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 374,
+  "AssociateId": 55,
   "Type": "AnonymousAssociate",
-  "PersonId": 452,
-  "Password": "nihil"
+  "PersonId": 38,
+  "Password": "maxime"
 }
 ```
 
@@ -98,14 +98,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Reason": "",
+  "Reason": "aggregate synergistic action-items",
   "Result": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 290
+      "FieldLength": 72
     }
   }
 }

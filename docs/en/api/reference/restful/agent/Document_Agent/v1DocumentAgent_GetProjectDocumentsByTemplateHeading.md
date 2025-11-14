@@ -15,6 +15,7 @@ Method that returns a specified number of document appointments within a time ra
 
 
 The document appointments belong to the project specified. The heading represents a grouping or filtering of document templates.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -99,15 +100,15 @@ OK
 POST /api/v1/Agents/Document/GetProjectDocumentsByTemplateHeading
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 380,
-  "StartTime": "2006-09-27T03:46:54.6288867+02:00",
-  "EndTime": "2021-03-30T03:46:54.6288867+02:00",
-  "Count": 503,
-  "TemplateHeadingId": 579
+  "ProjectId": 76,
+  "StartTime": "2017-05-18T02:30:47.0850878+02:00",
+  "EndTime": "2019-01-27T02:30:47.0850878+01:00",
+  "Count": 779,
+  "TemplateHeadingId": 528
 }
 ```
 
@@ -119,32 +120,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 21,
-    "Attention": "accusantium",
-    "Header": "aliquid",
-    "Name": "Osinski-Beatty",
-    "OurRef": "alias",
-    "YourRef": "qui",
-    "Description": "Sharable explicit capability",
-    "DocumentTemplate": "hic",
+    "DocumentId": 255,
+    "Attention": "esse",
+    "Header": "et",
+    "Name": "Lynch-Labadie",
+    "OurRef": "voluptas",
+    "YourRef": "reprehenderit",
+    "Description": "Customer-focused demand-driven success",
+    "DocumentTemplate": "et",
     "IsPublished": false,
-    "PersonId": 167,
-    "PersonFullName": "Prof. Waylon Lauretta Kozey DDS",
-    "AssociateFullName": "Skye Rath",
-    "ContactId": 111,
-    "ContactName": "Kiehn, Gerlach and Purdy",
-    "ProjectId": 303,
-    "ProjectName": "Heller-Wuckert",
-    "AssociateId": 812,
-    "Snum": 649,
-    "SaleId": 8,
-    "SaleName": "Douglas Group",
+    "PersonId": 87,
+    "PersonFullName": "Summer Schmeler",
+    "AssociateFullName": "Dr. Alexys Gusikowski PhD",
+    "ContactId": 909,
+    "ContactName": "Smitham Inc and Sons",
+    "ProjectId": 81,
+    "ProjectName": "Friesen, Nicolas and DuBuque",
+    "AssociateId": 397,
+    "Snum": 457,
+    "SaleId": 895,
+    "SaleName": "Dooley-Miller",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 891
+        "FieldLength": 541
       }
     }
   }

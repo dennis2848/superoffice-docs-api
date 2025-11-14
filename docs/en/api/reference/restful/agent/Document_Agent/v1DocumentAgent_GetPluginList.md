@@ -14,6 +14,8 @@ POST /api/v1/Agents/Document/GetPluginList
 Get a list of installed document plugins
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -71,7 +73,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "laborum",
-  "2": "facere"
+  "1": "omnis",
+  "2": "sunt"
 }
 ```

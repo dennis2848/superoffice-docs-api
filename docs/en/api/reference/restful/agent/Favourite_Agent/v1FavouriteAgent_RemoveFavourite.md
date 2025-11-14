@@ -14,6 +14,8 @@ POST /api/v1/Agents/Favourite/RemoveFavourite
 Remove favourite for a table, record id and associate
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -71,9 +73,9 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Predovic-Pfeffer",
-  "RecordId": 378,
-  "AssociateId": 936
+  "TableName": "Welch, Kozey and Kuvalis",
+  "RecordId": 813,
+  "AssociateId": 454
 }
 ```
 

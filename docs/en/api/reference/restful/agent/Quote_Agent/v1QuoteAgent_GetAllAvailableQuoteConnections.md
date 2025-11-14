@@ -15,6 +15,7 @@ Get all available connections.
 
 
 Some installed connections may not be available to the user. Use GetAllAvailableQuoteConnectionsWithPriceLists if you need the pricelists on the connections as well.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -93,54 +94,54 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteConnectionId": 620,
-    "ERPName": "Kuhlman, Spencer and Lemke",
-    "DisplayName": "McDermott, Bednar and Heaney",
-    "DisplayDescription": "Advanced cohesive knowledge user",
-    "Rank": 810,
-    "ConnectorName": "Schuppe Group",
-    "ErpConnectionId": 615,
-    "ExtraData": "consequatur",
+    "QuoteConnectionId": 586,
+    "ERPName": "Heaney, Shields and Boyle",
+    "DisplayName": "Emmerich-Cartwright",
+    "DisplayDescription": "Organic context-sensitive local area network",
+    "Rank": 941,
+    "ConnectorName": "Hoeger-Swift",
+    "ErpConnectionId": 202,
+    "ExtraData": "est",
     "IsAvailable": false,
     "InitializeResponse": null,
     "PriceLists": [
       {
-        "PriceListId": 939,
-        "ERPPriceListKey": "aliquam",
-        "QuoteConnectionId": 581,
-        "Name": "Renner, Johns and Gleason",
-        "Description": "Re-contextualized disintermediate attitude",
-        "Currency": "quas",
-        "CurrencyName": "Murphy, Jenkins and Senger",
-        "ValidFrom": "2006-12-29T03:46:55.2069913+01:00",
-        "ValidTo": "2012-08-08T03:46:55.2069913+02:00",
+        "PriceListId": 593,
+        "ERPPriceListKey": "fugiat",
+        "QuoteConnectionId": 241,
+        "Name": "Waters-O'Connell",
+        "Description": "Persevering dedicated benchmark",
+        "Currency": "unde",
+        "CurrencyName": "Runte LLC",
+        "ValidFrom": "2004-10-02T02:30:47.7256947+02:00",
+        "ValidTo": "2011-04-30T02:30:47.7256947+02:00",
         "IsActive": false,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 277
+            "FieldType": "System.Int32",
+            "FieldLength": 256
           }
         }
       }
     ],
     "AllAccess": false,
-    "Deleted": false,
+    "Deleted": true,
     "UserGroupAccessIds": [
-      889,
-      361
+      793,
+      65
     ],
     "AssociateAccessIds": [
-      586,
-      875
+      178,
+      348
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 693
+        "FieldType": "System.Int32",
+        "FieldLength": 162
       }
     }
   }

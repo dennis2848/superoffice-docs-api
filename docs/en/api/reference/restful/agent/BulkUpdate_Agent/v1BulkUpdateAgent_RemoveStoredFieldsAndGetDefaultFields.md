@@ -14,6 +14,8 @@ POST /api/v1/Agents/BulkUpdate/RemoveStoredFieldsAndGetDefaultFields
 Remove the stored settings of the bulk update for this table from this context, to get the default settings instead
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -89,12 +91,12 @@ OK
 POST /api/v1/Agents/BulkUpdate/RemoveStoredFieldsAndGetDefaultFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "VonRueden Inc and Sons",
-  "Context": "sapiente"
+  "TableName": "Metz Inc and Sons",
+  "Context": "iste"
 }
 ```
 
@@ -109,73 +111,73 @@ Content-Type: application/json; charset=utf-8
     "CanSupportMultiUse": false,
     "DefaultShowInGui": false,
     "DefaultShowInSelector": false,
-    "IsActive": false,
-    "Key": "enim",
-    "ValueType": "omnis",
+    "IsActive": true,
+    "Key": "non",
+    "ValueType": "officia",
     "Mandatory": false,
-    "EncodedDisplayName": "Tremblay-Swaniawski",
-    "EncodedDisplayDescription": "Down-sized mission-critical matrix",
-    "IconHint": "consequatur",
+    "EncodedDisplayName": "Swaniawski Inc and Sons",
+    "EncodedDisplayDescription": "User-centric dedicated algorithm",
+    "IconHint": "dolorum",
     "ControlInfos": [
       {
-        "Type": "sunt",
-        "Label": "omnis",
-        "Dimension": 774,
-        "ListProviderName": "Towne Inc and Sons",
-        "ListProviderExtraInfo": "nesciunt",
-        "ListProviderPrimaryKeyName": "Turner-Roberts",
+        "Type": "quae",
+        "Label": "eum",
+        "Dimension": 409,
+        "ListProviderName": "Hintz-Harris",
+        "ListProviderExtraInfo": "ut",
+        "ListProviderPrimaryKeyName": "Heller Group",
         "ListLeadText": "qui",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 120
+            "FieldLength": 819
           }
         }
       }
     ],
-    "EncodedDataCaption": "eos",
-    "EncodedDataCaptionDescription": "Customer-focused dynamic support",
-    "CurrentOperationType": "quisquam",
+    "EncodedDataCaption": "quia",
+    "EncodedDataCaptionDescription": "Sharable bandwidth-monitored projection",
+    "CurrentOperationType": "voluptas",
     "Values": [
-      "modi",
-      "neque"
+      "vero",
+      "aut"
     ],
     "DisplayValues": [
-      "animi",
-      "impedit"
+      "reprehenderit",
+      "omnis"
     ],
     "OperationInfos": [
       {
-        "Key": "nobis",
-        "EncodedDisplayName": "McCullough Inc and Sons",
+        "Key": "voluptatem",
+        "EncodedDisplayName": "Schroeder Group",
         "EncodedLeadTexts": [
-          "totam",
-          "cum"
+          "repellat",
+          "voluptatem"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 933
+            "FieldLength": 150
           }
         }
       },
       {
-        "Key": "nobis",
-        "EncodedDisplayName": "McCullough Inc and Sons",
+        "Key": "voluptatem",
+        "EncodedDisplayName": "Schroeder Group",
         "EncodedLeadTexts": [
-          "totam",
-          "cum"
+          "repellat",
+          "voluptatem"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 933
+            "FieldLength": 150
           }
         }
       }

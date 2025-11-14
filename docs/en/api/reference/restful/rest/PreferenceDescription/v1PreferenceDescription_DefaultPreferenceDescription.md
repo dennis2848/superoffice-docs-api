@@ -15,6 +15,7 @@ Set default values into a new PreferenceDescription.
 
 
 NetServer calculates default values on the entity, which is required when creating/storing a new instance Calls the Preference agent service CreateDefaultPreferenceDescription.
+NsApiSlow threshold: 1000 ms.
 
 
 
@@ -75,7 +76,7 @@ OK
 GET /api/v1/PreferenceDescription/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -85,30 +86,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 695,
-  "Section": "expedita",
-  "Key": "aut",
-  "Name": "Von Inc and Sons",
+  "PrefDescId": 75,
+  "Section": "suscipit",
+  "Key": "quos",
+  "Name": "Kuphal LLC",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Decentralized global synergy",
-  "IsBuiltin": true,
-  "TableName": "O'Kon Inc and Sons",
-  "UserDefinedListId": 927,
-  "Rank": 740,
-  "SubGroup": "rem",
-  "MinLevel": 731,
-  "MaxValue": 630,
-  "MinValue": 337,
-  "RequiredLicense": "officia",
+  "Description": "De-engineered background system engine",
+  "IsBuiltin": false,
+  "TableName": "Fay-Graham",
+  "UserDefinedListId": 285,
+  "Rank": 270,
+  "SubGroup": "molestias",
+  "MinLevel": 758,
+  "MaxValue": 646,
+  "MinValue": 399,
+  "RequiredLicense": "est",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 297
+      "FieldLength": 452
     }
   }
 }

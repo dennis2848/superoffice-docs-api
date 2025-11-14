@@ -14,6 +14,8 @@ POST /api/v1/Agents/Batch/GetBatchTaskInfosByAssociatesAndState
 Get an array of BatchTaskInfo for the provided associate id's and batch task state.
 
 
+NsApiSlow threshold: 3000 ms.
+
 
 
 
@@ -96,13 +98,13 @@ OK
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByAssociatesAndState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "AssociateIds": [
-    356,
-    137
+    940,
+    27
   ],
   "State": "All"
 }
@@ -116,37 +118,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 699,
-    "Name": "Heidenreich, Grimes and Tremblay",
-    "AssociateId": 623,
-    "DetailsTable": 14,
-    "DetailsRecord": 604,
-    "IsSystemTask": false,
-    "IsInternalTask": true,
+    "Id": 745,
+    "Name": "Wolff-O'Connell",
+    "AssociateId": 416,
+    "DetailsTable": 130,
+    "DetailsRecord": 782,
+    "IsSystemTask": true,
+    "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "earum",
-      "ParameterObject2": "omnis"
+      "ParameterObject1": "odit",
+      "ParameterObject2": "eos"
     },
-    "LastStarted": "2014-05-24T03:46:54.3007673+02:00",
-    "Created": "1999-02-14T03:46:54.3007673+01:00",
-    "StartCount": 169,
-    "DatabaseSerialNumber": "1743961",
-    "Context": "repudiandae",
-    "Result": "voluptates",
+    "LastStarted": "2012-06-27T02:30:46.8194719+02:00",
+    "Created": "2006-07-22T02:30:46.8194719+02:00",
+    "StartCount": 635,
+    "DatabaseSerialNumber": "1218532",
+    "Context": "sit",
+    "Result": "quia",
     "State": "All",
-    "Description": "Re-contextualized contextually-based function",
-    "Response": "ut",
-    "Request": "accusantium",
-    "ProgressDescription": "Reduced responsive interface",
-    "ProgressPercent": 156,
-    "FileName": "Bashirian, Bernier and Gulgowski",
+    "Description": "Stand-alone interactive array",
+    "Response": "enim",
+    "Request": "optio",
+    "ProgressDescription": "Fundamental executive framework",
+    "ProgressPercent": 446,
+    "FileName": "Hyatt, Medhurst and Predovic",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 691
+        "FieldLength": 396
       }
     }
   }

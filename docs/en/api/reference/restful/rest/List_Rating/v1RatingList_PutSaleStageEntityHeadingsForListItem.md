@@ -98,47 +98,47 @@ OK
 PUT /api/v1/List/Rating/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 329,
-    "Name": "Torphy Group",
-    "ToolTip": "Culpa ut est totam consequatur voluptates.",
-    "Deleted": false,
-    "Rank": 492,
-    "Type": "pariatur",
-    "ColorBlock": 112,
-    "IconHint": "ex",
-    "Selected": false,
-    "LastChanged": "2023-04-29T03:47:00.7849183+02:00",
+    "Id": 577,
+    "Name": "Jewess Group",
+    "ToolTip": "Dolores nostrum aut ipsam.",
+    "Deleted": true,
+    "Rank": 618,
+    "Type": "quia",
+    "ColorBlock": 404,
+    "IconHint": "rerum",
+    "Selected": true,
+    "LastChanged": "2005-02-28T02:30:53.4130107+01:00",
     "ChildItems": [
       {
-        "Id": 705,
-        "Name": "Daniel-Rau",
-        "ToolTip": "Aspernatur tenetur aut.",
+        "Id": 465,
+        "Name": "Ferry-Koss",
+        "ToolTip": "Odit excepturi mollitia commodi fuga rerum aperiam.",
         "Deleted": true,
-        "Rank": 761,
-        "Type": "deserunt",
-        "ColorBlock": 93,
-        "IconHint": "id",
+        "Rank": 522,
+        "Type": "consequatur",
+        "ColorBlock": 237,
+        "IconHint": "ut",
         "Selected": false,
-        "LastChanged": "2002-12-07T03:47:00.7849183+01:00",
+        "LastChanged": "2011-02-19T02:30:53.4130107+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "saepe",
-        "StyleHint": "doloribus",
+        "ExtraInfo": "expedita",
+        "StyleHint": "doloremque",
         "Hidden": true,
-        "FullName": "Ayden Reilly"
+        "FullName": "Mr. Maybell Heller"
       }
     ],
-    "ExtraInfo": "ad",
-    "StyleHint": "aspernatur",
+    "ExtraInfo": "ut",
+    "StyleHint": "ipsum",
     "Hidden": true,
-    "FullName": "Daryl Watsica"
+    "FullName": "Gust Gorczany"
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 165,
-    "Name": "Sanford-Stroman",
-    "ToolTip": "Sequi inventore expedita aliquam.",
-    "Deleted": true,
-    "Rank": 802,
-    "Type": "laborum",
-    "ColorBlock": 18,
-    "IconHint": "sunt",
+    "Id": 309,
+    "Name": "Crona-Hayes",
+    "ToolTip": "Quia sapiente optio velit.",
+    "Deleted": false,
+    "Rank": 171,
+    "Type": "iure",
+    "ColorBlock": 212,
+    "IconHint": "eum",
     "Selected": true,
-    "LastChanged": "2022-05-30T03:47:00.7849183+02:00",
+    "LastChanged": "2018-07-17T02:30:53.4130107+02:00",
     "ChildItems": [
       {
-        "Id": 27,
-        "Name": "Stracke-Corkery",
-        "ToolTip": "Et provident quod explicabo sapiente sit sed.",
-        "Deleted": true,
-        "Rank": 691,
-        "Type": "laborum",
-        "ColorBlock": 196,
-        "IconHint": "quasi",
-        "Selected": true,
-        "LastChanged": "2018-05-31T03:47:00.7849183+02:00",
+        "Id": 496,
+        "Name": "Ryan-Lockman",
+        "ToolTip": "Corporis rerum est corrupti natus.",
+        "Deleted": false,
+        "Rank": 607,
+        "Type": "est",
+        "ColorBlock": 241,
+        "IconHint": "sint",
+        "Selected": false,
+        "LastChanged": "2007-11-08T02:30:53.4130107+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "reprehenderit",
-        "StyleHint": "id",
+        "ExtraInfo": "perspiciatis",
+        "StyleHint": "commodi",
         "Hidden": false,
-        "FullName": "Frederic Buckridge",
+        "FullName": "Alf Kutch",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 685
+            "FieldLength": 114
           }
         }
       }
     ],
-    "ExtraInfo": "autem",
-    "StyleHint": "esse",
-    "Hidden": false,
-    "FullName": "Mr. Jaleel Hickle",
+    "ExtraInfo": "sed",
+    "StyleHint": "ut",
+    "Hidden": true,
+    "FullName": "Mr. Jett Koss Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 679
+        "FieldLength": 458
       }
     }
   }

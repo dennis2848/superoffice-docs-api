@@ -90,7 +90,7 @@ OK
 GET /api/v1/List/TicketPriority/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -100,60 +100,60 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketPriorityId": 49,
-  "Name": "Bayer, Doyle and Olson",
+  "TicketPriorityId": 399,
+  "Name": "Schamberger, Jaskolski and Wiza",
   "Status": "Deleted",
   "Flags": "AlertSchedule",
-  "SortOrder": 733,
+  "SortOrder": 582,
   "TicketRead": "Continue",
   "ChangedOwner": "Continue",
   "TicketNewinfo": "Continue",
   "TicketClosed": "Continue",
   "TicketChangedPriority": "Continue",
   "TicketNew": "Continue",
-  "Deadline": 201,
-  "MonStart": "2013-09-07T03:47:00.9099142+02:00",
-  "MonStop": "2001-09-06T03:47:00.9099142+02:00",
-  "TueStart": "1999-10-11T03:47:00.9099142+02:00",
-  "TueStop": "2009-08-18T03:47:00.9099142+02:00",
-  "WedStart": "2006-04-26T03:47:00.9099142+02:00",
-  "WedStop": "2006-05-23T03:47:00.9099142+02:00",
-  "ThuStart": "2004-03-20T03:47:00.9099142+01:00",
-  "ThuStop": "2009-08-07T03:47:00.9099142+02:00",
-  "FriStart": "2024-01-15T03:47:00.9099142+01:00",
-  "FriStop": "2016-12-18T03:47:00.9099142+01:00",
-  "SatStart": "2019-12-31T03:47:00.9099142+01:00",
-  "SatStop": "2001-12-05T03:47:00.9099142+01:00",
-  "SunStart": "2002-06-05T03:47:00.9099142+02:00",
-  "SunStop": "2021-04-21T03:47:00.9099142+02:00",
+  "Deadline": 894,
+  "MonStart": "2010-11-14T02:30:53.5223788+01:00",
+  "MonStop": "2011-07-06T02:30:53.5223788+02:00",
+  "TueStart": "2001-11-16T02:30:53.5223788+01:00",
+  "TueStop": "2003-10-10T02:30:53.5223788+02:00",
+  "WedStart": "2020-11-30T02:30:53.5223788+01:00",
+  "WedStop": "2005-01-25T02:30:53.5223788+01:00",
+  "ThuStart": "2003-03-02T02:30:53.5223788+01:00",
+  "ThuStop": "2009-04-23T02:30:53.5223788+02:00",
+  "FriStart": "2024-07-13T02:30:53.5223788+02:00",
+  "FriStop": "2012-12-31T02:30:53.5223788+01:00",
+  "SatStart": "2005-01-14T02:30:53.5223788+01:00",
+  "SatStop": "2008-10-05T02:30:53.5223788+02:00",
+  "SunStart": "2006-06-05T02:30:53.5223788+02:00",
+  "SunStop": "2013-12-08T02:30:53.5223788+01:00",
   "NonDates": [
-    "cum",
-    "aliquam"
+    "voluptate",
+    "vel"
   ],
   "EscalationLevels": [
     {
-      "TicketAlertId": 822,
-      "AlertLevel": 659,
-      "AlertTimeout": 697,
-      "Action": 697,
-      "DelegateTo": 175,
-      "ScriptId": 556,
-      "EmailTo": "daron_miller@gutkowski.ca",
-      "SmsTo": "repellat",
-      "ReplyTemplateIdCustomer": 405,
-      "ReplyTemplateIdUser": 933,
-      "ReplyTemplateIdCatmast": 287,
-      "ReplyTemplateIdEmail": 427,
-      "RtiCustomerSms": 802,
-      "ReplyTemplateIdUserSms": 273,
-      "ReplyTemplateIdCatmastSms": 240,
-      "ReplyTemplateIdSms": 131,
+      "TicketAlertId": 283,
+      "AlertLevel": 72,
+      "AlertTimeout": 956,
+      "Action": 775,
+      "DelegateTo": 407,
+      "ScriptId": 222,
+      "EmailTo": "unique@okonwolff.com",
+      "SmsTo": "iure",
+      "ReplyTemplateIdCustomer": 597,
+      "ReplyTemplateIdUser": 174,
+      "ReplyTemplateIdCatmast": 237,
+      "ReplyTemplateIdEmail": 749,
+      "RtiCustomerSms": 36,
+      "ReplyTemplateIdUserSms": 663,
+      "ReplyTemplateIdCatmastSms": 332,
+      "ReplyTemplateIdSms": 737,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 45
+          "FieldType": "System.String",
+          "FieldLength": 775
         }
       }
     }
@@ -162,8 +162,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 705
+      "FieldType": "System.Int32",
+      "FieldLength": 908
     }
   }
 }

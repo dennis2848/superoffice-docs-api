@@ -15,6 +15,7 @@ Deletes the User
 
 
 ## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps. Calls the User agent service DeleteUser.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -53,7 +54,7 @@ User deleted.
 DELETE /api/v1/User/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response

@@ -32,7 +32,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ProjectStatus/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/ProjectStatus/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -86,7 +86,7 @@ OK
 GET /api/v1/List/ProjectStatus/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -97,56 +97,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 499,
-    "Name": "Johns-Murphy",
-    "ToolTip": "Molestiae facilis iste soluta ipsa assumenda est delectus.",
-    "Deleted": true,
-    "Rank": 285,
-    "Type": "non",
-    "ColorBlock": 225,
-    "IconHint": "inventore",
+    "Id": 890,
+    "Name": "Luettgen-Beahan",
+    "ToolTip": "Eaque ipsum et eveniet et quod aut voluptas.",
+    "Deleted": false,
+    "Rank": 402,
+    "Type": "dolores",
+    "ColorBlock": 95,
+    "IconHint": "officiis",
     "Selected": false,
-    "LastChanged": "2010-01-22T03:47:00.7536695+01:00",
+    "LastChanged": "2001-07-27T02:30:53.3817624+02:00",
     "ChildItems": [
       {
-        "Id": 677,
-        "Name": "Wolf-Swaniawski",
-        "ToolTip": "Laborum ut cupiditate saepe ut distinctio.",
+        "Id": 339,
+        "Name": "Abbott-Bergstrom",
+        "ToolTip": "Porro magnam minima et provident.",
         "Deleted": true,
-        "Rank": 750,
-        "Type": "et",
-        "ColorBlock": 679,
-        "IconHint": "enim",
+        "Rank": 773,
+        "Type": "molestias",
+        "ColorBlock": 98,
+        "IconHint": "recusandae",
         "Selected": false,
-        "LastChanged": "2010-04-23T03:47:00.7536695+02:00",
+        "LastChanged": "2021-12-04T02:30:53.3817624+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptates",
-        "StyleHint": "assumenda",
+        "ExtraInfo": "blanditiis",
+        "StyleHint": "ut",
         "Hidden": false,
-        "FullName": "Yasmin Nasir Lubowitz Sr.",
+        "FullName": "Magdalen Thiel",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 943
+            "FieldType": "System.String",
+            "FieldLength": 220
           }
         }
       }
     ],
-    "ExtraInfo": "sit",
-    "StyleHint": "eos",
+    "ExtraInfo": "deleniti",
+    "StyleHint": "velit",
     "Hidden": false,
-    "FullName": "Miss Lexi Borer Sr.",
+    "FullName": "Mr. Tyrese Maya Harber",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 578
+        "FieldLength": 485
       }
     }
   }

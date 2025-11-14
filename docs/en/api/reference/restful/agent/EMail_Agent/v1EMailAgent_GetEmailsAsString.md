@@ -11,7 +11,7 @@ content_type: reference
 POST /api/v1/Agents/EMail/GetEmailsAsString
 ```
 
-<para />
+NsApiSlow threshold: 5000 ms.
 
 
 ## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
@@ -78,8 +78,8 @@ Content-Type: application/json; charset=utf-8
 {
   "ConnectionInfoExtended": null,
   "MessageIds": [
-    "eos",
-    "vitae"
+    "libero",
+    "alias"
   ]
 }
 ```
@@ -91,7 +91,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  "nihil",
-  "dolores"
+  "rerum",
+  "maiores"
 ]
 ```

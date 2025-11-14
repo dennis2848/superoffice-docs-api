@@ -14,6 +14,11 @@ POST /api/v1/Agents/AI/AnswerAccepted
 Signal that answer was inserted into response- feedback is logged and used to improve the answer algorithm.
 
 
+NsApiSlow threshold: 1000 ms.
+
+
+## Experimental: ## The AI agent is experimental, subject to change, and not intended for partners.
+
 
 
 
@@ -69,7 +74,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TrackingId": "rem"
+  "TrackingId": "ad"
 }
 ```
 

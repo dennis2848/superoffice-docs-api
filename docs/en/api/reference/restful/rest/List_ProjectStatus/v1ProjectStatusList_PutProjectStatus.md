@@ -83,12 +83,12 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 475,
-  "Name": "Eichmann LLC",
-  "Tooltip": "et",
-  "Deleted": true,
-  "UdListDefinitionId": 572,
-  "Rank": 851
+  "Id": 226,
+  "Name": "Strosin, Windler and Hoppe",
+  "Tooltip": "porro",
+  "Deleted": false,
+  "UdListDefinitionId": 416,
+  "Rank": 982
 }
 ```
 
@@ -99,18 +99,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 305,
-  "Name": "Becker LLC",
-  "Tooltip": "velit",
-  "Deleted": true,
-  "UdListDefinitionId": 612,
-  "Rank": 85,
+  "Id": 902,
+  "Name": "O'Kon-Conroy",
+  "Tooltip": "nihil",
+  "Deleted": false,
+  "UdListDefinitionId": 811,
+  "Rank": 552,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 203
+      "FieldType": "System.Int32",
+      "FieldLength": 375
     }
   }
 }

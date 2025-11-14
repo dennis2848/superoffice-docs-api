@@ -76,7 +76,7 @@ OK
 GET /api/v1/List/ConsentSource/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -87,56 +87,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 798,
-    "Name": "Fritsch-Carter",
-    "ToolTip": "Id architecto recusandae qui quis.",
-    "Deleted": true,
-    "Rank": 458,
-    "Type": "recusandae",
-    "ColorBlock": 826,
-    "IconHint": "repellendus",
+    "Id": 407,
+    "Name": "Mertz, Reichel and Stiedemann",
+    "ToolTip": "Et dolorem nostrum eum non voluptas.",
+    "Deleted": false,
+    "Rank": 873,
+    "Type": "incidunt",
+    "ColorBlock": 136,
+    "IconHint": "doloribus",
     "Selected": false,
-    "LastChanged": "2016-10-11T03:47:00.6130405+02:00",
+    "LastChanged": "2019-05-27T02:30:53.2411414+02:00",
     "ChildItems": [
       {
-        "Id": 557,
-        "Name": "Kuphal Group",
-        "ToolTip": "Incidunt aut eaque doloribus.",
+        "Id": 872,
+        "Name": "Wilkinson-Luettgen",
+        "ToolTip": "Quis aut alias atque inventore distinctio et.",
         "Deleted": false,
-        "Rank": 141,
-        "Type": "asperiores",
-        "ColorBlock": 570,
-        "IconHint": "sint",
+        "Rank": 786,
+        "Type": "et",
+        "ColorBlock": 198,
+        "IconHint": "nobis",
         "Selected": false,
-        "LastChanged": "2016-12-31T03:47:00.6130405+01:00",
+        "LastChanged": "2002-11-04T02:30:53.2411414+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nulla",
-        "StyleHint": "ad",
+        "ExtraInfo": "corporis",
+        "StyleHint": "facilis",
         "Hidden": false,
-        "FullName": "Dion Howell V",
+        "FullName": "Blanche Tillman",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 823
+            "FieldType": "System.String",
+            "FieldLength": 433
           }
         }
       }
     ],
-    "ExtraInfo": "excepturi",
-    "StyleHint": "harum",
-    "Hidden": false,
-    "FullName": "Mr. Claudine Osinski",
+    "ExtraInfo": "a",
+    "StyleHint": "ullam",
+    "Hidden": true,
+    "FullName": "Mr. Isabel Quitzon PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 578
+        "FieldLength": 377
       }
     }
   }

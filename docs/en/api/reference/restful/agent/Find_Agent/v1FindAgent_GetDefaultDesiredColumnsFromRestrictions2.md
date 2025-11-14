@@ -14,7 +14,8 @@ POST /api/v1/Agents/Find/GetDefaultDesiredColumnsFromRestrictions2
 Calculate the default desired columns, i.
 
 
-e., the result columns for a given search. The search is defined by a provider name and a set of restrictions. This is the algorithm that is used by the Find service method. 
+e., the result columns for a given search. The search is defined by a provider name and a set of restrictions. This is the algorithm that is used by the Find service method.
+NsApiSlow threshold: 5000 ms. 
 
 Archive Restriction strings are OData or SQL-ish.
 They are parsed and converted into ArchiveRestrictions.
@@ -170,12 +171,12 @@ OK
 POST /api/v1/Agents/Find/GetDefaultDesiredColumnsFromRestrictions2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Wolff-Torphy",
-  "Restrictions": "et"
+  "ProviderName": "Little, Bahringer and Kunde",
+  "Restrictions": "fuga"
 }
 ```
 
@@ -187,19 +188,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Renner Group",
-    "DisplayTooltip": "labore",
-    "DisplayType": "voluptas",
-    "CanOrderBy": false,
-    "Name": "Konopelski LLC",
+    "DisplayName": "Dietrich LLC",
+    "DisplayTooltip": "corrupti",
+    "DisplayType": "repellat",
+    "CanOrderBy": true,
+    "Name": "Veum LLC",
     "CanRestrictBy": true,
-    "RestrictionType": "provident",
-    "RestrictionListName": "Waters Group",
+    "RestrictionType": "modi",
+    "RestrictionListName": "Grant LLC",
     "IsVisible": false,
-    "ExtraInfo": "eligendi",
-    "Width": "illo",
-    "IconHint": "dicta",
-    "HeadingIconHint": "hic"
+    "ExtraInfo": "quidem",
+    "Width": "sed",
+    "IconHint": "nisi",
+    "HeadingIconHint": "dolorem"
   }
 ]
 ```

@@ -14,7 +14,8 @@ POST /api/v1/Agents/Document/GetPersonDocumentsByTemplateType
 Method that returns a specified number of document appointments within a time range, filtered by document template type.
 
 
-The document appointments belong to the person specified.
+The document appointments belong to the person specified. 
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -104,12 +105,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 61,
-  "IncludeProjectDocuments": true,
-  "StartTime": "2024-01-08T03:46:54.6288867+01:00",
-  "EndTime": "2002-07-24T03:46:54.6288867+02:00",
-  "Count": 51,
-  "DocumentTemplateId": 617
+  "PersonId": 478,
+  "IncludeProjectDocuments": false,
+  "StartTime": "2014-01-21T02:30:47.0850878+01:00",
+  "EndTime": "2000-12-02T02:30:47.0850878+01:00",
+  "Count": 715,
+  "DocumentTemplateId": 900
 }
 ```
 
@@ -121,32 +122,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 120,
-    "Attention": "aliquam",
-    "Header": "voluptatibus",
-    "Name": "Grimes Group",
-    "OurRef": "assumenda",
-    "YourRef": "molestiae",
-    "Description": "Compatible optimizing synergy",
-    "DocumentTemplate": "est",
+    "DocumentId": 955,
+    "Attention": "rem",
+    "Header": "qui",
+    "Name": "Lehner, Cassin and Howell",
+    "OurRef": "et",
+    "YourRef": "facere",
+    "Description": "Down-sized heuristic extranet",
+    "DocumentTemplate": "eum",
     "IsPublished": false,
-    "PersonId": 774,
-    "PersonFullName": "Mrs. Bobby Langworth",
-    "AssociateFullName": "Miss Grayce Jaleel Aufderhar DDS",
-    "ContactId": 239,
-    "ContactName": "Jast, Schoen and Ernser",
-    "ProjectId": 253,
-    "ProjectName": "Pollich, Kshlerin and Murray",
-    "AssociateId": 867,
-    "Snum": 953,
-    "SaleId": 50,
-    "SaleName": "Shanahan Inc and Sons",
+    "PersonId": 132,
+    "PersonFullName": "Prof. Eldred Bashirian Jr.",
+    "AssociateFullName": "Ms. Trycia Hansen",
+    "ContactId": 48,
+    "ContactName": "Davis-Bernier",
+    "ProjectId": 884,
+    "ProjectName": "Hagenes, Kuvalis and Marvin",
+    "AssociateId": 297,
+    "Snum": 206,
+    "SaleId": 924,
+    "SaleName": "West-McCullough",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 694
+        "FieldType": "System.Int32",
+        "FieldLength": 475
       }
     }
   }

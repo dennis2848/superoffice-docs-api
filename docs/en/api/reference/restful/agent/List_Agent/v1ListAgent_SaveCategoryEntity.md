@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/SaveCategoryEntity
 Updates the existing CategoryEntity or creates a new CategoryEntity if the id parameter is 0.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -82,14 +84,14 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CategoryId": 86,
-  "Name": "Predovic Inc and Sons",
+  "CategoryId": 295,
+  "Name": "Kris Inc and Sons",
   "CategoryGroup": "Customer",
-  "Tooltip": "laudantium",
-  "Rank": 772,
+  "Tooltip": "error",
+  "Rank": 979,
   "EnableLeadStatus": true,
-  "CategoryFamilyId": 276,
-  "Deleted": true
+  "CategoryFamilyId": 733,
+  "Deleted": false
 }
 ```
 
@@ -100,20 +102,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CategoryId": 67,
-  "Name": "Greenfelder Group",
+  "CategoryId": 792,
+  "Name": "Fahey-Swaniawski",
   "CategoryGroup": "Customer",
-  "Tooltip": "explicabo",
-  "Rank": 436,
+  "Tooltip": "cum",
+  "Rank": 53,
   "EnableLeadStatus": false,
-  "CategoryFamilyId": 696,
+  "CategoryFamilyId": 412,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 891
+      "FieldLength": 607
     }
   }
 }

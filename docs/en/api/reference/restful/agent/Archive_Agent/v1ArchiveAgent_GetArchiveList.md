@@ -14,7 +14,8 @@ POST /api/v1/Agents/Archive/GetArchiveList
 Get a page of data for an archive.
 
 
-The columns returned will be those set as chosen columns, using either the SetChosenColumns service or the corresponding SelectableMDOList.SetSelected. 
+The columns returned will be those set as chosen columns, using either the SetChosenColumns service or the corresponding SelectableMDOList.SetSelected.
+NsApiSlow threshold: 5000 ms. 
 Archive Restriction Info objects represent search terms.
 
 
@@ -105,33 +106,33 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Nader-Kutch",
-  "ProviderName": "Jenkins, Gleason and Gutkowski",
+  "GuiName": "Ledner-Lebsack",
+  "ProviderName": "Wiza Inc and Sons",
   "SortOrder": [
     {
-      "Name": "Ortiz-Goyette",
+      "Name": "Sanford Inc and Sons",
       "Direction": "ASC"
     },
     {
-      "Name": "Ortiz-Goyette",
+      "Name": "Sanford Inc and Sons",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Shanahan, Quitzon and Kertzmann",
-      "Operator": "qui",
+      "Name": "Nicolas Group",
+      "Operator": "dolor",
       "Values": [
-        "rerum",
-        "sit"
+        "voluptates",
+        "minima"
       ],
       "DisplayValues": [
-        "officia",
-        "et"
+        "omnis",
+        "est"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -139,17 +140,17 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 647,
+      "InterParenthesis": 35,
       "InterOperator": "And",
-      "UniqueHash": 22
+      "UniqueHash": 311
     }
   ],
   "Entities": [
-    "et",
-    "praesentium"
+    "sed",
+    "autem"
   ],
-  "Page": 336,
-  "PageSize": 562
+  "Page": 992,
+  "PageSize": 420
 }
 ```
 
@@ -161,23 +162,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Fritsch, Kihn and Hoeger",
-    "PrimaryKey": 395,
+    "EntityName": "Lesch LLC",
+    "PrimaryKey": 739,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "ut",
-        "TooltipHint": "repellat",
-        "LinkHint": "sit"
+        "DisplayValue": "minima",
+        "TooltipHint": "perferendis",
+        "LinkHint": "dolorem"
       }
     },
-    "LinkHint": "ipsam",
-    "StyleHint": "repellendus",
+    "LinkHint": "sunt",
+    "StyleHint": "minima",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 577
+        "FieldType": "System.Int32",
+        "FieldLength": 393
       }
     }
   }

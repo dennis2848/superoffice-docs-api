@@ -94,7 +94,7 @@ SaleEntity found.
 GET /api/v1/Sale/UdefLayout/Published/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -104,46 +104,46 @@ HTTP/1.1 200 SaleEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 162,
-  "ColumnId": 230,
-  "FieldDefault": "eum",
-  "FieldHeight": 57,
-  "FieldLabel": "maxime",
-  "FieldLeft": 495,
-  "FieldTop": 292,
+  "UDefFieldId": 898,
+  "ColumnId": 799,
+  "FieldDefault": "aut",
+  "FieldHeight": 980,
+  "FieldLabel": "eaque",
+  "FieldLeft": 853,
+  "FieldTop": 470,
   "FieldType": "Checkbox",
-  "FieldWidth": 402,
-  "FormatMask": "sint",
-  "HideLabel": true,
+  "FieldWidth": 582,
+  "FormatMask": "nam",
+  "HideLabel": false,
   "IsIndexed": true,
-  "LabelHeight": 945,
-  "LabelLeft": 954,
-  "LabelTop": 721,
-  "LabelWidth": 729,
-  "LastVersionId": 465,
-  "ListTableId": 298,
-  "IsMandatory": true,
+  "LabelHeight": 934,
+  "LabelLeft": 373,
+  "LabelTop": 183,
+  "LabelWidth": 951,
+  "LastVersionId": 830,
+  "ListTableId": 120,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 679,
-  "ProgId": "quo",
-  "IsReadOnly": true,
-  "ShortLabel": "excepturi",
-  "TabOrder": 380,
-  "TextLength": 874,
-  "Tooltip": "omnis",
-  "UdefIdentity": 912,
-  "UDListDefinitionId": 81,
+  "Page1LineNo": 812,
+  "ProgId": "molestiae",
+  "IsReadOnly": false,
+  "ShortLabel": "ad",
+  "TabOrder": 878,
+  "TextLength": 504,
+  "Tooltip": "vel",
+  "UdefIdentity": 375,
+  "UDListDefinitionId": 504,
   "Justification": "Center",
-  "Version": 834,
-  "TemplateVariableName": "Ruecker, Murazik and Herzog",
+  "Version": 270,
+  "TemplateVariableName": "Skiles, Feeney and Pacocha",
   "HasBeenPublished": false,
-  "MdoListName": "Koepp LLC",
+  "MdoListName": "Hackett-Denesik",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 705
+      "FieldLength": 816
     }
   }
 }

@@ -14,6 +14,11 @@ POST /api/v1/Agents/AI/AnswerFeedback
 Send feedback on answer - feedback is logged and used to improve the answer algorithm.
 
 
+NsApiSlow threshold: 1000 ms.
+
+
+## Experimental: ## The AI agent is experimental, subject to change, and not intended for partners.
+
 
 
 
@@ -66,12 +71,12 @@ No Content
 POST /api/v1/Agents/AI/AnswerFeedback
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TrackingId": "eaque",
-  "IsThumbsUp": true
+  "TrackingId": "et",
+  "IsThumbsUp": false
 }
 ```
 

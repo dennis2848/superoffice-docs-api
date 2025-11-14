@@ -15,6 +15,7 @@ Returns all sales within a time period.
 
 
 The sales array can be limited by amount and status.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -103,13 +104,13 @@ OK
 POST /api/v1/Agents/Sale/GetSalesByDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "FromDate": "2007-12-04T03:46:55.2694888+01:00",
-  "ToDate": "2003-09-02T03:46:55.2694888+02:00",
-  "AmountLimit": 541,
+  "FromDate": "2025-06-10T02:30:47.7881925+02:00",
+  "ToDate": "2017-08-21T02:30:47.7881925+02:00",
+  "AmountLimit": 351,
   "Status": "Lost"
 }
 ```
@@ -122,37 +123,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Zulauf-Hartmann",
-    "SaleDate": "2010-01-15T03:46:55.2694888+01:00",
-    "SaleId": 789,
-    "Probability": 280,
-    "Title": "distinctio",
-    "Amount": 18929.36,
-    "Currency": "saepe",
-    "ProjectName": "Walsh, Willms and Cole",
-    "AssociateFullName": "Georgette Evangeline Runte MD",
-    "Description": "Self-enabling non-volatile knowledge user",
+    "ContactName": "Daniel, Bins and Spinka",
+    "SaleDate": "2015-12-11T02:30:47.7881925+01:00",
+    "SaleId": 234,
+    "Probability": 886,
+    "Title": "dolore",
+    "Amount": 24818.146,
+    "Currency": "voluptatem",
+    "ProjectName": "White, Kerluke and Balistreri",
+    "AssociateFullName": "Kianna Howell",
+    "Description": "Phased bi-directional ability",
     "Status": "Lost",
-    "WeightedAmount": 13178.47,
-    "ProjectId": 668,
-    "EarningPercent": 17193.124,
-    "Earning": 18352.703999999998,
-    "ContactId": 253,
-    "AssociateId": 894,
-    "PersonId": 484,
-    "SaleTypeId": 946,
-    "SaleTypeName": "Yundt, Streich and Douglas",
-    "PersonFullName": "Mrs. Johnnie Darwin Feil",
+    "WeightedAmount": 7806.794,
+    "ProjectId": 746,
+    "EarningPercent": 12344.826,
+    "Earning": 9273.506,
+    "ContactId": 515,
+    "AssociateId": 20,
+    "PersonId": 185,
+    "SaleTypeId": 54,
+    "SaleTypeName": "Langworth-Pfeffer",
+    "PersonFullName": "Dr. Alexa Sporer I",
     "Completed": "Completed",
-    "ActiveErpLinks": 976,
-    "NextDueDate": "2025-08-01T03:46:55.2694888+02:00",
-    "Number": "1168986",
+    "ActiveErpLinks": 942,
+    "NextDueDate": "2017-05-14T02:30:47.7881925+02:00",
+    "Number": "696486",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 160
+        "FieldLength": 907
       }
     }
   }

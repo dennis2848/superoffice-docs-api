@@ -15,6 +15,7 @@ Get an e-mail based on an email in the archive system and attachment id.
 
 
 The returned value is not sanitized.
+NsApiSlow threshold: 5000 ms.
 
 
 ## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
@@ -110,12 +111,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocId": 321,
+  "DocId": 404,
   "AttachmentIds": [
-    "sed",
-    "est"
+    "praesentium",
+    "quis"
   ],
-  "IncludeAttachments": true
+  "IncludeAttachments": false
 }
 ```
 
@@ -128,156 +129,156 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 153,
-      "ContactName": "Walker, Crooks and Ruecker",
-      "PersonId": 111,
-      "PersonName": "Bins Group",
-      "AssociateId": 817,
-      "Address": "corrupti",
-      "EmailId": 225,
+      "ContactId": 157,
+      "ContactName": "Boehm, Hartmann and Vandervort",
+      "PersonId": 894,
+      "PersonName": "Cole Inc and Sons",
+      "AssociateId": 926,
+      "Address": "ut",
+      "EmailId": 698,
       "DuplicatePersonIds": [
-        349,
-        43
+        391,
+        189
       ],
-      "Name": "Bauch-Stracke",
+      "Name": "Wiza, Boyer and Hessel",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 152
+          "FieldLength": 531
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 204,
-      "ContactName": "Schultz-Torphy",
-      "PersonId": 688,
-      "PersonName": "Heaney Group",
-      "AssociateId": 786,
-      "Address": "consequuntur",
-      "EmailId": 87,
+      "ContactId": 972,
+      "ContactName": "Grant, Fay and Hauck",
+      "PersonId": 111,
+      "PersonName": "Lubowitz, Heaney and Schaden",
+      "AssociateId": 660,
+      "Address": "quae",
+      "EmailId": 131,
       "DuplicatePersonIds": [
-        52,
-        445
+        2,
+        698
       ],
-      "Name": "Olson-Botsford",
+      "Name": "Blanda Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 34
+          "FieldLength": 741
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 412,
-      "ContactName": "Raynor, Berge and Morissette",
-      "PersonId": 270,
-      "PersonName": "Kessler-Blanda",
-      "AssociateId": 246,
-      "Address": "est",
-      "EmailId": 60,
+      "ContactId": 495,
+      "ContactName": "Nikolaus-Friesen",
+      "PersonId": 122,
+      "PersonName": "Wyman Group",
+      "AssociateId": 10,
+      "Address": "repellat",
+      "EmailId": 733,
       "DuplicatePersonIds": [
-        620,
-        738
+        253,
+        690
       ],
-      "Name": "Feil-Bashirian",
+      "Name": "Runolfsson, Jacobson and Bernier",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 841
+          "FieldLength": 969
         }
       }
     }
   ],
-  "Subject": "autem",
-  "HTMLBody": "ea",
+  "Subject": "perspiciatis",
+  "HTMLBody": "harum",
   "From": null,
-  "Sent": "2014-10-28T03:46:54.785131+01:00",
-  "Size": 808,
+  "Sent": "2000-09-20T02:30:47.3038336+02:00",
+  "Size": 584,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "ab",
-  "PlainBody": "quod",
+  "MessageID": "quisquam",
+  "PlainBody": "praesentium",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 570,
+  "ServerId": 768,
   "Attachments": [
     {
-      "Description": "Monitored composite portal",
-      "Filename": "error",
-      "Size": 782,
-      "Type": "cupiditate",
-      "Encoding": "placeat",
-      "Id": "molestiae",
-      "Disposition": "et",
-      "IsSafeFileExtension": false,
+      "Description": "Ameliorated solution-oriented intranet",
+      "Filename": "commodi",
+      "Size": 442,
+      "Type": "laboriosam",
+      "Encoding": "sed",
+      "Id": "consequatur",
+      "Disposition": "iure",
+      "IsSafeFileExtension": true,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 999
+          "FieldLength": 79
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Jerde-Moore",
+      "Name": "Jones-Champlin",
       "Values": [
-        "itaque",
-        "ipsa"
+        "facilis",
+        "impedit"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 639
+          "FieldLength": 774
         }
       }
     },
     {
-      "Name": "Jerde-Moore",
+      "Name": "Jones-Champlin",
       "Values": [
-        "itaque",
-        "ipsa"
+        "facilis",
+        "impedit"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 639
+          "FieldLength": 774
         }
       }
     }
   ],
-  "FolderName": "Witting LLC",
-  "EmailItemId": 424,
-  "AccountId": 524,
-  "ReceivedAt": "2003-02-06T03:46:54.785131+01:00",
+  "FolderName": "Zulauf-Jacobson",
+  "EmailItemId": 644,
+  "AccountId": 1001,
+  "ReceivedAt": "2010-05-19T02:30:47.3038336+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2004-10-28T03:46:54.785131+02:00",
-  "HasCalendarData": true,
+  "RepliedAt": "2023-05-22T02:30:47.3038336+02:00",
+  "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 696
+      "FieldType": "System.String",
+      "FieldLength": 413
     }
   }
 }

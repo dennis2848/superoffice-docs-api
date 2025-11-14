@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/GetSourceList
 Gets an array of Source objects.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -84,28 +86,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 448,
-    "Value": "dolorum",
-    "Tooltip": "facere",
+    "Id": 859,
+    "Value": "corporis",
+    "Tooltip": "et",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 281
+        "FieldType": "System.String",
+        "FieldLength": 537
       }
     }
   },
   {
-    "Id": 448,
-    "Value": "dolorum",
-    "Tooltip": "facere",
+    "Id": 859,
+    "Value": "corporis",
+    "Tooltip": "et",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 281
+        "FieldType": "System.String",
+        "FieldLength": 537
       }
     }
   }

@@ -85,20 +85,20 @@ OK
 PUT /api/v1/List/TicketType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 195,
-  "Name": "Bernier Group",
-  "Tooltip": "autem",
-  "Deleted": true,
-  "Rank": 674,
-  "IsCustomList": true,
+  "Id": 568,
+  "Name": "Nolan, Gerhold and Bradtke",
+  "Tooltip": "dolorem",
+  "Deleted": false,
+  "Rank": 936,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "illum",
-  "InUseByUserDefinedFields": false
+  "ListType": "cum",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -109,22 +109,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 682,
-  "Name": "Hane, Haley and Boyle",
-  "Tooltip": "et",
-  "Deleted": false,
-  "Rank": 833,
-  "IsCustomList": true,
-  "IsMDOList": false,
+  "Id": 827,
+  "Name": "Strosin, Batz and Crist",
+  "Tooltip": "officia",
+  "Deleted": true,
+  "Rank": 647,
+  "IsCustomList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "tenetur",
-  "InUseByUserDefinedFields": true,
+  "ListType": "quia",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 244
+      "FieldType": "System.String",
+      "FieldLength": 135
     }
   }
 }

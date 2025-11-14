@@ -14,6 +14,9 @@ POST /api/v1/Agents/CRMScript/CreateDefaultTriggerScriptEntity
 Loading default values into a new TriggerScriptEntity.
 
 
+NsApiSlow threshold: 5000 ms.
+
+
 ## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 
@@ -67,7 +70,7 @@ OK
 POST /api/v1/Agents/CRMScript/CreateDefaultTriggerScriptEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -77,22 +80,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 843,
-  "Name": "Streich, Okuneva and Carroll",
+  "ScreenChooserId": 291,
+  "Name": "Schamberger Inc and Sons",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": true,
-  "UniqueIdentifier": "quia",
-  "Source": "quo",
-  "Registered": "2015-11-20T03:46:54.5820132+01:00",
-  "RegisteredAssociateId": 533,
-  "Updated": "2005-05-25T03:46:54.5820132+02:00",
-  "UpdatedAssociateId": 852,
+  "UniqueIdentifier": "porro",
+  "Source": "mollitia",
+  "Registered": "1998-08-06T02:30:47.0382145+02:00",
+  "RegisteredAssociateId": 642,
+  "Updated": "2014-10-01T02:30:47.0382145+02:00",
+  "UpdatedAssociateId": 176,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 709
+      "FieldType": "System.Int32",
+      "FieldLength": 726
     }
   }
 }

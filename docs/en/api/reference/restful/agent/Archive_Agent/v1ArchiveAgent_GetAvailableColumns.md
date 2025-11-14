@@ -15,6 +15,7 @@ Return list of all columns supported by an archive provider.
 
 
 See also GetArchiveConfiguration.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -87,12 +88,12 @@ OK
 POST /api/v1/Agents/Archive/GetAvailableColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Kohler-Schroeder",
-  "Context": "error"
+  "ProviderName": "Daniel, Schinner and Dietrich",
+  "Context": "dolores"
 }
 ```
 
@@ -104,19 +105,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Nader-Greenfelder",
-    "DisplayTooltip": "nisi",
-    "DisplayType": "qui",
+    "DisplayName": "Kunde-Russel",
+    "DisplayTooltip": "fugit",
+    "DisplayType": "distinctio",
     "CanOrderBy": false,
-    "Name": "Orn-Ward",
+    "Name": "Huel, Jacobs and Wintheiser",
     "CanRestrictBy": false,
-    "RestrictionType": "quibusdam",
-    "RestrictionListName": "Murazik Inc and Sons",
+    "RestrictionType": "impedit",
+    "RestrictionListName": "Bradtke, Weissnat and Okuneva",
     "IsVisible": false,
-    "ExtraInfo": "omnis",
-    "Width": "nesciunt",
-    "IconHint": "impedit",
-    "HeadingIconHint": "laudantium"
+    "ExtraInfo": "alias",
+    "Width": "dolores",
+    "IconHint": "voluptas",
+    "HeadingIconHint": "officia"
   }
 ]
 ```

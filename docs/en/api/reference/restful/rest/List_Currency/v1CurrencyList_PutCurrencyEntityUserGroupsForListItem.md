@@ -98,47 +98,47 @@ OK
 PUT /api/v1/List/Currency/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 809,
-    "Name": "White, Luettgen and Hermiston",
-    "ToolTip": "Enim minima.",
+    "Id": 391,
+    "Name": "Rippin LLC",
+    "ToolTip": "Aut ad sint id labore aut.",
     "Deleted": false,
-    "Rank": 390,
-    "Type": "ut",
-    "ColorBlock": 253,
-    "IconHint": "sequi",
-    "Selected": false,
-    "LastChanged": "2018-08-21T03:47:00.628674+02:00",
+    "Rank": 350,
+    "Type": "et",
+    "ColorBlock": 545,
+    "IconHint": "quam",
+    "Selected": true,
+    "LastChanged": "2017-02-17T02:30:53.2567659+01:00",
     "ChildItems": [
       {
-        "Id": 677,
-        "Name": "Kilback Group",
-        "ToolTip": "Cumque vitae quo odit ad velit.",
+        "Id": 820,
+        "Name": "Lueilwitz, Jakubowski and Bogisich",
+        "ToolTip": "Sit natus.",
         "Deleted": false,
-        "Rank": 5,
-        "Type": "beatae",
-        "ColorBlock": 639,
-        "IconHint": "omnis",
-        "Selected": false,
-        "LastChanged": "2024-09-07T03:47:00.628674+02:00",
+        "Rank": 231,
+        "Type": "numquam",
+        "ColorBlock": 645,
+        "IconHint": "id",
+        "Selected": true,
+        "LastChanged": "2017-01-30T02:30:53.2567659+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "tenetur",
-        "StyleHint": "deleniti",
-        "Hidden": true,
-        "FullName": "Breana Anderson"
+        "ExtraInfo": "eos",
+        "StyleHint": "tenetur",
+        "Hidden": false,
+        "FullName": "Simeon Shields"
       }
     ],
-    "ExtraInfo": "ea",
-    "StyleHint": "quam",
-    "Hidden": false,
-    "FullName": "Michele Joelle Torp Sr."
+    "ExtraInfo": "alias",
+    "StyleHint": "fugiat",
+    "Hidden": true,
+    "FullName": "Helmer Hirthe"
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 630,
-    "Name": "Marvin, Quitzon and Rogahn",
-    "ToolTip": "Error iusto nihil.",
+    "Id": 754,
+    "Name": "Morar Group",
+    "ToolTip": "Quo velit ut quasi molestias repudiandae.",
     "Deleted": true,
-    "Rank": 407,
-    "Type": "id",
-    "ColorBlock": 526,
-    "IconHint": "eaque",
-    "Selected": false,
-    "LastChanged": "2021-03-19T03:47:00.628674+01:00",
+    "Rank": 848,
+    "Type": "laudantium",
+    "ColorBlock": 73,
+    "IconHint": "rem",
+    "Selected": true,
+    "LastChanged": "2003-02-15T02:30:53.2567659+01:00",
     "ChildItems": [
       {
-        "Id": 148,
-        "Name": "Schneider, Tillman and Lemke",
-        "ToolTip": "Dolores pariatur culpa et voluptas doloremque qui.",
-        "Deleted": false,
-        "Rank": 270,
-        "Type": "unde",
-        "ColorBlock": 290,
-        "IconHint": "eos",
-        "Selected": true,
-        "LastChanged": "2017-06-08T03:47:00.628674+02:00",
+        "Id": 438,
+        "Name": "Senger LLC",
+        "ToolTip": "Et unde.",
+        "Deleted": true,
+        "Rank": 990,
+        "Type": "neque",
+        "ColorBlock": 261,
+        "IconHint": "et",
+        "Selected": false,
+        "LastChanged": "1999-09-26T02:30:53.2567659+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "eum",
-        "Hidden": false,
-        "FullName": "Lula Mann",
+        "ExtraInfo": "culpa",
+        "StyleHint": "explicabo",
+        "Hidden": true,
+        "FullName": "Travis Fisher",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 791
+            "FieldLength": 249
           }
         }
       }
     ],
-    "ExtraInfo": "aspernatur",
-    "StyleHint": "eum",
+    "ExtraInfo": "quas",
+    "StyleHint": "ut",
     "Hidden": false,
-    "FullName": "Guido Myrna Crona PhD",
+    "FullName": "Mrs. Ellis Hilario Padberg",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 428
+        "FieldLength": 498
       }
     }
   }

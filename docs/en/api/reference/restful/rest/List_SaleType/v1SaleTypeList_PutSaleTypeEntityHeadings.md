@@ -76,25 +76,25 @@ OK
 PUT /api/v1/List/SaleType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 103,
-    "Name": "Lueilwitz Group",
-    "Tooltip": "ut",
-    "Deleted": true,
-    "Rank": 117,
-    "UdListDefinitionId": 243
+    "HeadingId": 190,
+    "Name": "Treutel, Rice and Larson",
+    "Tooltip": "voluptas",
+    "Deleted": false,
+    "Rank": 544,
+    "UdListDefinitionId": 711
   },
   {
-    "HeadingId": 103,
-    "Name": "Lueilwitz Group",
-    "Tooltip": "ut",
-    "Deleted": true,
-    "Rank": 117,
-    "UdListDefinitionId": 243
+    "HeadingId": 190,
+    "Name": "Treutel, Rice and Larson",
+    "Tooltip": "voluptas",
+    "Deleted": false,
+    "Rank": 544,
+    "UdListDefinitionId": 711
   }
 ]
 ```
@@ -107,18 +107,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 813,
-    "Name": "Hilpert-Hand",
-    "Tooltip": "id",
+    "HeadingId": 528,
+    "Name": "O'Connell, Crooks and Runte",
+    "Tooltip": "voluptas",
     "Deleted": false,
-    "Rank": 916,
-    "UdListDefinitionId": 503,
+    "Rank": 174,
+    "UdListDefinitionId": 777,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 194
+        "FieldType": "System.String",
+        "FieldLength": 249
       }
     }
   }

@@ -14,6 +14,8 @@ POST /api/v1/Agents/Contact/GetDuplicateRules
 Retrieve all available duplicate rules for contact
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -69,7 +71,7 @@ OK
 POST /api/v1/Agents/Contact/GetDuplicateRules
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -80,30 +82,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Connelly-Glover",
-    "DisplayName": "Yost, Heathcote and Kunde",
-    "DisplayTooltip": "voluptate",
-    "IsActive": true,
+    "Name": "Heaney, Mitchell and Goyette",
+    "DisplayName": "Stracke Group",
+    "DisplayTooltip": "aperiam",
+    "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 142
+        "FieldLength": 423
       }
     }
   },
   {
-    "Name": "Connelly-Glover",
-    "DisplayName": "Yost, Heathcote and Kunde",
-    "DisplayTooltip": "voluptate",
-    "IsActive": true,
+    "Name": "Heaney, Mitchell and Goyette",
+    "DisplayName": "Stracke Group",
+    "DisplayTooltip": "aperiam",
+    "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 142
+        "FieldLength": 423
       }
     }
   }

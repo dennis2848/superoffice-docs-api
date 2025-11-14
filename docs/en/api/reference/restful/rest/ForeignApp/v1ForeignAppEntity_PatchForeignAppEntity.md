@@ -14,7 +14,8 @@ PATCH /api/v1/ForeignApp/{id}
 Update a ForeignAppEntity with changes, as described in a JSON Patch or a JSON Merge Patch document.
 
 
-See <a href="https://tools.ietf.org/html/rfc6902">RFC6902</a> and <a href="https://tools.ietf.org/html/rfc7386">RFC 7396</a>. Update the Department field to "foo" can be done either as a JSON PATCH:
+See <a href="https://tools.ietf.org/html/rfc6902">RFC6902</a> and <a href="https://tools.ietf.org/html/rfc7386">RFC 7396</a>.
+NsApiSlow threshold: 5000 ms. Update the Department field to "foo" can be done either as a JSON PATCH:
 
 ```js
 
@@ -115,18 +116,18 @@ ForeignAppEntity  updated.
 PATCH /api/v1/ForeignApp/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "animi",
+    "path": "sed",
     "value": {}
   },
   {
     "op": "add",
-    "path": "animi",
+    "path": "sed",
     "value": {}
   }
 ]
@@ -139,29 +140,29 @@ HTTP/1.1 200 ForeignAppEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 145,
-  "Name": "Stamm, Cole and Robel",
-  "CreatedDate": "2011-01-16T03:47:00.0193121+01:00",
-  "UpdatedDate": "2010-03-07T03:47:00.0193121+01:00",
+  "ForeignAppId": 149,
+  "Name": "Reilly, Huel and Rippin",
+  "CreatedDate": "2016-06-09T02:30:52.6474115+02:00",
+  "UpdatedDate": "2000-09-19T02:30:52.6474115+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 743,
-      "Name": "Cummings LLC",
-      "CreatedDate": "2008-03-07T03:47:00.0193121+01:00",
-      "UpdatedDate": "2015-06-12T03:47:00.0193121+02:00",
-      "AssociateFullName": "Mrs. Katrina Ashley Kunze III",
-      "CreatedBy": "laborum",
-      "UpdatedBy": "molestiae",
-      "DeviceIdentifier": "eligendi",
-      "ForeignAppId": 624,
+      "ForeignDeviceId": 990,
+      "Name": "Stoltenberg LLC",
+      "CreatedDate": "2004-01-31T02:30:52.6474115+01:00",
+      "UpdatedDate": "2001-04-22T02:30:52.6474115+02:00",
+      "AssociateFullName": "Zachery Keeling",
+      "CreatedBy": "rerum",
+      "UpdatedBy": "qui",
+      "DeviceIdentifier": "dolores",
+      "ForeignAppId": 849,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 126
+          "FieldLength": 280
         }
       }
     }
@@ -171,7 +172,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 803
+      "FieldLength": 893
     }
   },
   "_Links": {

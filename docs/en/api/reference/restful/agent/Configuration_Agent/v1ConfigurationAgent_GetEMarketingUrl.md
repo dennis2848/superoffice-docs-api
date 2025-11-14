@@ -11,7 +11,7 @@ content_type: reference
 POST /api/v1/Agents/Configuration/GetEMarketingUrl
 ```
 
-
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -73,7 +73,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Language": "sequi"
+  "Language": "repellendus"
 }
 ```
 

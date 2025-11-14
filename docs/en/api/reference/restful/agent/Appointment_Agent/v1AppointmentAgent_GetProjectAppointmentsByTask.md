@@ -15,6 +15,7 @@ Method that returns a specified number of appointments of a specific appointment
 
 
 The appointments belong to the project specified.  Task represents the different types of activities, like “Phone call”, “Meeting” and so on.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -138,11 +139,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 777,
-  "StartTime": "2006-07-05T03:46:53.9882851+02:00",
-  "EndTime": "2013-01-20T03:46:53.9882851+01:00",
-  "Count": 73,
-  "TaskId": 401
+  "ProjectId": 716,
+  "StartTime": "2000-12-14T02:30:46.5069828+01:00",
+  "EndTime": "2020-08-16T02:30:46.5069828+02:00",
+  "Count": 893,
+  "TaskId": 440
 }
 ```
 
@@ -154,67 +155,67 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 422,
-    "StartDate": "2004-03-06T03:46:53.9882851+01:00",
-    "EndDate": "2006-11-20T03:46:53.9882851+01:00",
+    "AppointmentId": 800,
+    "StartDate": "2018-11-15T02:30:46.5069828+01:00",
+    "EndDate": "2016-09-21T02:30:46.5069828+02:00",
     "Type": "BookingForChecklist",
-    "Task": "omnis",
-    "AssociateFullName": "Mervin Abernathy",
-    "ContactName": "Rice Inc and Sons",
-    "Description": "Versatile reciprocal ability",
-    "PersonFullName": "Mr. Destiney VonRueden Jr.",
-    "PersonId": 14,
-    "ContactId": 509,
-    "ProjectId": 678,
-    "ProjectName": "Goodwin LLC",
-    "IsPublished": true,
-    "AssociateId": 316,
-    "ColorIndex": 591,
-    "IsFree": false,
-    "HasAlarm": false,
-    "IsAlldayEvent": false,
+    "Task": "expedita",
+    "AssociateFullName": "William West",
+    "ContactName": "Tromp-Christiansen",
+    "Description": "User-centric multimedia encoding",
+    "PersonFullName": "Prof. Lera Jarrett Predovic III",
+    "PersonId": 547,
+    "ContactId": 633,
+    "ProjectId": 695,
+    "ProjectName": "Shanahan Inc and Sons",
+    "IsPublished": false,
+    "AssociateId": 458,
+    "ColorIndex": 833,
+    "IsFree": true,
+    "HasAlarm": true,
+    "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 428,
-    "PriorityName": "Cruickshank, Yost and White",
+    "PriorityId": 533,
+    "PriorityName": "Koch-Legros",
     "TaskType": "Appointment",
-    "IsBookingMain": false,
+    "IsBookingMain": true,
     "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "2011-08-09T03:46:53.9882851+02:00",
+    "ActiveDate": "2020-03-11T02:30:46.5069828+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "1998-04-19T03:46:53.9882851+02:00",
-    "RecurringEndDate": "2006-12-20T03:46:53.9882851+01:00",
-    "MotherId": 977,
-    "AssignedBy": 23,
-    "AssignedByFullName": "Dr. Ena Trent Cruickshank",
+    "RecurringStartDate": "2009-12-25T02:30:46.5069828+01:00",
+    "RecurringEndDate": "2009-12-19T02:30:46.5069828+01:00",
+    "MotherId": 417,
+    "AssignedBy": 822,
+    "AssignedByFullName": "Prof. Bret Princess Buckridge Sr.",
     "RejectReason": "",
-    "Location": "eos",
-    "AlarmLeadTime": "voluptatem",
-    "SaleId": 771,
-    "SaleName": "Streich, Schoen and Thiel",
-    "AssociateName": "Homenick, Adams and Raynor",
-    "CreatedDate": "1999-07-24T03:46:53.9882851+02:00",
-    "CreatedBy": "pariatur",
-    "CreatedByFullName": "Tess Vandervort",
-    "CreatedByAssociateId": 545,
+    "Location": "culpa",
+    "AlarmLeadTime": "soluta",
+    "SaleId": 21,
+    "SaleName": "Maggio LLC",
+    "AssociateName": "Torphy Inc and Sons",
+    "CreatedDate": "2005-07-08T02:30:46.5069828+02:00",
+    "CreatedBy": "voluptates",
+    "CreatedByFullName": "Aurelie Kilback",
+    "CreatedByAssociateId": 688,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "OwnedExternally": "Google",
-    "MotherAssociateId": 322,
+    "MotherAssociateId": 85,
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 755,
-    "Title": "doloremque",
-    "Agenda": "id",
-    "InternalNotes": "quasi",
+    "PreferredTZLocation": 432,
+    "Title": "fuga",
+    "Agenda": "reiciendis",
+    "InternalNotes": "fuga",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 117
+        "FieldType": "System.String",
+        "FieldLength": 914
       }
     }
   }

@@ -14,6 +14,9 @@ PUT /api/v1/TriggerScript/{id}
 Updates the existing TriggerScriptEntity
 
 
+NsApiSlow threshold: 5000 ms.
+
+
 ## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 
@@ -100,20 +103,20 @@ TriggerScriptEntity updated.
 PUT /api/v1/TriggerScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 408,
-  "Name": "Zieme, Baumbach and Cummings",
+  "ScreenChooserId": 118,
+  "Name": "Goyette-Tillman",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": false,
-  "UniqueIdentifier": "dolore",
-  "Source": "facilis",
-  "Registered": "2012-04-14T03:47:00.3943072+02:00",
-  "RegisteredAssociateId": 822,
-  "Updated": "2011-01-23T03:47:00.3943072+01:00",
-  "UpdatedAssociateId": 640
+  "Enabled": true,
+  "UniqueIdentifier": "sunt",
+  "Source": "temporibus",
+  "Registered": "2014-05-20T02:30:53.022399+02:00",
+  "RegisteredAssociateId": 369,
+  "Updated": "2011-05-21T02:30:53.022399+02:00",
+  "UpdatedAssociateId": 893
 }
 ```
 
@@ -124,27 +127,27 @@ HTTP/1.1 200 TriggerScriptEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 506,
-  "Name": "Wiegand, Hodkiewicz and Dietrich",
+  "ScreenChooserId": 310,
+  "Name": "Bahringer, Rempel and Russel",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "deserunt",
-  "Source": "nobis",
-  "Registered": "1998-12-12T03:47:00.3943072+01:00",
-  "RegisteredAssociateId": 206,
-  "Updated": "2011-05-10T03:47:00.3943072+02:00",
-  "UpdatedAssociateId": 985,
+  "UniqueIdentifier": "voluptatibus",
+  "Source": "perferendis",
+  "Registered": "2022-03-28T02:30:53.022399+02:00",
+  "RegisteredAssociateId": 769,
+  "Updated": "2015-06-14T02:30:53.022399+02:00",
+  "UpdatedAssociateId": 311,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 997
+      "FieldLength": 381
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

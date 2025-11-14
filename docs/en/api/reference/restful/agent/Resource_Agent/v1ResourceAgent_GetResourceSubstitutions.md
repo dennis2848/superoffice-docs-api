@@ -14,6 +14,8 @@ POST /api/v1/Agents/Resource/GetResourceSubstitutions
 Get substitutions for some or all resources for one culture
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -79,15 +81,15 @@ OK
 POST /api/v1/Agents/Resource/GetResourceSubstitutions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ResourceNames": [
-    "Von, Kozey and Rowe",
-    "Gaylord LLC"
+    "Batz-McDermott",
+    "Wiza, Braun and Weber"
   ],
-  "Culture": "aliquam",
+  "Culture": "eveniet",
   "ActiveOnly": false
 }
 ```
@@ -100,30 +102,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ResourceName": "Koepp, Anderson and Waelchi",
-    "ResourceValue": "et",
-    "Culture": "repellendus",
+    "ResourceName": "Schumm, Simonis and Hoppe",
+    "ResourceValue": "dolorem",
+    "Culture": "eos",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 556
+        "FieldType": "System.String",
+        "FieldLength": 157
       }
     }
   },
   {
-    "ResourceName": "Koepp, Anderson and Waelchi",
-    "ResourceValue": "et",
-    "Culture": "repellendus",
+    "ResourceName": "Schumm, Simonis and Hoppe",
+    "ResourceValue": "dolorem",
+    "Culture": "eos",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 556
+        "FieldType": "System.String",
+        "FieldLength": 157
       }
     }
   }

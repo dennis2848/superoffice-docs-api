@@ -14,6 +14,8 @@ PUT /api/v1/Sale/{id}
 Updates the existing SaleEntity
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -167,7 +169,7 @@ SaleEntity updated.
 PUT /api/v1/Sale/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -177,7 +179,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "sequi",
+  "SaleText": "necessitatibus",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -186,90 +188,90 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2021-08-25T03:47:00.2536872+02:00",
-  "Amount": 150.432,
-  "SaleId": 13,
-  "Earning": 4591.3099999999995,
-  "EarningPercent": 21496.106,
-  "Heading": "enim",
-  "Number": "1560008",
-  "Probability": 337,
-  "CreatedDate": "2004-04-13T03:47:00.2536872+02:00",
-  "UpdatedDate": "1998-08-16T03:47:00.2536872+02:00",
+  "Saledate": "2025-02-15T02:30:52.8817786+01:00",
+  "Amount": 14770.542,
+  "SaleId": 777,
+  "Earning": 14880.232,
+  "EarningPercent": 9834.492,
+  "Heading": "magnam",
+  "Number": "1088036",
+  "Probability": 43,
+  "CreatedDate": "2009-07-14T02:30:52.8817786+02:00",
+  "UpdatedDate": "2010-12-24T02:30:52.8817786+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 914,
+  "ActiveLinks": 56,
   "Links": [
     {
-      "EntityName": "Harris LLC",
-      "Id": 824,
-      "Description": "Face to face demand-driven functionalities",
-      "ExtraInfo": "vero",
-      "LinkId": 217
+      "EntityName": "Wisozk Group",
+      "Id": 742,
+      "Description": "Re-engineered zero defect hub",
+      "ExtraInfo": "dolorum",
+      "LinkId": 816
     },
     {
-      "EntityName": "Harris LLC",
-      "Id": 824,
-      "Description": "Face to face demand-driven functionalities",
-      "ExtraInfo": "vero",
-      "LinkId": 217
+      "EntityName": "Wisozk Group",
+      "Id": 742,
+      "Description": "Re-engineered zero defect hub",
+      "ExtraInfo": "dolorum",
+      "LinkId": 816
     }
   ],
-  "NextDueDate": "2014-06-16T03:47:00.2536872+02:00",
-  "Postit": "delectus",
+  "NextDueDate": "2015-01-10T02:30:52.8817786+01:00",
+  "Postit": "eveniet",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2010-01-17T03:47:00.2536872+01:00",
+  "ReopenDate": "2017-11-27T02:30:52.8817786+01:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Will-Russel",
-      "Comment": "quibusdam",
-      "StakeholderRoleId": 934,
-      "CountryId": 119,
-      "PersonId": 296,
-      "EmailDescription": "jordane.terry@bartolettioconnell.com",
-      "EmailId": 961,
-      "EmailAddress": "connor@powlowski.info",
-      "PhoneId": 101,
-      "ContactName": "Carroll-Ferry",
-      "ContactId": 738,
-      "SaleId": 417,
-      "Mrmrs": "enim",
-      "Firstname": "Kattie",
-      "MiddleName": "Homenick Inc and Sons",
-      "Lastname": "Kilback",
-      "SaleStakeholderId": 981,
-      "Rank": 307,
-      "Phone": "275-490-6929 x96790"
+      "StakeholderRoleName": "O'Keefe-Halvorson",
+      "Comment": "nostrum",
+      "StakeholderRoleId": 274,
+      "CountryId": 446,
+      "PersonId": 828,
+      "EmailDescription": "asia_luettgen@schamberger.us",
+      "EmailId": 569,
+      "EmailAddress": "rachelle.hand@oconnelllegros.info",
+      "PhoneId": 284,
+      "ContactName": "Prohaska, Kulas and Bogisich",
+      "ContactId": 739,
+      "SaleId": 911,
+      "Mrmrs": "delectus",
+      "Firstname": "Marcelino",
+      "MiddleName": "Schneider Group",
+      "Lastname": "Vandervort",
+      "SaleStakeholderId": 915,
+      "Rank": 405,
+      "Phone": "739-709-4531 x3099"
     }
   ],
-  "ActiveErpLinks": 859,
+  "ActiveErpLinks": 963,
   "UserDefinedFields": {
-    "SuperOffice:1": "Odie Crooks",
-    "SuperOffice:2": "1939452883"
+    "SuperOffice:1": "False",
+    "SuperOffice:2": "Diamond Lynch"
   },
   "ExtraFields": {
-    "ExtraFields1": "laborum",
+    "ExtraFields1": "et",
     "ExtraFields2": "illo"
   },
   "CustomFields": {
-    "CustomFields1": "dicta",
-    "CustomFields2": "ut"
+    "CustomFields1": "unde",
+    "CustomFields2": "iure"
   },
-  "PublishEventDate": "2023-05-16T03:47:00.2536872+02:00",
-  "PublishTo": "2008-01-28T03:47:00.2536872+01:00",
-  "PublishFrom": "2022-06-21T03:47:00.2536872+02:00",
+  "PublishEventDate": "2010-04-12T02:30:52.8817786+02:00",
+  "PublishTo": "2019-08-18T02:30:52.8817786+02:00",
+  "PublishFrom": "2002-03-26T02:30:52.8817786+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 590,
+      "VisibleId": 950,
       "Visibility": "All",
-      "DisplayValue": "dolorum"
+      "DisplayValue": "iure"
     },
     {
-      "VisibleId": 590,
+      "VisibleId": 950,
       "Visibility": "All",
-      "DisplayValue": "dolorum"
+      "DisplayValue": "iure"
     }
   ]
 }
@@ -288,7 +290,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "quia",
+  "SaleText": "sint",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -297,113 +299,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2000-03-31T03:47:00.2536872+02:00",
-  "Amount": 26570.052,
-  "SaleId": 588,
-  "Earning": 11392.09,
-  "EarningPercent": 9947.3159999999989,
-  "Heading": "occaecati",
-  "Number": "1304187",
-  "Probability": 16,
-  "CreatedDate": "2003-03-14T03:47:00.2536872+01:00",
-  "UpdatedDate": "2001-01-20T03:47:00.2536872+01:00",
+  "Saledate": "2001-02-07T02:30:52.8817786+01:00",
+  "Amount": 20543.37,
+  "SaleId": 955,
+  "Earning": 22088.432,
+  "EarningPercent": 26789.432,
+  "Heading": "neque",
+  "Number": "315211",
+  "Probability": 822,
+  "CreatedDate": "2020-12-19T02:30:52.8817786+01:00",
+  "UpdatedDate": "2017-02-19T02:30:52.8817786+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 990,
+  "ActiveLinks": 142,
   "Links": [
     {
-      "EntityName": "Koepp, Barton and Mitchell",
-      "Id": 149,
-      "Description": "Assimilated systematic productivity",
-      "ExtraInfo": "corporis",
-      "LinkId": 826,
+      "EntityName": "Stehr-Corwin",
+      "Id": 748,
+      "Description": "Innovative radical functionalities",
+      "ExtraInfo": "necessitatibus",
+      "LinkId": 569,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 726
+          "FieldLength": 573
         }
       }
     }
   ],
-  "NextDueDate": "2000-07-08T03:47:00.2536872+02:00",
-  "Postit": "ducimus",
+  "NextDueDate": "2025-10-27T02:30:52.8817786+01:00",
+  "Postit": "fugit",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2001-01-31T03:47:00.2536872+01:00",
+  "ReopenDate": "2008-11-14T02:30:52.8817786+01:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Kunze-White",
-      "Comment": "voluptatibus",
-      "StakeholderRoleId": 640,
-      "CountryId": 486,
-      "PersonId": 411,
-      "EmailDescription": "miracle@schuster.uk",
-      "EmailId": 258,
-      "EmailAddress": "juliana@rowesatterfield.com",
-      "PhoneId": 605,
-      "ContactName": "Hilpert Inc and Sons",
-      "ContactId": 289,
-      "SaleId": 237,
-      "Mrmrs": "atque",
-      "Firstname": "Yasmeen",
-      "MiddleName": "Becker, Nikolaus and Homenick",
-      "Lastname": "Upton",
-      "SaleStakeholderId": 437,
-      "Rank": 148,
-      "Phone": "1-159-153-8929 x8622",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 922
-        }
-      }
-    }
-  ],
-  "ActiveErpLinks": 162,
-  "UserDefinedFields": {
-    "SuperOffice:1": "Morton Bailey",
-    "SuperOffice:2": "Samson McCullough"
-  },
-  "ExtraFields": {
-    "ExtraFields1": "nobis",
-    "ExtraFields2": "inventore"
-  },
-  "CustomFields": {
-    "CustomFields1": "provident",
-    "CustomFields2": "eius"
-  },
-  "PublishEventDate": "2018-02-14T03:47:00.2536872+01:00",
-  "PublishTo": "2018-08-30T03:47:00.2536872+02:00",
-  "PublishFrom": "1999-12-28T03:47:00.2536872+01:00",
-  "IsPublished": false,
-  "VisibleFor": [
-    {
-      "VisibleId": 959,
-      "Visibility": "All",
-      "DisplayValue": "autem",
+      "StakeholderRoleName": "Mante-Fahey",
+      "Comment": "ipsam",
+      "StakeholderRoleId": 862,
+      "CountryId": 909,
+      "PersonId": 162,
+      "EmailDescription": "markus@hickle.name",
+      "EmailId": 565,
+      "EmailAddress": "peyton@kertzmannsauer.us",
+      "PhoneId": 625,
+      "ContactName": "Ledner, Muller and Kassulke",
+      "ContactId": 878,
+      "SaleId": 62,
+      "Mrmrs": "sunt",
+      "Firstname": "Pinkie",
+      "MiddleName": "Yundt, O'Conner and Rempel",
+      "Lastname": "Huels",
+      "SaleStakeholderId": 409,
+      "Rank": 693,
+      "Phone": "629.105.4739 x4709",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 102
+          "FieldLength": 126
+        }
+      }
+    }
+  ],
+  "ActiveErpLinks": 1000,
+  "UserDefinedFields": {
+    "SuperOffice:1": "Makenna Leannon",
+    "SuperOffice:2": "Vernie Hand"
+  },
+  "ExtraFields": {
+    "ExtraFields1": "inventore",
+    "ExtraFields2": "sed"
+  },
+  "CustomFields": {
+    "CustomFields1": "id",
+    "CustomFields2": "tempora"
+  },
+  "PublishEventDate": "2020-03-05T02:30:52.8817786+01:00",
+  "PublishTo": "2025-04-17T02:30:52.8817786+02:00",
+  "PublishFrom": "2025-05-12T02:30:52.8817786+02:00",
+  "IsPublished": false,
+  "VisibleFor": [
+    {
+      "VisibleId": 602,
+      "Visibility": "All",
+      "DisplayValue": "praesentium",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 970
         }
       }
     },
     {
-      "VisibleId": 959,
+      "VisibleId": 602,
       "Visibility": "All",
-      "DisplayValue": "autem",
+      "DisplayValue": "praesentium",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 102
+          "FieldType": "System.Int32",
+          "FieldLength": 970
         }
       }
     }
@@ -412,13 +414,13 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 149
+      "FieldType": "System.String",
+      "FieldLength": 917
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

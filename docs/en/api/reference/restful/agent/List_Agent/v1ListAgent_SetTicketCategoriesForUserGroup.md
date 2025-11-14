@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/SetTicketCategoriesForUserGroup
 Set ticket categories for one user group
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -66,14 +68,14 @@ No Content
 POST /api/v1/Agents/List/SetTicketCategoriesForUserGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UserGroupId": 219,
+  "UserGroupId": 802,
   "CategoryIds": [
-    137,
-    402
+    421,
+    947
   ]
 }
 ```

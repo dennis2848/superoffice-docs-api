@@ -98,47 +98,47 @@ OK
 PUT /api/v1/List/Country/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 212,
-    "Name": "Kunde Group",
-    "ToolTip": "Aut omnis at consequatur aspernatur.",
+    "Id": 116,
+    "Name": "Boyer, Lindgren and Sanford",
+    "ToolTip": "In quo quos maiores possimus.",
     "Deleted": false,
-    "Rank": 566,
-    "Type": "quia",
-    "ColorBlock": 927,
-    "IconHint": "architecto",
-    "Selected": false,
-    "LastChanged": "2010-09-15T03:47:00.6130405+02:00",
+    "Rank": 550,
+    "Type": "in",
+    "ColorBlock": 574,
+    "IconHint": "aut",
+    "Selected": true,
+    "LastChanged": "2011-03-11T02:30:53.2411414+01:00",
     "ChildItems": [
       {
-        "Id": 409,
-        "Name": "Zulauf, Heller and Ernser",
-        "ToolTip": "Ipsa esse velit iure non.",
+        "Id": 745,
+        "Name": "Block Inc and Sons",
+        "ToolTip": "Officia officiis odio et quod quas illum quisquam.",
         "Deleted": false,
-        "Rank": 837,
-        "Type": "eius",
-        "ColorBlock": 809,
-        "IconHint": "doloribus",
+        "Rank": 265,
+        "Type": "velit",
+        "ColorBlock": 724,
+        "IconHint": "eaque",
         "Selected": true,
-        "LastChanged": "2006-12-05T03:47:00.6130405+01:00",
+        "LastChanged": "2023-01-15T02:30:53.2411414+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sunt",
-        "StyleHint": "officiis",
+        "ExtraInfo": "provident",
+        "StyleHint": "consequatur",
         "Hidden": true,
-        "FullName": "Ada Willms I"
+        "FullName": "Prof. Skye O'Kon"
       }
     ],
-    "ExtraInfo": "optio",
-    "StyleHint": "eius",
+    "ExtraInfo": "cum",
+    "StyleHint": "in",
     "Hidden": false,
-    "FullName": "Cleora Anna Beahan DVM"
+    "FullName": "Christine Elbert Hahn IV"
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 604,
-    "Name": "Ernser, Ward and Lockman",
-    "ToolTip": "Et quia.",
+    "Id": 710,
+    "Name": "Abernathy-Batz",
+    "ToolTip": "Quidem quaerat laboriosam est placeat hic error suscipit.",
     "Deleted": false,
-    "Rank": 780,
-    "Type": "nobis",
-    "ColorBlock": 839,
-    "IconHint": "ducimus",
-    "Selected": true,
-    "LastChanged": "2025-08-03T03:47:00.6130405+02:00",
+    "Rank": 941,
+    "Type": "qui",
+    "ColorBlock": 449,
+    "IconHint": "facilis",
+    "Selected": false,
+    "LastChanged": "2013-07-31T02:30:53.2411414+02:00",
     "ChildItems": [
       {
-        "Id": 399,
-        "Name": "Lueilwitz, Oberbrunner and Erdman",
-        "ToolTip": "Voluptatum et laudantium ut sit.",
+        "Id": 353,
+        "Name": "Breitenberg LLC",
+        "ToolTip": "Omnis culpa.",
         "Deleted": false,
-        "Rank": 98,
-        "Type": "aut",
-        "ColorBlock": 979,
-        "IconHint": "et",
-        "Selected": true,
-        "LastChanged": "2001-07-27T03:47:00.6130405+02:00",
+        "Rank": 761,
+        "Type": "qui",
+        "ColorBlock": 410,
+        "IconHint": "eum",
+        "Selected": false,
+        "LastChanged": "2018-02-17T02:30:53.2411414+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ea",
-        "StyleHint": "quam",
+        "ExtraInfo": "nam",
+        "StyleHint": "eum",
         "Hidden": false,
-        "FullName": "Mrs. Allison DuBuque",
+        "FullName": "Sabrina Turner Kunze MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 512
+            "FieldType": "System.String",
+            "FieldLength": 730
           }
         }
       }
     ],
-    "ExtraInfo": "occaecati",
-    "StyleHint": "laborum",
+    "ExtraInfo": "tenetur",
+    "StyleHint": "est",
     "Hidden": false,
-    "FullName": "Tracey Schoen",
+    "FullName": "Mrs. Johanna Talia Hudson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 731
+        "FieldLength": 610
       }
     }
   }

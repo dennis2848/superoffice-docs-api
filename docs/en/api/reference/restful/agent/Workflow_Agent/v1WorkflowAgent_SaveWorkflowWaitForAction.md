@@ -14,6 +14,8 @@ POST /api/v1/Agents/Workflow/SaveWorkflowWaitForAction
 Updates the existing WorkflowWaitForAction or creates a new WorkflowWaitForAction if the id parameter is 0.
 
 
+NsApiSlow threshold: 1000 ms.
+
 
 
 
@@ -74,29 +76,29 @@ OK
 POST /api/v1/Agents/Workflow/SaveWorkflowWaitForAction
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowWaitForActionId": 498,
-  "WorkflowStepId": 453,
-  "WorkflowId": 501,
-  "Rank": 416,
+  "WorkflowWaitForActionId": 326,
+  "WorkflowStepId": 397,
+  "WorkflowId": 513,
+  "Rank": 425,
   "ActionType": "FormSubmitted",
   "RestrictionGroups": [
     {
-      "Name": "Hodkiewicz LLC",
-      "Description": "Object-based radical website",
-      "Rank": 210,
+      "Name": "Donnelly Group",
+      "Description": "Fully-configurable logistical project",
+      "Rank": 776,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Hodkiewicz LLC",
-      "Description": "Object-based radical website",
-      "Rank": 210,
+      "Name": "Donnelly Group",
+      "Description": "Fully-configurable logistical project",
+      "Rank": 776,
       "Restrictions": [
         {},
         {}
@@ -113,25 +115,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowWaitForActionId": 801,
-  "WorkflowStepId": 991,
-  "WorkflowId": 151,
-  "Rank": 782,
+  "WorkflowWaitForActionId": 783,
+  "WorkflowStepId": 199,
+  "WorkflowId": 775,
+  "Rank": 954,
   "ActionType": "FormSubmitted",
   "RestrictionGroups": [
     {
-      "Name": "Harber Inc and Sons",
-      "Description": "Compatible systemic website",
-      "Rank": 543,
+      "Name": "Brakus-Lindgren",
+      "Description": "Exclusive bi-directional portal",
+      "Rank": 196,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Harber Inc and Sons",
-      "Description": "Compatible systemic website",
-      "Rank": 543,
+      "Name": "Brakus-Lindgren",
+      "Description": "Exclusive bi-directional portal",
+      "Rank": 196,
       "Restrictions": [
         {},
         {}
@@ -142,8 +144,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 3
+      "FieldType": "System.String",
+      "FieldLength": 103
     }
   }
 }

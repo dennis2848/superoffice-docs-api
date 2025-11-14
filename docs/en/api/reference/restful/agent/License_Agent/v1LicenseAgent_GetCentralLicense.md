@@ -11,7 +11,7 @@ content_type: reference
 POST /api/v1/Agents/License/GetCentralLicense
 ```
 
-
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -69,7 +69,7 @@ OK
 POST /api/v1/Agents/License/GetCentralLicense
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -80,56 +80,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Gutmann, Sawayn and Murray",
-    "Description": "User-centric impactful task-force",
+    "Name": "Hessel-Davis",
+    "Description": "Intuitive didactic time-frame",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 59,
-        "Tooltip": "vel",
+        "Total": 435,
+        "Tooltip": "temporibus",
         "CanAssign": true,
-        "Free": 435,
-        "InUse": 296,
-        "IsHidden": true,
-        "Assigned": false,
-        "ModuleLicenseId": 145,
-        "Name": "Stoltenberg-Gutkowski",
-        "Description": "User-centric next generation open architecture",
-        "PrerequisiteModuleName": "Harris-Goldner",
-        "SortOrder": 972,
-        "ExtraFlags": 242,
+        "Free": 890,
+        "InUse": 465,
+        "IsHidden": false,
+        "Assigned": true,
+        "ModuleLicenseId": 68,
+        "Name": "Abshire, Bogisich and Leffler",
+        "Description": "Robust transitional encryption",
+        "PrerequisiteModuleName": "Jakubowski-Jenkins",
+        "SortOrder": 675,
+        "ExtraFlags": 966,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 730
+            "FieldLength": 701
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 392,
-        "Tooltip": "hic",
+        "Unrestricted": true,
+        "Total": 14,
+        "Tooltip": "et",
         "CanAssign": false,
-        "Free": 424,
-        "InUse": 597,
-        "IsHidden": true,
-        "Assigned": false,
-        "ModuleLicenseId": 1001,
-        "Name": "Brakus, Nicolas and VonRueden",
-        "Description": "Focused web-enabled customer loyalty",
-        "PrerequisiteModuleName": "Terry-Fay",
-        "SortOrder": 808,
-        "ExtraFlags": 880,
+        "Free": 802,
+        "InUse": 338,
+        "IsHidden": false,
+        "Assigned": true,
+        "ModuleLicenseId": 885,
+        "Name": "Marks-McKenzie",
+        "Description": "Programmable even-keeled open system",
+        "PrerequisiteModuleName": "Metz-Reinger",
+        "SortOrder": 180,
+        "ExtraFlags": 900,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 284
+            "FieldType": "System.String",
+            "FieldLength": 805
           }
         }
       }
@@ -139,61 +139,61 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 290
+        "FieldLength": 519
       }
     }
   },
   {
-    "Name": "Gutmann, Sawayn and Murray",
-    "Description": "User-centric impactful task-force",
+    "Name": "Hessel-Davis",
+    "Description": "Intuitive didactic time-frame",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 59,
-        "Tooltip": "vel",
+        "Total": 435,
+        "Tooltip": "temporibus",
         "CanAssign": true,
-        "Free": 435,
-        "InUse": 296,
-        "IsHidden": true,
-        "Assigned": false,
-        "ModuleLicenseId": 145,
-        "Name": "Stoltenberg-Gutkowski",
-        "Description": "User-centric next generation open architecture",
-        "PrerequisiteModuleName": "Harris-Goldner",
-        "SortOrder": 972,
-        "ExtraFlags": 242,
+        "Free": 890,
+        "InUse": 465,
+        "IsHidden": false,
+        "Assigned": true,
+        "ModuleLicenseId": 68,
+        "Name": "Abshire, Bogisich and Leffler",
+        "Description": "Robust transitional encryption",
+        "PrerequisiteModuleName": "Jakubowski-Jenkins",
+        "SortOrder": 675,
+        "ExtraFlags": 966,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 730
+            "FieldLength": 701
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 392,
-        "Tooltip": "hic",
+        "Unrestricted": true,
+        "Total": 14,
+        "Tooltip": "et",
         "CanAssign": false,
-        "Free": 424,
-        "InUse": 597,
-        "IsHidden": true,
-        "Assigned": false,
-        "ModuleLicenseId": 1001,
-        "Name": "Brakus, Nicolas and VonRueden",
-        "Description": "Focused web-enabled customer loyalty",
-        "PrerequisiteModuleName": "Terry-Fay",
-        "SortOrder": 808,
-        "ExtraFlags": 880,
+        "Free": 802,
+        "InUse": 338,
+        "IsHidden": false,
+        "Assigned": true,
+        "ModuleLicenseId": 885,
+        "Name": "Marks-McKenzie",
+        "Description": "Programmable even-keeled open system",
+        "PrerequisiteModuleName": "Metz-Reinger",
+        "SortOrder": 180,
+        "ExtraFlags": 900,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 284
+            "FieldType": "System.String",
+            "FieldLength": 805
           }
         }
       }
@@ -203,7 +203,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 290
+        "FieldLength": 519
       }
     }
   }

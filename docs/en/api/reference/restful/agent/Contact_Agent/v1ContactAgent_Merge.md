@@ -15,6 +15,7 @@ Merge two contacts.
 
 
 The destination contact will remain.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -70,14 +71,14 @@ No Content
 POST /api/v1/Agents/Contact/Merge
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 131,
-  "DestinationContactId": 462,
+  "SourceContactId": 564,
+  "DestinationContactId": 309,
   "MergeIdenticalPersons": false,
-  "ReplaceEmptyFieldsOnDestination": true
+  "ReplaceEmptyFieldsOnDestination": false
 }
 ```
 

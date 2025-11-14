@@ -15,6 +15,7 @@ Execute a Find operation and return a page of results.
 
 
 The criteria for the Find are fetched from the restriction storage provider according to the given parameters. The columns of the result are calculated based on the restriction. The orderby columns are also calculated by the system.&lt;para/&gt;The other variants of the Find method allow you greater control over the individual aspects of the process.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -86,11 +87,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "aspernatur",
-  "ProviderName": "Champlin Group",
-  "StorageKey": "corrupti",
-  "PageSize": 906,
-  "PageNumber": 172
+  "StorageType": "dolorum",
+  "ProviderName": "Sauer-Baumbach",
+  "StorageKey": "maxime",
+  "PageSize": 894,
+  "PageNumber": 91
 }
 ```
 
@@ -103,51 +104,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Lang, O'Keefe and Hane",
-      "DisplayTooltip": "quas",
-      "DisplayType": "ut",
+      "DisplayName": "Nikolaus, Marvin and Berge",
+      "DisplayTooltip": "et",
+      "DisplayType": "earum",
       "CanOrderBy": false,
-      "Name": "Beahan-Durgan",
-      "CanRestrictBy": false,
-      "RestrictionType": "facilis",
-      "RestrictionListName": "Nader-Bartell",
-      "IsVisible": false,
-      "ExtraInfo": "et",
-      "Width": "recusandae",
-      "IconHint": "aspernatur",
-      "HeadingIconHint": "repellendus"
+      "Name": "Johnson-Welch",
+      "CanRestrictBy": true,
+      "RestrictionType": "veritatis",
+      "RestrictionListName": "Brakus-Marvin",
+      "IsVisible": true,
+      "ExtraInfo": "sed",
+      "Width": "neque",
+      "IconHint": "hic",
+      "HeadingIconHint": "nulla"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Welch-Adams",
-      "PrimaryKey": 601,
+      "EntityName": "Ryan Inc and Sons",
+      "PrimaryKey": 284,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "voluptatem",
-          "TooltipHint": "veniam",
-          "LinkHint": "quo"
+          "DisplayValue": "nihil",
+          "TooltipHint": "praesentium",
+          "LinkHint": "sed"
         }
       },
-      "LinkHint": "est",
-      "StyleHint": "necessitatibus",
+      "LinkHint": "et",
+      "StyleHint": "ex",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 791
+          "FieldType": "System.String",
+          "FieldLength": 594
         }
       }
     }
   ],
-  "RowCount": 400,
+  "RowCount": 775,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 951
+      "FieldLength": 86
     }
   }
 }

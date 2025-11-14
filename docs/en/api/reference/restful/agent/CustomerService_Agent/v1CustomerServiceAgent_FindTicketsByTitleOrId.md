@@ -14,6 +14,8 @@ POST /api/v1/Agents/CustomerService/FindTicketsByTitleOrId
 This method wil search for tickets matching title or id
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -82,12 +84,12 @@ OK
 POST /api/v1/Agents/CustomerService/FindTicketsByTitleOrId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TitleOrId": "debitis",
-  "MaxRows": 376
+  "TitleOrId": "numquam",
+  "MaxRows": 204
 }
 ```
 
@@ -99,20 +101,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketId": 400,
-    "Title": "odit",
-    "OwnerName": "Rolfson Group",
+    "TicketId": 111,
+    "Title": "sit",
+    "OwnerName": "Mertz, Senger and Renner",
     "CategoryName": "VIP Customer",
-    "PriorityName": "Bruen, Lehner and Lakin",
+    "PriorityName": "Gutkowski, Kreiger and Adams",
     "TicketUrl": "http://www.example.com/",
-    "PersonName": "Harvey-Boyle",
-    "ContactName": "Rath LLC",
+    "PersonName": "O'Reilly Group",
+    "ContactName": "Bradtke-Tromp",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 603
+        "FieldType": "System.String",
+        "FieldLength": 186
       }
     }
   }

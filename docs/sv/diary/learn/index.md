@@ -4,14 +4,14 @@ title: Kalender
 description: SuperOffice-kalendern är en central funktion i ditt CRM-system. De här guiderna förklarar hur du använder kalendern.
 keywords: kalender, kalenderfönster, händelse, att-göra-lista, uppgift, bokning, möte, telefon, samtal
 author: Bergfrid Dias
-date: 06.26.2025
-version: 10.5.5
+date: 09.17.2025
+version: 11.3
 content_type: concept
 license: salesessentials, serviceessentials, marketingessentials
 audience: person
 audience_tooltip: SuperOffice CRM
 language: sv
-redirect_from: /sv/diary/learn/screen/index
+redirect_from: /sv/diary/learn/screen
 ---
 
 # Kalender
@@ -185,7 +185,7 @@ Du kan anpassa kalendern efter ditt arbetsflöde:
 
 * Koppla regelbundet aktiviteter till en kontakt eller ett företag för att bibehålla en tydlig historik över teamets interaktioner och främja smidigt samarbete.
 
-* Använd de fastnålade detaljkorten under kalendern för att förhandsgranska och hantera försäljningar eller uppgifter samtidigt som du navigerar i kalendern.
+* För att förhandsgranska och hantera försäljningar eller aktiviteter medan du visar din kalender, aktivera inställningen **Visa aktivitetslistor under dagbok**. Detta visar detaljkorten under kalendern – precis som i andra skärmbilder – så att de förblir synliga oavsett vald kalendervy.
 
 * Växla mellan sid-vid-sid-vy och schemaläggningsvy i **Översikt**-fliken för att välja det layoutalternativ som passar din planering bäst.
 
@@ -221,7 +221,7 @@ Du kan anpassa kalendern efter ditt arbetsflöde:
 [15]: ../../learn/basics/links.md
 [16]: ../../learn/basics/activity.md
 [17]: ../../learn/getting-started/main-screen/side-panel.md
-[20]: ../../globalization-and-localization/learn/time-zones.md
+[20]: ../../localization/learn/time-zones.md
 [50]: ../../../en/diary/reference/index.md
 
 <!-- Referenced images -->

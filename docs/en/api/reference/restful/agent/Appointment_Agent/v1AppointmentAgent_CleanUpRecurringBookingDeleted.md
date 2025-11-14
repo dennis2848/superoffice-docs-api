@@ -14,6 +14,8 @@ POST /api/v1/Agents/Appointment/CleanUpRecurringBookingDeleted
 Deletes all appointments with status BookingDeleted and for in logged user.
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -61,7 +63,7 @@ OK
 POST /api/v1/Agents/Appointment/CleanUpRecurringBookingDeleted
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -70,5 +72,5 @@ Accept-Language: fr,de,ru,zh
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-204
+896
 ```

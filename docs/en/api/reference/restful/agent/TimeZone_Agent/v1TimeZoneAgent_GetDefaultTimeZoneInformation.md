@@ -15,6 +15,7 @@ Get information about the current, preferred timezone for the current user.
 
 
 If no such preference has been set, returns the correct fallback (and UserPreferenceId is 0)
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -81,11 +82,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PreferenceId": 764,
-  "TZLocationId": 862,
-  "LocationCode": "aut",
-  "Description": "Optimized actuating ability",
+  "PreferenceId": 194,
+  "TZLocationId": 986,
+  "LocationCode": "nemo",
+  "Description": "Digitized composite project",
   "Country": "Sokovia",
-  "Bias": 749
+  "Bias": 629
 }
 ```

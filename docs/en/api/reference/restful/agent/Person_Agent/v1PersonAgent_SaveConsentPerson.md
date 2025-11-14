@@ -14,6 +14,8 @@ POST /api/v1/Agents/Person/SaveConsentPerson
 Updates the existing ConsentPerson or creates a new ConsentPerson if the id parameter is 0.
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -74,16 +76,16 @@ OK
 POST /api/v1/Agents/Person/SaveConsentPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPersonId": 630,
+  "ConsentPersonId": 875,
   "ConsentSource": null,
   "LegalBase": null,
-  "PersonId": 557,
+  "PersonId": 696,
   "ConsentPurpose": null,
-  "Comment": "omnis"
+  "Comment": "vel"
 }
 ```
 
@@ -94,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPersonId": 692,
+  "ConsentPersonId": 954,
   "ConsentSource": null,
   "LegalBase": null,
-  "PersonId": 600,
+  "PersonId": 334,
   "ConsentPurpose": null,
-  "Comment": "necessitatibus",
+  "Comment": "id",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 227
+      "FieldLength": 135
     }
   }
 }

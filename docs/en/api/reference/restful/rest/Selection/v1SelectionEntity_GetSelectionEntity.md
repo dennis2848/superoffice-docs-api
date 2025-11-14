@@ -15,6 +15,7 @@ Gets a SelectionEntity object.
 
 
 Calls the Selection agent service GetSelectionEntity.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -115,7 +116,7 @@ SelectionEntity found.
 GET /api/v1/Selection/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -123,73 +124,73 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 SelectionEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Tue, 13 May 2014 03:47:00 G5T
+Last-Modified: Tue, 25 Jun 2013 02:30:52 G6T
 
 {
-  "Description": "Multi-channelled client-server encoding",
-  "Postit": "impedit",
+  "Description": "Cloned object-oriented model",
+  "Postit": "possimus",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 954,
-  "IncludePerson": 649,
+  "GroupIdx": 999,
+  "IncludePerson": 9,
   "MemberCount": 99.99,
-  "Name": "Goodwin-Bogan",
-  "PostitTextId": 220,
-  "CreatedDate": "2015-03-10T03:47:00.2849361+01:00",
-  "SelectionId": 333,
-  "SoundEx": "non",
-  "Source": 431,
-  "TextId": 899,
-  "UpdatedDate": "2014-05-13T03:47:00.2849361+02:00",
-  "UpdatedCount": 981,
-  "Visibility": 125,
+  "Name": "Kris-Kunze",
+  "PostitTextId": 117,
+  "CreatedDate": "2008-08-04T02:30:52.9130204+02:00",
+  "SelectionId": 477,
+  "SoundEx": "iure",
+  "Source": 615,
+  "TextId": 986,
+  "UpdatedDate": "2013-06-25T02:30:52.9130204+02:00",
+  "UpdatedCount": 589,
+  "Visibility": 542,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 729,
-  "TargetTableName": "Spencer-Stark",
-  "Completed": true,
-  "LeftSelectionId": 815,
-  "RightSelectionId": 665,
+  "TargetTableNumber": 42,
+  "TargetTableName": "Wintheiser, Leannon and Okuneva",
+  "Completed": false,
+  "LeftSelectionId": 798,
+  "RightSelectionId": 670,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Sauer, Spinka and Johns",
-  "ShadowProviderName": "Stokes-Torp",
-  "ChartKey": "explicabo",
-  "LastLoaded": "2001-09-03T03:47:00.2849361+02:00",
-  "LastLoadedBy": 984,
+  "MainProviderName": "Welch Inc and Sons",
+  "ShadowProviderName": "Balistreri Group",
+  "ChartKey": "iure",
+  "LastLoaded": "2002-05-16T02:30:52.9130204+02:00",
+  "LastLoadedBy": 529,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2005-10-19T03:47:00.2849361+02:00",
-  "LastMembershipChangeBy": 946,
+  "LastMembershipChange": "2005-06-30T02:30:52.9130204+02:00",
+  "LastMembershipChangeBy": 33,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "quasi",
-  "MemberTabHeading": "facilis",
-  "MailingsProviderName": "Rath-Bode",
-  "DashboardTileDefinitionId": 653,
+  "MainHeading": "mollitia",
+  "MemberTabHeading": "iusto",
+  "MailingsProviderName": "Harris, Vandervort and Pfannerstill",
+  "DashboardTileDefinitionId": 942,
   "VisibleFor": [
     {
-      "VisibleId": 859,
+      "VisibleId": 457,
       "Visibility": "All",
-      "DisplayValue": "animi",
+      "DisplayValue": "minus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 694
+          "FieldLength": 584
         }
       }
     },
     {
-      "VisibleId": 859,
+      "VisibleId": 457,
       "Visibility": "All",
-      "DisplayValue": "animi",
+      "DisplayValue": "minus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 694
+          "FieldLength": 584
         }
       }
     }
@@ -198,8 +199,8 @@ Last-Modified: Tue, 13 May 2014 03:47:00 G5T
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 3
+      "FieldType": "System.Int32",
+      "FieldLength": 972
     }
   },
   "_Links": {

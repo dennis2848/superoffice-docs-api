@@ -14,6 +14,8 @@ POST /api/v1/Agents/BulkUpdate/GetJobResultsFromStorageAsJson
 Get result of the batchupdate job
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -71,7 +73,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  "aliquam",
-  "inventore"
+  "enim",
+  "assumenda"
 ]
 ```

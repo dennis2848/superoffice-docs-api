@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/GetAppWebPanels
 Get all web panels owned by your app; works in Online only, for registered Apps that send a valid ApplicationToken
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -87,7 +89,7 @@ OK
 POST /api/v1/Agents/List/GetAppWebPanels
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -98,15 +100,15 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebPanelId": 811,
-    "Name": "Blick-Kertzmann",
-    "Tooltip": "a",
-    "Deleted": true,
-    "Rank": 863,
+    "WebPanelId": 247,
+    "Name": "Feest-Kautzer",
+    "Tooltip": "veniam",
+    "Deleted": false,
+    "Rank": 355,
     "UrlEncoding": "ANSI",
     "VisibleIn": "ActivityDialog",
-    "OnCentral": false,
-    "OnSatellite": false,
+    "OnCentral": true,
+    "OnSatellite": true,
     "OnTravel": false,
     "OnSalesMarketingWeb": false,
     "OnSalesMarketingPocket": false,
@@ -114,18 +116,18 @@ Content-Type: application/json; charset=utf-8
     "ShowInToolBar": false,
     "ShowInAddressBar": false,
     "ShowInStatusBar": false,
-    "WindowName": "Runolfsson, Russel and Lubowitz",
+    "WindowName": "Pouros LLC",
     "Url": "http://www.example.com/",
-    "ProgId": "vel",
-    "Icon": 350,
+    "ProgId": "natus",
+    "Icon": 862,
     "AlwaysReloadOnShow": false,
     "NeverReloadOnCurrentChange": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 320
+        "FieldType": "System.Int32",
+        "FieldLength": 861
       }
     }
   }

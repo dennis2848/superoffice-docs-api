@@ -14,6 +14,8 @@ POST /api/v1/Agents/Preference/GetPreferenceDescriptionLineFromIdAndValue
 Get a preference description line from a prefDesc_id and a prefValue
 
 
+NsApiSlow threshold: 1000 ms.
+
 
 
 
@@ -84,8 +86,8 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 809,
-  "PrefValue": "vitae"
+  "PrefDescId": 273,
+  "PrefValue": "doloribus"
 }
 ```
 
@@ -96,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 226,
-  "PrefDescId": 900,
-  "PrefValue": "qui",
-  "PrefShowValue": "vero",
-  "Description": "Intuitive multimedia moderator",
+  "PrefDescLineId": 514,
+  "PrefDescId": 476,
+  "PrefValue": "corporis",
+  "PrefShowValue": "autem",
+  "Description": "Intuitive upward-trending alliance",
   "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 432
+      "FieldLength": 331
     }
   }
 }

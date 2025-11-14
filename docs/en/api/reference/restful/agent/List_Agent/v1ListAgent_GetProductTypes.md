@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/GetProductTypes
 Returns all ProductTypes in SuperOffice list.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -79,28 +81,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 413,
-    "Value": "possimus",
-    "Tooltip": "dignissimos",
+    "Id": 998,
+    "Value": "dolore",
+    "Tooltip": "cumque",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 232
+        "FieldLength": 740
       }
     }
   },
   {
-    "Id": 413,
-    "Value": "possimus",
-    "Tooltip": "dignissimos",
+    "Id": 998,
+    "Value": "dolore",
+    "Tooltip": "cumque",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 232
+        "FieldLength": 740
       }
     }
   }

@@ -98,47 +98,47 @@ OK
 PUT /api/v1/List/ProductCategory/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 825,
-    "Name": "Tillman Inc and Sons",
-    "ToolTip": "Illum iusto.",
-    "Deleted": false,
-    "Rank": 978,
-    "Type": "dolor",
-    "ColorBlock": 483,
-    "IconHint": "sed",
+    "Id": 481,
+    "Name": "Brakus-Marquardt",
+    "ToolTip": "Dignissimos dolorem ut.",
+    "Deleted": true,
+    "Rank": 496,
+    "Type": "et",
+    "ColorBlock": 623,
+    "IconHint": "ducimus",
     "Selected": false,
-    "LastChanged": "2016-01-13T03:47:00.7224209+01:00",
+    "LastChanged": "2007-07-04T02:30:53.3505129+02:00",
     "ChildItems": [
       {
-        "Id": 854,
-        "Name": "Lubowitz LLC",
-        "ToolTip": "Veritatis voluptatem omnis consequatur velit.",
+        "Id": 282,
+        "Name": "Rice, Bednar and Raynor",
+        "ToolTip": "Saepe libero quia a vitae quidem eos.",
         "Deleted": false,
-        "Rank": 830,
-        "Type": "voluptas",
-        "ColorBlock": 268,
-        "IconHint": "et",
+        "Rank": 623,
+        "Type": "sed",
+        "ColorBlock": 187,
+        "IconHint": "quis",
         "Selected": false,
-        "LastChanged": "2024-05-31T03:47:00.7224209+02:00",
+        "LastChanged": "2002-11-29T02:30:53.3505129+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "numquam",
+        "ExtraInfo": "odio",
         "StyleHint": "aut",
         "Hidden": false,
-        "FullName": "Keshaun Murray"
+        "FullName": "Ethyl Von"
       }
     ],
-    "ExtraInfo": "excepturi",
-    "StyleHint": "dolorem",
-    "Hidden": true,
-    "FullName": "Jammie Monahan"
+    "ExtraInfo": "eligendi",
+    "StyleHint": "iste",
+    "Hidden": false,
+    "FullName": "Nya Forrest Ebert Jr."
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 431,
-    "Name": "Pacocha-Prohaska",
-    "ToolTip": "Laborum beatae blanditiis.",
+    "Id": 624,
+    "Name": "Bradtke, Leannon and Schaefer",
+    "ToolTip": "Qui rerum velit.",
     "Deleted": true,
-    "Rank": 269,
-    "Type": "fugiat",
-    "ColorBlock": 18,
-    "IconHint": "delectus",
+    "Rank": 745,
+    "Type": "quae",
+    "ColorBlock": 688,
+    "IconHint": "animi",
     "Selected": true,
-    "LastChanged": "2017-12-23T03:47:00.7224209+01:00",
+    "LastChanged": "2019-05-28T02:30:53.3505129+02:00",
     "ChildItems": [
       {
-        "Id": 931,
-        "Name": "Ryan-Funk",
-        "ToolTip": "Et at qui.",
+        "Id": 404,
+        "Name": "Wisoky-Swift",
+        "ToolTip": "Consectetur consequuntur.",
         "Deleted": true,
-        "Rank": 816,
-        "Type": "vitae",
-        "ColorBlock": 51,
-        "IconHint": "eligendi",
+        "Rank": 987,
+        "Type": "ut",
+        "ColorBlock": 411,
+        "IconHint": "accusantium",
         "Selected": false,
-        "LastChanged": "2013-11-17T03:47:00.7224209+01:00",
+        "LastChanged": "2002-06-28T02:30:53.3505129+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "molestias",
-        "StyleHint": "eos",
-        "Hidden": true,
-        "FullName": "Jayde Kerluke",
+        "ExtraInfo": "itaque",
+        "StyleHint": "expedita",
+        "Hidden": false,
+        "FullName": "Mr. Shanny Neha Konopelski II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 153
+            "FieldLength": 349
           }
         }
       }
     ],
-    "ExtraInfo": "quaerat",
-    "StyleHint": "sit",
+    "ExtraInfo": "cupiditate",
+    "StyleHint": "dolor",
     "Hidden": false,
-    "FullName": "Ms. Lyric Veda Kertzmann",
+    "FullName": "Lelah Simonis",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 66
+        "FieldType": "System.String",
+        "FieldLength": 477
       }
     }
   }

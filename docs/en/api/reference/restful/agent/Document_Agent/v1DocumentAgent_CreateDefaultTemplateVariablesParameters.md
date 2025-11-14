@@ -14,6 +14,8 @@ POST /api/v1/Agents/Document/CreateDefaultTemplateVariablesParameters
 Loading default values into a new TemplateVariablesParameters.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -71,7 +73,7 @@ OK
 POST /api/v1/Agents/Document/CreateDefaultTemplateVariablesParameters
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,19 +83,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceInput": "totam",
+  "SourceInput": "quo",
   "Encoding": "Html",
-  "CultureName": "sv",
-  "ContactId": 421,
-  "PersonId": 451,
-  "ProjectId": 442,
-  "SelectionId": 370,
-  "AppointmentId": 435,
-  "DocumentId": 932,
-  "SaleId": 876,
-  "QuoteLineId": 155,
-  "QuoteAlternativeId": 12,
-  "ProductKey": "optio",
+  "CultureName": "en",
+  "ContactId": 110,
+  "PersonId": 793,
+  "ProjectId": 502,
+  "SelectionId": 740,
+  "AppointmentId": 469,
+  "DocumentId": 268,
+  "SaleId": 335,
+  "QuoteLineId": 18,
+  "QuoteAlternativeId": 449,
+  "ProductKey": "sunt",
   "CustomTags": [
     [
       {}
@@ -102,14 +104,14 @@ Content-Type: application/json; charset=utf-8
       {}
     ]
   ],
-  "TicketId": 950,
+  "TicketId": 11,
   "DocumentEntity": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 606
+      "FieldLength": 393
     }
   }
 }

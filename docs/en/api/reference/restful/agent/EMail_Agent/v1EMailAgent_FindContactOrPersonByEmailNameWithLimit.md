@@ -11,7 +11,7 @@ content_type: reference
 POST /api/v1/Agents/EMail/FindContactOrPersonByEmailNameWithLimit
 ```
 
-<para />
+NsApiSlow threshold: 5000 ms.
 
 
 ## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
@@ -86,14 +86,14 @@ OK
 POST /api/v1/Agents/EMail/FindContactOrPersonByEmailNameWithLimit
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Ferry, Legros and Haley",
-  "EmailAddress": "isabell@littlevon.us",
-  "NumberOfContacts": 681,
-  "NumberOfPersons": 258
+  "Name": "Roob-Kuvalis",
+  "EmailAddress": "reed@ritchie.com",
+  "NumberOfContacts": 944,
+  "NumberOfPersons": 194
 }
 ```
 
@@ -105,20 +105,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonId": 873,
-    "FullName": "Dillon Schuster",
-    "EmailAddress": "gloria.mills@ferry.us",
-    "ContactId": 63,
-    "ContactName": "Smith-Nicolas",
-    "ContactDepartment": "iterate B2B synergies",
+    "PersonId": 335,
+    "FullName": "Dorothy Botsford",
+    "EmailAddress": "rosemary@herzog.info",
+    "ContactId": 444,
+    "ContactName": "Jerde-Steuber",
+    "ContactDepartment": "",
     "ContactCategory": "VIP Customer",
-    "SortName": "Kris, Runolfsdottir and Wisozk",
+    "SortName": "Ankunding Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 219
+        "FieldType": "System.Int32",
+        "FieldLength": 60
       }
     }
   }

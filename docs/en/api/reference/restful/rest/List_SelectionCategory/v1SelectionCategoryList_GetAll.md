@@ -26,7 +26,7 @@ Gets all the SelectionCategory items
 | includeDeleted | bool |  Include deleted items in the result? |
 
 ```http
-GET /api/v1/List/SelectionCategory/Items?includeDeleted=False
+GET /api/v1/List/SelectionCategory/Items?includeDeleted=True
 ```
 
 
@@ -82,18 +82,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 226,
-    "Name": "Kuvalis LLC",
-    "Tooltip": "quaerat",
-    "Deleted": false,
-    "UdListDefinitionId": 414,
-    "Rank": 515,
+    "Id": 138,
+    "Name": "Jones, Sanford and Bernier",
+    "Tooltip": "ut",
+    "Deleted": true,
+    "UdListDefinitionId": 773,
+    "Rank": 583,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 909
+        "FieldLength": 637
       }
     }
   }

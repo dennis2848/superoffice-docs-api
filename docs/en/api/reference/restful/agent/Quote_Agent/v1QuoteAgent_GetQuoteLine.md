@@ -14,6 +14,8 @@ POST /api/v1/Agents/Quote/GetQuoteLine
 Get QuoteLine from database
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -122,11 +124,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 989
+  "QuoteLineId": 439
 }
 ```
 
@@ -137,88 +139,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 267,
-  "ERPQuoteLineKey": "non",
-  "QuoteAlternativeId": 459,
-  "ERPProductKey": "aliquam",
+  "QuoteLineId": 972,
+  "ERPQuoteLineKey": "ipsum",
+  "QuoteAlternativeId": 130,
+  "ERPProductKey": "quisquam",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 17982.892,
-  "DeliveredQuantity": 30669.324,
-  "Rank": 211,
-  "Name": "Brown-Morissette",
-  "Description": "Cross-group dedicated complexity",
-  "Code": "ducimus",
-  "QuantityUnit": "et",
-  "PriceUnit": "ut",
-  "ItemNumber": "648032",
+  "Quantity": 15525.836,
+  "DeliveredQuantity": 18384.043999999998,
+  "Rank": 418,
+  "Name": "Pagac-Greenholt",
+  "Description": "Ameliorated 4th generation challenge",
+  "Code": "libero",
+  "QuantityUnit": "hic",
+  "PriceUnit": "voluptas",
+  "ItemNumber": "977056",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "totam",
-  "ProductTypeKey": "rerum",
-  "Supplier": "sit",
-  "SupplierCode": "iusto",
-  "Thumbnail": "quibusdam",
-  "VATInfo": "officia",
-  "VAT": 20170.424,
-  "UnitCost": 31289.856,
-  "UnitMinimumPrice": 8035.576,
-  "UnitListPrice": 30280.708,
+  "ProductFamilyKey": "voluptas",
+  "ProductTypeKey": "et",
+  "Supplier": "repellat",
+  "SupplierCode": "ad",
+  "Thumbnail": "fuga",
+  "VATInfo": "est",
+  "VAT": 24539.219999999998,
+  "UnitCost": 17089.702,
+  "UnitMinimumPrice": 16986.28,
+  "UnitListPrice": 3857.9539999999997,
   "ExtraInfo": [
     {
-      "Name": "Erdman, Konopelski and Monahan",
-      "Value": "asperiores",
+      "Name": "Greenfelder Inc and Sons",
+      "Value": "aut",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 233
+          "FieldLength": 418
         }
       }
     },
     {
-      "Name": "Erdman, Konopelski and Monahan",
-      "Value": "asperiores",
+      "Name": "Greenfelder Inc and Sons",
+      "Value": "aut",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 233
+          "FieldLength": 418
         }
       }
     }
   ],
-  "RawExtraInfo": "dolorem",
-  "IsSubscription": false,
-  "SubscriptionUnit": "tempora",
-  "SubscriptionQuantity": 31023.466,
-  "SubscriptionStart": "2014-12-14T03:46:55.2226157+01:00",
-  "ERPDiscountPercent": 31217.773999999998,
-  "ERPDiscountAmount": 19026.514,
-  "DiscountPercent": 6346.3499999999995,
-  "DiscountAmount": 3604.1,
+  "RawExtraInfo": "ipsa",
+  "IsSubscription": true,
+  "SubscriptionUnit": "culpa",
+  "SubscriptionQuantity": 8019.906,
+  "SubscriptionStart": "2004-12-22T02:30:47.7413192+01:00",
+  "ERPDiscountPercent": 523.37799999999993,
+  "ERPDiscountAmount": 22060.226,
+  "DiscountPercent": 11401.492,
+  "DiscountAmount": 8295.698,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 11749.366,
-  "EarningAmount": 8389.7179999999989,
-  "SubTotal": 7502.7959999999994,
-  "TotalPrice": 18656.702,
-  "Rights": "quas",
-  "Rule": "fugiat",
-  "ExtraField1": "sapiente",
-  "ExtraField2": "quia",
-  "ExtraField3": "at",
-  "ExtraField4": "omnis",
+  "EarningPercent": 12977.894,
+  "EarningAmount": 31236.577999999998,
+  "SubTotal": 27532.19,
+  "TotalPrice": 27438.17,
+  "Rights": "qui",
+  "Rule": "earum",
+  "ExtraField1": "quia",
+  "ExtraField2": "temporibus",
+  "ExtraField3": "eos",
+  "ExtraField4": "et",
   "ExtraField5": "dolores",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 593
+      "FieldType": "System.String",
+      "FieldLength": 234
     }
   }
 }

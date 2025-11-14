@@ -14,6 +14,8 @@ POST /api/v1/Agents/Quote/SaveProduct
 Updates the existing Product or creates a new Product if the id parameter is 0.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -130,55 +132,55 @@ OK
 POST /api/v1/Agents/Quote/SaveProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 91,
-  "ERPProductKey": "ipsa",
-  "ERPPriceListKey": "harum",
-  "Name": "Schamberger-Hammes",
-  "Description": "Monitored bi-directional project",
-  "Code": "quisquam",
-  "PriceUnit": "laborum",
-  "QuantityUnit": "cupiditate",
+  "ProductId": 740,
+  "ERPProductKey": "iure",
+  "ERPPriceListKey": "sint",
+  "Name": "McCullough Group",
+  "Description": "Innovative demand-driven monitoring",
+  "Code": "aut",
+  "PriceUnit": "vel",
+  "QuantityUnit": "quaerat",
   "IsSubscription": false,
-  "SubscriptionUnit": "perspiciatis",
-  "DefaultSubscriptionQuantity": 18782.061999999998,
-  "ItemNumber": "1668894",
+  "SubscriptionUnit": "enim",
+  "DefaultSubscriptionQuantity": 11207.184,
+  "ItemNumber": "1190377",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "autem",
-  "ProductTypeKey": "sed",
-  "VAT": 20088.94,
-  "VATInfo": "sit",
-  "UnitCost": 5587.922,
-  "UnitMinimumPrice": 25808.489999999998,
-  "UnitListPrice": 2240.81,
-  "InAssortment": false,
-  "Supplier": "veniam",
-  "SupplierCode": "expedita",
-  "Rights": "assumenda",
-  "Rule": "unde",
+  "ProductFamilyKey": "sit",
+  "ProductTypeKey": "qui",
+  "VAT": 8214.214,
+  "VATInfo": "et",
+  "UnitCost": 6111.3,
+  "UnitMinimumPrice": 11251.06,
+  "UnitListPrice": 10006.862,
+  "InAssortment": true,
+  "Supplier": "voluptatem",
+  "SupplierCode": "excepturi",
+  "Rights": "odit",
+  "Rule": "odio",
   "ExtraInfo": [
     {
-      "Name": "Johnston Group",
-      "Value": "aut",
+      "Name": "Dickens Inc and Sons",
+      "Value": "sed",
       "Type": "Image"
     },
     {
-      "Name": "Johnston Group",
-      "Value": "aut",
+      "Name": "Dickens Inc and Sons",
+      "Value": "sed",
       "Type": "Image"
     }
   ],
-  "RawExtraInfo": "velit",
-  "ExtraField1": "optio",
-  "ExtraField2": "voluptatem",
-  "ExtraField3": "sit",
-  "ExtraField4": "ut",
-  "ExtraField5": "voluptatem",
-  "InStock": 30211.76
+  "RawExtraInfo": "mollitia",
+  "ExtraField1": "nihil",
+  "ExtraField2": "voluptas",
+  "ExtraField3": "alias",
+  "ExtraField4": "non",
+  "ExtraField5": "hic",
+  "InStock": 24830.682
 }
 ```
 
@@ -189,73 +191,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 585,
-  "ERPProductKey": "velit",
-  "ERPPriceListKey": "eveniet",
-  "Name": "Kilback-Walter",
-  "Description": "Optional executive middleware",
-  "Code": "reprehenderit",
-  "PriceUnit": "quisquam",
-  "QuantityUnit": "repudiandae",
-  "IsSubscription": false,
-  "SubscriptionUnit": "est",
-  "DefaultSubscriptionQuantity": 15522.702,
-  "ItemNumber": "1182134",
+  "ProductId": 972,
+  "ERPProductKey": "vitae",
+  "ERPPriceListKey": "et",
+  "Name": "Walsh-Bergnaum",
+  "Description": "Exclusive homogeneous core",
+  "Code": "dolores",
+  "PriceUnit": "nostrum",
+  "QuantityUnit": "dignissimos",
+  "IsSubscription": true,
+  "SubscriptionUnit": "ipsa",
+  "DefaultSubscriptionQuantity": 23705.576,
+  "ItemNumber": "1299721",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "et",
-  "ProductTypeKey": "ut",
-  "VAT": 11392.09,
-  "VATInfo": "et",
-  "UnitCost": 4957.988,
-  "UnitMinimumPrice": 19929.106,
-  "UnitListPrice": 22621.212,
+  "ProductFamilyKey": "quo",
+  "ProductTypeKey": "error",
+  "VAT": 21242.252,
+  "VATInfo": "in",
+  "UnitCost": 29412.59,
+  "UnitMinimumPrice": 24373.118,
+  "UnitListPrice": 12163.054,
   "InAssortment": false,
   "Supplier": "cum",
-  "SupplierCode": "nesciunt",
-  "Rights": "omnis",
-  "Rule": "atque",
+  "SupplierCode": "facere",
+  "Rights": "quia",
+  "Rule": "odit",
   "ExtraInfo": [
     {
-      "Name": "Boehm-Ritchie",
-      "Value": "nesciunt",
+      "Name": "Dach-Champlin",
+      "Value": "quaerat",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 897
+          "FieldType": "System.Int32",
+          "FieldLength": 921
         }
       }
     },
     {
-      "Name": "Boehm-Ritchie",
-      "Value": "nesciunt",
+      "Name": "Dach-Champlin",
+      "Value": "quaerat",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 897
+          "FieldType": "System.Int32",
+          "FieldLength": 921
         }
       }
     }
   ],
-  "RawExtraInfo": "sed",
-  "ExtraField1": "sint",
-  "ExtraField2": "at",
-  "ExtraField3": "nihil",
-  "ExtraField4": "dolorem",
-  "ExtraField5": "illum",
-  "InStock": 4161.952,
+  "RawExtraInfo": "quaerat",
+  "ExtraField1": "quia",
+  "ExtraField2": "ducimus",
+  "ExtraField3": "dolore",
+  "ExtraField4": "voluptate",
+  "ExtraField5": "praesentium",
+  "InStock": 16077.42,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 180
+      "FieldLength": 363
     }
   }
 }

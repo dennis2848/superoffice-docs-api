@@ -76,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 52,
-  "Name": "Bailey, Moore and Breitenberg",
-  "Tooltip": "sint",
+  "Id": 934,
+  "Name": "Crist-Bode",
+  "Tooltip": "eum",
   "Deleted": true,
-  "Rank": 394,
-  "IsCustomList": false,
+  "Rank": 657,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "suscipit",
-  "InUseByUserDefinedFields": false,
+  "ListType": "voluptatem",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 825
+      "FieldType": "System.Int32",
+      "FieldLength": 505
     }
   },
   "_Links": {

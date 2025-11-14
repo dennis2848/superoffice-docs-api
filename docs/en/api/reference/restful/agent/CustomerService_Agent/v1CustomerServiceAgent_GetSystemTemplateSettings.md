@@ -14,6 +14,8 @@ POST /api/v1/Agents/CustomerService/GetSystemTemplateSettings
 Returns system template settings
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -86,7 +88,7 @@ OK
 POST /api/v1/Agents/CustomerService/GetSystemTemplateSettings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,33 +98,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CustomerNewCustomerTemplateId": 970,
-  "CustomerCustomerReplyTemplateId": 189,
-  "CustomerPasswordTemplateId": 724,
-  "CustomerConfirmEmailTemplateId": 982,
-  "CustomerChatLogTemplateId": 696,
-  "NewLinkTemplateId": 690,
-  "HotlistNewMessageTemplateId": 186,
-  "HotlistTicketActivatedTemplateId": 376,
-  "UserTicketAlarmTemplateId": 188,
-  "HotlistTicketTakenOverTemplateId": 672,
-  "UserActiveTicketsTemplateId": 101,
-  "UserNewMessageTemplateId": 694,
-  "UserTicketActivatedTemplateId": 534,
-  "UserNewTicketTemplateId": 394,
-  "PublishKbQuestionTemplateId": 278,
-  "PublishKbAnswerTemplateId": 42,
-  "UserTicketTakenOverTemplateId": 668,
-  "PrintTicketTemplateId": 856,
-  "WeekStatTemplateId": 95,
-  "TicketAlarmHotlistTemplateId": 131,
-  "EmailAddresses": "alivia@schiller.uk",
+  "CustomerNewCustomerTemplateId": 72,
+  "CustomerCustomerReplyTemplateId": 266,
+  "CustomerPasswordTemplateId": 329,
+  "CustomerConfirmEmailTemplateId": 243,
+  "CustomerChatLogTemplateId": 813,
+  "NewLinkTemplateId": 292,
+  "HotlistNewMessageTemplateId": 601,
+  "HotlistTicketActivatedTemplateId": 875,
+  "UserTicketAlarmTemplateId": 973,
+  "HotlistTicketTakenOverTemplateId": 748,
+  "UserActiveTicketsTemplateId": 491,
+  "UserNewMessageTemplateId": 701,
+  "UserTicketActivatedTemplateId": 471,
+  "UserNewTicketTemplateId": 220,
+  "PublishKbQuestionTemplateId": 887,
+  "PublishKbAnswerTemplateId": 453,
+  "UserTicketTakenOverTemplateId": 715,
+  "PrintTicketTemplateId": 500,
+  "WeekStatTemplateId": 11,
+  "TicketAlarmHotlistTemplateId": 481,
+  "EmailAddresses": "monte_keebler@ankunding.ca",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 738
+      "FieldLength": 429
     }
   }
 }

@@ -38,13 +38,13 @@ Tags are substituted according to the provided id's.  Use GetDocumentStream to o
 | uiCulture | string |  Language variation of template to use when creating document. (ISO code - "en-US" or "nb-NO" etc). Used to select a template of the appropriate language. Can be overridden in SO ARC by user preference "PreferDocLang". |
 
 ```http
-POST /api/v1/Document/{documentId}/Content?contactId=726
-POST /api/v1/Document/{documentId}/Content?personId=357
-POST /api/v1/Document/{documentId}/Content?appointmentId=768
-POST /api/v1/Document/{documentId}/Content?saleId=350
-POST /api/v1/Document/{documentId}/Content?selectionId=336
-POST /api/v1/Document/{documentId}/Content?projectId=95
-POST /api/v1/Document/{documentId}/Content?uiCulture=illum
+POST /api/v1/Document/{documentId}/Content?contactId=543
+POST /api/v1/Document/{documentId}/Content?personId=878
+POST /api/v1/Document/{documentId}/Content?appointmentId=401
+POST /api/v1/Document/{documentId}/Content?saleId=989
+POST /api/v1/Document/{documentId}/Content?selectionId=648
+POST /api/v1/Document/{documentId}/Content?projectId=904
+POST /api/v1/Document/{documentId}/Content?uiCulture=enim
 ```
 
 
@@ -132,88 +132,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 937,
+  "DocumentId": 374,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "quo",
-  "Header": "officiis",
-  "Name": "Simonis-Swift",
-  "OurRef": "quo",
-  "YourRef": "molestias",
-  "CreatedDate": "2002-07-11T03:47:00.005716+02:00",
-  "UpdatedDate": "2012-08-09T03:47:00.005716+02:00",
-  "Description": "Focused zero defect solution",
+  "Attention": "ea",
+  "Header": "aperiam",
+  "Name": "Schowalter, Mertz and Klocko",
+  "OurRef": "consequuntur",
+  "YourRef": "provident",
+  "CreatedDate": "2017-06-21T02:30:52.631787+02:00",
+  "UpdatedDate": "2024-04-13T02:30:52.631787+02:00",
+  "Description": "Multi-layered heuristic service-desk",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2003-03-10T03:47:00.005716+01:00",
-  "ExternalRef": "qui",
+  "Date": "1999-10-23T02:30:52.631787+02:00",
+  "ExternalRef": "rerum",
   "Completed": "Completed",
-  "ActiveLinks": 508,
+  "ActiveLinks": 728,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Stiedemann Group",
-      "Id": 810,
-      "Description": "Quality-focused tertiary flexibility",
-      "ExtraInfo": "quia",
-      "LinkId": 518,
+      "EntityName": "Roob, McCullough and Simonis",
+      "Id": 429,
+      "Description": "Configurable non-volatile workforce",
+      "ExtraInfo": "non",
+      "LinkId": 348,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 534
+          "FieldLength": 885
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 989,
-  "Snum": 431,
+  "SuggestedDocumentId": 969,
+  "Snum": 171,
   "UserDefinedFields": {
-    "SuperOffice:1": "Shyann Denesik DDS",
-    "SuperOffice:2": "Nellie O'Conner"
+    "SuperOffice:1": "2121648955",
+    "SuperOffice:2": "Gudrun Towne"
   },
   "ExtraFields": {
-    "ExtraFields1": "totam",
-    "ExtraFields2": "rerum"
+    "ExtraFields1": "perferendis",
+    "ExtraFields2": "earum"
   },
   "CustomFields": {
-    "CustomFields1": "dolorem",
-    "CustomFields2": "sint"
+    "CustomFields1": "laboriosam",
+    "CustomFields2": "et"
   },
-  "PublishEventDate": "2008-03-27T03:47:00.005716+01:00",
-  "PublishTo": "2013-11-18T03:47:00.005716+01:00",
-  "PublishFrom": "2016-06-11T03:47:00.005716+02:00",
+  "PublishEventDate": "2003-10-22T02:30:52.631787+02:00",
+  "PublishTo": "2005-01-13T02:30:52.631787+01:00",
+  "PublishFrom": "2021-05-18T02:30:52.631787+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 416,
+      "VisibleId": 466,
       "Visibility": "All",
-      "DisplayValue": "accusantium",
+      "DisplayValue": "architecto",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 429
+          "FieldType": "System.String",
+          "FieldLength": 769
         }
       }
     },
     {
-      "VisibleId": 416,
+      "VisibleId": 466,
       "Visibility": "All",
-      "DisplayValue": "accusantium",
+      "DisplayValue": "architecto",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 429
+          "FieldType": "System.String",
+          "FieldLength": 769
         }
       }
     }
@@ -223,7 +223,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 877
+      "FieldLength": 509
     }
   }
 }

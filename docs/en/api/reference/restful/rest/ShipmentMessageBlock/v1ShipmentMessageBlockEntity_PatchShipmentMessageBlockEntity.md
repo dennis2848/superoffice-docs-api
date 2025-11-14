@@ -14,7 +14,8 @@ PATCH /api/v1/ShipmentMessageBlock/{id}
 Update a ShipmentMessageBlockEntity with changes, as described in a JSON Patch or a JSON Merge Patch document.
 
 
-See <a href="https://tools.ietf.org/html/rfc6902">RFC6902</a> and <a href="https://tools.ietf.org/html/rfc7386">RFC 7396</a>. Update the Department field to "foo" can be done either as a JSON PATCH:
+See <a href="https://tools.ietf.org/html/rfc6902">RFC6902</a> and <a href="https://tools.ietf.org/html/rfc7386">RFC 7396</a>.
+NsApiSlow threshold: 5000 ms. Update the Department field to "foo" can be done either as a JSON PATCH:
 
 ```js
 
@@ -122,12 +123,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "ut",
+    "path": "et",
     "value": {}
   },
   {
     "op": "add",
-    "path": "ut",
+    "path": "et",
     "value": {}
   }
 ]
@@ -140,20 +141,20 @@ HTTP/1.1 200 ShipmentMessageBlockEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageBlockId": 540,
-  "AssociateId": 464,
-  "Block": "voluptatum",
-  "Registered": "2002-04-15T03:47:00.3005605+02:00",
-  "RegisteredAssociateId": 292,
-  "Updated": "2021-09-22T03:47:00.3005605+02:00",
-  "UpdatedAssociateId": 618,
-  "UpdatedCount": 116,
+  "ShipmentMessageBlockId": 342,
+  "AssociateId": 794,
+  "Block": "aperiam",
+  "Registered": "1998-06-27T02:30:52.9286519+02:00",
+  "RegisteredAssociateId": 114,
+  "Updated": "2021-10-17T02:30:52.9286519+02:00",
+  "UpdatedAssociateId": 55,
+  "UpdatedCount": 912,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 779
+      "FieldLength": 1001
     }
   },
   "_Links": {

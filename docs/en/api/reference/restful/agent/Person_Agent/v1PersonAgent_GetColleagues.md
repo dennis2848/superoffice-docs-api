@@ -14,6 +14,8 @@ POST /api/v1/Agents/Person/GetColleagues
 Gets the persons working in the same company as the logged on user.
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -106,7 +108,7 @@ OK
 POST /api/v1/Agents/Person/GetColleagues
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -117,53 +119,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "dolore",
-    "PersonId": 694,
-    "Mrmrs": "facere",
-    "Firstname": "Omari",
-    "Lastname": "Haag",
-    "MiddleName": "Shields Inc and Sons",
-    "Title": "fugiat",
-    "Description": "Expanded modular firmware",
-    "Email": "esteban_sauer@waters.us",
-    "FullName": "Edgar Mraz",
-    "DirectPhone": "1-435-398-5473",
-    "FormalName": "Marks, Turcotte and Zulauf",
-    "CountryId": 268,
-    "ContactId": 88,
-    "ContactName": "Nitzsche-D'Amore",
-    "Retired": 17,
-    "Rank": 148,
-    "ActiveInterests": 761,
-    "ContactDepartment": "",
-    "ContactCountryId": 190,
-    "ContactOrgNr": "499539",
-    "FaxPhone": "209-262-2078",
-    "MobilePhone": "1-694-577-9876 x428",
-    "ContactPhone": "450-363-4479 x3389",
-    "AssociateName": "Hudson-Flatley",
-    "AssociateId": 772,
-    "UsePersonAddress": true,
-    "ContactFax": "error",
-    "Kanafname": "cum",
-    "Kanalname": "at",
-    "Post1": "quis",
-    "Post2": "ab",
-    "Post3": "ullam",
-    "EmailName": "annamarie@heaneycartwright.biz",
-    "ContactFullName": "Carmella Becker",
-    "ActiveErpLinks": 57,
-    "TicketPriorityId": 534,
-    "SupportLanguageId": 56,
-    "SupportAssociateId": 408,
+    "Position": "architecto",
+    "PersonId": 118,
+    "Mrmrs": "aut",
+    "Firstname": "Cloyd",
+    "Lastname": "Wolf",
+    "MiddleName": "Tremblay-Flatley",
+    "Title": "et",
+    "Description": "Enhanced executive frame",
+    "Email": "brett@prohaska.info",
+    "FullName": "Josiane Bartell",
+    "DirectPhone": "835.738.0258 x946",
+    "FormalName": "Parker, Swaniawski and Bahringer",
+    "CountryId": 216,
+    "ContactId": 122,
+    "ContactName": "Hills, Willms and Smith",
+    "Retired": 461,
+    "Rank": 208,
+    "ActiveInterests": 417,
+    "ContactDepartment": "drive e-business platforms",
+    "ContactCountryId": 927,
+    "ContactOrgNr": "485939",
+    "FaxPhone": "1-024-164-2252 x6478",
+    "MobilePhone": "519.607.6515",
+    "ContactPhone": "1-071-802-6459 x7926",
+    "AssociateName": "Jewess, Wisozk and Hintz",
+    "AssociateId": 870,
+    "UsePersonAddress": false,
+    "ContactFax": "ipsum",
+    "Kanafname": "quam",
+    "Kanalname": "molestias",
+    "Post1": "fugiat",
+    "Post2": "pariatur",
+    "Post3": "vero",
+    "EmailName": "vincenzo@simonis.ca",
+    "ContactFullName": "Kevin Larson",
+    "ActiveErpLinks": 751,
+    "TicketPriorityId": 824,
+    "SupportLanguageId": 813,
+    "SupportAssociateId": 488,
     "CategoryName": "VIP Customer",
-    "PersonNumber": "1169548",
+    "PersonNumber": "1440490",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 697
+        "FieldType": "System.String",
+        "FieldLength": 374
       }
     }
   }

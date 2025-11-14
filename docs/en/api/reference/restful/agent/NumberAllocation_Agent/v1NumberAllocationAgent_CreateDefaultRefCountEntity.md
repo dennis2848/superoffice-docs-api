@@ -14,6 +14,8 @@ POST /api/v1/Agents/NumberAllocation/CreateDefaultRefCountEntity
 Loading default values into a new RefCountEntity.
 
 
+NsApiSlow threshold: 1000 ms.
+
 
 
 
@@ -66,7 +68,7 @@ OK
 POST /api/v1/Agents/NumberAllocation/CreateDefaultRefCountEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -76,41 +78,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RefCountsId": 729,
-  "Field": "id",
-  "RecordId": 968,
+  "RefCountsId": 236,
+  "Field": "delectus",
+  "RecordId": 554,
   "SuggestedRecords": [
     {
-      "Id": 832,
-      "Name": "Schiller Inc and Sons",
-      "ToolTip": "Soluta voluptatum et.",
+      "Id": 180,
+      "Name": "Bednar, Gusikowski and Feeney",
+      "ToolTip": "Omnis ea voluptates aut omnis magni.",
       "Deleted": false,
-      "Rank": 390,
-      "Type": "sit",
+      "Rank": 739,
+      "Type": "voluptatem",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "totam",
-      "ColorBlock": 372,
-      "ExtraInfo": "dolores",
-      "StyleHint": "tempore",
-      "FullName": "Nicklaus Schoen",
+      "IconHint": "recusandae",
+      "ColorBlock": 90,
+      "ExtraInfo": "delectus",
+      "StyleHint": "et",
+      "FullName": "Ettie Batz",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 63
+          "FieldLength": 50
         }
       }
     }
   ],
-  "CurrentValue": 745,
-  "TravelPrefix": 156,
-  "SatPrefix": 773,
-  "Allocate": false,
-  "Unique": true,
+  "CurrentValue": 126,
+  "TravelPrefix": 783,
+  "SatPrefix": 213,
+  "Allocate": true,
+  "Unique": false,
   "ReadOnly": false,
   "AllowBlank": false,
   "TableRight": null,
@@ -118,7 +120,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 626
+      "FieldLength": 485
     }
   }
 }

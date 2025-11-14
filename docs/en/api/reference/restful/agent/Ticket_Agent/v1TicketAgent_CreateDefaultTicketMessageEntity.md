@@ -14,6 +14,8 @@ POST /api/v1/Agents/Ticket/CreateDefaultTicketMessageEntity
 Loading default values into a new TicketMessageEntity.
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -81,7 +83,7 @@ OK
 POST /api/v1/Agents/Ticket/CreateDefaultTicketMessageEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -91,28 +93,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 293,
+  "EjMessageId": 240,
   "Ticket": null,
-  "CreatedAt": "2005-09-17T03:46:55.5351045+02:00",
+  "CreatedAt": "2015-03-20T02:30:47.9756861+01:00",
   "CreatedBy": null,
-  "Author": "iste",
+  "Author": "officia",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "atque",
-  "TimeSpent": 610,
-  "Body": "qui",
-  "HtmlBody": "veritatis",
-  "EmailHeader": "raymundo.schumm@strosin.co.uk",
-  "DebugInfo": "ut",
-  "MailSorter": "illum",
+  "MessageId": "cupiditate",
+  "TimeSpent": 569,
+  "Body": "dolores",
+  "HtmlBody": "culpa",
+  "EmailHeader": "donny_orn@mosciskilegros.info",
+  "DebugInfo": "quaerat",
+  "MailSorter": "aut",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "labore",
+  "SearchTitle": "necessitatibus",
   "MessageHeaders": [
     {
-      "Id": 183,
-      "Name": "Satterfield-Koelpin",
-      "Value": "odio",
+      "Id": 826,
+      "Name": "Purdy Inc and Sons",
+      "Value": "quibusdam",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -120,50 +122,50 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 108
+          "FieldLength": 969
         }
       }
     }
   ],
   "Important": false,
-  "Language": "magni",
-  "Sentiment": 179,
-  "SentimentConfidence": 832,
+  "Language": "corporis",
+  "Sentiment": 226,
+  "SentimentConfidence": 11,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 425,
-      "Name": "Toy LLC",
-      "ContentType": "deserunt",
-      "AttSize": 142,
-      "InlineImage": true,
-      "ContentId": "vel",
-      "AuthKey": "quibusdam",
-      "IsSafeFileExtension": false,
+      "AttachmentId": 68,
+      "Name": "Rolfson, Ullrich and Gutkowski",
+      "ContentType": "magni",
+      "AttSize": 950,
+      "InlineImage": false,
+      "ContentId": "est",
+      "AuthKey": "sint",
+      "IsSafeFileExtension": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 743
+          "FieldLength": 865
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "sit",
-    "ExtraFields2": "est"
+    "ExtraFields1": "est",
+    "ExtraFields2": "dolor"
   },
   "CustomFields": {
-    "CustomFields1": "omnis",
-    "CustomFields2": "omnis"
+    "CustomFields1": "dolores",
+    "CustomFields2": "magni"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 303
+      "FieldType": "System.Int32",
+      "FieldLength": 929
     }
   }
 }

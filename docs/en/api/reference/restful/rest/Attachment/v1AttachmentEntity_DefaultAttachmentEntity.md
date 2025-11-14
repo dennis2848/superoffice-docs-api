@@ -15,6 +15,7 @@ Set default values into a new AttachmentEntity.
 
 
 NetServer calculates default values on the entity, which is required when creating/storing a new instance Calls the Ticket agent service CreateDefaultAttachmentEntity.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -65,7 +66,7 @@ OK
 GET /api/v1/Attachment/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,20 +76,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 839,
-  "Name": "Mitchell Inc and Sons",
-  "ContentType": "neque",
-  "AttSize": 317,
-  "InlineImage": true,
-  "ContentId": "id",
-  "AuthKey": "debitis",
-  "IsSafeFileExtension": false,
+  "AttachmentId": 732,
+  "Name": "Jones Inc and Sons",
+  "ContentType": "optio",
+  "AttSize": 309,
+  "InlineImage": false,
+  "ContentId": "odio",
+  "AuthKey": "sint",
+  "IsSafeFileExtension": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 41
+      "FieldLength": 537
     }
   }
 }

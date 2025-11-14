@@ -14,6 +14,8 @@ POST /api/v1/Agents/Document/SetTemplateStream
 Save a mail signature template to the document archive
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -71,8 +73,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Filename": "a",
-  "Personal": true,
+  "Filename": "quos",
+  "Personal": false,
   "Stream": "GIF89....File contents as raw bytes..."
 }
 ```

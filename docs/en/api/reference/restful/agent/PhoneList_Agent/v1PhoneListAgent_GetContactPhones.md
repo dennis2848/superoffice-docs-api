@@ -15,6 +15,7 @@ Returns an array of phone list items for all the persons belonging to a contact 
 
 
 The in-parameter must be a valid contact-id.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -85,11 +86,11 @@ OK
 POST /api/v1/Agents/PhoneList/GetContactPhones
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 950
+  "ContactId": 254
 }
 ```
 
@@ -101,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "138-842-7789",
-    "PersonCellPhone": "690.482.7980 x9085",
-    "PersonPrivatePhone": "378.839.5942",
-    "PersonFaxNumber": "359964",
-    "PersonPagerNumber": "846944",
-    "PersonEmail": "adrienne_toy@whiteupton.name",
-    "Id": 918,
-    "Name": "Schuster-Eichmann",
-    "Tooltip": "recusandae",
-    "UniqueId": "nesciunt",
+    "PersonDirectPhone": "(371)963-3023 x971",
+    "PersonCellPhone": "(103)291-7249 x220",
+    "PersonPrivatePhone": "024-246-0975 x2534",
+    "PersonFaxNumber": "1147891",
+    "PersonPagerNumber": "1542386",
+    "PersonEmail": "rudy@klocko.name",
+    "Id": 237,
+    "Name": "Beahan-Beatty",
+    "Tooltip": "quisquam",
+    "UniqueId": "saepe",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 855
+        "FieldLength": 999
       }
     }
   }

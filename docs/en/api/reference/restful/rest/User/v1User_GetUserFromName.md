@@ -86,7 +86,7 @@ OK
 GET /api/v1/User/{userName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -96,14 +96,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 943,
-  "Name": "Rohan, Kunde and Grady",
-  "Rank": 625,
-  "Tooltip": "sint",
+  "AssociateId": 3,
+  "Name": "Bogan-Lind",
+  "Rank": 662,
+  "Tooltip": "sit",
   "LicenseOwners": [
     {
-      "Name": "VonRueden-Blanda",
-      "Description": "Enhanced web-enabled workforce",
+      "Name": "Hodkiewicz-Witting",
+      "Description": "Upgradable multi-state protocol",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -116,14 +116,14 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 285
+          "FieldType": "System.String",
+          "FieldLength": 514
         }
       }
     },
     {
-      "Name": "VonRueden-Blanda",
-      "Description": "Enhanced web-enabled workforce",
+      "Name": "Hodkiewicz-Witting",
+      "Description": "Upgradable multi-state protocol",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -136,8 +136,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 285
+          "FieldType": "System.String",
+          "FieldLength": 514
         }
       }
     }
@@ -146,110 +146,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "quam",
-      "Tooltip": "eos",
-      "Id": 111,
-      "Rank": 795,
-      "Deleted": false,
+      "Value": "sint",
+      "Tooltip": "quia",
+      "Id": 559,
+      "Rank": 846,
+      "Deleted": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 751
+          "FieldLength": 881
         }
       }
     }
   ],
   "Person": null,
   "Deleted": false,
-  "Lastlogin": "2004-10-25T03:47:00.5193028+02:00",
-  "Lastlogout": "2022-11-29T03:47:00.5193028+01:00",
-  "EjUserId": 52,
-  "RequestSignature": "earum",
+  "Lastlogin": "2015-05-29T02:30:53.16302+02:00",
+  "Lastlogout": "1999-10-16T02:30:53.16302+02:00",
+  "EjUserId": 675,
+  "RequestSignature": "quasi",
   "Type": "AnonymousAssociate",
-  "IsPersonRetired": false,
+  "IsPersonRetired": true,
   "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "cum",
-      "DisplayValue": "consequuntur",
+      "Value": "ex",
+      "DisplayValue": "sunt",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 703
+          "FieldLength": 137
         }
       }
     },
     {
       "Type": null,
-      "Value": "cum",
-      "DisplayValue": "consequuntur",
+      "Value": "ex",
+      "DisplayValue": "sunt",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 703
+          "FieldLength": 137
         }
       }
     }
   ],
-  "UserName": "Bogan Inc and Sons",
+  "UserName": "Schumm-Rodriguez",
   "TicketCategories": [
     {
-      "Id": 832,
-      "Name": "Kiehn Group",
-      "ToolTip": "Quam voluptates veritatis ut et sed voluptate.",
+      "Id": 874,
+      "Name": "Hamill LLC",
+      "ToolTip": "Vel quia.",
       "Deleted": false,
-      "Rank": 536,
-      "Type": "sequi",
+      "Rank": 450,
+      "Type": "temporibus",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "odio",
-      "ColorBlock": 262,
-      "ExtraInfo": "mollitia",
-      "StyleHint": "officiis",
-      "FullName": "Alfonzo Johnston",
+      "IconHint": "vel",
+      "ColorBlock": 203,
+      "ExtraInfo": "incidunt",
+      "StyleHint": "quo",
+      "FullName": "Vernon Williamson II",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 248
+          "FieldLength": 641
         }
       }
     }
   ],
-  "NickName": "Mertz Group",
+  "NickName": "Bogisich-Bartoletti",
   "WaitingForApproval": true,
   "ExtraFields": {
-    "ExtraFields1": "maiores",
-    "ExtraFields2": "doloribus"
+    "ExtraFields1": "illo",
+    "ExtraFields2": "ea"
   },
   "CustomFields": {
-    "CustomFields1": "et",
-    "CustomFields2": "iusto"
+    "CustomFields1": "ut",
+    "CustomFields2": "dolor"
   },
   "PostSaveCommands": [
     {
-      "Name": "Cruickshank, Windler and Treutel",
-      "DisplayName": "Turner Inc and Sons",
-      "Description": "Quality-focused dedicated conglomeration",
-      "ToolTip": "Vitae beatae.",
+      "Name": "Berge, Schumm and Ondricka",
+      "DisplayName": "Wuckert, Keeling and Purdy",
+      "Description": "Virtual foreground intranet",
+      "ToolTip": "Corporis neque voluptates consequuntur est.",
       "Actions": "Implicit",
-      "ActionData": "necessitatibus",
+      "ActionData": "sit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 244
+          "FieldType": "System.Int32",
+          "FieldLength": 169
         }
       }
     }
@@ -259,7 +259,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 40
+      "FieldLength": 928
     }
   }
 }

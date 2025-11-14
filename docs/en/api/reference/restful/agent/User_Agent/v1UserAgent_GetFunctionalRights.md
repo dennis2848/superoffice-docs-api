@@ -15,6 +15,7 @@ Get all functional rights for the given role.
 
 
 Functional rights not set on the role are not included. MDO List name = 'FunctionRights', extra='role=123'
+NsApiSlow threshold: 2000 ms.
 
 
 ## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
@@ -93,11 +94,11 @@ OK
 POST /api/v1/Agents/User/GetFunctionalRights
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 354
+  "RoleId": 611
 }
 ```
 
@@ -109,56 +110,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 719,
-    "Name": "Bogan Group",
-    "ToolTip": "Possimus cum illo in quia delectus rerum iure.",
+    "Id": 57,
+    "Name": "Hoeger Group",
+    "ToolTip": "Rem maxime consequuntur facilis est vitae.",
     "Deleted": false,
-    "Rank": 391,
-    "Type": "perferendis",
-    "ColorBlock": 234,
-    "IconHint": "rerum",
-    "Selected": false,
-    "LastChanged": "2017-03-26T03:46:55.581978+02:00",
+    "Rank": 664,
+    "Type": "qui",
+    "ColorBlock": 108,
+    "IconHint": "vero",
+    "Selected": true,
+    "LastChanged": "2012-09-15T02:30:48.0850579+02:00",
     "ChildItems": [
       {
-        "Id": 916,
-        "Name": "Corkery, Hettinger and Satterfield",
-        "ToolTip": "Nostrum ex saepe expedita aliquid.",
-        "Deleted": false,
-        "Rank": 745,
-        "Type": "maxime",
-        "ColorBlock": 3,
-        "IconHint": "nobis",
+        "Id": 578,
+        "Name": "Carroll Inc and Sons",
+        "ToolTip": "Quae eaque neque repudiandae.",
+        "Deleted": true,
+        "Rank": 953,
+        "Type": "sit",
+        "ColorBlock": 421,
+        "IconHint": "dolor",
         "Selected": false,
-        "LastChanged": "2006-09-22T03:46:55.581978+02:00",
+        "LastChanged": "2005-09-17T02:30:48.0850579+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "illum",
-        "StyleHint": "itaque",
-        "Hidden": true,
-        "FullName": "Prof. Audie Morissette",
+        "ExtraInfo": "quam",
+        "StyleHint": "non",
+        "Hidden": false,
+        "FullName": "Micah Donnelly",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 314
+            "FieldType": "System.String",
+            "FieldLength": 717
           }
         }
       }
     ],
-    "ExtraInfo": "molestias",
-    "StyleHint": "id",
+    "ExtraInfo": "praesentium",
+    "StyleHint": "voluptate",
     "Hidden": false,
-    "FullName": "Abagail Murphy",
+    "FullName": "Eulah Pacocha",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 418
+        "FieldLength": 106
       }
     }
   }

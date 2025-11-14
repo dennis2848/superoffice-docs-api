@@ -76,7 +76,7 @@ OK
 GET /api/v1/List/DeliveryType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -87,56 +87,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 882,
-    "Name": "Sanford, Rosenbaum and Schultz",
-    "ToolTip": "Fuga praesentium.",
-    "Deleted": true,
-    "Rank": 558,
-    "Type": "doloribus",
-    "ColorBlock": 103,
-    "IconHint": "odit",
+    "Id": 485,
+    "Name": "Hintz LLC",
+    "ToolTip": "Vel nemo corporis ipsam laboriosam.",
+    "Deleted": false,
+    "Rank": 448,
+    "Type": "et",
+    "ColorBlock": 831,
+    "IconHint": "omnis",
     "Selected": false,
-    "LastChanged": "2007-12-02T03:47:00.6442984+01:00",
+    "LastChanged": "2017-12-24T02:30:53.2723907+01:00",
     "ChildItems": [
       {
-        "Id": 727,
-        "Name": "Frami LLC",
-        "ToolTip": "Molestias modi adipisci dolor.",
-        "Deleted": false,
-        "Rank": 31,
-        "Type": "aut",
-        "ColorBlock": 821,
-        "IconHint": "accusamus",
+        "Id": 490,
+        "Name": "Bergnaum Group",
+        "ToolTip": "Voluptatibus aliquam dolore.",
+        "Deleted": true,
+        "Rank": 356,
+        "Type": "est",
+        "ColorBlock": 359,
+        "IconHint": "vel",
         "Selected": false,
-        "LastChanged": "2015-10-05T03:47:00.6442984+02:00",
+        "LastChanged": "2016-09-05T02:30:53.2723907+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "distinctio",
-        "StyleHint": "qui",
-        "Hidden": false,
-        "FullName": "Ms. Athena Rath",
+        "ExtraInfo": "et",
+        "StyleHint": "rerum",
+        "Hidden": true,
+        "FullName": "Miss Felicity Dickinson Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 152
+            "FieldType": "System.Int32",
+            "FieldLength": 378
           }
         }
       }
     ],
-    "ExtraInfo": "error",
-    "StyleHint": "inventore",
-    "Hidden": true,
-    "FullName": "Dr. Dominique Goodwin V",
+    "ExtraInfo": "consectetur",
+    "StyleHint": "rem",
+    "Hidden": false,
+    "FullName": "Alessia Corwin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 373
+        "FieldLength": 715
       }
     }
   }

@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/GetTicketCategoryEntity
 Gets a TicketCategoryEntity object.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -27,7 +29,7 @@ Gets a TicketCategoryEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetTicketCategoryEntity?ticketCategoryEntityId=954
+POST /api/v1/Agents/List/GetTicketCategoryEntity?ticketCategoryEntityId=586
 POST /api/v1/Agents/List/GetTicketCategoryEntity?$select=name,department,category/id
 ```
 
@@ -85,7 +87,7 @@ OK
 POST /api/v1/Agents/List/GetTicketCategoryEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -95,36 +97,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 318,
-  "ParentId": 945,
-  "Name": "Romaguera-Kilback",
-  "Fullname": "ut",
-  "CategoryMaster": 214,
+  "TicketCategoryId": 806,
+  "ParentId": 672,
+  "Name": "O'Hara Group",
+  "Fullname": "itaque",
+  "CategoryMaster": 230,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Bogisich Inc and Sons",
+  "ExternalName": "Morissette-D'Amore",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 589,
-  "ReplyTemplate": 666,
-  "NotificationEmail": "beulah.feil@gutmann.com",
+  "AssignmentLag": 602,
+  "ReplyTemplate": 120,
+  "NotificationEmail": "walker_muller@ondrickaschumm.biz",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 448,
+  "EffectiveReplyTemplateId": 303,
   "ExtraFields": {
-    "ExtraFields1": "aut",
-    "ExtraFields2": "provident"
+    "ExtraFields1": "itaque",
+    "ExtraFields2": "quas"
   },
   "CustomFields": {
-    "CustomFields1": "expedita",
-    "CustomFields2": "veritatis"
+    "CustomFields1": "libero",
+    "CustomFields2": "vel"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 375
+      "FieldType": "System.String",
+      "FieldLength": 673
     }
   }
 }

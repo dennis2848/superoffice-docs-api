@@ -14,6 +14,8 @@ POST /api/v1/Agents/Selection/CreateDefaultBoardViewSettingsFromEntityType
 Creates a new carrier from the entity type given, with the right kind of properties, defaults set.
 
 
+NsApiSlow threshold: 1000 ms.
+
 
 
 
@@ -83,11 +85,11 @@ OK
 POST /api/v1/Agents/Selection/CreateDefaultBoardViewSettingsFromEntityType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "EntityType": "None"
+  "EntityType": "ContactPerson"
 }
 ```
 
@@ -98,17 +100,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BoardViewSettingsId": 481,
-  "EntityType": "None",
-  "AssociateId": 991,
-  "SelectionId": 872,
-  "HideEmptyGroups": false,
-  "GroupBy": "dolor",
-  "SubGroupBy": "facere",
-  "SortBy": "natus",
+  "BoardViewSettingsId": 260,
+  "EntityType": "ContactPerson",
+  "AssociateId": 18,
+  "SelectionId": 123,
+  "HideEmptyGroups": true,
+  "GroupBy": "qui",
+  "SubGroupBy": "repellendus",
+  "SortBy": "dolore",
   "SortDesc": false,
-  "SumBy": "saepe",
-  "ColorBy": "quis",
+  "SumBy": "excepturi",
+  "ColorBy": "et",
   "Filters": "ut"
 }
 ```

@@ -14,6 +14,8 @@ POST /api/v1/Agents/Appointment/CreateAndAcceptWithEmailConfirmation
 Creating an appointment from an emailItem invitation and accepting it with email confirmation to the meeting organizer.
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -70,7 +72,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailItemId": 914,
+  "EmailItemId": 441,
   "UpdateMode": "OnlyThis"
 }
 ```

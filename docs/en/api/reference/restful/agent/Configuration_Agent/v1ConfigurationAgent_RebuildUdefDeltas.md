@@ -15,6 +15,7 @@ Flush and rebuild userdefined field deltas.
 
 
 Mostly used after publishing udefs or adding/editing Customer Service extrafields
+NsApiSlow threshold: 5000 ms.
 
 
 

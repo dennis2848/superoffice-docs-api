@@ -15,6 +15,7 @@ Retrieve a stream to a mail template based on its name.
 
 
 Sanitizes the contents if possible.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -73,13 +74,13 @@ OK
 POST /api/v1/Agents/Document/GetSanitizedTemplateStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TemplateName": "Kovacek, Rosenbaum and Schultz",
+  "TemplateName": "Bergnaum LLC",
   "AllowPersonal": true,
-  "UiCulture": "excepturi"
+  "UiCulture": "blanditiis"
 }
 ```
 

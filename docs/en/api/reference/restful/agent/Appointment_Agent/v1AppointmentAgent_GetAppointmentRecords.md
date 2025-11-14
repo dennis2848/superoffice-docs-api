@@ -15,6 +15,7 @@ Get all records involved in a booking and/or recurring appointments.
 
 
 MotherId can be zero for repeating appointments or bookings, and recurrenceRuleId can be zero for bookings that are not repeating.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -135,8 +136,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "MotherId": 163,
-  "RecurrenceRuleId": 996
+  "MotherId": 630,
+  "RecurrenceRuleId": 14
 }
 ```
 
@@ -148,67 +149,67 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 681,
-    "StartDate": "2016-06-20T03:46:54.0195335+02:00",
-    "EndDate": "2010-07-30T03:46:54.0195335+02:00",
+    "AppointmentId": 33,
+    "StartDate": "2023-10-14T02:30:46.5382305+02:00",
+    "EndDate": "2023-07-14T02:30:46.5382305+02:00",
     "Type": "BookingForChecklist",
-    "Task": "occaecati",
-    "AssociateFullName": "Johnpaul Kovacek",
-    "ContactName": "Okuneva, Schmitt and Lynch",
-    "Description": "Team-oriented intangible analyzer",
-    "PersonFullName": "Estelle Smith",
-    "PersonId": 655,
-    "ContactId": 687,
-    "ProjectId": 33,
-    "ProjectName": "Robel Inc and Sons",
+    "Task": "quia",
+    "AssociateFullName": "Mustafa Harris",
+    "ContactName": "Hand Inc and Sons",
+    "Description": "Synergistic regional projection",
+    "PersonFullName": "Donny Ritchie",
+    "PersonId": 277,
+    "ContactId": 383,
+    "ProjectId": 43,
+    "ProjectName": "Schaefer-Will",
     "IsPublished": false,
-    "AssociateId": 458,
-    "ColorIndex": 459,
+    "AssociateId": 663,
+    "ColorIndex": 766,
     "IsFree": true,
-    "HasAlarm": true,
+    "HasAlarm": false,
     "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 285,
-    "PriorityName": "Rutherford Group",
+    "PriorityId": 715,
+    "PriorityName": "Stracke Group",
     "TaskType": "Appointment",
     "IsBookingMain": false,
     "IsRecurrence": false,
-    "IsBooking": true,
-    "ActiveDate": "2017-03-26T03:46:54.0195335+02:00",
+    "IsBooking": false,
+    "ActiveDate": "2015-06-23T02:30:46.5382305+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2008-05-06T03:46:54.0195335+02:00",
-    "RecurringEndDate": "2014-11-27T03:46:54.0195335+01:00",
-    "MotherId": 41,
-    "AssignedBy": 346,
-    "AssignedByFullName": "Watson Vernice Quitzon Jr.",
-    "RejectReason": "",
-    "Location": "veniam",
-    "AlarmLeadTime": "quas",
-    "SaleId": 283,
-    "SaleName": "Bins-Barton",
-    "AssociateName": "Towne LLC",
-    "CreatedDate": "2021-07-21T03:46:54.0195335+02:00",
-    "CreatedBy": "quos",
-    "CreatedByFullName": "Mrs. Toni Lue Flatley I",
-    "CreatedByAssociateId": 917,
+    "RecurringStartDate": "2022-06-13T02:30:46.5382305+02:00",
+    "RecurringEndDate": "2006-05-19T02:30:46.5382305+02:00",
+    "MotherId": 418,
+    "AssignedBy": 344,
+    "AssignedByFullName": "Miss Shana Jon Kertzmann",
+    "RejectReason": "expedite front-end architectures",
+    "Location": "dolorum",
+    "AlarmLeadTime": "velit",
+    "SaleId": 329,
+    "SaleName": "Lindgren LLC",
+    "AssociateName": "Nienow Inc and Sons",
+    "CreatedDate": "2012-01-23T02:30:46.5382305+01:00",
+    "CreatedBy": "nulla",
+    "CreatedByFullName": "Rebecca Hessel",
+    "CreatedByAssociateId": 192,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "OwnedExternally": "Google",
-    "MotherAssociateId": 59,
+    "MotherAssociateId": 626,
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 476,
-    "Title": "amet",
-    "Agenda": "hic",
-    "InternalNotes": "dolores",
+    "PreferredTZLocation": 807,
+    "Title": "fugiat",
+    "Agenda": "ipsam",
+    "InternalNotes": "adipisci",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 122
+        "FieldLength": 477
       }
     }
   }

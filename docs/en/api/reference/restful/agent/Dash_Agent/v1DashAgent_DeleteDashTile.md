@@ -14,6 +14,8 @@ POST /api/v1/Agents/Dash/DeleteDashTile
 Deletes the DashTile
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -26,7 +28,7 @@ Deletes the DashTile
 | dashTileId | int32 | **Required** The identity of the DashTile |
 
 ```http
-POST /api/v1/Agents/Dash/DeleteDashTile?dashTileId=947
+POST /api/v1/Agents/Dash/DeleteDashTile?dashTileId=537
 ```
 
 
@@ -57,7 +59,7 @@ No Content
 POST /api/v1/Agents/Dash/DeleteDashTile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response

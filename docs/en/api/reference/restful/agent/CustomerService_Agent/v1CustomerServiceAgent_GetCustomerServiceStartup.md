@@ -14,6 +14,8 @@ POST /api/v1/Agents/CustomerService/GetCustomerServiceStartup
 Get the carrier with data that Service needs when starting up
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -69,7 +71,7 @@ OK
 POST /api/v1/Agents/CustomerService/GetCustomerServiceStartup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -79,28 +81,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TimezoneEnabled": false,
-  "TZOffset": 382,
-  "RecaptchaSiteKey": "atque",
+  "TimezoneEnabled": true,
+  "TZOffset": 132,
+  "RecaptchaSiteKey": "alias",
   "SelectedPreferences": [
     {
       "Level": "Database",
-      "RawValue": "quia",
+      "RawValue": "labore",
       "Specification": null,
-      "DisplayValue": "iste",
-      "DisplayTooltip": "quia",
+      "DisplayValue": "quia",
+      "DisplayTooltip": "eaque",
       "DisplayType": "Bool",
       "TabOrder": null,
-      "TargetId": 644,
-      "PrefDescId": 489,
-      "TableName": "Simonis Inc and Sons",
-      "UserPreferenceId": 933,
+      "TargetId": 421,
+      "PrefDescId": 1002,
+      "TableName": "Farrell-Volkman",
+      "UserPreferenceId": 486,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 148
+          "FieldType": "System.Int32",
+          "FieldLength": 22
         }
       }
     }
@@ -109,8 +111,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 117
+      "FieldType": "System.Int32",
+      "FieldLength": 828
     }
   }
 }

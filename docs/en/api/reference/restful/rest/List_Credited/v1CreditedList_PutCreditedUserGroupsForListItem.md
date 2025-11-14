@@ -98,47 +98,47 @@ OK
 PUT /api/v1/List/Credited/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 320,
-    "Name": "Howe, West and Corwin",
-    "ToolTip": "Ducimus unde.",
+    "Id": 631,
+    "Name": "Satterfield LLC",
+    "ToolTip": "Accusamus quis aperiam expedita est voluptates.",
     "Deleted": false,
-    "Rank": 277,
-    "Type": "debitis",
-    "ColorBlock": 453,
-    "IconHint": "culpa",
-    "Selected": true,
-    "LastChanged": "2005-02-02T03:47:00.628674+01:00",
+    "Rank": 261,
+    "Type": "soluta",
+    "ColorBlock": 307,
+    "IconHint": "quos",
+    "Selected": false,
+    "LastChanged": "2025-02-19T02:30:53.2567659+01:00",
     "ChildItems": [
       {
-        "Id": 918,
-        "Name": "Klocko LLC",
-        "ToolTip": "Beatae provident aperiam fugiat qui.",
+        "Id": 69,
+        "Name": "Harris-Pollich",
+        "ToolTip": "Qui ea reprehenderit dolores asperiores et neque fugiat.",
         "Deleted": false,
-        "Rank": 749,
-        "Type": "minus",
-        "ColorBlock": 731,
-        "IconHint": "esse",
-        "Selected": false,
-        "LastChanged": "2001-04-17T03:47:00.628674+02:00",
+        "Rank": 464,
+        "Type": "rerum",
+        "ColorBlock": 487,
+        "IconHint": "recusandae",
+        "Selected": true,
+        "LastChanged": "2005-07-21T02:30:53.2567659+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "amet",
-        "StyleHint": "omnis",
-        "Hidden": true,
-        "FullName": "Bo Bauch"
+        "ExtraInfo": "animi",
+        "StyleHint": "occaecati",
+        "Hidden": false,
+        "FullName": "Ms. Nasir Harvey"
       }
     ],
-    "ExtraInfo": "tenetur",
-    "StyleHint": "qui",
+    "ExtraInfo": "eos",
+    "StyleHint": "repudiandae",
     "Hidden": false,
-    "FullName": "Luisa Anderson"
+    "FullName": "Myrtie Padberg"
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 615,
-    "Name": "O'Conner, Maggio and Brakus",
-    "ToolTip": "Magnam ducimus eum laborum voluptates deleniti.",
-    "Deleted": false,
-    "Rank": 940,
-    "Type": "laudantium",
-    "ColorBlock": 601,
-    "IconHint": "magnam",
+    "Id": 696,
+    "Name": "Shanahan-Mayer",
+    "ToolTip": "Esse omnis amet laborum perferendis ex expedita ea.",
+    "Deleted": true,
+    "Rank": 519,
+    "Type": "nam",
+    "ColorBlock": 605,
+    "IconHint": "maxime",
     "Selected": false,
-    "LastChanged": "2012-08-09T03:47:00.628674+02:00",
+    "LastChanged": "2022-06-16T02:30:53.2567659+02:00",
     "ChildItems": [
       {
-        "Id": 407,
-        "Name": "Little, Franecki and Hauck",
-        "ToolTip": "Voluptate dolorum culpa repellat repudiandae temporibus voluptas.",
+        "Id": 479,
+        "Name": "Bradtke, Raynor and Terry",
+        "ToolTip": "Deleniti odio ut at omnis voluptas.",
         "Deleted": true,
-        "Rank": 344,
-        "Type": "consequatur",
-        "ColorBlock": 353,
-        "IconHint": "occaecati",
+        "Rank": 425,
+        "Type": "beatae",
+        "ColorBlock": 75,
+        "IconHint": "et",
         "Selected": true,
-        "LastChanged": "2010-03-03T03:47:00.628674+01:00",
+        "LastChanged": "2017-09-04T02:30:53.2567659+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "accusantium",
-        "StyleHint": "rem",
+        "ExtraInfo": "aspernatur",
+        "StyleHint": "omnis",
         "Hidden": false,
-        "FullName": "Mrs. Lucio Cole",
+        "FullName": "Miss Anthony Clay Buckridge IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 880
+            "FieldLength": 242
           }
         }
       }
     ],
-    "ExtraInfo": "repellendus",
-    "StyleHint": "repudiandae",
+    "ExtraInfo": "doloremque",
+    "StyleHint": "sunt",
     "Hidden": false,
-    "FullName": "Maurine Barrows",
+    "FullName": "Halle Berge",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 277
+        "FieldLength": 627
       }
     }
   }

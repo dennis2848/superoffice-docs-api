@@ -15,6 +15,7 @@ Removes members from the selection using a collection a selectionmember id's.
 
 
 Members can only be removed from single selection.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -68,14 +69,14 @@ No Content
 POST /api/v1/Agents/Selection/RemoveContactSelectionMembersFromIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 936,
+  "SelectionId": 137,
   "SelectionMembersIds": [
-    156,
-    906
+    794,
+    331
   ]
 }
 ```

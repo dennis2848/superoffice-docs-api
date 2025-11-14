@@ -76,25 +76,25 @@ OK
 PUT /api/v1/List/DeliveryType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 825,
-    "Name": "Altenwerth-Wolff",
-    "Tooltip": "temporibus",
+    "HeadingId": 233,
+    "Name": "Schaden LLC",
+    "Tooltip": "dignissimos",
     "Deleted": false,
-    "Rank": 124,
-    "UdListDefinitionId": 17
+    "Rank": 702,
+    "UdListDefinitionId": 587
   },
   {
-    "HeadingId": 825,
-    "Name": "Altenwerth-Wolff",
-    "Tooltip": "temporibus",
+    "HeadingId": 233,
+    "Name": "Schaden LLC",
+    "Tooltip": "dignissimos",
     "Deleted": false,
-    "Rank": 124,
-    "UdListDefinitionId": 17
+    "Rank": 702,
+    "UdListDefinitionId": 587
   }
 ]
 ```
@@ -107,18 +107,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 801,
-    "Name": "Nolan-Tromp",
-    "Tooltip": "error",
+    "HeadingId": 269,
+    "Name": "Osinski, Kohler and Watsica",
+    "Tooltip": "sint",
     "Deleted": true,
-    "Rank": 166,
-    "UdListDefinitionId": 425,
+    "Rank": 484,
+    "UdListDefinitionId": 478,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 877
+        "FieldLength": 978
       }
     }
   }

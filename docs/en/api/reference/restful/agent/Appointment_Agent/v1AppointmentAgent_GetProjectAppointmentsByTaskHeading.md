@@ -15,6 +15,7 @@ Method that returns a specified number of appointments of a specific appointment
 
 
 The appointments belong to the project specified.  Task represents the different types of activities, like “Phone call”, “Meeting” and so on. The heading represents a grouping or filtering of tasks.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -138,11 +139,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 843,
-  "StartTime": "2024-08-22T03:46:53.9882851+02:00",
-  "EndTime": "2004-05-29T03:46:53.9882851+02:00",
-  "Count": 238,
-  "TaskHeadingId": 82
+  "ProjectId": 713,
+  "StartTime": "2009-12-06T02:30:46.5069828+01:00",
+  "EndTime": "2025-01-30T02:30:46.5069828+01:00",
+  "Count": 733,
+  "TaskHeadingId": 290
 }
 ```
 
@@ -154,67 +155,67 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 69,
-    "StartDate": "2022-03-18T03:46:53.9882851+01:00",
-    "EndDate": "2011-03-09T03:46:53.9882851+01:00",
+    "AppointmentId": 292,
+    "StartDate": "2003-12-19T02:30:46.5069828+01:00",
+    "EndDate": "2004-11-06T02:30:46.5069828+01:00",
     "Type": "BookingForChecklist",
-    "Task": "dolores",
-    "AssociateFullName": "Esteban Walter",
-    "ContactName": "Sporer, Botsford and Hane",
-    "Description": "Up-sized discrete solution",
-    "PersonFullName": "Rita Haley",
-    "PersonId": 35,
-    "ContactId": 968,
-    "ProjectId": 814,
-    "ProjectName": "Quigley, Kohler and Ratke",
+    "Task": "quo",
+    "AssociateFullName": "Kylee Barrows",
+    "ContactName": "Durgan LLC",
+    "Description": "Inverse cohesive standardization",
+    "PersonFullName": "Lera Haley Jr.",
+    "PersonId": 53,
+    "ContactId": 539,
+    "ProjectId": 68,
+    "ProjectName": "Johnston-Dibbert",
     "IsPublished": false,
-    "AssociateId": 902,
-    "ColorIndex": 808,
-    "IsFree": false,
+    "AssociateId": 950,
+    "ColorIndex": 443,
+    "IsFree": true,
     "HasAlarm": false,
     "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 739,
-    "PriorityName": "Fay Group",
+    "PriorityId": 710,
+    "PriorityName": "Stroman LLC",
     "TaskType": "Appointment",
-    "IsBookingMain": true,
-    "IsRecurrence": true,
-    "IsBooking": true,
-    "ActiveDate": "2003-04-22T03:46:53.9882851+02:00",
+    "IsBookingMain": false,
+    "IsRecurrence": false,
+    "IsBooking": false,
+    "ActiveDate": "2022-08-10T02:30:46.5069828+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2016-09-11T03:46:53.9882851+02:00",
-    "RecurringEndDate": "2002-09-03T03:46:53.9882851+02:00",
-    "MotherId": 865,
-    "AssignedBy": 632,
-    "AssignedByFullName": "Marcelino Rath",
+    "RecurringStartDate": "2009-12-22T02:30:46.5069828+01:00",
+    "RecurringEndDate": "1999-09-01T02:30:46.5069828+02:00",
+    "MotherId": 364,
+    "AssignedBy": 709,
+    "AssignedByFullName": "Dr. Madisyn Rosenbaum",
     "RejectReason": "",
-    "Location": "et",
-    "AlarmLeadTime": "quo",
-    "SaleId": 813,
-    "SaleName": "Wilkinson-Borer",
-    "AssociateName": "Hand-Shields",
-    "CreatedDate": "2017-05-18T03:46:53.9882851+02:00",
-    "CreatedBy": "quas",
-    "CreatedByFullName": "Jennifer Stark",
-    "CreatedByAssociateId": 594,
+    "Location": "rem",
+    "AlarmLeadTime": "ab",
+    "SaleId": 258,
+    "SaleName": "Fisher-Yost",
+    "AssociateName": "Cole Group",
+    "CreatedDate": "2005-11-24T02:30:46.5069828+01:00",
+    "CreatedBy": "est",
+    "CreatedByFullName": "Janessa Effertz",
+    "CreatedByAssociateId": 760,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "OwnedExternally": "Google",
-    "MotherAssociateId": 43,
+    "MotherAssociateId": 298,
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 778,
-    "Title": "quidem",
-    "Agenda": "sit",
-    "InternalNotes": "pariatur",
+    "PreferredTZLocation": 659,
+    "Title": "totam",
+    "Agenda": "ducimus",
+    "InternalNotes": "ut",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 180
+        "FieldType": "System.String",
+        "FieldLength": 857
       }
     }
   }

@@ -15,6 +15,7 @@ Obtain a selection for the given entity, for the current user, of type WorkingSe
 
 
 Optionally populate criteria from the TypicalSearches system
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -82,12 +83,12 @@ OK
 POST /api/v1/Agents/Selection/GetSelectionForFind
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "EntityName": "Gerlach-Pouros",
-  "TypicalSearchId": 32
+  "EntityName": "Watsica-Grimes",
+  "TypicalSearchId": 345
 }
 ```
 
@@ -98,18 +99,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Thiel, Fahey and Schmidt",
-  "SelectionId": 149,
-  "CanSaveAsSelection": true,
-  "MainHeading": "magni",
-  "FilterScreenHeading": "quia",
-  "SelectionEntityHeading": "incidunt",
+  "ProviderName": "Lueilwitz, Hermann and Braun",
+  "SelectionId": 433,
+  "CanSaveAsSelection": false,
+  "MainHeading": "quia",
+  "FilterScreenHeading": "exercitationem",
+  "SelectionEntityHeading": "delectus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 484
+      "FieldType": "System.String",
+      "FieldLength": 456
     }
   }
 }

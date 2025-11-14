@@ -66,7 +66,7 @@ OK
 GET /api/v1/List/DeliveryTerm/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -76,18 +76,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 835,
-  "Name": "Hirthe-Hamill",
+  "Id": 287,
+  "Name": "Shields Group",
   "Tooltip": "eum",
-  "Deleted": true,
-  "UdListDefinitionId": 583,
-  "Rank": 201,
+  "Deleted": false,
+  "UdListDefinitionId": 195,
+  "Rank": 953,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 215
+      "FieldType": "System.Int32",
+      "FieldLength": 180
     }
   }
 }

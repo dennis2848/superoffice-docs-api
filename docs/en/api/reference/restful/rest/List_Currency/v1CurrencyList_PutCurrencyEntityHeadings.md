@@ -76,25 +76,25 @@ OK
 PUT /api/v1/List/Currency/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 415,
-    "Name": "Reinger Inc and Sons",
-    "Tooltip": "molestiae",
-    "Deleted": true,
-    "Rank": 76,
-    "UdListDefinitionId": 255
+    "HeadingId": 840,
+    "Name": "Hudson-Bayer",
+    "Tooltip": "sed",
+    "Deleted": false,
+    "Rank": 667,
+    "UdListDefinitionId": 264
   },
   {
-    "HeadingId": 415,
-    "Name": "Reinger Inc and Sons",
-    "Tooltip": "molestiae",
-    "Deleted": true,
-    "Rank": 76,
-    "UdListDefinitionId": 255
+    "HeadingId": 840,
+    "Name": "Hudson-Bayer",
+    "Tooltip": "sed",
+    "Deleted": false,
+    "Rank": 667,
+    "UdListDefinitionId": 264
   }
 ]
 ```
@@ -107,18 +107,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 97,
-    "Name": "Mills-Dietrich",
-    "Tooltip": "et",
-    "Deleted": true,
-    "Rank": 37,
-    "UdListDefinitionId": 668,
+    "HeadingId": 156,
+    "Name": "Wilderman Inc and Sons",
+    "Tooltip": "nostrum",
+    "Deleted": false,
+    "Rank": 634,
+    "UdListDefinitionId": 470,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 381
+        "FieldLength": 703
       }
     }
   }

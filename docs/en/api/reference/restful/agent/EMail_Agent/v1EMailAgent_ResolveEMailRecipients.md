@@ -15,6 +15,7 @@ Resolve separate emails from single string.
 
 
 Also lookup persons by emails.
+NsApiSlow threshold: 5000 ms.
 
 
 ## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
@@ -87,11 +88,11 @@ OK
 POST /api/v1/Agents/EMail/ResolveEMailRecipients
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailAddress": "rocky_okon@walsh.ca"
+  "EmailAddress": "ofelia@robertshalvorson.biz"
 }
 ```
 
@@ -103,24 +104,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 909,
-    "ContactName": "Strosin-Gusikowski",
-    "PersonId": 631,
-    "PersonName": "Herman Group",
-    "AssociateId": 823,
-    "Address": "in",
-    "EmailId": 827,
+    "ContactId": 15,
+    "ContactName": "Monahan LLC",
+    "PersonId": 274,
+    "PersonName": "Torphy, Bruen and Rosenbaum",
+    "AssociateId": 477,
+    "Address": "et",
+    "EmailId": 111,
     "DuplicatePersonIds": [
-      67,
-      820
+      145,
+      473
     ],
-    "Name": "Hodkiewicz Inc and Sons",
+    "Name": "McGlynn, Stark and Rogahn",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 727
+        "FieldType": "System.Int32",
+        "FieldLength": 676
       }
     }
   }

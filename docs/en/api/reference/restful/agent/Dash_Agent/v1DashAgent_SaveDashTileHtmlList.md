@@ -14,6 +14,8 @@ POST /api/v1/Agents/Dash/SaveDashTileHtmlList
 Set the HTML data for a tile with TileType = HTML.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -80,15 +82,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 590,
+  "DashboardTileDefinitionId": 107,
   "Languages": [
     {
-      "LanguageCode": "saepe",
-      "Html": "illum"
+      "LanguageCode": "vel",
+      "Html": "voluptatem"
     },
     {
-      "LanguageCode": "saepe",
-      "Html": "illum"
+      "LanguageCode": "vel",
+      "Html": "voluptatem"
     }
   ]
 }
@@ -102,26 +104,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageCode": "occaecati",
-    "Html": "quas",
+    "LanguageCode": "saepe",
+    "Html": "deleniti",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 517
+        "FieldLength": 297
       }
     }
   },
   {
-    "LanguageCode": "occaecati",
-    "Html": "quas",
+    "LanguageCode": "saepe",
+    "Html": "deleniti",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 517
+        "FieldLength": 297
       }
     }
   }

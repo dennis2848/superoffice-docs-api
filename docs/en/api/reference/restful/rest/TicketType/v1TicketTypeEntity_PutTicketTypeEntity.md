@@ -14,6 +14,8 @@ PUT /api/v1/TicketType/{id}
 Updates the existing TicketTypeEntity
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -116,38 +118,38 @@ TicketTypeEntity updated.
 PUT /api/v1/TicketType/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 511,
-  "Name": "Wehner-Lueilwitz",
-  "Rank": 962,
-  "Tooltip": "illo",
-  "Icon": "voluptas",
-  "DefaultTicketStatus": 617,
+  "TicketTypeId": 146,
+  "Name": "Kling-Lind",
+  "Rank": 629,
+  "Tooltip": "asperiores",
+  "Icon": "fugiat",
+  "DefaultTicketStatus": 29,
   "TicketStatuses": [
-    997,
-    417
+    930,
+    467
   ],
-  "DefaultTicketPriority": 397,
+  "DefaultTicketPriority": 945,
   "TicketPriorities": [
     115,
-    626
+    669
   ],
-  "ReplyTemplate": 473,
+  "ReplyTemplate": 703,
   "IsExternalVisible": true,
   "IsDefault": true,
-  "ShowInNew": false,
-  "ExcludeSignature": true,
+  "ShowInNew": true,
+  "ExcludeSignature": false,
   "ExcludeEmailRecipients": false,
-  "ExternalAsDefault": false,
+  "ExternalAsDefault": true,
   "VisibleForGroups": [
-    780,
-    28
+    528,
+    514
   ],
   "ReplyForwardNoSignature": false,
-  "ReplyExternalAsDefault": true
+  "ReplyExternalAsDefault": false
 }
 ```
 
@@ -158,31 +160,31 @@ HTTP/1.1 200 TicketTypeEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 565,
-  "Name": "Treutel-Rutherford",
-  "Rank": 13,
-  "Tooltip": "ea",
-  "Icon": "sunt",
-  "DefaultTicketStatus": 38,
+  "TicketTypeId": 899,
+  "Name": "Hilll-Stracke",
+  "Rank": 104,
+  "Tooltip": "atque",
+  "Icon": "sed",
+  "DefaultTicketStatus": 218,
   "TicketStatuses": [
-    80,
-    909
+    298,
+    960
   ],
-  "DefaultTicketPriority": 360,
+  "DefaultTicketPriority": 111,
   "TicketPriorities": [
-    803,
-    361
+    250,
+    418
   ],
-  "ReplyTemplate": 944,
-  "IsExternalVisible": false,
-  "IsDefault": false,
+  "ReplyTemplate": 754,
+  "IsExternalVisible": true,
+  "IsDefault": true,
   "ShowInNew": false,
-  "ExcludeSignature": true,
+  "ExcludeSignature": false,
   "ExcludeEmailRecipients": false,
   "ExternalAsDefault": false,
   "VisibleForGroups": [
-    266,
-    1002
+    122,
+    134
   ],
   "ReplyForwardNoSignature": true,
   "ReplyExternalAsDefault": false,
@@ -190,8 +192,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 406
+      "FieldType": "System.Int32",
+      "FieldLength": 817
     }
   },
   "_Links": {

@@ -14,6 +14,8 @@ POST /api/v1/Agents/Appointment/CreateDefaultAppointmentEntityByType
 Creates an AppointmentEntity populated with the default values for the specific type.
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -152,121 +154,121 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2017-07-29T03:46:54.0664078+02:00",
-  "AppointmentId": 605,
-  "Description": "Devolved modular moderator",
-  "Title": "at",
-  "Agenda": "et",
-  "InternalNotes": "dolor",
-  "StartDate": "2006-04-25T03:46:54.0664078+02:00",
-  "EndDate": "2007-08-21T03:46:54.0664078+02:00",
+  "CreatedDate": "2015-08-04T02:30:46.5851045+02:00",
+  "AppointmentId": 943,
+  "Description": "Intuitive global productivity",
+  "Title": "est",
+  "Agenda": "doloribus",
+  "InternalNotes": "suscipit",
+  "StartDate": "1998-12-04T02:30:46.5851045+01:00",
+  "EndDate": "2020-07-03T02:30:46.5851045+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 602,
+  "MotherId": 905,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2014-02-23T03:46:54.0664078+01:00",
+  "UpdatedDate": "2011-09-06T02:30:46.5851045+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 518,
+  "ActiveLinks": 963,
   "Links": [
     {
-      "EntityName": "Aufderhar-Schmeler",
-      "Id": 357,
-      "Description": "Versatile well-modulated archive",
-      "ExtraInfo": "quo",
-      "LinkId": 769,
+      "EntityName": "Bernier, Gutkowski and Christiansen",
+      "Id": 271,
+      "Description": "Compatible maximized complexity",
+      "ExtraInfo": "qui",
+      "LinkId": 417,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 303
+          "FieldLength": 741
         }
       }
     }
   ],
-  "AlarmLeadTime": "et",
-  "HasAlarm": false,
-  "ColorIndex": 915,
-  "IsFree": false,
-  "IsAlldayEvent": true,
-  "LagTime": "nihil",
-  "LeadTime": "expedita",
-  "Location": "modi",
-  "RejectCounter": 927,
+  "AlarmLeadTime": "inventore",
+  "HasAlarm": true,
+  "ColorIndex": 581,
+  "IsFree": true,
+  "IsAlldayEvent": false,
+  "LagTime": "quas",
+  "LeadTime": "quisquam",
+  "Location": "sint",
+  "RejectCounter": 326,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 78,
-      "PersonId": 729,
-      "ContactId": 585,
-      "EmailId": 510,
-      "SendEmail": true,
+      "AssociateId": 890,
+      "PersonId": 794,
+      "ContactId": 509,
+      "EmailId": 961,
+      "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "candice.jaskolski@russel.name",
-      "Description": "Open-architected encompassing projection"
+      "EmailAddress": "giles@abernathycrona.biz",
+      "Description": "De-engineered neutral instruction set"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2000-04-02T03:46:54.0664078+02:00",
+  "ActiveDate": "2010-05-13T02:30:46.5851045+02:00",
   "HasConflict": true,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 446,
+  "PreferredTZLocation": 476,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 904,
+  "SuggestedAppointmentId": 247,
   "IsMileStone": true,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "OwnedExternally": "Google",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "consequatur",
+  "CentralserviceVideomeetId": "et",
   "UserDefinedFields": {
-    "SuperOffice:1": "Jett Vicenta Moen DDS",
-    "SuperOffice:2": "Shanna Connelly"
+    "SuperOffice:1": "Mr. Romaine Alicia Flatley",
+    "SuperOffice:2": "232025032"
   },
   "ExtraFields": {
-    "ExtraFields1": "nostrum",
-    "ExtraFields2": "occaecati"
+    "ExtraFields1": "consequatur",
+    "ExtraFields2": "recusandae"
   },
   "CustomFields": {
-    "CustomFields1": "et",
-    "CustomFields2": "iusto"
+    "CustomFields1": "nostrum",
+    "CustomFields2": "sit"
   },
-  "PublishEventDate": "2012-06-18T03:46:54.0820313+02:00",
-  "PublishTo": "2014-02-22T03:46:54.0820313+01:00",
-  "PublishFrom": "2008-05-29T03:46:54.0820313+02:00",
-  "IsPublished": true,
+  "PublishEventDate": "2010-04-30T02:30:46.6007285+02:00",
+  "PublishTo": "2015-10-12T02:30:46.6007285+02:00",
+  "PublishFrom": "2010-08-15T02:30:46.6007285+02:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 663,
+      "VisibleId": 90,
       "Visibility": "All",
-      "DisplayValue": "sunt",
+      "DisplayValue": "qui",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 39
+          "FieldLength": 716
         }
       }
     },
     {
-      "VisibleId": 663,
+      "VisibleId": 90,
       "Visibility": "All",
-      "DisplayValue": "sunt",
+      "DisplayValue": "qui",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 39
+          "FieldLength": 716
         }
       }
     }
@@ -275,8 +277,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 82
+      "FieldType": "System.String",
+      "FieldLength": 642
     }
   }
 }

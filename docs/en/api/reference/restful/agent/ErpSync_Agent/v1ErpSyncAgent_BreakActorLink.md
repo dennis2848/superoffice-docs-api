@@ -14,6 +14,9 @@ POST /api/v1/Agents/ErpSync/BreakActorLink
 Remove the link between a CRM entity and an ERP entity
 
 
+NsApiSlow threshold: 5000 ms.
+
+
 ## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
 
 
@@ -77,8 +80,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 920,
-  "CrmRecordId": 829,
+  "ErpConnectionId": 714,
+  "CrmRecordId": 532,
   "CrmActorType": "Contact"
 }
 ```
@@ -89,5 +92,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-false
+true
 ```

@@ -18,6 +18,7 @@ NetServer calculates default values on the entity, which is required when creati
 
 
 ## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps. Calls the User agent service CreateDefaultRoleEntity.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -72,7 +73,7 @@ OK
 GET /api/v1/Role/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -82,16 +83,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 571,
-  "Name": "Wolf-Grant",
-  "Tooltip": "eum",
+  "RoleId": 502,
+  "Name": "King-Ortiz",
+  "Tooltip": "modi",
   "RoleType": "Anonymous",
-  "Deleted": 231,
-  "Rank": 946,
-  "Created": "2000-01-16T03:47:00.2068137+01:00",
-  "UseCategories": 691,
+  "Deleted": 828,
+  "Rank": 831,
+  "Created": "2000-07-14T02:30:52.8349052+02:00",
+  "UseCategories": 621,
   "CreatedBy": null,
-  "Updated": "2003-10-20T03:47:00.2068137+02:00",
+  "Updated": "2024-07-28T02:30:52.8349052+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -99,7 +100,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 182
+      "FieldLength": 717
     }
   }
 }

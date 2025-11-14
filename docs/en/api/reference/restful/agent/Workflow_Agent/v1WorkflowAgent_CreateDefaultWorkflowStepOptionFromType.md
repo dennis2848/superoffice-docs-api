@@ -14,6 +14,8 @@ POST /api/v1/Agents/Workflow/CreateDefaultWorkflowStepOptionFromType
 Creates a new carrier from the option type given, with the right kind of properties, defaults set.
 
 
+NsApiSlow threshold: 1000 ms.
+
 
 
 
@@ -78,7 +80,7 @@ OK
 POST /api/v1/Agents/Workflow/CreateDefaultWorkflowStepOptionFromType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -94,23 +96,23 @@ Content-Type: application/json; charset=utf-8
 
 {
   "OptionType": "FormData",
-  "WorkflowStepOptionId": 726,
-  "WorkflowStepId": 274,
-  "WorkflowId": 198,
-  "Name": "Bogan-Legros",
-  "Rank": 161,
+  "WorkflowStepOptionId": 962,
+  "WorkflowStepId": 706,
+  "WorkflowId": 153,
+  "Name": "White, Crona and Lubowitz",
+  "Rank": 324,
   "Steps": [
     {
-      "WorkflowStepId": 945,
-      "WorkflowId": 673,
+      "WorkflowStepId": 857,
+      "WorkflowId": 308,
       "StepType": "AddToList",
-      "Rank": 766
+      "Rank": 164
     },
     {
-      "WorkflowStepId": 945,
-      "WorkflowId": 673,
+      "WorkflowStepId": 857,
+      "WorkflowId": 308,
       "StepType": "AddToList",
-      "Rank": 766
+      "Rank": 164
     }
   ]
 }

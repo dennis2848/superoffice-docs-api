@@ -14,7 +14,8 @@ POST /api/v1/Agents/Document/GetProjectDocumentsByTemplateType
 Method that returns a specified number of document appointments within a time range, filtered by document template type.
 
 
-The document appointments belong to the project specified.
+The document appointments belong to the project specified. 
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -103,11 +104,11 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 617,
-  "StartTime": "2012-04-17T03:46:54.6132622+02:00",
-  "EndTime": "2015-11-01T03:46:54.6132622+01:00",
-  "Count": 4,
-  "DocumentTemplateId": 567
+  "ProjectId": 190,
+  "StartTime": "2013-12-15T02:30:47.0850878+01:00",
+  "EndTime": "2016-03-25T02:30:47.0850878+01:00",
+  "Count": 712,
+  "DocumentTemplateId": 84
 }
 ```
 
@@ -119,32 +120,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 91,
-    "Attention": "consequatur",
-    "Header": "voluptas",
-    "Name": "Abshire, Huels and Reichert",
-    "OurRef": "debitis",
-    "YourRef": "ratione",
-    "Description": "Grass-roots composite interface",
-    "DocumentTemplate": "enim",
+    "DocumentId": 518,
+    "Attention": "incidunt",
+    "Header": "sit",
+    "Name": "Krajcik-Hoeger",
+    "OurRef": "est",
+    "YourRef": "odio",
+    "Description": "Innovative multi-state process improvement",
+    "DocumentTemplate": "consequatur",
     "IsPublished": false,
-    "PersonId": 970,
-    "PersonFullName": "Ms. Arlie Eliezer Purdy",
-    "AssociateFullName": "Berta Krajcik",
-    "ContactId": 946,
-    "ContactName": "Goldner Inc and Sons",
-    "ProjectId": 281,
-    "ProjectName": "Greenfelder Group",
-    "AssociateId": 31,
-    "Snum": 763,
-    "SaleId": 851,
-    "SaleName": "Shields, O'Conner and Rohan",
+    "PersonId": 368,
+    "PersonFullName": "Daniella Eichmann",
+    "AssociateFullName": "Kathleen Rippin",
+    "ContactId": 561,
+    "ContactName": "Hodkiewicz-Strosin",
+    "ProjectId": 629,
+    "ProjectName": "Klein-Mitchell",
+    "AssociateId": 286,
+    "Snum": 711,
+    "SaleId": 246,
+    "SaleName": "Emmerich-Keeling",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 916
+        "FieldType": "System.Int32",
+        "FieldLength": 851
       }
     }
   }

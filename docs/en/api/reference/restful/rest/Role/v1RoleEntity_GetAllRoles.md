@@ -79,7 +79,7 @@ OK
 GET /api/v1/Role/{roleType}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -90,56 +90,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 119,
-    "Name": "Treutel LLC",
-    "ToolTip": "Ut praesentium corrupti.",
+    "Id": 345,
+    "Name": "Haley Inc and Sons",
+    "ToolTip": "Odio sunt nemo quia.",
     "Deleted": false,
-    "Rank": 643,
-    "Type": "aperiam",
-    "ColorBlock": 353,
-    "IconHint": "necessitatibus",
+    "Rank": 122,
+    "Type": "soluta",
+    "ColorBlock": 277,
+    "IconHint": "aut",
     "Selected": false,
-    "LastChanged": "2012-11-12T03:47:00.2224384+01:00",
+    "LastChanged": "2024-09-27T02:30:52.8349052+02:00",
     "ChildItems": [
       {
-        "Id": 577,
-        "Name": "Jenkins-Stracke",
-        "ToolTip": "Delectus ex nemo cumque dolores.",
-        "Deleted": true,
-        "Rank": 419,
-        "Type": "sed",
-        "ColorBlock": 938,
+        "Id": 759,
+        "Name": "Schiller Group",
+        "ToolTip": "Minima qui.",
+        "Deleted": false,
+        "Rank": 412,
+        "Type": "aperiam",
+        "ColorBlock": 873,
         "IconHint": "et",
         "Selected": false,
-        "LastChanged": "2014-10-25T03:47:00.2224384+02:00",
+        "LastChanged": "2020-11-21T02:30:52.8349052+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "qui",
-        "StyleHint": "alias",
-        "Hidden": false,
-        "FullName": "Ofelia Gregory Heaney DVM",
+        "ExtraInfo": "eius",
+        "StyleHint": "et",
+        "Hidden": true,
+        "FullName": "Mr. Verdie Jacobson",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 542
+            "FieldLength": 971
           }
         }
       }
     ],
-    "ExtraInfo": "consequuntur",
-    "StyleHint": "necessitatibus",
-    "Hidden": true,
-    "FullName": "Mr. Edd Keanu Orn",
+    "ExtraInfo": "culpa",
+    "StyleHint": "qui",
+    "Hidden": false,
+    "FullName": "Ms. Roslyn Adaline Kub",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 528
+        "FieldLength": 57
       }
     }
   }

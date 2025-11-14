@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/SaveTicketCategoryEntity
 Updates the existing TicketCategoryEntity or creates a new TicketCategoryEntity if the id parameter is 0.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -98,33 +100,33 @@ OK
 POST /api/v1/Agents/List/SaveTicketCategoryEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 997,
-  "ParentId": 617,
-  "Name": "Bahringer-Turner",
-  "Fullname": "cupiditate",
-  "CategoryMaster": 741,
+  "TicketCategoryId": 189,
+  "ParentId": 164,
+  "Name": "Ward, Hand and Boyer",
+  "Fullname": "tempora",
+  "CategoryMaster": 218,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Cremin LLC",
+  "ExternalName": "McClure Group",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 735,
-  "ReplyTemplate": 307,
-  "NotificationEmail": "viola@christiansen.uk",
+  "AssignmentLag": 248,
+  "ReplyTemplate": 619,
+  "NotificationEmail": "emil_buckridge@jacobsoncummings.com",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 392,
+  "EffectiveReplyTemplateId": 375,
   "ExtraFields": {
-    "ExtraFields1": "in",
-    "ExtraFields2": "eveniet"
+    "ExtraFields1": "velit",
+    "ExtraFields2": "nulla"
   },
   "CustomFields": {
-    "CustomFields1": "et",
-    "CustomFields2": "vel"
+    "CustomFields1": "dignissimos",
+    "CustomFields2": "consequatur"
   }
 }
 ```
@@ -136,36 +138,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 383,
-  "ParentId": 585,
-  "Name": "Reinger, Bergnaum and Lind",
-  "Fullname": "distinctio",
-  "CategoryMaster": 632,
+  "TicketCategoryId": 330,
+  "ParentId": 220,
+  "Name": "Jaskolski-Herzog",
+  "Fullname": "nulla",
+  "CategoryMaster": 85,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Howell, Considine and Bradtke",
+  "ExternalName": "Shanahan, Bailey and Smith",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 298,
-  "ReplyTemplate": 921,
-  "NotificationEmail": "mitchell.glover@huelwitting.us",
+  "AssignmentLag": 264,
+  "ReplyTemplate": 399,
+  "NotificationEmail": "kathryn.jakubowski@legros.ca",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 902,
+  "EffectiveReplyTemplateId": 1000,
   "ExtraFields": {
-    "ExtraFields1": "deserunt",
-    "ExtraFields2": "earum"
+    "ExtraFields1": "ad",
+    "ExtraFields2": "ut"
   },
   "CustomFields": {
-    "CustomFields1": "eveniet",
-    "CustomFields2": "quo"
+    "CustomFields1": "numquam",
+    "CustomFields2": "qui"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 793
+      "FieldLength": 695
     }
   }
 }

@@ -15,6 +15,7 @@ Creates a new ContactRelationEntity
 
 
 Calls the Relation agent service SaveContactRelationEntity.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -111,28 +112,28 @@ OK
 POST /api/v1/Relation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 662,
-  "SourcePersonId": 907,
-  "DestinationContactId": 842,
-  "DestinationPersonId": 868,
-  "RelationId": 169,
-  "Comment": "unde",
-  "RelationDefinitionId": 490,
-  "Reversed": 301,
-  "UpdatedDate": "2022-08-06T03:46:59.8786923+02:00",
-  "CreatedDate": "2000-10-10T03:46:59.8786923+02:00",
+  "SourceContactId": 918,
+  "SourcePersonId": 686,
+  "DestinationContactId": 315,
+  "DestinationPersonId": 308,
+  "RelationId": 352,
+  "Comment": "minima",
+  "RelationDefinitionId": 718,
+  "Reversed": 922,
+  "UpdatedDate": "2009-08-09T02:30:52.506791+02:00",
+  "CreatedDate": "2004-09-03T02:30:52.506791+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Carter Inc and Sons",
-  "SourcePersonName": "Kiehn Group",
-  "DestinationContactName": "Hansen Group",
-  "DestinationPersonName": "Weber-Muller",
-  "ActiveText": "et",
-  "PassiveText": "optio"
+  "SourceContactName": "Cartwright, Dach and Schamberger",
+  "SourcePersonName": "Kuphal-Wolff",
+  "DestinationContactName": "Maggio Group",
+  "DestinationPersonName": "Cole LLC",
+  "ActiveText": "dolorum",
+  "PassiveText": "est"
 }
 ```
 
@@ -143,35 +144,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 79,
-  "SourcePersonId": 466,
+  "SourceContactId": 483,
+  "SourcePersonId": 459,
   "DestinationContactId": 702,
-  "DestinationPersonId": 584,
-  "RelationId": 525,
-  "Comment": "eos",
-  "RelationDefinitionId": 232,
-  "Reversed": 24,
-  "UpdatedDate": "2015-07-06T03:46:59.8786923+02:00",
-  "CreatedDate": "2012-09-06T03:46:59.8786923+02:00",
+  "DestinationPersonId": 338,
+  "RelationId": 35,
+  "Comment": "vel",
+  "RelationDefinitionId": 217,
+  "Reversed": 652,
+  "UpdatedDate": "2007-02-25T02:30:52.506791+01:00",
+  "CreatedDate": "2008-09-05T02:30:52.506791+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Mann Group",
-  "SourcePersonName": "VonRueden, Jacobs and Kessler",
-  "DestinationContactName": "Tillman-Reynolds",
-  "DestinationPersonName": "Rath Inc and Sons",
-  "ActiveText": "nihil",
-  "PassiveText": "dolor",
+  "SourceContactName": "Carroll-Morissette",
+  "SourcePersonName": "Maggio, Hagenes and Cartwright",
+  "DestinationContactName": "Hyatt Group",
+  "DestinationPersonName": "Wintheiser-Wunsch",
+  "ActiveText": "error",
+  "PassiveText": "inventore",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 179
+      "FieldType": "System.Int32",
+      "FieldLength": 209
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

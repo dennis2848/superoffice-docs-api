@@ -63,7 +63,7 @@ OK
 GET /api/v1/List/ProjectType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -74,18 +74,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 467,
-    "Name": "Haag, Kuphal and Hermann",
-    "Tooltip": "quasi",
-    "Deleted": true,
-    "Rank": 863,
-    "UdListDefinitionId": 452,
+    "HeadingId": 19,
+    "Name": "Gislason Group",
+    "Tooltip": "voluptas",
+    "Deleted": false,
+    "Rank": 465,
+    "UdListDefinitionId": 26,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 359
+        "FieldLength": 461
       }
     }
   }

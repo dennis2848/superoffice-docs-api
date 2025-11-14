@@ -94,23 +94,23 @@ OK
 PUT /api/v1/Contact/{contactId}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 799,
-  "BlobSize": 87,
-  "Description": "Persevering systematic analyzer",
-  "ExtraInfo": "vero",
+  "BlobId": 133,
+  "BlobSize": 543,
+  "Description": "Business-focused system-worthy implementation",
+  "ExtraInfo": "laboriosam",
   "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "quos",
-  "OriginalSize": 524,
-  "CreatedDate": "2005-12-22T03:46:59.8161962+01:00",
-  "UpdatedDate": "2001-10-30T03:46:59.8161962+01:00",
+  "MimeType": "rerum",
+  "OriginalSize": 981,
+  "CreatedDate": "2008-04-08T02:30:52.4442929+02:00",
+  "UpdatedDate": "2001-11-18T02:30:52.4442929+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "ut"
+  "ConceptualType": "qui"
 }
 ```
 
@@ -121,25 +121,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 629,
-  "BlobSize": 808,
-  "Description": "Re-contextualized 24 hour monitoring",
-  "ExtraInfo": "nulla",
-  "IsEncrypted": false,
-  "IsZipped": true,
-  "MimeType": "molestiae",
-  "OriginalSize": 288,
-  "CreatedDate": "2017-05-03T03:46:59.8161962+02:00",
-  "UpdatedDate": "2011-04-11T03:46:59.8161962+02:00",
+  "BlobId": 867,
+  "BlobSize": 41,
+  "Description": "Exclusive impactful superstructure",
+  "ExtraInfo": "nobis",
+  "IsEncrypted": true,
+  "IsZipped": false,
+  "MimeType": "vel",
+  "OriginalSize": 354,
+  "CreatedDate": "2011-01-08T02:30:52.4442929+01:00",
+  "UpdatedDate": "2017-10-10T02:30:52.4442929+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "dolores",
+  "ConceptualType": "ducimus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 174
+      "FieldLength": 380
     }
   }
 }

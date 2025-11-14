@@ -8,7 +8,7 @@ content_type: reference
 envir: onsite, online
 ---
 
-# target\_revision\_history Table (505)
+# target\_revision\_history Table (508)
 
 Revision history info in case the original target group or assignment info was deleted
 
@@ -40,15 +40,15 @@ Revision history info in case the original target group or assignment info was d
 | Fields | Types | Description |
 |--------|-------|-------------|
 |target\_revision\_history\_id |PK |Clustered, Unique |
-|target\_group\_id |FK |Unique |
 |target\_assignment\_info\_id |FK |Index |
+|target\_group\_id |FK |Index |
 
 ## Relationships
 
 | Table|  Description |
 |------|-------------|
 |[associate](associate.md)  |Employees, resources and other users - except for External persons |
-|[contact](contact.md)  |Companies and Organizations.   This table features a special record containing information about the contact that owns the database.   |
+|[contact](contact.md)  |Companies and Organizations. |
 |[target\_assignment\_info](target-assignment-info.md)  |Linking associate, company or user group target and other information with target values |
 |[target\_group](target-group.md)  |Info about a set of (sales, project, selection...) targets |
 |[target\_revision](target-revision.md)  |One batch of changes made to targets |

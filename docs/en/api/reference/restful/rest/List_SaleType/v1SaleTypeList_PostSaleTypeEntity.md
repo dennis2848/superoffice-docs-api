@@ -108,51 +108,51 @@ OK
 POST /api/v1/List/SaleType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 507,
-  "Name": "Kunze, Stamm and Okuneva",
-  "Tooltip": "aut",
-  "Rank": 996,
+  "SaleTypeId": 561,
+  "Name": "Johnston, Spinka and Shanahan",
+  "Tooltip": "sed",
+  "Rank": 835,
   "DurationUnit": "Century",
-  "SaleDuration": 782,
-  "SaleTypeCatId": 680,
-  "Deleted": false,
+  "SaleDuration": 491,
+  "SaleTypeCatId": 902,
+  "Deleted": true,
   "HasGuide": false,
   "HasStakeholders": false,
-  "IsAutoAdvance": true,
+  "IsAutoAdvance": false,
   "AllowQuoteAlternatives": true,
-  "DefaultQuoteValidity": 852,
-  "QuoteLinesTemplate": 341,
-  "ConfirmationLinesTemplate": 362,
-  "MaxDiscountPercentSet": true,
+  "DefaultQuoteValidity": 27,
+  "QuoteLinesTemplate": 241,
+  "ConfirmationLinesTemplate": 343,
+  "MaxDiscountPercentSet": false,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 820,
-  "MinEarningPercent": 341,
-  "GroupQuoteLinesBy": 458,
-  "SortGroupLinesBy": 467,
+  "MaxDiscountPercent": 119,
+  "MinEarningPercent": 912,
+  "GroupQuoteLinesBy": 298,
+  "SortGroupLinesBy": 788,
   "Stages": [
     {
-      "Id": 438,
-      "Name": "Jakubowski-Weissnat",
-      "ToolTip": "Sapiente voluptatem sed temporibus quis.",
-      "Deleted": true,
-      "Rank": 530,
-      "Type": "ipsa",
-      "ColorBlock": 756,
-      "IconHint": "nihil",
+      "Id": 982,
+      "Name": "Altenwerth-Schinner",
+      "ToolTip": "Voluptatibus qui voluptates pariatur et.",
+      "Deleted": false,
+      "Rank": 815,
+      "Type": "saepe",
+      "ColorBlock": 240,
+      "IconHint": "rem",
       "Selected": false,
-      "LastChanged": "2005-01-16T03:47:00.8005429+01:00",
+      "LastChanged": "2011-05-09T02:30:53.4286352+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "omnis",
-      "StyleHint": "ipsam",
+      "ExtraInfo": "beatae",
+      "StyleHint": "neque",
       "Hidden": false,
-      "FullName": "Karen Glover"
+      "FullName": "Lenny Goyette"
     }
   ]
 }
@@ -165,53 +165,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 298,
-  "Name": "Frami, Moen and Padberg",
-  "Tooltip": "quos",
-  "Rank": 32,
+  "SaleTypeId": 282,
+  "Name": "Bogan-Wintheiser",
+  "Tooltip": "corrupti",
+  "Rank": 364,
   "DurationUnit": "Century",
-  "SaleDuration": 435,
-  "SaleTypeCatId": 745,
+  "SaleDuration": 96,
+  "SaleTypeCatId": 214,
   "Deleted": false,
   "HasGuide": false,
-  "HasStakeholders": false,
+  "HasStakeholders": true,
   "IsAutoAdvance": false,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 852,
-  "QuoteLinesTemplate": 955,
-  "ConfirmationLinesTemplate": 527,
-  "MaxDiscountPercentSet": true,
-  "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 371,
-  "MinEarningPercent": 258,
-  "GroupQuoteLinesBy": 884,
-  "SortGroupLinesBy": 323,
+  "DefaultQuoteValidity": 747,
+  "QuoteLinesTemplate": 432,
+  "ConfirmationLinesTemplate": 168,
+  "MaxDiscountPercentSet": false,
+  "MinEarningPercentSet": true,
+  "MaxDiscountPercent": 45,
+  "MinEarningPercent": 958,
+  "GroupQuoteLinesBy": 255,
+  "SortGroupLinesBy": 438,
   "Stages": [
     {
-      "Id": 768,
-      "Name": "Oberbrunner, Larson and Simonis",
-      "ToolTip": "Omnis qui et excepturi.",
+      "Id": 290,
+      "Name": "Wintheiser-Cole",
+      "ToolTip": "Hic qui voluptates qui.",
       "Deleted": false,
-      "Rank": 776,
-      "Type": "et",
-      "ColorBlock": 202,
-      "IconHint": "rerum",
-      "Selected": false,
-      "LastChanged": "2025-01-15T03:47:00.8005429+01:00",
+      "Rank": 741,
+      "Type": "laboriosam",
+      "ColorBlock": 935,
+      "IconHint": "est",
+      "Selected": true,
+      "LastChanged": "2022-08-31T02:30:53.4286352+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "omnis",
-      "StyleHint": "consequatur",
-      "Hidden": true,
-      "FullName": "Ms. Gunnar Nicolette Wintheiser V",
+      "ExtraInfo": "ex",
+      "StyleHint": "nesciunt",
+      "Hidden": false,
+      "FullName": "Mr. Dwight Hills II",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 976
+          "FieldType": "System.Int32",
+          "FieldLength": 898
         }
       }
     }
@@ -220,8 +220,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 16
+      "FieldType": "System.Int32",
+      "FieldLength": 231
     }
   }
 }

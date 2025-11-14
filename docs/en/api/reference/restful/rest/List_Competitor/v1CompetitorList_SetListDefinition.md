@@ -89,15 +89,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 117,
-  "Name": "Smith Group",
-  "Tooltip": "voluptatem",
+  "Id": 406,
+  "Name": "Corwin, Auer and Mills",
+  "Tooltip": "nulla",
   "Deleted": false,
-  "Rank": 320,
-  "IsCustomList": false,
+  "Rank": 138,
+  "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "et",
+  "UseGroupsAndHeadings": true,
+  "ListType": "officiis",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -109,22 +109,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 440,
-  "Name": "Hammes Inc and Sons",
-  "Tooltip": "sed",
+  "Id": 850,
+  "Name": "Heidenreich, Langosh and Hackett",
+  "Tooltip": "vitae",
   "Deleted": false,
-  "Rank": 324,
-  "IsCustomList": false,
+  "Rank": 268,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "vitae",
-  "InUseByUserDefinedFields": true,
+  "ListType": "ut",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 74
+      "FieldType": "System.Int32",
+      "FieldLength": 852
     }
   }
 }

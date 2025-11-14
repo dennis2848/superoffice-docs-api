@@ -31,7 +31,7 @@ Change a PersonEntity user-defined field's type based on the prog-id or label.
 | isIndexed | bool |  Should we put data in an indexed column for faster access? Default no |
 
 ```http
-POST /api/v1/Person/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=True
+POST /api/v1/Person/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=False
 ```
 
 
@@ -105,7 +105,7 @@ PersonEntity found.
 POST /api/v1/Person/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -115,46 +115,46 @@ HTTP/1.1 200 PersonEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 200,
-  "ColumnId": 241,
-  "FieldDefault": "veritatis",
-  "FieldHeight": 935,
-  "FieldLabel": "sint",
-  "FieldLeft": 535,
-  "FieldTop": 497,
+  "UDefFieldId": 679,
+  "ColumnId": 189,
+  "FieldDefault": "sunt",
+  "FieldHeight": 751,
+  "FieldLabel": "sunt",
+  "FieldLeft": 662,
+  "FieldTop": 297,
   "FieldType": "Checkbox",
-  "FieldWidth": 912,
-  "FormatMask": "laboriosam",
+  "FieldWidth": 915,
+  "FormatMask": "saepe",
   "HideLabel": false,
-  "IsIndexed": true,
-  "LabelHeight": 772,
-  "LabelLeft": 956,
-  "LabelTop": 393,
-  "LabelWidth": 334,
-  "LastVersionId": 412,
-  "ListTableId": 252,
+  "IsIndexed": false,
+  "LabelHeight": 219,
+  "LabelLeft": 358,
+  "LabelTop": 248,
+  "LabelWidth": 161,
+  "LastVersionId": 610,
+  "ListTableId": 537,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 677,
-  "ProgId": "repellat",
-  "IsReadOnly": false,
-  "ShortLabel": "dignissimos",
-  "TabOrder": 850,
-  "TextLength": 449,
-  "Tooltip": "omnis",
-  "UdefIdentity": 648,
-  "UDListDefinitionId": 52,
+  "Page1LineNo": 994,
+  "ProgId": "dolore",
+  "IsReadOnly": true,
+  "ShortLabel": "voluptate",
+  "TabOrder": 906,
+  "TextLength": 40,
+  "Tooltip": "hic",
+  "UdefIdentity": 415,
+  "UDListDefinitionId": 983,
   "Justification": "Center",
-  "Version": 182,
-  "TemplateVariableName": "Fisher Group",
-  "HasBeenPublished": true,
-  "MdoListName": "Bosco Inc and Sons",
+  "Version": 280,
+  "TemplateVariableName": "Bernhard, Schuppe and Spinka",
+  "HasBeenPublished": false,
+  "MdoListName": "Schamberger, Abbott and Johnston",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 467
+      "FieldLength": 958
     }
   }
 }

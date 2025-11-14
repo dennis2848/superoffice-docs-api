@@ -15,6 +15,7 @@ Gets a PreferenceDescription object.
 
 
 Calls the Preference agent service GetPreferenceDescription.
+NsApiSlow threshold: 1000 ms.
 
 
 
@@ -101,35 +102,35 @@ HTTP/1.1 200 PreferenceDescription found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 228,
-  "Section": "est",
-  "Key": "non",
-  "Name": "Dibbert Group",
+  "PrefDescId": 172,
+  "Section": "vel",
+  "Key": "corrupti",
+  "Name": "Ratke Inc and Sons",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Versatile intangible leverage",
+  "Description": "Assimilated methodical instruction set",
   "IsBuiltin": false,
-  "TableName": "Brekke, Bednar and Wolff",
-  "UserDefinedListId": 648,
-  "Rank": 795,
-  "SubGroup": "et",
-  "MinLevel": 389,
-  "MaxValue": 24,
-  "MinValue": 919,
-  "RequiredLicense": "quisquam",
+  "TableName": "Kuhlman-Hessel",
+  "UserDefinedListId": 489,
+  "Rank": 357,
+  "SubGroup": "commodi",
+  "MinLevel": 80,
+  "MaxValue": 756,
+  "MinValue": 821,
+  "RequiredLicense": "ea",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 441
+      "FieldType": "System.String",
+      "FieldLength": 817
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

@@ -63,7 +63,7 @@ OK
 GET /api/v1/List/Currency/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -74,18 +74,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 348,
-    "Name": "Turcotte-Bergnaum",
-    "Tooltip": "cupiditate",
-    "Deleted": true,
-    "Rank": 360,
-    "UdListDefinitionId": 276,
+    "HeadingId": 183,
+    "Name": "Mann LLC",
+    "Tooltip": "est",
+    "Deleted": false,
+    "Rank": 229,
+    "UdListDefinitionId": 329,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 740
+        "FieldLength": 102
       }
     }
   }

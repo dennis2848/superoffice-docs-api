@@ -14,6 +14,8 @@ POST /api/v1/Agents/Quote/CreateDefaultQuoteAlternative
 Loading default values into a new QuoteAlternative.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -78,7 +80,7 @@ OK
 POST /api/v1/Agents/Quote/CreateDefaultQuoteAlternative
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -88,35 +90,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 981,
-  "ERPQuoteAlternativeKey": "reiciendis",
-  "QuoteVersionId": 703,
-  "Name": "Huel-Kovacek",
-  "Description": "Versatile exuding analyzer",
+  "QuoteAlternativeId": 557,
+  "ERPQuoteAlternativeKey": "laboriosam",
+  "QuoteVersionId": 538,
+  "Name": "Larkin Group",
+  "Description": "Multi-layered systemic hierarchy",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 30462.48,
-  "ERPDiscountAmount": 5794.766,
-  "DiscountPercent": 24532.951999999997,
-  "DiscountAmount": 16666.612,
+  "ERPDiscountPercent": 26093.683999999997,
+  "ERPDiscountAmount": 17832.46,
+  "DiscountPercent": 13413.52,
+  "DiscountAmount": 9806.286,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "placeat",
-  "VAT": 13413.52,
-  "EarningPercent": 23003.559999999998,
-  "EarningAmount": 13379.046,
-  "SubTotal": 17443.844,
-  "TotalPrice": 990.34399999999994,
-  "ExtraField1": "non",
-  "ExtraField2": "et",
-  "ExtraField3": "architecto",
-  "ExtraField4": "rerum",
-  "ExtraField5": "quaerat",
+  "VATInfo": "optio",
+  "VAT": 11959.344,
+  "EarningPercent": 12463.918,
+  "EarningAmount": 27939.61,
+  "SubTotal": 213.112,
+  "TotalPrice": 18966.968,
+  "ExtraField1": "quibusdam",
+  "ExtraField2": "sit",
+  "ExtraField3": "laborum",
+  "ExtraField4": "assumenda",
+  "ExtraField5": "nulla",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 795
+      "FieldType": "System.String",
+      "FieldLength": 349
     }
   }
 }

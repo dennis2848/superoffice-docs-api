@@ -76,25 +76,25 @@ OK
 PUT /api/v1/List/Business/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 749,
-    "Name": "Hartmann-Hettinger",
-    "Tooltip": "ullam",
-    "Deleted": false,
-    "Rank": 227,
-    "UdListDefinitionId": 824
+    "HeadingId": 136,
+    "Name": "Champlin-Abbott",
+    "Tooltip": "pariatur",
+    "Deleted": true,
+    "Rank": 324,
+    "UdListDefinitionId": 153
   },
   {
-    "HeadingId": 749,
-    "Name": "Hartmann-Hettinger",
-    "Tooltip": "ullam",
-    "Deleted": false,
-    "Rank": 227,
-    "UdListDefinitionId": 824
+    "HeadingId": 136,
+    "Name": "Champlin-Abbott",
+    "Tooltip": "pariatur",
+    "Deleted": true,
+    "Rank": 324,
+    "UdListDefinitionId": 153
   }
 ]
 ```
@@ -107,18 +107,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 846,
-    "Name": "Feeney, Hammes and Thiel",
-    "Tooltip": "inventore",
+    "HeadingId": 570,
+    "Name": "Breitenberg LLC",
+    "Tooltip": "aliquid",
     "Deleted": false,
-    "Rank": 527,
-    "UdListDefinitionId": 558,
+    "Rank": 552,
+    "UdListDefinitionId": 829,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 403
+        "FieldType": "System.Int32",
+        "FieldLength": 223
       }
     }
   }

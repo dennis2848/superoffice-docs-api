@@ -15,6 +15,7 @@ Saves the tab order.
 
 
 The order is saved pr. user.
+NsApiSlow threshold: 1000 ms.
 
 
 
@@ -67,7 +68,7 @@ No Content
 POST /api/v1/Agents/Preference/SaveTabOrder
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {

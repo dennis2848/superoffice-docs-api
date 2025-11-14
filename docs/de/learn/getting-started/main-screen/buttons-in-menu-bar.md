@@ -4,8 +4,8 @@ title: Schaltflächen in der oberen Leiste
 description: Schaltflächen in der oberen Leiste
 keywords: Obere Leiste, Schaltfläche, Persönliche Einstellungen, Hauptmenü
 author: Bergfrid Dias
-date: 02.11.2025
-version: 10.5.2
+date: 09.17.2025
+version: 11.3
 content_type: reference
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -36,7 +36,7 @@ Die **obere Leiste** bietet grundlegende Tools zur Navigation in SuperOffice CRM
 | **Voreinstellungen** | Bearbeiten Sie [persönliche Voreinstellungen][6], wie Standardwerte oder visuelle Layouts. |
 | **Persönliche Signatur bearbeiten** | Bearbeiten Sie die [E-Mail-Signatur][7] für ausgehende E-Mails und Anfragen. |
 | **E-Mail-Optionen** | Konfigurieren Sie die Einstellungen für das Postfach. |
-| **Ihr Servicestatus** | Aktualisieren Sie Ihren Status (z. B. Nicht anwesend) und fügen Sie eine optionale Nachricht hinzu. |
+| **Ihr Verfügbarkeitsstatus** | Wählen Sie, ob Sie für die automatische Zuweisung von Anfragen und Personen verfügbar sind. Wenn Sie Ihren Status auf *Nicht anwesend* setzen, werden Ihnen keine neuen Anfragen zugewiesen, und Ihre Abwesenheitsnotiz wird neben Ihrem Namen angezeigt, wenn Ihnen manuell etwas zugewiesen wird. |
 | **Meine Kontaktdaten anzeigen** | Öffnen Sie Ihre Personenkarte, um Details wie Telefonnummer oder Titel zu ändern. |
 | **Lokale Einstellungen** | Ändern Sie Sprache, Zahlen-/Datumsformat und E-Mail-Client-Einstellungen. |
 | **Mobile App holen** | Konfigurieren Sie Einstellungen für die SuperOffice Mobile CRM-App. |
@@ -91,7 +91,7 @@ Die **obere Leiste** bietet grundlegende Tools zur Navigation in SuperOffice CRM
 [7]: ../edit-email-signature.md
 [5]: ../../../search-options/learn/find-screen.md
 [10]: ../../../search-options/learn/freetext-search.md
-[15]: ../../../onsite/win-client/learn/creating-shortcuts-to-entries-in-crm.md
+[15]: ../../basics/creating-shortcuts-to-entries-in-crm.md
 [17]: ../../../sale/learn/sales-targets/index.md
 
 <!-- Referenced images -->

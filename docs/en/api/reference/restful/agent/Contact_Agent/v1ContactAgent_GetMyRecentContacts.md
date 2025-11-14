@@ -15,6 +15,7 @@ Method that returns a set of initial contacts.
 
 
 This could be the contacts in a favorites selection, the history list, the diary, or from all sources. If retrieved from the diary it will get appointments for the current and the next day.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -99,7 +100,7 @@ OK
 POST /api/v1/Agents/Contact/GetMyRecentContacts
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -115,36 +116,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 904,
-    "Name": "O'Kon LLC",
-    "OrgNr": "1052720",
-    "Department": "brand revolutionary eyeballs",
+    "ContactId": 466,
+    "Name": "Ortiz Inc and Sons",
+    "OrgNr": "909653",
+    "Department": "",
     "URL": "http://www.example.com/",
-    "City": "ut",
-    "DirectPhone": "1-430-448-0253",
-    "AssociateId": 213,
-    "CountryId": 172,
-    "EmailAddress": "stefan@shanahanrau.us",
-    "Kananame": "soluta",
-    "EmailAddressName": "estevan@nolan.uk",
+    "City": "et",
+    "DirectPhone": "164.835.9425 x590",
+    "AssociateId": 337,
+    "CountryId": 473,
+    "EmailAddress": "donna@goldner.co.uk",
+    "Kananame": "in",
+    "EmailAddressName": "deion.wyman@prohaska.ca",
     "URLName": "http://www.example.com/",
-    "AssociateFullName": "Ima Schuster",
+    "AssociateFullName": "Dr. Nicolas Adrien McCullough",
     "BusinessName": "Information Technology",
     "CategoryName": "VIP Customer",
     "CountryName": "Sokovia",
     "Address": null,
-    "FormattedAddress": "libero",
-    "FullName": "Minnie Nikolaus",
+    "FormattedAddress": "voluptatibus",
+    "FullName": "Mr. Adaline Damon Roberts",
     "IsOwnerContact": false,
-    "ActiveErpLinks": 931,
-    "Number1": "819861",
-    "Number2": "1289355",
+    "ActiveErpLinks": 444,
+    "Number1": "1122773",
+    "Number2": "775142",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 622
+        "FieldLength": 992
       }
     }
   }

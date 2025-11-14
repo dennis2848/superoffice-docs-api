@@ -14,7 +14,8 @@ POST /api/v1/Agents/Archive/GetAvailableEntities
 Return list of all entities supported by an archive provider.
 
 
-See also GetArchiveConfiguration. 
+See also GetArchiveConfiguration.
+NsApiSlow threshold: 5000 ms. 
 
 Archive Restriction strings are OData or SQL-ish.
 They are parsed and converted into ArchiveRestrictions.
@@ -171,12 +172,12 @@ OK
 POST /api/v1/Agents/Archive/GetAvailableEntities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Gerhold-Turner",
-  "Context": "dolore"
+  "ProviderName": "Sauer-Hoeger",
+  "Context": "nihil"
 }
 ```
 
@@ -188,50 +189,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 92,
-    "Name": "Adams-Lowe",
-    "ToolTip": "Sit necessitatibus.",
-    "Deleted": true,
-    "Rank": 423,
-    "Type": "et",
+    "Id": 998,
+    "Name": "Breitenberg-Mann",
+    "ToolTip": "Dolor enim unde quia nostrum voluptas labore ut.",
+    "Deleted": false,
+    "Rank": 482,
+    "Type": "accusantium",
     "ChildItems": [
       {
-        "Id": 310,
-        "Name": "Turner Inc and Sons",
-        "ToolTip": "Harum assumenda laboriosam expedita tempore ut.",
+        "Id": 763,
+        "Name": "King Group",
+        "ToolTip": "Voluptatem dolor maxime cupiditate.",
         "Deleted": true,
-        "Rank": 196,
-        "Type": "nam",
+        "Rank": 986,
+        "Type": "enim",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "ipsam",
-        "ColorBlock": 132,
-        "ExtraInfo": "dolores",
-        "StyleHint": "est",
-        "FullName": "Vicenta Wilfredo Nienow III",
+        "IconHint": "deleniti",
+        "ColorBlock": 273,
+        "ExtraInfo": "et",
+        "StyleHint": "laboriosam",
+        "FullName": "Deontae Koelpin",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 746
+            "FieldType": "System.Int32",
+            "FieldLength": 663
           }
         }
       }
     ],
-    "IconHint": "dolorem",
-    "ColorBlock": 935,
-    "ExtraInfo": "iste",
-    "StyleHint": "pariatur",
-    "FullName": "Prof. Keanu Bahringer",
+    "IconHint": "quidem",
+    "ColorBlock": 675,
+    "ExtraInfo": "sit",
+    "StyleHint": "perspiciatis",
+    "FullName": "Prof. Arnold Maya Boyer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 982
+        "FieldLength": 752
       }
     }
   }

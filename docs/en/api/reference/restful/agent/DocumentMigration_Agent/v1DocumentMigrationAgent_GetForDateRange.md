@@ -14,6 +14,9 @@ POST /api/v1/Agents/DocumentMigration/GetForDateRange
 Gets a migration summary for documents in the provided date-rage
 
 
+NsApiSlow threshold: 5000 ms.
+
+
 ## Online Restricted: ## The DocumentMigration agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for SuperOffice-internal apps.
 
 
@@ -84,9 +87,9 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentPluginId": 347,
-  "MinDate": "2000-03-17T03:46:54.707009+01:00",
-  "MaxDate": "2010-11-25T03:46:54.707009+01:00",
+  "DocumentPluginId": 184,
+  "MinDate": "2017-05-12T02:30:47.2257111+02:00",
+  "MaxDate": "2002-12-28T02:30:47.2257111+01:00",
   "IncludeEmails": false
 }
 ```
@@ -98,29 +101,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumDocumentsOmitted": 983,
-  "NumDocumentsAlreadyMigrated": 917,
+  "NumDocumentsOmitted": 716,
+  "NumDocumentsAlreadyMigrated": 241,
   "Documents": [
     {
-      "DocumentId": 6,
-      "ContactId": 279,
-      "PersonId": 158,
-      "SaleId": 308,
-      "ProjectId": 50,
-      "DocTmplId": 607,
-      "AssociateId": 742,
-      "UserGroupId": 537,
-      "VisibleForId": 827
+      "DocumentId": 750,
+      "ContactId": 760,
+      "PersonId": 473,
+      "SaleId": 60,
+      "ProjectId": 918,
+      "DocTmplId": 573,
+      "AssociateId": 847,
+      "UserGroupId": 373,
+      "VisibleForId": 996
     }
   ],
   "Associates": [
     {
-      "AssociateId": 584,
-      "EmailAddress": "rubye@conroytromp.uk"
+      "AssociateId": 210,
+      "EmailAddress": "mohamed.schmidt@kunde.name"
     },
     {
-      "AssociateId": 584,
-      "EmailAddress": "rubye@conroytromp.uk"
+      "AssociateId": 210,
+      "EmailAddress": "mohamed.schmidt@kunde.name"
     }
   ]
 }

@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/GetAllSelectionCategory
 Gets an array of all SelectionCategory objects
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -68,7 +70,7 @@ OK
 POST /api/v1/Agents/List/GetAllSelectionCategory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -79,28 +81,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 400,
-    "Value": "ut",
-    "Tooltip": "eos",
+    "Id": 122,
+    "Value": "repellendus",
+    "Tooltip": "asperiores",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 260
+        "FieldLength": 154
       }
     }
   },
   {
-    "Id": 400,
-    "Value": "ut",
-    "Tooltip": "eos",
+    "Id": 122,
+    "Value": "repellendus",
+    "Tooltip": "asperiores",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 260
+        "FieldLength": 154
       }
     }
   }

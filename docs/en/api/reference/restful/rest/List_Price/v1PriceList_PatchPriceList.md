@@ -14,7 +14,8 @@ PATCH /api/v1/Pricelist/{id}
 Update a PriceList with changes, as described in a JSON Patch or a JSON Merge Patch document.
 
 
-See <a href="https://tools.ietf.org/html/rfc6902">RFC6902</a> and <a href="https://tools.ietf.org/html/rfc7386">RFC 7396</a>. Update the Department field to "foo" can be done either as a JSON PATCH:
+See <a href="https://tools.ietf.org/html/rfc6902">RFC6902</a> and <a href="https://tools.ietf.org/html/rfc7386">RFC 7396</a>.
+NsApiSlow threshold: 5000 ms. Update the Department field to "foo" can be done either as a JSON PATCH:
 
 ```js
 
@@ -118,18 +119,18 @@ PriceList  updated.
 PATCH /api/v1/Pricelist/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "et",
+    "path": "ex",
     "value": {}
   },
   {
     "op": "add",
-    "path": "et",
+    "path": "ex",
     "value": {}
   }
 ]
@@ -142,22 +143,22 @@ HTTP/1.1 200 PriceList  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 804,
-  "ERPPriceListKey": "cupiditate",
-  "QuoteConnectionId": 708,
-  "Name": "Borer, Torp and Koss",
-  "Description": "User-centric 6th generation system engine",
-  "Currency": "ratione",
-  "CurrencyName": "Tillman-Sauer",
-  "ValidFrom": "2014-06-16T03:47:00.7067961+02:00",
-  "ValidTo": "2000-02-11T03:47:00.7067961+01:00",
-  "IsActive": false,
+  "PriceListId": 728,
+  "ERPPriceListKey": "similique",
+  "QuoteConnectionId": 585,
+  "Name": "Dach-Kohler",
+  "Description": "Pre-emptive mission-critical circuit",
+  "Currency": "aut",
+  "CurrencyName": "Osinski, Jakubowski and Vandervort",
+  "ValidFrom": "2004-09-28T02:30:53.3348881+02:00",
+  "ValidTo": "2014-02-16T02:30:53.3348881+01:00",
+  "IsActive": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 542
+      "FieldType": "System.String",
+      "FieldLength": 247
     }
   },
   "_Links": {

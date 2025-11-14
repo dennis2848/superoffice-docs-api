@@ -14,6 +14,8 @@ POST /api/v1/Agents/BulkUpdate/GetAvailableFields
 Get all available fields for a given tablename/entity
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -107,73 +109,73 @@ Content-Type: application/json; charset=utf-8
     "CanSupportMultiUse": false,
     "DefaultShowInGui": true,
     "DefaultShowInSelector": false,
-    "IsActive": true,
-    "Key": "culpa",
-    "ValueType": "odio",
+    "IsActive": false,
+    "Key": "qui",
+    "ValueType": "quod",
     "Mandatory": false,
-    "EncodedDisplayName": "Davis-Ankunding",
-    "EncodedDisplayDescription": "Fully-configurable foreground definition",
-    "IconHint": "autem",
+    "EncodedDisplayName": "Sporer, Schroeder and Green",
+    "EncodedDisplayDescription": "Synergized exuding intranet",
+    "IconHint": "in",
     "ControlInfos": [
       {
-        "Type": "qui",
-        "Label": "id",
-        "Dimension": 822,
-        "ListProviderName": "Wiegand-Hickle",
-        "ListProviderExtraInfo": "consequatur",
-        "ListProviderPrimaryKeyName": "Kling-Koelpin",
-        "ListLeadText": "assumenda",
+        "Type": "quas",
+        "Label": "sed",
+        "Dimension": 97,
+        "ListProviderName": "Johnston LLC",
+        "ListProviderExtraInfo": "enim",
+        "ListProviderPrimaryKeyName": "Brakus, O'Connell and Stracke",
+        "ListLeadText": "et",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 645
+            "FieldType": "System.Int32",
+            "FieldLength": 996
           }
         }
       }
     ],
-    "EncodedDataCaption": "sit",
-    "EncodedDataCaptionDescription": "Pre-emptive secondary success",
-    "CurrentOperationType": "ipsa",
+    "EncodedDataCaption": "dolores",
+    "EncodedDataCaptionDescription": "Intuitive high-level infrastructure",
+    "CurrentOperationType": "id",
     "Values": [
-      "enim",
-      "distinctio"
+      "quos",
+      "totam"
     ],
     "DisplayValues": [
-      "aut",
-      "doloremque"
+      "nulla",
+      "ipsam"
     ],
     "OperationInfos": [
       {
-        "Key": "odio",
-        "EncodedDisplayName": "Daugherty LLC",
+        "Key": "et",
+        "EncodedDisplayName": "Hermiston-Hane",
         "EncodedLeadTexts": [
-          "nesciunt",
-          "tenetur"
+          "consequatur",
+          "molestiae"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 593
+            "FieldLength": 987
           }
         }
       },
       {
-        "Key": "odio",
-        "EncodedDisplayName": "Daugherty LLC",
+        "Key": "et",
+        "EncodedDisplayName": "Hermiston-Hane",
         "EncodedLeadTexts": [
-          "nesciunt",
-          "tenetur"
+          "consequatur",
+          "molestiae"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 593
+            "FieldLength": 987
           }
         }
       }

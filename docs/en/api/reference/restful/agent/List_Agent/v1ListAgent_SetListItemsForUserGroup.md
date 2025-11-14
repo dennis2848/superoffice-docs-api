@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/SetListItemsForUserGroup
 Update listItems that will be visible for this usergroup
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -68,15 +70,15 @@ No Content
 POST /api/v1/Agents/List/SetListItemsForUserGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 799,
-  "UsergroupId": 970,
+  "UdListDefinitionId": 881,
+  "UsergroupId": 41,
   "ListItemIds": [
-    308,
-    554
+    582,
+    214
   ],
   "Enable": false
 }

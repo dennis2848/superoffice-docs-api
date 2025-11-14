@@ -14,6 +14,8 @@ POST /api/v1/Agents/FreeText/RegenerateIndex
 Wipe and regenerate the freetext index by scanning the database (freetext search will be unavailable while this operation runs
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -95,11 +97,11 @@ OK
 POST /api/v1/Agents/FreeText/RegenerateIndex
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RunAsBatch": false
+  "RunAsBatch": true
 }
 ```
 
@@ -110,37 +112,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 314,
-  "Name": "Nikolaus Group",
-  "AssociateId": 84,
-  "DetailsTable": 723,
-  "DetailsRecord": 873,
+  "Id": 900,
+  "Name": "Feil, D'Amore and Metz",
+  "AssociateId": 902,
+  "DetailsTable": 538,
+  "DetailsRecord": 531,
   "IsSystemTask": false,
-  "IsInternalTask": false,
+  "IsInternalTask": true,
   "ParameterObject": {
-    "ParameterObject1": "temporibus",
-    "ParameterObject2": "qui"
+    "ParameterObject1": "esse",
+    "ParameterObject2": "numquam"
   },
-  "LastStarted": "2021-05-13T03:46:54.9107593+02:00",
-  "Created": "2023-06-16T03:46:54.9107593+02:00",
-  "StartCount": 427,
-  "DatabaseSerialNumber": "421900",
-  "Context": "incidunt",
-  "Result": "delectus",
+  "LastStarted": "2016-05-20T02:30:47.366331+02:00",
+  "Created": "2018-12-06T02:30:47.366331+01:00",
+  "StartCount": 380,
+  "DatabaseSerialNumber": "997510",
+  "Context": "ad",
+  "Result": "quibusdam",
   "State": "All",
-  "Description": "Managed homogeneous benchmark",
-  "Response": "unde",
-  "Request": "deleniti",
-  "ProgressDescription": "Decentralized encompassing capacity",
-  "ProgressPercent": 291,
-  "FileName": "Cummerata, Koelpin and Abbott",
+  "Description": "Enterprise-wide bandwidth-monitored open system",
+  "Response": "doloribus",
+  "Request": "aut",
+  "ProgressDescription": "Reactive fresh-thinking collaboration",
+  "ProgressPercent": 653,
+  "FileName": "Wolff-Huel",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 28
+      "FieldType": "System.Int32",
+      "FieldLength": 748
     }
   }
 }

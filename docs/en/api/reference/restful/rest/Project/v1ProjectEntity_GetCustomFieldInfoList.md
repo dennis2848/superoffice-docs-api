@@ -69,7 +69,7 @@ OK
 GET /api/v1/Project/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,19 +81,19 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Gerhold, Okuneva and Pacocha",
-    "DisplayName": "Sipes Group",
-    "Description": "Organized interactive archive",
-    "ShortLabel": "ex",
+    "FieldName": "Sporer, Satterfield and Gottlieb",
+    "DisplayName": "Legros-Johnson",
+    "Description": "Self-enabling tertiary help-desk",
+    "ShortLabel": "non",
     "HideLabel": true,
-    "HideField": false,
-    "IsIndexed": true,
-    "IsMandatory": false,
-    "IsReadOnly": true,
-    "IsExternal": true,
+    "HideField": true,
+    "IsIndexed": false,
+    "IsMandatory": true,
+    "IsReadOnly": false,
+    "IsExternal": false,
     "IsDisplayField": false,
-    "Rank": 264,
-    "TemplateVariableName": "Schmitt Inc and Sons"
+    "Rank": 129,
+    "TemplateVariableName": "Feest-Hartmann"
   }
 ]
 ```

@@ -14,6 +14,8 @@ POST /api/v1/Agents/Appointment/MoveWithEmail
 Moving a booking to another start time.
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -138,14 +140,14 @@ OK
 POST /api/v1/Agents/Appointment/MoveWithEmail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 651,
-  "NewStartTime": "2008-01-20T03:46:54.1601532+01:00",
+  "AppointmentId": 536,
+  "NewStartTime": "2020-06-14T02:30:46.631978+02:00",
   "UpdateMode": "OnlyThis",
-  "SendEmailToParticipants": false,
+  "SendEmailToParticipants": true,
   "SmtpEMailConnectionInfo": null,
   "ImapEMailConnectionInfo": null
 }
@@ -162,121 +164,121 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2000-06-27T03:46:54.1757777+02:00",
-  "AppointmentId": 896,
-  "Description": "Virtual grid-enabled portal",
-  "Title": "suscipit",
-  "Agenda": "sunt",
-  "InternalNotes": "quae",
-  "StartDate": "2019-04-11T03:46:54.1757777+02:00",
-  "EndDate": "2002-05-08T03:46:54.1757777+02:00",
+  "CreatedDate": "2001-01-21T02:30:46.631978+01:00",
+  "AppointmentId": 442,
+  "Description": "Networked systematic process improvement",
+  "Title": "sed",
+  "Agenda": "ut",
+  "InternalNotes": "in",
+  "StartDate": "2001-11-10T02:30:46.631978+01:00",
+  "EndDate": "2006-06-25T02:30:46.631978+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 910,
+  "MotherId": 702,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2007-11-06T03:46:54.1757777+01:00",
+  "UpdatedDate": "1999-01-21T02:30:46.6476027+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 641,
+  "ActiveLinks": 729,
   "Links": [
     {
-      "EntityName": "Spencer, Shanahan and Kulas",
-      "Id": 659,
-      "Description": "Ameliorated well-modulated matrix",
-      "ExtraInfo": "rerum",
-      "LinkId": 896,
+      "EntityName": "Fritsch Group",
+      "Id": 351,
+      "Description": "Down-sized 24 hour support",
+      "ExtraInfo": "iusto",
+      "LinkId": 424,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 348
+          "FieldType": "System.Int32",
+          "FieldLength": 816
         }
       }
     }
   ],
-  "AlarmLeadTime": "in",
+  "AlarmLeadTime": "asperiores",
   "HasAlarm": false,
-  "ColorIndex": 683,
+  "ColorIndex": 396,
   "IsFree": false,
   "IsAlldayEvent": false,
-  "LagTime": "in",
-  "LeadTime": "iusto",
-  "Location": "necessitatibus",
-  "RejectCounter": 203,
+  "LagTime": "cum",
+  "LeadTime": "pariatur",
+  "Location": "non",
+  "RejectCounter": 589,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 96,
-      "PersonId": 558,
-      "ContactId": 232,
-      "EmailId": 8,
+      "AssociateId": 138,
+      "PersonId": 827,
+      "ContactId": 227,
+      "EmailId": 924,
       "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "trevion@reicheldickinson.name",
-      "Description": "Progressive executive focus group"
+      "EmailAddress": "waino@fritsch.com",
+      "Description": "Enhanced system-worthy matrix"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2007-12-05T03:46:54.1757777+01:00",
-  "HasConflict": false,
+  "ActiveDate": "2012-05-29T02:30:46.6476027+02:00",
+  "HasConflict": true,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 283,
+  "PreferredTZLocation": 22,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 755,
-  "IsMileStone": false,
+  "SuggestedAppointmentId": 420,
+  "IsMileStone": true,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "OwnedExternally": "Google",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "vitae",
+  "CentralserviceVideomeetId": "quisquam",
   "UserDefinedFields": {
-    "SuperOffice:1": "True",
-    "SuperOffice:2": "Winfield Bauch"
+    "SuperOffice:1": "Dr. Mose Shanahan I",
+    "SuperOffice:2": "735890281"
   },
   "ExtraFields": {
-    "ExtraFields1": "facere",
-    "ExtraFields2": "eveniet"
+    "ExtraFields1": "quia",
+    "ExtraFields2": "cum"
   },
   "CustomFields": {
-    "CustomFields1": "commodi",
-    "CustomFields2": "debitis"
+    "CustomFields1": "rerum",
+    "CustomFields2": "adipisci"
   },
-  "PublishEventDate": "2003-05-28T03:46:54.1757777+02:00",
-  "PublishTo": "2002-04-24T03:46:54.1757777+02:00",
-  "PublishFrom": "2004-10-08T03:46:54.1757777+02:00",
+  "PublishEventDate": "2012-10-19T02:30:46.6476027+02:00",
+  "PublishTo": "2003-12-26T02:30:46.6476027+01:00",
+  "PublishFrom": "2007-02-28T02:30:46.6476027+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 612,
+      "VisibleId": 924,
       "Visibility": "All",
-      "DisplayValue": "quia",
+      "DisplayValue": "quis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 77
+          "FieldLength": 543
         }
       }
     },
     {
-      "VisibleId": 612,
+      "VisibleId": 924,
       "Visibility": "All",
-      "DisplayValue": "quia",
+      "DisplayValue": "quis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 77
+          "FieldLength": 543
         }
       }
     }
@@ -285,8 +287,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 379
+      "FieldType": "System.Int32",
+      "FieldLength": 293
     }
   }
 }

@@ -14,6 +14,8 @@ POST /api/v1/Agents/CustomerService/GetProgramUrl
 This method will convert a module name into a Service URL.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -70,12 +72,12 @@ OK
 POST /api/v1/Agents/CustomerService/GetProgramUrl
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProgramName": "Rutherford, Torp and Mueller",
-  "External": true
+  "ProgramName": "Sporer Group",
+  "External": false
 }
 ```
 

@@ -14,6 +14,8 @@ POST /api/v1/Agents/Preference/SaveFromSectionAndKey
 Update a PreferenceDescription based on the section and key
 
 
+NsApiSlow threshold: 1000 ms.
+
 
 
 
@@ -93,12 +95,12 @@ OK
 POST /api/v1/Agents/Preference/SaveFromSectionAndKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Section": "et",
-  "Key": "minima",
+  "Section": "vel",
+  "Key": "quo",
   "PreferenceDescription": null
 }
 ```
@@ -110,30 +112,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 509,
-  "Section": "placeat",
-  "Key": "placeat",
-  "Name": "Casper-Ankunding",
+  "PrefDescId": 148,
+  "Section": "perspiciatis",
+  "Key": "nesciunt",
+  "Name": "Marks-Dickinson",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Multi-tiered static help-desk",
+  "Description": "Profound actuating archive",
   "IsBuiltin": false,
-  "TableName": "Wilderman Inc and Sons",
-  "UserDefinedListId": 418,
-  "Rank": 18,
-  "SubGroup": "numquam",
-  "MinLevel": 36,
-  "MaxValue": 548,
-  "MinValue": 255,
-  "RequiredLicense": "saepe",
+  "TableName": "Cormier Group",
+  "UserDefinedListId": 995,
+  "Rank": 741,
+  "SubGroup": "est",
+  "MinLevel": 799,
+  "MaxValue": 729,
+  "MinValue": 537,
+  "RequiredLicense": "perspiciatis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 932
+      "FieldType": "System.Int32",
+      "FieldLength": 732
     }
   }
 }

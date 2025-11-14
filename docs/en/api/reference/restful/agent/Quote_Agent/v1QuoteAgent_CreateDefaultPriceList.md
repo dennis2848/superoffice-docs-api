@@ -14,6 +14,8 @@ POST /api/v1/Agents/Quote/CreateDefaultPriceList
 Loading default values into a new PriceList.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -65,7 +67,7 @@ OK
 POST /api/v1/Agents/Quote/CreateDefaultPriceList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -75,22 +77,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 986,
-  "ERPPriceListKey": "quos",
-  "QuoteConnectionId": 533,
-  "Name": "Quigley Group",
-  "Description": "User-friendly composite protocol",
-  "Currency": "maiores",
-  "CurrencyName": "Marks, Steuber and Roob",
-  "ValidFrom": "2024-01-11T03:46:55.2069913+01:00",
-  "ValidTo": "2015-06-06T03:46:55.2069913+02:00",
-  "IsActive": false,
+  "PriceListId": 127,
+  "ERPPriceListKey": "ipsum",
+  "QuoteConnectionId": 267,
+  "Name": "Connelly-Hilpert",
+  "Description": "Grass-roots well-modulated local area network",
+  "Currency": "maxime",
+  "CurrencyName": "Wiza-Koss",
+  "ValidFrom": "2017-01-01T02:30:47.7100701+01:00",
+  "ValidTo": "2009-08-05T02:30:47.7100701+02:00",
+  "IsActive": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 569
+      "FieldLength": 527
     }
   }
 }

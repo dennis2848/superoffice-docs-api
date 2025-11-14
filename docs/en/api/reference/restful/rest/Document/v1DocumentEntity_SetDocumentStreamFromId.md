@@ -100,7 +100,7 @@ OK
 PUT /api/v1/Document/{documentId}/Content
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -110,88 +110,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 47,
+  "DocumentId": 732,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "quidem",
-  "Header": "earum",
-  "Name": "Bechtelar Group",
-  "OurRef": "facere",
-  "YourRef": "itaque",
-  "CreatedDate": "2003-02-19T03:46:59.988068+01:00",
-  "UpdatedDate": "2015-03-08T03:46:59.988068+01:00",
-  "Description": "Persevering fresh-thinking forecast",
+  "Attention": "incidunt",
+  "Header": "ratione",
+  "Name": "Pfeffer Group",
+  "OurRef": "quo",
+  "YourRef": "sequi",
+  "CreatedDate": "2017-04-03T02:30:52.6161625+02:00",
+  "UpdatedDate": "1999-10-23T02:30:52.6161625+02:00",
+  "Description": "Polarised hybrid access",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2000-04-12T03:46:59.988068+02:00",
-  "ExternalRef": "quas",
+  "Date": "2021-09-26T02:30:52.6161625+02:00",
+  "ExternalRef": "corrupti",
   "Completed": "Completed",
-  "ActiveLinks": 509,
+  "ActiveLinks": 823,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Rolfson, Brown and D'Amore",
-      "Id": 918,
-      "Description": "Customer-focused mobile instruction set",
-      "ExtraInfo": "eius",
-      "LinkId": 617,
+      "EntityName": "Leffler Group",
+      "Id": 1002,
+      "Description": "Optional coherent complexity",
+      "ExtraInfo": "vitae",
+      "LinkId": 766,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 20
+          "FieldType": "System.Int32",
+          "FieldLength": 639
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 762,
-  "Snum": 925,
+  "SuggestedDocumentId": 101,
+  "Snum": 739,
   "UserDefinedFields": {
-    "SuperOffice:1": "2087105476",
-    "SuperOffice:2": "Laila Muller"
+    "SuperOffice:1": "768365811",
+    "SuperOffice:2": "Dewayne Littel"
   },
   "ExtraFields": {
-    "ExtraFields1": "aut",
-    "ExtraFields2": "quasi"
+    "ExtraFields1": "reiciendis",
+    "ExtraFields2": "dolore"
   },
   "CustomFields": {
-    "CustomFields1": "quia",
-    "CustomFields2": "voluptas"
+    "CustomFields1": "repudiandae",
+    "CustomFields2": "laboriosam"
   },
-  "PublishEventDate": "2021-05-03T03:46:59.988068+02:00",
-  "PublishTo": "2016-07-07T03:46:59.988068+02:00",
-  "PublishFrom": "1999-10-20T03:46:59.988068+02:00",
+  "PublishEventDate": "2009-05-03T02:30:52.6161625+02:00",
+  "PublishTo": "2014-06-26T02:30:52.6161625+02:00",
+  "PublishFrom": "2008-12-06T02:30:52.6161625+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 532,
+      "VisibleId": 358,
       "Visibility": "All",
-      "DisplayValue": "quia",
+      "DisplayValue": "voluptas",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 919
+          "FieldLength": 684
         }
       }
     },
     {
-      "VisibleId": 532,
+      "VisibleId": 358,
       "Visibility": "All",
-      "DisplayValue": "quia",
+      "DisplayValue": "voluptas",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 919
+          "FieldLength": 684
         }
       }
     }
@@ -200,8 +200,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 227
+      "FieldType": "System.String",
+      "FieldLength": 644
     }
   }
 }

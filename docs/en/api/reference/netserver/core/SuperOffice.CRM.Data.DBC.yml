@@ -151,6 +151,7 @@ items:
   - SuperOffice.CRM.Data.DBC.ExtTable
   - SuperOffice.CRM.Data.DBC.ExternalDocument
   - SuperOffice.CRM.Data.DBC.ExternalEvent
+  - SuperOffice.CRM.Data.DBC.ExternalOwner
   - SuperOffice.CRM.Data.DBC.ExtraFields
   - SuperOffice.CRM.Data.DBC.ExtraMenus
   - SuperOffice.CRM.Data.DBC.ExtraTables
@@ -206,6 +207,7 @@ items:
   - SuperOffice.CRM.Data.DBC.KbWorkflowAccess
   - SuperOffice.CRM.Data.DBC.LanguageInfo
   - SuperOffice.CRM.Data.DBC.LanguageInfoCountry
+  - SuperOffice.CRM.Data.DBC.Leadstatus
   - SuperOffice.CRM.Data.DBC.LegalBase
   - SuperOffice.CRM.Data.DBC.LegalHtmlTags
   - SuperOffice.CRM.Data.DBC.LicenseAssocLink
@@ -308,6 +310,7 @@ items:
   - SuperOffice.CRM.Data.DBC.ProjectTypeStatusLink
   - SuperOffice.CRM.Data.DBC.Publish
   - SuperOffice.CRM.Data.DBC.PushNotificationService
+  - SuperOffice.CRM.Data.DBC.QuickFilterInfo
   - SuperOffice.CRM.Data.DBC.QuickReply
   - SuperOffice.CRM.Data.DBC.Quote
   - SuperOffice.CRM.Data.DBC.QuoteAlternative
@@ -484,6 +487,7 @@ items:
   - SuperOffice.CRM.Data.DBC.TicketType
   - SuperOffice.CRM.Data.DBC.TicketTypePriority
   - SuperOffice.CRM.Data.DBC.TicketTypeStatus
+  - SuperOffice.CRM.Data.DBC.TimeKeeping
   - SuperOffice.CRM.Data.DBC.Timestamps
   - SuperOffice.CRM.Data.DBC.TravelCurrent
   - SuperOffice.CRM.Data.DBC.TravelGeneratedDatabase
@@ -685,7 +689,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'Contact: Companies and Organizations.   This table features a special record containing information about the contact that owns the database.'
+  summary: 'Contact: Companies and Organizations.'
   example: []
   syntax:
     content: public const string Contact = "contact"
@@ -706,7 +710,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'Person: Persons in a company or an organizations. All associates have a corresponding person record'
+  summary: 'Person: Persons'
   example: []
   syntax:
     content: public const string Person = "person"
@@ -10709,6 +10713,48 @@ items:
     return:
       type: System.String
     content.vb: Public Const DashboardTileField As String = "dashboard_tile_field"
+- uid: SuperOffice.CRM.Data.DBC.QuickFilterInfo
+  commentId: F:SuperOffice.CRM.Data.DBC.QuickFilterInfo
+  id: QuickFilterInfo
+  parent: SuperOffice.CRM.Data.DBC
+  langs:
+  - csharp
+  - vb
+  name: QuickFilterInfo
+  nameWithType: DBC.QuickFilterInfo
+  fullName: SuperOffice.CRM.Data.DBC.QuickFilterInfo
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'QuickFilterInfo: Connect quick filter info from a specific provider to a dashboard'
+  example: []
+  syntax:
+    content: public const string QuickFilterInfo = "quick_filter_info"
+    return:
+      type: System.String
+    content.vb: Public Const QuickFilterInfo As String = "quick_filter_info"
+- uid: SuperOffice.CRM.Data.DBC.ExternalOwner
+  commentId: F:SuperOffice.CRM.Data.DBC.ExternalOwner
+  id: ExternalOwner
+  parent: SuperOffice.CRM.Data.DBC
+  langs:
+  - csharp
+  - vb
+  name: ExternalOwner
+  nameWithType: DBC.ExternalOwner
+  fullName: SuperOffice.CRM.Data.DBC.ExternalOwner
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'ExternalOwner: Owner of external data imported into the system'
+  example: []
+  syntax:
+    content: public const string ExternalOwner = "external_owner"
+    return:
+      type: System.String
+    content.vb: Public Const ExternalOwner As String = "external_owner"
 - uid: SuperOffice.CRM.Data.DBC.Form
   commentId: F:SuperOffice.CRM.Data.DBC.Form
   id: Form
@@ -10961,6 +11007,27 @@ items:
     return:
       type: System.String
     content.vb: Public Const BoardViewSettings As String = "board_view_settings"
+- uid: SuperOffice.CRM.Data.DBC.TimeKeeping
+  commentId: F:SuperOffice.CRM.Data.DBC.TimeKeeping
+  id: TimeKeeping
+  parent: SuperOffice.CRM.Data.DBC
+  langs:
+  - csharp
+  - vb
+  name: TimeKeeping
+  nameWithType: DBC.TimeKeeping
+  fullName: SuperOffice.CRM.Data.DBC.TimeKeeping
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'TimeKeeping: Time keeping for how much time a sale or project or other entity has spent in a given stage or other state'
+  example: []
+  syntax:
+    content: public const string TimeKeeping = "time_keeping"
+    return:
+      type: System.String
+    content.vb: Public Const TimeKeeping As String = "time_keeping"
 - uid: SuperOffice.CRM.Data.DBC.OnlineApp
   commentId: F:SuperOffice.CRM.Data.DBC.OnlineApp
   id: OnlineApp
@@ -11759,6 +11826,27 @@ items:
     return:
       type: System.String
     content.vb: Public Const UtmParameters As String = "utm_parameters"
+- uid: SuperOffice.CRM.Data.DBC.Leadstatus
+  commentId: F:SuperOffice.CRM.Data.DBC.Leadstatus
+  id: Leadstatus
+  parent: SuperOffice.CRM.Data.DBC
+  langs:
+  - csharp
+  - vb
+  name: Leadstatus
+  nameWithType: DBC.Leadstatus
+  fullName: SuperOffice.CRM.Data.DBC.Leadstatus
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'Leadstatus: List items of lead status that is selectable for contacts and persons that have specific category'
+  example: []
+  syntax:
+    content: public const string Leadstatus = "leadstatus"
+    return:
+      type: System.String
+    content.vb: Public Const Leadstatus As String = "leadstatus"
 - uid: SuperOffice.CRM.Data.DBC.TicketType
   commentId: F:SuperOffice.CRM.Data.DBC.TicketType
   id: TicketType

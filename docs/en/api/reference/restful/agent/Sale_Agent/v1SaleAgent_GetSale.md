@@ -14,6 +14,8 @@ POST /api/v1/Agents/Sale/GetSale
 Gets a Sale object.
 
 
+NsApiSlow threshold: 1000 ms.
+
 
 
 
@@ -27,7 +29,7 @@ Gets a Sale object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Sale/GetSale?saleId=27
+POST /api/v1/Agents/Sale/GetSale?saleId=925
 POST /api/v1/Agents/Sale/GetSale?$select=name,department,category/id
 ```
 
@@ -92,7 +94,7 @@ OK
 POST /api/v1/Agents/Sale/GetSale
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -102,37 +104,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactName": "Gerhold, Predovic and Adams",
-  "SaleDate": "2009-03-07T03:46:55.2382402+01:00",
-  "SaleId": 600,
-  "Probability": 214,
-  "Title": "ipsa",
-  "Amount": 25595.378,
-  "Currency": "deleniti",
-  "ProjectName": "Hessel, Carter and Moen",
-  "AssociateFullName": "Reed White IV",
-  "Description": "Horizontal motivating info-mediaries",
+  "ContactName": "Kuphal, Strosin and Parisian",
+  "SaleDate": "2013-09-03T02:30:47.7569437+02:00",
+  "SaleId": 582,
+  "Probability": 610,
+  "Title": "explicabo",
+  "Amount": 25263.174,
+  "Currency": "recusandae",
+  "ProjectName": "Renner, Carroll and Connelly",
+  "AssociateFullName": "Mr. Dayna Doyle PhD",
+  "Description": "Open-architected even-keeled installation",
   "Status": "Lost",
-  "WeightedAmount": 11276.132,
-  "ProjectId": 491,
-  "EarningPercent": 3102.66,
-  "Earning": 11467.306,
-  "ContactId": 169,
-  "AssociateId": 112,
-  "PersonId": 237,
-  "SaleTypeId": 809,
-  "SaleTypeName": "Morissette-Beer",
-  "PersonFullName": "Gust Hilll",
+  "WeightedAmount": 3046.248,
+  "ProjectId": 908,
+  "EarningPercent": 27171.78,
+  "Earning": 3951.9739999999997,
+  "ContactId": 899,
+  "AssociateId": 211,
+  "PersonId": 974,
+  "SaleTypeId": 976,
+  "SaleTypeName": "Gerlach-Wyman",
+  "PersonFullName": "Marvin Crooks",
   "Completed": "Completed",
-  "ActiveErpLinks": 214,
-  "NextDueDate": "2002-02-21T03:46:55.2382402+01:00",
-  "Number": "1260081",
+  "ActiveErpLinks": 958,
+  "NextDueDate": "2025-03-08T02:30:47.7569437+01:00",
+  "Number": "449956",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 813
+      "FieldLength": 830
     }
   }
 }

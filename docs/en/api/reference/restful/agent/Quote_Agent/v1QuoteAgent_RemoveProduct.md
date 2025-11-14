@@ -14,6 +14,8 @@ POST /api/v1/Agents/Quote/RemoveProduct
 Removes a product from the database
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -69,7 +71,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 289
+  "ProductId": 594
 }
 ```
 

@@ -80,12 +80,12 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 391,
-  "Name": "Walsh Group",
-  "Tooltip": "voluptatum",
+  "HeadingId": 958,
+  "Name": "D'Amore-Schultz",
+  "Tooltip": "qui",
   "Deleted": false,
-  "Rank": 165,
-  "UdListDefinitionId": 577
+  "Rank": 968,
+  "UdListDefinitionId": 580
 }
 ```
 
@@ -96,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 949,
-  "Name": "King Inc and Sons",
-  "Tooltip": "exercitationem",
-  "Deleted": false,
-  "Rank": 483,
-  "UdListDefinitionId": 44,
+  "HeadingId": 305,
+  "Name": "Larson, Koepp and Mosciski",
+  "Tooltip": "molestiae",
+  "Deleted": true,
+  "Rank": 830,
+  "UdListDefinitionId": 731,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 103
+      "FieldType": "System.Int32",
+      "FieldLength": 591
     }
   }
 }

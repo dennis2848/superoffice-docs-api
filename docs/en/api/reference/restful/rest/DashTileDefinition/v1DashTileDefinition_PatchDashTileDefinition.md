@@ -14,7 +14,8 @@ PATCH /api/v1/DashTileDefinition/{id}
 Update a DashTileDefinition with changes, as described in a JSON Patch or a JSON Merge Patch document.
 
 
-See <a href="https://tools.ietf.org/html/rfc6902">RFC6902</a> and <a href="https://tools.ietf.org/html/rfc7386">RFC 7396</a>. Update the Department field to "foo" can be done either as a JSON PATCH:
+See <a href="https://tools.ietf.org/html/rfc6902">RFC6902</a> and <a href="https://tools.ietf.org/html/rfc7386">RFC 7396</a>.
+NsApiSlow threshold: 5000 ms. Update the Department field to "foo" can be done either as a JSON PATCH:
 
 ```js
 
@@ -133,12 +134,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "illo",
+    "path": "culpa",
     "value": {}
   },
   {
     "op": "add",
-    "path": "illo",
+    "path": "culpa",
     "value": {}
   }
 ]
@@ -151,36 +152,36 @@ HTTP/1.1 200 DashTileDefinition  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 309,
-  "Name": "Gorczany-Stark",
-  "Description": "Synchronised attitude-oriented interface",
-  "DefaultHeight": 591,
-  "DefaultWidth": 309,
+  "DashboardTileDefinitionId": 127,
+  "Name": "Adams-Altenwerth",
+  "Description": "Progressive attitude-oriented neural-net",
+  "DefaultHeight": 308,
+  "DefaultWidth": 746,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Mann Group",
-  "SelectionId": 253,
+  "EntityName": "Bosco LLC",
+  "SelectionId": 720,
   "CurrencyMode": "Base",
-  "CurrencyCode": "facilis",
+  "CurrencyCode": "qui",
   "Measure": "Average",
-  "MeasureField": "minima",
-  "SortBy": "eveniet",
-  "LayoutConfig": "praesentium",
-  "SecondarySelectionId": 14,
-  "MeasureByField": "est",
+  "MeasureField": "culpa",
+  "SortBy": "corporis",
+  "LayoutConfig": "eveniet",
+  "SecondarySelectionId": 996,
+  "MeasureByField": "voluptatem",
   "Usage": "Dashboard",
-  "ProviderName": "Langosh Group",
+  "ProviderName": "Waelchi Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 468
+      "FieldLength": 235
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

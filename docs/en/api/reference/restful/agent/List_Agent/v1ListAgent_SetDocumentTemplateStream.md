@@ -15,6 +15,7 @@ Store a document template from its stream.
 
 
 Since there is a potential for a name conflict (the file name stored by the document entity earlier may prove to be invalid), the (possibly amended) document entity is returned. The client should not assume that any earlier, cached entity information is valid.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -103,14 +104,14 @@ OK
 POST /api/v1/Agents/List/SetDocumentTemplateStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "DocumentTemplateEntity": null,
   "Stream": "GIF89....File contents as raw bytes...",
-  "LanguageCode": "ea",
-  "PluginId": 165
+  "LanguageCode": "a",
+  "PluginId": 220
 }
 ```
 
@@ -121,37 +122,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 462,
-  "Name": "Schiller-Labadie",
-  "Tooltip": "aliquam",
-  "SaveInDb": 179,
-  "Filename": "sit",
-  "DefaultOref": "minus",
+  "DocumentTemplateId": 550,
+  "Name": "Metz Inc and Sons",
+  "Tooltip": "hic",
+  "SaveInDb": 853,
+  "Filename": "quia",
+  "DefaultOref": "consequatur",
   "RecordType": "Appointment",
-  "Deleted": true,
+  "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 381,
-  "IntentId": 24,
+  "AutoeventId": 82,
+  "IntentId": 357,
   "IsDefaultPublished": false,
-  "Rank": 54,
-  "LoadTemplateFromPlugin": 582,
-  "MimeType": "id",
+  "Rank": 815,
+  "LoadTemplateFromPlugin": 277,
+  "MimeType": "incidunt",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 95,
+  "DocumentTypeKey": 966,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "marcelino_nolan@pagac.ca",
+  "EmailSubject": "cicero@gislasonwatsica.biz",
   "IncludeSignature": false,
-  "ShowCurrents": false,
+  "ShowCurrents": true,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "stacy_jacobs@turcotte.ca",
+  "SenderEmailAddress": "mireille.haag@lesch.co.uk",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 819
+      "FieldLength": 693
     }
   }
 }

@@ -14,6 +14,8 @@ POST /api/v1/Agents/Ticket/SaveAttachmentEntity
 Updates the existing AttachmentEntity or creates a new AttachmentEntity if the id parameter is 0.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -78,18 +80,18 @@ OK
 POST /api/v1/Agents/Ticket/SaveAttachmentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 592,
-  "Name": "Heller Inc and Sons",
-  "ContentType": "sit",
-  "AttSize": 425,
+  "AttachmentId": 634,
+  "Name": "Turcotte, Renner and Nienow",
+  "ContentType": "voluptate",
+  "AttSize": 923,
   "InlineImage": false,
-  "ContentId": "est",
-  "AuthKey": "voluptate",
-  "IsSafeFileExtension": true
+  "ContentId": "ut",
+  "AuthKey": "tempora",
+  "IsSafeFileExtension": false
 }
 ```
 
@@ -100,20 +102,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 527,
-  "Name": "Bahringer-Williamson",
-  "ContentType": "consequuntur",
-  "AttSize": 385,
+  "AttachmentId": 960,
+  "Name": "Wiegand-Spinka",
+  "ContentType": "odio",
+  "AttSize": 339,
   "InlineImage": false,
-  "ContentId": "illum",
-  "AuthKey": "sed",
-  "IsSafeFileExtension": true,
+  "ContentId": "repellat",
+  "AuthKey": "illo",
+  "IsSafeFileExtension": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 243
+      "FieldLength": 803
     }
   }
 }

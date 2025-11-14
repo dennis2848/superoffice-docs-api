@@ -15,6 +15,10 @@ Return a chatbot response given prompt and previous turns.
 
 
 Stores the new turn in the history for the chatId
+NsApiSlow threshold: 2000 ms.
+
+
+## Experimental: ## The AI agent is experimental, subject to change, and not intended for partners.
 
 
 
@@ -84,41 +88,41 @@ OK
 POST /api/v1/Agents/AI/GetChatbotResponse
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatId": "commodi",
-  "IsoLangCode": "dolorem",
-  "UserPrompt": "velit",
-  "DisplayValue": "deleniti",
+  "ChatId": "quidem",
+  "IsoLangCode": "enim",
+  "UserPrompt": "nostrum",
+  "DisplayValue": "harum",
   "PreviousTurns": [
     {
-      "Timestamp": "2015-03-18T03:46:53.9726601+01:00",
-      "UserPrompt": "exercitationem",
-      "UserDisplayText": "sit",
-      "BotResponse": "magnam",
+      "Timestamp": "2001-08-11T02:30:46.4913585+02:00",
+      "UserPrompt": "voluptas",
+      "UserDisplayText": "est",
+      "BotResponse": "quia",
       "BotActions": {
-        "BotActions1": "dolor",
-        "BotActions2": "aliquam"
+        "BotActions1": "et",
+        "BotActions2": "ut"
       },
       "Attachments": [
-        "qui",
-        "earum"
+        "nihil",
+        "velit"
       ]
     },
     {
-      "Timestamp": "2015-03-18T03:46:53.9726601+01:00",
-      "UserPrompt": "exercitationem",
-      "UserDisplayText": "sit",
-      "BotResponse": "magnam",
+      "Timestamp": "2001-08-11T02:30:46.4913585+02:00",
+      "UserPrompt": "voluptas",
+      "UserDisplayText": "est",
+      "BotResponse": "quia",
       "BotActions": {
-        "BotActions1": "dolor",
-        "BotActions2": "aliquam"
+        "BotActions1": "et",
+        "BotActions2": "ut"
       },
       "Attachments": [
-        "qui",
-        "earum"
+        "nihil",
+        "velit"
       ]
     }
   ],
@@ -133,17 +137,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Timestamp": "2023-08-07T03:46:53.9726601+02:00",
-  "UserPrompt": "delectus",
-  "UserDisplayText": "repellendus",
-  "BotResponse": "dolores",
+  "Timestamp": "2005-01-29T02:30:46.4913585+01:00",
+  "UserPrompt": "veniam",
+  "UserDisplayText": "optio",
+  "BotResponse": "a",
   "BotActions": {
-    "BotActions1": "repellat",
-    "BotActions2": "harum"
+    "BotActions1": "eius",
+    "BotActions2": "veniam"
   },
   "Attachments": [
-    "libero",
-    "eum"
+    "amet",
+    "dolores"
   ]
 }
 ```

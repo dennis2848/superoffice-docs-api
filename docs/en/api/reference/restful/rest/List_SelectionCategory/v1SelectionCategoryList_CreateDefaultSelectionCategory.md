@@ -71,18 +71,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 708,
-  "Name": "Wisozk-Murray",
-  "Tooltip": "ab",
+  "Id": 325,
+  "Name": "Macejkovic, Hilpert and Predovic",
+  "Tooltip": "omnis",
   "Deleted": true,
-  "UdListDefinitionId": 389,
-  "Rank": 300,
+  "UdListDefinitionId": 99,
+  "Rank": 130,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 839
+      "FieldLength": 736
     }
   }
 }

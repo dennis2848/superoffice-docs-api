@@ -86,7 +86,7 @@ OK
 GET /api/v1/List/ReasonStalled/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -97,56 +97,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 27,
-    "Name": "Wehner-Morar",
-    "ToolTip": "Amet cum odit vitae maxime.",
+    "Id": 171,
+    "Name": "Blanda Group",
+    "ToolTip": "Iste repellat accusantium cupiditate.",
     "Deleted": true,
-    "Rank": 895,
-    "Type": "eum",
-    "ColorBlock": 928,
-    "IconHint": "placeat",
+    "Rank": 865,
+    "Type": "aut",
+    "ColorBlock": 259,
+    "IconHint": "nulla",
     "Selected": true,
-    "LastChanged": "2024-12-24T03:47:00.8005429+01:00",
+    "LastChanged": "1999-04-26T02:30:53.4286352+02:00",
     "ChildItems": [
       {
-        "Id": 764,
-        "Name": "Erdman-Kerluke",
-        "ToolTip": "Et adipisci tempora modi.",
+        "Id": 601,
+        "Name": "Sporer, Breitenberg and Moore",
+        "ToolTip": "Ut officiis.",
         "Deleted": false,
-        "Rank": 93,
-        "Type": "numquam",
-        "ColorBlock": 631,
-        "IconHint": "et",
+        "Rank": 931,
+        "Type": "harum",
+        "ColorBlock": 145,
+        "IconHint": "assumenda",
         "Selected": false,
-        "LastChanged": "2005-08-19T03:47:00.8005429+02:00",
+        "LastChanged": "2013-11-09T02:30:53.4286352+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "in",
-        "StyleHint": "earum",
-        "Hidden": true,
-        "FullName": "Olaf McGlynn",
+        "ExtraInfo": "rerum",
+        "StyleHint": "quo",
+        "Hidden": false,
+        "FullName": "Cecil Watsica",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 938
+            "FieldLength": 91
           }
         }
       }
     ],
-    "ExtraInfo": "cumque",
-    "StyleHint": "dolore",
-    "Hidden": true,
-    "FullName": "Garnet Murray PhD",
+    "ExtraInfo": "labore",
+    "StyleHint": "inventore",
+    "Hidden": false,
+    "FullName": "Rudolph Murray",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 459
+        "FieldType": "System.Int32",
+        "FieldLength": 342
       }
     }
   }

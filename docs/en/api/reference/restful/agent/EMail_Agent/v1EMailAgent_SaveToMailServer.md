@@ -14,6 +14,9 @@ POST /api/v1/Agents/EMail/SaveToMailServer
 Save the passed e-mail back to the mail server
 
 
+NsApiSlow threshold: 5000 ms.
+
+
 ## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 
@@ -101,7 +104,7 @@ OK
 POST /api/v1/Agents/EMail/SaveToMailServer
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -118,147 +121,147 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 565,
-      "ContactName": "Fay, Wolf and Steuber",
-      "PersonId": 331,
-      "PersonName": "Hegmann-Fritsch",
-      "AssociateId": 124,
-      "Address": "eos",
-      "EmailId": 335,
+      "ContactId": 408,
+      "ContactName": "Bogisich LLC",
+      "PersonId": 457,
+      "PersonName": "Littel, Marquardt and Emard",
+      "AssociateId": 501,
+      "Address": "et",
+      "EmailId": 679,
       "DuplicatePersonIds": [
-        926,
-        981
+        952,
+        452
       ],
-      "Name": "Heaney-Rowe",
+      "Name": "Hagenes-Jacobson",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 30
+          "FieldLength": 205
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 66,
-      "ContactName": "Bosco-Balistreri",
-      "PersonId": 385,
-      "PersonName": "Okuneva LLC",
-      "AssociateId": 518,
-      "Address": "et",
-      "EmailId": 509,
+      "ContactId": 516,
+      "ContactName": "Schumm LLC",
+      "PersonId": 484,
+      "PersonName": "Stamm LLC",
+      "AssociateId": 274,
+      "Address": "perferendis",
+      "EmailId": 830,
       "DuplicatePersonIds": [
-        114,
-        462
+        989,
+        857
       ],
-      "Name": "Runolfsson, Cummings and Mohr",
+      "Name": "Kihn LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 465
+          "FieldType": "System.String",
+          "FieldLength": 133
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 110,
-      "ContactName": "Nitzsche Group",
-      "PersonId": 927,
-      "PersonName": "Howe-Mills",
-      "AssociateId": 168,
-      "Address": "quo",
-      "EmailId": 945,
+      "ContactId": 14,
+      "ContactName": "Walsh LLC",
+      "PersonId": 571,
+      "PersonName": "Zulauf-Rempel",
+      "AssociateId": 642,
+      "Address": "ducimus",
+      "EmailId": 349,
       "DuplicatePersonIds": [
-        152,
-        732
+        60,
+        885
       ],
-      "Name": "Mohr-Kilback",
+      "Name": "Raynor Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 482
+          "FieldLength": 321
         }
       }
     }
   ],
-  "Subject": "nam",
-  "HTMLBody": "id",
+  "Subject": "neque",
+  "HTMLBody": "impedit",
   "From": null,
-  "Sent": "2004-12-15T03:46:54.8007556+01:00",
-  "Size": 759,
+  "Sent": "2012-12-10T02:30:47.3194579+01:00",
+  "Size": 569,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "occaecati",
-  "PlainBody": "eveniet",
-  "IsSent": true,
+  "MessageID": "sit",
+  "PlainBody": "laudantium",
+  "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 624,
+  "ServerId": 622,
   "Attachments": [
     {
-      "Description": "Mandatory exuding interface",
-      "Filename": "animi",
-      "Size": 143,
-      "Type": "est",
-      "Encoding": "dolorem",
-      "Id": "aperiam",
-      "Disposition": "totam",
-      "IsSafeFileExtension": false,
+      "Description": "Multi-lateral fault-tolerant concept",
+      "Filename": "est",
+      "Size": 751,
+      "Type": "libero",
+      "Encoding": "fuga",
+      "Id": "nemo",
+      "Disposition": "et",
+      "IsSafeFileExtension": true,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 91
+          "FieldType": "System.Int32",
+          "FieldLength": 955
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Olson, Lowe and Schaden",
+      "Name": "Frami Inc and Sons",
       "Values": [
-        "libero",
-        "quos"
+        "non",
+        "aut"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 323
+          "FieldType": "System.Int32",
+          "FieldLength": 750
         }
       }
     },
     {
-      "Name": "Olson, Lowe and Schaden",
+      "Name": "Frami Inc and Sons",
       "Values": [
-        "libero",
-        "quos"
+        "non",
+        "aut"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 323
+          "FieldType": "System.Int32",
+          "FieldLength": 750
         }
       }
     }
   ],
-  "FolderName": "Langworth, Ritchie and Goyette",
-  "EmailItemId": 43,
-  "AccountId": 13,
-  "ReceivedAt": "2002-06-04T03:46:54.8007556+02:00",
+  "FolderName": "Bins-Boyle",
+  "EmailItemId": 299,
+  "AccountId": 55,
+  "ReceivedAt": "2018-12-26T02:30:47.3194579+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2015-03-18T03:46:54.8007556+01:00",
+  "RepliedAt": "2010-06-17T02:30:47.3194579+02:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -266,8 +269,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 566
+      "FieldType": "System.String",
+      "FieldLength": 408
     }
   }
 }

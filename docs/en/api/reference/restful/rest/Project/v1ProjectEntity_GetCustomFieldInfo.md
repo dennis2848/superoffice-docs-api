@@ -73,7 +73,7 @@ OK
 GET /api/v1/Project/CustomField/{fieldName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -84,18 +84,18 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Kuphal-Gutmann",
-  "DisplayName": "Heller Group",
-  "Description": "Customer-focused zero tolerance moratorium",
-  "ShortLabel": "amet",
+  "FieldName": "Rowe, Hayes and Little",
+  "DisplayName": "Hand-Stracke",
+  "Description": "Switchable bi-directional encoding",
+  "ShortLabel": "iusto",
   "HideLabel": false,
   "HideField": false,
   "IsIndexed": false,
-  "IsMandatory": false,
-  "IsReadOnly": false,
-  "IsExternal": false,
+  "IsMandatory": true,
+  "IsReadOnly": true,
+  "IsExternal": true,
   "IsDisplayField": true,
-  "Rank": 337,
-  "TemplateVariableName": "Hayes-Pouros"
+  "Rank": 365,
+  "TemplateVariableName": "Swaniawski Inc and Sons"
 }
 ```

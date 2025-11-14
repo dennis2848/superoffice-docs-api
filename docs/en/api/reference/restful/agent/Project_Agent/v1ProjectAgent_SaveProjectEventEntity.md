@@ -14,6 +14,8 @@ POST /api/v1/Agents/Project/SaveProjectEventEntity
 Updates the existing ProjectEventEntity or creates a new ProjectEventEntity if the id parameter is 0.
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -122,76 +124,76 @@ OK
 POST /api/v1/Agents/Project/SaveProjectEventEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SignOffConfirmationText": "repudiandae",
-  "SignOffText": "ut",
-  "SignOnConfirmationText": "corrupti",
-  "SignOnText": "id",
-  "EventDate": "2013-10-18T03:46:55.1601179+02:00",
+  "SignOffConfirmationText": "qui",
+  "SignOffText": "voluptatem",
+  "SignOnConfirmationText": "quo",
+  "SignOnText": "reiciendis",
+  "EventDate": "2022-03-21T02:30:47.6788214+01:00",
   "Enabled": false,
-  "CreatedDate": "2023-10-10T03:46:55.1601179+02:00",
-  "SignOff": true,
-  "SignOffTaskEnable": false,
-  "SignOffTaskId": 938,
+  "CreatedDate": "2005-01-27T02:30:47.6788214+01:00",
+  "SignOff": false,
+  "SignOffTaskEnable": true,
+  "SignOffTaskId": 901,
   "SignOffTriggersAssign": false,
-  "SignOn": false,
+  "SignOn": true,
   "SignOnTaskEnable": false,
-  "SignOnTaskId": 81,
+  "SignOnTaskId": 711,
   "SignOnTriggersAssign": false,
-  "UpdatedDate": "2002-05-13T03:46:55.1601179+02:00",
+  "UpdatedDate": "2007-03-11T02:30:47.6788214+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ProjectId": 588,
-  "Id": 92,
-  "PublishFrom": "2001-10-15T03:46:55.1601179+02:00",
+  "ProjectId": 14,
+  "Id": 990,
+  "PublishFrom": "2025-02-27T02:30:47.6788214+01:00",
   "PublishType": "External",
-  "PublishTo": "2007-03-18T03:46:55.1601179+01:00",
+  "PublishTo": "2008-08-20T02:30:47.6788214+02:00",
   "VisibleForCategories": [
     {
-      "Id": 202,
-      "Name": "Jakubowski LLC",
-      "ToolTip": "Enim et.",
+      "Id": 988,
+      "Name": "Kuvalis-Bergnaum",
+      "ToolTip": "Odit veritatis ut sed velit dolore.",
       "Deleted": false,
-      "Rank": 121,
-      "Type": "beatae",
+      "Rank": 460,
+      "Type": "neque",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "amet",
-      "ColorBlock": 675,
-      "ExtraInfo": "omnis",
-      "StyleHint": "quaerat",
-      "FullName": "Kale Simonis"
+      "IconHint": "tempore",
+      "ColorBlock": 27,
+      "ExtraInfo": "enim",
+      "StyleHint": "eius",
+      "FullName": "Mrs. Einar Bo Hodkiewicz"
     }
   ],
   "VisibleForPersonInterests": [
     {
-      "Id": 172,
-      "Name": "Connelly, Nitzsche and Sipes",
-      "ToolTip": "Dolorem omnis consequatur.",
+      "Id": 916,
+      "Name": "Huel-Cormier",
+      "ToolTip": "Ut tenetur est excepturi.",
       "Deleted": false,
-      "Rank": 279,
-      "Type": "dolore",
+      "Rank": 86,
+      "Type": "assumenda",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "et",
-      "ColorBlock": 114,
-      "ExtraInfo": "et",
-      "StyleHint": "amet",
-      "FullName": "Abdiel Kreiger"
+      "IconHint": "aut",
+      "ColorBlock": 596,
+      "ExtraInfo": "quaerat",
+      "StyleHint": "id",
+      "FullName": "Miss Una Conroy MD"
     }
   ],
-  "IsPublished": false,
-  "IsVisibleForMembers": true,
-  "IsVisibleForCategories": false,
-  "IsVisibleForPersonInterests": true,
-  "ProjectEventId": 47
+  "IsPublished": true,
+  "IsVisibleForMembers": false,
+  "IsVisibleForCategories": true,
+  "IsVisibleForPersonInterests": false,
+  "ProjectEventId": 439
 }
 ```
 
@@ -202,94 +204,94 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SignOffConfirmationText": "rerum",
-  "SignOffText": "perferendis",
-  "SignOnConfirmationText": "est",
-  "SignOnText": "cupiditate",
-  "EventDate": "2010-04-29T03:46:55.1601179+02:00",
+  "SignOffConfirmationText": "facere",
+  "SignOffText": "at",
+  "SignOnConfirmationText": "ut",
+  "SignOnText": "non",
+  "EventDate": "2022-07-14T02:30:47.6788214+02:00",
   "Enabled": true,
-  "CreatedDate": "2005-09-03T03:46:55.1601179+02:00",
+  "CreatedDate": "2006-07-26T02:30:47.6788214+02:00",
   "SignOff": false,
   "SignOffTaskEnable": true,
-  "SignOffTaskId": 384,
-  "SignOffTriggersAssign": false,
+  "SignOffTaskId": 503,
+  "SignOffTriggersAssign": true,
   "SignOn": false,
-  "SignOnTaskEnable": true,
-  "SignOnTaskId": 702,
+  "SignOnTaskEnable": false,
+  "SignOnTaskId": 778,
   "SignOnTriggersAssign": true,
-  "UpdatedDate": "2014-07-06T03:46:55.1601179+02:00",
+  "UpdatedDate": "1999-05-16T02:30:47.6788214+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ProjectId": 349,
-  "Id": 514,
-  "PublishFrom": "2007-09-25T03:46:55.1601179+02:00",
+  "ProjectId": 908,
+  "Id": 246,
+  "PublishFrom": "1998-11-28T02:30:47.6788214+01:00",
   "PublishType": "External",
-  "PublishTo": "2023-07-12T03:46:55.1601179+02:00",
+  "PublishTo": "2009-07-26T02:30:47.6788214+02:00",
   "VisibleForCategories": [
     {
-      "Id": 719,
-      "Name": "Weber, VonRueden and Brekke",
-      "ToolTip": "Velit deleniti.",
-      "Deleted": true,
-      "Rank": 619,
-      "Type": "est",
+      "Id": 86,
+      "Name": "Bernier-Ebert",
+      "ToolTip": "Ab saepe molestiae totam.",
+      "Deleted": false,
+      "Rank": 275,
+      "Type": "magni",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "aliquam",
-      "ColorBlock": 699,
-      "ExtraInfo": "sit",
-      "StyleHint": "velit",
-      "FullName": "Mr. Veronica Elise Zboncak",
+      "IconHint": "hic",
+      "ColorBlock": 808,
+      "ExtraInfo": "quis",
+      "StyleHint": "et",
+      "FullName": "Malinda Schaefer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 410
+          "FieldType": "System.String",
+          "FieldLength": 857
         }
       }
     }
   ],
   "VisibleForPersonInterests": [
     {
-      "Id": 942,
-      "Name": "Denesik-Kautzer",
-      "ToolTip": "Nihil odio laudantium et reprehenderit aut eaque.",
+      "Id": 935,
+      "Name": "Pouros, Brown and Kreiger",
+      "ToolTip": "Rem itaque nemo maiores doloremque minima consequatur tempore.",
       "Deleted": true,
-      "Rank": 325,
-      "Type": "modi",
+      "Rank": 951,
+      "Type": "quis",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "vel",
-      "ColorBlock": 333,
-      "ExtraInfo": "sit",
-      "StyleHint": "sit",
-      "FullName": "Mrs. Cathy Schumm",
+      "IconHint": "mollitia",
+      "ColorBlock": 957,
+      "ExtraInfo": "earum",
+      "StyleHint": "dolor",
+      "FullName": "Megane Schumm DDS",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 814
+          "FieldLength": 108
         }
       }
     }
   ],
   "IsPublished": false,
   "IsVisibleForMembers": false,
-  "IsVisibleForCategories": false,
-  "IsVisibleForPersonInterests": false,
-  "ProjectEventId": 325,
+  "IsVisibleForCategories": true,
+  "IsVisibleForPersonInterests": true,
+  "ProjectEventId": 797,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 905
+      "FieldType": "System.String",
+      "FieldLength": 119
     }
   }
 }

@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/CreateDefaultHeadingEntity
 Loading default values into a new HeadingEntity.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -71,18 +73,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 613,
-  "Name": "Reichert-Cronin",
-  "Tooltip": "fuga",
+  "HeadingId": 39,
+  "Name": "Mann Inc and Sons",
+  "Tooltip": "illum",
   "Deleted": false,
-  "Rank": 644,
-  "UdListDefinitionId": 279,
+  "Rank": 663,
+  "UdListDefinitionId": 683,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 764
+      "FieldLength": 105
     }
   }
 }

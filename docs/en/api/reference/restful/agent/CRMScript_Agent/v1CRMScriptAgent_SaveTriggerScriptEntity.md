@@ -14,6 +14,9 @@ POST /api/v1/Agents/CRMScript/SaveTriggerScriptEntity
 Updates the existing TriggerScriptEntity or creates a new TriggerScriptEntity if the id parameter is 0.
 
 
+NsApiSlow threshold: 5000 ms.
+
+
 ## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 
@@ -84,20 +87,20 @@ OK
 POST /api/v1/Agents/CRMScript/SaveTriggerScriptEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 86,
-  "Name": "Marvin Inc and Sons",
+  "ScreenChooserId": 657,
+  "Name": "Jakubowski Group",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": false,
-  "UniqueIdentifier": "blanditiis",
-  "Source": "reiciendis",
-  "Registered": "2008-10-07T03:46:54.5820132+02:00",
-  "RegisteredAssociateId": 951,
-  "Updated": "2019-11-01T03:46:54.5820132+01:00",
-  "UpdatedAssociateId": 110
+  "Enabled": true,
+  "UniqueIdentifier": "ipsum",
+  "Source": "voluptas",
+  "Registered": "2017-06-17T02:30:47.0382145+02:00",
+  "RegisteredAssociateId": 727,
+  "Updated": "2001-01-28T02:30:47.0382145+01:00",
+  "UpdatedAssociateId": 342
 }
 ```
 
@@ -108,22 +111,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 934,
-  "Name": "Senger Group",
+  "ScreenChooserId": 285,
+  "Name": "Schroeder, McClure and Torp",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "aliquam",
-  "Source": "voluptates",
-  "Registered": "2021-03-18T03:46:54.5820132+01:00",
-  "RegisteredAssociateId": 825,
-  "Updated": "1999-07-22T03:46:54.5820132+02:00",
-  "UpdatedAssociateId": 577,
+  "UniqueIdentifier": "est",
+  "Source": "esse",
+  "Registered": "2016-05-02T02:30:47.0538389+02:00",
+  "RegisteredAssociateId": 117,
+  "Updated": "2024-06-09T02:30:47.0538389+02:00",
+  "UpdatedAssociateId": 563,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 533
+      "FieldType": "System.Int32",
+      "FieldLength": 586
     }
   }
 }

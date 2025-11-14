@@ -14,6 +14,8 @@ POST /api/v1/Agents/Configuration/CreateDefaultDiaryViewEntity
 Loading default values into a new DiaryViewEntity.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -73,49 +75,49 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DiaryViewId": 343,
-  "Name": "Gutkowski, Treutel and Kozey",
-  "Tooltip": "quibusdam",
-  "VisibleColumns": 987,
-  "Rank": 145,
-  "AssocId": 531,
+  "DiaryViewId": 959,
+  "Name": "Becker, Mante and Corwin",
+  "Tooltip": "fugit",
+  "VisibleColumns": 483,
+  "Rank": 135,
+  "AssocId": 199,
   "AssociateList": [
     {
-      "Id": 486,
-      "Name": "Bahringer-Lesch",
-      "ToolTip": "Voluptate maxime mollitia tempora similique est incidunt.",
+      "Id": 182,
+      "Name": "Torphy Group",
+      "ToolTip": "Aut sed quas nulla quam dolorem.",
       "Deleted": false,
-      "Rank": 139,
-      "Type": "facilis",
-      "ColorBlock": 317,
-      "IconHint": "et",
+      "Rank": 546,
+      "Type": "laboriosam",
+      "ColorBlock": 603,
+      "IconHint": "at",
       "Selected": false,
-      "LastChanged": "2020-02-17T03:46:54.4570178+01:00",
+      "LastChanged": "2020-02-19T02:30:46.9288431+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "error",
-      "StyleHint": "sed",
+      "ExtraInfo": "magni",
+      "StyleHint": "quis",
       "Hidden": false,
-      "FullName": "Alexander Dare",
+      "FullName": "Concepcion Keeling",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 111
+          "FieldType": "System.String",
+          "FieldLength": 289
         }
       }
     }
   ],
-  "TzLocationId": 392,
+  "TzLocationId": 978,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 241
+      "FieldLength": 847
     }
   }
 }

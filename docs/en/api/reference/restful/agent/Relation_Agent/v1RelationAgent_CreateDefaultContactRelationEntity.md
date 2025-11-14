@@ -14,6 +14,8 @@ POST /api/v1/Agents/Relation/CreateDefaultContactRelationEntity
 Loading default values into a new ContactRelationEntity.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -73,7 +75,7 @@ OK
 POST /api/v1/Agents/Relation/CreateDefaultContactRelationEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -83,30 +85,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 92,
-  "SourcePersonId": 491,
-  "DestinationContactId": 119,
-  "DestinationPersonId": 607,
-  "RelationId": 915,
-  "Comment": "unde",
-  "RelationDefinitionId": 196,
-  "Reversed": 250,
-  "UpdatedDate": "2008-08-31T03:46:55.2382402+02:00",
-  "CreatedDate": "2012-06-18T03:46:55.2382402+02:00",
+  "SourceContactId": 363,
+  "SourcePersonId": 748,
+  "DestinationContactId": 746,
+  "DestinationPersonId": 381,
+  "RelationId": 964,
+  "Comment": "animi",
+  "RelationDefinitionId": 428,
+  "Reversed": 724,
+  "UpdatedDate": "2019-07-24T02:30:47.7413192+02:00",
+  "CreatedDate": "2007-10-26T02:30:47.7413192+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Powlowski-Schultz",
-  "SourcePersonName": "Kris-Beahan",
-  "DestinationContactName": "Rodriguez Inc and Sons",
-  "DestinationPersonName": "Armstrong Group",
-  "ActiveText": "voluptates",
-  "PassiveText": "quia",
+  "SourceContactName": "Boyle LLC",
+  "SourcePersonName": "Champlin, Muller and Marks",
+  "DestinationContactName": "Kuphal LLC",
+  "DestinationPersonName": "Fritsch-Kessler",
+  "ActiveText": "ex",
+  "PassiveText": "nisi",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 633
+      "FieldLength": 77
     }
   }
 }

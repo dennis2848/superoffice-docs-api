@@ -14,6 +14,8 @@ POST /api/v1/Agents/Appointment/UpdateAppointmentWithModeAndEmail
 Updates an appointment record, taking the given recurrence update mode into account, possibly sending notification emails.
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -137,16 +139,16 @@ OK
 POST /api/v1/Agents/Appointment/UpdateAppointmentWithModeAndEmail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 124,
-  "StartTime": "2020-06-02T03:46:54.0039095+02:00",
-  "EndTime": "2014-05-25T03:46:54.0039095+02:00",
+  "Id": 505,
+  "StartTime": "2001-09-16T02:30:46.522607+02:00",
+  "EndTime": "2013-01-22T02:30:46.522607+01:00",
   "Status": "Assignment",
   "Type": "BookingForChecklist",
-  "AssociateId": 508,
+  "AssociateId": 586,
   "UpdateMode": "OnlyThis",
   "SendEmailToParticipants": true,
   "SmtpEMailConnectionInfo": null,
@@ -161,67 +163,67 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 5,
-  "StartDate": "2004-10-09T03:46:54.0039095+02:00",
-  "EndDate": "2007-12-29T03:46:54.0039095+01:00",
+  "AppointmentId": 4,
+  "StartDate": "2020-08-11T02:30:46.522607+02:00",
+  "EndDate": "2007-01-28T02:30:46.522607+01:00",
   "Type": "BookingForChecklist",
-  "Task": "aut",
-  "AssociateFullName": "Gardner Kane Bayer MD",
-  "ContactName": "Lind, Rogahn and Trantow",
-  "Description": "Multi-tiered 24 hour installation",
-  "PersonFullName": "Irving Botsford",
-  "PersonId": 724,
-  "ContactId": 48,
-  "ProjectId": 307,
-  "ProjectName": "Rice, Thompson and Murphy",
+  "Task": "omnis",
+  "AssociateFullName": "Camila Schaefer",
+  "ContactName": "Rowe-Gulgowski",
+  "Description": "Distributed full-range data-warehouse",
+  "PersonFullName": "Jamil Lockman",
+  "PersonId": 732,
+  "ContactId": 834,
+  "ProjectId": 492,
+  "ProjectName": "Johnson, Bechtelar and Hintz",
   "IsPublished": false,
-  "AssociateId": 48,
-  "ColorIndex": 770,
-  "IsFree": false,
-  "HasAlarm": false,
+  "AssociateId": 275,
+  "ColorIndex": 46,
+  "IsFree": true,
+  "HasAlarm": true,
   "IsAlldayEvent": false,
   "Private": "PrivateGroup",
-  "PriorityId": 929,
-  "PriorityName": "Murazik, Jacobs and Prohaska",
+  "PriorityId": 534,
+  "PriorityName": "Hartmann, Kuhn and Howe",
   "TaskType": "Appointment",
   "IsBookingMain": false,
-  "IsRecurrence": true,
+  "IsRecurrence": false,
   "IsBooking": false,
-  "ActiveDate": "2023-08-01T03:46:54.0039095+02:00",
+  "ActiveDate": "2023-12-23T02:30:46.5382305+01:00",
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
   "Completed": "Completed",
   "RecurringPattern": "Custom",
-  "RecurringStartDate": "2016-10-24T03:46:54.0039095+02:00",
-  "RecurringEndDate": "2013-06-28T03:46:54.0039095+02:00",
-  "MotherId": 880,
-  "AssignedBy": 661,
-  "AssignedByFullName": "Miss Taurean Marisol Howe",
+  "RecurringStartDate": "2003-09-17T02:30:46.5382305+02:00",
+  "RecurringEndDate": "2014-12-02T02:30:46.5382305+01:00",
+  "MotherId": 303,
+  "AssignedBy": 250,
+  "AssignedByFullName": "Mrs. Tommie Jerde DDS",
   "RejectReason": "",
-  "Location": "ipsa",
-  "AlarmLeadTime": "nam",
-  "SaleId": 6,
-  "SaleName": "Kassulke, Walsh and Ratke",
-  "AssociateName": "Rosenbaum-Herman",
-  "CreatedDate": "2006-03-16T03:46:54.0039095+01:00",
-  "CreatedBy": "aut",
-  "CreatedByFullName": "Verda McClure",
-  "CreatedByAssociateId": 166,
+  "Location": "eum",
+  "AlarmLeadTime": "animi",
+  "SaleId": 417,
+  "SaleName": "Zboncak, Konopelski and McLaughlin",
+  "AssociateName": "Ankunding-Harvey",
+  "CreatedDate": "2024-10-14T02:30:46.5382305+02:00",
+  "CreatedBy": "molestiae",
+  "CreatedByFullName": "Miss Anahi Lynch",
+  "CreatedByAssociateId": 736,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "OwnedExternally": "Google",
-  "MotherAssociateId": 332,
+  "MotherAssociateId": 536,
   "JoinVideomeetUrl": "http://www.example.com/",
-  "PreferredTZLocation": 805,
-  "Title": "eos",
-  "Agenda": "aliquam",
-  "InternalNotes": "non",
+  "PreferredTZLocation": 655,
+  "Title": "pariatur",
+  "Agenda": "porro",
+  "InternalNotes": "ullam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 829
+      "FieldType": "System.Int32",
+      "FieldLength": 327
     }
   }
 }

@@ -14,6 +14,8 @@ POST /api/v1/Agents/License/GetUserAndInstallationLicenceStatus
 Get status values for user licenses and installation license that can be used for feedback to the user.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -77,11 +79,11 @@ OK
 POST /api/v1/Agents/License/GetUserAndInstallationLicenceStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 72
+  "AssociateId": 482
 }
 ```
 
@@ -92,14 +94,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AdminWarningDate": "2022-09-16T03:46:54.9107593+02:00",
-  "ExpiryDate": "2017-02-17T03:46:54.9107593+01:00",
-  "GraceDate": "2010-08-24T03:46:54.9107593+02:00",
-  "CompanyName": "Boehm, Hahn and Hand",
+  "AdminWarningDate": "2004-08-01T02:30:47.366331+02:00",
+  "ExpiryDate": "2021-02-23T02:30:47.366331+01:00",
+  "GraceDate": "2016-06-09T02:30:47.366331+02:00",
+  "CompanyName": "Waelchi Inc and Sons",
   "SerialNr": "1010000006",
   "UserLicenses": [
-    "doloremque",
-    "dolor"
+    "voluptatibus",
+    "pariatur"
   ]
 }
 ```

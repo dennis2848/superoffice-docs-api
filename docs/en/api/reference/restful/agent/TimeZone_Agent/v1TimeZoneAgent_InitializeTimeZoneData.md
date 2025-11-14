@@ -14,6 +14,8 @@ POST /api/v1/Agents/TimeZone/InitializeTimeZoneData
 Initalizes the TimeZoneData
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -81,31 +83,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TZLocationID": 121,
-    "Name": "Bartell LLC",
-    "TZLocationCode": "qui",
-    "TZLocationCities": "eos",
-    "IsoNumber": 924,
+    "TZLocationID": 934,
+    "Name": "Purdy-Dickinson",
+    "TZLocationCode": "unde",
+    "TZLocationCities": "architecto",
+    "IsoNumber": 357,
     "TimeZoneSTDRules": {
       "fieldName": {
-        "StartDay": 284,
-        "StartMonth": 551,
-        "EndDay": 96,
-        "EndMonth": 884,
-        "TZOffset": 274,
-        "StartRulePattern": "et",
-        "EndRulePattern": "et"
+        "StartDay": 601,
+        "StartMonth": 570,
+        "EndDay": 164,
+        "EndMonth": 290,
+        "TZOffset": 494,
+        "StartRulePattern": "rerum",
+        "EndRulePattern": "incidunt"
       }
     },
     "TimeZoneDSTRules": {
       "fieldName": {
-        "StartDay": 755,
-        "StartMonth": 33,
-        "EndDay": 792,
-        "EndMonth": 366,
-        "TZOffset": 634,
-        "StartRulePattern": "necessitatibus",
-        "EndRulePattern": "aut"
+        "StartDay": 525,
+        "StartMonth": 374,
+        "EndDay": 914,
+        "EndMonth": 714,
+        "TZOffset": 661,
+        "StartRulePattern": "eos",
+        "EndRulePattern": "inventore"
       }
     }
   }

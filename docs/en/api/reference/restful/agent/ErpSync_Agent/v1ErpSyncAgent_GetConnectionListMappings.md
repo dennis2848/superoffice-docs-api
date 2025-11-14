@@ -14,6 +14,9 @@ POST /api/v1/Agents/ErpSync/GetConnectionListMappings
 Returns the listmappings for the specified connection.
 
 
+NsApiSlow threshold: 5000 ms.
+
+
 ## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
 
 
@@ -78,11 +81,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetConnectionListMappings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 372
+  "ErpConnectionId": 246
 }
 ```
 
@@ -96,31 +99,31 @@ Content-Type: application/json; charset=utf-8
   "ErpListItemMappings": [
     {
       "CrmList": null,
-      "ErpListName": "Lakin-Langworth",
+      "ErpListName": "Langosh, Huels and Sauer",
       "ErpCrmListItemMappings": [
         {},
         {}
       ],
-      "ErpActorTypeName": "Witting-Becker",
-      "ErpFieldId": 102,
+      "ErpActorTypeName": "Crist, Turcotte and Lueilwitz",
+      "ErpFieldId": 831,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 405
+          "FieldType": "System.Int32",
+          "FieldLength": 238
         }
       }
     }
   ],
-  "ErpConnectionId": 23,
-  "ErpConnectionName": "Luettgen LLC",
+  "ErpConnectionId": 609,
+  "ErpConnectionName": "Armstrong-Weissnat",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 236
+      "FieldLength": 637
     }
   }
 }

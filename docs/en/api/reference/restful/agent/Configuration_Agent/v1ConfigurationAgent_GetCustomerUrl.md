@@ -14,6 +14,8 @@ POST /api/v1/Agents/Configuration/GetCustomerUrl
 This method will get the URL for the external access to the customer center
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -61,7 +63,7 @@ OK
 POST /api/v1/Agents/Configuration/GetCustomerUrl
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response

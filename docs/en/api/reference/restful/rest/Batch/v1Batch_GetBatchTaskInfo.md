@@ -82,7 +82,7 @@ OK
 GET /api/v1/BatchTask/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -92,37 +92,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 133,
-  "Name": "Borer, Keeling and Bergnaum",
-  "AssociateId": 610,
-  "DetailsTable": 174,
-  "DetailsRecord": 511,
+  "Id": 682,
+  "Name": "Kassulke-Wyman",
+  "AssociateId": 466,
+  "DetailsTable": 338,
+  "DetailsRecord": 245,
   "IsSystemTask": false,
   "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "eum",
-    "ParameterObject2": "amet"
+    "ParameterObject1": "quo",
+    "ParameterObject2": "veritatis"
   },
-  "LastStarted": "2024-04-30T03:47:00.3943072+02:00",
-  "Created": "2003-06-23T03:47:00.3943072+02:00",
-  "StartCount": 491,
-  "DatabaseSerialNumber": "385130",
-  "Context": "dolorem",
-  "Result": "odit",
+  "LastStarted": "2004-09-23T02:30:53.022399+02:00",
+  "Created": "2015-09-05T02:30:53.022399+02:00",
+  "StartCount": 180,
+  "DatabaseSerialNumber": "56739",
+  "Context": "corrupti",
+  "Result": "molestiae",
   "State": "All",
-  "Description": "Exclusive homogeneous open system",
-  "Response": "temporibus",
-  "Request": "ducimus",
-  "ProgressDescription": "Automated contextually-based capacity",
-  "ProgressPercent": 565,
-  "FileName": "Raynor, Erdman and Cassin",
+  "Description": "Team-oriented modular functionalities",
+  "Response": "enim",
+  "Request": "eligendi",
+  "ProgressDescription": "Future-proofed executive neural-net",
+  "ProgressPercent": 684,
+  "FileName": "Bergstrom-Rath",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 463
+      "FieldType": "System.Int32",
+      "FieldLength": 954
     }
   }
 }

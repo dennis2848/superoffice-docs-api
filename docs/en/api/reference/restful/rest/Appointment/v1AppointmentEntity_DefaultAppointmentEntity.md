@@ -15,6 +15,7 @@ Set default values into a new AppointmentEntity.
 
 
 NetServer calculates default values on the entity, which is required when creating/storing a new instance Calls the Appointment agent service CreateDefaultAppointmentEntity.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -117,7 +118,7 @@ OK
 GET /api/v1/Appointment/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -125,128 +126,128 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Fri, 24 Sep 2021 03:46:59 G9T
+Last-Modified: Thu, 02 May 2013 02:30:52 G5T
 
 {
   "Associate": null,
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2013-02-22T03:46:59.6599495+01:00",
-  "AppointmentId": 826,
-  "Description": "Object-based object-oriented emulation",
-  "Title": "quia",
-  "Agenda": "voluptatem",
-  "InternalNotes": "enim",
-  "StartDate": "2001-01-28T03:46:59.6599495+01:00",
-  "EndDate": "2009-07-17T03:46:59.6599495+02:00",
+  "CreatedDate": "2013-11-18T02:30:52.272424+01:00",
+  "AppointmentId": 995,
+  "Description": "Cloned mobile help-desk",
+  "Title": "sed",
+  "Agenda": "quisquam",
+  "InternalNotes": "placeat",
+  "StartDate": "2021-10-29T02:30:52.272424+02:00",
+  "EndDate": "2016-09-29T02:30:52.272424+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 82,
+  "MotherId": 275,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2021-09-24T03:46:59.6599495+02:00",
+  "UpdatedDate": "2013-05-02T02:30:52.272424+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 895,
+  "ActiveLinks": 53,
   "Links": [
     {
-      "EntityName": "Lind-Runte",
-      "Id": 447,
-      "Description": "Re-contextualized needs-based matrix",
-      "ExtraInfo": "consequatur",
-      "LinkId": 844,
+      "EntityName": "Lehner-Runolfsson",
+      "Id": 26,
+      "Description": "Robust directional array",
+      "ExtraInfo": "doloribus",
+      "LinkId": 976,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 823
+          "FieldType": "System.Int32",
+          "FieldLength": 785
         }
       }
     }
   ],
-  "AlarmLeadTime": "amet",
+  "AlarmLeadTime": "nesciunt",
   "HasAlarm": false,
-  "ColorIndex": 696,
+  "ColorIndex": 463,
   "IsFree": true,
   "IsAlldayEvent": false,
-  "LagTime": "aspernatur",
-  "LeadTime": "et",
-  "Location": "vero",
-  "RejectCounter": 100,
+  "LagTime": "nobis",
+  "LeadTime": "exercitationem",
+  "Location": "expedita",
+  "RejectCounter": 512,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 659,
-      "PersonId": 962,
-      "ContactId": 213,
-      "EmailId": 741,
+      "AssociateId": 186,
+      "PersonId": 501,
+      "ContactId": 824,
+      "EmailId": 570,
       "SendEmail": true,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "uriah@mante.co.uk",
-      "Description": "Automated client-driven Graphical User Interface"
+      "EmailAddress": "zola@turner.biz",
+      "Description": "De-engineered demand-driven budgetary management"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2021-03-25T03:46:59.6599495+01:00",
+  "ActiveDate": "2013-02-20T02:30:52.272424+01:00",
   "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 774,
+  "PreferredTZLocation": 384,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 479,
-  "IsMileStone": true,
+  "SuggestedAppointmentId": 681,
+  "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "OwnedExternally": "Google",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "voluptates",
+  "CentralserviceVideomeetId": "ut",
   "UserDefinedFields": {
-    "SuperOffice:1": "Haylie Rempel",
-    "SuperOffice:2": "False"
+    "SuperOffice:1": "True",
+    "SuperOffice:2": "Efren Leuschke"
   },
   "ExtraFields": {
-    "ExtraFields1": "et",
-    "ExtraFields2": "aut"
+    "ExtraFields1": "itaque",
+    "ExtraFields2": "consequatur"
   },
   "CustomFields": {
-    "CustomFields1": "ipsa",
-    "CustomFields2": "sunt"
+    "CustomFields1": "maiores",
+    "CustomFields2": "est"
   },
-  "PublishEventDate": "2018-06-24T03:46:59.6599495+02:00",
-  "PublishTo": "2014-01-09T03:46:59.6599495+01:00",
-  "PublishFrom": "2003-07-12T03:46:59.6599495+02:00",
+  "PublishEventDate": "2020-06-02T02:30:52.272424+02:00",
+  "PublishTo": "2014-12-10T02:30:52.272424+01:00",
+  "PublishFrom": "2007-05-31T02:30:52.272424+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 836,
+      "VisibleId": 598,
       "Visibility": "All",
-      "DisplayValue": "accusamus",
+      "DisplayValue": "ut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 919
+          "FieldType": "System.String",
+          "FieldLength": 456
         }
       }
     },
     {
-      "VisibleId": 836,
+      "VisibleId": 598,
       "Visibility": "All",
-      "DisplayValue": "accusamus",
+      "DisplayValue": "ut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 919
+          "FieldType": "System.String",
+          "FieldLength": 456
         }
       }
     }
@@ -255,8 +256,8 @@ Last-Modified: Fri, 24 Sep 2021 03:46:59 G9T
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 106
+      "FieldType": "System.String",
+      "FieldLength": 965
     }
   }
 }

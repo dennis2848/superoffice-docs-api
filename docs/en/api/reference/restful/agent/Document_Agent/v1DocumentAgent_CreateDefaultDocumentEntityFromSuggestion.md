@@ -11,7 +11,7 @@ content_type: reference
 POST /api/v1/Agents/Document/CreateDefaultDocumentEntityFromSuggestion
 ```
 
-
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -107,11 +107,11 @@ OK
 POST /api/v1/Agents/Document/CreateDefaultDocumentEntityFromSuggestion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedDocumentId": 567
+  "SuggestedDocumentId": 161
 }
 ```
 
@@ -122,88 +122,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 862,
+  "DocumentId": 227,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "omnis",
-  "Header": "omnis",
-  "Name": "Greenfelder-Dickinson",
-  "OurRef": "dolores",
-  "YourRef": "velit",
-  "CreatedDate": "2018-05-22T03:46:54.6913844+02:00",
-  "UpdatedDate": "1998-06-21T03:46:54.6913844+02:00",
-  "Description": "Front-line transitional pricing structure",
+  "Attention": "nihil",
+  "Header": "sit",
+  "Name": "Windler, Barrows and Stokes",
+  "OurRef": "assumenda",
+  "YourRef": "aliquid",
+  "CreatedDate": "2008-08-18T02:30:47.2100867+02:00",
+  "UpdatedDate": "2025-08-05T02:30:47.2100867+02:00",
+  "Description": "Streamlined upward-trending paradigm",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2005-01-09T03:46:54.6913844+01:00",
-  "ExternalRef": "mollitia",
+  "Date": "2021-07-16T02:30:47.2100867+02:00",
+  "ExternalRef": "qui",
   "Completed": "Completed",
-  "ActiveLinks": 682,
+  "ActiveLinks": 438,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Jacobs Group",
-      "Id": 290,
-      "Description": "Diverse reciprocal monitoring",
-      "ExtraInfo": "perspiciatis",
-      "LinkId": 721,
+      "EntityName": "Hagenes, Abbott and Jacobs",
+      "Id": 808,
+      "Description": "Universal stable groupware",
+      "ExtraInfo": "nulla",
+      "LinkId": 918,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 532
+          "FieldType": "System.String",
+          "FieldLength": 742
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 522,
-  "Snum": 628,
+  "SuggestedDocumentId": 942,
+  "Snum": 499,
   "UserDefinedFields": {
-    "SuperOffice:1": "Thomas Johns",
-    "SuperOffice:2": "795172046"
+    "SuperOffice:1": "Furman Ferry",
+    "SuperOffice:2": "Daisy Nikolaus"
   },
   "ExtraFields": {
-    "ExtraFields1": "saepe",
-    "ExtraFields2": "ipsam"
+    "ExtraFields1": "sit",
+    "ExtraFields2": "earum"
   },
   "CustomFields": {
-    "CustomFields1": "quia",
-    "CustomFields2": "voluptatibus"
+    "CustomFields1": "expedita",
+    "CustomFields2": "eaque"
   },
-  "PublishEventDate": "2012-01-03T03:46:54.6913844+01:00",
-  "PublishTo": "2020-02-16T03:46:54.6913844+01:00",
-  "PublishFrom": "2023-11-20T03:46:54.6913844+01:00",
-  "IsPublished": true,
+  "PublishEventDate": "2023-03-13T02:30:47.2100867+01:00",
+  "PublishTo": "2005-09-06T02:30:47.2100867+02:00",
+  "PublishFrom": "1998-07-04T02:30:47.2100867+02:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 279,
+      "VisibleId": 604,
       "Visibility": "All",
-      "DisplayValue": "est",
+      "DisplayValue": "aut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 353
+          "FieldLength": 798
         }
       }
     },
     {
-      "VisibleId": 279,
+      "VisibleId": 604,
       "Visibility": "All",
-      "DisplayValue": "est",
+      "DisplayValue": "aut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 353
+          "FieldLength": 798
         }
       }
     }
@@ -213,7 +213,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 58
+      "FieldLength": 160
     }
   }
 }

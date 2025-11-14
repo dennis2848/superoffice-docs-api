@@ -14,6 +14,9 @@ POST /api/v1/Agents/EMail/Save
 Save the e-mail back to the database
 
 
+NsApiSlow threshold: 5000 ms.
+
+
 ## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 
@@ -101,7 +104,7 @@ OK
 POST /api/v1/Agents/EMail/Save
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -118,97 +121,97 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 5,
-      "ContactName": "Smitham, Gutmann and Boyle",
-      "PersonId": 837,
-      "PersonName": "Hoppe Inc and Sons",
-      "AssociateId": 977,
-      "Address": "voluptatum",
-      "EmailId": 325,
+      "ContactId": 284,
+      "ContactName": "Langworth, Botsford and Bogan",
+      "PersonId": 328,
+      "PersonName": "O'Kon, Stark and Abernathy",
+      "AssociateId": 283,
+      "Address": "deserunt",
+      "EmailId": 526,
       "DuplicatePersonIds": [
-        898,
-        632
+        537,
+        687
       ],
-      "Name": "Haag Group",
+      "Name": "Bosco LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 65
+          "FieldLength": 773
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 294,
-      "ContactName": "Lesch-Braun",
-      "PersonId": 325,
-      "PersonName": "Abshire, Schaden and Brown",
-      "AssociateId": 927,
-      "Address": "ducimus",
-      "EmailId": 418,
+      "ContactId": 801,
+      "ContactName": "Walker-Ziemann",
+      "PersonId": 601,
+      "PersonName": "Wintheiser-Schmeler",
+      "AssociateId": 894,
+      "Address": "atque",
+      "EmailId": 71,
       "DuplicatePersonIds": [
-        48,
-        61
+        671,
+        86
       ],
-      "Name": "Kautzer-Ferry",
+      "Name": "Bahringer-Schuppe",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 733
+          "FieldLength": 196
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 73,
-      "ContactName": "Macejkovic, Cronin and Will",
-      "PersonId": 242,
-      "PersonName": "Feil, Kunde and Reinger",
+      "ContactId": 557,
+      "ContactName": "Mraz, Huel and Heathcote",
+      "PersonId": 36,
+      "PersonName": "Williamson, Bins and Bruen",
       "AssociateId": 563,
-      "Address": "dolorem",
-      "EmailId": 654,
+      "Address": "harum",
+      "EmailId": 46,
       "DuplicatePersonIds": [
-        941,
-        638
+        379,
+        876
       ],
-      "Name": "Botsford Group",
+      "Name": "Konopelski Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 847
+          "FieldLength": 143
         }
       }
     }
   ],
-  "Subject": "sint",
-  "HTMLBody": "et",
+  "Subject": "veritatis",
+  "HTMLBody": "eum",
   "From": null,
-  "Sent": "2008-04-04T03:46:54.8007556+02:00",
-  "Size": 722,
+  "Sent": "2013-06-17T02:30:47.3194579+02:00",
+  "Size": 926,
   "Priority": "High",
   "Flags": "Answered",
   "MessageID": "et",
-  "PlainBody": "voluptate",
+  "PlainBody": "labore",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 678,
+  "ServerId": 648,
   "Attachments": [
     {
-      "Description": "Stand-alone discrete initiative",
-      "Filename": "provident",
-      "Size": 907,
-      "Type": "ex",
-      "Encoding": "vel",
-      "Id": "ut",
-      "Disposition": "non",
+      "Description": "User-centric optimizing adapter",
+      "Filename": "aut",
+      "Size": 521,
+      "Type": "quia",
+      "Encoding": "cupiditate",
+      "Id": "eveniet",
+      "Disposition": "sint",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
@@ -216,49 +219,49 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 42
+          "FieldLength": 196
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Hoeger-Daniel",
+      "Name": "Krajcik Group",
       "Values": [
-        "autem",
-        "et"
+        "voluptates",
+        "ut"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 79
+          "FieldType": "System.Int32",
+          "FieldLength": 83
         }
       }
     },
     {
-      "Name": "Hoeger-Daniel",
+      "Name": "Krajcik Group",
       "Values": [
-        "autem",
-        "et"
+        "voluptates",
+        "ut"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 79
+          "FieldType": "System.Int32",
+          "FieldLength": 83
         }
       }
     }
   ],
-  "FolderName": "Marks LLC",
-  "EmailItemId": 242,
-  "AccountId": 354,
-  "ReceivedAt": "2007-09-25T03:46:54.8007556+02:00",
+  "FolderName": "Satterfield, Keeling and Cruickshank",
+  "EmailItemId": 11,
+  "AccountId": 199,
+  "ReceivedAt": "1999-06-24T02:30:47.3194579+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2023-12-05T03:46:54.8007556+01:00",
+  "RepliedAt": "2013-03-31T02:30:47.3194579+01:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -267,7 +270,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 14
+      "FieldLength": 836
     }
   }
 }

@@ -14,6 +14,8 @@ POST /api/v1/Agents/Quote/CreateQuoteLine
 Create a quoteline based on a product key.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -123,12 +125,12 @@ OK
 POST /api/v1/Agents/Quote/CreateQuoteLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 993,
-  "ERPProductKey": "et"
+  "QuoteAlternativeId": 889,
+  "ERPProductKey": "dicta"
 }
 ```
 
@@ -139,88 +141,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 712,
-  "ERPQuoteLineKey": "corporis",
-  "QuoteAlternativeId": 445,
-  "ERPProductKey": "blanditiis",
+  "QuoteLineId": 694,
+  "ERPQuoteLineKey": "incidunt",
+  "QuoteAlternativeId": 409,
+  "ERPProductKey": "ipsa",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 28616.554,
-  "DeliveredQuantity": 21430.291999999998,
-  "Rank": 205,
-  "Name": "Schuppe LLC",
-  "Description": "Right-sized intermediate hardware",
-  "Code": "explicabo",
-  "QuantityUnit": "aut",
-  "PriceUnit": "autem",
-  "ItemNumber": "319607",
+  "Quantity": 22881.334,
+  "DeliveredQuantity": 17838.728,
+  "Rank": 917,
+  "Name": "Carroll Inc and Sons",
+  "Description": "Ergonomic systemic contingency",
+  "Code": "facere",
+  "QuantityUnit": "quis",
+  "PriceUnit": "facilis",
+  "ItemNumber": "835580",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "optio",
-  "ProductTypeKey": "praesentium",
-  "Supplier": "praesentium",
-  "SupplierCode": "possimus",
-  "Thumbnail": "aut",
-  "VATInfo": "est",
-  "VAT": 19032.782,
-  "UnitCost": 2080.976,
-  "UnitMinimumPrice": 5221.244,
-  "UnitListPrice": 3738.862,
+  "ProductFamilyKey": "voluptas",
+  "ProductTypeKey": "ut",
+  "Supplier": "beatae",
+  "SupplierCode": "dicta",
+  "Thumbnail": "odit",
+  "VATInfo": "non",
+  "VAT": 4863.968,
+  "UnitCost": 22477.048,
+  "UnitMinimumPrice": 15419.279999999999,
+  "UnitListPrice": 19010.844,
   "ExtraInfo": [
     {
-      "Name": "Mayert, Thiel and Legros",
-      "Value": "sapiente",
+      "Name": "Runolfsdottir, Rogahn and Conn",
+      "Value": "dolor",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 109
+          "FieldType": "System.String",
+          "FieldLength": 894
         }
       }
     },
     {
-      "Name": "Mayert, Thiel and Legros",
-      "Value": "sapiente",
+      "Name": "Runolfsdottir, Rogahn and Conn",
+      "Value": "dolor",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 109
+          "FieldType": "System.String",
+          "FieldLength": 894
         }
       }
     }
   ],
-  "RawExtraInfo": "ratione",
+  "RawExtraInfo": "eveniet",
   "IsSubscription": false,
-  "SubscriptionUnit": "labore",
-  "SubscriptionQuantity": 30594.108,
-  "SubscriptionStart": "2009-10-22T03:46:55.2226157+02:00",
-  "ERPDiscountPercent": 10063.274,
-  "ERPDiscountAmount": 24965.444,
-  "DiscountPercent": 13664.24,
-  "DiscountAmount": 27544.726,
+  "SubscriptionUnit": "incidunt",
+  "SubscriptionQuantity": 19007.71,
+  "SubscriptionStart": "2016-10-27T02:30:47.7413192+02:00",
+  "ERPDiscountPercent": 2137.388,
+  "ERPDiscountAmount": 24119.264,
+  "DiscountPercent": 28039.897999999997,
+  "DiscountAmount": 18998.308,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 23075.642,
-  "EarningAmount": 20806.626,
-  "SubTotal": 14341.184,
-  "TotalPrice": 5243.182,
-  "Rights": "voluptatibus",
-  "Rule": "esse",
-  "ExtraField1": "incidunt",
-  "ExtraField2": "eaque",
-  "ExtraField3": "facilis",
-  "ExtraField4": "minus",
-  "ExtraField5": "iste",
+  "EarningPercent": 4033.458,
+  "EarningAmount": 24780.538,
+  "SubTotal": 30716.334,
+  "TotalPrice": 20198.63,
+  "Rights": "eos",
+  "Rule": "tenetur",
+  "ExtraField1": "quas",
+  "ExtraField2": "facilis",
+  "ExtraField3": "perspiciatis",
+  "ExtraField4": "sit",
+  "ExtraField5": "qui",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 169
+      "FieldLength": 736
     }
   }
 }

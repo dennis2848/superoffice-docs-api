@@ -14,6 +14,8 @@ POST /api/v1/Agents/Appointment/GetPublishedAppointments
 Get published appointments by appointment ids.
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -133,8 +135,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "AppointmentIds": [
-    657,
-    114
+    554,
+    585
   ]
 }
 ```
@@ -147,67 +149,67 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 587,
-    "StartDate": "2001-03-29T03:46:54.0039095+02:00",
-    "EndDate": "2018-11-05T03:46:54.0039095+01:00",
+    "AppointmentId": 600,
+    "StartDate": "2018-04-26T02:30:46.522607+02:00",
+    "EndDate": "2014-05-09T02:30:46.522607+02:00",
     "Type": "BookingForChecklist",
-    "Task": "aliquid",
-    "AssociateFullName": "Myra Conroy",
-    "ContactName": "Lehner Group",
-    "Description": "Business-focused mobile success",
-    "PersonFullName": "Justine Lubowitz",
-    "PersonId": 149,
-    "ContactId": 352,
-    "ProjectId": 957,
-    "ProjectName": "Farrell, Frami and Zboncak",
-    "IsPublished": true,
-    "AssociateId": 599,
-    "ColorIndex": 841,
-    "IsFree": true,
-    "HasAlarm": false,
+    "Task": "quasi",
+    "AssociateFullName": "Janice Pacocha",
+    "ContactName": "Grant-Lang",
+    "Description": "Diverse global artificial intelligence",
+    "PersonFullName": "Dr. Maxime Virgie Kshlerin DVM",
+    "PersonId": 980,
+    "ContactId": 162,
+    "ProjectId": 518,
+    "ProjectName": "Cummerata LLC",
+    "IsPublished": false,
+    "AssociateId": 201,
+    "ColorIndex": 473,
+    "IsFree": false,
+    "HasAlarm": true,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 183,
-    "PriorityName": "Welch Group",
+    "PriorityId": 581,
+    "PriorityName": "Stark-Hermiston",
     "TaskType": "Appointment",
-    "IsBookingMain": false,
-    "IsRecurrence": true,
+    "IsBookingMain": true,
+    "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "2019-08-15T03:46:54.0039095+02:00",
+    "ActiveDate": "2008-08-04T02:30:46.522607+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2000-08-19T03:46:54.0039095+02:00",
-    "RecurringEndDate": "2023-05-20T03:46:54.0039095+02:00",
-    "MotherId": 295,
-    "AssignedBy": 504,
-    "AssignedByFullName": "Nathaniel Deckow",
+    "RecurringStartDate": "2022-03-01T02:30:46.522607+01:00",
+    "RecurringEndDate": "2024-04-23T02:30:46.522607+02:00",
+    "MotherId": 520,
+    "AssignedBy": 875,
+    "AssignedByFullName": "Rubie Lebsack III",
     "RejectReason": "",
-    "Location": "voluptatem",
-    "AlarmLeadTime": "eos",
-    "SaleId": 479,
-    "SaleName": "Douglas Group",
-    "AssociateName": "Lubowitz, Zboncak and Emard",
-    "CreatedDate": "2010-04-14T03:46:54.0039095+02:00",
-    "CreatedBy": "facilis",
-    "CreatedByFullName": "Leatha Williamson",
-    "CreatedByAssociateId": 148,
+    "Location": "sed",
+    "AlarmLeadTime": "dolorem",
+    "SaleId": 872,
+    "SaleName": "Hackett, Pouros and Johnson",
+    "AssociateName": "Collins LLC",
+    "CreatedDate": "2015-04-10T02:30:46.522607+02:00",
+    "CreatedBy": "quos",
+    "CreatedByFullName": "Ophelia Quincy Watsica MD",
+    "CreatedByAssociateId": 635,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "OwnedExternally": "Google",
-    "MotherAssociateId": 753,
+    "MotherAssociateId": 329,
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 560,
-    "Title": "reiciendis",
-    "Agenda": "provident",
-    "InternalNotes": "tempora",
+    "PreferredTZLocation": 572,
+    "Title": "consequuntur",
+    "Agenda": "qui",
+    "InternalNotes": "ea",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 313
+        "FieldType": "System.Int32",
+        "FieldLength": 297
       }
     }
   }

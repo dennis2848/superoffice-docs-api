@@ -71,18 +71,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 89,
-  "Name": "Jakubowski-Ward",
-  "Tooltip": "vel",
-  "Deleted": false,
-  "UdListDefinitionId": 776,
-  "Rank": 932,
+  "Id": 270,
+  "Name": "Swaniawski, Collins and Pagac",
+  "Tooltip": "similique",
+  "Deleted": true,
+  "UdListDefinitionId": 111,
+  "Rank": 922,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 113
+      "FieldLength": 247
     }
   }
 }

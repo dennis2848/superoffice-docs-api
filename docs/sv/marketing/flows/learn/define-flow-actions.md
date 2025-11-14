@@ -1,10 +1,10 @@
----
+﻿---
 uid: help-sv-flow-actions
 title: Definiera flödesåtgärder
 description: Definiera flödesåtgärder
 keywords: flöde, automatisering, flödesåtgärd, kör skript, fördela till ägare
 author: Bergfrid Dias
-date: 09.01.2025
+date: 09.26.2025
 version: 11.3
 content_type: howto
 category: marketing
@@ -112,7 +112,7 @@ Kontakten tas bort som medlem från det angivna urvalet och/eller projektet.
 
 Detta steg är liknande **Lägg till i urval/projekt**.
 
-### Distribuera till ägare
+### <a id="distribute"></a>Distribuera till ägare
 
 Fördela kontakter jämnt mellan valda medarbetare eller medlemmar i en angiven grupp. Används för att automatiskt tilldela nya kontakter till ett team.
 

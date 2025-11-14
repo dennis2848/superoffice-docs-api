@@ -26,8 +26,7 @@ items:
     href: activity.md
   - name: Firma- og personrelasjoner
     href: relations.md
-  - name: Språk og oversettelse
-    href: ../../globalization-and-localization/learn/toc.yml
-    topicHref: ../../globalization-and-localization/learn/change-language.md
   - name: Eksterne applikasjoner og URL-adresser
     href: external-applications-and-url-addresses.md
+  - name: Opprett/kopier snarvei
+    href: creating-shortcuts-to-entries-in-crm.md

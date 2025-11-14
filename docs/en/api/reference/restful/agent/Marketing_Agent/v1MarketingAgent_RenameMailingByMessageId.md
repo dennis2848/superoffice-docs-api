@@ -14,6 +14,8 @@ POST /api/v1/Agents/Marketing/RenameMailingByMessageId
 Change the mailing name (shipment description) that the given message (MessageId) belongs to
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -70,8 +72,8 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "MessageId": 348,
-  "Name": "Skiles LLC"
+  "MessageId": 592,
+  "Name": "Padberg Inc and Sons"
 }
 ```
 

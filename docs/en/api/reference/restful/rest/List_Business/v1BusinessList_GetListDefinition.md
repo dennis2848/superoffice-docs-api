@@ -76,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 792,
-  "Name": "Mueller Group",
-  "Tooltip": "omnis",
+  "Id": 421,
+  "Name": "Kling-Leffler",
+  "Tooltip": "rerum",
   "Deleted": true,
-  "Rank": 43,
-  "IsCustomList": true,
+  "Rank": 785,
+  "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "est",
-  "InUseByUserDefinedFields": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "aut",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 664
+      "FieldLength": 326
     }
   },
   "_Links": {

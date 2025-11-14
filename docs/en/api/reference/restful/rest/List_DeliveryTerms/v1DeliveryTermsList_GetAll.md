@@ -71,7 +71,7 @@ OK
 GET /api/v1/List/DeliveryTerm/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -82,18 +82,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 817,
-    "Name": "Tillman, Ullrich and Botsford",
-    "Tooltip": "sint",
+    "Id": 629,
+    "Name": "Metz, Ruecker and Ryan",
+    "Tooltip": "repellendus",
     "Deleted": false,
-    "UdListDefinitionId": 906,
-    "Rank": 487,
+    "UdListDefinitionId": 12,
+    "Rank": 724,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 620
+        "FieldLength": 631
       }
     }
   }

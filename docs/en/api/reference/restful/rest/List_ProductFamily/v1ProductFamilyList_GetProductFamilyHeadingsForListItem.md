@@ -86,7 +86,7 @@ OK
 GET /api/v1/List/ProductFamily/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -97,56 +97,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 397,
-    "Name": "Stroman, Moore and Durgan",
-    "ToolTip": "Maiores distinctio sequi eum dolorum repellendus odio.",
+    "Id": 501,
+    "Name": "Howe LLC",
+    "ToolTip": "Soluta repellat.",
     "Deleted": false,
-    "Rank": 221,
-    "Type": "tempore",
-    "ColorBlock": 679,
-    "IconHint": "nihil",
+    "Rank": 394,
+    "Type": "ut",
+    "ColorBlock": 33,
+    "IconHint": "illo",
     "Selected": false,
-    "LastChanged": "2013-12-08T03:47:00.7380451+01:00",
+    "LastChanged": "2004-06-13T02:30:53.3661371+02:00",
     "ChildItems": [
       {
-        "Id": 528,
-        "Name": "Hammes, O'Kon and Ryan",
-        "ToolTip": "Neque sit.",
+        "Id": 750,
+        "Name": "Larson, Lehner and Stanton",
+        "ToolTip": "Rem assumenda enim blanditiis.",
         "Deleted": false,
-        "Rank": 718,
-        "Type": "sed",
-        "ColorBlock": 99,
-        "IconHint": "accusamus",
-        "Selected": true,
-        "LastChanged": "2009-01-06T03:47:00.7380451+01:00",
+        "Rank": 752,
+        "Type": "eveniet",
+        "ColorBlock": 93,
+        "IconHint": "nihil",
+        "Selected": false,
+        "LastChanged": "2015-12-05T02:30:53.3661371+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "natus",
-        "StyleHint": "sit",
-        "Hidden": false,
-        "FullName": "Johnathon Bergnaum Sr.",
+        "ExtraInfo": "doloribus",
+        "StyleHint": "accusantium",
+        "Hidden": true,
+        "FullName": "Brielle Morissette",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 814
+            "FieldLength": 930
           }
         }
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "nihil",
+    "ExtraInfo": "error",
+    "StyleHint": "praesentium",
     "Hidden": false,
-    "FullName": "Nick Kertzmann",
+    "FullName": "Jerel Haag",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 589
+        "FieldType": "System.String",
+        "FieldLength": 788
       }
     }
   }

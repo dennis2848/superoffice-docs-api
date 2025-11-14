@@ -14,6 +14,8 @@ POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedPageOneFields
 Get a list of page one fields for given Udef type and current user group
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -108,12 +110,12 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedPageOneFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "OwnerType": "Appointment",
-  "UserGroupId": 118
+  "UserGroupId": 210
 }
 ```
 
@@ -125,46 +127,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 161,
-    "ColumnId": 751,
-    "FieldDefault": "enim",
-    "FieldHeight": 613,
-    "FieldLabel": "et",
-    "FieldLeft": 320,
-    "FieldTop": 835,
+    "UDefFieldId": 405,
+    "ColumnId": 687,
+    "FieldDefault": "repellat",
+    "FieldHeight": 97,
+    "FieldLabel": "quis",
+    "FieldLeft": 591,
+    "FieldTop": 841,
     "FieldType": "Checkbox",
-    "FieldWidth": 660,
-    "FormatMask": "doloremque",
-    "HideLabel": true,
+    "FieldWidth": 144,
+    "FormatMask": "dolor",
+    "HideLabel": false,
     "IsIndexed": false,
-    "LabelHeight": 332,
-    "LabelLeft": 898,
-    "LabelTop": 567,
-    "LabelWidth": 425,
-    "LastVersionId": 115,
-    "ListTableId": 82,
-    "IsMandatory": true,
+    "LabelHeight": 498,
+    "LabelLeft": 352,
+    "LabelTop": 970,
+    "LabelWidth": 734,
+    "LastVersionId": 203,
+    "ListTableId": 133,
+    "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 860,
-    "ProgId": "minus",
+    "Page1LineNo": 988,
+    "ProgId": "autem",
     "IsReadOnly": false,
-    "ShortLabel": "rem",
-    "TabOrder": 739,
-    "TextLength": 297,
-    "Tooltip": "dolorum",
-    "UdefIdentity": 236,
-    "UDListDefinitionId": 353,
+    "ShortLabel": "sit",
+    "TabOrder": 922,
+    "TextLength": 409,
+    "Tooltip": "error",
+    "UdefIdentity": 13,
+    "UDListDefinitionId": 468,
     "Justification": "Center",
-    "Version": 846,
-    "TemplateVariableName": "Labadie-Schmeler",
-    "HasBeenPublished": false,
-    "MdoListName": "Rempel-Gaylord",
+    "Version": 852,
+    "TemplateVariableName": "Flatley, Waelchi and Walter",
+    "HasBeenPublished": true,
+    "MdoListName": "Feeney LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 917
+        "FieldLength": 146
       }
     }
   }

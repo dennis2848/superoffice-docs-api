@@ -76,18 +76,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 650,
-  "Name": "Simonis-Kunze",
-  "Tooltip": "reiciendis",
+  "Id": 299,
+  "Name": "Torp, Murray and Sipes",
+  "Tooltip": "in",
   "Deleted": false,
-  "UdListDefinitionId": 129,
-  "Rank": 639,
+  "UdListDefinitionId": 315,
+  "Rank": 616,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 748
+      "FieldType": "System.Int32",
+      "FieldLength": 992
     }
   }
 }

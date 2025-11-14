@@ -107,24 +107,24 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 15,
-  "Section": "omnis",
-  "Key": "libero",
-  "Name": "Veum, Bosco and Ritchie",
+  "PrefDescId": 880,
+  "Section": "ad",
+  "Key": "eum",
+  "Name": "Schmitt, Pacocha and Monahan",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Programmable client-server architecture",
+  "Description": "Optional full-range leverage",
   "IsBuiltin": false,
-  "TableName": "Brakus, Haley and Hackett",
-  "UserDefinedListId": 247,
-  "Rank": 140,
-  "SubGroup": "amet",
-  "MinLevel": 61,
-  "MaxValue": 777,
-  "MinValue": 308,
-  "RequiredLicense": "dignissimos"
+  "TableName": "Brakus, Simonis and Grimes",
+  "UserDefinedListId": 894,
+  "Rank": 704,
+  "SubGroup": "eum",
+  "MinLevel": 43,
+  "MaxValue": 349,
+  "MinValue": 901,
+  "RequiredLicense": "necessitatibus"
 }
 ```
 
@@ -135,30 +135,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 101,
-  "Section": "voluptates",
-  "Key": "quod",
-  "Name": "Batz, Jacobson and Tillman",
+  "PrefDescId": 40,
+  "Section": "porro",
+  "Key": "praesentium",
+  "Name": "Bosco-Homenick",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Open-source 24 hour superstructure",
-  "IsBuiltin": false,
-  "TableName": "Hickle LLC",
-  "UserDefinedListId": 984,
-  "Rank": 965,
-  "SubGroup": "ut",
-  "MinLevel": 608,
-  "MaxValue": 102,
-  "MinValue": 812,
-  "RequiredLicense": "quo",
+  "Description": "Quality-focused empowering array",
+  "IsBuiltin": true,
+  "TableName": "Abernathy LLC",
+  "UserDefinedListId": 949,
+  "Rank": 939,
+  "SubGroup": "debitis",
+  "MinLevel": 580,
+  "MaxValue": 585,
+  "MinValue": 831,
+  "RequiredLicense": "qui",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 212
+      "FieldLength": 220
     }
   }
 }

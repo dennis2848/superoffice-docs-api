@@ -14,6 +14,8 @@ POST /api/v1/Agents/Chat/SaveChatTopicEntity
 Updates the existing ChatTopicEntity or creates a new ChatTopicEntity if the id parameter is 0.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -124,41 +126,41 @@ OK
 POST /api/v1/Agents/Chat/SaveChatTopicEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 565,
-  "Name": "Davis, Nolan and Hirthe",
-  "Description": "Balanced leading edge artificial intelligence",
-  "WelcomeMessage": "ut",
+  "ChatTopicId": 232,
+  "Name": "Grant-Stokes",
+  "Description": "Optimized mission-critical project",
+  "WelcomeMessage": "non",
   "Language": null,
-  "LastAccept": "2010-12-27T03:46:54.3788954+01:00",
-  "SecondsPrAccept": 856,
-  "AlertRecipient": "magnam",
+  "LastAccept": "2001-02-16T02:30:46.8975935+01:00",
+  "SecondsPrAccept": 743,
+  "AlertRecipient": "molestiae",
   "AlertTemplate": null,
-  "CollectConsent": false,
-  "BadgeHeader": "harum",
+  "CollectConsent": true,
+  "BadgeHeader": "quia",
   "CustomQueueTextEnabled": false,
-  "CustomQueueText": "fuga",
-  "WarnNewChatMinutes": 963,
-  "WarnManagerNewChatMinutes": 46,
+  "CustomQueueText": "consequatur",
+  "WarnNewChatMinutes": 248,
+  "WarnManagerNewChatMinutes": 882,
   "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
   "OpeningHoursEnabled": false,
   "OpeningHours": null,
   "Widget": null,
-  "BotEnabled": false,
+  "BotEnabled": true,
   "BotSettings": null,
   "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 581,
-  "WarnManagerChatMessageMinutes": 605,
+  "WarnChatMessageMinutes": 392,
+  "WarnManagerChatMessageMinutes": 558,
   "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 900,
-  "OfflineFormQueueLength": 3,
+  "OfflineFormTimeLimit": 276,
+  "OfflineFormQueueLength": 945,
   "WidgetEnableRating": false,
-  "WidgetRatingText": "exercitationem"
+  "WidgetRatingText": "asperiores"
 }
 ```
 
@@ -169,43 +171,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 50,
-  "Name": "Spinka, Zboncak and Reichel",
-  "Description": "Optional dedicated hierarchy",
-  "WelcomeMessage": "nam",
+  "ChatTopicId": 680,
+  "Name": "Hintz-Paucek",
+  "Description": "Reactive radical intranet",
+  "WelcomeMessage": "magni",
   "Language": null,
-  "LastAccept": "1998-06-01T03:46:54.3945199+02:00",
-  "SecondsPrAccept": 666,
-  "AlertRecipient": "unde",
+  "LastAccept": "2003-08-04T02:30:46.8975935+02:00",
+  "SecondsPrAccept": 569,
+  "AlertRecipient": "facere",
   "AlertTemplate": null,
-  "CollectConsent": true,
-  "BadgeHeader": "quo",
+  "CollectConsent": false,
+  "BadgeHeader": "et",
   "CustomQueueTextEnabled": false,
-  "CustomQueueText": "eius",
-  "WarnNewChatMinutes": 496,
-  "WarnManagerNewChatMinutes": 755,
+  "CustomQueueText": "voluptate",
+  "WarnNewChatMinutes": 541,
+  "WarnManagerNewChatMinutes": 30,
   "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
-  "OpeningHoursEnabled": true,
+  "OpeningHoursEnabled": false,
   "OpeningHours": null,
   "Widget": null,
-  "BotEnabled": true,
+  "BotEnabled": false,
   "BotSettings": null,
   "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 140,
-  "WarnManagerChatMessageMinutes": 152,
+  "WarnChatMessageMinutes": 969,
+  "WarnManagerChatMessageMinutes": 466,
   "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 115,
-  "OfflineFormQueueLength": 366,
-  "WidgetEnableRating": false,
-  "WidgetRatingText": "corrupti",
+  "OfflineFormTimeLimit": 154,
+  "OfflineFormQueueLength": 989,
+  "WidgetEnableRating": true,
+  "WidgetRatingText": "facere",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 25
+      "FieldLength": 629
     }
   }
 }

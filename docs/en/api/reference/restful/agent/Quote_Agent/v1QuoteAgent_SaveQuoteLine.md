@@ -14,6 +14,8 @@ POST /api/v1/Agents/Quote/SaveQuoteLine
 Saves the QuoteLine in the SuperOffice database
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -137,88 +139,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 280,
-  "ERPQuoteLineKey": "temporibus",
-  "QuoteAlternativeId": 70,
-  "ERPProductKey": "facere",
+  "QuoteLineId": 246,
+  "ERPQuoteLineKey": "consectetur",
+  "QuoteAlternativeId": 325,
+  "ERPProductKey": "similique",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 13893.021999999999,
-  "DeliveredQuantity": 18496.868,
-  "Rank": 862,
-  "Name": "King Inc and Sons",
-  "Description": "Distributed stable moderator",
-  "Code": "iusto",
-  "QuantityUnit": "praesentium",
-  "PriceUnit": "doloribus",
-  "ItemNumber": "1084014",
+  "Quantity": 7280.282,
+  "DeliveredQuantity": 7458.92,
+  "Rank": 195,
+  "Name": "Rolfson, Thiel and Toy",
+  "Description": "Exclusive heuristic info-mediaries",
+  "Code": "quos",
+  "QuantityUnit": "quo",
+  "PriceUnit": "aperiam",
+  "ItemNumber": "1358599",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "id",
-  "ProductTypeKey": "voluptas",
-  "Supplier": "quia",
-  "SupplierCode": "est",
-  "Thumbnail": "reprehenderit",
-  "VATInfo": "asperiores",
-  "VAT": 9129.342,
-  "UnitCost": 27118.502,
-  "UnitMinimumPrice": 29666.444,
-  "UnitListPrice": 9054.126,
+  "ProductFamilyKey": "alias",
+  "ProductTypeKey": "incidunt",
+  "Supplier": "vero",
+  "SupplierCode": "expedita",
+  "Thumbnail": "omnis",
+  "VATInfo": "dolor",
+  "VAT": 16315.604,
+  "UnitCost": 5045.74,
+  "UnitMinimumPrice": 6562.596,
+  "UnitListPrice": 13767.662,
   "ExtraInfo": [
     {
-      "Name": "Barton, Kozey and Deckow",
-      "Value": "voluptatem",
+      "Name": "Reinger, Schumm and Stanton",
+      "Value": "minima",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 739
+          "FieldLength": 524
         }
       }
     },
     {
-      "Name": "Barton, Kozey and Deckow",
-      "Value": "voluptatem",
+      "Name": "Reinger, Schumm and Stanton",
+      "Value": "minima",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 739
+          "FieldLength": 524
         }
       }
     }
   ],
-  "RawExtraInfo": "qui",
+  "RawExtraInfo": "et",
   "IsSubscription": false,
-  "SubscriptionUnit": "consectetur",
-  "SubscriptionQuantity": 18678.64,
-  "SubscriptionStart": "2015-05-28T03:46:55.2226157+02:00",
-  "ERPDiscountPercent": 30211.76,
-  "ERPDiscountAmount": 19737.932,
-  "DiscountPercent": 7283.416,
-  "DiscountAmount": 14720.398,
+  "SubscriptionUnit": "sint",
+  "SubscriptionQuantity": 5750.8899999999994,
+  "SubscriptionStart": "2004-10-21T02:30:47.7413192+02:00",
+  "ERPDiscountPercent": 17757.244,
+  "ERPDiscountAmount": 9333.052,
+  "DiscountPercent": 19167.543999999998,
+  "DiscountAmount": 23207.27,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 16876.59,
-  "EarningAmount": 5707.014,
-  "SubTotal": 5895.054,
-  "TotalPrice": 13153.398,
-  "Rights": "assumenda",
-  "Rule": "est",
-  "ExtraField1": "voluptatem",
-  "ExtraField2": "quibusdam",
-  "ExtraField3": "officia",
-  "ExtraField4": "fugit",
-  "ExtraField5": "dolores",
+  "EarningPercent": 2256.48,
+  "EarningAmount": 30612.912,
+  "SubTotal": 6145.7739999999994,
+  "TotalPrice": 770.96399999999994,
+  "Rights": "modi",
+  "Rule": "non",
+  "ExtraField1": "reprehenderit",
+  "ExtraField2": "provident",
+  "ExtraField3": "omnis",
+  "ExtraField4": "perspiciatis",
+  "ExtraField5": "quos",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 560
+      "FieldLength": 587
     }
   }
 }

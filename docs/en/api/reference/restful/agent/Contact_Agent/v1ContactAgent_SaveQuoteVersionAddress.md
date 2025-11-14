@@ -14,6 +14,8 @@ POST /api/v1/Agents/Contact/SaveQuoteVersionAddress
 Save a custom quote version address.
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -86,10 +88,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 15,
+  "QuoteVersionId": 989,
   "Address": null,
   "AddressType": "ContactPostalAddress",
-  "CountryId": 425
+  "CountryId": 440
 }
 ```
 
@@ -100,41 +102,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Wgs84Latitude": 22655.685999999998,
-  "Wgs84Longitude": 1720.566,
+  "Wgs84Latitude": 3149.67,
+  "Wgs84Longitude": 21314.334,
   "LocalizedAddress": [
     [
       {
-        "Name": "Goodwin-Zemlak",
-        "Value": "consequatur",
-        "Tooltip": "porro",
-        "Label": "praesentium",
-        "ValueLength": 657,
-        "AddressType": "labore",
+        "Name": "Zboncak-Wehner",
+        "Value": "eaque",
+        "Tooltip": "dolores",
+        "Label": "est",
+        "ValueLength": 862,
+        "AddressType": "quidem",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 314
+            "FieldLength": 744
           }
         }
       }
     ],
     [
       {
-        "Name": "Pfannerstill Inc and Sons",
-        "Value": "aperiam",
-        "Tooltip": "est",
-        "Label": "error",
-        "ValueLength": 32,
-        "AddressType": "voluptatum",
+        "Name": "Schimmel, Kiehn and Blick",
+        "Value": "corporis",
+        "Tooltip": "veniam",
+        "Label": "asperiores",
+        "ValueLength": 313,
+        "AddressType": "dolorem",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 791
+            "FieldType": "System.Int32",
+            "FieldLength": 550
           }
         }
       }
@@ -142,13 +144,13 @@ Content-Type: application/json; charset=utf-8
   ],
   "Street": null,
   "Postal": null,
-  "Formatted": "incidunt",
+  "Formatted": "aut",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 96
+      "FieldLength": 525
     }
   }
 }

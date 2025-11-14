@@ -14,6 +14,8 @@ POST /api/v1/Agents/Preference/GetPreferencesWithDisplayValues
 Get one or more preferences based on a set of specifications&lt;br/&gt;The PrefDisplayValue and PrefDisplaytooltip are populated, at some additional processing cost.
 
 
+NsApiSlow threshold: 1000 ms.
+
 
 
 
@@ -84,18 +86,18 @@ OK
 POST /api/v1/Agents/Preference/GetPreferencesWithDisplayValues
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Specifications": [
     {
-      "Section": "asperiores",
-      "Key": "reiciendis"
+      "Section": "et",
+      "Key": "accusamus"
     },
     {
-      "Section": "asperiores",
-      "Key": "reiciendis"
+      "Section": "et",
+      "Key": "accusamus"
     }
   ]
 }
@@ -110,22 +112,22 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Level": "Database",
-    "RawValue": "ullam",
+    "RawValue": "omnis",
     "Specification": null,
-    "DisplayValue": "accusamus",
-    "DisplayTooltip": "voluptatem",
+    "DisplayValue": "maxime",
+    "DisplayTooltip": "aliquam",
     "DisplayType": "Bool",
     "TabOrder": null,
-    "TargetId": 645,
-    "PrefDescId": 818,
-    "TableName": "Nikolaus Group",
-    "UserPreferenceId": 484,
+    "TargetId": 195,
+    "PrefDescId": 996,
+    "TableName": "Ziemann-Morissette",
+    "UserPreferenceId": 493,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 943
+        "FieldLength": 778
       }
     }
   }

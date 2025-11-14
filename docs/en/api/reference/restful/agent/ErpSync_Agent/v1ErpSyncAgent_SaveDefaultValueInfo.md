@@ -14,6 +14,9 @@ POST /api/v1/Agents/ErpSync/SaveDefaultValueInfo
 Save information about a default value for an ERP field
 
 
+NsApiSlow threshold: 5000 ms.
+
+
 ## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
 
 
@@ -100,22 +103,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpFieldId": 182,
-  "DefaultValue": "vero",
+  "ErpFieldId": 24,
+  "DefaultValue": "excepturi",
   "HasFirstSyncDefaultValue": true,
-  "FirstSyncDefaultValue": "et",
+  "FirstSyncDefaultValue": "voluptatum",
   "PromptUser": false,
   "Mandatory": false,
-  "ErpFieldKey": "velit",
+  "ErpFieldKey": "sint",
   "FieldType": "Checkbox",
-  "ListName": "Hayes Group",
+  "ListName": "Corkery, Zemlak and Gorczany",
   "Access": "Mandatory",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 550
+      "FieldType": "System.Int32",
+      "FieldLength": 812
     }
   }
 }

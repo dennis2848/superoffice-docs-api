@@ -69,7 +69,7 @@ OK
 GET /api/v1/TicketMessage/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,19 +81,19 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Runolfsson, Waters and Goldner",
-    "DisplayName": "Hahn, Bosco and Kuhlman",
-    "Description": "Future-proofed real-time projection",
-    "ShortLabel": "illum",
+    "FieldName": "Spencer-Hayes",
+    "DisplayName": "Rau, Runolfsson and Tremblay",
+    "Description": "Fully-configurable grid-enabled system engine",
+    "ShortLabel": "vel",
     "HideLabel": true,
-    "HideField": false,
-    "IsIndexed": false,
-    "IsMandatory": false,
+    "HideField": true,
+    "IsIndexed": true,
+    "IsMandatory": true,
     "IsReadOnly": true,
-    "IsExternal": true,
+    "IsExternal": false,
     "IsDisplayField": false,
-    "Rank": 331,
-    "TemplateVariableName": "Mraz, Lehner and Leuschke"
+    "Rank": 660,
+    "TemplateVariableName": "Howe LLC"
   }
 ]
 ```

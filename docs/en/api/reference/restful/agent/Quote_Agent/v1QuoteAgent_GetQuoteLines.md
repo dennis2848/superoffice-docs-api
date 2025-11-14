@@ -14,6 +14,8 @@ POST /api/v1/Agents/Quote/GetQuoteLines
 Get all QuoteLines from an alternative
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -122,11 +124,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteLines
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 554
+  "QuoteAlternativeId": 155
 }
 ```
 
@@ -138,88 +140,88 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineId": 91,
-    "ERPQuoteLineKey": "ut",
-    "QuoteAlternativeId": 552,
-    "ERPProductKey": "eum",
+    "QuoteLineId": 565,
+    "ERPQuoteLineKey": "et",
+    "QuoteAlternativeId": 198,
+    "ERPProductKey": "illo",
     "Status": "Error",
     "Reason": "",
-    "Quantity": 22273.338,
-    "DeliveredQuantity": 21044.809999999998,
-    "Rank": 711,
-    "Name": "Mante-Hyatt",
-    "Description": "Re-contextualized system-worthy algorithm",
-    "Code": "nihil",
-    "QuantityUnit": "ratione",
-    "PriceUnit": "voluptatem",
-    "ItemNumber": "131717",
+    "Quantity": 16911.064,
+    "DeliveredQuantity": 24191.345999999998,
+    "Rank": 512,
+    "Name": "Wyman, Waelchi and Mann",
+    "Description": "Programmable web-enabled throughput",
+    "Code": "dolorem",
+    "QuantityUnit": "ducimus",
+    "PriceUnit": "odio",
+    "ItemNumber": "779873",
     "Url": "http://www.example.com/",
     "ProductCategoryKey": "VIP Customer",
-    "ProductFamilyKey": "id",
-    "ProductTypeKey": "et",
-    "Supplier": "commodi",
-    "SupplierCode": "expedita",
-    "Thumbnail": "autem",
-    "VATInfo": "quo",
-    "VAT": 23172.796,
-    "UnitCost": 24282.232,
-    "UnitMinimumPrice": 20239.372,
-    "UnitListPrice": 1222.26,
+    "ProductFamilyKey": "molestias",
+    "ProductTypeKey": "consequatur",
+    "Supplier": "nam",
+    "SupplierCode": "dolorum",
+    "Thumbnail": "itaque",
+    "VATInfo": "dolores",
+    "VAT": 9583.771999999999,
+    "UnitCost": 6926.1399999999994,
+    "UnitMinimumPrice": 3933.17,
+    "UnitListPrice": 17161.784,
     "ExtraInfo": [
       {
-        "Name": "Auer-Kilback",
-        "Value": "optio",
+        "Name": "Kuphal-Torphy",
+        "Value": "incidunt",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 188
+            "FieldLength": 107
           }
         }
       },
       {
-        "Name": "Auer-Kilback",
-        "Value": "optio",
+        "Name": "Kuphal-Torphy",
+        "Value": "incidunt",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 188
+            "FieldLength": 107
           }
         }
       }
     ],
-    "RawExtraInfo": "quas",
-    "IsSubscription": true,
-    "SubscriptionUnit": "voluptatum",
-    "SubscriptionQuantity": 6863.46,
-    "SubscriptionStart": "2024-04-24T03:46:55.2226157+02:00",
-    "ERPDiscountPercent": 14808.15,
-    "ERPDiscountAmount": 15804.761999999999,
-    "DiscountPercent": 7581.146,
-    "DiscountAmount": 28437.915999999997,
+    "RawExtraInfo": "laudantium",
+    "IsSubscription": false,
+    "SubscriptionUnit": "amet",
+    "SubscriptionQuantity": 10009.996,
+    "SubscriptionStart": "2001-07-12T02:30:47.7413192+02:00",
+    "ERPDiscountPercent": 8815.942,
+    "ERPDiscountAmount": 12827.462,
+    "DiscountPercent": 13987.042,
+    "DiscountAmount": 14052.856,
     "UserValueOverride": "DiscountAmount",
-    "EarningPercent": 12159.92,
-    "EarningAmount": 21778.166,
-    "SubTotal": 29873.288,
-    "TotalPrice": 26419.62,
-    "Rights": "possimus",
-    "Rule": "eos",
-    "ExtraField1": "facere",
-    "ExtraField2": "commodi",
-    "ExtraField3": "facilis",
-    "ExtraField4": "deserunt",
-    "ExtraField5": "nam",
+    "EarningPercent": 24047.182,
+    "EarningAmount": 2240.81,
+    "SubTotal": 30938.847999999998,
+    "TotalPrice": 10806.032,
+    "Rights": "iure",
+    "Rule": "sapiente",
+    "ExtraField1": "hic",
+    "ExtraField2": "praesentium",
+    "ExtraField3": "aut",
+    "ExtraField4": "sit",
+    "ExtraField5": "et",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 118
+        "FieldType": "System.String",
+        "FieldLength": 277
       }
     }
   }

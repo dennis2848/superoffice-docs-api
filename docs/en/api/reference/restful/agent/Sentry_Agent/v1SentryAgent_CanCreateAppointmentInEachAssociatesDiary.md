@@ -15,6 +15,7 @@ CanCreateAppointmentInEachAssociateDiary will check if the current associate can
 
 
 CanCreateAppointmentInEachAssociateDiary will only check against associates that are diary owners. If none of the associates listed in the associateIds parameter is a diary owner, the method will return true.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -71,13 +72,13 @@ OK
 POST /api/v1/Agents/Sentry/CanCreateAppointmentInEachAssociatesDiary
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "AssociateIds": [
-    42,
-    320
+    650,
+    378
   ]
 }
 ```
@@ -90,6 +91,6 @@ Content-Type: application/json; charset=utf-8
 
 [
   false,
-  true
+  false
 ]
 ```

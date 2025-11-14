@@ -34,7 +34,7 @@ Get a foreignkey based on its name and value, that belongs to the specified devi
 | Value | string | **Required** Foreignkey value |
 
 ```http
-GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}?Value=et
+GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}?Value=molestiae
 ```
 
 
@@ -81,7 +81,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,23 +89,23 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Fri, 18 Apr 2014 03:47:00 G4T
+Last-Modified: Sat, 14 Sep 2002 02:30:52 G9T
 
 {
-  "Key": "ut",
-  "Value": "exercitationem",
-  "RecordId": 242,
-  "CreatedDate": "2025-02-11T03:47:00.0349452+01:00",
-  "UpdatedDate": "2014-04-18T03:47:00.0349452+02:00",
-  "UpdatedBy": "necessitatibus",
-  "CreatedBy": "consequatur",
-  "TableName": "Ratke Group",
+  "Key": "beatae",
+  "Value": "minima",
+  "RecordId": 992,
+  "CreatedDate": "2008-06-14T02:30:52.6630355+02:00",
+  "UpdatedDate": "2002-09-14T02:30:52.6630355+02:00",
+  "UpdatedBy": "aspernatur",
+  "CreatedBy": "perferendis",
+  "TableName": "Cormier LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 956
+      "FieldType": "System.String",
+      "FieldLength": 284
     }
   }
 }

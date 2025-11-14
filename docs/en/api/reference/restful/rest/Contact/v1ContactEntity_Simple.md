@@ -86,7 +86,7 @@ ContactEntity found.
 GET /api/v1/Contact/{id}/Simple
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -96,36 +96,36 @@ HTTP/1.1 200 ContactEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 901,
-  "Name": "Baumbach, Reichel and Stehr",
-  "OrgNr": "892189",
+  "ContactId": 365,
+  "Name": "Bosco-Wilderman",
+  "OrgNr": "410259",
   "Department": "",
   "URL": "http://www.example.com/",
-  "City": "fuga",
-  "DirectPhone": "793-572-5998",
-  "AssociateId": 187,
-  "CountryId": 92,
-  "EmailAddress": "niko.armstrong@nitzscheward.us",
-  "Kananame": "dicta",
-  "EmailAddressName": "zackery@littlekoepp.co.uk",
+  "City": "repellendus",
+  "DirectPhone": "1-518-486-5740",
+  "AssociateId": 647,
+  "CountryId": 543,
+  "EmailAddress": "damaris_ferry@stoltenberg.uk",
+  "Kananame": "ipsum",
+  "EmailAddressName": "cheyanne.welch@zulaufmurphy.uk",
   "URLName": "http://www.example.com/",
-  "AssociateFullName": "Robyn Botsford V",
+  "AssociateFullName": "Eric Prohaska",
   "BusinessName": "Information Technology",
   "CategoryName": "VIP Customer",
   "CountryName": "Sokovia",
   "Address": null,
-  "FormattedAddress": "maxime",
-  "FullName": "Miss Cale Lesch II",
+  "FormattedAddress": "ea",
+  "FullName": "Vernon Wuckert",
   "IsOwnerContact": false,
-  "ActiveErpLinks": 229,
-  "Number1": "1414863",
-  "Number2": "1163223",
+  "ActiveErpLinks": 960,
+  "Number1": "805014",
+  "Number2": "1276286",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 985
+      "FieldLength": 185
     }
   }
 }

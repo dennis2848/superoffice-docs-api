@@ -14,6 +14,8 @@ POST /api/v1/Agents/License/AssignThirdPartyLicenses
 Assign third party licenses
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -89,15 +91,15 @@ OK
 POST /api/v1/Agents/License/AssignThirdPartyLicenses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 100,
-  "ModuleOwner": "voluptatem",
+  "AssociateId": 637,
+  "ModuleOwner": "aut",
   "ModuleLicenseNames": [
-    "Stiedemann-McLaughlin",
-    "Fadel-Blick"
+    "Rutherford Group",
+    "Dach Group"
   ]
 }
 ```
@@ -110,26 +112,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Unrestricted": false,
-    "Total": 26,
-    "Tooltip": "provident",
-    "CanAssign": false,
-    "Free": 102,
-    "InUse": 487,
-    "IsHidden": true,
-    "Assigned": true,
-    "ModuleLicenseId": 955,
-    "Name": "Herzog Inc and Sons",
-    "Description": "Configurable scalable Graphical User Interface",
-    "PrerequisiteModuleName": "O'Kon Inc and Sons",
-    "SortOrder": 387,
-    "ExtraFlags": 281,
+    "Unrestricted": true,
+    "Total": 132,
+    "Tooltip": "est",
+    "CanAssign": true,
+    "Free": 942,
+    "InUse": 116,
+    "IsHidden": false,
+    "Assigned": false,
+    "ModuleLicenseId": 8,
+    "Name": "Carter-Raynor",
+    "Description": "Upgradable value-added instruction set",
+    "PrerequisiteModuleName": "Ryan-Daugherty",
+    "SortOrder": 489,
+    "ExtraFlags": 376,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 285
+        "FieldLength": 605
       }
     }
   }

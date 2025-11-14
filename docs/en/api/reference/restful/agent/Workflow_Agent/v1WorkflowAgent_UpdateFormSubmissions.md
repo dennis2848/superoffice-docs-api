@@ -14,6 +14,8 @@ POST /api/v1/Agents/Workflow/UpdateFormSubmissions
 Attempt to update stored field values for up to the given number of form submissions
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -73,7 +75,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "MaxCount": 744
+  "MaxCount": 957
 }
 ```
 
@@ -83,5 +85,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-381
+565
 ```

@@ -15,6 +15,7 @@ Creates a Customer Centre User (UserCandidate) for a given Contact (personId) wi
 
 
 If the Customer Centre User already exists for a given Contact, the user is updated with the supplied parameters.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -81,13 +82,13 @@ OK
 POST /api/v1/Agents/Person/CreateOrUpdateUserCandidate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 221,
-  "Username": "quis",
-  "AccessAllRequests": false
+  "PersonId": 120,
+  "Username": "ut",
+  "AccessAllRequests": true
 }
 ```
 
@@ -98,16 +99,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UserCandidateId": 426,
-  "PersonId": 15,
-  "SecretKey": "iusto",
-  "SecretValue": "facere",
+  "UserCandidateId": 36,
+  "PersonId": 948,
+  "SecretKey": "est",
+  "SecretValue": "magnam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 105
+      "FieldLength": 38
     }
   }
 }

@@ -15,6 +15,7 @@ Set default values into a new SaleEntity.
 
 
 NetServer calculates default values on the entity, which is required when creating/storing a new instance Calls the Sale agent service CreateDefaultSaleEntity.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -109,7 +110,7 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Tue, 16 Dec 2003 03:47:00 G12T
+Last-Modified: Mon, 16 Jun 2014 02:30:52 G6T
 
 {
   "Appointment": null,
@@ -118,7 +119,7 @@ Last-Modified: Tue, 16 Dec 2003 03:47:00 G12T
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "repudiandae",
+  "SaleText": "doloremque",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -127,113 +128,113 @@ Last-Modified: Tue, 16 Dec 2003 03:47:00 G12T
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2017-03-21T03:47:00.2224384+01:00",
-  "Amount": 27416.232,
-  "SaleId": 511,
-  "Earning": 31073.61,
-  "EarningPercent": 9166.9499999999989,
-  "Heading": "nam",
-  "Number": "1007291",
-  "Probability": 447,
-  "CreatedDate": "2002-01-24T03:47:00.2224384+01:00",
-  "UpdatedDate": "2003-12-16T03:47:00.2224384+01:00",
+  "Saledate": "2024-06-06T02:30:52.8505298+02:00",
+  "Amount": 5384.2119999999995,
+  "SaleId": 384,
+  "Earning": 24746.064,
+  "EarningPercent": 8427.326,
+  "Heading": "numquam",
+  "Number": "534664",
+  "Probability": 233,
+  "CreatedDate": "2017-08-27T02:30:52.8505298+02:00",
+  "UpdatedDate": "2014-06-16T02:30:52.8505298+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 243,
+  "ActiveLinks": 498,
   "Links": [
     {
-      "EntityName": "Kshlerin, Bins and Bogan",
-      "Id": 257,
-      "Description": "Organic intermediate concept",
-      "ExtraInfo": "nulla",
-      "LinkId": 817,
+      "EntityName": "McKenzie, Runolfsdottir and Murray",
+      "Id": 400,
+      "Description": "Implemented interactive application",
+      "ExtraInfo": "repellendus",
+      "LinkId": 480,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 995
+          "FieldLength": 545
         }
       }
     }
   ],
-  "NextDueDate": "2025-02-20T03:47:00.2224384+01:00",
-  "Postit": "impedit",
+  "NextDueDate": "2013-09-15T02:30:52.8505298+02:00",
+  "Postit": "temporibus",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2006-01-11T03:47:00.2224384+01:00",
+  "ReopenDate": "1998-11-19T02:30:52.8505298+01:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Beier, Kiehn and Jacobs",
-      "Comment": "maxime",
-      "StakeholderRoleId": 416,
-      "CountryId": 840,
-      "PersonId": 901,
-      "EmailDescription": "kristian_watsica@sporer.us",
-      "EmailId": 427,
-      "EmailAddress": "tyrell_schiller@spencerruecker.com",
-      "PhoneId": 839,
-      "ContactName": "Wilkinson LLC",
-      "ContactId": 318,
-      "SaleId": 321,
-      "Mrmrs": "sed",
-      "Firstname": "Jacey",
-      "MiddleName": "Block-Erdman",
-      "Lastname": "Gislason",
-      "SaleStakeholderId": 243,
-      "Rank": 972,
-      "Phone": "165-886-4659",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 964
-        }
-      }
-    }
-  ],
-  "ActiveErpLinks": 25,
-  "UserDefinedFields": {
-    "SuperOffice:1": "Mr. Jalon Jerry Christiansen",
-    "SuperOffice:2": "Dr. Emmanuel Trent Hettinger"
-  },
-  "ExtraFields": {
-    "ExtraFields1": "debitis",
-    "ExtraFields2": "consequuntur"
-  },
-  "CustomFields": {
-    "CustomFields1": "dolor",
-    "CustomFields2": "sit"
-  },
-  "PublishEventDate": "2002-11-25T03:47:00.2224384+01:00",
-  "PublishTo": "2011-03-09T03:47:00.2224384+01:00",
-  "PublishFrom": "2018-01-10T03:47:00.2224384+01:00",
-  "IsPublished": false,
-  "VisibleFor": [
-    {
-      "VisibleId": 45,
-      "Visibility": "All",
-      "DisplayValue": "nihil",
+      "StakeholderRoleName": "Toy Inc and Sons",
+      "Comment": "facere",
+      "StakeholderRoleId": 450,
+      "CountryId": 452,
+      "PersonId": 61,
+      "EmailDescription": "quinten@lakin.info",
+      "EmailId": 108,
+      "EmailAddress": "anibal.fisher@boehm.info",
+      "PhoneId": 959,
+      "ContactName": "Morar Group",
+      "ContactId": 539,
+      "SaleId": 315,
+      "Mrmrs": "saepe",
+      "Firstname": "Jimmy",
+      "MiddleName": "Veum Group",
+      "Lastname": "Reichel",
+      "SaleStakeholderId": 678,
+      "Rank": 252,
+      "Phone": "748-066-5576 x7737",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 491
+          "FieldLength": 993
+        }
+      }
+    }
+  ],
+  "ActiveErpLinks": 263,
+  "UserDefinedFields": {
+    "SuperOffice:1": "Mr. Marie Madeline Mraz",
+    "SuperOffice:2": "40129435"
+  },
+  "ExtraFields": {
+    "ExtraFields1": "atque",
+    "ExtraFields2": "odit"
+  },
+  "CustomFields": {
+    "CustomFields1": "minima",
+    "CustomFields2": "quisquam"
+  },
+  "PublishEventDate": "2009-11-21T02:30:52.8505298+01:00",
+  "PublishTo": "2001-06-16T02:30:52.8505298+02:00",
+  "PublishFrom": "2025-07-05T02:30:52.8505298+02:00",
+  "IsPublished": true,
+  "VisibleFor": [
+    {
+      "VisibleId": 926,
+      "Visibility": "All",
+      "DisplayValue": "nemo",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 63
         }
       }
     },
     {
-      "VisibleId": 45,
+      "VisibleId": 926,
       "Visibility": "All",
-      "DisplayValue": "nihil",
+      "DisplayValue": "nemo",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 491
+          "FieldLength": 63
         }
       }
     }
@@ -243,7 +244,7 @@ Last-Modified: Tue, 16 Dec 2003 03:47:00 G12T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 775
+      "FieldLength": 590
     }
   }
 }

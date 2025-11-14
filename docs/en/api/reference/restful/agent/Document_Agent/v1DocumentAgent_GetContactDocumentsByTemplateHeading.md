@@ -15,6 +15,7 @@ Method that returns a specified number of document appointments within a time ra
 
 
 The document appointments belong to the contact specified. The heading represents a grouping or filtering of document templates.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -99,15 +100,15 @@ OK
 POST /api/v1/Agents/Document/GetContactDocumentsByTemplateHeading
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 146,
-  "StartTime": "2010-03-08T03:46:54.6132622+01:00",
-  "EndTime": "2006-03-01T03:46:54.6132622+01:00",
-  "Count": 195,
-  "TemplateHeadingId": 884
+  "ContactId": 43,
+  "StartTime": "1999-05-18T02:30:47.0694635+02:00",
+  "EndTime": "2010-11-04T02:30:47.0694635+01:00",
+  "Count": 24,
+  "TemplateHeadingId": 598
 }
 ```
 
@@ -119,32 +120,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 315,
-    "Attention": "quisquam",
-    "Header": "qui",
-    "Name": "Rosenbaum, King and Brown",
-    "OurRef": "accusamus",
-    "YourRef": "officiis",
-    "Description": "Adaptive scalable moderator",
-    "DocumentTemplate": "voluptatum",
+    "DocumentId": 45,
+    "Attention": "nemo",
+    "Header": "eum",
+    "Name": "Auer-Moen",
+    "OurRef": "corrupti",
+    "YourRef": "qui",
+    "Description": "Stand-alone regional methodology",
+    "DocumentTemplate": "non",
     "IsPublished": false,
-    "PersonId": 328,
-    "PersonFullName": "Adelle Towne",
-    "AssociateFullName": "Gillian Moises Padberg I",
-    "ContactId": 378,
-    "ContactName": "Hilpert, Mann and Volkman",
-    "ProjectId": 759,
-    "ProjectName": "Mann Inc and Sons",
-    "AssociateId": 695,
-    "Snum": 857,
-    "SaleId": 642,
-    "SaleName": "Anderson, Yost and Reichert",
+    "PersonId": 969,
+    "PersonFullName": "Carlos Hansen MD",
+    "AssociateFullName": "Agustin Marvin",
+    "ContactId": 47,
+    "ContactName": "Hane-Lakin",
+    "ProjectId": 954,
+    "ProjectName": "Muller Inc and Sons",
+    "AssociateId": 663,
+    "Snum": 248,
+    "SaleId": 556,
+    "SaleName": "Strosin, Wilderman and Boyer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 713
+        "FieldType": "System.String",
+        "FieldLength": 309
       }
     }
   }

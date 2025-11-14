@@ -14,6 +14,8 @@ POST /api/v1/Agents/CustomerService/CheckSymmetricEncryption
 Do a test to check that we are using the same encryption keys
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -69,11 +71,11 @@ OK
 POST /api/v1/Agents/CustomerService/CheckSymmetricEncryption
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "EncryptedString": "debitis"
+  "EncryptedString": "non"
 }
 ```
 
@@ -83,5 +85,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"odio"
+"nam"
 ```

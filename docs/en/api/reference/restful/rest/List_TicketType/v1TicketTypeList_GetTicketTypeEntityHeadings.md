@@ -74,18 +74,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 151,
-    "Name": "Kihn-Satterfield",
-    "Tooltip": "in",
+    "HeadingId": 635,
+    "Name": "Hayes-Bogisich",
+    "Tooltip": "ut",
     "Deleted": false,
-    "Rank": 387,
-    "UdListDefinitionId": 1000,
+    "Rank": 938,
+    "UdListDefinitionId": 537,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 198
+        "FieldType": "System.String",
+        "FieldLength": 27
       }
     }
   }

@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/GetLocalizedTextByType
 Returns a localized text based on the resource id for the selected language.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -81,13 +83,13 @@ OK
 POST /api/v1/Agents/List/GetLocalizedTextByType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "TextType": "Column",
-  "ResourceId": 596,
-  "LanguageId": 154
+  "ResourceId": 477,
+  "LanguageId": 965
 }
 ```
 
@@ -98,18 +100,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "LanguageId": 665,
-  "ResourceId": 634,
-  "Text": "sit",
+  "LanguageId": 227,
+  "ResourceId": 479,
+  "Text": "iusto",
   "Type": "Column",
-  "LocalizedTextId": 514,
+  "LocalizedTextId": 606,
   "IsBuiltIn": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 360
+      "FieldType": "System.String",
+      "FieldLength": 503
     }
   }
 }

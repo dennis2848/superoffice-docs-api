@@ -98,47 +98,47 @@ OK
 PUT /api/v1/List/ReasonSold/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 692,
-    "Name": "Wolf-Doyle",
-    "ToolTip": "Molestiae animi est sint a sit pariatur.",
-    "Deleted": false,
-    "Rank": 376,
-    "Type": "laboriosam",
-    "ColorBlock": 652,
-    "IconHint": "quam",
+    "Id": 386,
+    "Name": "Ward, Schaden and Sipes",
+    "ToolTip": "Ut esse aliquam et facilis sunt sint.",
+    "Deleted": true,
+    "Rank": 46,
+    "Type": "rerum",
+    "ColorBlock": 119,
+    "IconHint": "voluptatem",
     "Selected": false,
-    "LastChanged": "2015-06-06T03:47:00.8005429+02:00",
+    "LastChanged": "2021-05-04T02:30:53.4286352+02:00",
     "ChildItems": [
       {
-        "Id": 443,
-        "Name": "Bergnaum, Price and Sipes",
-        "ToolTip": "A tempora voluptates fuga eum qui.",
+        "Id": 91,
+        "Name": "West Group",
+        "ToolTip": "Optio vel facere.",
         "Deleted": true,
-        "Rank": 258,
-        "Type": "ullam",
-        "ColorBlock": 841,
-        "IconHint": "saepe",
+        "Rank": 541,
+        "Type": "odit",
+        "ColorBlock": 820,
+        "IconHint": "fugiat",
         "Selected": false,
-        "LastChanged": "2015-01-22T03:47:00.8005429+01:00",
+        "LastChanged": "2017-08-20T02:30:53.4286352+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "minima",
-        "StyleHint": "nulla",
+        "ExtraInfo": "aperiam",
+        "StyleHint": "ab",
         "Hidden": false,
-        "FullName": "Rosella Yundt"
+        "FullName": "Danyka Kub"
       }
     ],
-    "ExtraInfo": "voluptatibus",
-    "StyleHint": "quo",
+    "ExtraInfo": "quo",
+    "StyleHint": "dolor",
     "Hidden": false,
-    "FullName": "Dr. Rosina Era Emmerich III"
+    "FullName": "Drake Jones"
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 967,
-    "Name": "Kreiger-Kiehn",
-    "ToolTip": "Omnis placeat nihil numquam.",
+    "Id": 269,
+    "Name": "Leffler, Lueilwitz and Koss",
+    "ToolTip": "Et earum dolore.",
     "Deleted": false,
-    "Rank": 645,
-    "Type": "illo",
-    "ColorBlock": 374,
-    "IconHint": "atque",
-    "Selected": false,
-    "LastChanged": "2012-03-22T03:47:00.8005429+01:00",
+    "Rank": 527,
+    "Type": "dolorum",
+    "ColorBlock": 903,
+    "IconHint": "repellat",
+    "Selected": true,
+    "LastChanged": "2011-07-05T02:30:53.4286352+02:00",
     "ChildItems": [
       {
-        "Id": 668,
-        "Name": "Jaskolski Inc and Sons",
-        "ToolTip": "Assumenda ullam est itaque dolore dolor et.",
-        "Deleted": false,
-        "Rank": 142,
-        "Type": "nemo",
-        "ColorBlock": 610,
-        "IconHint": "atque",
-        "Selected": false,
-        "LastChanged": "2023-01-22T03:47:00.8005429+01:00",
+        "Id": 808,
+        "Name": "Morissette Group",
+        "ToolTip": "Qui soluta enim autem quaerat nulla.",
+        "Deleted": true,
+        "Rank": 560,
+        "Type": "et",
+        "ColorBlock": 97,
+        "IconHint": "accusantium",
+        "Selected": true,
+        "LastChanged": "2020-01-26T02:30:53.4286352+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "iste",
-        "StyleHint": "velit",
-        "Hidden": false,
-        "FullName": "Jefferey Lebsack",
+        "ExtraInfo": "et",
+        "StyleHint": "est",
+        "Hidden": true,
+        "FullName": "Bradley Adams",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 462
+            "FieldLength": 639
           }
         }
       }
     ],
-    "ExtraInfo": "voluptas",
-    "StyleHint": "nihil",
+    "ExtraInfo": "et",
+    "StyleHint": "excepturi",
     "Hidden": false,
-    "FullName": "Saige McClure",
+    "FullName": "Mrs. Dexter Skiles",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 17
+        "FieldLength": 912
       }
     }
   }

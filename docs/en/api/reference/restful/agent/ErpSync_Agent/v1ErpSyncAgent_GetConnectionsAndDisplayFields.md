@@ -14,6 +14,9 @@ POST /api/v1/Agents/ErpSync/GetConnectionsAndDisplayFields
 Get all connection statuses and fields for a given entity
 
 
+NsApiSlow threshold: 5000 ms.
+
+
 ## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
 
 
@@ -88,7 +91,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "CrmActorType": "Contact",
-  "EntityId": 733
+  "EntityId": 627
 }
 ```
 
@@ -100,27 +103,27 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ErpConnectionId": 210,
-    "ConnectionName": "Jast LLC",
+    "ErpConnectionId": 294,
+    "ConnectionName": "Greenholt-Ruecker",
     "Connected": false,
     "ErpFields": [
       {
-        "FieldKey": "non",
-        "Rank": 12,
-        "DisplayName": "Considine-Kuhn",
-        "DisplayDescription": "Extended background system engine",
+        "FieldKey": "omnis",
+        "Rank": 786,
+        "DisplayName": "Keebler Inc and Sons",
+        "DisplayDescription": "Enterprise-wide 4th generation support",
         "FieldType": "Checkbox",
-        "ListName": "Terry LLC",
-        "DefaultValue": "numquam",
-        "MaxLength": 101,
+        "ListName": "Rippin Inc and Sons",
+        "DefaultValue": "voluptas",
+        "MaxLength": 180,
         "Access": "Mandatory",
-        "ShowInSearch": true,
+        "ShowInSearch": false,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 803
+            "FieldType": "System.Int32",
+            "FieldLength": 948
           }
         }
       }
@@ -128,15 +131,15 @@ Content-Type: application/json; charset=utf-8
     "CrmActorType": "Contact",
     "ErpActorType": "Customer",
     "ErpActorTypes": [
-      "sed",
-      "doloribus"
+      "non",
+      "qui"
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 401
+        "FieldLength": 374
       }
     }
   }

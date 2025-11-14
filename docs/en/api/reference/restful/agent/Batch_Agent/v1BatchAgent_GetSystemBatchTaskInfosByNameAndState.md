@@ -14,6 +14,8 @@ POST /api/v1/Agents/Batch/GetSystemBatchTaskInfosByNameAndState
 Get an array of system BatchTaskInfo for the provided task name and state.
 
 
+NsApiSlow threshold: 3000 ms.
+
 
 
 
@@ -96,11 +98,11 @@ OK
 POST /api/v1/Agents/Batch/GetSystemBatchTaskInfosByNameAndState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskName": "Hoeger Inc and Sons",
+  "TaskName": "O'Kon-Denesik",
   "State": "All"
 }
 ```
@@ -113,37 +115,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 713,
-    "Name": "Stokes-Kutch",
-    "AssociateId": 229,
-    "DetailsTable": 267,
-    "DetailsRecord": 618,
+    "Id": 631,
+    "Name": "Heller-Mertz",
+    "AssociateId": 848,
+    "DetailsTable": 559,
+    "DetailsRecord": 35,
     "IsSystemTask": false,
     "IsInternalTask": true,
     "ParameterObject": {
-      "ParameterObject1": "laborum",
-      "ParameterObject2": "aut"
+      "ParameterObject1": "non",
+      "ParameterObject2": "placeat"
     },
-    "LastStarted": "2020-04-30T03:46:54.3007673+02:00",
-    "Created": "2008-04-08T03:46:54.3007673+02:00",
-    "StartCount": 798,
-    "DatabaseSerialNumber": "1260609",
-    "Context": "adipisci",
-    "Result": "accusamus",
+    "LastStarted": "2010-10-15T02:30:46.8194719+02:00",
+    "Created": "2018-09-20T02:30:46.8194719+02:00",
+    "StartCount": 805,
+    "DatabaseSerialNumber": "816273",
+    "Context": "reprehenderit",
+    "Result": "consequuntur",
     "State": "All",
-    "Description": "Extended upward-trending methodology",
-    "Response": "iusto",
-    "Request": "ea",
-    "ProgressDescription": "Reactive non-volatile benchmark",
-    "ProgressPercent": 112,
-    "FileName": "Monahan, White and Cassin",
+    "Description": "Persistent bottom-line capacity",
+    "Response": "ut",
+    "Request": "eos",
+    "ProgressDescription": "Organized 6th generation hierarchy",
+    "ProgressPercent": 632,
+    "FileName": "Becker-Parker",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 666
+        "FieldType": "System.String",
+        "FieldLength": 266
       }
     }
   }

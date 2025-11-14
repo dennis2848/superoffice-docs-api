@@ -14,6 +14,9 @@ POST /api/v1/Agents/EMail/GetEMailFromDocumentAttachmentId
 Get an e-mail based on an email in the archive system and attachment id
 
 
+NsApiSlow threshold: 5000 ms.
+
+
 ## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 
@@ -107,12 +110,12 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocId": 694,
+  "DocId": 205,
   "AttachmentIds": [
-    "cumque",
-    "enim"
+    "omnis",
+    "expedita"
   ],
-  "IncludeAttachments": true
+  "IncludeAttachments": false
 }
 ```
 
@@ -125,97 +128,97 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 709,
-      "ContactName": "Hirthe-Kemmer",
-      "PersonId": 106,
-      "PersonName": "Leffler Group",
-      "AssociateId": 99,
-      "Address": "et",
-      "EmailId": 175,
+      "ContactId": 847,
+      "ContactName": "Hodkiewicz-Marquardt",
+      "PersonId": 960,
+      "PersonName": "Ritchie-Stroman",
+      "AssociateId": 432,
+      "Address": "laboriosam",
+      "EmailId": 389,
       "DuplicatePersonIds": [
-        467,
-        914
+        712,
+        794
       ],
-      "Name": "Miller-Homenick",
+      "Name": "Jacobs-Hudson",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 993
+          "FieldLength": 556
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 638,
-      "ContactName": "Schulist Inc and Sons",
-      "PersonId": 836,
-      "PersonName": "Schumm-Mertz",
-      "AssociateId": 177,
-      "Address": "sit",
-      "EmailId": 597,
+      "ContactId": 592,
+      "ContactName": "Davis Inc and Sons",
+      "PersonId": 315,
+      "PersonName": "Fay Inc and Sons",
+      "AssociateId": 731,
+      "Address": "aut",
+      "EmailId": 183,
       "DuplicatePersonIds": [
-        258,
-        388
+        301,
+        310
       ],
-      "Name": "Hettinger-Wisoky",
+      "Name": "White-Haley",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 709
+          "FieldLength": 668
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 631,
-      "ContactName": "Schiller Inc and Sons",
-      "PersonId": 94,
-      "PersonName": "Hudson LLC",
-      "AssociateId": 334,
-      "Address": "sit",
-      "EmailId": 272,
+      "ContactId": 601,
+      "ContactName": "Dietrich Group",
+      "PersonId": 913,
+      "PersonName": "Schmidt, Okuneva and Mann",
+      "AssociateId": 879,
+      "Address": "voluptatum",
+      "EmailId": 833,
       "DuplicatePersonIds": [
-        130,
-        93
+        526,
+        572
       ],
-      "Name": "Marquardt-Yost",
+      "Name": "Klein-Bradtke",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 533
+          "FieldLength": 276
         }
       }
     }
   ],
-  "Subject": "repudiandae",
-  "HTMLBody": "sint",
+  "Subject": "et",
+  "HTMLBody": "minima",
   "From": null,
-  "Sent": "2008-10-26T03:46:54.785131+01:00",
-  "Size": 232,
+  "Sent": "2016-03-23T02:30:47.3038336+01:00",
+  "Size": 390,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "voluptas",
-  "PlainBody": "eos",
+  "MessageID": "sit",
+  "PlainBody": "molestiae",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 575,
+  "ServerId": 733,
   "Attachments": [
     {
-      "Description": "Proactive executive Graphical User Interface",
-      "Filename": "est",
-      "Size": 511,
-      "Type": "numquam",
-      "Encoding": "aspernatur",
-      "Id": "est",
-      "Disposition": "et",
+      "Description": "Advanced human-resource throughput",
+      "Filename": "aut",
+      "Size": 597,
+      "Type": "amet",
+      "Encoding": "a",
+      "Id": "quasi",
+      "Disposition": "corporis",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
@@ -223,58 +226,58 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 375
+          "FieldLength": 509
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Price LLC",
+      "Name": "McClure-Morissette",
       "Values": [
-        "libero",
-        "inventore"
+        "sed",
+        "qui"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 1001
+          "FieldLength": 977
         }
       }
     },
     {
-      "Name": "Price LLC",
+      "Name": "McClure-Morissette",
       "Values": [
-        "libero",
-        "inventore"
+        "sed",
+        "qui"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 1001
+          "FieldLength": 977
         }
       }
     }
   ],
-  "FolderName": "Lowe, Lindgren and Kris",
-  "EmailItemId": 945,
-  "AccountId": 483,
-  "ReceivedAt": "2002-02-02T03:46:54.785131+01:00",
+  "FolderName": "Wilderman Group",
+  "EmailItemId": 36,
+  "AccountId": 22,
+  "ReceivedAt": "2015-08-18T02:30:47.3038336+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2004-06-29T03:46:54.785131+02:00",
-  "HasCalendarData": false,
+  "RepliedAt": "2004-02-02T02:30:47.3038336+01:00",
+  "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 1000
+      "FieldType": "System.Int32",
+      "FieldLength": 129
     }
   }
 }

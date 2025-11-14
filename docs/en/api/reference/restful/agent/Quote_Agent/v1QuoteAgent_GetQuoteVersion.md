@@ -14,6 +14,8 @@ POST /api/v1/Agents/Quote/GetQuoteVersion
 Get a QuoteVersion
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -116,7 +118,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 572
+  "QuoteVersionId": 343
 }
 ```
 
@@ -127,75 +129,75 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 129,
-  "ERPQuoteVersionKey": "sed",
-  "QuoteId": 605,
-  "Description": "Open-architected cohesive customer loyalty",
-  "Number": "1872320",
+  "QuoteVersionId": 484,
+  "ERPQuoteVersionKey": "tenetur",
+  "QuoteId": 575,
+  "Description": "Cross-group tertiary implementation",
+  "Number": "1142218",
   "State": "Archived",
   "ArchivedState": "Archived",
   "Status": "Error",
   "Reason": "",
-  "LikelyQuoteAlternativeId": 979,
-  "SentDate": "2000-03-03T03:46:55.1913666+01:00",
-  "FollowupId": 53,
-  "ExpirationDate": "2022-07-04T03:46:55.1913666+02:00",
-  "DeliveryCountryId": 955,
+  "LikelyQuoteAlternativeId": 528,
+  "SentDate": "2002-11-09T02:30:47.7100701+01:00",
+  "FollowupId": 809,
+  "ExpirationDate": "2003-08-28T02:30:47.7100701+02:00",
+  "DeliveryCountryId": 25,
   "HasOwnDeliveryAddress": false,
-  "InvoiceCountryId": 874,
+  "InvoiceCountryId": 572,
   "HasOwnInvoiceAddress": false,
-  "ERPPaymentTermsKey": "cupiditate",
-  "ERPPaymentTypeKey": "rerum",
-  "ERPDeliveryTermsKey": "qui",
-  "ERPDeliveryTypeKey": "fugiat",
-  "Rank": 289,
-  "ApprovedBy": 961,
-  "ApprovedText": "sit",
-  "ApprovedRegisteredBy": 37,
-  "ApprovedRegisteredDate": "2004-10-04T03:46:55.1913666+02:00",
-  "ExtraField1": "sit",
-  "ExtraField2": "adipisci",
-  "ExtraField3": "repellendus",
-  "ExtraField4": "aperiam",
-  "ExtraField5": "quam",
-  "LastRecalculated": "2002-07-15T03:46:55.1913666+02:00",
-  "Updated": "2014-03-16T03:46:55.1913666+01:00",
-  "UpdatedAssociateId": 529,
-  "Registered": "2012-08-03T03:46:55.1913666+02:00",
-  "RegisteredAssociateId": 897,
-  "RequestAssociateId": 747,
-  "RequestComment": "quia",
+  "ERPPaymentTermsKey": "qui",
+  "ERPPaymentTypeKey": "quia",
+  "ERPDeliveryTermsKey": "voluptatem",
+  "ERPDeliveryTypeKey": "sed",
+  "Rank": 980,
+  "ApprovedBy": 976,
+  "ApprovedText": "at",
+  "ApprovedRegisteredBy": 544,
+  "ApprovedRegisteredDate": "2004-04-23T02:30:47.7100701+02:00",
+  "ExtraField1": "voluptatem",
+  "ExtraField2": "aut",
+  "ExtraField3": "rem",
+  "ExtraField4": "sit",
+  "ExtraField5": "quidem",
+  "LastRecalculated": "2004-03-13T02:30:47.7100701+01:00",
+  "Updated": "2017-03-16T02:30:47.7100701+01:00",
+  "UpdatedAssociateId": 675,
+  "Registered": "2006-06-17T02:30:47.7100701+02:00",
+  "RegisteredAssociateId": 643,
+  "RequestAssociateId": 858,
+  "RequestComment": "voluptas",
   "QuoteAlternatives": [
     {
-      "QuoteAlternativeId": 643,
-      "ERPQuoteAlternativeKey": "provident",
-      "QuoteVersionId": 109,
-      "Name": "Dare-Gutkowski",
-      "Description": "Operative object-oriented challenge",
+      "QuoteAlternativeId": 555,
+      "ERPQuoteAlternativeKey": "quae",
+      "QuoteVersionId": 266,
+      "Name": "Johnston, Veum and Metz",
+      "Description": "Switchable uniform conglomeration",
       "Status": "Error",
       "Reason": "",
-      "ERPDiscountPercent": 16168.305999999999,
-      "ERPDiscountAmount": 13447.993999999999,
-      "DiscountPercent": 1551.33,
-      "DiscountAmount": 11793.242,
+      "ERPDiscountPercent": 18080.046,
+      "ERPDiscountAmount": 13441.725999999999,
+      "DiscountPercent": 12971.626,
+      "DiscountAmount": 14620.109999999999,
       "UserValueOverride": "DiscountAmount",
-      "VATInfo": "ut",
-      "VAT": 15494.496,
-      "EarningPercent": 27268.933999999997,
-      "EarningAmount": 9333.052,
-      "SubTotal": 7650.094,
-      "TotalPrice": 10549.044,
-      "ExtraField1": "debitis",
-      "ExtraField2": "temporibus",
-      "ExtraField3": "quos",
-      "ExtraField4": "laborum",
-      "ExtraField5": "placeat",
+      "VATInfo": "non",
+      "VAT": 27851.858,
+      "EarningPercent": 11702.356,
+      "EarningAmount": 10486.364,
+      "SubTotal": 25281.978,
+      "TotalPrice": 11971.88,
+      "ExtraField1": "minima",
+      "ExtraField2": "officiis",
+      "ExtraField3": "est",
+      "ExtraField4": "quia",
+      "ExtraField5": "ipsum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 685
+          "FieldLength": 680
         }
       }
     }
@@ -205,7 +207,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 819
+      "FieldLength": 466
     }
   }
 }

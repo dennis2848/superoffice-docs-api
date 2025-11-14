@@ -14,6 +14,8 @@ POST /api/v1/Agents/Sale/GetSalesFromContact
 Returns all sales for the contact provided.
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -99,12 +101,12 @@ OK
 POST /api/v1/Agents/Sale/GetSalesFromContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 707,
-  "OnlyOpenSales": true
+  "ContactId": 805,
+  "OnlyOpenSales": false
 }
 ```
 
@@ -116,37 +118,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Quigley Group",
-    "SaleDate": "2005-05-23T03:46:55.285132+02:00",
-    "SaleId": 274,
-    "Probability": 832,
-    "Title": "neque",
-    "Amount": 24410.726,
-    "Currency": "facilis",
-    "ProjectName": "Orn LLC",
-    "AssociateFullName": "Ms. Murray Johnson V",
-    "Description": "Re-engineered 24 hour knowledge user",
+    "ContactName": "Jaskolski, Dooley and Kunze",
+    "SaleDate": "2005-03-25T02:30:47.7881925+01:00",
+    "SaleId": 342,
+    "Probability": 169,
+    "Title": "officiis",
+    "Amount": 24592.498,
+    "Currency": "mollitia",
+    "ProjectName": "Fisher Group",
+    "AssociateFullName": "Abagail Gibson",
+    "Description": "Ergonomic object-oriented open system",
     "Status": "Lost",
-    "WeightedAmount": 26479.165999999997,
-    "ProjectId": 38,
-    "EarningPercent": 4957.988,
-    "Earning": 3290.7,
-    "ContactId": 161,
-    "AssociateId": 822,
-    "PersonId": 9,
-    "SaleTypeId": 503,
-    "SaleTypeName": "Gleason, Jast and Erdman",
-    "PersonFullName": "Mr. Tara Talia Bogan I",
+    "WeightedAmount": 30851.095999999998,
+    "ProjectId": 173,
+    "EarningPercent": 19954.178,
+    "Earning": 11843.386,
+    "ContactId": 491,
+    "AssociateId": 469,
+    "PersonId": 93,
+    "SaleTypeId": 993,
+    "SaleTypeName": "Auer-Kub",
+    "PersonFullName": "Miss Ciara Jast",
     "Completed": "Completed",
-    "ActiveErpLinks": 252,
-    "NextDueDate": "2024-05-24T03:46:55.285132+02:00",
-    "Number": "1568800",
+    "ActiveErpLinks": 447,
+    "NextDueDate": "2021-01-16T02:30:47.7881925+01:00",
+    "Number": "1581301",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 265
+        "FieldLength": 519
       }
     }
   }

@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/GetTicketTypeList
 Gets an array of TicketTypeEntity objects.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -100,40 +102,40 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketTypeId": 7,
-    "Name": "Corwin Group",
-    "Rank": 732,
-    "Tooltip": "quo",
-    "Icon": "accusamus",
-    "DefaultTicketStatus": 222,
+    "TicketTypeId": 162,
+    "Name": "Harber Inc and Sons",
+    "Rank": 749,
+    "Tooltip": "ut",
+    "Icon": "enim",
+    "DefaultTicketStatus": 436,
     "TicketStatuses": [
-      753,
-      554
+      159,
+      687
     ],
-    "DefaultTicketPriority": 615,
+    "DefaultTicketPriority": 59,
     "TicketPriorities": [
-      857,
-      507
+      610,
+      660
     ],
-    "ReplyTemplate": 70,
+    "ReplyTemplate": 632,
     "IsExternalVisible": true,
-    "IsDefault": true,
-    "ShowInNew": false,
+    "IsDefault": false,
+    "ShowInNew": true,
     "ExcludeSignature": false,
     "ExcludeEmailRecipients": false,
     "ExternalAsDefault": false,
     "VisibleForGroups": [
-      712,
-      766
+      2,
+      580
     ],
     "ReplyForwardNoSignature": false,
-    "ReplyExternalAsDefault": true,
+    "ReplyExternalAsDefault": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 987
+        "FieldType": "System.String",
+        "FieldLength": 657
       }
     }
   }

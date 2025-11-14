@@ -1,12 +1,16 @@
----
+﻿---
 uid: help-nl-tutorial-email-mailing
 title: Zelfstudie - e-mailmailing
 description: Wanneer u de nodige voorbereidingen hebt getroffen, waaronder het maken van uw doellijst en het voorbereiden van uw mailingsjabloon, bent u klaar om een nieuwe mailing te maken in SuperOffice CRM. In deze zelfstudie leert u een e-mailmailing te maken.
 keywords: e-mailmailing
-date: 06.27.2025
+date: 09.26.2025
 version: 10.5
 content_type: tutorial
+category: marketing
+topic: mailing
+license: marketingessentials
 audience: person
+audience_tooltip: SuperOffice Marketing
 language: nl
 ---
 
@@ -77,5 +81,5 @@ Als u probeert te verzenden vanuit een domein dat geen geldige SPF-record heeft,
 [!include[Een mailing bevestigen en verzenden](includes/step-5-confirm-and-send-mailing.md)]
 
 <!-- Referenced links -->
-[2]: ../../../../admin/lists/learn/add-items-to-mailing-domain.md
+[2]: ../../admin/add-domain.md
 [4]: ../../../learn/create-folder.md

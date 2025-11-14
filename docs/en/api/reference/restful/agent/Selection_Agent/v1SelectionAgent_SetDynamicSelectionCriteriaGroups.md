@@ -15,6 +15,7 @@ Update the criteria for this dynamic selection.
 
 
 Replaces existing criteria with the new values. This call supports multiple criteria groups.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -82,21 +83,21 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 531,
+  "SelectionId": 130,
   "Criteria": [
     {
-      "Name": "Cremin Group",
-      "Description": "Innovative next generation circuit",
-      "Rank": 939,
+      "Name": "Nicolas-Pacocha",
+      "Description": "Multi-lateral attitude-oriented flexibility",
+      "Rank": 704,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Cremin Group",
-      "Description": "Innovative next generation circuit",
-      "Rank": 939,
+      "Name": "Nicolas-Pacocha",
+      "Description": "Multi-lateral attitude-oriented flexibility",
+      "Rank": 704,
       "Restrictions": [
         {},
         {}
@@ -114,20 +115,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Walter, Ferry and Glover",
-    "Description": "Integrated responsive flexibility",
-    "Rank": 817,
+    "Name": "Lueilwitz-Steuber",
+    "Description": "Fully-configurable leading edge ability",
+    "Rank": 831,
     "Restrictions": [
       {
-        "Name": "Heathcote Group",
-        "Operator": "odio",
+        "Name": "Langworth Group",
+        "Operator": "pariatur",
         "Values": [
-          "quas",
-          "consequatur"
+          "debitis",
+          "amet"
         ],
         "DisplayValues": [
-          "aliquam",
-          "nemo"
+          "accusamus",
+          "rerum"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -137,25 +138,25 @@ Content-Type: application/json; charset=utf-8
         ],
         "InterParenthesis": 459,
         "InterOperator": "And",
-        "UniqueHash": 578
+        "UniqueHash": 588
       }
     ]
   },
   {
-    "Name": "Walter, Ferry and Glover",
-    "Description": "Integrated responsive flexibility",
-    "Rank": 817,
+    "Name": "Lueilwitz-Steuber",
+    "Description": "Fully-configurable leading edge ability",
+    "Rank": 831,
     "Restrictions": [
       {
-        "Name": "Heathcote Group",
-        "Operator": "odio",
+        "Name": "Langworth Group",
+        "Operator": "pariatur",
         "Values": [
-          "quas",
-          "consequatur"
+          "debitis",
+          "amet"
         ],
         "DisplayValues": [
-          "aliquam",
-          "nemo"
+          "accusamus",
+          "rerum"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -165,7 +166,7 @@ Content-Type: application/json; charset=utf-8
         ],
         "InterParenthesis": 459,
         "InterOperator": "And",
-        "UniqueHash": 578
+        "UniqueHash": 588
       }
     ]
   }

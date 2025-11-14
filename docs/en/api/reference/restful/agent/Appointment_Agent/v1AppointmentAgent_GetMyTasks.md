@@ -15,6 +15,7 @@ Method that returns a specified number of appointments within a time range.
 
 
 It only returns appointments that would be displayed in the user's task list. The appointments belong to the currently logged on user.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -134,7 +135,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Count": 901
+  "Count": 782
 }
 ```
 
@@ -146,67 +147,67 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 637,
-    "StartDate": "2011-02-04T03:46:54.2695244+01:00",
-    "EndDate": "2006-03-10T03:46:54.2695244+01:00",
+    "AppointmentId": 565,
+    "StartDate": "1998-12-06T02:30:46.7882228+01:00",
+    "EndDate": "2007-01-01T02:30:46.7882228+01:00",
     "Type": "BookingForChecklist",
-    "Task": "impedit",
-    "AssociateFullName": "Miss Roxanne Renner DDS",
-    "ContactName": "Jerde, Koss and Mann",
-    "Description": "Versatile holistic matrices",
-    "PersonFullName": "Mr. Rod Haag Sr.",
-    "PersonId": 441,
-    "ContactId": 338,
-    "ProjectId": 96,
-    "ProjectName": "Wyman-Hoeger",
-    "IsPublished": false,
-    "AssociateId": 947,
-    "ColorIndex": 281,
-    "IsFree": true,
+    "Task": "incidunt",
+    "AssociateFullName": "Adelbert Antone Hayes DVM",
+    "ContactName": "Aufderhar-Barton",
+    "Description": "Multi-channelled clear-thinking contingency",
+    "PersonFullName": "Mrs. Electa Dallin Shields PhD",
+    "PersonId": 796,
+    "ContactId": 157,
+    "ProjectId": 327,
+    "ProjectName": "Beahan LLC",
+    "IsPublished": true,
+    "AssociateId": 355,
+    "ColorIndex": 758,
+    "IsFree": false,
     "HasAlarm": false,
-    "IsAlldayEvent": false,
+    "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 569,
-    "PriorityName": "Erdman, Ward and Pacocha",
+    "PriorityId": 925,
+    "PriorityName": "Hessel Group",
     "TaskType": "Appointment",
     "IsBookingMain": false,
     "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "2023-12-15T03:46:54.2695244+01:00",
+    "ActiveDate": "2022-09-13T02:30:46.7882228+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2020-06-25T03:46:54.2695244+02:00",
-    "RecurringEndDate": "2015-07-28T03:46:54.2695244+02:00",
-    "MotherId": 624,
-    "AssignedBy": 691,
-    "AssignedByFullName": "Dovie Boehm III",
+    "RecurringStartDate": "2025-09-25T02:30:46.7882228+02:00",
+    "RecurringEndDate": "2012-08-28T02:30:46.7882228+02:00",
+    "MotherId": 451,
+    "AssignedBy": 456,
+    "AssignedByFullName": "Kamryn Hills",
     "RejectReason": "",
-    "Location": "amet",
-    "AlarmLeadTime": "eligendi",
-    "SaleId": 785,
-    "SaleName": "Wiza, Conn and Christiansen",
-    "AssociateName": "Bode LLC",
-    "CreatedDate": "2024-01-23T03:46:54.2695244+01:00",
-    "CreatedBy": "iusto",
-    "CreatedByFullName": "Miss Paolo McLaughlin",
-    "CreatedByAssociateId": 773,
+    "Location": "illum",
+    "AlarmLeadTime": "vel",
+    "SaleId": 904,
+    "SaleName": "Gerhold LLC",
+    "AssociateName": "Schumm Group",
+    "CreatedDate": "2015-07-07T02:30:46.7882228+02:00",
+    "CreatedBy": "adipisci",
+    "CreatedByFullName": "Cristal Goodwin",
+    "CreatedByAssociateId": 32,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "OwnedExternally": "Google",
-    "MotherAssociateId": 21,
+    "MotherAssociateId": 530,
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 896,
-    "Title": "officia",
-    "Agenda": "maxime",
-    "InternalNotes": "et",
+    "PreferredTZLocation": 558,
+    "Title": "praesentium",
+    "Agenda": "et",
+    "InternalNotes": "nam",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 738
+        "FieldType": "System.String",
+        "FieldLength": 694
       }
     }
   }

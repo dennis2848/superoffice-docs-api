@@ -15,6 +15,7 @@ Get all documents that are linked to the person.
 
 
 I.e. the documents that are listed in the person dialog.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -95,11 +96,11 @@ OK
 POST /api/v1/Agents/Document/GetPersonDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 219
+  "PersonId": 398
 }
 ```
 
@@ -111,32 +112,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 478,
-    "Attention": "voluptatem",
-    "Header": "vero",
-    "Name": "Crona, Kiehn and Herzog",
-    "OurRef": "laborum",
-    "YourRef": "earum",
-    "Description": "Assimilated next generation structure",
-    "DocumentTemplate": "architecto",
-    "IsPublished": true,
-    "PersonId": 764,
-    "PersonFullName": "Miss Lamont Torp",
-    "AssociateFullName": "Orin Cremin",
-    "ContactId": 163,
-    "ContactName": "Schultz Group",
-    "ProjectId": 248,
-    "ProjectName": "Johnston Group",
-    "AssociateId": 611,
-    "Snum": 536,
-    "SaleId": 764,
-    "SaleName": "Lubowitz Inc and Sons",
+    "DocumentId": 721,
+    "Attention": "aut",
+    "Header": "minima",
+    "Name": "D'Amore, Kerluke and Jewess",
+    "OurRef": "recusandae",
+    "YourRef": "dolor",
+    "Description": "Stand-alone discrete implementation",
+    "DocumentTemplate": "velit",
+    "IsPublished": false,
+    "PersonId": 67,
+    "PersonFullName": "Gene O'Reilly",
+    "AssociateFullName": "America Fisher II",
+    "ContactId": 359,
+    "ContactName": "Johnston-Towne",
+    "ProjectId": 765,
+    "ProjectName": "Barton, Bartoletti and Douglas",
+    "AssociateId": 357,
+    "Snum": 72,
+    "SaleId": 837,
+    "SaleName": "Johnston, Osinski and Jewess",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 9
+        "FieldType": "System.String",
+        "FieldLength": 381
       }
     }
   }

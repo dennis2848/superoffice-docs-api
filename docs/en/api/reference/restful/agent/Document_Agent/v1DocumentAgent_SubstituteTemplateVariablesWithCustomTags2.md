@@ -15,6 +15,7 @@ Parse the source string, and replace any template variable tags with their value
 
 
 &lt;p/&gt;This method also takes a pair of arrays specifying custom tags and their values; these tags will be available during substitution in addition to all the existing tags. Custom values will override values otherwise set.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -85,19 +86,19 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Source": "ut",
+  "Source": "ipsa",
   "GeneratorEncoding": "Html",
   "CustomTags": {
-    "CustomTags1": "tempora",
-    "CustomTags2": "vero"
+    "CustomTags1": "et",
+    "CustomTags2": "et"
   },
-  "ContactId": 273,
-  "PersonId": 142,
-  "AppointmentId": 498,
-  "DocumentId": 559,
-  "SaleId": 289,
-  "SelectionId": 620,
-  "ProjectId": 119,
+  "ContactId": 630,
+  "PersonId": 13,
+  "AppointmentId": 831,
+  "DocumentId": 591,
+  "SaleId": 534,
+  "SelectionId": 611,
+  "ProjectId": 255,
   "CultureName": "sv"
 }
 ```
@@ -108,5 +109,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"sed"
+"iste"
 ```

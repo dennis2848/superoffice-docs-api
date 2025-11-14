@@ -14,6 +14,8 @@ POST /api/v1/Agents/Appointment/GetOrganizerName
 Lookup the name / email of an event-organizer
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -69,11 +71,11 @@ OK
 POST /api/v1/Agents/Appointment/GetOrganizerName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "MotherAppointmentId": 563
+  "MotherAppointmentId": 831
 }
 ```
 
@@ -83,5 +85,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"Yost, Trantow and Nolan"
+"Funk LLC"
 ```

@@ -15,6 +15,7 @@ Deletes the PersonEntity
 
 
 Calls the Person agent service DeletePersonEntity.
+NsApiSlow threshold: 2000 ms.
 
 
 

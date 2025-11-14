@@ -14,6 +14,11 @@ POST /api/v1/Agents/AI/SummarizeTicket
 Generate a short summary of the messages on a ticket
 
 
+NsApiSlow threshold: 2000 ms.
+
+
+## Experimental: ## The AI agent is experimental, subject to change, and not intended for partners.
+
 
 
 
@@ -71,13 +76,13 @@ OK
 POST /api/v1/Agents/AI/SummarizeTicket
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 206,
-  "NumSentences": 94,
-  "IsoLangCode": "maiores"
+  "TicketId": 760,
+  "NumSentences": 86,
+  "IsoLangCode": "et"
 }
 ```
 
@@ -87,5 +92,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"aliquam"
+"unde"
 ```

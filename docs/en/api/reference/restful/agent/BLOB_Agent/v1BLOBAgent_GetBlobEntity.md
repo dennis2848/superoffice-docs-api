@@ -14,6 +14,8 @@ POST /api/v1/Agents/BLOB/GetBlobEntity
 Gets a BlobEntity object.
 
 
+NsApiSlow threshold: 3000 ms.
+
 
 
 
@@ -27,7 +29,7 @@ Gets a BlobEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/BLOB/GetBlobEntity?blobEntityId=632
+POST /api/v1/Agents/BLOB/GetBlobEntity?blobEntityId=759
 POST /api/v1/Agents/BLOB/GetBlobEntity?$select=name,department,category/id
 ```
 
@@ -80,7 +82,7 @@ OK
 POST /api/v1/Agents/BLOB/GetBlobEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -90,25 +92,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 738,
-  "BlobSize": 303,
-  "Description": "Reactive needs-based superstructure",
-  "ExtraInfo": "deleniti",
+  "BlobId": 950,
+  "BlobSize": 827,
+  "Description": "Synergistic encompassing open system",
+  "ExtraInfo": "numquam",
   "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "facilis",
-  "OriginalSize": 725,
-  "CreatedDate": "2009-06-27T03:46:54.3007673+02:00",
-  "UpdatedDate": "2001-01-19T03:46:54.3007673+01:00",
+  "MimeType": "voluptas",
+  "OriginalSize": 780,
+  "CreatedDate": "2017-08-31T02:30:46.8194719+02:00",
+  "UpdatedDate": "2007-11-09T02:30:46.8194719+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "rem",
+  "ConceptualType": "earum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 939
+      "FieldType": "System.Int32",
+      "FieldLength": 493
     }
   }
 }

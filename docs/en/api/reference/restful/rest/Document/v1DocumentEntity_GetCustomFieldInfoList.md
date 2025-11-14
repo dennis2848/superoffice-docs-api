@@ -69,7 +69,7 @@ OK
 GET /api/v1/Document/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -81,19 +81,19 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Graham Inc and Sons",
-    "DisplayName": "Hilll LLC",
-    "Description": "Secured global internet solution",
-    "ShortLabel": "consequuntur",
-    "HideLabel": true,
-    "HideField": false,
+    "FieldName": "Cartwright Inc and Sons",
+    "DisplayName": "Schaden Group",
+    "Description": "User-centric 4th generation budgetary management",
+    "ShortLabel": "atque",
+    "HideLabel": false,
+    "HideField": true,
     "IsIndexed": false,
-    "IsMandatory": true,
-    "IsReadOnly": true,
-    "IsExternal": false,
-    "IsDisplayField": false,
-    "Rank": 240,
-    "TemplateVariableName": "Fadel, Cremin and Trantow"
+    "IsMandatory": false,
+    "IsReadOnly": false,
+    "IsExternal": true,
+    "IsDisplayField": true,
+    "Rank": 717,
+    "TemplateVariableName": "Wintheiser LLC"
   }
 ]
 ```

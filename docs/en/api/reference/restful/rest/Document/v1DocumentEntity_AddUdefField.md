@@ -99,7 +99,7 @@ OK
 POST /api/v1/Document/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -109,46 +109,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 30,
-  "ColumnId": 607,
-  "FieldDefault": "facilis",
-  "FieldHeight": 177,
-  "FieldLabel": "consequuntur",
-  "FieldLeft": 390,
-  "FieldTop": 353,
+  "UDefFieldId": 17,
+  "ColumnId": 254,
+  "FieldDefault": "fugit",
+  "FieldHeight": 500,
+  "FieldLabel": "hic",
+  "FieldLeft": 436,
+  "FieldTop": 76,
   "FieldType": "Checkbox",
-  "FieldWidth": 900,
-  "FormatMask": "iste",
-  "HideLabel": true,
-  "IsIndexed": true,
-  "LabelHeight": 378,
-  "LabelLeft": 932,
-  "LabelTop": 521,
-  "LabelWidth": 800,
-  "LastVersionId": 227,
-  "ListTableId": 73,
+  "FieldWidth": 936,
+  "FormatMask": "ducimus",
+  "HideLabel": false,
+  "IsIndexed": false,
+  "LabelHeight": 774,
+  "LabelLeft": 409,
+  "LabelTop": 968,
+  "LabelWidth": 115,
+  "LastVersionId": 913,
+  "ListTableId": 924,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 370,
-  "ProgId": "consequatur",
+  "Page1LineNo": 165,
+  "ProgId": "voluptatem",
   "IsReadOnly": false,
-  "ShortLabel": "et",
-  "TabOrder": 596,
-  "TextLength": 540,
-  "Tooltip": "ipsum",
-  "UdefIdentity": 386,
-  "UDListDefinitionId": 31,
+  "ShortLabel": "nisi",
+  "TabOrder": 377,
+  "TextLength": 913,
+  "Tooltip": "et",
+  "UdefIdentity": 330,
+  "UDListDefinitionId": 37,
   "Justification": "Center",
-  "Version": 746,
-  "TemplateVariableName": "Jakubowski-West",
+  "Version": 10,
+  "TemplateVariableName": "VonRueden-Altenwerth",
   "HasBeenPublished": false,
-  "MdoListName": "Altenwerth, McCullough and Prohaska",
+  "MdoListName": "Orn, Sauer and Jewess",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 233
+      "FieldLength": 928
     }
   }
 }

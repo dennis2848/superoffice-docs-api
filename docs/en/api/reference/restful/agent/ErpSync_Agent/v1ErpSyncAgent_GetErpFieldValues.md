@@ -14,6 +14,9 @@ POST /api/v1/Agents/ErpSync/GetErpFieldValues
 Get the values for the specified fields from the ERP connection
 
 
+NsApiSlow threshold: 5000 ms.
+
+
 ## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
 
 
@@ -74,16 +77,16 @@ OK
 POST /api/v1/Agents/ErpSync/GetErpFieldValues
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 885,
+  "ErpConnectionId": 971,
   "CrmActorType": "Contact",
-  "EntityId": 455,
+  "EntityId": 824,
   "FieldKeys": [
-    "deserunt",
-    "odit"
+    "voluptas",
+    "unde"
   ]
 }
 ```
@@ -95,7 +98,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  "quia",
-  "aut"
+  "dolor",
+  "ipsum"
 ]
 ```

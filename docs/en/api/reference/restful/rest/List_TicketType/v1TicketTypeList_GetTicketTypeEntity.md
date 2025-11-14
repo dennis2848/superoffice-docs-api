@@ -91,40 +91,40 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 182,
-  "Name": "Bartell Group",
-  "Rank": 88,
-  "Tooltip": "nostrum",
-  "Icon": "harum",
-  "DefaultTicketStatus": 540,
+  "TicketTypeId": 811,
+  "Name": "Krajcik-Bechtelar",
+  "Rank": 202,
+  "Tooltip": "voluptas",
+  "Icon": "modi",
+  "DefaultTicketStatus": 604,
   "TicketStatuses": [
-    746,
-    861
+    974,
+    924
   ],
-  "DefaultTicketPriority": 158,
+  "DefaultTicketPriority": 141,
   "TicketPriorities": [
-    896,
-    194
+    553,
+    594
   ],
-  "ReplyTemplate": 744,
-  "IsExternalVisible": false,
-  "IsDefault": true,
-  "ShowInNew": false,
+  "ReplyTemplate": 409,
+  "IsExternalVisible": true,
+  "IsDefault": false,
+  "ShowInNew": true,
   "ExcludeSignature": true,
-  "ExcludeEmailRecipients": false,
+  "ExcludeEmailRecipients": true,
   "ExternalAsDefault": true,
   "VisibleForGroups": [
-    701,
-    994
+    25,
+    969
   ],
   "ReplyForwardNoSignature": false,
-  "ReplyExternalAsDefault": false,
+  "ReplyExternalAsDefault": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 923
+      "FieldLength": 344
     }
   }
 }

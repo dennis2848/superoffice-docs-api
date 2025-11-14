@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/GetReasonStalled
 Gets a ReasonStalled object.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -27,7 +29,7 @@ Gets a ReasonStalled object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetReasonStalled?reasonStalledId=532
+POST /api/v1/Agents/List/GetReasonStalled?reasonStalledId=935
 POST /api/v1/Agents/List/GetReasonStalled?$select=name,department,category/id
 ```
 
@@ -70,7 +72,7 @@ OK
 POST /api/v1/Agents/List/GetReasonStalled
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -80,15 +82,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 242,
-  "Value": "dicta",
-  "Tooltip": "cupiditate",
+  "Id": 414,
+  "Value": "quaerat",
+  "Tooltip": "itaque",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 363
+      "FieldLength": 788
     }
   }
 }

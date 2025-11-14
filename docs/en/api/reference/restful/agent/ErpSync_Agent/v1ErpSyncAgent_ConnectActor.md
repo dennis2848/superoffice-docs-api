@@ -14,6 +14,9 @@ POST /api/v1/Agents/ErpSync/ConnectActor
 Create a link between Erp and Crm and set default values
 
 
+NsApiSlow threshold: 5000 ms.
+
+
 ## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
 
 
@@ -72,31 +75,31 @@ No Content
 POST /api/v1/Agents/ErpSync/ConnectActor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 657,
-  "CrmRecordId": 251,
+  "ErpConnectionId": 178,
+  "CrmRecordId": 798,
   "CrmActorType": "Contact",
-  "ErpKey": "vel",
+  "ErpKey": "nihil",
   "ErpActorType": "Customer",
   "FieldValues": [
     {
-      "DisplayName": "Lynch Group",
-      "CrmFieldKey": "quos",
-      "Value": "ducimus",
-      "DisplayValue": "possimus",
-      "SyncToCrm": false,
-      "SyncToErp": false
+      "DisplayName": "Hand, Harris and Kovacek",
+      "CrmFieldKey": "vel",
+      "Value": "ut",
+      "DisplayValue": "ut",
+      "SyncToCrm": true,
+      "SyncToErp": true
     },
     {
-      "DisplayName": "Lynch Group",
-      "CrmFieldKey": "quos",
-      "Value": "ducimus",
-      "DisplayValue": "possimus",
-      "SyncToCrm": false,
-      "SyncToErp": false
+      "DisplayName": "Hand, Harris and Kovacek",
+      "CrmFieldKey": "vel",
+      "Value": "ut",
+      "DisplayValue": "ut",
+      "SyncToCrm": true,
+      "SyncToErp": true
     }
   ]
 }

@@ -90,15 +90,15 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 348,
-  "Name": "Boyer, Kiehn and Bradtke",
-  "CreatedDate": "2004-08-15T03:47:00.0349452+02:00",
-  "UpdatedDate": "2001-05-18T03:47:00.0349452+02:00",
-  "AssociateFullName": "Rosalyn Luettgen",
-  "CreatedBy": "qui",
-  "UpdatedBy": "laborum",
-  "DeviceIdentifier": "praesentium",
-  "ForeignAppId": 814
+  "ForeignDeviceId": 327,
+  "Name": "Zboncak, Simonis and Becker",
+  "CreatedDate": "2006-10-20T02:30:52.6474115+02:00",
+  "UpdatedDate": "2005-03-17T02:30:52.6474115+01:00",
+  "AssociateFullName": "Reggie Bradtke",
+  "CreatedBy": "repellendus",
+  "UpdatedBy": "quia",
+  "DeviceIdentifier": "earum",
+  "ForeignAppId": 843
 }
 ```
 
@@ -109,21 +109,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 673,
-  "Name": "Bednar, Stokes and Monahan",
-  "CreatedDate": "2002-01-07T03:47:00.0349452+01:00",
-  "UpdatedDate": "2014-03-27T03:47:00.0349452+01:00",
-  "AssociateFullName": "Karson Camylle Deckow Sr.",
-  "CreatedBy": "rerum",
-  "UpdatedBy": "et",
-  "DeviceIdentifier": "in",
-  "ForeignAppId": 464,
+  "ForeignDeviceId": 746,
+  "Name": "Simonis-Franecki",
+  "CreatedDate": "2020-12-14T02:30:52.6474115+01:00",
+  "UpdatedDate": "2005-03-06T02:30:52.6474115+01:00",
+  "AssociateFullName": "Wallace Brooke Bernier DDS",
+  "CreatedBy": "explicabo",
+  "UpdatedBy": "perspiciatis",
+  "DeviceIdentifier": "ducimus",
+  "ForeignAppId": 499,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 45
+      "FieldLength": 321
     }
   }
 }

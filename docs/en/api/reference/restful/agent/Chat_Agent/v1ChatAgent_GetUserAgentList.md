@@ -15,6 +15,7 @@ Get list of users that can be assigned to chat topics.
 
 
 Users with Chat-CALs from the MDO list 'chatuser'
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -92,7 +93,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Flat": false,
+  "Flat": true,
   "OnlyPresent": false
 }
 ```
@@ -105,29 +106,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 94,
-    "Name": "Eichmann, Cremin and Yundt",
-    "ToolTip": "Illum est.",
+    "Id": 926,
+    "Name": "Jacobs-Harris",
+    "ToolTip": "Similique nam excepturi id ut rem doloribus suscipit.",
     "Deleted": false,
-    "Rank": 500,
-    "Type": "molestiae",
+    "Rank": 176,
+    "Type": "cum",
     "ChildItems": [
       {
-        "Id": 909,
-        "Name": "Zemlak, Kulas and Considine",
-        "ToolTip": "Sunt tempora et in veritatis.",
-        "Deleted": false,
-        "Rank": 509,
-        "Type": "sequi",
+        "Id": 132,
+        "Name": "Kling, Ernser and Sawayn",
+        "ToolTip": "At perspiciatis optio aut.",
+        "Deleted": true,
+        "Rank": 227,
+        "Type": "molestiae",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "porro",
-        "ColorBlock": 617,
-        "ExtraInfo": "distinctio",
-        "StyleHint": "repellendus",
-        "FullName": "Aileen Walker",
+        "IconHint": "aut",
+        "ColorBlock": 860,
+        "ExtraInfo": "tempore",
+        "StyleHint": "doloremque",
+        "FullName": "Mrs. Constance Glover",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
@@ -138,17 +139,17 @@ Content-Type: application/json; charset=utf-8
         }
       }
     ],
-    "IconHint": "dolor",
-    "ColorBlock": 179,
-    "ExtraInfo": "qui",
-    "StyleHint": "dolorem",
-    "FullName": "Retta DuBuque",
+    "IconHint": "quia",
+    "ColorBlock": 180,
+    "ExtraInfo": "fugiat",
+    "StyleHint": "sequi",
+    "FullName": "Ms. London Amanda Rohan",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 396
+        "FieldLength": 232
       }
     }
   }

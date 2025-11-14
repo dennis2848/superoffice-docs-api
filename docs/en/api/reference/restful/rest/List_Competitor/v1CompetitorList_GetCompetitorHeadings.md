@@ -74,18 +74,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 796,
-    "Name": "Homenick, Muller and Bogisich",
-    "Tooltip": "id",
+    "HeadingId": 918,
+    "Name": "Kautzer-Gislason",
+    "Tooltip": "error",
     "Deleted": false,
-    "Rank": 983,
-    "UdListDefinitionId": 184,
+    "Rank": 856,
+    "UdListDefinitionId": 734,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 702
+        "FieldType": "System.String",
+        "FieldLength": 198
       }
     }
   }

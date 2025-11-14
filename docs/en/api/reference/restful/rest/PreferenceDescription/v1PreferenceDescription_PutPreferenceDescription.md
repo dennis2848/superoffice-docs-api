@@ -14,6 +14,8 @@ PUT /api/v1/PreferenceDescription/{id}
 Updates the existing PreferenceDescription
 
 
+NsApiSlow threshold: 1000 ms.
+
 
 
 
@@ -114,28 +116,28 @@ PreferenceDescription updated.
 PUT /api/v1/PreferenceDescription/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 380,
-  "Section": "dicta",
-  "Key": "fugit",
-  "Name": "Robel, Emard and Stoltenberg",
+  "PrefDescId": 930,
+  "Section": "aliquid",
+  "Key": "qui",
+  "Name": "Shields Inc and Sons",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Innovative uniform info-mediaries",
-  "IsBuiltin": false,
-  "TableName": "Gutmann-Frami",
-  "UserDefinedListId": 129,
-  "Rank": 363,
-  "SubGroup": "architecto",
-  "MinLevel": 149,
-  "MaxValue": 540,
-  "MinValue": 829,
-  "RequiredLicense": "voluptate"
+  "Description": "Switchable explicit initiative",
+  "IsBuiltin": true,
+  "TableName": "Torp-Zieme",
+  "UserDefinedListId": 110,
+  "Rank": 960,
+  "SubGroup": "inventore",
+  "MinLevel": 564,
+  "MaxValue": 148,
+  "MinValue": 81,
+  "RequiredLicense": "quia"
 }
 ```
 
@@ -146,35 +148,35 @@ HTTP/1.1 200 PreferenceDescription updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 47,
-  "Section": "accusantium",
-  "Key": "at",
-  "Name": "Koelpin-Kemmer",
+  "PrefDescId": 584,
+  "Section": "eveniet",
+  "Key": "dolorum",
+  "Name": "Jewess, Zulauf and Kilback",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Down-sized solution-oriented moderator",
+  "Description": "Function-based mission-critical middleware",
   "IsBuiltin": true,
-  "TableName": "Zulauf LLC",
-  "UserDefinedListId": 721,
-  "Rank": 47,
-  "SubGroup": "cumque",
-  "MinLevel": 661,
-  "MaxValue": 622,
-  "MinValue": 865,
-  "RequiredLicense": "quia",
+  "TableName": "Prohaska Group",
+  "UserDefinedListId": 789,
+  "Rank": 220,
+  "SubGroup": "quos",
+  "MinLevel": 866,
+  "MaxValue": 383,
+  "MinValue": 448,
+  "RequiredLicense": "molestiae",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 440
+      "FieldLength": 933
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

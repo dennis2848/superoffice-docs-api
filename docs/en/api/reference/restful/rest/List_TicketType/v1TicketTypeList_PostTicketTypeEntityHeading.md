@@ -76,16 +76,16 @@ OK
 POST /api/v1/List/TicketType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 684,
-  "Name": "Murazik-Harber",
-  "Tooltip": "et",
+  "HeadingId": 651,
+  "Name": "Predovic, Kemmer and Rodriguez",
+  "Tooltip": "perspiciatis",
   "Deleted": false,
-  "Rank": 608,
-  "UdListDefinitionId": 606
+  "Rank": 53,
+  "UdListDefinitionId": 660
 }
 ```
 
@@ -96,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 896,
-  "Name": "Torphy, Bogisich and Bednar",
-  "Tooltip": "quisquam",
+  "HeadingId": 10,
+  "Name": "Tromp LLC",
+  "Tooltip": "doloribus",
   "Deleted": false,
-  "Rank": 884,
-  "UdListDefinitionId": 960,
+  "Rank": 33,
+  "UdListDefinitionId": 635,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 730
+      "FieldType": "System.Int32",
+      "FieldLength": 359
     }
   }
 }

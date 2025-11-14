@@ -14,6 +14,8 @@ POST /api/v1/Agents/Saint/CreateDefaultStatusMonitor
 Loading default values into a new StatusMonitor.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -70,7 +72,7 @@ OK
 POST /api/v1/Agents/Saint/CreateDefaultStatusMonitor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -80,27 +82,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerTable": 148,
-  "Rank": 130,
-  "DefaultTask": 583,
+  "OwnerTable": 504,
+  "Rank": 919,
+  "DefaultTask": 270,
   "DefaultTaskText": "qui",
-  "IsVisual": false,
-  "LastGenerated": "1999-07-19T03:46:55.2382402+02:00",
-  "Description": "Customizable attitude-oriented definition",
-  "Name": "Herman, Wyman and Wolf",
-  "StatusMonitorId": 982,
-  "PictureId": 996,
+  "IsVisual": true,
+  "LastGenerated": "2007-01-23T02:30:47.7569437+01:00",
+  "Description": "Versatile 6th generation interface",
+  "Name": "Harber, Monahan and McLaughlin",
+  "StatusMonitorId": 400,
+  "PictureId": 694,
   "NeedsUpdate": true,
   "Deleted": false,
-  "NumMatches": 806,
-  "NumNeedUpdate": 940,
-  "GenerationStart": "2000-07-06T03:46:55.2382402+02:00",
+  "NumMatches": 64,
+  "NumNeedUpdate": 533,
+  "GenerationStart": "2004-09-10T02:30:47.7569437+02:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 353
+      "FieldType": "System.Int32",
+      "FieldLength": 777
     }
   }
 }

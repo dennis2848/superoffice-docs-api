@@ -71,18 +71,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 116,
-  "Name": "Russel, Hudson and Parisian",
-  "Tooltip": "deleniti",
-  "Deleted": true,
-  "UdListDefinitionId": 631,
-  "Rank": 745,
+  "Id": 969,
+  "Name": "Weimann, Schroeder and Lockman",
+  "Tooltip": "minus",
+  "Deleted": false,
+  "UdListDefinitionId": 104,
+  "Rank": 918,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 712
+      "FieldType": "System.String",
+      "FieldLength": 838
     }
   }
 }

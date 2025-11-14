@@ -14,6 +14,8 @@ POST /api/v1/Agents/Workflow/CreateDefaultWorkflowGoal
 Loading default values into a new WorkflowGoal.
 
 
+NsApiSlow threshold: 1500 ms.
+
 
 
 
@@ -59,7 +61,7 @@ OK
 POST /api/v1/Agents/Workflow/CreateDefaultWorkflowGoal
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -69,23 +71,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowGoalId": 268,
-  "WorkflowId": 518,
+  "WorkflowGoalId": 564,
+  "WorkflowId": 312,
   "GoalType": "AddedToProject",
   "RestrictionGroups": [
     {
-      "Name": "Homenick Inc and Sons",
-      "Description": "Streamlined optimal info-mediaries",
-      "Rank": 799,
+      "Name": "Rodriguez, Reichel and Hammes",
+      "Description": "Switchable zero administration policy",
+      "Rank": 951,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Homenick Inc and Sons",
-      "Description": "Streamlined optimal info-mediaries",
-      "Rank": 799,
+      "Name": "Rodriguez, Reichel and Hammes",
+      "Description": "Switchable zero administration policy",
+      "Rank": 951,
       "Restrictions": [
         {},
         {}
@@ -97,7 +99,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 248
+      "FieldLength": 80
     }
   }
 }

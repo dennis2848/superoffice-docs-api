@@ -14,6 +14,8 @@ POST /api/v1/Agents/Pocket/RunAppointmentAlarmBroker
 Execute the AppointmentAlarmBroker once
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 

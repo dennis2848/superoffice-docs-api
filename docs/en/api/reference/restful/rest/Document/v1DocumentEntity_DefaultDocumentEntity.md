@@ -15,6 +15,7 @@ Set default values into a new DocumentEntity.
 
 
 NetServer calculates default values on the entity, which is required when creating/storing a new instance Calls the Document agent service CreateDefaultDocumentEntity.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -91,7 +92,7 @@ OK
 GET /api/v1/Document/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -99,91 +100,91 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Fri, 18 Feb 2011 03:46:59 G2T
+Last-Modified: Fri, 29 Jan 2010 02:30:52 G1T
 
 {
-  "DocumentId": 74,
+  "DocumentId": 14,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "et",
-  "Header": "tenetur",
-  "Name": "Goldner-Lynch",
-  "OurRef": "corporis",
-  "YourRef": "eum",
-  "CreatedDate": "2010-12-06T03:46:59.8943184+01:00",
-  "UpdatedDate": "2011-02-18T03:46:59.8943184+01:00",
-  "Description": "Automated radical encryption",
+  "Attention": "quo",
+  "Header": "et",
+  "Name": "Dach Group",
+  "OurRef": "explicabo",
+  "YourRef": "hic",
+  "CreatedDate": "2024-08-19T02:30:52.522416+02:00",
+  "UpdatedDate": "2010-01-29T02:30:52.522416+01:00",
+  "Description": "Versatile high-level software",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2008-01-01T03:46:59.9099453+01:00",
-  "ExternalRef": "dignissimos",
+  "Date": "2009-06-10T02:30:52.522416+02:00",
+  "ExternalRef": "odit",
   "Completed": "Completed",
-  "ActiveLinks": 187,
+  "ActiveLinks": 345,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Legros LLC",
-      "Id": 114,
-      "Description": "Future-proofed local open architecture",
-      "ExtraInfo": "esse",
-      "LinkId": 352,
+      "EntityName": "Sauer-Lakin",
+      "Id": 88,
+      "Description": "Profit-focused multi-state website",
+      "ExtraInfo": "sed",
+      "LinkId": 353,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 337
+          "FieldType": "System.String",
+          "FieldLength": 916
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 244,
-  "Snum": 340,
+  "SuggestedDocumentId": 943,
+  "Snum": 563,
   "UserDefinedFields": {
-    "SuperOffice:1": "1517870266",
-    "SuperOffice:2": "Maggie Elias Wiza PhD"
+    "SuperOffice:1": "Giuseppe Stamm",
+    "SuperOffice:2": "Mrs. Mustafa Aufderhar I"
   },
   "ExtraFields": {
-    "ExtraFields1": "explicabo",
-    "ExtraFields2": "rem"
+    "ExtraFields1": "aut",
+    "ExtraFields2": "fugiat"
   },
   "CustomFields": {
-    "CustomFields1": "repellendus",
-    "CustomFields2": "similique"
+    "CustomFields1": "sit",
+    "CustomFields2": "natus"
   },
-  "PublishEventDate": "2001-12-19T03:46:59.9099453+01:00",
-  "PublishTo": "2014-03-20T03:46:59.9099453+01:00",
-  "PublishFrom": "2015-03-04T03:46:59.9099453+01:00",
+  "PublishEventDate": "1999-11-04T02:30:52.522416+01:00",
+  "PublishTo": "2016-12-21T02:30:52.522416+01:00",
+  "PublishFrom": "2021-10-11T02:30:52.522416+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 785,
+      "VisibleId": 327,
       "Visibility": "All",
-      "DisplayValue": "ex",
+      "DisplayValue": "amet",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 565
+          "FieldType": "System.Int32",
+          "FieldLength": 319
         }
       }
     },
     {
-      "VisibleId": 785,
+      "VisibleId": 327,
       "Visibility": "All",
-      "DisplayValue": "ex",
+      "DisplayValue": "amet",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 565
+          "FieldType": "System.Int32",
+          "FieldLength": 319
         }
       }
     }
@@ -192,8 +193,8 @@ Last-Modified: Fri, 18 Feb 2011 03:46:59 G2T
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 894
+      "FieldType": "System.String",
+      "FieldLength": 59
     }
   }
 }

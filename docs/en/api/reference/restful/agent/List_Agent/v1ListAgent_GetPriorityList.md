@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/GetPriorityList
 Gets an array of Priority objects.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -84,28 +86,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 594,
-    "Value": "doloribus",
+    "Id": 254,
+    "Value": "libero",
     "Tooltip": "iusto",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 483
+        "FieldType": "System.Int32",
+        "FieldLength": 875
       }
     }
   },
   {
-    "Id": 594,
-    "Value": "doloribus",
+    "Id": 254,
+    "Value": "libero",
     "Tooltip": "iusto",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 483
+        "FieldType": "System.Int32",
+        "FieldLength": 875
       }
     }
   }

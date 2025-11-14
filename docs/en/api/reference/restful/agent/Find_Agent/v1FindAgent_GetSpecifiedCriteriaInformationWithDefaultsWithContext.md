@@ -15,6 +15,7 @@ Get criteria information from a set of saved criteria, for a specific set of col
 
 
 The result contains the restrictions in two forms: fully populated ArchiveRestrictionInfo objects, used to display details and for saving changes; and as a list suitable for an Archive control. ALL columns specified in the call will be present in the results; those that do not have corresponding criteria set will have empty values and the default (first) operator, with the IsActive flag set to false.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -88,18 +89,18 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "quam",
-  "ProviderName": "Mosciski-Heathcote",
-  "StorageKey": "architecto",
+  "StorageType": "ut",
+  "ProviderName": "Stoltenberg Inc and Sons",
+  "StorageKey": "voluptatem",
   "DesiredColumnNames": [
-    "McKenzie-Jerde",
-    "Howell, Moen and Raynor"
+    "Brekke-Hane",
+    "Terry LLC"
   ],
   "StaticColumns": [
-    "eum",
-    "nisi"
+    "fuga",
+    "inventore"
   ],
-  "Context": "cum"
+  "Context": "blanditiis"
 }
 ```
 
@@ -112,81 +113,81 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Beer-Roberts",
-      "Operator": "ea",
+      "Name": "Okuneva-Reinger",
+      "Operator": "consectetur",
       "Values": [
-        "ut",
-        "quia"
+        "qui",
+        "itaque"
       ],
       "DisplayValues": [
-        "quo",
-        "sed"
+        "ipsum",
+        "facere"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 964,
+      "InterParenthesis": 78,
       "InterOperator": "And",
-      "UniqueHash": 564
+      "UniqueHash": 131
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Kunde Group",
-      "DisplayTooltip": "dolor",
-      "DisplayType": "reiciendis",
+      "DisplayName": "Nicolas, Schowalter and Kertzmann",
+      "DisplayTooltip": "architecto",
+      "DisplayType": "culpa",
       "CanOrderBy": false,
-      "Name": "Lubowitz-Jaskolski",
-      "CanRestrictBy": false,
-      "RestrictionType": "laudantium",
-      "RestrictionListName": "Zboncak Inc and Sons",
+      "Name": "Legros Group",
+      "CanRestrictBy": true,
+      "RestrictionType": "a",
+      "RestrictionListName": "O'Hara Group",
       "IsVisible": false,
-      "ExtraInfo": "placeat",
-      "Width": "quisquam",
-      "IconHint": "quo",
-      "HeadingIconHint": "aliquid"
+      "ExtraInfo": "sapiente",
+      "Width": "vel",
+      "IconHint": "necessitatibus",
+      "HeadingIconHint": "ullam"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Denesik Group",
-      "PrimaryKey": 119,
+      "EntityName": "Kreiger Group",
+      "PrimaryKey": 533,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "est",
-          "TooltipHint": "tempore",
-          "LinkHint": "alias"
+          "DisplayValue": "nesciunt",
+          "TooltipHint": "sed",
+          "LinkHint": "magni"
         }
       },
-      "LinkHint": "minus",
-      "StyleHint": "blanditiis",
+      "LinkHint": "dolore",
+      "StyleHint": "quis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 778
+          "FieldType": "System.Int32",
+          "FieldLength": 380
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Schumm-Schiller",
-      "Description": "Multi-channelled well-modulated hardware",
-      "Rank": 885,
+      "Name": "McGlynn, Balistreri and Smith",
+      "Description": "Reduced scalable encoding",
+      "Rank": 380,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Schumm-Schiller",
-      "Description": "Multi-channelled well-modulated hardware",
-      "Rank": 885,
+      "Name": "McGlynn, Balistreri and Smith",
+      "Description": "Reduced scalable encoding",
+      "Rank": 380,
       "Restrictions": [
         {},
         {}
@@ -197,8 +198,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 832
+      "FieldType": "System.String",
+      "FieldLength": 997
     }
   }
 }

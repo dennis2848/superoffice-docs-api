@@ -15,6 +15,7 @@ Save an array of restrictions for later use as search criteria (including as dyn
 
 
 Then, return the same result as a call to GetCriteriaInformation would have done. The purpose is to encapsulate saving and updating of a GUI in one round trip.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -87,11 +88,11 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "nostrum",
-  "ProviderName": "Watsica Inc and Sons",
-  "StorageKey": "voluptates",
-  "Restrictions": "fugiat",
-  "StaticColumns": "necessitatibus"
+  "StorageType": "molestias",
+  "ProviderName": "Hilpert, Jacobs and Kuhic",
+  "StorageKey": "consectetur",
+  "Restrictions": "eaque",
+  "StaticColumns": "sint"
 }
 ```
 
@@ -104,15 +105,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Hauck Inc and Sons",
-      "Operator": "ducimus",
+      "Name": "Cummings Group",
+      "Operator": "distinctio",
       "Values": [
-        "ea",
-        "corporis"
+        "neque",
+        "nemo"
       ],
       "DisplayValues": [
-        "corporis",
-        "fugiat"
+        "rerum",
+        "non"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -120,65 +121,65 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 443,
+      "InterParenthesis": 786,
       "InterOperator": "And",
-      "UniqueHash": 338
+      "UniqueHash": 502
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Von, Botsford and Franecki",
-      "DisplayTooltip": "odio",
-      "DisplayType": "voluptatem",
-      "CanOrderBy": true,
-      "Name": "Bayer Inc and Sons",
-      "CanRestrictBy": false,
-      "RestrictionType": "occaecati",
-      "RestrictionListName": "Christiansen, Dooley and Cole",
-      "IsVisible": true,
-      "ExtraInfo": "qui",
-      "Width": "eos",
-      "IconHint": "architecto",
-      "HeadingIconHint": "aperiam"
+      "DisplayName": "Senger-Grady",
+      "DisplayTooltip": "amet",
+      "DisplayType": "culpa",
+      "CanOrderBy": false,
+      "Name": "Crooks-Lemke",
+      "CanRestrictBy": true,
+      "RestrictionType": "dolore",
+      "RestrictionListName": "Senger, Johns and Lynch",
+      "IsVisible": false,
+      "ExtraInfo": "sed",
+      "Width": "omnis",
+      "IconHint": "laborum",
+      "HeadingIconHint": "dolorum"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Christiansen, Kerluke and Abbott",
-      "PrimaryKey": 905,
+      "EntityName": "Schuster Inc and Sons",
+      "PrimaryKey": 785,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "molestiae",
-          "TooltipHint": "eos",
-          "LinkHint": "ea"
+          "DisplayValue": "deleniti",
+          "TooltipHint": "ut",
+          "LinkHint": "aliquam"
         }
       },
-      "LinkHint": "mollitia",
-      "StyleHint": "consectetur",
+      "LinkHint": "odit",
+      "StyleHint": "dolorem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 926
+          "FieldType": "System.Int32",
+          "FieldLength": 103
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Schuppe-Keebler",
-      "Description": "Re-contextualized methodical matrix",
-      "Rank": 479,
+      "Name": "Ebert-Trantow",
+      "Description": "Compatible web-enabled budgetary management",
+      "Rank": 910,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Schuppe-Keebler",
-      "Description": "Re-contextualized methodical matrix",
-      "Rank": 479,
+      "Name": "Ebert-Trantow",
+      "Description": "Compatible web-enabled budgetary management",
+      "Rank": 910,
       "Restrictions": [
         {},
         {}
@@ -190,7 +191,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 671
+      "FieldLength": 380
     }
   }
 }

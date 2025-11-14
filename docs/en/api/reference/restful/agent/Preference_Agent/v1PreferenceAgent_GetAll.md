@@ -14,6 +14,8 @@ POST /api/v1/Agents/Preference/GetAll
 Gets a list of all PreferenceDescriptions in the system.
 
 
+NsApiSlow threshold: 1000 ms.
+
 
 
 
@@ -83,7 +85,7 @@ OK
 POST /api/v1/Agents/Preference/GetAll
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -94,30 +96,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 890,
-    "Section": "ab",
-    "Key": "aut",
-    "Name": "Quitzon-Schimmel",
+    "PrefDescId": 806,
+    "Section": "et",
+    "Key": "id",
+    "Name": "Altenwerth, Donnelly and Streich",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Focused content-based collaboration",
-    "IsBuiltin": false,
-    "TableName": "Turcotte LLC",
-    "UserDefinedListId": 955,
-    "Rank": 441,
-    "SubGroup": "expedita",
-    "MinLevel": 661,
-    "MaxValue": 391,
-    "MinValue": 336,
-    "RequiredLicense": "doloremque",
+    "Description": "Inverse context-sensitive focus group",
+    "IsBuiltin": true,
+    "TableName": "Watsica LLC",
+    "UserDefinedListId": 718,
+    "Rank": 2,
+    "SubGroup": "non",
+    "MinLevel": 128,
+    "MaxValue": 360,
+    "MinValue": 966,
+    "RequiredLicense": "deleniti",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 285
+        "FieldType": "System.String",
+        "FieldLength": 985
       }
     }
   }

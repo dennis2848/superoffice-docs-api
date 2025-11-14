@@ -14,7 +14,8 @@ POST /api/v1/Agents/Document/GetProjectDocuments
 Method that returns a specified number of document appointments within a time range.
 
 
-The document appointments belong to the project specified.
+The document appointments belong to the project specified. 
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -102,10 +103,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 666,
-  "StartTime": "1998-05-06T03:46:54.6288867+02:00",
-  "EndTime": "2022-08-28T03:46:54.6288867+02:00",
-  "Count": 941
+  "ProjectId": 612,
+  "StartTime": "2015-06-06T02:30:47.0850878+02:00",
+  "EndTime": "1999-05-22T02:30:47.0850878+02:00",
+  "Count": 565
 }
 ```
 
@@ -117,32 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 185,
-    "Attention": "sapiente",
-    "Header": "nam",
-    "Name": "Runolfsdottir Group",
-    "OurRef": "possimus",
-    "YourRef": "ratione",
-    "Description": "Organic uniform time-frame",
-    "DocumentTemplate": "quam",
+    "DocumentId": 610,
+    "Attention": "eos",
+    "Header": "consectetur",
+    "Name": "McLaughlin Inc and Sons",
+    "OurRef": "maiores",
+    "YourRef": "omnis",
+    "Description": "Organic user-facing leverage",
+    "DocumentTemplate": "maxime",
     "IsPublished": false,
-    "PersonId": 685,
-    "PersonFullName": "Mrs. Madilyn Howe",
-    "AssociateFullName": "Agnes Romaguera",
-    "ContactId": 187,
-    "ContactName": "Powlowski Group",
+    "PersonId": 407,
+    "PersonFullName": "Favian Schneider",
+    "AssociateFullName": "Markus Wolff",
+    "ContactId": 63,
+    "ContactName": "Runolfsdottir Inc and Sons",
     "ProjectId": 405,
-    "ProjectName": "Fritsch LLC",
-    "AssociateId": 202,
-    "Snum": 219,
-    "SaleId": 805,
-    "SaleName": "McKenzie-Schmidt",
+    "ProjectName": "Sipes-Jerde",
+    "AssociateId": 855,
+    "Snum": 54,
+    "SaleId": 602,
+    "SaleName": "Watsica Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 785
+        "FieldType": "System.String",
+        "FieldLength": 1002
       }
     }
   }

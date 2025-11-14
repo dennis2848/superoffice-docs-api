@@ -15,6 +15,7 @@ Execute a CRMScript with event data as input.
 
 
 Returns event data with output variable values.
+NsApiSlow threshold: 5000 ms.
 
 
 ## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
@@ -93,11 +94,11 @@ OK
 POST /api/v1/Agents/CRMScript/ExecuteScriptAsEvent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CRMScriptId": 793,
+  "CRMScriptId": 400,
   "EventData": null
 }
 ```
@@ -111,34 +112,34 @@ Content-Type: application/json; charset=utf-8
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "alias",
-    "InputValues2": "odit"
+    "InputValues1": "voluptatem",
+    "InputValues2": "natus"
   },
   "BlockExecution": true,
-  "NavigateTo": "provident",
-  "Message": "laboriosam",
-  "ShowDialog": "at",
+  "NavigateTo": "harum",
+  "Message": "sit",
+  "ShowDialog": "odit",
   "OutputValues": {
-    "OutputValues1": "velit",
-    "OutputValues2": "omnis"
+    "OutputValues1": "ad",
+    "OutputValues2": "quia"
   },
   "StateValues": {
     "StateValues1": "veniam",
-    "StateValues2": "autem"
+    "StateValues2": "non"
   },
-  "Exception": "autem",
+  "Exception": "nobis",
   "ParserValues": {
-    "ParserValues1": "quibusdam",
-    "ParserValues2": "nemo"
+    "ParserValues1": "temporibus",
+    "ParserValues2": "nulla"
   },
   "CgiVariables": {
-    "CgiVariables1": "voluptatem",
-    "CgiVariables2": "placeat"
+    "CgiVariables1": "quo",
+    "CgiVariables2": "ea"
   },
-  "CgiContent": "consequatur",
+  "CgiContent": "exercitationem",
   "Headers": {
-    "Headers1": "qui",
-    "Headers2": "velit"
+    "Headers1": "rerum",
+    "Headers2": "sapiente"
   },
   "TraceExecution": false,
   "TableRight": null,
@@ -146,7 +147,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 480
+      "FieldLength": 131
     }
   }
 }

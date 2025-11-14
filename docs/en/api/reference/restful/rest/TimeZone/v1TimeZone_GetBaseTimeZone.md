@@ -62,7 +62,7 @@ OK
 GET /api/v1/TimeZone/base
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -72,31 +72,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TZLocationID": 253,
-  "Name": "Kilback-Boyle",
-  "TZLocationCode": "sit",
-  "TZLocationCities": "sed",
-  "IsoNumber": 238,
+  "TZLocationID": 672,
+  "Name": "Waelchi, Christiansen and Marvin",
+  "TZLocationCode": "facere",
+  "TZLocationCities": "maxime",
+  "IsoNumber": 373,
   "TimeZoneSTDRules": {
     "fieldName": {
-      "StartDay": 913,
-      "StartMonth": 130,
-      "EndDay": 345,
-      "EndMonth": 488,
-      "TZOffset": 294,
-      "StartRulePattern": "deserunt",
-      "EndRulePattern": "cum"
+      "StartDay": 714,
+      "StartMonth": 392,
+      "EndDay": 247,
+      "EndMonth": 324,
+      "TZOffset": 95,
+      "StartRulePattern": "consequatur",
+      "EndRulePattern": "magni"
     }
   },
   "TimeZoneDSTRules": {
     "fieldName": {
-      "StartDay": 905,
-      "StartMonth": 336,
-      "EndDay": 846,
-      "EndMonth": 423,
-      "TZOffset": 793,
-      "StartRulePattern": "ipsum",
-      "EndRulePattern": "sequi"
+      "StartDay": 907,
+      "StartMonth": 537,
+      "EndDay": 950,
+      "EndMonth": 563,
+      "TZOffset": 493,
+      "StartRulePattern": "sit",
+      "EndRulePattern": "neque"
     }
   }
 }

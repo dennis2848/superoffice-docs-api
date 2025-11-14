@@ -14,6 +14,8 @@ POST /api/v1/Agents/Targets/CreateDefaultTargetRevisionHistory
 Loading default values into a new TargetRevisionHistory.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -68,13 +70,13 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 121,
-  "Year": 8,
+  "TargetGroupId": 388,
+  "Year": 330,
   "Revisions": [
     {
       "LogEvent": "Create",
       "Who": null,
-      "When": "2017-05-30T03:46:55.4257333+02:00",
+      "When": "2001-11-01T02:30:47.8663151+01:00",
       "Changes": [
         {},
         {}
@@ -83,15 +85,15 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 477
+          "FieldType": "System.Int32",
+          "FieldLength": 789
         }
       }
     },
     {
       "LogEvent": "Create",
       "Who": null,
-      "When": "2017-05-30T03:46:55.4257333+02:00",
+      "When": "2001-11-01T02:30:47.8663151+01:00",
       "Changes": [
         {},
         {}
@@ -100,8 +102,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 477
+          "FieldType": "System.Int32",
+          "FieldLength": 789
         }
       }
     }
@@ -111,7 +113,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 27
+      "FieldLength": 801
     }
   }
 }

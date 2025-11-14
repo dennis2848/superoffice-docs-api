@@ -14,6 +14,8 @@ PUT /api/v1/List/{id}
 Updates the existing ListEntity
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -98,19 +100,19 @@ ListEntity updated.
 PUT /api/v1/List/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 611,
-  "Name": "Murray, Heaney and Romaguera",
-  "Tooltip": "dolore",
+  "Id": 545,
+  "Name": "Metz LLC",
+  "Tooltip": "libero",
   "Deleted": false,
-  "Rank": 922,
+  "Rank": 967,
   "IsCustomList": false,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "qui",
+  "UseGroupsAndHeadings": false,
+  "ListType": "eligendi",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -122,27 +124,27 @@ HTTP/1.1 200 ListEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 608,
-  "Name": "Schaefer, Corkery and White",
-  "Tooltip": "est",
-  "Deleted": false,
-  "Rank": 297,
+  "Id": 856,
+  "Name": "Ullrich-Miller",
+  "Tooltip": "expedita",
+  "Deleted": true,
+  "Rank": 944,
   "IsCustomList": true,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "quasi",
-  "InUseByUserDefinedFields": false,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "ratione",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 78
+      "FieldType": "System.Int32",
+      "FieldLength": 611
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

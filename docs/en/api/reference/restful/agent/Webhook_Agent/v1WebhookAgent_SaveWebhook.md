@@ -14,6 +14,9 @@ POST /api/v1/Agents/Webhook/SaveWebhook
 Updates the existing Webhook or creates a new Webhook if the id parameter is 0.
 
 
+NsApiSlow threshold: 2000 ms.
+
+
 ## Online Restricted: ## The Webhook agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 
@@ -94,28 +97,28 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 283,
-  "Name": "Walsh-Champlin",
+  "WebhookId": 77,
+  "Name": "Herzog, Russel and Kessler",
   "Events": [
-    "perferendis",
-    "voluptatem"
+    "et",
+    "ipsa"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "et",
+  "Secret": "ut",
   "State": "Active",
-  "Type": "sit",
+  "Type": "saepe",
   "Headers": {
-    "Headers1": "velit",
-    "Headers2": "consequatur"
+    "Headers1": "debitis",
+    "Headers2": "corporis"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2024-06-04T03:46:55.6444757+02:00",
+  "Registered": "2015-05-26T02:30:48.1475549+02:00",
   "RegisteredAssociate": null,
-  "Updated": "2018-05-01T03:46:55.6444757+02:00",
+  "Updated": "2025-06-13T02:30:48.1475549+02:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "maribel_jewess@lowe.info"
+  "ErrorsEmail": "keaton@oconner.biz"
 }
 ```
 
@@ -126,27 +129,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 11,
-  "Name": "Hartmann, Schmidt and Towne",
+  "WebhookId": 425,
+  "Name": "Durgan Group",
   "Events": [
-    "sit",
-    "voluptate"
+    "neque",
+    "corporis"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "accusamus",
+  "Secret": "tempora",
   "State": "Active",
-  "Type": "maxime",
+  "Type": "qui",
   "Headers": {
-    "Headers1": "sed",
-    "Headers2": "voluptatem"
+    "Headers1": "at",
+    "Headers2": "quia"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2016-07-09T03:46:55.6444757+02:00",
+  "Registered": "2008-08-11T02:30:48.1475549+02:00",
   "RegisteredAssociate": null,
-  "Updated": "2009-06-12T03:46:55.6444757+02:00",
+  "Updated": "2017-08-21T02:30:48.1475549+02:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "jevon@osinski.name"
+  "ErrorsEmail": "marcos@reicheljohnson.com"
 }
 ```

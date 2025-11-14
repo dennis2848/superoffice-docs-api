@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/GetAllReasonStalled
 Gets an array of all ReasonStalled objects
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -79,28 +81,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 272,
-    "Value": "cupiditate",
-    "Tooltip": "natus",
+    "Id": 586,
+    "Value": "dicta",
+    "Tooltip": "sit",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 315
+        "FieldLength": 545
       }
     }
   },
   {
-    "Id": 272,
-    "Value": "cupiditate",
-    "Tooltip": "natus",
+    "Id": 586,
+    "Value": "dicta",
+    "Tooltip": "sit",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 315
+        "FieldLength": 545
       }
     }
   }

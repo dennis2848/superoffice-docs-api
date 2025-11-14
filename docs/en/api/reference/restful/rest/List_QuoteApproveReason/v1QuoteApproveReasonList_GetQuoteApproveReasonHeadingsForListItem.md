@@ -86,7 +86,7 @@ OK
 GET /api/v1/List/QuoteApproveReason/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -97,56 +97,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 252,
-    "Name": "Armstrong Inc and Sons",
-    "ToolTip": "Sit eos ut dolorum aperiam culpa.",
-    "Deleted": true,
-    "Rank": 73,
-    "Type": "sunt",
-    "ColorBlock": 405,
-    "IconHint": "quasi",
+    "Id": 795,
+    "Name": "Gorczany Group",
+    "ToolTip": "Quam qui aut non veniam dolorem.",
+    "Deleted": false,
+    "Rank": 145,
+    "Type": "dolorem",
+    "ColorBlock": 716,
+    "IconHint": "est",
     "Selected": false,
-    "LastChanged": "2010-08-17T03:47:00.7692942+02:00",
+    "LastChanged": "2010-07-22T02:30:53.3973865+02:00",
     "ChildItems": [
       {
-        "Id": 990,
-        "Name": "Hettinger-Hegmann",
-        "ToolTip": "Officiis reiciendis quibusdam explicabo aliquid quia laborum ut.",
-        "Deleted": true,
-        "Rank": 501,
-        "Type": "voluptatibus",
-        "ColorBlock": 356,
-        "IconHint": "omnis",
+        "Id": 427,
+        "Name": "Armstrong Group",
+        "ToolTip": "Impedit rerum.",
+        "Deleted": false,
+        "Rank": 981,
+        "Type": "veritatis",
+        "ColorBlock": 218,
+        "IconHint": "ullam",
         "Selected": false,
-        "LastChanged": "2005-09-15T03:47:00.7692942+02:00",
+        "LastChanged": "2011-07-09T02:30:53.3973865+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ducimus",
-        "StyleHint": "officia",
-        "Hidden": false,
-        "FullName": "Miss Adam Lue Cruickshank",
+        "ExtraInfo": "qui",
+        "StyleHint": "reiciendis",
+        "Hidden": true,
+        "FullName": "Jefferey Greenfelder",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 534
+            "FieldType": "System.String",
+            "FieldLength": 492
           }
         }
       }
     ],
-    "ExtraInfo": "laboriosam",
-    "StyleHint": "vel",
-    "Hidden": true,
-    "FullName": "Everette McKenzie",
+    "ExtraInfo": "minima",
+    "StyleHint": "et",
+    "Hidden": false,
+    "FullName": "Dr. Beatrice Schimmel III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 196
+        "FieldLength": 896
       }
     }
   }

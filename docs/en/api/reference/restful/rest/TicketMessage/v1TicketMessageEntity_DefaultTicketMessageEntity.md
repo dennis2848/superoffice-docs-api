@@ -15,6 +15,7 @@ Set default values into a new TicketMessageEntity.
 
 
 NetServer calculates default values on the entity, which is required when creating/storing a new instance Calls the Ticket agent service CreateDefaultTicketMessageEntity.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -83,7 +84,7 @@ OK
 GET /api/v1/TicketMessage/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -93,28 +94,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 695,
+  "EjMessageId": 505,
   "Ticket": null,
-  "CreatedAt": "2010-08-09T03:47:00.3630582+02:00",
+  "CreatedAt": "2021-10-14T02:30:53.0067748+02:00",
   "CreatedBy": null,
-  "Author": "voluptas",
+  "Author": "ut",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "in",
-  "TimeSpent": 224,
-  "Body": "veritatis",
-  "HtmlBody": "nihil",
-  "EmailHeader": "ludie@goyette.com",
-  "DebugInfo": "velit",
-  "MailSorter": "placeat",
+  "MessageId": "rerum",
+  "TimeSpent": 597,
+  "Body": "sit",
+  "HtmlBody": "nulla",
+  "EmailHeader": "casimir@dibbert.uk",
+  "DebugInfo": "quia",
+  "MailSorter": "et",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "molestias",
+  "SearchTitle": "velit",
   "MessageHeaders": [
     {
-      "Id": 426,
-      "Name": "Block LLC",
-      "Value": "delectus",
+      "Id": 446,
+      "Name": "Kemmer, Doyle and Kautzer",
+      "Value": "in",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -122,50 +123,50 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 613
+          "FieldLength": 943
         }
       }
     }
   ],
   "Important": false,
-  "Language": "quam",
-  "Sentiment": 562,
-  "SentimentConfidence": 678,
+  "Language": "aut",
+  "Sentiment": 523,
+  "SentimentConfidence": 193,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 108,
-      "Name": "Mraz, McCullough and Hirthe",
-      "ContentType": "rerum",
-      "AttSize": 57,
+      "AttachmentId": 766,
+      "Name": "Gerhold Inc and Sons",
+      "ContentType": "similique",
+      "AttSize": 3,
       "InlineImage": false,
-      "ContentId": "neque",
-      "AuthKey": "aliquam",
+      "ContentId": "rerum",
+      "AuthKey": "iure",
       "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 87
+          "FieldType": "System.String",
+          "FieldLength": 422
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "itaque",
-    "ExtraFields2": "expedita"
+    "ExtraFields1": "animi",
+    "ExtraFields2": "adipisci"
   },
   "CustomFields": {
-    "CustomFields1": "et",
-    "CustomFields2": "quia"
+    "CustomFields1": "similique",
+    "CustomFields2": "perferendis"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 799
+      "FieldLength": 405
     }
   }
 }

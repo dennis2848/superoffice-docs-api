@@ -15,6 +15,7 @@ Creates a new contact selection based on contact selection members from an exist
 
 
 The new selection will always be static even if the original selection is dynamic.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -117,12 +118,12 @@ OK
 POST /api/v1/Agents/Selection/CreateContactSelectionFromShadowSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 876,
-  "Name": "Goodwin, Cormier and Kreiger"
+  "SelectionId": 701,
+  "Name": "Altenwerth, Hills and Ruecker"
 }
 ```
 
@@ -133,70 +134,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Secured systemic help-desk",
-  "Postit": "aut",
+  "Description": "Robust zero administration matrix",
+  "Postit": "veniam",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 321,
-  "IncludePerson": 305,
+  "GroupIdx": 142,
+  "IncludePerson": 153,
   "MemberCount": 99.99,
-  "Name": "Rath-Gulgowski",
-  "PostitTextId": 865,
-  "CreatedDate": "2008-04-15T03:46:55.3944846+02:00",
-  "SelectionId": 267,
-  "SoundEx": "modi",
-  "Source": 620,
-  "TextId": 34,
-  "UpdatedDate": "2015-02-10T03:46:55.3944846+01:00",
-  "UpdatedCount": 571,
-  "Visibility": 107,
+  "Name": "Dickens, Nicolas and Dickinson",
+  "PostitTextId": 644,
+  "CreatedDate": "2019-08-12T02:30:47.8350657+02:00",
+  "SelectionId": 3,
+  "SoundEx": "occaecati",
+  "Source": 958,
+  "TextId": 971,
+  "UpdatedDate": "2013-09-07T02:30:47.8350657+02:00",
+  "UpdatedCount": 947,
+  "Visibility": 288,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 275,
-  "TargetTableName": "Hackett, Friesen and Tillman",
-  "Completed": false,
-  "LeftSelectionId": 43,
-  "RightSelectionId": 744,
+  "TargetTableNumber": 893,
+  "TargetTableName": "Klein, Nader and McGlynn",
+  "Completed": true,
+  "LeftSelectionId": 719,
+  "RightSelectionId": 623,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Wolf, Macejkovic and West",
-  "ShadowProviderName": "Kirlin, Stark and Hermiston",
-  "ChartKey": "eos",
-  "LastLoaded": "2009-05-09T03:46:55.3944846+02:00",
-  "LastLoadedBy": 216,
+  "MainProviderName": "Koepp, Kunde and Nader",
+  "ShadowProviderName": "Sanford-Douglas",
+  "ChartKey": "laboriosam",
+  "LastLoaded": "2020-04-27T02:30:47.8350657+02:00",
+  "LastLoadedBy": 496,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2002-10-06T03:46:55.3944846+02:00",
-  "LastMembershipChangeBy": 171,
+  "LastMembershipChange": "2019-08-08T02:30:47.8350657+02:00",
+  "LastMembershipChangeBy": 364,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "at",
-  "MemberTabHeading": "et",
-  "MailingsProviderName": "Dicki-Bergnaum",
-  "DashboardTileDefinitionId": 470,
+  "MainHeading": "dolore",
+  "MemberTabHeading": "neque",
+  "MailingsProviderName": "Hessel, Terry and Satterfield",
+  "DashboardTileDefinitionId": 1001,
   "VisibleFor": [
     {
-      "VisibleId": 549,
+      "VisibleId": 146,
       "Visibility": "All",
-      "DisplayValue": "repellendus",
+      "DisplayValue": "qui",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 106
+          "FieldType": "System.Int32",
+          "FieldLength": 767
         }
       }
     },
     {
-      "VisibleId": 549,
+      "VisibleId": 146,
       "Visibility": "All",
-      "DisplayValue": "repellendus",
+      "DisplayValue": "qui",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 106
+          "FieldType": "System.Int32",
+          "FieldLength": 767
         }
       }
     }
@@ -206,7 +207,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 524
+      "FieldLength": 133
     }
   }
 }

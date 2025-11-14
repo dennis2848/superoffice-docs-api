@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/SaveSaleStageEntity
 Updates the existing SaleStageEntity or creates a new SaleStageEntity if the id parameter is 0.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -78,12 +80,12 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleStageId": 932,
-  "Value": "sunt",
-  "Tooltip": "qui",
-  "Probability": 996,
-  "Deleted": false,
-  "Rank": 90
+  "SaleStageId": 541,
+  "Value": "velit",
+  "Tooltip": "quia",
+  "Probability": 822,
+  "Deleted": true,
+  "Rank": 41
 }
 ```
 
@@ -94,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleStageId": 798,
-  "Value": "est",
-  "Tooltip": "aspernatur",
-  "Probability": 702,
+  "SaleStageId": 936,
+  "Value": "autem",
+  "Tooltip": "dolore",
+  "Probability": 248,
   "Deleted": true,
-  "Rank": 243,
+  "Rank": 968,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 282
+      "FieldType": "System.Int32",
+      "FieldLength": 797
     }
   }
 }

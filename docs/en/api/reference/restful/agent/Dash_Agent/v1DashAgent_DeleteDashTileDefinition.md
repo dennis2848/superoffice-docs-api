@@ -14,6 +14,8 @@ POST /api/v1/Agents/Dash/DeleteDashTileDefinition
 Deletes the DashTileDefinition
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -26,7 +28,7 @@ Deletes the DashTileDefinition
 | dashTileDefinitionId | int32 | **Required** The identity of the DashTileDefinition |
 
 ```http
-POST /api/v1/Agents/Dash/DeleteDashTileDefinition?dashTileDefinitionId=253
+POST /api/v1/Agents/Dash/DeleteDashTileDefinition?dashTileDefinitionId=445
 ```
 
 

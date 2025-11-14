@@ -14,6 +14,8 @@ POST /api/v1/Agents/Diagnostics/GetEntityCountsForAllUsers
 Get an array of entities and number of entities created for all associates.
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -67,7 +69,7 @@ OK
 POST /api/v1/Agents/Diagnostics/GetEntityCountsForAllUsers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -78,26 +80,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Schaefer Group",
-    "Records": 183,
+    "EntityName": "Barrows-Reynolds",
+    "Records": 459,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 709
+        "FieldLength": 706
       }
     }
   },
   {
-    "EntityName": "Schaefer Group",
-    "Records": 183,
+    "EntityName": "Barrows-Reynolds",
+    "Records": 459,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 709
+        "FieldLength": 706
       }
     }
   }

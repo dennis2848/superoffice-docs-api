@@ -15,6 +15,7 @@ Get en e-mail based on its primary key in the DB.
 
 
 The returned value is not sanitized.
+NsApiSlow threshold: 5000 ms.
 
 
 ## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
@@ -105,11 +106,11 @@ OK
 POST /api/v1/Agents/EMail/GetUnsanitizedEMail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 656,
+  "Id": 616,
   "IncludeAttachments": true
 }
 ```
@@ -123,156 +124,156 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 753,
-      "ContactName": "Bednar Inc and Sons",
-      "PersonId": 202,
-      "PersonName": "Torphy, Lemke and Mann",
-      "AssociateId": 774,
-      "Address": "sunt",
-      "EmailId": 542,
+      "ContactId": 117,
+      "ContactName": "Hagenes, Gibson and Purdy",
+      "PersonId": 967,
+      "PersonName": "Veum-Koelpin",
+      "AssociateId": 227,
+      "Address": "consequatur",
+      "EmailId": 660,
       "DuplicatePersonIds": [
-        180,
-        635
+        691,
+        925
       ],
-      "Name": "Hermiston Group",
+      "Name": "O'Hara-Sipes",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 131
+          "FieldType": "System.String",
+          "FieldLength": 828
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 59,
-      "ContactName": "Balistreri, Kutch and Harvey",
-      "PersonId": 561,
-      "PersonName": "Halvorson-Welch",
-      "AssociateId": 229,
-      "Address": "vero",
-      "EmailId": 650,
+      "ContactId": 950,
+      "ContactName": "Jacobs, Huel and Harvey",
+      "PersonId": 659,
+      "PersonName": "Zemlak Group",
+      "AssociateId": 928,
+      "Address": "eos",
+      "EmailId": 578,
       "DuplicatePersonIds": [
-        915,
-        19
+        284,
+        459
       ],
-      "Name": "Brekke, Weimann and Morissette",
+      "Name": "Wiegand Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 63
+          "FieldType": "System.Int32",
+          "FieldLength": 310
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 411,
-      "ContactName": "Kshlerin, Feeney and Daniel",
-      "PersonId": 686,
-      "PersonName": "Johns, Gorczany and Parisian",
-      "AssociateId": 52,
-      "Address": "temporibus",
-      "EmailId": 550,
+      "ContactId": 344,
+      "ContactName": "Barrows Group",
+      "PersonId": 624,
+      "PersonName": "Yost, Hansen and Spencer",
+      "AssociateId": 718,
+      "Address": "at",
+      "EmailId": 284,
       "DuplicatePersonIds": [
-        527,
-        803
+        376,
+        216
       ],
-      "Name": "Halvorson Group",
+      "Name": "Reynolds, Davis and Schultz",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 288
+          "FieldLength": 89
         }
       }
     }
   ],
-  "Subject": "consequuntur",
-  "HTMLBody": "optio",
+  "Subject": "in",
+  "HTMLBody": "est",
   "From": null,
-  "Sent": "2001-08-07T03:46:54.8007556+02:00",
-  "Size": 569,
+  "Sent": "2005-06-10T02:30:47.3194579+02:00",
+  "Size": 640,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "asperiores",
-  "PlainBody": "veritatis",
+  "MessageID": "ipsum",
+  "PlainBody": "incidunt",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 32,
+  "ServerId": 568,
   "Attachments": [
     {
-      "Description": "Secured incremental middleware",
-      "Filename": "eum",
-      "Size": 250,
-      "Type": "qui",
-      "Encoding": "fuga",
-      "Id": "impedit",
-      "Disposition": "consectetur",
-      "IsSafeFileExtension": false,
+      "Description": "Configurable impactful pricing structure",
+      "Filename": "aut",
+      "Size": 907,
+      "Type": "facilis",
+      "Encoding": "autem",
+      "Id": "eum",
+      "Disposition": "hic",
+      "IsSafeFileExtension": true,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 363
+          "FieldLength": 916
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Spinka-Zieme",
+      "Name": "Mosciski, Skiles and Langosh",
       "Values": [
-        "quia",
-        "nihil"
+        "voluptatem",
+        "aut"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 154
+          "FieldLength": 149
         }
       }
     },
     {
-      "Name": "Spinka-Zieme",
+      "Name": "Mosciski, Skiles and Langosh",
       "Values": [
-        "quia",
-        "nihil"
+        "voluptatem",
+        "aut"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 154
+          "FieldLength": 149
         }
       }
     }
   ],
-  "FolderName": "Walsh, Orn and Berge",
-  "EmailItemId": 64,
-  "AccountId": 265,
-  "ReceivedAt": "2019-04-24T03:46:54.8007556+02:00",
+  "FolderName": "Windler LLC",
+  "EmailItemId": 789,
+  "AccountId": 931,
+  "ReceivedAt": "2010-11-20T02:30:47.3194579+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2013-05-10T03:46:54.8007556+02:00",
-  "HasCalendarData": false,
+  "RepliedAt": "2000-01-25T02:30:47.3194579+01:00",
+  "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 326
+      "FieldType": "System.Int32",
+      "FieldLength": 621
     }
   }
 }

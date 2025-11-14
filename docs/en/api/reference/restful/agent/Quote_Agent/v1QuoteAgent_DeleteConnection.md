@@ -14,6 +14,8 @@ POST /api/v1/Agents/Quote/DeleteConnection
 Marks a connection as deleted.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -69,7 +71,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 244
+  "QuoteConnectionId": 901
 }
 ```
 

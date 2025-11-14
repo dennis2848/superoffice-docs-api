@@ -14,6 +14,9 @@ PUT /api/v1/Role/{id}
 Updates the existing RoleEntity
 
 
+NsApiSlow threshold: 2000 ms.
+
+
 ## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
 
 
@@ -108,16 +111,16 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 36,
-  "Name": "Rohan LLC",
-  "Tooltip": "iusto",
+  "RoleId": 718,
+  "Name": "Schamberger Group",
+  "Tooltip": "exercitationem",
   "RoleType": "Anonymous",
-  "Deleted": 483,
-  "Rank": 858,
-  "Created": "2014-08-26T03:47:00.2068137+02:00",
-  "UseCategories": 107,
+  "Deleted": 407,
+  "Rank": 920,
+  "Created": "2011-05-20T02:30:52.8349052+02:00",
+  "UseCategories": 794,
   "CreatedBy": null,
-  "Updated": "2018-07-06T03:47:00.2068137+02:00",
+  "Updated": "2017-03-05T02:30:52.8349052+01:00",
   "UpdatedBy": null,
   "DataRights": null
 }
@@ -130,24 +133,24 @@ HTTP/1.1 200 RoleEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 880,
-  "Name": "Sporer-Lakin",
-  "Tooltip": "animi",
+  "RoleId": 997,
+  "Name": "Feest, Maggio and Vandervort",
+  "Tooltip": "voluptas",
   "RoleType": "Anonymous",
-  "Deleted": 364,
-  "Rank": 59,
-  "Created": "2012-05-24T03:47:00.2068137+02:00",
-  "UseCategories": 555,
+  "Deleted": 710,
+  "Rank": 212,
+  "Created": "2020-12-20T02:30:52.8349052+01:00",
+  "UseCategories": 516,
   "CreatedBy": null,
-  "Updated": "2014-11-21T03:47:00.2068137+01:00",
+  "Updated": "1999-02-17T02:30:52.8349052+01:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 280
+      "FieldType": "System.String",
+      "FieldLength": 987
     }
   },
   "_Links": {

@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/GetDocumentTemplates
 Returns all available document templates
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -87,23 +89,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentTemplateId": 866,
-    "Name": "Ruecker LLC",
-    "Tooltip": "iusto",
-    "SaveInDb": 58,
-    "Filename": "necessitatibus",
-    "DefaultOref": "quas",
+    "DocumentTemplateId": 611,
+    "Name": "White-Johns",
+    "Tooltip": "est",
+    "SaveInDb": 695,
+    "Filename": "illum",
+    "DefaultOref": "tempora",
     "RecordType": "Appointment",
-    "Deleted": 994,
+    "Deleted": 918,
     "Direction": "Incoming",
-    "AutoeventId": 391,
+    "AutoeventId": 753,
     "QuoteDocType": "ConfirmationLines",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 407
+        "FieldType": "System.String",
+        "FieldLength": 463
       }
     }
   }

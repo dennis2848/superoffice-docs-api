@@ -14,7 +14,8 @@ PATCH /api/v1/PreferenceDescription/{id}
 Update a PreferenceDescription with changes, as described in a JSON Patch or a JSON Merge Patch document.
 
 
-See <a href="https://tools.ietf.org/html/rfc6902">RFC6902</a> and <a href="https://tools.ietf.org/html/rfc7386">RFC 7396</a>. Update the Department field to "foo" can be done either as a JSON PATCH:
+See <a href="https://tools.ietf.org/html/rfc6902">RFC6902</a> and <a href="https://tools.ietf.org/html/rfc7386">RFC 7396</a>.
+NsApiSlow threshold: 1000 ms. Update the Department field to "foo" can be done either as a JSON PATCH:
 
 ```js
 
@@ -132,12 +133,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "voluptatem",
+    "path": "harum",
     "value": {}
   },
   {
     "op": "add",
-    "path": "voluptatem",
+    "path": "harum",
     "value": {}
   }
 ]
@@ -150,30 +151,30 @@ HTTP/1.1 200 PreferenceDescription  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 259,
-  "Section": "tempora",
-  "Key": "quis",
-  "Name": "Lang-Fahey",
+  "PrefDescId": 357,
+  "Section": "deleniti",
+  "Key": "ad",
+  "Name": "Moore Group",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Focused eco-centric challenge",
+  "Description": "Grass-roots even-keeled matrices",
   "IsBuiltin": false,
-  "TableName": "Schmeler-Metz",
-  "UserDefinedListId": 500,
-  "Rank": 973,
-  "SubGroup": "voluptas",
-  "MinLevel": 509,
-  "MaxValue": 624,
-  "MinValue": 788,
-  "RequiredLicense": "earum",
+  "TableName": "Labadie, Heathcote and Haag",
+  "UserDefinedListId": 493,
+  "Rank": 593,
+  "SubGroup": "provident",
+  "MinLevel": 265,
+  "MaxValue": 692,
+  "MinValue": 877,
+  "RequiredLicense": "velit",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 158
+      "FieldLength": 920
     }
   },
   "_Links": {

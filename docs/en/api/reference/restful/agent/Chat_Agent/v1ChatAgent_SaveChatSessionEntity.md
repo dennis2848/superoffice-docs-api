@@ -14,6 +14,8 @@ POST /api/v1/Agents/Chat/SaveChatSessionEntity
 Updates the existing ChatSessionEntity or creates a new ChatSessionEntity if the id parameter is 0.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -124,33 +126,33 @@ OK
 POST /api/v1/Agents/Chat/SaveChatSessionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 49,
-  "TopicId": 964,
+  "ChatSessionId": 308,
+  "TopicId": 497,
   "User": null,
   "Person": null,
-  "CustomerAlias": "et",
-  "CustomerHost": "similique",
-  "CustomerName": "Ledner-Berge",
-  "CustomerEmail": "pasquale.graham@wardcummerata.com",
-  "CustomerPhone": "(486)442-6515",
-  "CustomerConsented": false,
-  "CustomerCompanyName": "Emmerich, Tremblay and Rowe",
+  "CustomerAlias": "excepturi",
+  "CustomerHost": "maiores",
+  "CustomerName": "Weissnat-Maggio",
+  "CustomerEmail": "magnus.leannon@becker.ca",
+  "CustomerPhone": "1-891-127-1727",
+  "CustomerConsented": true,
+  "CustomerCompanyName": "Mante-Heathcote",
   "Status": "Closed",
-  "FirstMessage": "nihil",
-  "LastMessage": "suscipit",
-  "WhenRequested": "2021-05-15T03:46:54.3320222+02:00",
-  "WhenStarted": "2013-08-12T03:46:54.3320222+02:00",
-  "WhenEnded": "2016-12-19T03:46:54.3320222+01:00",
-  "WhenIdle": "1998-12-25T03:46:54.3320222+01:00",
-  "WhenFetched": "2015-06-21T03:46:54.3320222+02:00",
-  "SessionKey": "officia",
-  "InitialQueuePos": 790,
-  "AlertLevel": 945,
-  "Rank": 645,
+  "FirstMessage": "enim",
+  "LastMessage": "pariatur",
+  "WhenRequested": "2025-10-08T02:30:46.8350962+02:00",
+  "WhenStarted": "2006-11-11T02:30:46.8350962+01:00",
+  "WhenEnded": "2003-06-28T02:30:46.8350962+02:00",
+  "WhenIdle": "2009-07-07T02:30:46.8350962+02:00",
+  "WhenFetched": "2018-10-10T02:30:46.8350962+02:00",
+  "SessionKey": "eligendi",
+  "InitialQueuePos": 985,
+  "AlertLevel": 233,
+  "Rank": 714,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -158,7 +160,7 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 623
+  "Rating": 814
 }
 ```
 
@@ -169,43 +171,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 659,
-  "TopicId": 607,
+  "ChatSessionId": 118,
+  "TopicId": 64,
   "User": null,
   "Person": null,
-  "CustomerAlias": "repudiandae",
-  "CustomerHost": "qui",
-  "CustomerName": "Dach-Spencer",
-  "CustomerEmail": "daryl.murazik@schaeferyost.ca",
-  "CustomerPhone": "(205)085-8171 x21171",
-  "CustomerConsented": false,
-  "CustomerCompanyName": "Dare Inc and Sons",
+  "CustomerAlias": "saepe",
+  "CustomerHost": "totam",
+  "CustomerName": "Aufderhar-Fritsch",
+  "CustomerEmail": "arden@armstrongframi.name",
+  "CustomerPhone": "(181)669-5120",
+  "CustomerConsented": true,
+  "CustomerCompanyName": "Lockman-Mueller",
   "Status": "Closed",
-  "FirstMessage": "maiores",
-  "LastMessage": "omnis",
-  "WhenRequested": "2017-12-19T03:46:54.3320222+01:00",
-  "WhenStarted": "2013-01-25T03:46:54.3320222+01:00",
-  "WhenEnded": "2007-11-15T03:46:54.3320222+01:00",
-  "WhenIdle": "2017-10-02T03:46:54.3320222+02:00",
-  "WhenFetched": "2018-09-30T03:46:54.3320222+02:00",
-  "SessionKey": "et",
-  "InitialQueuePos": 117,
-  "AlertLevel": 168,
-  "Rank": 869,
+  "FirstMessage": "quia",
+  "LastMessage": "qui",
+  "WhenRequested": "2011-01-07T02:30:46.8507209+01:00",
+  "WhenStarted": "2004-06-22T02:30:46.8507209+02:00",
+  "WhenEnded": "2016-03-29T02:30:46.8507209+02:00",
+  "WhenIdle": "2020-09-04T02:30:46.8507209+02:00",
+  "WhenFetched": "2005-12-01T02:30:46.8507209+01:00",
+  "SessionKey": "molestiae",
+  "InitialQueuePos": 689,
+  "AlertLevel": 528,
+  "Rank": 220,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": true,
-  "Rating": 236,
+  "ChatbotIsActive": false,
+  "Rating": 894,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 357
+      "FieldType": "System.String",
+      "FieldLength": 525
     }
   }
 }

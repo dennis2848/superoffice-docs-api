@@ -76,7 +76,7 @@ OK
 GET /api/v1/List/ConsentPurpose/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -87,56 +87,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 502,
-    "Name": "Boehm-Heller",
-    "ToolTip": "Nihil saepe et autem pariatur ut.",
-    "Deleted": true,
-    "Rank": 337,
-    "Type": "natus",
-    "ColorBlock": 394,
-    "IconHint": "at",
-    "Selected": true,
-    "LastChanged": "2007-06-20T03:47:00.5974251+02:00",
+    "Id": 752,
+    "Name": "Witting-Sipes",
+    "ToolTip": "Nihil earum et quasi in aut.",
+    "Deleted": false,
+    "Rank": 796,
+    "Type": "optio",
+    "ColorBlock": 915,
+    "IconHint": "repudiandae",
+    "Selected": false,
+    "LastChanged": "2002-09-27T02:30:53.2255171+02:00",
     "ChildItems": [
       {
-        "Id": 64,
-        "Name": "Daniel, Sanford and Hamill",
-        "ToolTip": "Debitis ab iure consequatur ducimus.",
-        "Deleted": true,
-        "Rank": 882,
-        "Type": "qui",
-        "ColorBlock": 621,
-        "IconHint": "ullam",
-        "Selected": true,
-        "LastChanged": "2015-11-13T03:47:00.5974251+01:00",
+        "Id": 400,
+        "Name": "Mueller-Pouros",
+        "ToolTip": "Qui non dolorem sed.",
+        "Deleted": false,
+        "Rank": 274,
+        "Type": "reiciendis",
+        "ColorBlock": 797,
+        "IconHint": "eligendi",
+        "Selected": false,
+        "LastChanged": "2022-12-25T02:30:53.2255171+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "quis",
+        "ExtraInfo": "quod",
+        "StyleHint": "nihil",
         "Hidden": false,
-        "FullName": "Sarai Zboncak",
+        "FullName": "Dr. Rosalia Kemmer PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 923
+            "FieldType": "System.Int32",
+            "FieldLength": 79
           }
         }
       }
     ],
-    "ExtraInfo": "ea",
-    "StyleHint": "et",
-    "Hidden": true,
-    "FullName": "Miss Mustafa Spinka Sr.",
+    "ExtraInfo": "a",
+    "StyleHint": "porro",
+    "Hidden": false,
+    "FullName": "Mrs. Viola Lucy O'Conner III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 190
+        "FieldType": "System.Int32",
+        "FieldLength": 646
       }
     }
   }

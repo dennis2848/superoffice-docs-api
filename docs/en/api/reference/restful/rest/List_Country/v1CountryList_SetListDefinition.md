@@ -85,19 +85,19 @@ OK
 PUT /api/v1/List/Country
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 767,
-  "Name": "Rowe, Turcotte and Bode",
-  "Tooltip": "quae",
-  "Deleted": false,
-  "Rank": 297,
-  "IsCustomList": false,
+  "Id": 215,
+  "Name": "Moore-Braun",
+  "Tooltip": "dolorum",
+  "Deleted": true,
+  "Rank": 612,
+  "IsCustomList": true,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "aut",
+  "UseGroupsAndHeadings": false,
+  "ListType": "et",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -109,22 +109,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 622,
-  "Name": "Quigley, Breitenberg and O'Connell",
-  "Tooltip": "eveniet",
-  "Deleted": true,
-  "Rank": 44,
-  "IsCustomList": true,
-  "IsMDOList": true,
+  "Id": 247,
+  "Name": "Wuckert LLC",
+  "Tooltip": "voluptatem",
+  "Deleted": false,
+  "Rank": 377,
+  "IsCustomList": false,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "consequatur",
+  "ListType": "impedit",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 844
+      "FieldType": "System.String",
+      "FieldLength": 888
     }
   }
 }

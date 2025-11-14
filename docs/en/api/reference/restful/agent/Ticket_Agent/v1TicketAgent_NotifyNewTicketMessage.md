@@ -14,6 +14,8 @@ POST /api/v1/Agents/Ticket/NotifyNewTicketMessage
 Notify user agents about the creation of a new message on a ticket
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -65,11 +67,11 @@ No Content
 POST /api/v1/Agents/Ticket/NotifyNewTicketMessage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketEntityId": 13
+  "TicketEntityId": 334
 }
 ```
 

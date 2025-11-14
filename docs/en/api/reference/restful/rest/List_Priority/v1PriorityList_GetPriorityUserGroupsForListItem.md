@@ -76,7 +76,7 @@ OK
 GET /api/v1/List/Priority/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -87,56 +87,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 324,
-    "Name": "Schuster-Cummings",
-    "ToolTip": "Nam ut dignissimos corporis explicabo.",
+    "Id": 462,
+    "Name": "Johnson-Greenholt",
+    "ToolTip": "Laboriosam qui dolorem voluptatem.",
     "Deleted": false,
-    "Rank": 701,
-    "Type": "sunt",
-    "ColorBlock": 868,
-    "IconHint": "maxime",
+    "Rank": 561,
+    "Type": "veritatis",
+    "ColorBlock": 446,
+    "IconHint": "quia",
     "Selected": false,
-    "LastChanged": "2005-10-20T03:47:00.7067961+02:00",
+    "LastChanged": "2016-06-09T02:30:53.3505129+02:00",
     "ChildItems": [
       {
-        "Id": 658,
-        "Name": "Russel-Schmeler",
-        "ToolTip": "Commodi qui sapiente.",
+        "Id": 987,
+        "Name": "Fisher LLC",
+        "ToolTip": "Nemo ut hic voluptatibus deserunt aut.",
         "Deleted": true,
-        "Rank": 694,
-        "Type": "et",
-        "ColorBlock": 942,
-        "IconHint": "praesentium",
+        "Rank": 944,
+        "Type": "adipisci",
+        "ColorBlock": 90,
+        "IconHint": "placeat",
         "Selected": false,
-        "LastChanged": "2025-06-11T03:47:00.7067961+02:00",
+        "LastChanged": "2003-09-29T02:30:53.3505129+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "animi",
-        "StyleHint": "quia",
+        "ExtraInfo": "eaque",
+        "StyleHint": "et",
         "Hidden": false,
-        "FullName": "Mr. Vicente Herminio Kuhic DDS",
+        "FullName": "Berry Block",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 381
+            "FieldLength": 695
           }
         }
       }
     ],
-    "ExtraInfo": "commodi",
-    "StyleHint": "impedit",
-    "Hidden": true,
-    "FullName": "Sid Beatty",
+    "ExtraInfo": "repellat",
+    "StyleHint": "nisi",
+    "Hidden": false,
+    "FullName": "Bert Klocko",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 293
+        "FieldLength": 425
       }
     }
   }

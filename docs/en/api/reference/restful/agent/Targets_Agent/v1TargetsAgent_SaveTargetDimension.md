@@ -14,6 +14,8 @@ POST /api/v1/Agents/Targets/SaveTargetDimension
 Updates the existing TargetDimension or creates a new TargetDimension if the id parameter is 0.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -80,21 +82,21 @@ OK
 POST /api/v1/Agents/Targets/SaveTargetDimension
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetDimensionId": 781,
+  "TargetDimensionId": 737,
   "AssignmentLevel": "Associate",
   "EntityType": "None",
   "MeasurementUnit": "Amount",
-  "DimensionListField": "adipisci",
-  "DimensionListName": "Effertz, Mante and Buckridge",
-  "DimensionListId": 645,
-  "DimensionListLabel": "porro",
+  "DimensionListField": "dolorum",
+  "DimensionListName": "Stroman, Jenkins and Keeling",
+  "DimensionListId": 160,
+  "DimensionListLabel": "autem",
   "SelectedDimensions": [
-    657,
-    75
+    522,
+    986
   ]
 }
 ```
@@ -106,24 +108,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetDimensionId": 221,
+  "TargetDimensionId": 572,
   "AssignmentLevel": "Associate",
   "EntityType": "None",
   "MeasurementUnit": "Amount",
-  "DimensionListField": "ipsam",
-  "DimensionListName": "Beier-Morissette",
-  "DimensionListId": 742,
-  "DimensionListLabel": "quibusdam",
+  "DimensionListField": "labore",
+  "DimensionListName": "Stamm-Abbott",
+  "DimensionListId": 908,
+  "DimensionListLabel": "ea",
   "SelectedDimensions": [
-    800,
-    417
+    631,
+    779
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 812
+      "FieldType": "System.Int32",
+      "FieldLength": 442
     }
   }
 }

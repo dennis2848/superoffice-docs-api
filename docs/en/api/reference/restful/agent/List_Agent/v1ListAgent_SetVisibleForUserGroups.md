@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/SetVisibleForUserGroups
 Update User groups that this list item is visible for
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -90,32 +92,32 @@ OK
 POST /api/v1/Agents/List/SetVisibleForUserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 239,
-  "ListItemId": 624,
+  "UdListDefinitionId": 884,
+  "ListItemId": 875,
   "UserGroups": [
     {
-      "Id": 828,
-      "Name": "Collier Group",
-      "ToolTip": "Consequatur quaerat ut.",
+      "Id": 246,
+      "Name": "Ankunding Group",
+      "ToolTip": "Ea architecto sed veritatis non eos.",
       "Deleted": false,
-      "Rank": 115,
-      "Type": "consequatur",
-      "ColorBlock": 758,
-      "IconHint": "distinctio",
+      "Rank": 819,
+      "Type": "est",
+      "ColorBlock": 109,
+      "IconHint": "maiores",
       "Selected": false,
-      "LastChanged": "2020-07-20T03:46:54.9413809+02:00",
+      "LastChanged": "2002-01-30T02:30:47.4132046+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "laborum",
-      "StyleHint": "natus",
+      "ExtraInfo": "aliquid",
+      "StyleHint": "quia",
       "Hidden": false,
-      "FullName": "Mrs. Erick Sadie Kutch"
+      "FullName": "Elaina Considine"
     }
   ]
 }
@@ -129,56 +131,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 391,
-    "Name": "Schneider LLC",
-    "ToolTip": "Veritatis ex.",
+    "Id": 248,
+    "Name": "Stark-Breitenberg",
+    "ToolTip": "Molestiae rerum quaerat facere quo.",
     "Deleted": false,
-    "Rank": 324,
-    "Type": "enim",
-    "ColorBlock": 722,
-    "IconHint": "maiores",
+    "Rank": 762,
+    "Type": "neque",
+    "ColorBlock": 473,
+    "IconHint": "iure",
     "Selected": true,
-    "LastChanged": "1999-08-07T03:46:54.9569999+02:00",
+    "LastChanged": "2016-02-21T02:30:47.4132046+01:00",
     "ChildItems": [
       {
-        "Id": 725,
-        "Name": "Tillman, Labadie and Tillman",
-        "ToolTip": "Qui molestiae nemo modi qui facere.",
+        "Id": 131,
+        "Name": "Emard Inc and Sons",
+        "ToolTip": "Nobis at.",
         "Deleted": false,
-        "Rank": 907,
-        "Type": "qui",
-        "ColorBlock": 145,
-        "IconHint": "commodi",
-        "Selected": false,
-        "LastChanged": "2008-05-05T03:46:54.9569999+02:00",
+        "Rank": 127,
+        "Type": "a",
+        "ColorBlock": 947,
+        "IconHint": "dolorem",
+        "Selected": true,
+        "LastChanged": "2021-11-01T02:30:47.4132046+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nemo",
-        "StyleHint": "enim",
+        "ExtraInfo": "qui",
+        "StyleHint": "neque",
         "Hidden": true,
-        "FullName": "Miss Austen Keegan Jacobs MD",
+        "FullName": "Theodore Denesik",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 67
+            "FieldType": "System.String",
+            "FieldLength": 333
           }
         }
       }
     ],
-    "ExtraInfo": "delectus",
-    "StyleHint": "quaerat",
-    "Hidden": false,
-    "FullName": "Dortha Runolfsdottir",
+    "ExtraInfo": "adipisci",
+    "StyleHint": "quia",
+    "Hidden": true,
+    "FullName": "Webster Alaina Rohan IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 112
+        "FieldLength": 294
       }
     }
   }

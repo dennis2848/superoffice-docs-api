@@ -86,7 +86,7 @@ OK
 GET /api/v1/List/Category/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -97,56 +97,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 12,
-    "Name": "Hilpert, Oberbrunner and Hoeger",
-    "ToolTip": "Et rerum placeat.",
-    "Deleted": true,
-    "Rank": 307,
-    "Type": "et",
-    "ColorBlock": 824,
-    "IconHint": "fuga",
-    "Selected": true,
-    "LastChanged": "2001-04-12T03:47:00.5818006+02:00",
+    "Id": 249,
+    "Name": "Huel-Nienow",
+    "ToolTip": "Exercitationem aspernatur consequatur molestiae praesentium.",
+    "Deleted": false,
+    "Rank": 516,
+    "Type": "asperiores",
+    "ColorBlock": 318,
+    "IconHint": "aut",
+    "Selected": false,
+    "LastChanged": "2005-09-14T02:30:53.2098926+02:00",
     "ChildItems": [
       {
-        "Id": 124,
-        "Name": "Cronin Group",
-        "ToolTip": "Rerum est nemo modi et.",
+        "Id": 358,
+        "Name": "Ledner, Dickens and Champlin",
+        "ToolTip": "Dolor magni incidunt illum.",
         "Deleted": false,
-        "Rank": 143,
-        "Type": "ad",
-        "ColorBlock": 261,
-        "IconHint": "quod",
+        "Rank": 85,
+        "Type": "placeat",
+        "ColorBlock": 117,
+        "IconHint": "nesciunt",
         "Selected": false,
-        "LastChanged": "2017-05-10T03:47:00.5818006+02:00",
+        "LastChanged": "2013-05-15T02:30:53.2098926+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "laborum",
-        "StyleHint": "voluptate",
-        "Hidden": true,
-        "FullName": "Chelsea Bailey Koch MD",
+        "ExtraInfo": "earum",
+        "StyleHint": "ipsum",
+        "Hidden": false,
+        "FullName": "Andres Turcotte",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 465
+            "FieldType": "System.Int32",
+            "FieldLength": 300
           }
         }
       }
     ],
-    "ExtraInfo": "ullam",
+    "ExtraInfo": "dolores",
     "StyleHint": "quibusdam",
     "Hidden": true,
-    "FullName": "Ms. Tony Bernhard",
+    "FullName": "Dr. Baron Hayley Bradtke",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 218
+        "FieldType": "System.String",
+        "FieldLength": 696
       }
     }
   }

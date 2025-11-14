@@ -14,6 +14,8 @@ POST /api/v1/Agents/Marketing/SaveShipmentMessageEntity
 Updates the existing ShipmentMessageEntity or creates a new ShipmentMessageEntity if the id parameter is 0.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -108,27 +110,27 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 12,
-  "PlainMessage": "aperiam",
-  "HtmlMessage": "omnis",
-  "SmsMessage": "quia",
-  "Description": "Enhanced content-based knowledge base",
-  "Subject": "quod",
-  "FolderId": 525,
-  "HeaderField": "molestiae",
-  "Design": "et",
+  "ShipmentMessageId": 865,
+  "PlainMessage": "quia",
+  "HtmlMessage": "eaque",
+  "SmsMessage": "quis",
+  "Description": "Integrated analyzing paradigm",
+  "Subject": "nemo",
+  "FolderId": 829,
+  "HeaderField": "ab",
+  "Design": "ea",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
   "InlineImages": true,
-  "LongDescription": "Robust radical hub",
-  "AccessKey": "fugit",
-  "DocumentMessage": 110,
-  "Registered": "1999-09-06T03:46:55.0038735+02:00",
-  "RegisteredAssociateId": 256,
-  "Updated": "2013-08-11T03:46:55.0038735+02:00",
-  "UpdatedAssociateId": 137,
-  "UpdatedCount": 258
+  "LongDescription": "Multi-lateral non-volatile moderator",
+  "AccessKey": "ex",
+  "DocumentMessage": 79,
+  "Registered": "2018-02-09T02:30:47.4600781+01:00",
+  "RegisteredAssociateId": 838,
+  "Updated": "2021-06-26T02:30:47.4600781+02:00",
+  "UpdatedAssociateId": 653,
+  "UpdatedCount": 155
 }
 ```
 
@@ -139,33 +141,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 721,
-  "PlainMessage": "aut",
-  "HtmlMessage": "dolore",
-  "SmsMessage": "facilis",
-  "Description": "Versatile hybrid architecture",
-  "Subject": "numquam",
-  "FolderId": 559,
-  "HeaderField": "occaecati",
-  "Design": "placeat",
+  "ShipmentMessageId": 668,
+  "PlainMessage": "voluptatem",
+  "HtmlMessage": "dolores",
+  "SmsMessage": "nemo",
+  "Description": "User-friendly interactive paradigm",
+  "Subject": "velit",
+  "FolderId": 476,
+  "HeaderField": "officia",
+  "Design": "laborum",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
-  "InlineImages": false,
-  "LongDescription": "Enhanced client-server initiative",
-  "AccessKey": "quia",
-  "DocumentMessage": 974,
-  "Registered": "2019-03-29T03:46:55.0038735+01:00",
-  "RegisteredAssociateId": 575,
-  "Updated": "2000-06-29T03:46:55.0038735+02:00",
-  "UpdatedAssociateId": 647,
-  "UpdatedCount": 550,
+  "InlineImages": true,
+  "LongDescription": "Total multimedia hierarchy",
+  "AccessKey": "et",
+  "DocumentMessage": 711,
+  "Registered": "2016-07-11T02:30:47.4600781+02:00",
+  "RegisteredAssociateId": 347,
+  "Updated": "2009-11-17T02:30:47.4600781+01:00",
+  "UpdatedAssociateId": 123,
+  "UpdatedCount": 113,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 512
+      "FieldType": "System.String",
+      "FieldLength": 143
     }
   }
 }

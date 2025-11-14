@@ -114,34 +114,34 @@ OK
 POST /api/v1/List/DocumentTemplate/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 76,
-  "Name": "Beer, Graham and Rodriguez",
-  "Tooltip": "iusto",
-  "SaveInDb": 879,
-  "Filename": "et",
-  "DefaultOref": "voluptatem",
+  "DocumentTemplateId": 470,
+  "Name": "Kunde-Bode",
+  "Tooltip": "aut",
+  "SaveInDb": 651,
+  "Filename": "omnis",
+  "DefaultOref": "id",
   "RecordType": "Appointment",
-  "Deleted": false,
+  "Deleted": true,
   "Direction": "Incoming",
-  "AutoeventId": 377,
-  "IntentId": 257,
-  "IsDefaultPublished": false,
-  "Rank": 862,
-  "LoadTemplateFromPlugin": 468,
-  "MimeType": "itaque",
+  "AutoeventId": 822,
+  "IntentId": 409,
+  "IsDefaultPublished": true,
+  "Rank": 329,
+  "LoadTemplateFromPlugin": 230,
+  "MimeType": "eos",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 795,
+  "DocumentTypeKey": 87,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "urban@steuber.co.uk",
-  "IncludeSignature": true,
+  "EmailSubject": "delores_nitzsche@hickledaniel.co.uk",
+  "IncludeSignature": false,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "carleton.towne@pricetillman.co.uk",
+  "SenderEmailAddress": "antwan_mertz@ebert.us",
   "InvitationDocType": "Cancelled"
 }
 ```
@@ -153,37 +153,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 23,
-  "Name": "Buckridge Inc and Sons",
-  "Tooltip": "dolor",
-  "SaveInDb": 472,
-  "Filename": "impedit",
-  "DefaultOref": "ipsa",
+  "DocumentTemplateId": 827,
+  "Name": "Erdman-Jerde",
+  "Tooltip": "labore",
+  "SaveInDb": 396,
+  "Filename": "ad",
+  "DefaultOref": "dolorum",
   "RecordType": "Appointment",
-  "Deleted": false,
+  "Deleted": true,
   "Direction": "Incoming",
-  "AutoeventId": 384,
-  "IntentId": 324,
+  "AutoeventId": 205,
+  "IntentId": 274,
   "IsDefaultPublished": false,
-  "Rank": 154,
-  "LoadTemplateFromPlugin": 521,
-  "MimeType": "reprehenderit",
+  "Rank": 291,
+  "LoadTemplateFromPlugin": 353,
+  "MimeType": "cum",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 337,
+  "DocumentTypeKey": 126,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "alf@grahamkuhic.us",
+  "EmailSubject": "royal@harber.ca",
   "IncludeSignature": false,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "cassandra@hermistontowne.name",
+  "SenderEmailAddress": "maximillia@wisokyzulauf.com",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 416
+      "FieldLength": 770
     }
   }
 }

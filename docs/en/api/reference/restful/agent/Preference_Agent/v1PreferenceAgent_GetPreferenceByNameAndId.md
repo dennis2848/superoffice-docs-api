@@ -14,6 +14,8 @@ POST /api/v1/Agents/Preference/GetPreferenceByNameAndId
 Get a preference by name and owner id.
 
 
+NsApiSlow threshold: 1000 ms.
+
 
 
 
@@ -91,10 +93,10 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefSection": "consequatur",
-  "PrefKey": "laborum",
+  "PrefSection": "blanditiis",
+  "PrefKey": "sint",
   "PrefLevel": "Database",
-  "OwnerId": 643
+  "OwnerId": 884
 }
 ```
 
@@ -106,22 +108,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "et",
+  "RawValue": "aut",
   "Specification": null,
-  "DisplayValue": "error",
-  "DisplayTooltip": "est",
+  "DisplayValue": "quidem",
+  "DisplayTooltip": "tempora",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 630,
-  "PrefDescId": 508,
-  "TableName": "Hudson, Jenkins and Buckridge",
-  "UserPreferenceId": 218,
+  "TargetId": 884,
+  "PrefDescId": 495,
+  "TableName": "Bins Group",
+  "UserPreferenceId": 717,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 87
+      "FieldType": "System.Int32",
+      "FieldLength": 434
     }
   }
 }

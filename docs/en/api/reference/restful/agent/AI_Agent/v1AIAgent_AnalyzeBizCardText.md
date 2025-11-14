@@ -15,6 +15,10 @@ Extract contact and person information from text.
 
 
 Merge results with matching database records if merge = true
+NsApiSlow threshold: 1000 ms.
+
+
+## Experimental: ## The AI agent is experimental, subject to change, and not intended for partners.
 
 
 
@@ -82,8 +86,8 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Text": "harum",
-  "MergeWithDatabase": false
+  "Text": "ut",
+  "MergeWithDatabase": true
 }
 ```
 
@@ -96,7 +100,7 @@ Content-Type: application/json; charset=utf-8
 {
   "Contact": null,
   "Person": null,
-  "LogoImage": "ipsum",
-  "PhotoImage": "autem"
+  "LogoImage": "esse",
+  "PhotoImage": "sequi"
 }
 ```

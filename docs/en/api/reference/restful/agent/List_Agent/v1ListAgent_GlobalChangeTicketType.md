@@ -15,6 +15,7 @@ Change all references from one ticket type to another.
 
 
 Typically used in conjuction with ticket type delete
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -72,8 +73,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "FromTicketTypeId": 712,
-  "ToTicketTypeId": 446
+  "FromTicketTypeId": 947,
+  "ToTicketTypeId": 497
 }
 ```
 

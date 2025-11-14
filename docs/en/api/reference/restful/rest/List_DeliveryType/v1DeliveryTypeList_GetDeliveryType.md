@@ -76,18 +76,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 120,
-  "Name": "Fadel, Gibson and Turcotte",
-  "Tooltip": "perferendis",
-  "Deleted": true,
-  "UdListDefinitionId": 735,
-  "Rank": 796,
+  "Id": 920,
+  "Name": "Bayer-Runte",
+  "Tooltip": "ea",
+  "Deleted": false,
+  "UdListDefinitionId": 148,
+  "Rank": 509,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 286
+      "FieldType": "System.String",
+      "FieldLength": 729
     }
   }
 }

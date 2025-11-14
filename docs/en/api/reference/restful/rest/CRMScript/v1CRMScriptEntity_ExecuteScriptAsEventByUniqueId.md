@@ -105,36 +105,36 @@ Content-Type: application/json; charset=utf-8
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "voluptatem",
-    "InputValues2": "aut"
+    "InputValues1": "explicabo",
+    "InputValues2": "id"
   },
-  "BlockExecution": true,
-  "NavigateTo": "quisquam",
-  "Message": "sapiente",
-  "ShowDialog": "quibusdam",
+  "BlockExecution": false,
+  "NavigateTo": "autem",
+  "Message": "ea",
+  "ShowDialog": "ut",
   "OutputValues": {
-    "OutputValues1": "et",
-    "OutputValues2": "consectetur"
+    "OutputValues1": "sit",
+    "OutputValues2": "ea"
   },
   "StateValues": {
-    "StateValues1": "dolores",
-    "StateValues2": "id"
+    "StateValues1": "atque",
+    "StateValues2": "aliquid"
   },
-  "Exception": "fugiat",
+  "Exception": "voluptatum",
   "ParserValues": {
-    "ParserValues1": "similique",
-    "ParserValues2": "quos"
+    "ParserValues1": "atque",
+    "ParserValues2": "aut"
   },
   "CgiVariables": {
-    "CgiVariables1": "animi",
-    "CgiVariables2": "occaecati"
+    "CgiVariables1": "ea",
+    "CgiVariables2": "qui"
   },
-  "CgiContent": "officiis",
+  "CgiContent": "porro",
   "Headers": {
-    "Headers1": "consequatur",
-    "Headers2": "fugiat"
+    "Headers1": "rem",
+    "Headers2": "recusandae"
   },
-  "TraceExecution": true
+  "TraceExecution": false
 }
 ```
 
@@ -147,34 +147,34 @@ Content-Type: application/json; charset=utf-8
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "veniam",
-    "InputValues2": "qui"
+    "InputValues1": "fuga",
+    "InputValues2": "voluptatem"
   },
-  "BlockExecution": false,
-  "NavigateTo": "ea",
-  "Message": "qui",
-  "ShowDialog": "asperiores",
+  "BlockExecution": true,
+  "NavigateTo": "consequatur",
+  "Message": "porro",
+  "ShowDialog": "iure",
   "OutputValues": {
-    "OutputValues1": "nulla",
-    "OutputValues2": "et"
+    "OutputValues1": "vitae",
+    "OutputValues2": "natus"
   },
   "StateValues": {
-    "StateValues1": "corrupti",
-    "StateValues2": "aliquam"
+    "StateValues1": "ut",
+    "StateValues2": "expedita"
   },
-  "Exception": "cumque",
+  "Exception": "delectus",
   "ParserValues": {
-    "ParserValues1": "suscipit",
-    "ParserValues2": "esse"
+    "ParserValues1": "unde",
+    "ParserValues2": "amet"
   },
   "CgiVariables": {
-    "CgiVariables1": "numquam",
-    "CgiVariables2": "libero"
+    "CgiVariables1": "dolor",
+    "CgiVariables2": "est"
   },
-  "CgiContent": "ut",
+  "CgiContent": "quo",
   "Headers": {
-    "Headers1": "exercitationem",
-    "Headers2": "praesentium"
+    "Headers1": "pariatur",
+    "Headers2": "enim"
   },
   "TraceExecution": false,
   "TableRight": null,
@@ -182,7 +182,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 513
+      "FieldLength": 174
     }
   }
 }

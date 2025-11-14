@@ -15,6 +15,7 @@ Saves and validates updated system templates.
 
 
 Throws exception if validation fails
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -96,7 +97,7 @@ OK
 POST /api/v1/Agents/CustomerService/SaveSystemTemplateSettings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -111,33 +112,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CustomerNewCustomerTemplateId": 620,
-  "CustomerCustomerReplyTemplateId": 427,
-  "CustomerPasswordTemplateId": 224,
-  "CustomerConfirmEmailTemplateId": 17,
-  "CustomerChatLogTemplateId": 16,
-  "NewLinkTemplateId": 45,
-  "HotlistNewMessageTemplateId": 621,
-  "HotlistTicketActivatedTemplateId": 358,
-  "UserTicketAlarmTemplateId": 791,
-  "HotlistTicketTakenOverTemplateId": 434,
-  "UserActiveTicketsTemplateId": 717,
-  "UserNewMessageTemplateId": 692,
-  "UserTicketActivatedTemplateId": 601,
-  "UserNewTicketTemplateId": 311,
-  "PublishKbQuestionTemplateId": 585,
-  "PublishKbAnswerTemplateId": 981,
-  "UserTicketTakenOverTemplateId": 781,
-  "PrintTicketTemplateId": 292,
-  "WeekStatTemplateId": 64,
-  "TicketAlarmHotlistTemplateId": 354,
-  "EmailAddresses": "derrick.bins@moore.com",
+  "CustomerNewCustomerTemplateId": 52,
+  "CustomerCustomerReplyTemplateId": 318,
+  "CustomerPasswordTemplateId": 215,
+  "CustomerConfirmEmailTemplateId": 694,
+  "CustomerChatLogTemplateId": 100,
+  "NewLinkTemplateId": 326,
+  "HotlistNewMessageTemplateId": 142,
+  "HotlistTicketActivatedTemplateId": 683,
+  "UserTicketAlarmTemplateId": 941,
+  "HotlistTicketTakenOverTemplateId": 208,
+  "UserActiveTicketsTemplateId": 820,
+  "UserNewMessageTemplateId": 595,
+  "UserTicketActivatedTemplateId": 232,
+  "UserNewTicketTemplateId": 185,
+  "PublishKbQuestionTemplateId": 928,
+  "PublishKbAnswerTemplateId": 634,
+  "UserTicketTakenOverTemplateId": 169,
+  "PrintTicketTemplateId": 364,
+  "WeekStatTemplateId": 631,
+  "TicketAlarmHotlistTemplateId": 891,
+  "EmailAddresses": "verona@daniel.com",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 371
+      "FieldType": "System.String",
+      "FieldLength": 497
     }
   }
 }

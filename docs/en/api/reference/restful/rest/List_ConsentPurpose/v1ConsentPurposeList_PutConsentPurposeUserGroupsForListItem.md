@@ -98,47 +98,47 @@ OK
 PUT /api/v1/List/ConsentPurpose/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 364,
-    "Name": "Hagenes, Dickens and Medhurst",
-    "ToolTip": "Sunt rerum ex aspernatur laboriosam sed aperiam.",
-    "Deleted": false,
-    "Rank": 675,
-    "Type": "qui",
-    "ColorBlock": 38,
-    "IconHint": "delectus",
-    "Selected": false,
-    "LastChanged": "2022-01-22T03:47:00.5974251+01:00",
+    "Id": 525,
+    "Name": "Cormier-Bayer",
+    "ToolTip": "Nostrum quia ut aut.",
+    "Deleted": true,
+    "Rank": 992,
+    "Type": "in",
+    "ColorBlock": 894,
+    "IconHint": "accusamus",
+    "Selected": true,
+    "LastChanged": "2013-11-13T02:30:53.2255171+01:00",
     "ChildItems": [
       {
-        "Id": 799,
-        "Name": "Schuppe Group",
-        "ToolTip": "Fugit commodi et qui non eum est.",
+        "Id": 981,
+        "Name": "Wintheiser, Moore and Botsford",
+        "ToolTip": "Non deserunt et.",
         "Deleted": false,
-        "Rank": 286,
-        "Type": "unde",
-        "ColorBlock": 18,
-        "IconHint": "ex",
+        "Rank": 480,
+        "Type": "nemo",
+        "ColorBlock": 675,
+        "IconHint": "ipsam",
         "Selected": false,
-        "LastChanged": "2002-11-15T03:47:00.5974251+01:00",
+        "LastChanged": "2018-01-31T02:30:53.2255171+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "consequatur",
-        "StyleHint": "tenetur",
-        "Hidden": false,
-        "FullName": "Elva Farrell"
+        "ExtraInfo": "exercitationem",
+        "StyleHint": "tempora",
+        "Hidden": true,
+        "FullName": "Dock Kertzmann"
       }
     ],
-    "ExtraInfo": "ea",
-    "StyleHint": "libero",
+    "ExtraInfo": "asperiores",
+    "StyleHint": "facilis",
     "Hidden": false,
-    "FullName": "Wava Beer"
+    "FullName": "Elinor Cummings Jr."
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 92,
-    "Name": "Wuckert, Berge and Bradtke",
-    "ToolTip": "Voluptatibus expedita nesciunt veniam aliquid quas esse provident.",
+    "Id": 612,
+    "Name": "Breitenberg, Pagac and Kirlin",
+    "ToolTip": "Temporibus nihil praesentium dolor consequatur fugiat ad consequuntur.",
     "Deleted": true,
-    "Rank": 29,
-    "Type": "necessitatibus",
-    "ColorBlock": 476,
-    "IconHint": "quia",
+    "Rank": 968,
+    "Type": "rerum",
+    "ColorBlock": 827,
+    "IconHint": "et",
     "Selected": false,
-    "LastChanged": "2002-07-23T03:47:00.5974251+02:00",
+    "LastChanged": "2024-02-03T02:30:53.2255171+01:00",
     "ChildItems": [
       {
-        "Id": 952,
-        "Name": "Leannon, Turcotte and Champlin",
-        "ToolTip": "Dolorum et.",
-        "Deleted": true,
-        "Rank": 946,
-        "Type": "et",
-        "ColorBlock": 202,
-        "IconHint": "libero",
-        "Selected": false,
-        "LastChanged": "2007-04-08T03:47:00.5974251+02:00",
+        "Id": 607,
+        "Name": "Gusikowski Inc and Sons",
+        "ToolTip": "Qui est incidunt error.",
+        "Deleted": false,
+        "Rank": 463,
+        "Type": "ea",
+        "ColorBlock": 78,
+        "IconHint": "eaque",
+        "Selected": true,
+        "LastChanged": "2018-10-29T02:30:53.2255171+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "cum",
-        "StyleHint": "non",
-        "Hidden": false,
-        "FullName": "Mason Erdman I",
+        "ExtraInfo": "nesciunt",
+        "StyleHint": "quasi",
+        "Hidden": true,
+        "FullName": "Mr. Ford Berneice Stoltenberg",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 180
+            "FieldType": "System.Int32",
+            "FieldLength": 831
           }
         }
       }
     ],
-    "ExtraInfo": "assumenda",
-    "StyleHint": "maiores",
-    "Hidden": true,
-    "FullName": "Angie Lebsack",
+    "ExtraInfo": "veniam",
+    "StyleHint": "est",
+    "Hidden": false,
+    "FullName": "Meaghan Lubowitz",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 22
+        "FieldLength": 112
       }
     }
   }

@@ -14,6 +14,8 @@ POST /api/v1/Agents/Marketing/GetPreviewMailing
 Get a shipment message from its shipment address id
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -89,11 +91,11 @@ OK
 POST /api/v1/Agents/Marketing/GetPreviewMailing
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentAddrId": 17
+  "ShipmentAddrId": 593
 }
 ```
 
@@ -104,28 +106,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SendingTime": "2023-01-25T03:46:55.0038735+01:00",
+  "SendingTime": "2004-04-14T02:30:47.4600781+02:00",
   "Status": "Blocked",
-  "ShipmentId": 679,
-  "ShipmentDescription": "Optimized explicit service-desk",
-  "FromAddress": "aut",
-  "Configuration": 640,
-  "ContactId": 477,
-  "ContactName": "Reynolds, Mann and Maggio",
-  "PersonId": 769,
-  "PersonFullName": "Malcolm Grady",
-  "ShipmentType": "sit",
-  "MessageId": 9,
-  "MessageSubject": "repudiandae",
-  "DocumentMessageId": 279,
-  "Opened": "2022-03-11T03:46:55.0038735+01:00",
-  "LinkClicks": 611,
+  "ShipmentId": 578,
+  "ShipmentDescription": "Function-based hybrid system engine",
+  "FromAddress": "vitae",
+  "Configuration": 538,
+  "ContactId": 732,
+  "ContactName": "Kemmer, Marks and Reinger",
+  "PersonId": 21,
+  "PersonFullName": "Mrs. Obie Kuhic",
+  "ShipmentType": "aut",
+  "MessageId": 7,
+  "MessageSubject": "totam",
+  "DocumentMessageId": 675,
+  "Opened": "2010-01-21T02:30:47.4600781+01:00",
+  "LinkClicks": 199,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 513
+      "FieldType": "System.Int32",
+      "FieldLength": 313
     }
   }
 }

@@ -14,6 +14,8 @@ POST /api/v1/Agents/Batch/GetBatchTaskInfosByNameAndState
 Gets an array of user BatchTaskInfo with state defined by a BatchTaskState and the batchtask definition name.
 
 
+NsApiSlow threshold: 3000 ms.
+
 
 
 
@@ -96,11 +98,11 @@ OK
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByNameAndState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Wunsch, Douglas and Mueller",
+  "Name": "Bosco LLC",
   "State": "All"
 }
 ```
@@ -113,37 +115,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 55,
-    "Name": "Koepp Group",
-    "AssociateId": 471,
-    "DetailsTable": 56,
-    "DetailsRecord": 166,
-    "IsSystemTask": true,
-    "IsInternalTask": false,
+    "Id": 106,
+    "Name": "Considine, Miller and Price",
+    "AssociateId": 684,
+    "DetailsTable": 367,
+    "DetailsRecord": 272,
+    "IsSystemTask": false,
+    "IsInternalTask": true,
     "ParameterObject": {
-      "ParameterObject1": "quas",
-      "ParameterObject2": "reiciendis"
+      "ParameterObject1": "non",
+      "ParameterObject2": "soluta"
     },
-    "LastStarted": "2005-08-24T03:46:54.3007673+02:00",
-    "Created": "1998-05-17T03:46:54.3007673+02:00",
-    "StartCount": 559,
-    "DatabaseSerialNumber": "1300249",
-    "Context": "ut",
-    "Result": "quas",
+    "LastStarted": "2018-05-15T02:30:46.8194719+02:00",
+    "Created": "2021-12-16T02:30:46.8194719+01:00",
+    "StartCount": 564,
+    "DatabaseSerialNumber": "835313",
+    "Context": "et",
+    "Result": "ea",
     "State": "All",
-    "Description": "Re-contextualized systemic initiative",
-    "Response": "ut",
-    "Request": "maiores",
-    "ProgressDescription": "Grass-roots multimedia knowledge user",
-    "ProgressPercent": 319,
-    "FileName": "Lesch-Heathcote",
+    "Description": "Expanded solution-oriented hardware",
+    "Response": "deserunt",
+    "Request": "perferendis",
+    "ProgressDescription": "Team-oriented 4th generation challenge",
+    "ProgressPercent": 732,
+    "FileName": "Gorczany-Mitchell",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 393
+        "FieldLength": 510
       }
     }
   }

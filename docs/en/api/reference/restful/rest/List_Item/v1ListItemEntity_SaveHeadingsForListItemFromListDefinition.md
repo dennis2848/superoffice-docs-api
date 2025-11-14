@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/{udListDefinitionId}/Items/{listItemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 646,
-    "Name": "Hermann, Ortiz and Parisian",
-    "ToolTip": "Est dolorem ea sit saepe id.",
+    "Id": 326,
+    "Name": "Goldner-DuBuque",
+    "ToolTip": "Id dolores et.",
     "Deleted": false,
-    "Rank": 809,
-    "Type": "qui",
-    "ColorBlock": 394,
-    "IconHint": "dolorem",
+    "Rank": 462,
+    "Type": "culpa",
+    "ColorBlock": 98,
+    "IconHint": "distinctio",
     "Selected": false,
-    "LastChanged": "2016-09-13T03:47:00.5661762+02:00",
+    "LastChanged": "2023-07-09T02:30:53.194268+02:00",
     "ChildItems": [
       {
-        "Id": 498,
-        "Name": "Hoeger, Rau and Herman",
-        "ToolTip": "Eos modi atque corrupti.",
+        "Id": 383,
+        "Name": "Tillman, Legros and Price",
+        "ToolTip": "Unde vel omnis veniam.",
         "Deleted": false,
-        "Rank": 288,
-        "Type": "quisquam",
-        "ColorBlock": 501,
-        "IconHint": "eveniet",
+        "Rank": 299,
+        "Type": "voluptatem",
+        "ColorBlock": 622,
+        "IconHint": "nostrum",
         "Selected": false,
-        "LastChanged": "2010-01-14T03:47:00.5661762+01:00",
+        "LastChanged": "1999-04-17T02:30:53.194268+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "consequuntur",
-        "StyleHint": "eaque",
+        "ExtraInfo": "eligendi",
+        "StyleHint": "quisquam",
         "Hidden": false,
-        "FullName": "Hugh Jacobson"
+        "FullName": "Brandyn Rowe"
       }
     ],
-    "ExtraInfo": "nihil",
-    "StyleHint": "ut",
-    "Hidden": false,
-    "FullName": "Prof. Edison Willms IV"
+    "ExtraInfo": "fugit",
+    "StyleHint": "aliquam",
+    "Hidden": true,
+    "FullName": "Dr. Mia Travon Pollich"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 940,
-    "Name": "Bradtke, Effertz and Konopelski",
-    "ToolTip": "Dolores in fugiat maiores quia quis voluptatem.",
-    "Deleted": true,
-    "Rank": 626,
-    "Type": "quaerat",
-    "ColorBlock": 955,
-    "IconHint": "laborum",
-    "Selected": true,
-    "LastChanged": "2013-09-18T03:47:00.5661762+02:00",
+    "Id": 362,
+    "Name": "Schowalter, Heathcote and Littel",
+    "ToolTip": "Quis atque assumenda dolorum incidunt sunt.",
+    "Deleted": false,
+    "Rank": 440,
+    "Type": "unde",
+    "ColorBlock": 586,
+    "IconHint": "dolorem",
+    "Selected": false,
+    "LastChanged": "2022-10-09T02:30:53.194268+02:00",
     "ChildItems": [
       {
-        "Id": 879,
-        "Name": "Leannon LLC",
-        "ToolTip": "Eaque maiores.",
+        "Id": 271,
+        "Name": "Cormier, Feil and Larkin",
+        "ToolTip": "Est rerum suscipit atque incidunt laborum.",
         "Deleted": false,
-        "Rank": 682,
-        "Type": "veritatis",
-        "ColorBlock": 274,
-        "IconHint": "itaque",
-        "Selected": false,
-        "LastChanged": "2011-11-23T03:47:00.5661762+01:00",
+        "Rank": 246,
+        "Type": "minima",
+        "ColorBlock": 880,
+        "IconHint": "quibusdam",
+        "Selected": true,
+        "LastChanged": "2001-08-06T02:30:53.194268+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolore",
-        "StyleHint": "et",
-        "Hidden": false,
-        "FullName": "Cesar Haley",
+        "ExtraInfo": "doloribus",
+        "StyleHint": "a",
+        "Hidden": true,
+        "FullName": "Jacynthe Hackett",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 554
+            "FieldType": "System.Int32",
+            "FieldLength": 663
           }
         }
       }
     ],
-    "ExtraInfo": "occaecati",
-    "StyleHint": "consequatur",
+    "ExtraInfo": "illo",
+    "StyleHint": "vel",
     "Hidden": false,
-    "FullName": "Ms. Nova Rolfson II",
+    "FullName": "Jed Gerhold",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 417
+        "FieldType": "System.Int32",
+        "FieldLength": 429
       }
     }
   }

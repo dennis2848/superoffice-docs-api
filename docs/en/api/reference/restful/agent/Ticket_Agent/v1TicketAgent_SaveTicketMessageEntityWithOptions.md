@@ -14,6 +14,8 @@ POST /api/v1/Agents/Ticket/SaveTicketMessageEntityWithOptions
 Saves a ticket message and performs additional actions
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -107,10 +109,10 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Entity": null,
-  "Notify": false,
+  "Notify": true,
   "AttachmentIds": [
-    768,
-    46
+    343,
+    483
   ],
   "UpdateRepliedAt": false
 }
@@ -123,79 +125,79 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 252,
+  "EjMessageId": 198,
   "Ticket": null,
-  "CreatedAt": "2003-06-03T03:46:55.550729+02:00",
+  "CreatedAt": "2023-08-08T02:30:48.0694331+02:00",
   "CreatedBy": null,
-  "Author": "aut",
+  "Author": "pariatur",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "quibusdam",
-  "TimeSpent": 384,
-  "Body": "non",
-  "HtmlBody": "et",
-  "EmailHeader": "christopher@macejkovic.name",
+  "MessageId": "voluptas",
+  "TimeSpent": 681,
+  "Body": "sit",
+  "HtmlBody": "ex",
+  "EmailHeader": "elise@schmittstehr.name",
   "DebugInfo": "aut",
-  "MailSorter": "iusto",
+  "MailSorter": "quaerat",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "enim",
+  "SearchTitle": "et",
   "MessageHeaders": [
     {
-      "Id": 865,
-      "Name": "Spinka LLC",
-      "Value": "nihil",
+      "Id": 834,
+      "Name": "Will-Barton",
+      "Value": "accusamus",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 492
+          "FieldType": "System.String",
+          "FieldLength": 559
         }
       }
     }
   ],
   "Important": false,
-  "Language": "aut",
-  "Sentiment": 983,
-  "SentimentConfidence": 471,
+  "Language": "consectetur",
+  "Sentiment": 666,
+  "SentimentConfidence": 183,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 855,
-      "Name": "Lakin, Prosacco and Jones",
-      "ContentType": "aspernatur",
-      "AttSize": 699,
-      "InlineImage": false,
-      "ContentId": "ut",
-      "AuthKey": "velit",
-      "IsSafeFileExtension": false,
+      "AttachmentId": 469,
+      "Name": "Homenick-Oberbrunner",
+      "ContentType": "officia",
+      "AttSize": 191,
+      "InlineImage": true,
+      "ContentId": "numquam",
+      "AuthKey": "numquam",
+      "IsSafeFileExtension": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 130
+          "FieldLength": 62
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "et",
-    "ExtraFields2": "perspiciatis"
+    "ExtraFields1": "ipsum",
+    "ExtraFields2": "dolor"
   },
   "CustomFields": {
-    "CustomFields1": "vitae",
-    "CustomFields2": "sed"
+    "CustomFields1": "doloremque",
+    "CustomFields2": "qui"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 765
+      "FieldType": "System.Int32",
+      "FieldLength": 95
     }
   }
 }

@@ -15,6 +15,7 @@ Set default values into a new ChatSessionEntity.
 
 
 NetServer calculates default values on the entity, which is required when creating/storing a new instance Calls the Chat agent service CreateDefaultChatSessionEntity.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -98,43 +99,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 555,
-  "TopicId": 59,
+  "ChatSessionId": 621,
+  "TopicId": 924,
   "User": null,
   "Person": null,
-  "CustomerAlias": "ducimus",
-  "CustomerHost": "aut",
-  "CustomerName": "Nitzsche, Watsica and Kuhic",
-  "CustomerEmail": "raheem.schuppe@thielrunolfsdottir.com",
-  "CustomerPhone": "1-864-091-1865",
+  "CustomerAlias": "quae",
+  "CustomerHost": "nam",
+  "CustomerName": "Gaylord-Kuphal",
+  "CustomerEmail": "makayla.feeney@carrollcorwin.biz",
+  "CustomerPhone": "(018)620-9116 x264",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Fritsch LLC",
+  "CustomerCompanyName": "Schneider Group",
   "Status": "Closed",
-  "FirstMessage": "quis",
-  "LastMessage": "laudantium",
-  "WhenRequested": "1998-09-29T03:46:59.7224496+02:00",
-  "WhenStarted": "2020-04-15T03:46:59.7224496+02:00",
-  "WhenEnded": "2021-12-23T03:46:59.7224496+01:00",
-  "WhenIdle": "2004-03-12T03:46:59.7224496+01:00",
-  "WhenFetched": "2008-06-19T03:46:59.7224496+02:00",
-  "SessionKey": "officiis",
-  "InitialQueuePos": 731,
-  "AlertLevel": 11,
-  "Rank": 166,
+  "FirstMessage": "quia",
+  "LastMessage": "molestiae",
+  "WhenRequested": "2007-06-11T02:30:52.350546+02:00",
+  "WhenStarted": "2003-07-24T02:30:52.350546+02:00",
+  "WhenEnded": "2023-03-30T02:30:52.350546+02:00",
+  "WhenIdle": "2025-08-29T02:30:52.350546+02:00",
+  "WhenFetched": "2010-02-09T02:30:52.350546+01:00",
+  "SessionKey": "voluptatum",
+  "InitialQueuePos": 993,
+  "AlertLevel": 705,
+  "Rank": 189,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": true,
-  "Rating": 162,
+  "ChatbotIsActive": false,
+  "Rating": 755,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 505
+      "FieldLength": 880
     }
   }
 }

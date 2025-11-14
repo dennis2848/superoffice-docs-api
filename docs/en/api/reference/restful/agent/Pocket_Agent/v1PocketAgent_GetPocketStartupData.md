@@ -11,7 +11,7 @@ content_type: reference
 POST /api/v1/Agents/Pocket/GetPocketStartupData
 ```
 
-
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -88,10 +88,10 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Tables": [
-    "quis",
-    "cupiditate"
+    "quia",
+    "ea"
   ],
-  "CurrentClientTime": "2020-09-18T03:46:55.1288689+02:00"
+  "CurrentClientTime": "2013-10-22T02:30:47.5850743+02:00"
 }
 ```
 
@@ -103,43 +103,43 @@ Content-Type: application/json; charset=utf-8
 
 {
   "TableRights": [
-    "eum",
-    "et"
+    "non",
+    "distinctio"
   ],
   "PhoneLocaleTimeZoneData": null,
   "BaseLocaleTimeZoneData": null,
-  "OverdueSalesCount": 820,
-  "NotificationsCount": 620,
+  "OverdueSalesCount": 903,
+  "NotificationsCount": 149,
   "SystemWebPanels": [
     {
-      "WebPanelId": 720,
-      "Name": "Gottlieb-Farrell",
-      "Tooltip": "illum",
+      "WebPanelId": 93,
+      "Name": "Tillman-Ward",
+      "Tooltip": "dignissimos",
       "Deleted": false,
-      "Rank": 300,
+      "Rank": 427,
       "UrlEncoding": "ANSI",
       "VisibleIn": "ActivityDialog",
-      "OnCentral": false,
+      "OnCentral": true,
       "OnSatellite": true,
-      "OnTravel": false,
+      "OnTravel": true,
       "OnSalesMarketingWeb": false,
       "OnSalesMarketingPocket": false,
-      "ShowInMenuBar": true,
+      "ShowInMenuBar": false,
       "ShowInToolBar": false,
       "ShowInAddressBar": false,
       "ShowInStatusBar": true,
-      "WindowName": "Denesik, Barrows and Hessel",
+      "WindowName": "Bayer, Walter and Conn",
       "Url": "http://www.example.com/",
-      "ProgId": "eius",
-      "Icon": 752,
+      "ProgId": "suscipit",
+      "Icon": 515,
       "AlwaysReloadOnShow": true,
-      "NeverReloadOnCurrentChange": true,
+      "NeverReloadOnCurrentChange": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 109
+          "FieldLength": 159
         }
       }
     }
@@ -147,34 +147,34 @@ Content-Type: application/json; charset=utf-8
   "PocketPreferences": [
     {
       "Level": "Database",
-      "RawValue": "totam",
+      "RawValue": "voluptatibus",
       "Specification": null,
-      "DisplayValue": "hic",
-      "DisplayTooltip": "explicabo",
+      "DisplayValue": "nam",
+      "DisplayTooltip": "aut",
       "DisplayType": "Bool",
       "TabOrder": null,
-      "TargetId": 754,
-      "PrefDescId": 751,
-      "TableName": "Harvey-Luettgen",
-      "UserPreferenceId": 993,
+      "TargetId": 931,
+      "PrefDescId": 950,
+      "TableName": "Feest Inc and Sons",
+      "UserPreferenceId": 27,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 199
+          "FieldType": "System.String",
+          "FieldLength": 500
         }
       }
     }
   ],
   "IsPushNotificationEnabled": false,
-  "CustomData": "quis",
+  "CustomData": "cupiditate",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 572
+      "FieldType": "System.Int32",
+      "FieldLength": 702
     }
   }
 }

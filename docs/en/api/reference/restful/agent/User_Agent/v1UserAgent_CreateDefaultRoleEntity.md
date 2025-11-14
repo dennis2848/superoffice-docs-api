@@ -14,6 +14,9 @@ POST /api/v1/Agents/User/CreateDefaultRoleEntity
 Loading default values into a new RoleEntity.
 
 
+NsApiSlow threshold: 2000 ms.
+
+
 ## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
 
 
@@ -79,16 +82,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 488,
-  "Name": "Wisozk LLC",
+  "RoleId": 842,
+  "Name": "Renner, Mills and McLaughlin",
   "Tooltip": "ut",
   "RoleType": "Anonymous",
-  "Deleted": 2,
-  "Rank": 73,
-  "Created": "2009-03-11T03:46:55.5663534+01:00",
-  "UseCategories": 618,
+  "Deleted": 528,
+  "Rank": 180,
+  "Created": "2003-06-01T02:30:48.0850579+02:00",
+  "UseCategories": 880,
   "CreatedBy": null,
-  "Updated": "2016-09-08T03:46:55.5663534+02:00",
+  "Updated": "2021-09-18T02:30:48.0850579+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -96,7 +99,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 614
+      "FieldLength": 562
     }
   }
 }

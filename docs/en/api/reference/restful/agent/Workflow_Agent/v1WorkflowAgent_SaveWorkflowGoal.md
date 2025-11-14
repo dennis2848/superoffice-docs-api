@@ -14,6 +14,8 @@ POST /api/v1/Agents/Workflow/SaveWorkflowGoal
 Updates the existing WorkflowGoal or creates a new WorkflowGoal if the id parameter is 0.
 
 
+NsApiSlow threshold: 1500 ms.
+
 
 
 
@@ -74,23 +76,23 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowGoalId": 125,
-  "WorkflowId": 486,
+  "WorkflowGoalId": 80,
+  "WorkflowId": 628,
   "GoalType": "AddedToProject",
   "RestrictionGroups": [
     {
-      "Name": "Ferry, Powlowski and Schamberger",
-      "Description": "Quality-focused local parallelism",
-      "Rank": 64,
+      "Name": "Ebert LLC",
+      "Description": "Customer-focused attitude-oriented initiative",
+      "Rank": 216,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Ferry, Powlowski and Schamberger",
-      "Description": "Quality-focused local parallelism",
-      "Rank": 64,
+      "Name": "Ebert LLC",
+      "Description": "Customer-focused attitude-oriented initiative",
+      "Rank": 216,
       "Restrictions": [
         {},
         {}
@@ -107,23 +109,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowGoalId": 592,
-  "WorkflowId": 453,
+  "WorkflowGoalId": 876,
+  "WorkflowId": 272,
   "GoalType": "AddedToProject",
   "RestrictionGroups": [
     {
-      "Name": "Dicki Inc and Sons",
-      "Description": "Cloned zero defect service-desk",
-      "Rank": 143,
+      "Name": "Kris-Schultz",
+      "Description": "Public-key secondary intranet",
+      "Rank": 718,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Dicki Inc and Sons",
-      "Description": "Cloned zero defect service-desk",
-      "Rank": 143,
+      "Name": "Kris-Schultz",
+      "Description": "Public-key secondary intranet",
+      "Rank": 718,
       "Restrictions": [
         {},
         {}
@@ -135,7 +137,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 51
+      "FieldLength": 448
     }
   }
 }

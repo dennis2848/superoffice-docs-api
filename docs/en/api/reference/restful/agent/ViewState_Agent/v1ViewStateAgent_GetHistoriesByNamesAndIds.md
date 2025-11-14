@@ -15,6 +15,7 @@ Returns history data for the named entities and the given ids - which may not di
 
 
 &lt;para/&gt;Use this method if you know exactly which items you need, regardless of whether they are in the current history or not.&lt;para/&gt;The history in the database is not changed or even looked at by this method.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -82,19 +83,19 @@ OK
 POST /api/v1/Agents/ViewState/GetHistoriesByNamesAndIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Requests": [
     {
-      "EntityName": "Kautzer, Mayert and Medhurst",
-      "EntityOrParentId": 683,
+      "EntityName": "Deckow, Roob and Kerluke",
+      "EntityOrParentId": 17,
       "RequestForNewRecord": false
     },
     {
-      "EntityName": "Kautzer, Mayert and Medhurst",
-      "EntityOrParentId": 683,
+      "EntityName": "Deckow, Roob and Kerluke",
+      "EntityOrParentId": 17,
       "RequestForNewRecord": false
     }
   ]
@@ -109,19 +110,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Rank": 197,
-    "Id": 856,
-    "HistoryName": "Reichert, Considine and Cremin",
-    "HistoryId": 681,
-    "AssociateId": 259,
-    "Name": "Davis-Jaskolski",
-    "ItemInfo": "eum",
+    "Rank": 188,
+    "Id": 459,
+    "HistoryName": "Dickinson, Ferry and Kuhic",
+    "HistoryId": 600,
+    "AssociateId": 753,
+    "Name": "Goodwin Group",
+    "ItemInfo": "velit",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 287
+        "FieldLength": 205
       }
     }
   }

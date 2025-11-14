@@ -15,6 +15,7 @@ Saves a complete preference object, on any level and any target.
 
 
 Preference administrator rights are required to use this
+NsApiSlow threshold: 1000 ms.
 
 
 
@@ -87,7 +88,7 @@ OK
 POST /api/v1/Agents/Preference/SavePreferenceEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -104,22 +105,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "animi",
+  "RawValue": "necessitatibus",
   "Specification": null,
-  "DisplayValue": "et",
-  "DisplayTooltip": "et",
+  "DisplayValue": "saepe",
+  "DisplayTooltip": "saepe",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 799,
-  "PrefDescId": 463,
-  "TableName": "Goldner, Auer and Sipes",
-  "UserPreferenceId": 820,
+  "TargetId": 147,
+  "PrefDescId": 126,
+  "TableName": "Larson, Ortiz and Rosenbaum",
+  "UserPreferenceId": 972,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 862
+      "FieldType": "System.String",
+      "FieldLength": 770
     }
   }
 }

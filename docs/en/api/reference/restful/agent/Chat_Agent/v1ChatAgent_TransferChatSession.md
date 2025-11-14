@@ -15,6 +15,7 @@ Request to send the session to another user.
 
 
 If the session does not belong to the user, nothing happens.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -111,8 +112,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 435,
-  "ToAssociate": "unde"
+  "ChatSessionId": 818,
+  "ToAssociate": "pariatur"
 }
 ```
 
@@ -123,43 +124,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 576,
-  "TopicId": 345,
+  "ChatSessionId": 557,
+  "TopicId": 502,
   "User": null,
   "Person": null,
-  "CustomerAlias": "voluptate",
-  "CustomerHost": "qui",
-  "CustomerName": "Krajcik-Rath",
-  "CustomerEmail": "kenna.christiansen@berge.info",
-  "CustomerPhone": "(885)684-0238 x3010",
-  "CustomerConsented": false,
-  "CustomerCompanyName": "Reynolds-Heaney",
+  "CustomerAlias": "explicabo",
+  "CustomerHost": "voluptatem",
+  "CustomerName": "Gibson, Thiel and Dare",
+  "CustomerEmail": "sigurd@skiles.uk",
+  "CustomerPhone": "316-415-5277 x3245",
+  "CustomerConsented": true,
+  "CustomerCompanyName": "Mills, Johns and Schmidt",
   "Status": "Closed",
-  "FirstMessage": "in",
-  "LastMessage": "eveniet",
-  "WhenRequested": "2013-01-19T03:46:54.3476466+01:00",
-  "WhenStarted": "2004-02-07T03:46:54.3476466+01:00",
-  "WhenEnded": "2013-04-06T03:46:54.3476466+02:00",
-  "WhenIdle": "2000-09-11T03:46:54.3476466+02:00",
-  "WhenFetched": "2022-12-25T03:46:54.3476466+01:00",
-  "SessionKey": "et",
-  "InitialQueuePos": 257,
-  "AlertLevel": 91,
-  "Rank": 496,
+  "FirstMessage": "vel",
+  "LastMessage": "officiis",
+  "WhenRequested": "1998-11-03T02:30:46.8663446+01:00",
+  "WhenStarted": "2017-12-02T02:30:46.8663446+01:00",
+  "WhenEnded": "2015-11-21T02:30:46.8663446+01:00",
+  "WhenIdle": "2024-09-02T02:30:46.8663446+02:00",
+  "WhenFetched": "2003-10-09T02:30:46.8663446+02:00",
+  "SessionKey": "asperiores",
+  "InitialQueuePos": 849,
+  "AlertLevel": 959,
+  "Rank": 662,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": false,
-  "Rating": 726,
+  "ChatbotIsActive": true,
+  "Rating": 837,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 677
+      "FieldLength": 357
     }
   }
 }

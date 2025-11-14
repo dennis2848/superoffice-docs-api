@@ -94,23 +94,23 @@ OK
 PUT /api/v1/Person/{personId}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 319,
-  "BlobSize": 255,
-  "Description": "Optimized content-based website",
-  "ExtraInfo": "sed",
-  "IsEncrypted": false,
-  "IsZipped": true,
-  "MimeType": "commodi",
-  "OriginalSize": 153,
-  "CreatedDate": "2004-06-07T03:47:00.1599324+02:00",
-  "UpdatedDate": "2023-06-28T03:47:00.1599324+02:00",
+  "BlobId": 156,
+  "BlobSize": 762,
+  "Description": "Down-sized next generation knowledge user",
+  "ExtraInfo": "neque",
+  "IsEncrypted": true,
+  "IsZipped": false,
+  "MimeType": "asperiores",
+  "OriginalSize": 420,
+  "CreatedDate": "2015-08-05T02:30:52.7880482+02:00",
+  "UpdatedDate": "2006-03-10T02:30:52.7880482+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "nesciunt"
+  "ConceptualType": "dolorem"
 }
 ```
 
@@ -121,25 +121,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 686,
-  "BlobSize": 276,
-  "Description": "Synergized non-volatile system engine",
-  "ExtraInfo": "atque",
+  "BlobId": 234,
+  "BlobSize": 387,
+  "Description": "Self-enabling 24/7 benchmark",
+  "ExtraInfo": "fuga",
   "IsEncrypted": false,
   "IsZipped": true,
-  "MimeType": "maxime",
-  "OriginalSize": 181,
-  "CreatedDate": "2013-12-27T03:47:00.1599324+01:00",
-  "UpdatedDate": "2020-03-15T03:47:00.1599324+01:00",
+  "MimeType": "vitae",
+  "OriginalSize": 439,
+  "CreatedDate": "2018-10-12T02:30:52.7880482+02:00",
+  "UpdatedDate": "2000-04-16T02:30:52.7880482+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "minus",
+  "ConceptualType": "voluptatem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 458
+      "FieldLength": 579
     }
   }
 }

@@ -14,6 +14,8 @@ POST /api/v1/Agents/Project/Merge
 Merge two projects into one, removing the source project in the process
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -67,12 +69,12 @@ No Content
 POST /api/v1/Agents/Project/Merge
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceProjectId": 932,
-  "DestinationProjectId": 375,
+  "SourceProjectId": 594,
+  "DestinationProjectId": 596,
   "ReplaceEmptyFieldsOnDestination": true
 }
 ```

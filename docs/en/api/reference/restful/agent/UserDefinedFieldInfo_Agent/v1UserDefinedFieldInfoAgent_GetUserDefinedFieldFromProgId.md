@@ -15,6 +15,7 @@ Return information about the given user defined field identified by the owner an
 
 
 The prog-id is used as the key in the entity carriers. Note this may be different than the currently published fields.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -114,7 +115,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProgId": "quis",
+  "ProgId": "aut",
   "OwnerType": "Appointment"
 }
 ```
@@ -126,46 +127,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 132,
-  "ColumnId": 58,
-  "FieldDefault": "quo",
-  "FieldHeight": 900,
-  "FieldLabel": "reprehenderit",
-  "FieldLeft": 860,
-  "FieldTop": 150,
+  "UDefFieldId": 616,
+  "ColumnId": 937,
+  "FieldDefault": "tenetur",
+  "FieldHeight": 486,
+  "FieldLabel": "dicta",
+  "FieldLeft": 505,
+  "FieldTop": 212,
   "FieldType": "Checkbox",
-  "FieldWidth": 547,
-  "FormatMask": "voluptates",
-  "HideLabel": true,
+  "FieldWidth": 685,
+  "FormatMask": "sed",
+  "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 17,
-  "LabelLeft": 506,
-  "LabelTop": 235,
-  "LabelWidth": 194,
-  "LastVersionId": 473,
-  "ListTableId": 611,
+  "LabelHeight": 687,
+  "LabelLeft": 270,
+  "LabelTop": 602,
+  "LabelWidth": 40,
+  "LastVersionId": 371,
+  "ListTableId": 575,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 102,
-  "ProgId": "ducimus",
-  "IsReadOnly": false,
-  "ShortLabel": "quo",
-  "TabOrder": 765,
-  "TextLength": 456,
-  "Tooltip": "qui",
-  "UdefIdentity": 380,
-  "UDListDefinitionId": 549,
+  "Page1LineNo": 235,
+  "ProgId": "minus",
+  "IsReadOnly": true,
+  "ShortLabel": "facilis",
+  "TabOrder": 205,
+  "TextLength": 837,
+  "Tooltip": "perferendis",
+  "UdefIdentity": 752,
+  "UDListDefinitionId": 24,
   "Justification": "Center",
-  "Version": 438,
-  "TemplateVariableName": "Conroy Inc and Sons",
-  "HasBeenPublished": false,
-  "MdoListName": "Rempel-Torphy",
+  "Version": 171,
+  "TemplateVariableName": "Gerhold-Swift",
+  "HasBeenPublished": true,
+  "MdoListName": "Shanahan Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 458
+      "FieldType": "System.String",
+      "FieldLength": 931
     }
   }
 }

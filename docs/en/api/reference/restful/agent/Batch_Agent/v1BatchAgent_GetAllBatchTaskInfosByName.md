@@ -14,6 +14,8 @@ POST /api/v1/Agents/Batch/GetAllBatchTaskInfosByName
 Get an array of system and user BatchTaskInfo for the provided task name.
 
 
+NsApiSlow threshold: 3000 ms.
+
 
 
 
@@ -95,11 +97,11 @@ OK
 POST /api/v1/Agents/Batch/GetAllBatchTaskInfosByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskName": "Weimann LLC"
+  "TaskName": "Hessel, Pacocha and Reichert"
 }
 ```
 
@@ -111,37 +113,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 479,
-    "Name": "Bednar-Monahan",
-    "AssociateId": 58,
-    "DetailsTable": 269,
-    "DetailsRecord": 962,
-    "IsSystemTask": true,
+    "Id": 965,
+    "Name": "McClure LLC",
+    "AssociateId": 393,
+    "DetailsTable": 490,
+    "DetailsRecord": 78,
+    "IsSystemTask": false,
     "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "fugit",
-      "ParameterObject2": "et"
+      "ParameterObject1": "quasi",
+      "ParameterObject2": "aperiam"
     },
-    "LastStarted": "2023-07-12T03:46:54.3007673+02:00",
-    "Created": "2013-12-13T03:46:54.3007673+01:00",
-    "StartCount": 833,
-    "DatabaseSerialNumber": "707387",
-    "Context": "molestiae",
-    "Result": "esse",
+    "LastStarted": "2020-12-03T02:30:46.8194719+01:00",
+    "Created": "2014-12-27T02:30:46.8194719+01:00",
+    "StartCount": 719,
+    "DatabaseSerialNumber": "1045147",
+    "Context": "similique",
+    "Result": "voluptates",
     "State": "All",
-    "Description": "Public-key didactic orchestration",
-    "Response": "qui",
-    "Request": "debitis",
-    "ProgressDescription": "Multi-lateral heuristic complexity",
-    "ProgressPercent": 21,
-    "FileName": "Dickens-Flatley",
+    "Description": "Right-sized didactic framework",
+    "Response": "voluptatem",
+    "Request": "necessitatibus",
+    "ProgressDescription": "Advanced content-based access",
+    "ProgressPercent": 431,
+    "FileName": "Casper-Feeney",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 573
+        "FieldLength": 423
       }
     }
   }

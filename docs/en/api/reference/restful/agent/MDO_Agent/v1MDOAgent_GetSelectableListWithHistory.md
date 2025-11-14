@@ -14,6 +14,8 @@ POST /api/v1/Agents/MDO/GetSelectableListWithHistory
 Method to get a Selectable MDO list with own history list.
 
 
+NsApiSlow threshold: 1700 ms.
+
 
 
 
@@ -96,12 +98,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "O'Kon LLC",
-  "ForceFlatList": true,
-  "AdditionalInfo": "eos",
+  "Name": "D'Amore Inc and Sons",
+  "ForceFlatList": false,
+  "AdditionalInfo": "ducimus",
   "HistoryItems": [
-    47,
-    914
+    722,
+    478
   ],
   "OnlyHistory": true
 }
@@ -115,56 +117,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 528,
-    "Name": "Mosciski-Donnelly",
-    "ToolTip": "Rerum mollitia.",
-    "Deleted": false,
-    "Rank": 46,
-    "Type": "consequatur",
-    "ColorBlock": 976,
-    "IconHint": "consequatur",
-    "Selected": false,
-    "LastChanged": "2021-09-16T03:46:55.0194982+02:00",
+    "Id": 105,
+    "Name": "Hammes-Denesik",
+    "ToolTip": "Distinctio nihil in unde sunt sed.",
+    "Deleted": true,
+    "Rank": 651,
+    "Type": "dicta",
+    "ColorBlock": 42,
+    "IconHint": "totam",
+    "Selected": true,
+    "LastChanged": "2015-07-19T02:30:47.4757021+02:00",
     "ChildItems": [
       {
-        "Id": 260,
-        "Name": "Lowe-Pacocha",
-        "ToolTip": "Nihil ut accusantium.",
-        "Deleted": false,
-        "Rank": 920,
-        "Type": "vitae",
-        "ColorBlock": 976,
-        "IconHint": "perferendis",
+        "Id": 775,
+        "Name": "Crona-Rice",
+        "ToolTip": "Sunt expedita voluptatibus minima enim laudantium voluptatem.",
+        "Deleted": true,
+        "Rank": 630,
+        "Type": "tempora",
+        "ColorBlock": 914,
+        "IconHint": "quibusdam",
         "Selected": false,
-        "LastChanged": "2018-11-16T03:46:55.0194982+01:00",
+        "LastChanged": "2011-10-14T02:30:47.4757021+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "vel",
-        "StyleHint": "officia",
-        "Hidden": true,
-        "FullName": "Minnie Hessel",
+        "ExtraInfo": "minima",
+        "StyleHint": "ea",
+        "Hidden": false,
+        "FullName": "Mr. Mayra Borer IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 632
+            "FieldLength": 362
           }
         }
       }
     ],
-    "ExtraInfo": "nisi",
-    "StyleHint": "officiis",
+    "ExtraInfo": "sint",
+    "StyleHint": "dolorum",
     "Hidden": false,
-    "FullName": "Edmund Sanford",
+    "FullName": "Jeffrey Dicki",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 709
+        "FieldType": "System.String",
+        "FieldLength": 983
       }
     }
   }

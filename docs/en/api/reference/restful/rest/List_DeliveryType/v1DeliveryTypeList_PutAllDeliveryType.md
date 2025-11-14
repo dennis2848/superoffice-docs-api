@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/DeliveryType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 166,
-    "Name": "Heaney-Hilll",
-    "Tooltip": "ut",
-    "Deleted": false,
-    "UdListDefinitionId": 875,
-    "Rank": 200
+    "Id": 961,
+    "Name": "Schneider Group",
+    "Tooltip": "quia",
+    "Deleted": true,
+    "UdListDefinitionId": 662,
+    "Rank": 489
   },
   {
-    "Id": 166,
-    "Name": "Heaney-Hilll",
-    "Tooltip": "ut",
-    "Deleted": false,
-    "UdListDefinitionId": 875,
-    "Rank": 200
+    "Id": 961,
+    "Name": "Schneider Group",
+    "Tooltip": "quia",
+    "Deleted": true,
+    "UdListDefinitionId": 662,
+    "Rank": 489
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 766,
-    "Name": "Muller-Cummings",
-    "Tooltip": "repellendus",
-    "Deleted": false,
-    "UdListDefinitionId": 785,
-    "Rank": 413,
+    "Id": 518,
+    "Name": "Durgan LLC",
+    "Tooltip": "nam",
+    "Deleted": true,
+    "UdListDefinitionId": 841,
+    "Rank": 557,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 220
+        "FieldLength": 434
       }
     }
   }

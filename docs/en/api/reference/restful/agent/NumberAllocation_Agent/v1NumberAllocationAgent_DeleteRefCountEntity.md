@@ -14,6 +14,8 @@ POST /api/v1/Agents/NumberAllocation/DeleteRefCountEntity
 Deletes the RefCountEntity
 
 
+NsApiSlow threshold: 1000 ms.
+
 
 
 
@@ -26,7 +28,7 @@ Deletes the RefCountEntity
 | refCountEntityId | int32 | **Required** The identity of the RefCountEntity |
 
 ```http
-POST /api/v1/Agents/NumberAllocation/DeleteRefCountEntity?refCountEntityId=727
+POST /api/v1/Agents/NumberAllocation/DeleteRefCountEntity?refCountEntityId=54
 ```
 
 

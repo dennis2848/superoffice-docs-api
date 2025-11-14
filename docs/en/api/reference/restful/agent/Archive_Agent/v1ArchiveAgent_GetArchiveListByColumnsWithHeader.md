@@ -14,7 +14,8 @@ POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithHeader
 Get a page of results for an archive list, explicitly specifying the restrictions, orderby and chosen columns; as well as a name/value string formatted set of options.
 
 
-The return value includes a header that has various extra information, in addition to the actual rows. 
+The return value includes a header that has various extra information, in addition to the actual rows.
+NsApiSlow threshold: 5000 ms. 
 Archive Restriction Info objects represent search terms.
 
 
@@ -103,36 +104,36 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithHeader
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Rosenbaum-Hammes",
+  "ProviderName": "Gerhold, Block and Moore",
   "Columns": [
-    "eos",
-    "ipsum"
+    "et",
+    "ea"
   ],
   "SortOrder": [
     {
-      "Name": "Eichmann-Fritsch",
+      "Name": "Steuber, Rempel and Doyle",
       "Direction": "ASC"
     },
     {
-      "Name": "Eichmann-Fritsch",
+      "Name": "Steuber, Rempel and Doyle",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Von-Dare",
-      "Operator": "voluptatem",
+      "Name": "Rogahn Inc and Sons",
+      "Operator": "perferendis",
       "Values": [
-        "vitae",
-        "vel"
+        "reprehenderit",
+        "nulla"
       ],
       "DisplayValues": [
-        "natus",
-        "autem"
+        "ducimus",
+        "nobis"
       ],
       "ColumnInfo": null,
       "IsActive": true,
@@ -140,18 +141,18 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 10,
+      "InterParenthesis": 46,
       "InterOperator": "And",
-      "UniqueHash": 104
+      "UniqueHash": 183
     }
   ],
   "Entities": [
-    "quis",
-    "voluptatem"
+    "aut",
+    "est"
   ],
-  "Page": 310,
-  "PageSize": 364,
-  "Options": "id"
+  "Page": 521,
+  "PageSize": 219,
+  "Options": "aliquid"
 }
 ```
 
@@ -162,26 +163,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RowCount": 713,
+  "RowCount": 631,
   "Rows": [
     {
-      "EntityName": "Huel LLC",
-      "PrimaryKey": 737,
+      "EntityName": "Hartmann-Price",
+      "PrimaryKey": 85,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "voluptas",
-          "TooltipHint": "et",
-          "LinkHint": "architecto"
+          "DisplayValue": "omnis",
+          "TooltipHint": "rerum",
+          "LinkHint": "animi"
         }
       },
-      "LinkHint": "delectus",
-      "StyleHint": "fugiat",
+      "LinkHint": "eum",
+      "StyleHint": "nihil",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 588
+          "FieldLength": 477
         }
       }
     }
@@ -190,8 +191,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 985
+      "FieldType": "System.Int32",
+      "FieldLength": 646
     }
   }
 }

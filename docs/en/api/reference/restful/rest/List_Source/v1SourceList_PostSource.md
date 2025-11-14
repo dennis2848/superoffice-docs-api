@@ -78,12 +78,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 161,
-  "Name": "Windler, Green and Gibson",
-  "Tooltip": "dignissimos",
-  "Deleted": false,
-  "UdListDefinitionId": 304,
-  "Rank": 508
+  "Id": 567,
+  "Name": "Simonis-Koepp",
+  "Tooltip": "non",
+  "Deleted": true,
+  "UdListDefinitionId": 596,
+  "Rank": 493
 }
 ```
 
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 610,
-  "Name": "Kovacek LLC",
-  "Tooltip": "et",
+  "Id": 643,
+  "Name": "Ward-Barton",
+  "Tooltip": "magnam",
   "Deleted": false,
-  "UdListDefinitionId": 884,
-  "Rank": 821,
+  "UdListDefinitionId": 591,
+  "Rank": 148,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 84
+      "FieldType": "System.String",
+      "FieldLength": 928
     }
   }
 }

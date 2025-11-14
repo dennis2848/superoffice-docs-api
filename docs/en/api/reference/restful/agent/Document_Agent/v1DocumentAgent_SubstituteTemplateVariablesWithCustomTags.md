@@ -15,6 +15,7 @@ Parse the source string, and replace any template variable tags with their value
 
 
 &lt;p/&gt;This method also takes a pair of arrays specifying custom tags and their values; these tags will be available during substitution in addition to all the existing tags. Custom values will override values otherwise set.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -82,27 +83,27 @@ OK
 POST /api/v1/Agents/Document/SubstituteTemplateVariablesWithCustomTags
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Source": "voluptates",
+  "Source": "sed",
   "GeneratorEncoding": "Html",
   "CustomTags": [
-    "et",
-    "debitis"
+    "temporibus",
+    "perferendis"
   ],
   "CustomValues": [
-    "voluptas",
-    "nisi"
+    "aut",
+    "et"
   ],
-  "ContactId": 459,
-  "PersonId": 948,
-  "AppointmentId": 208,
-  "DocumentId": 274,
-  "SaleId": 783,
-  "SelectionId": 621,
-  "ProjectId": 430,
+  "ContactId": 317,
+  "PersonId": 552,
+  "AppointmentId": 886,
+  "DocumentId": 561,
+  "SaleId": 677,
+  "SelectionId": 680,
+  "ProjectId": 470,
   "CultureName": "sv"
 }
 ```
@@ -113,5 +114,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"inventore"
+"aperiam"
 ```

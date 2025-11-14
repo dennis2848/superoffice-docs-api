@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/GetDocumentTemplateUsedInProjectStage
 Get a String array of names in project guide that this template is used in
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -73,7 +75,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 962
+  "DocumentTemplateId": 32
 }
 ```
 
@@ -84,7 +86,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  "delectus",
-  "ipsum"
+  "fugiat",
+  "vero"
 ]
 ```

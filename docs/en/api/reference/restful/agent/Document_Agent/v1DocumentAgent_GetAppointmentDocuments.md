@@ -15,6 +15,7 @@ Get all documents that are linked to the appointment.
 
 
 I.e. the documents that are listed in the appointment dialog.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -95,11 +96,11 @@ OK
 POST /api/v1/Agents/Document/GetAppointmentDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 954
+  "AppointmentId": 553
 }
 ```
 
@@ -111,32 +112,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 288,
-    "Attention": "officiis",
-    "Header": "ea",
-    "Name": "Hermann, Jacobson and Dooley",
-    "OurRef": "est",
-    "YourRef": "non",
-    "Description": "Multi-layered secondary task-force",
-    "DocumentTemplate": "fugit",
+    "DocumentId": 313,
+    "Attention": "in",
+    "Header": "optio",
+    "Name": "Johnston-Marvin",
+    "OurRef": "velit",
+    "YourRef": "consectetur",
+    "Description": "Sharable homogeneous function",
+    "DocumentTemplate": "illo",
     "IsPublished": false,
-    "PersonId": 924,
-    "PersonFullName": "Macie Davis",
-    "AssociateFullName": "Prof. Janis Effertz",
-    "ContactId": 418,
-    "ContactName": "Hackett-Gibson",
-    "ProjectId": 281,
-    "ProjectName": "Shields-Christiansen",
-    "AssociateId": 569,
-    "Snum": 830,
-    "SaleId": 267,
-    "SaleName": "Schimmel-Connelly",
+    "PersonId": 694,
+    "PersonFullName": "Jacinto Schamberger",
+    "AssociateFullName": "Mrs. Amparo Sidney Stokes MD",
+    "ContactId": 885,
+    "ContactName": "Cormier Inc and Sons",
+    "ProjectId": 343,
+    "ProjectName": "Hane-Hirthe",
+    "AssociateId": 391,
+    "Snum": 162,
+    "SaleId": 165,
+    "SaleName": "Dicki-Thompson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 527
+        "FieldLength": 901
       }
     }
   }

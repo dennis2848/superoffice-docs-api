@@ -15,6 +15,7 @@ Stores the product thumbnail that is displayed in the CRM application.
 
 
 The image is scaled down to max 200x200 pixels.
+NsApiSlow threshold: 3000 ms.
 
 
 
@@ -68,11 +69,11 @@ No Content
 POST /api/v1/Agents/BLOB/SetProductThumbnail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 934,
+  "ProductId": 974,
   "Image": "GIF89....File contents as raw bytes..."
 }
 ```

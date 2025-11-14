@@ -14,6 +14,8 @@ POST /api/v1/Agents/CustomerService/SaveCustomerCenterConfig
 Updates the existing CustomerCenterConfig or creates a new CustomerCenterConfig if the id parameter is 0.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -82,14 +84,14 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CustConfigId": 578,
+  "CustConfigId": 738,
   "Type": "Options",
-  "Config": "aliquid",
-  "CustLangId": 58,
-  "Registered": "2004-01-29T03:46:54.5820132+01:00",
-  "RegisteredAssociateId": 357,
-  "Updated": "2001-03-24T03:46:54.5820132+01:00",
-  "UpdatedAssociateId": 456
+  "Config": "soluta",
+  "CustLangId": 299,
+  "Registered": "1999-03-22T02:30:47.0538389+01:00",
+  "RegisteredAssociateId": 469,
+  "Updated": "2016-01-15T02:30:47.0538389+01:00",
+  "UpdatedAssociateId": 689
 }
 ```
 
@@ -100,20 +102,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CustConfigId": 290,
+  "CustConfigId": 536,
   "Type": "Options",
-  "Config": "qui",
-  "CustLangId": 704,
-  "Registered": "2014-01-26T03:46:54.5820132+01:00",
-  "RegisteredAssociateId": 961,
-  "Updated": "2016-06-13T03:46:54.5820132+02:00",
-  "UpdatedAssociateId": 826,
+  "Config": "vel",
+  "CustLangId": 156,
+  "Registered": "2020-06-07T02:30:47.0538389+02:00",
+  "RegisteredAssociateId": 647,
+  "Updated": "2000-07-27T02:30:47.0538389+02:00",
+  "UpdatedAssociateId": 166,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 100
+      "FieldType": "System.Int32",
+      "FieldLength": 773
     }
   }
 }

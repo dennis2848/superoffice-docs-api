@@ -14,7 +14,8 @@ PATCH /api/v1/Sale/{id}
 Update a SaleEntity with changes, as described in a JSON Patch or a JSON Merge Patch document.
 
 
-See <a href="https://tools.ietf.org/html/rfc6902">RFC6902</a> and <a href="https://tools.ietf.org/html/rfc7386">RFC 7396</a>. Update the Department field to "foo" can be done either as a JSON PATCH:
+See <a href="https://tools.ietf.org/html/rfc6902">RFC6902</a> and <a href="https://tools.ietf.org/html/rfc7386">RFC 7396</a>.
+NsApiSlow threshold: 2000 ms. Update the Department field to "foo" can be done either as a JSON PATCH:
 
 ```js
 
@@ -158,12 +159,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "occaecati",
+    "path": "perspiciatis",
     "value": {}
   },
   {
     "op": "add",
-    "path": "occaecati",
+    "path": "perspiciatis",
     "value": {}
   }
 ]
@@ -182,7 +183,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "sint",
+  "SaleText": "qui",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -191,113 +192,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2025-07-02T03:47:00.2693116+02:00",
-  "Amount": 25736.408,
-  "SaleId": 198,
-  "Earning": 5233.78,
-  "EarningPercent": 28193.464,
-  "Heading": "provident",
-  "Number": "1299457",
-  "Probability": 375,
-  "CreatedDate": "2000-12-14T03:47:00.2693116+01:00",
-  "UpdatedDate": "2012-04-21T03:47:00.2693116+02:00",
+  "Saledate": "2002-05-23T02:30:52.8974033+02:00",
+  "Amount": 22361.09,
+  "SaleId": 957,
+  "Earning": 31151.96,
+  "EarningPercent": 15018.127999999999,
+  "Heading": "quia",
+  "Number": "1515359",
+  "Probability": 650,
+  "CreatedDate": "2025-06-15T02:30:52.8974033+02:00",
+  "UpdatedDate": "2015-07-17T02:30:52.8974033+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 505,
+  "ActiveLinks": 389,
   "Links": [
     {
-      "EntityName": "Kuhic, Gottlieb and Ratke",
-      "Id": 87,
-      "Description": "Managed discrete capacity",
-      "ExtraInfo": "nemo",
-      "LinkId": 341,
+      "EntityName": "Champlin LLC",
+      "Id": 335,
+      "Description": "Object-based executive middleware",
+      "ExtraInfo": "aut",
+      "LinkId": 707,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 620
+          "FieldLength": 932
         }
       }
     }
   ],
-  "NextDueDate": "2012-04-26T03:47:00.2693116+02:00",
-  "Postit": "ut",
+  "NextDueDate": "2021-04-26T02:30:52.8974033+02:00",
+  "Postit": "ea",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2001-03-18T03:47:00.2693116+01:00",
+  "ReopenDate": "2000-11-22T02:30:52.8974033+01:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Anderson Group",
-      "Comment": "rerum",
-      "StakeholderRoleId": 968,
-      "CountryId": 107,
-      "PersonId": 789,
-      "EmailDescription": "bradley@schaefer.us",
-      "EmailId": 136,
-      "EmailAddress": "edgardo_heathcote@mcdermottdooley.uk",
-      "PhoneId": 333,
-      "ContactName": "Ankunding Inc and Sons",
-      "ContactId": 483,
-      "SaleId": 353,
-      "Mrmrs": "voluptatibus",
-      "Firstname": "Violet",
-      "MiddleName": "Kunde LLC",
-      "Lastname": "Emmerich",
-      "SaleStakeholderId": 616,
-      "Rank": 529,
-      "Phone": "005-217-8993 x6387",
+      "StakeholderRoleName": "Cruickshank-Rohan",
+      "Comment": "nihil",
+      "StakeholderRoleId": 750,
+      "CountryId": 484,
+      "PersonId": 216,
+      "EmailDescription": "nils@kertzmannziemann.ca",
+      "EmailId": 843,
+      "EmailAddress": "ike@effertz.com",
+      "PhoneId": 78,
+      "ContactName": "Douglas, Kulas and Mitchell",
+      "ContactId": 314,
+      "SaleId": 769,
+      "Mrmrs": "qui",
+      "Firstname": "Raymundo",
+      "MiddleName": "Larkin-Becker",
+      "Lastname": "Hagenes",
+      "SaleStakeholderId": 438,
+      "Rank": 230,
+      "Phone": "765.675.5230",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 819
+          "FieldLength": 780
         }
       }
     }
   ],
-  "ActiveErpLinks": 716,
+  "ActiveErpLinks": 947,
   "UserDefinedFields": {
-    "SuperOffice:1": "Kira Roob",
-    "SuperOffice:2": "1706238604"
+    "SuperOffice:1": "Mertie Bernhard",
+    "SuperOffice:2": "Prof. Halle Franco Weber"
   },
   "ExtraFields": {
-    "ExtraFields1": "iure",
-    "ExtraFields2": "reiciendis"
+    "ExtraFields1": "repudiandae",
+    "ExtraFields2": "quisquam"
   },
   "CustomFields": {
-    "CustomFields1": "odit",
-    "CustomFields2": "autem"
+    "CustomFields1": "harum",
+    "CustomFields2": "dolorem"
   },
-  "PublishEventDate": "2002-12-28T03:47:00.2693116+01:00",
-  "PublishTo": "2019-09-26T03:47:00.2693116+02:00",
-  "PublishFrom": "2021-03-27T03:47:00.2693116+01:00",
-  "IsPublished": true,
+  "PublishEventDate": "2009-02-09T02:30:52.8974033+01:00",
+  "PublishTo": "2004-05-16T02:30:52.8974033+02:00",
+  "PublishFrom": "2021-01-17T02:30:52.8974033+01:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 583,
+      "VisibleId": 413,
       "Visibility": "All",
-      "DisplayValue": "corrupti",
+      "DisplayValue": "earum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 518
+          "FieldType": "System.String",
+          "FieldLength": 504
         }
       }
     },
     {
-      "VisibleId": 583,
+      "VisibleId": 413,
       "Visibility": "All",
-      "DisplayValue": "corrupti",
+      "DisplayValue": "earum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 518
+          "FieldType": "System.String",
+          "FieldLength": 504
         }
       }
     }
@@ -307,12 +308,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 870
+      "FieldLength": 208
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

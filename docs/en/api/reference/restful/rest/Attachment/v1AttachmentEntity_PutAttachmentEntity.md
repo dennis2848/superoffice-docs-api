@@ -14,6 +14,8 @@ PUT /api/v1/Attachment/{id}
 Updates the existing AttachmentEntity
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -94,18 +96,18 @@ AttachmentEntity updated.
 PUT /api/v1/Attachment/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 20,
-  "Name": "Wehner Group",
-  "ContentType": "beatae",
-  "AttSize": 701,
-  "InlineImage": true,
-  "ContentId": "eos",
-  "AuthKey": "dicta",
-  "IsSafeFileExtension": true
+  "AttachmentId": 969,
+  "Name": "Bosco, Collier and Rath",
+  "ContentType": "dolorem",
+  "AttSize": 719,
+  "InlineImage": false,
+  "ContentId": "nisi",
+  "AuthKey": "alias",
+  "IsSafeFileExtension": false
 }
 ```
 
@@ -116,25 +118,25 @@ HTTP/1.1 200 AttachmentEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 905,
-  "Name": "Shields LLC",
-  "ContentType": "qui",
-  "AttSize": 680,
-  "InlineImage": false,
-  "ContentId": "corporis",
-  "AuthKey": "autem",
-  "IsSafeFileExtension": false,
+  "AttachmentId": 838,
+  "Name": "Wisozk LLC",
+  "ContentType": "in",
+  "AttSize": 202,
+  "InlineImage": true,
+  "ContentId": "quibusdam",
+  "AuthKey": "repellat",
+  "IsSafeFileExtension": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 785
+      "FieldType": "System.String",
+      "FieldLength": 308
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/GetWebPanelByProgId
 Get a web panel using the ProgId key that was specified when it was created
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -95,11 +97,11 @@ OK
 POST /api/v1/Agents/List/GetWebPanelByProgId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProgId": "et"
+  "ProgId": "sunt"
 }
 ```
 
@@ -110,34 +112,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 283,
-  "Name": "Kuhlman, Block and Hettinger",
-  "Tooltip": "pariatur",
+  "WebPanelId": 226,
+  "Name": "Collins-Hane",
+  "Tooltip": "consequatur",
   "Deleted": true,
-  "Rank": 919,
+  "Rank": 597,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": true,
-  "OnSatellite": false,
+  "OnCentral": false,
+  "OnSatellite": true,
   "OnTravel": false,
   "OnSalesMarketingWeb": false,
-  "OnSalesMarketingPocket": false,
-  "ShowInMenuBar": true,
+  "OnSalesMarketingPocket": true,
+  "ShowInMenuBar": false,
   "ShowInToolBar": false,
   "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "WindowName": "Thiel, Gislason and Wyman",
+  "WindowName": "Oberbrunner Group",
   "Url": "http://www.example.com/",
-  "ProgId": "adipisci",
-  "Icon": 449,
+  "ProgId": "maiores",
+  "Icon": 254,
   "AlwaysReloadOnShow": false,
-  "NeverReloadOnCurrentChange": true,
+  "NeverReloadOnCurrentChange": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 572
+      "FieldLength": 210
     }
   }
 }

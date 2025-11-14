@@ -71,14 +71,14 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Product?$select=name,department,category/id
 GET /api/v1/Product?$filter=name begins 'S'
 GET /api/v1/Product?$orderBy=name asc
-GET /api/v1/Product?$entities=minus
-GET /api/v1/Product?$top=890
-GET /api/v1/Product?$skip=366
+GET /api/v1/Product?$entities=neque
+GET /api/v1/Product?$top=210
+GET /api/v1/Product?$skip=70
 GET /api/v1/Product?$mode=Full
 GET /api/v1/Product?$options=GrandTotal=true
-GET /api/v1/Product?$context=necessitatibus
+GET /api/v1/Product?$context=nam
 GET /api/v1/Product?$format=JSON
-GET /api/v1/Product?$jsonSafe=False
+GET /api/v1/Product?$jsonSafe=True
 GET /api/v1/Product?$output=Display
 ```
 
@@ -130,21 +130,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "dolorum",
+  "odata.nextLink": "nulla",
   "value": [
     {
-      "PrimaryKey": 6160,
+      "PrimaryKey": 1881,
       "EntityName": "sale",
-      "saleId": 6160,
-      "contactId": 6194,
-      "name": "Balistreri LLC"
+      "saleId": 1881,
+      "contactId": 8093,
+      "name": "Wintheiser, Fadel and Gottlieb"
     },
     {
-      "PrimaryKey": 3654,
+      "PrimaryKey": 4876,
       "EntityName": "sale",
-      "saleId": 3654,
-      "contactId": 2516,
-      "name": "Armstrong, Jakubowski and Goyette"
+      "saleId": 4876,
+      "contactId": 1380,
+      "name": "Lynch-Corkery"
     }
   ]
 }

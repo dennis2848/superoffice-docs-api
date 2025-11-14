@@ -14,6 +14,8 @@ POST /api/v1/Agents/CustomerService/CreateSession
 Creates a login session for a CS user
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -80,7 +82,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RemoteIp": "cupiditate"
+  "RemoteIp": "et"
 }
 ```
 
@@ -91,15 +93,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "qui",
-  "LoginId": 921,
-  "UserId": 905,
+  "Key": "a",
+  "LoginId": 776,
+  "UserId": 308,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 134
+      "FieldLength": 374
     }
   }
 }

@@ -14,6 +14,8 @@ POST /api/v1/Agents/Quote/GetExtraInfo
 Converts an xml string into an object representation.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -76,11 +78,11 @@ OK
 POST /api/v1/Agents/Quote/GetExtraInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineExtraData": "non"
+  "QuoteLineExtraData": "in"
 }
 ```
 
@@ -92,28 +94,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Mosciski-Wisozk",
-    "Value": "voluptate",
+    "Name": "Bauch, Lebsack and Hoeger",
+    "Value": "doloribus",
     "Type": "Image",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 766
+        "FieldLength": 143
       }
     }
   },
   {
-    "Name": "Mosciski-Wisozk",
-    "Value": "voluptate",
+    "Name": "Bauch, Lebsack and Hoeger",
+    "Value": "doloribus",
     "Type": "Image",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 766
+        "FieldLength": 143
       }
     }
   }

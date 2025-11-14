@@ -98,47 +98,47 @@ OK
 PUT /api/v1/List/DeliveryTerm/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 569,
-    "Name": "Torp, Hane and Denesik",
-    "ToolTip": "Non officiis laudantium fugiat.",
-    "Deleted": false,
-    "Rank": 455,
-    "Type": "eaque",
-    "ColorBlock": 418,
-    "IconHint": "accusantium",
+    "Id": 178,
+    "Name": "Kovacek-Yundt",
+    "ToolTip": "Dolorem optio quia et aut reprehenderit maiores.",
+    "Deleted": true,
+    "Rank": 388,
+    "Type": "quaerat",
+    "ColorBlock": 172,
+    "IconHint": "unde",
     "Selected": false,
-    "LastChanged": "1999-04-06T03:47:00.6442984+02:00",
+    "LastChanged": "2010-12-23T02:30:53.2723907+01:00",
     "ChildItems": [
       {
-        "Id": 777,
-        "Name": "Sanford, Witting and Balistreri",
-        "ToolTip": "Sed esse.",
-        "Deleted": false,
-        "Rank": 166,
-        "Type": "vitae",
-        "ColorBlock": 203,
-        "IconHint": "repellat",
+        "Id": 383,
+        "Name": "Kassulke Group",
+        "ToolTip": "Perferendis ut.",
+        "Deleted": true,
+        "Rank": 163,
+        "Type": "qui",
+        "ColorBlock": 313,
+        "IconHint": "quia",
         "Selected": false,
-        "LastChanged": "2007-02-22T03:47:00.6442984+01:00",
+        "LastChanged": "2018-06-30T02:30:53.2723907+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eveniet",
-        "StyleHint": "quibusdam",
-        "Hidden": false,
-        "FullName": "Prof. Aliza Branson Stiedemann"
+        "ExtraInfo": "velit",
+        "StyleHint": "asperiores",
+        "Hidden": true,
+        "FullName": "Domenic Walker"
       }
     ],
-    "ExtraInfo": "sint",
-    "StyleHint": "est",
-    "Hidden": false,
-    "FullName": "Mason Ratke"
+    "ExtraInfo": "excepturi",
+    "StyleHint": "sint",
+    "Hidden": true,
+    "FullName": "Tiffany Towne"
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 685,
-    "Name": "Vandervort, Boyer and Turcotte",
-    "ToolTip": "Tempora nihil quis id.",
-    "Deleted": true,
-    "Rank": 366,
-    "Type": "quis",
-    "ColorBlock": 807,
-    "IconHint": "et",
+    "Id": 747,
+    "Name": "Torphy LLC",
+    "ToolTip": "Officiis omnis qui.",
+    "Deleted": false,
+    "Rank": 664,
+    "Type": "sit",
+    "ColorBlock": 64,
+    "IconHint": "quas",
     "Selected": false,
-    "LastChanged": "2004-03-27T03:47:00.6442984+01:00",
+    "LastChanged": "2012-03-05T02:30:53.2723907+01:00",
     "ChildItems": [
       {
-        "Id": 106,
-        "Name": "Kiehn-Wuckert",
-        "ToolTip": "Soluta non veritatis ut deserunt vel.",
+        "Id": 373,
+        "Name": "Jast Inc and Sons",
+        "ToolTip": "Sit explicabo soluta rem.",
         "Deleted": false,
-        "Rank": 20,
-        "Type": "non",
-        "ColorBlock": 962,
-        "IconHint": "autem",
-        "Selected": false,
-        "LastChanged": "2007-01-24T03:47:00.6442984+01:00",
+        "Rank": 465,
+        "Type": "qui",
+        "ColorBlock": 725,
+        "IconHint": "qui",
+        "Selected": true,
+        "LastChanged": "1999-08-08T02:30:53.2723907+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eveniet",
-        "StyleHint": "omnis",
-        "Hidden": true,
-        "FullName": "Aracely Langosh",
+        "ExtraInfo": "repellendus",
+        "StyleHint": "tempora",
+        "Hidden": false,
+        "FullName": "Rosalinda Douglas",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 214
+            "FieldLength": 97
           }
         }
       }
     ],
-    "ExtraInfo": "illo",
-    "StyleHint": "possimus",
-    "Hidden": false,
-    "FullName": "Mrs. Mathew Isaiah Medhurst V",
+    "ExtraInfo": "cum",
+    "StyleHint": "commodi",
+    "Hidden": true,
+    "FullName": "Eloisa Pagac",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 905
+        "FieldType": "System.String",
+        "FieldLength": 327
       }
     }
   }

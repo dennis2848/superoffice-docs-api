@@ -636,6 +636,15 @@ items:
   - SuperOffice.Globalization.RC.SR_ADMIN_INVALID_KEY_GDPR
   - SuperOffice.Globalization.RC.SR_ADMIN_INVALID_PASSWORD_CHARACTERS
   - SuperOffice.Globalization.RC.SR_ADMIN_INVOICE_TYPE
+  - SuperOffice.Globalization.RC.SR_ADMIN_LC_ASKFOR_CONFIRMATION
+  - SuperOffice.Globalization.RC.SR_ADMIN_LC_INFO
+  - SuperOffice.Globalization.RC.SR_ADMIN_LC_INFO_HEADER
+  - SuperOffice.Globalization.RC.SR_ADMIN_LC_LABEL
+  - SuperOffice.Globalization.RC.SR_ADMIN_LC_SET_CATEGORY_TO
+  - SuperOffice.Globalization.RC.SR_ADMIN_LC_UPDATE_COMPANY_SALE
+  - SuperOffice.Globalization.RC.SR_ADMIN_LC_UPDATE_LEADSTATUS
+  - SuperOffice.Globalization.RC.SR_ADMIN_LC_UPDATE_SALE_LOST
+  - SuperOffice.Globalization.RC.SR_ADMIN_LC_UPDATE_SALE_SOLD
   - SuperOffice.Globalization.RC.SR_ADMIN_LICENSE_ACTIVATED
   - SuperOffice.Globalization.RC.SR_ADMIN_LICENSE_ACTIVATE_NEW_LICENSE
   - SuperOffice.Globalization.RC.SR_ADMIN_LICENSE_INFORMATION
@@ -653,6 +662,7 @@ items:
   - SuperOffice.Globalization.RC.SR_ADMIN_LISTS_ENABLE_LEADSTATUS
   - SuperOffice.Globalization.RC.SR_ADMIN_LISTS_EXTAPP_SHOW
   - SuperOffice.Globalization.RC.SR_ADMIN_LISTS_FROMLIBRARY
+  - SuperOffice.Globalization.RC.SR_ADMIN_LISTS_LEADSTATUS_TOOLTIP
   - SuperOffice.Globalization.RC.SR_ADMIN_LISTS_LOGGEDINUSER
   - SuperOffice.Globalization.RC.SR_ADMIN_LISTS_OTHERWISEUSE
   - SuperOffice.Globalization.RC.SR_ADMIN_LISTS_PRIVACY
@@ -931,7 +941,9 @@ items:
   - SuperOffice.Globalization.RC.SR_ADMIN_ROLE_CRUD_NONE
   - SuperOffice.Globalization.RC.SR_ADMIN_ROLE_CRUD_READ
   - SuperOffice.Globalization.RC.SR_ADMIN_ROLE_CRUD_UPDATE
+  - SuperOffice.Globalization.RC.SR_ADMIN_ROLE_CUSTOM_OBJECT
   - SuperOffice.Globalization.RC.SR_ADMIN_ROLE_DATARIGHTS
+  - SuperOffice.Globalization.RC.SR_ADMIN_ROLE_DATARIGHTS_CUSTOM_OBJECTS
   - SuperOffice.Globalization.RC.SR_ADMIN_ROLE_DATARIGHT_OBJECT
   - SuperOffice.Globalization.RC.SR_ADMIN_ROLE_DATARIGHT_OWNED
   - SuperOffice.Globalization.RC.SR_ADMIN_ROLE_DELETE_ROLE
@@ -946,6 +958,7 @@ items:
   - SuperOffice.Globalization.RC.SR_ADMIN_ROLE_FUNCTIONALRIGHT_CAN_LIST
   - SuperOffice.Globalization.RC.SR_ADMIN_ROLE_HEADING
   - SuperOffice.Globalization.RC.SR_ADMIN_ROLE_MENUTEXT
+  - SuperOffice.Globalization.RC.SR_ADMIN_ROLE_PERMISSION
   - SuperOffice.Globalization.RC.SR_ADMIN_ROLE_RELATION_DEPARTMENT
   - SuperOffice.Globalization.RC.SR_ADMIN_ROLE_RELATION_DEPARTMENT_TOOLTIP
   - SuperOffice.Globalization.RC.SR_ADMIN_ROLE_RELATION_EXTERNAL
@@ -1687,6 +1700,7 @@ items:
   - SuperOffice.Globalization.RC.SR_ARCHIVE_CATEGORYMEMBERS_ID
   - SuperOffice.Globalization.RC.SR_ARCHIVE_CATEGORYMEMBERS_IS_DEFINED_BY_USERGROUP
   - SuperOffice.Globalization.RC.SR_ARCHIVE_CATEGORYMEMBERS_WEIGHT
+  - SuperOffice.Globalization.RC.SR_ARCHIVE_CATEGORY_RANK
   - SuperOffice.Globalization.RC.SR_ARCHIVE_CHECKBOX_OFF
   - SuperOffice.Globalization.RC.SR_ARCHIVE_CHECKBOX_ON
   - SuperOffice.Globalization.RC.SR_ARCHIVE_CODE
@@ -2011,6 +2025,8 @@ items:
   - SuperOffice.Globalization.RC.SR_ARCHIVE_SALE_CURRENCY_ID
   - SuperOffice.Globalization.RC.SR_ARCHIVE_SALE_CURRENCY_ID_TOOLTIP
   - SuperOffice.Globalization.RC.SR_ARCHIVE_SALE_DATE
+  - SuperOffice.Globalization.RC.SR_ARCHIVE_SALE_DAYS_IN_STAGE
+  - SuperOffice.Globalization.RC.SR_ARCHIVE_SALE_DAYS_IN_STAGE_TOOLTIP
   - SuperOffice.Globalization.RC.SR_ARCHIVE_SALE_EARNING
   - SuperOffice.Globalization.RC.SR_ARCHIVE_SALE_NAME
   - SuperOffice.Globalization.RC.SR_ARCHIVE_SALE_NAME_TOOLTIP
@@ -2025,6 +2041,7 @@ items:
   - SuperOffice.Globalization.RC.SR_ARCHIVE_SALE_STAGE_RANK_TOOLTIP
   - SuperOffice.Globalization.RC.SR_ARCHIVE_SALE_STAGE_TOOLTIP
   - SuperOffice.Globalization.RC.SR_ARCHIVE_SALE_STAGE_WHEN_CLOSED
+  - SuperOffice.Globalization.RC.SR_ARCHIVE_SALE_STAGE_WHEN_CLOSED_TOOLTIP
   - SuperOffice.Globalization.RC.SR_ARCHIVE_SALE_TITLE
   - SuperOffice.Globalization.RC.SR_ARCHIVE_SALE_WEIGHTEDAMOUNT
   - SuperOffice.Globalization.RC.SR_ARCHIVE_SALE_WEIGHTEDAMOUNT_TOOLTIP
@@ -2336,6 +2353,9 @@ items:
   - SuperOffice.Globalization.RC.SR_BATCH_MAINTENANCEBATCHPLUGIN_NAME
   - SuperOffice.Globalization.RC.SR_BATCH_PROC
   - SuperOffice.Globalization.RC.SR_BATCH_QUEUED_TASKS
+  - SuperOffice.Globalization.RC.SR_BATCH_RAGUPDATEPLUGIN_NAME
+  - SuperOffice.Globalization.RC.SR_BATCH_RAGUPDATEPLUGIN_TOOLTIP
+  - SuperOffice.Globalization.RC.SR_BATCH_RAUPDATEPLUGIN_CANCELLATION
   - SuperOffice.Globalization.RC.SR_BATCH_REPORTERBATCHPLUGIN_NAME
   - SuperOffice.Globalization.RC.SR_BATCH_SAINTREGENBATCHPLUGIN_NAME
   - SuperOffice.Globalization.RC.SR_BATCH_STARTED
@@ -2353,11 +2373,19 @@ items:
   - SuperOffice.Globalization.RC.SR_BELOW_MINIMUM_PRICE
   - SuperOffice.Globalization.RC.SR_BETWEEN
   - SuperOffice.Globalization.RC.SR_BETWEEN_LC
+  - SuperOffice.Globalization.RC.SR_BOARD_BADGE_REGISTERED
+  - SuperOffice.Globalization.RC.SR_BOARD_CANNOT_MOVE_PERSON
   - SuperOffice.Globalization.RC.SR_BOARD_COLOR_BY
+  - SuperOffice.Globalization.RC.SR_BOARD_CONTACT_MOVE_TO_CATEGORY
+  - SuperOffice.Globalization.RC.SR_BOARD_CONTACT_SELECT_CATEGORY
+  - SuperOffice.Globalization.RC.SR_BOARD_CONTACT_SETTINGS
+  - SuperOffice.Globalization.RC.SR_BOARD_CONTACT_VIEW_ENTITY
   - SuperOffice.Globalization.RC.SR_BOARD_CREATE_CARD
   - SuperOffice.Globalization.RC.SR_BOARD_CREATE_DOCUMENT
   - SuperOffice.Globalization.RC.SR_BOARD_DAYS_SINCE
+  - SuperOffice.Globalization.RC.SR_BOARD_FILTER_CONTACT
   - SuperOffice.Globalization.RC.SR_BOARD_FILTER_COUNT
+  - SuperOffice.Globalization.RC.SR_BOARD_FILTER_PERSON
   - SuperOffice.Globalization.RC.SR_BOARD_FILTER_PROJECT
   - SuperOffice.Globalization.RC.SR_BOARD_FILTER_SALE
   - SuperOffice.Globalization.RC.SR_BOARD_FILTER_TICKET
@@ -2366,7 +2394,10 @@ items:
   - SuperOffice.Globalization.RC.SR_BOARD_HIDE_COMPLETED_PROJECTS
   - SuperOffice.Globalization.RC.SR_BOARD_HIDE_EMPTY_DISABLED
   - SuperOffice.Globalization.RC.SR_BOARD_HIDE_EMPTY_GROUPS
+  - SuperOffice.Globalization.RC.SR_BOARD_INVALID_CONTACT_BUSINESS
+  - SuperOffice.Globalization.RC.SR_BOARD_INVALID_CONTACT_CATEGORY
   - SuperOffice.Globalization.RC.SR_BOARD_INVALID_GROUP_SUBGROUP
+  - SuperOffice.Globalization.RC.SR_BOARD_INVALID_LEAD_STATUS
   - SuperOffice.Globalization.RC.SR_BOARD_INVALID_PROJECT_TYPE
   - SuperOffice.Globalization.RC.SR_BOARD_INVALID_REQUEST_PRIORITY
   - SuperOffice.Globalization.RC.SR_BOARD_INVALID_REQUEST_STATUS
@@ -2375,23 +2406,34 @@ items:
   - SuperOffice.Globalization.RC.SR_BOARD_INVALID_STAGE
   - SuperOffice.Globalization.RC.SR_BOARD_INVALID_STATUS
   - SuperOffice.Globalization.RC.SR_BOARD_LANE_NO_ASSOCIATE_LINK
+  - SuperOffice.Globalization.RC.SR_BOARD_LANE_NO_BUSINESS_LINK
+  - SuperOffice.Globalization.RC.SR_BOARD_LANE_NO_CATEGORY_LINK
+  - SuperOffice.Globalization.RC.SR_BOARD_LANE_NO_LEADSTATUS_LINK
   - SuperOffice.Globalization.RC.SR_BOARD_LANE_NO_PROJECT_LINK
   - SuperOffice.Globalization.RC.SR_BOARD_LANE_NO_PROJECT_STATUS
   - SuperOffice.Globalization.RC.SR_BOARD_LANE_NO_SALE_LINK
   - SuperOffice.Globalization.RC.SR_BOARD_LANE_NO_SALE_TYPE_LINK
   - SuperOffice.Globalization.RC.SR_BOARD_NO_FILTERS
+  - SuperOffice.Globalization.RC.SR_BOARD_PERSON_SETTINGS
   - SuperOffice.Globalization.RC.SR_BOARD_PROJECT_NO_END_DATE
   - SuperOffice.Globalization.RC.SR_BOARD_PROJECT_RESPONSIBLE_GROUP
+  - SuperOffice.Globalization.RC.SR_BOARD_PROJECT_SETTINGS
   - SuperOffice.Globalization.RC.SR_BOARD_REGISTERED_SINCE
   - SuperOffice.Globalization.RC.SR_BOARD_REQUEST_SELECT_REQUEST_CLOSED_STATUS
   - SuperOffice.Globalization.RC.SR_BOARD_REQUEST_SET_TO_CLOSED
+  - SuperOffice.Globalization.RC.SR_BOARD_SALE_DATE_BADGE
+  - SuperOffice.Globalization.RC.SR_BOARD_SALE_DATE_BADGE_STAGE
   - SuperOffice.Globalization.RC.SR_BOARD_SALE_SELECT_STATUS_REASON
+  - SuperOffice.Globalization.RC.SR_BOARD_SALE_SETTINGS
+  - SuperOffice.Globalization.RC.SR_BOARD_SAVE_FOR_ALL
+  - SuperOffice.Globalization.RC.SR_BOARD_SAVE_FOR_ALL_TOOLTIP
   - SuperOffice.Globalization.RC.SR_BOARD_SELECT_FUTURE_DATE
   - SuperOffice.Globalization.RC.SR_BOARD_SET_AS_LOST
   - SuperOffice.Globalization.RC.SR_BOARD_SET_AS_SOLD
   - SuperOffice.Globalization.RC.SR_BOARD_SET_AS_SOLD_COPY
   - SuperOffice.Globalization.RC.SR_BOARD_SUBGROUP_BY
   - SuperOffice.Globalization.RC.SR_BOARD_SUM_BY
+  - SuperOffice.Globalization.RC.SR_BOARD_TICKET_SETTINGS
   - SuperOffice.Globalization.RC.SR_BOARD_TOGGLE_LANE
   - SuperOffice.Globalization.RC.SR_BOARD_TOGGLE_TOOLBAR
   - SuperOffice.Globalization.RC.SR_BOARD_TOO_LARGE_WARNING
@@ -3059,6 +3101,7 @@ items:
   - SuperOffice.Globalization.RC.SR_BULKUPDATE_TASK_ALLSELECTION
   - SuperOffice.Globalization.RC.SR_BULKUPDATE_TASK_ALLSELECTION_MENU
   - SuperOffice.Globalization.RC.SR_BULKUPDATE_TASK_ALLSELECTION_TOOLTIP
+  - SuperOffice.Globalization.RC.SR_BULKUPDATE_TICKET_TYPE_WARNING
   - SuperOffice.Globalization.RC.SR_BULKUPDATE_UNKNOWNFIELDTYPE_FOR
   - SuperOffice.Globalization.RC.SR_BULKUPDATE_VALUEFIELD_DAY
   - SuperOffice.Globalization.RC.SR_BULKUPDATE_VALUEFIELD_MONTH
@@ -3983,6 +4026,7 @@ items:
   - SuperOffice.Globalization.RC.SR_COPY_MARKED_FILES_FROM_CENTRAL_TO_LOCAL
   - SuperOffice.Globalization.RC.SR_COPY_TEMPLATE
   - SuperOffice.Globalization.RC.SR_COUNTERS
+  - SuperOffice.Globalization.RC.SR_CO_FINDCO_TOOLTIP
   - SuperOffice.Globalization.RC.SR_CP_ADD_CUSTOM
   - SuperOffice.Globalization.RC.SR_CP_COLOR_VALUE
   - SuperOffice.Globalization.RC.SR_CP_CUSTOM_COLORS
@@ -4288,6 +4332,7 @@ items:
   - SuperOffice.Globalization.RC.SR_DASHBOARD_AC5BC5FC64E444399CAB36AB43707026_DESC
   - SuperOffice.Globalization.RC.SR_DASHBOARD_AC5BC5FC64E444399CAB36AB43707026_GENERICNAME
   - SuperOffice.Globalization.RC.SR_DASHBOARD_ACTION_NOT_AVAILABLE_NO_DATA
+  - SuperOffice.Globalization.RC.SR_DASHBOARD_ACTIVE_QUICK_FILTER_TOOLTIP
   - SuperOffice.Globalization.RC.SR_DASHBOARD_ADD
   - SuperOffice.Globalization.RC.SR_DASHBOARD_ADDTILE
   - SuperOffice.Globalization.RC.SR_DASHBOARD_ADD_EDIT_LAYOUT
@@ -4426,8 +4471,11 @@ items:
   - SuperOffice.Globalization.RC.SR_DASHBOARD_EDIT_FIELD
   - SuperOffice.Globalization.RC.SR_DASHBOARD_EDIT_FORMAT
   - SuperOffice.Globalization.RC.SR_DASHBOARD_EDIT_FORMATTING
+  - SuperOffice.Globalization.RC.SR_DASHBOARD_EDIT_FUNNEL_LABEL_INSIDE
+  - SuperOffice.Globalization.RC.SR_DASHBOARD_EDIT_FUNNEL_LABEL_OUTSIDE
   - SuperOffice.Globalization.RC.SR_DASHBOARD_EDIT_FUNNEL_NECK_HEIGHT
   - SuperOffice.Globalization.RC.SR_DASHBOARD_EDIT_FUNNEL_NECK_WITH
+  - SuperOffice.Globalization.RC.SR_DASHBOARD_EDIT_FUNNEL_WIDTH
   - SuperOffice.Globalization.RC.SR_DASHBOARD_EDIT_GAUGE_AXIS
   - SuperOffice.Globalization.RC.SR_DASHBOARD_EDIT_GAUGE_SEGMENT_DESC
   - SuperOffice.Globalization.RC.SR_DASHBOARD_EDIT_GAUGE_STYLE
@@ -4498,7 +4546,6 @@ items:
   - SuperOffice.Globalization.RC.SR_DASHBOARD_EMPTY_TILE_TITLE
   - SuperOffice.Globalization.RC.SR_DASHBOARD_EMPTY_TILE_TOOLTIP
   - SuperOffice.Globalization.RC.SR_DASHBOARD_EMPTY_WEB_PANEL
-  - SuperOffice.Globalization.RC.SR_DASHBOARD_ENABLE_SERIES
   - SuperOffice.Globalization.RC.SR_DASHBOARD_ENTER_DESCRIPTION
   - SuperOffice.Globalization.RC.SR_DASHBOARD_ENTER_NAME
   - SuperOffice.Globalization.RC.SR_DASHBOARD_ERRORLOADING
@@ -4515,9 +4562,22 @@ items:
   - SuperOffice.Globalization.RC.SR_DASHBOARD_F6C211A5B7F54BD6BDA66958B3506B2F_DATASOURCENAME
   - SuperOffice.Globalization.RC.SR_DASHBOARD_F6C211A5B7F54BD6BDA66958B3506B2F_DESC
   - SuperOffice.Globalization.RC.SR_DASHBOARD_F6C211A5B7F54BD6BDA66958B3506B2F_GENERICNAME
+  - SuperOffice.Globalization.RC.SR_DASHBOARD_FILTER_NEXT_MONTH
+  - SuperOffice.Globalization.RC.SR_DASHBOARD_FILTER_NEXT_QUARTER
+  - SuperOffice.Globalization.RC.SR_DASHBOARD_FILTER_NEXT_WEEK
+  - SuperOffice.Globalization.RC.SR_DASHBOARD_FILTER_NEXT_YEAR
+  - SuperOffice.Globalization.RC.SR_DASHBOARD_FILTER_PREV_MONTH
+  - SuperOffice.Globalization.RC.SR_DASHBOARD_FILTER_PREV_QUARTER
+  - SuperOffice.Globalization.RC.SR_DASHBOARD_FILTER_PREV_WEEK
+  - SuperOffice.Globalization.RC.SR_DASHBOARD_FILTER_PREV_YEAR
+  - SuperOffice.Globalization.RC.SR_DASHBOARD_FILTER_THIS_QUARTER
+  - SuperOffice.Globalization.RC.SR_DASHBOARD_FILTER_THIS_YEAR
+  - SuperOffice.Globalization.RC.SR_DASHBOARD_FILTER_YEAR_TO_DATE
+  - SuperOffice.Globalization.RC.SR_DASHBOARD_FILTER_YESTERDAY
   - SuperOffice.Globalization.RC.SR_DASHBOARD_FOLLOWUP_COUNT
   - SuperOffice.Globalization.RC.SR_DASHBOARD_FULLSCREEN
   - SuperOffice.Globalization.RC.SR_DASHBOARD_ISDEFAULTWARNING
+  - SuperOffice.Globalization.RC.SR_DASHBOARD_ISONEOF
   - SuperOffice.Globalization.RC.SR_DASHBOARD_LASTMONTH
   - SuperOffice.Globalization.RC.SR_DASHBOARD_LASTWEEK
   - SuperOffice.Globalization.RC.SR_DASHBOARD_LASTYEAR
@@ -4575,6 +4635,7 @@ items:
   - SuperOffice.Globalization.RC.SR_DASHBOARD_PIN_TO_ALL
   - SuperOffice.Globalization.RC.SR_DASHBOARD_PIN_TO_PLACEHOLDER
   - SuperOffice.Globalization.RC.SR_DASHBOARD_PLEASE_USE_HTTPS
+  - SuperOffice.Globalization.RC.SR_DASHBOARD_PREVIEW_DISABLED
   - SuperOffice.Globalization.RC.SR_DASHBOARD_PRINT
   - SuperOffice.Globalization.RC.SR_DASHBOARD_PRINT_1
   - SuperOffice.Globalization.RC.SR_DASHBOARD_PROJECT_COUNT
@@ -4583,6 +4644,7 @@ items:
   - SuperOffice.Globalization.RC.SR_DASHBOARD_QUARTER_3
   - SuperOffice.Globalization.RC.SR_DASHBOARD_QUARTER_4
   - SuperOffice.Globalization.RC.SR_DASHBOARD_QUICK_FILTER
+  - SuperOffice.Globalization.RC.SR_DASHBOARD_QUICK_FILTER_DESCRIPTION
   - SuperOffice.Globalization.RC.SR_DASHBOARD_REFRESH
   - SuperOffice.Globalization.RC.SR_DASHBOARD_REMOVE_TILE
   - SuperOffice.Globalization.RC.SR_DASHBOARD_REVENUETHISMONTH
@@ -4693,6 +4755,12 @@ items:
   - SuperOffice.Globalization.RC.SR_DASHTILE_FOR_NON_PROCESSED_SUBMISSIONS
   - SuperOffice.Globalization.RC.SR_DASHTILE_FOR_PROCESSED_BY_ME_THIS_WEEK
   - SuperOffice.Globalization.RC.SR_DASHTILE_FOR_TOTAL_SUBMISSIONS_PER_DAY
+  - SuperOffice.Globalization.RC.SR_DASHTILE_LEAD_BY_CREATION_CAMPAIGN_YTD
+  - SuperOffice.Globalization.RC.SR_DASHTILE_LEAD_BY_CREATION_SOURCE_YTD
+  - SuperOffice.Globalization.RC.SR_DASHTILE_LEAD_BY_FIRST_SOURCE_YTD
+  - SuperOffice.Globalization.RC.SR_DASHTILE_LEAD_QUALIFICATION_FUNNEL
+  - SuperOffice.Globalization.RC.SR_DASHTILE_LEAD_TOP_PERFORMING_FORMS_YTD
+  - SuperOffice.Globalization.RC.SR_DASHTILE_LEAD_TOP_REFERRING_SITES_YTD
   - SuperOffice.Globalization.RC.SR_DASHTILE_MAI_AVERAGE_BOUNCE_RATE
   - SuperOffice.Globalization.RC.SR_DASHTILE_MAI_AVERAGE_BOUNCE_RATE_TITLE_SHOWN_IN_PERCENT
   - SuperOffice.Globalization.RC.SR_DASHTILE_MAI_AVERAGE_CTR_BY_SUBSCRIPTION_TYPE_YTD
@@ -4720,6 +4788,7 @@ items:
   - SuperOffice.Globalization.RC.SR_DASHTILE_PRD_TOTAL_FORECAST_OF_TOP_PRODUCTS_FOR_MY_GROUP
   - SuperOffice.Globalization.RC.SR_DASHTILE_PRD_VALUE_OF_NEW_QUOTES_THIS_MONTH
   - SuperOffice.Globalization.RC.SR_DASHTILE_PRO_ACTIVE_PROJECTS_FOR_MY_TEAM
+  - SuperOffice.Globalization.RC.SR_DASHTILE_PRO_ACTIVE_PROJECTS_FOR_MY_TEAM_FUNNEL
   - SuperOffice.Globalization.RC.SR_DASHTILE_PRO_MY_ACTIVE_PROJECTS_BY_TYPE
   - SuperOffice.Globalization.RC.SR_DASHTILE_REQ_AGENT_PRODUCTIVITY_LAST_30_DAYS
   - SuperOffice.Globalization.RC.SR_DASHTILE_REQ_AVERAGE_CLOSING_TIME
@@ -4756,6 +4825,7 @@ items:
   - SuperOffice.Globalization.RC.SR_DASHTILE_SAL_MY_FORECAST_BY_SALE_TYPE_THIS_MONTH
   - SuperOffice.Globalization.RC.SR_DASHTILE_SAL_MY_FORECAST_THIS_MONTH
   - SuperOffice.Globalization.RC.SR_DASHTILE_SAL_MY_FORECAST_THIS_MONTH_TITLE_WEIGHTED_AMOUNT
+  - SuperOffice.Globalization.RC.SR_DASHTILE_SAL_MY_FORECAST_THIS_QUARTER
   - SuperOffice.Globalization.RC.SR_DASHTILE_SAL_MY_FORECAST_WEIGHTED
   - SuperOffice.Globalization.RC.SR_DASHTILE_SAL_MY_LOST_SALES_BY_REASON_LAST_6_MONTHS
   - SuperOffice.Globalization.RC.SR_DASHTILE_SAL_MY_LOST_SALES_THIS_MONTH
@@ -6389,6 +6459,8 @@ items:
   - SuperOffice.Globalization.RC.SR_FORMS_ACTIVE_ONLY_UNTIL
   - SuperOffice.Globalization.RC.SR_FORMS_ADD
   - SuperOffice.Globalization.RC.SR_FORMS_ADD_ELEMENT
+  - SuperOffice.Globalization.RC.SR_FORMS_ADD_UTM_TRACKING
+  - SuperOffice.Globalization.RC.SR_FORMS_ADD_UTM_TRACKING_DESC
   - SuperOffice.Globalization.RC.SR_FORMS_AUTOSUBMIT
   - SuperOffice.Globalization.RC.SR_FORMS_BLUE_FABRIC
   - SuperOffice.Globalization.RC.SR_FORMS_BUTTON_CENTER
@@ -6396,6 +6468,7 @@ items:
   - SuperOffice.Globalization.RC.SR_FORMS_BUTTON_LEFT
   - SuperOffice.Globalization.RC.SR_FORMS_BUTTON_RIGHT
   - SuperOffice.Globalization.RC.SR_FORMS_BUTTON_SIZE
+  - SuperOffice.Globalization.RC.SR_FORMS_BUTTON_STYLE
   - SuperOffice.Globalization.RC.SR_FORMS_BUTTON_TEXT
   - SuperOffice.Globalization.RC.SR_FORMS_BUTTON_WIDE
   - SuperOffice.Globalization.RC.SR_FORMS_CONFIG_BACKGROUNDCOLOR
@@ -6498,6 +6571,7 @@ items:
   - SuperOffice.Globalization.RC.SR_FORMS_INCLUDE_PARSER_VARIABLES
   - SuperOffice.Globalization.RC.SR_FORMS_LINK_INCLUDE_VARIABLES
   - SuperOffice.Globalization.RC.SR_FORMS_MAILING
+  - SuperOffice.Globalization.RC.SR_FORMS_MAILING_DATA
   - SuperOffice.Globalization.RC.SR_FORMS_MANDATORY
   - SuperOffice.Globalization.RC.SR_FORMS_MANUALLY_EXECUTE
   - SuperOffice.Globalization.RC.SR_FORMS_MANUALSUBMIT
@@ -6508,6 +6582,7 @@ items:
   - SuperOffice.Globalization.RC.SR_FORMS_OPEN_NEW_WINDOW
   - SuperOffice.Globalization.RC.SR_FORMS_OPTIONAL_KEY
   - SuperOffice.Globalization.RC.SR_FORMS_PLACEHOLDER
+  - SuperOffice.Globalization.RC.SR_FORMS_PRE_POPULATE
   - SuperOffice.Globalization.RC.SR_FORMS_PROCESS
   - SuperOffice.Globalization.RC.SR_FORMS_PROGRESS_COLOR
   - SuperOffice.Globalization.RC.SR_FORMS_PROPERTIES
@@ -6551,6 +6626,7 @@ items:
   - SuperOffice.Globalization.RC.SR_FORMS_RESPONSE_EMAIL
   - SuperOffice.Globalization.RC.SR_FORMS_SECRET_KEY
   - SuperOffice.Globalization.RC.SR_FORMS_SELECT_FIELDS
+  - SuperOffice.Globalization.RC.SR_FORMS_SELECT_PRE_FIELDS
   - SuperOffice.Globalization.RC.SR_FORMS_SHOW_CONFIRMATION
   - SuperOffice.Globalization.RC.SR_FORMS_SHOW_MESSAGE
   - SuperOffice.Globalization.RC.SR_FORMS_SITEKEY_MISSING
@@ -6569,6 +6645,11 @@ items:
   - SuperOffice.Globalization.RC.SR_FORMS_UNTIL
   - SuperOffice.Globalization.RC.SR_FORMS_UPDATE_NEEDED
   - SuperOffice.Globalization.RC.SR_FORMS_USE_EXISTING
+  - SuperOffice.Globalization.RC.SR_FORMS_UTM_CAMPAIGN_HELP
+  - SuperOffice.Globalization.RC.SR_FORMS_UTM_CONTENT_HELP
+  - SuperOffice.Globalization.RC.SR_FORMS_UTM_MEDIUM_HELP
+  - SuperOffice.Globalization.RC.SR_FORMS_UTM_SOURCE_HELP
+  - SuperOffice.Globalization.RC.SR_FORMS_UTM_TERM_HELP
   - SuperOffice.Globalization.RC.SR_FORMS_VALID_KEY
   - SuperOffice.Globalization.RC.SR_FORMS_VALUE
   - SuperOffice.Globalization.RC.SR_FORMS_VIEWSUBMISSION_CONSENT
@@ -7038,6 +7119,7 @@ items:
   - SuperOffice.Globalization.RC.SR_LABEL_JAPPOST
   - SuperOffice.Globalization.RC.SR_LABEL_JOBTITLE
   - SuperOffice.Globalization.RC.SR_LABEL_LASTNAME
+  - SuperOffice.Globalization.RC.SR_LABEL_LEADSTATUS
   - SuperOffice.Globalization.RC.SR_LABEL_MIDDLENAME
   - SuperOffice.Globalization.RC.SR_LABEL_MOBILEPHONE
   - SuperOffice.Globalization.RC.SR_LABEL_MRMSS
@@ -7572,6 +7654,7 @@ items:
   - SuperOffice.Globalization.RC.SR_MAILING_TRACKEDLINKS
   - SuperOffice.Globalization.RC.SR_MAILING_USE_TEMPLATE
   - SuperOffice.Globalization.RC.SR_MAILLOGIN_ADVANCED
+  - SuperOffice.Globalization.RC.SR_MAILLOGIN_CONNECT_EMAIL
   - SuperOffice.Globalization.RC.SR_MAILLOGIN_CONNECT_TO_EMAIL_SERVICE
   - SuperOffice.Globalization.RC.SR_MAILLOGIN_EMAILADDRESS
   - SuperOffice.Globalization.RC.SR_MAILLOGIN_PLEASE_ENTER
@@ -8777,8 +8860,6 @@ items:
   - SuperOffice.Globalization.RC.SR_PDL_Mail_IncomingInvitationHandling_1
   - SuperOffice.Globalization.RC.SR_PDL_Mail_IncomingInvitationHandling_2
   - SuperOffice.Globalization.RC.SR_PDL_Mail_IncomingInvitationHandling_3
-  - SuperOffice.Globalization.RC.SR_PDL_Mail_PreferredEmailConnection_1
-  - SuperOffice.Globalization.RC.SR_PDL_Mail_PreferredEmailConnection_2
   - SuperOffice.Globalization.RC.SR_PDL_Phone_DdeType_1
   - SuperOffice.Globalization.RC.SR_PDL_Phone_DdeType_2
   - SuperOffice.Globalization.RC.SR_PDL_Phone_DdeType_3
@@ -9443,8 +9524,6 @@ items:
   - SuperOffice.Globalization.RC.SR_PD_Mail_NotifyOnlineUsers_NAME
   - SuperOffice.Globalization.RC.SR_PD_Mail_OutgoingInvitationIncludeRsvp_DESC
   - SuperOffice.Globalization.RC.SR_PD_Mail_OutgoingInvitationIncludeRsvp_NAME
-  - SuperOffice.Globalization.RC.SR_PD_Mail_PreferredEmailConnection_DESC
-  - SuperOffice.Globalization.RC.SR_PD_Mail_PreferredEmailConnection_NAME
   - SuperOffice.Globalization.RC.SR_PD_Mail_RemoveAfterArchive_DESC
   - SuperOffice.Globalization.RC.SR_PD_Mail_RemoveAfterArchive_NAME
   - SuperOffice.Globalization.RC.SR_PD_Mail_SaveLogonInfo_DESC
@@ -9457,6 +9536,8 @@ items:
   - SuperOffice.Globalization.RC.SR_PD_Mail_ShowAllTemplates_NAME
   - SuperOffice.Globalization.RC.SR_PD_Mail_ShowConfirmationDialog_DESC
   - SuperOffice.Globalization.RC.SR_PD_Mail_ShowConfirmationDialog_NAME
+  - SuperOffice.Globalization.RC.SR_PD_Mail_ShowMyEmails_DESC
+  - SuperOffice.Globalization.RC.SR_PD_Mail_ShowMyEmails_NAME
   - SuperOffice.Globalization.RC.SR_PD_Mail_SmtpServerName_DESC
   - SuperOffice.Globalization.RC.SR_PD_Mail_SmtpServerName_NAME
   - SuperOffice.Globalization.RC.SR_PD_Mail_SmtpServerPass_DESC
@@ -12167,6 +12248,7 @@ items:
   - SuperOffice.Globalization.RC.SR_SELECTION_QUESTION_DELETE_NUMBEROF_DOCUMENTS
   - SuperOffice.Globalization.RC.SR_SELECTION_QUESTION_DELETE_NUMBEROF_PERSONS
   - SuperOffice.Globalization.RC.SR_SELECTION_QUESTION_DELETE_NUMBEROF_PROJECTS
+  - SuperOffice.Globalization.RC.SR_SELECTION_QUESTION_DELETE_NUMBEROF_RECORDS
   - SuperOffice.Globalization.RC.SR_SELECTION_QUESTION_DELETE_NUMBEROF_SALES
   - SuperOffice.Globalization.RC.SR_SELECTION_QUESTION_DELETE_NUMBEROF_SELECTIONS
   - SuperOffice.Globalization.RC.SR_SELECTION_QUESTION_DELETE_PERSON
@@ -12207,6 +12289,7 @@ items:
   - SuperOffice.Globalization.RC.SR_SELECTION_SAVEASSELECTION
   - SuperOffice.Globalization.RC.SR_SELECTION_SAVEASSELECTION_DISABLE_REASON
   - SuperOffice.Globalization.RC.SR_SELECTION_SAVECHANGES
+  - SuperOffice.Globalization.RC.SR_SELECTION_SAVE_FOR_ALL_DENIED
   - SuperOffice.Globalization.RC.SR_SELECTION_SELECTIONS
   - SuperOffice.Globalization.RC.SR_SELECTION_SELECTIONS_TOOLTIP
   - SuperOffice.Globalization.RC.SR_SELECTION_SELECTIONTYPE_APPOINTMENT
@@ -12273,6 +12356,7 @@ items:
   - SuperOffice.Globalization.RC.SR_SELECTION_WARNING_PERMANENT_DELETE_DOCUMENTS
   - SuperOffice.Globalization.RC.SR_SELECTION_WARNING_PERMANENT_DELETE_PERSONS
   - SuperOffice.Globalization.RC.SR_SELECTION_WARNING_PERMANENT_DELETE_PROJECTS
+  - SuperOffice.Globalization.RC.SR_SELECTION_WARNING_PERMANENT_DELETE_RECORDS
   - SuperOffice.Globalization.RC.SR_SELECTION_WARNING_PERMANENT_DELETE_SALES
   - SuperOffice.Globalization.RC.SR_SELECTION_WARNING_PERMANENT_DELETE_SELECTIONS
   - SuperOffice.Globalization.RC.SR_SELECTITEM_DEFAULT_PLACEHOLDER
@@ -12358,6 +12442,7 @@ items:
   - SuperOffice.Globalization.RC.SR_SEL_DELETE_ALL_DOCUMENTS_YES_NO
   - SuperOffice.Globalization.RC.SR_SEL_DELETE_ALL_PERSONS_YES_NO
   - SuperOffice.Globalization.RC.SR_SEL_DELETE_ALL_PROJECTS_YES_NO
+  - SuperOffice.Globalization.RC.SR_SEL_DELETE_ALL_RECORDS_YES_NO
   - SuperOffice.Globalization.RC.SR_SEL_DELETE_ALL_SALES_YES_NO
   - SuperOffice.Globalization.RC.SR_SEL_DELETE_ALL_SELECTIONS_YES_NO
   - SuperOffice.Globalization.RC.SR_SEL_DELETE_APPOINTMENTS_YES_NO
@@ -13281,6 +13366,10 @@ items:
   - SuperOffice.Globalization.RC.SR_TICKETSTATUS_TIMECOUNTER_EXTERNALLY
   - SuperOffice.Globalization.RC.SR_TICKETSTATUS_TIMECOUNTER_INTERNALLY
   - SuperOffice.Globalization.RC.SR_TICKETSTATUS_TIMECOUNTER_QUEUE
+  - SuperOffice.Globalization.RC.SR_TICKET_ACCEPT_DIALOG_LINE1
+  - SuperOffice.Globalization.RC.SR_TICKET_ACCEPT_DIALOG_LINE2
+  - SuperOffice.Globalization.RC.SR_TICKET_ACCEPT_DIALOG_LINE3
+  - SuperOffice.Globalization.RC.SR_TICKET_ACCEPT_DIALOG_TITLE
   - SuperOffice.Globalization.RC.SR_TICKET_ACTION_ACCEPT
   - SuperOffice.Globalization.RC.SR_TICKET_ACTION_COLLAPSE_ALL_MESSAGES
   - SuperOffice.Globalization.RC.SR_TICKET_ACTION_EXPAND_ALL_MESSAGES
@@ -14028,13 +14117,35 @@ items:
   - SuperOffice.Globalization.RC.SR_USRASS_RBASSIGNED
   - SuperOffice.Globalization.RC.SR_USRASS_RBUNASSIGNED
   - SuperOffice.Globalization.RC.SR_USRASS_VIEW
+  - SuperOffice.Globalization.RC.SR_UTM_ADMIN_ADDSCRIPT_DESC
+  - SuperOffice.Globalization.RC.SR_UTM_ADMIN_ADDSCRIPT_HEADER
+  - SuperOffice.Globalization.RC.SR_UTM_ADMIN_CONVERSIONTRACKING
+  - SuperOffice.Globalization.RC.SR_UTM_ADMIN_ENABLE_UTMTRACKING
+  - SuperOffice.Globalization.RC.SR_UTM_ADMIN_ENABLE_UTMTRACKING_DESC
+  - SuperOffice.Globalization.RC.SR_UTM_ADMIN_INFOBADGE
+  - SuperOffice.Globalization.RC.SR_UTM_ADMIN_INFOHEADER
+  - SuperOffice.Globalization.RC.SR_UTM_ADMIN_LINKS_HEADING
   - SuperOffice.Globalization.RC.SR_UTM_ARCHIVECOLUMN_TOOLTIP
-  - SuperOffice.Globalization.RC.SR_UTM_CAMPAIGN
-  - SuperOffice.Globalization.RC.SR_UTM_CONTENT
-  - SuperOffice.Globalization.RC.SR_UTM_MEDIUM
-  - SuperOffice.Globalization.RC.SR_UTM_REFERRER_DOMAIN
-  - SuperOffice.Globalization.RC.SR_UTM_SOURCE
-  - SuperOffice.Globalization.RC.SR_UTM_TERM
+  - SuperOffice.Globalization.RC.SR_UTM_CONVERSION_CAMPAIGN
+  - SuperOffice.Globalization.RC.SR_UTM_CONVERSION_CONTENT
+  - SuperOffice.Globalization.RC.SR_UTM_CONVERSION_MEDIUM
+  - SuperOffice.Globalization.RC.SR_UTM_CONVERSION_REFERRERDOMAIN
+  - SuperOffice.Globalization.RC.SR_UTM_CONVERSION_SOURCE
+  - SuperOffice.Globalization.RC.SR_UTM_CONVERSION_TERM
+  - SuperOffice.Globalization.RC.SR_UTM_ENABLE_UTMSAVING
+  - SuperOffice.Globalization.RC.SR_UTM_FIRSTTOUCH_CAMPAIGN
+  - SuperOffice.Globalization.RC.SR_UTM_FIRSTTOUCH_CONTENT
+  - SuperOffice.Globalization.RC.SR_UTM_FIRSTTOUCH_MEDIUM
+  - SuperOffice.Globalization.RC.SR_UTM_FIRSTTOUCH_REFERRER_DOMAIN
+  - SuperOffice.Globalization.RC.SR_UTM_FIRSTTOUCH_SOURCE
+  - SuperOffice.Globalization.RC.SR_UTM_FIRSTTOUCH_TERM
+  - SuperOffice.Globalization.RC.SR_UTM_LEADCREATION_CAMPAIGN
+  - SuperOffice.Globalization.RC.SR_UTM_LEADCREATION_CONTENT
+  - SuperOffice.Globalization.RC.SR_UTM_LEADCREATION_MEDIUM
+  - SuperOffice.Globalization.RC.SR_UTM_LEADCREATION_REFERRERDOMAIN
+  - SuperOffice.Globalization.RC.SR_UTM_LEADCREATION_SOURCE
+  - SuperOffice.Globalization.RC.SR_UTM_LEADCREATION_TERM
+  - SuperOffice.Globalization.RC.SR_UTM_PREFIX_LEAD
   - SuperOffice.Globalization.RC.SR_UTM_WEBFORM
   - SuperOffice.Globalization.RC.SR_UX_IMAGEVIEWER
   - SuperOffice.Globalization.RC.SR_UX_MENU_CONFIGURE_TASKBAR
@@ -23592,7 +23703,7 @@ items:
   assemblies:
   - SoCore
   namespace: SuperOffice.Globalization
-  summary: "'Nick name'<br />\r\nDatabase id of ejournal user; column in admin/users archive<br />\r\nUsage: None"
+  summary: "'Nickname'<br />\r\nDatabase id of ejournal user; column in admin/users archive<br />\r\nUsage: None"
   example: []
   syntax:
     content: public const string SR_ADMIN_EJDISPLAYNAME_8 = "[SR_ADMIN_EJDISPLAYNAME_8]"
@@ -23613,7 +23724,7 @@ items:
   assemblies:
   - SoCore
   namespace: SuperOffice.Globalization
-  summary: "'User's nick name in Service'<br />\r\nDatabase id of ejournal user; column in admin/users archive<br />\r\nUsage: None"
+  summary: "'User's nickname in Service'<br />\r\nDatabase id of ejournal user; column in admin/users archive<br />\r\nUsage: None"
   example: []
   syntax:
     content: public const string SR_ADMIN_EJDISPLAYNAME_TOOLTIP_8 = "[SR_ADMIN_EJDISPLAYNAME_TOOLTIP_8]"
@@ -24264,7 +24375,7 @@ items:
   assemblies:
   - SoCore
   namespace: SuperOffice.Globalization
-  summary: "'Go to selection of changed companies/contacts'<br />\r\nUsage: None"
+  summary: "'Go to selection of changed companies/contacts'<br />\r\nGerman: Unternehmen should be Firma, and Kontakt should be Person according to terminology list?<br />\r\nUsage: None"
   example: []
   syntax:
     content: public const string SR_ADMIN_IMPORT_CHANGEDCONTACTSSELECTION = "[SR_ADMIN_IMPORT_CHANGEDCONTACTSSELECTION]"
@@ -26343,7 +26454,7 @@ items:
   assemblies:
   - SoCore
   namespace: SuperOffice.Globalization
-  summary: "'{0} new companies/contacts imported from {1}'<br />\r\n{0} is number of imported contacts, {1} is importsource<br />\r\nUsage: None"
+  summary: "'{0} new companies/contacts imported from {1}'<br />\r\n{0} is number of imported contacts, {1} is importsource&lt;br/&gt;German: Unternehmen should be Firma, and Kontakt should be Person according to terminology list?<br />\r\nUsage: None"
   example: []
   syntax:
     content: public const string SR_ADMIN_IMPORT_DONE_LABEL = "[SR_ADMIN_IMPORT_DONE_LABEL]"
@@ -26364,7 +26475,7 @@ items:
   assemblies:
   - SoCore
   namespace: SuperOffice.Globalization
-  summary: "'{0} companies/contacts changed from {1}'<br />\r\n{0} is number of imported contacts, {1} is importsource<br />\r\nUsage: None"
+  summary: "'{0} companies/contacts changed from {1}'<br />\r\n{0} is number of imported contacts, {1} is importsource&lt;br/&gt;German: Unternehmen should be Firma, and Kontakt should be Person according to terminology list?<br />\r\nUsage: None"
   example: []
   syntax:
     content: public const string SR_ADMIN_IMPORT_DONE_LABEL2 = "[SR_ADMIN_IMPORT_DONE_LABEL2]"
@@ -27057,7 +27168,7 @@ items:
   assemblies:
   - SoCore
   namespace: SuperOffice.Globalization
-  summary: "'Go to selection of new companies/contacts'<br />\r\nUsage: None"
+  summary: "'Go to selection of new companies/contacts'<br />\r\nGerman: Unternehmen should be Firma, and Kontakt should be Person according to terminology list?<br />\r\nUsage: None"
   example: []
   syntax:
     content: public const string SR_ADMIN_IMPORT_NEWCONTACTSSELECTION = "[SR_ADMIN_IMPORT_NEWCONTACTSSELECTION]"
@@ -27099,7 +27210,7 @@ items:
   assemblies:
   - SoCore
   namespace: SuperOffice.Globalization
-  summary: "'New companies/contacts imported from {0} {1}'<br />\r\n{0} is replaced with importsource, {1} is replaced with date. <br />\r\nUsage: None"
+  summary: "'New companies/contacts imported from {0} {1}'<br />\r\n{0} is replaced with importsource, {1} is replaced with date. &lt;br/&gt;German: Unternehmen should be Firma, and Kontakt should be Person according to terminology list?<br />\r\nUsage: None"
   example: []
   syntax:
     content: public const string SR_ADMIN_IMPORT_NEW_SELECTION_NAME = "[SR_ADMIN_IMPORT_NEW_SELECTION_NAME]"
@@ -27414,7 +27525,7 @@ items:
   assemblies:
   - SoCore
   namespace: SuperOffice.Globalization
-  summary: "'New companies/contacts imported from {0} {1}'<br />\r\n{0} is replaced with importsource, {1} is replaced with date. <br />\r\nUsage: None"
+  summary: "'New companies/contacts imported from {0} {1}'<br />\r\n{0} is replaced with importsource, {1} is replaced with date. &lt;br/&gt;German: Unternehmen should be Firma, and Kontakt should be Person according to terminology list?<br />\r\nUsage: None"
   example: []
   syntax:
     content: public const string SR_ADMIN_IMPORT_SELECTION_NAME = "[SR_ADMIN_IMPORT_SELECTION_NAME]"
@@ -27631,6 +27742,195 @@ items:
     return:
       type: System.String
     content.vb: Public Const SR_ADMIN_INVOICE_TYPE As String = "[SR_ADMIN_INVOICE_TYPE]"
+- uid: SuperOffice.Globalization.RC.SR_ADMIN_LC_ASKFOR_CONFIRMATION
+  commentId: F:SuperOffice.Globalization.RC.SR_ADMIN_LC_ASKFOR_CONFIRMATION
+  id: SR_ADMIN_LC_ASKFOR_CONFIRMATION
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_ADMIN_LC_ASKFOR_CONFIRMATION
+  nameWithType: RC.SR_ADMIN_LC_ASKFOR_CONFIRMATION
+  fullName: SuperOffice.Globalization.RC.SR_ADMIN_LC_ASKFOR_CONFIRMATION
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Ask for user confirmation before updating'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_ADMIN_LC_ASKFOR_CONFIRMATION = "[SR_ADMIN_LC_ASKFOR_CONFIRMATION]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_ADMIN_LC_ASKFOR_CONFIRMATION As String = "[SR_ADMIN_LC_ASKFOR_CONFIRMATION]"
+- uid: SuperOffice.Globalization.RC.SR_ADMIN_LC_INFO
+  commentId: F:SuperOffice.Globalization.RC.SR_ADMIN_LC_INFO
+  id: SR_ADMIN_LC_INFO
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_ADMIN_LC_INFO
+  nameWithType: RC.SR_ADMIN_LC_INFO
+  fullName: SuperOffice.Globalization.RC.SR_ADMIN_LC_INFO
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Category will only be updated if current category is within group 'Potential customer''<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_ADMIN_LC_INFO = "[SR_ADMIN_LC_INFO]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_ADMIN_LC_INFO As String = "[SR_ADMIN_LC_INFO]"
+- uid: SuperOffice.Globalization.RC.SR_ADMIN_LC_INFO_HEADER
+  commentId: F:SuperOffice.Globalization.RC.SR_ADMIN_LC_INFO_HEADER
+  id: SR_ADMIN_LC_INFO_HEADER
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_ADMIN_LC_INFO_HEADER
+  nameWithType: RC.SR_ADMIN_LC_INFO_HEADER
+  fullName: SuperOffice.Globalization.RC.SR_ADMIN_LC_INFO_HEADER
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Automatically update company and contact category'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_ADMIN_LC_INFO_HEADER = "[SR_ADMIN_LC_INFO_HEADER]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_ADMIN_LC_INFO_HEADER As String = "[SR_ADMIN_LC_INFO_HEADER]"
+- uid: SuperOffice.Globalization.RC.SR_ADMIN_LC_LABEL
+  commentId: F:SuperOffice.Globalization.RC.SR_ADMIN_LC_LABEL
+  id: SR_ADMIN_LC_LABEL
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_ADMIN_LC_LABEL
+  nameWithType: RC.SR_ADMIN_LC_LABEL
+  fullName: SuperOffice.Globalization.RC.SR_ADMIN_LC_LABEL
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Lead categorization'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_ADMIN_LC_LABEL = "[SR_ADMIN_LC_LABEL]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_ADMIN_LC_LABEL As String = "[SR_ADMIN_LC_LABEL]"
+- uid: SuperOffice.Globalization.RC.SR_ADMIN_LC_SET_CATEGORY_TO
+  commentId: F:SuperOffice.Globalization.RC.SR_ADMIN_LC_SET_CATEGORY_TO
+  id: SR_ADMIN_LC_SET_CATEGORY_TO
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_ADMIN_LC_SET_CATEGORY_TO
+  nameWithType: RC.SR_ADMIN_LC_SET_CATEGORY_TO
+  fullName: SuperOffice.Globalization.RC.SR_ADMIN_LC_SET_CATEGORY_TO
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Set category to'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_ADMIN_LC_SET_CATEGORY_TO = "[SR_ADMIN_LC_SET_CATEGORY_TO]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_ADMIN_LC_SET_CATEGORY_TO As String = "[SR_ADMIN_LC_SET_CATEGORY_TO]"
+- uid: SuperOffice.Globalization.RC.SR_ADMIN_LC_UPDATE_COMPANY_SALE
+  commentId: F:SuperOffice.Globalization.RC.SR_ADMIN_LC_UPDATE_COMPANY_SALE
+  id: SR_ADMIN_LC_UPDATE_COMPANY_SALE
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_ADMIN_LC_UPDATE_COMPANY_SALE
+  nameWithType: RC.SR_ADMIN_LC_UPDATE_COMPANY_SALE
+  fullName: SuperOffice.Globalization.RC.SR_ADMIN_LC_UPDATE_COMPANY_SALE
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Update category when a sale is registered with the company'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_ADMIN_LC_UPDATE_COMPANY_SALE = "[SR_ADMIN_LC_UPDATE_COMPANY_SALE]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_ADMIN_LC_UPDATE_COMPANY_SALE As String = "[SR_ADMIN_LC_UPDATE_COMPANY_SALE]"
+- uid: SuperOffice.Globalization.RC.SR_ADMIN_LC_UPDATE_LEADSTATUS
+  commentId: F:SuperOffice.Globalization.RC.SR_ADMIN_LC_UPDATE_LEADSTATUS
+  id: SR_ADMIN_LC_UPDATE_LEADSTATUS
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_ADMIN_LC_UPDATE_LEADSTATUS
+  nameWithType: RC.SR_ADMIN_LC_UPDATE_LEADSTATUS
+  fullName: SuperOffice.Globalization.RC.SR_ADMIN_LC_UPDATE_LEADSTATUS
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Update category when a lead status is set to'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_ADMIN_LC_UPDATE_LEADSTATUS = "[SR_ADMIN_LC_UPDATE_LEADSTATUS]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_ADMIN_LC_UPDATE_LEADSTATUS As String = "[SR_ADMIN_LC_UPDATE_LEADSTATUS]"
+- uid: SuperOffice.Globalization.RC.SR_ADMIN_LC_UPDATE_SALE_LOST
+  commentId: F:SuperOffice.Globalization.RC.SR_ADMIN_LC_UPDATE_SALE_LOST
+  id: SR_ADMIN_LC_UPDATE_SALE_LOST
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_ADMIN_LC_UPDATE_SALE_LOST
+  nameWithType: RC.SR_ADMIN_LC_UPDATE_SALE_LOST
+  fullName: SuperOffice.Globalization.RC.SR_ADMIN_LC_UPDATE_SALE_LOST
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Update category when a sale is lost'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_ADMIN_LC_UPDATE_SALE_LOST = "[SR_ADMIN_LC_UPDATE_SALE_LOST]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_ADMIN_LC_UPDATE_SALE_LOST As String = "[SR_ADMIN_LC_UPDATE_SALE_LOST]"
+- uid: SuperOffice.Globalization.RC.SR_ADMIN_LC_UPDATE_SALE_SOLD
+  commentId: F:SuperOffice.Globalization.RC.SR_ADMIN_LC_UPDATE_SALE_SOLD
+  id: SR_ADMIN_LC_UPDATE_SALE_SOLD
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_ADMIN_LC_UPDATE_SALE_SOLD
+  nameWithType: RC.SR_ADMIN_LC_UPDATE_SALE_SOLD
+  fullName: SuperOffice.Globalization.RC.SR_ADMIN_LC_UPDATE_SALE_SOLD
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Update category when a sale is sold'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_ADMIN_LC_UPDATE_SALE_SOLD = "[SR_ADMIN_LC_UPDATE_SALE_SOLD]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_ADMIN_LC_UPDATE_SALE_SOLD As String = "[SR_ADMIN_LC_UPDATE_SALE_SOLD]"
 - uid: SuperOffice.Globalization.RC.SR_ADMIN_LICENSE_ACTIVATED
   commentId: F:SuperOffice.Globalization.RC.SR_ADMIN_LICENSE_ACTIVATED
   id: SR_ADMIN_LICENSE_ACTIVATED
@@ -27988,6 +28288,27 @@ items:
     return:
       type: System.String
     content.vb: Public Const SR_ADMIN_LISTS_FROMLIBRARY As String = "[SR_ADMIN_LISTS_FROMLIBRARY]"
+- uid: SuperOffice.Globalization.RC.SR_ADMIN_LISTS_LEADSTATUS_TOOLTIP
+  commentId: F:SuperOffice.Globalization.RC.SR_ADMIN_LISTS_LEADSTATUS_TOOLTIP
+  id: SR_ADMIN_LISTS_LEADSTATUS_TOOLTIP
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_ADMIN_LISTS_LEADSTATUS_TOOLTIP
+  nameWithType: RC.SR_ADMIN_LISTS_LEADSTATUS_TOOLTIP
+  fullName: SuperOffice.Globalization.RC.SR_ADMIN_LISTS_LEADSTATUS_TOOLTIP
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Lead status is only available for category in the group \"Potential Customer\".'<br />\r\nThe term \"lead\" should be kept for all languages, as this term is adopted by our marketing users in any language.<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_ADMIN_LISTS_LEADSTATUS_TOOLTIP = "[SR_ADMIN_LISTS_LEADSTATUS_TOOLTIP]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_ADMIN_LISTS_LEADSTATUS_TOOLTIP As String = "[SR_ADMIN_LISTS_LEADSTATUS_TOOLTIP]"
 - uid: SuperOffice.Globalization.RC.SR_ADMIN_LISTS_LOGGEDINUSER
   commentId: F:SuperOffice.Globalization.RC.SR_ADMIN_LISTS_LOGGEDINUSER
   id: SR_ADMIN_LISTS_LOGGEDINUSER
@@ -32118,7 +32439,7 @@ items:
   assemblies:
   - SoCore
   namespace: SuperOffice.Globalization
-  summary: "'SuperOffice does not send privacy e-mails automatically to imported contacts.'<br />\r\nTooltip shown when the 'send confirmation email' is not available when configuring privacy sources.<br />\r\nUsage: None"
+  summary: "'SuperOffice does not send privacy e-mails automatically to imported contacts.'<br />\r\nTooltip shown when the 'send confirmation email' is not available when configuring privacy sources.&lt;br/&gt;German: Unternehmen should be Firma, and Kontakt should be Person according to terminology list?<br />\r\nUsage: None"
   example: []
   syntax:
     content: public const string SR_ADMIN_PRIVACY_SOURCE_NOT_SENT = "[SR_ADMIN_PRIVACY_SOURCE_NOT_SENT]"
@@ -33826,6 +34147,27 @@ items:
     return:
       type: System.String
     content.vb: Public Const SR_ADMIN_ROLE_CRUD_UPDATE As String = "[SR_ADMIN_ROLE_CRUD_UPDATE]"
+- uid: SuperOffice.Globalization.RC.SR_ADMIN_ROLE_CUSTOM_OBJECT
+  commentId: F:SuperOffice.Globalization.RC.SR_ADMIN_ROLE_CUSTOM_OBJECT
+  id: SR_ADMIN_ROLE_CUSTOM_OBJECT
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_ADMIN_ROLE_CUSTOM_OBJECT
+  nameWithType: RC.SR_ADMIN_ROLE_CUSTOM_OBJECT
+  fullName: SuperOffice.Globalization.RC.SR_ADMIN_ROLE_CUSTOM_OBJECT
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Custom object'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_ADMIN_ROLE_CUSTOM_OBJECT = "[SR_ADMIN_ROLE_CUSTOM_OBJECT]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_ADMIN_ROLE_CUSTOM_OBJECT As String = "[SR_ADMIN_ROLE_CUSTOM_OBJECT]"
 - uid: SuperOffice.Globalization.RC.SR_ADMIN_ROLE_DATARIGHTS
   commentId: F:SuperOffice.Globalization.RC.SR_ADMIN_ROLE_DATARIGHTS
   id: SR_ADMIN_ROLE_DATARIGHTS
@@ -33847,6 +34189,27 @@ items:
     return:
       type: System.String
     content.vb: Public Const SR_ADMIN_ROLE_DATARIGHTS As String = "[SR_ADMIN_ROLE_DATARIGHTS]"
+- uid: SuperOffice.Globalization.RC.SR_ADMIN_ROLE_DATARIGHTS_CUSTOM_OBJECTS
+  commentId: F:SuperOffice.Globalization.RC.SR_ADMIN_ROLE_DATARIGHTS_CUSTOM_OBJECTS
+  id: SR_ADMIN_ROLE_DATARIGHTS_CUSTOM_OBJECTS
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_ADMIN_ROLE_DATARIGHTS_CUSTOM_OBJECTS
+  nameWithType: RC.SR_ADMIN_ROLE_DATARIGHTS_CUSTOM_OBJECTS
+  fullName: SuperOffice.Globalization.RC.SR_ADMIN_ROLE_DATARIGHTS_CUSTOM_OBJECTS
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Custom objects rights'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_ADMIN_ROLE_DATARIGHTS_CUSTOM_OBJECTS = "[SR_ADMIN_ROLE_DATARIGHTS_CUSTOM_OBJECTS]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_ADMIN_ROLE_DATARIGHTS_CUSTOM_OBJECTS As String = "[SR_ADMIN_ROLE_DATARIGHTS_CUSTOM_OBJECTS]"
 - uid: SuperOffice.Globalization.RC.SR_ADMIN_ROLE_DATARIGHT_OBJECT
   commentId: F:SuperOffice.Globalization.RC.SR_ADMIN_ROLE_DATARIGHT_OBJECT
   id: SR_ADMIN_ROLE_DATARIGHT_OBJECT
@@ -34141,6 +34504,27 @@ items:
     return:
       type: System.String
     content.vb: Public Const SR_ADMIN_ROLE_MENUTEXT As String = "[SR_ADMIN_ROLE_MENUTEXT]"
+- uid: SuperOffice.Globalization.RC.SR_ADMIN_ROLE_PERMISSION
+  commentId: F:SuperOffice.Globalization.RC.SR_ADMIN_ROLE_PERMISSION
+  id: SR_ADMIN_ROLE_PERMISSION
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_ADMIN_ROLE_PERMISSION
+  nameWithType: RC.SR_ADMIN_ROLE_PERMISSION
+  fullName: SuperOffice.Globalization.RC.SR_ADMIN_ROLE_PERMISSION
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Permission'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_ADMIN_ROLE_PERMISSION = "[SR_ADMIN_ROLE_PERMISSION]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_ADMIN_ROLE_PERMISSION As String = "[SR_ADMIN_ROLE_PERMISSION]"
 - uid: SuperOffice.Globalization.RC.SR_ADMIN_ROLE_RELATION_DEPARTMENT
   commentId: F:SuperOffice.Globalization.RC.SR_ADMIN_ROLE_RELATION_DEPARTMENT
   id: SR_ADMIN_ROLE_RELATION_DEPARTMENT
@@ -36906,7 +37290,7 @@ items:
   assemblies:
   - SoCore
   namespace: SuperOffice.Globalization
-  summary: "'This is a list of companies in addition to your main company, and which include contacts who may be defined as users of the system.'<br />\r\nUsage: None"
+  summary: "'This is a list of companies in addition to your main company, and which include contacts who may be defined as users of the system.'<br />\r\nGerman: Unternehmen should be Firma, and Kontakt should be Person according to terminology list?&lt;br/&gt;Danish: Company should be Firma, not Virksomhed<br />\r\nUsage: None"
   example: []
   syntax:
     content: public const string SR_ADMIN_SYSTEM_COMPANIES_DESCRIPTION = "[SR_ADMIN_SYSTEM_COMPANIES_DESCRIPTION]"
@@ -49702,6 +50086,27 @@ items:
     return:
       type: System.String
     content.vb: Public Const SR_ARCHIVE_CATEGORYMEMBERS_WEIGHT As String = "[SR_ARCHIVE_CATEGORYMEMBERS_WEIGHT]"
+- uid: SuperOffice.Globalization.RC.SR_ARCHIVE_CATEGORY_RANK
+  commentId: F:SuperOffice.Globalization.RC.SR_ARCHIVE_CATEGORY_RANK
+  id: SR_ARCHIVE_CATEGORY_RANK
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_ARCHIVE_CATEGORY_RANK
+  nameWithType: RC.SR_ARCHIVE_CATEGORY_RANK
+  fullName: SuperOffice.Globalization.RC.SR_ARCHIVE_CATEGORY_RANK
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Category rank'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_ARCHIVE_CATEGORY_RANK = "[SR_ARCHIVE_CATEGORY_RANK]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_ARCHIVE_CATEGORY_RANK As String = "[SR_ARCHIVE_CATEGORY_RANK]"
 - uid: SuperOffice.Globalization.RC.SR_ARCHIVE_CHECKBOX_OFF
   commentId: F:SuperOffice.Globalization.RC.SR_ARCHIVE_CHECKBOX_OFF
   id: SR_ARCHIVE_CHECKBOX_OFF
@@ -56506,6 +56911,48 @@ items:
     return:
       type: System.String
     content.vb: Public Const SR_ARCHIVE_SALE_DATE As String = "[SR_ARCHIVE_SALE_DATE]"
+- uid: SuperOffice.Globalization.RC.SR_ARCHIVE_SALE_DAYS_IN_STAGE
+  commentId: F:SuperOffice.Globalization.RC.SR_ARCHIVE_SALE_DAYS_IN_STAGE
+  id: SR_ARCHIVE_SALE_DAYS_IN_STAGE
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_ARCHIVE_SALE_DAYS_IN_STAGE
+  nameWithType: RC.SR_ARCHIVE_SALE_DAYS_IN_STAGE
+  fullName: SuperOffice.Globalization.RC.SR_ARCHIVE_SALE_DAYS_IN_STAGE
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Days in stage'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_ARCHIVE_SALE_DAYS_IN_STAGE = "[SR_ARCHIVE_SALE_DAYS_IN_STAGE]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_ARCHIVE_SALE_DAYS_IN_STAGE As String = "[SR_ARCHIVE_SALE_DAYS_IN_STAGE]"
+- uid: SuperOffice.Globalization.RC.SR_ARCHIVE_SALE_DAYS_IN_STAGE_TOOLTIP
+  commentId: F:SuperOffice.Globalization.RC.SR_ARCHIVE_SALE_DAYS_IN_STAGE_TOOLTIP
+  id: SR_ARCHIVE_SALE_DAYS_IN_STAGE_TOOLTIP
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_ARCHIVE_SALE_DAYS_IN_STAGE_TOOLTIP
+  nameWithType: RC.SR_ARCHIVE_SALE_DAYS_IN_STAGE_TOOLTIP
+  fullName: SuperOffice.Globalization.RC.SR_ARCHIVE_SALE_DAYS_IN_STAGE_TOOLTIP
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Total number of days in this stage'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_ARCHIVE_SALE_DAYS_IN_STAGE_TOOLTIP = "[SR_ARCHIVE_SALE_DAYS_IN_STAGE_TOOLTIP]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_ARCHIVE_SALE_DAYS_IN_STAGE_TOOLTIP As String = "[SR_ARCHIVE_SALE_DAYS_IN_STAGE_TOOLTIP]"
 - uid: SuperOffice.Globalization.RC.SR_ARCHIVE_SALE_EARNING
   commentId: F:SuperOffice.Globalization.RC.SR_ARCHIVE_SALE_EARNING
   id: SR_ARCHIVE_SALE_EARNING
@@ -56793,13 +57240,34 @@ items:
   assemblies:
   - SoCore
   namespace: SuperOffice.Globalization
-  summary: "'Stage when closed'<br />\r\nDisplay text for originalStage column/criteria in archive<br />\r\nUsage: None"
+  summary: "'Stage when closed'<br />\r\nDisplay text for stageWhenClosed column/criteria in archive<br />\r\nUsage: None"
   example: []
   syntax:
     content: public const string SR_ARCHIVE_SALE_STAGE_WHEN_CLOSED = "[SR_ARCHIVE_SALE_STAGE_WHEN_CLOSED]"
     return:
       type: System.String
     content.vb: Public Const SR_ARCHIVE_SALE_STAGE_WHEN_CLOSED As String = "[SR_ARCHIVE_SALE_STAGE_WHEN_CLOSED]"
+- uid: SuperOffice.Globalization.RC.SR_ARCHIVE_SALE_STAGE_WHEN_CLOSED_TOOLTIP
+  commentId: F:SuperOffice.Globalization.RC.SR_ARCHIVE_SALE_STAGE_WHEN_CLOSED_TOOLTIP
+  id: SR_ARCHIVE_SALE_STAGE_WHEN_CLOSED_TOOLTIP
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_ARCHIVE_SALE_STAGE_WHEN_CLOSED_TOOLTIP
+  nameWithType: RC.SR_ARCHIVE_SALE_STAGE_WHEN_CLOSED_TOOLTIP
+  fullName: SuperOffice.Globalization.RC.SR_ARCHIVE_SALE_STAGE_WHEN_CLOSED_TOOLTIP
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'The stage of the sale when it was closed (sold or lost).'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_ARCHIVE_SALE_STAGE_WHEN_CLOSED_TOOLTIP = "[SR_ARCHIVE_SALE_STAGE_WHEN_CLOSED_TOOLTIP]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_ARCHIVE_SALE_STAGE_WHEN_CLOSED_TOOLTIP As String = "[SR_ARCHIVE_SALE_STAGE_WHEN_CLOSED_TOOLTIP]"
 - uid: SuperOffice.Globalization.RC.SR_ARCHIVE_SALE_TITLE
   commentId: F:SuperOffice.Globalization.RC.SR_ARCHIVE_SALE_TITLE
   id: SR_ARCHIVE_SALE_TITLE
@@ -63331,6 +63799,69 @@ items:
     return:
       type: System.String
     content.vb: Public Const SR_BATCH_QUEUED_TASKS As String = "[SR_BATCH_QUEUED_TASKS]"
+- uid: SuperOffice.Globalization.RC.SR_BATCH_RAGUPDATEPLUGIN_NAME
+  commentId: F:SuperOffice.Globalization.RC.SR_BATCH_RAGUPDATEPLUGIN_NAME
+  id: SR_BATCH_RAGUPDATEPLUGIN_NAME
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_BATCH_RAGUPDATEPLUGIN_NAME
+  nameWithType: RC.SR_BATCH_RAGUPDATEPLUGIN_NAME
+  fullName: SuperOffice.Globalization.RC.SR_BATCH_RAGUPDATEPLUGIN_NAME
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Knowledge base update'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_BATCH_RAGUPDATEPLUGIN_NAME = "[SR_BATCH_RAGUPDATEPLUGIN_NAME]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_BATCH_RAGUPDATEPLUGIN_NAME As String = "[SR_BATCH_RAGUPDATEPLUGIN_NAME]"
+- uid: SuperOffice.Globalization.RC.SR_BATCH_RAGUPDATEPLUGIN_TOOLTIP
+  commentId: F:SuperOffice.Globalization.RC.SR_BATCH_RAGUPDATEPLUGIN_TOOLTIP
+  id: SR_BATCH_RAGUPDATEPLUGIN_TOOLTIP
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_BATCH_RAGUPDATEPLUGIN_TOOLTIP
+  nameWithType: RC.SR_BATCH_RAGUPDATEPLUGIN_TOOLTIP
+  fullName: SuperOffice.Globalization.RC.SR_BATCH_RAGUPDATEPLUGIN_TOOLTIP
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Updating the SuperOffice AI knowledge base.'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_BATCH_RAGUPDATEPLUGIN_TOOLTIP = "[SR_BATCH_RAGUPDATEPLUGIN_TOOLTIP]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_BATCH_RAGUPDATEPLUGIN_TOOLTIP As String = "[SR_BATCH_RAGUPDATEPLUGIN_TOOLTIP]"
+- uid: SuperOffice.Globalization.RC.SR_BATCH_RAUPDATEPLUGIN_CANCELLATION
+  commentId: F:SuperOffice.Globalization.RC.SR_BATCH_RAUPDATEPLUGIN_CANCELLATION
+  id: SR_BATCH_RAUPDATEPLUGIN_CANCELLATION
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_BATCH_RAUPDATEPLUGIN_CANCELLATION
+  nameWithType: RC.SR_BATCH_RAUPDATEPLUGIN_CANCELLATION
+  fullName: SuperOffice.Globalization.RC.SR_BATCH_RAUPDATEPLUGIN_CANCELLATION
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'If this task is cancelled, the remaining rows will not be updated. Rows already updated will not be reverted back to their original value.'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_BATCH_RAUPDATEPLUGIN_CANCELLATION = "[SR_BATCH_RAUPDATEPLUGIN_CANCELLATION]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_BATCH_RAUPDATEPLUGIN_CANCELLATION As String = "[SR_BATCH_RAUPDATEPLUGIN_CANCELLATION]"
 - uid: SuperOffice.Globalization.RC.SR_BATCH_REPORTERBATCHPLUGIN_NAME
   commentId: F:SuperOffice.Globalization.RC.SR_BATCH_REPORTERBATCHPLUGIN_NAME
   id: SR_BATCH_REPORTERBATCHPLUGIN_NAME
@@ -63688,6 +64219,48 @@ items:
     return:
       type: System.String
     content.vb: Public Const SR_BETWEEN_LC As String = "[SR_BETWEEN_LC]"
+- uid: SuperOffice.Globalization.RC.SR_BOARD_BADGE_REGISTERED
+  commentId: F:SuperOffice.Globalization.RC.SR_BOARD_BADGE_REGISTERED
+  id: SR_BOARD_BADGE_REGISTERED
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_BOARD_BADGE_REGISTERED
+  nameWithType: RC.SR_BOARD_BADGE_REGISTERED
+  fullName: SuperOffice.Globalization.RC.SR_BOARD_BADGE_REGISTERED
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Days since registered'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_BOARD_BADGE_REGISTERED = "[SR_BOARD_BADGE_REGISTERED]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_BOARD_BADGE_REGISTERED As String = "[SR_BOARD_BADGE_REGISTERED]"
+- uid: SuperOffice.Globalization.RC.SR_BOARD_CANNOT_MOVE_PERSON
+  commentId: F:SuperOffice.Globalization.RC.SR_BOARD_CANNOT_MOVE_PERSON
+  id: SR_BOARD_CANNOT_MOVE_PERSON
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_BOARD_CANNOT_MOVE_PERSON
+  nameWithType: RC.SR_BOARD_CANNOT_MOVE_PERSON
+  fullName: SuperOffice.Globalization.RC.SR_BOARD_CANNOT_MOVE_PERSON
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'This person cannot be moved. Please change the associated contact instead.'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_BOARD_CANNOT_MOVE_PERSON = "[SR_BOARD_CANNOT_MOVE_PERSON]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_BOARD_CANNOT_MOVE_PERSON As String = "[SR_BOARD_CANNOT_MOVE_PERSON]"
 - uid: SuperOffice.Globalization.RC.SR_BOARD_COLOR_BY
   commentId: F:SuperOffice.Globalization.RC.SR_BOARD_COLOR_BY
   id: SR_BOARD_COLOR_BY
@@ -63709,6 +64282,90 @@ items:
     return:
       type: System.String
     content.vb: Public Const SR_BOARD_COLOR_BY As String = "[SR_BOARD_COLOR_BY]"
+- uid: SuperOffice.Globalization.RC.SR_BOARD_CONTACT_MOVE_TO_CATEGORY
+  commentId: F:SuperOffice.Globalization.RC.SR_BOARD_CONTACT_MOVE_TO_CATEGORY
+  id: SR_BOARD_CONTACT_MOVE_TO_CATEGORY
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_BOARD_CONTACT_MOVE_TO_CATEGORY
+  nameWithType: RC.SR_BOARD_CONTACT_MOVE_TO_CATEGORY
+  fullName: SuperOffice.Globalization.RC.SR_BOARD_CONTACT_MOVE_TO_CATEGORY
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Move to next category'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_BOARD_CONTACT_MOVE_TO_CATEGORY = "[SR_BOARD_CONTACT_MOVE_TO_CATEGORY]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_BOARD_CONTACT_MOVE_TO_CATEGORY As String = "[SR_BOARD_CONTACT_MOVE_TO_CATEGORY]"
+- uid: SuperOffice.Globalization.RC.SR_BOARD_CONTACT_SELECT_CATEGORY
+  commentId: F:SuperOffice.Globalization.RC.SR_BOARD_CONTACT_SELECT_CATEGORY
+  id: SR_BOARD_CONTACT_SELECT_CATEGORY
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_BOARD_CONTACT_SELECT_CATEGORY
+  nameWithType: RC.SR_BOARD_CONTACT_SELECT_CATEGORY
+  fullName: SuperOffice.Globalization.RC.SR_BOARD_CONTACT_SELECT_CATEGORY
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Select a category'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_BOARD_CONTACT_SELECT_CATEGORY = "[SR_BOARD_CONTACT_SELECT_CATEGORY]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_BOARD_CONTACT_SELECT_CATEGORY As String = "[SR_BOARD_CONTACT_SELECT_CATEGORY]"
+- uid: SuperOffice.Globalization.RC.SR_BOARD_CONTACT_SETTINGS
+  commentId: F:SuperOffice.Globalization.RC.SR_BOARD_CONTACT_SETTINGS
+  id: SR_BOARD_CONTACT_SETTINGS
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_BOARD_CONTACT_SETTINGS
+  nameWithType: RC.SR_BOARD_CONTACT_SETTINGS
+  fullName: SuperOffice.Globalization.RC.SR_BOARD_CONTACT_SETTINGS
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Company board settings'<br />\r\nDanish: Company translates to Firma, not Virksomhed.<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_BOARD_CONTACT_SETTINGS = "[SR_BOARD_CONTACT_SETTINGS]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_BOARD_CONTACT_SETTINGS As String = "[SR_BOARD_CONTACT_SETTINGS]"
+- uid: SuperOffice.Globalization.RC.SR_BOARD_CONTACT_VIEW_ENTITY
+  commentId: F:SuperOffice.Globalization.RC.SR_BOARD_CONTACT_VIEW_ENTITY
+  id: SR_BOARD_CONTACT_VIEW_ENTITY
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_BOARD_CONTACT_VIEW_ENTITY
+  nameWithType: RC.SR_BOARD_CONTACT_VIEW_ENTITY
+  fullName: SuperOffice.Globalization.RC.SR_BOARD_CONTACT_VIEW_ENTITY
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'View entity'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_BOARD_CONTACT_VIEW_ENTITY = "[SR_BOARD_CONTACT_VIEW_ENTITY]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_BOARD_CONTACT_VIEW_ENTITY As String = "[SR_BOARD_CONTACT_VIEW_ENTITY]"
 - uid: SuperOffice.Globalization.RC.SR_BOARD_CREATE_CARD
   commentId: F:SuperOffice.Globalization.RC.SR_BOARD_CREATE_CARD
   id: SR_BOARD_CREATE_CARD
@@ -63772,6 +64429,27 @@ items:
     return:
       type: System.String
     content.vb: Public Const SR_BOARD_DAYS_SINCE As String = "[SR_BOARD_DAYS_SINCE]"
+- uid: SuperOffice.Globalization.RC.SR_BOARD_FILTER_CONTACT
+  commentId: F:SuperOffice.Globalization.RC.SR_BOARD_FILTER_CONTACT
+  id: SR_BOARD_FILTER_CONTACT
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_BOARD_FILTER_CONTACT
+  nameWithType: RC.SR_BOARD_FILTER_CONTACT
+  fullName: SuperOffice.Globalization.RC.SR_BOARD_FILTER_CONTACT
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Filter companies by name...'<br />\r\nPleasae follow the term list for \"companies\"&lt;br/&gt;German:: \"Firma\"&lt;br/&gt;Danish: \"Fima\"&lt;br/&gt;Norwegian: \"Firma\"<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_BOARD_FILTER_CONTACT = "[SR_BOARD_FILTER_CONTACT]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_BOARD_FILTER_CONTACT As String = "[SR_BOARD_FILTER_CONTACT]"
 - uid: SuperOffice.Globalization.RC.SR_BOARD_FILTER_COUNT
   commentId: F:SuperOffice.Globalization.RC.SR_BOARD_FILTER_COUNT
   id: SR_BOARD_FILTER_COUNT
@@ -63793,6 +64471,27 @@ items:
     return:
       type: System.String
     content.vb: Public Const SR_BOARD_FILTER_COUNT As String = "[SR_BOARD_FILTER_COUNT]"
+- uid: SuperOffice.Globalization.RC.SR_BOARD_FILTER_PERSON
+  commentId: F:SuperOffice.Globalization.RC.SR_BOARD_FILTER_PERSON
+  id: SR_BOARD_FILTER_PERSON
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_BOARD_FILTER_PERSON
+  nameWithType: RC.SR_BOARD_FILTER_PERSON
+  fullName: SuperOffice.Globalization.RC.SR_BOARD_FILTER_PERSON
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Filter contacts by name...'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_BOARD_FILTER_PERSON = "[SR_BOARD_FILTER_PERSON]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_BOARD_FILTER_PERSON As String = "[SR_BOARD_FILTER_PERSON]"
 - uid: SuperOffice.Globalization.RC.SR_BOARD_FILTER_PROJECT
   commentId: F:SuperOffice.Globalization.RC.SR_BOARD_FILTER_PROJECT
   id: SR_BOARD_FILTER_PROJECT
@@ -63961,6 +64660,48 @@ items:
     return:
       type: System.String
     content.vb: Public Const SR_BOARD_HIDE_EMPTY_GROUPS As String = "[SR_BOARD_HIDE_EMPTY_GROUPS]"
+- uid: SuperOffice.Globalization.RC.SR_BOARD_INVALID_CONTACT_BUSINESS
+  commentId: F:SuperOffice.Globalization.RC.SR_BOARD_INVALID_CONTACT_BUSINESS
+  id: SR_BOARD_INVALID_CONTACT_BUSINESS
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_BOARD_INVALID_CONTACT_BUSINESS
+  nameWithType: RC.SR_BOARD_INVALID_CONTACT_BUSINESS
+  fullName: SuperOffice.Globalization.RC.SR_BOARD_INVALID_CONTACT_BUSINESS
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'You are not allowed to select this industry.'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_BOARD_INVALID_CONTACT_BUSINESS = "[SR_BOARD_INVALID_CONTACT_BUSINESS]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_BOARD_INVALID_CONTACT_BUSINESS As String = "[SR_BOARD_INVALID_CONTACT_BUSINESS]"
+- uid: SuperOffice.Globalization.RC.SR_BOARD_INVALID_CONTACT_CATEGORY
+  commentId: F:SuperOffice.Globalization.RC.SR_BOARD_INVALID_CONTACT_CATEGORY
+  id: SR_BOARD_INVALID_CONTACT_CATEGORY
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_BOARD_INVALID_CONTACT_CATEGORY
+  nameWithType: RC.SR_BOARD_INVALID_CONTACT_CATEGORY
+  fullName: SuperOffice.Globalization.RC.SR_BOARD_INVALID_CONTACT_CATEGORY
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'You are not allowed to set this category.'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_BOARD_INVALID_CONTACT_CATEGORY = "[SR_BOARD_INVALID_CONTACT_CATEGORY]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_BOARD_INVALID_CONTACT_CATEGORY As String = "[SR_BOARD_INVALID_CONTACT_CATEGORY]"
 - uid: SuperOffice.Globalization.RC.SR_BOARD_INVALID_GROUP_SUBGROUP
   commentId: F:SuperOffice.Globalization.RC.SR_BOARD_INVALID_GROUP_SUBGROUP
   id: SR_BOARD_INVALID_GROUP_SUBGROUP
@@ -63982,6 +64723,27 @@ items:
     return:
       type: System.String
     content.vb: Public Const SR_BOARD_INVALID_GROUP_SUBGROUP As String = "[SR_BOARD_INVALID_GROUP_SUBGROUP]"
+- uid: SuperOffice.Globalization.RC.SR_BOARD_INVALID_LEAD_STATUS
+  commentId: F:SuperOffice.Globalization.RC.SR_BOARD_INVALID_LEAD_STATUS
+  id: SR_BOARD_INVALID_LEAD_STATUS
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_BOARD_INVALID_LEAD_STATUS
+  nameWithType: RC.SR_BOARD_INVALID_LEAD_STATUS
+  fullName: SuperOffice.Globalization.RC.SR_BOARD_INVALID_LEAD_STATUS
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'You are not allowed to set this lead status.'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_BOARD_INVALID_LEAD_STATUS = "[SR_BOARD_INVALID_LEAD_STATUS]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_BOARD_INVALID_LEAD_STATUS As String = "[SR_BOARD_INVALID_LEAD_STATUS]"
 - uid: SuperOffice.Globalization.RC.SR_BOARD_INVALID_PROJECT_TYPE
   commentId: F:SuperOffice.Globalization.RC.SR_BOARD_INVALID_PROJECT_TYPE
   id: SR_BOARD_INVALID_PROJECT_TYPE
@@ -64143,13 +64905,76 @@ items:
   assemblies:
   - SoCore
   namespace: SuperOffice.Globalization
-  summary: "'Not linked to an associate'<br />\r\nUsage: None"
+  summary: "'Not linked to an associate'<br />\r\nThis is about associate, as in person. Not associated company.&lt;br/&gt;For danish this will \"medarbeider\" or similar.<br />\r\nUsage: None"
   example: []
   syntax:
     content: public const string SR_BOARD_LANE_NO_ASSOCIATE_LINK = "[SR_BOARD_LANE_NO_ASSOCIATE_LINK]"
     return:
       type: System.String
     content.vb: Public Const SR_BOARD_LANE_NO_ASSOCIATE_LINK As String = "[SR_BOARD_LANE_NO_ASSOCIATE_LINK]"
+- uid: SuperOffice.Globalization.RC.SR_BOARD_LANE_NO_BUSINESS_LINK
+  commentId: F:SuperOffice.Globalization.RC.SR_BOARD_LANE_NO_BUSINESS_LINK
+  id: SR_BOARD_LANE_NO_BUSINESS_LINK
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_BOARD_LANE_NO_BUSINESS_LINK
+  nameWithType: RC.SR_BOARD_LANE_NO_BUSINESS_LINK
+  fullName: SuperOffice.Globalization.RC.SR_BOARD_LANE_NO_BUSINESS_LINK
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'No business'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_BOARD_LANE_NO_BUSINESS_LINK = "[SR_BOARD_LANE_NO_BUSINESS_LINK]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_BOARD_LANE_NO_BUSINESS_LINK As String = "[SR_BOARD_LANE_NO_BUSINESS_LINK]"
+- uid: SuperOffice.Globalization.RC.SR_BOARD_LANE_NO_CATEGORY_LINK
+  commentId: F:SuperOffice.Globalization.RC.SR_BOARD_LANE_NO_CATEGORY_LINK
+  id: SR_BOARD_LANE_NO_CATEGORY_LINK
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_BOARD_LANE_NO_CATEGORY_LINK
+  nameWithType: RC.SR_BOARD_LANE_NO_CATEGORY_LINK
+  fullName: SuperOffice.Globalization.RC.SR_BOARD_LANE_NO_CATEGORY_LINK
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'No category'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_BOARD_LANE_NO_CATEGORY_LINK = "[SR_BOARD_LANE_NO_CATEGORY_LINK]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_BOARD_LANE_NO_CATEGORY_LINK As String = "[SR_BOARD_LANE_NO_CATEGORY_LINK]"
+- uid: SuperOffice.Globalization.RC.SR_BOARD_LANE_NO_LEADSTATUS_LINK
+  commentId: F:SuperOffice.Globalization.RC.SR_BOARD_LANE_NO_LEADSTATUS_LINK
+  id: SR_BOARD_LANE_NO_LEADSTATUS_LINK
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_BOARD_LANE_NO_LEADSTATUS_LINK
+  nameWithType: RC.SR_BOARD_LANE_NO_LEADSTATUS_LINK
+  fullName: SuperOffice.Globalization.RC.SR_BOARD_LANE_NO_LEADSTATUS_LINK
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'No lead status'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_BOARD_LANE_NO_LEADSTATUS_LINK = "[SR_BOARD_LANE_NO_LEADSTATUS_LINK]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_BOARD_LANE_NO_LEADSTATUS_LINK As String = "[SR_BOARD_LANE_NO_LEADSTATUS_LINK]"
 - uid: SuperOffice.Globalization.RC.SR_BOARD_LANE_NO_PROJECT_LINK
   commentId: F:SuperOffice.Globalization.RC.SR_BOARD_LANE_NO_PROJECT_LINK
   id: SR_BOARD_LANE_NO_PROJECT_LINK
@@ -64255,6 +65080,27 @@ items:
     return:
       type: System.String
     content.vb: Public Const SR_BOARD_NO_FILTERS As String = "[SR_BOARD_NO_FILTERS]"
+- uid: SuperOffice.Globalization.RC.SR_BOARD_PERSON_SETTINGS
+  commentId: F:SuperOffice.Globalization.RC.SR_BOARD_PERSON_SETTINGS
+  id: SR_BOARD_PERSON_SETTINGS
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_BOARD_PERSON_SETTINGS
+  nameWithType: RC.SR_BOARD_PERSON_SETTINGS
+  fullName: SuperOffice.Globalization.RC.SR_BOARD_PERSON_SETTINGS
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Person board settings'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_BOARD_PERSON_SETTINGS = "[SR_BOARD_PERSON_SETTINGS]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_BOARD_PERSON_SETTINGS As String = "[SR_BOARD_PERSON_SETTINGS]"
 - uid: SuperOffice.Globalization.RC.SR_BOARD_PROJECT_NO_END_DATE
   commentId: F:SuperOffice.Globalization.RC.SR_BOARD_PROJECT_NO_END_DATE
   id: SR_BOARD_PROJECT_NO_END_DATE
@@ -64297,6 +65143,27 @@ items:
     return:
       type: System.String
     content.vb: Public Const SR_BOARD_PROJECT_RESPONSIBLE_GROUP As String = "[SR_BOARD_PROJECT_RESPONSIBLE_GROUP]"
+- uid: SuperOffice.Globalization.RC.SR_BOARD_PROJECT_SETTINGS
+  commentId: F:SuperOffice.Globalization.RC.SR_BOARD_PROJECT_SETTINGS
+  id: SR_BOARD_PROJECT_SETTINGS
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_BOARD_PROJECT_SETTINGS
+  nameWithType: RC.SR_BOARD_PROJECT_SETTINGS
+  fullName: SuperOffice.Globalization.RC.SR_BOARD_PROJECT_SETTINGS
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Project board settings'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_BOARD_PROJECT_SETTINGS = "[SR_BOARD_PROJECT_SETTINGS]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_BOARD_PROJECT_SETTINGS As String = "[SR_BOARD_PROJECT_SETTINGS]"
 - uid: SuperOffice.Globalization.RC.SR_BOARD_REGISTERED_SINCE
   commentId: F:SuperOffice.Globalization.RC.SR_BOARD_REGISTERED_SINCE
   id: SR_BOARD_REGISTERED_SINCE
@@ -64360,6 +65227,48 @@ items:
     return:
       type: System.String
     content.vb: Public Const SR_BOARD_REQUEST_SET_TO_CLOSED As String = "[SR_BOARD_REQUEST_SET_TO_CLOSED]"
+- uid: SuperOffice.Globalization.RC.SR_BOARD_SALE_DATE_BADGE
+  commentId: F:SuperOffice.Globalization.RC.SR_BOARD_SALE_DATE_BADGE
+  id: SR_BOARD_SALE_DATE_BADGE
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_BOARD_SALE_DATE_BADGE
+  nameWithType: RC.SR_BOARD_SALE_DATE_BADGE
+  fullName: SuperOffice.Globalization.RC.SR_BOARD_SALE_DATE_BADGE
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Sale date badge'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_BOARD_SALE_DATE_BADGE = "[SR_BOARD_SALE_DATE_BADGE]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_BOARD_SALE_DATE_BADGE As String = "[SR_BOARD_SALE_DATE_BADGE]"
+- uid: SuperOffice.Globalization.RC.SR_BOARD_SALE_DATE_BADGE_STAGE
+  commentId: F:SuperOffice.Globalization.RC.SR_BOARD_SALE_DATE_BADGE_STAGE
+  id: SR_BOARD_SALE_DATE_BADGE_STAGE
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_BOARD_SALE_DATE_BADGE_STAGE
+  nameWithType: RC.SR_BOARD_SALE_DATE_BADGE_STAGE
+  fullName: SuperOffice.Globalization.RC.SR_BOARD_SALE_DATE_BADGE_STAGE
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Days in stage'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_BOARD_SALE_DATE_BADGE_STAGE = "[SR_BOARD_SALE_DATE_BADGE_STAGE]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_BOARD_SALE_DATE_BADGE_STAGE As String = "[SR_BOARD_SALE_DATE_BADGE_STAGE]"
 - uid: SuperOffice.Globalization.RC.SR_BOARD_SALE_SELECT_STATUS_REASON
   commentId: F:SuperOffice.Globalization.RC.SR_BOARD_SALE_SELECT_STATUS_REASON
   id: SR_BOARD_SALE_SELECT_STATUS_REASON
@@ -64381,6 +65290,69 @@ items:
     return:
       type: System.String
     content.vb: Public Const SR_BOARD_SALE_SELECT_STATUS_REASON As String = "[SR_BOARD_SALE_SELECT_STATUS_REASON]"
+- uid: SuperOffice.Globalization.RC.SR_BOARD_SALE_SETTINGS
+  commentId: F:SuperOffice.Globalization.RC.SR_BOARD_SALE_SETTINGS
+  id: SR_BOARD_SALE_SETTINGS
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_BOARD_SALE_SETTINGS
+  nameWithType: RC.SR_BOARD_SALE_SETTINGS
+  fullName: SuperOffice.Globalization.RC.SR_BOARD_SALE_SETTINGS
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Sales board settings'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_BOARD_SALE_SETTINGS = "[SR_BOARD_SALE_SETTINGS]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_BOARD_SALE_SETTINGS As String = "[SR_BOARD_SALE_SETTINGS]"
+- uid: SuperOffice.Globalization.RC.SR_BOARD_SAVE_FOR_ALL
+  commentId: F:SuperOffice.Globalization.RC.SR_BOARD_SAVE_FOR_ALL
+  id: SR_BOARD_SAVE_FOR_ALL
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_BOARD_SAVE_FOR_ALL
+  nameWithType: RC.SR_BOARD_SAVE_FOR_ALL
+  fullName: SuperOffice.Globalization.RC.SR_BOARD_SAVE_FOR_ALL
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Save settings for all users viewing this board'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_BOARD_SAVE_FOR_ALL = "[SR_BOARD_SAVE_FOR_ALL]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_BOARD_SAVE_FOR_ALL As String = "[SR_BOARD_SAVE_FOR_ALL]"
+- uid: SuperOffice.Globalization.RC.SR_BOARD_SAVE_FOR_ALL_TOOLTIP
+  commentId: F:SuperOffice.Globalization.RC.SR_BOARD_SAVE_FOR_ALL_TOOLTIP
+  id: SR_BOARD_SAVE_FOR_ALL_TOOLTIP
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_BOARD_SAVE_FOR_ALL_TOOLTIP
+  nameWithType: RC.SR_BOARD_SAVE_FOR_ALL_TOOLTIP
+  fullName: SuperOffice.Globalization.RC.SR_BOARD_SAVE_FOR_ALL_TOOLTIP
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Settings apply to all users in board view for this specific selection. If checked, only the selection owner and general administrators can edit these settings.'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_BOARD_SAVE_FOR_ALL_TOOLTIP = "[SR_BOARD_SAVE_FOR_ALL_TOOLTIP]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_BOARD_SAVE_FOR_ALL_TOOLTIP As String = "[SR_BOARD_SAVE_FOR_ALL_TOOLTIP]"
 - uid: SuperOffice.Globalization.RC.SR_BOARD_SELECT_FUTURE_DATE
   commentId: F:SuperOffice.Globalization.RC.SR_BOARD_SELECT_FUTURE_DATE
   id: SR_BOARD_SELECT_FUTURE_DATE
@@ -64507,6 +65479,27 @@ items:
     return:
       type: System.String
     content.vb: Public Const SR_BOARD_SUM_BY As String = "[SR_BOARD_SUM_BY]"
+- uid: SuperOffice.Globalization.RC.SR_BOARD_TICKET_SETTINGS
+  commentId: F:SuperOffice.Globalization.RC.SR_BOARD_TICKET_SETTINGS
+  id: SR_BOARD_TICKET_SETTINGS
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_BOARD_TICKET_SETTINGS
+  nameWithType: RC.SR_BOARD_TICKET_SETTINGS
+  fullName: SuperOffice.Globalization.RC.SR_BOARD_TICKET_SETTINGS
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Request board settings'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_BOARD_TICKET_SETTINGS = "[SR_BOARD_TICKET_SETTINGS]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_BOARD_TICKET_SETTINGS As String = "[SR_BOARD_TICKET_SETTINGS]"
 - uid: SuperOffice.Globalization.RC.SR_BOARD_TOGGLE_LANE
   commentId: F:SuperOffice.Globalization.RC.SR_BOARD_TOGGLE_LANE
   id: SR_BOARD_TOGGLE_LANE
@@ -65382,7 +66375,7 @@ items:
   assemblies:
   - SoCore
   namespace: SuperOffice.Globalization
-  summary: "'External contacts'<br />\r\nUsage: None"
+  summary: "'External contacts'<br />\r\nGerman: Unternehmen should be Firma, and Kontakt should be Person according to terminology list?<br />\r\nUsage: None"
   example: []
   syntax:
     content: public const string SR_BOOKING_TYPE_EXTERNALPERSONS = "[SR_BOOKING_TYPE_EXTERNALPERSONS]"
@@ -78514,6 +79507,27 @@ items:
     return:
       type: System.String
     content.vb: Public Const SR_BULKUPDATE_TASK_ALLSELECTION_TOOLTIP As String = "[SR_BULKUPDATE_TASK_ALLSELECTION_TOOLTIP]"
+- uid: SuperOffice.Globalization.RC.SR_BULKUPDATE_TICKET_TYPE_WARNING
+  commentId: F:SuperOffice.Globalization.RC.SR_BULKUPDATE_TICKET_TYPE_WARNING
+  id: SR_BULKUPDATE_TICKET_TYPE_WARNING
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_BULKUPDATE_TICKET_TYPE_WARNING
+  nameWithType: RC.SR_BULKUPDATE_TICKET_TYPE_WARNING
+  fullName: SuperOffice.Globalization.RC.SR_BULKUPDATE_TICKET_TYPE_WARNING
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'&lt;b&gt;You have selected requests with defined request types.&lt;/b&gt;&lt;br&gt;Request types control which statuses and priorities are valid. If you change these fields, any conflicting values will be skipped in the bulk update. See the log for more details after the update is complete.'<br />\r\nwarning with html tags<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_BULKUPDATE_TICKET_TYPE_WARNING = "[SR_BULKUPDATE_TICKET_TYPE_WARNING]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_BULKUPDATE_TICKET_TYPE_WARNING As String = "[SR_BULKUPDATE_TICKET_TYPE_WARNING]"
 - uid: SuperOffice.Globalization.RC.SR_BULKUPDATE_UNKNOWNFIELDTYPE_FOR
   commentId: F:SuperOffice.Globalization.RC.SR_BULKUPDATE_UNKNOWNFIELDTYPE_FOR
   id: SR_BULKUPDATE_UNKNOWNFIELDTYPE_FOR
@@ -90225,7 +91239,7 @@ items:
   assemblies:
   - SoCore
   namespace: SuperOffice.Globalization
-  summary: "'SEVERAL COMPANIES FOUND'<br />\r\nTitle shown when multiple contacts matches the email address. Similar to SR_COMMON_SEVERAL_CONTACTS_FOUND<br />\r\nUsage: None"
+  summary: "'SEVERAL COMPANIES FOUND'<br />\r\nTitle shown when multiple contacts matches the email address. Similar to SR_COMMON_SEVERAL_CONTACTS_FOUND&lt;br/&gt;Please follow the term-list&lt;br/&gt;Danish: Company should be Firma, not Virksomhed<br />\r\nUsage: None"
   example: []
   syntax:
     content: public const string SR_COMMON_SEVERAL_COMPANIES_FOUND = "[SR_COMMON_SEVERAL_COMPANIES_FOUND]"
@@ -91149,7 +92163,7 @@ items:
   assemblies:
   - SoCore
   namespace: SuperOffice.Globalization
-  summary: "'Company target'<br />\r\nThe budget for a company.<br />\r\nUsage: None"
+  summary: "'Company target'<br />\r\nThe budget for a company.&lt;br/&gt;Please follow the term-list&lt;br/&gt;Danish: Company should be Firma, not Virksomhed<br />\r\nUsage: None"
   example: []
   syntax:
     content: public const string SR_COMPANY_TARGET = "[SR_COMPANY_TARGET]"
@@ -97918,6 +98932,27 @@ items:
     return:
       type: System.String
     content.vb: Public Const SR_COUNTERS As String = "[SR_COUNTERS]"
+- uid: SuperOffice.Globalization.RC.SR_CO_FINDCO_TOOLTIP
+  commentId: F:SuperOffice.Globalization.RC.SR_CO_FINDCO_TOOLTIP
+  id: SR_CO_FINDCO_TOOLTIP
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_CO_FINDCO_TOOLTIP
+  nameWithType: RC.SR_CO_FINDCO_TOOLTIP
+  fullName: SuperOffice.Globalization.RC.SR_CO_FINDCO_TOOLTIP
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Search for custom objects'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_CO_FINDCO_TOOLTIP = "[SR_CO_FINDCO_TOOLTIP]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_CO_FINDCO_TOOLTIP As String = "[SR_CO_FINDCO_TOOLTIP]"
 - uid: SuperOffice.Globalization.RC.SR_CP_ADD_CUSTOM
   commentId: F:SuperOffice.Globalization.RC.SR_CP_ADD_CUSTOM
   id: SR_CP_ADD_CUSTOM
@@ -104323,6 +105358,27 @@ items:
     return:
       type: System.String
     content.vb: Public Const SR_DASHBOARD_ACTION_NOT_AVAILABLE_NO_DATA As String = "[SR_DASHBOARD_ACTION_NOT_AVAILABLE_NO_DATA]"
+- uid: SuperOffice.Globalization.RC.SR_DASHBOARD_ACTIVE_QUICK_FILTER_TOOLTIP
+  commentId: F:SuperOffice.Globalization.RC.SR_DASHBOARD_ACTIVE_QUICK_FILTER_TOOLTIP
+  id: SR_DASHBOARD_ACTIVE_QUICK_FILTER_TOOLTIP
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_DASHBOARD_ACTIVE_QUICK_FILTER_TOOLTIP
+  nameWithType: RC.SR_DASHBOARD_ACTIVE_QUICK_FILTER_TOOLTIP
+  fullName: SuperOffice.Globalization.RC.SR_DASHBOARD_ACTIVE_QUICK_FILTER_TOOLTIP
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'This tile has been modified by a quick filter.'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_DASHBOARD_ACTIVE_QUICK_FILTER_TOOLTIP = "[SR_DASHBOARD_ACTIVE_QUICK_FILTER_TOOLTIP]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_DASHBOARD_ACTIVE_QUICK_FILTER_TOOLTIP As String = "[SR_DASHBOARD_ACTIVE_QUICK_FILTER_TOOLTIP]"
 - uid: SuperOffice.Globalization.RC.SR_DASHBOARD_ADD
   commentId: F:SuperOffice.Globalization.RC.SR_DASHBOARD_ADD
   id: SR_DASHBOARD_ADD
@@ -107221,6 +108277,48 @@ items:
     return:
       type: System.String
     content.vb: Public Const SR_DASHBOARD_EDIT_FORMATTING As String = "[SR_DASHBOARD_EDIT_FORMATTING]"
+- uid: SuperOffice.Globalization.RC.SR_DASHBOARD_EDIT_FUNNEL_LABEL_INSIDE
+  commentId: F:SuperOffice.Globalization.RC.SR_DASHBOARD_EDIT_FUNNEL_LABEL_INSIDE
+  id: SR_DASHBOARD_EDIT_FUNNEL_LABEL_INSIDE
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_DASHBOARD_EDIT_FUNNEL_LABEL_INSIDE
+  nameWithType: RC.SR_DASHBOARD_EDIT_FUNNEL_LABEL_INSIDE
+  fullName: SuperOffice.Globalization.RC.SR_DASHBOARD_EDIT_FUNNEL_LABEL_INSIDE
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Inside'<br />\r\nRelating to funnel size<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_DASHBOARD_EDIT_FUNNEL_LABEL_INSIDE = "[SR_DASHBOARD_EDIT_FUNNEL_LABEL_INSIDE]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_DASHBOARD_EDIT_FUNNEL_LABEL_INSIDE As String = "[SR_DASHBOARD_EDIT_FUNNEL_LABEL_INSIDE]"
+- uid: SuperOffice.Globalization.RC.SR_DASHBOARD_EDIT_FUNNEL_LABEL_OUTSIDE
+  commentId: F:SuperOffice.Globalization.RC.SR_DASHBOARD_EDIT_FUNNEL_LABEL_OUTSIDE
+  id: SR_DASHBOARD_EDIT_FUNNEL_LABEL_OUTSIDE
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_DASHBOARD_EDIT_FUNNEL_LABEL_OUTSIDE
+  nameWithType: RC.SR_DASHBOARD_EDIT_FUNNEL_LABEL_OUTSIDE
+  fullName: SuperOffice.Globalization.RC.SR_DASHBOARD_EDIT_FUNNEL_LABEL_OUTSIDE
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Outside'<br />\r\nRelating to funnel label size<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_DASHBOARD_EDIT_FUNNEL_LABEL_OUTSIDE = "[SR_DASHBOARD_EDIT_FUNNEL_LABEL_OUTSIDE]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_DASHBOARD_EDIT_FUNNEL_LABEL_OUTSIDE As String = "[SR_DASHBOARD_EDIT_FUNNEL_LABEL_OUTSIDE]"
 - uid: SuperOffice.Globalization.RC.SR_DASHBOARD_EDIT_FUNNEL_NECK_HEIGHT
   commentId: F:SuperOffice.Globalization.RC.SR_DASHBOARD_EDIT_FUNNEL_NECK_HEIGHT
   id: SR_DASHBOARD_EDIT_FUNNEL_NECK_HEIGHT
@@ -107263,6 +108361,27 @@ items:
     return:
       type: System.String
     content.vb: Public Const SR_DASHBOARD_EDIT_FUNNEL_NECK_WITH As String = "[SR_DASHBOARD_EDIT_FUNNEL_NECK_WITH]"
+- uid: SuperOffice.Globalization.RC.SR_DASHBOARD_EDIT_FUNNEL_WIDTH
+  commentId: F:SuperOffice.Globalization.RC.SR_DASHBOARD_EDIT_FUNNEL_WIDTH
+  id: SR_DASHBOARD_EDIT_FUNNEL_WIDTH
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_DASHBOARD_EDIT_FUNNEL_WIDTH
+  nameWithType: RC.SR_DASHBOARD_EDIT_FUNNEL_WIDTH
+  fullName: SuperOffice.Globalization.RC.SR_DASHBOARD_EDIT_FUNNEL_WIDTH
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Funnel width'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_DASHBOARD_EDIT_FUNNEL_WIDTH = "[SR_DASHBOARD_EDIT_FUNNEL_WIDTH]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_DASHBOARD_EDIT_FUNNEL_WIDTH As String = "[SR_DASHBOARD_EDIT_FUNNEL_WIDTH]"
 - uid: SuperOffice.Globalization.RC.SR_DASHBOARD_EDIT_GAUGE_AXIS
   commentId: F:SuperOffice.Globalization.RC.SR_DASHBOARD_EDIT_GAUGE_AXIS
   id: SR_DASHBOARD_EDIT_GAUGE_AXIS
@@ -108733,27 +109852,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const SR_DASHBOARD_EMPTY_WEB_PANEL As String = "[SR_DASHBOARD_EMPTY_WEB_PANEL]"
-- uid: SuperOffice.Globalization.RC.SR_DASHBOARD_ENABLE_SERIES
-  commentId: F:SuperOffice.Globalization.RC.SR_DASHBOARD_ENABLE_SERIES
-  id: SR_DASHBOARD_ENABLE_SERIES
-  parent: SuperOffice.Globalization.RC
-  langs:
-  - csharp
-  - vb
-  name: SR_DASHBOARD_ENABLE_SERIES
-  nameWithType: RC.SR_DASHBOARD_ENABLE_SERIES
-  fullName: SuperOffice.Globalization.RC.SR_DASHBOARD_ENABLE_SERIES
-  type: Field
-  assemblies:
-  - SoCore
-  namespace: SuperOffice.Globalization
-  summary: "'Enable series'<br />\r\nUsage: None"
-  example: []
-  syntax:
-    content: public const string SR_DASHBOARD_ENABLE_SERIES = "[SR_DASHBOARD_ENABLE_SERIES]"
-    return:
-      type: System.String
-    content.vb: Public Const SR_DASHBOARD_ENABLE_SERIES As String = "[SR_DASHBOARD_ENABLE_SERIES]"
 - uid: SuperOffice.Globalization.RC.SR_DASHBOARD_ENTER_DESCRIPTION
   commentId: F:SuperOffice.Globalization.RC.SR_DASHBOARD_ENTER_DESCRIPTION
   id: SR_DASHBOARD_ENTER_DESCRIPTION
@@ -109090,6 +110188,258 @@ items:
     return:
       type: System.String
     content.vb: Public Const SR_DASHBOARD_F6C211A5B7F54BD6BDA66958B3506B2F_GENERICNAME As String = "[SR_DASHBOARD_F6C211A5B7F54BD6BDA66958B3506B2F_GENERICNAME]"
+- uid: SuperOffice.Globalization.RC.SR_DASHBOARD_FILTER_NEXT_MONTH
+  commentId: F:SuperOffice.Globalization.RC.SR_DASHBOARD_FILTER_NEXT_MONTH
+  id: SR_DASHBOARD_FILTER_NEXT_MONTH
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_DASHBOARD_FILTER_NEXT_MONTH
+  nameWithType: RC.SR_DASHBOARD_FILTER_NEXT_MONTH
+  fullName: SuperOffice.Globalization.RC.SR_DASHBOARD_FILTER_NEXT_MONTH
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Next month'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_DASHBOARD_FILTER_NEXT_MONTH = "[SR_DASHBOARD_FILTER_NEXT_MONTH]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_DASHBOARD_FILTER_NEXT_MONTH As String = "[SR_DASHBOARD_FILTER_NEXT_MONTH]"
+- uid: SuperOffice.Globalization.RC.SR_DASHBOARD_FILTER_NEXT_QUARTER
+  commentId: F:SuperOffice.Globalization.RC.SR_DASHBOARD_FILTER_NEXT_QUARTER
+  id: SR_DASHBOARD_FILTER_NEXT_QUARTER
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_DASHBOARD_FILTER_NEXT_QUARTER
+  nameWithType: RC.SR_DASHBOARD_FILTER_NEXT_QUARTER
+  fullName: SuperOffice.Globalization.RC.SR_DASHBOARD_FILTER_NEXT_QUARTER
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Next quarter'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_DASHBOARD_FILTER_NEXT_QUARTER = "[SR_DASHBOARD_FILTER_NEXT_QUARTER]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_DASHBOARD_FILTER_NEXT_QUARTER As String = "[SR_DASHBOARD_FILTER_NEXT_QUARTER]"
+- uid: SuperOffice.Globalization.RC.SR_DASHBOARD_FILTER_NEXT_WEEK
+  commentId: F:SuperOffice.Globalization.RC.SR_DASHBOARD_FILTER_NEXT_WEEK
+  id: SR_DASHBOARD_FILTER_NEXT_WEEK
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_DASHBOARD_FILTER_NEXT_WEEK
+  nameWithType: RC.SR_DASHBOARD_FILTER_NEXT_WEEK
+  fullName: SuperOffice.Globalization.RC.SR_DASHBOARD_FILTER_NEXT_WEEK
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Next week'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_DASHBOARD_FILTER_NEXT_WEEK = "[SR_DASHBOARD_FILTER_NEXT_WEEK]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_DASHBOARD_FILTER_NEXT_WEEK As String = "[SR_DASHBOARD_FILTER_NEXT_WEEK]"
+- uid: SuperOffice.Globalization.RC.SR_DASHBOARD_FILTER_NEXT_YEAR
+  commentId: F:SuperOffice.Globalization.RC.SR_DASHBOARD_FILTER_NEXT_YEAR
+  id: SR_DASHBOARD_FILTER_NEXT_YEAR
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_DASHBOARD_FILTER_NEXT_YEAR
+  nameWithType: RC.SR_DASHBOARD_FILTER_NEXT_YEAR
+  fullName: SuperOffice.Globalization.RC.SR_DASHBOARD_FILTER_NEXT_YEAR
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Next year'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_DASHBOARD_FILTER_NEXT_YEAR = "[SR_DASHBOARD_FILTER_NEXT_YEAR]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_DASHBOARD_FILTER_NEXT_YEAR As String = "[SR_DASHBOARD_FILTER_NEXT_YEAR]"
+- uid: SuperOffice.Globalization.RC.SR_DASHBOARD_FILTER_PREV_MONTH
+  commentId: F:SuperOffice.Globalization.RC.SR_DASHBOARD_FILTER_PREV_MONTH
+  id: SR_DASHBOARD_FILTER_PREV_MONTH
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_DASHBOARD_FILTER_PREV_MONTH
+  nameWithType: RC.SR_DASHBOARD_FILTER_PREV_MONTH
+  fullName: SuperOffice.Globalization.RC.SR_DASHBOARD_FILTER_PREV_MONTH
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Previous month'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_DASHBOARD_FILTER_PREV_MONTH = "[SR_DASHBOARD_FILTER_PREV_MONTH]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_DASHBOARD_FILTER_PREV_MONTH As String = "[SR_DASHBOARD_FILTER_PREV_MONTH]"
+- uid: SuperOffice.Globalization.RC.SR_DASHBOARD_FILTER_PREV_QUARTER
+  commentId: F:SuperOffice.Globalization.RC.SR_DASHBOARD_FILTER_PREV_QUARTER
+  id: SR_DASHBOARD_FILTER_PREV_QUARTER
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_DASHBOARD_FILTER_PREV_QUARTER
+  nameWithType: RC.SR_DASHBOARD_FILTER_PREV_QUARTER
+  fullName: SuperOffice.Globalization.RC.SR_DASHBOARD_FILTER_PREV_QUARTER
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Previous quarter'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_DASHBOARD_FILTER_PREV_QUARTER = "[SR_DASHBOARD_FILTER_PREV_QUARTER]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_DASHBOARD_FILTER_PREV_QUARTER As String = "[SR_DASHBOARD_FILTER_PREV_QUARTER]"
+- uid: SuperOffice.Globalization.RC.SR_DASHBOARD_FILTER_PREV_WEEK
+  commentId: F:SuperOffice.Globalization.RC.SR_DASHBOARD_FILTER_PREV_WEEK
+  id: SR_DASHBOARD_FILTER_PREV_WEEK
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_DASHBOARD_FILTER_PREV_WEEK
+  nameWithType: RC.SR_DASHBOARD_FILTER_PREV_WEEK
+  fullName: SuperOffice.Globalization.RC.SR_DASHBOARD_FILTER_PREV_WEEK
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Previous week'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_DASHBOARD_FILTER_PREV_WEEK = "[SR_DASHBOARD_FILTER_PREV_WEEK]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_DASHBOARD_FILTER_PREV_WEEK As String = "[SR_DASHBOARD_FILTER_PREV_WEEK]"
+- uid: SuperOffice.Globalization.RC.SR_DASHBOARD_FILTER_PREV_YEAR
+  commentId: F:SuperOffice.Globalization.RC.SR_DASHBOARD_FILTER_PREV_YEAR
+  id: SR_DASHBOARD_FILTER_PREV_YEAR
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_DASHBOARD_FILTER_PREV_YEAR
+  nameWithType: RC.SR_DASHBOARD_FILTER_PREV_YEAR
+  fullName: SuperOffice.Globalization.RC.SR_DASHBOARD_FILTER_PREV_YEAR
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Previous year'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_DASHBOARD_FILTER_PREV_YEAR = "[SR_DASHBOARD_FILTER_PREV_YEAR]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_DASHBOARD_FILTER_PREV_YEAR As String = "[SR_DASHBOARD_FILTER_PREV_YEAR]"
+- uid: SuperOffice.Globalization.RC.SR_DASHBOARD_FILTER_THIS_QUARTER
+  commentId: F:SuperOffice.Globalization.RC.SR_DASHBOARD_FILTER_THIS_QUARTER
+  id: SR_DASHBOARD_FILTER_THIS_QUARTER
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_DASHBOARD_FILTER_THIS_QUARTER
+  nameWithType: RC.SR_DASHBOARD_FILTER_THIS_QUARTER
+  fullName: SuperOffice.Globalization.RC.SR_DASHBOARD_FILTER_THIS_QUARTER
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'This quarter'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_DASHBOARD_FILTER_THIS_QUARTER = "[SR_DASHBOARD_FILTER_THIS_QUARTER]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_DASHBOARD_FILTER_THIS_QUARTER As String = "[SR_DASHBOARD_FILTER_THIS_QUARTER]"
+- uid: SuperOffice.Globalization.RC.SR_DASHBOARD_FILTER_THIS_YEAR
+  commentId: F:SuperOffice.Globalization.RC.SR_DASHBOARD_FILTER_THIS_YEAR
+  id: SR_DASHBOARD_FILTER_THIS_YEAR
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_DASHBOARD_FILTER_THIS_YEAR
+  nameWithType: RC.SR_DASHBOARD_FILTER_THIS_YEAR
+  fullName: SuperOffice.Globalization.RC.SR_DASHBOARD_FILTER_THIS_YEAR
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'This year'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_DASHBOARD_FILTER_THIS_YEAR = "[SR_DASHBOARD_FILTER_THIS_YEAR]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_DASHBOARD_FILTER_THIS_YEAR As String = "[SR_DASHBOARD_FILTER_THIS_YEAR]"
+- uid: SuperOffice.Globalization.RC.SR_DASHBOARD_FILTER_YEAR_TO_DATE
+  commentId: F:SuperOffice.Globalization.RC.SR_DASHBOARD_FILTER_YEAR_TO_DATE
+  id: SR_DASHBOARD_FILTER_YEAR_TO_DATE
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_DASHBOARD_FILTER_YEAR_TO_DATE
+  nameWithType: RC.SR_DASHBOARD_FILTER_YEAR_TO_DATE
+  fullName: SuperOffice.Globalization.RC.SR_DASHBOARD_FILTER_YEAR_TO_DATE
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Year to date'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_DASHBOARD_FILTER_YEAR_TO_DATE = "[SR_DASHBOARD_FILTER_YEAR_TO_DATE]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_DASHBOARD_FILTER_YEAR_TO_DATE As String = "[SR_DASHBOARD_FILTER_YEAR_TO_DATE]"
+- uid: SuperOffice.Globalization.RC.SR_DASHBOARD_FILTER_YESTERDAY
+  commentId: F:SuperOffice.Globalization.RC.SR_DASHBOARD_FILTER_YESTERDAY
+  id: SR_DASHBOARD_FILTER_YESTERDAY
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_DASHBOARD_FILTER_YESTERDAY
+  nameWithType: RC.SR_DASHBOARD_FILTER_YESTERDAY
+  fullName: SuperOffice.Globalization.RC.SR_DASHBOARD_FILTER_YESTERDAY
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Yesterday'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_DASHBOARD_FILTER_YESTERDAY = "[SR_DASHBOARD_FILTER_YESTERDAY]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_DASHBOARD_FILTER_YESTERDAY As String = "[SR_DASHBOARD_FILTER_YESTERDAY]"
 - uid: SuperOffice.Globalization.RC.SR_DASHBOARD_FOLLOWUP_COUNT
   commentId: F:SuperOffice.Globalization.RC.SR_DASHBOARD_FOLLOWUP_COUNT
   id: SR_DASHBOARD_FOLLOWUP_COUNT
@@ -109153,6 +110503,27 @@ items:
     return:
       type: System.String
     content.vb: Public Const SR_DASHBOARD_ISDEFAULTWARNING As String = "[SR_DASHBOARD_ISDEFAULTWARNING]"
+- uid: SuperOffice.Globalization.RC.SR_DASHBOARD_ISONEOF
+  commentId: F:SuperOffice.Globalization.RC.SR_DASHBOARD_ISONEOF
+  id: SR_DASHBOARD_ISONEOF
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_DASHBOARD_ISONEOF
+  nameWithType: RC.SR_DASHBOARD_ISONEOF
+  fullName: SuperOffice.Globalization.RC.SR_DASHBOARD_ISONEOF
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Is one of'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_DASHBOARD_ISONEOF = "[SR_DASHBOARD_ISONEOF]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_DASHBOARD_ISONEOF As String = "[SR_DASHBOARD_ISONEOF]"
 - uid: SuperOffice.Globalization.RC.SR_DASHBOARD_LASTMONTH
   commentId: F:SuperOffice.Globalization.RC.SR_DASHBOARD_LASTMONTH
   id: SR_DASHBOARD_LASTMONTH
@@ -110350,6 +111721,27 @@ items:
     return:
       type: System.String
     content.vb: Public Const SR_DASHBOARD_PLEASE_USE_HTTPS As String = "[SR_DASHBOARD_PLEASE_USE_HTTPS]"
+- uid: SuperOffice.Globalization.RC.SR_DASHBOARD_PREVIEW_DISABLED
+  commentId: F:SuperOffice.Globalization.RC.SR_DASHBOARD_PREVIEW_DISABLED
+  id: SR_DASHBOARD_PREVIEW_DISABLED
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_DASHBOARD_PREVIEW_DISABLED
+  nameWithType: RC.SR_DASHBOARD_PREVIEW_DISABLED
+  fullName: SuperOffice.Globalization.RC.SR_DASHBOARD_PREVIEW_DISABLED
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Preview is disabled'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_DASHBOARD_PREVIEW_DISABLED = "[SR_DASHBOARD_PREVIEW_DISABLED]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_DASHBOARD_PREVIEW_DISABLED As String = "[SR_DASHBOARD_PREVIEW_DISABLED]"
 - uid: SuperOffice.Globalization.RC.SR_DASHBOARD_PRINT
   commentId: F:SuperOffice.Globalization.RC.SR_DASHBOARD_PRINT
   id: SR_DASHBOARD_PRINT
@@ -110518,6 +111910,27 @@ items:
     return:
       type: System.String
     content.vb: Public Const SR_DASHBOARD_QUICK_FILTER As String = "[SR_DASHBOARD_QUICK_FILTER]"
+- uid: SuperOffice.Globalization.RC.SR_DASHBOARD_QUICK_FILTER_DESCRIPTION
+  commentId: F:SuperOffice.Globalization.RC.SR_DASHBOARD_QUICK_FILTER_DESCRIPTION
+  id: SR_DASHBOARD_QUICK_FILTER_DESCRIPTION
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_DASHBOARD_QUICK_FILTER_DESCRIPTION
+  nameWithType: RC.SR_DASHBOARD_QUICK_FILTER_DESCRIPTION
+  fullName: SuperOffice.Globalization.RC.SR_DASHBOARD_QUICK_FILTER_DESCRIPTION
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Only criteria used in the current dashboard will be available as quick filters.'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_DASHBOARD_QUICK_FILTER_DESCRIPTION = "[SR_DASHBOARD_QUICK_FILTER_DESCRIPTION]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_DASHBOARD_QUICK_FILTER_DESCRIPTION As String = "[SR_DASHBOARD_QUICK_FILTER_DESCRIPTION]"
 - uid: SuperOffice.Globalization.RC.SR_DASHBOARD_REFRESH
   commentId: F:SuperOffice.Globalization.RC.SR_DASHBOARD_REFRESH
   id: SR_DASHBOARD_REFRESH
@@ -112191,7 +113604,7 @@ items:
   assemblies:
   - SoCore
   namespace: SuperOffice.Globalization
-  summary: "'My contacts with bounced e-mails'<br />\r\nUsage: None"
+  summary: "'My contacts with bounced e-mails'<br />\r\nDanish: virksomheter should be firma, and kontakt should be person according to terminology list?<br />\r\nUsage: None"
   example: []
   syntax:
     content: public const string SR_DASHTILE_CON_MY_CONTACTS_WITH_BOUNCED_EMAILS = "[SR_DASHTILE_CON_MY_CONTACTS_WITH_BOUNCED_EMAILS]"
@@ -112828,6 +114241,132 @@ items:
     return:
       type: System.String
     content.vb: Public Const SR_DASHTILE_FOR_TOTAL_SUBMISSIONS_PER_DAY As String = "[SR_DASHTILE_FOR_TOTAL_SUBMISSIONS_PER_DAY]"
+- uid: SuperOffice.Globalization.RC.SR_DASHTILE_LEAD_BY_CREATION_CAMPAIGN_YTD
+  commentId: F:SuperOffice.Globalization.RC.SR_DASHTILE_LEAD_BY_CREATION_CAMPAIGN_YTD
+  id: SR_DASHTILE_LEAD_BY_CREATION_CAMPAIGN_YTD
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_DASHTILE_LEAD_BY_CREATION_CAMPAIGN_YTD
+  nameWithType: RC.SR_DASHTILE_LEAD_BY_CREATION_CAMPAIGN_YTD
+  fullName: SuperOffice.Globalization.RC.SR_DASHTILE_LEAD_BY_CREATION_CAMPAIGN_YTD
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'New leads by campaign YTD'<br />\r\nNew leads created from form submissions this year, grouped by campaign&lt;br/&gt;YTD: Year To Date<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_DASHTILE_LEAD_BY_CREATION_CAMPAIGN_YTD = "[SR_DASHTILE_LEAD_BY_CREATION_CAMPAIGN_YTD]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_DASHTILE_LEAD_BY_CREATION_CAMPAIGN_YTD As String = "[SR_DASHTILE_LEAD_BY_CREATION_CAMPAIGN_YTD]"
+- uid: SuperOffice.Globalization.RC.SR_DASHTILE_LEAD_BY_CREATION_SOURCE_YTD
+  commentId: F:SuperOffice.Globalization.RC.SR_DASHTILE_LEAD_BY_CREATION_SOURCE_YTD
+  id: SR_DASHTILE_LEAD_BY_CREATION_SOURCE_YTD
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_DASHTILE_LEAD_BY_CREATION_SOURCE_YTD
+  nameWithType: RC.SR_DASHTILE_LEAD_BY_CREATION_SOURCE_YTD
+  fullName: SuperOffice.Globalization.RC.SR_DASHTILE_LEAD_BY_CREATION_SOURCE_YTD
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'New leads by lead creation source YTD'<br />\r\nNew leads coming from form submissions this year, grouped on lead creation source&lt;br/&gt;YTD: Year To Date<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_DASHTILE_LEAD_BY_CREATION_SOURCE_YTD = "[SR_DASHTILE_LEAD_BY_CREATION_SOURCE_YTD]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_DASHTILE_LEAD_BY_CREATION_SOURCE_YTD As String = "[SR_DASHTILE_LEAD_BY_CREATION_SOURCE_YTD]"
+- uid: SuperOffice.Globalization.RC.SR_DASHTILE_LEAD_BY_FIRST_SOURCE_YTD
+  commentId: F:SuperOffice.Globalization.RC.SR_DASHTILE_LEAD_BY_FIRST_SOURCE_YTD
+  id: SR_DASHTILE_LEAD_BY_FIRST_SOURCE_YTD
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_DASHTILE_LEAD_BY_FIRST_SOURCE_YTD
+  nameWithType: RC.SR_DASHTILE_LEAD_BY_FIRST_SOURCE_YTD
+  fullName: SuperOffice.Globalization.RC.SR_DASHTILE_LEAD_BY_FIRST_SOURCE_YTD
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'New leads by first touch source YTD'<br />\r\nNew leads coming in from webforms, grouped by their first touch source<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_DASHTILE_LEAD_BY_FIRST_SOURCE_YTD = "[SR_DASHTILE_LEAD_BY_FIRST_SOURCE_YTD]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_DASHTILE_LEAD_BY_FIRST_SOURCE_YTD As String = "[SR_DASHTILE_LEAD_BY_FIRST_SOURCE_YTD]"
+- uid: SuperOffice.Globalization.RC.SR_DASHTILE_LEAD_QUALIFICATION_FUNNEL
+  commentId: F:SuperOffice.Globalization.RC.SR_DASHTILE_LEAD_QUALIFICATION_FUNNEL
+  id: SR_DASHTILE_LEAD_QUALIFICATION_FUNNEL
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_DASHTILE_LEAD_QUALIFICATION_FUNNEL
+  nameWithType: RC.SR_DASHTILE_LEAD_QUALIFICATION_FUNNEL
+  fullName: SuperOffice.Globalization.RC.SR_DASHTILE_LEAD_QUALIFICATION_FUNNEL
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Lead qualification funnel'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_DASHTILE_LEAD_QUALIFICATION_FUNNEL = "[SR_DASHTILE_LEAD_QUALIFICATION_FUNNEL]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_DASHTILE_LEAD_QUALIFICATION_FUNNEL As String = "[SR_DASHTILE_LEAD_QUALIFICATION_FUNNEL]"
+- uid: SuperOffice.Globalization.RC.SR_DASHTILE_LEAD_TOP_PERFORMING_FORMS_YTD
+  commentId: F:SuperOffice.Globalization.RC.SR_DASHTILE_LEAD_TOP_PERFORMING_FORMS_YTD
+  id: SR_DASHTILE_LEAD_TOP_PERFORMING_FORMS_YTD
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_DASHTILE_LEAD_TOP_PERFORMING_FORMS_YTD
+  nameWithType: RC.SR_DASHTILE_LEAD_TOP_PERFORMING_FORMS_YTD
+  fullName: SuperOffice.Globalization.RC.SR_DASHTILE_LEAD_TOP_PERFORMING_FORMS_YTD
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Top 10 lead capturing forms YTD'<br />\r\nThe forms which most new contacts are created from&lt;br/&gt;YTD: Year To Date<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_DASHTILE_LEAD_TOP_PERFORMING_FORMS_YTD = "[SR_DASHTILE_LEAD_TOP_PERFORMING_FORMS_YTD]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_DASHTILE_LEAD_TOP_PERFORMING_FORMS_YTD As String = "[SR_DASHTILE_LEAD_TOP_PERFORMING_FORMS_YTD]"
+- uid: SuperOffice.Globalization.RC.SR_DASHTILE_LEAD_TOP_REFERRING_SITES_YTD
+  commentId: F:SuperOffice.Globalization.RC.SR_DASHTILE_LEAD_TOP_REFERRING_SITES_YTD
+  id: SR_DASHTILE_LEAD_TOP_REFERRING_SITES_YTD
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_DASHTILE_LEAD_TOP_REFERRING_SITES_YTD
+  nameWithType: RC.SR_DASHTILE_LEAD_TOP_REFERRING_SITES_YTD
+  fullName: SuperOffice.Globalization.RC.SR_DASHTILE_LEAD_TOP_REFERRING_SITES_YTD
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Top 10 referring sites for new leads YTD'<br />\r\nReferring sites leading to most form submissions from new leads&lt;br/&gt;YTD: Year To Date<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_DASHTILE_LEAD_TOP_REFERRING_SITES_YTD = "[SR_DASHTILE_LEAD_TOP_REFERRING_SITES_YTD]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_DASHTILE_LEAD_TOP_REFERRING_SITES_YTD As String = "[SR_DASHTILE_LEAD_TOP_REFERRING_SITES_YTD]"
 - uid: SuperOffice.Globalization.RC.SR_DASHTILE_MAI_AVERAGE_BOUNCE_RATE
   commentId: F:SuperOffice.Globalization.RC.SR_DASHTILE_MAI_AVERAGE_BOUNCE_RATE
   id: SR_DASHTILE_MAI_AVERAGE_BOUNCE_RATE
@@ -113395,6 +114934,27 @@ items:
     return:
       type: System.String
     content.vb: Public Const SR_DASHTILE_PRO_ACTIVE_PROJECTS_FOR_MY_TEAM As String = "[SR_DASHTILE_PRO_ACTIVE_PROJECTS_FOR_MY_TEAM]"
+- uid: SuperOffice.Globalization.RC.SR_DASHTILE_PRO_ACTIVE_PROJECTS_FOR_MY_TEAM_FUNNEL
+  commentId: F:SuperOffice.Globalization.RC.SR_DASHTILE_PRO_ACTIVE_PROJECTS_FOR_MY_TEAM_FUNNEL
+  id: SR_DASHTILE_PRO_ACTIVE_PROJECTS_FOR_MY_TEAM_FUNNEL
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_DASHTILE_PRO_ACTIVE_PROJECTS_FOR_MY_TEAM_FUNNEL
+  nameWithType: RC.SR_DASHTILE_PRO_ACTIVE_PROJECTS_FOR_MY_TEAM_FUNNEL
+  fullName: SuperOffice.Globalization.RC.SR_DASHTILE_PRO_ACTIVE_PROJECTS_FOR_MY_TEAM_FUNNEL
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Active projects for my team'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_DASHTILE_PRO_ACTIVE_PROJECTS_FOR_MY_TEAM_FUNNEL = "[SR_DASHTILE_PRO_ACTIVE_PROJECTS_FOR_MY_TEAM_FUNNEL]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_DASHTILE_PRO_ACTIVE_PROJECTS_FOR_MY_TEAM_FUNNEL As String = "[SR_DASHTILE_PRO_ACTIVE_PROJECTS_FOR_MY_TEAM_FUNNEL]"
 - uid: SuperOffice.Globalization.RC.SR_DASHTILE_PRO_MY_ACTIVE_PROJECTS_BY_TYPE
   commentId: F:SuperOffice.Globalization.RC.SR_DASHTILE_PRO_MY_ACTIVE_PROJECTS_BY_TYPE
   id: SR_DASHTILE_PRO_MY_ACTIVE_PROJECTS_BY_TYPE
@@ -113745,7 +115305,7 @@ items:
   assemblies:
   - SoCore
   namespace: SuperOffice.Globalization
-  summary: "'Requests by customer category'<br />\r\nUsage: None"
+  summary: "'Requests by category'<br />\r\nUsage: None"
   example: []
   syntax:
     content: public const string SR_DASHTILE_REQ_REQUESTS_BY_CUSTOMER_CATEGORY = "[SR_DASHTILE_REQ_REQUESTS_BY_CUSTOMER_CATEGORY]"
@@ -114151,6 +115711,27 @@ items:
     return:
       type: System.String
     content.vb: Public Const SR_DASHTILE_SAL_MY_FORECAST_THIS_MONTH_TITLE_WEIGHTED_AMOUNT As String = "[SR_DASHTILE_SAL_MY_FORECAST_THIS_MONTH_TITLE_WEIGHTED_AMOUNT]"
+- uid: SuperOffice.Globalization.RC.SR_DASHTILE_SAL_MY_FORECAST_THIS_QUARTER
+  commentId: F:SuperOffice.Globalization.RC.SR_DASHTILE_SAL_MY_FORECAST_THIS_QUARTER
+  id: SR_DASHTILE_SAL_MY_FORECAST_THIS_QUARTER
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_DASHTILE_SAL_MY_FORECAST_THIS_QUARTER
+  nameWithType: RC.SR_DASHTILE_SAL_MY_FORECAST_THIS_QUARTER
+  fullName: SuperOffice.Globalization.RC.SR_DASHTILE_SAL_MY_FORECAST_THIS_QUARTER
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'My forecast this quarter'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_DASHTILE_SAL_MY_FORECAST_THIS_QUARTER = "[SR_DASHTILE_SAL_MY_FORECAST_THIS_QUARTER]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_DASHTILE_SAL_MY_FORECAST_THIS_QUARTER As String = "[SR_DASHTILE_SAL_MY_FORECAST_THIS_QUARTER]"
 - uid: SuperOffice.Globalization.RC.SR_DASHTILE_SAL_MY_FORECAST_WEIGHTED
   commentId: F:SuperOffice.Globalization.RC.SR_DASHTILE_SAL_MY_FORECAST_WEIGHTED
   id: SR_DASHTILE_SAL_MY_FORECAST_WEIGHTED
@@ -121536,7 +123117,7 @@ items:
   assemblies:
   - SoCore
   namespace: SuperOffice.Globalization
-  summary: "'SuperOffice (company domain)'<br />\r\nUsage: None"
+  summary: "'SuperOffice (company domain)'<br />\r\nGerman: Unternehmen should be Firma according to terminology list?<br />\r\nUsage: None"
   example: []
   syntax:
     content: public const string SR_DUPLICATE_CONTACT_DOMAIN = "[SR_DUPLICATE_CONTACT_DOMAIN]"
@@ -121557,7 +123138,7 @@ items:
   assemblies:
   - SoCore
   namespace: SuperOffice.Globalization
-  summary: "'Match companies by domain, but ignore case differences.'<br />\r\nCase here means upper case or lower case letters.<br />\r\nUsage: None"
+  summary: "'Match companies by domain, but ignore case differences.'<br />\r\nCase here means upper case or lower case letters.&lt;br/&gt;German: Unternehmen should be Firma according to terminology list?&lt;br/&gt;Danish: Company should be Firma, not Virksomhed<br />\r\nUsage: None"
   example: []
   syntax:
     content: public const string SR_DUPLICATE_CONTACT_DOMAIN_TOOLTIP = "[SR_DUPLICATE_CONTACT_DOMAIN_TOOLTIP]"
@@ -142557,7 +144138,7 @@ items:
   assemblies:
   - SoCore
   namespace: SuperOffice.Globalization
-  summary: "'Search for one or more companies (can be combined with a contact search)'<br />\r\nTooltip in Find front page<br />\r\nUsage: None"
+  summary: "'Search for one or more companies (can be combined with a contact search)'<br />\r\nTooltip in Find front page&lt;br/&gt;German: Unternehmen should be Firma, and Kontakt should be Person according to terminology list?<br />\r\nUsage: None"
   example: []
   syntax:
     content: public const string SR_FINDCOMPANY_TOOLTIP = "[SR_FINDCOMPANY_TOOLTIP]"
@@ -142620,7 +144201,7 @@ items:
   assemblies:
   - SoCore
   namespace: SuperOffice.Globalization
-  summary: "'Search for one or more contacts (can be combined with a company search)'<br />\r\nTooltip in Find front page<br />\r\nUsage: None"
+  summary: "'Search for one or more contacts (can be combined with a company search)'<br />\r\nTooltip in Find front page&lt;br/&gt;German: Unternehmen should be Firma, and Kontakt should be Person according to terminology list?<br />\r\nUsage: None"
   example: []
   syntax:
     content: public const string SR_FINDPERSON_TOOLTIP = "[SR_FINDPERSON_TOOLTIP]"
@@ -143754,7 +145335,7 @@ items:
   assemblies:
   - SoCore
   namespace: SuperOffice.Globalization
-  summary: "'Easily find follow-ups, sale quotes, projects, contacts, companies, etc...'<br />\r\nDescriptive heading for the find-home page.<br />\r\nUsage: None"
+  summary: "'Easily find follow-ups, sale quotes, projects, contacts, companies, etc...'<br />\r\nDescriptive heading for the find-home page.&lt;br/&gt;Please follow the term-list&lt;br/&gt;Danish: Company should be Firma, not Virksomhed<br />\r\nUsage: None"
   example: []
   syntax:
     content: public const string SR_FIND_HEADING = "[SR_FIND_HEADING]"
@@ -146946,7 +148527,7 @@ items:
   assemblies:
   - SoCore
   namespace: SuperOffice.Globalization
-  summary: "'Trigger activates for all updated contacts'<br />\r\nChange the term used for Swedish and Danish. We want the term \"trigger\" to be used instead of \"utløser\" as in Norwegian. \"En trigger, flere triggere og triggeren (bestemt ental)\" should also be used for Danish, \"En trigger, flera triggers\" for Swedish.<br />\r\nUsage: None"
+  summary: "'Trigger activates for all updated contacts'<br />\r\nChange the term used for Swedish and Danish. We want the term \"trigger\" to be used instead of \"utløser\" as in Norwegian. \"En trigger, flere triggere og triggeren (bestemt ental)\" should also be used for Danish, \"En trigger, flera triggers\" for Swedish.&lt;br/&gt;German: Unternehmen should be Firma, and Kontakt should be Person according to terminology list?<br />\r\nUsage: None"
   example: []
   syntax:
     content: public const string SR_FLOW_TRIGGER_ALLPERSONUPDATED = "[SR_FLOW_TRIGGER_ALLPERSONUPDATED]"
@@ -147114,7 +148695,7 @@ items:
   assemblies:
   - SoCore
   namespace: SuperOffice.Globalization
-  summary: "'Contact created'<br />\r\nLatest change was to remove capital letters from second word in English only, no further translation needed.<br />\r\nUsage: None"
+  summary: "'Contact created'<br />\r\nLatest change was to remove capital letters from second word in English only, no further translation needed.&lt;br/&gt;German: Unternehmen should be Firma, and Kontakt should be Person according to terminology list?<br />\r\nUsage: None"
   example: []
   syntax:
     content: public const string SR_FLOW_TRIGGER_CONTACTCREATED = "[SR_FLOW_TRIGGER_CONTACTCREATED]"
@@ -148444,6 +150025,48 @@ items:
     return:
       type: System.String
     content.vb: Public Const SR_FORMS_ADD_ELEMENT As String = "[SR_FORMS_ADD_ELEMENT]"
+- uid: SuperOffice.Globalization.RC.SR_FORMS_ADD_UTM_TRACKING
+  commentId: F:SuperOffice.Globalization.RC.SR_FORMS_ADD_UTM_TRACKING
+  id: SR_FORMS_ADD_UTM_TRACKING
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_FORMS_ADD_UTM_TRACKING
+  nameWithType: RC.SR_FORMS_ADD_UTM_TRACKING
+  fullName: SuperOffice.Globalization.RC.SR_FORMS_ADD_UTM_TRACKING
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Add UTM Tracking'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_FORMS_ADD_UTM_TRACKING = "[SR_FORMS_ADD_UTM_TRACKING]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_FORMS_ADD_UTM_TRACKING As String = "[SR_FORMS_ADD_UTM_TRACKING]"
+- uid: SuperOffice.Globalization.RC.SR_FORMS_ADD_UTM_TRACKING_DESC
+  commentId: F:SuperOffice.Globalization.RC.SR_FORMS_ADD_UTM_TRACKING_DESC
+  id: SR_FORMS_ADD_UTM_TRACKING_DESC
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_FORMS_ADD_UTM_TRACKING_DESC
+  nameWithType: RC.SR_FORMS_ADD_UTM_TRACKING_DESC
+  fullName: SuperOffice.Globalization.RC.SR_FORMS_ADD_UTM_TRACKING_DESC
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Open a form with UTM parameters for lead source tracking'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_FORMS_ADD_UTM_TRACKING_DESC = "[SR_FORMS_ADD_UTM_TRACKING_DESC]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_FORMS_ADD_UTM_TRACKING_DESC As String = "[SR_FORMS_ADD_UTM_TRACKING_DESC]"
 - uid: SuperOffice.Globalization.RC.SR_FORMS_AUTOSUBMIT
   commentId: F:SuperOffice.Globalization.RC.SR_FORMS_AUTOSUBMIT
   id: SR_FORMS_AUTOSUBMIT
@@ -148591,6 +150214,27 @@ items:
     return:
       type: System.String
     content.vb: Public Const SR_FORMS_BUTTON_SIZE As String = "[SR_FORMS_BUTTON_SIZE]"
+- uid: SuperOffice.Globalization.RC.SR_FORMS_BUTTON_STYLE
+  commentId: F:SuperOffice.Globalization.RC.SR_FORMS_BUTTON_STYLE
+  id: SR_FORMS_BUTTON_STYLE
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_FORMS_BUTTON_STYLE
+  nameWithType: RC.SR_FORMS_BUTTON_STYLE
+  fullName: SuperOffice.Globalization.RC.SR_FORMS_BUTTON_STYLE
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Button style'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_FORMS_BUTTON_STYLE = "[SR_FORMS_BUTTON_STYLE]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_FORMS_BUTTON_STYLE As String = "[SR_FORMS_BUTTON_STYLE]"
 - uid: SuperOffice.Globalization.RC.SR_FORMS_BUTTON_TEXT
   commentId: F:SuperOffice.Globalization.RC.SR_FORMS_BUTTON_TEXT
   id: SR_FORMS_BUTTON_TEXT
@@ -150733,6 +152377,27 @@ items:
     return:
       type: System.String
     content.vb: Public Const SR_FORMS_MAILING As String = "[SR_FORMS_MAILING]"
+- uid: SuperOffice.Globalization.RC.SR_FORMS_MAILING_DATA
+  commentId: F:SuperOffice.Globalization.RC.SR_FORMS_MAILING_DATA
+  id: SR_FORMS_MAILING_DATA
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_FORMS_MAILING_DATA
+  nameWithType: RC.SR_FORMS_MAILING_DATA
+  fullName: SuperOffice.Globalization.RC.SR_FORMS_MAILING_DATA
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Open a form from a mailing with known contact data'<br />\r\nMailing in this context is newsletter<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_FORMS_MAILING_DATA = "[SR_FORMS_MAILING_DATA]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_FORMS_MAILING_DATA As String = "[SR_FORMS_MAILING_DATA]"
 - uid: SuperOffice.Globalization.RC.SR_FORMS_MANDATORY
   commentId: F:SuperOffice.Globalization.RC.SR_FORMS_MANDATORY
   id: SR_FORMS_MANDATORY
@@ -150943,6 +152608,27 @@ items:
     return:
       type: System.String
     content.vb: Public Const SR_FORMS_PLACEHOLDER As String = "[SR_FORMS_PLACEHOLDER]"
+- uid: SuperOffice.Globalization.RC.SR_FORMS_PRE_POPULATE
+  commentId: F:SuperOffice.Globalization.RC.SR_FORMS_PRE_POPULATE
+  id: SR_FORMS_PRE_POPULATE
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_FORMS_PRE_POPULATE
+  nameWithType: RC.SR_FORMS_PRE_POPULATE
+  fullName: SuperOffice.Globalization.RC.SR_FORMS_PRE_POPULATE
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Pre-populate with contact data'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_FORMS_PRE_POPULATE = "[SR_FORMS_PRE_POPULATE]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_FORMS_PRE_POPULATE As String = "[SR_FORMS_PRE_POPULATE]"
 - uid: SuperOffice.Globalization.RC.SR_FORMS_PROCESS
   commentId: F:SuperOffice.Globalization.RC.SR_FORMS_PROCESS
   id: SR_FORMS_PROCESS
@@ -151846,6 +153532,27 @@ items:
     return:
       type: System.String
     content.vb: Public Const SR_FORMS_SELECT_FIELDS As String = "[SR_FORMS_SELECT_FIELDS]"
+- uid: SuperOffice.Globalization.RC.SR_FORMS_SELECT_PRE_FIELDS
+  commentId: F:SuperOffice.Globalization.RC.SR_FORMS_SELECT_PRE_FIELDS
+  id: SR_FORMS_SELECT_PRE_FIELDS
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_FORMS_SELECT_PRE_FIELDS
+  nameWithType: RC.SR_FORMS_SELECT_PRE_FIELDS
+  fullName: SuperOffice.Globalization.RC.SR_FORMS_SELECT_PRE_FIELDS
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Select which fields fields to pre-populate'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_FORMS_SELECT_PRE_FIELDS = "[SR_FORMS_SELECT_PRE_FIELDS]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_FORMS_SELECT_PRE_FIELDS As String = "[SR_FORMS_SELECT_PRE_FIELDS]"
 - uid: SuperOffice.Globalization.RC.SR_FORMS_SHOW_CONFIRMATION
   commentId: F:SuperOffice.Globalization.RC.SR_FORMS_SHOW_CONFIRMATION
   id: SR_FORMS_SHOW_CONFIRMATION
@@ -152224,6 +153931,111 @@ items:
     return:
       type: System.String
     content.vb: Public Const SR_FORMS_USE_EXISTING As String = "[SR_FORMS_USE_EXISTING]"
+- uid: SuperOffice.Globalization.RC.SR_FORMS_UTM_CAMPAIGN_HELP
+  commentId: F:SuperOffice.Globalization.RC.SR_FORMS_UTM_CAMPAIGN_HELP
+  id: SR_FORMS_UTM_CAMPAIGN_HELP
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_FORMS_UTM_CAMPAIGN_HELP
+  nameWithType: RC.SR_FORMS_UTM_CAMPAIGN_HELP
+  fullName: SuperOffice.Globalization.RC.SR_FORMS_UTM_CAMPAIGN_HELP
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Campaign name (e.g. Spring Sale, Product Launch)'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_FORMS_UTM_CAMPAIGN_HELP = "[SR_FORMS_UTM_CAMPAIGN_HELP]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_FORMS_UTM_CAMPAIGN_HELP As String = "[SR_FORMS_UTM_CAMPAIGN_HELP]"
+- uid: SuperOffice.Globalization.RC.SR_FORMS_UTM_CONTENT_HELP
+  commentId: F:SuperOffice.Globalization.RC.SR_FORMS_UTM_CONTENT_HELP
+  id: SR_FORMS_UTM_CONTENT_HELP
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_FORMS_UTM_CONTENT_HELP
+  nameWithType: RC.SR_FORMS_UTM_CONTENT_HELP
+  fullName: SuperOffice.Globalization.RC.SR_FORMS_UTM_CONTENT_HELP
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Use to differentiate content (e.g. CTA_button, signature)'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_FORMS_UTM_CONTENT_HELP = "[SR_FORMS_UTM_CONTENT_HELP]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_FORMS_UTM_CONTENT_HELP As String = "[SR_FORMS_UTM_CONTENT_HELP]"
+- uid: SuperOffice.Globalization.RC.SR_FORMS_UTM_MEDIUM_HELP
+  commentId: F:SuperOffice.Globalization.RC.SR_FORMS_UTM_MEDIUM_HELP
+  id: SR_FORMS_UTM_MEDIUM_HELP
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_FORMS_UTM_MEDIUM_HELP
+  nameWithType: RC.SR_FORMS_UTM_MEDIUM_HELP
+  fullName: SuperOffice.Globalization.RC.SR_FORMS_UTM_MEDIUM_HELP
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'How the traffic gets there (e.g. CPC, social, e-mail)'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_FORMS_UTM_MEDIUM_HELP = "[SR_FORMS_UTM_MEDIUM_HELP]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_FORMS_UTM_MEDIUM_HELP As String = "[SR_FORMS_UTM_MEDIUM_HELP]"
+- uid: SuperOffice.Globalization.RC.SR_FORMS_UTM_SOURCE_HELP
+  commentId: F:SuperOffice.Globalization.RC.SR_FORMS_UTM_SOURCE_HELP
+  id: SR_FORMS_UTM_SOURCE_HELP
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_FORMS_UTM_SOURCE_HELP
+  nameWithType: RC.SR_FORMS_UTM_SOURCE_HELP
+  fullName: SuperOffice.Globalization.RC.SR_FORMS_UTM_SOURCE_HELP
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Where the traffic comes from (e.g. Google, newsletter, LinkedIn)'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_FORMS_UTM_SOURCE_HELP = "[SR_FORMS_UTM_SOURCE_HELP]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_FORMS_UTM_SOURCE_HELP As String = "[SR_FORMS_UTM_SOURCE_HELP]"
+- uid: SuperOffice.Globalization.RC.SR_FORMS_UTM_TERM_HELP
+  commentId: F:SuperOffice.Globalization.RC.SR_FORMS_UTM_TERM_HELP
+  id: SR_FORMS_UTM_TERM_HELP
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_FORMS_UTM_TERM_HELP
+  nameWithType: RC.SR_FORMS_UTM_TERM_HELP
+  fullName: SuperOffice.Globalization.RC.SR_FORMS_UTM_TERM_HELP
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Keywords (mainly for paid ads)'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_FORMS_UTM_TERM_HELP = "[SR_FORMS_UTM_TERM_HELP]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_FORMS_UTM_TERM_HELP As String = "[SR_FORMS_UTM_TERM_HELP]"
 - uid: SuperOffice.Globalization.RC.SR_FORMS_VALID_KEY
   commentId: F:SuperOffice.Globalization.RC.SR_FORMS_VALID_KEY
   id: SR_FORMS_VALID_KEY
@@ -154317,7 +156129,7 @@ items:
   assemblies:
   - SoCore
   namespace: SuperOffice.Globalization
-  summary: "'Has company'<br />\r\nContext - the contact is associated with a company<br />\r\nUsage: None"
+  summary: "'Has company'<br />\r\nContext - the contact is associated with a company&lt;br/&gt;Danish: Company should be Firma, not Virksomhed<br />\r\nUsage: None"
   example: []
   syntax:
     content: public const string SR_HAS_COMPANY = "[SR_HAS_COMPANY]"
@@ -161835,7 +163647,7 @@ items:
   assemblies:
   - SoCore
   namespace: SuperOffice.Globalization
-  summary: "'Nick name'<br />\r\nCompund noun<br />\r\nUsage: None"
+  summary: "'Nickname'<br />\r\nCompund noun<br />\r\nUsage: None"
   example: []
   syntax:
     content: public const string SR_LABEL_DISPLAYNAME = "[SR_LABEL_DISPLAYNAME]"
@@ -162073,6 +163885,27 @@ items:
     return:
       type: System.String
     content.vb: Public Const SR_LABEL_LASTNAME As String = "[SR_LABEL_LASTNAME]"
+- uid: SuperOffice.Globalization.RC.SR_LABEL_LEADSTATUS
+  commentId: F:SuperOffice.Globalization.RC.SR_LABEL_LEADSTATUS
+  id: SR_LABEL_LEADSTATUS
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_LABEL_LEADSTATUS
+  nameWithType: RC.SR_LABEL_LEADSTATUS
+  fullName: SuperOffice.Globalization.RC.SR_LABEL_LEADSTATUS
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Lead status'<br />\r\nThe term \"lead\" should be kept for all languages, as this term is adopted by our marketing users in any language.<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_LABEL_LEADSTATUS = "[SR_LABEL_LEADSTATUS]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_LABEL_LEADSTATUS As String = "[SR_LABEL_LEADSTATUS]"
 - uid: SuperOffice.Globalization.RC.SR_LABEL_MIDDLENAME
   commentId: F:SuperOffice.Globalization.RC.SR_LABEL_MIDDLENAME
   id: SR_LABEL_MIDDLENAME
@@ -173287,6 +175120,27 @@ items:
     return:
       type: System.String
     content.vb: Public Const SR_MAILLOGIN_ADVANCED As String = "[SR_MAILLOGIN_ADVANCED]"
+- uid: SuperOffice.Globalization.RC.SR_MAILLOGIN_CONNECT_EMAIL
+  commentId: F:SuperOffice.Globalization.RC.SR_MAILLOGIN_CONNECT_EMAIL
+  id: SR_MAILLOGIN_CONNECT_EMAIL
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_MAILLOGIN_CONNECT_EMAIL
+  nameWithType: RC.SR_MAILLOGIN_CONNECT_EMAIL
+  fullName: SuperOffice.Globalization.RC.SR_MAILLOGIN_CONNECT_EMAIL
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Connect e-mail'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_MAILLOGIN_CONNECT_EMAIL = "[SR_MAILLOGIN_CONNECT_EMAIL]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_MAILLOGIN_CONNECT_EMAIL As String = "[SR_MAILLOGIN_CONNECT_EMAIL]"
 - uid: SuperOffice.Globalization.RC.SR_MAILLOGIN_CONNECT_TO_EMAIL_SERVICE
   commentId: F:SuperOffice.Globalization.RC.SR_MAILLOGIN_CONNECT_TO_EMAIL_SERVICE
   id: SR_MAILLOGIN_CONNECT_TO_EMAIL_SERVICE
@@ -173301,7 +175155,7 @@ items:
   assemblies:
   - SoCore
   namespace: SuperOffice.Globalization
-  summary: "'Connect to your preferred e-mail service'<br />\r\nUsage: None"
+  summary: "'Please connect to your preferred e-mail service'<br />\r\nUsage: None"
   example: []
   syntax:
     content: public const string SR_MAILLOGIN_CONNECT_TO_EMAIL_SERVICE = "[SR_MAILLOGIN_CONNECT_TO_EMAIL_SERVICE]"
@@ -179559,7 +181413,7 @@ items:
   assemblies:
   - SoCore
   namespace: SuperOffice.Globalization
-  summary: "'Add contact'<br />\r\nUsage: None"
+  summary: "'Add contact'<br />\r\nDanish: Contact translates to Person, not Kontakt.<br />\r\nUsage: None"
   example: []
   syntax:
     content: public const string SR_MB_ADD_PERSON = "[SR_MB_ADD_PERSON]"
@@ -180945,7 +182799,7 @@ items:
   assemblies:
   - SoCore
   namespace: SuperOffice.Globalization
-  summary: "'There is no valid company active'<br />\r\nThis is company, not contact<br />\r\nUsage: None"
+  summary: "'There is no valid company active'<br />\r\nThis is company, not contact&lt;br/&gt;Please follow the term-list&lt;br/&gt;Danish: Company should be Firma, not Virksomhed<br />\r\nUsage: None"
   example: []
   syntax:
     content: public const string SR_MB_NOVALIDCONTACT_TOOLTIP = "[SR_MB_NOVALIDCONTACT_TOOLTIP]"
@@ -193818,7 +195672,7 @@ items:
   assemblies:
   - SoCore
   namespace: SuperOffice.Globalization
-  summary: "'Nick name must be unique'<br />\r\nUsage: None"
+  summary: "'Nickname must be unique'<br />\r\nUsage: None"
   example: []
   syntax:
     content: public const string SR_NICKNAME_UNIQUE = "[SR_NICKNAME_UNIQUE]"
@@ -194637,7 +196491,7 @@ items:
   assemblies:
   - SoCore
   namespace: SuperOffice.Globalization
-  summary: "'New company assigned from {0}'<br />\r\nUsage: None"
+  summary: "'New company assigned from {0}'<br />\r\nDanish: Company translates to Firma, not Virksomhed.<br />\r\nUsage: None"
   example: []
   syntax:
     content: public const string SR_NOTIFY_NEW_COMPANY_FROM = "[SR_NOTIFY_NEW_COMPANY_FROM]"
@@ -194826,7 +196680,7 @@ items:
   assemblies:
   - SoCore
   namespace: SuperOffice.Globalization
-  summary: "'Ownership notifications'<br />\r\nUsage: None"
+  summary: "'Ownership notifications'<br />\r\nFor dutch \"Eigendomsmeldingen\" isn't so good as it refers to property and not person.<br />\r\nUsage: None"
   example: []
   syntax:
     content: public const string SR_NOTIFY_SETTINGS_ASSIGNMENT_HEADING = "[SR_NOTIFY_SETTINGS_ASSIGNMENT_HEADING]"
@@ -194994,7 +196848,7 @@ items:
   assemblies:
   - SoCore
   namespace: SuperOffice.Globalization
-  summary: "'Show notifications for assigned companies and contacts'<br />\r\nUsage: None"
+  summary: "'Show notifications for assigned companies and contacts'<br />\r\nTo be consistent with other text for notifications, norwegian should be \"Bli varslet om tildeling av firmaer og personer\"&lt;br/&gt;To be consistent with the term list:&lt;br/&gt;Danish should use \"firmaer og personer\"&lt;br/&gt;German should use \"Firmen un Personen\"<br />\r\nUsage: None"
   example: []
   syntax:
     content: public const string SR_NOTIFY_SETTINGS_notifyContactOwnership = "[SR_NOTIFY_SETTINGS_notifyContactOwnership]"
@@ -196863,7 +198717,7 @@ items:
   assemblies:
   - SoCore
   namespace: SuperOffice.Globalization
-  summary: "'Use the new import wizard to easily upload new contacts.'<br />\r\nCRM Online Startup Screen - bullet 2<br />\r\nUsage: None"
+  summary: "'Use the new import wizard to easily upload new contacts.'<br />\r\nCRM Online Startup Screen - bullet 2&lt;br/&gt;German: Unternehmen should be Firma, and Kontakt should be Person according to terminology list?<br />\r\nUsage: None"
   example: []
   syntax:
     content: public const string SR_OSW_BULLET_2 = "[SR_OSW_BULLET_2]"
@@ -196884,7 +198738,7 @@ items:
   assemblies:
   - SoCore
   namespace: SuperOffice.Globalization
-  summary: "'The WebTools for Mac now let you integrate your iCalendar and Address book with your CRM Online diary and contacts. '<br />\r\nCRM Online Startup Screen -  bullet 3<br />\r\nUsage: None"
+  summary: "'The WebTools for Mac now let you integrate your iCalendar and Address book with your CRM Online diary and contacts. '<br />\r\nCRM Online Startup Screen -  bullet 3&lt;br/&gt;German: Unternehmen should be Firma, and Kontakt should be Person according to terminology list?<br />\r\nUsage: None"
   example: []
   syntax:
     content: public const string SR_OSW_BULLET_3 = "[SR_OSW_BULLET_3]"
@@ -198592,48 +200446,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const SR_PDL_Mail_IncomingInvitationHandling_3 As String = "[SR_PDL_Mail_IncomingInvitationHandling_3]"
-- uid: SuperOffice.Globalization.RC.SR_PDL_Mail_PreferredEmailConnection_1
-  commentId: F:SuperOffice.Globalization.RC.SR_PDL_Mail_PreferredEmailConnection_1
-  id: SR_PDL_Mail_PreferredEmailConnection_1
-  parent: SuperOffice.Globalization.RC
-  langs:
-  - csharp
-  - vb
-  name: SR_PDL_Mail_PreferredEmailConnection_1
-  nameWithType: RC.SR_PDL_Mail_PreferredEmailConnection_1
-  fullName: SuperOffice.Globalization.RC.SR_PDL_Mail_PreferredEmailConnection_1
-  type: Field
-  assemblies:
-  - SoCore
-  namespace: SuperOffice.Globalization
-  summary: "'SuperOffice for Outlook (SOFO)'<br />\r\nUsage: None"
-  example: []
-  syntax:
-    content: public const string SR_PDL_Mail_PreferredEmailConnection_1 = "[SR_PDL_Mail_PreferredEmailConnection_1]"
-    return:
-      type: System.String
-    content.vb: Public Const SR_PDL_Mail_PreferredEmailConnection_1 As String = "[SR_PDL_Mail_PreferredEmailConnection_1]"
-- uid: SuperOffice.Globalization.RC.SR_PDL_Mail_PreferredEmailConnection_2
-  commentId: F:SuperOffice.Globalization.RC.SR_PDL_Mail_PreferredEmailConnection_2
-  id: SR_PDL_Mail_PreferredEmailConnection_2
-  parent: SuperOffice.Globalization.RC
-  langs:
-  - csharp
-  - vb
-  name: SR_PDL_Mail_PreferredEmailConnection_2
-  nameWithType: RC.SR_PDL_Mail_PreferredEmailConnection_2
-  fullName: SuperOffice.Globalization.RC.SR_PDL_Mail_PreferredEmailConnection_2
-  type: Field
-  assemblies:
-  - SoCore
-  namespace: SuperOffice.Globalization
-  summary: "'SuperOffice Inbox'<br />\r\nUsage: None"
-  example: []
-  syntax:
-    content: public const string SR_PDL_Mail_PreferredEmailConnection_2 = "[SR_PDL_Mail_PreferredEmailConnection_2]"
-    return:
-      type: System.String
-    content.vb: Public Const SR_PDL_Mail_PreferredEmailConnection_2 As String = "[SR_PDL_Mail_PreferredEmailConnection_2]"
 - uid: SuperOffice.Globalization.RC.SR_PDL_Phone_DdeType_1
   commentId: F:SuperOffice.Globalization.RC.SR_PDL_Phone_DdeType_1
   id: SR_PDL_Phone_DdeType_1
@@ -212578,48 +214390,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const SR_PD_Mail_OutgoingInvitationIncludeRsvp_NAME As String = "[SR_PD_Mail_OutgoingInvitationIncludeRsvp_NAME]"
-- uid: SuperOffice.Globalization.RC.SR_PD_Mail_PreferredEmailConnection_DESC
-  commentId: F:SuperOffice.Globalization.RC.SR_PD_Mail_PreferredEmailConnection_DESC
-  id: SR_PD_Mail_PreferredEmailConnection_DESC
-  parent: SuperOffice.Globalization.RC
-  langs:
-  - csharp
-  - vb
-  name: SR_PD_Mail_PreferredEmailConnection_DESC
-  nameWithType: RC.SR_PD_Mail_PreferredEmailConnection_DESC
-  fullName: SuperOffice.Globalization.RC.SR_PD_Mail_PreferredEmailConnection_DESC
-  type: Field
-  assemblies:
-  - SoCore
-  namespace: SuperOffice.Globalization
-  summary: "'Determining the visibility of the inbox navigator button based on preferred e-mail connection (Default = SuperOffice for Outlook (SOFO)).&lt;br/&gt;&lt;br/&gt;* SuperOffice for Outlook (SOFO): the inbox navigator button will be hidden.&lt;br/&gt;* SuperOffice Inbox: the inbox navigator button will be displayed.'<br />\r\nUsage: None"
-  example: []
-  syntax:
-    content: public const string SR_PD_Mail_PreferredEmailConnection_DESC = "[SR_PD_Mail_PreferredEmailConnection_DESC]"
-    return:
-      type: System.String
-    content.vb: Public Const SR_PD_Mail_PreferredEmailConnection_DESC As String = "[SR_PD_Mail_PreferredEmailConnection_DESC]"
-- uid: SuperOffice.Globalization.RC.SR_PD_Mail_PreferredEmailConnection_NAME
-  commentId: F:SuperOffice.Globalization.RC.SR_PD_Mail_PreferredEmailConnection_NAME
-  id: SR_PD_Mail_PreferredEmailConnection_NAME
-  parent: SuperOffice.Globalization.RC
-  langs:
-  - csharp
-  - vb
-  name: SR_PD_Mail_PreferredEmailConnection_NAME
-  nameWithType: RC.SR_PD_Mail_PreferredEmailConnection_NAME
-  fullName: SuperOffice.Globalization.RC.SR_PD_Mail_PreferredEmailConnection_NAME
-  type: Field
-  assemblies:
-  - SoCore
-  namespace: SuperOffice.Globalization
-  summary: "'Preferred e-mail connection'<br />\r\nUsage: None"
-  example: []
-  syntax:
-    content: public const string SR_PD_Mail_PreferredEmailConnection_NAME = "[SR_PD_Mail_PreferredEmailConnection_NAME]"
-    return:
-      type: System.String
-    content.vb: Public Const SR_PD_Mail_PreferredEmailConnection_NAME As String = "[SR_PD_Mail_PreferredEmailConnection_NAME]"
 - uid: SuperOffice.Globalization.RC.SR_PD_Mail_RemoveAfterArchive_DESC
   commentId: F:SuperOffice.Globalization.RC.SR_PD_Mail_RemoveAfterArchive_DESC
   id: SR_PD_Mail_RemoveAfterArchive_DESC
@@ -212872,6 +214642,48 @@ items:
     return:
       type: System.String
     content.vb: Public Const SR_PD_Mail_ShowConfirmationDialog_NAME As String = "[SR_PD_Mail_ShowConfirmationDialog_NAME]"
+- uid: SuperOffice.Globalization.RC.SR_PD_Mail_ShowMyEmails_DESC
+  commentId: F:SuperOffice.Globalization.RC.SR_PD_Mail_ShowMyEmails_DESC
+  id: SR_PD_Mail_ShowMyEmails_DESC
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_PD_Mail_ShowMyEmails_DESC
+  nameWithType: RC.SR_PD_Mail_ShowMyEmails_DESC
+  fullName: SuperOffice.Globalization.RC.SR_PD_Mail_ShowMyEmails_DESC
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Download my e-mails to SuperOffice and show Inbox button in Navigator pane.'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_PD_Mail_ShowMyEmails_DESC = "[SR_PD_Mail_ShowMyEmails_DESC]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_PD_Mail_ShowMyEmails_DESC As String = "[SR_PD_Mail_ShowMyEmails_DESC]"
+- uid: SuperOffice.Globalization.RC.SR_PD_Mail_ShowMyEmails_NAME
+  commentId: F:SuperOffice.Globalization.RC.SR_PD_Mail_ShowMyEmails_NAME
+  id: SR_PD_Mail_ShowMyEmails_NAME
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_PD_Mail_ShowMyEmails_NAME
+  nameWithType: RC.SR_PD_Mail_ShowMyEmails_NAME
+  fullName: SuperOffice.Globalization.RC.SR_PD_Mail_ShowMyEmails_NAME
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Show my e-mails in SuperOffice'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_PD_Mail_ShowMyEmails_NAME = "[SR_PD_Mail_ShowMyEmails_NAME]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_PD_Mail_ShowMyEmails_NAME As String = "[SR_PD_Mail_ShowMyEmails_NAME]"
 - uid: SuperOffice.Globalization.RC.SR_PD_Mail_SmtpServerName_DESC
   commentId: F:SuperOffice.Globalization.RC.SR_PD_Mail_SmtpServerName_DESC
   id: SR_PD_Mail_SmtpServerName_DESC
@@ -213537,7 +215349,7 @@ items:
   assemblies:
   - SoCore
   namespace: SuperOffice.Globalization
-  summary: "'If yes, available UTM data will be transferred into the system when a contact submits a form. Organisational privacy policy may need an update before saving this information in the database. Default value: No'<br />\r\nUsage: None"
+  summary: "'If yes, available UTM data will be transferred into the system when a contact submits a form. Organisational privacy policy may need an update before saving this information in the database. Default value: No'<br />\r\nGerman: Unternehmen should be Firma, and Kontakt should be Person according to terminology list?<br />\r\nUsage: None"
   example: []
   syntax:
     content: public const string SR_PD_Mailing_EnableUTMSaving_DESC = "[SR_PD_Mailing_EnableUTMSaving_DESC]"
@@ -230085,7 +231897,7 @@ items:
   assemblies:
   - SoCore
   namespace: SuperOffice.Globalization
-  summary: "'No companies found.'<br />\r\nText shown in preview of custom object when the entity has no companies.<br />\r\nUsage: None"
+  summary: "'No companies found.'<br />\r\nText shown in preview of custom object when the entity has no companies.&lt;br/&gt;German: Unternehmen should be Firma according to terminology list.&lt;br/&gt;Danish: Company should be Firma, not Virksomhed&lt;br/&gt;Norwegian: Company should be Firma, not Selskap<br />\r\nUsage: None"
   example: []
   syntax:
     content: public const string SR_PREVIEW_NO_CONTACTS = "[SR_PREVIEW_NO_CONTACTS]"
@@ -230190,7 +232002,7 @@ items:
   assemblies:
   - SoCore
   namespace: SuperOffice.Globalization
-  summary: "'No contacts found.'<br />\r\nText shown in preview of custom object when the entity has no contacts.<br />\r\nUsage: None"
+  summary: "'No contacts found.'<br />\r\nText shown in preview of custom object when the entity has no contacts.&lt;br/&gt;German: Unternehmen should be Firma, and Kontakt should be Person according to terminology list?<br />\r\nUsage: None"
   example: []
   syntax:
     content: public const string SR_PREVIEW_NO_PERSONS = "[SR_PREVIEW_NO_PERSONS]"
@@ -257238,7 +259050,7 @@ items:
   assemblies:
   - SoCore
   namespace: SuperOffice.Globalization
-  summary: "'ID of external contacts to be displayed as participants'<br />\r\nTooltip for column, not visible in GUI<br />\r\nUsage: None"
+  summary: "'ID of external contacts to be displayed as participants'<br />\r\nTooltip for column, not visible in GUI&lt;br/&gt;German: Unternehmen should be Firma, and Kontakt should be Person according to terminology list?<br />\r\nUsage: None"
   example: []
   syntax:
     content: public const string SR_RESTRICTION_BOOKINGPERSON_TOOLTIP = "[SR_RESTRICTION_BOOKINGPERSON_TOOLTIP]"
@@ -261564,7 +263376,7 @@ items:
   assemblies:
   - SoCore
   namespace: SuperOffice.Globalization
-  summary: "'Save settings for current selection only'<br />\r\nUsage: None"
+  summary: "'Save settings for all users viewing this selection'<br />\r\nUsage: None"
   example: []
   syntax:
     content: public const string SR_SAVE_COLUMNS_CURRENT_SELECTION = "[SR_SAVE_COLUMNS_CURRENT_SELECTION]"
@@ -266016,7 +267828,7 @@ items:
   assemblies:
   - SoCore
   namespace: SuperOffice.Globalization
-  summary: "'Selected contacts'<br />\r\nUsage: None"
+  summary: "'Selected contacts'<br />\r\nGerman: Unternehmen should be Firma, and Kontakt should be Person according to terminology list?<br />\r\nUsage: None"
   example: []
   syntax:
     content: public const string SR_SELECTED_CONTACTS = "[SR_SELECTED_CONTACTS]"
@@ -267360,7 +269172,7 @@ items:
   assemblies:
   - SoCore
   namespace: SuperOffice.Globalization
-  summary: "'You are about to permanently delete all companies and associated contacts in this selection from all of SuperOffice CRM, and not just from the selection.\\r\\n\\r\\nAre you sure you want to continue?'<br />\r\nChanged swedish from \"ta bort\" to \"radera\". TFS 76484. <br />\r\nUsage: None"
+  summary: "'You are about to permanently delete all companies and associated contacts in this selection from all of SuperOffice CRM, and not just from the selection.\\r\\n\\r\\nAre you sure you want to continue?'<br />\r\nChanged swedish from \"ta bort\" to \"radera\". TFS 76484. &lt;br/&gt;Danish: virksomheter should be firma, and kontakt should be person according to terminology list.<br />\r\nUsage: None"
   example: []
   syntax:
     content: public const string SR_SELECTION_DELETE_ALL_CONTACTSANDPERSONS_YESNO = "[SR_SELECTION_DELETE_ALL_CONTACTSANDPERSONS_YESNO]"
@@ -269782,6 +271594,27 @@ items:
     return:
       type: System.String
     content.vb: Public Const SR_SELECTION_QUESTION_DELETE_NUMBEROF_PROJECTS As String = "[SR_SELECTION_QUESTION_DELETE_NUMBEROF_PROJECTS]"
+- uid: SuperOffice.Globalization.RC.SR_SELECTION_QUESTION_DELETE_NUMBEROF_RECORDS
+  commentId: F:SuperOffice.Globalization.RC.SR_SELECTION_QUESTION_DELETE_NUMBEROF_RECORDS
+  id: SR_SELECTION_QUESTION_DELETE_NUMBEROF_RECORDS
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_SELECTION_QUESTION_DELETE_NUMBEROF_RECORDS
+  nameWithType: RC.SR_SELECTION_QUESTION_DELETE_NUMBEROF_RECORDS
+  fullName: SuperOffice.Globalization.RC.SR_SELECTION_QUESTION_DELETE_NUMBEROF_RECORDS
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'You are about to permanently delete $num records from all of SuperOffice CRM, and not just from the selection.\\nYou cannot undo this action.\\r\\n\\r\\nAre you sure you want to continue?'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_SELECTION_QUESTION_DELETE_NUMBEROF_RECORDS = "[SR_SELECTION_QUESTION_DELETE_NUMBEROF_RECORDS]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_SELECTION_QUESTION_DELETE_NUMBEROF_RECORDS As String = "[SR_SELECTION_QUESTION_DELETE_NUMBEROF_RECORDS]"
 - uid: SuperOffice.Globalization.RC.SR_SELECTION_QUESTION_DELETE_NUMBEROF_SALES
   commentId: F:SuperOffice.Globalization.RC.SR_SELECTION_QUESTION_DELETE_NUMBEROF_SALES
   id: SR_SELECTION_QUESTION_DELETE_NUMBEROF_SALES
@@ -270622,6 +272455,27 @@ items:
     return:
       type: System.String
     content.vb: Public Const SR_SELECTION_SAVECHANGES As String = "[SR_SELECTION_SAVECHANGES]"
+- uid: SuperOffice.Globalization.RC.SR_SELECTION_SAVE_FOR_ALL_DENIED
+  commentId: F:SuperOffice.Globalization.RC.SR_SELECTION_SAVE_FOR_ALL_DENIED
+  id: SR_SELECTION_SAVE_FOR_ALL_DENIED
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_SELECTION_SAVE_FOR_ALL_DENIED
+  nameWithType: RC.SR_SELECTION_SAVE_FOR_ALL_DENIED
+  fullName: SuperOffice.Globalization.RC.SR_SELECTION_SAVE_FOR_ALL_DENIED
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Only the selection owner or general administrators can edit.'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_SELECTION_SAVE_FOR_ALL_DENIED = "[SR_SELECTION_SAVE_FOR_ALL_DENIED]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_SELECTION_SAVE_FOR_ALL_DENIED As String = "[SR_SELECTION_SAVE_FOR_ALL_DENIED]"
 - uid: SuperOffice.Globalization.RC.SR_SELECTION_SELECTIONS
   commentId: F:SuperOffice.Globalization.RC.SR_SELECTION_SELECTIONS
   id: SR_SELECTION_SELECTIONS
@@ -272008,6 +273862,27 @@ items:
     return:
       type: System.String
     content.vb: Public Const SR_SELECTION_WARNING_PERMANENT_DELETE_PROJECTS As String = "[SR_SELECTION_WARNING_PERMANENT_DELETE_PROJECTS]"
+- uid: SuperOffice.Globalization.RC.SR_SELECTION_WARNING_PERMANENT_DELETE_RECORDS
+  commentId: F:SuperOffice.Globalization.RC.SR_SELECTION_WARNING_PERMANENT_DELETE_RECORDS
+  id: SR_SELECTION_WARNING_PERMANENT_DELETE_RECORDS
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_SELECTION_WARNING_PERMANENT_DELETE_RECORDS
+  nameWithType: RC.SR_SELECTION_WARNING_PERMANENT_DELETE_RECORDS
+  fullName: SuperOffice.Globalization.RC.SR_SELECTION_WARNING_PERMANENT_DELETE_RECORDS
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Permanently delete records from the database?'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_SELECTION_WARNING_PERMANENT_DELETE_RECORDS = "[SR_SELECTION_WARNING_PERMANENT_DELETE_RECORDS]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_SELECTION_WARNING_PERMANENT_DELETE_RECORDS As String = "[SR_SELECTION_WARNING_PERMANENT_DELETE_RECORDS]"
 - uid: SuperOffice.Globalization.RC.SR_SELECTION_WARNING_PERMANENT_DELETE_SALES
   commentId: F:SuperOffice.Globalization.RC.SR_SELECTION_WARNING_PERMANENT_DELETE_SALES
   id: SR_SELECTION_WARNING_PERMANENT_DELETE_SALES
@@ -273135,7 +275010,7 @@ items:
   assemblies:
   - SoCore
   namespace: SuperOffice.Globalization
-  summary: "'Form submission by company'<br />\r\nUsage: None"
+  summary: "'Form submission by company'<br />\r\nPlease follow the term-list&lt;br/&gt;Danish: Company should be Firma, not Virksomhed<br />\r\nUsage: None"
   example: []
   syntax:
     content: public const string SR_SEL_CHART_FORM_SUBMISSION_BY_COMPANY = "[SR_SEL_CHART_FORM_SUBMISSION_BY_COMPANY]"
@@ -273793,6 +275668,27 @@ items:
     return:
       type: System.String
     content.vb: Public Const SR_SEL_DELETE_ALL_PROJECTS_YES_NO As String = "[SR_SEL_DELETE_ALL_PROJECTS_YES_NO]"
+- uid: SuperOffice.Globalization.RC.SR_SEL_DELETE_ALL_RECORDS_YES_NO
+  commentId: F:SuperOffice.Globalization.RC.SR_SEL_DELETE_ALL_RECORDS_YES_NO
+  id: SR_SEL_DELETE_ALL_RECORDS_YES_NO
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_SEL_DELETE_ALL_RECORDS_YES_NO
+  nameWithType: RC.SR_SEL_DELETE_ALL_RECORDS_YES_NO
+  fullName: SuperOffice.Globalization.RC.SR_SEL_DELETE_ALL_RECORDS_YES_NO
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'You are about to permanently delete all records in this list from all of SuperOffice.\\nYou cannot undo this action.\\r\\n\\r\\nAre you sure you want to continue?'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_SEL_DELETE_ALL_RECORDS_YES_NO = "[SR_SEL_DELETE_ALL_RECORDS_YES_NO]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_SEL_DELETE_ALL_RECORDS_YES_NO As String = "[SR_SEL_DELETE_ALL_RECORDS_YES_NO]"
 - uid: SuperOffice.Globalization.RC.SR_SEL_DELETE_ALL_SALES_YES_NO
   commentId: F:SuperOffice.Globalization.RC.SR_SEL_DELETE_ALL_SALES_YES_NO
   id: SR_SEL_DELETE_ALL_SALES_YES_NO
@@ -288129,7 +290025,7 @@ items:
   assemblies:
   - SoCore
   namespace: SuperOffice.Globalization
-  summary: "'You have enabled targets on company and group level only. This will delete stored values for all associates. Are you sure?'<br />\r\nWarning message displayed when the user removes targets for associate levels. All data in the system will be deleted and its not reversable.<br />\r\nUsage: None"
+  summary: "'You have enabled targets on company and group level only. This will delete stored values for all associates. Are you sure?'<br />\r\nWarning message displayed when the user removes targets for associate levels. All data in the system will be deleted and its not reversable.&lt;br/&gt;German: Unternehmen should be Firma according to terminology list?<br />\r\nUsage: None"
   example: []
   syntax:
     content: public const string SR_TARGETS_CONFIRM_REMOVE_ASSOCIATE_LEVEL = "[SR_TARGETS_CONFIRM_REMOVE_ASSOCIATE_LEVEL]"
@@ -293176,6 +295072,90 @@ items:
     return:
       type: System.String
     content.vb: Public Const SR_TICKETSTATUS_TIMECOUNTER_QUEUE As String = "[SR_TICKETSTATUS_TIMECOUNTER_QUEUE]"
+- uid: SuperOffice.Globalization.RC.SR_TICKET_ACCEPT_DIALOG_LINE1
+  commentId: F:SuperOffice.Globalization.RC.SR_TICKET_ACCEPT_DIALOG_LINE1
+  id: SR_TICKET_ACCEPT_DIALOG_LINE1
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_TICKET_ACCEPT_DIALOG_LINE1
+  nameWithType: RC.SR_TICKET_ACCEPT_DIALOG_LINE1
+  fullName: SuperOffice.Globalization.RC.SR_TICKET_ACCEPT_DIALOG_LINE1
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'The following request(s) was/were assigned to another user in the meantime.'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_TICKET_ACCEPT_DIALOG_LINE1 = "[SR_TICKET_ACCEPT_DIALOG_LINE1]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_TICKET_ACCEPT_DIALOG_LINE1 As String = "[SR_TICKET_ACCEPT_DIALOG_LINE1]"
+- uid: SuperOffice.Globalization.RC.SR_TICKET_ACCEPT_DIALOG_LINE2
+  commentId: F:SuperOffice.Globalization.RC.SR_TICKET_ACCEPT_DIALOG_LINE2
+  id: SR_TICKET_ACCEPT_DIALOG_LINE2
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_TICKET_ACCEPT_DIALOG_LINE2
+  nameWithType: RC.SR_TICKET_ACCEPT_DIALOG_LINE2
+  fullName: SuperOffice.Globalization.RC.SR_TICKET_ACCEPT_DIALOG_LINE2
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'All other requests from your selection have already been assigned to you.'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_TICKET_ACCEPT_DIALOG_LINE2 = "[SR_TICKET_ACCEPT_DIALOG_LINE2]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_TICKET_ACCEPT_DIALOG_LINE2 As String = "[SR_TICKET_ACCEPT_DIALOG_LINE2]"
+- uid: SuperOffice.Globalization.RC.SR_TICKET_ACCEPT_DIALOG_LINE3
+  commentId: F:SuperOffice.Globalization.RC.SR_TICKET_ACCEPT_DIALOG_LINE3
+  id: SR_TICKET_ACCEPT_DIALOG_LINE3
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_TICKET_ACCEPT_DIALOG_LINE3
+  nameWithType: RC.SR_TICKET_ACCEPT_DIALOG_LINE3
+  fullName: SuperOffice.Globalization.RC.SR_TICKET_ACCEPT_DIALOG_LINE3
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Do you also want to accept the requests listed above?'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_TICKET_ACCEPT_DIALOG_LINE3 = "[SR_TICKET_ACCEPT_DIALOG_LINE3]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_TICKET_ACCEPT_DIALOG_LINE3 As String = "[SR_TICKET_ACCEPT_DIALOG_LINE3]"
+- uid: SuperOffice.Globalization.RC.SR_TICKET_ACCEPT_DIALOG_TITLE
+  commentId: F:SuperOffice.Globalization.RC.SR_TICKET_ACCEPT_DIALOG_TITLE
+  id: SR_TICKET_ACCEPT_DIALOG_TITLE
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_TICKET_ACCEPT_DIALOG_TITLE
+  nameWithType: RC.SR_TICKET_ACCEPT_DIALOG_TITLE
+  fullName: SuperOffice.Globalization.RC.SR_TICKET_ACCEPT_DIALOG_TITLE
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Some requests are already assigned'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_TICKET_ACCEPT_DIALOG_TITLE = "[SR_TICKET_ACCEPT_DIALOG_TITLE]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_TICKET_ACCEPT_DIALOG_TITLE As String = "[SR_TICKET_ACCEPT_DIALOG_TITLE]"
 - uid: SuperOffice.Globalization.RC.SR_TICKET_ACTION_ACCEPT
   commentId: F:SuperOffice.Globalization.RC.SR_TICKET_ACTION_ACCEPT
   id: SR_TICKET_ACTION_ACCEPT
@@ -308863,6 +310843,174 @@ items:
     return:
       type: System.String
     content.vb: Public Const SR_USRASS_VIEW As String = "[SR_USRASS_VIEW]"
+- uid: SuperOffice.Globalization.RC.SR_UTM_ADMIN_ADDSCRIPT_DESC
+  commentId: F:SuperOffice.Globalization.RC.SR_UTM_ADMIN_ADDSCRIPT_DESC
+  id: SR_UTM_ADMIN_ADDSCRIPT_DESC
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_UTM_ADMIN_ADDSCRIPT_DESC
+  nameWithType: RC.SR_UTM_ADMIN_ADDSCRIPT_DESC
+  fullName: SuperOffice.Globalization.RC.SR_UTM_ADMIN_ADDSCRIPT_DESC
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Copy the script below and paste it into your website code, directly after the &lt;head&gt; tag at top of the page.'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_UTM_ADMIN_ADDSCRIPT_DESC = "[SR_UTM_ADMIN_ADDSCRIPT_DESC]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_UTM_ADMIN_ADDSCRIPT_DESC As String = "[SR_UTM_ADMIN_ADDSCRIPT_DESC]"
+- uid: SuperOffice.Globalization.RC.SR_UTM_ADMIN_ADDSCRIPT_HEADER
+  commentId: F:SuperOffice.Globalization.RC.SR_UTM_ADMIN_ADDSCRIPT_HEADER
+  id: SR_UTM_ADMIN_ADDSCRIPT_HEADER
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_UTM_ADMIN_ADDSCRIPT_HEADER
+  nameWithType: RC.SR_UTM_ADMIN_ADDSCRIPT_HEADER
+  fullName: SuperOffice.Globalization.RC.SR_UTM_ADMIN_ADDSCRIPT_HEADER
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Add a UTM tracking script to your website.'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_UTM_ADMIN_ADDSCRIPT_HEADER = "[SR_UTM_ADMIN_ADDSCRIPT_HEADER]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_UTM_ADMIN_ADDSCRIPT_HEADER As String = "[SR_UTM_ADMIN_ADDSCRIPT_HEADER]"
+- uid: SuperOffice.Globalization.RC.SR_UTM_ADMIN_CONVERSIONTRACKING
+  commentId: F:SuperOffice.Globalization.RC.SR_UTM_ADMIN_CONVERSIONTRACKING
+  id: SR_UTM_ADMIN_CONVERSIONTRACKING
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_UTM_ADMIN_CONVERSIONTRACKING
+  nameWithType: RC.SR_UTM_ADMIN_CONVERSIONTRACKING
+  fullName: SuperOffice.Globalization.RC.SR_UTM_ADMIN_CONVERSIONTRACKING
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Conversion tracking'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_UTM_ADMIN_CONVERSIONTRACKING = "[SR_UTM_ADMIN_CONVERSIONTRACKING]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_UTM_ADMIN_CONVERSIONTRACKING As String = "[SR_UTM_ADMIN_CONVERSIONTRACKING]"
+- uid: SuperOffice.Globalization.RC.SR_UTM_ADMIN_ENABLE_UTMTRACKING
+  commentId: F:SuperOffice.Globalization.RC.SR_UTM_ADMIN_ENABLE_UTMTRACKING
+  id: SR_UTM_ADMIN_ENABLE_UTMTRACKING
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_UTM_ADMIN_ENABLE_UTMTRACKING
+  nameWithType: RC.SR_UTM_ADMIN_ENABLE_UTMTRACKING
+  fullName: SuperOffice.Globalization.RC.SR_UTM_ADMIN_ENABLE_UTMTRACKING
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Turn on UTM tracking on all forms'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_UTM_ADMIN_ENABLE_UTMTRACKING = "[SR_UTM_ADMIN_ENABLE_UTMTRACKING]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_UTM_ADMIN_ENABLE_UTMTRACKING As String = "[SR_UTM_ADMIN_ENABLE_UTMTRACKING]"
+- uid: SuperOffice.Globalization.RC.SR_UTM_ADMIN_ENABLE_UTMTRACKING_DESC
+  commentId: F:SuperOffice.Globalization.RC.SR_UTM_ADMIN_ENABLE_UTMTRACKING_DESC
+  id: SR_UTM_ADMIN_ENABLE_UTMTRACKING_DESC
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_UTM_ADMIN_ENABLE_UTMTRACKING_DESC
+  nameWithType: RC.SR_UTM_ADMIN_ENABLE_UTMTRACKING_DESC
+  fullName: SuperOffice.Globalization.RC.SR_UTM_ADMIN_ENABLE_UTMTRACKING_DESC
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'This lets SuperOffice collect information about where visitors came from when they submit a form.&lt;br&gt;The information will be available in fields on the Contact card and in form submissions. '<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_UTM_ADMIN_ENABLE_UTMTRACKING_DESC = "[SR_UTM_ADMIN_ENABLE_UTMTRACKING_DESC]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_UTM_ADMIN_ENABLE_UTMTRACKING_DESC As String = "[SR_UTM_ADMIN_ENABLE_UTMTRACKING_DESC]"
+- uid: SuperOffice.Globalization.RC.SR_UTM_ADMIN_INFOBADGE
+  commentId: F:SuperOffice.Globalization.RC.SR_UTM_ADMIN_INFOBADGE
+  id: SR_UTM_ADMIN_INFOBADGE
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_UTM_ADMIN_INFOBADGE
+  nameWithType: RC.SR_UTM_ADMIN_INFOBADGE
+  fullName: SuperOffice.Globalization.RC.SR_UTM_ADMIN_INFOBADGE
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Track where your leads are coming from by using UTM parameters – small pieces of information added to the links in your ads, e-mails or social posts. When someone clicks one of the links and fills out a form, SuperOffice can capture the information to show how they found you and the form.&lt;br&gt;&lt;br&gt;&lt;br/&gt;By adding a script to enable persistent UTM tracking, you can see how a visitor first found your site – even if they browse other pages and return to submit the form later.  &lt;br&gt;&lt;br/&gt;Without the script, you can still gain valuable insight about a form conversion when using direct form links. By including UTM parameters in the link, SuperOffice will capture the available UTM data from the URL when the form is submitted. '<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_UTM_ADMIN_INFOBADGE = "[SR_UTM_ADMIN_INFOBADGE]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_UTM_ADMIN_INFOBADGE As String = "[SR_UTM_ADMIN_INFOBADGE]"
+- uid: SuperOffice.Globalization.RC.SR_UTM_ADMIN_INFOHEADER
+  commentId: F:SuperOffice.Globalization.RC.SR_UTM_ADMIN_INFOHEADER
+  id: SR_UTM_ADMIN_INFOHEADER
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_UTM_ADMIN_INFOHEADER
+  nameWithType: RC.SR_UTM_ADMIN_INFOHEADER
+  fullName: SuperOffice.Globalization.RC.SR_UTM_ADMIN_INFOHEADER
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Enable conversion tracking for all form submissions to SuperOffice CRM'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_UTM_ADMIN_INFOHEADER = "[SR_UTM_ADMIN_INFOHEADER]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_UTM_ADMIN_INFOHEADER As String = "[SR_UTM_ADMIN_INFOHEADER]"
+- uid: SuperOffice.Globalization.RC.SR_UTM_ADMIN_LINKS_HEADING
+  commentId: F:SuperOffice.Globalization.RC.SR_UTM_ADMIN_LINKS_HEADING
+  id: SR_UTM_ADMIN_LINKS_HEADING
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_UTM_ADMIN_LINKS_HEADING
+  nameWithType: RC.SR_UTM_ADMIN_LINKS_HEADING
+  fullName: SuperOffice.Globalization.RC.SR_UTM_ADMIN_LINKS_HEADING
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Add one or more standard UTM parameters to your campaign links'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_UTM_ADMIN_LINKS_HEADING = "[SR_UTM_ADMIN_LINKS_HEADING]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_UTM_ADMIN_LINKS_HEADING As String = "[SR_UTM_ADMIN_LINKS_HEADING]"
 - uid: SuperOffice.Globalization.RC.SR_UTM_ARCHIVECOLUMN_TOOLTIP
   commentId: F:SuperOffice.Globalization.RC.SR_UTM_ARCHIVECOLUMN_TOOLTIP
   id: SR_UTM_ARCHIVECOLUMN_TOOLTIP
@@ -308884,132 +311032,426 @@ items:
     return:
       type: System.String
     content.vb: Public Const SR_UTM_ARCHIVECOLUMN_TOOLTIP As String = "[SR_UTM_ARCHIVECOLUMN_TOOLTIP]"
-- uid: SuperOffice.Globalization.RC.SR_UTM_CAMPAIGN
-  commentId: F:SuperOffice.Globalization.RC.SR_UTM_CAMPAIGN
-  id: SR_UTM_CAMPAIGN
+- uid: SuperOffice.Globalization.RC.SR_UTM_CONVERSION_CAMPAIGN
+  commentId: F:SuperOffice.Globalization.RC.SR_UTM_CONVERSION_CAMPAIGN
+  id: SR_UTM_CONVERSION_CAMPAIGN
   parent: SuperOffice.Globalization.RC
   langs:
   - csharp
   - vb
-  name: SR_UTM_CAMPAIGN
-  nameWithType: RC.SR_UTM_CAMPAIGN
-  fullName: SuperOffice.Globalization.RC.SR_UTM_CAMPAIGN
+  name: SR_UTM_CONVERSION_CAMPAIGN
+  nameWithType: RC.SR_UTM_CONVERSION_CAMPAIGN
+  fullName: SuperOffice.Globalization.RC.SR_UTM_CONVERSION_CAMPAIGN
   type: Field
   assemblies:
   - SoCore
   namespace: SuperOffice.Globalization
-  summary: "'Initial UTM campaign'<br />\r\nUsage: None"
+  summary: "'Conversion campaign'<br />\r\nUsage: None"
   example: []
   syntax:
-    content: public const string SR_UTM_CAMPAIGN = "[SR_UTM_CAMPAIGN]"
+    content: public const string SR_UTM_CONVERSION_CAMPAIGN = "[SR_UTM_CONVERSION_CAMPAIGN]"
     return:
       type: System.String
-    content.vb: Public Const SR_UTM_CAMPAIGN As String = "[SR_UTM_CAMPAIGN]"
-- uid: SuperOffice.Globalization.RC.SR_UTM_CONTENT
-  commentId: F:SuperOffice.Globalization.RC.SR_UTM_CONTENT
-  id: SR_UTM_CONTENT
+    content.vb: Public Const SR_UTM_CONVERSION_CAMPAIGN As String = "[SR_UTM_CONVERSION_CAMPAIGN]"
+- uid: SuperOffice.Globalization.RC.SR_UTM_CONVERSION_CONTENT
+  commentId: F:SuperOffice.Globalization.RC.SR_UTM_CONVERSION_CONTENT
+  id: SR_UTM_CONVERSION_CONTENT
   parent: SuperOffice.Globalization.RC
   langs:
   - csharp
   - vb
-  name: SR_UTM_CONTENT
-  nameWithType: RC.SR_UTM_CONTENT
-  fullName: SuperOffice.Globalization.RC.SR_UTM_CONTENT
+  name: SR_UTM_CONVERSION_CONTENT
+  nameWithType: RC.SR_UTM_CONVERSION_CONTENT
+  fullName: SuperOffice.Globalization.RC.SR_UTM_CONVERSION_CONTENT
   type: Field
   assemblies:
   - SoCore
   namespace: SuperOffice.Globalization
-  summary: "'Initial UTM content'<br />\r\nUsage: None"
+  summary: "'Conversion content'<br />\r\nUsage: None"
   example: []
   syntax:
-    content: public const string SR_UTM_CONTENT = "[SR_UTM_CONTENT]"
+    content: public const string SR_UTM_CONVERSION_CONTENT = "[SR_UTM_CONVERSION_CONTENT]"
     return:
       type: System.String
-    content.vb: Public Const SR_UTM_CONTENT As String = "[SR_UTM_CONTENT]"
-- uid: SuperOffice.Globalization.RC.SR_UTM_MEDIUM
-  commentId: F:SuperOffice.Globalization.RC.SR_UTM_MEDIUM
-  id: SR_UTM_MEDIUM
+    content.vb: Public Const SR_UTM_CONVERSION_CONTENT As String = "[SR_UTM_CONVERSION_CONTENT]"
+- uid: SuperOffice.Globalization.RC.SR_UTM_CONVERSION_MEDIUM
+  commentId: F:SuperOffice.Globalization.RC.SR_UTM_CONVERSION_MEDIUM
+  id: SR_UTM_CONVERSION_MEDIUM
   parent: SuperOffice.Globalization.RC
   langs:
   - csharp
   - vb
-  name: SR_UTM_MEDIUM
-  nameWithType: RC.SR_UTM_MEDIUM
-  fullName: SuperOffice.Globalization.RC.SR_UTM_MEDIUM
+  name: SR_UTM_CONVERSION_MEDIUM
+  nameWithType: RC.SR_UTM_CONVERSION_MEDIUM
+  fullName: SuperOffice.Globalization.RC.SR_UTM_CONVERSION_MEDIUM
   type: Field
   assemblies:
   - SoCore
   namespace: SuperOffice.Globalization
-  summary: "'Initial UTM medium'<br />\r\nUsage: None"
+  summary: "'Conversion medium'<br />\r\nUsage: None"
   example: []
   syntax:
-    content: public const string SR_UTM_MEDIUM = "[SR_UTM_MEDIUM]"
+    content: public const string SR_UTM_CONVERSION_MEDIUM = "[SR_UTM_CONVERSION_MEDIUM]"
     return:
       type: System.String
-    content.vb: Public Const SR_UTM_MEDIUM As String = "[SR_UTM_MEDIUM]"
-- uid: SuperOffice.Globalization.RC.SR_UTM_REFERRER_DOMAIN
-  commentId: F:SuperOffice.Globalization.RC.SR_UTM_REFERRER_DOMAIN
-  id: SR_UTM_REFERRER_DOMAIN
+    content.vb: Public Const SR_UTM_CONVERSION_MEDIUM As String = "[SR_UTM_CONVERSION_MEDIUM]"
+- uid: SuperOffice.Globalization.RC.SR_UTM_CONVERSION_REFERRERDOMAIN
+  commentId: F:SuperOffice.Globalization.RC.SR_UTM_CONVERSION_REFERRERDOMAIN
+  id: SR_UTM_CONVERSION_REFERRERDOMAIN
   parent: SuperOffice.Globalization.RC
   langs:
   - csharp
   - vb
-  name: SR_UTM_REFERRER_DOMAIN
-  nameWithType: RC.SR_UTM_REFERRER_DOMAIN
-  fullName: SuperOffice.Globalization.RC.SR_UTM_REFERRER_DOMAIN
+  name: SR_UTM_CONVERSION_REFERRERDOMAIN
+  nameWithType: RC.SR_UTM_CONVERSION_REFERRERDOMAIN
+  fullName: SuperOffice.Globalization.RC.SR_UTM_CONVERSION_REFERRERDOMAIN
   type: Field
   assemblies:
   - SoCore
   namespace: SuperOffice.Globalization
-  summary: "'Initial referrer domain'<br />\r\nUsage: None"
+  summary: "'Conversion referrer domain'<br />\r\nUsage: None"
   example: []
   syntax:
-    content: public const string SR_UTM_REFERRER_DOMAIN = "[SR_UTM_REFERRER_DOMAIN]"
+    content: public const string SR_UTM_CONVERSION_REFERRERDOMAIN = "[SR_UTM_CONVERSION_REFERRERDOMAIN]"
     return:
       type: System.String
-    content.vb: Public Const SR_UTM_REFERRER_DOMAIN As String = "[SR_UTM_REFERRER_DOMAIN]"
-- uid: SuperOffice.Globalization.RC.SR_UTM_SOURCE
-  commentId: F:SuperOffice.Globalization.RC.SR_UTM_SOURCE
-  id: SR_UTM_SOURCE
+    content.vb: Public Const SR_UTM_CONVERSION_REFERRERDOMAIN As String = "[SR_UTM_CONVERSION_REFERRERDOMAIN]"
+- uid: SuperOffice.Globalization.RC.SR_UTM_CONVERSION_SOURCE
+  commentId: F:SuperOffice.Globalization.RC.SR_UTM_CONVERSION_SOURCE
+  id: SR_UTM_CONVERSION_SOURCE
   parent: SuperOffice.Globalization.RC
   langs:
   - csharp
   - vb
-  name: SR_UTM_SOURCE
-  nameWithType: RC.SR_UTM_SOURCE
-  fullName: SuperOffice.Globalization.RC.SR_UTM_SOURCE
+  name: SR_UTM_CONVERSION_SOURCE
+  nameWithType: RC.SR_UTM_CONVERSION_SOURCE
+  fullName: SuperOffice.Globalization.RC.SR_UTM_CONVERSION_SOURCE
   type: Field
   assemblies:
   - SoCore
   namespace: SuperOffice.Globalization
-  summary: "'Initial UTM source'<br />\r\nUsage: None"
+  summary: "'Conversion source'<br />\r\nUsage: None"
   example: []
   syntax:
-    content: public const string SR_UTM_SOURCE = "[SR_UTM_SOURCE]"
+    content: public const string SR_UTM_CONVERSION_SOURCE = "[SR_UTM_CONVERSION_SOURCE]"
     return:
       type: System.String
-    content.vb: Public Const SR_UTM_SOURCE As String = "[SR_UTM_SOURCE]"
-- uid: SuperOffice.Globalization.RC.SR_UTM_TERM
-  commentId: F:SuperOffice.Globalization.RC.SR_UTM_TERM
-  id: SR_UTM_TERM
+    content.vb: Public Const SR_UTM_CONVERSION_SOURCE As String = "[SR_UTM_CONVERSION_SOURCE]"
+- uid: SuperOffice.Globalization.RC.SR_UTM_CONVERSION_TERM
+  commentId: F:SuperOffice.Globalization.RC.SR_UTM_CONVERSION_TERM
+  id: SR_UTM_CONVERSION_TERM
   parent: SuperOffice.Globalization.RC
   langs:
   - csharp
   - vb
-  name: SR_UTM_TERM
-  nameWithType: RC.SR_UTM_TERM
-  fullName: SuperOffice.Globalization.RC.SR_UTM_TERM
+  name: SR_UTM_CONVERSION_TERM
+  nameWithType: RC.SR_UTM_CONVERSION_TERM
+  fullName: SuperOffice.Globalization.RC.SR_UTM_CONVERSION_TERM
   type: Field
   assemblies:
   - SoCore
   namespace: SuperOffice.Globalization
-  summary: "'Initial UTM term'<br />\r\nUsage: None"
+  summary: "'Conversion term'<br />\r\nUsage: None"
   example: []
   syntax:
-    content: public const string SR_UTM_TERM = "[SR_UTM_TERM]"
+    content: public const string SR_UTM_CONVERSION_TERM = "[SR_UTM_CONVERSION_TERM]"
     return:
       type: System.String
-    content.vb: Public Const SR_UTM_TERM As String = "[SR_UTM_TERM]"
+    content.vb: Public Const SR_UTM_CONVERSION_TERM As String = "[SR_UTM_CONVERSION_TERM]"
+- uid: SuperOffice.Globalization.RC.SR_UTM_ENABLE_UTMSAVING
+  commentId: F:SuperOffice.Globalization.RC.SR_UTM_ENABLE_UTMSAVING
+  id: SR_UTM_ENABLE_UTMSAVING
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_UTM_ENABLE_UTMSAVING
+  nameWithType: RC.SR_UTM_ENABLE_UTMSAVING
+  fullName: SuperOffice.Globalization.RC.SR_UTM_ENABLE_UTMSAVING
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Enable UTM data transfer on form submissions'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_UTM_ENABLE_UTMSAVING = "[SR_UTM_ENABLE_UTMSAVING]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_UTM_ENABLE_UTMSAVING As String = "[SR_UTM_ENABLE_UTMSAVING]"
+- uid: SuperOffice.Globalization.RC.SR_UTM_FIRSTTOUCH_CAMPAIGN
+  commentId: F:SuperOffice.Globalization.RC.SR_UTM_FIRSTTOUCH_CAMPAIGN
+  id: SR_UTM_FIRSTTOUCH_CAMPAIGN
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_UTM_FIRSTTOUCH_CAMPAIGN
+  nameWithType: RC.SR_UTM_FIRSTTOUCH_CAMPAIGN
+  fullName: SuperOffice.Globalization.RC.SR_UTM_FIRSTTOUCH_CAMPAIGN
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'First touch campaign'<br />\r\nDescribing where a lead came from the first time they visited a webpage<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_UTM_FIRSTTOUCH_CAMPAIGN = "[SR_UTM_FIRSTTOUCH_CAMPAIGN]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_UTM_FIRSTTOUCH_CAMPAIGN As String = "[SR_UTM_FIRSTTOUCH_CAMPAIGN]"
+- uid: SuperOffice.Globalization.RC.SR_UTM_FIRSTTOUCH_CONTENT
+  commentId: F:SuperOffice.Globalization.RC.SR_UTM_FIRSTTOUCH_CONTENT
+  id: SR_UTM_FIRSTTOUCH_CONTENT
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_UTM_FIRSTTOUCH_CONTENT
+  nameWithType: RC.SR_UTM_FIRSTTOUCH_CONTENT
+  fullName: SuperOffice.Globalization.RC.SR_UTM_FIRSTTOUCH_CONTENT
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'First touch content'<br />\r\nDescribing where a lead came from the first time they visited a webpage<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_UTM_FIRSTTOUCH_CONTENT = "[SR_UTM_FIRSTTOUCH_CONTENT]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_UTM_FIRSTTOUCH_CONTENT As String = "[SR_UTM_FIRSTTOUCH_CONTENT]"
+- uid: SuperOffice.Globalization.RC.SR_UTM_FIRSTTOUCH_MEDIUM
+  commentId: F:SuperOffice.Globalization.RC.SR_UTM_FIRSTTOUCH_MEDIUM
+  id: SR_UTM_FIRSTTOUCH_MEDIUM
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_UTM_FIRSTTOUCH_MEDIUM
+  nameWithType: RC.SR_UTM_FIRSTTOUCH_MEDIUM
+  fullName: SuperOffice.Globalization.RC.SR_UTM_FIRSTTOUCH_MEDIUM
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'First touch medium'<br />\r\nDescribing where a lead came from the first time they visited a webpage<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_UTM_FIRSTTOUCH_MEDIUM = "[SR_UTM_FIRSTTOUCH_MEDIUM]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_UTM_FIRSTTOUCH_MEDIUM As String = "[SR_UTM_FIRSTTOUCH_MEDIUM]"
+- uid: SuperOffice.Globalization.RC.SR_UTM_FIRSTTOUCH_REFERRER_DOMAIN
+  commentId: F:SuperOffice.Globalization.RC.SR_UTM_FIRSTTOUCH_REFERRER_DOMAIN
+  id: SR_UTM_FIRSTTOUCH_REFERRER_DOMAIN
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_UTM_FIRSTTOUCH_REFERRER_DOMAIN
+  nameWithType: RC.SR_UTM_FIRSTTOUCH_REFERRER_DOMAIN
+  fullName: SuperOffice.Globalization.RC.SR_UTM_FIRSTTOUCH_REFERRER_DOMAIN
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'First touch referrer domain'<br />\r\nDescribing where a lead came from the first time they visited a webpage<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_UTM_FIRSTTOUCH_REFERRER_DOMAIN = "[SR_UTM_FIRSTTOUCH_REFERRER_DOMAIN]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_UTM_FIRSTTOUCH_REFERRER_DOMAIN As String = "[SR_UTM_FIRSTTOUCH_REFERRER_DOMAIN]"
+- uid: SuperOffice.Globalization.RC.SR_UTM_FIRSTTOUCH_SOURCE
+  commentId: F:SuperOffice.Globalization.RC.SR_UTM_FIRSTTOUCH_SOURCE
+  id: SR_UTM_FIRSTTOUCH_SOURCE
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_UTM_FIRSTTOUCH_SOURCE
+  nameWithType: RC.SR_UTM_FIRSTTOUCH_SOURCE
+  fullName: SuperOffice.Globalization.RC.SR_UTM_FIRSTTOUCH_SOURCE
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'First touch source'<br />\r\nDescribing where a lead came from the first time they visited a webpage<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_UTM_FIRSTTOUCH_SOURCE = "[SR_UTM_FIRSTTOUCH_SOURCE]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_UTM_FIRSTTOUCH_SOURCE As String = "[SR_UTM_FIRSTTOUCH_SOURCE]"
+- uid: SuperOffice.Globalization.RC.SR_UTM_FIRSTTOUCH_TERM
+  commentId: F:SuperOffice.Globalization.RC.SR_UTM_FIRSTTOUCH_TERM
+  id: SR_UTM_FIRSTTOUCH_TERM
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_UTM_FIRSTTOUCH_TERM
+  nameWithType: RC.SR_UTM_FIRSTTOUCH_TERM
+  fullName: SuperOffice.Globalization.RC.SR_UTM_FIRSTTOUCH_TERM
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'First touch term'<br />\r\nDescribing where a lead came from the first time they visited a webpage<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_UTM_FIRSTTOUCH_TERM = "[SR_UTM_FIRSTTOUCH_TERM]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_UTM_FIRSTTOUCH_TERM As String = "[SR_UTM_FIRSTTOUCH_TERM]"
+- uid: SuperOffice.Globalization.RC.SR_UTM_LEADCREATION_CAMPAIGN
+  commentId: F:SuperOffice.Globalization.RC.SR_UTM_LEADCREATION_CAMPAIGN
+  id: SR_UTM_LEADCREATION_CAMPAIGN
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_UTM_LEADCREATION_CAMPAIGN
+  nameWithType: RC.SR_UTM_LEADCREATION_CAMPAIGN
+  fullName: SuperOffice.Globalization.RC.SR_UTM_LEADCREATION_CAMPAIGN
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Lead creation campaign'<br />\r\nThe term \"lead\" should be kept for all languages, as this term is adopted by our marketing users in any language. This is why the translation in Norwegian is \"Lead-opprettelseskampanje\".<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_UTM_LEADCREATION_CAMPAIGN = "[SR_UTM_LEADCREATION_CAMPAIGN]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_UTM_LEADCREATION_CAMPAIGN As String = "[SR_UTM_LEADCREATION_CAMPAIGN]"
+- uid: SuperOffice.Globalization.RC.SR_UTM_LEADCREATION_CONTENT
+  commentId: F:SuperOffice.Globalization.RC.SR_UTM_LEADCREATION_CONTENT
+  id: SR_UTM_LEADCREATION_CONTENT
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_UTM_LEADCREATION_CONTENT
+  nameWithType: RC.SR_UTM_LEADCREATION_CONTENT
+  fullName: SuperOffice.Globalization.RC.SR_UTM_LEADCREATION_CONTENT
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Lead creation content'<br />\r\nThe term \"lead\" should be kept for all languages, as this term is adopted by our marketing users in any language. This is why the translation in Norwegian is \"Lead-opprettelsesinnhold\".<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_UTM_LEADCREATION_CONTENT = "[SR_UTM_LEADCREATION_CONTENT]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_UTM_LEADCREATION_CONTENT As String = "[SR_UTM_LEADCREATION_CONTENT]"
+- uid: SuperOffice.Globalization.RC.SR_UTM_LEADCREATION_MEDIUM
+  commentId: F:SuperOffice.Globalization.RC.SR_UTM_LEADCREATION_MEDIUM
+  id: SR_UTM_LEADCREATION_MEDIUM
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_UTM_LEADCREATION_MEDIUM
+  nameWithType: RC.SR_UTM_LEADCREATION_MEDIUM
+  fullName: SuperOffice.Globalization.RC.SR_UTM_LEADCREATION_MEDIUM
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Lead creation medium'<br />\r\nThe term \"lead\" should be kept for all languages, as this term is adopted by our marketing users in any language. This is why the translation in Norwegian is \"Lead-opprettelsesmedium\".<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_UTM_LEADCREATION_MEDIUM = "[SR_UTM_LEADCREATION_MEDIUM]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_UTM_LEADCREATION_MEDIUM As String = "[SR_UTM_LEADCREATION_MEDIUM]"
+- uid: SuperOffice.Globalization.RC.SR_UTM_LEADCREATION_REFERRERDOMAIN
+  commentId: F:SuperOffice.Globalization.RC.SR_UTM_LEADCREATION_REFERRERDOMAIN
+  id: SR_UTM_LEADCREATION_REFERRERDOMAIN
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_UTM_LEADCREATION_REFERRERDOMAIN
+  nameWithType: RC.SR_UTM_LEADCREATION_REFERRERDOMAIN
+  fullName: SuperOffice.Globalization.RC.SR_UTM_LEADCREATION_REFERRERDOMAIN
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Lead creation referrer domain'<br />\r\nThe term \"lead\" should be kept for all languages, as this term is adopted by our marketing users in any language. This is why the translation in Norwegian is \"Lead-opprettelseshenvisningsdomene\".<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_UTM_LEADCREATION_REFERRERDOMAIN = "[SR_UTM_LEADCREATION_REFERRERDOMAIN]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_UTM_LEADCREATION_REFERRERDOMAIN As String = "[SR_UTM_LEADCREATION_REFERRERDOMAIN]"
+- uid: SuperOffice.Globalization.RC.SR_UTM_LEADCREATION_SOURCE
+  commentId: F:SuperOffice.Globalization.RC.SR_UTM_LEADCREATION_SOURCE
+  id: SR_UTM_LEADCREATION_SOURCE
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_UTM_LEADCREATION_SOURCE
+  nameWithType: RC.SR_UTM_LEADCREATION_SOURCE
+  fullName: SuperOffice.Globalization.RC.SR_UTM_LEADCREATION_SOURCE
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Lead creation source'<br />\r\nThe term \"lead\" should be kept for all languages, as this term is adopted by our marketing users in any language. This is why the translation in Norwegian is \"Lead-opprettelseskilde\".<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_UTM_LEADCREATION_SOURCE = "[SR_UTM_LEADCREATION_SOURCE]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_UTM_LEADCREATION_SOURCE As String = "[SR_UTM_LEADCREATION_SOURCE]"
+- uid: SuperOffice.Globalization.RC.SR_UTM_LEADCREATION_TERM
+  commentId: F:SuperOffice.Globalization.RC.SR_UTM_LEADCREATION_TERM
+  id: SR_UTM_LEADCREATION_TERM
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_UTM_LEADCREATION_TERM
+  nameWithType: RC.SR_UTM_LEADCREATION_TERM
+  fullName: SuperOffice.Globalization.RC.SR_UTM_LEADCREATION_TERM
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Lead creation term'<br />\r\nThe term \"lead\" should be kept for all languages, as this term is adopted by our marketing users in any language. This is why the translation in Norwegian is \"Lead-opprettelsessøkeord\".<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_UTM_LEADCREATION_TERM = "[SR_UTM_LEADCREATION_TERM]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_UTM_LEADCREATION_TERM As String = "[SR_UTM_LEADCREATION_TERM]"
+- uid: SuperOffice.Globalization.RC.SR_UTM_PREFIX_LEAD
+  commentId: F:SuperOffice.Globalization.RC.SR_UTM_PREFIX_LEAD
+  id: SR_UTM_PREFIX_LEAD
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_UTM_PREFIX_LEAD
+  nameWithType: RC.SR_UTM_PREFIX_LEAD
+  fullName: SuperOffice.Globalization.RC.SR_UTM_PREFIX_LEAD
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Lead'<br />\r\nThe term \"lead\" should be kept for all languages, as this term is adopted by our marketing users in any language.<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_UTM_PREFIX_LEAD = "[SR_UTM_PREFIX_LEAD]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_UTM_PREFIX_LEAD As String = "[SR_UTM_PREFIX_LEAD]"
 - uid: SuperOffice.Globalization.RC.SR_UTM_WEBFORM
   commentId: F:SuperOffice.Globalization.RC.SR_UTM_WEBFORM
   id: SR_UTM_WEBFORM
@@ -309024,7 +311466,7 @@ items:
   assemblies:
   - SoCore
   namespace: SuperOffice.Globalization
-  summary: "'Initial webform'<br />\r\nUsage: None"
+  summary: "'Source webform'<br />\r\nUsage: None"
   example: []
   syntax:
     content: public const string SR_UTM_WEBFORM = "[SR_UTM_WEBFORM]"
@@ -309801,7 +312243,7 @@ items:
   assemblies:
   - SoCore
   namespace: SuperOffice.Globalization
-  summary: "'The network appears to be slow or not responding. Click OK to reload the page - this will hopefully help. Click Cancel to stay on this page without reloading. You will then be able to work as normal except from looking up contacts and getting alerts from WebTools. When the network issue is resolved, reload the page (F5) to reconnect WebTools.'<br />\r\nUsage: None"
+  summary: "'The network appears to be slow or not responding. Click OK to reload the page - this will hopefully help. Click Cancel to stay on this page without reloading. You will then be able to work as normal except from looking up contacts and getting alerts from WebTools. When the network issue is resolved, reload the page (F5) to reconnect WebTools.'<br />\r\nDanish: virksomheter should be firma, and kontakt should be person according to terminology list?<br />\r\nUsage: None"
   example: []
   syntax:
     content: public const string SR_WEBTOOLS_INITIALIZE_ERROR_MESSAGE = "[SR_WEBTOOLS_INITIALIZE_ERROR_MESSAGE]"
@@ -309990,7 +312432,7 @@ items:
   assemblies:
   - SoCore
   namespace: SuperOffice.Globalization
-  summary: "'There are no active participants in this flow. No contacts are added as participants when the flow is not running.'<br />\r\nUsage: None"
+  summary: "'There are no active participants in this flow. No contacts are added as participants when the flow is not running.'<br />\r\nDanish: virksomheter should be firma, and kontakt should be person according to terminology list?<br />\r\nUsage: None"
   example: []
   syntax:
     content: public const string SR_WORKFLOWDEFINITION_STATUS_DESC_STOPPED = "[SR_WORKFLOWDEFINITION_STATUS_DESC_STOPPED]"
@@ -310242,7 +312684,7 @@ items:
   assemblies:
   - SoCore
   namespace: SuperOffice.Globalization
-  summary: "'Sale created on company'<br />\r\nUsage: None"
+  summary: "'Sale created on company'<br />\r\nGerman: Unternehmen should be Firma according to terminology list?<br />\r\nUsage: None"
   example: []
   syntax:
     content: public const string SR_WORKFLOWGOALTYPE_SALECREATEDONCOMPANY = "[SR_WORKFLOWGOALTYPE_SALECREATEDONCOMPANY]"
@@ -310830,7 +313272,7 @@ items:
   assemblies:
   - SoCore
   namespace: SuperOffice.Globalization
-  summary: "'Missing associate contacts'<br />\r\nUsage: None"
+  summary: "'Missing associate contacts'<br />\r\nGerman: Unternehmen should be Firma, and Kontakt should be Person according to terminology list?&lt;br/&gt;Danish: virksomheter should be firma, and kontakt should be person according to terminology list?<br />\r\nUsage: None"
   example: []
   syntax:
     content: public const string SR_WORKFLOWSTEP_INVALID_MISSING_ASSOCIATES = "[SR_WORKFLOWSTEP_INVALID_MISSING_ASSOCIATES]"
@@ -311922,7 +314364,7 @@ items:
   assemblies:
   - SoCore
   namespace: SuperOffice.Globalization
-  summary: "'Distribute contacts to a set of selected owners, or to the members of a primary group. If an associate is not present, no contacts are assigned. New owners of contacts will be notified.'<br />\r\nUsage: None"
+  summary: "'Distribute contacts to a set of selected owners, or to the members of a primary group. If an associate is not present, no contacts are assigned. New owners of contacts will be notified.'<br />\r\nGerman: Unternehmen should be Firma, and Kontakt should be Person according to terminology list?&lt;br/&gt;Danish: virksomheter should be firma, and kontakt should be person according to terminology list?<br />\r\nUsage: None"
   example: []
   syntax:
     content: public const string SR_WORKFLOWS_DISTRIBUTETOOWNER_DESC = "[SR_WORKFLOWS_DISTRIBUTETOOWNER_DESC]"
@@ -313434,7 +315876,7 @@ items:
   assemblies:
   - SoCore
   namespace: SuperOffice.Globalization
-  summary: "'Update or supplement a participant's contact or company data.'<br />\r\nUsage: None"
+  summary: "'Update or supplement a participant's contact or company data.'<br />\r\nGerman: Unternehmen should be Firma according to terminology list?&lt;br/&gt;Danish: Company should be Firma, not Virksomhed<br />\r\nUsage: None"
   example: []
   syntax:
     content: public const string SR_WORKFLOWS_UPDATECONTACT_DESC = "[SR_WORKFLOWS_UPDATECONTACT_DESC]"
@@ -313959,7 +316401,7 @@ items:
   assemblies:
   - SoCore
   namespace: SuperOffice.Globalization
-  summary: "'If no one is available, assign contacts to'<br />\r\nUsage: None"
+  summary: "'If no one is available, assign contacts to'<br />\r\nGerman: Unternehmen should be Firma, and Kontakt should be Person according to terminology list?&lt;br/&gt;Danish: virksomheter should be firma, and kontakt should be person according to terminology list?<br />\r\nUsage: None"
   example: []
   syntax:
     content: public const string SR_WORKFLOW_DEFAULT_ASSOCIATE = "[SR_WORKFLOW_DEFAULT_ASSOCIATE]"
@@ -315030,7 +317472,7 @@ items:
   assemblies:
   - SoCore
   namespace: SuperOffice.Globalization
-  summary: "'Only apply new owner if the contact is currently unassigned'<br />\r\nUsage: None"
+  summary: "'Only apply new owner if the contact is currently unassigned'<br />\r\nGerman: Unternehmen should be Firma, and Kontakt should be Person according to terminology list?<br />\r\nUsage: None"
   example: []
   syntax:
     content: public const string SR_WORKFLOW_ONLY_TO_UNASSIGNED = "[SR_WORKFLOW_ONLY_TO_UNASSIGNED]"
@@ -315114,7 +317556,7 @@ items:
   assemblies:
   - SoCore
   namespace: SuperOffice.Globalization
-  summary: "'Evenly distribute contacts to the selected associates. If distributed to a group, contacts will be evenly distributed to the members in the group'<br />\r\nUsage: None"
+  summary: "'Evenly distribute contacts to the selected associates. If distributed to a group, contacts will be evenly distributed to the members in the group'<br />\r\nGerman: Unternehmen should be Firma, and Kontakt should be Person according to terminology list?<br />\r\nUsage: None"
   example: []
   syntax:
     content: public const string SR_WORKFLOW_USER_GROUPS_AND_ASSOCIATES = "[SR_WORKFLOW_USER_GROUPS_AND_ASSOCIATES]"

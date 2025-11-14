@@ -15,6 +15,7 @@ Creates a new DashTile
 
 
 Calls the Dash agent service SaveDashTile.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -87,15 +88,15 @@ OK
 POST /api/v1/DashTile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 75,
-  "DashboardId": 234,
-  "Height": 104,
-  "Width": 292,
-  "Rank": 398,
+  "DashboardTileId": 512,
+  "DashboardId": 72,
+  "Height": 638,
+  "Width": 905,
+  "Rank": 533,
   "DashTileDefinition": null
 }
 ```
@@ -107,23 +108,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 57,
-  "DashboardId": 254,
-  "Height": 842,
-  "Width": 621,
-  "Rank": 567,
+  "DashboardTileId": 454,
+  "DashboardId": 284,
+  "Height": 211,
+  "Width": 192,
+  "Rank": 700,
   "DashTileDefinition": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 254
+      "FieldType": "System.String",
+      "FieldLength": 296
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

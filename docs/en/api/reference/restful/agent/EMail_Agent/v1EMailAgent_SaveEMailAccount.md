@@ -14,6 +14,9 @@ POST /api/v1/Agents/EMail/SaveEMailAccount
 Updates the existing EMailAccount or creates a new EMailAccount if the id parameter is 0.
 
 
+NsApiSlow threshold: 5000 ms.
+
+
 ## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 
@@ -92,18 +95,18 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "EMailAccountId": 661,
-  "EMailAddress": "odit",
-  "AssociateId": 621,
+  "EMailAccountId": 474,
+  "EMailAddress": "et",
+  "AssociateId": 559,
   "IncomingCredentials": null,
   "OutgoingCredentials": null,
-  "AccountStatus": 832,
-  "ErrorCount": 278,
+  "AccountStatus": 22,
+  "ErrorCount": 9,
   "ErrorReason": "",
-  "InboxFolder": "unde",
-  "SentFolder": "ratione",
-  "SimpleMode": 452,
-  "LastFetch": "2019-03-28T03:46:54.7538824+01:00"
+  "InboxFolder": "harum",
+  "SentFolder": "nam",
+  "SimpleMode": 615,
+  "LastFetch": "2023-11-22T02:30:47.2725845+01:00"
 }
 ```
 
@@ -114,24 +117,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EMailAccountId": 430,
-  "EMailAddress": "alias",
-  "AssociateId": 453,
+  "EMailAccountId": 873,
+  "EMailAddress": "eum",
+  "AssociateId": 969,
   "IncomingCredentials": null,
   "OutgoingCredentials": null,
-  "AccountStatus": 400,
-  "ErrorCount": 308,
-  "ErrorReason": "evolve integrated users",
-  "InboxFolder": "similique",
-  "SentFolder": "sit",
-  "SimpleMode": 977,
-  "LastFetch": "2003-03-16T03:46:54.7538824+01:00",
+  "AccountStatus": 574,
+  "ErrorCount": 825,
+  "ErrorReason": "",
+  "InboxFolder": "temporibus",
+  "SentFolder": "consequatur",
+  "SimpleMode": 426,
+  "LastFetch": "2012-05-29T02:30:47.2725845+02:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 75
+      "FieldType": "System.Int32",
+      "FieldLength": 701
     }
   }
 }

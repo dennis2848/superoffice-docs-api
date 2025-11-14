@@ -27,8 +27,8 @@ Get the MDO list items for "QuoteDenyReason" - with headings and filtering by us
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/QuoteDenyReason/MDOItems?flat=True
-GET /api/v1/List/QuoteDenyReason/MDOItems?query=explicabo
+GET /api/v1/List/QuoteDenyReason/MDOItems?flat=False
+GET /api/v1/List/QuoteDenyReason/MDOItems?query=qui
 ```
 
 
@@ -79,7 +79,7 @@ OK
 GET /api/v1/List/QuoteDenyReason/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -90,50 +90,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 43,
-    "Name": "Bednar Group",
-    "ToolTip": "Animi modi quia aut nulla qui reprehenderit.",
+    "Id": 784,
+    "Name": "Marvin, O'Connell and Friesen",
+    "ToolTip": "Dolor est et consequatur praesentium magni aut impedit.",
     "Deleted": false,
-    "Rank": 267,
-    "Type": "maxime",
+    "Rank": 62,
+    "Type": "quia",
     "ChildItems": [
       {
-        "Id": 346,
-        "Name": "Gislason Inc and Sons",
-        "ToolTip": "Repellat autem maiores qui amet sunt excepturi.",
+        "Id": 340,
+        "Name": "O'Connell-Rowe",
+        "ToolTip": "Rerum dolor dolor repellendus minima omnis eveniet.",
         "Deleted": false,
-        "Rank": 532,
-        "Type": "dicta",
+        "Rank": 922,
+        "Type": "commodi",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "aliquam",
-        "ColorBlock": 335,
-        "ExtraInfo": "enim",
-        "StyleHint": "quisquam",
-        "FullName": "Justice Parker",
+        "IconHint": "distinctio",
+        "ColorBlock": 721,
+        "ExtraInfo": "ut",
+        "StyleHint": "debitis",
+        "FullName": "Delta Zemlak",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 409
+            "FieldLength": 561
           }
         }
       }
     ],
-    "IconHint": "dolorum",
-    "ColorBlock": 606,
-    "ExtraInfo": "enim",
-    "StyleHint": "omnis",
-    "FullName": "Dario Murray",
+    "IconHint": "quisquam",
+    "ColorBlock": 294,
+    "ExtraInfo": "repellat",
+    "StyleHint": "necessitatibus",
+    "FullName": "Elena Wunsch",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 112
+        "FieldType": "System.Int32",
+        "FieldLength": 204
       }
     }
   }

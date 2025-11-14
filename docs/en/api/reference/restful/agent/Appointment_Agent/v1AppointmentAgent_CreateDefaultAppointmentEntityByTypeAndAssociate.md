@@ -14,6 +14,8 @@ POST /api/v1/Agents/Appointment/CreateDefaultAppointmentEntityByTypeAndAssociate
 Creates a AppointmentEntity populated with the default values for the specific type and owner.
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -139,7 +141,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Type": "Appointment",
-  "AssociateId": 207
+  "AssociateId": 79
 }
 ```
 
@@ -154,121 +156,121 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2001-03-20T03:46:54.2070265+01:00",
-  "AppointmentId": 901,
-  "Description": "Stand-alone local benchmark",
-  "Title": "commodi",
-  "Agenda": "cupiditate",
-  "InternalNotes": "vel",
-  "StartDate": "2023-03-20T03:46:54.2070265+01:00",
-  "EndDate": "2011-07-09T03:46:54.2070265+02:00",
+  "CreatedDate": "2009-11-05T02:30:46.6632264+01:00",
+  "AppointmentId": 477,
+  "Description": "Up-sized web-enabled initiative",
+  "Title": "ex",
+  "Agenda": "ipsam",
+  "InternalNotes": "excepturi",
+  "StartDate": "2000-10-25T02:30:46.6632264+02:00",
+  "EndDate": "2024-02-15T02:30:46.6632264+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 605,
+  "MotherId": 194,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2002-06-04T03:46:54.2070265+02:00",
+  "UpdatedDate": "2017-08-29T02:30:46.6632264+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 910,
+  "ActiveLinks": 67,
   "Links": [
     {
-      "EntityName": "Luettgen LLC",
-      "Id": 702,
-      "Description": "Streamlined attitude-oriented focus group",
-      "ExtraInfo": "et",
-      "LinkId": 415,
+      "EntityName": "Shanahan-Adams",
+      "Id": 23,
+      "Description": "Down-sized analyzing core",
+      "ExtraInfo": "aperiam",
+      "LinkId": 872,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 311
+          "FieldType": "System.Int32",
+          "FieldLength": 634
         }
       }
     }
   ],
-  "AlarmLeadTime": "fugit",
-  "HasAlarm": false,
-  "ColorIndex": 678,
+  "AlarmLeadTime": "laudantium",
+  "HasAlarm": true,
+  "ColorIndex": 178,
   "IsFree": true,
-  "IsAlldayEvent": false,
-  "LagTime": "voluptatem",
-  "LeadTime": "rerum",
-  "Location": "non",
-  "RejectCounter": 103,
+  "IsAlldayEvent": true,
+  "LagTime": "necessitatibus",
+  "LeadTime": "laudantium",
+  "Location": "vel",
+  "RejectCounter": 721,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 602,
-      "PersonId": 303,
-      "ContactId": 245,
-      "EmailId": 572,
-      "SendEmail": true,
+      "AssociateId": 624,
+      "PersonId": 952,
+      "ContactId": 525,
+      "EmailId": 615,
+      "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "lupe@gleason.info",
-      "Description": "Distributed regional protocol"
+      "EmailAddress": "colin_farrell@hudson.info",
+      "Description": "Customer-focused national open system"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2000-03-25T03:46:54.2070265+01:00",
+  "ActiveDate": "2011-04-15T02:30:46.6632264+02:00",
   "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 874,
+  "PreferredTZLocation": 750,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 172,
+  "SuggestedAppointmentId": 932,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "OwnedExternally": "Google",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "eligendi",
+  "CentralserviceVideomeetId": "dolores",
   "UserDefinedFields": {
-    "SuperOffice:1": "Clark Schumm",
-    "SuperOffice:2": "1679940057"
+    "SuperOffice:1": "Maxie Bins",
+    "SuperOffice:2": "Miss Blair Kale Ankunding I"
   },
   "ExtraFields": {
-    "ExtraFields1": "odio",
-    "ExtraFields2": "est"
+    "ExtraFields1": "et",
+    "ExtraFields2": "impedit"
   },
   "CustomFields": {
-    "CustomFields1": "sit",
-    "CustomFields2": "blanditiis"
+    "CustomFields1": "odit",
+    "CustomFields2": "exercitationem"
   },
-  "PublishEventDate": "2014-11-24T03:46:54.2070265+01:00",
-  "PublishTo": "2014-12-09T03:46:54.2070265+01:00",
-  "PublishFrom": "2007-06-12T03:46:54.2070265+02:00",
+  "PublishEventDate": "2025-01-04T02:30:46.6632264+01:00",
+  "PublishTo": "2015-04-20T02:30:46.6632264+02:00",
+  "PublishFrom": "2000-10-13T02:30:46.6632264+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 822,
+      "VisibleId": 231,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "voluptatem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 886
+          "FieldLength": 537
         }
       }
     },
     {
-      "VisibleId": 822,
+      "VisibleId": 231,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "voluptatem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 886
+          "FieldLength": 537
         }
       }
     }
@@ -278,7 +280,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 195
+      "FieldLength": 853
     }
   }
 }

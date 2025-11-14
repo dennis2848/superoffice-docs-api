@@ -14,6 +14,8 @@ POST /api/v1/Agents/Appointment/GetPublishedProjectAppointments
 Get published appointments by project id.
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -128,11 +130,11 @@ OK
 POST /api/v1/Agents/Appointment/GetPublishedProjectAppointments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 984
+  "ProjectId": 49
 }
 ```
 
@@ -144,67 +146,67 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 949,
-    "StartDate": "2020-03-19T03:46:54.0039095+01:00",
-    "EndDate": "2003-11-01T03:46:54.0039095+01:00",
+    "AppointmentId": 329,
+    "StartDate": "2006-02-15T02:30:46.522607+01:00",
+    "EndDate": "2017-09-07T02:30:46.522607+02:00",
     "Type": "BookingForChecklist",
-    "Task": "voluptatum",
-    "AssociateFullName": "River Weber",
-    "ContactName": "Stamm, Nader and Hane",
-    "Description": "Multi-lateral bandwidth-monitored orchestration",
-    "PersonFullName": "Mrs. Ryann Romaguera Sr.",
-    "PersonId": 937,
-    "ContactId": 797,
-    "ProjectId": 77,
-    "ProjectName": "O'Connell Group",
+    "Task": "esse",
+    "AssociateFullName": "Waldo Wilson Deckow I",
+    "ContactName": "Stracke, Moore and Goldner",
+    "Description": "Re-engineered attitude-oriented frame",
+    "PersonFullName": "Arne Goyette",
+    "PersonId": 339,
+    "ContactId": 302,
+    "ProjectId": 224,
+    "ProjectName": "Hoppe Inc and Sons",
     "IsPublished": true,
-    "AssociateId": 842,
-    "ColorIndex": 13,
+    "AssociateId": 110,
+    "ColorIndex": 37,
     "IsFree": false,
     "HasAlarm": false,
-    "IsAlldayEvent": true,
+    "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 904,
-    "PriorityName": "Abernathy LLC",
+    "PriorityId": 562,
+    "PriorityName": "Schuster, Tillman and Ebert",
     "TaskType": "Appointment",
     "IsBookingMain": false,
     "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "2024-05-18T03:46:54.0039095+02:00",
+    "ActiveDate": "2022-06-11T02:30:46.522607+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2007-06-09T03:46:54.0039095+02:00",
-    "RecurringEndDate": "2024-09-01T03:46:54.0039095+02:00",
-    "MotherId": 90,
-    "AssignedBy": 349,
-    "AssignedByFullName": "Lexus Langosh",
+    "RecurringStartDate": "2004-06-28T02:30:46.522607+02:00",
+    "RecurringEndDate": "2006-03-08T02:30:46.522607+01:00",
+    "MotherId": 484,
+    "AssignedBy": 191,
+    "AssignedByFullName": "Mrs. Estelle Bria Emmerich Sr.",
     "RejectReason": "",
-    "Location": "est",
-    "AlarmLeadTime": "tenetur",
-    "SaleId": 213,
-    "SaleName": "Lakin Group",
-    "AssociateName": "Rosenbaum-Stroman",
-    "CreatedDate": "2000-06-26T03:46:54.0039095+02:00",
-    "CreatedBy": "voluptas",
-    "CreatedByFullName": "Kyla Renner",
-    "CreatedByAssociateId": 992,
+    "Location": "dolore",
+    "AlarmLeadTime": "eos",
+    "SaleId": 104,
+    "SaleName": "Koepp-Rau",
+    "AssociateName": "Sporer-Blanda",
+    "CreatedDate": "2016-07-02T02:30:46.522607+02:00",
+    "CreatedBy": "magnam",
+    "CreatedByFullName": "Scot Cummings",
+    "CreatedByAssociateId": 202,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "OwnedExternally": "Google",
-    "MotherAssociateId": 923,
+    "MotherAssociateId": 658,
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 557,
-    "Title": "porro",
-    "Agenda": "suscipit",
-    "InternalNotes": "ipsa",
+    "PreferredTZLocation": 634,
+    "Title": "et",
+    "Agenda": "occaecati",
+    "InternalNotes": "qui",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 865
+        "FieldLength": 698
       }
     }
   }

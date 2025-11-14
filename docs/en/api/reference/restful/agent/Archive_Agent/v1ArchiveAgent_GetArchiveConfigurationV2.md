@@ -15,6 +15,7 @@ Get the configuration for one archive.
 
 
 The configuration is keyed by a combination of archive provider name (plus optional context), gui name, and optional table binding. The archive provider name must match an archive provider plugin; the gui name is an arbitrary string used to distinguish multiple occurrences of the same underlying provider in a gui.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -82,14 +83,14 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveConfigurationV2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Roberts, Gorczany and Weissnat",
-  "ProviderName": "Yundt Inc and Sons",
-  "Context": "molestiae",
-  "OwnerKeys": "sed"
+  "GuiName": "Hettinger, Ledner and Hermiston",
+  "ProviderName": "Bergstrom, Koss and Legros",
+  "Context": "adipisci",
+  "OwnerKeys": "reiciendis"
 }
 ```
 
@@ -102,68 +103,68 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumnInfo": [
     {
-      "DisplayName": "Hahn Inc and Sons",
-      "DisplayTooltip": "inventore",
-      "DisplayType": "quo",
-      "CanOrderBy": true,
-      "Name": "Rolfson, Bauch and Mills",
-      "CanRestrictBy": false,
-      "RestrictionType": "est",
-      "RestrictionListName": "Rice-Gislason",
+      "DisplayName": "Hills-Heller",
+      "DisplayTooltip": "quis",
+      "DisplayType": "sunt",
+      "CanOrderBy": false,
+      "Name": "McCullough, Schmitt and Lehner",
+      "CanRestrictBy": true,
+      "RestrictionType": "et",
+      "RestrictionListName": "Doyle, Boyer and Lang",
       "IsVisible": false,
-      "ExtraInfo": "consectetur",
-      "Width": "consequatur",
-      "IconHint": "illum",
-      "HeadingIconHint": "molestias"
+      "ExtraInfo": "blanditiis",
+      "Width": "non",
+      "IconHint": "et",
+      "HeadingIconHint": "ut"
     }
   ],
   "ArchiveEntityInfo": [
     {
-      "Id": 508,
-      "Name": "Sawayn, Effertz and Gerhold",
-      "ToolTip": "Accusamus deleniti est qui iure quia aperiam placeat.",
+      "Id": 571,
+      "Name": "Marvin Group",
+      "ToolTip": "Voluptas perspiciatis non.",
       "Deleted": true,
-      "Rank": 675,
-      "Type": "inventore",
-      "ColorBlock": 609,
-      "IconHint": "omnis",
+      "Rank": 1002,
+      "Type": "laborum",
+      "ColorBlock": 653,
+      "IconHint": "in",
       "Selected": false,
-      "LastChanged": "2016-04-15T03:46:54.2851489+02:00",
+      "LastChanged": "1999-05-16T02:30:46.8038471+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "sed",
-      "StyleHint": "et",
+      "ExtraInfo": "sit",
+      "StyleHint": "excepturi",
       "Hidden": false,
-      "FullName": "Melyssa Daugherty",
+      "FullName": "Samantha Stacy Altenwerth IV",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 860
+          "FieldType": "System.Int32",
+          "FieldLength": 113
         }
       }
     }
   ],
   "ArchiveOrderByInfo": [
     {
-      "Name": "Krajcik LLC",
+      "Name": "Stroman LLC",
       "Direction": "ASC"
     },
     {
-      "Name": "Krajcik LLC",
+      "Name": "Stroman LLC",
       "Direction": "ASC"
     }
   ],
-  "OwnerKeys": "voluptatum",
+  "OwnerKeys": "omnis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 207
+      "FieldLength": 681
     }
   }
 }

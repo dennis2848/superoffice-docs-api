@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/AddFromListDefinition
 Save a new list item for the specified list defintion
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -80,11 +82,11 @@ OK
 POST /api/v1/Agents/List/AddFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 511,
+  "UdListDefinitionId": 234,
   "Item": null
 }
 ```
@@ -96,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 507,
-  "Name": "Fisher-Prohaska",
-  "Tooltip": "aspernatur",
+  "Id": 748,
+  "Name": "Ferry LLC",
+  "Tooltip": "laboriosam",
   "Deleted": false,
-  "UdListDefinitionId": 42,
-  "Rank": 342,
+  "UdListDefinitionId": 521,
+  "Rank": 486,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 584
+      "FieldType": "System.Int32",
+      "FieldLength": 907
     }
   }
 }

@@ -14,7 +14,8 @@ POST /api/v1/Agents/Document/GetPersonDocumentsByDate
 Method that returns a specified number of document appointments within a time range.
 
 
-The document appointments belong to the person specified.
+The document appointments belong to the person specified. 
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -99,15 +100,15 @@ OK
 POST /api/v1/Agents/Document/GetPersonDocumentsByDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 443,
-  "IncludeProjectDocuments": true,
-  "StartTime": "2004-05-14T03:46:54.6288867+02:00",
-  "EndTime": "2004-04-20T03:46:54.6288867+02:00",
-  "Count": 793
+  "PersonId": 257,
+  "IncludeProjectDocuments": false,
+  "StartTime": "1998-11-28T02:30:47.1475873+01:00",
+  "EndTime": "2003-02-21T02:30:47.1475873+01:00",
+  "Count": 747
 }
 ```
 
@@ -119,32 +120,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 78,
-    "Attention": "fugiat",
-    "Header": "velit",
-    "Name": "Leannon-Purdy",
-    "OurRef": "tempore",
-    "YourRef": "error",
-    "Description": "Distributed transitional project",
-    "DocumentTemplate": "et",
+    "DocumentId": 807,
+    "Attention": "quod",
+    "Header": "voluptatem",
+    "Name": "Watsica-Shanahan",
+    "OurRef": "ad",
+    "YourRef": "sit",
+    "Description": "Progressive asynchronous adapter",
+    "DocumentTemplate": "sint",
     "IsPublished": false,
-    "PersonId": 320,
-    "PersonFullName": "Trudie Brekke",
-    "AssociateFullName": "Ms. Adella Kellen Ratke",
-    "ContactId": 262,
-    "ContactName": "Bosco, Jenkins and Collier",
-    "ProjectId": 916,
-    "ProjectName": "Schultz, Bergnaum and Greenholt",
-    "AssociateId": 740,
-    "Snum": 698,
-    "SaleId": 853,
-    "SaleName": "Wintheiser-Rippin",
+    "PersonId": 46,
+    "PersonFullName": "Maude Hintz",
+    "AssociateFullName": "Jace Batz",
+    "ContactId": 964,
+    "ContactName": "Schneider Group",
+    "ProjectId": 881,
+    "ProjectName": "Steuber-O'Hara",
+    "AssociateId": 669,
+    "Snum": 274,
+    "SaleId": 632,
+    "SaleName": "Hegmann Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 997
+        "FieldLength": 644
       }
     }
   }

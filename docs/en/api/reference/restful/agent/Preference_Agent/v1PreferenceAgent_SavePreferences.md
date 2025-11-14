@@ -15,6 +15,7 @@ Save this set of preferences.
 
 
 Note this method DOES NOT look at level/targetId - it only saves on behalf of the CURRENT USER.
+NsApiSlow threshold: 1000 ms.
 
 
 
@@ -74,16 +75,16 @@ Content-Type: application/json; charset=utf-8
   "Preferences": [
     {
       "Level": "Database",
-      "RawValue": "inventore",
+      "RawValue": "ut",
       "Specification": null,
-      "DisplayValue": "perspiciatis",
-      "DisplayTooltip": "vel",
+      "DisplayValue": "odit",
+      "DisplayTooltip": "saepe",
       "DisplayType": "Bool",
       "TabOrder": null,
-      "TargetId": 635,
-      "PrefDescId": 778,
-      "TableName": "Boyle Group",
-      "UserPreferenceId": 972
+      "TargetId": 744,
+      "PrefDescId": 944,
+      "TableName": "Effertz, Tremblay and O'Hara",
+      "UserPreferenceId": 567
     }
   ]
 }

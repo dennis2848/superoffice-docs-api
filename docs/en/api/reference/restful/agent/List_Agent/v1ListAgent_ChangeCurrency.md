@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/ChangeCurrency
 Recalculates the amount to the new currency.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -75,9 +77,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Amount": 26429.022,
-  "FromCurrency": "et",
-  "ToCurrency": "quia"
+  "Amount": 11301.204,
+  "FromCurrency": "consequuntur",
+  "ToCurrency": "magni"
 }
 ```
 
@@ -87,5 +89,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-11598.934
+21536.847999999998
 ```

@@ -11,7 +11,7 @@ content_type: reference
 POST /api/v1/Agents/EMail/GetEMailFromTemp
 ```
 
-<para />
+NsApiSlow threshold: 5000 ms.
 
 
 ## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
@@ -101,11 +101,11 @@ OK
 POST /api/v1/Agents/EMail/GetEMailFromTemp
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "FileName": "Johns-Turcotte"
+  "FileName": "Hoppe-Sawayn"
 }
 ```
 
@@ -118,97 +118,97 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 919,
-      "ContactName": "Lakin-Harvey",
-      "PersonId": 146,
-      "PersonName": "Funk Group",
-      "AssociateId": 665,
-      "Address": "eaque",
-      "EmailId": 259,
+      "ContactId": 929,
+      "ContactName": "Streich Inc and Sons",
+      "PersonId": 747,
+      "PersonName": "Mante, Hirthe and Sanford",
+      "AssociateId": 930,
+      "Address": "sed",
+      "EmailId": 727,
       "DuplicatePersonIds": [
-        970,
-        631
+        986,
+        927
       ],
-      "Name": "Kemmer-Bednar",
+      "Name": "Borer-Satterfield",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 327
+          "FieldType": "System.String",
+          "FieldLength": 916
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 345,
-      "ContactName": "McCullough-Hills",
-      "PersonId": 563,
-      "PersonName": "Jakubowski, Moore and Zulauf",
-      "AssociateId": 494,
-      "Address": "earum",
-      "EmailId": 323,
+      "ContactId": 335,
+      "ContactName": "Bruen-Franecki",
+      "PersonId": 248,
+      "PersonName": "Waters, McKenzie and Kunze",
+      "AssociateId": 429,
+      "Address": "atque",
+      "EmailId": 869,
       "DuplicatePersonIds": [
-        959,
-        395
+        636,
+        769
       ],
-      "Name": "Douglas, Franecki and Dare",
+      "Name": "Barton-Johns",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 87
+          "FieldType": "System.String",
+          "FieldLength": 696
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 561,
-      "ContactName": "Monahan-Morar",
-      "PersonId": 421,
-      "PersonName": "Schaden-Larson",
-      "AssociateId": 309,
-      "Address": "excepturi",
-      "EmailId": 963,
+      "ContactId": 410,
+      "ContactName": "Orn, O'Reilly and Denesik",
+      "PersonId": 678,
+      "PersonName": "Moore, Terry and Satterfield",
+      "AssociateId": 720,
+      "Address": "dolorum",
+      "EmailId": 359,
       "DuplicatePersonIds": [
-        829,
-        695
+        425,
+        308
       ],
-      "Name": "Glover, Becker and Miller",
+      "Name": "Koepp-Effertz",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 659
+          "FieldLength": 511
         }
       }
     }
   ],
-  "Subject": "earum",
-  "HTMLBody": "culpa",
+  "Subject": "autem",
+  "HTMLBody": "saepe",
   "From": null,
-  "Sent": "2001-06-03T03:46:54.785131+02:00",
-  "Size": 718,
+  "Sent": "2007-10-28T02:30:47.3038336+01:00",
+  "Size": 120,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "iusto",
-  "PlainBody": "ut",
+  "MessageID": "et",
+  "PlainBody": "quia",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 920,
+  "ServerId": 77,
   "Attachments": [
     {
-      "Description": "Devolved mission-critical core",
-      "Filename": "modi",
-      "Size": 965,
-      "Type": "sint",
-      "Encoding": "est",
-      "Id": "ut",
-      "Disposition": "voluptas",
+      "Description": "Vision-oriented global archive",
+      "Filename": "nihil",
+      "Size": 665,
+      "Type": "non",
+      "Encoding": "in",
+      "Id": "accusamus",
+      "Disposition": "autem",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
@@ -216,49 +216,49 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 417
+          "FieldLength": 187
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Boyle, Douglas and Larson",
+      "Name": "Mitchell-Davis",
       "Values": [
-        "et",
-        "animi"
+        "omnis",
+        "aut"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 468
+          "FieldLength": 678
         }
       }
     },
     {
-      "Name": "Boyle, Douglas and Larson",
+      "Name": "Mitchell-Davis",
       "Values": [
-        "et",
-        "animi"
+        "omnis",
+        "aut"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 468
+          "FieldLength": 678
         }
       }
     }
   ],
-  "FolderName": "Ward LLC",
-  "EmailItemId": 350,
-  "AccountId": 588,
-  "ReceivedAt": "2022-05-03T03:46:54.785131+02:00",
+  "FolderName": "Cronin-Gaylord",
+  "EmailItemId": 514,
+  "AccountId": 787,
+  "ReceivedAt": "2020-10-03T02:30:47.3038336+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2013-09-03T03:46:54.785131+02:00",
+  "RepliedAt": "2019-04-21T02:30:47.3038336+02:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -266,8 +266,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 372
+      "FieldType": "System.String",
+      "FieldLength": 861
     }
   }
 }

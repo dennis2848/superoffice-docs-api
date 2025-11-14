@@ -14,6 +14,8 @@ POST /api/v1/Agents/Workflow/CreateDefaultWorkflowStepFromType
 Creates a new carrier from the step type given, with the right kind of properties, defaults set.
 
 
+NsApiSlow threshold: 3000 ms.
+
 
 
 
@@ -75,7 +77,7 @@ OK
 POST /api/v1/Agents/Workflow/CreateDefaultWorkflowStepFromType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -90,9 +92,9 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowStepId": 763,
-  "WorkflowId": 911,
+  "WorkflowStepId": 450,
+  "WorkflowId": 336,
   "StepType": "AddToList",
-  "Rank": 587
+  "Rank": 568
 }
 ```

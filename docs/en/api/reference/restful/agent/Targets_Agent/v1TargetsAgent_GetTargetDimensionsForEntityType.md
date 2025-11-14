@@ -14,6 +14,8 @@ POST /api/v1/Agents/Targets/GetTargetDimensionsForEntityType
 Returns the target dimensions for the given entity type.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -98,24 +100,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetDimensionId": 881,
+    "TargetDimensionId": 290,
     "AssignmentLevel": "Associate",
     "EntityType": "None",
     "MeasurementUnit": "Amount",
-    "DimensionListField": "accusantium",
-    "DimensionListName": "Lesch LLC",
-    "DimensionListId": 431,
-    "DimensionListLabel": "neque",
+    "DimensionListField": "laboriosam",
+    "DimensionListName": "Armstrong, Balistreri and Ortiz",
+    "DimensionListId": 296,
+    "DimensionListLabel": "molestias",
     "SelectedDimensions": [
-      185,
-      192
+      807,
+      160
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 186
+        "FieldLength": 756
       }
     }
   }

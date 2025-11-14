@@ -14,6 +14,8 @@ POST /api/v1/Agents/Appointment/ToggleAppointmentStatus
 Sets an appointment's status to Completed if the appointment had a different status, or sets the status to started if already set to completed.
 
 
+NsApiSlow threshold: 1000 ms.
+
 
 
 
@@ -69,11 +71,11 @@ OK
 POST /api/v1/Agents/Appointment/ToggleAppointmentStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 993
+  "AppointmentId": 853
 }
 ```
 

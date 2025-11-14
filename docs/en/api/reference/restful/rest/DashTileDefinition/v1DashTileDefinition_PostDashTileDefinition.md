@@ -15,6 +15,7 @@ Creates a new DashTileDefinition
 
 
 Calls the Dash agent service SaveDashTileDefinition.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -117,25 +118,25 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 875,
-  "Name": "Smith, Wilderman and Baumbach",
-  "Description": "Quality-focused needs-based throughput",
-  "DefaultHeight": 59,
-  "DefaultWidth": 641,
+  "DashboardTileDefinitionId": 907,
+  "Name": "Larkin-Jerde",
+  "Description": "Persistent zero administration firmware",
+  "DefaultHeight": 599,
+  "DefaultWidth": 196,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Buckridge Inc and Sons",
-  "SelectionId": 325,
+  "EntityName": "Bauch-Batz",
+  "SelectionId": 444,
   "CurrencyMode": "Base",
-  "CurrencyCode": "similique",
+  "CurrencyCode": "et",
   "Measure": "Average",
-  "MeasureField": "adipisci",
-  "SortBy": "minima",
-  "LayoutConfig": "quisquam",
-  "SecondarySelectionId": 693,
-  "MeasureByField": "consequatur",
+  "MeasureField": "consequatur",
+  "SortBy": "doloremque",
+  "LayoutConfig": "minus",
+  "SecondarySelectionId": 268,
+  "MeasureByField": "officia",
   "Usage": "Dashboard",
-  "ProviderName": "Kessler-Kshlerin"
+  "ProviderName": "King-Jakubowski"
 }
 ```
 
@@ -146,36 +147,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 153,
-  "Name": "Osinski LLC",
-  "Description": "Cross-group real-time projection",
-  "DefaultHeight": 772,
-  "DefaultWidth": 440,
+  "DashboardTileDefinitionId": 488,
+  "Name": "Bogan Group",
+  "Description": "Programmable bi-directional synergy",
+  "DefaultHeight": 809,
+  "DefaultWidth": 104,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Bruen Group",
-  "SelectionId": 862,
+  "EntityName": "Muller-McKenzie",
+  "SelectionId": 119,
   "CurrencyMode": "Base",
-  "CurrencyCode": "necessitatibus",
+  "CurrencyCode": "ea",
   "Measure": "Average",
-  "MeasureField": "tempora",
-  "SortBy": "aut",
-  "LayoutConfig": "exercitationem",
-  "SecondarySelectionId": 564,
-  "MeasureByField": "dolore",
+  "MeasureField": "sit",
+  "SortBy": "ratione",
+  "LayoutConfig": "consectetur",
+  "SecondarySelectionId": 945,
+  "MeasureByField": "ducimus",
   "Usage": "Dashboard",
-  "ProviderName": "Lang Group",
+  "ProviderName": "Stiedemann, Friesen and Weissnat",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 535
+      "FieldType": "System.String",
+      "FieldLength": 891
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

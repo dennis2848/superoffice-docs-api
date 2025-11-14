@@ -98,47 +98,47 @@ OK
 PUT /api/v1/List/PaymentType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 409,
-    "Name": "Ryan Inc and Sons",
-    "ToolTip": "Voluptatibus a rem laboriosam magni quod aut et.",
+    "Id": 273,
+    "Name": "Wiza, Cummings and Reilly",
+    "ToolTip": "Ut perspiciatis repellat laborum dolor similique.",
     "Deleted": false,
-    "Rank": 748,
-    "Type": "iure",
-    "ColorBlock": 414,
-    "IconHint": "aut",
+    "Rank": 672,
+    "Type": "blanditiis",
+    "ColorBlock": 472,
+    "IconHint": "beatae",
     "Selected": false,
-    "LastChanged": "2024-05-09T03:47:00.6911718+02:00",
+    "LastChanged": "2011-11-14T02:30:53.3348881+01:00",
     "ChildItems": [
       {
-        "Id": 354,
-        "Name": "Friesen, Keebler and Predovic",
-        "ToolTip": "Ut quod nobis vero voluptate.",
-        "Deleted": true,
-        "Rank": 201,
-        "Type": "non",
-        "ColorBlock": 847,
-        "IconHint": "hic",
-        "Selected": false,
-        "LastChanged": "2013-11-01T03:47:00.6911718+01:00",
+        "Id": 33,
+        "Name": "Leuschke Inc and Sons",
+        "ToolTip": "Ut molestiae.",
+        "Deleted": false,
+        "Rank": 479,
+        "Type": "tenetur",
+        "ColorBlock": 265,
+        "IconHint": "molestiae",
+        "Selected": true,
+        "LastChanged": "2008-04-17T02:30:53.3348881+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "asperiores",
-        "StyleHint": "nobis",
+        "ExtraInfo": "exercitationem",
+        "StyleHint": "vel",
         "Hidden": false,
-        "FullName": "Vernice Sipes"
+        "FullName": "Mrs. Laurianne Jalyn Frami DVM"
       }
     ],
-    "ExtraInfo": "odio",
-    "StyleHint": "sapiente",
-    "Hidden": true,
-    "FullName": "Reese Feest"
+    "ExtraInfo": "enim",
+    "StyleHint": "harum",
+    "Hidden": false,
+    "FullName": "Celestine Rodriguez"
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 884,
-    "Name": "Bauch, Stracke and Quitzon",
-    "ToolTip": "Est facilis commodi omnis sapiente et delectus ut.",
-    "Deleted": false,
-    "Rank": 61,
-    "Type": "sint",
-    "ColorBlock": 586,
-    "IconHint": "ipsam",
-    "Selected": false,
-    "LastChanged": "2022-03-18T03:47:00.6911718+01:00",
+    "Id": 849,
+    "Name": "Okuneva Group",
+    "ToolTip": "A iste aliquam debitis modi.",
+    "Deleted": true,
+    "Rank": 936,
+    "Type": "omnis",
+    "ColorBlock": 469,
+    "IconHint": "aliquid",
+    "Selected": true,
+    "LastChanged": "2005-11-09T02:30:53.3348881+01:00",
     "ChildItems": [
       {
-        "Id": 237,
-        "Name": "Rau-Donnelly",
-        "ToolTip": "Voluptas et totam quibusdam excepturi.",
-        "Deleted": false,
-        "Rank": 652,
-        "Type": "natus",
-        "ColorBlock": 500,
-        "IconHint": "consequatur",
-        "Selected": true,
-        "LastChanged": "2007-05-23T03:47:00.6911718+02:00",
+        "Id": 264,
+        "Name": "Corkery-Murazik",
+        "ToolTip": "Voluptatem unde tenetur rem omnis expedita.",
+        "Deleted": true,
+        "Rank": 180,
+        "Type": "iusto",
+        "ColorBlock": 403,
+        "IconHint": "velit",
+        "Selected": false,
+        "LastChanged": "2012-01-21T02:30:53.3348881+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nostrum",
-        "StyleHint": "fugiat",
+        "ExtraInfo": "minima",
+        "StyleHint": "id",
         "Hidden": false,
-        "FullName": "Murl Kaia Feil V",
+        "FullName": "Dino Bernhard",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 17
+            "FieldLength": 375
           }
         }
       }
     ],
-    "ExtraInfo": "aut",
-    "StyleHint": "modi",
+    "ExtraInfo": "maiores",
+    "StyleHint": "cupiditate",
     "Hidden": false,
-    "FullName": "Zechariah Hansen I",
+    "FullName": "Ms. Letha Stracke V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 657
+        "FieldType": "System.String",
+        "FieldLength": 369
       }
     }
   }

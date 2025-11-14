@@ -63,7 +63,7 @@ OK
 GET /api/v1/List/MrMrs/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -74,18 +74,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 426,
-    "Name": "Fisher Group",
-    "Tooltip": "est",
+    "HeadingId": 739,
+    "Name": "Hartmann Group",
+    "Tooltip": "non",
     "Deleted": false,
-    "Rank": 763,
-    "UdListDefinitionId": 68,
+    "Rank": 71,
+    "UdListDefinitionId": 104,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 990
+        "FieldType": "System.String",
+        "FieldLength": 222
       }
     }
   }

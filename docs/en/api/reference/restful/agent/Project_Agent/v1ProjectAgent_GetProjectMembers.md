@@ -14,6 +14,8 @@ POST /api/v1/Agents/Project/GetProjectMembers
 Returns an array of project members
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -85,6 +87,8 @@ OK
 | EmailAddressName | string | The e-mail address description |
 | Comment | string | Comment text on the project membership |
 | FullName | string | The person's full name localized to the current culture/country.  (internal name used in clients for employees) |
+| Registered | date-time | The date and time when the project member was registered  in UTC. |
+| Updated | date-time | The date and time when the project member was last updated  in UTC. |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -94,11 +98,11 @@ OK
 POST /api/v1/Agents/Project/GetProjectMembers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 593
+  "ProjectId": 521
 }
 ```
 
@@ -110,33 +114,35 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectmemberId": 361,
-    "ContactId": 39,
-    "ProjectId": 339,
-    "ContactName": "Lind LLC",
+    "ProjectmemberId": 494,
+    "ContactId": 690,
+    "ProjectId": 311,
+    "ContactName": "Bosco-Becker",
     "ContactDepartment": "",
-    "ProjectName": "Ebert-Gaylord",
-    "EmailId": 160,
-    "EmailAddress": "jennifer@durgannader.ca",
-    "CountryId": 62,
-    "Firstname": "Zakary",
-    "MiddleName": "Paucek Group",
-    "Lastname": "Tromp",
-    "PersonId": 121,
-    "Mrmrs": "ut",
-    "ProjectMemberTypeName": "Leannon Group",
-    "Phone": "226.609.9748",
-    "PhoneId": 89,
-    "ProjectMemberTypeId": 792,
-    "EmailAddressName": "antonina.sauer@daughertyveum.com",
-    "Comment": "modi",
-    "FullName": "Kamren Lakin V",
+    "ProjectName": "Boehm Group",
+    "EmailId": 977,
+    "EmailAddress": "joanie@goyettelang.ca",
+    "CountryId": 358,
+    "Firstname": "Ardith",
+    "MiddleName": "Jacobi LLC",
+    "Lastname": "Hayes",
+    "PersonId": 155,
+    "Mrmrs": "soluta",
+    "ProjectMemberTypeName": "Spinka-Johnson",
+    "Phone": "346-020-8493",
+    "PhoneId": 120,
+    "ProjectMemberTypeId": 445,
+    "EmailAddressName": "elvie.mcdermott@braun.biz",
+    "Comment": "magnam",
+    "FullName": "Reinhold Ruecker",
+    "Registered": "2000-12-14T02:30:47.6944454+01:00",
+    "Updated": "2006-04-18T02:30:47.6944454+02:00",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 601
+        "FieldType": "System.String",
+        "FieldLength": 439
       }
     }
   }

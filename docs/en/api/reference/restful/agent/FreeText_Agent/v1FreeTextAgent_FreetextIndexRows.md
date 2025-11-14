@@ -14,6 +14,8 @@ POST /api/v1/Agents/FreeText/FreetextIndexRows
 Update the freetext index for one or more rows from the same table
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -70,10 +72,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Ryan Inc and Sons",
+  "TableName": "Leuschke, Morar and Crist",
   "IDs": [
-    58,
-    344
+    614,
+    477
   ]
 }
 ```

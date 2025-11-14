@@ -71,7 +71,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "State": "CheckedOutOther",
-  "AssociateId": 642,
-  "Name": "Koelpin-Braun"
+  "AssociateId": 896,
+  "Name": "Kunze-Eichmann"
 }
 ```

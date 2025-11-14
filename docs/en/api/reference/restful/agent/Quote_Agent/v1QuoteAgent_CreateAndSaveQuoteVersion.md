@@ -14,6 +14,8 @@ POST /api/v1/Agents/Quote/CreateAndSaveQuoteVersion
 Created a new QuoteVersion based on another QuoteVersion on the same Quote.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -112,11 +114,11 @@ OK
 POST /api/v1/Agents/Quote/CreateAndSaveQuoteVersion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 50
+  "QuoteVersionId": 864
 }
 ```
 
@@ -127,75 +129,75 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 705,
-  "ERPQuoteVersionKey": "asperiores",
-  "QuoteId": 181,
-  "Description": "Down-sized executive policy",
-  "Number": "959747",
+  "QuoteVersionId": 183,
+  "ERPQuoteVersionKey": "doloremque",
+  "QuoteId": 841,
+  "Description": "Proactive non-volatile adapter",
+  "Number": "1521049",
   "State": "Archived",
   "ArchivedState": "Archived",
   "Status": "Error",
   "Reason": "",
-  "LikelyQuoteAlternativeId": 561,
-  "SentDate": "2009-06-06T03:46:55.1913666+02:00",
-  "FollowupId": 955,
-  "ExpirationDate": "2013-07-05T03:46:55.1913666+02:00",
-  "DeliveryCountryId": 939,
+  "LikelyQuoteAlternativeId": 84,
+  "SentDate": "2002-02-01T02:30:47.7100701+01:00",
+  "FollowupId": 582,
+  "ExpirationDate": "2013-09-15T02:30:47.7100701+02:00",
+  "DeliveryCountryId": 185,
   "HasOwnDeliveryAddress": true,
-  "InvoiceCountryId": 568,
+  "InvoiceCountryId": 225,
   "HasOwnInvoiceAddress": false,
-  "ERPPaymentTermsKey": "sed",
-  "ERPPaymentTypeKey": "in",
-  "ERPDeliveryTermsKey": "nostrum",
-  "ERPDeliveryTypeKey": "quis",
-  "Rank": 601,
-  "ApprovedBy": 675,
-  "ApprovedText": "tenetur",
-  "ApprovedRegisteredBy": 913,
-  "ApprovedRegisteredDate": "2007-11-09T03:46:55.1913666+01:00",
-  "ExtraField1": "aspernatur",
-  "ExtraField2": "qui",
-  "ExtraField3": "dolorum",
-  "ExtraField4": "consequatur",
-  "ExtraField5": "sed",
-  "LastRecalculated": "2016-04-24T03:46:55.1913666+02:00",
-  "Updated": "2019-02-28T03:46:55.1913666+01:00",
-  "UpdatedAssociateId": 55,
-  "Registered": "2005-02-19T03:46:55.1913666+01:00",
-  "RegisteredAssociateId": 141,
-  "RequestAssociateId": 673,
-  "RequestComment": "voluptate",
+  "ERPPaymentTermsKey": "doloribus",
+  "ERPPaymentTypeKey": "magnam",
+  "ERPDeliveryTermsKey": "quas",
+  "ERPDeliveryTypeKey": "impedit",
+  "Rank": 70,
+  "ApprovedBy": 87,
+  "ApprovedText": "eum",
+  "ApprovedRegisteredBy": 724,
+  "ApprovedRegisteredDate": "2013-10-09T02:30:47.7100701+02:00",
+  "ExtraField1": "sed",
+  "ExtraField2": "aut",
+  "ExtraField3": "id",
+  "ExtraField4": "perferendis",
+  "ExtraField5": "consequatur",
+  "LastRecalculated": "2012-05-10T02:30:47.7100701+02:00",
+  "Updated": "2009-05-24T02:30:47.7100701+02:00",
+  "UpdatedAssociateId": 780,
+  "Registered": "2025-01-28T02:30:47.7100701+01:00",
+  "RegisteredAssociateId": 641,
+  "RequestAssociateId": 779,
+  "RequestComment": "aperiam",
   "QuoteAlternatives": [
     {
-      "QuoteAlternativeId": 576,
-      "ERPQuoteAlternativeKey": "neque",
-      "QuoteVersionId": 182,
-      "Name": "Smitham, Gutkowski and Wisozk",
-      "Description": "Synergistic assymetric software",
+      "QuoteAlternativeId": 682,
+      "ERPQuoteAlternativeKey": "quos",
+      "QuoteVersionId": 308,
+      "Name": "Legros, Grimes and Blick",
+      "Description": "Pre-emptive attitude-oriented Graphic Interface",
       "Status": "Error",
       "Reason": "",
-      "ERPDiscountPercent": 27419.365999999998,
-      "ERPDiscountAmount": 15413.011999999999,
-      "DiscountPercent": 22138.576,
-      "DiscountAmount": 20994.666,
+      "ERPDiscountPercent": 5387.346,
+      "ERPDiscountAmount": 14585.636,
+      "DiscountPercent": 30155.347999999998,
+      "DiscountAmount": 6894.8,
       "UserValueOverride": "DiscountAmount",
-      "VATInfo": "sint",
-      "VAT": 22006.948,
-      "EarningPercent": 12786.72,
-      "EarningAmount": 1175.25,
-      "SubTotal": 31.34,
-      "TotalPrice": 10151.026,
-      "ExtraField1": "error",
-      "ExtraField2": "sed",
-      "ExtraField3": "error",
-      "ExtraField4": "fugiat",
-      "ExtraField5": "velit",
+      "VATInfo": "soluta",
+      "VAT": 26673.474,
+      "EarningPercent": 31039.136,
+      "EarningAmount": 17635.018,
+      "SubTotal": 4227.766,
+      "TotalPrice": 22038.288,
+      "ExtraField1": "minima",
+      "ExtraField2": "nam",
+      "ExtraField3": "in",
+      "ExtraField4": "voluptatum",
+      "ExtraField5": "ut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 434
+          "FieldLength": 895
         }
       }
     }
@@ -204,8 +206,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 35
+      "FieldType": "System.Int32",
+      "FieldLength": 863
     }
   }
 }

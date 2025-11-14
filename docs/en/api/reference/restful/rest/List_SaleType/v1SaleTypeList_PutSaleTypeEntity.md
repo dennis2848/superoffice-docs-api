@@ -117,47 +117,47 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 259,
-  "Name": "Kunde LLC",
-  "Tooltip": "ea",
-  "Rank": 683,
+  "SaleTypeId": 282,
+  "Name": "Volkman-Bogisich",
+  "Tooltip": "quisquam",
+  "Rank": 258,
   "DurationUnit": "Century",
-  "SaleDuration": 630,
-  "SaleTypeCatId": 616,
-  "Deleted": true,
+  "SaleDuration": 164,
+  "SaleTypeCatId": 146,
+  "Deleted": false,
   "HasGuide": false,
-  "HasStakeholders": false,
-  "IsAutoAdvance": true,
+  "HasStakeholders": true,
+  "IsAutoAdvance": false,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 794,
-  "QuoteLinesTemplate": 419,
-  "ConfirmationLinesTemplate": 50,
-  "MaxDiscountPercentSet": false,
-  "MinEarningPercentSet": true,
-  "MaxDiscountPercent": 450,
-  "MinEarningPercent": 747,
-  "GroupQuoteLinesBy": 782,
-  "SortGroupLinesBy": 58,
+  "DefaultQuoteValidity": 684,
+  "QuoteLinesTemplate": 978,
+  "ConfirmationLinesTemplate": 507,
+  "MaxDiscountPercentSet": true,
+  "MinEarningPercentSet": false,
+  "MaxDiscountPercent": 607,
+  "MinEarningPercent": 552,
+  "GroupQuoteLinesBy": 956,
+  "SortGroupLinesBy": 843,
   "Stages": [
     {
-      "Id": 405,
-      "Name": "Schuppe, Fritsch and Thompson",
-      "ToolTip": "Quidem facilis omnis voluptatem illo et.",
-      "Deleted": true,
-      "Rank": 241,
-      "Type": "consectetur",
-      "ColorBlock": 639,
-      "IconHint": "harum",
+      "Id": 7,
+      "Name": "Denesik-Durgan",
+      "ToolTip": "Autem omnis possimus quo dolores itaque unde.",
+      "Deleted": false,
+      "Rank": 929,
+      "Type": "molestiae",
+      "ColorBlock": 19,
+      "IconHint": "neque",
       "Selected": false,
-      "LastChanged": "2017-04-01T03:47:00.8005429+02:00",
+      "LastChanged": "2008-08-03T02:30:53.4442597+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "ratione",
-      "StyleHint": "odio",
+      "ExtraInfo": "ducimus",
+      "StyleHint": "porro",
       "Hidden": false,
-      "FullName": "Zane Watsica"
+      "FullName": "Dr. Carmen Bosco"
     }
   ]
 }
@@ -170,53 +170,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 648,
-  "Name": "Krajcik-Rodriguez",
-  "Tooltip": "non",
-  "Rank": 353,
+  "SaleTypeId": 969,
+  "Name": "Koch LLC",
+  "Tooltip": "voluptatem",
+  "Rank": 155,
   "DurationUnit": "Century",
-  "SaleDuration": 368,
-  "SaleTypeCatId": 570,
-  "Deleted": false,
-  "HasGuide": true,
-  "HasStakeholders": true,
-  "IsAutoAdvance": false,
+  "SaleDuration": 453,
+  "SaleTypeCatId": 859,
+  "Deleted": true,
+  "HasGuide": false,
+  "HasStakeholders": false,
+  "IsAutoAdvance": true,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 632,
-  "QuoteLinesTemplate": 235,
-  "ConfirmationLinesTemplate": 700,
+  "DefaultQuoteValidity": 578,
+  "QuoteLinesTemplate": 50,
+  "ConfirmationLinesTemplate": 67,
   "MaxDiscountPercentSet": false,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 412,
-  "MinEarningPercent": 163,
-  "GroupQuoteLinesBy": 413,
-  "SortGroupLinesBy": 986,
+  "MaxDiscountPercent": 836,
+  "MinEarningPercent": 710,
+  "GroupQuoteLinesBy": 270,
+  "SortGroupLinesBy": 475,
   "Stages": [
     {
-      "Id": 12,
-      "Name": "Labadie Group",
-      "ToolTip": "Eos quo.",
+      "Id": 536,
+      "Name": "Nitzsche-Ebert",
+      "ToolTip": "Eos architecto ut animi sunt.",
       "Deleted": false,
-      "Rank": 566,
-      "Type": "voluptatum",
-      "ColorBlock": 219,
+      "Rank": 606,
+      "Type": "mollitia",
+      "ColorBlock": 533,
       "IconHint": "reiciendis",
       "Selected": false,
-      "LastChanged": "2009-11-11T03:47:00.8161673+01:00",
+      "LastChanged": "2024-02-08T02:30:53.4442597+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "modi",
-      "StyleHint": "accusantium",
+      "ExtraInfo": "atque",
+      "StyleHint": "et",
       "Hidden": false,
-      "FullName": "Heloise Therese Feeney MD",
+      "FullName": "Celia Goodwin",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 243
+          "FieldType": "System.String",
+          "FieldLength": 252
         }
       }
     }
@@ -226,7 +226,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 908
+      "FieldLength": 600
     }
   }
 }

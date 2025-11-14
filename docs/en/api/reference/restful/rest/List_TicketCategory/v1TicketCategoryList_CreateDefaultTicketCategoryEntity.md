@@ -83,36 +83,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 124,
-  "ParentId": 887,
-  "Name": "Franecki LLC",
-  "Fullname": "molestiae",
-  "CategoryMaster": 212,
+  "TicketCategoryId": 875,
+  "ParentId": 58,
+  "Name": "Becker-Thiel",
+  "Fullname": "voluptatem",
+  "CategoryMaster": 732,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Green Group",
+  "ExternalName": "Baumbach, Bernhard and Krajcik",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 576,
-  "ReplyTemplate": 681,
-  "NotificationEmail": "willow.harvey@morar.ca",
+  "AssignmentLag": 956,
+  "ReplyTemplate": 555,
+  "NotificationEmail": "emilio.conroy@hessel.name",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 220,
+  "EffectiveReplyTemplateId": 451,
   "ExtraFields": {
-    "ExtraFields1": "aut",
-    "ExtraFields2": "eum"
+    "ExtraFields1": "vel",
+    "ExtraFields2": "nihil"
   },
   "CustomFields": {
-    "CustomFields1": "ipsam",
-    "CustomFields2": "debitis"
+    "CustomFields1": "et",
+    "CustomFields2": "quo"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 438
+      "FieldLength": 298
     }
   }
 }

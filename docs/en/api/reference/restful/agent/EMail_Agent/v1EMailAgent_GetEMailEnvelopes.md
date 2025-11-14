@@ -14,6 +14,9 @@ POST /api/v1/Agents/EMail/GetEMailEnvelopes
 Retrieve a set of e-mail envelopes
 
 
+NsApiSlow threshold: 5000 ms.
+
+
 ## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 
@@ -92,8 +95,8 @@ Content-Type: application/json; charset=utf-8
 {
   "ConnectionInfo": null,
   "MessageServerIds": [
-    65,
-    697
+    223,
+    104
   ]
 }
 ```
@@ -106,45 +109,45 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ServerId": 355,
-    "MessageId": "rerum",
-    "Subject": "doloremque",
+    "ServerId": 109,
+    "MessageId": "ut",
+    "Subject": "molestiae",
     "From": null,
     "To": [
       {
-        "ContactId": 451,
-        "ContactName": "Lynch-Schroeder",
-        "PersonId": 437,
-        "PersonName": "Terry Inc and Sons",
-        "AssociateId": 429,
-        "Address": "officia",
-        "EmailId": 412,
+        "ContactId": 554,
+        "ContactName": "Ratke Inc and Sons",
+        "PersonId": 860,
+        "PersonName": "Hettinger Inc and Sons",
+        "AssociateId": 102,
+        "Address": "et",
+        "EmailId": 152,
         "DuplicatePersonIds": [
-          470,
-          180
+          158,
+          87
         ],
-        "Name": "Vandervort Inc and Sons",
+        "Name": "Predovic-Marvin",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 178
+            "FieldLength": 861
           }
         }
       }
     ],
-    "Sent": "2006-05-10T03:46:54.785131+02:00",
+    "Sent": "2021-09-04T02:30:47.3038336+02:00",
     "Priority": "High",
     "Flags": "Answered",
-    "Size": 644,
+    "Size": 962,
     "EMailSOInfo": null,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 176
+        "FieldLength": 676
       }
     }
   }

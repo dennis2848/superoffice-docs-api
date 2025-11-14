@@ -14,6 +14,8 @@ POST /api/v1/Agents/Project/GetProjectEventOnPerson
 Gets a ProjectEvent object from a project and a person.
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -96,12 +98,12 @@ OK
 POST /api/v1/Agents/Project/GetProjectEventOnPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 140,
-  "PersonId": 63
+  "ProjectId": 787,
+  "PersonId": 585
 }
 ```
 
@@ -112,34 +114,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateFullName": "Vernon Witting V",
-  "Description": "Horizontal 24 hour conglomeration",
-  "ProjectId": 681,
-  "EventName": "Anderson Inc and Sons",
-  "AssociateId": 312,
+  "AssociateFullName": "Isadore Koss MD",
+  "Description": "Upgradable transitional function",
+  "ProjectId": 288,
+  "EventName": "Ondricka-Maggio",
+  "AssociateId": 383,
   "IsSignedOn": false,
-  "SignOffConfirmationText": "qui",
-  "SignOffText": "ullam",
-  "SignOnConfirmationText": "aliquam",
-  "SignOnText": "expedita",
-  "EventDate": "2009-06-30T03:46:55.1601179+02:00",
-  "Enabled": true,
-  "SignOff": true,
+  "SignOffConfirmationText": "ipsa",
+  "SignOffText": "enim",
+  "SignOnConfirmationText": "tempore",
+  "SignOnText": "ea",
+  "EventDate": "2006-01-17T02:30:47.6788214+01:00",
+  "Enabled": false,
+  "SignOff": false,
   "SignOffTaskEnable": false,
-  "SignOnTaskEnable": false,
+  "SignOnTaskEnable": true,
   "SignOn": true,
-  "SignOffTaskId": 833,
-  "SignOnTaskId": 713,
-  "SignOffTriggersAssign": false,
-  "SignOnTriggersAssign": true,
-  "SignOnPersonId": 820,
-  "SignOffPersonId": 822,
+  "SignOffTaskId": 476,
+  "SignOnTaskId": 324,
+  "SignOffTriggersAssign": true,
+  "SignOnTriggersAssign": false,
+  "SignOnPersonId": 4,
+  "SignOffPersonId": 750,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 910
+      "FieldLength": 568
     }
   }
 }

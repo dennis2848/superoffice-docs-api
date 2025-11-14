@@ -24,6 +24,7 @@ For the last years, SuperOffice has tightened and improved the security of the S
 * Prevent outbound internet traffic on all ports, except 80 and 443.
 * January 2020: Disabled TLS 1.1 and 1.0 and weak cipher suites.
 * January 2024: Added support for TLS 1.3.
+* October 2025: Disabled waek cipher suites for TLS 1.2.
 
 ## Certificates vs. filtering on IP
 
@@ -42,4 +43,4 @@ From August 25th, 2018 we also started to enforce the use of `app://appid` in th
 SuperOffice will always strive to inform partners before major changes, but customer security is our 1st priority and there may be situations that require us to take action before informing partners.
 
 <!-- Referenced links -->
-[1]: ../../api/plugins/erp-connectors/online/secure-in-online.md
+[1]: ../api/plugins/erp-connectors/online/secure-in-online.md

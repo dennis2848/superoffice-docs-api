@@ -14,6 +14,8 @@ POST /api/v1/Agents/Chat/AddChatTopicUserAgent
 Add a user to a chat topic
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -78,11 +80,11 @@ OK
 POST /api/v1/Agents/Chat/AddChatTopicUserAgent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 983,
+  "ChatTopicId": 297,
   "Useragent": null
 }
 ```
@@ -94,11 +96,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TopicId": 155,
+  "TopicId": 897,
   "User": null,
   "CanListen": false,
   "CanRespond": false,
   "CanManage": false,
-  "CanNotify": true
+  "CanNotify": false
 }
 ```

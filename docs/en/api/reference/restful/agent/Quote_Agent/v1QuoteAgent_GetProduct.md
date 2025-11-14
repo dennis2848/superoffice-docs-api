@@ -14,6 +14,8 @@ POST /api/v1/Agents/Quote/GetProduct
 Get a product with the given key
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -112,8 +114,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 840,
-  "ERPProductKey": "quasi"
+  "QuoteConnectionId": 871,
+  "ERPProductKey": "aliquam"
 }
 ```
 
@@ -124,73 +126,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 377,
-  "ERPProductKey": "suscipit",
-  "ERPPriceListKey": "voluptas",
-  "Name": "Kutch, Kessler and Fadel",
-  "Description": "Fully-configurable responsive software",
-  "Code": "iste",
-  "PriceUnit": "ut",
-  "QuantityUnit": "occaecati",
-  "IsSubscription": false,
-  "SubscriptionUnit": "quia",
-  "DefaultSubscriptionQuantity": 4481.62,
-  "ItemNumber": "1124968",
+  "ProductId": 376,
+  "ERPProductKey": "eos",
+  "ERPPriceListKey": "non",
+  "Name": "Wilderman-Murazik",
+  "Description": "Programmable responsive analyzer",
+  "Code": "adipisci",
+  "PriceUnit": "eos",
+  "QuantityUnit": "aut",
+  "IsSubscription": true,
+  "SubscriptionUnit": "odio",
+  "DefaultSubscriptionQuantity": 18418.518,
+  "ItemNumber": "835123",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "nesciunt",
-  "ProductTypeKey": "quia",
-  "VAT": 14410.132,
-  "VATInfo": "enim",
-  "UnitCost": 19092.327999999998,
-  "UnitMinimumPrice": 23254.28,
-  "UnitListPrice": 20747.079999999998,
-  "InAssortment": true,
-  "Supplier": "nostrum",
-  "SupplierCode": "repellendus",
-  "Rights": "beatae",
-  "Rule": "et",
+  "ProductFamilyKey": "eaque",
+  "ProductTypeKey": "similique",
+  "VAT": 15854.905999999999,
+  "VATInfo": "laudantium",
+  "UnitCost": 4055.3959999999997,
+  "UnitMinimumPrice": 3265.6279999999997,
+  "UnitListPrice": 30258.77,
+  "InAssortment": false,
+  "Supplier": "atque",
+  "SupplierCode": "tempora",
+  "Rights": "eveniet",
+  "Rule": "aspernatur",
   "ExtraInfo": [
     {
-      "Name": "Huels, Becker and Lynch",
-      "Value": "qui",
+      "Name": "Kreiger Group",
+      "Value": "ea",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 306
+          "FieldLength": 396
         }
       }
     },
     {
-      "Name": "Huels, Becker and Lynch",
-      "Value": "qui",
+      "Name": "Kreiger Group",
+      "Value": "ea",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 306
+          "FieldLength": 396
         }
       }
     }
   ],
-  "RawExtraInfo": "voluptas",
-  "ExtraField1": "reprehenderit",
-  "ExtraField2": "placeat",
-  "ExtraField3": "possimus",
-  "ExtraField4": "nostrum",
-  "ExtraField5": "numquam",
-  "InStock": 12426.31,
+  "RawExtraInfo": "eligendi",
+  "ExtraField1": "vel",
+  "ExtraField2": "mollitia",
+  "ExtraField3": "minus",
+  "ExtraField4": "consequatur",
+  "ExtraField5": "distinctio",
+  "InStock": 21856.516,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 137
+      "FieldLength": 390
     }
   }
 }

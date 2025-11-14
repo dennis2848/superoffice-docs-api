@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/GetRatingList
 Gets an array of Rating objects.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -73,7 +75,7 @@ OK
 POST /api/v1/Agents/List/GetRatingList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -84,28 +86,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 590,
-    "Value": "consequatur",
-    "Tooltip": "incidunt",
+    "Id": 835,
+    "Value": "autem",
+    "Tooltip": "quo",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 454
+        "FieldLength": 222
       }
     }
   },
   {
-    "Id": 590,
-    "Value": "consequatur",
-    "Tooltip": "incidunt",
+    "Id": 835,
+    "Value": "autem",
+    "Tooltip": "quo",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 454
+        "FieldLength": 222
       }
     }
   }

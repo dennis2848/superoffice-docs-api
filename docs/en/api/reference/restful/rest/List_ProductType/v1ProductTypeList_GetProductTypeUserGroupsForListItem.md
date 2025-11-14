@@ -76,7 +76,7 @@ OK
 GET /api/v1/List/ProductType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -87,56 +87,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 120,
-    "Name": "Gottlieb LLC",
-    "ToolTip": "Aut minus velit nam ut dolorem rerum.",
-    "Deleted": false,
-    "Rank": 776,
-    "Type": "qui",
-    "ColorBlock": 337,
-    "IconHint": "vitae",
-    "Selected": true,
-    "LastChanged": "2001-03-07T03:47:00.7380451+01:00",
+    "Id": 61,
+    "Name": "Gutkowski, Stroman and Abernathy",
+    "ToolTip": "Sunt in odio ipsam.",
+    "Deleted": true,
+    "Rank": 863,
+    "Type": "dicta",
+    "ColorBlock": 827,
+    "IconHint": "molestias",
+    "Selected": false,
+    "LastChanged": "2006-02-14T02:30:53.3661371+01:00",
     "ChildItems": [
       {
-        "Id": 113,
-        "Name": "Flatley-Grant",
-        "ToolTip": "Non accusamus dolorem praesentium quaerat.",
+        "Id": 265,
+        "Name": "Swift Inc and Sons",
+        "ToolTip": "Omnis id id dolores rerum non ut neque.",
         "Deleted": false,
-        "Rank": 311,
-        "Type": "suscipit",
-        "ColorBlock": 297,
-        "IconHint": "molestias",
+        "Rank": 496,
+        "Type": "debitis",
+        "ColorBlock": 1002,
+        "IconHint": "tempore",
         "Selected": false,
-        "LastChanged": "2017-08-31T03:47:00.7380451+02:00",
+        "LastChanged": "2005-01-29T02:30:53.3661371+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "hic",
-        "StyleHint": "amet",
-        "Hidden": true,
-        "FullName": "Clara Leuschke",
+        "ExtraInfo": "aliquam",
+        "StyleHint": "aut",
+        "Hidden": false,
+        "FullName": "Augustine Wolff",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 188
+            "FieldLength": 796
           }
         }
       }
     ],
-    "ExtraInfo": "dolor",
-    "StyleHint": "vero",
-    "Hidden": false,
-    "FullName": "Bailee Hammes",
+    "ExtraInfo": "possimus",
+    "StyleHint": "distinctio",
+    "Hidden": true,
+    "FullName": "Lelia Nicolas",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 710
+        "FieldLength": 43
       }
     }
   }

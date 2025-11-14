@@ -15,6 +15,7 @@ Update information about a BatchTask.
 
 
 Only the following properties can be updated: State, Description, Response and Request.
+NsApiSlow threshold: 3000 ms.
 
 
 
@@ -97,7 +98,7 @@ OK
 POST /api/v1/Agents/Batch/UpdateBatchTask
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -112,37 +113,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 837,
-  "Name": "Hauck, Hartmann and Batz",
-  "AssociateId": 931,
-  "DetailsTable": 697,
-  "DetailsRecord": 269,
+  "Id": 612,
+  "Name": "Treutel, Gerhold and Dickinson",
+  "AssociateId": 657,
+  "DetailsTable": 116,
+  "DetailsRecord": 727,
   "IsSystemTask": false,
   "IsInternalTask": true,
   "ParameterObject": {
-    "ParameterObject1": "vero",
-    "ParameterObject2": "distinctio"
+    "ParameterObject1": "mollitia",
+    "ParameterObject2": "sit"
   },
-  "LastStarted": "2017-09-17T03:46:54.3007673+02:00",
-  "Created": "2003-12-18T03:46:54.3007673+01:00",
-  "StartCount": 638,
-  "DatabaseSerialNumber": "1272730",
-  "Context": "nobis",
-  "Result": "ea",
+  "LastStarted": "2006-09-26T02:30:46.8194719+02:00",
+  "Created": "2019-02-08T02:30:46.8194719+01:00",
+  "StartCount": 791,
+  "DatabaseSerialNumber": "1446252",
+  "Context": "reiciendis",
+  "Result": "nihil",
   "State": "All",
-  "Description": "Profound holistic challenge",
-  "Response": "omnis",
-  "Request": "est",
-  "ProgressDescription": "Horizontal 4th generation core",
-  "ProgressPercent": 599,
-  "FileName": "Marquardt, Welch and Schimmel",
+  "Description": "Proactive tertiary extranet",
+  "Response": "animi",
+  "Request": "soluta",
+  "ProgressDescription": "Innovative 5th generation migration",
+  "ProgressPercent": 131,
+  "FileName": "Heaney LLC",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 636
+      "FieldLength": 982
     }
   }
 }

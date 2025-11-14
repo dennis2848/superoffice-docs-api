@@ -14,6 +14,8 @@ POST /api/v1/Agents/Marketing/SaveShipmentMessageBlockEntity
 Updates the existing ShipmentMessageBlockEntity or creates a new ShipmentMessageBlockEntity if the id parameter is 0.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -78,18 +80,18 @@ OK
 POST /api/v1/Agents/Marketing/SaveShipmentMessageBlockEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageBlockId": 799,
-  "AssociateId": 242,
-  "Block": "placeat",
-  "Registered": "2018-08-13T03:46:55.0038735+02:00",
-  "RegisteredAssociateId": 205,
-  "Updated": "2005-01-22T03:46:55.0038735+01:00",
-  "UpdatedAssociateId": 682,
-  "UpdatedCount": 341
+  "ShipmentMessageBlockId": 63,
+  "AssociateId": 909,
+  "Block": "temporibus",
+  "Registered": "2019-05-28T02:30:47.4600781+02:00",
+  "RegisteredAssociateId": 11,
+  "Updated": "2014-03-18T02:30:47.4600781+01:00",
+  "UpdatedAssociateId": 25,
+  "UpdatedCount": 590
 }
 ```
 
@@ -100,20 +102,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageBlockId": 506,
-  "AssociateId": 84,
-  "Block": "temporibus",
-  "Registered": "2004-11-27T03:46:55.0038735+01:00",
-  "RegisteredAssociateId": 705,
-  "Updated": "1999-06-24T03:46:55.0038735+02:00",
-  "UpdatedAssociateId": 392,
-  "UpdatedCount": 46,
+  "ShipmentMessageBlockId": 863,
+  "AssociateId": 113,
+  "Block": "aut",
+  "Registered": "2010-02-03T02:30:47.4600781+01:00",
+  "RegisteredAssociateId": 113,
+  "Updated": "2013-02-16T02:30:47.4600781+01:00",
+  "UpdatedAssociateId": 969,
+  "UpdatedCount": 997,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 351
+      "FieldType": "System.Int32",
+      "FieldLength": 526
     }
   }
 }

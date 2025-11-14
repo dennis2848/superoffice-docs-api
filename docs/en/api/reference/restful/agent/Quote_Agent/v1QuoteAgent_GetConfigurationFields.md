@@ -15,6 +15,7 @@ Used by ADMIN.
 
 
 Asks for metadata needed to populate admin dialog that takes in the information needed to create a connection to an ERP system. The values entered in the dialog are stored in SuperOffice db and used when InitializeConnector is called by the client.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -86,12 +87,12 @@ OK
 POST /api/v1/Agents/Quote/GetConfigurationFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConnectionId": 915,
-  "ConnectorName": "Nienow Inc and Sons"
+  "ConnectionId": 961,
+  "ConnectorName": "Daniel Group"
 }
 ```
 
@@ -103,22 +104,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "fieldName": {
-    "FieldKey": "repellat",
-    "Rank": 101,
-    "DisplayName": "Lebsack LLC",
-    "DisplayDescription": "Operative local success",
+    "FieldKey": "maxime",
+    "Rank": 414,
+    "DisplayName": "Gusikowski-Hoppe",
+    "DisplayDescription": "Switchable logistical forecast",
     "FieldType": "Checkbox",
-    "ListName": "Dietrich-Nolan",
-    "DefaultValue": "quia",
-    "MaxLength": 895,
+    "ListName": "Bahringer, Hermiston and Cremin",
+    "DefaultValue": "a",
+    "MaxLength": 330,
     "Access": "Mandatory",
     "ShowInSearch": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 449
+        "FieldType": "System.String",
+        "FieldLength": 543
       }
     }
   }

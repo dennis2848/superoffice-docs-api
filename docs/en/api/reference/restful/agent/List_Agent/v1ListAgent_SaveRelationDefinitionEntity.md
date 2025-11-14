@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/SaveRelationDefinitionEntity
 Updates the existing RelationDefinitionEntity or creates a new RelationDefinitionEntity if the id parameter is 0.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -78,16 +80,16 @@ OK
 POST /api/v1/Agents/List/SaveRelationDefinitionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 122,
-  "Name": "Hoppe Group",
-  "Tooltip": "vel",
-  "PassiveText": "est",
+  "ReldefId": 436,
+  "Name": "Hansen-Schuster",
+  "Tooltip": "sunt",
+  "PassiveText": "officiis",
   "Deleted": false,
-  "Rank": 325,
+  "Rank": 750,
   "Source": "Both",
   "Destination": "Both"
 }
@@ -100,12 +102,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 725,
-  "Name": "Keebler, Adams and Ernser",
-  "Tooltip": "nihil",
-  "PassiveText": "ex",
+  "ReldefId": 4,
+  "Name": "Fahey, Jakubowski and Abernathy",
+  "Tooltip": "esse",
+  "PassiveText": "esse",
   "Deleted": false,
-  "Rank": 26,
+  "Rank": 872,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
@@ -113,7 +115,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 208
+      "FieldLength": 80
     }
   }
 }

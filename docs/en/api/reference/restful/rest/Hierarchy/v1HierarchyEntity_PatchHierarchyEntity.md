@@ -14,7 +14,8 @@ PATCH /api/v1/Hierarchy/{id}
 Update a HierarchyEntity with changes, as described in a JSON Patch or a JSON Merge Patch document.
 
 
-See <a href="https://tools.ietf.org/html/rfc6902">RFC6902</a> and <a href="https://tools.ietf.org/html/rfc7386">RFC 7396</a>. Update the Department field to "foo" can be done either as a JSON PATCH:
+See <a href="https://tools.ietf.org/html/rfc6902">RFC6902</a> and <a href="https://tools.ietf.org/html/rfc7386">RFC 7396</a>.
+NsApiSlow threshold: 5000 ms. Update the Department field to "foo" can be done either as a JSON PATCH:
 
 ```js
 
@@ -118,18 +119,18 @@ HierarchyEntity  updated.
 PATCH /api/v1/Hierarchy/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "nemo",
+    "path": "aut",
     "value": {}
   },
   {
     "op": "add",
-    "path": "nemo",
+    "path": "aut",
     "value": {}
   }
 ]
@@ -142,51 +143,51 @@ HTTP/1.1 200 HierarchyEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 37,
+  "HierarchyId": 152,
   "Domain": "Dashboards",
-  "Name": "Hermiston-Heaney",
-  "Fullname": "delectus",
-  "ParentId": 220,
+  "Name": "Denesik LLC",
+  "Fullname": "quis",
+  "ParentId": 282,
   "Children": [
     {
-      "HierarchyId": 85,
+      "HierarchyId": 713,
       "Domain": "Dashboards",
-      "Name": "Erdman-Corkery",
-      "Fullname": "ut",
-      "ParentId": 563,
+      "Name": "Rempel-Deckow",
+      "Fullname": "iusto",
+      "ParentId": 375,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2017-09-03T03:47:00.0349452+02:00",
-      "RegisteredAssociateId": 345,
-      "Updated": "2022-06-24T03:47:00.0349452+02:00",
-      "UpdatedAssociateId": 286,
+      "Registered": "2006-01-15T02:30:52.6630355+01:00",
+      "RegisteredAssociateId": 516,
+      "Updated": "2012-08-04T02:30:52.6630355+02:00",
+      "UpdatedAssociateId": 100,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 859
+          "FieldType": "System.Int32",
+          "FieldLength": 277
         }
       }
     }
   ],
-  "Registered": "2012-03-14T03:47:00.0349452+01:00",
-  "RegisteredAssociateId": 580,
-  "Updated": "2016-03-27T03:47:00.0349452+02:00",
-  "UpdatedAssociateId": 243,
+  "Registered": "2010-02-23T02:30:52.6630355+01:00",
+  "RegisteredAssociateId": 457,
+  "Updated": "2002-03-08T02:30:52.6630355+01:00",
+  "UpdatedAssociateId": 164,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 240
+      "FieldLength": 417
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

@@ -63,7 +63,7 @@ OK
 GET /api/v1/List/Business/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -74,18 +74,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 395,
-    "Name": "Stracke, Streich and Moore",
-    "Tooltip": "ut",
-    "Deleted": false,
-    "Rank": 508,
-    "UdListDefinitionId": 690,
+    "HeadingId": 188,
+    "Name": "Towne Group",
+    "Tooltip": "et",
+    "Deleted": true,
+    "Rank": 218,
+    "UdListDefinitionId": 744,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 754
+        "FieldType": "System.String",
+        "FieldLength": 443
       }
     }
   }

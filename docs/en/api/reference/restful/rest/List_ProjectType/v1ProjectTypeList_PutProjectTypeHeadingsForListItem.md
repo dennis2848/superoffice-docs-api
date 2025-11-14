@@ -98,47 +98,47 @@ OK
 PUT /api/v1/List/ProjectType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 880,
-    "Name": "Bruen, Hermann and Torp",
-    "ToolTip": "Fugit similique est.",
+    "Id": 259,
+    "Name": "Quigley LLC",
+    "ToolTip": "Adipisci nobis dignissimos odit.",
     "Deleted": false,
-    "Rank": 98,
-    "Type": "eos",
-    "ColorBlock": 358,
-    "IconHint": "quidem",
+    "Rank": 855,
+    "Type": "dolores",
+    "ColorBlock": 799,
+    "IconHint": "occaecati",
     "Selected": false,
-    "LastChanged": "2024-12-14T03:47:00.7536695+01:00",
+    "LastChanged": "2014-08-09T02:30:53.3817624+02:00",
     "ChildItems": [
       {
-        "Id": 450,
-        "Name": "Koepp-Schneider",
-        "ToolTip": "Praesentium architecto sit velit.",
-        "Deleted": false,
-        "Rank": 89,
-        "Type": "est",
-        "ColorBlock": 309,
-        "IconHint": "occaecati",
-        "Selected": true,
-        "LastChanged": "2017-07-06T03:47:00.7536695+02:00",
+        "Id": 970,
+        "Name": "Steuber, Kessler and Daniel",
+        "ToolTip": "Porro adipisci ratione dolores accusamus excepturi voluptas voluptatibus.",
+        "Deleted": true,
+        "Rank": 194,
+        "Type": "enim",
+        "ColorBlock": 687,
+        "IconHint": "quia",
+        "Selected": false,
+        "LastChanged": "2004-12-24T02:30:53.3817624+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "culpa",
-        "StyleHint": "magnam",
+        "ExtraInfo": "dolor",
+        "StyleHint": "dolores",
         "Hidden": false,
-        "FullName": "Kailyn Stokes"
+        "FullName": "Prof. Callie Graham"
       }
     ],
-    "ExtraInfo": "eum",
-    "StyleHint": "accusantium",
+    "ExtraInfo": "et",
+    "StyleHint": "laborum",
     "Hidden": true,
-    "FullName": "Kelton Barton"
+    "FullName": "Boris Johnston"
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 357,
-    "Name": "Lind-Robel",
-    "ToolTip": "Voluptas est saepe id impedit error.",
+    "Id": 947,
+    "Name": "Wiegand-Smith",
+    "ToolTip": "Aliquam inventore laudantium provident.",
     "Deleted": false,
-    "Rank": 36,
-    "Type": "voluptatum",
-    "ColorBlock": 34,
-    "IconHint": "in",
+    "Rank": 290,
+    "Type": "laboriosam",
+    "ColorBlock": 631,
+    "IconHint": "hic",
     "Selected": false,
-    "LastChanged": "2014-03-22T03:47:00.7536695+01:00",
+    "LastChanged": "2025-06-27T02:30:53.3817624+02:00",
     "ChildItems": [
       {
-        "Id": 736,
-        "Name": "Jakubowski Group",
-        "ToolTip": "Non voluptatem.",
-        "Deleted": true,
-        "Rank": 458,
-        "Type": "incidunt",
-        "ColorBlock": 626,
-        "IconHint": "ipsum",
+        "Id": 382,
+        "Name": "Emard-Sawayn",
+        "ToolTip": "Ullam sequi amet nulla velit earum.",
+        "Deleted": false,
+        "Rank": 908,
+        "Type": "deleniti",
+        "ColorBlock": 335,
+        "IconHint": "quisquam",
         "Selected": false,
-        "LastChanged": "2017-12-04T03:47:00.7536695+01:00",
+        "LastChanged": "2020-05-04T02:30:53.3817624+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "mollitia",
-        "StyleHint": "cupiditate",
+        "ExtraInfo": "voluptatibus",
+        "StyleHint": "eveniet",
         "Hidden": false,
-        "FullName": "Ozella Hermann",
+        "FullName": "Jarod Bartell",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 467
+            "FieldLength": 758
           }
         }
       }
     ],
     "ExtraInfo": "quo",
-    "StyleHint": "consequatur",
+    "StyleHint": "maxime",
     "Hidden": false,
-    "FullName": "Austin Brown",
+    "FullName": "Rubie Herzog",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 756
+        "FieldType": "System.String",
+        "FieldLength": 321
       }
     }
   }

@@ -76,7 +76,7 @@ OK
 GET /api/v1/List/SaleType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -87,56 +87,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 295,
-    "Name": "Flatley, Schneider and Brakus",
-    "ToolTip": "Et consequatur voluptas illo laboriosam architecto molestias sit.",
+    "Id": 775,
+    "Name": "Denesik Group",
+    "ToolTip": "Officiis id ex fugit sint voluptatem.",
     "Deleted": false,
-    "Rank": 116,
-    "Type": "numquam",
-    "ColorBlock": 480,
-    "IconHint": "dolore",
+    "Rank": 169,
+    "Type": "distinctio",
+    "ColorBlock": 665,
+    "IconHint": "quas",
     "Selected": false,
-    "LastChanged": "2009-05-29T03:47:00.8161673+02:00",
+    "LastChanged": "2004-03-19T02:30:53.4442597+01:00",
     "ChildItems": [
       {
-        "Id": 146,
-        "Name": "Balistreri-Keebler",
-        "ToolTip": "Laboriosam dolorum nesciunt in odio.",
+        "Id": 707,
+        "Name": "Macejkovic, Jacobs and Keebler",
+        "ToolTip": "Aut error facere accusamus ad voluptas aut occaecati.",
         "Deleted": false,
-        "Rank": 709,
+        "Rank": 596,
         "Type": "quae",
-        "ColorBlock": 200,
-        "IconHint": "sit",
-        "Selected": false,
-        "LastChanged": "2018-08-23T03:47:00.8161673+02:00",
+        "ColorBlock": 976,
+        "IconHint": "debitis",
+        "Selected": true,
+        "LastChanged": "1999-12-29T02:30:53.4442597+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "animi",
-        "StyleHint": "quia",
+        "ExtraInfo": "sed",
+        "StyleHint": "facilis",
         "Hidden": false,
-        "FullName": "Perry Louvenia Frami Jr.",
+        "FullName": "Mrs. Chad Daugherty",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 32
+            "FieldType": "System.Int32",
+            "FieldLength": 772
           }
         }
       }
     ],
-    "ExtraInfo": "recusandae",
-    "StyleHint": "veritatis",
-    "Hidden": false,
-    "FullName": "Mckenna Dietrich",
+    "ExtraInfo": "cum",
+    "StyleHint": "repellat",
+    "Hidden": true,
+    "FullName": "Robb Murazik",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 674
+        "FieldLength": 261
       }
     }
   }

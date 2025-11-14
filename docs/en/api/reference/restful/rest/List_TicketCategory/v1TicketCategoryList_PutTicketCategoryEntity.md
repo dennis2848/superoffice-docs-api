@@ -105,33 +105,33 @@ OK
 PUT /api/v1/List/TicketCategory/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 762,
-  "ParentId": 68,
-  "Name": "Hauck Inc and Sons",
-  "Fullname": "perspiciatis",
-  "CategoryMaster": 981,
+  "TicketCategoryId": 514,
+  "ParentId": 970,
+  "Name": "Dibbert-McClure",
+  "Fullname": "esse",
+  "CategoryMaster": 90,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Casper LLC",
+  "ExternalName": "Fay-Hirthe",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 408,
-  "ReplyTemplate": 770,
-  "NotificationEmail": "conner@sawayn.com",
+  "AssignmentLag": 104,
+  "ReplyTemplate": 728,
+  "NotificationEmail": "amya_tromp@rosenbaum.co.uk",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 843,
+  "EffectiveReplyTemplateId": 528,
   "ExtraFields": {
-    "ExtraFields1": "qui",
-    "ExtraFields2": "porro"
+    "ExtraFields1": "architecto",
+    "ExtraFields2": "soluta"
   },
   "CustomFields": {
-    "CustomFields1": "quo",
-    "CustomFields2": "velit"
+    "CustomFields1": "omnis",
+    "CustomFields2": "consequuntur"
   }
 }
 ```
@@ -143,36 +143,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 872,
-  "ParentId": 330,
-  "Name": "Turner, Kohler and Altenwerth",
-  "Fullname": "quo",
-  "CategoryMaster": 978,
+  "TicketCategoryId": 610,
+  "ParentId": 738,
+  "Name": "Satterfield Inc and Sons",
+  "Fullname": "dolores",
+  "CategoryMaster": 249,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Prosacco, Treutel and Hyatt",
+  "ExternalName": "Waelchi, Kunde and Williamson",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 764,
-  "ReplyTemplate": 266,
-  "NotificationEmail": "tito@heidenreichhilll.com",
+  "AssignmentLag": 478,
+  "ReplyTemplate": 293,
+  "NotificationEmail": "demond_larkin@gutkowski.name",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 348,
+  "EffectiveReplyTemplateId": 524,
   "ExtraFields": {
-    "ExtraFields1": "nisi",
-    "ExtraFields2": "quibusdam"
+    "ExtraFields1": "est",
+    "ExtraFields2": "similique"
   },
   "CustomFields": {
-    "CustomFields1": "minus",
-    "CustomFields2": "est"
+    "CustomFields1": "id",
+    "CustomFields2": "molestiae"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 760
+      "FieldType": "System.Int32",
+      "FieldLength": 605
     }
   }
 }

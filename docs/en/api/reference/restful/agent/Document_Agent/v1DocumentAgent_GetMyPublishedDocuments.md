@@ -11,7 +11,7 @@ content_type: reference
 POST /api/v1/Agents/Document/GetMyPublishedDocuments
 ```
 
-
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/Document/GetMyPublishedDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -96,32 +96,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 167,
-    "Attention": "vitae",
-    "Header": "sit",
-    "Name": "Rempel LLC",
-    "OurRef": "nulla",
-    "YourRef": "ut",
-    "Description": "Re-contextualized mobile portal",
-    "DocumentTemplate": "accusamus",
-    "IsPublished": true,
-    "PersonId": 282,
-    "PersonFullName": "Mr. Devante Bode MD",
-    "AssociateFullName": "Joel Armstrong",
-    "ContactId": 115,
-    "ContactName": "Schoen Inc and Sons",
-    "ProjectId": 953,
-    "ProjectName": "Schaden Group",
-    "AssociateId": 776,
-    "Snum": 581,
-    "SaleId": 420,
-    "SaleName": "Rippin-Romaguera",
+    "DocumentId": 878,
+    "Attention": "incidunt",
+    "Header": "repellendus",
+    "Name": "Greenholt, Rolfson and Rowe",
+    "OurRef": "mollitia",
+    "YourRef": "architecto",
+    "Description": "Future-proofed asynchronous contingency",
+    "DocumentTemplate": "nemo",
+    "IsPublished": false,
+    "PersonId": 48,
+    "PersonFullName": "Blair Zemlak",
+    "AssociateFullName": "Prof. Katlynn Tremayne Trantow",
+    "ContactId": 479,
+    "ContactName": "Schmeler, Miller and Larkin",
+    "ProjectId": 823,
+    "ProjectName": "Beatty-Bode",
+    "AssociateId": 268,
+    "Snum": 292,
+    "SaleId": 470,
+    "SaleName": "Rice, Schinner and Luettgen",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 848
+        "FieldType": "System.String",
+        "FieldLength": 699
       }
     }
   }

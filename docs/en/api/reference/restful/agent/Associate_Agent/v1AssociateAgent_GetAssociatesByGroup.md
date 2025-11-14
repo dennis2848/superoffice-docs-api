@@ -15,6 +15,7 @@ Method that returns a array of associate , based on DiaryGroupType and groupId.
 
 
 The differernt types are, Userdefined, Usergroup and ResourceHeadings
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -94,8 +95,8 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "GroupId": 413,
-  "Type": 669
+  "GroupId": 134,
+  "Type": 498
 }
 ```
 
@@ -107,32 +108,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AssociateId": 107,
-    "Name": "Kassulke LLC",
-    "PersonId": 177,
-    "Rank": 301,
-    "Tooltip": "dolor",
+    "AssociateId": 655,
+    "Name": "Quitzon LLC",
+    "PersonId": 227,
+    "Rank": 565,
+    "Tooltip": "dignissimos",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 825,
-    "FullName": "Ray Leannon",
-    "FormalName": "Goyette, Towne and Mertz",
+    "GroupIdx": 821,
+    "FullName": "Juana Wiza",
+    "FormalName": "Crooks Group",
     "Deleted": false,
-    "EjUserId": 273,
-    "UserName": "Volkman-O'Conner",
+    "EjUserId": 43,
+    "UserName": "Quitzon Group",
     "ExtraFields": {
-      "ExtraFields1": "sed",
-      "ExtraFields2": "aperiam"
+      "ExtraFields1": "sequi",
+      "ExtraFields2": "quia"
     },
     "CustomFields": {
-      "CustomFields1": "facilis",
-      "CustomFields2": "tenetur"
+      "CustomFields1": "debitis",
+      "CustomFields2": "est"
     },
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 726
+        "FieldLength": 987
       }
     }
   }

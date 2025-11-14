@@ -73,7 +73,7 @@ OK
 GET /api/v1/PreferenceDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -84,30 +84,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 707,
-    "Section": "eum",
-    "Key": "cupiditate",
-    "Name": "Wiza Group",
+    "PrefDescId": 349,
+    "Section": "dolorem",
+    "Key": "illo",
+    "Name": "Feil, Wiegand and Connelly",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Enhanced fault-tolerant open architecture",
+    "Description": "Open-source value-added migration",
     "IsBuiltin": false,
-    "TableName": "Lindgren-Prosacco",
-    "UserDefinedListId": 431,
-    "Rank": 202,
-    "SubGroup": "sit",
-    "MinLevel": 426,
-    "MaxValue": 85,
-    "MinValue": 292,
-    "RequiredLicense": "nulla",
+    "TableName": "Pacocha, Emard and Abbott",
+    "UserDefinedListId": 766,
+    "Rank": 668,
+    "SubGroup": "voluptas",
+    "MinLevel": 679,
+    "MaxValue": 647,
+    "MinValue": 303,
+    "RequiredLicense": "ipsum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 483
+        "FieldLength": 566
       }
     }
   }

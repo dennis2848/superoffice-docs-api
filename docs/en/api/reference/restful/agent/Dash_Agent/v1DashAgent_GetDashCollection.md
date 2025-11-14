@@ -14,6 +14,8 @@ POST /api/v1/Agents/Dash/GetDashCollection
 Gets a collection of dashboards for the current associate
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -68,7 +70,7 @@ OK
 POST /api/v1/Agents/Dash/GetDashCollection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -80,111 +82,111 @@ Content-Type: application/json; charset=utf-8
 {
   "Pinned": [
     {
-      "DashboardId": 974,
-      "UniqueId": "modi",
-      "Name": "Hessel LLC",
-      "Description": "Streamlined incremental database",
-      "AssociateId": 408,
-      "Columns": 959,
+      "DashboardId": 711,
+      "UniqueId": "sit",
+      "Name": "Langosh, Bernier and Deckow",
+      "Description": "Integrated eco-centric leverage",
+      "AssociateId": 691,
+      "Columns": 59,
       "Theme": null,
-      "VisibleForAll": 620,
+      "VisibleForAll": 954,
       "VisibleForAssociates": [
-        379,
-        151
+        296,
+        747
       ],
       "VisibleForGroups": [
-        557,
-        416
+        358,
+        284
       ],
-      "PinForAll": 381,
+      "PinForAll": 66,
       "PinForAssociates": [
-        376,
-        520
+        684,
+        596
       ],
       "PinForGroups": [
-        691,
-        735
+        340,
+        537
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 958
+          "FieldLength": 420
         }
       }
     }
   ],
   "Favourites": [
     {
-      "DashboardId": 799,
-      "UniqueId": "dolores",
-      "Name": "Goodwin Group",
-      "Description": "Business-focused attitude-oriented knowledge user",
-      "AssociateId": 69,
-      "Columns": 834,
+      "DashboardId": 324,
+      "UniqueId": "ducimus",
+      "Name": "Kunze-Bahringer",
+      "Description": "Re-contextualized leading edge service-desk",
+      "AssociateId": 549,
+      "Columns": 955,
       "Theme": null,
-      "VisibleForAll": 772,
+      "VisibleForAll": 420,
       "VisibleForAssociates": [
-        30,
-        28
+        150,
+        634
       ],
       "VisibleForGroups": [
-        984,
-        731
+        247,
+        633
       ],
-      "PinForAll": 558,
+      "PinForAll": 217,
       "PinForAssociates": [
-        944,
-        726
+        590,
+        552
       ],
       "PinForGroups": [
-        978,
-        542
-      ],
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 84
-        }
-      }
-    }
-  ],
-  "Other": [
-    {
-      "DashboardId": 285,
-      "UniqueId": "modi",
-      "Name": "Price, McGlynn and Spencer",
-      "Description": "User-friendly coherent website",
-      "AssociateId": 675,
-      "Columns": 81,
-      "Theme": null,
-      "VisibleForAll": 349,
-      "VisibleForAssociates": [
-        245,
-        458
-      ],
-      "VisibleForGroups": [
-        867,
-        75
-      ],
-      "PinForAll": 723,
-      "PinForAssociates": [
-        677,
-        44
-      ],
-      "PinForGroups": [
-        520,
-        997
+        621,
+        495
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 377
+          "FieldLength": 784
+        }
+      }
+    }
+  ],
+  "Other": [
+    {
+      "DashboardId": 270,
+      "UniqueId": "nihil",
+      "Name": "Jacobi-Abernathy",
+      "Description": "Grass-roots static success",
+      "AssociateId": 308,
+      "Columns": 178,
+      "Theme": null,
+      "VisibleForAll": 521,
+      "VisibleForAssociates": [
+        150,
+        890
+      ],
+      "VisibleForGroups": [
+        639,
+        964
+      ],
+      "PinForAll": 43,
+      "PinForAssociates": [
+        302,
+        875
+      ],
+      "PinForGroups": [
+        719,
+        437
+      ],
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 864
         }
       }
     }
@@ -193,8 +195,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 499
+      "FieldType": "System.Int32",
+      "FieldLength": 106
     }
   }
 }

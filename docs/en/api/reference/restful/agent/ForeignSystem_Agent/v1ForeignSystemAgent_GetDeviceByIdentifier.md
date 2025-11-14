@@ -14,6 +14,8 @@ POST /api/v1/Agents/ForeignSystem/GetDeviceByIdentifier
 Gets a ForeignDevice with deviceName and deviceIdentifier that belongs to the application with applicationName.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -84,13 +86,13 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetDeviceByIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Padberg, Doyle and Dach",
-  "DeviceName": "Hahn Inc and Sons",
-  "DeviceIdentifier": "saepe"
+  "ApplicationName": "Purdy, Walsh and Fisher",
+  "DeviceName": "Hills-Stiedemann",
+  "DeviceIdentifier": "illo"
 }
 ```
 
@@ -101,21 +103,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 644,
-  "Name": "Rowe, Prosacco and Koepp",
-  "CreatedDate": "2017-03-05T03:46:54.8632539+01:00",
-  "UpdatedDate": "2005-03-01T03:46:54.8632539+01:00",
-  "AssociateFullName": "Marcelle Lebsack",
-  "CreatedBy": "exercitationem",
-  "UpdatedBy": "exercitationem",
-  "DeviceIdentifier": "a",
-  "ForeignAppId": 953,
+  "ForeignDeviceId": 801,
+  "Name": "Kessler, Flatley and Beatty",
+  "CreatedDate": "2007-04-21T02:30:47.366331+02:00",
+  "UpdatedDate": "2021-03-17T02:30:47.366331+01:00",
+  "AssociateFullName": "Casper Runolfsson",
+  "CreatedBy": "expedita",
+  "UpdatedBy": "sit",
+  "DeviceIdentifier": "aliquid",
+  "ForeignAppId": 881,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 325
+      "FieldType": "System.Int32",
+      "FieldLength": 505
     }
   }
 }

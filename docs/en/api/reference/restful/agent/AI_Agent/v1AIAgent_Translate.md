@@ -15,6 +15,10 @@ Translate a text from one language to another.
 
 
 Language of the text is automatically detected.
+NsApiSlow threshold: 2000 ms.
+
+
+## Experimental: ## The AI agent is experimental, subject to change, and not intended for partners.
 
 
 
@@ -72,12 +76,12 @@ OK
 POST /api/v1/Agents/AI/Translate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Text": "est",
-  "TargetLanguage": "placeat"
+  "Text": "neque",
+  "TargetLanguage": "error"
 }
 ```
 
@@ -87,5 +91,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"rerum"
+"vel"
 ```

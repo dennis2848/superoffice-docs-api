@@ -15,6 +15,7 @@ Creates a new RelationDefinitionEntity
 
 
 Calls the List agent service SaveRelationDefinitionEntity.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -95,12 +96,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 696,
-  "Name": "Hahn-Reynolds",
-  "Tooltip": "veritatis",
-  "PassiveText": "debitis",
+  "ReldefId": 850,
+  "Name": "Brakus-Littel",
+  "Tooltip": "optio",
+  "PassiveText": "non",
   "Deleted": false,
-  "Rank": 972,
+  "Rank": 640,
   "Source": "Both",
   "Destination": "Both"
 }
@@ -113,12 +114,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 898,
-  "Name": "Turner-Yundt",
-  "Tooltip": "perferendis",
-  "PassiveText": "molestias",
-  "Deleted": true,
-  "Rank": 320,
+  "ReldefId": 625,
+  "Name": "Price LLC",
+  "Tooltip": "enim",
+  "PassiveText": "repudiandae",
+  "Deleted": false,
+  "Rank": 138,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
@@ -126,12 +127,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 591
+      "FieldLength": 1002
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

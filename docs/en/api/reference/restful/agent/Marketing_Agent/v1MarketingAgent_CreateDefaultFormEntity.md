@@ -14,6 +14,8 @@ POST /api/v1/Agents/Marketing/CreateDefaultFormEntity
 Loading default values into a new FormEntity.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -78,7 +80,7 @@ OK
 POST /api/v1/Agents/Marketing/CreateDefaultFormEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -88,38 +90,38 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormId": 447,
-  "FormKey": "nisi",
-  "Name": "Becker-Douglas",
-  "Description": "Networked 3rd generation algorithm",
-  "Config": "incidunt",
-  "FolderId": 75,
-  "ScriptId": 134,
-  "ResponseShipmentId": 713,
+  "FormId": 76,
+  "FormKey": "et",
+  "Name": "Kessler, Koepp and Johnson",
+  "Description": "Programmable composite solution",
+  "Config": "placeat",
+  "FolderId": 522,
+  "ScriptId": 393,
+  "ResponseShipmentId": 358,
   "Active": false,
-  "Expires": "2011-10-17T03:46:55.0038735+02:00",
-  "MaxSubmits": 689,
+  "Expires": "2017-05-26T02:30:47.4600781+02:00",
+  "MaxSubmits": 917,
   "Type": "Normal",
-  "Recipe": "provident",
-  "GroupId": 248,
-  "NewTicket": false,
+  "Recipe": "natus",
+  "GroupId": 708,
+  "NewTicket": true,
   "RecaptchaMode": "GlobalKeysExist",
-  "Registered": "2025-04-14T03:46:55.0038735+02:00",
-  "RegisteredAssociateId": 971,
-  "Updated": "2016-06-07T03:46:55.0038735+02:00",
-  "UpdatedAssociateId": 294,
-  "UpdatedCount": 838,
+  "Registered": "2025-06-28T02:30:47.4600781+02:00",
+  "RegisteredAssociateId": 979,
+  "Updated": "2016-11-22T02:30:47.4600781+01:00",
+  "UpdatedAssociateId": 842,
+  "UpdatedCount": 656,
   "EmailFlows": [
-    348,
-    529
+    542,
+    71
   ],
-  "FolderName": "Hilpert-Schmitt",
+  "FolderName": "Fadel Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 695
+      "FieldLength": 693
     }
   }
 }

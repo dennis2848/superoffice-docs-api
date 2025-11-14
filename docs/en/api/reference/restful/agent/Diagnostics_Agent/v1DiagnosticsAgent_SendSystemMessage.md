@@ -14,6 +14,8 @@ POST /api/v1/Agents/Diagnostics/SendSystemMessage
 Adds a system message for a specific associate.
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -69,14 +71,14 @@ No Content
 POST /api/v1/Agents/Diagnostics/SendSystemMessage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemMessageId": "exercitationem",
-  "AssociateId": 89,
-  "MarkdownMessage": "officiis",
-  "Expire": "2019-11-12T03:46:54.6132622+01:00",
+  "SystemMessageId": "quas",
+  "AssociateId": 342,
+  "MarkdownMessage": "minus",
+  "Expire": "2017-06-26T02:30:47.0694635+02:00",
   "Type": "Error"
 }
 ```

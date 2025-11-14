@@ -59,6 +59,7 @@ Sales  For every Sale record edited through the SuperOffice GUI, a copy of the c
 |saleTypeCat\_id|Category of sale type, slaved from saletype|FK [SaleTypeCat](saletypecat.md)|&#x25CF;|
 |activeErpLinks|The number of Erp Sync connections this record is synced with; count of the ErpExternalKey+ErpInternalKey relations|Int|&#x25CF;|
 |created\_by\_workflow\_id|The workflow this sale was created by|FK [workflow](workflow.md)|&#x25CF;|
+|stage\_when\_closed\_id|The stage the sale was in when it was closed (sold or lost)|FK [Prob](prob.md)|&#x25CF;|
 
 
 ![sale table relationship diagram](./media/sale.png)
@@ -94,11 +95,11 @@ Sales  For every Sale record edited through the SuperOffice GUI, a copy of the c
 |[associate](associate.md)  |Employees, resources and other users - except for External persons |
 |[chat\_session](chat-session.md)  |This table contains chat sessions. |
 |[Comptr](comptr.md)  |Comptr list table. List of all possible competitors (sale). |
-|[contact](contact.md)  |Companies and Organizations.   This table features a special record containing information about the contact that owns the database.   |
+|[contact](contact.md)  |Companies and Organizations. |
 |[Credited](credited.md)  |Credited list table. List of who is to be credited for the sale. |
 |[Currency](currency.md)  |Currency list table |
 |[email\_item](email-item.md)  |Email data |
-|[person](person.md)  |Persons in a company or an organizations. All associates have a corresponding person record |
+|[person](person.md)  |Persons |
 |[Prob](prob.md)  |Prob list table. Probability, used in  sales . |
 |[project](project.md)  |Projects |
 |[Quote](quote.md)  |Quote root level, at most one per Sale, always connected to one Sale |

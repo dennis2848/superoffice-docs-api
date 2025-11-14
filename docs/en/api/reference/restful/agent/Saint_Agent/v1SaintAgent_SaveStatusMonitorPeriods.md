@@ -14,6 +14,8 @@ POST /api/v1/Agents/Saint/SaveStatusMonitorPeriods
 Updates the existing StatusMonitorPeriods or creates a new StatusMonitorPeriods if the id parameter is 0.
 
 
+NsApiSlow threshold: 1000 ms.
+
 
 
 
@@ -68,13 +70,13 @@ OK
 POST /api/v1/Agents/Saint/SaveStatusMonitorPeriods
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Period1": 214,
-  "Period2": 339,
-  "Period3": 199
+  "Period1": 696,
+  "Period2": 430,
+  "Period3": 789
 }
 ```
 
@@ -85,15 +87,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Period1": 310,
-  "Period2": 369,
-  "Period3": 769,
+  "Period1": 678,
+  "Period2": 444,
+  "Period3": 10,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 457
+      "FieldLength": 531
     }
   }
 }

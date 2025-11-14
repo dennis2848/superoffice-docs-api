@@ -14,6 +14,8 @@ POST /api/v1/Agents/Batch/GetBatchTaskInfo
 Get a single BatchTaskInfo based on Id.
 
 
+NsApiSlow threshold: 3000 ms.
+
 
 
 
@@ -99,7 +101,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 590
+  "Id": 67
 }
 ```
 
@@ -110,37 +112,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 142,
-  "Name": "Terry Group",
-  "AssociateId": 561,
-  "DetailsTable": 998,
-  "DetailsRecord": 189,
-  "IsSystemTask": false,
-  "IsInternalTask": true,
+  "Id": 663,
+  "Name": "Barrows Inc and Sons",
+  "AssociateId": 270,
+  "DetailsTable": 112,
+  "DetailsRecord": 591,
+  "IsSystemTask": true,
+  "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "et",
-    "ParameterObject2": "aliquid"
+    "ParameterObject1": "vel",
+    "ParameterObject2": "sit"
   },
-  "LastStarted": "2020-08-24T03:46:54.3007673+02:00",
-  "Created": "2003-02-25T03:46:54.3007673+01:00",
-  "StartCount": 75,
-  "DatabaseSerialNumber": "1814330",
-  "Context": "ut",
-  "Result": "facere",
+  "LastStarted": "2018-03-06T02:30:46.8194719+01:00",
+  "Created": "2024-12-10T02:30:46.8194719+01:00",
+  "StartCount": 293,
+  "DatabaseSerialNumber": "1146468",
+  "Context": "aut",
+  "Result": "veniam",
   "State": "All",
-  "Description": "Profound executive secured line",
-  "Response": "sed",
-  "Request": "autem",
-  "ProgressDescription": "Future-proofed impactful software",
-  "ProgressPercent": 670,
-  "FileName": "Windler, Brown and Sipes",
+  "Description": "Synergized zero defect definition",
+  "Response": "iste",
+  "Request": "quibusdam",
+  "ProgressDescription": "Digitized 6th generation emulation",
+  "ProgressPercent": 221,
+  "FileName": "D'Amore, Hegmann and Feest",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 744
+      "FieldLength": 908
     }
   }
 }

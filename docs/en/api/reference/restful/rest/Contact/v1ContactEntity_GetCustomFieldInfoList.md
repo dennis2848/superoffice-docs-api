@@ -69,7 +69,7 @@ OK
 GET /api/v1/Contact/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,19 +81,19 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Crona-Cremin",
-    "DisplayName": "Howell-Blick",
-    "Description": "Business-focused high-level infrastructure",
-    "ShortLabel": "tempora",
-    "HideLabel": false,
+    "FieldName": "O'Connell-Bauch",
+    "DisplayName": "Carroll, Kunze and Klocko",
+    "Description": "Adaptive 6th generation groupware",
+    "ShortLabel": "ratione",
+    "HideLabel": true,
     "HideField": false,
-    "IsIndexed": false,
+    "IsIndexed": true,
     "IsMandatory": false,
-    "IsReadOnly": false,
-    "IsExternal": false,
-    "IsDisplayField": true,
-    "Rank": 870,
-    "TemplateVariableName": "Block, Buckridge and Gorczany"
+    "IsReadOnly": true,
+    "IsExternal": true,
+    "IsDisplayField": false,
+    "Rank": 156,
+    "TemplateVariableName": "White-King"
   }
 ]
 ```

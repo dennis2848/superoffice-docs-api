@@ -15,6 +15,7 @@ Set default values into a new ShipmentMessageEntity.
 
 
 NetServer calculates default values on the entity, which is required when creating/storing a new instance Calls the Marketing agent service CreateDefaultShipmentMessageEntity.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -88,33 +89,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 885,
-  "PlainMessage": "vel",
-  "HtmlMessage": "et",
-  "SmsMessage": "assumenda",
-  "Description": "Down-sized client-server encryption",
-  "Subject": "sint",
-  "FolderId": 46,
-  "HeaderField": "sit",
-  "Design": "dicta",
+  "ShipmentMessageId": 526,
+  "PlainMessage": "atque",
+  "HtmlMessage": "illum",
+  "SmsMessage": "autem",
+  "Description": "Vision-oriented analyzing middleware",
+  "Subject": "maxime",
+  "FolderId": 887,
+  "HeaderField": "occaecati",
+  "Design": "dolor",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
   "InlineImages": false,
-  "LongDescription": "Expanded interactive capability",
-  "AccessKey": "rerum",
-  "DocumentMessage": 750,
-  "Registered": "2005-11-14T03:47:00.3005605+01:00",
-  "RegisteredAssociateId": 217,
-  "Updated": "2010-03-24T03:47:00.3005605+01:00",
-  "UpdatedAssociateId": 478,
-  "UpdatedCount": 891,
+  "LongDescription": "Self-enabling 3rd generation capability",
+  "AccessKey": "ut",
+  "DocumentMessage": 289,
+  "Registered": "2009-08-16T02:30:52.9286519+02:00",
+  "RegisteredAssociateId": 114,
+  "Updated": "2004-09-24T02:30:52.9286519+02:00",
+  "UpdatedAssociateId": 544,
+  "UpdatedCount": 796,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 892
+      "FieldType": "System.Int32",
+      "FieldLength": 831
     }
   }
 }

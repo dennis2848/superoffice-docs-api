@@ -14,6 +14,9 @@ POST /api/v1/Agents/EMail/CreateDefaultEMailAccount
 Loading default values into a new EMailAccount.
 
 
+NsApiSlow threshold: 5000 ms.
+
+
 ## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 
@@ -79,24 +82,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EMailAccountId": 549,
-  "EMailAddress": "expedita",
-  "AssociateId": 458,
+  "EMailAccountId": 605,
+  "EMailAddress": "rerum",
+  "AssociateId": 109,
   "IncomingCredentials": null,
   "OutgoingCredentials": null,
-  "AccountStatus": 366,
-  "ErrorCount": 762,
+  "AccountStatus": 188,
+  "ErrorCount": 190,
   "ErrorReason": "",
-  "InboxFolder": "aut",
-  "SentFolder": "voluptatum",
-  "SimpleMode": 154,
-  "LastFetch": "2010-05-22T03:46:54.7538824+02:00",
+  "InboxFolder": "iure",
+  "SentFolder": "quae",
+  "SimpleMode": 202,
+  "LastFetch": "2020-12-27T02:30:47.2725845+01:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 791
+      "FieldType": "System.String",
+      "FieldLength": 117
     }
   }
 }

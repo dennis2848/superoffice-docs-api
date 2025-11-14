@@ -76,25 +76,25 @@ OK
 PUT /api/v1/List/ProductCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 944,
-    "Name": "McGlynn Group",
-    "Tooltip": "recusandae",
+    "HeadingId": 82,
+    "Name": "Sawayn LLC",
+    "Tooltip": "porro",
     "Deleted": false,
-    "Rank": 753,
-    "UdListDefinitionId": 101
+    "Rank": 597,
+    "UdListDefinitionId": 591
   },
   {
-    "HeadingId": 944,
-    "Name": "McGlynn Group",
-    "Tooltip": "recusandae",
+    "HeadingId": 82,
+    "Name": "Sawayn LLC",
+    "Tooltip": "porro",
     "Deleted": false,
-    "Rank": 753,
-    "UdListDefinitionId": 101
+    "Rank": 597,
+    "UdListDefinitionId": 591
   }
 ]
 ```
@@ -107,18 +107,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 622,
-    "Name": "Thiel-Schumm",
-    "Tooltip": "cumque",
-    "Deleted": false,
-    "Rank": 705,
-    "UdListDefinitionId": 746,
+    "HeadingId": 766,
+    "Name": "Pagac, Hoeger and Ratke",
+    "Tooltip": "earum",
+    "Deleted": true,
+    "Rank": 549,
+    "UdListDefinitionId": 446,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 78
+        "FieldLength": 249
       }
     }
   }

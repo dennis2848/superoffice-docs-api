@@ -14,6 +14,8 @@ POST /api/v1/Agents/Configuration/SaveDiaryViewEntity
 Updates the existing DiaryViewEntity or creates a new DiaryViewEntity if the id parameter is 0.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -78,39 +80,39 @@ OK
 POST /api/v1/Agents/Configuration/SaveDiaryViewEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DiaryViewId": 17,
-  "Name": "O'Keefe, Blick and Gibson",
-  "Tooltip": "ut",
-  "VisibleColumns": 533,
-  "Rank": 520,
-  "AssocId": 173,
+  "DiaryViewId": 199,
+  "Name": "Braun LLC",
+  "Tooltip": "totam",
+  "VisibleColumns": 644,
+  "Rank": 996,
+  "AssocId": 313,
   "AssociateList": [
     {
-      "Id": 586,
-      "Name": "Denesik Inc and Sons",
-      "ToolTip": "Hic ut perferendis.",
+      "Id": 322,
+      "Name": "Bergnaum-Brakus",
+      "ToolTip": "Dolores fuga earum laborum quibusdam molestiae.",
       "Deleted": false,
-      "Rank": 887,
-      "Type": "impedit",
-      "ColorBlock": 803,
-      "IconHint": "enim",
-      "Selected": true,
-      "LastChanged": "1999-09-19T03:46:54.4570178+02:00",
+      "Rank": 176,
+      "Type": "ratione",
+      "ColorBlock": 35,
+      "IconHint": "tenetur",
+      "Selected": false,
+      "LastChanged": "2019-09-30T02:30:46.9288431+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "et",
-      "StyleHint": "voluptatem",
+      "ExtraInfo": "vel",
+      "StyleHint": "maxime",
       "Hidden": false,
-      "FullName": "Prof. Elbert Bergnaum MD"
+      "FullName": "Marcelle Bogisich Sr."
     }
   ],
-  "TzLocationId": 903
+  "TzLocationId": 567
 }
 ```
 
@@ -121,49 +123,49 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DiaryViewId": 843,
-  "Name": "Koelpin, Wolf and Simonis",
-  "Tooltip": "accusamus",
-  "VisibleColumns": 597,
-  "Rank": 476,
-  "AssocId": 522,
+  "DiaryViewId": 379,
+  "Name": "Deckow-Dicki",
+  "Tooltip": "ut",
+  "VisibleColumns": 879,
+  "Rank": 875,
+  "AssocId": 91,
   "AssociateList": [
     {
-      "Id": 636,
-      "Name": "Rutherford, Welch and Toy",
-      "ToolTip": "Ipsa porro atque explicabo possimus aut blanditiis illo.",
+      "Id": 358,
+      "Name": "Raynor Group",
+      "ToolTip": "Hic recusandae.",
       "Deleted": false,
-      "Rank": 472,
-      "Type": "quisquam",
-      "ColorBlock": 56,
-      "IconHint": "voluptatem",
+      "Rank": 418,
+      "Type": "quis",
+      "ColorBlock": 12,
+      "IconHint": "quia",
       "Selected": false,
-      "LastChanged": "2020-03-07T03:46:54.4570178+01:00",
+      "LastChanged": "2020-06-19T02:30:46.9288431+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "iste",
-      "StyleHint": "nam",
+      "ExtraInfo": "nostrum",
+      "StyleHint": "sint",
       "Hidden": false,
-      "FullName": "Shanna Pagac",
+      "FullName": "Wellington Romaguera",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 445
+          "FieldType": "System.String",
+          "FieldLength": 461
         }
       }
     }
   ],
-  "TzLocationId": 274,
+  "TzLocationId": 669,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 557
+      "FieldLength": 985
     }
   }
 }

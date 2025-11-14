@@ -15,6 +15,7 @@ Get the current (most recent) value of the history list.
 
 
 This is the item with rank = 1. If no item exists a default value is returned. This is usually the first item in the table representing the history list.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -82,11 +83,11 @@ OK
 POST /api/v1/Agents/ViewState/GetCurrent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "HistoryName": "Bartell LLC"
+  "HistoryName": "Harris, Greenholt and Turner"
 }
 ```
 
@@ -97,19 +98,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Rank": 141,
-  "Id": 716,
-  "HistoryName": "Mante Group",
-  "HistoryId": 730,
-  "AssociateId": 858,
-  "Name": "Welch, Pollich and Nolan",
-  "ItemInfo": "quia",
+  "Rank": 317,
+  "Id": 677,
+  "HistoryName": "Erdman-Batz",
+  "HistoryId": 15,
+  "AssociateId": 632,
+  "Name": "Kuhlman, Kuvalis and O'Conner",
+  "ItemInfo": "sunt",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 379
+      "FieldLength": 780
     }
   }
 }

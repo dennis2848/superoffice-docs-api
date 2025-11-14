@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/DeleteAppTaskMenus
 Permanentely delete all task menus owned by your app; works in Online only, for registered Apps that send a valid ApplicationToken; otherwise nothing happens
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 

@@ -92,7 +92,7 @@ OK
 POST /api/v1/ChatSession/{chatSessionId}/AcceptTransfer
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -102,29 +102,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 748,
-  "TopicId": 887,
+  "ChatSessionId": 507,
+  "TopicId": 97,
   "User": null,
   "Person": null,
-  "CustomerAlias": "autem",
-  "CustomerHost": "omnis",
-  "CustomerName": "Stark-Wilkinson",
-  "CustomerEmail": "mabelle.renner@wintheiserkling.uk",
-  "CustomerPhone": "(097)734-1866 x6854",
+  "CustomerAlias": "excepturi",
+  "CustomerHost": "doloremque",
+  "CustomerName": "DuBuque-Robel",
+  "CustomerEmail": "king_huels@oconnell.us",
+  "CustomerPhone": "(554)404-4959 x82439",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Langosh-Hilpert",
+  "CustomerCompanyName": "Leannon Inc and Sons",
   "Status": "Closed",
-  "FirstMessage": "nulla",
-  "LastMessage": "velit",
-  "WhenRequested": "2023-12-11T03:46:59.7693215+01:00",
-  "WhenStarted": "2007-12-31T03:46:59.7693215+01:00",
-  "WhenEnded": "2011-06-30T03:46:59.7693215+02:00",
-  "WhenIdle": "2009-08-07T03:46:59.7693215+02:00",
-  "WhenFetched": "2015-06-07T03:46:59.7693215+02:00",
-  "SessionKey": "aperiam",
-  "InitialQueuePos": 6,
-  "AlertLevel": 625,
-  "Rank": 36,
+  "FirstMessage": "pariatur",
+  "LastMessage": "magnam",
+  "WhenRequested": "2019-07-07T02:30:52.3974196+02:00",
+  "WhenStarted": "2006-04-02T02:30:52.3974196+02:00",
+  "WhenEnded": "2007-02-04T02:30:52.3974196+01:00",
+  "WhenIdle": "2007-10-11T02:30:52.3974196+02:00",
+  "WhenFetched": "2018-02-04T02:30:52.3974196+01:00",
+  "SessionKey": "non",
+  "InitialQueuePos": 811,
+  "AlertLevel": 150,
+  "Rank": 697,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -132,13 +132,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 156,
+  "Rating": 853,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 805
+      "FieldType": "System.String",
+      "FieldLength": 635
     }
   }
 }

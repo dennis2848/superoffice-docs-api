@@ -15,6 +15,7 @@ Copy smessage and connected shipment to the email flow.
 
 
 The SMessage (and any related SShipment etc) should probably not be used/visible elsewhere.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -72,12 +73,12 @@ OK
 POST /api/v1/Agents/Workflow/CopyEmailFlowContent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailFlowId": 423,
-  "ShipmentId": 838
+  "EmailFlowId": 616,
+  "ShipmentId": 614
 }
 ```
 
@@ -87,5 +88,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-387
+551
 ```

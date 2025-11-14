@@ -14,6 +14,9 @@ POST /api/v1/Agents/EMail/CreateForwardEmail
 Create forward email
 
 
+NsApiSlow threshold: 5000 ms.
+
+
 ## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 
@@ -118,148 +121,148 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 162,
-      "ContactName": "Tillman Group",
-      "PersonId": 83,
-      "PersonName": "Heller Inc and Sons",
-      "AssociateId": 239,
-      "Address": "atque",
-      "EmailId": 961,
+      "ContactId": 245,
+      "ContactName": "Beatty, Mraz and Fahey",
+      "PersonId": 977,
+      "PersonName": "Skiles, Morissette and Schiller",
+      "AssociateId": 931,
+      "Address": "accusantium",
+      "EmailId": 261,
       "DuplicatePersonIds": [
-        785,
-        111
+        10,
+        993
       ],
-      "Name": "Cummerata, Macejkovic and Moore",
+      "Name": "Sauer, Beahan and Torp",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 7
+          "FieldLength": 628
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 504,
-      "ContactName": "Kling-Morar",
-      "PersonId": 324,
-      "PersonName": "Borer LLC",
-      "AssociateId": 300,
-      "Address": "dolor",
-      "EmailId": 45,
+      "ContactId": 311,
+      "ContactName": "Cassin-Kshlerin",
+      "PersonId": 552,
+      "PersonName": "Monahan, Schulist and Denesik",
+      "AssociateId": 338,
+      "Address": "numquam",
+      "EmailId": 862,
       "DuplicatePersonIds": [
-        147,
-        528
+        650,
+        791
       ],
-      "Name": "Schinner-Abshire",
+      "Name": "Conroy Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 744
+          "FieldType": "System.String",
+          "FieldLength": 289
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 111,
-      "ContactName": "Brekke, Littel and Schroeder",
-      "PersonId": 802,
-      "PersonName": "Haley Inc and Sons",
-      "AssociateId": 692,
-      "Address": "vel",
-      "EmailId": 966,
+      "ContactId": 444,
+      "ContactName": "Wolff LLC",
+      "PersonId": 446,
+      "PersonName": "Kuvalis Inc and Sons",
+      "AssociateId": 139,
+      "Address": "magnam",
+      "EmailId": 90,
       "DuplicatePersonIds": [
-        175,
-        970
+        790,
+        92
       ],
-      "Name": "Bednar, Robel and Rosenbaum",
+      "Name": "Koch Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 859
+          "FieldType": "System.String",
+          "FieldLength": 757
         }
       }
     }
   ],
-  "Subject": "omnis",
-  "HTMLBody": "velit",
+  "Subject": "nulla",
+  "HTMLBody": "est",
   "From": null,
-  "Sent": "2018-05-03T03:46:54.707009+02:00",
-  "Size": 489,
+  "Sent": "2024-09-18T02:30:47.2257111+02:00",
+  "Size": 109,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "animi",
-  "PlainBody": "quia",
+  "MessageID": "maiores",
+  "PlainBody": "qui",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 309,
+  "ServerId": 28,
   "Attachments": [
     {
-      "Description": "Pre-emptive directional policy",
-      "Filename": "rerum",
-      "Size": 180,
-      "Type": "vitae",
-      "Encoding": "dignissimos",
-      "Id": "soluta",
-      "Disposition": "ducimus",
+      "Description": "Decentralized scalable monitoring",
+      "Filename": "omnis",
+      "Size": 202,
+      "Type": "distinctio",
+      "Encoding": "reiciendis",
+      "Id": "quod",
+      "Disposition": "sunt",
       "IsSafeFileExtension": true,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 795
+          "FieldType": "System.Int32",
+          "FieldLength": 554
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Rutherford-Cole",
+      "Name": "Jaskolski-Heathcote",
       "Values": [
-        "reiciendis",
-        "dignissimos"
+        "non",
+        "debitis"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 821
+          "FieldLength": 99
         }
       }
     },
     {
-      "Name": "Rutherford-Cole",
+      "Name": "Jaskolski-Heathcote",
       "Values": [
-        "reiciendis",
-        "dignissimos"
+        "non",
+        "debitis"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 821
+          "FieldLength": 99
         }
       }
     }
   ],
-  "FolderName": "Hirthe, Stracke and Murphy",
-  "EmailItemId": 90,
-  "AccountId": 803,
-  "ReceivedAt": "2022-06-13T03:46:54.707009+02:00",
+  "FolderName": "Schulist Inc and Sons",
+  "EmailItemId": 454,
+  "AccountId": 330,
+  "ReceivedAt": "2009-07-11T02:30:47.2257111+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2011-08-24T03:46:54.707009+02:00",
-  "HasCalendarData": true,
+  "RepliedAt": "2020-02-15T02:30:47.2257111+01:00",
+  "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
@@ -267,7 +270,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 863
+      "FieldLength": 921
     }
   }
 }

@@ -14,6 +14,9 @@ POST /api/v1/Agents/EMail/SetSubscription
 Set subscription on or off on a set of folders
 
 
+NsApiSlow threshold: 5000 ms.
+
+
 ## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 
@@ -68,20 +71,20 @@ No Content
 POST /api/v1/Agents/EMail/SetSubscription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": null,
   "Folders": [
     {
-      "Name": "Pfeffer-Beer",
-      "Delimiter": "velit",
-      "Flags": "alias",
-      "TotalItems": 277,
-      "UnreadItems": 383,
+      "Name": "Windler-Spinka",
+      "Delimiter": "delectus",
+      "Flags": "et",
+      "TotalItems": 304,
+      "UnreadItems": 866,
       "Subscribed": false,
-      "EmailFolderId": 22
+      "EmailFolderId": 97
     }
   ]
 }

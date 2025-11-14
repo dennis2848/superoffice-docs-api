@@ -14,6 +14,8 @@ POST /api/v1/Agents/Selection/DeleteSelectionEntity
 Deletes the SelectionEntity
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -65,11 +67,11 @@ No Content
 POST /api/v1/Agents/Selection/DeleteSelectionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionEntityId": 980
+  "SelectionEntityId": 55
 }
 ```
 

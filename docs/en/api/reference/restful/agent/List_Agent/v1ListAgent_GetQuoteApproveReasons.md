@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/GetQuoteApproveReasons
 Returns all available QuoteApproveReasons.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -68,7 +70,7 @@ OK
 POST /api/v1/Agents/List/GetQuoteApproveReasons
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -79,28 +81,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 663,
-    "Value": "vero",
-    "Tooltip": "et",
+    "Id": 360,
+    "Value": "quam",
+    "Tooltip": "dolorum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 135
+        "FieldType": "System.String",
+        "FieldLength": 870
       }
     }
   },
   {
-    "Id": 663,
-    "Value": "vero",
-    "Tooltip": "et",
+    "Id": 360,
+    "Value": "quam",
+    "Tooltip": "dolorum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 135
+        "FieldType": "System.String",
+        "FieldLength": 870
       }
     }
   }

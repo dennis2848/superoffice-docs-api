@@ -98,47 +98,47 @@ OK
 PUT /api/v1/List/Category/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 306,
-    "Name": "Schaden-Greenfelder",
-    "ToolTip": "Molestiae reiciendis sed repellendus aspernatur sapiente.",
+    "Id": 88,
+    "Name": "Haag-Morissette",
+    "ToolTip": "Exercitationem tempore sunt.",
     "Deleted": false,
-    "Rank": 367,
-    "Type": "perspiciatis",
-    "ColorBlock": 584,
-    "IconHint": "sint",
+    "Rank": 285,
+    "Type": "esse",
+    "ColorBlock": 621,
+    "IconHint": "quia",
     "Selected": false,
-    "LastChanged": "2003-06-05T03:47:00.5818006+02:00",
+    "LastChanged": "2003-01-29T02:30:53.2098926+01:00",
     "ChildItems": [
       {
-        "Id": 871,
-        "Name": "Ebert Inc and Sons",
-        "ToolTip": "Temporibus omnis consequatur velit enim repellat voluptatibus.",
+        "Id": 417,
+        "Name": "Langosh, Abernathy and Williamson",
+        "ToolTip": "Ut nostrum quo et quo voluptate.",
         "Deleted": true,
-        "Rank": 324,
-        "Type": "accusantium",
-        "ColorBlock": 3,
-        "IconHint": "quo",
+        "Rank": 624,
+        "Type": "ipsum",
+        "ColorBlock": 697,
+        "IconHint": "aut",
         "Selected": false,
-        "LastChanged": "1998-06-26T03:47:00.5818006+02:00",
+        "LastChanged": "2013-12-27T02:30:53.2098926+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "qui",
+        "ExtraInfo": "consequatur",
+        "StyleHint": "sit",
         "Hidden": false,
-        "FullName": "Boris Williamson"
+        "FullName": "Ms. Marques Ratke"
       }
     ],
-    "ExtraInfo": "autem",
-    "StyleHint": "similique",
-    "Hidden": false,
-    "FullName": "Kelly Schuster"
+    "ExtraInfo": "vel",
+    "StyleHint": "ad",
+    "Hidden": true,
+    "FullName": "Prof. Delbert Madalyn Streich DVM"
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 121,
-    "Name": "Balistreri Inc and Sons",
-    "ToolTip": "Illum harum sunt aliquam enim nesciunt libero.",
+    "Id": 441,
+    "Name": "Von, Powlowski and Prosacco",
+    "ToolTip": "Ullam ut nihil sint aperiam officia.",
     "Deleted": false,
-    "Rank": 661,
-    "Type": "eius",
-    "ColorBlock": 960,
-    "IconHint": "accusamus",
-    "Selected": true,
-    "LastChanged": "2019-08-16T03:47:00.5818006+02:00",
+    "Rank": 725,
+    "Type": "corporis",
+    "ColorBlock": 488,
+    "IconHint": "ut",
+    "Selected": false,
+    "LastChanged": "2001-04-08T02:30:53.2098926+02:00",
     "ChildItems": [
       {
-        "Id": 763,
-        "Name": "Johnston, Walker and Hoppe",
-        "ToolTip": "Excepturi eligendi et dolor non ut.",
-        "Deleted": false,
-        "Rank": 159,
-        "Type": "cumque",
-        "ColorBlock": 449,
-        "IconHint": "id",
+        "Id": 838,
+        "Name": "Denesik-Hermiston",
+        "ToolTip": "Nihil praesentium.",
+        "Deleted": true,
+        "Rank": 26,
+        "Type": "dolores",
+        "ColorBlock": 936,
+        "IconHint": "at",
         "Selected": false,
-        "LastChanged": "2016-04-20T03:47:00.5818006+02:00",
+        "LastChanged": "2005-12-11T02:30:53.2098926+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "repellat",
-        "StyleHint": "omnis",
-        "Hidden": true,
-        "FullName": "Muhammad Rosenbaum",
+        "ExtraInfo": "omnis",
+        "StyleHint": "sit",
+        "Hidden": false,
+        "FullName": "Alana Howe",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 522
+            "FieldLength": 422
           }
         }
       }
     ],
-    "ExtraInfo": "non",
-    "StyleHint": "minima",
-    "Hidden": false,
-    "FullName": "Mozell Breitenberg",
+    "ExtraInfo": "aperiam",
+    "StyleHint": "saepe",
+    "Hidden": true,
+    "FullName": "Vada Crooks",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 646
+        "FieldLength": 65
       }
     }
   }

@@ -11,7 +11,7 @@ content_type: reference
 POST /api/v1/Agents/EMail/FindContactOrPersonByEmailName
 ```
 
-<para />
+NsApiSlow threshold: 5000 ms.
 
 
 ## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
@@ -84,12 +84,12 @@ OK
 POST /api/v1/Agents/EMail/FindContactOrPersonByEmailName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Yundt LLC",
-  "EmailAddress": "myriam_kshlerin@bauch.us"
+  "Name": "Hane-Reichert",
+  "EmailAddress": "joannie.altenwerth@fahey.uk"
 }
 ```
 
@@ -101,20 +101,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonId": 395,
-    "FullName": "Karley Ruben Fahey DDS",
-    "EmailAddress": "kenyatta@hauck.com",
-    "ContactId": 769,
-    "ContactName": "Harris Group",
+    "PersonId": 784,
+    "FullName": "Donnie Franecki",
+    "EmailAddress": "zoe_wunsch@lockman.us",
+    "ContactId": 525,
+    "ContactName": "Torphy-Nader",
     "ContactDepartment": "",
     "ContactCategory": "VIP Customer",
-    "SortName": "Treutel Inc and Sons",
+    "SortName": "Towne Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 488
+        "FieldLength": 607
       }
     }
   }

@@ -59,7 +59,7 @@ OK
 GET /api/v1/Project/DuplicateRules
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,30 +70,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Kozey, Feeney and Lueilwitz",
-    "DisplayName": "Jakubowski Inc and Sons",
-    "DisplayTooltip": "quisquam",
-    "IsActive": false,
+    "Name": "Eichmann-Kemmer",
+    "DisplayName": "Moen, Quitzon and Douglas",
+    "DisplayTooltip": "repellat",
+    "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 59
+        "FieldType": "System.Int32",
+        "FieldLength": 469
       }
     }
   },
   {
-    "Name": "Kozey, Feeney and Lueilwitz",
-    "DisplayName": "Jakubowski Inc and Sons",
-    "DisplayTooltip": "quisquam",
-    "IsActive": false,
+    "Name": "Eichmann-Kemmer",
+    "DisplayName": "Moen, Quitzon and Douglas",
+    "DisplayTooltip": "repellat",
+    "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 59
+        "FieldType": "System.Int32",
+        "FieldLength": 469
       }
     }
   }

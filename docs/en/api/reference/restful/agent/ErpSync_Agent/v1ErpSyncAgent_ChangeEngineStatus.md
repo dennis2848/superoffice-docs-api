@@ -14,6 +14,9 @@ POST /api/v1/Agents/ErpSync/ChangeEngineStatus
 Change the current running/stopped status of the Sync engine
 
 
+NsApiSlow threshold: 5000 ms.
+
+
 ## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
 
 
@@ -93,15 +96,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "IsRunning": true,
-  "StatusMessage": "voluptatibus",
-  "Interval": "delectus",
+  "IsRunning": false,
+  "StatusMessage": "ex",
+  "Interval": "facilis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 10
+      "FieldType": "System.Int32",
+      "FieldLength": 308
     }
   }
 }

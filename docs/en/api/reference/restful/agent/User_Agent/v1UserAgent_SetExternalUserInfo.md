@@ -15,6 +15,7 @@ Modifies an external user.
 
 
 Changes external users information according to the flags set in  externalUserInfoModification.
+NsApiSlow threshold: 2000 ms.
 
 
 ## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
@@ -75,15 +76,15 @@ No Content
 POST /api/v1/Agents/User/SetExternalUserInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 134,
-  "UserName": "Beier-Torp",
-  "Password": "quia",
+  "AssociateId": 1002,
+  "UserName": "Jaskolski, Hilpert and Reynolds",
+  "Password": "commodi",
   "IsActive": true,
-  "RoleId": 259,
+  "RoleId": 391,
   "ExternalUserInfoModification": "Active"
 }
 ```

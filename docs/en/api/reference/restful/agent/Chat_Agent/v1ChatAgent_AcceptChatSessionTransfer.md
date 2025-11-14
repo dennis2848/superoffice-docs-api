@@ -15,6 +15,7 @@ Accept the transfer: assign the session to the user.
 
 
 If the session is not being transferred, nothing happens.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -106,11 +107,11 @@ OK
 POST /api/v1/Agents/Chat/AcceptChatSessionTransfer
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 346
+  "ChatSessionId": 742
 }
 ```
 
@@ -121,29 +122,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 117,
-  "TopicId": 741,
+  "ChatSessionId": 81,
+  "TopicId": 839,
   "User": null,
   "Person": null,
-  "CustomerAlias": "libero",
-  "CustomerHost": "ipsa",
-  "CustomerName": "Grant, Haag and Prohaska",
-  "CustomerEmail": "kimberly.hilll@mcglynndonnelly.biz",
-  "CustomerPhone": "(016)106-9469",
+  "CustomerAlias": "autem",
+  "CustomerHost": "et",
+  "CustomerName": "Funk LLC",
+  "CustomerEmail": "annamarie@jacobson.uk",
+  "CustomerPhone": "721.519.4964",
   "CustomerConsented": true,
-  "CustomerCompanyName": "Spencer, Heidenreich and Beier",
+  "CustomerCompanyName": "Erdman, Russel and Hermann",
   "Status": "Closed",
-  "FirstMessage": "praesentium",
-  "LastMessage": "neque",
-  "WhenRequested": "2008-12-10T03:46:54.3632712+01:00",
-  "WhenStarted": "2002-05-03T03:46:54.3632712+02:00",
-  "WhenEnded": "2012-03-01T03:46:54.3632712+01:00",
-  "WhenIdle": "2012-12-05T03:46:54.3632712+01:00",
-  "WhenFetched": "2004-01-11T03:46:54.3632712+01:00",
-  "SessionKey": "qui",
-  "InitialQueuePos": 51,
-  "AlertLevel": 967,
-  "Rank": 103,
+  "FirstMessage": "aut",
+  "LastMessage": "dicta",
+  "WhenRequested": "2000-11-05T02:30:46.8663446+01:00",
+  "WhenStarted": "2006-08-29T02:30:46.8663446+02:00",
+  "WhenEnded": "2013-07-02T02:30:46.8663446+02:00",
+  "WhenIdle": "2015-08-02T02:30:46.8663446+02:00",
+  "WhenFetched": "1999-09-18T02:30:46.8663446+02:00",
+  "SessionKey": "repudiandae",
+  "InitialQueuePos": 553,
+  "AlertLevel": 271,
+  "Rank": 654,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -151,13 +152,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 567,
+  "Rating": 684,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 705
+      "FieldLength": 937
     }
   }
 }

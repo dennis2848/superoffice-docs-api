@@ -14,6 +14,8 @@ POST /api/v1/Agents/Chat/CreateDefaultChatTopicAgent
 Loading default values into a new ChatTopicAgent.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -69,11 +71,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TopicId": 419,
+  "TopicId": 239,
   "User": null,
-  "CanListen": true,
+  "CanListen": false,
   "CanRespond": true,
   "CanManage": false,
-  "CanNotify": false
+  "CanNotify": true
 }
 ```

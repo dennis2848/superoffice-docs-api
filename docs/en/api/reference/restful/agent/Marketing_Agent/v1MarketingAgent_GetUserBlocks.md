@@ -14,6 +14,8 @@ POST /api/v1/Agents/Marketing/GetUserBlocks
 Get the saved user blocks to be used in a shipment/mailing message
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -81,11 +83,11 @@ OK
 POST /api/v1/Agents/Marketing/GetUserBlocks
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 945
+  "AssociateId": 732
 }
 ```
 
@@ -97,20 +99,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ShipmentMessageBlockId": 146,
-    "AssociateId": 586,
-    "Block": "impedit",
-    "Registered": "2020-02-11T03:46:55.0038735+01:00",
-    "RegisteredAssociateId": 538,
-    "Updated": "2003-12-07T03:46:55.0038735+01:00",
-    "UpdatedAssociateId": 233,
-    "UpdatedCount": 616,
+    "ShipmentMessageBlockId": 918,
+    "AssociateId": 271,
+    "Block": "nulla",
+    "Registered": "2003-11-16T02:30:47.4600781+01:00",
+    "RegisteredAssociateId": 174,
+    "Updated": "2003-10-01T02:30:47.4600781+02:00",
+    "UpdatedAssociateId": 320,
+    "UpdatedCount": 138,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 228
+        "FieldType": "System.Int32",
+        "FieldLength": 814
       }
     }
   }

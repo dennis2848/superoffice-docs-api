@@ -15,6 +15,7 @@ Method that returns a specified number of appointments within a time range.
 
 
 It only returns appointments that would be displayed in the user's diary. The appointments belong to the person specified. If the person not is a SuperOffice user (associate) or the logged on user is not allowed to view this persons appointments an exception is thrown.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -133,14 +134,14 @@ OK
 POST /api/v1/Agents/Appointment/GetPersonDiary
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 327,
-  "StartTime": "2021-06-27T03:46:54.2695244+02:00",
-  "EndTime": "2012-05-05T03:46:54.2695244+02:00",
-  "Count": 945
+  "PersonId": 256,
+  "StartTime": "2016-01-01T02:30:46.7882228+01:00",
+  "EndTime": "2017-05-27T02:30:46.7882228+02:00",
+  "Count": 594
 }
 ```
 
@@ -152,67 +153,67 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 581,
-    "StartDate": "2013-07-19T03:46:54.2695244+02:00",
-    "EndDate": "2021-07-01T03:46:54.2695244+02:00",
+    "AppointmentId": 211,
+    "StartDate": "2019-06-07T02:30:46.7882228+02:00",
+    "EndDate": "1999-08-20T02:30:46.7882228+02:00",
     "Type": "BookingForChecklist",
-    "Task": "suscipit",
-    "AssociateFullName": "Tess Boyle",
-    "ContactName": "Reinger Group",
-    "Description": "Balanced holistic open system",
-    "PersonFullName": "Ernesto Karson Reinger II",
-    "PersonId": 492,
-    "ContactId": 94,
-    "ProjectId": 740,
-    "ProjectName": "Medhurst LLC",
-    "IsPublished": true,
-    "AssociateId": 54,
-    "ColorIndex": 213,
-    "IsFree": false,
-    "HasAlarm": false,
-    "IsAlldayEvent": true,
+    "Task": "dicta",
+    "AssociateFullName": "Edwina Altenwerth",
+    "ContactName": "Bogan-Krajcik",
+    "Description": "Advanced mobile moderator",
+    "PersonFullName": "Tyrell Dare",
+    "PersonId": 696,
+    "ContactId": 786,
+    "ProjectId": 305,
+    "ProjectName": "Monahan-Rippin",
+    "IsPublished": false,
+    "AssociateId": 192,
+    "ColorIndex": 229,
+    "IsFree": true,
+    "HasAlarm": true,
+    "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 786,
-    "PriorityName": "VonRueden, Oberbrunner and Ebert",
+    "PriorityId": 523,
+    "PriorityName": "Kilback Inc and Sons",
     "TaskType": "Appointment",
-    "IsBookingMain": false,
-    "IsRecurrence": true,
+    "IsBookingMain": true,
+    "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "2020-11-20T03:46:54.2695244+01:00",
+    "ActiveDate": "2021-07-26T02:30:46.7882228+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "1999-06-18T03:46:54.2695244+02:00",
-    "RecurringEndDate": "2016-10-23T03:46:54.2695244+02:00",
-    "MotherId": 433,
-    "AssignedBy": 118,
-    "AssignedByFullName": "Ms. Katarina Heaney",
+    "RecurringStartDate": "1998-07-19T02:30:46.7882228+02:00",
+    "RecurringEndDate": "2022-12-02T02:30:46.7882228+01:00",
+    "MotherId": 854,
+    "AssignedBy": 145,
+    "AssignedByFullName": "Orlando Vivien Okuneva V",
     "RejectReason": "",
-    "Location": "ut",
-    "AlarmLeadTime": "molestiae",
-    "SaleId": 269,
-    "SaleName": "Stiedemann Inc and Sons",
-    "AssociateName": "Schamberger LLC",
-    "CreatedDate": "2015-07-30T03:46:54.2695244+02:00",
-    "CreatedBy": "beatae",
-    "CreatedByFullName": "Owen Little",
-    "CreatedByAssociateId": 979,
+    "Location": "vel",
+    "AlarmLeadTime": "dignissimos",
+    "SaleId": 484,
+    "SaleName": "Nikolaus, Heller and Hermann",
+    "AssociateName": "Kassulke, Toy and Crist",
+    "CreatedDate": "2011-03-17T02:30:46.7882228+01:00",
+    "CreatedBy": "rerum",
+    "CreatedByFullName": "Theresia Runolfsdottir",
+    "CreatedByAssociateId": 993,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "OwnedExternally": "Google",
-    "MotherAssociateId": 966,
+    "MotherAssociateId": 673,
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 547,
-    "Title": "quod",
-    "Agenda": "animi",
-    "InternalNotes": "fuga",
+    "PreferredTZLocation": 477,
+    "Title": "facere",
+    "Agenda": "totam",
+    "InternalNotes": "earum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 453
+        "FieldType": "System.String",
+        "FieldLength": 83
       }
     }
   }

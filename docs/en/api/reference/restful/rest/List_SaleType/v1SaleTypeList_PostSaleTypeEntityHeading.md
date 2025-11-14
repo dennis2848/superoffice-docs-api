@@ -76,16 +76,16 @@ OK
 POST /api/v1/List/SaleType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 980,
-  "Name": "Corwin Group",
-  "Tooltip": "fuga",
+  "HeadingId": 770,
+  "Name": "Pfeffer, Stark and Hackett",
+  "Tooltip": "sunt",
   "Deleted": false,
-  "Rank": 119,
-  "UdListDefinitionId": 832
+  "Rank": 450,
+  "UdListDefinitionId": 553
 }
 ```
 
@@ -96,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 414,
-  "Name": "Hermann Group",
-  "Tooltip": "autem",
+  "HeadingId": 83,
+  "Name": "West, Vandervort and Legros",
+  "Tooltip": "similique",
   "Deleted": false,
-  "Rank": 148,
-  "UdListDefinitionId": 740,
+  "Rank": 907,
+  "UdListDefinitionId": 857,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 624
+      "FieldLength": 31
     }
   }
 }

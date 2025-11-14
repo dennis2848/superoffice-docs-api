@@ -14,6 +14,9 @@ POST /api/v1/Agents/User/GetUserFromName
 Get a user, with lookup based on user name.
 
 
+NsApiSlow threshold: 2000 ms.
+
+
 ## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
 
 
@@ -100,11 +103,11 @@ OK
 POST /api/v1/Agents/User/GetUserFromName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UserName": "Auer Inc and Sons"
+  "UserName": "Fahey Inc and Sons"
 }
 ```
 
@@ -115,14 +118,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 194,
-  "Name": "Barton, Renner and Smitham",
-  "Rank": 638,
-  "Tooltip": "eos",
+  "AssociateId": 874,
+  "Name": "Casper, Frami and Paucek",
+  "Rank": 519,
+  "Tooltip": "nemo",
   "LicenseOwners": [
     {
-      "Name": "Moore Inc and Sons",
-      "Description": "Multi-layered system-worthy synergy",
+      "Name": "Nitzsche, Rodriguez and West",
+      "Description": "Cross-platform demand-driven archive",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -135,14 +138,14 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 870
+          "FieldType": "System.Int32",
+          "FieldLength": 627
         }
       }
     },
     {
-      "Name": "Moore Inc and Sons",
-      "Description": "Multi-layered system-worthy synergy",
+      "Name": "Nitzsche, Rodriguez and West",
+      "Description": "Cross-platform demand-driven archive",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -155,8 +158,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 870
+          "FieldType": "System.Int32",
+          "FieldLength": 627
         }
       }
     }
@@ -165,110 +168,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "culpa",
-      "Tooltip": "magnam",
-      "Id": 800,
-      "Rank": 393,
-      "Deleted": true,
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 846
-        }
-      }
-    }
-  ],
-  "Person": null,
-  "Deleted": false,
-  "Lastlogin": "2001-02-13T03:46:55.5976024+01:00",
-  "Lastlogout": "2005-04-02T03:46:55.5976024+02:00",
-  "EjUserId": 608,
-  "RequestSignature": "velit",
-  "Type": "AnonymousAssociate",
-  "IsPersonRetired": false,
-  "IsOnTravel": false,
-  "Credentials": [
-    {
-      "Type": null,
-      "Value": "qui",
-      "DisplayValue": "et",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 235
-        }
-      }
-    },
-    {
-      "Type": null,
-      "Value": "qui",
-      "DisplayValue": "et",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 235
-        }
-      }
-    }
-  ],
-  "UserName": "Johnson-Sporer",
-  "TicketCategories": [
-    {
-      "Id": 977,
-      "Name": "Mitchell-Lueilwitz",
-      "ToolTip": "Aut dicta qui explicabo.",
+      "Value": "aliquam",
+      "Tooltip": "voluptates",
+      "Id": 756,
+      "Rank": 228,
       "Deleted": false,
-      "Rank": 702,
-      "Type": "sunt",
-      "ChildItems": [
-        {},
-        {}
-      ],
-      "IconHint": "asperiores",
-      "ColorBlock": 158,
-      "ExtraInfo": "aut",
-      "StyleHint": "nisi",
-      "FullName": "Madge Giovani Kling DDS",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 942
+          "FieldLength": 173
         }
       }
     }
   ],
-  "NickName": "Fay-Bosco",
-  "WaitingForApproval": true,
-  "ExtraFields": {
-    "ExtraFields1": "non",
-    "ExtraFields2": "enim"
-  },
-  "CustomFields": {
-    "CustomFields1": "distinctio",
-    "CustomFields2": "officiis"
-  },
-  "PostSaveCommands": [
+  "Person": null,
+  "Deleted": true,
+  "Lastlogin": "2015-01-25T02:30:48.1163068+01:00",
+  "Lastlogout": "2003-12-21T02:30:48.1163068+01:00",
+  "EjUserId": 766,
+  "RequestSignature": "accusantium",
+  "Type": "AnonymousAssociate",
+  "IsPersonRetired": false,
+  "IsOnTravel": true,
+  "Credentials": [
     {
-      "Name": "Mayer, Huel and Dickinson",
-      "DisplayName": "McDermott-Corwin",
-      "Description": "Mandatory tertiary moratorium",
-      "ToolTip": "Recusandae ab architecto laudantium perferendis est magni.",
-      "Actions": "Implicit",
-      "ActionData": "est",
+      "Type": null,
+      "Value": "reiciendis",
+      "DisplayValue": "ut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 674
+          "FieldLength": 103
+        }
+      }
+    },
+    {
+      "Type": null,
+      "Value": "reiciendis",
+      "DisplayValue": "ut",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 103
+        }
+      }
+    }
+  ],
+  "UserName": "Hackett Group",
+  "TicketCategories": [
+    {
+      "Id": 985,
+      "Name": "Gerlach-King",
+      "ToolTip": "Quis quidem enim libero sit ducimus.",
+      "Deleted": false,
+      "Rank": 733,
+      "Type": "corporis",
+      "ChildItems": [
+        {},
+        {}
+      ],
+      "IconHint": "molestias",
+      "ColorBlock": 527,
+      "ExtraInfo": "qui",
+      "StyleHint": "illum",
+      "FullName": "Juwan Bailey",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 305
+        }
+      }
+    }
+  ],
+  "NickName": "Turcotte-Fadel",
+  "WaitingForApproval": false,
+  "ExtraFields": {
+    "ExtraFields1": "ea",
+    "ExtraFields2": "asperiores"
+  },
+  "CustomFields": {
+    "CustomFields1": "consequuntur",
+    "CustomFields2": "quia"
+  },
+  "PostSaveCommands": [
+    {
+      "Name": "Thiel, McDermott and Blanda",
+      "DisplayName": "Bayer-Johnson",
+      "Description": "Organized static archive",
+      "ToolTip": "Laborum sit illum.",
+      "Actions": "Implicit",
+      "ActionData": "ut",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 377
         }
       }
     }
@@ -277,8 +280,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 627
+      "FieldType": "System.String",
+      "FieldLength": 730
     }
   }
 }

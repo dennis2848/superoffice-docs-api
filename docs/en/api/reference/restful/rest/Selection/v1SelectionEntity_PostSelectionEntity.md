@@ -15,6 +15,7 @@ Creates a new SelectionEntity
 
 
 Calls the Selection agent service SaveSelectionEntity.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -161,56 +162,56 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Distributed didactic software",
+  "Description": "Vision-oriented content-based matrix",
   "Postit": "qui",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 12,
-  "IncludePerson": 618,
+  "GroupIdx": 275,
+  "IncludePerson": 619,
   "MemberCount": 99.99,
-  "Name": "Fritsch Inc and Sons",
-  "PostitTextId": 593,
-  "CreatedDate": "2005-07-18T03:47:00.2849361+02:00",
-  "SelectionId": 766,
-  "SoundEx": "iusto",
-  "Source": 273,
-  "TextId": 673,
-  "UpdatedDate": "2001-01-01T03:47:00.2849361+01:00",
-  "UpdatedCount": 354,
-  "Visibility": 98,
+  "Name": "Kohler-Baumbach",
+  "PostitTextId": 387,
+  "CreatedDate": "2018-11-17T02:30:52.9130204+01:00",
+  "SelectionId": 651,
+  "SoundEx": "ut",
+  "Source": 427,
+  "TextId": 636,
+  "UpdatedDate": "2007-04-27T02:30:52.9130204+02:00",
+  "UpdatedCount": 580,
+  "Visibility": 261,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 962,
-  "TargetTableName": "Kirlin, Christiansen and Kirlin",
+  "CompanyUnique": true,
+  "TargetTableNumber": 300,
+  "TargetTableName": "Olson Inc and Sons",
   "Completed": true,
-  "LeftSelectionId": 822,
-  "RightSelectionId": 593,
+  "LeftSelectionId": 830,
+  "RightSelectionId": 873,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Gislason-Rodriguez",
-  "ShadowProviderName": "Kessler-Schaden",
-  "ChartKey": "qui",
-  "LastLoaded": "1999-05-11T03:47:00.2849361+02:00",
-  "LastLoadedBy": 818,
+  "MainProviderName": "Collins-Weber",
+  "ShadowProviderName": "Kunde-Altenwerth",
+  "ChartKey": "enim",
+  "LastLoaded": "2000-08-23T02:30:52.9130204+02:00",
+  "LastLoadedBy": 684,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2020-04-08T03:47:00.2849361+02:00",
-  "LastMembershipChangeBy": 741,
+  "LastMembershipChange": "2001-08-22T02:30:52.9130204+02:00",
+  "LastMembershipChangeBy": 518,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "itaque",
-  "MemberTabHeading": "dolor",
-  "MailingsProviderName": "Gulgowski Inc and Sons",
-  "DashboardTileDefinitionId": 81,
+  "MainHeading": "iste",
+  "MemberTabHeading": "et",
+  "MailingsProviderName": "Goodwin, Friesen and Renner",
+  "DashboardTileDefinitionId": 917,
   "VisibleFor": [
     {
-      "VisibleId": 110,
+      "VisibleId": 269,
       "Visibility": "All",
-      "DisplayValue": "magni"
+      "DisplayValue": "rerum"
     },
     {
-      "VisibleId": 110,
+      "VisibleId": 269,
       "Visibility": "All",
-      "DisplayValue": "magni"
+      "DisplayValue": "rerum"
     }
   ]
 }
@@ -223,70 +224,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Seamless static methodology",
-  "Postit": "iusto",
+  "Description": "Front-line human-resource capacity",
+  "Postit": "et",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 266,
-  "IncludePerson": 563,
+  "GroupIdx": 702,
+  "IncludePerson": 811,
   "MemberCount": 99.99,
-  "Name": "Purdy Inc and Sons",
-  "PostitTextId": 501,
-  "CreatedDate": "2014-07-08T03:47:00.2849361+02:00",
-  "SelectionId": 566,
-  "SoundEx": "tenetur",
-  "Source": 52,
-  "TextId": 391,
-  "UpdatedDate": "2010-11-23T03:47:00.2849361+01:00",
-  "UpdatedCount": 141,
-  "Visibility": 438,
+  "Name": "Wunsch-Labadie",
+  "PostitTextId": 114,
+  "CreatedDate": "2022-03-21T02:30:52.9130204+01:00",
+  "SelectionId": 553,
+  "SoundEx": "adipisci",
+  "Source": 511,
+  "TextId": 647,
+  "UpdatedDate": "2021-04-13T02:30:52.9130204+02:00",
+  "UpdatedCount": 701,
+  "Visibility": 55,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 858,
-  "TargetTableName": "Cartwright, McGlynn and Halvorson",
-  "Completed": false,
-  "LeftSelectionId": 463,
-  "RightSelectionId": 506,
+  "CompanyUnique": true,
+  "TargetTableNumber": 148,
+  "TargetTableName": "Bogan Group",
+  "Completed": true,
+  "LeftSelectionId": 594,
+  "RightSelectionId": 741,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Baumbach-McDermott",
-  "ShadowProviderName": "Heaney LLC",
-  "ChartKey": "nulla",
-  "LastLoaded": "1999-03-28T03:47:00.2849361+02:00",
-  "LastLoadedBy": 479,
+  "MainProviderName": "Kuhic Group",
+  "ShadowProviderName": "Little-Beer",
+  "ChartKey": "illo",
+  "LastLoaded": "2015-04-20T02:30:52.9130204+02:00",
+  "LastLoadedBy": 847,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2012-08-10T03:47:00.2849361+02:00",
-  "LastMembershipChangeBy": 441,
+  "LastMembershipChange": "2018-10-23T02:30:52.9130204+02:00",
+  "LastMembershipChangeBy": 541,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "explicabo",
-  "MemberTabHeading": "voluptatibus",
-  "MailingsProviderName": "Ward, Mann and Lakin",
-  "DashboardTileDefinitionId": 501,
+  "MainHeading": "nulla",
+  "MemberTabHeading": "placeat",
+  "MailingsProviderName": "Mosciski LLC",
+  "DashboardTileDefinitionId": 580,
   "VisibleFor": [
     {
-      "VisibleId": 118,
+      "VisibleId": 345,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "sint",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 626
+          "FieldLength": 33
         }
       }
     },
     {
-      "VisibleId": 118,
+      "VisibleId": 345,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "sint",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 626
+          "FieldLength": 33
         }
       }
     }
@@ -295,13 +296,13 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 304
+      "FieldType": "System.String",
+      "FieldLength": 332
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

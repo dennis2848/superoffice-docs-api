@@ -28,7 +28,7 @@ Get the MDO list items for "LegalBase" - with headings and filtering by user gro
 
 ```http
 GET /api/v1/List/LegalBase/MDOItems?flat=False
-GET /api/v1/List/LegalBase/MDOItems?query=ipsam
+GET /api/v1/List/LegalBase/MDOItems?query=nihil
 ```
 
 
@@ -79,7 +79,7 @@ OK
 GET /api/v1/List/LegalBase/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -90,50 +90,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 994,
-    "Name": "Abbott LLC",
-    "ToolTip": "Dolores perspiciatis.",
+    "Id": 187,
+    "Name": "Bartell Group",
+    "ToolTip": "Amet ex exercitationem magni ut aut.",
     "Deleted": true,
-    "Rank": 962,
-    "Type": "maiores",
+    "Rank": 682,
+    "Type": "iusto",
     "ChildItems": [
       {
-        "Id": 97,
-        "Name": "Corwin Inc and Sons",
-        "ToolTip": "Qui ea praesentium id et omnis suscipit.",
+        "Id": 233,
+        "Name": "Schuster LLC",
+        "ToolTip": "Numquam at ut.",
         "Deleted": true,
-        "Rank": 982,
-        "Type": "voluptatibus",
+        "Rank": 41,
+        "Type": "quod",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "perspiciatis",
-        "ColorBlock": 601,
-        "ExtraInfo": "molestiae",
-        "StyleHint": "inventore",
-        "FullName": "Jamil Kuvalis",
+        "IconHint": "in",
+        "ColorBlock": 167,
+        "ExtraInfo": "qui",
+        "StyleHint": "totam",
+        "FullName": "Alia Dietrich",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 688
+            "FieldLength": 211
           }
         }
       }
     ],
-    "IconHint": "vero",
-    "ColorBlock": 470,
-    "ExtraInfo": "quis",
-    "StyleHint": "temporibus",
-    "FullName": "Favian White",
+    "IconHint": "maiores",
+    "ColorBlock": 786,
+    "ExtraInfo": "repellendus",
+    "StyleHint": "ut",
+    "FullName": "Makenna Anderson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 619
+        "FieldLength": 726
       }
     }
   }

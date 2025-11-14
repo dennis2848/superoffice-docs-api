@@ -14,6 +14,8 @@ POST /api/v1/Agents/Selection/GetDynamicSelectionCriteria
 Get the criteria for this dynamic selection.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -81,11 +83,11 @@ OK
 POST /api/v1/Agents/Selection/GetDynamicSelectionCriteria
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 72
+  "SelectionId": 601
 }
 ```
 
@@ -97,29 +99,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Wuckert Inc and Sons",
-    "Operator": "ut",
+    "Name": "Herzog, Considine and Dach",
+    "Operator": "sed",
     "Values": [
-      "aut",
-      "nisi"
+      "qui",
+      "occaecati"
     ],
     "DisplayValues": [
-      "est",
-      "dignissimos"
+      "officia",
+      "rerum"
     ],
     "ColumnInfo": null,
-    "IsActive": true,
+    "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Tremblay, Gutmann and Kreiger",
-        "Operator": "sapiente",
+        "Name": "Volkman, Donnelly and Kub",
+        "Operator": "nam",
         "Values": [
           "voluptatem",
-          "iure"
+          "error"
         ],
         "DisplayValues": [
-          "at",
-          "facere"
+          "enim",
+          "tenetur"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -127,14 +129,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 788,
+        "InterParenthesis": 95,
         "InterOperator": "And",
-        "UniqueHash": 310
+        "UniqueHash": 96
       }
     ],
-    "InterParenthesis": 753,
+    "InterParenthesis": 352,
     "InterOperator": "And",
-    "UniqueHash": 279
+    "UniqueHash": 651
   }
 ]
 ```

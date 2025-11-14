@@ -14,6 +14,8 @@ POST /api/v1/Agents/Sale/CreateDefaultSaleEntity
 Loading default values into a new SaleEntity.
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -99,7 +101,7 @@ OK
 POST /api/v1/Agents/Sale/CreateDefaultSaleEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -115,7 +117,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "recusandae",
+  "SaleText": "labore",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -124,113 +126,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2000-03-31T03:46:55.2538645+02:00",
-  "Amount": 20627.987999999998,
-  "SaleId": 514,
-  "Earning": 27262.665999999997,
-  "EarningPercent": 11865.323999999999,
-  "Heading": "pariatur",
-  "Number": "1697344",
-  "Probability": 793,
-  "CreatedDate": "2015-08-16T03:46:55.2538645+02:00",
-  "UpdatedDate": "2019-06-29T03:46:55.2538645+02:00",
+  "Saledate": "2018-01-31T02:30:47.7569437+01:00",
+  "Amount": 26294.26,
+  "SaleId": 999,
+  "Earning": 10523.972,
+  "EarningPercent": 23235.476,
+  "Heading": "consequatur",
+  "Number": "518281",
+  "Probability": 29,
+  "CreatedDate": "2017-12-28T02:30:47.7569437+01:00",
+  "UpdatedDate": "2002-02-08T02:30:47.7569437+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 620,
+  "ActiveLinks": 251,
   "Links": [
     {
-      "EntityName": "Quitzon Inc and Sons",
-      "Id": 91,
-      "Description": "Synergized context-sensitive functionalities",
-      "ExtraInfo": "eos",
-      "LinkId": 231,
+      "EntityName": "Kiehn, Gusikowski and O'Hara",
+      "Id": 327,
+      "Description": "De-engineered neutral forecast",
+      "ExtraInfo": "iure",
+      "LinkId": 187,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 341
+          "FieldType": "System.String",
+          "FieldLength": 902
         }
       }
     }
   ],
-  "NextDueDate": "2011-10-28T03:46:55.2538645+02:00",
-  "Postit": "voluptatibus",
+  "NextDueDate": "2005-07-09T02:30:47.7569437+02:00",
+  "Postit": "eveniet",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2006-07-02T03:46:55.2538645+02:00",
+  "ReopenDate": "2022-12-01T02:30:47.7569437+01:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Johns Inc and Sons",
-      "Comment": "a",
-      "StakeholderRoleId": 76,
-      "CountryId": 862,
-      "PersonId": 351,
-      "EmailDescription": "peyton@langosh.ca",
-      "EmailId": 364,
-      "EmailAddress": "florian@durgan.com",
-      "PhoneId": 601,
-      "ContactName": "Simonis-Berge",
-      "ContactId": 888,
-      "SaleId": 629,
-      "Mrmrs": "consequatur",
-      "Firstname": "Liana",
-      "MiddleName": "Kuvalis-Leffler",
-      "Lastname": "Becker",
-      "SaleStakeholderId": 818,
-      "Rank": 955,
-      "Phone": "449.449.0296 x802",
+      "StakeholderRoleName": "Lemke-Lubowitz",
+      "Comment": "maiores",
+      "StakeholderRoleId": 749,
+      "CountryId": 333,
+      "PersonId": 100,
+      "EmailDescription": "alexie@bode.uk",
+      "EmailId": 470,
+      "EmailAddress": "wilma@satterfieldhuel.name",
+      "PhoneId": 1002,
+      "ContactName": "Jewess-Bartell",
+      "ContactId": 6,
+      "SaleId": 49,
+      "Mrmrs": "est",
+      "Firstname": "Michel",
+      "MiddleName": "Miller, Mitchell and Herzog",
+      "Lastname": "Sauer",
+      "SaleStakeholderId": 575,
+      "Rank": 60,
+      "Phone": "(569)724-5476",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 491
+          "FieldType": "System.String",
+          "FieldLength": 959
         }
       }
     }
   ],
-  "ActiveErpLinks": 573,
+  "ActiveErpLinks": 410,
   "UserDefinedFields": {
-    "SuperOffice:1": "Ms. Edmund Josue Abshire",
-    "SuperOffice:2": "Manley Heller I"
+    "SuperOffice:1": "Paris Parisian",
+    "SuperOffice:2": "Forrest Walker"
   },
   "ExtraFields": {
-    "ExtraFields1": "excepturi",
-    "ExtraFields2": "et"
+    "ExtraFields1": "unde",
+    "ExtraFields2": "a"
   },
   "CustomFields": {
-    "CustomFields1": "sint",
-    "CustomFields2": "veritatis"
+    "CustomFields1": "incidunt",
+    "CustomFields2": "in"
   },
-  "PublishEventDate": "2012-03-14T03:46:55.2538645+01:00",
-  "PublishTo": "2019-03-02T03:46:55.2538645+01:00",
-  "PublishFrom": "2000-01-14T03:46:55.2538645+01:00",
+  "PublishEventDate": "2007-08-31T02:30:47.7569437+02:00",
+  "PublishTo": "2024-11-15T02:30:47.7569437+01:00",
+  "PublishFrom": "2016-08-12T02:30:47.7569437+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 568,
+      "VisibleId": 609,
       "Visibility": "All",
-      "DisplayValue": "enim",
+      "DisplayValue": "culpa",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 428
+          "FieldLength": 877
         }
       }
     },
     {
-      "VisibleId": 568,
+      "VisibleId": 609,
       "Visibility": "All",
-      "DisplayValue": "enim",
+      "DisplayValue": "culpa",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 428
+          "FieldLength": 877
         }
       }
     }
@@ -239,8 +241,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 503
+      "FieldType": "System.String",
+      "FieldLength": 384
     }
   }
 }

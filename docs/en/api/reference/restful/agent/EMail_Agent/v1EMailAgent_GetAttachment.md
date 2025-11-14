@@ -14,6 +14,9 @@ POST /api/v1/Agents/EMail/GetAttachment
 Retrieve an attachment from an e-mail
 
 
+NsApiSlow threshold: 5000 ms.
+
+
 ## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 
@@ -86,13 +89,13 @@ OK
 POST /api/v1/Agents/EMail/GetAttachment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": null,
-  "MessageServerId": 874,
-  "AttachmentId": "voluptas"
+  "MessageServerId": 570,
+  "AttachmentId": "id"
 }
 ```
 
@@ -103,21 +106,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Adaptive logistical installation",
-  "Filename": "sit",
-  "Size": 339,
-  "Type": "aut",
-  "Encoding": "nulla",
-  "Id": "et",
-  "Disposition": "mollitia",
+  "Description": "Pre-emptive reciprocal budgetary management",
+  "Filename": "a",
+  "Size": 480,
+  "Type": "placeat",
+  "Encoding": "earum",
+  "Id": "iure",
+  "Disposition": "occaecati",
   "IsSafeFileExtension": false,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 83
+      "FieldType": "System.String",
+      "FieldLength": 793
     }
   }
 }

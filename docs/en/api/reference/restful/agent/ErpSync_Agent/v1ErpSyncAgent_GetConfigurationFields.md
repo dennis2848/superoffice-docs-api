@@ -14,6 +14,9 @@ POST /api/v1/Agents/ErpSync/GetConfigurationFields
 Returns all fields needed to connect to the given connector
 
 
+NsApiSlow threshold: 5000 ms.
+
+
 ## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
 
 
@@ -89,7 +92,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectorId": 109
+  "ErpConnectorId": 634
 }
 ```
 
@@ -101,14 +104,14 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "FieldKey": "tempora",
-    "Rank": 42,
-    "DisplayName": "Zboncak Inc and Sons",
-    "DisplayDescription": "Operative regional contingency",
+    "FieldKey": "saepe",
+    "Rank": 294,
+    "DisplayName": "Carter-Goldner",
+    "DisplayDescription": "Implemented regional paradigm",
     "FieldType": "Checkbox",
-    "ListName": "Davis-Boehm",
-    "DefaultValue": "consequatur",
-    "MaxLength": 925,
+    "ListName": "Flatley-Metz",
+    "DefaultValue": "nam",
+    "MaxLength": 1001,
     "Access": "Mandatory",
     "ShowInSearch": false,
     "TableRight": null,
@@ -116,7 +119,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 508
+        "FieldLength": 157
       }
     }
   }

@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/GetDocumentTemplateUrl
 Get a url to the document template
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -75,9 +77,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 869,
-  "WritableUrl": true,
-  "LanguageCode": "nobis"
+  "DocumentTemplateId": 913,
+  "WritableUrl": false,
+  "LanguageCode": "molestias"
 }
 ```
 

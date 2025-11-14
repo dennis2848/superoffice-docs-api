@@ -15,6 +15,7 @@ Connect existing attachments with this TicketMessage.
 
 
 Can connect multiple attachments
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -68,14 +69,14 @@ No Content
 POST /api/v1/Agents/Ticket/AddAttachments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageEntityId": 674,
+  "TicketMessageEntityId": 437,
   "AttachmentIds": [
-    19,
-    731
+    320,
+    298
   ]
 }
 ```

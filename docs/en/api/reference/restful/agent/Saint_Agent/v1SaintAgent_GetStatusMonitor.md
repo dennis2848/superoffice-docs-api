@@ -14,6 +14,8 @@ POST /api/v1/Agents/Saint/GetStatusMonitor
 Get a single status monitor based on its identity
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -88,11 +90,11 @@ OK
 POST /api/v1/Agents/Saint/GetStatusMonitor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 627
+  "Id": 486
 }
 ```
 
@@ -103,27 +105,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerTable": 644,
-  "Rank": 519,
-  "DefaultTask": 585,
-  "DefaultTaskText": "quod",
+  "OwnerTable": 284,
+  "Rank": 458,
+  "DefaultTask": 584,
+  "DefaultTaskText": "sunt",
   "IsVisual": false,
-  "LastGenerated": "2009-02-22T03:46:55.2382402+01:00",
-  "Description": "Grass-roots content-based internet solution",
-  "Name": "Jacobi Group",
-  "StatusMonitorId": 295,
-  "PictureId": 663,
-  "NeedsUpdate": true,
-  "Deleted": true,
-  "NumMatches": 770,
-  "NumNeedUpdate": 50,
-  "GenerationStart": "2000-09-14T03:46:55.2382402+02:00",
+  "LastGenerated": "2019-04-12T02:30:47.7569437+02:00",
+  "Description": "Quality-focused intangible system engine",
+  "Name": "Wiza-Boehm",
+  "StatusMonitorId": 718,
+  "PictureId": 46,
+  "NeedsUpdate": false,
+  "Deleted": false,
+  "NumMatches": 367,
+  "NumNeedUpdate": 637,
+  "GenerationStart": "2018-12-07T02:30:47.7569437+01:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 594
+      "FieldType": "System.Int32",
+      "FieldLength": 952
     }
   }
 }

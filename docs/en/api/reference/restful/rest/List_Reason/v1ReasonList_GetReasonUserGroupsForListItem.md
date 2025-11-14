@@ -76,7 +76,7 @@ OK
 GET /api/v1/List/Reason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -87,56 +87,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 824,
-    "Name": "Fritsch Group",
-    "ToolTip": "Placeat esse.",
-    "Deleted": true,
-    "Rank": 335,
-    "Type": "doloribus",
-    "ColorBlock": 141,
-    "IconHint": "iusto",
+    "Id": 265,
+    "Name": "Bednar, Cruickshank and Abernathy",
+    "ToolTip": "Est qui tenetur est et et ex possimus.",
+    "Deleted": false,
+    "Rank": 726,
+    "Type": "voluptatem",
+    "ColorBlock": 489,
+    "IconHint": "aut",
     "Selected": true,
-    "LastChanged": "2021-03-06T03:47:00.7849183+01:00",
+    "LastChanged": "2005-06-23T02:30:53.4130107+02:00",
     "ChildItems": [
       {
-        "Id": 709,
-        "Name": "Beer, Auer and Bergstrom",
-        "ToolTip": "Perspiciatis laborum consequatur molestiae repudiandae perferendis.",
-        "Deleted": false,
-        "Rank": 52,
-        "Type": "explicabo",
-        "ColorBlock": 345,
-        "IconHint": "quo",
+        "Id": 538,
+        "Name": "Hessel, Altenwerth and Breitenberg",
+        "ToolTip": "Et voluptatem voluptates fuga aliquam maiores et fugiat.",
+        "Deleted": true,
+        "Rank": 117,
+        "Type": "atque",
+        "ColorBlock": 584,
+        "IconHint": "minus",
         "Selected": false,
-        "LastChanged": "2022-03-18T03:47:00.7849183+01:00",
+        "LastChanged": "1999-04-14T02:30:53.4130107+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "doloribus",
-        "StyleHint": "et",
+        "ExtraInfo": "voluptas",
+        "StyleHint": "quibusdam",
         "Hidden": true,
-        "FullName": "Neha Koch",
+        "FullName": "Miss Junius Lakin II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 554
+            "FieldLength": 55
           }
         }
       }
     ],
-    "ExtraInfo": "quis",
-    "StyleHint": "enim",
-    "Hidden": true,
-    "FullName": "Nickolas Wilderman",
+    "ExtraInfo": "voluptas",
+    "StyleHint": "fugiat",
+    "Hidden": false,
+    "FullName": "Tomasa Murazik",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 101
+        "FieldLength": 98
       }
     }
   }

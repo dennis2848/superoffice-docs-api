@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/GetPositionList
 Gets an array of Position objects.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -73,7 +75,7 @@ OK
 POST /api/v1/Agents/List/GetPositionList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -84,28 +86,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 2,
-    "Value": "voluptas",
-    "Tooltip": "sequi",
+    "Id": 900,
+    "Value": "ratione",
+    "Tooltip": "pariatur",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 817
+        "FieldLength": 120
       }
     }
   },
   {
-    "Id": 2,
-    "Value": "voluptas",
-    "Tooltip": "sequi",
+    "Id": 900,
+    "Value": "ratione",
+    "Tooltip": "pariatur",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 817
+        "FieldLength": 120
       }
     }
   }

@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/SaveTicketStatusEntity
 Updates the existing TicketStatusEntity or creates a new TicketStatusEntity if the id parameter is 0.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -76,17 +78,17 @@ OK
 POST /api/v1/Agents/List/SaveTicketStatusEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketStatusId": 920,
-  "Name": "Gislason-Kovacek",
+  "TicketStatusId": 360,
+  "Name": "Larkin-Kiehn",
   "Status": "Active",
   "TimeCounter": "Externally",
   "NoEmailReopen": false,
   "IsDefault": false,
-  "UsedInQueue": true
+  "UsedInQueue": false
 }
 ```
 
@@ -97,11 +99,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketStatusId": 520,
-  "Name": "Murphy, Ward and Johnston",
+  "TicketStatusId": 50,
+  "Name": "Mertz-Hilll",
   "Status": "Active",
   "TimeCounter": "Externally",
-  "NoEmailReopen": true,
+  "NoEmailReopen": false,
   "IsDefault": false,
   "UsedInQueue": true,
   "TableRight": null,
@@ -109,7 +111,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 981
+      "FieldLength": 758
     }
   }
 }

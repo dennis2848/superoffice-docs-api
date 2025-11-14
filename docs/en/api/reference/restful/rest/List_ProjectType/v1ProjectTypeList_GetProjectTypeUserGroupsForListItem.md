@@ -76,7 +76,7 @@ OK
 GET /api/v1/List/ProjectType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -87,56 +87,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 295,
-    "Name": "Jewess, Hickle and Kunze",
-    "ToolTip": "Beatae magni dicta deserunt accusamus.",
+    "Id": 44,
+    "Name": "Schroeder, Farrell and Weissnat",
+    "ToolTip": "Omnis eius sunt reiciendis mollitia.",
     "Deleted": false,
-    "Rank": 71,
-    "Type": "inventore",
-    "ColorBlock": 608,
-    "IconHint": "dolorem",
-    "Selected": false,
-    "LastChanged": "2024-12-24T03:47:00.7536695+01:00",
+    "Rank": 136,
+    "Type": "aut",
+    "ColorBlock": 604,
+    "IconHint": "ut",
+    "Selected": true,
+    "LastChanged": "2000-01-14T02:30:53.3817624+01:00",
     "ChildItems": [
       {
-        "Id": 169,
-        "Name": "Runte-Romaguera",
-        "ToolTip": "Voluptatem autem.",
+        "Id": 703,
+        "Name": "Dicki-Parker",
+        "ToolTip": "Est amet iste qui.",
         "Deleted": false,
-        "Rank": 72,
-        "Type": "possimus",
-        "ColorBlock": 728,
-        "IconHint": "debitis",
+        "Rank": 305,
+        "Type": "id",
+        "ColorBlock": 457,
+        "IconHint": "molestiae",
         "Selected": true,
-        "LastChanged": "2012-12-06T03:47:00.7536695+01:00",
+        "LastChanged": "2025-01-06T02:30:53.3817624+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "qui",
-        "StyleHint": "aut",
-        "Hidden": false,
-        "FullName": "Mrs. Marianna Flatley DVM",
+        "ExtraInfo": "esse",
+        "StyleHint": "debitis",
+        "Hidden": true,
+        "FullName": "Darius Durgan",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 611
+            "FieldLength": 897
           }
         }
       }
     ],
-    "ExtraInfo": "quod",
-    "StyleHint": "est",
-    "Hidden": false,
-    "FullName": "Felicia Kuphal",
+    "ExtraInfo": "amet",
+    "StyleHint": "eius",
+    "Hidden": true,
+    "FullName": "Mrs. Dee Lon Schultz Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 416
+        "FieldLength": 475
       }
     }
   }

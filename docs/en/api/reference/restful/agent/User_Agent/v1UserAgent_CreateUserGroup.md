@@ -14,6 +14,9 @@ POST /api/v1/Agents/User/CreateUserGroup
 Create UserGroup (Rank is assigned to the highest rank)
 
 
+NsApiSlow threshold: 1000 ms.
+
+
 ## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
 
 
@@ -82,17 +85,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Value": "iste",
-  "Tooltip": "non",
-  "Id": 304,
-  "Rank": 616,
+  "Value": "qui",
+  "Tooltip": "dignissimos",
+  "Id": 404,
+  "Rank": 759,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 264
+      "FieldLength": 839
     }
   }
 }

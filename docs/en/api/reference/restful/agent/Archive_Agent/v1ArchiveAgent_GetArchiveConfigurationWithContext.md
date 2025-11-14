@@ -15,6 +15,7 @@ Get the configuration for one archive, with context parameter.
 
 
 The configuration is keyed by a combination of archive provider name and gui name. The archive provider name must match an archive provider plugin; the gui name is an arbitrary string used to distinguish multiple occurrences of the same underlying provider in a gui.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -85,9 +86,9 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Wyman, Quigley and Johnson",
-  "ProviderName": "Kshlerin LLC",
-  "Context": "molestiae"
+  "GuiName": "Baumbach Inc and Sons",
+  "ProviderName": "Zulauf Group",
+  "Context": "non"
 }
 ```
 
@@ -100,68 +101,68 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumnInfo": [
     {
-      "DisplayName": "Stoltenberg Group",
-      "DisplayTooltip": "at",
-      "DisplayType": "quibusdam",
-      "CanOrderBy": false,
-      "Name": "Dare, Boyle and Greenholt",
-      "CanRestrictBy": false,
-      "RestrictionType": "nulla",
-      "RestrictionListName": "Powlowski-Gutkowski",
+      "DisplayName": "Koepp, Mosciski and Balistreri",
+      "DisplayTooltip": "et",
+      "DisplayType": "et",
+      "CanOrderBy": true,
+      "Name": "McClure-Bosco",
+      "CanRestrictBy": true,
+      "RestrictionType": "tempora",
+      "RestrictionListName": "Ortiz Group",
       "IsVisible": false,
-      "ExtraInfo": "unde",
-      "Width": "qui",
-      "IconHint": "eos",
-      "HeadingIconHint": "quaerat"
+      "ExtraInfo": "qui",
+      "Width": "error",
+      "IconHint": "eius",
+      "HeadingIconHint": "sint"
     }
   ],
   "ArchiveEntityInfo": [
     {
-      "Id": 745,
-      "Name": "Oberbrunner-Huels",
-      "ToolTip": "At libero consequatur est.",
+      "Id": 815,
+      "Name": "Schuster Inc and Sons",
+      "ToolTip": "Ut quam.",
       "Deleted": false,
-      "Rank": 459,
-      "Type": "quam",
-      "ColorBlock": 928,
-      "IconHint": "et",
+      "Rank": 717,
+      "Type": "aut",
+      "ColorBlock": 181,
+      "IconHint": "temporibus",
       "Selected": false,
-      "LastChanged": "2009-04-24T03:46:54.2851489+02:00",
+      "LastChanged": "2022-05-30T02:30:46.8038471+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "labore",
-      "StyleHint": "dicta",
-      "Hidden": true,
-      "FullName": "Marge Abshire DVM",
+      "ExtraInfo": "possimus",
+      "StyleHint": "assumenda",
+      "Hidden": false,
+      "FullName": "Miss Grady Maureen Jakubowski",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 818
+          "FieldLength": 172
         }
       }
     }
   ],
   "ArchiveOrderByInfo": [
     {
-      "Name": "Reilly, Graham and Bechtelar",
+      "Name": "Buckridge Inc and Sons",
       "Direction": "ASC"
     },
     {
-      "Name": "Reilly, Graham and Bechtelar",
+      "Name": "Buckridge Inc and Sons",
       "Direction": "ASC"
     }
   ],
-  "OwnerKeys": "laborum",
+  "OwnerKeys": "molestiae",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 762
+      "FieldType": "System.Int32",
+      "FieldLength": 449
     }
   }
 }

@@ -15,6 +15,7 @@ Set default values into a new PriceList.
 
 
 NetServer calculates default values on the entity, which is required when creating/storing a new instance Calls the Quote agent service CreateDefaultPriceList.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -67,7 +68,7 @@ OK
 GET /api/v1/Pricelist/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -77,22 +78,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 546,
-  "ERPPriceListKey": "non",
-  "QuoteConnectionId": 32,
-  "Name": "Stanton-Baumbach",
-  "Description": "Balanced systemic budgetary management",
+  "PriceListId": 434,
+  "ERPPriceListKey": "eos",
+  "QuoteConnectionId": 297,
+  "Name": "Oberbrunner, Haley and Boehm",
+  "Description": "Assimilated regional conglomeration",
   "Currency": "et",
-  "CurrencyName": "Conn-Price",
-  "ValidFrom": "2013-08-26T03:47:00.7067961+02:00",
-  "ValidTo": "2018-04-21T03:47:00.7067961+02:00",
+  "CurrencyName": "Collier-Doyle",
+  "ValidFrom": "2005-09-17T02:30:53.3348881+02:00",
+  "ValidTo": "2008-10-16T02:30:53.3348881+02:00",
   "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 681
+      "FieldType": "System.String",
+      "FieldLength": 516
     }
   }
 }

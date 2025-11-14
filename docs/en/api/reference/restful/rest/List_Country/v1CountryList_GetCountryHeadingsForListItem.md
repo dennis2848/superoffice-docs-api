@@ -86,7 +86,7 @@ OK
 GET /api/v1/List/Country/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -97,56 +97,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 853,
-    "Name": "Kilback, Klocko and Willms",
-    "ToolTip": "Ut non numquam.",
-    "Deleted": false,
-    "Rank": 612,
-    "Type": "facilis",
-    "ColorBlock": 273,
-    "IconHint": "et",
-    "Selected": true,
-    "LastChanged": "2021-08-08T03:47:00.6130405+02:00",
+    "Id": 277,
+    "Name": "Blick-Hettinger",
+    "ToolTip": "Voluptatem at voluptatibus aut.",
+    "Deleted": true,
+    "Rank": 629,
+    "Type": "saepe",
+    "ColorBlock": 856,
+    "IconHint": "similique",
+    "Selected": false,
+    "LastChanged": "2014-03-28T02:30:53.2567659+01:00",
     "ChildItems": [
       {
-        "Id": 78,
-        "Name": "Jakubowski Group",
-        "ToolTip": "Rerum rerum quod.",
+        "Id": 337,
+        "Name": "Doyle-Gibson",
+        "ToolTip": "Minus unde.",
         "Deleted": false,
-        "Rank": 481,
-        "Type": "alias",
-        "ColorBlock": 973,
-        "IconHint": "corrupti",
+        "Rank": 145,
+        "Type": "aperiam",
+        "ColorBlock": 885,
+        "IconHint": "voluptatem",
         "Selected": false,
-        "LastChanged": "2015-10-12T03:47:00.6130405+02:00",
+        "LastChanged": "2001-04-17T02:30:53.2567659+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "molestias",
-        "Hidden": false,
-        "FullName": "Brittany Leuschke",
+        "ExtraInfo": "et",
+        "StyleHint": "tenetur",
+        "Hidden": true,
+        "FullName": "Ms. Rowena Mariana Strosin IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 891
+            "FieldLength": 167
           }
         }
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "officia",
-    "Hidden": true,
-    "FullName": "Kamren Reilly",
+    "ExtraInfo": "suscipit",
+    "StyleHint": "totam",
+    "Hidden": false,
+    "FullName": "Giovani Johnston",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 386
+        "FieldLength": 462
       }
     }
   }

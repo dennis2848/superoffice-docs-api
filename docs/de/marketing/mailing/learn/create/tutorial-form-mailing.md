@@ -1,12 +1,16 @@
----
+﻿---
 uid: help-de-tutorial-form-mailing
 title: Tutorial - Formularantwort-Kampagne
 description: In diesem Tutorial erfahren Sie, wie Sie eine Formularantwort erstellen.
 keywords: formularantwort, kampagne
-date: 06.27.2025
+date: 09.26.2025
 version: 10.5
 content_type: tutorial
+category: marketing
+topic: mailing
+license: marketingessentials
 audience: person
+audience_tooltip: SuperOffice Marketing
 language: de
 ---
 
@@ -57,5 +61,5 @@ Der erste Schritt zum Erstellen einer Formularantwort wird als **Einstellungen**
 [!include[Schritt 3 E-Mail](includes/step-3-content-email.md)]
 
 <!-- Referenced links -->
-[1]: ../../../../admin/lists/learn/add-items-to-mailing-domain.md
+[1]: ../../admin/add-domain.md
 [2]: ../../../learn/create-folder.md

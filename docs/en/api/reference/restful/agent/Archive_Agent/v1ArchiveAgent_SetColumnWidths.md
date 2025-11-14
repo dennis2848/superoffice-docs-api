@@ -14,6 +14,8 @@ POST /api/v1/Agents/Archive/SetColumnWidths
 Set the column widths for the given set of columns and GUI name.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -66,14 +68,14 @@ No Content
 POST /api/v1/Agents/Archive/SetColumnWidths
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Spencer LLC",
+  "GuiName": "Keeling, Satterfield and Bogan",
   "ColumnWidths": [
-    "vero",
-    "rerum"
+    "quasi",
+    "non"
   ]
 }
 ```

@@ -15,6 +15,7 @@ Deletes the ProjectMember
 
 
 Calls the Project agent service DeleteProjectMember.
+NsApiSlow threshold: 2000 ms.
 
 
 

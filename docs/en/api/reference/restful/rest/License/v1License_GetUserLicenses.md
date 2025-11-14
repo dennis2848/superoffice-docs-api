@@ -63,7 +63,7 @@ OK
 GET /api/v1/License/User/{associateId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -74,30 +74,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Schroeder, Veum and Gibson",
-    "Description": "Streamlined well-modulated core",
+    "Name": "Torp Group",
+    "Description": "Networked homogeneous product",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 818,
-        "Tooltip": "excepturi",
+        "Unrestricted": true,
+        "Total": 80,
+        "Tooltip": "quae",
         "CanAssign": false,
-        "Free": 762,
-        "InUse": 657,
-        "IsHidden": false,
+        "Free": 745,
+        "InUse": 526,
+        "IsHidden": true,
         "Assigned": false,
-        "ModuleLicenseId": 296,
-        "Name": "Quitzon, Yost and Witting",
-        "Description": "Re-contextualized intangible strategy",
-        "PrerequisiteModuleName": "Kertzmann, Crooks and Schiller",
-        "SortOrder": 892,
-        "ExtraFlags": 46,
+        "ModuleLicenseId": 779,
+        "Name": "Strosin Group",
+        "Description": "Streamlined asynchronous hub",
+        "PrerequisiteModuleName": "Herman-Koch",
+        "SortOrder": 83,
+        "ExtraFlags": 433,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 38
+            "FieldLength": 369
           }
         }
       }
@@ -105,25 +105,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 931,
-        "Tooltip": "voluptatum",
-        "CanAssign": true,
-        "Free": 271,
-        "InUse": 573,
-        "IsHidden": false,
+        "Total": 495,
+        "Tooltip": "nisi",
+        "CanAssign": false,
+        "Free": 663,
+        "InUse": 169,
+        "IsHidden": true,
         "Assigned": true,
-        "ModuleLicenseId": 837,
-        "Name": "Macejkovic-Greenfelder",
-        "Description": "Customizable background firmware",
-        "PrerequisiteModuleName": "Grimes-Sawayn",
-        "SortOrder": 162,
-        "ExtraFlags": 847,
+        "ModuleLicenseId": 255,
+        "Name": "Lehner, Mosciski and Schuster",
+        "Description": "Reactive executive implementation",
+        "PrerequisiteModuleName": "Yundt, Walsh and Rempel",
+        "SortOrder": 103,
+        "ExtraFlags": 21,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 973
+            "FieldLength": 647
           }
         }
       }
@@ -133,35 +133,35 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 572
+        "FieldLength": 85
       }
     }
   },
   {
-    "Name": "Schroeder, Veum and Gibson",
-    "Description": "Streamlined well-modulated core",
+    "Name": "Torp Group",
+    "Description": "Networked homogeneous product",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 818,
-        "Tooltip": "excepturi",
+        "Unrestricted": true,
+        "Total": 80,
+        "Tooltip": "quae",
         "CanAssign": false,
-        "Free": 762,
-        "InUse": 657,
-        "IsHidden": false,
+        "Free": 745,
+        "InUse": 526,
+        "IsHidden": true,
         "Assigned": false,
-        "ModuleLicenseId": 296,
-        "Name": "Quitzon, Yost and Witting",
-        "Description": "Re-contextualized intangible strategy",
-        "PrerequisiteModuleName": "Kertzmann, Crooks and Schiller",
-        "SortOrder": 892,
-        "ExtraFlags": 46,
+        "ModuleLicenseId": 779,
+        "Name": "Strosin Group",
+        "Description": "Streamlined asynchronous hub",
+        "PrerequisiteModuleName": "Herman-Koch",
+        "SortOrder": 83,
+        "ExtraFlags": 433,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 38
+            "FieldLength": 369
           }
         }
       }
@@ -169,25 +169,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 931,
-        "Tooltip": "voluptatum",
-        "CanAssign": true,
-        "Free": 271,
-        "InUse": 573,
-        "IsHidden": false,
+        "Total": 495,
+        "Tooltip": "nisi",
+        "CanAssign": false,
+        "Free": 663,
+        "InUse": 169,
+        "IsHidden": true,
         "Assigned": true,
-        "ModuleLicenseId": 837,
-        "Name": "Macejkovic-Greenfelder",
-        "Description": "Customizable background firmware",
-        "PrerequisiteModuleName": "Grimes-Sawayn",
-        "SortOrder": 162,
-        "ExtraFlags": 847,
+        "ModuleLicenseId": 255,
+        "Name": "Lehner, Mosciski and Schuster",
+        "Description": "Reactive executive implementation",
+        "PrerequisiteModuleName": "Yundt, Walsh and Rempel",
+        "SortOrder": 103,
+        "ExtraFlags": 21,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 973
+            "FieldLength": 647
           }
         }
       }
@@ -197,7 +197,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 572
+        "FieldLength": 85
       }
     }
   }

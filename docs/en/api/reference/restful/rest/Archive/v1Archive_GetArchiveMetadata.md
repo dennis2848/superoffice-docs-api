@@ -77,21 +77,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "non",
+  "odata.nextLink": "et",
   "value": [
     {
-      "PrimaryKey": 1133,
+      "PrimaryKey": 2840,
       "EntityName": "sale",
-      "saleId": 1133,
-      "contactId": 1752,
-      "name": "Harber, Runolfsdottir and Rutherford"
+      "saleId": 2840,
+      "contactId": 4908,
+      "name": "Klein-Kozey"
     },
     {
-      "PrimaryKey": 1597,
+      "PrimaryKey": 1945,
       "EntityName": "sale",
-      "saleId": 1597,
-      "contactId": 9686,
-      "name": "Becker, Feil and Harber"
+      "saleId": 1945,
+      "contactId": 7726,
+      "name": "Thiel, Gibson and Kuhlman"
     }
   ]
 }

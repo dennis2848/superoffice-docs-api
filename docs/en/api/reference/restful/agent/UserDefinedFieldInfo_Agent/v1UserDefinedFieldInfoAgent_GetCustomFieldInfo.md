@@ -14,6 +14,8 @@ POST /api/v1/Agents/UserDefinedFieldInfo/GetCustomFieldInfo
 Return information about a particular custom field (user-defined + extra) on a particular table
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -86,12 +88,12 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetCustomFieldInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Abshire, Goyette and Heller",
-  "FieldName": "Simonis Group"
+  "TableName": "Conroy-Mayer",
+  "FieldName": "Ward Inc and Sons"
 }
 ```
 
@@ -103,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Medhurst LLC",
-  "DisplayName": "White LLC",
-  "Description": "Proactive real-time access",
-  "ShortLabel": "vero",
+  "FieldName": "Keebler-Krajcik",
+  "DisplayName": "Crist, Sipes and Quitzon",
+  "Description": "Adaptive asynchronous knowledge base",
+  "ShortLabel": "non",
   "HideLabel": false,
-  "HideField": true,
+  "HideField": false,
   "IsIndexed": false,
-  "IsMandatory": false,
+  "IsMandatory": true,
   "IsReadOnly": true,
   "IsExternal": false,
   "IsDisplayField": false,
-  "Rank": 359,
-  "TemplateVariableName": "Cronin, Dooley and Wiegand"
+  "Rank": 613,
+  "TemplateVariableName": "Waters, Kemmer and Lakin"
 }
 ```

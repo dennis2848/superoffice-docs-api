@@ -14,6 +14,8 @@ POST /api/v1/Agents/Sale/GetSaleList
 Gets an array of Sale objects.
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -106,37 +108,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "McDermott LLC",
-    "SaleDate": "2017-05-31T03:46:55.2694888+02:00",
-    "SaleId": 925,
-    "Probability": 82,
-    "Title": "quaerat",
-    "Amount": 11655.346,
-    "Currency": "voluptas",
-    "ProjectName": "Hartmann-Rohan",
-    "AssociateFullName": "Prof. Jacinthe Eliane Mosciski Jr.",
-    "Description": "Managed leading edge frame",
+    "ContactName": "Barrows, Simonis and Homenick",
+    "SaleDate": "2014-05-23T02:30:47.7881925+02:00",
+    "SaleId": 339,
+    "Probability": 581,
+    "Title": "officiis",
+    "Amount": 17312.216,
+    "Currency": "tempore",
+    "ProjectName": "Robel-Schaefer",
+    "AssociateFullName": "Eliza Velva Johnson II",
+    "Description": "User-friendly bi-directional service-desk",
     "Status": "Lost",
-    "WeightedAmount": 24454.602,
-    "ProjectId": 534,
-    "EarningPercent": 20537.102,
-    "Earning": 26419.62,
-    "ContactId": 215,
-    "AssociateId": 901,
-    "PersonId": 319,
-    "SaleTypeId": 848,
-    "SaleTypeName": "Cartwright, Lind and Thiel",
-    "PersonFullName": "Hailie Hilpert III",
+    "WeightedAmount": 6553.1939999999995,
+    "ProjectId": 225,
+    "EarningPercent": 16393.953999999998,
+    "Earning": 11075.556,
+    "ContactId": 708,
+    "AssociateId": 965,
+    "PersonId": 178,
+    "SaleTypeId": 834,
+    "SaleTypeName": "Borer, Price and Bins",
+    "PersonFullName": "Aurelio Wunsch",
     "Completed": "Completed",
-    "ActiveErpLinks": 439,
-    "NextDueDate": "2022-10-13T03:46:55.2694888+02:00",
-    "Number": "900100",
+    "ActiveErpLinks": 861,
+    "NextDueDate": "2006-02-25T02:30:47.7881925+01:00",
+    "Number": "649807",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 874
+        "FieldLength": 765
       }
     }
   }

@@ -14,6 +14,8 @@ POST /api/v1/Agents/Targets/GetTargetGroupIds
 Returns ids of the target groups that use this dimension.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -73,7 +75,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetDimensionId": 4
+  "TargetDimensionId": 879
 }
 ```
 
@@ -84,7 +86,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  359,
-  84
+  649,
+  886
 ]
 ```

@@ -15,6 +15,7 @@ Get a ticket message entity with posibillity to change embedded images to be rep
 
 
 If using inline data, be sure not to save this back to the database.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -106,7 +107,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 86,
+  "Id": 315,
   "EmbedImages": "Inline"
 }
 ```
@@ -118,27 +119,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 436,
+  "EjMessageId": 790,
   "Ticket": null,
-  "CreatedAt": "2023-03-05T03:46:55.4257333+01:00",
+  "CreatedAt": "2008-12-22T02:30:47.8663151+01:00",
   "CreatedBy": null,
-  "Author": "inventore",
+  "Author": "rerum",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "et",
-  "TimeSpent": 534,
-  "Body": "dolor",
-  "HtmlBody": "officiis",
-  "EmailHeader": "matilda@okonkunze.co.uk",
-  "DebugInfo": "laboriosam",
-  "MailSorter": "est",
+  "MessageId": "ut",
+  "TimeSpent": 414,
+  "Body": "asperiores",
+  "HtmlBody": "et",
+  "EmailHeader": "hassan.herman@heathcoteosinski.us",
+  "DebugInfo": "quaerat",
+  "MailSorter": "deserunt",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "ut",
+  "SearchTitle": "explicabo",
   "MessageHeaders": [
     {
-      "Id": 514,
-      "Name": "Jerde, Becker and O'Kon",
+      "Id": 508,
+      "Name": "Becker-Terry",
       "Value": "est",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
@@ -147,50 +148,50 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 672
+          "FieldLength": 675
         }
       }
     }
   ],
-  "Important": true,
-  "Language": "laboriosam",
-  "Sentiment": 781,
-  "SentimentConfidence": 686,
+  "Important": false,
+  "Language": "id",
+  "Sentiment": 38,
+  "SentimentConfidence": 40,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 154,
-      "Name": "Grimes Group",
-      "ContentType": "quas",
-      "AttSize": 438,
+      "AttachmentId": 429,
+      "Name": "McCullough Inc and Sons",
+      "ContentType": "veniam",
+      "AttSize": 356,
       "InlineImage": false,
-      "ContentId": "nisi",
-      "AuthKey": "nisi",
-      "IsSafeFileExtension": true,
+      "ContentId": "soluta",
+      "AuthKey": "et",
+      "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 608
+          "FieldLength": 286
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "ipsa",
-    "ExtraFields2": "dolore"
+    "ExtraFields1": "error",
+    "ExtraFields2": "quas"
   },
   "CustomFields": {
-    "CustomFields1": "qui",
-    "CustomFields2": "illum"
+    "CustomFields1": "possimus",
+    "CustomFields2": "nemo"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 830
+      "FieldType": "System.String",
+      "FieldLength": 36
     }
   }
 }

@@ -14,6 +14,8 @@ POST /api/v1/Agents/ForeignSystem/GetDeviceKeys
 Returns all ForeignKeys that belong to a device.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -82,12 +84,12 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetDeviceKeys
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Goyette, Lueilwitz and Reichert",
-  "DeviceName": "Langosh, Runolfsdottir and Koelpin"
+  "ApplicationName": "Tromp, Becker and Stroman",
+  "DeviceName": "Deckow, Collier and Ledner"
 }
 ```
 
@@ -99,20 +101,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "quis",
-    "Value": "ut",
-    "RecordId": 410,
-    "CreatedDate": "2018-08-28T03:46:54.9107593+02:00",
-    "UpdatedDate": "2021-11-13T03:46:54.9107593+01:00",
-    "UpdatedBy": "dolorem",
-    "CreatedBy": "vitae",
-    "TableName": "Collier, Reichel and Quitzon",
+    "Key": "voluptatem",
+    "Value": "dicta",
+    "RecordId": 643,
+    "CreatedDate": "2007-03-04T02:30:47.366331+01:00",
+    "UpdatedDate": "2000-12-15T02:30:47.366331+01:00",
+    "UpdatedBy": "occaecati",
+    "CreatedBy": "voluptas",
+    "TableName": "McDermott Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 457
+        "FieldLength": 184
       }
     }
   }

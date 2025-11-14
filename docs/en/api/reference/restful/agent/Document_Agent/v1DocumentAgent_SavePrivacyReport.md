@@ -14,6 +14,8 @@ POST /api/v1/Agents/Document/SavePrivacyReport
 Generates a Pdf from HTML and makes a document
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -71,13 +73,13 @@ OK
 POST /api/v1/Agents/Document/SavePrivacyReport
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HtmlReport": "maiores",
-  "Title": "enim",
-  "PersonId": 667
+  "HtmlReport": "mollitia",
+  "Title": "ea",
+  "PersonId": 384
 }
 ```
 
@@ -87,5 +89,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-496
+229
 ```

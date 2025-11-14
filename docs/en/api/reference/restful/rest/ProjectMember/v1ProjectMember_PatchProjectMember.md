@@ -14,7 +14,8 @@ PATCH /api/v1/ProjectMember/{id}
 Update a ProjectMember with changes, as described in a JSON Patch or a JSON Merge Patch document.
 
 
-See <a href="https://tools.ietf.org/html/rfc6902">RFC6902</a> and <a href="https://tools.ietf.org/html/rfc7386">RFC 7396</a>. Update the Department field to "foo" can be done either as a JSON PATCH:
+See <a href="https://tools.ietf.org/html/rfc6902">RFC6902</a> and <a href="https://tools.ietf.org/html/rfc7386">RFC 7396</a>.
+NsApiSlow threshold: 2000 ms. Update the Department field to "foo" can be done either as a JSON PATCH:
 
 ```js
 
@@ -119,6 +120,8 @@ ProjectMember  updated.
 | EmailAddressName | string | The e-mail address description |
 | Comment | string | Comment text on the project membership |
 | FullName | string | The person's full name localized to the current culture/country.  (internal name used in clients for employees) |
+| Registered | date-time | The date and time when the project member was registered  in UTC. |
+| Updated | date-time | The date and time when the project member was last updated  in UTC. |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 | _Links | object |  |
@@ -129,18 +132,18 @@ ProjectMember  updated.
 PATCH /api/v1/ProjectMember/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "hic",
+    "path": "adipisci",
     "value": {}
   },
   {
     "op": "add",
-    "path": "hic",
+    "path": "adipisci",
     "value": {}
   }
 ]
@@ -153,38 +156,40 @@ HTTP/1.1 200 ProjectMember  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectmemberId": 455,
-  "ContactId": 285,
-  "ProjectId": 173,
-  "ContactName": "Bins-Walter",
+  "ProjectmemberId": 323,
+  "ContactId": 211,
+  "ProjectId": 510,
+  "ContactName": "Cole LLC",
   "ContactDepartment": "",
-  "ProjectName": "Reichert Inc and Sons",
-  "EmailId": 25,
-  "EmailAddress": "earl@corkery.name",
-  "CountryId": 919,
-  "Firstname": "Nathen",
-  "MiddleName": "Hoppe Inc and Sons",
-  "Lastname": "Metz",
-  "PersonId": 166,
-  "Mrmrs": "nesciunt",
-  "ProjectMemberTypeName": "Hayes LLC",
-  "Phone": "551-966-2810",
-  "PhoneId": 415,
-  "ProjectMemberTypeId": 469,
-  "EmailAddressName": "brooklyn@stehrzemlak.name",
-  "Comment": "qui",
-  "FullName": "Dr. Lauryn Mills",
+  "ProjectName": "Schroeder-Batz",
+  "EmailId": 112,
+  "EmailAddress": "lyda_lueilwitz@wuckerthuel.name",
+  "CountryId": 608,
+  "Firstname": "Terence",
+  "MiddleName": "Pouros, Kovacek and Mraz",
+  "Lastname": "Stark",
+  "PersonId": 487,
+  "Mrmrs": "voluptatum",
+  "ProjectMemberTypeName": "Carter-Gutkowski",
+  "Phone": "(289)594-6883 x820",
+  "PhoneId": 119,
+  "ProjectMemberTypeId": 149,
+  "EmailAddressName": "loyce@hirtherussel.com",
+  "Comment": "dolor",
+  "FullName": "Dorothea Pacocha PhD",
+  "Registered": "2016-10-12T02:30:53.0692723+02:00",
+  "Updated": "2005-05-26T02:30:53.0692723+02:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 922
+      "FieldLength": 849
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

@@ -15,6 +15,7 @@ Gets a ContactRelationEntity object.
 
 
 Calls the Relation agent service GetContactRelationEntity.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -92,7 +93,7 @@ ContactRelationEntity found.
 GET /api/v1/Relation/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -100,33 +101,33 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 ContactRelationEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sun, 14 Feb 2010 03:46:59 G2T
+Last-Modified: Sun, 27 Oct 2019 02:30:52 G10T
 
 {
-  "SourceContactId": 835,
-  "SourcePersonId": 731,
-  "DestinationContactId": 634,
-  "DestinationPersonId": 817,
-  "RelationId": 254,
-  "Comment": "et",
-  "RelationDefinitionId": 920,
-  "Reversed": 546,
-  "UpdatedDate": "2010-02-14T03:46:59.8786923+01:00",
-  "CreatedDate": "2017-04-17T03:46:59.8786923+02:00",
+  "SourceContactId": 215,
+  "SourcePersonId": 471,
+  "DestinationContactId": 366,
+  "DestinationPersonId": 608,
+  "RelationId": 33,
+  "Comment": "rerum",
+  "RelationDefinitionId": 31,
+  "Reversed": 396,
+  "UpdatedDate": "2019-10-27T02:30:52.506791+01:00",
+  "CreatedDate": "2003-02-21T02:30:52.506791+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Bogan Inc and Sons",
-  "SourcePersonName": "Mosciski-Senger",
-  "DestinationContactName": "McCullough, Lind and Smitham",
-  "DestinationPersonName": "Gorczany Group",
-  "ActiveText": "quia",
-  "PassiveText": "enim",
+  "SourceContactName": "Altenwerth LLC",
+  "SourcePersonName": "Walter, Hayes and Doyle",
+  "DestinationContactName": "Schowalter-Legros",
+  "DestinationPersonName": "Kling, Konopelski and Jenkins",
+  "ActiveText": "sint",
+  "PassiveText": "reprehenderit",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 738
+      "FieldType": "System.Int32",
+      "FieldLength": 927
     }
   },
   "_Links": {

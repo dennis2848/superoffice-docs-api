@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/CreateDefaultDocumentTemplateEntity
 Loading default values into a new DocumentTemplateEntity.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -80,7 +82,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultDocumentTemplateEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -90,37 +92,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 321,
-  "Name": "O'Hara Inc and Sons",
-  "Tooltip": "occaecati",
-  "SaveInDb": 183,
-  "Filename": "eveniet",
-  "DefaultOref": "nihil",
+  "DocumentTemplateId": 617,
+  "Name": "Christiansen Group",
+  "Tooltip": "magni",
+  "SaveInDb": 782,
+  "Filename": "dignissimos",
+  "DefaultOref": "minima",
   "RecordType": "Appointment",
-  "Deleted": false,
+  "Deleted": true,
   "Direction": "Incoming",
-  "AutoeventId": 190,
-  "IntentId": 653,
-  "IsDefaultPublished": false,
-  "Rank": 296,
-  "LoadTemplateFromPlugin": 32,
-  "MimeType": "ullam",
+  "AutoeventId": 948,
+  "IntentId": 887,
+  "IsDefaultPublished": true,
+  "Rank": 839,
+  "LoadTemplateFromPlugin": 779,
+  "MimeType": "velit",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 519,
+  "DocumentTypeKey": 765,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "mac_stokes@dickinsonmraz.us",
-  "IncludeSignature": false,
+  "EmailSubject": "hadley_price@cartwrightkunze.us",
+  "IncludeSignature": true,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "abagail@skiles.name",
+  "SenderEmailAddress": "barney@watersweimann.co.uk",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 759
+      "FieldType": "System.Int32",
+      "FieldLength": 18
     }
   }
 }

@@ -15,6 +15,7 @@ When the user changes one or more values in a quoteline, the connector gets to c
 
 
 Shall be called when the user changes any of the following fields: Quantity, DiscountAmount, DiscountPercent, ListPrice (if allowed). Will calculate the TotalPrice and the VAT (if possible) for the line.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -125,14 +126,14 @@ OK
 POST /api/v1/Agents/Quote/RecalculateQuoteLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "QuoteLine": null,
   "ChangedFields": [
-    "commodi",
-    "consequatur"
+    "repudiandae",
+    "quis"
   ]
 }
 ```
@@ -144,88 +145,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 81,
-  "ERPQuoteLineKey": "eos",
-  "QuoteAlternativeId": 503,
-  "ERPProductKey": "aliquam",
+  "QuoteLineId": 473,
+  "ERPQuoteLineKey": "aperiam",
+  "QuoteAlternativeId": 791,
+  "ERPProductKey": "modi",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 13231.748,
-  "DeliveredQuantity": 10956.464,
-  "Rank": 886,
-  "Name": "Ortiz LLC",
-  "Description": "Cloned multi-tasking alliance",
-  "Code": "modi",
-  "QuantityUnit": "laudantium",
-  "PriceUnit": "ut",
-  "ItemNumber": "942909",
+  "Quantity": 4190.1579999999994,
+  "DeliveredQuantity": 27547.86,
+  "Rank": 781,
+  "Name": "VonRueden, Mohr and Rippin",
+  "Description": "Operative 24/7 paradigm",
+  "Code": "dolore",
+  "QuantityUnit": "laborum",
+  "PriceUnit": "quo",
+  "ItemNumber": "857621",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "repudiandae",
-  "ProductTypeKey": "voluptates",
-  "Supplier": "expedita",
-  "SupplierCode": "vel",
-  "Thumbnail": "saepe",
-  "VATInfo": "dolorem",
-  "VAT": 30462.48,
-  "UnitCost": 30042.523999999998,
-  "UnitMinimumPrice": 19311.708,
-  "UnitListPrice": 3459.9359999999997,
+  "ProductFamilyKey": "consectetur",
+  "ProductTypeKey": "sit",
+  "Supplier": "alias",
+  "SupplierCode": "iste",
+  "Thumbnail": "esse",
+  "VATInfo": "in",
+  "VAT": 2441.386,
+  "UnitCost": 10843.64,
+  "UnitMinimumPrice": 19615.706,
+  "UnitListPrice": 3312.638,
   "ExtraInfo": [
     {
-      "Name": "Aufderhar, Kessler and Witting",
-      "Value": "non",
+      "Name": "Kautzer LLC",
+      "Value": "nihil",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 586
+          "FieldLength": 154
         }
       }
     },
     {
-      "Name": "Aufderhar, Kessler and Witting",
-      "Value": "non",
+      "Name": "Kautzer LLC",
+      "Value": "nihil",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 586
+          "FieldLength": 154
         }
       }
     }
   ],
-  "RawExtraInfo": "et",
+  "RawExtraInfo": "consequatur",
   "IsSubscription": true,
-  "SubscriptionUnit": "veritatis",
-  "SubscriptionQuantity": 14159.412,
-  "SubscriptionStart": "2010-02-08T03:46:55.1913666+01:00",
-  "ERPDiscountPercent": 18283.755999999998,
-  "ERPDiscountAmount": 26676.608,
-  "DiscountPercent": 8057.514,
-  "DiscountAmount": 31.34,
+  "SubscriptionUnit": "et",
+  "SubscriptionQuantity": 16904.796,
+  "SubscriptionStart": "2009-06-20T02:30:47.7100701+02:00",
+  "ERPDiscountPercent": 26930.462,
+  "ERPDiscountAmount": 17456.38,
+  "DiscountPercent": 5656.87,
+  "DiscountAmount": 3466.2039999999997,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 24489.076,
-  "EarningAmount": 10304.592,
-  "SubTotal": 18064.376,
-  "TotalPrice": 19600.036,
-  "Rights": "praesentium",
-  "Rule": "laudantium",
-  "ExtraField1": "et",
-  "ExtraField2": "aut",
-  "ExtraField3": "a",
-  "ExtraField4": "laborum",
-  "ExtraField5": "minus",
+  "EarningPercent": 21655.94,
+  "EarningAmount": 4860.834,
+  "SubTotal": 7979.164,
+  "TotalPrice": 28453.586,
+  "Rights": "quis",
+  "Rule": "laborum",
+  "ExtraField1": "omnis",
+  "ExtraField2": "provident",
+  "ExtraField3": "ut",
+  "ExtraField4": "quos",
+  "ExtraField5": "neque",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 302
+      "FieldType": "System.Int32",
+      "FieldLength": 890
     }
   }
 }

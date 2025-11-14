@@ -15,6 +15,7 @@ Method that returns a specified number of appointments belonging to an array of 
 
 
 The appointments belong to the contact specified. Task represents the different types of activities, like “Phone call”, “Meeting” and so on.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -134,17 +135,17 @@ OK
 POST /api/v1/Agents/Appointment/GetContactAppointmentsByTasks
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 593,
-  "StartTime": "1998-07-02T03:46:53.9882851+02:00",
-  "EndTime": "2003-02-18T03:46:53.9882851+01:00",
-  "Count": 647,
+  "ContactId": 566,
+  "StartTime": "2025-01-03T02:30:46.522607+01:00",
+  "EndTime": "1999-01-19T02:30:46.522607+01:00",
+  "Count": 866,
   "TaskIds": [
-    177,
-    842
+    70,
+    446
   ]
 }
 ```
@@ -157,67 +158,67 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 335,
-    "StartDate": "2012-08-15T03:46:53.9882851+02:00",
-    "EndDate": "2010-04-22T03:46:53.9882851+02:00",
+    "AppointmentId": 757,
+    "StartDate": "2006-02-18T02:30:46.522607+01:00",
+    "EndDate": "2011-01-17T02:30:46.522607+01:00",
     "Type": "BookingForChecklist",
-    "Task": "voluptatem",
-    "AssociateFullName": "Tobin Mosciski",
-    "ContactName": "Shields-Kemmer",
-    "Description": "Pre-emptive actuating approach",
-    "PersonFullName": "Marina Gerhold",
-    "PersonId": 505,
-    "ContactId": 809,
+    "Task": "et",
+    "AssociateFullName": "Prof. Autumn Alicia Jacobi I",
+    "ContactName": "Ernser LLC",
+    "Description": "Customer-focused 3rd generation installation",
+    "PersonFullName": "Noemy Turcotte",
+    "PersonId": 968,
+    "ContactId": 489,
     "ProjectId": 317,
-    "ProjectName": "Cassin, Reynolds and Carroll",
-    "IsPublished": true,
-    "AssociateId": 964,
-    "ColorIndex": 177,
+    "ProjectName": "Dibbert-Ratke",
+    "IsPublished": false,
+    "AssociateId": 711,
+    "ColorIndex": 129,
     "IsFree": false,
-    "HasAlarm": true,
-    "IsAlldayEvent": true,
+    "HasAlarm": false,
+    "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 635,
-    "PriorityName": "Pfannerstill-Jacobs",
+    "PriorityId": 542,
+    "PriorityName": "Veum-Gerlach",
     "TaskType": "Appointment",
-    "IsBookingMain": false,
+    "IsBookingMain": true,
     "IsRecurrence": true,
     "IsBooking": false,
-    "ActiveDate": "2015-05-17T03:46:53.9882851+02:00",
+    "ActiveDate": "2003-04-25T02:30:46.522607+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2014-02-09T03:46:53.9882851+01:00",
-    "RecurringEndDate": "2011-01-25T03:46:53.9882851+01:00",
-    "MotherId": 656,
-    "AssignedBy": 979,
-    "AssignedByFullName": "Shakira Vaughn Ernser Jr.",
+    "RecurringStartDate": "2023-04-23T02:30:46.522607+02:00",
+    "RecurringEndDate": "1998-08-06T02:30:46.522607+02:00",
+    "MotherId": 495,
+    "AssignedBy": 261,
+    "AssignedByFullName": "Baby Cummings",
     "RejectReason": "",
-    "Location": "iure",
-    "AlarmLeadTime": "consequatur",
-    "SaleId": 685,
-    "SaleName": "Daniel, Weimann and Balistreri",
-    "AssociateName": "Hand-Cole",
-    "CreatedDate": "2002-11-21T03:46:53.9882851+01:00",
-    "CreatedBy": "possimus",
-    "CreatedByFullName": "Mr. Jett Ruecker",
-    "CreatedByAssociateId": 204,
+    "Location": "sed",
+    "AlarmLeadTime": "ea",
+    "SaleId": 810,
+    "SaleName": "Will Inc and Sons",
+    "AssociateName": "Thiel, Schuppe and Bartell",
+    "CreatedDate": "2006-12-02T02:30:46.522607+01:00",
+    "CreatedBy": "similique",
+    "CreatedByFullName": "Verna Schmeler",
+    "CreatedByAssociateId": 148,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "OwnedExternally": "Google",
-    "MotherAssociateId": 132,
+    "MotherAssociateId": 389,
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 65,
-    "Title": "repudiandae",
-    "Agenda": "commodi",
-    "InternalNotes": "sed",
+    "PreferredTZLocation": 399,
+    "Title": "et",
+    "Agenda": "libero",
+    "InternalNotes": "explicabo",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 118
+        "FieldLength": 641
       }
     }
   }

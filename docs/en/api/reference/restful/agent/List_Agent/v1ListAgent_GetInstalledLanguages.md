@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/GetInstalledLanguages
 Returns the list of all languages installed in this database.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -72,7 +74,7 @@ OK
 POST /api/v1/Agents/List/GetInstalledLanguages
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -83,19 +85,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageInfoId": 44,
-    "LCID": 92,
-    "EnglishName": "Douglas Group",
-    "NativeName": "Kreiger, Hayes and Schaefer",
-    "ThreeLetterISOLanguageName": "Wunsch, Rowe and Parker",
-    "TwoLetterISOLanguageName": "Wolff Group",
+    "LanguageInfoId": 390,
+    "LCID": 341,
+    "EnglishName": "Hamill-Olson",
+    "NativeName": "Connelly, Schulist and Green",
+    "ThreeLetterISOLanguageName": "Gibson, Walter and Zieme",
+    "TwoLetterISOLanguageName": "Grimes, Runte and Streich",
     "IsBuiltIn": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 54
+        "FieldType": "System.String",
+        "FieldLength": 856
       }
     }
   }

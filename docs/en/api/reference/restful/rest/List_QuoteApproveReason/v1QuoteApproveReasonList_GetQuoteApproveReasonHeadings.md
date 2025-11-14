@@ -63,7 +63,7 @@ OK
 GET /api/v1/List/QuoteApproveReason/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -74,18 +74,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 169,
-    "Name": "Nienow Inc and Sons",
-    "Tooltip": "laudantium",
+    "HeadingId": 546,
+    "Name": "Bechtelar-Mante",
+    "Tooltip": "at",
     "Deleted": false,
-    "Rank": 339,
-    "UdListDefinitionId": 788,
+    "Rank": 572,
+    "UdListDefinitionId": 102,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 805
+        "FieldType": "System.String",
+        "FieldLength": 423
       }
     }
   }

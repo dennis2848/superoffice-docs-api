@@ -33,7 +33,7 @@ Get a foreignkey based on its name and value, that belongs to the specified devi
 | keyValue | string | **Required** Foreignkey value |
 
 ```http
-GET /api/v1/ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}?keyValue=nobis
+GET /api/v1/ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}?keyValue=non
 ```
 
 
@@ -80,7 +80,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -88,23 +88,23 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Mon, 06 Oct 2014 03:47:00 G10T
+Last-Modified: Wed, 03 Jan 2018 02:30:52 G1T
 
 {
-  "Key": "laudantium",
-  "Value": "quas",
-  "RecordId": 907,
-  "CreatedDate": "2024-12-23T03:47:00.0349452+01:00",
-  "UpdatedDate": "2014-10-06T03:47:00.0349452+02:00",
-  "UpdatedBy": "quia",
-  "CreatedBy": "quo",
-  "TableName": "Labadie LLC",
+  "Key": "velit",
+  "Value": "rerum",
+  "RecordId": 933,
+  "CreatedDate": "2017-01-21T02:30:52.6630355+01:00",
+  "UpdatedDate": "2018-01-03T02:30:52.6630355+01:00",
+  "UpdatedBy": "sed",
+  "CreatedBy": "perspiciatis",
+  "TableName": "Raynor-Kris",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 912
+      "FieldType": "System.Int32",
+      "FieldLength": 561
     }
   }
 }

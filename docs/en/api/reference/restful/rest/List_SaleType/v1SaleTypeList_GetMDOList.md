@@ -28,7 +28,7 @@ Get the MDO list items for "SaleType" - with headings and filtering by user grou
 
 ```http
 GET /api/v1/List/SaleType/MDOItems?flat=False
-GET /api/v1/List/SaleType/MDOItems?query=saepe
+GET /api/v1/List/SaleType/MDOItems?query=mollitia
 ```
 
 
@@ -79,7 +79,7 @@ OK
 GET /api/v1/List/SaleType/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -90,50 +90,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 174,
-    "Name": "Towne, Kirlin and Schmidt",
-    "ToolTip": "Reiciendis consequatur voluptatum molestias.",
-    "Deleted": true,
-    "Rank": 712,
-    "Type": "ducimus",
+    "Id": 86,
+    "Name": "Shanahan-Mayert",
+    "ToolTip": "Quod est nihil assumenda quo id.",
+    "Deleted": false,
+    "Rank": 669,
+    "Type": "est",
     "ChildItems": [
       {
-        "Id": 498,
-        "Name": "Lockman, Adams and Luettgen",
-        "ToolTip": "Enim ut.",
-        "Deleted": false,
-        "Rank": 389,
-        "Type": "eveniet",
+        "Id": 963,
+        "Name": "Mohr, Steuber and Graham",
+        "ToolTip": "Et velit eligendi temporibus.",
+        "Deleted": true,
+        "Rank": 767,
+        "Type": "magnam",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "dignissimos",
-        "ColorBlock": 416,
-        "ExtraInfo": "omnis",
-        "StyleHint": "temporibus",
-        "FullName": "Raven Zemlak",
+        "IconHint": "vel",
+        "ColorBlock": 112,
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "quod",
+        "FullName": "Ms. Emerald Junius D'Amore PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 285
+            "FieldLength": 186
           }
         }
       }
     ],
-    "IconHint": "hic",
-    "ColorBlock": 488,
-    "ExtraInfo": "qui",
-    "StyleHint": "iure",
-    "FullName": "Ms. Carrie Letha Schimmel Jr.",
+    "IconHint": "corporis",
+    "ColorBlock": 405,
+    "ExtraInfo": "dolorem",
+    "StyleHint": "repellendus",
+    "FullName": "Miss Dovie Guadalupe O'Reilly I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 310
+        "FieldType": "System.Int32",
+        "FieldLength": 492
       }
     }
   }

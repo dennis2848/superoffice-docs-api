@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/CreateDefaultTicketCategoryEntity
 Loading default values into a new TicketCategoryEntity.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -73,7 +75,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultTicketCategoryEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -83,36 +85,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 433,
-  "ParentId": 53,
-  "Name": "Jakubowski-Auer",
-  "Fullname": "vero",
-  "CategoryMaster": 425,
+  "TicketCategoryId": 578,
+  "ParentId": 79,
+  "Name": "Langworth, McKenzie and Glover",
+  "Fullname": "quis",
+  "CategoryMaster": 804,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Rowe Group",
+  "ExternalName": "Bins Group",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 155,
-  "ReplyTemplate": 304,
-  "NotificationEmail": "dillan@kuphalprice.biz",
+  "AssignmentLag": 34,
+  "ReplyTemplate": 115,
+  "NotificationEmail": "annamarie@veum.com",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 224,
+  "EffectiveReplyTemplateId": 738,
   "ExtraFields": {
-    "ExtraFields1": "aut",
-    "ExtraFields2": "aut"
+    "ExtraFields1": "modi",
+    "ExtraFields2": "cupiditate"
   },
   "CustomFields": {
-    "CustomFields1": "atque",
-    "CustomFields2": "tempora"
+    "CustomFields1": "minima",
+    "CustomFields2": "necessitatibus"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 34
+      "FieldLength": 512
     }
   }
 }

@@ -66,7 +66,7 @@ OK
 GET /api/v1/List/Position/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -76,18 +76,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 559,
-  "Name": "Balistreri, Keebler and Homenick",
-  "Tooltip": "consequuntur",
-  "Deleted": true,
-  "UdListDefinitionId": 405,
-  "Rank": 510,
+  "Id": 862,
+  "Name": "Weimann-Gerlach",
+  "Tooltip": "nobis",
+  "Deleted": false,
+  "UdListDefinitionId": 927,
+  "Rank": 869,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 627
+      "FieldLength": 229
     }
   }
 }

@@ -14,6 +14,8 @@ POST /api/v1/Agents/Project/CreateDefaultProjectEventEntity
 Loading default values into a new ProjectEventEntity.
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -85,7 +87,7 @@ OK
 POST /api/v1/Agents/Project/CreateDefaultProjectEventEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -95,94 +97,94 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SignOffConfirmationText": "dignissimos",
-  "SignOffText": "ratione",
-  "SignOnConfirmationText": "modi",
-  "SignOnText": "odit",
-  "EventDate": "2000-02-18T03:46:55.1601179+01:00",
+  "SignOffConfirmationText": "adipisci",
+  "SignOffText": "aut",
+  "SignOnConfirmationText": "natus",
+  "SignOnText": "enim",
+  "EventDate": "2017-10-21T02:30:47.6788214+02:00",
   "Enabled": false,
-  "CreatedDate": "2025-06-05T03:46:55.1601179+02:00",
+  "CreatedDate": "1999-12-20T02:30:47.6788214+01:00",
   "SignOff": true,
   "SignOffTaskEnable": false,
-  "SignOffTaskId": 499,
-  "SignOffTriggersAssign": true,
+  "SignOffTaskId": 914,
+  "SignOffTriggersAssign": false,
   "SignOn": true,
   "SignOnTaskEnable": true,
-  "SignOnTaskId": 34,
+  "SignOnTaskId": 230,
   "SignOnTriggersAssign": true,
-  "UpdatedDate": "1999-05-23T03:46:55.1601179+02:00",
+  "UpdatedDate": "2012-12-07T02:30:47.6788214+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ProjectId": 286,
-  "Id": 684,
-  "PublishFrom": "2021-10-23T03:46:55.1601179+02:00",
+  "ProjectId": 827,
+  "Id": 800,
+  "PublishFrom": "2008-11-06T02:30:47.6788214+01:00",
   "PublishType": "External",
-  "PublishTo": "2002-03-22T03:46:55.1601179+01:00",
+  "PublishTo": "1998-08-18T02:30:47.6788214+02:00",
   "VisibleForCategories": [
     {
-      "Id": 52,
-      "Name": "Kris, Ebert and Durgan",
-      "ToolTip": "Voluptatem corporis voluptate vel inventore est quia tenetur.",
-      "Deleted": true,
-      "Rank": 206,
-      "Type": "aut",
+      "Id": 148,
+      "Name": "Bailey, Hauck and Nicolas",
+      "ToolTip": "Vero quia quis omnis sapiente voluptatem.",
+      "Deleted": false,
+      "Rank": 330,
+      "Type": "molestiae",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "et",
-      "ColorBlock": 237,
-      "ExtraInfo": "quo",
-      "StyleHint": "debitis",
-      "FullName": "Elmer Robel",
+      "IconHint": "doloribus",
+      "ColorBlock": 335,
+      "ExtraInfo": "et",
+      "StyleHint": "quam",
+      "FullName": "Augustine Bogisich Jr.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 180
+          "FieldType": "System.Int32",
+          "FieldLength": 722
         }
       }
     }
   ],
   "VisibleForPersonInterests": [
     {
-      "Id": 93,
-      "Name": "Stroman LLC",
-      "ToolTip": "Mollitia veritatis accusamus ducimus consectetur.",
+      "Id": 802,
+      "Name": "Walsh-Herzog",
+      "ToolTip": "Omnis eum.",
       "Deleted": false,
-      "Rank": 751,
-      "Type": "adipisci",
+      "Rank": 948,
+      "Type": "labore",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "aperiam",
-      "ColorBlock": 210,
-      "ExtraInfo": "sint",
-      "StyleHint": "provident",
-      "FullName": "Mrs. Kitty Cristal Thompson PhD",
+      "IconHint": "fugit",
+      "ColorBlock": 682,
+      "ExtraInfo": "suscipit",
+      "StyleHint": "debitis",
+      "FullName": "Junius Towne",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 593
+          "FieldLength": 171
         }
       }
     }
   ],
-  "IsPublished": false,
+  "IsPublished": true,
   "IsVisibleForMembers": false,
   "IsVisibleForCategories": false,
-  "IsVisibleForPersonInterests": true,
-  "ProjectEventId": 464,
+  "IsVisibleForPersonInterests": false,
+  "ProjectEventId": 774,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 849
+      "FieldLength": 330
     }
   }
 }

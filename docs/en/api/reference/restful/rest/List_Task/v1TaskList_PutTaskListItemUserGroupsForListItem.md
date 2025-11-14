@@ -98,47 +98,47 @@ OK
 PUT /api/v1/List/Task/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 515,
-    "Name": "Bogisich-Hintz",
-    "ToolTip": "Aut dolor incidunt velit facilis voluptatem est et.",
+    "Id": 852,
+    "Name": "Barrows-Sipes",
+    "ToolTip": "Explicabo ipsa sed commodi.",
     "Deleted": false,
-    "Rank": 87,
-    "Type": "ea",
-    "ColorBlock": 57,
-    "IconHint": "quia",
+    "Rank": 222,
+    "Type": "numquam",
+    "ColorBlock": 573,
+    "IconHint": "iure",
     "Selected": false,
-    "LastChanged": "2011-04-24T03:47:00.8942898+02:00",
+    "LastChanged": "2019-07-31T02:30:53.4598845+02:00",
     "ChildItems": [
       {
-        "Id": 793,
-        "Name": "Auer Inc and Sons",
-        "ToolTip": "Quis magni quisquam est ad nobis.",
+        "Id": 719,
+        "Name": "Lockman Group",
+        "ToolTip": "Tempora et ipsum nostrum ipsa veniam.",
         "Deleted": false,
-        "Rank": 108,
-        "Type": "cumque",
-        "ColorBlock": 680,
-        "IconHint": "eligendi",
-        "Selected": false,
-        "LastChanged": "2016-07-08T03:47:00.8942898+02:00",
+        "Rank": 962,
+        "Type": "quia",
+        "ColorBlock": 212,
+        "IconHint": "sed",
+        "Selected": true,
+        "LastChanged": "2017-06-01T02:30:53.4598845+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "temporibus",
-        "StyleHint": "ipsam",
-        "Hidden": true,
-        "FullName": "Pierre Fay"
+        "ExtraInfo": "libero",
+        "StyleHint": "nihil",
+        "Hidden": false,
+        "FullName": "Shea Wolf"
       }
     ],
-    "ExtraInfo": "voluptas",
-    "StyleHint": "rerum",
-    "Hidden": true,
-    "FullName": "Tony Wyman"
+    "ExtraInfo": "aut",
+    "StyleHint": "ipsam",
+    "Hidden": false,
+    "FullName": "Mrs. Ludwig Estevan Jast DDS"
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 940,
-    "Name": "Borer-Lehner",
-    "ToolTip": "Reiciendis recusandae praesentium iste aut ut aspernatur.",
-    "Deleted": false,
-    "Rank": 129,
-    "Type": "et",
-    "ColorBlock": 850,
-    "IconHint": "ipsum",
-    "Selected": false,
-    "LastChanged": "2022-07-17T03:47:00.8942898+02:00",
+    "Id": 39,
+    "Name": "Runte-Weimann",
+    "ToolTip": "Optio a totam alias.",
+    "Deleted": true,
+    "Rank": 689,
+    "Type": "tenetur",
+    "ColorBlock": 598,
+    "IconHint": "earum",
+    "Selected": true,
+    "LastChanged": "2004-05-27T02:30:53.4598845+02:00",
     "ChildItems": [
       {
-        "Id": 537,
-        "Name": "Friesen LLC",
-        "ToolTip": "Consequatur in sed.",
-        "Deleted": false,
-        "Rank": 525,
-        "Type": "sit",
-        "ColorBlock": 571,
-        "IconHint": "iure",
-        "Selected": false,
-        "LastChanged": "2015-12-22T03:47:00.8942898+01:00",
+        "Id": 962,
+        "Name": "Lemke, Kautzer and Borer",
+        "ToolTip": "Est libero natus aspernatur ad.",
+        "Deleted": true,
+        "Rank": 532,
+        "Type": "et",
+        "ColorBlock": 609,
+        "IconHint": "totam",
+        "Selected": true,
+        "LastChanged": "2003-01-15T02:30:53.4598845+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptates",
-        "StyleHint": "corrupti",
+        "ExtraInfo": "quas",
+        "StyleHint": "non",
         "Hidden": false,
-        "FullName": "Jett Schmeler",
+        "FullName": "Eli Muller",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 362
+            "FieldLength": 29
           }
         }
       }
     ],
-    "ExtraInfo": "omnis",
-    "StyleHint": "praesentium",
+    "ExtraInfo": "ipsam",
+    "StyleHint": "qui",
     "Hidden": false,
-    "FullName": "Jena Helmer Klocko II",
+    "FullName": "Gail Towne",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 630
+        "FieldType": "System.String",
+        "FieldLength": 161
       }
     }
   }

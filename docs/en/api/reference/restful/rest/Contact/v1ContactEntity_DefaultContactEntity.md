@@ -15,6 +15,7 @@ Set default values into a new ContactEntity.
 
 
 NetServer calculates default values on the entity, which is required when creating/storing a new instance Calls the Contact agent service CreateDefaultContactEntity.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -89,7 +90,7 @@ OK
 | ActiveErpLinks | int32 | The number of active erp links |
 | BounceEmails | array | Email addresses with a positive bounce counter. |
 | Domains | array | Web domains for this contact, ordered in array by rank |
-| InitialUtmParameters | InitalUtmParameters | Initial utm parameters when creating first person, readonly field |
+| UtmParameters | SavedUtmParameters | Utm parameters when creating first person and contact, readonly field |
 | UserDefinedFields | object | Deprecated: Use {SuperOffice.CRM.Services.ContactEntity.CustomFields} instead. Dictionary of user defined field data. The key string is the ProgId of the UdefField, or if the ProgId is empty it is a string of the format "SuperOffice:[UdefFieldIdentity]", e.g. "SuperOffice:1234" |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.ContactEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.ContactEntity.ExtraFields} and UserDefinedFields properties are deprecated in favor of this combined collection. |
@@ -102,7 +103,7 @@ OK
 GET /api/v1/Contact/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -110,160 +111,160 @@ Accept-Language: *
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sun, 21 Apr 2024 03:46:59 G4T
+Last-Modified: Wed, 30 May 2018 02:30:52 G5T
 
 {
-  "ContactId": 87,
-  "Name": "Hansen LLC",
+  "ContactId": 760,
+  "Name": "Block LLC",
   "Department": "",
-  "OrgNr": "497089",
-  "Number1": "564245",
-  "Number2": "1311629",
-  "UpdatedDate": "2024-04-21T03:46:59.8161962+02:00",
-  "CreatedDate": "2010-10-09T03:46:59.8161962+02:00",
+  "OrgNr": "1086234",
+  "Number1": "213298",
+  "Number2": "515014",
+  "UpdatedDate": "2018-05-30T02:30:52.4442929+02:00",
+  "CreatedDate": "1999-04-02T02:30:52.4442929+02:00",
   "Emails": [
     {
-      "Value": "dolorum",
-      "StrippedValue": "a",
-      "Description": "Balanced zero tolerance emulation",
+      "Value": "consequatur",
+      "StrippedValue": "corrupti",
+      "Description": "Optimized neutral instruction set",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 869
+          "FieldType": "System.Int32",
+          "FieldLength": 362
         }
       }
     },
     {
-      "Value": "dolorum",
-      "StrippedValue": "a",
-      "Description": "Balanced zero tolerance emulation",
+      "Value": "consequatur",
+      "StrippedValue": "corrupti",
+      "Description": "Optimized neutral instruction set",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 869
+          "FieldType": "System.Int32",
+          "FieldLength": 362
         }
       }
     }
   ],
   "Interests": [
     {
-      "Id": 9,
-      "Name": "Murazik Inc and Sons",
-      "ToolTip": "Deserunt officia delectus ut aut assumenda voluptate.",
+      "Id": 817,
+      "Name": "Sanford, Cartwright and Kozey",
+      "ToolTip": "A aliquam non.",
       "Deleted": false,
-      "Rank": 686,
-      "Type": "ea",
-      "ColorBlock": 604,
-      "IconHint": "fugiat",
+      "Rank": 274,
+      "Type": "eum",
+      "ColorBlock": 439,
+      "IconHint": "nobis",
       "Selected": false,
-      "LastChanged": "2019-06-18T03:46:59.8161962+02:00",
+      "LastChanged": "2023-03-15T02:30:52.4442929+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "quia",
-      "StyleHint": "consequatur",
+      "ExtraInfo": "libero",
+      "StyleHint": "dolores",
       "Hidden": true,
-      "FullName": "Karli Predovic",
+      "FullName": "Prof. Cornelius Chauncey Ullrich",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 977
+          "FieldLength": 978
         }
       }
     }
   ],
   "Urls": [
     {
-      "Value": "aspernatur",
-      "StrippedValue": "commodi",
-      "Description": "Reduced analyzing artificial intelligence",
+      "Value": "nemo",
+      "StrippedValue": "corrupti",
+      "Description": "Total directional groupware",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 658
+          "FieldType": "System.String",
+          "FieldLength": 395
         }
       }
     },
     {
-      "Value": "aspernatur",
-      "StrippedValue": "commodi",
-      "Description": "Reduced analyzing artificial intelligence",
+      "Value": "nemo",
+      "StrippedValue": "corrupti",
+      "Description": "Total directional groupware",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 658
+          "FieldType": "System.String",
+          "FieldLength": 395
         }
       }
     }
   ],
   "Phones": [
     {
-      "Value": "et",
-      "StrippedValue": "adipisci",
-      "Description": "Balanced upward-trending methodology",
+      "Value": "ipsa",
+      "StrippedValue": "consequatur",
+      "Description": "Streamlined zero tolerance moderator",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 105
+          "FieldType": "System.String",
+          "FieldLength": 647
         }
       }
     },
     {
-      "Value": "et",
-      "StrippedValue": "adipisci",
-      "Description": "Balanced upward-trending methodology",
+      "Value": "ipsa",
+      "StrippedValue": "consequatur",
+      "Description": "Streamlined zero tolerance moderator",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 105
+          "FieldType": "System.String",
+          "FieldLength": 647
         }
       }
     }
   ],
   "Faxes": [
     {
-      "Value": "ipsa",
-      "StrippedValue": "aperiam",
-      "Description": "Managed full-range capability",
+      "Value": "sit",
+      "StrippedValue": "aut",
+      "Description": "Sharable optimizing flexibility",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 642
+          "FieldLength": 798
         }
       }
     },
     {
-      "Value": "ipsa",
-      "StrippedValue": "aperiam",
-      "Description": "Managed full-range capability",
+      "Value": "sit",
+      "StrippedValue": "aut",
+      "Description": "Sharable optimizing flexibility",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 642
+          "FieldLength": 798
         }
       }
     }
   ],
-  "Description": "Balanced zero tolerance orchestration",
+  "Description": "Programmable methodical methodology",
   "UpdatedBy": null,
   "CreatedBy": null,
   "Associate": null,
@@ -272,102 +273,102 @@ Last-Modified: Sun, 21 Apr 2024 03:46:59 G4T
   "Country": null,
   "Persons": [
     {
-      "Position": "eos",
-      "PersonId": 336,
-      "Mrmrs": "sit",
-      "Firstname": "Lucio",
-      "Lastname": "Lakin",
-      "MiddleName": "Hermann-Bayer",
-      "Title": "sint",
-      "Description": "Automated regional product",
-      "Email": "audie.quigley@carter.name",
-      "FullName": "Quinn Lang",
-      "DirectPhone": "1-329-927-1811",
-      "FormalName": "Green-Bogisich",
-      "CountryId": 799,
-      "ContactId": 859,
-      "ContactName": "Goldner-Stanton",
-      "Retired": 397,
-      "Rank": 721,
-      "ActiveInterests": 512,
-      "ContactDepartment": "revolutionize back-end e-commerce",
-      "ContactCountryId": 746,
-      "ContactOrgNr": "1385033",
-      "FaxPhone": "1-940-763-4825",
-      "MobilePhone": "(458)262-5918 x570",
-      "ContactPhone": "902-146-4789 x98317",
-      "AssociateName": "Torp, Hand and Wolff",
-      "AssociateId": 412,
-      "UsePersonAddress": false,
-      "ContactFax": "eos",
-      "Kanafname": "veritatis",
-      "Kanalname": "nostrum",
-      "Post1": "hic",
-      "Post2": "praesentium",
-      "Post3": "ad",
-      "EmailName": "millie@eberthudson.co.uk",
-      "ContactFullName": "Helga Hudson",
-      "ActiveErpLinks": 950,
-      "TicketPriorityId": 155,
-      "SupportLanguageId": 997,
-      "SupportAssociateId": 84,
+      "Position": "dolorem",
+      "PersonId": 217,
+      "Mrmrs": "vel",
+      "Firstname": "Dolly",
+      "Lastname": "Hoppe",
+      "MiddleName": "Cruickshank Group",
+      "Title": "qui",
+      "Description": "Reactive scalable neural-net",
+      "Email": "wyman.dickens@jacobi.ca",
+      "FullName": "Ahmad Olen Predovic IV",
+      "DirectPhone": "(784)479-7447",
+      "FormalName": "Koch-Wolf",
+      "CountryId": 548,
+      "ContactId": 574,
+      "ContactName": "Little Inc and Sons",
+      "Retired": 375,
+      "Rank": 936,
+      "ActiveInterests": 243,
+      "ContactDepartment": "",
+      "ContactCountryId": 921,
+      "ContactOrgNr": "504906",
+      "FaxPhone": "1-502-271-3573",
+      "MobilePhone": "(706)939-2472 x0814",
+      "ContactPhone": "644-049-5157 x24802",
+      "AssociateName": "Kihn, Oberbrunner and Huels",
+      "AssociateId": 52,
+      "UsePersonAddress": true,
+      "ContactFax": "asperiores",
+      "Kanafname": "et",
+      "Kanalname": "doloribus",
+      "Post1": "omnis",
+      "Post2": "error",
+      "Post3": "et",
+      "EmailName": "margaret@ankunding.us",
+      "ContactFullName": "Annabell Dicki",
+      "ActiveErpLinks": 218,
+      "TicketPriorityId": 370,
+      "SupportLanguageId": 115,
+      "SupportAssociateId": 436,
       "CategoryName": "VIP Customer",
-      "PersonNumber": "830214",
+      "PersonNumber": "940380",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 873
+          "FieldType": "System.String",
+          "FieldLength": 872
         }
       }
     }
   ],
   "NoMailing": false,
-  "Kananame": "harum",
+  "Kananame": "quis",
   "Xstop": true,
-  "ActiveInterests": 804,
-  "GroupId": 245,
-  "ActiveStatusMonitorId": 46,
+  "ActiveInterests": 15,
+  "GroupId": 228,
+  "ActiveStatusMonitorId": 155,
   "SupportAssociate": null,
   "TicketPriority": null,
   "CustomerLanguage": null,
-  "Deleted": 820,
-  "DbiAgentId": 436,
-  "DbiLastSyncronized": "2006-01-27T03:46:59.8318192+01:00",
-  "DbiKey": "quo",
-  "DbiLastModified": "2008-01-17T03:46:59.8318192+01:00",
+  "Deleted": 777,
+  "DbiAgentId": 950,
+  "DbiLastSyncronized": "2007-11-05T02:30:52.4442929+01:00",
+  "DbiKey": "nihil",
+  "DbiLastModified": "1999-07-24T02:30:52.4442929+02:00",
   "SupportPerson": null,
   "Address": null,
-  "Source": 233,
-  "ActiveErpLinks": 23,
+  "Source": 403,
+  "ActiveErpLinks": 675,
   "BounceEmails": [
-    "nasir.hahn@murraysauer.info",
-    "brown.hand@gibson.info"
+    "erwin@steuber.ca",
+    "aimee_padberg@stracke.name"
   ],
   "Domains": [
-    "officiis",
-    "voluptas"
+    "consequatur",
+    "suscipit"
   ],
-  "InitialUtmParameters": null,
+  "UtmParameters": null,
   "UserDefinedFields": {
-    "SuperOffice:1": "Alfonzo Stroman",
-    "SuperOffice:2": "Wyman Connelly"
+    "SuperOffice:1": "False",
+    "SuperOffice:2": "Ms. Barton Murphy Hoppe"
   },
   "ExtraFields": {
-    "ExtraFields1": "ratione",
-    "ExtraFields2": "sed"
+    "ExtraFields1": "officiis",
+    "ExtraFields2": "saepe"
   },
   "CustomFields": {
-    "CustomFields1": "vel",
-    "CustomFields2": "saepe"
+    "CustomFields1": "unde",
+    "CustomFields2": "aut"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 747
+      "FieldLength": 845
     }
   }
 }

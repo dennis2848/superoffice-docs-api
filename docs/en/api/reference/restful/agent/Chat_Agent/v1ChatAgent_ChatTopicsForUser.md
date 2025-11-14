@@ -15,6 +15,7 @@ Get all chat topics which this user is a member of.
 
 
 Members means that you have at least one of: Can Respond, Notifications, Listen or Manager
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -109,43 +110,43 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ChatTopicId": 78,
-    "Name": "Jacobi LLC",
-    "Description": "Reverse-engineered zero administration open system",
-    "WelcomeMessage": "rerum",
+    "ChatTopicId": 803,
+    "Name": "Kshlerin, Zulauf and Hirthe",
+    "Description": "Proactive clear-thinking pricing structure",
+    "WelcomeMessage": "animi",
     "Language": null,
-    "LastAccept": "2005-02-02T03:46:54.3945199+01:00",
-    "SecondsPrAccept": 862,
-    "AlertRecipient": "similique",
+    "LastAccept": "2012-08-17T02:30:46.8975935+02:00",
+    "SecondsPrAccept": 132,
+    "AlertRecipient": "dolorem",
     "AlertTemplate": null,
     "CollectConsent": false,
-    "BadgeHeader": "nam",
-    "CustomQueueTextEnabled": false,
-    "CustomQueueText": "distinctio",
-    "WarnNewChatMinutes": 309,
-    "WarnManagerNewChatMinutes": 427,
-    "TicketEnabled": false,
+    "BadgeHeader": "provident",
+    "CustomQueueTextEnabled": true,
+    "CustomQueueText": "harum",
+    "WarnNewChatMinutes": 645,
+    "WarnManagerNewChatMinutes": 453,
+    "TicketEnabled": true,
     "TicketCategory": null,
     "TicketPriority": null,
-    "OpeningHoursEnabled": true,
+    "OpeningHoursEnabled": false,
     "OpeningHours": null,
     "Widget": null,
     "BotEnabled": true,
     "BotSettings": null,
     "OfflineCollectConsent": false,
-    "WarnChatMessageMinutes": 576,
-    "WarnManagerChatMessageMinutes": 386,
+    "WarnChatMessageMinutes": 502,
+    "WarnManagerChatMessageMinutes": 717,
     "UseQueueOfflineForm": true,
-    "OfflineFormTimeLimit": 871,
-    "OfflineFormQueueLength": 912,
+    "OfflineFormTimeLimit": 975,
+    "OfflineFormQueueLength": 385,
     "WidgetEnableRating": false,
-    "WidgetRatingText": "eveniet",
+    "WidgetRatingText": "in",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 646
+        "FieldLength": 212
       }
     }
   }

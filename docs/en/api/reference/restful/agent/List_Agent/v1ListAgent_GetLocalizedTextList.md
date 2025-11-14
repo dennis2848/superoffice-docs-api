@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/GetLocalizedTextList
 Gets an array of LocalizedText objects.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -76,7 +78,7 @@ OK
 POST /api/v1/Agents/List/GetLocalizedTextList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -87,18 +89,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageId": 282,
-    "ResourceId": 776,
-    "Text": "iure",
+    "LanguageId": 445,
+    "ResourceId": 826,
+    "Text": "omnis",
     "Type": "Column",
-    "LocalizedTextId": 61,
-    "IsBuiltIn": false,
+    "LocalizedTextId": 652,
+    "IsBuiltIn": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 739
+        "FieldType": "System.String",
+        "FieldLength": 592
       }
     }
   }

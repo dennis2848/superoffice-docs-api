@@ -14,6 +14,8 @@ POST /api/v1/Agents/Preference/SavePreferenceEntities
 Save this set of preferences.
 
 
+NsApiSlow threshold: 1000 ms.
+
 
 
 
@@ -73,19 +75,19 @@ Content-Type: application/json; charset=utf-8
   "Preferences": [
     {
       "Level": "Database",
-      "RawValue": "quis",
+      "RawValue": "ut",
       "Specification": null,
-      "DisplayValue": "natus",
-      "DisplayTooltip": "quisquam",
+      "DisplayValue": "voluptatem",
+      "DisplayTooltip": "dolores",
       "DisplayType": "Bool",
       "TabOrder": null,
-      "TargetId": 23,
-      "PrefDescId": 310,
-      "TableName": "Crist-Huels",
-      "UserPreferenceId": 409
+      "TargetId": 872,
+      "PrefDescId": 97,
+      "TableName": "Mitchell, Wisoky and Pfeffer",
+      "UserPreferenceId": 923
     }
   ],
-  "RemoveLowerLevels": false
+  "RemoveLowerLevels": true
 }
 ```
 

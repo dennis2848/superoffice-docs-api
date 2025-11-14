@@ -14,6 +14,8 @@ POST /api/v1/Agents/Project/GetProjectMember
 Gets a ProjectMember object.
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -27,7 +29,7 @@ Gets a ProjectMember object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Project/GetProjectMember?projectMemberId=695
+POST /api/v1/Agents/Project/GetProjectMember?projectMemberId=805
 POST /api/v1/Agents/Project/GetProjectMember?$select=name,department,category/id
 ```
 
@@ -79,6 +81,8 @@ OK
 | EmailAddressName | string | The e-mail address description |
 | Comment | string | Comment text on the project membership |
 | FullName | string | The person's full name localized to the current culture/country.  (internal name used in clients for employees) |
+| Registered | date-time | The date and time when the project member was registered  in UTC. |
+| Updated | date-time | The date and time when the project member was last updated  in UTC. |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -98,33 +102,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectmemberId": 60,
-  "ContactId": 422,
-  "ProjectId": 991,
-  "ContactName": "Hettinger, Maggio and Weimann",
-  "ContactDepartment": "",
-  "ProjectName": "Johnson LLC",
-  "EmailId": 577,
-  "EmailAddress": "palma@paucek.co.uk",
-  "CountryId": 479,
-  "Firstname": "Mallie",
-  "MiddleName": "Hackett LLC",
-  "Lastname": "Koss",
-  "PersonId": 566,
-  "Mrmrs": "dolores",
-  "ProjectMemberTypeName": "Koch-Stroman",
-  "Phone": "083.592.9534 x85805",
-  "PhoneId": 387,
-  "ProjectMemberTypeId": 733,
-  "EmailAddressName": "vilma@langoshfeeney.ca",
-  "Comment": "velit",
-  "FullName": "Jaydon Keebler",
+  "ProjectmemberId": 13,
+  "ContactId": 686,
+  "ProjectId": 114,
+  "ContactName": "Conn, Hintz and Cummerata",
+  "ContactDepartment": "synthesize next-generation action-items",
+  "ProjectName": "Heathcote, Koch and Heaney",
+  "EmailId": 744,
+  "EmailAddress": "josie@schinner.us",
+  "CountryId": 902,
+  "Firstname": "Florian",
+  "MiddleName": "Will-Rice",
+  "Lastname": "Huels",
+  "PersonId": 368,
+  "Mrmrs": "aut",
+  "ProjectMemberTypeName": "Koss-Torp",
+  "Phone": "286-815-1970 x5002",
+  "PhoneId": 670,
+  "ProjectMemberTypeId": 314,
+  "EmailAddressName": "xander@ebertoberbrunner.name",
+  "Comment": "pariatur",
+  "FullName": "Dedric Lind",
+  "Registered": "2023-12-10T02:30:47.6944454+01:00",
+  "Updated": "2014-04-18T02:30:47.6944454+02:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 852
+      "FieldLength": 193
     }
   }
 }

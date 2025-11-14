@@ -14,6 +14,8 @@ POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo
 Gets a UserDefinedFieldInfo object.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -27,7 +29,7 @@ Gets a UserDefinedFieldInfo object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo?userDefinedFieldInfoId=354
+POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo?userDefinedFieldInfoId=933
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo?$select=name,department,category/id
 ```
 
@@ -101,7 +103,7 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -111,46 +113,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 233,
-  "ColumnId": 757,
-  "FieldDefault": "delectus",
-  "FieldHeight": 890,
-  "FieldLabel": "dignissimos",
-  "FieldLeft": 568,
-  "FieldTop": 842,
+  "UDefFieldId": 9,
+  "ColumnId": 154,
+  "FieldDefault": "deserunt",
+  "FieldHeight": 712,
+  "FieldLabel": "sit",
+  "FieldLeft": 100,
+  "FieldTop": 592,
   "FieldType": "Checkbox",
-  "FieldWidth": 486,
-  "FormatMask": "vel",
+  "FieldWidth": 260,
+  "FormatMask": "fuga",
   "HideLabel": false,
-  "IsIndexed": true,
-  "LabelHeight": 563,
-  "LabelLeft": 7,
-  "LabelTop": 286,
-  "LabelWidth": 166,
-  "LastVersionId": 927,
-  "ListTableId": 187,
+  "IsIndexed": false,
+  "LabelHeight": 958,
+  "LabelLeft": 827,
+  "LabelTop": 860,
+  "LabelWidth": 1000,
+  "LastVersionId": 599,
+  "ListTableId": 811,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 841,
-  "ProgId": "doloremque",
+  "Page1LineNo": 470,
+  "ProgId": "tempora",
   "IsReadOnly": false,
-  "ShortLabel": "officia",
-  "TabOrder": 623,
-  "TextLength": 168,
-  "Tooltip": "tempora",
-  "UdefIdentity": 774,
-  "UDListDefinitionId": 843,
+  "ShortLabel": "atque",
+  "TabOrder": 690,
+  "TextLength": 419,
+  "Tooltip": "sunt",
+  "UdefIdentity": 638,
+  "UDListDefinitionId": 558,
   "Justification": "Center",
-  "Version": 800,
-  "TemplateVariableName": "Rutherford-Hahn",
+  "Version": 277,
+  "TemplateVariableName": "Bartoletti, Swaniawski and Orn",
   "HasBeenPublished": false,
-  "MdoListName": "Koch, Glover and Kling",
+  "MdoListName": "Pagac-Ebert",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 943
+      "FieldType": "System.String",
+      "FieldLength": 185
     }
   }
 }

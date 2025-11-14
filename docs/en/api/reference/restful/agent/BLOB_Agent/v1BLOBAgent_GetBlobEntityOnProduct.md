@@ -14,6 +14,8 @@ POST /api/v1/Agents/BLOB/GetBlobEntityOnProduct
 Gets the blob entity that represents the product image binary object.
 
 
+NsApiSlow threshold: 3000 ms.
+
 
 
 
@@ -86,11 +88,11 @@ OK
 POST /api/v1/Agents/BLOB/GetBlobEntityOnProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 1002
+  "ProductId": 682
 }
 ```
 
@@ -101,25 +103,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 98,
-  "BlobSize": 148,
-  "Description": "Re-contextualized system-worthy info-mediaries",
-  "ExtraInfo": "id",
-  "IsEncrypted": false,
-  "IsZipped": true,
-  "MimeType": "quae",
-  "OriginalSize": 9,
-  "CreatedDate": "1999-02-10T03:46:54.3163903+01:00",
-  "UpdatedDate": "2002-08-08T03:46:54.3163903+02:00",
+  "BlobId": 572,
+  "BlobSize": 901,
+  "Description": "Profound value-added instruction set",
+  "ExtraInfo": "facere",
+  "IsEncrypted": true,
+  "IsZipped": false,
+  "MimeType": "dolorum",
+  "OriginalSize": 928,
+  "CreatedDate": "2009-04-05T02:30:46.8350962+02:00",
+  "UpdatedDate": "2023-05-28T02:30:46.8350962+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "magni",
+  "ConceptualType": "consequatur",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 933
+      "FieldType": "System.Int32",
+      "FieldLength": 859
     }
   }
 }

@@ -14,6 +14,9 @@ POST /api/v1/Agents/CRMScript/SaveCRMScriptEntityWithoutCompile
 Save the script directly without compiling TypeScript
 
 
+NsApiSlow threshold: 5000 ms.
+
+
 ## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 
@@ -94,7 +97,7 @@ OK
 POST /api/v1/Agents/CRMScript/SaveCRMScriptEntityWithoutCompile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -109,53 +112,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 790,
-  "UniqueIdentifier": "perferendis",
-  "Name": "Yundt, Ondricka and Kilback",
-  "Description": "Mandatory foreground parallelism",
-  "IncludeId": "dolorem",
-  "AccessKey": "doloremque",
-  "HierarchyId": 256,
-  "Source": "dicta",
-  "SourceCode": "dolorem",
+  "EjscriptId": 531,
+  "UniqueIdentifier": "perspiciatis",
+  "Name": "Kunde, Hauck and Cummings",
+  "Description": "Managed explicit attitude",
+  "IncludeId": "porro",
+  "AccessKey": "dolorum",
+  "HierarchyId": 852,
+  "Source": "est",
+  "SourceCode": "est",
   "ScriptType": "CRMScript",
-  "HtmlOutput": 812,
+  "HtmlOutput": 17,
   "Includes": [
-    771,
-    190
+    731,
+    907
   ],
   "SourceMaps": [
     {
-      "LineNumberFrom": 615,
-      "LineNumberTo": 613,
-      "Delta": 295,
-      "IncludeId": "consectetur",
+      "LineNumberFrom": 848,
+      "LineNumberTo": 961,
+      "Delta": 777,
+      "IncludeId": "dignissimos",
       "IncludedFrom": [
-        "autem",
-        "consequatur"
+        "pariatur",
+        "rerum"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 718
+          "FieldLength": 347
         }
       }
     }
   ],
   "ValidationResult": null,
-  "Registered": "2025-04-30T03:46:54.5820132+02:00",
-  "RegisteredAssociateId": 863,
-  "Updated": "2013-07-25T03:46:54.5820132+02:00",
-  "UpdatedAssociateId": 304,
+  "Registered": "2008-02-10T02:30:47.0382145+01:00",
+  "RegisteredAssociateId": 245,
+  "Updated": "2013-08-06T02:30:47.0382145+02:00",
+  "UpdatedAssociateId": 747,
   "BlockedVerbs": "BlockAll",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 198
+      "FieldType": "System.Int32",
+      "FieldLength": 400
     }
   }
 }

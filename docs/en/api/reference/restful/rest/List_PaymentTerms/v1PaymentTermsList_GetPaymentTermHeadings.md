@@ -63,7 +63,7 @@ OK
 GET /api/v1/List/PaymentTerm/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -74,18 +74,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 266,
-    "Name": "Hammes Inc and Sons",
-    "Tooltip": "non",
+    "HeadingId": 169,
+    "Name": "Dare Group",
+    "Tooltip": "autem",
     "Deleted": true,
-    "Rank": 750,
-    "UdListDefinitionId": 787,
+    "Rank": 148,
+    "UdListDefinitionId": 769,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 991
+        "FieldType": "System.Int32",
+        "FieldLength": 226
       }
     }
   }

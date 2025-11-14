@@ -15,6 +15,7 @@ Set default values into a new Dash.
 
 
 NetServer calculates default values on the entity, which is required when creating/storing a new instance Calls the Dash agent service CreateDefaultDash.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -80,37 +81,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 761,
-  "UniqueId": "rerum",
-  "Name": "Quigley-Stoltenberg",
-  "Description": "Optional fault-tolerant application",
-  "AssociateId": 484,
-  "Columns": 163,
+  "DashboardId": 460,
+  "UniqueId": "sunt",
+  "Name": "Ondricka-Lang",
+  "Description": "Enhanced zero defect frame",
+  "AssociateId": 874,
+  "Columns": 611,
   "Theme": null,
-  "VisibleForAll": 273,
+  "VisibleForAll": 606,
   "VisibleForAssociates": [
-    734,
-    792
+    208,
+    465
   ],
   "VisibleForGroups": [
-    87,
-    130
+    68,
+    198
   ],
-  "PinForAll": 158,
+  "PinForAll": 325,
   "PinForAssociates": [
-    794,
-    548
+    939,
+    645
   ],
   "PinForGroups": [
-    629,
-    292
+    163,
+    465
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 658
+      "FieldType": "System.String",
+      "FieldLength": 793
     }
   }
 }

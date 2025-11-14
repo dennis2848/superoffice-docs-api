@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/GetSaleTypeEntity
 Gets a SaleTypeEntity object.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -27,7 +29,7 @@ Gets a SaleTypeEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetSaleTypeEntity?saleTypeEntityId=281
+POST /api/v1/Agents/List/GetSaleTypeEntity?saleTypeEntityId=163
 POST /api/v1/Agents/List/GetSaleTypeEntity?$select=name,department,category/id
 ```
 
@@ -89,7 +91,7 @@ OK
 POST /api/v1/Agents/List/GetSaleTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -99,53 +101,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 293,
-  "Name": "Kassulke-Reilly",
-  "Tooltip": "vero",
-  "Rank": 756,
+  "SaleTypeId": 895,
+  "Name": "Zulauf LLC",
+  "Tooltip": "tenetur",
+  "Rank": 978,
   "DurationUnit": "Century",
-  "SaleDuration": 215,
-  "SaleTypeCatId": 579,
+  "SaleDuration": 410,
+  "SaleTypeCatId": 274,
   "Deleted": true,
   "HasGuide": false,
   "HasStakeholders": false,
-  "IsAutoAdvance": true,
+  "IsAutoAdvance": false,
   "AllowQuoteAlternatives": true,
-  "DefaultQuoteValidity": 254,
-  "QuoteLinesTemplate": 816,
-  "ConfirmationLinesTemplate": 748,
-  "MaxDiscountPercentSet": true,
-  "MinEarningPercentSet": true,
-  "MaxDiscountPercent": 731,
-  "MinEarningPercent": 213,
-  "GroupQuoteLinesBy": 640,
-  "SortGroupLinesBy": 870,
+  "DefaultQuoteValidity": 940,
+  "QuoteLinesTemplate": 541,
+  "ConfirmationLinesTemplate": 480,
+  "MaxDiscountPercentSet": false,
+  "MinEarningPercentSet": false,
+  "MaxDiscountPercent": 775,
+  "MinEarningPercent": 414,
+  "GroupQuoteLinesBy": 266,
+  "SortGroupLinesBy": 924,
   "Stages": [
     {
-      "Id": 271,
-      "Name": "Frami Group",
-      "ToolTip": "Dolorum nesciunt earum.",
-      "Deleted": true,
-      "Rank": 552,
-      "Type": "facilis",
-      "ColorBlock": 92,
-      "IconHint": "eum",
+      "Id": 325,
+      "Name": "Cruickshank-Cole",
+      "ToolTip": "Neque voluptas voluptatem quas quis non eum similique.",
+      "Deleted": false,
+      "Rank": 884,
+      "Type": "architecto",
+      "ColorBlock": 315,
+      "IconHint": "eveniet",
       "Selected": false,
-      "LastChanged": "1998-10-20T03:46:54.9413809+02:00",
+      "LastChanged": "2008-07-23T02:30:47.3975807+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "maiores",
-      "StyleHint": "quibusdam",
-      "Hidden": true,
-      "FullName": "Darrick Weber",
+      "ExtraInfo": "perspiciatis",
+      "StyleHint": "magnam",
+      "Hidden": false,
+      "FullName": "Mr. Davin Green",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 217
+          "FieldLength": 392
         }
       }
     }
@@ -154,8 +156,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 747
+      "FieldType": "System.String",
+      "FieldLength": 671
     }
   }
 }

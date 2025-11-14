@@ -14,6 +14,9 @@ POST /api/v1/Agents/EMail/GetEMailFromDocumentIdWithoutAttachmentStream
 Get an e-mail based on an archived document
 
 
+NsApiSlow threshold: 5000 ms.
+
+
 ## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 
@@ -101,11 +104,11 @@ OK
 POST /api/v1/Agents/EMail/GetEMailFromDocumentIdWithoutAttachmentStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 68
+  "DocumentId": 348
 }
 ```
 
@@ -118,97 +121,97 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 437,
-      "ContactName": "Stokes, Trantow and Dickens",
-      "PersonId": 699,
-      "PersonName": "Kohler-Robel",
-      "AssociateId": 129,
-      "Address": "sint",
-      "EmailId": 295,
+      "ContactId": 967,
+      "ContactName": "Weissnat-Luettgen",
+      "PersonId": 617,
+      "PersonName": "Champlin Group",
+      "AssociateId": 661,
+      "Address": "sapiente",
+      "EmailId": 944,
       "DuplicatePersonIds": [
-        473,
-        696
+        536,
+        803
       ],
-      "Name": "Mosciski, Gutmann and Breitenberg",
+      "Name": "Wolff Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 924
+          "FieldType": "System.Int32",
+          "FieldLength": 666
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 214,
-      "ContactName": "Kunze, O'Conner and Kovacek",
-      "PersonId": 900,
-      "PersonName": "Torphy-Reynolds",
-      "AssociateId": 281,
-      "Address": "dolorem",
-      "EmailId": 773,
+      "ContactId": 829,
+      "ContactName": "Dooley-Frami",
+      "PersonId": 916,
+      "PersonName": "Wyman Inc and Sons",
+      "AssociateId": 454,
+      "Address": "et",
+      "EmailId": 23,
       "DuplicatePersonIds": [
-        581,
-        257
+        701,
+        272
       ],
-      "Name": "Jerde-Bechtelar",
+      "Name": "Homenick-Mayert",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 615
+          "FieldType": "System.String",
+          "FieldLength": 483
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 565,
-      "ContactName": "Spencer-Sauer",
-      "PersonId": 459,
-      "PersonName": "Hammes-Mueller",
-      "AssociateId": 501,
-      "Address": "quia",
-      "EmailId": 159,
+      "ContactId": 838,
+      "ContactName": "Kirlin, Hudson and Abshire",
+      "PersonId": 115,
+      "PersonName": "Murray, Conroy and Fisher",
+      "AssociateId": 270,
+      "Address": "minima",
+      "EmailId": 480,
       "DuplicatePersonIds": [
-        194,
-        250
+        454,
+        235
       ],
-      "Name": "Gutkowski-Becker",
+      "Name": "Casper-Huel",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 538
+          "FieldLength": 381
         }
       }
     }
   ],
-  "Subject": "non",
-  "HTMLBody": "nisi",
+  "Subject": "cum",
+  "HTMLBody": "reprehenderit",
   "From": null,
-  "Sent": "2005-08-31T03:46:54.7382579+02:00",
-  "Size": 507,
+  "Sent": "1998-06-25T02:30:47.2569602+02:00",
+  "Size": 702,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "beatae",
-  "PlainBody": "libero",
+  "MessageID": "eius",
+  "PlainBody": "et",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 110,
+  "ServerId": 899,
   "Attachments": [
     {
-      "Description": "Self-enabling zero tolerance firmware",
-      "Filename": "ut",
-      "Size": 687,
-      "Type": "totam",
-      "Encoding": "non",
-      "Id": "enim",
-      "Disposition": "excepturi",
+      "Description": "Synchronised interactive open system",
+      "Filename": "sapiente",
+      "Size": 226,
+      "Type": "perspiciatis",
+      "Encoding": "qui",
+      "Id": "dolores",
+      "Disposition": "qui",
       "IsSafeFileExtension": true,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
@@ -216,49 +219,49 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 650
+          "FieldLength": 307
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Schinner Group",
+      "Name": "Jakubowski-Will",
       "Values": [
-        "assumenda",
-        "illo"
+        "enim",
+        "dolores"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 715
+          "FieldType": "System.String",
+          "FieldLength": 587
         }
       }
     },
     {
-      "Name": "Schinner Group",
+      "Name": "Jakubowski-Will",
       "Values": [
-        "assumenda",
-        "illo"
+        "enim",
+        "dolores"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 715
+          "FieldType": "System.String",
+          "FieldLength": 587
         }
       }
     }
   ],
-  "FolderName": "Reilly Inc and Sons",
-  "EmailItemId": 464,
-  "AccountId": 980,
-  "ReceivedAt": "1999-10-17T03:46:54.7382579+02:00",
+  "FolderName": "Jakubowski-Lemke",
+  "EmailItemId": 161,
+  "AccountId": 852,
+  "ReceivedAt": "2015-11-08T02:30:47.2569602+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2019-05-28T03:46:54.7382579+02:00",
+  "RepliedAt": "2004-06-22T02:30:47.2569602+02:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -266,8 +269,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 174
+      "FieldType": "System.String",
+      "FieldLength": 438
     }
   }
 }

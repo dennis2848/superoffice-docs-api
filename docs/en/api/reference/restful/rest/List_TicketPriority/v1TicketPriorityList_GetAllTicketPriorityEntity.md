@@ -106,60 +106,60 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketPriorityId": 632,
-    "Name": "Bechtelar-Jast",
+    "TicketPriorityId": 938,
+    "Name": "Breitenberg Group",
     "Status": "Deleted",
     "Flags": "AlertSchedule",
-    "SortOrder": 888,
+    "SortOrder": 467,
     "TicketRead": "Continue",
     "ChangedOwner": "Continue",
     "TicketNewinfo": "Continue",
     "TicketClosed": "Continue",
     "TicketChangedPriority": "Continue",
     "TicketNew": "Continue",
-    "Deadline": 469,
-    "MonStart": "2016-03-03T03:47:00.8942898+01:00",
-    "MonStop": "2017-12-12T03:47:00.8942898+01:00",
-    "TueStart": "2005-03-06T03:47:00.8942898+01:00",
-    "TueStop": "2009-02-24T03:47:00.8942898+01:00",
-    "WedStart": "1998-05-22T03:47:00.8942898+02:00",
-    "WedStop": "2006-08-11T03:47:00.8942898+02:00",
-    "ThuStart": "2012-09-10T03:47:00.8942898+02:00",
-    "ThuStop": "2005-03-10T03:47:00.8942898+01:00",
-    "FriStart": "2015-06-09T03:47:00.8942898+02:00",
-    "FriStop": "2000-06-13T03:47:00.8942898+02:00",
-    "SatStart": "2018-01-03T03:47:00.8942898+01:00",
-    "SatStop": "2001-08-26T03:47:00.8942898+02:00",
-    "SunStart": "1999-05-04T03:47:00.8942898+02:00",
-    "SunStop": "2016-10-12T03:47:00.8942898+02:00",
+    "Deadline": 187,
+    "MonStart": "2022-11-16T02:30:53.5223788+01:00",
+    "MonStop": "2014-12-27T02:30:53.5223788+01:00",
+    "TueStart": "2003-10-13T02:30:53.5223788+02:00",
+    "TueStop": "2011-05-26T02:30:53.5223788+02:00",
+    "WedStart": "2001-03-12T02:30:53.5223788+01:00",
+    "WedStop": "2012-02-19T02:30:53.5223788+01:00",
+    "ThuStart": "2022-06-22T02:30:53.5223788+02:00",
+    "ThuStop": "2003-07-22T02:30:53.5223788+02:00",
+    "FriStart": "2008-01-08T02:30:53.5223788+01:00",
+    "FriStop": "2014-12-02T02:30:53.5223788+01:00",
+    "SatStart": "2011-02-02T02:30:53.5223788+01:00",
+    "SatStop": "2016-08-28T02:30:53.5223788+02:00",
+    "SunStart": "2024-08-28T02:30:53.5223788+02:00",
+    "SunStop": "2020-01-28T02:30:53.5223788+01:00",
     "NonDates": [
-      "error",
-      "facilis"
+      "animi",
+      "veritatis"
     ],
     "EscalationLevels": [
       {
-        "TicketAlertId": 339,
-        "AlertLevel": 747,
-        "AlertTimeout": 521,
-        "Action": 116,
-        "DelegateTo": 716,
-        "ScriptId": 889,
-        "EmailTo": "aletha_block@quigley.uk",
-        "SmsTo": "sunt",
-        "ReplyTemplateIdCustomer": 877,
-        "ReplyTemplateIdUser": 505,
-        "ReplyTemplateIdCatmast": 341,
-        "ReplyTemplateIdEmail": 66,
-        "RtiCustomerSms": 286,
-        "ReplyTemplateIdUserSms": 343,
-        "ReplyTemplateIdCatmastSms": 121,
-        "ReplyTemplateIdSms": 712,
+        "TicketAlertId": 92,
+        "AlertLevel": 225,
+        "AlertTimeout": 733,
+        "Action": 51,
+        "DelegateTo": 453,
+        "ScriptId": 474,
+        "EmailTo": "miller@cassin.us",
+        "SmsTo": "quo",
+        "ReplyTemplateIdCustomer": 972,
+        "ReplyTemplateIdUser": 818,
+        "ReplyTemplateIdCatmast": 53,
+        "ReplyTemplateIdEmail": 527,
+        "RtiCustomerSms": 419,
+        "ReplyTemplateIdUserSms": 514,
+        "ReplyTemplateIdCatmastSms": 670,
+        "ReplyTemplateIdSms": 929,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 407
+            "FieldLength": 983
           }
         }
       }
@@ -168,8 +168,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 600
+        "FieldType": "System.Int32",
+        "FieldLength": 722
       }
     }
   }

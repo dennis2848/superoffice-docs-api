@@ -14,6 +14,8 @@ POST /api/v1/Agents/Selection/CreateSelectionFromSelection
 Creates a new selection based on selection members from an existing selection.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -121,8 +123,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 867,
-  "Name": "Schimmel-Carter",
+  "SelectionId": 132,
+  "Name": "Toy, Howe and McClure",
   "TargetSelectionType": "Combined",
   "CopyMembers": false
 }
@@ -135,70 +137,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Fully-configurable context-sensitive methodology",
-  "Postit": "adipisci",
+  "Description": "Centralized leading edge synergy",
+  "Postit": "omnis",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 412,
-  "IncludePerson": 908,
+  "GroupIdx": 887,
+  "IncludePerson": 739,
   "MemberCount": 99.99,
-  "Name": "Rowe LLC",
-  "PostitTextId": 478,
-  "CreatedDate": "2005-09-26T03:46:55.3788724+02:00",
-  "SelectionId": 844,
-  "SoundEx": "qui",
-  "Source": 549,
-  "TextId": 393,
-  "UpdatedDate": "2025-05-10T03:46:55.3788724+02:00",
-  "UpdatedCount": 266,
-  "Visibility": 98,
+  "Name": "Feeney LLC",
+  "PostitTextId": 692,
+  "CreatedDate": "2018-09-26T02:30:47.8350657+02:00",
+  "SelectionId": 314,
+  "SoundEx": "architecto",
+  "Source": 328,
+  "TextId": 293,
+  "UpdatedDate": "2003-02-12T02:30:47.8350657+01:00",
+  "UpdatedCount": 937,
+  "Visibility": 952,
   "SelectionType": "Combined",
-  "CompanyUnique": true,
-  "TargetTableNumber": 279,
-  "TargetTableName": "Koss-Gerlach",
+  "CompanyUnique": false,
+  "TargetTableNumber": 898,
+  "TargetTableName": "Berge-Romaguera",
   "Completed": false,
-  "LeftSelectionId": 225,
-  "RightSelectionId": 433,
+  "LeftSelectionId": 778,
+  "RightSelectionId": 787,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "McDermott Inc and Sons",
-  "ShadowProviderName": "Bradtke Group",
-  "ChartKey": "tempora",
-  "LastLoaded": "2017-11-03T03:46:55.3788724+01:00",
-  "LastLoadedBy": 484,
+  "MainProviderName": "Roob, Rodriguez and Kling",
+  "ShadowProviderName": "Howe-Rohan",
+  "ChartKey": "dolorem",
+  "LastLoaded": "2020-07-24T02:30:47.8350657+02:00",
+  "LastLoadedBy": 93,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2019-07-10T03:46:55.3788724+02:00",
-  "LastMembershipChangeBy": 827,
+  "LastMembershipChange": "2015-12-29T02:30:47.8350657+01:00",
+  "LastMembershipChangeBy": 552,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "et",
-  "MemberTabHeading": "illo",
-  "MailingsProviderName": "Durgan LLC",
-  "DashboardTileDefinitionId": 868,
+  "MainHeading": "debitis",
+  "MemberTabHeading": "nesciunt",
+  "MailingsProviderName": "Cassin-Price",
+  "DashboardTileDefinitionId": 795,
   "VisibleFor": [
     {
-      "VisibleId": 57,
+      "VisibleId": 70,
       "Visibility": "All",
-      "DisplayValue": "nobis",
+      "DisplayValue": "aperiam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 832
+          "FieldType": "System.Int32",
+          "FieldLength": 517
         }
       }
     },
     {
-      "VisibleId": 57,
+      "VisibleId": 70,
       "Visibility": "All",
-      "DisplayValue": "nobis",
+      "DisplayValue": "aperiam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 832
+          "FieldType": "System.Int32",
+          "FieldLength": 517
         }
       }
     }
@@ -208,7 +210,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 991
+      "FieldLength": 397
     }
   }
 }

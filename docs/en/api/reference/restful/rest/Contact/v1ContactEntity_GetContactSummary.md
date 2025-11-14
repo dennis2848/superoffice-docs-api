@@ -30,7 +30,7 @@ Get summary of contact and its recent activity.
 | limit | int32 |  Max number of items to include in summary lists. |
 
 ```http
-GET /api/v1/Contact/{contactId}/Summary?limit=167
+GET /api/v1/Contact/{contactId}/Summary?limit=136
 ```
 
 
@@ -73,7 +73,7 @@ OK
 GET /api/v1/Contact/{contactId}/Summary
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,79 +86,79 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "Tickets": [
     {
-      "TicketId": 365,
-      "TicketStatus": 174,
-      "Title": "molestiae",
-      "Registered": "2013-03-09T03:46:59.8786923+01:00",
-      "IconHint": "ut"
+      "TicketId": 764,
+      "TicketStatus": 432,
+      "Title": "nesciunt",
+      "Registered": "2019-12-30T02:30:52.4911666+01:00",
+      "IconHint": "tenetur"
     },
     {
-      "TicketId": 365,
-      "TicketStatus": 174,
-      "Title": "molestiae",
-      "Registered": "2013-03-09T03:46:59.8786923+01:00",
-      "IconHint": "ut"
+      "TicketId": 764,
+      "TicketStatus": 432,
+      "Title": "nesciunt",
+      "Registered": "2019-12-30T02:30:52.4911666+01:00",
+      "IconHint": "tenetur"
     }
   ],
   "Followups": [
     {
-      "AppointmentId": 132,
-      "DocumentId": 474,
-      "Date": "2020-11-03T03:46:59.8786923+01:00",
-      "Description": "Assimilated even-keeled portal",
+      "AppointmentId": 213,
+      "DocumentId": 825,
+      "Date": "2009-04-13T02:30:52.4911666+02:00",
+      "Description": "Distributed heuristic structure",
       "Completed": "Completed",
-      "Registered": "1999-04-21T03:46:59.8786923+02:00"
+      "Registered": "2010-03-27T02:30:52.4911666+01:00"
     },
     {
-      "AppointmentId": 132,
-      "DocumentId": 474,
-      "Date": "2020-11-03T03:46:59.8786923+01:00",
-      "Description": "Assimilated even-keeled portal",
+      "AppointmentId": 213,
+      "DocumentId": 825,
+      "Date": "2009-04-13T02:30:52.4911666+02:00",
+      "Description": "Distributed heuristic structure",
       "Completed": "Completed",
-      "Registered": "1999-04-21T03:46:59.8786923+02:00"
+      "Registered": "2010-03-27T02:30:52.4911666+01:00"
     }
   ],
   "Documents": [
     {
-      "AppointmentId": 117,
-      "DocumentId": 244,
-      "Date": "2024-09-06T03:46:59.8786923+02:00",
-      "Description": "Monitored assymetric initiative",
+      "AppointmentId": 926,
+      "DocumentId": 722,
+      "Date": "2000-12-31T02:30:52.4911666+01:00",
+      "Description": "Focused leading edge complexity",
       "Completed": "Completed",
-      "Registered": "2019-01-14T03:46:59.8786923+01:00"
+      "Registered": "2002-03-28T02:30:52.4911666+01:00"
     },
     {
-      "AppointmentId": 117,
-      "DocumentId": 244,
-      "Date": "2024-09-06T03:46:59.8786923+02:00",
-      "Description": "Monitored assymetric initiative",
+      "AppointmentId": 926,
+      "DocumentId": 722,
+      "Date": "2000-12-31T02:30:52.4911666+01:00",
+      "Description": "Focused leading edge complexity",
       "Completed": "Completed",
-      "Registered": "2019-01-14T03:46:59.8786923+01:00"
+      "Registered": "2002-03-28T02:30:52.4911666+01:00"
     }
   ],
   "Sales": [
     {
-      "SaleId": 236,
-      "SaleDate": "2005-02-02T03:46:59.8786923+01:00",
-      "Probability": 312,
-      "Heading": "sit",
-      "Amount": 23103.847999999998,
-      "Currency": "eum",
-      "AmountInBaseCurrency": 24269.696,
+      "SaleId": 615,
+      "SaleDate": "2003-03-07T02:30:52.4911666+01:00",
+      "Probability": 976,
+      "Heading": "eius",
+      "Amount": 21894.124,
+      "Currency": "consequuntur",
+      "AmountInBaseCurrency": 21715.486,
       "Status": "Lost",
       "Completed": "Completed",
-      "Registered": "2012-02-13T03:46:59.8786923+01:00"
+      "Registered": "2005-12-06T02:30:52.4911666+01:00"
     }
   ],
   "Chats": [
     {
-      "ChatSessionId": 957,
-      "Name": "Leuschke, Morar and Jakubowski",
-      "CompanyName": "Pacocha-Wehner",
-      "FirstMessage": "placeat",
-      "LastMessage": "nam",
-      "WhenRequested": "2003-09-15T03:46:59.8786923+02:00",
-      "WhenEnded": "2015-08-05T03:46:59.8786923+02:00"
+      "ChatSessionId": 775,
+      "Name": "Hamill-Romaguera",
+      "CompanyName": "Labadie Group",
+      "FirstMessage": "exercitationem",
+      "LastMessage": "delectus",
+      "WhenRequested": "2004-12-10T02:30:52.4911666+01:00",
+      "WhenEnded": "2017-08-21T02:30:52.4911666+02:00"
     }
   ]
 }

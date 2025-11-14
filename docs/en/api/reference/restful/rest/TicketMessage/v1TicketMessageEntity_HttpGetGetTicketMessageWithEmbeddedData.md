@@ -108,79 +108,79 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 760,
+  "EjMessageId": 660,
   "Ticket": null,
-  "CreatedAt": "2011-01-14T03:47:00.3786828+01:00",
+  "CreatedAt": "2023-08-24T02:30:53.0067748+02:00",
   "CreatedBy": null,
-  "Author": "quos",
+  "Author": "voluptatem",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "nam",
-  "TimeSpent": 679,
-  "Body": "ullam",
-  "HtmlBody": "laudantium",
-  "EmailHeader": "rhiannon.sawayn@rowe.com",
-  "DebugInfo": "sapiente",
-  "MailSorter": "est",
+  "MessageId": "est",
+  "TimeSpent": 942,
+  "Body": "qui",
+  "HtmlBody": "quos",
+  "EmailHeader": "raven.ohara@boyle.ca",
+  "DebugInfo": "commodi",
+  "MailSorter": "perspiciatis",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "quod",
+  "SearchTitle": "similique",
   "MessageHeaders": [
     {
-      "Id": 60,
-      "Name": "Dibbert-O'Hara",
-      "Value": "omnis",
+      "Id": 388,
+      "Name": "Bauch Inc and Sons",
+      "Value": "excepturi",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 797
+          "FieldType": "System.Int32",
+          "FieldLength": 940
         }
       }
     }
   ],
   "Important": false,
-  "Language": "et",
-  "Sentiment": 220,
-  "SentimentConfidence": 340,
+  "Language": "itaque",
+  "Sentiment": 901,
+  "SentimentConfidence": 547,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 153,
-      "Name": "Daugherty-Crona",
-      "ContentType": "optio",
-      "AttSize": 448,
+      "AttachmentId": 782,
+      "Name": "Stracke, West and Donnelly",
+      "ContentType": "et",
+      "AttSize": 157,
       "InlineImage": false,
-      "ContentId": "et",
-      "AuthKey": "culpa",
+      "ContentId": "error",
+      "AuthKey": "ut",
       "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 511
+          "FieldType": "System.Int32",
+          "FieldLength": 592
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "dolores",
-    "ExtraFields2": "cupiditate"
+    "ExtraFields1": "facilis",
+    "ExtraFields2": "suscipit"
   },
   "CustomFields": {
-    "CustomFields1": "non",
-    "CustomFields2": "consequatur"
+    "CustomFields1": "asperiores",
+    "CustomFields2": "omnis"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 14
+      "FieldType": "System.Int32",
+      "FieldLength": 364
     }
   }
 }

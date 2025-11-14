@@ -14,6 +14,8 @@ POST /api/v1/Agents/Archive/GetProviderNames
 Return list of all archive provider names
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -71,7 +73,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  "velit",
-  "a"
+  "molestias",
+  "non"
 ]
 ```

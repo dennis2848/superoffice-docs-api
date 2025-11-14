@@ -14,6 +14,8 @@ POST /api/v1/Agents/Project/GetNextMilestone
 Next upcoming milestone appointment
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -128,11 +130,11 @@ OK
 POST /api/v1/Agents/Project/GetNextMilestone
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 570
+  "ProjectId": 278
 }
 ```
 
@@ -143,67 +145,67 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 777,
-  "StartDate": "2003-12-04T03:46:55.1601179+01:00",
-  "EndDate": "2010-11-07T03:46:55.1601179+01:00",
+  "AppointmentId": 788,
+  "StartDate": "2005-05-04T02:30:47.6788214+02:00",
+  "EndDate": "2025-07-28T02:30:47.6788214+02:00",
   "Type": "BookingForChecklist",
-  "Task": "et",
-  "AssociateFullName": "Nannie Corwin III",
-  "ContactName": "Torphy, Crist and Kohler",
-  "Description": "Reverse-engineered non-volatile middleware",
-  "PersonFullName": "Tara Reinger",
-  "PersonId": 404,
-  "ContactId": 520,
-  "ProjectId": 901,
-  "ProjectName": "Schmitt LLC",
-  "IsPublished": true,
-  "AssociateId": 980,
-  "ColorIndex": 861,
+  "Task": "numquam",
+  "AssociateFullName": "Joan Barton Jr.",
+  "ContactName": "Pacocha-Klocko",
+  "Description": "Total reciprocal protocol",
+  "PersonFullName": "Mr. Ceasar Sandrine Gleichner",
+  "PersonId": 973,
+  "ContactId": 60,
+  "ProjectId": 431,
+  "ProjectName": "Parisian Inc and Sons",
+  "IsPublished": false,
+  "AssociateId": 98,
+  "ColorIndex": 54,
   "IsFree": false,
   "HasAlarm": false,
-  "IsAlldayEvent": true,
+  "IsAlldayEvent": false,
   "Private": "PrivateGroup",
-  "PriorityId": 370,
-  "PriorityName": "Jaskolski, Rodriguez and Sipes",
+  "PriorityId": 707,
+  "PriorityName": "Fritsch-VonRueden",
   "TaskType": "Appointment",
   "IsBookingMain": false,
   "IsRecurrence": false,
   "IsBooking": true,
-  "ActiveDate": "2001-09-10T03:46:55.1601179+02:00",
+  "ActiveDate": "2012-09-22T02:30:47.6788214+02:00",
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
   "Completed": "Completed",
   "RecurringPattern": "Custom",
-  "RecurringStartDate": "2008-09-16T03:46:55.1601179+02:00",
-  "RecurringEndDate": "2011-12-31T03:46:55.1601179+01:00",
-  "MotherId": 47,
-  "AssignedBy": 555,
-  "AssignedByFullName": "Prof. Colin Deshawn Baumbach",
+  "RecurringStartDate": "2008-03-28T02:30:47.6788214+01:00",
+  "RecurringEndDate": "2021-07-19T02:30:47.6788214+02:00",
+  "MotherId": 470,
+  "AssignedBy": 112,
+  "AssignedByFullName": "Victoria Leannon",
   "RejectReason": "",
-  "Location": "deserunt",
-  "AlarmLeadTime": "cumque",
-  "SaleId": 48,
-  "SaleName": "Koch, Lowe and Jerde",
-  "AssociateName": "Crist, Osinski and Gaylord",
-  "CreatedDate": "2021-07-05T03:46:55.1601179+02:00",
-  "CreatedBy": "sint",
-  "CreatedByFullName": "Mrs. Jovany Alan Kuvalis V",
-  "CreatedByAssociateId": 914,
+  "Location": "perferendis",
+  "AlarmLeadTime": "eum",
+  "SaleId": 791,
+  "SaleName": "Runolfsdottir, Krajcik and Marquardt",
+  "AssociateName": "Cummerata Group",
+  "CreatedDate": "2012-01-21T02:30:47.6788214+01:00",
+  "CreatedBy": "quas",
+  "CreatedByFullName": "Afton Aufderhar",
+  "CreatedByAssociateId": 664,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "OwnedExternally": "Google",
-  "MotherAssociateId": 559,
+  "MotherAssociateId": 631,
   "JoinVideomeetUrl": "http://www.example.com/",
-  "PreferredTZLocation": 85,
-  "Title": "in",
-  "Agenda": "quo",
+  "PreferredTZLocation": 14,
+  "Title": "omnis",
+  "Agenda": "eum",
   "InternalNotes": "rerum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 952
+      "FieldType": "System.Int32",
+      "FieldLength": 118
     }
   }
 }

@@ -14,6 +14,8 @@ POST /api/v1/Agents/ForeignSystem/SaveForeignDevice
 Saves a foreign device for an foreign application
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -83,12 +85,12 @@ OK
 POST /api/v1/Agents/ForeignSystem/SaveForeignDevice
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "ForeignDevice": null,
-  "ApplicationName": "Kulas LLC"
+  "ApplicationName": "Schuster, Shields and Rempel"
 }
 ```
 
@@ -99,21 +101,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 866,
-  "Name": "Kiehn Inc and Sons",
-  "CreatedDate": "2003-04-17T03:46:54.9107593+02:00",
-  "UpdatedDate": "2013-06-24T03:46:54.9107593+02:00",
-  "AssociateFullName": "Trycia Conn",
-  "CreatedBy": "natus",
-  "UpdatedBy": "sed",
-  "DeviceIdentifier": "quasi",
-  "ForeignAppId": 142,
+  "ForeignDeviceId": 356,
+  "Name": "Lueilwitz-Crona",
+  "CreatedDate": "2001-06-27T02:30:47.366331+02:00",
+  "UpdatedDate": "2009-05-03T02:30:47.366331+02:00",
+  "AssociateFullName": "Mrs. Santiago Mozell Quigley DDS",
+  "CreatedBy": "a",
+  "UpdatedBy": "et",
+  "DeviceIdentifier": "esse",
+  "ForeignAppId": 338,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 541
+      "FieldType": "System.String",
+      "FieldLength": 936
     }
   }
 }

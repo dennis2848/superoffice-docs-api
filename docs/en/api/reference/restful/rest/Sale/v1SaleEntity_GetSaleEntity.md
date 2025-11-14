@@ -15,6 +15,7 @@ Gets a SaleEntity object.
 
 
 Calls the Sale agent service GetSaleEntity.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -128,7 +129,7 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 SaleEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Fri, 04 Apr 2014 03:47:00 G4T
+Last-Modified: Mon, 09 Dec 2019 02:30:52 G12T
 
 {
   "Appointment": null,
@@ -137,7 +138,7 @@ Last-Modified: Fri, 04 Apr 2014 03:47:00 G4T
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "vitae",
+  "SaleText": "suscipit",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -146,113 +147,113 @@ Last-Modified: Fri, 04 Apr 2014 03:47:00 G4T
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2005-04-02T03:47:00.2536872+02:00",
-  "Amount": 122.226,
-  "SaleId": 473,
-  "Earning": 13830.341999999999,
-  "EarningPercent": 24391.922,
-  "Heading": "consequatur",
-  "Number": "406527",
-  "Probability": 785,
-  "CreatedDate": "2006-05-16T03:47:00.2536872+02:00",
-  "UpdatedDate": "2014-04-04T03:47:00.2536872+02:00",
+  "Saledate": "2024-07-08T02:30:52.866154+02:00",
+  "Amount": 16083.688,
+  "SaleId": 345,
+  "Earning": 28992.634,
+  "EarningPercent": 24504.746,
+  "Heading": "vel",
+  "Number": "344770",
+  "Probability": 243,
+  "CreatedDate": "2019-11-28T02:30:52.866154+01:00",
+  "UpdatedDate": "2019-12-09T02:30:52.866154+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 548,
+  "ActiveLinks": 894,
   "Links": [
     {
-      "EntityName": "Emmerich-Wiegand",
-      "Id": 708,
-      "Description": "Function-based context-sensitive methodology",
-      "ExtraInfo": "sit",
-      "LinkId": 24,
+      "EntityName": "Corkery LLC",
+      "Id": 842,
+      "Description": "Multi-channelled logistical concept",
+      "ExtraInfo": "id",
+      "LinkId": 937,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 82
+          "FieldLength": 130
         }
       }
     }
   ],
-  "NextDueDate": "2012-11-08T03:47:00.2536872+01:00",
-  "Postit": "quos",
+  "NextDueDate": "2007-09-19T02:30:52.866154+02:00",
+  "Postit": "ad",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2003-12-18T03:47:00.2536872+01:00",
+  "ReopenDate": "2015-04-20T02:30:52.866154+02:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Little Group",
-      "Comment": "consequuntur",
-      "StakeholderRoleId": 439,
-      "CountryId": 411,
-      "PersonId": 591,
-      "EmailDescription": "thad_klocko@blick.co.uk",
-      "EmailId": 544,
-      "EmailAddress": "dereck@ziemannconsidine.com",
-      "PhoneId": 753,
-      "ContactName": "Langworth Group",
-      "ContactId": 434,
-      "SaleId": 887,
-      "Mrmrs": "sit",
-      "Firstname": "Maryam",
-      "MiddleName": "Moen LLC",
-      "Lastname": "Becker",
-      "SaleStakeholderId": 558,
-      "Rank": 93,
-      "Phone": "145-664-3084",
+      "StakeholderRoleName": "Walter LLC",
+      "Comment": "numquam",
+      "StakeholderRoleId": 744,
+      "CountryId": 652,
+      "PersonId": 838,
+      "EmailDescription": "elvera@wiegandkuvalis.co.uk",
+      "EmailId": 854,
+      "EmailAddress": "lupe@graham.ca",
+      "PhoneId": 474,
+      "ContactName": "Zulauf, Runolfsdottir and Collins",
+      "ContactId": 460,
+      "SaleId": 492,
+      "Mrmrs": "ex",
+      "Firstname": "Sylvester",
+      "MiddleName": "Bechtelar-Corwin",
+      "Lastname": "Abernathy",
+      "SaleStakeholderId": 972,
+      "Rank": 502,
+      "Phone": "467-884-0043 x1726",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 247
+          "FieldLength": 331
         }
       }
     }
   ],
-  "ActiveErpLinks": 930,
+  "ActiveErpLinks": 573,
   "UserDefinedFields": {
-    "SuperOffice:1": "Prof. Jessyca Becker IV",
-    "SuperOffice:2": "1588955661"
+    "SuperOffice:1": "False",
+    "SuperOffice:2": "Heather Olson"
   },
   "ExtraFields": {
-    "ExtraFields1": "maiores",
-    "ExtraFields2": "ipsam"
+    "ExtraFields1": "illo",
+    "ExtraFields2": "excepturi"
   },
   "CustomFields": {
-    "CustomFields1": "est",
-    "CustomFields2": "eos"
+    "CustomFields1": "laudantium",
+    "CustomFields2": "odit"
   },
-  "PublishEventDate": "2004-11-10T03:47:00.2536872+01:00",
-  "PublishTo": "2010-04-10T03:47:00.2536872+02:00",
-  "PublishFrom": "2024-11-01T03:47:00.2536872+01:00",
+  "PublishEventDate": "2025-01-26T02:30:52.8817786+01:00",
+  "PublishTo": "2022-12-10T02:30:52.8817786+01:00",
+  "PublishFrom": "2023-11-19T02:30:52.8817786+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 247,
+      "VisibleId": 995,
       "Visibility": "All",
-      "DisplayValue": "molestiae",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 917
+          "FieldLength": 405
         }
       }
     },
     {
-      "VisibleId": 247,
+      "VisibleId": 995,
       "Visibility": "All",
-      "DisplayValue": "molestiae",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 917
+          "FieldLength": 405
         }
       }
     }
@@ -262,7 +263,7 @@ Last-Modified: Fri, 04 Apr 2014 03:47:00 G4T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 365
+      "FieldLength": 876
     }
   },
   "_Links": {

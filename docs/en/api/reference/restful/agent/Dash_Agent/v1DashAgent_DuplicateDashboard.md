@@ -14,6 +14,8 @@ POST /api/v1/Agents/Dash/DuplicateDashboard
 Duplicate for the dashboard and all the sub elements
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -87,12 +89,12 @@ OK
 POST /api/v1/Agents/Dash/DuplicateDashboard
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 378,
-  "Name": "Muller-Beer"
+  "DashboardId": 918,
+  "Name": "Fay-Haag"
 }
 ```
 
@@ -103,37 +105,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 220,
-  "UniqueId": "eos",
-  "Name": "Stark, Treutel and Shanahan",
-  "Description": "Realigned 24/7 capability",
-  "AssociateId": 94,
-  "Columns": 333,
+  "DashboardId": 138,
+  "UniqueId": "eum",
+  "Name": "Marks-Kris",
+  "Description": "Synchronised fault-tolerant customer loyalty",
+  "AssociateId": 919,
+  "Columns": 545,
   "Theme": null,
-  "VisibleForAll": 933,
+  "VisibleForAll": 569,
   "VisibleForAssociates": [
-    689,
-    679
+    519,
+    981
   ],
   "VisibleForGroups": [
-    767,
-    455
+    790,
+    572
   ],
-  "PinForAll": 353,
+  "PinForAll": 117,
   "PinForAssociates": [
-    763,
-    978
+    242,
+    534
   ],
   "PinForGroups": [
-    241,
-    176
+    467,
+    455
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 796
+      "FieldType": "System.String",
+      "FieldLength": 37
     }
   }
 }

@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/SaveHeadingFromListDefinition
 Save new heading for list resolved by the provided id.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -84,7 +86,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 538,
+  "Id": 78,
   "Entity": null
 }
 ```
@@ -96,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 734,
-  "Name": "Hane-Rempel",
-  "Tooltip": "ad",
+  "HeadingId": 143,
+  "Name": "Cassin-Kuhic",
+  "Tooltip": "nulla",
   "Deleted": false,
-  "Rank": 943,
-  "UdListDefinitionId": 677,
+  "Rank": 405,
+  "UdListDefinitionId": 85,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 976
+      "FieldType": "System.String",
+      "FieldLength": 867
     }
   }
 }

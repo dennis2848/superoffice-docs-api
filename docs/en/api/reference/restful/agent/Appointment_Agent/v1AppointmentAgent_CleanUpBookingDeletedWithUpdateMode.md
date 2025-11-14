@@ -15,6 +15,7 @@ Deletes all appointments(within the appointmentIds array) with status BookingDel
 
 
 All appointments in the list will be deleted using the same recurrence update mode.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -68,13 +69,13 @@ No Content
 POST /api/v1/Agents/Appointment/CleanUpBookingDeletedWithUpdateMode
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "AppointmentIds": [
-    146,
-    722
+    922,
+    749
   ],
   "UpdateMode": "OnlyThis"
 }

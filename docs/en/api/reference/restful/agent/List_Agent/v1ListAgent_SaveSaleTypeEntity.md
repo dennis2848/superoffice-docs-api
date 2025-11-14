@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/SaveSaleTypeEntity
 Updates the existing SaleTypeEntity or creates a new SaleTypeEntity if the id parameter is 0.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -106,51 +108,51 @@ OK
 POST /api/v1/Agents/List/SaveSaleTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 24,
-  "Name": "Roob Group",
-  "Tooltip": "quia",
-  "Rank": 390,
+  "SaleTypeId": 955,
+  "Name": "Krajcik-Daniel",
+  "Tooltip": "fugiat",
+  "Rank": 740,
   "DurationUnit": "Century",
-  "SaleDuration": 181,
-  "SaleTypeCatId": 232,
-  "Deleted": true,
+  "SaleDuration": 881,
+  "SaleTypeCatId": 838,
+  "Deleted": false,
   "HasGuide": false,
-  "HasStakeholders": true,
-  "IsAutoAdvance": false,
+  "HasStakeholders": false,
+  "IsAutoAdvance": true,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 500,
-  "QuoteLinesTemplate": 45,
-  "ConfirmationLinesTemplate": 23,
-  "MaxDiscountPercentSet": true,
+  "DefaultQuoteValidity": 351,
+  "QuoteLinesTemplate": 825,
+  "ConfirmationLinesTemplate": 969,
+  "MaxDiscountPercentSet": false,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 664,
-  "MinEarningPercent": 674,
-  "GroupQuoteLinesBy": 236,
-  "SortGroupLinesBy": 552,
+  "MaxDiscountPercent": 456,
+  "MinEarningPercent": 424,
+  "GroupQuoteLinesBy": 750,
+  "SortGroupLinesBy": 139,
   "Stages": [
     {
-      "Id": 741,
-      "Name": "Streich-Grimes",
-      "ToolTip": "Perferendis quia est officiis dicta eos eligendi labore.",
-      "Deleted": true,
-      "Rank": 7,
-      "Type": "natus",
-      "ColorBlock": 70,
-      "IconHint": "soluta",
+      "Id": 840,
+      "Name": "Hirthe Inc and Sons",
+      "ToolTip": "Rem hic mollitia minus et at.",
+      "Deleted": false,
+      "Rank": 446,
+      "Type": "id",
+      "ColorBlock": 276,
+      "IconHint": "sed",
       "Selected": false,
-      "LastChanged": "2010-03-20T03:46:54.9413809+01:00",
+      "LastChanged": "2015-03-25T02:30:47.3975807+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "delectus",
-      "StyleHint": "voluptatem",
+      "ExtraInfo": "laudantium",
+      "StyleHint": "nesciunt",
       "Hidden": false,
-      "FullName": "Kathryn Tillman PhD"
+      "FullName": "Mr. Juliet Oceane Hansen PhD"
     }
   ]
 }
@@ -163,53 +165,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 239,
-  "Name": "Ryan Inc and Sons",
-  "Tooltip": "tempore",
-  "Rank": 145,
+  "SaleTypeId": 724,
+  "Name": "Gleichner, Miller and Gleason",
+  "Tooltip": "expedita",
+  "Rank": 835,
   "DurationUnit": "Century",
-  "SaleDuration": 498,
-  "SaleTypeCatId": 859,
-  "Deleted": true,
+  "SaleDuration": 35,
+  "SaleTypeCatId": 493,
+  "Deleted": false,
   "HasGuide": false,
   "HasStakeholders": true,
-  "IsAutoAdvance": true,
-  "AllowQuoteAlternatives": true,
-  "DefaultQuoteValidity": 4,
-  "QuoteLinesTemplate": 909,
-  "ConfirmationLinesTemplate": 121,
+  "IsAutoAdvance": false,
+  "AllowQuoteAlternatives": false,
+  "DefaultQuoteValidity": 758,
+  "QuoteLinesTemplate": 9,
+  "ConfirmationLinesTemplate": 758,
   "MaxDiscountPercentSet": false,
-  "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 59,
-  "MinEarningPercent": 751,
-  "GroupQuoteLinesBy": 71,
-  "SortGroupLinesBy": 730,
+  "MinEarningPercentSet": true,
+  "MaxDiscountPercent": 683,
+  "MinEarningPercent": 864,
+  "GroupQuoteLinesBy": 944,
+  "SortGroupLinesBy": 665,
   "Stages": [
     {
-      "Id": 499,
-      "Name": "Runte, Bogisich and Rodriguez",
-      "ToolTip": "Perspiciatis rerum earum reiciendis voluptatum voluptatibus eos.",
+      "Id": 764,
+      "Name": "Macejkovic Group",
+      "ToolTip": "Illum ex cum illo aut eligendi minima.",
       "Deleted": true,
-      "Rank": 803,
-      "Type": "occaecati",
-      "ColorBlock": 531,
-      "IconHint": "et",
+      "Rank": 921,
+      "Type": "voluptatem",
+      "ColorBlock": 75,
+      "IconHint": "nam",
       "Selected": true,
-      "LastChanged": "2019-11-08T03:46:54.9413809+01:00",
+      "LastChanged": "2012-09-02T02:30:47.3975807+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "veritatis",
-      "StyleHint": "doloremque",
+      "ExtraInfo": "totam",
+      "StyleHint": "aspernatur",
       "Hidden": false,
-      "FullName": "Jarrett Leannon",
+      "FullName": "Carroll Watson Turner DDS",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 94
+          "FieldType": "System.String",
+          "FieldLength": 714
         }
       }
     }
@@ -218,8 +220,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 280
+      "FieldType": "System.String",
+      "FieldLength": 59
     }
   }
 }

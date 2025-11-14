@@ -15,6 +15,7 @@ Returns true if viewState has been clicked at least once since FromDate, if assc
 
 
 MinValue no restriction given for those parameters
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -73,13 +74,13 @@ OK
 POST /api/v1/Agents/Diagnostics/WebAppUsageExistsInPeriod
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 751,
-  "ViewState": "sit",
-  "FromDate": "2002-03-23T03:46:54.6132622+01:00"
+  "AssociateId": 960,
+  "ViewState": "omnis",
+  "FromDate": "1999-09-17T02:30:47.0694635+02:00"
 }
 ```
 

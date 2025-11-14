@@ -15,6 +15,7 @@ Returns the contacts where there has been activity since activityStartTime.
 
 
 If activityStartTime is larger than the current date, all contacts with activity since last log-out are returned. The result set can be filtered by category and action type.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -95,10 +96,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ActivityStartTime": "2013-03-21T03:46:54.4726424+01:00",
+  "ActivityStartTime": "2021-07-03T02:30:46.9444678+02:00",
   "ContactCategories": [
-    630,
-    790
+    667,
+    295
   ],
   "ActionType": "ActivityCompleted"
 }
@@ -112,26 +113,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 191,
-    "Department": "maximize world-class action-items",
-    "OrgNr": "1093233",
-    "Name": "Orn-Altenwerth",
+    "ContactId": 465,
+    "Department": "",
+    "OrgNr": "1671635",
+    "Name": "Beatty Group",
     "URL": "http://www.example.com/",
-    "AssociateFullName": "Robb Homenick",
+    "AssociateFullName": "Dr. Marquis Huels",
     "Action": "ActivityCompleted",
-    "ActionTime": "2013-09-28T03:46:54.4726424+02:00",
+    "ActionTime": "2011-11-15T02:30:46.9444678+01:00",
     "Category": "VIP Customer",
-    "ActivityPersonName": "Gibson, Terry and Kuhic",
-    "ActionId": 889,
-    "PersonId": 79,
-    "ActivityPersonId": 597,
-    "AssociateId": 361,
+    "ActivityPersonName": "Dach Group",
+    "ActionId": 128,
+    "PersonId": 315,
+    "ActivityPersonId": 506,
+    "AssociateId": 873,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 34
+        "FieldType": "System.String",
+        "FieldLength": 205
       }
     }
   }

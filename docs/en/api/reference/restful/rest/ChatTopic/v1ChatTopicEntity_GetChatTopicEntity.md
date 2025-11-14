@@ -15,6 +15,7 @@ Gets a ChatTopicEntity object.
 
 
 Calls the Chat agent service GetChatTopicEntity.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -114,21 +115,21 @@ HTTP/1.1 200 ChatTopicEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 663,
-  "Name": "Block-Strosin",
-  "Description": "Organic analyzing challenge",
-  "WelcomeMessage": "amet",
+  "ChatTopicId": 337,
+  "Name": "Heaney LLC",
+  "Description": "Cloned analyzing initiative",
+  "WelcomeMessage": "qui",
   "Language": null,
-  "LastAccept": "2001-01-07T03:46:59.8005718+01:00",
-  "SecondsPrAccept": 444,
-  "AlertRecipient": "qui",
+  "LastAccept": "2003-07-07T02:30:52.4286686+02:00",
+  "SecondsPrAccept": 562,
+  "AlertRecipient": "quia",
   "AlertTemplate": null,
-  "CollectConsent": false,
-  "BadgeHeader": "praesentium",
+  "CollectConsent": true,
+  "BadgeHeader": "natus",
   "CustomQueueTextEnabled": false,
-  "CustomQueueText": "quis",
-  "WarnNewChatMinutes": 110,
-  "WarnManagerNewChatMinutes": 484,
+  "CustomQueueText": "aperiam",
+  "WarnNewChatMinutes": 962,
+  "WarnManagerNewChatMinutes": 809,
   "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
@@ -138,19 +139,19 @@ Content-Type: application/json; charset=utf-8
   "BotEnabled": false,
   "BotSettings": null,
   "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 73,
-  "WarnManagerChatMessageMinutes": 404,
+  "WarnChatMessageMinutes": 605,
+  "WarnManagerChatMessageMinutes": 602,
   "UseQueueOfflineForm": true,
-  "OfflineFormTimeLimit": 243,
-  "OfflineFormQueueLength": 802,
+  "OfflineFormTimeLimit": 505,
+  "OfflineFormQueueLength": 83,
   "WidgetEnableRating": false,
-  "WidgetRatingText": "laborum",
+  "WidgetRatingText": "est",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 307
+      "FieldLength": 806
     }
   },
   "_Links": {

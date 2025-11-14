@@ -15,6 +15,7 @@ Returning a foreign key by its key name and device identifier, that belongs to t
 
 
 A table name and record ID can also be specified.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -88,16 +89,16 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetKeyOnDeviceIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Hayes, Kohler and Tremblay",
-  "DeviceName": "Hyatt, Hartmann and Hansen",
-  "DeviceIdentifier": "vel",
-  "KeyName": "Champlin-Watsica",
-  "TableName": "Murphy, Kozey and Predovic",
-  "RecordId": 544
+  "ApplicationName": "Morissette, Lind and Witting",
+  "DeviceName": "Halvorson Group",
+  "DeviceIdentifier": "velit",
+  "KeyName": "Stamm, Moen and O'Keefe",
+  "TableName": "Koss, Cole and Cole",
+  "RecordId": 591
 }
 ```
 
@@ -108,20 +109,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "rerum",
-  "Value": "qui",
-  "RecordId": 171,
-  "CreatedDate": "2012-01-10T03:46:54.9107593+01:00",
-  "UpdatedDate": "2021-08-10T03:46:54.9107593+02:00",
-  "UpdatedBy": "commodi",
-  "CreatedBy": "cum",
-  "TableName": "Hills LLC",
+  "Key": "molestiae",
+  "Value": "repellat",
+  "RecordId": 619,
+  "CreatedDate": "2015-01-27T02:30:47.366331+01:00",
+  "UpdatedDate": "2009-10-09T02:30:47.366331+02:00",
+  "UpdatedBy": "molestias",
+  "CreatedBy": "commodi",
+  "TableName": "Goldner, Lindgren and Schaden",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 563
+      "FieldType": "System.Int32",
+      "FieldLength": 386
     }
   }
 }

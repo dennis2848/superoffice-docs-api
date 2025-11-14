@@ -15,6 +15,7 @@ Get a list of all roles for the given type of role.
 
 
 MDO List name = 'Roles', extra='0' (roleType) 
+NsApiSlow threshold: 2000 ms.
 
 
 ## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
@@ -109,56 +110,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 300,
-    "Name": "Vandervort Inc and Sons",
-    "ToolTip": "Sit praesentium aut officiis.",
-    "Deleted": false,
-    "Rank": 666,
-    "Type": "dolor",
-    "ColorBlock": 236,
-    "IconHint": "velit",
+    "Id": 679,
+    "Name": "Balistreri, Bergnaum and Parker",
+    "ToolTip": "Unde assumenda dicta consectetur nulla vel qui minus.",
+    "Deleted": true,
+    "Rank": 864,
+    "Type": "et",
+    "ColorBlock": 917,
+    "IconHint": "tempore",
     "Selected": false,
-    "LastChanged": "2023-10-20T03:46:55.581978+02:00",
+    "LastChanged": "2011-05-04T02:30:48.0850579+02:00",
     "ChildItems": [
       {
-        "Id": 934,
-        "Name": "Runolfsson-Thiel",
-        "ToolTip": "In quia sint accusantium qui consequuntur.",
-        "Deleted": true,
-        "Rank": 298,
-        "Type": "sit",
-        "ColorBlock": 689,
-        "IconHint": "at",
+        "Id": 768,
+        "Name": "Olson, Schuster and Jast",
+        "ToolTip": "Repellat perspiciatis ut architecto voluptatum quo necessitatibus.",
+        "Deleted": false,
+        "Rank": 881,
+        "Type": "rerum",
+        "ColorBlock": 58,
+        "IconHint": "similique",
         "Selected": false,
-        "LastChanged": "2003-05-01T03:46:55.581978+02:00",
+        "LastChanged": "2023-03-13T02:30:48.0850579+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eaque",
-        "StyleHint": "expedita",
-        "Hidden": false,
-        "FullName": "Miss Lacy Mara Trantow V",
+        "ExtraInfo": "rerum",
+        "StyleHint": "id",
+        "Hidden": true,
+        "FullName": "Aliza Veum",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 279
+            "FieldLength": 666
           }
         }
       }
     ],
-    "ExtraInfo": "ad",
-    "StyleHint": "rem",
-    "Hidden": false,
-    "FullName": "Einar O'Keefe",
+    "ExtraInfo": "ut",
+    "StyleHint": "explicabo",
+    "Hidden": true,
+    "FullName": "Kayden Carroll",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 380
+        "FieldLength": 488
       }
     }
   }

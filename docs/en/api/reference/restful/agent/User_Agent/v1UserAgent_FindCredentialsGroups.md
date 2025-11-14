@@ -15,6 +15,7 @@ Get user groups holding users filtered by the searchString.
 
 
 This method is only relevant if the CredentialType control is of type link.  There will allways be at least one groups even if the underlying provider does not support groups.
+NsApiSlow threshold: 1000 ms.
 
 
 ## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
@@ -81,12 +82,12 @@ OK
 POST /api/v1/Agents/User/FindCredentialsGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Type": "voluptas",
-  "SearchString": "veniam"
+  "Type": "omnis",
+  "SearchString": "enim"
 }
 ```
 
@@ -98,26 +99,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Rolfson Inc and Sons",
-    "DisplayName": "Leffler, Heaney and Ritchie",
+    "Name": "Bartoletti-Hettinger",
+    "DisplayName": "Feest-Konopelski",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 866
+        "FieldType": "System.Int32",
+        "FieldLength": 458
       }
     }
   },
   {
-    "Name": "Rolfson Inc and Sons",
-    "DisplayName": "Leffler, Heaney and Ritchie",
+    "Name": "Bartoletti-Hettinger",
+    "DisplayName": "Feest-Konopelski",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 866
+        "FieldType": "System.Int32",
+        "FieldLength": 458
       }
     }
   }

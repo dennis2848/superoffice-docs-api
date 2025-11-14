@@ -14,7 +14,8 @@ PATCH /api/v1/ChatSession/{id}
 Update a ChatSessionEntity with changes, as described in a JSON Patch or a JSON Merge Patch document.
 
 
-See <a href="https://tools.ietf.org/html/rfc6902">RFC6902</a> and <a href="https://tools.ietf.org/html/rfc7386">RFC 7396</a>. Update the Department field to "foo" can be done either as a JSON PATCH:
+See <a href="https://tools.ietf.org/html/rfc6902">RFC6902</a> and <a href="https://tools.ietf.org/html/rfc7386">RFC 7396</a>.
+NsApiSlow threshold: 5000 ms. Update the Department field to "foo" can be done either as a JSON PATCH:
 
 ```js
 
@@ -145,12 +146,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "recusandae",
+    "path": "vel",
     "value": {}
   },
   {
     "op": "add",
-    "path": "recusandae",
+    "path": "vel",
     "value": {}
   }
 ]
@@ -163,29 +164,29 @@ HTTP/1.1 200 ChatSessionEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 754,
-  "TopicId": 776,
+  "ChatSessionId": 64,
+  "TopicId": 794,
   "User": null,
   "Person": null,
-  "CustomerAlias": "non",
-  "CustomerHost": "molestiae",
-  "CustomerName": "Kautzer-Mann",
-  "CustomerEmail": "roma@reichelstreich.biz",
-  "CustomerPhone": "294.359.5769 x8910",
-  "CustomerConsented": true,
-  "CustomerCompanyName": "Littel-Kovacek",
+  "CustomerAlias": "ducimus",
+  "CustomerHost": "est",
+  "CustomerName": "Zemlak Inc and Sons",
+  "CustomerEmail": "ellis.jacobs@binsoreilly.ca",
+  "CustomerPhone": "(029)835-1602 x98516",
+  "CustomerConsented": false,
+  "CustomerCompanyName": "McLaughlin LLC",
   "Status": "Closed",
-  "FirstMessage": "sint",
-  "LastMessage": "sint",
-  "WhenRequested": "2012-12-05T03:46:59.7536971+01:00",
-  "WhenStarted": "2021-12-12T03:46:59.7536971+01:00",
-  "WhenEnded": "2020-12-30T03:46:59.7536971+01:00",
-  "WhenIdle": "2008-01-01T03:46:59.7536971+01:00",
-  "WhenFetched": "1998-06-06T03:46:59.7536971+02:00",
-  "SessionKey": "facere",
-  "InitialQueuePos": 915,
-  "AlertLevel": 135,
-  "Rank": 32,
+  "FirstMessage": "temporibus",
+  "LastMessage": "est",
+  "WhenRequested": "2014-11-27T02:30:52.3817956+01:00",
+  "WhenStarted": "2017-11-10T02:30:52.3817956+01:00",
+  "WhenEnded": "2005-05-26T02:30:52.3817956+02:00",
+  "WhenIdle": "2018-01-18T02:30:52.3817956+01:00",
+  "WhenFetched": "2006-06-28T02:30:52.3817956+02:00",
+  "SessionKey": "qui",
+  "InitialQueuePos": 242,
+  "AlertLevel": 692,
+  "Rank": 393,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -193,13 +194,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": true,
-  "Rating": 891,
+  "Rating": 962,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 771
+      "FieldLength": 116
     }
   },
   "_Links": {

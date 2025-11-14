@@ -15,6 +15,7 @@ Gets a ShipmentMessageEntity object.
 
 
 Calls the Marketing agent service GetShipmentMessageEntity.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -104,33 +105,33 @@ HTTP/1.1 200 ShipmentMessageEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 436,
-  "PlainMessage": "delectus",
-  "HtmlMessage": "deleniti",
-  "SmsMessage": "aliquid",
-  "Description": "Automated discrete adapter",
-  "Subject": "itaque",
-  "FolderId": 298,
-  "HeaderField": "cupiditate",
-  "Design": "adipisci",
+  "ShipmentMessageId": 464,
+  "PlainMessage": "quia",
+  "HtmlMessage": "id",
+  "SmsMessage": "veniam",
+  "Description": "Multi-tiered holistic encryption",
+  "Subject": "cupiditate",
+  "FolderId": 799,
+  "HeaderField": "et",
+  "Design": "necessitatibus",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
-  "InlineImages": false,
-  "LongDescription": "Vision-oriented 24/7 protocol",
-  "AccessKey": "maiores",
-  "DocumentMessage": 27,
-  "Registered": "2009-06-20T03:47:00.3005605+02:00",
-  "RegisteredAssociateId": 824,
-  "Updated": "2003-07-19T03:47:00.3005605+02:00",
-  "UpdatedAssociateId": 527,
-  "UpdatedCount": 526,
+  "InlineImages": true,
+  "LongDescription": "Realigned coherent access",
+  "AccessKey": "deserunt",
+  "DocumentMessage": 697,
+  "Registered": "2000-01-07T02:30:52.9442767+01:00",
+  "RegisteredAssociateId": 147,
+  "Updated": "2022-07-28T02:30:52.9442767+02:00",
+  "UpdatedAssociateId": 419,
+  "UpdatedCount": 522,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 339
+      "FieldLength": 389
     }
   },
   "_Links": {

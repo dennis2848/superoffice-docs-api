@@ -66,7 +66,7 @@ OK
 GET /api/v1/List/Source/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -76,18 +76,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 311,
-  "Name": "Monahan Group",
-  "Tooltip": "maxime",
+  "Id": 815,
+  "Name": "Swaniawski-Bradtke",
+  "Tooltip": "excepturi",
   "Deleted": false,
-  "UdListDefinitionId": 51,
-  "Rank": 772,
+  "UdListDefinitionId": 464,
+  "Rank": 592,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 226
+      "FieldLength": 220
     }
   }
 }

@@ -15,6 +15,7 @@ Method that returns a specified number of appointments matching a set of appoint
 
 
 The appointments belong to the projects where the person specified is member. Task represents the different types of activities, like “Phone call”, “Meeting” and so on.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -134,17 +135,17 @@ OK
 POST /api/v1/Agents/Appointment/GetProjectMemberAppointmentsByTasks
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 490,
-  "StartTime": "2016-09-24T03:46:53.9882851+02:00",
-  "EndTime": "2017-06-20T03:46:53.9882851+02:00",
-  "Count": 881,
+  "PersonId": 576,
+  "StartTime": "2013-06-24T02:30:46.5069828+02:00",
+  "EndTime": "2024-06-26T02:30:46.5069828+02:00",
+  "Count": 640,
   "TaskIds": [
-    656,
-    418
+    359,
+    37
   ]
 }
 ```
@@ -157,67 +158,67 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 488,
-    "StartDate": "1998-09-25T03:46:53.9882851+02:00",
-    "EndDate": "2002-07-08T03:46:53.9882851+02:00",
+    "AppointmentId": 540,
+    "StartDate": "2000-06-27T02:30:46.5069828+02:00",
+    "EndDate": "2012-12-21T02:30:46.5069828+01:00",
     "Type": "BookingForChecklist",
-    "Task": "neque",
-    "AssociateFullName": "Prof. Piper Brooke Towne",
-    "ContactName": "Wolf LLC",
-    "Description": "Streamlined global intranet",
-    "PersonFullName": "Prof. Oda Bernhard DVM",
-    "PersonId": 816,
-    "ContactId": 165,
-    "ProjectId": 623,
-    "ProjectName": "Hermann-West",
-    "IsPublished": true,
-    "AssociateId": 507,
-    "ColorIndex": 881,
+    "Task": "corporis",
+    "AssociateFullName": "Gaetano Jewess",
+    "ContactName": "Aufderhar Inc and Sons",
+    "Description": "Grass-roots tertiary hierarchy",
+    "PersonFullName": "Britney Littel",
+    "PersonId": 122,
+    "ContactId": 7,
+    "ProjectId": 62,
+    "ProjectName": "Gleichner, Monahan and Sauer",
+    "IsPublished": false,
+    "AssociateId": 881,
+    "ColorIndex": 446,
     "IsFree": false,
     "HasAlarm": true,
-    "IsAlldayEvent": true,
+    "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 653,
-    "PriorityName": "O'Reilly Group",
+    "PriorityId": 174,
+    "PriorityName": "McGlynn LLC",
     "TaskType": "Appointment",
     "IsBookingMain": false,
-    "IsRecurrence": true,
+    "IsRecurrence": false,
     "IsBooking": true,
-    "ActiveDate": "2022-03-12T03:46:53.9882851+01:00",
+    "ActiveDate": "2003-04-01T02:30:46.5069828+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2010-08-26T03:46:53.9882851+02:00",
-    "RecurringEndDate": "1998-07-24T03:46:53.9882851+02:00",
-    "MotherId": 468,
-    "AssignedBy": 410,
-    "AssignedByFullName": "Mr. Gisselle Gussie O'Reilly PhD",
+    "RecurringStartDate": "2020-04-21T02:30:46.5069828+02:00",
+    "RecurringEndDate": "2017-07-19T02:30:46.5069828+02:00",
+    "MotherId": 709,
+    "AssignedBy": 796,
+    "AssignedByFullName": "Mr. Daron Eugene Heidenreich Jr.",
     "RejectReason": "",
-    "Location": "consequatur",
-    "AlarmLeadTime": "non",
-    "SaleId": 201,
-    "SaleName": "Beier-Johns",
-    "AssociateName": "Goyette Group",
-    "CreatedDate": "2000-09-09T03:46:53.9882851+02:00",
-    "CreatedBy": "quae",
-    "CreatedByFullName": "Blake Dickinson",
-    "CreatedByAssociateId": 790,
+    "Location": "amet",
+    "AlarmLeadTime": "autem",
+    "SaleId": 422,
+    "SaleName": "Lemke Group",
+    "AssociateName": "Nicolas, Sauer and Zboncak",
+    "CreatedDate": "2004-07-14T02:30:46.5069828+02:00",
+    "CreatedBy": "et",
+    "CreatedByFullName": "Arne Turner",
+    "CreatedByAssociateId": 860,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "OwnedExternally": "Google",
-    "MotherAssociateId": 566,
+    "MotherAssociateId": 598,
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 933,
-    "Title": "tempore",
-    "Agenda": "atque",
-    "InternalNotes": "occaecati",
+    "PreferredTZLocation": 965,
+    "Title": "tenetur",
+    "Agenda": "ducimus",
+    "InternalNotes": "magnam",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 430
+        "FieldType": "System.Int32",
+        "FieldLength": 508
       }
     }
   }

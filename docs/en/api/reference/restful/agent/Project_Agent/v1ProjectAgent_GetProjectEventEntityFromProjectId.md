@@ -14,6 +14,8 @@ POST /api/v1/Agents/Project/GetProjectEventEntityFromProjectId
 Get a ProjectEventEntity based on a projectId.
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -103,11 +105,11 @@ OK
 POST /api/v1/Agents/Project/GetProjectEventEntityFromProjectId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 266
+  "ProjectId": 228
 }
 ```
 
@@ -118,94 +120,94 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SignOffConfirmationText": "quaerat",
-  "SignOffText": "et",
-  "SignOnConfirmationText": "quis",
-  "SignOnText": "fuga",
-  "EventDate": "2024-02-29T03:46:55.1757421+01:00",
+  "SignOffConfirmationText": "dolorum",
+  "SignOffText": "suscipit",
+  "SignOnConfirmationText": "perspiciatis",
+  "SignOnText": "minima",
+  "EventDate": "2007-03-02T02:30:47.6788214+01:00",
   "Enabled": false,
-  "CreatedDate": "2015-03-31T03:46:55.1757421+02:00",
+  "CreatedDate": "1999-06-11T02:30:47.6788214+02:00",
   "SignOff": false,
   "SignOffTaskEnable": true,
-  "SignOffTaskId": 328,
+  "SignOffTaskId": 243,
   "SignOffTriggersAssign": true,
-  "SignOn": false,
+  "SignOn": true,
   "SignOnTaskEnable": false,
-  "SignOnTaskId": 412,
+  "SignOnTaskId": 839,
   "SignOnTriggersAssign": true,
-  "UpdatedDate": "2021-03-18T03:46:55.1757421+01:00",
+  "UpdatedDate": "2002-08-14T02:30:47.6788214+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ProjectId": 742,
-  "Id": 581,
-  "PublishFrom": "2008-09-26T03:46:55.1757421+02:00",
+  "ProjectId": 201,
+  "Id": 158,
+  "PublishFrom": "2018-06-27T02:30:47.6788214+02:00",
   "PublishType": "External",
-  "PublishTo": "2012-09-17T03:46:55.1757421+02:00",
+  "PublishTo": "2020-07-01T02:30:47.6788214+02:00",
   "VisibleForCategories": [
     {
-      "Id": 915,
-      "Name": "Williamson Group",
-      "ToolTip": "Eius dolorum libero.",
-      "Deleted": true,
-      "Rank": 86,
-      "Type": "dolores",
+      "Id": 778,
+      "Name": "Abbott, McCullough and Green",
+      "ToolTip": "Adipisci omnis consectetur illo.",
+      "Deleted": false,
+      "Rank": 5,
+      "Type": "eum",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "enim",
-      "ColorBlock": 695,
-      "ExtraInfo": "expedita",
-      "StyleHint": "magni",
-      "FullName": "Anastasia Gutmann",
+      "IconHint": "commodi",
+      "ColorBlock": 540,
+      "ExtraInfo": "ipsa",
+      "StyleHint": "aut",
+      "FullName": "Gerhard Ferry",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 295
+          "FieldLength": 425
         }
       }
     }
   ],
   "VisibleForPersonInterests": [
     {
-      "Id": 521,
-      "Name": "Kihn, Roberts and Labadie",
-      "ToolTip": "Fugiat qui.",
-      "Deleted": true,
-      "Rank": 70,
-      "Type": "natus",
+      "Id": 697,
+      "Name": "Schowalter, Douglas and Koch",
+      "ToolTip": "Error sed quo veniam eveniet voluptatem excepturi.",
+      "Deleted": false,
+      "Rank": 941,
+      "Type": "quos",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "rem",
-      "ColorBlock": 574,
-      "ExtraInfo": "nihil",
-      "StyleHint": "et",
-      "FullName": "Miss Darren Cummerata Sr.",
+      "IconHint": "laboriosam",
+      "ColorBlock": 229,
+      "ExtraInfo": "consectetur",
+      "StyleHint": "qui",
+      "FullName": "Otho Ullrich",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 550
+          "FieldLength": 961
         }
       }
     }
   ],
   "IsPublished": false,
-  "IsVisibleForMembers": true,
-  "IsVisibleForCategories": true,
-  "IsVisibleForPersonInterests": true,
-  "ProjectEventId": 961,
+  "IsVisibleForMembers": false,
+  "IsVisibleForCategories": false,
+  "IsVisibleForPersonInterests": false,
+  "ProjectEventId": 579,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 949
+      "FieldLength": 944
     }
   }
 }

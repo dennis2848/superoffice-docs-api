@@ -14,6 +14,8 @@ POST /api/v1/Agents/Find/SaveRestrictions2
 Save an array of restrictions for later use as search criteria (including as dynamic selection and Find).
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -68,14 +70,14 @@ No Content
 POST /api/v1/Agents/Find/SaveRestrictions2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "rem",
-  "ProviderName": "Abernathy, Marquardt and Batz",
-  "StorageKey": "non",
-  "Restrictions": "sed"
+  "StorageType": "aliquam",
+  "ProviderName": "Gutmann Inc and Sons",
+  "StorageKey": "ea",
+  "Restrictions": "enim"
 }
 ```
 

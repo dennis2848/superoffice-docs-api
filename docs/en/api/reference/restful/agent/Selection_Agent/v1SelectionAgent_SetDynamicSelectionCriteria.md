@@ -15,6 +15,7 @@ Update the criteria for this dynamic selection.
 
 
 Replaces existing criteria with the new values.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -84,32 +85,32 @@ OK
 POST /api/v1/Agents/Selection/SetDynamicSelectionCriteria
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 822,
+  "SelectionId": 6,
   "Criteria": [
     {
-      "Name": "Boyle Group",
-      "Operator": "excepturi",
+      "Name": "Kling LLC",
+      "Operator": "veniam",
       "Values": [
-        "aut",
-        "sed"
+        "voluptatem",
+        "animi"
       ],
       "DisplayValues": [
-        "sint",
-        "vel"
+        "ea",
+        "modi"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 495,
+      "InterParenthesis": 747,
       "InterOperator": "And",
-      "UniqueHash": 194
+      "UniqueHash": 500
     }
   ]
 }
@@ -123,44 +124,44 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Schinner, Turner and Smith",
-    "Operator": "laborum",
+    "Name": "Klein Group",
+    "Operator": "sit",
     "Values": [
-      "impedit",
-      "et"
+      "enim",
+      "aut"
     ],
     "DisplayValues": [
-      "ab",
-      "exercitationem"
+      "est",
+      "nisi"
     ],
     "ColumnInfo": null,
-    "IsActive": true,
+    "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Fritsch LLC",
-        "Operator": "voluptas",
+        "Name": "Leffler Group",
+        "Operator": "est",
         "Values": [
-          "architecto",
-          "eius"
+          "est",
+          "possimus"
         ],
         "DisplayValues": [
-          "molestiae",
-          "laudantium"
+          "maiores",
+          "dolores"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 856,
+        "InterParenthesis": 234,
         "InterOperator": "And",
-        "UniqueHash": 703
+        "UniqueHash": 19
       }
     ],
-    "InterParenthesis": 90,
+    "InterParenthesis": 58,
     "InterOperator": "And",
-    "UniqueHash": 295
+    "UniqueHash": 124
   }
 ]
 ```

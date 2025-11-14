@@ -11,7 +11,7 @@ content_type: reference
 POST /api/v1/Agents/List/SaveLegalBase
 ```
 
-
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 222,
-  "Name": "Doyle-Marquardt",
-  "Tooltip": "culpa",
-  "Rank": 887,
-  "Key": "rerum",
+  "LegalBaseId": 960,
+  "Name": "Keebler Group",
+  "Tooltip": "omnis",
+  "Rank": 932,
+  "Key": "earum",
   "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 802
+      "FieldType": "System.String",
+      "FieldLength": 20
     }
   }
 }

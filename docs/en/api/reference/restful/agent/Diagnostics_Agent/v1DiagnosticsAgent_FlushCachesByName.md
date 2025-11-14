@@ -14,6 +14,8 @@ POST /api/v1/Agents/Diagnostics/FlushCachesByName
 Flushes all NetServer caches named
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -65,13 +67,13 @@ No Content
 POST /api/v1/Agents/Diagnostics/FlushCachesByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "CacheNames": [
-    "Harris, Spinka and Weber",
-    "Legros-Conn"
+    "Wilkinson-Buckridge",
+    "Glover, Skiles and Stroman"
   ]
 }
 ```

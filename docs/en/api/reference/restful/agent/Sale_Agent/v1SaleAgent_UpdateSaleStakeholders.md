@@ -11,7 +11,7 @@ content_type: reference
 POST /api/v1/Agents/Sale/UpdateSaleStakeholders
 ```
 
-
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -92,31 +92,31 @@ OK
 POST /api/v1/Agents/Sale/UpdateSaleStakeholders
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "Stakeholders": [
     {
-      "StakeholderRoleName": "Hahn, Becker and Upton",
-      "Comment": "possimus",
-      "StakeholderRoleId": 197,
-      "CountryId": 593,
-      "PersonId": 820,
-      "EmailDescription": "hiram@crist.com",
-      "EmailId": 235,
-      "EmailAddress": "heath_emmerich@buckridgechristiansen.name",
-      "PhoneId": 936,
-      "ContactName": "Morissette Inc and Sons",
-      "ContactId": 177,
-      "SaleId": 592,
-      "Mrmrs": "est",
-      "Firstname": "Jolie",
-      "MiddleName": "Bartell Group",
-      "Lastname": "Conn",
-      "SaleStakeholderId": 89,
-      "Rank": 994,
-      "Phone": "(161)459-4393"
+      "StakeholderRoleName": "Ankunding LLC",
+      "Comment": "perferendis",
+      "StakeholderRoleId": 383,
+      "CountryId": 194,
+      "PersonId": 609,
+      "EmailDescription": "lina@streich.biz",
+      "EmailId": 678,
+      "EmailAddress": "genesis.rowe@kirlinhegmann.com",
+      "PhoneId": 581,
+      "ContactName": "Roob, Armstrong and Collins",
+      "ContactId": 76,
+      "SaleId": 366,
+      "Mrmrs": "provident",
+      "Firstname": "Demond",
+      "MiddleName": "Pfannerstill Inc and Sons",
+      "Lastname": "Kreiger",
+      "SaleStakeholderId": 812,
+      "Rank": 802,
+      "Phone": "1-968-805-1545"
     }
   ]
 }
@@ -130,31 +130,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "StakeholderRoleName": "Blanda LLC",
-    "Comment": "sapiente",
-    "StakeholderRoleId": 558,
-    "CountryId": 212,
-    "PersonId": 256,
-    "EmailDescription": "anita@johnston.info",
-    "EmailId": 754,
-    "EmailAddress": "donny@bergstrom.uk",
-    "PhoneId": 912,
-    "ContactName": "Dietrich, Bernhard and Armstrong",
-    "ContactId": 554,
-    "SaleId": 445,
-    "Mrmrs": "dignissimos",
-    "Firstname": "Landen",
-    "MiddleName": "Sipes Group",
-    "Lastname": "Koss",
-    "SaleStakeholderId": 76,
-    "Rank": 823,
-    "Phone": "(483)038-8383",
+    "StakeholderRoleName": "Bartoletti-Mayer",
+    "Comment": "doloribus",
+    "StakeholderRoleId": 993,
+    "CountryId": 902,
+    "PersonId": 501,
+    "EmailDescription": "jacinthe@fahey.uk",
+    "EmailId": 356,
+    "EmailAddress": "willa.heidenreich@rodriguez.co.uk",
+    "PhoneId": 995,
+    "ContactName": "Dibbert Inc and Sons",
+    "ContactId": 45,
+    "SaleId": 713,
+    "Mrmrs": "sit",
+    "Firstname": "Kiana",
+    "MiddleName": "Hegmann, Prohaska and Renner",
+    "Lastname": "McLaughlin",
+    "SaleStakeholderId": 982,
+    "Rank": 78,
+    "Phone": "(173)828-1357",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 955
+        "FieldLength": 754
       }
     }
   }

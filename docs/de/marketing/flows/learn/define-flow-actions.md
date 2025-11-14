@@ -1,10 +1,10 @@
----
+﻿---
 uid: help-de-flow-actions
 title: Flow-Aktionen definieren
 description: Flow-Aktionen definieren
 keywords: Flow, Automatisierung, Flow-Aktion, Skript ausführen, an Besitzer verteilen
 author: Bergfrid Dias
-date: 09.01.2025
+date: 09.26.2025
 version: 11.3
 content_type: howto
 category: marketing
@@ -111,7 +111,7 @@ Der Person wird als Mitglied aus der angegebenen Selektion und/oder dem Projekt 
 
 Dieser Schritt ähnelt dem Schritt **Zur Selektion und/oder zum Projekt hinzufügen**.
 
-### An den Besitzer verteilen
+### <a id="distribute"></a>An den Besitzer verteilen
 
 Kontakte werden gleichmäßig auf ausgewählte Mitarbeiter oder Mitglieder einer bestimmten Gruppe verteilt. Nützlich zur automatischen Zuweisung neuer Leads.
 

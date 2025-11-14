@@ -14,6 +14,8 @@ POST /api/v1/Agents/Quote/SavePriceList
 Updates the existing PriceList or creates a new PriceList if the id parameter is 0.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -82,19 +84,19 @@ OK
 POST /api/v1/Agents/Quote/SavePriceList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 314,
-  "ERPPriceListKey": "voluptate",
-  "QuoteConnectionId": 908,
-  "Name": "Monahan Group",
-  "Description": "Extended intermediate website",
-  "Currency": "atque",
-  "CurrencyName": "Abernathy Group",
-  "ValidFrom": "2004-10-16T03:46:55.2069913+02:00",
-  "ValidTo": "2018-12-22T03:46:55.2069913+01:00",
+  "PriceListId": 338,
+  "ERPPriceListKey": "illum",
+  "QuoteConnectionId": 694,
+  "Name": "Jerde Group",
+  "Description": "Profound 3rd generation structure",
+  "Currency": "nam",
+  "CurrencyName": "Wintheiser, Dickinson and Murphy",
+  "ValidFrom": "2006-04-28T02:30:47.7100701+02:00",
+  "ValidTo": "2004-07-17T02:30:47.7100701+02:00",
   "IsActive": false
 }
 ```
@@ -106,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 673,
-  "ERPPriceListKey": "error",
-  "QuoteConnectionId": 952,
-  "Name": "Dickinson Inc and Sons",
-  "Description": "Profit-focused encompassing implementation",
-  "Currency": "voluptas",
-  "CurrencyName": "Trantow Inc and Sons",
-  "ValidFrom": "2014-06-26T03:46:55.2069913+02:00",
-  "ValidTo": "2015-11-17T03:46:55.2069913+01:00",
-  "IsActive": true,
+  "PriceListId": 732,
+  "ERPPriceListKey": "inventore",
+  "QuoteConnectionId": 684,
+  "Name": "Pfannerstill, Thiel and Renner",
+  "Description": "Self-enabling fault-tolerant conglomeration",
+  "Currency": "consectetur",
+  "CurrencyName": "Daugherty, Towne and Weber",
+  "ValidFrom": "2014-09-01T02:30:47.7100701+02:00",
+  "ValidTo": "2014-11-14T02:30:47.7100701+01:00",
+  "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 744
+      "FieldType": "System.String",
+      "FieldLength": 767
     }
   }
 }

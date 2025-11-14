@@ -14,6 +14,8 @@ POST /api/v1/Agents/Ticket/ValidateAttachments
 Check attachments, return validation result for each item
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -74,13 +76,13 @@ OK
 POST /api/v1/Agents/Ticket/ValidateAttachments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "AttachmentIds": [
-    914,
-    380
+    137,
+    244
   ]
 }
 ```
@@ -93,14 +95,14 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 937,
+    "AttachmentId": 178,
     "IsValid": true,
-    "ErrorMessage": "omnis"
+    "ErrorMessage": "magni"
   },
   {
-    "AttachmentId": 937,
+    "AttachmentId": 178,
     "IsValid": true,
-    "ErrorMessage": "omnis"
+    "ErrorMessage": "magni"
   }
 ]
 ```

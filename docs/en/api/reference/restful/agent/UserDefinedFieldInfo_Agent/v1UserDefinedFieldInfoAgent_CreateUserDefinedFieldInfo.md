@@ -14,6 +14,8 @@ POST /api/v1/Agents/UserDefinedFieldInfo/CreateUserDefinedFieldInfo
 Create a UserDefinedFieldInfo based on a owner-entity id
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -108,7 +110,7 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/CreateUserDefinedFieldInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -124,46 +126,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 161,
-  "ColumnId": 508,
-  "FieldDefault": "ex",
-  "FieldHeight": 38,
-  "FieldLabel": "non",
-  "FieldLeft": 974,
-  "FieldTop": 35,
+  "UDefFieldId": 948,
+  "ColumnId": 928,
+  "FieldDefault": "iste",
+  "FieldHeight": 708,
+  "FieldLabel": "aperiam",
+  "FieldLeft": 843,
+  "FieldTop": 210,
   "FieldType": "Checkbox",
-  "FieldWidth": 132,
-  "FormatMask": "tempora",
-  "HideLabel": false,
-  "IsIndexed": true,
-  "LabelHeight": 999,
-  "LabelLeft": 470,
-  "LabelTop": 982,
-  "LabelWidth": 925,
-  "LastVersionId": 441,
-  "ListTableId": 905,
+  "FieldWidth": 404,
+  "FormatMask": "similique",
+  "HideLabel": true,
+  "IsIndexed": false,
+  "LabelHeight": 931,
+  "LabelLeft": 1002,
+  "LabelTop": 991,
+  "LabelWidth": 853,
+  "LastVersionId": 413,
+  "ListTableId": 216,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 900,
-  "ProgId": "non",
+  "Page1LineNo": 684,
+  "ProgId": "odio",
   "IsReadOnly": true,
-  "ShortLabel": "repellendus",
-  "TabOrder": 108,
-  "TextLength": 690,
-  "Tooltip": "architecto",
-  "UdefIdentity": 627,
-  "UDListDefinitionId": 72,
+  "ShortLabel": "saepe",
+  "TabOrder": 375,
+  "TextLength": 754,
+  "Tooltip": "a",
+  "UdefIdentity": 286,
+  "UDListDefinitionId": 800,
   "Justification": "Center",
-  "Version": 759,
-  "TemplateVariableName": "McLaughlin Inc and Sons",
+  "Version": 756,
+  "TemplateVariableName": "Bartell Inc and Sons",
   "HasBeenPublished": false,
-  "MdoListName": "Greenholt Group",
+  "MdoListName": "Dare, Emmerich and Russel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 75
+      "FieldType": "System.String",
+      "FieldLength": 131
     }
   }
 }

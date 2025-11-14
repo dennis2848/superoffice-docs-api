@@ -14,6 +14,8 @@ POST /api/v1/Agents/Dash/GetDashTheme
 Gets a DashTheme object.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -27,7 +29,7 @@ Gets a DashTheme object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Dash/GetDashTheme?dashThemeId=800
+POST /api/v1/Agents/Dash/GetDashTheme?dashThemeId=714
 POST /api/v1/Agents/Dash/GetDashTheme?$select=name,department,category/id
 ```
 
@@ -83,18 +85,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 257,
-  "Name": "Grant-Beier",
-  "Config": "quibusdam",
-  "Rank": 623,
-  "Client": "doloremque",
-  "Style": "non",
+  "DashboardThemeId": 532,
+  "Name": "Metz-Swift",
+  "Config": "ut",
+  "Rank": 224,
+  "Client": "sunt",
+  "Style": "velit",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 144
+      "FieldLength": 406
     }
   }
 }

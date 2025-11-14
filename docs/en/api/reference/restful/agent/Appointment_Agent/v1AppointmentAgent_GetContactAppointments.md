@@ -15,6 +15,7 @@ Method that returns a specified number of appointments within a time range.
 
 
 The appointments belong to the contact specified. If the logged on user is not allowed to view this persons appointments an exception is thrown.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -137,10 +138,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 708,
-  "StartTime": "2011-12-31T03:46:53.9726601+01:00",
-  "EndTime": "2023-02-10T03:46:53.9726601+01:00",
-  "Count": 254
+  "ContactId": 73,
+  "StartTime": "2002-07-07T02:30:46.4913585+02:00",
+  "EndTime": "2008-06-19T02:30:46.4913585+02:00",
+  "Count": 229
 }
 ```
 
@@ -152,67 +153,67 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 488,
-    "StartDate": "2021-09-09T03:46:53.9726601+02:00",
-    "EndDate": "2012-03-05T03:46:53.9726601+01:00",
+    "AppointmentId": 848,
+    "StartDate": "1999-09-23T02:30:46.4913585+02:00",
+    "EndDate": "2016-04-09T02:30:46.4913585+02:00",
     "Type": "BookingForChecklist",
-    "Task": "labore",
-    "AssociateFullName": "Giovanny Veum",
-    "ContactName": "Hilll-Hickle",
-    "Description": "Universal intermediate collaboration",
-    "PersonFullName": "Laney Jones",
-    "PersonId": 547,
-    "ContactId": 172,
-    "ProjectId": 91,
-    "ProjectName": "Cormier, Mraz and Williamson",
-    "IsPublished": true,
-    "AssociateId": 429,
-    "ColorIndex": 849,
+    "Task": "ullam",
+    "AssociateFullName": "Kiana Leannon",
+    "ContactName": "Jewess Group",
+    "Description": "Cross-platform motivating moderator",
+    "PersonFullName": "Isidro Hansen",
+    "PersonId": 317,
+    "ContactId": 924,
+    "ProjectId": 291,
+    "ProjectName": "Wisozk, O'Keefe and Trantow",
+    "IsPublished": false,
+    "AssociateId": 245,
+    "ColorIndex": 9,
     "IsFree": false,
-    "HasAlarm": true,
+    "HasAlarm": false,
     "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 606,
-    "PriorityName": "Howe, Johnson and Mante",
+    "PriorityId": 712,
+    "PriorityName": "Hermann, Paucek and VonRueden",
     "TaskType": "Appointment",
-    "IsBookingMain": false,
+    "IsBookingMain": true,
     "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "1998-09-14T03:46:53.9726601+02:00",
+    "ActiveDate": "2007-07-06T02:30:46.4913585+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "1999-12-19T03:46:53.9726601+01:00",
-    "RecurringEndDate": "2025-06-19T03:46:53.9726601+02:00",
-    "MotherId": 601,
-    "AssignedBy": 566,
-    "AssignedByFullName": "Dr. Melyna Rogers Crona III",
+    "RecurringStartDate": "2017-02-24T02:30:46.4913585+01:00",
+    "RecurringEndDate": "2013-05-30T02:30:46.4913585+02:00",
+    "MotherId": 965,
+    "AssignedBy": 954,
+    "AssignedByFullName": "Prof. Annalise Major Larson",
     "RejectReason": "",
-    "Location": "facere",
-    "AlarmLeadTime": "quasi",
-    "SaleId": 962,
-    "SaleName": "Witting-Schowalter",
-    "AssociateName": "Williamson-Leannon",
-    "CreatedDate": "2017-01-24T03:46:53.9726601+01:00",
-    "CreatedBy": "repellendus",
-    "CreatedByFullName": "Elise Olson",
-    "CreatedByAssociateId": 856,
+    "Location": "unde",
+    "AlarmLeadTime": "rerum",
+    "SaleId": 918,
+    "SaleName": "Homenick-Jerde",
+    "AssociateName": "Kuphal, Gislason and Leuschke",
+    "CreatedDate": "2007-03-11T02:30:46.4913585+01:00",
+    "CreatedBy": "quasi",
+    "CreatedByFullName": "Alfred Bergnaum II",
+    "CreatedByAssociateId": 303,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "OwnedExternally": "Google",
-    "MotherAssociateId": 474,
+    "MotherAssociateId": 507,
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 655,
-    "Title": "velit",
-    "Agenda": "accusantium",
-    "InternalNotes": "est",
+    "PreferredTZLocation": 695,
+    "Title": "in",
+    "Agenda": "impedit",
+    "InternalNotes": "qui",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 220
+        "FieldLength": 798
       }
     }
   }

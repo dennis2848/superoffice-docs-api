@@ -15,6 +15,10 @@ Return the prompt used to get a short summary of the activities on a contact.
 
 
 Does not call the chatbot for a response. Used for transfering a summary to a chat session.
+NsApiSlow threshold: 2000 ms.
+
+
+## Experimental: ## The AI agent is experimental, subject to change, and not intended for partners.
 
 
 
@@ -86,10 +90,10 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 777,
-  "NumSentences": 442,
-  "Summary": "molestiae",
-  "IsoLangCode": "ipsam"
+  "ContactId": 905,
+  "NumSentences": 12,
+  "Summary": "aut",
+  "IsoLangCode": "quia"
 }
 ```
 
@@ -100,17 +104,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Timestamp": "2018-06-02T03:46:53.9726601+02:00",
-  "UserPrompt": "voluptas",
-  "UserDisplayText": "aut",
-  "BotResponse": "velit",
+  "Timestamp": "2016-08-31T02:30:46.4913585+02:00",
+  "UserPrompt": "facilis",
+  "UserDisplayText": "et",
+  "BotResponse": "sit",
   "BotActions": {
-    "BotActions1": "libero",
-    "BotActions2": "officiis"
+    "BotActions1": "numquam",
+    "BotActions2": "sit"
   },
   "Attachments": [
-    "repudiandae",
-    "non"
+    "eum",
+    "impedit"
   ]
 }
 ```

@@ -15,6 +15,7 @@ Returns all ERP Sync connectors.
 
 
 Uses the `ErpConnector` archive.
+NsApiSlow threshold: 5000 ms.
 
 
 ## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
@@ -82,14 +83,14 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 135,
-    "Name": "Little, Rolfson and Jakubowski",
-    "ToolTip": "Quibusdam esse."
+    "Id": 587,
+    "Name": "Barton Inc and Sons",
+    "ToolTip": "Et architecto et."
   },
   {
-    "Id": 135,
-    "Name": "Little, Rolfson and Jakubowski",
-    "ToolTip": "Quibusdam esse."
+    "Id": 587,
+    "Name": "Barton Inc and Sons",
+    "ToolTip": "Et architecto et."
   }
 ]
 ```

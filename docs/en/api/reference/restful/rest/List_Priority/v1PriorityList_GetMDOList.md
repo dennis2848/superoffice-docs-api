@@ -28,7 +28,7 @@ Get the MDO list items for "Priority" - with headings and filtering by user grou
 
 ```http
 GET /api/v1/List/Priority/MDOItems?flat=False
-GET /api/v1/List/Priority/MDOItems?query=ipsum
+GET /api/v1/List/Priority/MDOItems?query=sed
 ```
 
 
@@ -79,7 +79,7 @@ OK
 GET /api/v1/List/Priority/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -90,50 +90,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 973,
-    "Name": "Padberg Inc and Sons",
-    "ToolTip": "Dolorem facere.",
+    "Id": 49,
+    "Name": "Wisozk Inc and Sons",
+    "ToolTip": "Inventore soluta consequatur et quis asperiores molestiae.",
     "Deleted": false,
-    "Rank": 169,
-    "Type": "qui",
+    "Rank": 409,
+    "Type": "harum",
     "ChildItems": [
       {
-        "Id": 448,
-        "Name": "Howell Group",
-        "ToolTip": "Voluptatem sit reprehenderit ab alias qui dicta error.",
+        "Id": 862,
+        "Name": "D'Amore Inc and Sons",
+        "ToolTip": "In velit facilis provident eligendi recusandae veritatis.",
         "Deleted": false,
-        "Rank": 488,
-        "Type": "debitis",
+        "Rank": 436,
+        "Type": "minima",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "necessitatibus",
-        "ColorBlock": 584,
-        "ExtraInfo": "iure",
-        "StyleHint": "ratione",
-        "FullName": "Ms. Franz Johnston",
+        "IconHint": "rem",
+        "ColorBlock": 952,
+        "ExtraInfo": "et",
+        "StyleHint": "neque",
+        "FullName": "Dr. Brayan Rice",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 848
+            "FieldLength": 854
           }
         }
       }
     ],
-    "IconHint": "sed",
-    "ColorBlock": 779,
-    "ExtraInfo": "nemo",
-    "StyleHint": "ut",
-    "FullName": "Harrison Swift I",
+    "IconHint": "quod",
+    "ColorBlock": 536,
+    "ExtraInfo": "est",
+    "StyleHint": "hic",
+    "FullName": "Kellen DuBuque",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 409
+        "FieldLength": 139
       }
     }
   }

@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/GetDocumentTemplate
 Gets a DocumentTemplate object.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -27,7 +29,7 @@ Gets a DocumentTemplate object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetDocumentTemplate?documentTemplateId=536
+POST /api/v1/Agents/List/GetDocumentTemplate?documentTemplateId=834
 POST /api/v1/Agents/List/GetDocumentTemplate?$select=name,department,category/id
 ```
 
@@ -78,7 +80,7 @@ OK
 POST /api/v1/Agents/List/GetDocumentTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -88,23 +90,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 134,
-  "Name": "Hills, Cremin and Paucek",
-  "Tooltip": "qui",
-  "SaveInDb": 574,
-  "Filename": "deserunt",
-  "DefaultOref": "quis",
+  "DocumentTemplateId": 687,
+  "Name": "Hayes-Watsica",
+  "Tooltip": "ut",
+  "SaveInDb": 990,
+  "Filename": "quia",
+  "DefaultOref": "quia",
   "RecordType": "Appointment",
-  "Deleted": 646,
+  "Deleted": 266,
   "Direction": "Incoming",
-  "AutoeventId": 340,
+  "AutoeventId": 309,
   "QuoteDocType": "ConfirmationLines",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 265
+      "FieldType": "System.Int32",
+      "FieldLength": 958
     }
   }
 }

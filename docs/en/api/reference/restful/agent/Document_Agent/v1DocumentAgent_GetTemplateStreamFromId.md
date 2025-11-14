@@ -14,6 +14,8 @@ POST /api/v1/Agents/Document/GetTemplateStreamFromId
 Retrieve a stream to a document template based on its id
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -74,8 +76,8 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TemplateId": 293,
-  "UiCulture": "voluptatem"
+  "TemplateId": 977,
+  "UiCulture": "pariatur"
 }
 ```
 

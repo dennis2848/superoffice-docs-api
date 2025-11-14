@@ -14,6 +14,8 @@ POST /api/v1/Agents/BulkUpdate/ExecuteBySelectionId
 Do the batchupdate on this selection
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -73,36 +75,36 @@ OK
 POST /api/v1/Agents/BulkUpdate/ExecuteBySelectionId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "FieldValueInfos": [
     {
       "CanSupportMultiUse": false,
-      "DefaultShowInGui": true,
-      "DefaultShowInSelector": false,
+      "DefaultShowInGui": false,
+      "DefaultShowInSelector": true,
       "IsActive": false,
-      "Key": "repudiandae",
-      "ValueType": "est",
+      "Key": "magni",
+      "ValueType": "dignissimos",
       "Mandatory": false,
-      "EncodedDisplayName": "Kirlin Group",
-      "EncodedDisplayDescription": "Assimilated asynchronous open architecture",
-      "IconHint": "dolores",
+      "EncodedDisplayName": "Lockman, Welch and Keebler",
+      "EncodedDisplayDescription": "Progressive fresh-thinking attitude",
+      "IconHint": "praesentium",
       "ControlInfos": [
         {},
         {}
       ],
-      "EncodedDataCaption": "beatae",
-      "EncodedDataCaptionDescription": "Re-contextualized neutral matrices",
-      "CurrentOperationType": "aut",
+      "EncodedDataCaption": "est",
+      "EncodedDataCaptionDescription": "Optimized zero defect throughput",
+      "CurrentOperationType": "reprehenderit",
       "Values": [
-        "quis",
-        "id"
+        "non",
+        "blanditiis"
       ],
       "DisplayValues": [
-        "rerum",
-        "ratione"
+        "odit",
+        "alias"
       ],
       "OperationInfos": [
         {},
@@ -110,10 +112,10 @@ Content-Type: application/json; charset=utf-8
       ]
     }
   ],
-  "TableName": "West-Spinka",
-  "Context": "quisquam",
-  "SelectionId": 166,
-  "IsShadow": false
+  "TableName": "Wilkinson, Rowe and Tillman",
+  "Context": "optio",
+  "SelectionId": 88,
+  "IsShadow": true
 }
 ```
 
@@ -123,5 +125,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-620
+319
 ```

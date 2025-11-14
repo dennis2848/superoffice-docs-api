@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/GetAppTaskMenus
 Get all task menus owned by your app; works in Online only, for registered Apps that send a valid ApplicationToken
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -90,26 +92,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TaskMenuId": 781,
-    "Name": "Halvorson, Halvorson and Parker",
-    "Tooltip": "doloribus",
-    "TableName": "Kassulke, Marvin and Raynor",
-    "Area": "consequatur",
+    "TaskMenuId": 182,
+    "Name": "Hermann, Kuhic and Kiehn",
+    "Tooltip": "quia",
+    "TableName": "Hintz-Mann",
+    "Area": "neque",
     "UrlOrSoprotocol": "http://www.example.com/",
     "TaskType": "CrmScript",
-    "CrmScriptId": 136,
+    "CrmScriptId": 484,
     "ShowInClient": "Mobile",
     "ArchiveBehaviour": "InArchives",
-    "Rank": 906,
+    "Rank": 20,
     "Encoding": "ANSI",
-    "ProgId": "quam",
-    "Deleted": false,
+    "ProgId": "ipsam",
+    "Deleted": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 247
+        "FieldLength": 372
       }
     }
   }

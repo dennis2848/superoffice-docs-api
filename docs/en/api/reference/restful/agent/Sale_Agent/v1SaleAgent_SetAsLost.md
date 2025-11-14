@@ -15,6 +15,7 @@ Change the status of one or more sales to Lost.
 
 
 Note that this does not affect the Completed state of the sale.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -72,8 +73,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "SaleIds": [
-    850,
-    248
+    613,
+    943
   ]
 }
 ```

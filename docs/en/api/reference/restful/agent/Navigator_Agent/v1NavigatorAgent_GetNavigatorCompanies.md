@@ -11,7 +11,7 @@ content_type: reference
 POST /api/v1/Agents/Navigator/GetNavigatorCompanies
 ```
 
-
+NsApiSlow threshold: 1700 ms.
 
 
 
@@ -80,7 +80,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Durgan LLC"
+  "Name": "Romaguera-Greenholt"
 }
 ```
 
@@ -92,28 +92,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 204,
-    "Value": "numquam",
-    "Tooltip": "repudiandae",
+    "Id": 327,
+    "Value": "fugit",
+    "Tooltip": "voluptatem",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 217
+        "FieldLength": 948
       }
     }
   },
   {
-    "Id": 204,
-    "Value": "numquam",
-    "Tooltip": "repudiandae",
+    "Id": 327,
+    "Value": "fugit",
+    "Tooltip": "voluptatem",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 217
+        "FieldLength": 948
       }
     }
   }

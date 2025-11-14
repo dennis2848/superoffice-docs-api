@@ -89,15 +89,15 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 124,
-  "Name": "Leuschke, Hoppe and Bergstrom",
-  "Tooltip": "amet",
-  "Deleted": true,
-  "Rank": 632,
-  "IsCustomList": true,
+  "Id": 488,
+  "Name": "Lindgren-Buckridge",
+  "Tooltip": "id",
+  "Deleted": false,
+  "Rank": 976,
+  "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "ad",
+  "UseGroupsAndHeadings": false,
+  "ListType": "nesciunt",
   "InUseByUserDefinedFields": true
 }
 ```
@@ -109,22 +109,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 622,
-  "Name": "Stamm, Keeling and Cassin",
-  "Tooltip": "et",
+  "Id": 102,
+  "Name": "Nolan, Feil and Kreiger",
+  "Tooltip": "eius",
   "Deleted": false,
-  "Rank": 501,
+  "Rank": 303,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "quo",
-  "InUseByUserDefinedFields": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "minima",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 719
+      "FieldLength": 992
     }
   }
 }

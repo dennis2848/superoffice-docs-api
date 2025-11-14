@@ -14,6 +14,8 @@ POST /api/v1/Agents/Quote/CreateDefaultProduct
 Loading default values into a new Product.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -89,7 +91,7 @@ OK
 POST /api/v1/Agents/Quote/CreateDefaultProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -99,73 +101,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 72,
-  "ERPProductKey": "commodi",
+  "ProductId": 398,
+  "ERPProductKey": "mollitia",
   "ERPPriceListKey": "est",
-  "Name": "Roberts-Donnelly",
-  "Description": "Future-proofed human-resource core",
-  "Code": "quisquam",
-  "PriceUnit": "temporibus",
-  "QuantityUnit": "exercitationem",
-  "IsSubscription": true,
-  "SubscriptionUnit": "dolores",
-  "DefaultSubscriptionQuantity": 18951.298,
-  "ItemNumber": "724102",
+  "Name": "Kreiger LLC",
+  "Description": "Pre-emptive analyzing array",
+  "Code": "id",
+  "PriceUnit": "saepe",
+  "QuantityUnit": "quae",
+  "IsSubscription": false,
+  "SubscriptionUnit": "ipsum",
+  "DefaultSubscriptionQuantity": 2776.7239999999997,
+  "ItemNumber": "1642508",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "molestiae",
-  "ProductTypeKey": "soluta",
-  "VAT": 21314.334,
-  "VATInfo": "laborum",
-  "UnitCost": 5384.2119999999995,
-  "UnitMinimumPrice": 27927.074,
-  "UnitListPrice": 30666.19,
+  "ProductFamilyKey": "consequatur",
+  "ProductTypeKey": "voluptatem",
+  "VAT": 25491.956,
+  "VATInfo": "vel",
+  "UnitCost": 2087.244,
+  "UnitMinimumPrice": 29735.392,
+  "UnitListPrice": 8145.266,
   "InAssortment": true,
-  "Supplier": "doloremque",
-  "SupplierCode": "numquam",
-  "Rights": "nisi",
-  "Rule": "numquam",
+  "Supplier": "et",
+  "SupplierCode": "sapiente",
+  "Rights": "dolor",
+  "Rule": "aut",
   "ExtraInfo": [
     {
-      "Name": "Kunde-O'Kon",
-      "Value": "quia",
+      "Name": "Bechtelar-Eichmann",
+      "Value": "fugit",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 874
+          "FieldLength": 932
         }
       }
     },
     {
-      "Name": "Kunde-O'Kon",
-      "Value": "quia",
+      "Name": "Bechtelar-Eichmann",
+      "Value": "fugit",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 874
+          "FieldLength": 932
         }
       }
     }
   ],
-  "RawExtraInfo": "rerum",
-  "ExtraField1": "est",
-  "ExtraField2": "id",
-  "ExtraField3": "assumenda",
-  "ExtraField4": "aut",
-  "ExtraField5": "adipisci",
-  "InStock": 2905.218,
+  "RawExtraInfo": "sed",
+  "ExtraField1": "beatae",
+  "ExtraField2": "quam",
+  "ExtraField3": "eveniet",
+  "ExtraField4": "et",
+  "ExtraField5": "quo",
+  "InStock": 25382.266,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 357
+      "FieldType": "System.Int32",
+      "FieldLength": 807
     }
   }
 }

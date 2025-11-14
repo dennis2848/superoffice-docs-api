@@ -14,6 +14,8 @@ POST /api/v1/Agents/Configuration/GetConfigurableScreenDeltasByQuery
 This method will return a configurablescreen delta matching the properties received from the incomming query
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -102,28 +104,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConfigurableScreenDeltaId": 461,
-    "Name": "Roob LLC",
-    "Description": "Quality-focused national infrastructure",
-    "DeltaJson": "dicta",
+    "ConfigurableScreenDeltaId": 985,
+    "Name": "Erdman, Donnelly and Fritsch",
+    "Description": "Profound executive neural-net",
+    "DeltaJson": "nihil",
     "DeltaType": "CustomFields",
     "DeltaState": "Draft",
-    "RecipeId": "velit",
-    "UpdatedDate": "2016-01-30T03:46:54.4570178+01:00",
-    "CreatedDate": "2021-08-21T03:46:54.4570178+02:00",
+    "RecipeId": "animi",
+    "UpdatedDate": "2006-05-05T02:30:46.9288431+02:00",
+    "CreatedDate": "2025-01-18T02:30:46.9288431+01:00",
     "UpdatedBy": null,
     "CreatedBy": null,
     "AppliesToIds": [
-      600,
-      653
+      105,
+      250
     ],
-    "AppliesToKey": "fuga",
+    "AppliesToKey": "porro",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 288
+        "FieldType": "System.Int32",
+        "FieldLength": 683
       }
     }
   }

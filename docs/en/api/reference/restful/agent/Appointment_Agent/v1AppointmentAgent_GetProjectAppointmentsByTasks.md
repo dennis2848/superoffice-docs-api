@@ -15,6 +15,7 @@ Method that returns a specified number of appointments matching the list of appo
 
 
 The appointments belong to the project specified.  Task represents the different types of activities, like “Phone call”, “Meeting” and so on.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -134,17 +135,17 @@ OK
 POST /api/v1/Agents/Appointment/GetProjectAppointmentsByTasks
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 614,
-  "StartTime": "2014-06-21T03:46:53.9882851+02:00",
-  "EndTime": "2001-04-08T03:46:53.9882851+02:00",
-  "Count": 671,
+  "ProjectId": 340,
+  "StartTime": "2007-04-18T02:30:46.5069828+02:00",
+  "EndTime": "2024-04-21T02:30:46.5069828+02:00",
+  "Count": 833,
   "TaskIds": [
-    933,
-    61
+    17,
+    710
   ]
 }
 ```
@@ -157,67 +158,67 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 663,
-    "StartDate": "2010-06-16T03:46:53.9882851+02:00",
-    "EndDate": "2008-09-06T03:46:53.9882851+02:00",
+    "AppointmentId": 864,
+    "StartDate": "2008-07-11T02:30:46.5069828+02:00",
+    "EndDate": "2003-11-14T02:30:46.5069828+01:00",
     "Type": "BookingForChecklist",
-    "Task": "aliquid",
-    "AssociateFullName": "Torrey Miller",
-    "ContactName": "Donnelly-Kulas",
-    "Description": "Synchronised 6th generation hub",
-    "PersonFullName": "Prof. Ben Koelpin",
-    "PersonId": 387,
-    "ContactId": 188,
-    "ProjectId": 441,
-    "ProjectName": "Will, Zulauf and Franecki",
+    "Task": "veniam",
+    "AssociateFullName": "Josephine Price",
+    "ContactName": "Franecki Group",
+    "Description": "Switchable encompassing benchmark",
+    "PersonFullName": "Malachi Furman Rowe Jr.",
+    "PersonId": 374,
+    "ContactId": 165,
+    "ProjectId": 577,
+    "ProjectName": "Emmerich LLC",
     "IsPublished": false,
-    "AssociateId": 997,
-    "ColorIndex": 502,
+    "AssociateId": 899,
+    "ColorIndex": 547,
     "IsFree": false,
-    "HasAlarm": true,
+    "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 674,
-    "PriorityName": "Deckow-Miller",
+    "PriorityId": 262,
+    "PriorityName": "Hudson, Ruecker and Wyman",
     "TaskType": "Appointment",
-    "IsBookingMain": false,
+    "IsBookingMain": true,
     "IsRecurrence": false,
     "IsBooking": true,
-    "ActiveDate": "2013-06-25T03:46:53.9882851+02:00",
+    "ActiveDate": "2003-02-05T02:30:46.5069828+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2009-04-27T03:46:53.9882851+02:00",
-    "RecurringEndDate": "2001-04-25T03:46:53.9882851+02:00",
-    "MotherId": 995,
-    "AssignedBy": 407,
-    "AssignedByFullName": "Savannah Elroy Conroy IV",
+    "RecurringStartDate": "2021-04-03T02:30:46.5069828+02:00",
+    "RecurringEndDate": "2003-04-28T02:30:46.5069828+02:00",
+    "MotherId": 710,
+    "AssignedBy": 672,
+    "AssignedByFullName": "Peyton Tillman",
     "RejectReason": "",
-    "Location": "qui",
-    "AlarmLeadTime": "dolores",
-    "SaleId": 9,
-    "SaleName": "VonRueden, Funk and Connelly",
-    "AssociateName": "Moen, Bogan and Gorczany",
-    "CreatedDate": "2001-10-23T03:46:53.9882851+02:00",
-    "CreatedBy": "hic",
-    "CreatedByFullName": "Concepcion Schowalter",
-    "CreatedByAssociateId": 334,
+    "Location": "non",
+    "AlarmLeadTime": "unde",
+    "SaleId": 200,
+    "SaleName": "Effertz-Shanahan",
+    "AssociateName": "Schultz, Roob and Rutherford",
+    "CreatedDate": "2007-10-24T02:30:46.5069828+02:00",
+    "CreatedBy": "alias",
+    "CreatedByFullName": "Ms. Francesco Balistreri II",
+    "CreatedByAssociateId": 312,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "OwnedExternally": "Google",
-    "MotherAssociateId": 1001,
+    "MotherAssociateId": 363,
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 849,
-    "Title": "non",
-    "Agenda": "alias",
-    "InternalNotes": "omnis",
+    "PreferredTZLocation": 957,
+    "Title": "aut",
+    "Agenda": "commodi",
+    "InternalNotes": "sunt",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 299
+        "FieldType": "System.Int32",
+        "FieldLength": 996
       }
     }
   }

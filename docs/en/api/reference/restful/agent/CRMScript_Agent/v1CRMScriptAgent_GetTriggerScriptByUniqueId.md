@@ -14,6 +14,9 @@ POST /api/v1/Agents/CRMScript/GetTriggerScriptByUniqueId
 Get a trigger CRMScript.
 
 
+NsApiSlow threshold: 5000 ms.
+
+
 ## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 
@@ -85,11 +88,11 @@ OK
 POST /api/v1/Agents/CRMScript/GetTriggerScriptByUniqueId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TriggerScriptUniqueId": "aliquid"
+  "TriggerScriptUniqueId": "doloremque"
 }
 ```
 
@@ -100,22 +103,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 603,
-  "Name": "Jewess-Greenholt",
+  "ScreenChooserId": 836,
+  "Name": "Moen Inc and Sons",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "vitae",
-  "Source": "nihil",
-  "Registered": "1998-11-11T03:46:54.5820132+01:00",
-  "RegisteredAssociateId": 656,
-  "Updated": "2005-01-22T03:46:54.5820132+01:00",
-  "UpdatedAssociateId": 187,
+  "UniqueIdentifier": "blanditiis",
+  "Source": "nobis",
+  "Registered": "2024-12-10T02:30:47.0538389+01:00",
+  "RegisteredAssociateId": 52,
+  "Updated": "2009-11-03T02:30:47.0538389+01:00",
+  "UpdatedAssociateId": 190,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 186
+      "FieldLength": 424
     }
   }
 }

@@ -14,6 +14,8 @@ POST /api/v1/Agents/Dash/GetDashTileDefinition
 Gets a DashTileDefinition object.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -27,7 +29,7 @@ Gets a DashTileDefinition object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Dash/GetDashTileDefinition?dashTileDefinitionId=113
+POST /api/v1/Agents/Dash/GetDashTileDefinition?dashTileDefinitionId=713
 POST /api/v1/Agents/Dash/GetDashTileDefinition?$select=name,department,category/id
 ```
 
@@ -86,7 +88,7 @@ OK
 POST /api/v1/Agents/Dash/GetDashTileDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,31 +98,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 922,
-  "Name": "Zulauf, Kshlerin and Weissnat",
-  "Description": "Assimilated content-based encryption",
-  "DefaultHeight": 272,
-  "DefaultWidth": 436,
+  "DashboardTileDefinitionId": 296,
+  "Name": "Kris Group",
+  "Description": "Universal didactic synergy",
+  "DefaultHeight": 723,
+  "DefaultWidth": 781,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Doyle Group",
-  "SelectionId": 30,
+  "EntityName": "Jerde-Bednar",
+  "SelectionId": 156,
   "CurrencyMode": "Base",
-  "CurrencyCode": "possimus",
+  "CurrencyCode": "modi",
   "Measure": "Average",
-  "MeasureField": "officiis",
-  "SortBy": "dignissimos",
-  "LayoutConfig": "qui",
-  "SecondarySelectionId": 675,
-  "MeasureByField": "veniam",
+  "MeasureField": "accusantium",
+  "SortBy": "mollitia",
+  "LayoutConfig": "dolorum",
+  "SecondarySelectionId": 533,
+  "MeasureByField": "ut",
   "Usage": "Dashboard",
-  "ProviderName": "Marvin-Windler",
+  "ProviderName": "Hartmann-Trantow",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 554
+      "FieldLength": 897
     }
   }
 }

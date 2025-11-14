@@ -15,6 +15,7 @@ Get an e-mail based on an archived document.
 
 
 The returned value is not sanitized.
+NsApiSlow threshold: 5000 ms.
 
 
 ## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
@@ -108,7 +109,7 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 163
+  "DocumentId": 208
 }
 ```
 
@@ -121,147 +122,147 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 798,
-      "ContactName": "Tillman Group",
-      "PersonId": 837,
-      "PersonName": "Abshire Group",
-      "AssociateId": 983,
-      "Address": "quia",
-      "EmailId": 954,
+      "ContactId": 519,
+      "ContactName": "Boyle Group",
+      "PersonId": 620,
+      "PersonName": "Gleason-Morissette",
+      "AssociateId": 2,
+      "Address": "maiores",
+      "EmailId": 795,
       "DuplicatePersonIds": [
-        877,
-        989
+        700,
+        271
       ],
-      "Name": "Keeling-Hand",
+      "Name": "Stanton Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 408
+          "FieldLength": 763
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 324,
-      "ContactName": "Stiedemann, Torp and Keeling",
-      "PersonId": 735,
-      "PersonName": "Lebsack LLC",
-      "AssociateId": 125,
-      "Address": "rerum",
-      "EmailId": 456,
+      "ContactId": 290,
+      "ContactName": "Mayert Group",
+      "PersonId": 467,
+      "PersonName": "Murphy, Runolfsson and Satterfield",
+      "AssociateId": 640,
+      "Address": "quasi",
+      "EmailId": 534,
       "DuplicatePersonIds": [
-        995,
-        888
+        592,
+        373
       ],
-      "Name": "Pollich-Harvey",
+      "Name": "Hahn-Bosco",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 486
+          "FieldLength": 919
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 216,
-      "ContactName": "Nienow-Parker",
-      "PersonId": 484,
-      "PersonName": "Anderson, Tromp and Daugherty",
-      "AssociateId": 819,
-      "Address": "aut",
-      "EmailId": 110,
+      "ContactId": 936,
+      "ContactName": "Simonis Group",
+      "PersonId": 25,
+      "PersonName": "Schamberger-Ondricka",
+      "AssociateId": 542,
+      "Address": "voluptatem",
+      "EmailId": 965,
       "DuplicatePersonIds": [
-        634,
-        50
+        374,
+        290
       ],
-      "Name": "Ortiz, O'Conner and Roberts",
+      "Name": "Kuhic Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 405
+          "FieldType": "System.String",
+          "FieldLength": 801
         }
       }
     }
   ],
-  "Subject": "voluptates",
-  "HTMLBody": "iusto",
+  "Subject": "natus",
+  "HTMLBody": "dignissimos",
   "From": null,
-  "Sent": "2021-03-18T03:46:54.785131+01:00",
-  "Size": 932,
+  "Sent": "2022-09-02T02:30:47.3038336+02:00",
+  "Size": 672,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "rerum",
-  "PlainBody": "qui",
+  "MessageID": "optio",
+  "PlainBody": "aut",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 83,
+  "ServerId": 639,
   "Attachments": [
     {
-      "Description": "Pre-emptive stable circuit",
-      "Filename": "cupiditate",
-      "Size": 243,
-      "Type": "cumque",
-      "Encoding": "non",
-      "Id": "quibusdam",
-      "Disposition": "laboriosam",
+      "Description": "Phased bandwidth-monitored frame",
+      "Filename": "voluptas",
+      "Size": 937,
+      "Type": "non",
+      "Encoding": "commodi",
+      "Id": "eos",
+      "Disposition": "consequuntur",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 694
+          "FieldType": "System.String",
+          "FieldLength": 184
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Leannon-Kirlin",
+      "Name": "Hilpert-O'Reilly",
       "Values": [
-        "qui",
-        "eius"
+        "architecto",
+        "non"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 729
+          "FieldLength": 600
         }
       }
     },
     {
-      "Name": "Leannon-Kirlin",
+      "Name": "Hilpert-O'Reilly",
       "Values": [
-        "qui",
-        "eius"
+        "architecto",
+        "non"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 729
+          "FieldLength": 600
         }
       }
     }
   ],
-  "FolderName": "Moen LLC",
-  "EmailItemId": 287,
-  "AccountId": 807,
-  "ReceivedAt": "1999-02-03T03:46:54.785131+01:00",
+  "FolderName": "Rodriguez-Witting",
+  "EmailItemId": 916,
+  "AccountId": 588,
+  "ReceivedAt": "2005-12-17T02:30:47.3038336+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2021-01-24T03:46:54.785131+01:00",
+  "RepliedAt": "2017-07-03T02:30:47.3038336+02:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -270,7 +271,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 371
+      "FieldLength": 565
     }
   }
 }

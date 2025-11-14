@@ -14,6 +14,8 @@ POST /api/v1/Agents/Relation/SaveContactRelation
 Creates a new or updates an existing contact relation.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -91,7 +93,7 @@ OK
 POST /api/v1/Agents/Relation/SaveContactRelation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -106,30 +108,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 318,
-  "SourcePersonId": 129,
-  "DestinationContactId": 678,
-  "DestinationPersonId": 659,
-  "RelationId": 46,
-  "Comment": "autem",
-  "RelationDefinitionId": 71,
-  "Reversed": 478,
-  "UpdatedDate": "2007-05-20T03:46:55.2382402+02:00",
-  "CreatedDate": "2025-02-10T03:46:55.2382402+01:00",
+  "SourceContactId": 522,
+  "SourcePersonId": 180,
+  "DestinationContactId": 230,
+  "DestinationPersonId": 43,
+  "RelationId": 115,
+  "Comment": "pariatur",
+  "RelationDefinitionId": 128,
+  "Reversed": 158,
+  "UpdatedDate": "2009-09-15T02:30:47.7413192+02:00",
+  "CreatedDate": "2020-02-18T02:30:47.7413192+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Abernathy Group",
-  "SourcePersonName": "Olson-McLaughlin",
-  "DestinationContactName": "Towne LLC",
-  "DestinationPersonName": "Gorczany-Abbott",
-  "ActiveText": "dolor",
-  "PassiveText": "consequatur",
+  "SourceContactName": "Strosin-Mante",
+  "SourcePersonName": "Harvey-Carroll",
+  "DestinationContactName": "Wintheiser, Christiansen and Satterfield",
+  "DestinationPersonName": "Jakubowski, Bednar and Johnson",
+  "ActiveText": "ut",
+  "PassiveText": "laboriosam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 113
+      "FieldType": "System.String",
+      "FieldLength": 388
     }
   }
 }

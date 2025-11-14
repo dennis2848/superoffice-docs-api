@@ -76,25 +76,25 @@ OK
 PUT /api/v1/List/TicketCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 531,
-    "Name": "Berge-Fisher",
-    "Tooltip": "inventore",
-    "Deleted": false,
-    "Rank": 467,
-    "UdListDefinitionId": 91
+    "HeadingId": 207,
+    "Name": "Bernhard-Hyatt",
+    "Tooltip": "ea",
+    "Deleted": true,
+    "Rank": 426,
+    "UdListDefinitionId": 360
   },
   {
-    "HeadingId": 531,
-    "Name": "Berge-Fisher",
-    "Tooltip": "inventore",
-    "Deleted": false,
-    "Rank": 467,
-    "UdListDefinitionId": 91
+    "HeadingId": 207,
+    "Name": "Bernhard-Hyatt",
+    "Tooltip": "ea",
+    "Deleted": true,
+    "Rank": 426,
+    "UdListDefinitionId": 360
   }
 ]
 ```
@@ -107,18 +107,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 849,
-    "Name": "Crooks-Bergstrom",
-    "Tooltip": "dicta",
-    "Deleted": false,
-    "Rank": 824,
-    "UdListDefinitionId": 546,
+    "HeadingId": 317,
+    "Name": "Bednar LLC",
+    "Tooltip": "sunt",
+    "Deleted": true,
+    "Rank": 643,
+    "UdListDefinitionId": 785,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 642
+        "FieldLength": 993
       }
     }
   }

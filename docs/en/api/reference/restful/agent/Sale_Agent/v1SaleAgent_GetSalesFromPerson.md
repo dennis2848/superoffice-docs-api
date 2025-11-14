@@ -14,6 +14,8 @@ POST /api/v1/Agents/Sale/GetSalesFromPerson
 Returns all sales for the person provided.
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -99,12 +101,12 @@ OK
 POST /api/v1/Agents/Sale/GetSalesFromPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 858,
-  "OnlyOpenSales": true
+  "PersonId": 596,
+  "OnlyOpenSales": false
 }
 ```
 
@@ -116,37 +118,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Breitenberg LLC",
-    "SaleDate": "2004-11-28T03:46:55.285132+01:00",
-    "SaleId": 350,
-    "Probability": 857,
-    "Title": "ad",
-    "Amount": 10762.155999999999,
-    "Currency": "illo",
-    "ProjectName": "Johns-Bechtelar",
-    "AssociateFullName": "Melvina White",
-    "Description": "Customizable clear-thinking flexibility",
+    "ContactName": "Greenholt Group",
+    "SaleDate": "2010-08-04T02:30:47.7881925+02:00",
+    "SaleId": 363,
+    "Probability": 516,
+    "Title": "aperiam",
+    "Amount": 29302.899999999998,
+    "Currency": "harum",
+    "ProjectName": "Wisoky-Okuneva",
+    "AssociateFullName": "Miller Cormier DVM",
+    "Description": "De-engineered static utilisation",
     "Status": "Lost",
-    "WeightedAmount": 25908.778,
-    "ProjectId": 159,
-    "EarningPercent": 13695.58,
-    "Earning": 607.996,
-    "ContactId": 395,
-    "AssociateId": 373,
-    "PersonId": 573,
-    "SaleTypeId": 758,
-    "SaleTypeName": "Heidenreich Group",
-    "PersonFullName": "Eva DuBuque",
+    "WeightedAmount": 30086.399999999998,
+    "ProjectId": 593,
+    "EarningPercent": 18973.236,
+    "Earning": 24360.582,
+    "ContactId": 185,
+    "AssociateId": 418,
+    "PersonId": 763,
+    "SaleTypeId": 820,
+    "SaleTypeName": "Marks-Hagenes",
+    "PersonFullName": "Theo Hackett",
     "Completed": "Completed",
-    "ActiveErpLinks": 945,
-    "NextDueDate": "2014-03-18T03:46:55.285132+01:00",
-    "Number": "1014967",
+    "ActiveErpLinks": 199,
+    "NextDueDate": "1998-09-12T02:30:47.7881925+02:00",
+    "Number": "1234954",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 993
+        "FieldType": "System.String",
+        "FieldLength": 182
       }
     }
   }

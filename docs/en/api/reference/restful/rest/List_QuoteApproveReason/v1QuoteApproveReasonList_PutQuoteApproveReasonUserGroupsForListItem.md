@@ -98,47 +98,47 @@ OK
 PUT /api/v1/List/QuoteApproveReason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 749,
-    "Name": "Hammes-Grant",
-    "ToolTip": "Laboriosam molestias et accusantium.",
-    "Deleted": true,
-    "Rank": 984,
-    "Type": "et",
-    "ColorBlock": 856,
-    "IconHint": "iste",
-    "Selected": false,
-    "LastChanged": "1999-05-10T03:47:00.7536695+02:00",
+    "Id": 990,
+    "Name": "Renner LLC",
+    "ToolTip": "Dicta aliquam et error necessitatibus velit.",
+    "Deleted": false,
+    "Rank": 731,
+    "Type": "ex",
+    "ColorBlock": 829,
+    "IconHint": "id",
+    "Selected": true,
+    "LastChanged": "2008-03-04T02:30:53.3973865+01:00",
     "ChildItems": [
       {
-        "Id": 828,
-        "Name": "Cole Group",
-        "ToolTip": "Voluptatem provident rerum ab natus.",
+        "Id": 440,
+        "Name": "Stroman, Heidenreich and Tromp",
+        "ToolTip": "Laudantium pariatur quo hic ea.",
         "Deleted": true,
-        "Rank": 31,
-        "Type": "doloribus",
-        "ColorBlock": 648,
-        "IconHint": "error",
+        "Rank": 134,
+        "Type": "quos",
+        "ColorBlock": 727,
+        "IconHint": "debitis",
         "Selected": false,
-        "LastChanged": "2004-06-30T03:47:00.7536695+02:00",
+        "LastChanged": "2013-05-10T02:30:53.3973865+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "molestiae",
-        "StyleHint": "eveniet",
-        "Hidden": false,
-        "FullName": "Ms. Antonina Eve Bergstrom DVM"
+        "ExtraInfo": "blanditiis",
+        "StyleHint": "qui",
+        "Hidden": true,
+        "FullName": "Miss Allison Fay IV"
       }
     ],
-    "ExtraInfo": "perspiciatis",
-    "StyleHint": "fugiat",
+    "ExtraInfo": "sed",
+    "StyleHint": "animi",
     "Hidden": false,
-    "FullName": "Lessie Dannie Murazik V"
+    "FullName": "Elisha Grant Kling DDS"
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 86,
-    "Name": "O'Reilly, Koch and Hills",
-    "ToolTip": "Autem eligendi atque fuga libero minus praesentium mollitia.",
+    "Id": 409,
+    "Name": "Kemmer Group",
+    "ToolTip": "Suscipit ea debitis.",
     "Deleted": false,
-    "Rank": 726,
-    "Type": "fugiat",
-    "ColorBlock": 262,
-    "IconHint": "et",
-    "Selected": true,
-    "LastChanged": "2006-11-13T03:47:00.7692942+01:00",
+    "Rank": 742,
+    "Type": "asperiores",
+    "ColorBlock": 427,
+    "IconHint": "omnis",
+    "Selected": false,
+    "LastChanged": "2015-02-04T02:30:53.3973865+01:00",
     "ChildItems": [
       {
-        "Id": 602,
-        "Name": "Boyer-Nader",
-        "ToolTip": "Ut laudantium deleniti eius incidunt fugiat.",
+        "Id": 305,
+        "Name": "Wiza-Bartell",
+        "ToolTip": "Earum veniam voluptatem quas.",
         "Deleted": true,
-        "Rank": 490,
-        "Type": "fugiat",
-        "ColorBlock": 677,
-        "IconHint": "omnis",
+        "Rank": 661,
+        "Type": "molestiae",
+        "ColorBlock": 744,
+        "IconHint": "dolorem",
         "Selected": false,
-        "LastChanged": "2003-06-20T03:47:00.7692942+02:00",
+        "LastChanged": "2003-02-19T02:30:53.3973865+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "impedit",
-        "StyleHint": "est",
-        "Hidden": true,
-        "FullName": "Monique Russel",
+        "ExtraInfo": "nostrum",
+        "StyleHint": "deleniti",
+        "Hidden": false,
+        "FullName": "Ferne Kozey",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 636
+            "FieldType": "System.Int32",
+            "FieldLength": 693
           }
         }
       }
     ],
-    "ExtraInfo": "minima",
-    "StyleHint": "saepe",
+    "ExtraInfo": "totam",
+    "StyleHint": "aut",
     "Hidden": false,
-    "FullName": "Prof. Shany Rath Sr.",
+    "FullName": "Jewell Yost",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 54
+        "FieldType": "System.Int32",
+        "FieldLength": 808
       }
     }
   }

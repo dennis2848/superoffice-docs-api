@@ -15,6 +15,7 @@ Method that returns a specified number of appointments of a specific appointment
 
 
 The appointments belong to the person specified.  Task represents the different types of activities, like “Phone call”, “Meeting” and so on.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -135,16 +136,16 @@ OK
 POST /api/v1/Agents/Appointment/GetPersonAppointmentsByTask
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 702,
+  "PersonId": 23,
   "IncludeProjectAppointments": true,
-  "StartTime": "2018-03-08T03:46:53.9726601+01:00",
-  "EndTime": "2009-01-22T03:46:53.9726601+01:00",
-  "Count": 468,
-  "TaskId": 123
+  "StartTime": "2002-03-13T02:30:46.5069828+01:00",
+  "EndTime": "2004-09-10T02:30:46.5069828+02:00",
+  "Count": 26,
+  "TaskId": 650
 }
 ```
 
@@ -156,67 +157,67 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 970,
-    "StartDate": "2004-11-29T03:46:53.9726601+01:00",
-    "EndDate": "2002-06-19T03:46:53.9726601+02:00",
+    "AppointmentId": 459,
+    "StartDate": "2011-07-22T02:30:46.5069828+02:00",
+    "EndDate": "2012-02-04T02:30:46.5069828+01:00",
     "Type": "BookingForChecklist",
-    "Task": "saepe",
-    "AssociateFullName": "Ms. Calista Santos Parker",
-    "ContactName": "Kshlerin-Haag",
-    "Description": "Compatible directional conglomeration",
-    "PersonFullName": "Mr. Beryl Konopelski",
-    "PersonId": 471,
-    "ContactId": 10,
-    "ProjectId": 833,
-    "ProjectName": "Effertz Inc and Sons",
-    "IsPublished": false,
-    "AssociateId": 806,
-    "ColorIndex": 396,
-    "IsFree": false,
+    "Task": "quibusdam",
+    "AssociateFullName": "Aimee Runolfsdottir",
+    "ContactName": "Hilpert-Witting",
+    "Description": "Organic local conglomeration",
+    "PersonFullName": "Coty Goldner",
+    "PersonId": 900,
+    "ContactId": 151,
+    "ProjectId": 249,
+    "ProjectName": "Bartoletti-Schmitt",
+    "IsPublished": true,
+    "AssociateId": 817,
+    "ColorIndex": 987,
+    "IsFree": true,
     "HasAlarm": false,
-    "IsAlldayEvent": true,
+    "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 519,
-    "PriorityName": "Schuster Group",
+    "PriorityId": 887,
+    "PriorityName": "Stiedemann Group",
     "TaskType": "Appointment",
-    "IsBookingMain": false,
-    "IsRecurrence": true,
+    "IsBookingMain": true,
+    "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "1998-08-25T03:46:53.9882851+02:00",
+    "ActiveDate": "2015-09-22T02:30:46.5069828+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2000-11-23T03:46:53.9882851+01:00",
-    "RecurringEndDate": "2016-05-17T03:46:53.9882851+02:00",
-    "MotherId": 694,
-    "AssignedBy": 249,
-    "AssignedByFullName": "Stewart Bosco",
+    "RecurringStartDate": "2017-07-05T02:30:46.5069828+02:00",
+    "RecurringEndDate": "2012-07-29T02:30:46.5069828+02:00",
+    "MotherId": 723,
+    "AssignedBy": 253,
+    "AssignedByFullName": "Miss Emmalee Cecile Terry",
     "RejectReason": "",
-    "Location": "ut",
-    "AlarmLeadTime": "culpa",
-    "SaleId": 586,
-    "SaleName": "Kiehn Group",
-    "AssociateName": "Hilpert-Rath",
-    "CreatedDate": "2013-05-13T03:46:53.9882851+02:00",
-    "CreatedBy": "repudiandae",
-    "CreatedByFullName": "Kelly Wuckert",
-    "CreatedByAssociateId": 456,
+    "Location": "a",
+    "AlarmLeadTime": "eius",
+    "SaleId": 224,
+    "SaleName": "Streich, Mueller and Gibson",
+    "AssociateName": "O'Conner, Schuppe and Veum",
+    "CreatedDate": "2009-12-12T02:30:46.5069828+01:00",
+    "CreatedBy": "consequatur",
+    "CreatedByFullName": "Jazmyne Legros",
+    "CreatedByAssociateId": 99,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "OwnedExternally": "Google",
-    "MotherAssociateId": 383,
+    "MotherAssociateId": 146,
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 819,
-    "Title": "laborum",
-    "Agenda": "ut",
-    "InternalNotes": "debitis",
+    "PreferredTZLocation": 696,
+    "Title": "vel",
+    "Agenda": "minima",
+    "InternalNotes": "earum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 958
+        "FieldLength": 659
       }
     }
   }

@@ -28,7 +28,7 @@ Get the MDO list items for "Task" - with headings and filtering by user group.
 
 ```http
 GET /api/v1/List/Task/MDOItems?flat=False
-GET /api/v1/List/Task/MDOItems?query=qui
+GET /api/v1/List/Task/MDOItems?query=asperiores
 ```
 
 
@@ -79,7 +79,7 @@ OK
 GET /api/v1/List/Task/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -90,50 +90,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 628,
-    "Name": "O'Keefe Inc and Sons",
-    "ToolTip": "Quia ex porro incidunt eaque corrupti.",
+    "Id": 277,
+    "Name": "Heidenreich Inc and Sons",
+    "ToolTip": "Provident illum iusto non id temporibus.",
     "Deleted": false,
-    "Rank": 152,
-    "Type": "autem",
+    "Rank": 836,
+    "Type": "aliquam",
     "ChildItems": [
       {
-        "Id": 41,
-        "Name": "Haag-Howe",
-        "ToolTip": "Necessitatibus autem.",
-        "Deleted": true,
-        "Rank": 533,
-        "Type": "quidem",
+        "Id": 330,
+        "Name": "Huel-Mante",
+        "ToolTip": "Dignissimos maxime atque tempore.",
+        "Deleted": false,
+        "Rank": 559,
+        "Type": "et",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "vero",
-        "ColorBlock": 395,
-        "ExtraInfo": "dolores",
-        "StyleHint": "quidem",
-        "FullName": "Tyson Kuhic",
+        "IconHint": "aut",
+        "ColorBlock": 189,
+        "ExtraInfo": "ut",
+        "StyleHint": "aperiam",
+        "FullName": "Misael Reichert",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 442
+            "FieldType": "System.Int32",
+            "FieldLength": 712
           }
         }
       }
     ],
-    "IconHint": "dolorum",
-    "ColorBlock": 64,
-    "ExtraInfo": "nostrum",
-    "StyleHint": "dolorum",
-    "FullName": "Miss Kaci Esmeralda Hodkiewicz DVM",
+    "IconHint": "et",
+    "ColorBlock": 700,
+    "ExtraInfo": "molestiae",
+    "StyleHint": "quis",
+    "FullName": "Elroy Dickens",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 173
+        "FieldType": "System.Int32",
+        "FieldLength": 665
       }
     }
   }

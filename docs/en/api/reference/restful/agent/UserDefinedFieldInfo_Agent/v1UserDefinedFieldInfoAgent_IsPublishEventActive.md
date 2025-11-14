@@ -14,6 +14,8 @@ POST /api/v1/Agents/UserDefinedFieldInfo/IsPublishEventActive
 Check if the publish event is active for the given type
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -83,5 +85,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-true
+false
 ```

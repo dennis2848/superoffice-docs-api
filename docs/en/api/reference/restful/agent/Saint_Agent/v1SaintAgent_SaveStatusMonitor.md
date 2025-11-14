@@ -14,6 +14,8 @@ POST /api/v1/Agents/Saint/SaveStatusMonitor
 Updates the existing StatusMonitor or creates a new StatusMonitor if the id parameter is 0.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -96,21 +98,21 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerTable": 270,
-  "Rank": 508,
-  "DefaultTask": 930,
-  "DefaultTaskText": "et",
-  "IsVisual": false,
-  "LastGenerated": "2017-09-11T03:46:55.2382402+02:00",
-  "Description": "Versatile composite process improvement",
-  "Name": "Simonis-Kuhn",
-  "StatusMonitorId": 839,
-  "PictureId": 121,
-  "NeedsUpdate": true,
-  "Deleted": true,
-  "NumMatches": 507,
-  "NumNeedUpdate": 324,
-  "GenerationStart": "2007-08-04T03:46:55.2382402+02:00"
+  "OwnerTable": 351,
+  "Rank": 635,
+  "DefaultTask": 213,
+  "DefaultTaskText": "nam",
+  "IsVisual": true,
+  "LastGenerated": "2004-04-25T02:30:47.7569437+02:00",
+  "Description": "Innovative even-keeled help-desk",
+  "Name": "Batz LLC",
+  "StatusMonitorId": 603,
+  "PictureId": 136,
+  "NeedsUpdate": false,
+  "Deleted": false,
+  "NumMatches": 994,
+  "NumNeedUpdate": 548,
+  "GenerationStart": "2010-12-20T02:30:47.7569437+01:00"
 }
 ```
 
@@ -121,27 +123,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerTable": 545,
-  "Rank": 965,
-  "DefaultTask": 141,
-  "DefaultTaskText": "qui",
+  "OwnerTable": 311,
+  "Rank": 215,
+  "DefaultTask": 792,
+  "DefaultTaskText": "at",
   "IsVisual": false,
-  "LastGenerated": "2005-01-09T03:46:55.2382402+01:00",
-  "Description": "Synergistic zero defect firmware",
-  "Name": "Russel Group",
-  "StatusMonitorId": 956,
-  "PictureId": 817,
-  "NeedsUpdate": true,
-  "Deleted": false,
-  "NumMatches": 718,
-  "NumNeedUpdate": 367,
-  "GenerationStart": "2023-02-22T03:46:55.2382402+01:00",
+  "LastGenerated": "2012-07-17T02:30:47.7569437+02:00",
+  "Description": "Intuitive incremental contingency",
+  "Name": "Krajcik, Watsica and Dare",
+  "StatusMonitorId": 466,
+  "PictureId": 437,
+  "NeedsUpdate": false,
+  "Deleted": true,
+  "NumMatches": 955,
+  "NumNeedUpdate": 865,
+  "GenerationStart": "2006-09-18T02:30:47.7569437+02:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 612
+      "FieldType": "System.Int32",
+      "FieldLength": 1001
     }
   }
 }

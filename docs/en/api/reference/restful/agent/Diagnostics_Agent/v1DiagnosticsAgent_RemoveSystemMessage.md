@@ -14,6 +14,8 @@ POST /api/v1/Agents/Diagnostics/RemoveSystemMessage
 Removes a system message for current associate
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -66,12 +68,12 @@ No Content
 POST /api/v1/Agents/Diagnostics/RemoveSystemMessage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "OnlineappId": 316,
-  "SystemMessageId": "dignissimos"
+  "OnlineappId": 721,
+  "SystemMessageId": "eos"
 }
 ```
 

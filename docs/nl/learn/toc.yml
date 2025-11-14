@@ -39,6 +39,9 @@ items:
   - name: Verzoeken
     href: ../request/learn/toc.yml
     topicHref: ../request/learn/index.md
+  - name: Aangepaste objecten
+    href: ../custom-objects/learn/toc.yml
+    topicHref: ../custom-objects/learn/index.md
   - name: Selectie
     href: ../search-options/selection/learn/toc.yml
     topicHref: ../search-options/selection/learn/index.md
@@ -48,6 +51,9 @@ items:
   - name: Marketing
     href: ../marketing/learn/toc.yml
     topicHref: ../marketing/learn/index.md
+  - name: Leadbeheer
+    href: ../lead/learn/toc.yml
+    topicHref: ../lead/learn/index.md
 
   - name: Mobile CRM
     href: ../mobile/superoffice-mobile/index.md
@@ -60,6 +66,10 @@ items:
     href: ../security/privacy/learn/toc.yml
     topicHref: ../security/privacy/learn/index.md
 
+  - name: AI-diensten
+    href: ../ai/learn/toc.yml
+    topicHref: ../ai/learn/index.md
+
   - name: SAINT (Sales Intelligence)
     href: ../saint/learn/toc.yml
     topicHref: ../saint/learn/index.md
@@ -68,76 +78,13 @@ items:
     topicHref: ../erp/learn/index.md
 
   - name: Aanpassing
-    href: customization.yml
-    items:
-    - name: Overzicht
-      href: customization.yml
-    - name: Lijsten
-      href: ../admin/lists/learn/toc.yml
-      topicHref: ../admin/lists/learn/index.md
-    - name: Voorkeuren
-      href: ../admin/preferences/learn/toc.yml
-      topicHref: ../admin/preferences/learn/index.md
+    href: ../customization/admin/toc.yml
+    topicHref: ../customization/index.yml
 
-    - name: Aangepaste objecten
-      href: ../custom-objects/learn/toc.yml
-      topicHref: ../custom-objects/learn/index.md
+  - name: Instellingen en onderhoud
+    href: ../admin/learn/toc.yml
+    topicHref: ../admin/index.yml
 
-    - name: Schermontwerper
-      href: ../ui/screen-designer/learn/toc.yml
-      topicHref: ../ui/screen-designer/learn/index.md
-
-    - name: Opties
-      href: ../admin/options/learn/toc.yml
-      topicHref: ../admin/options/learn/index.md
-
-    - name: CRMScript
-      href: ../automation/crmscript/learn/toc.yml
-      topicHref: ../automation/crmscript/learn/index.md
-
-    - name: E-mail
-      href: ../email/service/learn/toc.yml
-      topicHref: ../email/service/learn/index.md
-
-    - name: Klantportaal
-      href: ../customer-center/learn/toc.yml
-      topicHref: ../customer-center/learn/index.md
-
-    - name: Systeemontwerp
-      href: ../ui/blogic/learn/toc.yml
-      topicHref: ../ui/blogic/learn/index.md
-
-    - name: Lokaal
-      topicHref: ../automation/crmscript/learn/screen/data-exchange.md
-      items:
-      - name: Gegevensuitwisseling
-        href: ../automation/crmscript/learn/screen/data-exchange.md
-      - name: SOAP-interface configureren
-        href: ../admin/learn/configure-soap.md
-
-  - name: Beheer en systeeminstellingen
-    href: administration.yml
-    items:
-    - name: Overzicht
-      href: administration.yml
-    - name: Weergaven in Instellingen en onderhoud aanpassen
-      href: ../admin/learn/adjusting-views.md
-    - name: Gebruikersbeheer
-      href: ../admin/user-management/learn/toc.yml
-      topicHref: ../admin/user-management/learn/index.md
-    - name: Licenties
-      href: ../admin/license/learn/toc.yml
-      topicHref: ../admin/license/learn/index.md
-    - name: Import
-      href: ../admin/import/learn/toc.yml
-      topicHref: ../admin/import/learn/index.md
-    - name: Systeemgebeurtenis toevoegen
-      href: ../admin/learn/add-system-event.md
-
-    - name: AI-diensten
-      href: ../ai/learn/toc.yml
-      topicHref: ../ai/learn/index.md
-
-  - name: Windows Client-instellingen
-    href: ../onsite/win-client/learn/toc.yml
-    topicHref: ../onsite/win-client/learn/index.md
+  - name: Taal, vertaling en tijdzones
+    href: ../localization/learn/toc.yml
+    topicHref: ../localization/learn/translate-fields.md

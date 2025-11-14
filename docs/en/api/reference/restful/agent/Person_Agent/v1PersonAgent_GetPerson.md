@@ -14,6 +14,8 @@ POST /api/v1/Agents/Person/GetPerson
 Gets a Person object.
 
 
+NsApiSlow threshold: 1000 ms.
+
 
 
 
@@ -27,7 +29,7 @@ Gets a Person object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Person/GetPerson?personId=14
+POST /api/v1/Agents/Person/GetPerson?personId=146
 POST /api/v1/Agents/Person/GetPerson?$select=name,department,category/id
 ```
 
@@ -118,53 +120,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Position": "nulla",
-  "PersonId": 585,
-  "Mrmrs": "eum",
-  "Firstname": "Luciano",
-  "Lastname": "Huels",
-  "MiddleName": "Murphy-Collins",
-  "Title": "unde",
-  "Description": "Future-proofed optimal analyzer",
-  "Email": "furman@weimanngreen.uk",
-  "FullName": "Joanny Berge",
-  "DirectPhone": "823.032.6633 x74222",
-  "FormalName": "Ledner-O'Connell",
-  "CountryId": 261,
-  "ContactId": 551,
-  "ContactName": "Kulas, Pfeffer and Johnston",
-  "Retired": 289,
-  "Rank": 247,
-  "ActiveInterests": 160,
+  "Position": "et",
+  "PersonId": 448,
+  "Mrmrs": "voluptate",
+  "Firstname": "Dangelo",
+  "Lastname": "Greenholt",
+  "MiddleName": "Christiansen, Harvey and Mosciski",
+  "Title": "voluptatem",
+  "Description": "Grass-roots dynamic secured line",
+  "Email": "isom@crona.uk",
+  "FullName": "Melba Heaney II",
+  "DirectPhone": "1-403-238-7034",
+  "FormalName": "Powlowski, Cruickshank and Barton",
+  "CountryId": 822,
+  "ContactId": 269,
+  "ContactName": "Hintz, Bauch and Weissnat",
+  "Retired": 684,
+  "Rank": 293,
+  "ActiveInterests": 814,
   "ContactDepartment": "",
-  "ContactCountryId": 842,
-  "ContactOrgNr": "1048308",
-  "FaxPhone": "1-570-435-2094 x9035",
-  "MobilePhone": "231-164-0647 x936",
-  "ContactPhone": "1-073-417-8213 x58268",
-  "AssociateName": "Gislason, Schiller and Altenwerth",
-  "AssociateId": 985,
-  "UsePersonAddress": true,
-  "ContactFax": "necessitatibus",
-  "Kanafname": "soluta",
-  "Kanalname": "enim",
-  "Post1": "incidunt",
-  "Post2": "qui",
-  "Post3": "natus",
-  "EmailName": "travis@trompswaniawski.info",
-  "ContactFullName": "Cleo Emard",
-  "ActiveErpLinks": 665,
-  "TicketPriorityId": 276,
-  "SupportLanguageId": 104,
-  "SupportAssociateId": 408,
+  "ContactCountryId": 786,
+  "ContactOrgNr": "1585873",
+  "FaxPhone": "528-226-4523 x0590",
+  "MobilePhone": "1-850-728-9702",
+  "ContactPhone": "(818)522-0694 x013",
+  "AssociateName": "Weissnat Group",
+  "AssociateId": 904,
+  "UsePersonAddress": false,
+  "ContactFax": "corrupti",
+  "Kanafname": "voluptate",
+  "Kanalname": "sunt",
+  "Post1": "nostrum",
+  "Post2": "et",
+  "Post3": "ut",
+  "EmailName": "kristian@bashirianhayes.biz",
+  "ContactFullName": "Maxie Koelpin",
+  "ActiveErpLinks": 350,
+  "TicketPriorityId": 105,
+  "SupportLanguageId": 847,
+  "SupportAssociateId": 605,
   "CategoryName": "VIP Customer",
-  "PersonNumber": "242617",
+  "PersonNumber": "589239",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 764
+      "FieldType": "System.Int32",
+      "FieldLength": 777
     }
   }
 }

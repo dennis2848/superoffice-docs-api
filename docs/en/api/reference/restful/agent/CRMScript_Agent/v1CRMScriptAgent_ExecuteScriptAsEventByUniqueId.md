@@ -15,6 +15,7 @@ Execute a CRMScript with event data as input.
 
 
 Returns event data with output variable values.
+NsApiSlow threshold: 5000 ms.
 
 
 ## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
@@ -97,7 +98,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CRMScriptUniqueId": "asperiores",
+  "CRMScriptUniqueId": "molestiae",
   "EventData": null
 }
 ```
@@ -111,42 +112,42 @@ Content-Type: application/json; charset=utf-8
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "deserunt",
-    "InputValues2": "ea"
+    "InputValues1": "est",
+    "InputValues2": "numquam"
   },
   "BlockExecution": false,
-  "NavigateTo": "voluptatem",
-  "Message": "molestiae",
-  "ShowDialog": "vel",
+  "NavigateTo": "sit",
+  "Message": "laborum",
+  "ShowDialog": "autem",
   "OutputValues": {
-    "OutputValues1": "laudantium",
-    "OutputValues2": "fuga"
+    "OutputValues1": "asperiores",
+    "OutputValues2": "voluptas"
   },
   "StateValues": {
-    "StateValues1": "assumenda",
-    "StateValues2": "est"
+    "StateValues1": "totam",
+    "StateValues2": "impedit"
   },
-  "Exception": "unde",
+  "Exception": "minus",
   "ParserValues": {
-    "ParserValues1": "soluta",
-    "ParserValues2": "repudiandae"
+    "ParserValues1": "non",
+    "ParserValues2": "dolore"
   },
   "CgiVariables": {
-    "CgiVariables1": "et",
-    "CgiVariables2": "rerum"
+    "CgiVariables1": "aut",
+    "CgiVariables2": "ullam"
   },
-  "CgiContent": "rerum",
+  "CgiContent": "aut",
   "Headers": {
-    "Headers1": "nostrum",
-    "Headers2": "illo"
+    "Headers1": "sunt",
+    "Headers2": "ipsa"
   },
   "TraceExecution": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 963
+      "FieldType": "System.String",
+      "FieldLength": 794
     }
   }
 }

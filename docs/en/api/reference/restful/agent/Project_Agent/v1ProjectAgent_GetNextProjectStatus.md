@@ -11,7 +11,7 @@ content_type: reference
 POST /api/v1/Agents/Project/GetNextProjectStatus
 ```
 
-
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -73,7 +73,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 869
+  "ProjectId": 767
 }
 ```
 
@@ -83,5 +83,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-400
+351
 ```

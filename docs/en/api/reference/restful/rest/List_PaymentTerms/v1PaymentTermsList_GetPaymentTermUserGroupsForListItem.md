@@ -76,7 +76,7 @@ OK
 GET /api/v1/List/PaymentTerm/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -87,56 +87,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 803,
-    "Name": "Watsica, Gutkowski and Tremblay",
-    "ToolTip": "Deserunt et eos non ut eos quia enim.",
+    "Id": 411,
+    "Name": "DuBuque, Orn and O'Kon",
+    "ToolTip": "Vel amet ab repudiandae accusantium dolores ut asperiores.",
     "Deleted": false,
-    "Rank": 840,
-    "Type": "explicabo",
-    "ColorBlock": 430,
-    "IconHint": "sapiente",
-    "Selected": true,
-    "LastChanged": "2022-01-05T03:47:00.6911718+01:00",
+    "Rank": 831,
+    "Type": "id",
+    "ColorBlock": 845,
+    "IconHint": "voluptatibus",
+    "Selected": false,
+    "LastChanged": "2021-05-31T02:30:53.3192639+02:00",
     "ChildItems": [
       {
-        "Id": 944,
-        "Name": "Kertzmann, Koelpin and Collins",
-        "ToolTip": "Voluptas aspernatur eum ea iste ut.",
-        "Deleted": true,
-        "Rank": 213,
-        "Type": "eveniet",
-        "ColorBlock": 210,
-        "IconHint": "ut",
-        "Selected": true,
-        "LastChanged": "2000-01-05T03:47:00.6911718+01:00",
+        "Id": 300,
+        "Name": "Wintheiser LLC",
+        "ToolTip": "Voluptas magni et incidunt.",
+        "Deleted": false,
+        "Rank": 300,
+        "Type": "quia",
+        "ColorBlock": 777,
+        "IconHint": "quia",
+        "Selected": false,
+        "LastChanged": "2003-01-20T02:30:53.3192639+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "illum",
-        "StyleHint": "aperiam",
+        "ExtraInfo": "aut",
+        "StyleHint": "officiis",
         "Hidden": false,
-        "FullName": "Enola Maryse Hirthe I",
+        "FullName": "Philip Cremin",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 366
+            "FieldLength": 554
           }
         }
       }
     ],
-    "ExtraInfo": "ipsum",
-    "StyleHint": "dignissimos",
-    "Hidden": true,
-    "FullName": "Maia Larson",
+    "ExtraInfo": "atque",
+    "StyleHint": "optio",
+    "Hidden": false,
+    "FullName": "Martin Monahan",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 558
+        "FieldLength": 133
       }
     }
   }

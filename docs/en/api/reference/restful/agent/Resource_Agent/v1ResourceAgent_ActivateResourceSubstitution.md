@@ -14,6 +14,8 @@ POST /api/v1/Agents/Resource/ActivateResourceSubstitution
 Activate or deactive a resource substitution for one or more cultures
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -67,12 +69,12 @@ No Content
 POST /api/v1/Agents/Resource/ActivateResourceSubstitution
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ResourceName": "McClure, Gerlach and Farrell",
-  "Culture": "maxime",
+  "ResourceName": "Runolfsson LLC",
+  "Culture": "eum",
   "IsActive": false
 }
 ```

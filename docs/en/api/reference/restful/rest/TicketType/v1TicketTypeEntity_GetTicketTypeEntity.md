@@ -15,6 +15,7 @@ Gets a TicketTypeEntity object.
 
 
 Calls the List agent service GetTicketTypeEntity.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -92,7 +93,7 @@ TicketTypeEntity found.
 GET /api/v1/TicketType/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -102,40 +103,40 @@ HTTP/1.1 200 TicketTypeEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 167,
-  "Name": "Schowalter, Osinski and Mohr",
-  "Rank": 979,
-  "Tooltip": "nemo",
-  "Icon": "aut",
-  "DefaultTicketStatus": 401,
+  "TicketTypeId": 286,
+  "Name": "Daniel-Morar",
+  "Rank": 193,
+  "Tooltip": "facere",
+  "Icon": "voluptatem",
+  "DefaultTicketStatus": 735,
   "TicketStatuses": [
-    697,
-    215
+    433,
+    777
   ],
-  "DefaultTicketPriority": 600,
+  "DefaultTicketPriority": 855,
   "TicketPriorities": [
-    132,
-    972
+    431,
+    171
   ],
-  "ReplyTemplate": 226,
-  "IsExternalVisible": false,
+  "ReplyTemplate": 502,
+  "IsExternalVisible": true,
   "IsDefault": true,
   "ShowInNew": false,
-  "ExcludeSignature": false,
+  "ExcludeSignature": true,
   "ExcludeEmailRecipients": true,
   "ExternalAsDefault": false,
   "VisibleForGroups": [
-    762,
-    875
+    466,
+    514
   ],
   "ReplyForwardNoSignature": false,
-  "ReplyExternalAsDefault": true,
+  "ReplyExternalAsDefault": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 794
+      "FieldLength": 455
     }
   },
   "_Links": {

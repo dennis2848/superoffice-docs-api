@@ -14,6 +14,8 @@ POST /api/v1/Agents/Project/GetPublishedProject
 Get published project by project id.
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -91,11 +93,11 @@ OK
 POST /api/v1/Agents/Project/GetPublishedProject
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 276
+  "ProjectId": 330
 }
 ```
 
@@ -106,30 +108,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 857,
-  "Name": "Ziemann Group",
-  "Description": "Enterprise-wide global capacity",
+  "ProjectId": 7,
+  "Name": "Beier-Durgan",
+  "Description": "Future-proofed holistic software",
   "URL": "http://www.example.com/",
-  "Type": "cumque",
-  "AssociateId": 303,
-  "AssociateFullName": "April Schoen",
-  "TypeId": 417,
-  "Updated": "2025-03-29T03:46:55.1757421+01:00",
-  "StatusId": 56,
-  "Status": "dolor",
-  "TextId": 539,
-  "PublishTo": "2022-01-08T03:46:55.1757421+01:00",
-  "PublishFrom": "2022-08-07T03:46:55.1757421+02:00",
-  "IsPublished": false,
+  "Type": "consequatur",
+  "AssociateId": 413,
+  "AssociateFullName": "Prof. Rhoda Alana Hickle III",
+  "TypeId": 616,
+  "Updated": "2001-02-19T02:30:47.6944454+01:00",
+  "StatusId": 744,
+  "Status": "eaque",
+  "TextId": 488,
+  "PublishTo": "2017-10-08T02:30:47.6944454+02:00",
+  "PublishFrom": "2015-08-06T02:30:47.6944454+02:00",
+  "IsPublished": true,
   "URLName": "http://www.example.com/",
-  "ProjectNumber": "820617",
-  "ActiveErpLinks": 350,
+  "ProjectNumber": "1550101",
+  "ActiveErpLinks": 159,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 646
+      "FieldLength": 212
     }
   }
 }

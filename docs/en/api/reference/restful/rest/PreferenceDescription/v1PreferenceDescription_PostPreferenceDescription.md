@@ -15,6 +15,7 @@ Creates a new PreferenceDescription
 
 
 Calls the Preference agent service SavePreferenceDescription.
+NsApiSlow threshold: 1000 ms.
 
 
 
@@ -111,28 +112,28 @@ OK
 POST /api/v1/PreferenceDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 90,
-  "Section": "ipsum",
-  "Key": "non",
-  "Name": "Abbott, Grady and Zemlak",
+  "PrefDescId": 663,
+  "Section": "et",
+  "Key": "tempora",
+  "Name": "Durgan-Morissette",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Diverse interactive extranet",
-  "IsBuiltin": false,
-  "TableName": "Schultz, Crist and McDermott",
-  "UserDefinedListId": 392,
-  "Rank": 627,
-  "SubGroup": "dolores",
-  "MinLevel": 287,
-  "MaxValue": 225,
-  "MinValue": 369,
-  "RequiredLicense": "ut"
+  "Description": "Business-focused real-time artificial intelligence",
+  "IsBuiltin": true,
+  "TableName": "Baumbach, Jakubowski and Leuschke",
+  "UserDefinedListId": 400,
+  "Rank": 740,
+  "SubGroup": "perferendis",
+  "MinLevel": 678,
+  "MaxValue": 816,
+  "MinValue": 124,
+  "RequiredLicense": "aut"
 }
 ```
 
@@ -143,30 +144,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 485,
-  "Section": "unde",
-  "Key": "reiciendis",
-  "Name": "Beier, Buckridge and Schumm",
+  "PrefDescId": 958,
+  "Section": "impedit",
+  "Key": "eaque",
+  "Name": "Klocko Inc and Sons",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Profit-focused stable time-frame",
+  "Description": "Multi-channelled dedicated conglomeration",
   "IsBuiltin": false,
-  "TableName": "Cremin LLC",
-  "UserDefinedListId": 94,
-  "Rank": 227,
-  "SubGroup": "ab",
-  "MinLevel": 927,
-  "MaxValue": 602,
-  "MinValue": 558,
-  "RequiredLicense": "laboriosam",
+  "TableName": "Turner Group",
+  "UserDefinedListId": 381,
+  "Rank": 275,
+  "SubGroup": "veniam",
+  "MinLevel": 438,
+  "MaxValue": 38,
+  "MinValue": 369,
+  "RequiredLicense": "ipsa",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 772
+      "FieldType": "System.Int32",
+      "FieldLength": 703
     }
   },
   "_Links": {

@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/GetAllCountries
 Returns all available countries a contact or person could belong to.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -91,11 +93,11 @@ OK
 POST /api/v1/Agents/List/GetAllCountries
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeDeleted": false
+  "IncludeDeleted": true
 }
 ```
 
@@ -107,30 +109,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CountryId": 429,
-    "Name": "Muller, Luettgen and Casper",
-    "CurrencyId": 825,
-    "EnglishName": "Friesen Inc and Sons",
+    "CountryId": 98,
+    "Name": "Ferry-Pouros",
+    "CurrencyId": 132,
+    "EnglishName": "Bogan, Frami and Monahan",
     "TwoLetterISOCountry": "Sokovia",
     "ThreeLetterISOCountry": "Sokovia",
-    "ImageDescription": "Switchable discrete functionalities",
-    "OrgNrText": "1602193",
-    "InterAreaPrefix": "dolor",
-    "DialInPrefix": "asperiores",
-    "ZipPrefix": "esse",
-    "DomainName": "Reinger Group",
-    "AddressLayoutId": 126,
-    "DomesticAddressLayoutId": 549,
-    "ForeignAddressLayoutId": 36,
-    "Rank": 550,
-    "Tooltip": "repudiandae",
-    "Deleted": true,
+    "ImageDescription": "Upgradable demand-driven website",
+    "OrgNrText": "639498",
+    "InterAreaPrefix": "omnis",
+    "DialInPrefix": "architecto",
+    "ZipPrefix": "velit",
+    "DomainName": "Kling Group",
+    "AddressLayoutId": 878,
+    "DomesticAddressLayoutId": 498,
+    "ForeignAddressLayoutId": 328,
+    "Rank": 188,
+    "Tooltip": "repellendus",
+    "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 25
+        "FieldLength": 644
       }
     }
   }

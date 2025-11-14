@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/Priority/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 543,
-    "Name": "Rempel-Witting",
-    "Tooltip": "tempora",
-    "Deleted": false,
-    "UdListDefinitionId": 735,
-    "Rank": 27
+    "Id": 760,
+    "Name": "Bogisich LLC",
+    "Tooltip": "enim",
+    "Deleted": true,
+    "UdListDefinitionId": 72,
+    "Rank": 389
   },
   {
-    "Id": 543,
-    "Name": "Rempel-Witting",
-    "Tooltip": "tempora",
-    "Deleted": false,
-    "UdListDefinitionId": 735,
-    "Rank": 27
+    "Id": 760,
+    "Name": "Bogisich LLC",
+    "Tooltip": "enim",
+    "Deleted": true,
+    "UdListDefinitionId": 72,
+    "Rank": 389
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 987,
-    "Name": "Jacobi, Leffler and Block",
-    "Tooltip": "eaque",
+    "Id": 893,
+    "Name": "Christiansen Inc and Sons",
+    "Tooltip": "magnam",
     "Deleted": true,
-    "UdListDefinitionId": 397,
-    "Rank": 673,
+    "UdListDefinitionId": 400,
+    "Rank": 700,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 999
+        "FieldLength": 193
       }
     }
   }

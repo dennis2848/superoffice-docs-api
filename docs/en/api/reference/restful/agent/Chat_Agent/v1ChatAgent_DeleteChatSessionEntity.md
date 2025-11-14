@@ -14,6 +14,8 @@ POST /api/v1/Agents/Chat/DeleteChatSessionEntity
 Deletes the ChatSessionEntity
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -26,7 +28,7 @@ Deletes the ChatSessionEntity
 | chatSessionEntityId | int32 | **Required** The identity of the ChatSessionEntity |
 
 ```http
-POST /api/v1/Agents/Chat/DeleteChatSessionEntity?chatSessionEntityId=705
+POST /api/v1/Agents/Chat/DeleteChatSessionEntity?chatSessionEntityId=690
 ```
 
 

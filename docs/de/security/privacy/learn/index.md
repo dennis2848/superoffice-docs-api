@@ -3,15 +3,14 @@ uid: help-de-privacy
 title: Datenschutz
 description: Die Funktion Datenschutz in SuperOffice hilft Ihnen, die Daten Ihrer Kunden zu schützen und die Datenschutz-Grundverordnung (DSGVO) der EU einzuhalten.
 keywords: Datenschutz, DSGVO, E-Marketing, Einwilligung, Rechtsgrundlage
-author: SuperOffice Product and Engineering
-date: 06.29.2022
-version: 10.3
+author: digitaldiina
+date: 11.06.2025
+version: 11.6
 content_type: concept
 category: privacy
 audience: person
 audience_tooltip: SuperOffice CRM
 language: de
-index: true
 ---
 
 # Datenschutz <i class="ph ph-shield" aria-label="Shield icon"></i>
@@ -69,10 +68,12 @@ Wenn Sie diese Option *nicht* wählen, werden nur Personen, bei denen **E-Market
 
 * [Objekte zur Liste Datenschutz - Rechtsgrundlage hinzufügen][3]
 * [Objekte zur Liste Datenschutz - Nachweis hinzufügen][4]
+* [Conversion-Tracking (UTM)][5]
 
 <!-- Referenced links -->
 [2]: ../admin/add-purpose.md
 [3]: ../admin/add-legal-base.md
 [4]: ../admin/add-source.md
+[5]: ../../../marketing/utm/learn/index.md
 
 <!-- Referenced images -->

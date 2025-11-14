@@ -15,6 +15,7 @@ Gets the persons working in the same company as the logged on user.
 
 
 The list of person could be retrieved from the history list, the diary view list, or from all sources.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -122,7 +123,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "SourceType": "All",
-  "Count": 649
+  "Count": 591
 }
 ```
 
@@ -134,53 +135,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "nisi",
-    "PersonId": 609,
-    "Mrmrs": "qui",
-    "Firstname": "Alessandro",
-    "Lastname": "Senger",
-    "MiddleName": "Klocko-Schuster",
-    "Title": "vel",
-    "Description": "Focused actuating structure",
-    "Email": "zakary.morissette@zboncak.biz",
-    "FullName": "Dr. Rosetta Jada Leuschke PhD",
-    "DirectPhone": "(287)852-3219 x79321",
-    "FormalName": "Blanda-Kreiger",
-    "CountryId": 856,
-    "ContactId": 493,
-    "ContactName": "Halvorson Group",
-    "Retired": 799,
-    "Rank": 632,
-    "ActiveInterests": 216,
+    "Position": "et",
+    "PersonId": 267,
+    "Mrmrs": "necessitatibus",
+    "Firstname": "Alec",
+    "Lastname": "Keebler",
+    "MiddleName": "Heller Group",
+    "Title": "nobis",
+    "Description": "Team-oriented needs-based superstructure",
+    "Email": "neil@kshlerin.com",
+    "FullName": "Miss Wade Maiya Cronin III",
+    "DirectPhone": "(932)924-3653",
+    "FormalName": "Powlowski Inc and Sons",
+    "CountryId": 648,
+    "ContactId": 418,
+    "ContactName": "Wilderman LLC",
+    "Retired": 99,
+    "Rank": 396,
+    "ActiveInterests": 766,
     "ContactDepartment": "",
-    "ContactCountryId": 120,
-    "ContactOrgNr": "1327057",
-    "FaxPhone": "851.619.2773 x965",
-    "MobilePhone": "(754)498-2691",
-    "ContactPhone": "(136)030-5199",
-    "AssociateName": "Barton, Braun and Wintheiser",
-    "AssociateId": 505,
-    "UsePersonAddress": true,
-    "ContactFax": "et",
-    "Kanafname": "possimus",
-    "Kanalname": "ex",
-    "Post1": "amet",
-    "Post2": "sequi",
-    "Post3": "aperiam",
-    "EmailName": "dewayne@lakin.name",
-    "ContactFullName": "Pablo Leif Dickens Sr.",
-    "ActiveErpLinks": 749,
-    "TicketPriorityId": 839,
-    "SupportLanguageId": 20,
-    "SupportAssociateId": 804,
+    "ContactCountryId": 813,
+    "ContactOrgNr": "929091",
+    "FaxPhone": "(290)383-9515 x95816",
+    "MobilePhone": "875.391.2997",
+    "ContactPhone": "058.513.5789",
+    "AssociateName": "Cremin Group",
+    "AssociateId": 746,
+    "UsePersonAddress": false,
+    "ContactFax": "eum",
+    "Kanafname": "velit",
+    "Kanalname": "aliquam",
+    "Post1": "et",
+    "Post2": "molestiae",
+    "Post3": "qui",
+    "EmailName": "yasmin@bednar.biz",
+    "ContactFullName": "Prof. Desmond Bruen",
+    "ActiveErpLinks": 741,
+    "TicketPriorityId": 422,
+    "SupportLanguageId": 637,
+    "SupportAssociateId": 663,
     "CategoryName": "VIP Customer",
-    "PersonNumber": "1800876",
+    "PersonNumber": "582312",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 712
+        "FieldLength": 803
       }
     }
   }

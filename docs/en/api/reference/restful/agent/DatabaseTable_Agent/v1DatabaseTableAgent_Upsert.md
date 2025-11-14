@@ -15,6 +15,7 @@ Insert or update rows, optionally deleting/zeroing 'leftover' rows.
 
 
 Special support for UDEF, as well as optional extensive information return. Traveltransactionlog and WebHooks are supported
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -90,14 +91,14 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Streich LLC",
+  "TableName": "Armstrong-Ruecker",
   "Columns": [
-    "molestiae",
-    "eos"
+    "itaque",
+    "aut"
   ],
   "Keys": [
-    "debitis",
-    "consequuntur"
+    "nulla",
+    "necessitatibus"
   ],
   "Data": [
     [
@@ -108,7 +109,7 @@ Content-Type: application/json; charset=utf-8
     ]
   ],
   "NomatchAction": "DeleteRow",
-  "ReturnRowStatus": false
+  "ReturnRowStatus": true
 }
 ```
 
@@ -119,41 +120,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Success": true,
-  "Message": "adipisci",
-  "Inserts": 924,
-  "Updates": 492,
-  "Deletes": 370,
+  "Success": false,
+  "Message": "eos",
+  "Inserts": 978,
+  "Updates": 184,
+  "Deletes": 332,
   "RowStatus": [
     {
-      "PrimaryKey": 358,
+      "PrimaryKey": 544,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "consequatur",
-        "excepturi"
+        "voluptatem",
+        "beatae"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 734
+          "FieldType": "System.String",
+          "FieldLength": 75
         }
       }
     },
     {
-      "PrimaryKey": 358,
+      "PrimaryKey": 544,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "consequatur",
-        "excepturi"
+        "voluptatem",
+        "beatae"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 734
+          "FieldType": "System.String",
+          "FieldLength": 75
         }
       }
     }
@@ -162,8 +163,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 478
+      "FieldType": "System.Int32",
+      "FieldLength": 555
     }
   }
 }

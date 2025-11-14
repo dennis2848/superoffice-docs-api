@@ -14,6 +14,8 @@ POST /api/v1/Agents/Quote/AddSaleTypeQuoteAttachment
 Adds a new quote attachment document to a sale type
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -74,8 +76,8 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 383,
-  "DocumentId": 297
+  "SaleTypeId": 733,
+  "DocumentId": 134
 }
 ```
 
@@ -85,5 +87,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-299
+837
 ```

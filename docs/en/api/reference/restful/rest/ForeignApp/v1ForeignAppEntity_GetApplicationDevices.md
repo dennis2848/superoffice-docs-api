@@ -68,7 +68,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/Devices
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -76,25 +76,25 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Fri, 29 Jan 2016 03:47:00 G1T
+Last-Modified: Fri, 04 Jun 2021 02:30:52 G6T
 
 [
   {
-    "ForeignDeviceId": 621,
-    "Name": "Gorczany LLC",
-    "CreatedDate": "2022-06-12T03:47:00.0349452+02:00",
-    "UpdatedDate": "2016-01-29T03:47:00.0349452+01:00",
-    "AssociateFullName": "Ms. Leta Macejkovic DDS",
-    "CreatedBy": "et",
-    "UpdatedBy": "suscipit",
-    "DeviceIdentifier": "cumque",
-    "ForeignAppId": 76,
+    "ForeignDeviceId": 855,
+    "Name": "Kshlerin, Huels and Durgan",
+    "CreatedDate": "2000-01-25T02:30:52.6474115+01:00",
+    "UpdatedDate": "2021-06-04T02:30:52.6474115+02:00",
+    "AssociateFullName": "Vilma Waters",
+    "CreatedBy": "adipisci",
+    "UpdatedBy": "omnis",
+    "DeviceIdentifier": "dolore",
+    "ForeignAppId": 555,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 501
+        "FieldType": "System.Int32",
+        "FieldLength": 71
       }
     }
   }

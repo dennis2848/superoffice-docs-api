@@ -87,53 +87,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 140,
-  "Name": "Daniel Inc and Sons",
-  "Tooltip": "voluptatem",
-  "Rank": 754,
+  "SaleTypeId": 969,
+  "Name": "Mayert-Raynor",
+  "Tooltip": "eum",
+  "Rank": 581,
   "DurationUnit": "Century",
-  "SaleDuration": 171,
-  "SaleTypeCatId": 588,
+  "SaleDuration": 891,
+  "SaleTypeCatId": 787,
   "Deleted": true,
   "HasGuide": false,
-  "HasStakeholders": true,
+  "HasStakeholders": false,
   "IsAutoAdvance": false,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 383,
-  "QuoteLinesTemplate": 339,
-  "ConfirmationLinesTemplate": 757,
+  "DefaultQuoteValidity": 910,
+  "QuoteLinesTemplate": 273,
+  "ConfirmationLinesTemplate": 329,
   "MaxDiscountPercentSet": false,
   "MinEarningPercentSet": true,
-  "MaxDiscountPercent": 540,
-  "MinEarningPercent": 175,
-  "GroupQuoteLinesBy": 11,
-  "SortGroupLinesBy": 883,
+  "MaxDiscountPercent": 511,
+  "MinEarningPercent": 137,
+  "GroupQuoteLinesBy": 735,
+  "SortGroupLinesBy": 995,
   "Stages": [
     {
-      "Id": 7,
-      "Name": "Effertz, Ankunding and Ferry",
-      "ToolTip": "Nihil laborum commodi temporibus nemo voluptatem et.",
+      "Id": 784,
+      "Name": "McLaughlin, Bartoletti and Robel",
+      "ToolTip": "Provident in quia et sequi.",
       "Deleted": false,
-      "Rank": 879,
-      "Type": "dolorem",
-      "ColorBlock": 251,
-      "IconHint": "veritatis",
+      "Rank": 446,
+      "Type": "vitae",
+      "ColorBlock": 989,
+      "IconHint": "voluptas",
       "Selected": true,
-      "LastChanged": "2016-08-31T03:47:00.8005429+02:00",
+      "LastChanged": "2012-06-01T02:30:53.4286352+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "et",
-      "StyleHint": "dolor",
+      "ExtraInfo": "pariatur",
+      "StyleHint": "vitae",
       "Hidden": false,
-      "FullName": "Santiago Steuber",
+      "FullName": "Richmond Gerlach",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 294
+          "FieldType": "System.Int32",
+          "FieldLength": 676
         }
       }
     }
@@ -142,8 +142,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 786
+      "FieldType": "System.String",
+      "FieldLength": 22
     }
   }
 }

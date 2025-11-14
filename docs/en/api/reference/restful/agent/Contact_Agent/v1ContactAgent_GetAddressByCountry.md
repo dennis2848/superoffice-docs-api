@@ -14,6 +14,8 @@ POST /api/v1/Agents/Contact/GetAddressByCountry
 Gets the contact's localized address.
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -80,12 +82,12 @@ OK
 POST /api/v1/Agents/Contact/GetAddressByCountry
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 917,
-  "CountryId": 304
+  "ContactId": 334,
+  "CountryId": 383
 }
 ```
 
@@ -96,41 +98,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Wgs84Latitude": 6054.888,
-  "Wgs84Longitude": 27278.336,
+  "Wgs84Latitude": 8486.872,
+  "Wgs84Longitude": 25332.122,
   "LocalizedAddress": [
     [
       {
-        "Name": "Sauer, Mayert and Stoltenberg",
-        "Value": "repudiandae",
-        "Tooltip": "non",
-        "Label": "illum",
-        "ValueLength": 105,
-        "AddressType": "et",
+        "Name": "Osinski Group",
+        "Value": "beatae",
+        "Tooltip": "quas",
+        "Label": "aspernatur",
+        "ValueLength": 218,
+        "AddressType": "provident",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 809
+            "FieldLength": 329
           }
         }
       }
     ],
     [
       {
-        "Name": "Vandervort LLC",
-        "Value": "ipsam",
-        "Tooltip": "voluptatem",
-        "Label": "temporibus",
-        "ValueLength": 375,
-        "AddressType": "cumque",
+        "Name": "Pfeffer, Osinski and Altenwerth",
+        "Value": "sunt",
+        "Tooltip": "excepturi",
+        "Label": "quia",
+        "ValueLength": 295,
+        "AddressType": "tenetur",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 731
+            "FieldLength": 744
           }
         }
       }
@@ -138,13 +140,13 @@ Content-Type: application/json; charset=utf-8
   ],
   "Street": null,
   "Postal": null,
-  "Formatted": "aspernatur",
+  "Formatted": "eos",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 202
+      "FieldType": "System.String",
+      "FieldLength": 638
     }
   }
 }

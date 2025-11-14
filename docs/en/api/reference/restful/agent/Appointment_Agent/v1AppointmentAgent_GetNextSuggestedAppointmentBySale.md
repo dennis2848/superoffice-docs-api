@@ -14,6 +14,8 @@ POST /api/v1/Agents/Appointment/GetNextSuggestedAppointmentBySale
 Gets the next suggested appointment for a given sale (or rather a given sale's guide).
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -89,13 +91,13 @@ OK
 POST /api/v1/Agents/Appointment/GetNextSuggestedAppointmentBySale
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 392,
-  "CurrentAppointmentId": 276,
-  "SkipCompleteCheck": true
+  "SaleId": 469,
+  "CurrentAppointmentId": 499,
+  "SkipCompleteCheck": false
 }
 ```
 
@@ -106,26 +108,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AutoSuggest": 149,
-  "Deleted": 318,
-  "DaysFuture": 788,
-  "Tooltip": "quaerat",
-  "Text": "et",
-  "TaskId": 857,
-  "SuggestedAppointmentId": 117,
-  "SaleTypeStageLinkId": 827,
-  "RegisteredAssociateId": 293,
-  "Rank": 314,
-  "ProjectTypeStatusLinkId": 305,
-  "Name": "Pollich Group",
-  "Duration": 308,
+  "AutoSuggest": 791,
+  "Deleted": 896,
+  "DaysFuture": 306,
+  "Tooltip": "est",
+  "Text": "ut",
+  "TaskId": 242,
+  "SuggestedAppointmentId": 267,
+  "SaleTypeStageLinkId": 172,
+  "RegisteredAssociateId": 967,
+  "Rank": 450,
+  "ProjectTypeStatusLinkId": 835,
+  "Name": "Feest-Torphy",
+  "Duration": 554,
   "Associate": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 51
+      "FieldType": "System.String",
+      "FieldLength": 979
     }
   }
 }

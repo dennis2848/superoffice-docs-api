@@ -15,6 +15,7 @@ Method that returns a specified number of appointments of a specific appointment
 
 
 The appointments belong to the project specified.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -134,14 +135,14 @@ OK
 POST /api/v1/Agents/Appointment/GetProjectAppointmentsByType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 726,
-  "StartTime": "2009-01-11T03:46:53.9726601+01:00",
-  "EndTime": "1999-12-22T03:46:53.9726601+01:00",
-  "Count": 661,
+  "ProjectId": 361,
+  "StartTime": "2016-12-19T02:30:46.4913585+01:00",
+  "EndTime": "2002-09-25T02:30:46.4913585+02:00",
+  "Count": 471,
   "AppointmentType": "BookingForChecklist"
 }
 ```
@@ -154,67 +155,67 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 350,
-    "StartDate": "2010-10-25T03:46:53.9726601+02:00",
-    "EndDate": "2015-10-28T03:46:53.9726601+01:00",
+    "AppointmentId": 915,
+    "StartDate": "2006-06-24T02:30:46.4913585+02:00",
+    "EndDate": "2001-04-30T02:30:46.4913585+02:00",
     "Type": "BookingForChecklist",
-    "Task": "nisi",
-    "AssociateFullName": "Darrell Witting PhD",
-    "ContactName": "Barton, Tillman and Howell",
-    "Description": "Quality-focused local standardization",
-    "PersonFullName": "Marie Heller DDS",
-    "PersonId": 961,
-    "ContactId": 739,
-    "ProjectId": 176,
-    "ProjectName": "Balistreri-Legros",
-    "IsPublished": true,
-    "AssociateId": 72,
-    "ColorIndex": 383,
-    "IsFree": false,
-    "HasAlarm": false,
-    "IsAlldayEvent": true,
+    "Task": "illo",
+    "AssociateFullName": "Miss Earline Beer",
+    "ContactName": "Haley, Ondricka and Heathcote",
+    "Description": "Multi-tiered motivating groupware",
+    "PersonFullName": "Daija Padberg",
+    "PersonId": 548,
+    "ContactId": 243,
+    "ProjectId": 490,
+    "ProjectName": "Lindgren-Pollich",
+    "IsPublished": false,
+    "AssociateId": 51,
+    "ColorIndex": 198,
+    "IsFree": true,
+    "HasAlarm": true,
+    "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 922,
-    "PriorityName": "Carroll LLC",
+    "PriorityId": 102,
+    "PriorityName": "Jenkins, Dicki and Bechtelar",
     "TaskType": "Appointment",
-    "IsBookingMain": true,
+    "IsBookingMain": false,
     "IsRecurrence": false,
-    "IsBooking": false,
-    "ActiveDate": "2018-05-01T03:46:53.9726601+02:00",
+    "IsBooking": true,
+    "ActiveDate": "2012-05-06T02:30:46.4913585+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2020-07-11T03:46:53.9726601+02:00",
-    "RecurringEndDate": "2010-09-16T03:46:53.9726601+02:00",
-    "MotherId": 452,
-    "AssignedBy": 616,
-    "AssignedByFullName": "Ava D'Amore",
+    "RecurringStartDate": "2001-08-24T02:30:46.4913585+02:00",
+    "RecurringEndDate": "1999-06-04T02:30:46.4913585+02:00",
+    "MotherId": 502,
+    "AssignedBy": 633,
+    "AssignedByFullName": "Jace Johnston",
     "RejectReason": "",
-    "Location": "illo",
-    "AlarmLeadTime": "qui",
-    "SaleId": 994,
-    "SaleName": "Dare, Weimann and Harris",
-    "AssociateName": "Goodwin-Lemke",
-    "CreatedDate": "2000-11-03T03:46:53.9726601+01:00",
-    "CreatedBy": "nisi",
-    "CreatedByFullName": "Ashtyn Kertzmann",
-    "CreatedByAssociateId": 731,
+    "Location": "voluptatem",
+    "AlarmLeadTime": "commodi",
+    "SaleId": 854,
+    "SaleName": "Doyle, Crist and Braun",
+    "AssociateName": "Hodkiewicz, Dibbert and Rowe",
+    "CreatedDate": "2020-03-22T02:30:46.4913585+01:00",
+    "CreatedBy": "repellendus",
+    "CreatedByFullName": "Cole Ryan",
+    "CreatedByAssociateId": 601,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "OwnedExternally": "Google",
-    "MotherAssociateId": 117,
+    "MotherAssociateId": 809,
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 713,
-    "Title": "reprehenderit",
-    "Agenda": "et",
-    "InternalNotes": "est",
+    "PreferredTZLocation": 911,
+    "Title": "deserunt",
+    "Agenda": "ullam",
+    "InternalNotes": "harum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 382
+        "FieldType": "System.Int32",
+        "FieldLength": 510
       }
     }
   }

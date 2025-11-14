@@ -14,6 +14,8 @@ POST /api/v1/Agents/ForeignSystem/AddForeignKey
 Add a new key belonging to the ForeignApp and ForeignDevice specified.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -84,14 +86,14 @@ OK
 POST /api/v1/Agents/ForeignSystem/AddForeignKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "ForeignKey": null,
-  "ApplicationName": "Cruickshank, Lesch and Schinner",
-  "DeviceName": "Kohler Group",
-  "DeviceIdentifier": "vel"
+  "ApplicationName": "McClure, Parker and Hills",
+  "DeviceName": "Hand, Monahan and Zieme",
+  "DeviceIdentifier": "officia"
 }
 ```
 
@@ -102,20 +104,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "minus",
-  "Value": "voluptates",
-  "RecordId": 559,
-  "CreatedDate": "2017-11-06T03:46:54.9107593+01:00",
-  "UpdatedDate": "2020-07-26T03:46:54.9107593+02:00",
-  "UpdatedBy": "quisquam",
-  "CreatedBy": "quia",
-  "TableName": "Beahan-Osinski",
+  "Key": "quia",
+  "Value": "earum",
+  "RecordId": 810,
+  "CreatedDate": "2005-04-17T02:30:47.366331+02:00",
+  "UpdatedDate": "2024-08-26T02:30:47.366331+02:00",
+  "UpdatedBy": "debitis",
+  "CreatedBy": "aliquam",
+  "TableName": "Braun, Upton and Parker",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 702
+      "FieldType": "System.String",
+      "FieldLength": 590
     }
   }
 }

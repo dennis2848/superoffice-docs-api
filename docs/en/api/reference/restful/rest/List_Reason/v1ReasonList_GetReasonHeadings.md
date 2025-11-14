@@ -63,7 +63,7 @@ OK
 GET /api/v1/List/Reason/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -74,18 +74,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 749,
-    "Name": "Kirlin Group",
-    "Tooltip": "quia",
+    "HeadingId": 133,
+    "Name": "Eichmann, Gibson and Marks",
+    "Tooltip": "reiciendis",
     "Deleted": false,
-    "Rank": 714,
-    "UdListDefinitionId": 533,
+    "Rank": 639,
+    "UdListDefinitionId": 816,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 386
+        "FieldLength": 307
       }
     }
   }

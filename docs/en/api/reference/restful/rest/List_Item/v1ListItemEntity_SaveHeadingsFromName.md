@@ -78,25 +78,25 @@ OK
 PUT /api/v1/List/{name}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 264,
-    "Name": "Rodriguez-Medhurst",
-    "Tooltip": "natus",
-    "Deleted": true,
-    "Rank": 940,
-    "UdListDefinitionId": 951
+    "HeadingId": 986,
+    "Name": "Hane Group",
+    "Tooltip": "praesentium",
+    "Deleted": false,
+    "Rank": 160,
+    "UdListDefinitionId": 402
   },
   {
-    "HeadingId": 264,
-    "Name": "Rodriguez-Medhurst",
-    "Tooltip": "natus",
-    "Deleted": true,
-    "Rank": 940,
-    "UdListDefinitionId": 951
+    "HeadingId": 986,
+    "Name": "Hane Group",
+    "Tooltip": "praesentium",
+    "Deleted": false,
+    "Rank": 160,
+    "UdListDefinitionId": 402
   }
 ]
 ```
@@ -109,18 +109,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 794,
-    "Name": "Weber Group",
-    "Tooltip": "enim",
+    "HeadingId": 900,
+    "Name": "Harvey LLC",
+    "Tooltip": "quisquam",
     "Deleted": false,
-    "Rank": 580,
-    "UdListDefinitionId": 68,
+    "Rank": 920,
+    "UdListDefinitionId": 554,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 196
+        "FieldLength": 60
       }
     }
   }

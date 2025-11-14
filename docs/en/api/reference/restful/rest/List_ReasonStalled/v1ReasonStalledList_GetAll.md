@@ -82,18 +82,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 1002,
-    "Name": "Hills-Rau",
-    "Tooltip": "saepe",
+    "Id": 86,
+    "Name": "Reynolds, Kovacek and Walter",
+    "Tooltip": "molestiae",
     "Deleted": false,
-    "UdListDefinitionId": 476,
-    "Rank": 120,
+    "UdListDefinitionId": 526,
+    "Rank": 18,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 19
+        "FieldLength": 349
       }
     }
   }

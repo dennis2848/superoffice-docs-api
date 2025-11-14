@@ -98,47 +98,47 @@ OK
 PUT /api/v1/List/Credited/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 861,
-    "Name": "Kassulke Inc and Sons",
-    "ToolTip": "Dicta autem ut quae molestias molestiae in.",
-    "Deleted": false,
-    "Rank": 942,
-    "Type": "neque",
-    "ColorBlock": 760,
-    "IconHint": "delectus",
+    "Id": 151,
+    "Name": "Heller, Hagenes and Walsh",
+    "ToolTip": "In vel aperiam id dolor.",
+    "Deleted": true,
+    "Rank": 84,
+    "Type": "itaque",
+    "ColorBlock": 803,
+    "IconHint": "labore",
     "Selected": false,
-    "LastChanged": "2018-08-18T03:47:00.628674+02:00",
+    "LastChanged": "2025-07-02T02:30:53.2567659+02:00",
     "ChildItems": [
       {
-        "Id": 979,
-        "Name": "Herman LLC",
-        "ToolTip": "Numquam autem dolore voluptatem nostrum.",
-        "Deleted": true,
-        "Rank": 113,
-        "Type": "occaecati",
-        "ColorBlock": 506,
-        "IconHint": "sint",
+        "Id": 702,
+        "Name": "Reinger, Reichert and Runolfsson",
+        "ToolTip": "Neque ut.",
+        "Deleted": false,
+        "Rank": 479,
+        "Type": "quam",
+        "ColorBlock": 158,
+        "IconHint": "nam",
         "Selected": false,
-        "LastChanged": "2002-01-19T03:47:00.628674+01:00",
+        "LastChanged": "2003-05-07T02:30:53.2567659+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "mollitia",
-        "StyleHint": "sequi",
+        "ExtraInfo": "dolore",
+        "StyleHint": "velit",
         "Hidden": false,
-        "FullName": "Stuart Kautzer"
+        "FullName": "Ms. Robb Freida Littel DVM"
       }
     ],
-    "ExtraInfo": "sed",
-    "StyleHint": "sed",
-    "Hidden": true,
-    "FullName": "Brycen Kuvalis"
+    "ExtraInfo": "et",
+    "StyleHint": "voluptatem",
+    "Hidden": false,
+    "FullName": "Colten Vandervort"
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 670,
-    "Name": "Kuvalis, Block and Schumm",
-    "ToolTip": "Omnis sunt temporibus.",
+    "Id": 850,
+    "Name": "Brown, Bernier and O'Hara",
+    "ToolTip": "Ducimus corporis praesentium.",
     "Deleted": true,
-    "Rank": 565,
-    "Type": "labore",
-    "ColorBlock": 695,
-    "IconHint": "et",
-    "Selected": false,
-    "LastChanged": "2013-06-30T03:47:00.628674+02:00",
+    "Rank": 294,
+    "Type": "tempore",
+    "ColorBlock": 256,
+    "IconHint": "ea",
+    "Selected": true,
+    "LastChanged": "2012-09-27T02:30:53.2567659+02:00",
     "ChildItems": [
       {
-        "Id": 649,
-        "Name": "Stehr-Hills",
-        "ToolTip": "Id fugiat nostrum nulla sed commodi molestiae.",
-        "Deleted": true,
-        "Rank": 628,
-        "Type": "adipisci",
-        "ColorBlock": 858,
-        "IconHint": "sed",
+        "Id": 710,
+        "Name": "Cummings Inc and Sons",
+        "ToolTip": "Quas voluptatum ut et.",
+        "Deleted": false,
+        "Rank": 404,
+        "Type": "perferendis",
+        "ColorBlock": 840,
+        "IconHint": "distinctio",
         "Selected": true,
-        "LastChanged": "2011-01-12T03:47:00.628674+01:00",
+        "LastChanged": "2021-07-25T02:30:53.2567659+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "consequatur",
-        "StyleHint": "nihil",
+        "ExtraInfo": "minus",
+        "StyleHint": "qui",
         "Hidden": false,
-        "FullName": "Filomena Cremin",
+        "FullName": "Jarred Goldner",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 444
+            "FieldLength": 1001
           }
         }
       }
     ],
-    "ExtraInfo": "nihil",
-    "StyleHint": "et",
-    "Hidden": true,
-    "FullName": "Avis Mante",
+    "ExtraInfo": "et",
+    "StyleHint": "repellat",
+    "Hidden": false,
+    "FullName": "Miss Koby Schultz PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 410
+        "FieldType": "System.String",
+        "FieldLength": 723
       }
     }
   }

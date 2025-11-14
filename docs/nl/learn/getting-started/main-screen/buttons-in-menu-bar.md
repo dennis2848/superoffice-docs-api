@@ -3,9 +3,9 @@ uid: help-nl-ui-top-bar
 title: Knoppen in de menubalk
 description: Knoppen in de menubalk
 keywords: menubalk, bovenste balk, knop, Persoonlijke instellingen menu, Hoofdmenu-opties
-author: SuperOffice RnD
-date: 03.14.2025
-version: 10.5.2
+author: Product and Engineering
+date: 09.17.2025
+version: 11.3
 content_type: reference
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -36,7 +36,7 @@ De **bovenste balk** bevat essentiële tools voor navigatie in SuperOffice CRM. 
 | **Voorkeuren** | Pas [persoonlijke voorkeuren][6] aan, zoals standaardwaarden, sortering en visuele effecten. |
 | **Persoonlijke handtekening bewerken** | Bewerk de [e-mailhandtekening][7] die wordt gebruikt in uitgaande e-mails of verzoeken. |
 | **E-mailopties** | Configureer postvakinstellingen. |
-| **Uw Service-status** | Werk uw status bij (bijvoorbeeld Afwezig) en voeg een optioneel bericht toe. |
+| **Uw beschikbaarheidsstatus** | Kies of u beschikbaar bent voor automatische toewijzing van verzoeken en contactpersonen. Als u uw status instelt op *Afwezig*, worden er geen nieuwe verzoeken aan u toegewezen en wordt uw afwezigheidsmelding naast uw naam weergegeven wanneer iemand handmatig een item toewijst. |
 | **Mijn personeninformatie weergeven** | Open uw persoonskaart om gegevens zoals telefoonnummers of functietitel te bewerken. |
 | **Lokale instellingen** | Wijzig de applicatietaal, nummer-/datumindeling en e-mailclientinstellingen. |
 | **De mobiele app downloaden** | Configureer instellingen voor SuperOffice Mobile CRM. |
@@ -92,5 +92,5 @@ De **bovenste balk** bevat essentiële tools voor navigatie in SuperOffice CRM. 
 [7]: ../edit-email-signature.md
 [5]: ../../../search-options/learn/find-screen.md
 [10]: ../../../search-options/learn/freetext-search.md
-[15]: ../../../onsite/win-client/learn/creating-shortcuts-to-entries-in-crm.md
+[15]: ../../basics/creating-shortcuts-to-entries-in-crm.md
 [17]: ../../../sale/learn/sales-targets/index.md

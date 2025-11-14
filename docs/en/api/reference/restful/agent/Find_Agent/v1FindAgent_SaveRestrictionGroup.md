@@ -14,6 +14,8 @@ POST /api/v1/Agents/Find/SaveRestrictionGroup
 Save an array of restrictions as a restriction group for later use as search criteria (including as dynamic selection and Find).
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -69,15 +71,15 @@ No Content
 POST /api/v1/Agents/Find/SaveRestrictionGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "cum",
-  "ProviderName": "Cole, Keebler and Oberbrunner",
-  "StorageKey": "dolore",
+  "StorageType": "amet",
+  "ProviderName": "Schultz Group",
+  "StorageKey": "sapiente",
   "RestrictionGroup": null,
-  "Context": "vitae"
+  "Context": "quidem"
 }
 ```
 

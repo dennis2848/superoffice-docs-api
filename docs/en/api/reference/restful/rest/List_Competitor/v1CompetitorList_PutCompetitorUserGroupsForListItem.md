@@ -98,47 +98,47 @@ OK
 PUT /api/v1/List/Competitor/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 69,
-    "Name": "Heathcote-Bartoletti",
-    "ToolTip": "Fuga vero molestiae et animi aliquam.",
-    "Deleted": true,
-    "Rank": 66,
-    "Type": "quod",
-    "ColorBlock": 583,
-    "IconHint": "qui",
-    "Selected": true,
-    "LastChanged": "2013-12-31T03:47:00.5974251+01:00",
+    "Id": 212,
+    "Name": "Hodkiewicz, Dickinson and Witting",
+    "ToolTip": "Enim maxime.",
+    "Deleted": false,
+    "Rank": 467,
+    "Type": "ut",
+    "ColorBlock": 220,
+    "IconHint": "error",
+    "Selected": false,
+    "LastChanged": "2015-08-01T02:30:53.2255171+02:00",
     "ChildItems": [
       {
-        "Id": 371,
-        "Name": "Cormier, Monahan and Towne",
-        "ToolTip": "Et molestias est porro qui quidem nulla.",
-        "Deleted": true,
-        "Rank": 209,
-        "Type": "laudantium",
-        "ColorBlock": 796,
-        "IconHint": "soluta",
+        "Id": 306,
+        "Name": "Conroy-Morissette",
+        "ToolTip": "Voluptatum officia voluptas in doloremque iure iste.",
+        "Deleted": false,
+        "Rank": 327,
+        "Type": "labore",
+        "ColorBlock": 159,
+        "IconHint": "debitis",
         "Selected": true,
-        "LastChanged": "2008-06-30T03:47:00.5974251+02:00",
+        "LastChanged": "2000-11-05T02:30:53.2255171+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "consequatur",
-        "StyleHint": "facilis",
+        "ExtraInfo": "laboriosam",
+        "StyleHint": "ipsum",
         "Hidden": false,
-        "FullName": "Juana Gutkowski"
+        "FullName": "Miss Garfield Shirley Stoltenberg IV"
       }
     ],
-    "ExtraInfo": "maxime",
-    "StyleHint": "qui",
-    "Hidden": true,
-    "FullName": "Jeanie Hahn"
+    "ExtraInfo": "et",
+    "StyleHint": "repellendus",
+    "Hidden": false,
+    "FullName": "Prof. Hope McLaughlin DDS"
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 638,
-    "Name": "Roob-Ferry",
-    "ToolTip": "Voluptas aut repellat qui amet iure deserunt.",
+    "Id": 840,
+    "Name": "Hessel Inc and Sons",
+    "ToolTip": "Voluptatem doloribus rerum a qui quia.",
     "Deleted": false,
-    "Rank": 995,
-    "Type": "cupiditate",
-    "ColorBlock": 960,
-    "IconHint": "earum",
+    "Rank": 437,
+    "Type": "voluptates",
+    "ColorBlock": 311,
+    "IconHint": "iusto",
     "Selected": false,
-    "LastChanged": "2007-06-07T03:47:00.5974251+02:00",
+    "LastChanged": "2004-02-07T02:30:53.2255171+01:00",
     "ChildItems": [
       {
-        "Id": 966,
-        "Name": "Stark, Okuneva and Schiller",
-        "ToolTip": "Earum nobis consequatur quia distinctio et.",
+        "Id": 40,
+        "Name": "Walter LLC",
+        "ToolTip": "Doloremque maxime aliquam.",
         "Deleted": false,
-        "Rank": 731,
-        "Type": "recusandae",
-        "ColorBlock": 862,
-        "IconHint": "et",
+        "Rank": 431,
+        "Type": "id",
+        "ColorBlock": 409,
+        "IconHint": "quibusdam",
         "Selected": false,
-        "LastChanged": "2007-12-17T03:47:00.5974251+01:00",
+        "LastChanged": "2014-10-28T02:30:53.2255171+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "cupiditate",
-        "StyleHint": "dolore",
-        "Hidden": false,
-        "FullName": "Amelia Kassulke",
+        "ExtraInfo": "occaecati",
+        "StyleHint": "optio",
+        "Hidden": true,
+        "FullName": "Ewald Dickens",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 564
+            "FieldLength": 412
           }
         }
       }
     ],
-    "ExtraInfo": "adipisci",
-    "StyleHint": "aut",
+    "ExtraInfo": "veritatis",
+    "StyleHint": "repellendus",
     "Hidden": false,
-    "FullName": "Keegan Keenan Grady DDS",
+    "FullName": "Shaun Ward",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 173
+        "FieldType": "System.Int32",
+        "FieldLength": 527
       }
     }
   }

@@ -15,6 +15,7 @@ Hard-delete (real, permanent DELETE in the database) the given web panel.
 
 
 Use with care!
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -67,11 +68,11 @@ No Content
 POST /api/v1/Agents/List/DeleteWebPanel
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 462
+  "Id": 787
 }
 ```
 

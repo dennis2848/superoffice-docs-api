@@ -15,6 +15,7 @@ Sets tickets' status to Deleted.
 
 
 After a grace period these tickets will be deleted by a background job.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -76,8 +77,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "TicketIds": [
-    576,
-    344
+    872,
+    188
   ]
 }
 ```
@@ -89,7 +90,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  129,
-  705
+  346,
+  285
 ]
 ```

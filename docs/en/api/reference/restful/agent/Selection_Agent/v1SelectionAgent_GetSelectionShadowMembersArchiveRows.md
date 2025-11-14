@@ -15,6 +15,7 @@ Get the list of members in this selection's shadow (i.
 
 
 e. the list of contacts + persons referenced in the main selection).
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -81,12 +82,12 @@ OK
 POST /api/v1/Agents/Selection/GetSelectionShadowMembersArchiveRows
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 295,
-  "Select": "ea"
+  "SelectionId": 356,
+  "Select": "non"
 }
 ```
 
@@ -98,23 +99,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Homenick, Bernier and Conroy",
-    "PrimaryKey": 512,
+    "EntityName": "Daugherty-Kunze",
+    "PrimaryKey": 553,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "quo",
-        "TooltipHint": "et",
-        "LinkHint": "pariatur"
+        "DisplayValue": "recusandae",
+        "TooltipHint": "est",
+        "LinkHint": "amet"
       }
     },
-    "LinkHint": "sit",
-    "StyleHint": "animi",
+    "LinkHint": "incidunt",
+    "StyleHint": "possimus",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 153
+        "FieldType": "System.Int32",
+        "FieldLength": 582
       }
     }
   }

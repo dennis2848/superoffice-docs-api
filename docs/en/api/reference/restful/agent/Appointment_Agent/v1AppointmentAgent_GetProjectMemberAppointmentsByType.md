@@ -15,6 +15,7 @@ Method that returns a specified number of appointments of a specific appointment
 
 
 The appointments belong to the projects where the person specified is member.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -138,10 +139,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 588,
-  "StartTime": "2000-04-06T03:46:53.9726601+02:00",
-  "EndTime": "1998-07-14T03:46:53.9726601+02:00",
-  "Count": 173,
+  "PersonId": 313,
+  "StartTime": "2000-01-17T02:30:46.5069828+01:00",
+  "EndTime": "2016-08-30T02:30:46.5069828+02:00",
+  "Count": 384,
   "AppointmentType": "BookingForChecklist"
 }
 ```
@@ -154,67 +155,67 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 778,
-    "StartDate": "2023-04-15T03:46:53.9726601+02:00",
-    "EndDate": "1999-03-05T03:46:53.9726601+01:00",
+    "AppointmentId": 280,
+    "StartDate": "2011-10-15T02:30:46.5069828+02:00",
+    "EndDate": "2005-03-19T02:30:46.5069828+01:00",
     "Type": "BookingForChecklist",
-    "Task": "laudantium",
-    "AssociateFullName": "Marietta Beier",
-    "ContactName": "Treutel-Gislason",
-    "Description": "Universal scalable help-desk",
-    "PersonFullName": "Ford Schmidt",
-    "PersonId": 912,
-    "ContactId": 229,
-    "ProjectId": 308,
-    "ProjectName": "Beahan LLC",
+    "Task": "consequuntur",
+    "AssociateFullName": "Vita Emard",
+    "ContactName": "Botsford-Franecki",
+    "Description": "Stand-alone bi-directional database",
+    "PersonFullName": "Miss Deron Collins",
+    "PersonId": 35,
+    "ContactId": 17,
+    "ProjectId": 167,
+    "ProjectName": "VonRueden, Bartell and Kilback",
     "IsPublished": false,
-    "AssociateId": 979,
-    "ColorIndex": 821,
-    "IsFree": true,
+    "AssociateId": 830,
+    "ColorIndex": 740,
+    "IsFree": false,
     "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 15,
-    "PriorityName": "Macejkovic LLC",
+    "PriorityId": 53,
+    "PriorityName": "Hammes LLC",
     "TaskType": "Appointment",
-    "IsBookingMain": true,
+    "IsBookingMain": false,
     "IsRecurrence": true,
     "IsBooking": true,
-    "ActiveDate": "2019-09-02T03:46:53.9726601+02:00",
+    "ActiveDate": "2013-02-14T02:30:46.5069828+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2005-12-24T03:46:53.9726601+01:00",
-    "RecurringEndDate": "2010-06-28T03:46:53.9726601+02:00",
-    "MotherId": 677,
-    "AssignedBy": 807,
-    "AssignedByFullName": "Aric Murazik",
-    "RejectReason": "",
-    "Location": "quia",
-    "AlarmLeadTime": "voluptatibus",
-    "SaleId": 469,
-    "SaleName": "Champlin, Lebsack and Mills",
-    "AssociateName": "VonRueden Inc and Sons",
-    "CreatedDate": "2003-05-06T03:46:53.9726601+02:00",
-    "CreatedBy": "qui",
-    "CreatedByFullName": "Prof. Earlene Bayer Sr.",
-    "CreatedByAssociateId": 43,
+    "RecurringStartDate": "2006-07-21T02:30:46.5069828+02:00",
+    "RecurringEndDate": "2025-08-18T02:30:46.5069828+02:00",
+    "MotherId": 520,
+    "AssignedBy": 201,
+    "AssignedByFullName": "Prof. Braeden Ritchie",
+    "RejectReason": "facilitate compelling eyeballs",
+    "Location": "illo",
+    "AlarmLeadTime": "nihil",
+    "SaleId": 781,
+    "SaleName": "Padberg Group",
+    "AssociateName": "Jast LLC",
+    "CreatedDate": "2005-08-27T02:30:46.5069828+02:00",
+    "CreatedBy": "saepe",
+    "CreatedByFullName": "Miss Giovani Stanton",
+    "CreatedByAssociateId": 987,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "OwnedExternally": "Google",
-    "MotherAssociateId": 418,
+    "MotherAssociateId": 894,
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 348,
-    "Title": "temporibus",
-    "Agenda": "consequuntur",
-    "InternalNotes": "amet",
+    "PreferredTZLocation": 508,
+    "Title": "rerum",
+    "Agenda": "qui",
+    "InternalNotes": "aut",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 150
+        "FieldType": "System.String",
+        "FieldLength": 221
       }
     }
   }

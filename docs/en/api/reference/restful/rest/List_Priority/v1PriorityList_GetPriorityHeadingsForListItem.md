@@ -97,56 +97,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 150,
-    "Name": "Jewess-Weber",
-    "ToolTip": "Voluptatibus aut omnis eaque.",
-    "Deleted": true,
-    "Rank": 277,
-    "Type": "est",
-    "ColorBlock": 885,
-    "IconHint": "eaque",
+    "Id": 290,
+    "Name": "Wehner, McClure and Schinner",
+    "ToolTip": "Enim et sapiente.",
+    "Deleted": false,
+    "Rank": 657,
+    "Type": "vero",
+    "ColorBlock": 278,
+    "IconHint": "et",
     "Selected": false,
-    "LastChanged": "2003-11-25T03:47:00.7224209+01:00",
+    "LastChanged": "2009-11-30T02:30:53.3505129+01:00",
     "ChildItems": [
       {
-        "Id": 984,
-        "Name": "Kuphal, Wunsch and Rogahn",
-        "ToolTip": "Aut doloribus aut doloribus quos.",
+        "Id": 69,
+        "Name": "Cole, Mohr and Lind",
+        "ToolTip": "Et voluptatem.",
         "Deleted": false,
-        "Rank": 895,
-        "Type": "et",
-        "ColorBlock": 96,
-        "IconHint": "aut",
+        "Rank": 24,
+        "Type": "qui",
+        "ColorBlock": 742,
+        "IconHint": "minus",
         "Selected": false,
-        "LastChanged": "2005-11-30T03:47:00.7224209+01:00",
+        "LastChanged": "2004-08-02T02:30:53.3505129+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dicta",
-        "StyleHint": "nemo",
+        "ExtraInfo": "qui",
+        "StyleHint": "est",
         "Hidden": false,
-        "FullName": "Annalise Langosh",
+        "FullName": "Jovanny Trantow",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 606
+            "FieldType": "System.Int32",
+            "FieldLength": 727
           }
         }
       }
     ],
-    "ExtraInfo": "aperiam",
-    "StyleHint": "quae",
+    "ExtraInfo": "qui",
+    "StyleHint": "expedita",
     "Hidden": false,
-    "FullName": "Janice Mosciski",
+    "FullName": "Norbert Ritchie",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 825
+        "FieldType": "System.Int32",
+        "FieldLength": 399
       }
     }
   }

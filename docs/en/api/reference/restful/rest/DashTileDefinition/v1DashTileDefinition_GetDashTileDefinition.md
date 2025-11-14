@@ -15,6 +15,7 @@ Gets a DashTileDefinition object.
 
 
 Calls the Dash agent service GetDashTileDefinition.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -92,7 +93,7 @@ DashTileDefinition found.
 GET /api/v1/DashTileDefinition/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -102,36 +103,36 @@ HTTP/1.1 200 DashTileDefinition found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 126,
-  "Name": "Hoeger Inc and Sons",
-  "Description": "Mandatory needs-based workforce",
-  "DefaultHeight": 888,
-  "DefaultWidth": 972,
+  "DashboardTileDefinitionId": 48,
+  "Name": "Pfannerstill Group",
+  "Description": "Automated reciprocal knowledge base",
+  "DefaultHeight": 420,
+  "DefaultWidth": 167,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Kilback, Wilderman and Kreiger",
-  "SelectionId": 629,
+  "EntityName": "Larson, Schmitt and Schinner",
+  "SelectionId": 587,
   "CurrencyMode": "Base",
-  "CurrencyCode": "fugit",
+  "CurrencyCode": "tenetur",
   "Measure": "Average",
-  "MeasureField": "deserunt",
-  "SortBy": "in",
-  "LayoutConfig": "soluta",
-  "SecondarySelectionId": 461,
-  "MeasureByField": "sint",
+  "MeasureField": "dolore",
+  "SortBy": "eos",
+  "LayoutConfig": "neque",
+  "SecondarySelectionId": 492,
+  "MeasureByField": "assumenda",
   "Usage": "Dashboard",
-  "ProviderName": "Hayes, Reinger and Veum",
+  "ProviderName": "Crooks-Bernier",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 703
+      "FieldLength": 30
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

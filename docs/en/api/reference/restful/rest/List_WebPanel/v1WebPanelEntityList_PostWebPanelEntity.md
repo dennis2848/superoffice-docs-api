@@ -108,32 +108,32 @@ OK
 POST /api/v1/List/WebPanel/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 890,
-  "Name": "Hermiston Inc and Sons",
-  "Tooltip": "cumque",
+  "WebPanelId": 496,
+  "Name": "Schneider, Stark and Kuphal",
+  "Tooltip": "nam",
   "Deleted": false,
-  "Rank": 907,
+  "Rank": 388,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": true,
+  "OnCentral": false,
   "OnSatellite": false,
-  "OnTravel": false,
-  "OnSalesMarketingWeb": true,
-  "OnSalesMarketingPocket": true,
-  "ShowInMenuBar": true,
+  "OnTravel": true,
+  "OnSalesMarketingWeb": false,
+  "OnSalesMarketingPocket": false,
+  "ShowInMenuBar": false,
   "ShowInToolBar": false,
   "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "WindowName": "Walter, Gutkowski and Wolf",
+  "WindowName": "Wisoky-Schaden",
   "Url": "http://www.example.com/",
-  "ProgId": "adipisci",
-  "Icon": 286,
-  "AlwaysReloadOnShow": false,
-  "NeverReloadOnCurrentChange": true
+  "ProgId": "iste",
+  "Icon": 860,
+  "AlwaysReloadOnShow": true,
+  "NeverReloadOnCurrentChange": false
 }
 ```
 
@@ -144,34 +144,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 243,
-  "Name": "Thompson LLC",
-  "Tooltip": "velit",
+  "WebPanelId": 486,
+  "Name": "Moore LLC",
+  "Tooltip": "est",
   "Deleted": false,
-  "Rank": 987,
+  "Rank": 617,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": true,
+  "OnCentral": false,
   "OnSatellite": false,
   "OnTravel": false,
-  "OnSalesMarketingWeb": true,
+  "OnSalesMarketingWeb": false,
   "OnSalesMarketingPocket": true,
-  "ShowInMenuBar": true,
-  "ShowInToolBar": false,
-  "ShowInAddressBar": true,
-  "ShowInStatusBar": false,
-  "WindowName": "Littel LLC",
+  "ShowInMenuBar": false,
+  "ShowInToolBar": true,
+  "ShowInAddressBar": false,
+  "ShowInStatusBar": true,
+  "WindowName": "Schneider LLC",
   "Url": "http://www.example.com/",
-  "ProgId": "provident",
-  "Icon": 366,
-  "AlwaysReloadOnShow": false,
+  "ProgId": "consequatur",
+  "Icon": 388,
+  "AlwaysReloadOnShow": true,
   "NeverReloadOnCurrentChange": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 612
+      "FieldType": "System.String",
+      "FieldLength": 58
     }
   }
 }

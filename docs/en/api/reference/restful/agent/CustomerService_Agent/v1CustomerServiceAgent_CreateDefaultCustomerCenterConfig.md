@@ -14,6 +14,8 @@ POST /api/v1/Agents/CustomerService/CreateDefaultCustomerCenterConfig
 Loading default values into a new CustomerCenterConfig.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -73,20 +75,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CustConfigId": 999,
+  "CustConfigId": 449,
   "Type": "Options",
-  "Config": "numquam",
-  "CustLangId": 618,
-  "Registered": "2017-02-28T03:46:54.5820132+01:00",
-  "RegisteredAssociateId": 13,
-  "Updated": "2021-11-11T03:46:54.5820132+01:00",
-  "UpdatedAssociateId": 763,
+  "Config": "nobis",
+  "CustLangId": 361,
+  "Registered": "2017-04-15T02:30:47.0538389+02:00",
+  "RegisteredAssociateId": 329,
+  "Updated": "2005-04-13T02:30:47.0538389+02:00",
+  "UpdatedAssociateId": 120,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 646
+      "FieldLength": 634
     }
   }
 }

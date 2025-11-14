@@ -63,7 +63,7 @@ OK
 GET /api/v1/List/DeliveryTerm/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -74,18 +74,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 941,
-    "Name": "Bailey-Rutherford",
-    "Tooltip": "ut",
-    "Deleted": true,
-    "Rank": 285,
-    "UdListDefinitionId": 254,
+    "HeadingId": 329,
+    "Name": "Strosin-Koelpin",
+    "Tooltip": "dolor",
+    "Deleted": false,
+    "Rank": 836,
+    "UdListDefinitionId": 309,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 627
+        "FieldLength": 792
       }
     }
   }

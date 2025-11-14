@@ -14,6 +14,8 @@ POST /api/v1/Agents/Favourite/RemoveAllFavourites
 Remove all favourites for a table and associate
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -66,12 +68,12 @@ No Content
 POST /api/v1/Agents/Favourite/RemoveAllFavourites
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Little-Carter",
-  "AssociateId": 663
+  "TableName": "Beahan Inc and Sons",
+  "AssociateId": 289
 }
 ```
 

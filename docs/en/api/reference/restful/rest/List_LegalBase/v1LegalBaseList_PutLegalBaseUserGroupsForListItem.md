@@ -98,47 +98,47 @@ OK
 PUT /api/v1/List/LegalBase/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 305,
-    "Name": "Collins Inc and Sons",
-    "ToolTip": "Quia perferendis fuga.",
-    "Deleted": true,
-    "Rank": 634,
-    "Type": "et",
-    "ColorBlock": 187,
-    "IconHint": "voluptatum",
+    "Id": 187,
+    "Name": "Windler-Huels",
+    "ToolTip": "Mollitia in maxime tempore ut nihil.",
+    "Deleted": false,
+    "Rank": 67,
+    "Type": "autem",
+    "ColorBlock": 990,
+    "IconHint": "molestiae",
     "Selected": false,
-    "LastChanged": "2016-11-21T03:47:00.6599229+01:00",
+    "LastChanged": "2008-08-09T02:30:53.3036395+02:00",
     "ChildItems": [
       {
-        "Id": 471,
-        "Name": "Osinski Group",
-        "ToolTip": "Praesentium ut voluptatum distinctio est quaerat et blanditiis.",
-        "Deleted": false,
-        "Rank": 918,
-        "Type": "rem",
-        "ColorBlock": 874,
-        "IconHint": "assumenda",
+        "Id": 415,
+        "Name": "Bins Inc and Sons",
+        "ToolTip": "Qui dolores ut.",
+        "Deleted": true,
+        "Rank": 641,
+        "Type": "praesentium",
+        "ColorBlock": 159,
+        "IconHint": "dolore",
         "Selected": false,
-        "LastChanged": "2011-08-26T03:47:00.6599229+02:00",
+        "LastChanged": "2004-05-20T02:30:53.3036395+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "natus",
-        "StyleHint": "ut",
-        "Hidden": false,
-        "FullName": "Elliott Sauer"
+        "ExtraInfo": "mollitia",
+        "StyleHint": "at",
+        "Hidden": true,
+        "FullName": "Maurice Price"
       }
     ],
-    "ExtraInfo": "provident",
-    "StyleHint": "omnis",
+    "ExtraInfo": "ut",
+    "StyleHint": "ratione",
     "Hidden": true,
-    "FullName": "Sigmund Gorczany"
+    "FullName": "Jewel Beier"
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 670,
-    "Name": "Lehner-Gusikowski",
-    "ToolTip": "Ipsa cum dolor quasi qui ut.",
+    "Id": 719,
+    "Name": "Pagac, Hammes and Schowalter",
+    "ToolTip": "Distinctio eum.",
     "Deleted": false,
-    "Rank": 423,
-    "Type": "ea",
-    "ColorBlock": 330,
-    "IconHint": "ipsam",
+    "Rank": 690,
+    "Type": "qui",
+    "ColorBlock": 521,
+    "IconHint": "architecto",
     "Selected": false,
-    "LastChanged": "2003-09-24T03:47:00.6755475+02:00",
+    "LastChanged": "2005-02-12T02:30:53.3036395+01:00",
     "ChildItems": [
       {
-        "Id": 647,
-        "Name": "Bode-Swift",
-        "ToolTip": "Numquam et cum rem accusantium aspernatur.",
-        "Deleted": false,
-        "Rank": 991,
-        "Type": "nihil",
-        "ColorBlock": 559,
-        "IconHint": "quam",
+        "Id": 328,
+        "Name": "Reinger-Rippin",
+        "ToolTip": "Atque distinctio voluptas reiciendis quae praesentium rerum et.",
+        "Deleted": true,
+        "Rank": 247,
+        "Type": "aut",
+        "ColorBlock": 662,
+        "IconHint": "quia",
         "Selected": false,
-        "LastChanged": "2023-12-19T03:47:00.6755475+01:00",
+        "LastChanged": "2005-10-25T02:30:53.3036395+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "fugit",
-        "StyleHint": "placeat",
+        "ExtraInfo": "pariatur",
+        "StyleHint": "ut",
         "Hidden": false,
-        "FullName": "Bailee Rosenbaum",
+        "FullName": "Spencer Block",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 838
+            "FieldLength": 288
           }
         }
       }
     ],
-    "ExtraInfo": "sit",
-    "StyleHint": "eligendi",
-    "Hidden": true,
-    "FullName": "Ms. Shyann Jonas VonRueden",
+    "ExtraInfo": "quia",
+    "StyleHint": "iusto",
+    "Hidden": false,
+    "FullName": "Devonte Waelchi MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 450
+        "FieldType": "System.Int32",
+        "FieldLength": 337
       }
     }
   }

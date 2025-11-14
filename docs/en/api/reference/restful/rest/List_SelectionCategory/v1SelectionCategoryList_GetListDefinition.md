@@ -66,7 +66,7 @@ OK
 GET /api/v1/List/SelectionCategory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -76,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 218,
-  "Name": "Shanahan Inc and Sons",
-  "Tooltip": "in",
-  "Deleted": true,
-  "Rank": 859,
-  "IsCustomList": false,
+  "Id": 889,
+  "Name": "Rodriguez LLC",
+  "Tooltip": "at",
+  "Deleted": false,
+  "Rank": 291,
+  "IsCustomList": true,
   "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "provident",
+  "ListType": "quia",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 593
+      "FieldType": "System.Int32",
+      "FieldLength": 255
     }
   },
   "_Links": {

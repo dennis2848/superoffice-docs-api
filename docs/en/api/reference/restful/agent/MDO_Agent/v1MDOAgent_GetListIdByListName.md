@@ -15,6 +15,7 @@ Retrieve the UdListDefinition id of a list, by its name.
 
 
 Not all lists have such an ID, but those that are based on tables do (the list name is then the same as the table name)
+NsApiSlow threshold: 1700 ms.
 
 
 
@@ -71,11 +72,11 @@ OK
 POST /api/v1/Agents/MDO/GetListIdByListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Hilll, Goldner and Kovacek"
+  "Name": "Rosenbaum Inc and Sons"
 }
 ```
 
@@ -85,5 +86,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-943
+391
 ```

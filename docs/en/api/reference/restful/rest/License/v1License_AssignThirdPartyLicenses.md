@@ -79,7 +79,7 @@ OK
 PUT /api/v1/License/{moduleOwner}/{associateId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -91,25 +91,25 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Unrestricted": true,
-    "Total": 352,
-    "Tooltip": "velit",
+    "Total": 384,
+    "Tooltip": "excepturi",
     "CanAssign": true,
-    "Free": 801,
-    "InUse": 782,
+    "Free": 467,
+    "InUse": 854,
     "IsHidden": false,
-    "Assigned": true,
-    "ModuleLicenseId": 776,
-    "Name": "Haley-Kuhn",
-    "Description": "Managed client-driven function",
-    "PrerequisiteModuleName": "Kuhlman LLC",
-    "SortOrder": 704,
-    "ExtraFlags": 398,
+    "Assigned": false,
+    "ModuleLicenseId": 517,
+    "Name": "Connelly LLC",
+    "Description": "Streamlined executive matrix",
+    "PrerequisiteModuleName": "Purdy Inc and Sons",
+    "SortOrder": 694,
+    "ExtraFlags": 883,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 302
+        "FieldType": "System.Int32",
+        "FieldLength": 594
       }
     }
   }

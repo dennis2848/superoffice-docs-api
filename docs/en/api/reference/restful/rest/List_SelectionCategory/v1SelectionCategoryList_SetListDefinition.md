@@ -89,15 +89,15 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 281,
-  "Name": "Mann, Lesch and Kris",
-  "Tooltip": "consequatur",
+  "Id": 566,
+  "Name": "Berge-Cormier",
+  "Tooltip": "eos",
   "Deleted": false,
-  "Rank": 677,
+  "Rank": 597,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "eum",
+  "UseGroupsAndHeadings": true,
+  "ListType": "voluptas",
   "InUseByUserDefinedFields": true
 }
 ```
@@ -109,22 +109,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 941,
-  "Name": "Wilkinson, Hackett and Gislason",
-  "Tooltip": "quisquam",
+  "Id": 194,
+  "Name": "Ferry Group",
+  "Tooltip": "quia",
   "Deleted": false,
-  "Rank": 871,
+  "Rank": 119,
   "IsCustomList": false,
   "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "pariatur",
+  "ListType": "culpa",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 750
+      "FieldLength": 103
     }
   }
 }

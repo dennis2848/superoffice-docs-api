@@ -14,6 +14,8 @@ POST /api/v1/Agents/Pocket/GetMyCallerIDs
 Get caller ids that the current principal might be interested in (phone numbers of related persons in sales and appointments created/owned/touched by ourselves or colleagues in our primary group
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -75,13 +77,13 @@ OK
 POST /api/v1/Agents/Pocket/GetMyCallerIDs
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "LastHash": "minima",
-  "MinDate": "2017-10-20T03:46:55.1288689+02:00",
-  "MaxDate": "2015-11-15T03:46:55.1288689+01:00"
+  "LastHash": "quia",
+  "MinDate": "2009-01-21T02:30:47.5850743+01:00",
+  "MaxDate": "2006-08-15T02:30:47.5850743+02:00"
 }
 ```
 
@@ -92,16 +94,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CallerIDHash": "ut",
+  "CallerIDHash": "eos",
   "CallerIDs": [
     {
       "PhoneNumber": 99.99,
-      "DialInPrefix": 856,
-      "PersonId": 54,
-      "PersonName": "Schmidt, Heidenreich and Harris",
-      "Mrmrs": "facere",
-      "ContactId": 782,
-      "ContactName": "Beatty-Moen"
+      "DialInPrefix": 943,
+      "PersonId": 344,
+      "PersonName": "Lebsack, Denesik and Pouros",
+      "Mrmrs": "et",
+      "ContactId": 292,
+      "ContactName": "Kihn Group"
     }
   ]
 }

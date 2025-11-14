@@ -28,7 +28,7 @@ Get the MDO list items for "Comptr" - with headings and filtering by user group.
 
 ```http
 GET /api/v1/List/Competitor/MDOItems?flat=False
-GET /api/v1/List/Competitor/MDOItems?query=a
+GET /api/v1/List/Competitor/MDOItems?query=temporibus
 ```
 
 
@@ -90,50 +90,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 990,
-    "Name": "Ullrich, Oberbrunner and Smith",
-    "ToolTip": "Aut reprehenderit veritatis ducimus.",
-    "Deleted": true,
-    "Rank": 902,
-    "Type": "repellat",
+    "Id": 319,
+    "Name": "Auer-Waters",
+    "ToolTip": "Laborum et minus aperiam quasi architecto.",
+    "Deleted": false,
+    "Rank": 260,
+    "Type": "rerum",
     "ChildItems": [
       {
-        "Id": 399,
-        "Name": "Hills-Reichert",
-        "ToolTip": "Beatae aut ea.",
-        "Deleted": true,
-        "Rank": 449,
-        "Type": "qui",
+        "Id": 155,
+        "Name": "Green Group",
+        "ToolTip": "Esse vel esse.",
+        "Deleted": false,
+        "Rank": 961,
+        "Type": "necessitatibus",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "fugiat",
-        "ColorBlock": 90,
-        "ExtraInfo": "dolorem",
-        "StyleHint": "nulla",
-        "FullName": "Brayan Hegmann",
+        "IconHint": "ex",
+        "ColorBlock": 917,
+        "ExtraInfo": "aut",
+        "StyleHint": "voluptatibus",
+        "FullName": "Mrs. Dejon Jacobson II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 159
+            "FieldLength": 470
           }
         }
       }
     ],
-    "IconHint": "neque",
-    "ColorBlock": 744,
-    "ExtraInfo": "quidem",
-    "StyleHint": "voluptatum",
-    "FullName": "Ashlynn Hudson MD",
+    "IconHint": "hic",
+    "ColorBlock": 497,
+    "ExtraInfo": "quisquam",
+    "StyleHint": "dolorum",
+    "FullName": "Miss Cordia Heller",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 501
+        "FieldLength": 434
       }
     }
   }

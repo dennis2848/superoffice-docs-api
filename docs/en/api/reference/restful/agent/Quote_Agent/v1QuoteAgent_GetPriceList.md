@@ -14,6 +14,8 @@ POST /api/v1/Agents/Quote/GetPriceList
 Gets a PriceList object.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -27,7 +29,7 @@ Gets a PriceList object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Quote/GetPriceList?priceListId=384
+POST /api/v1/Agents/Quote/GetPriceList?priceListId=122
 POST /api/v1/Agents/Quote/GetPriceList?$select=name,department,category/id
 ```
 
@@ -87,22 +89,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 370,
-  "ERPPriceListKey": "omnis",
-  "QuoteConnectionId": 321,
-  "Name": "Farrell-Hackett",
-  "Description": "Up-sized multi-state intranet",
-  "Currency": "quia",
-  "CurrencyName": "McClure-Kris",
-  "ValidFrom": "2021-07-05T03:46:55.2069913+02:00",
-  "ValidTo": "2018-10-18T03:46:55.2069913+02:00",
+  "PriceListId": 460,
+  "ERPPriceListKey": "dicta",
+  "QuoteConnectionId": 216,
+  "Name": "Cronin, Kertzmann and Marvin",
+  "Description": "Function-based context-sensitive capability",
+  "Currency": "qui",
+  "CurrencyName": "Bernier Inc and Sons",
+  "ValidFrom": "2019-08-23T02:30:47.7100701+02:00",
+  "ValidTo": "2021-01-04T02:30:47.7100701+01:00",
   "IsActive": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 770
+      "FieldType": "System.String",
+      "FieldLength": 416
     }
   }
 }

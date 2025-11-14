@@ -112,34 +112,34 @@ OK
 PUT /api/v1/BatchTask/{Id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 981,
-  "Name": "Hyatt-Kuhic",
-  "AssociateId": 688,
-  "DetailsTable": 699,
-  "DetailsRecord": 15,
+  "Id": 244,
+  "Name": "Schmitt-Schneider",
+  "AssociateId": 179,
+  "DetailsTable": 411,
+  "DetailsRecord": 914,
   "IsSystemTask": true,
-  "IsInternalTask": true,
+  "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "inventore",
-    "ParameterObject2": "exercitationem"
+    "ParameterObject1": "nam",
+    "ParameterObject2": "asperiores"
   },
-  "LastStarted": "2006-08-14T03:47:00.3943072+02:00",
-  "Created": "2013-11-27T03:47:00.3943072+01:00",
-  "StartCount": 603,
-  "DatabaseSerialNumber": "918108",
-  "Context": "voluptatibus",
-  "Result": "quam",
+  "LastStarted": "2010-04-05T02:30:53.0380235+02:00",
+  "Created": "2003-10-09T02:30:53.0380235+02:00",
+  "StartCount": 172,
+  "DatabaseSerialNumber": "639254",
+  "Context": "accusantium",
+  "Result": "cum",
   "State": "All",
-  "Description": "Digitized radical forecast",
-  "Response": "velit",
-  "Request": "deleniti",
-  "ProgressDescription": "Up-sized context-sensitive support",
-  "ProgressPercent": 692,
-  "FileName": "Schmeler, Maggio and Gleason",
+  "Description": "Exclusive value-added secured line",
+  "Response": "magnam",
+  "Request": "aut",
+  "ProgressDescription": "Re-contextualized even-keeled artificial intelligence",
+  "ProgressPercent": 139,
+  "FileName": "Turner LLC",
   "CancellationBehaviour": "CanCancel"
 }
 ```
@@ -151,37 +151,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 654,
-  "Name": "Spinka-Reilly",
-  "AssociateId": 180,
-  "DetailsTable": 766,
-  "DetailsRecord": 572,
-  "IsSystemTask": true,
+  "Id": 261,
+  "Name": "Jones, Spencer and Ruecker",
+  "AssociateId": 520,
+  "DetailsTable": 423,
+  "DetailsRecord": 830,
+  "IsSystemTask": false,
   "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "et",
-    "ParameterObject2": "molestiae"
+    "ParameterObject1": "aut",
+    "ParameterObject2": "ducimus"
   },
-  "LastStarted": "2009-04-22T03:47:00.3943072+02:00",
-  "Created": "1998-05-13T03:47:00.3943072+02:00",
-  "StartCount": 867,
-  "DatabaseSerialNumber": "1186878",
-  "Context": "sit",
-  "Result": "hic",
+  "LastStarted": "2023-07-04T02:30:53.0380235+02:00",
+  "Created": "2001-08-06T02:30:53.0380235+02:00",
+  "StartCount": 327,
+  "DatabaseSerialNumber": "923069",
+  "Context": "molestiae",
+  "Result": "quia",
   "State": "All",
-  "Description": "Fundamental holistic infrastructure",
-  "Response": "officia",
-  "Request": "nihil",
-  "ProgressDescription": "Organic bandwidth-monitored extranet",
-  "ProgressPercent": 873,
-  "FileName": "Schimmel Inc and Sons",
+  "Description": "Profit-focused asynchronous knowledge base",
+  "Response": "molestias",
+  "Request": "corrupti",
+  "ProgressDescription": "User-friendly system-worthy project",
+  "ProgressPercent": 398,
+  "FileName": "Beier Inc and Sons",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 845
+      "FieldType": "System.String",
+      "FieldLength": 760
     }
   }
 }

@@ -14,6 +14,8 @@ POST /api/v1/Agents/Quote/GetQuoteVersions
 Get all quote versions for a sale
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -116,7 +118,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 21
+  "QuoteId": 358
 }
 ```
 
@@ -128,75 +130,75 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteVersionId": 124,
-    "ERPQuoteVersionKey": "nostrum",
-    "QuoteId": 185,
-    "Description": "Reverse-engineered high-level hardware",
-    "Number": "241947",
+    "QuoteVersionId": 424,
+    "ERPQuoteVersionKey": "repellat",
+    "QuoteId": 47,
+    "Description": "Switchable next generation conglomeration",
+    "Number": "1150386",
     "State": "Archived",
     "ArchivedState": "Archived",
     "Status": "Error",
     "Reason": "",
-    "LikelyQuoteAlternativeId": 652,
-    "SentDate": "2024-06-23T03:46:55.1913666+02:00",
-    "FollowupId": 662,
-    "ExpirationDate": "2008-03-05T03:46:55.1913666+01:00",
-    "DeliveryCountryId": 453,
+    "LikelyQuoteAlternativeId": 923,
+    "SentDate": "2023-03-21T02:30:47.7100701+01:00",
+    "FollowupId": 223,
+    "ExpirationDate": "2007-01-14T02:30:47.7100701+01:00",
+    "DeliveryCountryId": 49,
     "HasOwnDeliveryAddress": false,
-    "InvoiceCountryId": 966,
+    "InvoiceCountryId": 796,
     "HasOwnInvoiceAddress": false,
-    "ERPPaymentTermsKey": "quas",
-    "ERPPaymentTypeKey": "dolor",
-    "ERPDeliveryTermsKey": "id",
-    "ERPDeliveryTypeKey": "quam",
-    "Rank": 283,
-    "ApprovedBy": 254,
-    "ApprovedText": "voluptas",
-    "ApprovedRegisteredBy": 979,
-    "ApprovedRegisteredDate": "2000-06-17T03:46:55.1913666+02:00",
-    "ExtraField1": "sunt",
-    "ExtraField2": "et",
-    "ExtraField3": "sunt",
-    "ExtraField4": "est",
-    "ExtraField5": "ut",
-    "LastRecalculated": "2022-05-21T03:46:55.1913666+02:00",
-    "Updated": "2015-01-28T03:46:55.1913666+01:00",
-    "UpdatedAssociateId": 799,
-    "Registered": "2006-02-05T03:46:55.1913666+01:00",
-    "RegisteredAssociateId": 746,
-    "RequestAssociateId": 519,
-    "RequestComment": "eos",
+    "ERPPaymentTermsKey": "nemo",
+    "ERPPaymentTypeKey": "illo",
+    "ERPDeliveryTermsKey": "in",
+    "ERPDeliveryTypeKey": "ut",
+    "Rank": 57,
+    "ApprovedBy": 660,
+    "ApprovedText": "iure",
+    "ApprovedRegisteredBy": 300,
+    "ApprovedRegisteredDate": "2018-02-04T02:30:47.7100701+01:00",
+    "ExtraField1": "est",
+    "ExtraField2": "sed",
+    "ExtraField3": "voluptatem",
+    "ExtraField4": "minus",
+    "ExtraField5": "sed",
+    "LastRecalculated": "2018-07-31T02:30:47.7100701+02:00",
+    "Updated": "2025-04-05T02:30:47.7100701+02:00",
+    "UpdatedAssociateId": 830,
+    "Registered": "2025-06-06T02:30:47.7100701+02:00",
+    "RegisteredAssociateId": 171,
+    "RequestAssociateId": 569,
+    "RequestComment": "dolore",
     "QuoteAlternatives": [
       {
-        "QuoteAlternativeId": 782,
-        "ERPQuoteAlternativeKey": "eos",
-        "QuoteVersionId": 889,
-        "Name": "Hackett, Hoppe and Wyman",
-        "Description": "Future-proofed composite contingency",
+        "QuoteAlternativeId": 381,
+        "ERPQuoteAlternativeKey": "voluptatum",
+        "QuoteVersionId": 942,
+        "Name": "Douglas, Borer and Ferry",
+        "Description": "Profound bandwidth-monitored system engine",
         "Status": "Error",
-        "Reason": "engage e-business infrastructures",
-        "ERPDiscountPercent": 23953.162,
-        "ERPDiscountAmount": 26686.01,
-        "DiscountPercent": 1106.302,
-        "DiscountAmount": 16525.582,
+        "Reason": "",
+        "ERPDiscountPercent": 7571.744,
+        "ERPDiscountAmount": 15177.962,
+        "DiscountPercent": 27547.86,
+        "DiscountAmount": 7440.116,
         "UserValueOverride": "DiscountAmount",
-        "VATInfo": "similique",
-        "VAT": 16419.025999999998,
-        "EarningPercent": 14234.627999999999,
-        "EarningAmount": 5199.306,
-        "SubTotal": 26789.432,
-        "TotalPrice": 3735.728,
-        "ExtraField1": "magni",
-        "ExtraField2": "sit",
-        "ExtraField3": "quis",
-        "ExtraField4": "mollitia",
-        "ExtraField5": "eum",
+        "VATInfo": "molestias",
+        "VAT": 29932.834,
+        "EarningPercent": 25720.737999999998,
+        "EarningAmount": 22028.886,
+        "SubTotal": 25084.536,
+        "TotalPrice": 7020.16,
+        "ExtraField1": "est",
+        "ExtraField2": "rerum",
+        "ExtraField3": "eligendi",
+        "ExtraField4": "recusandae",
+        "ExtraField5": "ab",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 628
+            "FieldType": "System.String",
+            "FieldLength": 167
           }
         }
       }
@@ -205,8 +207,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 928
+        "FieldType": "System.String",
+        "FieldLength": 462
       }
     }
   }

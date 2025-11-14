@@ -15,6 +15,7 @@ Changes the contact image link.
 
 
 If the Binary object id is 0, any image link is removed from the contact.
+NsApiSlow threshold: 3000 ms.
 
 
 
@@ -68,12 +69,12 @@ No Content
 POST /api/v1/Agents/BLOB/ChangeContactImage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 976,
-  "BlobId": 919
+  "ContactId": 53,
+  "BlobId": 945
 }
 ```
 

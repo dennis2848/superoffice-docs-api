@@ -14,6 +14,8 @@ POST /api/v1/Agents/Project/GetMyPublishedProjects
 Get published projects from the logged in user.
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -94,30 +96,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 261,
-    "Name": "King Inc and Sons",
-    "Description": "Fully-configurable exuding moratorium",
+    "ProjectId": 362,
+    "Name": "Crona, Schoen and Roberts",
+    "Description": "Streamlined 24 hour local area network",
     "URL": "http://www.example.com/",
-    "Type": "tempora",
-    "AssociateId": 756,
-    "AssociateFullName": "Loyce Hand",
-    "TypeId": 299,
-    "Updated": "2019-12-27T03:46:55.1757421+01:00",
-    "StatusId": 329,
-    "Status": "a",
-    "TextId": 849,
-    "PublishTo": "2012-05-22T03:46:55.1757421+02:00",
-    "PublishFrom": "2012-10-15T03:46:55.1757421+02:00",
+    "Type": "numquam",
+    "AssociateId": 723,
+    "AssociateFullName": "Wilson Quigley",
+    "TypeId": 584,
+    "Updated": "2011-08-24T02:30:47.6944454+02:00",
+    "StatusId": 699,
+    "Status": "amet",
+    "TextId": 18,
+    "PublishTo": "2001-06-19T02:30:47.6944454+02:00",
+    "PublishFrom": "2001-03-24T02:30:47.6944454+01:00",
     "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "537017",
-    "ActiveErpLinks": 663,
+    "ProjectNumber": "801548",
+    "ActiveErpLinks": 853,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 973
+        "FieldLength": 275
       }
     }
   }

@@ -15,6 +15,7 @@ Set default values into a new PreferenceDescriptionLine.
 
 
 NetServer calculates default values on the entity, which is required when creating/storing a new instance Calls the Preference agent service CreateDefaultPreferenceDescriptionLine.
+NsApiSlow threshold: 1000 ms.
 
 
 
@@ -73,18 +74,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 572,
-  "PrefDescId": 519,
-  "PrefValue": "qui",
-  "PrefShowValue": "et",
-  "Description": "Universal bifurcated success",
+  "PrefDescLineId": 797,
+  "PrefDescId": 890,
+  "PrefValue": "et",
+  "PrefShowValue": "est",
+  "Description": "Pre-emptive static functionalities",
   "IsBuiltin": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 80
+      "FieldType": "System.Int32",
+      "FieldLength": 412
     }
   }
 }

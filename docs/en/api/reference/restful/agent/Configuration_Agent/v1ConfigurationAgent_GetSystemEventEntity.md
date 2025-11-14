@@ -14,6 +14,8 @@ POST /api/v1/Agents/Configuration/GetSystemEventEntity
 Gets a SystemEventEntity object.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -27,7 +29,7 @@ Gets a SystemEventEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Configuration/GetSystemEventEntity?systemEventEntityId=551
+POST /api/v1/Agents/Configuration/GetSystemEventEntity?systemEventEntityId=702
 POST /api/v1/Agents/Configuration/GetSystemEventEntity?$select=name,department,category/id
 ```
 
@@ -77,7 +79,7 @@ OK
 POST /api/v1/Agents/Configuration/GetSystemEventEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -87,22 +89,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 836,
+  "SystemEventId": 208,
   "Scope": "Database",
-  "Eta": "2000-12-27T03:46:54.4726424+01:00",
-  "Eventkey": "odit",
-  "Eventmess": "dolorem",
-  "ExtraInfo": 548,
-  "Owner": 508,
-  "UpdatedCount": 73,
-  "Registered": "2009-02-23T03:46:54.4726424+01:00",
+  "Eta": "2017-11-28T02:30:46.9288431+01:00",
+  "Eventkey": "reprehenderit",
+  "Eventmess": "sed",
+  "ExtraInfo": 177,
+  "Owner": 451,
+  "UpdatedCount": 971,
+  "Registered": "2009-06-03T02:30:46.9288431+02:00",
   "ActivatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 393
+      "FieldLength": 621
     }
   }
 }

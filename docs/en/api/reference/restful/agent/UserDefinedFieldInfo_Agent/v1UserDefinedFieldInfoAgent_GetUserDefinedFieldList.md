@@ -15,6 +15,7 @@ Return information about all the user defined fields on a particular owner type 
 
 
 Note this may be different than the currently published fields.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -109,7 +110,7 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -125,46 +126,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 101,
-    "ColumnId": 247,
-    "FieldDefault": "repudiandae",
-    "FieldHeight": 579,
-    "FieldLabel": "doloremque",
-    "FieldLeft": 818,
-    "FieldTop": 758,
+    "UDefFieldId": 911,
+    "ColumnId": 107,
+    "FieldDefault": "nihil",
+    "FieldHeight": 925,
+    "FieldLabel": "quaerat",
+    "FieldLeft": 344,
+    "FieldTop": 832,
     "FieldType": "Checkbox",
-    "FieldWidth": 131,
-    "FormatMask": "nulla",
-    "HideLabel": false,
+    "FieldWidth": 274,
+    "FormatMask": "perferendis",
+    "HideLabel": true,
     "IsIndexed": false,
-    "LabelHeight": 975,
-    "LabelLeft": 948,
-    "LabelTop": 778,
-    "LabelWidth": 960,
-    "LastVersionId": 383,
-    "ListTableId": 733,
-    "IsMandatory": false,
+    "LabelHeight": 328,
+    "LabelLeft": 894,
+    "LabelTop": 902,
+    "LabelWidth": 520,
+    "LastVersionId": 497,
+    "ListTableId": 104,
+    "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 848,
-    "ProgId": "aliquid",
+    "Page1LineNo": 988,
+    "ProgId": "modi",
     "IsReadOnly": true,
-    "ShortLabel": "nemo",
-    "TabOrder": 588,
-    "TextLength": 324,
-    "Tooltip": "debitis",
-    "UdefIdentity": 136,
-    "UDListDefinitionId": 20,
+    "ShortLabel": "quam",
+    "TabOrder": 201,
+    "TextLength": 717,
+    "Tooltip": "officia",
+    "UdefIdentity": 702,
+    "UDListDefinitionId": 432,
     "Justification": "Center",
-    "Version": 80,
-    "TemplateVariableName": "Hermann-Blick",
-    "HasBeenPublished": false,
-    "MdoListName": "Bergstrom, Frami and Paucek",
+    "Version": 468,
+    "TemplateVariableName": "Veum-Eichmann",
+    "HasBeenPublished": true,
+    "MdoListName": "Lubowitz LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 551
+        "FieldType": "System.String",
+        "FieldLength": 708
       }
     }
   }

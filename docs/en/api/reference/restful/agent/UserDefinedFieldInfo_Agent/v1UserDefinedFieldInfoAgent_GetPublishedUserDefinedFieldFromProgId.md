@@ -15,6 +15,7 @@ Return information about the given user defined field identified by the owner an
 
 
 The prog-id is used as the key in the entity carriers.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -110,11 +111,11 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetPublishedUserDefinedFieldFromProgId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProgId": "libero",
+  "ProgId": "cupiditate",
   "OwnerType": "Appointment"
 }
 ```
@@ -126,46 +127,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 161,
-  "ColumnId": 692,
-  "FieldDefault": "officia",
-  "FieldHeight": 162,
-  "FieldLabel": "voluptas",
-  "FieldLeft": 335,
-  "FieldTop": 821,
+  "UDefFieldId": 626,
+  "ColumnId": 419,
+  "FieldDefault": "sunt",
+  "FieldHeight": 55,
+  "FieldLabel": "reprehenderit",
+  "FieldLeft": 716,
+  "FieldTop": 886,
   "FieldType": "Checkbox",
-  "FieldWidth": 575,
-  "FormatMask": "minus",
-  "HideLabel": true,
+  "FieldWidth": 197,
+  "FormatMask": "beatae",
+  "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 953,
-  "LabelLeft": 966,
-  "LabelTop": 994,
-  "LabelWidth": 729,
-  "LastVersionId": 434,
-  "ListTableId": 297,
-  "IsMandatory": true,
+  "LabelHeight": 882,
+  "LabelLeft": 593,
+  "LabelTop": 319,
+  "LabelWidth": 363,
+  "LastVersionId": 521,
+  "ListTableId": 233,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 509,
-  "ProgId": "tenetur",
-  "IsReadOnly": true,
-  "ShortLabel": "dicta",
-  "TabOrder": 56,
-  "TextLength": 463,
-  "Tooltip": "voluptas",
-  "UdefIdentity": 534,
-  "UDListDefinitionId": 691,
+  "Page1LineNo": 381,
+  "ProgId": "autem",
+  "IsReadOnly": false,
+  "ShortLabel": "labore",
+  "TabOrder": 588,
+  "TextLength": 703,
+  "Tooltip": "nihil",
+  "UdefIdentity": 525,
+  "UDListDefinitionId": 478,
   "Justification": "Center",
-  "Version": 64,
-  "TemplateVariableName": "Fisher-Beahan",
-  "HasBeenPublished": true,
-  "MdoListName": "Zboncak Inc and Sons",
+  "Version": 774,
+  "TemplateVariableName": "Jacobi, Jones and Watsica",
+  "HasBeenPublished": false,
+  "MdoListName": "Anderson Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 324
+      "FieldType": "System.String",
+      "FieldLength": 516
     }
   }
 }

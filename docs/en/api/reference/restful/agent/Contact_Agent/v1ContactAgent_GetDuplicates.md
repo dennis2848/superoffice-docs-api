@@ -14,6 +14,8 @@ POST /api/v1/Agents/Contact/GetDuplicates
 Get duplicates (exact or similar in the database) based on the name
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -82,7 +84,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Volkman-Keebler"
+  "Name": "Watsica-Turcotte"
 }
 ```
 
@@ -94,17 +96,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "O'Connell, Boyle and Ferry",
-    "SoPrimaryKey": 248,
-    "EntryName": "Mayert Inc and Sons",
-    "EntryIdentifier": "molestiae",
-    "RuleDisplayName": "Kling-Abbott",
+    "RuleName": "Jewess, Olson and Dickens",
+    "SoPrimaryKey": 620,
+    "EntryName": "Schulist, Mayer and Moen",
+    "EntryIdentifier": "exercitationem",
+    "RuleDisplayName": "Abbott-Heathcote",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 780
+        "FieldType": "System.Int32",
+        "FieldLength": 166
       }
     }
   }

@@ -15,6 +15,7 @@ Returning a foreign key by its key name, that belongs to the specified device an
 
 
 A table name and record ID can also be specified.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -87,15 +88,15 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Heller Group",
-  "DeviceName": "Koch, Rutherford and Walter",
-  "KeyName": "Auer, Gaylord and Klein",
-  "TableName": "Stracke Group",
-  "RecordId": 847
+  "ApplicationName": "Bartoletti, Altenwerth and Nikolaus",
+  "DeviceName": "Kutch LLC",
+  "KeyName": "Herman-Turcotte",
+  "TableName": "Ebert-Franecki",
+  "RecordId": 413
 }
 ```
 
@@ -106,20 +107,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "ratione",
-  "Value": "et",
-  "RecordId": 626,
-  "CreatedDate": "2001-02-11T03:46:54.9107593+01:00",
-  "UpdatedDate": "2023-07-01T03:46:54.9107593+02:00",
-  "UpdatedBy": "voluptates",
-  "CreatedBy": "nesciunt",
-  "TableName": "Mann, Rice and Rutherford",
+  "Key": "voluptas",
+  "Value": "blanditiis",
+  "RecordId": 118,
+  "CreatedDate": "2000-07-30T02:30:47.366331+02:00",
+  "UpdatedDate": "2002-11-06T02:30:47.366331+01:00",
+  "UpdatedBy": "at",
+  "CreatedBy": "debitis",
+  "TableName": "Schaden Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 150
+      "FieldType": "System.Int32",
+      "FieldLength": 106
     }
   }
 }

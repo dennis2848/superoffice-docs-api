@@ -15,6 +15,7 @@ Creates a new SaleEntity
 
 
 Calls the Sale agent service SaveSaleEntity.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -163,7 +164,7 @@ OK
 POST /api/v1/Sale
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -173,7 +174,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "ducimus",
+  "SaleText": "impedit",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -182,90 +183,90 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2004-11-03T03:47:00.2380627+01:00",
-  "Amount": 17547.266,
-  "SaleId": 857,
-  "Earning": 25745.809999999998,
-  "EarningPercent": 24341.778,
-  "Heading": "eveniet",
-  "Number": "1164061",
-  "Probability": 821,
-  "CreatedDate": "2002-05-25T03:47:00.2380627+02:00",
-  "UpdatedDate": "2001-09-08T03:47:00.2380627+02:00",
+  "Saledate": "2016-10-06T02:30:52.8505298+02:00",
+  "Amount": 8706.252,
+  "SaleId": 558,
+  "Earning": 20508.896,
+  "EarningPercent": 27127.904,
+  "Heading": "itaque",
+  "Number": "863793",
+  "Probability": 51,
+  "CreatedDate": "2005-12-24T02:30:52.8505298+01:00",
+  "UpdatedDate": "2006-01-10T02:30:52.8505298+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 269,
+  "ActiveLinks": 607,
   "Links": [
     {
-      "EntityName": "Beier-Hansen",
-      "Id": 308,
-      "Description": "Mandatory intermediate process improvement",
-      "ExtraInfo": "sint",
-      "LinkId": 984
+      "EntityName": "Quigley LLC",
+      "Id": 80,
+      "Description": "Operative logistical orchestration",
+      "ExtraInfo": "dolor",
+      "LinkId": 783
     },
     {
-      "EntityName": "Beier-Hansen",
-      "Id": 308,
-      "Description": "Mandatory intermediate process improvement",
-      "ExtraInfo": "sint",
-      "LinkId": 984
+      "EntityName": "Quigley LLC",
+      "Id": 80,
+      "Description": "Operative logistical orchestration",
+      "ExtraInfo": "dolor",
+      "LinkId": 783
     }
   ],
-  "NextDueDate": "2012-08-29T03:47:00.2380627+02:00",
-  "Postit": "exercitationem",
+  "NextDueDate": "2021-08-08T02:30:52.8505298+02:00",
+  "Postit": "facilis",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2012-08-05T03:47:00.2380627+02:00",
+  "ReopenDate": "2009-08-24T02:30:52.8505298+02:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "West LLC",
-      "Comment": "ratione",
-      "StakeholderRoleId": 635,
-      "CountryId": 573,
-      "PersonId": 761,
-      "EmailDescription": "ewald@jast.info",
-      "EmailId": 359,
-      "EmailAddress": "dan_bradtke@lemke.com",
-      "PhoneId": 139,
-      "ContactName": "Collier, Hane and Doyle",
-      "ContactId": 332,
-      "SaleId": 669,
-      "Mrmrs": "doloribus",
-      "Firstname": "Maximilian",
-      "MiddleName": "Erdman, Schoen and Schimmel",
-      "Lastname": "Kuphal",
-      "SaleStakeholderId": 510,
-      "Rank": 539,
-      "Phone": "(686)875-1648 x1968"
+      "StakeholderRoleName": "Medhurst, Rau and King",
+      "Comment": "optio",
+      "StakeholderRoleId": 492,
+      "CountryId": 407,
+      "PersonId": 166,
+      "EmailDescription": "vincenzo@funk.name",
+      "EmailId": 462,
+      "EmailAddress": "lorine@tillmanprice.co.uk",
+      "PhoneId": 162,
+      "ContactName": "Considine-Ankunding",
+      "ContactId": 99,
+      "SaleId": 280,
+      "Mrmrs": "quas",
+      "Firstname": "Dasia",
+      "MiddleName": "Bartell Group",
+      "Lastname": "Skiles",
+      "SaleStakeholderId": 328,
+      "Rank": 853,
+      "Phone": "940.562.5903 x69241"
     }
   ],
-  "ActiveErpLinks": 8,
+  "ActiveErpLinks": 415,
   "UserDefinedFields": {
-    "SuperOffice:1": "Miss Trisha Paige Harris DDS",
-    "SuperOffice:2": "Imelda Pfannerstill"
+    "SuperOffice:1": "Adriana Sipes",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "alias",
-    "ExtraFields2": "quaerat"
+    "ExtraFields1": "voluptates",
+    "ExtraFields2": "et"
   },
   "CustomFields": {
-    "CustomFields1": "iure",
-    "CustomFields2": "ut"
+    "CustomFields1": "ut",
+    "CustomFields2": "labore"
   },
-  "PublishEventDate": "2003-05-21T03:47:00.2380627+02:00",
-  "PublishTo": "1999-11-17T03:47:00.2380627+01:00",
-  "PublishFrom": "2024-03-05T03:47:00.2380627+01:00",
-  "IsPublished": false,
+  "PublishEventDate": "2013-12-14T02:30:52.8505298+01:00",
+  "PublishTo": "2005-11-12T02:30:52.8505298+01:00",
+  "PublishFrom": "2021-09-06T02:30:52.8505298+02:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 997,
+      "VisibleId": 953,
       "Visibility": "All",
-      "DisplayValue": "iste"
+      "DisplayValue": "illum"
     },
     {
-      "VisibleId": 997,
+      "VisibleId": 953,
       "Visibility": "All",
-      "DisplayValue": "iste"
+      "DisplayValue": "illum"
     }
   ]
 }
@@ -284,7 +285,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "aut",
+  "SaleText": "laudantium",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -293,113 +294,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2017-10-22T03:47:00.2380627+02:00",
-  "Amount": 10912.588,
-  "SaleId": 675,
-  "Earning": 1472.98,
-  "EarningPercent": 25614.182,
-  "Heading": "odit",
-  "Number": "1404093",
-  "Probability": 867,
-  "CreatedDate": "2021-11-13T03:47:00.2380627+01:00",
-  "UpdatedDate": "2014-04-06T03:47:00.2380627+02:00",
+  "Saledate": "2005-09-27T02:30:52.866154+02:00",
+  "Amount": 30509.489999999998,
+  "SaleId": 819,
+  "Earning": 6443.504,
+  "EarningPercent": 18847.876,
+  "Heading": "quo",
+  "Number": "865892",
+  "Probability": 290,
+  "CreatedDate": "2007-11-04T02:30:52.866154+01:00",
+  "UpdatedDate": "2011-12-03T02:30:52.866154+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 12,
+  "ActiveLinks": 300,
   "Links": [
     {
-      "EntityName": "Ankunding-Macejkovic",
-      "Id": 982,
-      "Description": "Multi-lateral stable encoding",
-      "ExtraInfo": "alias",
-      "LinkId": 736,
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 613
-        }
-      }
-    }
-  ],
-  "NextDueDate": "2017-06-26T03:47:00.2380627+02:00",
-  "Postit": "ipsam",
-  "SaleType": null,
-  "ReasonSold": null,
-  "ReasonStalled": null,
-  "ReopenDate": "1999-11-12T03:47:00.2380627+01:00",
-  "SaleStakeholders": [
-    {
-      "StakeholderRoleName": "Larson-Renner",
-      "Comment": "voluptatum",
-      "StakeholderRoleId": 471,
-      "CountryId": 838,
-      "PersonId": 368,
-      "EmailDescription": "anita.thompson@blockshanahan.ca",
-      "EmailId": 65,
-      "EmailAddress": "josiah_leannon@kovacek.uk",
-      "PhoneId": 314,
-      "ContactName": "Bashirian Group",
-      "ContactId": 461,
-      "SaleId": 567,
-      "Mrmrs": "odio",
-      "Firstname": "Linnea",
-      "MiddleName": "Hartmann-Casper",
-      "Lastname": "Kulas",
-      "SaleStakeholderId": 764,
-      "Rank": 267,
-      "Phone": "024-135-6797 x35699",
+      "EntityName": "O'Kon-Powlowski",
+      "Id": 830,
+      "Description": "Quality-focused content-based workforce",
+      "ExtraInfo": "repudiandae",
+      "LinkId": 829,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 211
+          "FieldLength": 263
         }
       }
     }
   ],
-  "ActiveErpLinks": 245,
-  "UserDefinedFields": {
-    "SuperOffice:1": "Prof. Jarrod Katherine Cormier Sr.",
-    "SuperOffice:2": "False"
-  },
-  "ExtraFields": {
-    "ExtraFields1": "aut",
-    "ExtraFields2": "eum"
-  },
-  "CustomFields": {
-    "CustomFields1": "dolor",
-    "CustomFields2": "pariatur"
-  },
-  "PublishEventDate": "2000-09-20T03:47:00.2380627+02:00",
-  "PublishTo": "2014-02-20T03:47:00.2380627+01:00",
-  "PublishFrom": "2011-04-21T03:47:00.2380627+02:00",
-  "IsPublished": true,
-  "VisibleFor": [
+  "NextDueDate": "2017-07-04T02:30:52.866154+02:00",
+  "Postit": "voluptatem",
+  "SaleType": null,
+  "ReasonSold": null,
+  "ReasonStalled": null,
+  "ReopenDate": "2005-01-07T02:30:52.866154+01:00",
+  "SaleStakeholders": [
     {
-      "VisibleId": 602,
-      "Visibility": "All",
-      "DisplayValue": "quidem",
+      "StakeholderRoleName": "Runolfsdottir-Hickle",
+      "Comment": "id",
+      "StakeholderRoleId": 942,
+      "CountryId": 199,
+      "PersonId": 946,
+      "EmailDescription": "jensen@walter.us",
+      "EmailId": 775,
+      "EmailAddress": "herminia.ankunding@gutkowski.biz",
+      "PhoneId": 411,
+      "ContactName": "Wiegand-Leuschke",
+      "ContactId": 21,
+      "SaleId": 221,
+      "Mrmrs": "fugit",
+      "Firstname": "Sister",
+      "MiddleName": "Shanahan-Zulauf",
+      "Lastname": "Baumbach",
+      "SaleStakeholderId": 183,
+      "Rank": 896,
+      "Phone": "1-260-900-1767 x3259",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 213
+          "FieldType": "System.Int32",
+          "FieldLength": 266
+        }
+      }
+    }
+  ],
+  "ActiveErpLinks": 98,
+  "UserDefinedFields": {
+    "SuperOffice:1": "930071892",
+    "SuperOffice:2": "113360933"
+  },
+  "ExtraFields": {
+    "ExtraFields1": "et",
+    "ExtraFields2": "nulla"
+  },
+  "CustomFields": {
+    "CustomFields1": "necessitatibus",
+    "CustomFields2": "labore"
+  },
+  "PublishEventDate": "2006-03-14T02:30:52.866154+01:00",
+  "PublishTo": "2017-05-13T02:30:52.866154+02:00",
+  "PublishFrom": "2001-07-09T02:30:52.866154+02:00",
+  "IsPublished": false,
+  "VisibleFor": [
+    {
+      "VisibleId": 102,
+      "Visibility": "All",
+      "DisplayValue": "sint",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 195
         }
       }
     },
     {
-      "VisibleId": 602,
+      "VisibleId": 102,
       "Visibility": "All",
-      "DisplayValue": "quidem",
+      "DisplayValue": "sint",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 213
+          "FieldType": "System.Int32",
+          "FieldLength": 195
         }
       }
     }
@@ -408,8 +409,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 17
+      "FieldType": "System.String",
+      "FieldLength": 510
     }
   },
   "_Links": {

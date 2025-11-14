@@ -14,6 +14,8 @@ POST /api/v1/Agents/Configuration/CreateDefaultSystemEventEntity
 Loading default values into a new SystemEventEntity.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -65,7 +67,7 @@ OK
 POST /api/v1/Agents/Configuration/CreateDefaultSystemEventEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -75,22 +77,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 726,
+  "SystemEventId": 256,
   "Scope": "Database",
-  "Eta": "2010-12-27T03:46:54.4570178+01:00",
-  "Eventkey": "aut",
-  "Eventmess": "et",
-  "ExtraInfo": 348,
-  "Owner": 497,
-  "UpdatedCount": 495,
-  "Registered": "2007-12-28T03:46:54.4570178+01:00",
+  "Eta": "2005-01-25T02:30:46.9288431+01:00",
+  "Eventkey": "velit",
+  "Eventmess": "praesentium",
+  "ExtraInfo": 297,
+  "Owner": 21,
+  "UpdatedCount": 353,
+  "Registered": "2008-08-26T02:30:46.9288431+02:00",
   "ActivatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 533
+      "FieldType": "System.Int32",
+      "FieldLength": 812
     }
   }
 }

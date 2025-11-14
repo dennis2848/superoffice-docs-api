@@ -30,7 +30,7 @@ Saves a ticket message and performs any user notifications
 | notify | bool |  If true, then the notification will be sent along with the save |
 
 ```http
-PUT /api/v1/TicketMessage/{id}?notify=True
+PUT /api/v1/TicketMessage/{id}?notify=False
 ```
 
 
@@ -133,63 +133,63 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 423,
+  "EjMessageId": 766,
   "Ticket": null,
-  "CreatedAt": "1999-09-13T03:47:00.3786828+02:00",
+  "CreatedAt": "2018-07-18T02:30:53.0067748+02:00",
   "CreatedBy": null,
-  "Author": "dolores",
+  "Author": "dolorum",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "officia",
-  "TimeSpent": 604,
-  "Body": "perferendis",
-  "HtmlBody": "molestiae",
-  "EmailHeader": "hyman.mann@dare.info",
-  "DebugInfo": "exercitationem",
-  "MailSorter": "sed",
+  "MessageId": "modi",
+  "TimeSpent": 704,
+  "Body": "dolorum",
+  "HtmlBody": "magni",
+  "EmailHeader": "marlen@walsh.co.uk",
+  "DebugInfo": "delectus",
+  "MailSorter": "velit",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "voluptatem",
+  "SearchTitle": "debitis",
   "MessageHeaders": [
     {
-      "Id": 787,
-      "Name": "Stoltenberg-Conroy",
-      "Value": "nemo",
+      "Id": 400,
+      "Name": "Shanahan, Braun and Wiegand",
+      "Value": "sint",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     },
     {
-      "Id": 787,
-      "Name": "Stoltenberg-Conroy",
-      "Value": "nemo",
+      "Id": 400,
+      "Name": "Shanahan, Braun and Wiegand",
+      "Value": "sint",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     }
   ],
   "Important": false,
-  "Language": "consequuntur",
-  "Sentiment": 235,
-  "SentimentConfidence": 584,
+  "Language": "sed",
+  "Sentiment": 569,
+  "SentimentConfidence": 123,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 524,
-      "Name": "Upton-Champlin",
-      "ContentType": "aut",
-      "AttSize": 190,
-      "InlineImage": false,
-      "ContentId": "qui",
-      "AuthKey": "odio",
+      "AttachmentId": 879,
+      "Name": "Luettgen Group",
+      "ContentType": "id",
+      "AttSize": 934,
+      "InlineImage": true,
+      "ContentId": "et",
+      "AuthKey": "ex",
       "IsSafeFileExtension": true
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "id",
-    "ExtraFields2": "modi"
+    "ExtraFields1": "quidem",
+    "ExtraFields2": "provident"
   },
   "CustomFields": {
-    "CustomFields1": "molestiae",
-    "CustomFields2": "quasi"
+    "CustomFields1": "velit",
+    "CustomFields2": "nisi"
   }
 }
 ```
@@ -201,79 +201,79 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 764,
+  "EjMessageId": 307,
   "Ticket": null,
-  "CreatedAt": "2023-01-06T03:47:00.3786828+01:00",
+  "CreatedAt": "2022-06-05T02:30:53.0067748+02:00",
   "CreatedBy": null,
-  "Author": "et",
+  "Author": "voluptatem",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "recusandae",
-  "TimeSpent": 336,
-  "Body": "culpa",
-  "HtmlBody": "voluptates",
-  "EmailHeader": "meghan@gibson.uk",
-  "DebugInfo": "ab",
-  "MailSorter": "modi",
+  "MessageId": "laboriosam",
+  "TimeSpent": 265,
+  "Body": "ut",
+  "HtmlBody": "omnis",
+  "EmailHeader": "leda.moore@ernser.ca",
+  "DebugInfo": "numquam",
+  "MailSorter": "doloribus",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "rem",
+  "SearchTitle": "impedit",
   "MessageHeaders": [
     {
-      "Id": 502,
-      "Name": "Schowalter LLC",
-      "Value": "optio",
+      "Id": 726,
+      "Name": "Abbott Inc and Sons",
+      "Value": "similique",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 582
+          "FieldType": "System.Int32",
+          "FieldLength": 872
         }
       }
     }
   ],
   "Important": false,
-  "Language": "esse",
-  "Sentiment": 685,
-  "SentimentConfidence": 452,
+  "Language": "culpa",
+  "Sentiment": 700,
+  "SentimentConfidence": 606,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 958,
-      "Name": "Weissnat-Gislason",
-      "ContentType": "quo",
-      "AttSize": 845,
-      "InlineImage": false,
-      "ContentId": "hic",
-      "AuthKey": "amet",
+      "AttachmentId": 265,
+      "Name": "Conn Inc and Sons",
+      "ContentType": "aliquid",
+      "AttSize": 383,
+      "InlineImage": true,
+      "ContentId": "vitae",
+      "AuthKey": "sunt",
       "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 686
+          "FieldType": "System.Int32",
+          "FieldLength": 522
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "sed",
-    "ExtraFields2": "necessitatibus"
+    "ExtraFields1": "quae",
+    "ExtraFields2": "incidunt"
   },
   "CustomFields": {
-    "CustomFields1": "non",
-    "CustomFields2": "molestiae"
+    "CustomFields1": "et",
+    "CustomFields2": "tenetur"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 74
+      "FieldLength": 378
     }
   }
 }

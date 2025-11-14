@@ -14,6 +14,8 @@ POST /api/v1/Agents/Quote/SaveQuote
 Saves a Quote
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -87,7 +89,7 @@ OK
 POST /api/v1/Agents/Quote/SaveQuote
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -102,18 +104,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 496,
-  "SaleId": 461,
-  "QuoteConnectionId": 543,
-  "ERPQuoteKey": "esse",
-  "ERPOrderKey": "enim",
-  "ActiveQuoteVersionId": 658,
-  "AcceptedQuoteAlternativeId": 676,
-  "UseValuesFromQuote": 440,
-  "DocumentId": 744,
-  "PoNumber": "1045251",
-  "OrderComment": "non",
-  "PreferredEmailCulture": "nyasia_bartoletti@rolfson.co.uk",
+  "QuoteId": 556,
+  "SaleId": 882,
+  "QuoteConnectionId": 314,
+  "ERPQuoteKey": "hic",
+  "ERPOrderKey": "accusantium",
+  "ActiveQuoteVersionId": 837,
+  "AcceptedQuoteAlternativeId": 943,
+  "UseValuesFromQuote": 418,
+  "DocumentId": 952,
+  "PoNumber": "886355",
+  "OrderComment": "neque",
+  "PreferredEmailCulture": "daryl@feest.name",
   "ActiveQuoteVersion": null,
   "FavoriteQuoteAlternative": null,
   "TableRight": null,
@@ -121,7 +123,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 650
+      "FieldLength": 198
     }
   }
 }

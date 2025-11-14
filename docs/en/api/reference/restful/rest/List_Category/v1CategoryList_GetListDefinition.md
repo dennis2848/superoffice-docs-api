@@ -66,7 +66,7 @@ OK
 GET /api/v1/List/Category
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -76,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 243,
-  "Name": "Hudson LLC",
-  "Tooltip": "distinctio",
-  "Deleted": false,
-  "Rank": 70,
+  "Id": 941,
+  "Name": "Powlowski-DuBuque",
+  "Tooltip": "ad",
+  "Deleted": true,
+  "Rank": 833,
   "IsCustomList": true,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "vel",
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "eius",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 167
+      "FieldType": "System.String",
+      "FieldLength": 289
     }
   },
   "_Links": {

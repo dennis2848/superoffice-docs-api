@@ -14,6 +14,8 @@ POST /api/v1/Agents/UserDefinedFieldInfo/GetCustomFieldInfoList
 Return information about all the custom fields (user-defined + extra) on a particular table
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -86,11 +88,11 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetCustomFieldInfoList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Kub Group",
+  "TableName": "Purdy-Pollich",
   "IncludeStandard": false
 }
 ```
@@ -104,19 +106,19 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Kuphal, Wolff and Dietrich",
-    "DisplayName": "Bruen LLC",
-    "Description": "Phased static archive",
-    "ShortLabel": "libero",
-    "HideLabel": true,
-    "HideField": true,
-    "IsIndexed": false,
+    "FieldName": "Marquardt, Heller and Lesch",
+    "DisplayName": "Ritchie Inc and Sons",
+    "Description": "Ameliorated empowering synergy",
+    "ShortLabel": "porro",
+    "HideLabel": false,
+    "HideField": false,
+    "IsIndexed": true,
     "IsMandatory": false,
-    "IsReadOnly": false,
+    "IsReadOnly": true,
     "IsExternal": false,
     "IsDisplayField": false,
-    "Rank": 410,
-    "TemplateVariableName": "Purdy-Gislason"
+    "Rank": 658,
+    "TemplateVariableName": "Purdy-Pacocha"
   }
 ]
 ```

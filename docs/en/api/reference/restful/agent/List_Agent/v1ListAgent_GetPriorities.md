@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/GetPriorities
 Returns all priorities an appointment could have.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -79,28 +81,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 236,
-    "Value": "sapiente",
-    "Tooltip": "non",
+    "Id": 513,
+    "Value": "dignissimos",
+    "Tooltip": "quibusdam",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 658
+        "FieldType": "System.Int32",
+        "FieldLength": 700
       }
     }
   },
   {
-    "Id": 236,
-    "Value": "sapiente",
-    "Tooltip": "non",
+    "Id": 513,
+    "Value": "dignissimos",
+    "Tooltip": "quibusdam",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 658
+        "FieldType": "System.Int32",
+        "FieldLength": 700
       }
     }
   }

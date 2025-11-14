@@ -15,6 +15,7 @@ Sets tickets' status to Deleted.
 
 
 After a grace period these tickets will be deleted by a background job.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -72,32 +73,32 @@ OK
 POST /api/v1/Agents/Ticket/SetDeletedStatusByProvider
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Hermiston Inc and Sons",
+  "ProviderName": "Botsford-Sauer",
   "Restrictions": [
     {
-      "Name": "Kuphal Group",
-      "Operator": "modi",
+      "Name": "Nicolas-McCullough",
+      "Operator": "non",
       "Values": [
-        "recusandae",
-        "doloremque"
+        "qui",
+        "nemo"
       ],
       "DisplayValues": [
-        "voluptates",
-        "ratione"
+        "perferendis",
+        "necessitatibus"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 451,
+      "InterParenthesis": 197,
       "InterOperator": "And",
-      "UniqueHash": 891
+      "UniqueHash": 33
     }
   ]
 }
@@ -110,7 +111,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  839,
-  966
+  170,
+  139
 ]
 ```

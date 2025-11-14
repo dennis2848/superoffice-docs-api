@@ -76,25 +76,25 @@ OK
 PUT /api/v1/List/WebPanel/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 46,
-    "Name": "Dickens-Simonis",
-    "Tooltip": "consectetur",
-    "Deleted": true,
-    "Rank": 501,
-    "UdListDefinitionId": 698
+    "HeadingId": 76,
+    "Name": "Kunde Group",
+    "Tooltip": "sed",
+    "Deleted": false,
+    "Rank": 284,
+    "UdListDefinitionId": 404
   },
   {
-    "HeadingId": 46,
-    "Name": "Dickens-Simonis",
-    "Tooltip": "consectetur",
-    "Deleted": true,
-    "Rank": 501,
-    "UdListDefinitionId": 698
+    "HeadingId": 76,
+    "Name": "Kunde Group",
+    "Tooltip": "sed",
+    "Deleted": false,
+    "Rank": 284,
+    "UdListDefinitionId": 404
   }
 ]
 ```
@@ -107,18 +107,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 277,
-    "Name": "Muller-Moore",
-    "Tooltip": "excepturi",
-    "Deleted": true,
-    "Rank": 815,
-    "UdListDefinitionId": 405,
+    "HeadingId": 491,
+    "Name": "Gislason Inc and Sons",
+    "Tooltip": "similique",
+    "Deleted": false,
+    "Rank": 949,
+    "UdListDefinitionId": 23,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 259
+        "FieldLength": 711
       }
     }
   }

@@ -14,6 +14,8 @@ POST /api/v1/Agents/Preference/CreateDefaultPreferenceDescriptionLine
 Loading default values into a new PreferenceDescriptionLine.
 
 
+NsApiSlow threshold: 1000 ms.
+
 
 
 
@@ -61,7 +63,7 @@ OK
 POST /api/v1/Agents/Preference/CreateDefaultPreferenceDescriptionLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -71,18 +73,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 362,
-  "PrefDescId": 924,
-  "PrefValue": "eos",
-  "PrefShowValue": "qui",
-  "Description": "De-engineered uniform hub",
-  "IsBuiltin": true,
+  "PrefDescLineId": 665,
+  "PrefDescId": 218,
+  "PrefValue": "rem",
+  "PrefShowValue": "soluta",
+  "Description": "Organized 5th generation flexibility",
+  "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 927
+      "FieldLength": 778
     }
   }
 }

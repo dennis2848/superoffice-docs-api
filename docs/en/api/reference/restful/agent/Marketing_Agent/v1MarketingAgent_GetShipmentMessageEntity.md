@@ -14,6 +14,8 @@ POST /api/v1/Agents/Marketing/GetShipmentMessageEntity
 Gets a ShipmentMessageEntity object.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -27,7 +29,7 @@ Gets a ShipmentMessageEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Marketing/GetShipmentMessageEntity?shipmentMessageEntityId=911
+POST /api/v1/Agents/Marketing/GetShipmentMessageEntity?shipmentMessageEntityId=588
 POST /api/v1/Agents/Marketing/GetShipmentMessageEntity?$select=name,department,category/id
 ```
 
@@ -98,33 +100,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 226,
-  "PlainMessage": "omnis",
-  "HtmlMessage": "et",
-  "SmsMessage": "omnis",
-  "Description": "Fully-configurable discrete service-desk",
-  "Subject": "minima",
-  "FolderId": 378,
-  "HeaderField": "voluptatem",
-  "Design": "et",
+  "ShipmentMessageId": 33,
+  "PlainMessage": "magnam",
+  "HtmlMessage": "corporis",
+  "SmsMessage": "ut",
+  "Description": "Proactive clear-thinking customer loyalty",
+  "Subject": "ad",
+  "FolderId": 822,
+  "HeaderField": "a",
+  "Design": "commodi",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
-  "InlineImages": false,
-  "LongDescription": "Advanced scalable process improvement",
-  "AccessKey": "eos",
-  "DocumentMessage": 880,
-  "Registered": "2012-12-10T03:46:55.0038735+01:00",
-  "RegisteredAssociateId": 680,
-  "Updated": "1999-02-02T03:46:55.0038735+01:00",
-  "UpdatedAssociateId": 925,
-  "UpdatedCount": 554,
+  "InlineImages": true,
+  "LongDescription": "Extended bottom-line firmware",
+  "AccessKey": "voluptatum",
+  "DocumentMessage": 185,
+  "Registered": "2009-05-29T02:30:47.4600781+02:00",
+  "RegisteredAssociateId": 673,
+  "Updated": "2023-06-17T02:30:47.4600781+02:00",
+  "UpdatedAssociateId": 254,
+  "UpdatedCount": 271,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 67
+      "FieldType": "System.Int32",
+      "FieldLength": 472
     }
   }
 }

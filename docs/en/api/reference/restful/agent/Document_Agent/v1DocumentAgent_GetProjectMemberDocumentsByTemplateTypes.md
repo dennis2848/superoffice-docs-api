@@ -14,7 +14,8 @@ POST /api/v1/Agents/Document/GetProjectMemberDocumentsByTemplateTypes
 Method that returns a specified number of document appointments within a time range, filtered by document template types.
 
 
-The document appointments belong to the project member specified.
+The document appointments belong to the project member specified. 
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -99,17 +100,17 @@ OK
 POST /api/v1/Agents/Document/GetProjectMemberDocumentsByTemplateTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 501,
-  "StartTime": "2011-07-06T03:46:54.6132622+02:00",
-  "EndTime": "2022-09-21T03:46:54.6132622+02:00",
-  "Count": 940,
+  "PersonId": 81,
+  "StartTime": "2016-08-04T02:30:47.0850878+02:00",
+  "EndTime": "2002-10-17T02:30:47.0850878+02:00",
+  "Count": 368,
   "DocumentTemplateIds": [
-    190,
-    244
+    146,
+    661
   ]
 }
 ```
@@ -122,32 +123,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 37,
-    "Attention": "dolorum",
-    "Header": "est",
-    "Name": "Lakin LLC",
-    "OurRef": "dicta",
-    "YourRef": "sint",
-    "Description": "Visionary neutral knowledge base",
-    "DocumentTemplate": "molestias",
+    "DocumentId": 242,
+    "Attention": "eum",
+    "Header": "necessitatibus",
+    "Name": "Bashirian LLC",
+    "OurRef": "neque",
+    "YourRef": "voluptas",
+    "Description": "Optimized radical algorithm",
+    "DocumentTemplate": "est",
     "IsPublished": false,
-    "PersonId": 381,
-    "PersonFullName": "Lilian Huels",
-    "AssociateFullName": "Hanna Alta Jakubowski Jr.",
-    "ContactId": 803,
-    "ContactName": "O'Kon Inc and Sons",
-    "ProjectId": 392,
-    "ProjectName": "Turner-Daniel",
-    "AssociateId": 124,
-    "Snum": 654,
-    "SaleId": 140,
-    "SaleName": "Herman, Gerhold and Powlowski",
+    "PersonId": 850,
+    "PersonFullName": "Rodger Jenkins",
+    "AssociateFullName": "Charlie Lind PhD",
+    "ContactId": 367,
+    "ContactName": "Toy-Beier",
+    "ProjectId": 469,
+    "ProjectName": "Marvin, Gutmann and Hilll",
+    "AssociateId": 495,
+    "Snum": 52,
+    "SaleId": 551,
+    "SaleName": "Turner, Hamill and Emard",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 271
+        "FieldLength": 192
       }
     }
   }

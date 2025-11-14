@@ -14,6 +14,8 @@ POST /api/v1/Agents/Project/CreateDefaultProjectMember
 Loading default values into a new ProjectMember.
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -67,6 +69,8 @@ OK
 | EmailAddressName | string | The e-mail address description |
 | Comment | string | Comment text on the project membership |
 | FullName | string | The person's full name localized to the current culture/country.  (internal name used in clients for employees) |
+| Registered | date-time | The date and time when the project member was registered  in UTC. |
+| Updated | date-time | The date and time when the project member was last updated  in UTC. |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -86,33 +90,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectmemberId": 274,
-  "ContactId": 82,
-  "ProjectId": 148,
-  "ContactName": "Brown, Koch and Bergnaum",
+  "ProjectmemberId": 375,
+  "ContactId": 733,
+  "ProjectId": 254,
+  "ContactName": "Runolfsdottir-Parisian",
   "ContactDepartment": "",
-  "ProjectName": "Senger, Sporer and Mayer",
-  "EmailId": 10,
-  "EmailAddress": "mayra.oberbrunner@morar.ca",
-  "CountryId": 661,
-  "Firstname": "Helga",
-  "MiddleName": "Farrell LLC",
-  "Lastname": "Bruen",
-  "PersonId": 7,
-  "Mrmrs": "qui",
-  "ProjectMemberTypeName": "Kuhn, Grant and Dach",
-  "Phone": "202.744.8754 x19684",
-  "PhoneId": 637,
-  "ProjectMemberTypeId": 436,
-  "EmailAddressName": "norberto@mann.ca",
-  "Comment": "distinctio",
-  "FullName": "Dominique Osinski",
+  "ProjectName": "Borer LLC",
+  "EmailId": 617,
+  "EmailAddress": "lonnie@bode.uk",
+  "CountryId": 298,
+  "Firstname": "Alexandrea",
+  "MiddleName": "Zboncak, Bernhard and Heller",
+  "Lastname": "Hermiston",
+  "PersonId": 870,
+  "Mrmrs": "consequatur",
+  "ProjectMemberTypeName": "Bradtke-Tremblay",
+  "Phone": "1-457-163-5835 x2773",
+  "PhoneId": 489,
+  "ProjectMemberTypeId": 13,
+  "EmailAddressName": "marquis@wardpadberg.com",
+  "Comment": "eligendi",
+  "FullName": "Coleman Bruen",
+  "Registered": "2018-04-08T02:30:47.6944454+02:00",
+  "Updated": "2024-12-25T02:30:47.6944454+01:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 987
+      "FieldLength": 432
     }
   }
 }

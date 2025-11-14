@@ -15,6 +15,7 @@ Retrieve an attachment from an e-mail stored in the document archive.
 
 
 The returned data is intended to be use for a preview. The returned data is not sanitized.
+NsApiSlow threshold: 5000 ms.
 
 
 ## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
@@ -88,12 +89,12 @@ OK
 POST /api/v1/Agents/EMail/GetUnsanitizedPreviewAttachmentFromDocId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocId": 418,
-  "AttachmentId": "sunt"
+  "DocId": 883,
+  "AttachmentId": "molestiae"
 }
 ```
 
@@ -104,21 +105,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Public-key user-facing time-frame",
-  "Filename": "dolorem",
-  "Size": 327,
-  "Type": "ut",
-  "Encoding": "perspiciatis",
-  "Id": "quos",
-  "Disposition": "qui",
-  "IsSafeFileExtension": false,
+  "Description": "Profound global hierarchy",
+  "Filename": "placeat",
+  "Size": 440,
+  "Type": "pariatur",
+  "Encoding": "eos",
+  "Id": "aliquam",
+  "Disposition": "nostrum",
+  "IsSafeFileExtension": true,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 963
+      "FieldType": "System.String",
+      "FieldLength": 278
     }
   }
 }

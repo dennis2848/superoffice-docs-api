@@ -15,6 +15,7 @@ Creates a new CRMScriptEntity
 
 
 Calls the CRMScript agent service SaveCRMScriptEntity.
+NsApiSlow threshold: 5000 ms.
 
 
 ## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
@@ -120,48 +121,48 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 126,
-  "UniqueIdentifier": "doloremque",
-  "Name": "Casper Group",
-  "Description": "Re-contextualized bi-directional productivity",
-  "IncludeId": "corrupti",
-  "AccessKey": "cumque",
-  "HierarchyId": 143,
-  "Source": "ullam",
-  "SourceCode": "minima",
+  "EjscriptId": 307,
+  "UniqueIdentifier": "quibusdam",
+  "Name": "Crona, Hettinger and Ankunding",
+  "Description": "Ameliorated intangible artificial intelligence",
+  "IncludeId": "ipsum",
+  "AccessKey": "temporibus",
+  "HierarchyId": 68,
+  "Source": "accusantium",
+  "SourceCode": "praesentium",
   "ScriptType": "CRMScript",
-  "HtmlOutput": 177,
+  "HtmlOutput": 564,
   "Includes": [
-    825,
-    171
+    509,
+    386
   ],
   "SourceMaps": [
     {
-      "LineNumberFrom": 957,
-      "LineNumberTo": 524,
-      "Delta": 476,
-      "IncludeId": "aspernatur",
+      "LineNumberFrom": 918,
+      "LineNumberTo": 197,
+      "Delta": 158,
+      "IncludeId": "quia",
       "IncludedFrom": [
-        "cum",
-        "eveniet"
+        "vitae",
+        "cum"
       ]
     },
     {
-      "LineNumberFrom": 957,
-      "LineNumberTo": 524,
-      "Delta": 476,
-      "IncludeId": "aspernatur",
+      "LineNumberFrom": 918,
+      "LineNumberTo": 197,
+      "Delta": 158,
+      "IncludeId": "quia",
       "IncludedFrom": [
-        "cum",
-        "eveniet"
+        "vitae",
+        "cum"
       ]
     }
   ],
   "ValidationResult": null,
-  "Registered": "2011-04-23T03:46:59.8943184+02:00",
-  "RegisteredAssociateId": 183,
-  "Updated": "2012-11-30T03:46:59.8943184+01:00",
-  "UpdatedAssociateId": 791,
+  "Registered": "2011-05-02T02:30:52.522416+02:00",
+  "RegisteredAssociateId": 996,
+  "Updated": "2018-09-01T02:30:52.522416+02:00",
+  "UpdatedAssociateId": 223,
   "BlockedVerbs": "BlockAll"
 }
 ```
@@ -173,53 +174,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 416,
-  "UniqueIdentifier": "quaerat",
-  "Name": "Shields-Crona",
-  "Description": "Versatile system-worthy policy",
-  "IncludeId": "omnis",
-  "AccessKey": "ad",
-  "HierarchyId": 812,
-  "Source": "vel",
-  "SourceCode": "aut",
+  "EjscriptId": 876,
+  "UniqueIdentifier": "voluptatem",
+  "Name": "Gerhold, Heathcote and Spinka",
+  "Description": "Configurable didactic middleware",
+  "IncludeId": "repellat",
+  "AccessKey": "laborum",
+  "HierarchyId": 226,
+  "Source": "eligendi",
+  "SourceCode": "asperiores",
   "ScriptType": "CRMScript",
-  "HtmlOutput": 540,
+  "HtmlOutput": 9,
   "Includes": [
-    871,
-    396
+    819,
+    420
   ],
   "SourceMaps": [
     {
-      "LineNumberFrom": 79,
-      "LineNumberTo": 660,
-      "Delta": 962,
-      "IncludeId": "officiis",
+      "LineNumberFrom": 503,
+      "LineNumberTo": 972,
+      "Delta": 132,
+      "IncludeId": "tempora",
       "IncludedFrom": [
-        "earum",
-        "voluptatem"
+        "maxime",
+        "fuga"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 329
+          "FieldLength": 458
         }
       }
     }
   ],
   "ValidationResult": null,
-  "Registered": "2001-06-01T03:46:59.8943184+02:00",
-  "RegisteredAssociateId": 872,
-  "Updated": "2004-07-31T03:46:59.8943184+02:00",
-  "UpdatedAssociateId": 382,
+  "Registered": "2007-12-21T02:30:52.522416+01:00",
+  "RegisteredAssociateId": 331,
+  "Updated": "2010-05-03T02:30:52.522416+02:00",
+  "UpdatedAssociateId": 195,
   "BlockedVerbs": "BlockAll",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 702
+      "FieldLength": 211
     }
   },
   "_Links": {

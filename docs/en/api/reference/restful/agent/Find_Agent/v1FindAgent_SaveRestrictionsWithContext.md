@@ -14,6 +14,8 @@ POST /api/v1/Agents/Find/SaveRestrictionsWithContext
 Save an array of restrictions for later use as search criteria (including as dynamic selection and Find).
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -73,33 +75,33 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "doloribus",
-  "ProviderName": "Morissette, Lindgren and Daugherty",
-  "StorageKey": "autem",
+  "StorageType": "corrupti",
+  "ProviderName": "Boehm-Ernser",
+  "StorageKey": "tempore",
   "Restrictions": [
     {
-      "Name": "Robel, Toy and Rempel",
-      "Operator": "veritatis",
+      "Name": "Osinski, Quitzon and Gerlach",
+      "Operator": "velit",
       "Values": [
-        "dolor",
-        "in"
+        "et",
+        "nemo"
       ],
       "DisplayValues": [
-        "ipsam",
-        "quidem"
+        "vel",
+        "omnis"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 519,
+      "InterParenthesis": 125,
       "InterOperator": "And",
-      "UniqueHash": 357
+      "UniqueHash": 132
     }
   ],
-  "Context": "beatae"
+  "Context": "possimus"
 }
 ```
 

@@ -11,7 +11,7 @@ content_type: reference
 POST /api/v1/Agents/Preference/GetTabOrders
 ```
 
-
+NsApiSlow threshold: 1000 ms.
 
 
 
@@ -69,7 +69,7 @@ OK
 POST /api/v1/Agents/Preference/GetTabOrders
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -80,30 +80,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TabOrderId": 872,
-    "TabName": "O'Conner, Parisian and Towne",
-    "Order": "mollitia",
-    "AssociateId": 700,
+    "TabOrderId": 410,
+    "TabName": "O'Keefe-Ledner",
+    "Order": "occaecati",
+    "AssociateId": 677,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 346
+        "FieldType": "System.String",
+        "FieldLength": 229
       }
     }
   },
   {
-    "TabOrderId": 872,
-    "TabName": "O'Conner, Parisian and Towne",
-    "Order": "mollitia",
-    "AssociateId": 700,
+    "TabOrderId": 410,
+    "TabName": "O'Keefe-Ledner",
+    "Order": "occaecati",
+    "AssociateId": 677,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 346
+        "FieldType": "System.String",
+        "FieldLength": 229
       }
     }
   }

@@ -14,6 +14,8 @@ POST /api/v1/Agents/Document/GetCheckoutState
 Get the current checkout state for a document, relative to the user perforing the call.
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -78,7 +80,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 350
+  "DocumentId": 905
 }
 ```
 
@@ -90,7 +92,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "State": "CheckedOutOther",
-  "AssociateId": 944,
-  "Name": "Sipes-Block"
+  "AssociateId": 44,
+  "Name": "Flatley Inc and Sons"
 }
 ```

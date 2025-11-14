@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/CreateDefaultProjectTypeEntity
 Loading default values into a new ProjectTypeEntity.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -65,7 +67,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultProjectTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -75,41 +77,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjTypeId": 811,
-  "Name": "Kuvalis-Towne",
-  "Tooltip": "unde",
-  "Rank": 192,
+  "ProjTypeId": 616,
+  "Name": "Keeling, Runolfsdottir and Ruecker",
+  "Tooltip": "harum",
+  "Rank": 588,
   "DurationUnit": "Century",
-  "ProjectDuration": 703,
+  "ProjectDuration": 543,
   "Deleted": false,
   "HasGuide": false,
-  "IsAutoAdvance": true,
+  "IsAutoAdvance": false,
   "Stages": [
     {
-      "Id": 63,
-      "Name": "Dach LLC",
-      "ToolTip": "Dolorum facilis dolorum architecto excepturi qui nesciunt molestias.",
+      "Id": 210,
+      "Name": "Osinski Group",
+      "ToolTip": "Est voluptatum officia iure ut non.",
       "Deleted": true,
-      "Rank": 73,
-      "Type": "necessitatibus",
-      "ColorBlock": 528,
-      "IconHint": "sit",
+      "Rank": 316,
+      "Type": "tenetur",
+      "ColorBlock": 792,
+      "IconHint": "fugit",
       "Selected": false,
-      "LastChanged": "2024-05-14T03:46:54.9413809+02:00",
+      "LastChanged": "2011-09-05T02:30:47.3975807+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "asperiores",
-      "StyleHint": "corporis",
-      "Hidden": false,
-      "FullName": "Faustino Feest",
+      "ExtraInfo": "aut",
+      "StyleHint": "dolor",
+      "Hidden": true,
+      "FullName": "Zack Mueller",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 860
+          "FieldLength": 883
         }
       }
     }
@@ -119,7 +121,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 467
+      "FieldLength": 182
     }
   }
 }

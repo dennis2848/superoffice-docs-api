@@ -82,28 +82,28 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Mon, 03 Oct 2011 03:47:00 G10T
+Last-Modified: Sat, 02 Jun 2012 02:30:53 G6T
 
 {
-  "BlobId": 869,
-  "BlobSize": 983,
-  "Description": "Optional eco-centric model",
-  "ExtraInfo": "et",
-  "IsEncrypted": true,
+  "BlobId": 141,
+  "BlobSize": 34,
+  "Description": "Optimized scalable capacity",
+  "ExtraInfo": "eius",
+  "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "dolorem",
-  "OriginalSize": 278,
-  "CreatedDate": "2000-05-09T03:47:00.4255562+02:00",
-  "UpdatedDate": "2011-10-03T03:47:00.4255562+02:00",
+  "MimeType": "est",
+  "OriginalSize": 915,
+  "CreatedDate": "2017-09-22T02:30:53.0536477+02:00",
+  "UpdatedDate": "2012-06-02T02:30:53.0536477+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "ea",
+  "ConceptualType": "ab",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 874
+      "FieldType": "System.String",
+      "FieldLength": 865
     }
   }
 }

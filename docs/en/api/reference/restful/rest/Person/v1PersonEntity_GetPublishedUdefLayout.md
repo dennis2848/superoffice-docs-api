@@ -89,7 +89,7 @@ OK
 GET /api/v1/Person/UdefLayout/Published
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -100,46 +100,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 602,
-    "ColumnId": 961,
-    "FieldDefault": "repellat",
-    "FieldHeight": 465,
-    "FieldLabel": "cumque",
-    "FieldLeft": 868,
-    "FieldTop": 832,
+    "UDefFieldId": 218,
+    "ColumnId": 946,
+    "FieldDefault": "voluptatem",
+    "FieldHeight": 60,
+    "FieldLabel": "modi",
+    "FieldLeft": 912,
+    "FieldTop": 964,
     "FieldType": "Checkbox",
-    "FieldWidth": 49,
-    "FormatMask": "optio",
+    "FieldWidth": 142,
+    "FormatMask": "dolore",
     "HideLabel": true,
-    "IsIndexed": true,
-    "LabelHeight": 61,
-    "LabelLeft": 137,
-    "LabelTop": 754,
-    "LabelWidth": 489,
-    "LastVersionId": 825,
-    "ListTableId": 616,
-    "IsMandatory": true,
+    "IsIndexed": false,
+    "LabelHeight": 545,
+    "LabelLeft": 519,
+    "LabelTop": 337,
+    "LabelWidth": 314,
+    "LastVersionId": 653,
+    "ListTableId": 255,
+    "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 904,
-    "ProgId": "tenetur",
-    "IsReadOnly": false,
-    "ShortLabel": "a",
-    "TabOrder": 44,
-    "TextLength": 90,
-    "Tooltip": "cum",
-    "UdefIdentity": 850,
-    "UDListDefinitionId": 898,
+    "Page1LineNo": 99,
+    "ProgId": "repellat",
+    "IsReadOnly": true,
+    "ShortLabel": "non",
+    "TabOrder": 136,
+    "TextLength": 172,
+    "Tooltip": "corrupti",
+    "UdefIdentity": 505,
+    "UDListDefinitionId": 705,
     "Justification": "Center",
-    "Version": 780,
-    "TemplateVariableName": "Heaney Group",
+    "Version": 6,
+    "TemplateVariableName": "Cummings-Dibbert",
     "HasBeenPublished": true,
-    "MdoListName": "McLaughlin-Hoppe",
+    "MdoListName": "Kuhlman, Mann and Ryan",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 234
+        "FieldLength": 220
       }
     }
   }

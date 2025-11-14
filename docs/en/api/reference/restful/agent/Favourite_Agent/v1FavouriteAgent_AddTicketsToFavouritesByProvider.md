@@ -14,6 +14,8 @@ POST /api/v1/Agents/Favourite/AddTicketsToFavouritesByProvider
 Add a list of tickets as favourites that are given by the ticket provider.
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -68,36 +70,36 @@ No Content
 POST /api/v1/Agents/Favourite/AddTicketsToFavouritesByProvider
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Botsford-Orn",
+  "ProviderName": "Donnelly-Hilpert",
   "Restrictions": [
     {
-      "Name": "Kub-Beier",
-      "Operator": "quos",
+      "Name": "Emard-Swaniawski",
+      "Operator": "ducimus",
       "Values": [
-        "iure",
-        "vel"
+        "magnam",
+        "odio"
       ],
       "DisplayValues": [
-        "minima",
-        "temporibus"
+        "minus",
+        "repudiandae"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 841,
+      "InterParenthesis": 264,
       "InterOperator": "And",
-      "UniqueHash": 520
+      "UniqueHash": 393
     }
   ],
-  "AssociateId": 67,
-  "ExtraInfo": "deserunt"
+  "AssociateId": 515,
+  "ExtraInfo": "sapiente"
 }
 ```
 

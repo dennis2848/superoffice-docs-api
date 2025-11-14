@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/CreateDefaultCurrencyEntity
 Loading default values into a new CurrencyEntity.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -62,7 +64,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultCurrencyEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -72,19 +74,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 715,
-  "Name": "O'Reilly-Pacocha",
-  "Tooltip": "non",
-  "Rank": 189,
-  "Rate": 12034.56,
-  "Units": 1375.826,
+  "CurrencyId": 654,
+  "Name": "Farrell, Wintheiser and Ward",
+  "Tooltip": "facere",
+  "Rank": 237,
+  "Rate": 12235.136,
+  "Units": 4920.38,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 844
+      "FieldLength": 790
     }
   }
 }

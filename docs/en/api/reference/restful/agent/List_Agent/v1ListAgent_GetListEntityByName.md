@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/GetListEntityByName
 Gets a ListEntity resolved by the provided name.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -87,7 +89,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Harber-Emard"
+  "Name": "Kilback-Romaguera"
 }
 ```
 
@@ -98,22 +100,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 402,
-  "Name": "Hickle Group",
-  "Tooltip": "non",
+  "Id": 864,
+  "Name": "Jerde, Kihn and Walsh",
+  "Tooltip": "rerum",
   "Deleted": true,
-  "Rank": 643,
+  "Rank": 32,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "doloremque",
-  "InUseByUserDefinedFields": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "eos",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 754
+      "FieldLength": 590
     }
   }
 }

@@ -91,7 +91,7 @@ OK
 GET /api/v1/Sale/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -102,46 +102,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 947,
-    "ColumnId": 974,
-    "FieldDefault": "qui",
-    "FieldHeight": 272,
-    "FieldLabel": "similique",
-    "FieldLeft": 973,
-    "FieldTop": 185,
+    "UDefFieldId": 197,
+    "ColumnId": 192,
+    "FieldDefault": "voluptatibus",
+    "FieldHeight": 877,
+    "FieldLabel": "molestiae",
+    "FieldLeft": 323,
+    "FieldTop": 281,
     "FieldType": "Checkbox",
-    "FieldWidth": 736,
-    "FormatMask": "quia",
-    "HideLabel": true,
+    "FieldWidth": 915,
+    "FormatMask": "libero",
+    "HideLabel": false,
     "IsIndexed": false,
-    "LabelHeight": 503,
-    "LabelLeft": 225,
-    "LabelTop": 230,
-    "LabelWidth": 353,
-    "LastVersionId": 208,
-    "ListTableId": 821,
+    "LabelHeight": 934,
+    "LabelLeft": 437,
+    "LabelTop": 292,
+    "LabelWidth": 186,
+    "LastVersionId": 358,
+    "ListTableId": 839,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 557,
-    "ProgId": "quia",
+    "Page1LineNo": 189,
+    "ProgId": "velit",
     "IsReadOnly": false,
-    "ShortLabel": "molestiae",
-    "TabOrder": 805,
-    "TextLength": 8,
-    "Tooltip": "officia",
-    "UdefIdentity": 35,
-    "UDListDefinitionId": 624,
+    "ShortLabel": "harum",
+    "TabOrder": 398,
+    "TextLength": 205,
+    "Tooltip": "quia",
+    "UdefIdentity": 819,
+    "UDListDefinitionId": 794,
     "Justification": "Center",
-    "Version": 427,
-    "TemplateVariableName": "Nitzsche-Waelchi",
-    "HasBeenPublished": true,
-    "MdoListName": "DuBuque-Barrows",
+    "Version": 726,
+    "TemplateVariableName": "Satterfield, Russel and Homenick",
+    "HasBeenPublished": false,
+    "MdoListName": "Haag-Hartmann",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 781
+        "FieldType": "System.Int32",
+        "FieldLength": 495
       }
     }
   }

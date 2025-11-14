@@ -15,6 +15,7 @@ Gets a AttachmentEntity object.
 
 
 Calls the Ticket agent service GetAttachmentEntity.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -91,20 +92,20 @@ HTTP/1.1 200 AttachmentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 430,
-  "Name": "Brakus LLC",
-  "ContentType": "officia",
-  "AttSize": 968,
-  "InlineImage": true,
-  "ContentId": "doloribus",
-  "AuthKey": "sunt",
-  "IsSafeFileExtension": true,
+  "AttachmentId": 978,
+  "Name": "Bosco-Bradtke",
+  "ContentType": "consectetur",
+  "AttSize": 602,
+  "InlineImage": false,
+  "ContentId": "optio",
+  "AuthKey": "alias",
+  "IsSafeFileExtension": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 801
+      "FieldType": "System.String",
+      "FieldLength": 817
     }
   },
   "_Links": {

@@ -11,7 +11,7 @@ content_type: reference
 POST /api/v1/Agents/Configuration/GetEmailNumberOfDays
 ```
 
-
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -70,5 +70,5 @@ Accept-Language: en
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-349
+203
 ```

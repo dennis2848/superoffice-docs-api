@@ -27,8 +27,8 @@ Get the MDO list items for "MrMrs" - with headings and filtering by user group.
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/MrMrs/MDOItems?flat=True
-GET /api/v1/List/MrMrs/MDOItems?query=vero
+GET /api/v1/List/MrMrs/MDOItems?flat=False
+GET /api/v1/List/MrMrs/MDOItems?query=pariatur
 ```
 
 
@@ -79,7 +79,7 @@ OK
 GET /api/v1/List/MrMrs/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -90,50 +90,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 65,
-    "Name": "Bernhard-Herzog",
-    "ToolTip": "Harum dignissimos voluptas perspiciatis cupiditate rerum soluta rerum.",
+    "Id": 827,
+    "Name": "Mohr Inc and Sons",
+    "ToolTip": "Et odit voluptate.",
     "Deleted": false,
-    "Rank": 363,
-    "Type": "dicta",
+    "Rank": 784,
+    "Type": "tenetur",
     "ChildItems": [
       {
-        "Id": 872,
-        "Name": "Botsford-Pollich",
-        "ToolTip": "Et fuga rem harum.",
-        "Deleted": false,
-        "Rank": 730,
-        "Type": "nemo",
+        "Id": 378,
+        "Name": "Gleichner-Keebler",
+        "ToolTip": "Nostrum rerum blanditiis minus facilis quia.",
+        "Deleted": true,
+        "Rank": 710,
+        "Type": "modi",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "qui",
-        "ColorBlock": 244,
-        "ExtraInfo": "earum",
-        "StyleHint": "amet",
-        "FullName": "Velma Kilback",
+        "IconHint": "a",
+        "ColorBlock": 778,
+        "ExtraInfo": "voluptatum",
+        "StyleHint": "fuga",
+        "FullName": "Eladio Friedrich Stanton MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 927
+            "FieldLength": 285
           }
         }
       }
     ],
-    "IconHint": "officia",
-    "ColorBlock": 441,
-    "ExtraInfo": "voluptates",
-    "StyleHint": "ut",
-    "FullName": "Macie Altenwerth",
+    "IconHint": "quis",
+    "ColorBlock": 654,
+    "ExtraInfo": "numquam",
+    "StyleHint": "sunt",
+    "FullName": "Mr. Conor Alta Pacocha",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 313
+        "FieldLength": 782
       }
     }
   }

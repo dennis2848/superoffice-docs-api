@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/GetLegalBaseList
 Gets an array of LegalBase objects.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -87,18 +89,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LegalBaseId": 415,
-    "Name": "Osinski-Eichmann",
-    "Tooltip": "sit",
-    "Rank": 14,
-    "Key": "voluptates",
+    "LegalBaseId": 104,
+    "Name": "Gibson Group",
+    "Tooltip": "quia",
+    "Rank": 735,
+    "Key": "vel",
     "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 994
+        "FieldLength": 989
       }
     }
   }

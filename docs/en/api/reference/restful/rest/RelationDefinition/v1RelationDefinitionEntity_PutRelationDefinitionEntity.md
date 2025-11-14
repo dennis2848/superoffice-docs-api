@@ -14,6 +14,8 @@ PUT /api/v1/RelationDefinition/{id}
 Updates the existing RelationDefinitionEntity
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -94,16 +96,16 @@ RelationDefinitionEntity updated.
 PUT /api/v1/RelationDefinition/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 472,
-  "Name": "Zieme-Jast",
-  "Tooltip": "aut",
-  "PassiveText": "nihil",
+  "ReldefId": 72,
+  "Name": "Dooley, Boyer and Ferry",
+  "Tooltip": "facilis",
+  "PassiveText": "laborum",
   "Deleted": false,
-  "Rank": 38,
+  "Rank": 164,
   "Source": "Both",
   "Destination": "Both"
 }
@@ -116,12 +118,12 @@ HTTP/1.1 200 RelationDefinitionEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 804,
-  "Name": "Dickens, Donnelly and Hamill",
-  "Tooltip": "vitae",
-  "PassiveText": "est",
-  "Deleted": true,
-  "Rank": 576,
+  "ReldefId": 739,
+  "Name": "Lind, Bins and Kris",
+  "Tooltip": "hic",
+  "PassiveText": "nobis",
+  "Deleted": false,
+  "Rank": 716,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
@@ -129,7 +131,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 421
+      "FieldLength": 709
     }
   },
   "_Links": {

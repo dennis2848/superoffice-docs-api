@@ -14,6 +14,8 @@ POST /api/v1/Agents/Batch/GetBatchTaskInfosByNameAndAssociates
 Get an array of BatchTaskInfo for the provided associate id's and batch task definition name.
 
 
+NsApiSlow threshold: 3000 ms.
+
 
 
 
@@ -96,14 +98,14 @@ OK
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByNameAndAssociates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Cruickshank Group",
+  "Name": "Stiedemann-Yost",
   "AssociateIds": [
-    690,
-    533
+    749,
+    495
   ]
 }
 ```
@@ -116,37 +118,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 774,
-    "Name": "Carter Inc and Sons",
-    "AssociateId": 114,
-    "DetailsTable": 33,
-    "DetailsRecord": 296,
-    "IsSystemTask": false,
+    "Id": 743,
+    "Name": "Kuhic Inc and Sons",
+    "AssociateId": 547,
+    "DetailsTable": 485,
+    "DetailsRecord": 530,
+    "IsSystemTask": true,
     "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "ut",
-      "ParameterObject2": "minus"
+      "ParameterObject1": "omnis",
+      "ParameterObject2": "optio"
     },
-    "LastStarted": "1998-12-17T03:46:54.3007673+01:00",
-    "Created": "2019-08-28T03:46:54.3007673+02:00",
-    "StartCount": 353,
-    "DatabaseSerialNumber": "1063292",
-    "Context": "qui",
-    "Result": "numquam",
+    "LastStarted": "2021-09-19T02:30:46.8194719+02:00",
+    "Created": "2004-05-11T02:30:46.8194719+02:00",
+    "StartCount": 305,
+    "DatabaseSerialNumber": "612904",
+    "Context": "neque",
+    "Result": "ex",
     "State": "All",
-    "Description": "Advanced scalable middleware",
-    "Response": "ullam",
-    "Request": "repellendus",
-    "ProgressDescription": "Secured client-server paradigm",
-    "ProgressPercent": 383,
-    "FileName": "Rice-Turner",
+    "Description": "Seamless high-level software",
+    "Response": "deserunt",
+    "Request": "qui",
+    "ProgressDescription": "Switchable uniform focus group",
+    "ProgressPercent": 951,
+    "FileName": "Mertz LLC",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 370
+        "FieldLength": 361
       }
     }
   }

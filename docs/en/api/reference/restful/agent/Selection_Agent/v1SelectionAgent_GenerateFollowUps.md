@@ -14,6 +14,8 @@ POST /api/v1/Agents/Selection/GenerateFollowUps
 Generate follow-ups for members in the selection.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -73,11 +75,11 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 567,
+  "SelectionId": 970,
   "AppointmentEntity": null,
-  "AssociateId": 736,
+  "AssociateId": 16,
   "SaveOnContactOwner": true,
-  "UniqueContact": true
+  "UniqueContact": false
 }
 ```
 

@@ -15,6 +15,7 @@ Create a temporary key in the database from the given parameters and return the 
 
 
 Used for temporary keys for accessing customer centric functionality, such as UpdateSubscriptions.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -80,10 +81,10 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Domain": "ChangePasswordCustomerCenter",
-  "TargetId": 556,
-  "PersonId": 178,
-  "Expires": "2011-08-28T03:46:55.0976201+02:00",
-  "Payload": "ullam"
+  "TargetId": 761,
+  "PersonId": 201,
+  "Expires": "2018-12-18T02:30:47.5538257+01:00",
+  "Payload": "non"
 }
 ```
 
@@ -93,5 +94,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"est"
+"in"
 ```

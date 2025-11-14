@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/CreateDefaultHeadingFromListDefinition
 Get a heading for the specified list defintion
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -79,11 +81,11 @@ OK
 POST /api/v1/Agents/List/CreateDefaultHeadingFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 521
+  "UdListDefinitionId": 728
 }
 ```
 
@@ -94,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 592,
-  "Name": "Hintz-Kuphal",
-  "Tooltip": "sit",
-  "Deleted": true,
-  "Rank": 22,
-  "UdListDefinitionId": 932,
+  "HeadingId": 125,
+  "Name": "Bradtke, Adams and Stiedemann",
+  "Tooltip": "corrupti",
+  "Deleted": false,
+  "Rank": 443,
+  "UdListDefinitionId": 32,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 600
+      "FieldLength": 718
     }
   }
 }

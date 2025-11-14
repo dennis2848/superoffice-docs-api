@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/GetDocumentTemplateProperties
 Get document template properties
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -70,14 +72,14 @@ OK
 POST /api/v1/Agents/List/GetDocumentTemplateProperties
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 101,
+  "DocumentTemplateId": 614,
   "RequestedProperties": [
-    "explicabo",
-    "odio"
+    "saepe",
+    "autem"
   ]
 }
 ```
@@ -89,7 +91,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "eveniet",
-  "2": "dolorum"
+  "1": "aspernatur",
+  "2": "iure"
 }
 ```

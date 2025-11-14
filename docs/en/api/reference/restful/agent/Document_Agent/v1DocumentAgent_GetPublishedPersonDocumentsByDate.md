@@ -14,7 +14,8 @@ POST /api/v1/Agents/Document/GetPublishedPersonDocumentsByDate
 Method that returns a specified number of published document appointments within a time range.
 
 
-The document appointments belong to the person specified or the document is in a project the person belongs to.
+The document appointments belong to the person specified or the document is in a project the person belongs to. 
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -103,11 +104,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 495,
+  "PersonId": 467,
   "IncludeProjectDocuments": false,
-  "StartTime": "2005-11-23T03:46:54.6132622+01:00",
-  "EndTime": "2004-03-21T03:46:54.6132622+01:00",
-  "Count": 67
+  "StartTime": "2009-06-10T02:30:47.0694635+02:00",
+  "EndTime": "2015-04-13T02:30:47.0694635+02:00",
+  "Count": 624
 }
 ```
 
@@ -119,32 +120,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 132,
-    "Attention": "sint",
-    "Header": "eos",
-    "Name": "Fay-Skiles",
-    "OurRef": "eaque",
-    "YourRef": "blanditiis",
-    "Description": "Vision-oriented 24 hour circuit",
-    "DocumentTemplate": "et",
+    "DocumentId": 179,
+    "Attention": "enim",
+    "Header": "et",
+    "Name": "Hilll Inc and Sons",
+    "OurRef": "consequatur",
+    "YourRef": "reiciendis",
+    "Description": "Ameliorated holistic encryption",
+    "DocumentTemplate": "optio",
     "IsPublished": false,
-    "PersonId": 592,
-    "PersonFullName": "Roosevelt Bartell",
-    "AssociateFullName": "Miss Colleen Reynold Casper II",
-    "ContactId": 553,
-    "ContactName": "Boyer Inc and Sons",
-    "ProjectId": 248,
-    "ProjectName": "Gulgowski, Herman and Morar",
-    "AssociateId": 443,
-    "Snum": 249,
-    "SaleId": 140,
-    "SaleName": "Lynch Inc and Sons",
+    "PersonId": 631,
+    "PersonFullName": "Roel Medhurst",
+    "AssociateFullName": "Brayan Reynolds",
+    "ContactId": 415,
+    "ContactName": "Hoppe, Bode and McClure",
+    "ProjectId": 867,
+    "ProjectName": "Rice, Hermann and Leannon",
+    "AssociateId": 524,
+    "Snum": 10,
+    "SaleId": 692,
+    "SaleName": "Dietrich Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 935
+        "FieldLength": 946
       }
     }
   }

@@ -14,6 +14,8 @@ POST /api/v1/Agents/Ticket/SetTicketMessageImportant
 Set the important flag on or off for a ticket message
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -70,7 +72,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageId": 86,
+  "TicketMessageId": 234,
   "Important": false
 }
 ```

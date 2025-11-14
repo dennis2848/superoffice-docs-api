@@ -15,6 +15,7 @@ Restores deleted tickets by their ids.
 
 
 Status is set to a default open status defined in Registry table
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -72,8 +73,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "TicketIds": [
-    573,
-    250
+    16,
+    454
   ]
 }
 ```

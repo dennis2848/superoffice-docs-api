@@ -100,33 +100,33 @@ OK
 POST /api/v1/List/TicketCategory/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 470,
-  "ParentId": 367,
-  "Name": "Kertzmann LLC",
-  "Fullname": "distinctio",
-  "CategoryMaster": 621,
+  "TicketCategoryId": 301,
+  "ParentId": 786,
+  "Name": "Hirthe-Pfannerstill",
+  "Fullname": "ab",
+  "CategoryMaster": 614,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Mitchell-Douglas",
+  "ExternalName": "Beer, Leuschke and Mueller",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 181,
-  "ReplyTemplate": 768,
-  "NotificationEmail": "elsie.lueilwitz@grady.com",
+  "AssignmentLag": 709,
+  "ReplyTemplate": 14,
+  "NotificationEmail": "lorine_rice@homenick.uk",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 210,
+  "EffectiveReplyTemplateId": 719,
   "ExtraFields": {
-    "ExtraFields1": "sunt",
-    "ExtraFields2": "illum"
+    "ExtraFields1": "ea",
+    "ExtraFields2": "asperiores"
   },
   "CustomFields": {
-    "CustomFields1": "necessitatibus",
-    "CustomFields2": "modi"
+    "CustomFields1": "est",
+    "CustomFields2": "incidunt"
   }
 }
 ```
@@ -138,36 +138,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 407,
-  "ParentId": 306,
-  "Name": "Armstrong, Keeling and Schuster",
-  "Fullname": "sapiente",
-  "CategoryMaster": 715,
+  "TicketCategoryId": 365,
+  "ParentId": 142,
+  "Name": "Daugherty LLC",
+  "Fullname": "sed",
+  "CategoryMaster": 241,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Ward LLC",
+  "ExternalName": "Rath-Roob",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 629,
-  "ReplyTemplate": 624,
-  "NotificationEmail": "sarah_grady@upton.co.uk",
+  "AssignmentLag": 647,
+  "ReplyTemplate": 977,
+  "NotificationEmail": "emilie@daniel.ca",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 616,
+  "EffectiveReplyTemplateId": 549,
   "ExtraFields": {
-    "ExtraFields1": "dicta",
-    "ExtraFields2": "quibusdam"
+    "ExtraFields1": "quia",
+    "ExtraFields2": "pariatur"
   },
   "CustomFields": {
-    "CustomFields1": "autem",
-    "CustomFields2": "qui"
+    "CustomFields1": "laboriosam",
+    "CustomFields2": "rerum"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 957
+      "FieldType": "System.String",
+      "FieldLength": 175
     }
   }
 }

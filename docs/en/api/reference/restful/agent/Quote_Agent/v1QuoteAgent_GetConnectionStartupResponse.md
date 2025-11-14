@@ -15,6 +15,7 @@ Returns the PluginResponseInfo for the connection initialization.
 
 
 Does not initialize the connection, just returns what happened when initialize was called.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -81,11 +82,11 @@ OK
 POST /api/v1/Agents/Quote/GetConnectionStartupResponse
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 454
+  "QuoteConnectionId": 240
 }
 ```
 
@@ -96,18 +97,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "IsOk": false,
-  "UserExplanation": "rem",
-  "TechExplanation": "explicabo",
-  "ErrorCode": "sint",
+  "IsOk": true,
+  "UserExplanation": "cupiditate",
+  "TechExplanation": "qui",
+  "ErrorCode": "quidem",
   "Changes": null,
   "Status": "Error",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 465
+      "FieldType": "System.Int32",
+      "FieldLength": 19
     }
   }
 }

@@ -80,34 +80,34 @@ OK
 POST /api/v1/BatchTask
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 772,
-  "Name": "Kunde Inc and Sons",
-  "AssociateId": 634,
-  "DetailsTable": 694,
-  "DetailsRecord": 337,
+  "Id": 953,
+  "Name": "Block, Huel and Quigley",
+  "AssociateId": 815,
+  "DetailsTable": 551,
+  "DetailsRecord": 446,
   "IsSystemTask": false,
   "IsInternalTask": true,
   "ParameterObject": {
-    "ParameterObject1": "quo",
-    "ParameterObject2": "a"
+    "ParameterObject1": "consequuntur",
+    "ParameterObject2": "numquam"
   },
-  "LastStarted": "2022-08-16T03:47:00.3943072+02:00",
-  "Created": "2016-09-08T03:47:00.3943072+02:00",
-  "StartCount": 488,
-  "DatabaseSerialNumber": "1079885",
-  "Context": "fugiat",
-  "Result": "consectetur",
+  "LastStarted": "2021-03-28T02:30:53.022399+01:00",
+  "Created": "2018-03-30T02:30:53.022399+02:00",
+  "StartCount": 481,
+  "DatabaseSerialNumber": "802347",
+  "Context": "ullam",
+  "Result": "numquam",
   "State": "All",
-  "Description": "Networked grid-enabled methodology",
-  "Response": "voluptas",
-  "Request": "consectetur",
-  "ProgressDescription": "Assimilated bandwidth-monitored benchmark",
-  "ProgressPercent": 449,
-  "FileName": "VonRueden, Runolfsson and Kirlin",
+  "Description": "Face to face leading edge adapter",
+  "Response": "voluptatem",
+  "Request": "deleniti",
+  "ProgressDescription": "Switchable impactful instruction set",
+  "ProgressPercent": 365,
+  "FileName": "Marquardt-Morar",
   "CancellationBehaviour": "CanCancel"
 }
 ```
@@ -118,5 +118,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-469
+567
 ```

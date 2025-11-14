@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/SaveCurrencyEntity
 Updates the existing CurrencyEntity or creates a new CurrencyEntity if the id parameter is 0.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -80,13 +82,13 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 903,
-  "Name": "Legros, Greenfelder and Bogisich",
-  "Tooltip": "quam",
-  "Rank": 160,
-  "Rate": 19192.615999999998,
-  "Units": 15278.25,
-  "Deleted": false
+  "CurrencyId": 578,
+  "Name": "Feil-D'Amore",
+  "Tooltip": "porro",
+  "Rank": 754,
+  "Rate": 764.696,
+  "Units": 20540.236,
+  "Deleted": true
 }
 ```
 
@@ -97,19 +99,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 232,
-  "Name": "Boyer, Braun and Bashirian",
-  "Tooltip": "atque",
-  "Rank": 740,
-  "Rate": 203.70999999999998,
-  "Units": 21718.62,
+  "CurrencyId": 862,
+  "Name": "Ratke, Anderson and Sporer",
+  "Tooltip": "nisi",
+  "Rank": 744,
+  "Rate": 17707.1,
+  "Units": 1585.8039999999999,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 397
+      "FieldLength": 814
     }
   }
 }

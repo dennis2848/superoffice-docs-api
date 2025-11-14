@@ -66,7 +66,11 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |personAssociateId|associate|Our contact: Displays our contact| x |
 |personAssociateFullName|associate|Our contact - Full name: Displays our contact| x |
 |personCategory|listAny|Category| x |
+|personCategoryGroup|listAny|Category group| x |
+|personCategoryRank|int|!!Category rank| x |
 |personBusiness|listAny|Business| x |
+|leadStatus|listAny|Lead status| x |
+|leadstatusRank|int|!!Lead status RANK| x |
 |personDeletedDate|datetime|Deleted date: Deleted date|  |
 |hasCompany|bool|Has company: The contact is associated with a company| x |
 |isProjectMember|bool|Is project member: This person is a project member| x |
@@ -92,6 +96,8 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |personContact/hasInterests|bool|Has interests: Displays an Icon indicating if the contact has active interests| x |
 |personContact/associateId|associate|Our contact: Displays our contact| x |
 |personContact/category|listAny|Category| x |
+|personContact/categoryGroup|listAny|Category group| x |
+|personContact/companyCategoryRank|int|Category rank| x |
 |personContact/business|listAny|Business| x |
 |personContact/country|listAny|Country: This criterion corresponds to the Country field on the Company card.| x |
 |personContact/countryId|int|Country ID: Country ID| x |
@@ -111,8 +117,13 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |personContact/activeErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
 |personContact/deletedDate|datetime|Deleted date: Deleted date|  |
 |personContact/mainContact| *None* |Main contact: Main contact for this company| x |
+|personContact/forceCompany|bool|Dummy: Dummy|  |
 |personContact/email/emailProtocol|string|Protocol: E-mail protocol, such as SMTP| x |
 |personContact/email/emailAddress|string|E-mail| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |personContact/email/emailDescription|string|Description| x |
 |personContact/email/emailId|int|ID| x |
 |personContact/email/emailLastSent|datetime|Last sent: The date and time an e-mail was last sent to this address| x |
@@ -123,7 +134,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/RecyclePerson?$select=personUpdatedDate,isStakeholder
+GET /api/v1/archive/RecyclePerson?$select=getAllRows,rank,portraitThumbnail,hasCompany
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

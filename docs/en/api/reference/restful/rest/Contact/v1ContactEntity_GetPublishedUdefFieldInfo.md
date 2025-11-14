@@ -94,7 +94,7 @@ ContactEntity found.
 GET /api/v1/Contact/UdefLayout/Published/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -104,46 +104,46 @@ HTTP/1.1 200 ContactEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 986,
-  "ColumnId": 407,
-  "FieldDefault": "ducimus",
-  "FieldHeight": 377,
-  "FieldLabel": "voluptas",
-  "FieldLeft": 139,
-  "FieldTop": 48,
+  "UDefFieldId": 947,
+  "ColumnId": 780,
+  "FieldDefault": "repudiandae",
+  "FieldHeight": 99,
+  "FieldLabel": "eum",
+  "FieldLeft": 886,
+  "FieldTop": 517,
   "FieldType": "Checkbox",
-  "FieldWidth": 734,
-  "FormatMask": "qui",
-  "HideLabel": false,
+  "FieldWidth": 608,
+  "FormatMask": "veritatis",
+  "HideLabel": true,
   "IsIndexed": false,
-  "LabelHeight": 500,
-  "LabelLeft": 875,
-  "LabelTop": 608,
-  "LabelWidth": 147,
-  "LastVersionId": 783,
-  "ListTableId": 703,
-  "IsMandatory": true,
+  "LabelHeight": 568,
+  "LabelLeft": 717,
+  "LabelTop": 45,
+  "LabelWidth": 182,
+  "LastVersionId": 266,
+  "ListTableId": 545,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 537,
-  "ProgId": "et",
+  "Page1LineNo": 895,
+  "ProgId": "odio",
   "IsReadOnly": false,
-  "ShortLabel": "id",
-  "TabOrder": 889,
-  "TextLength": 776,
-  "Tooltip": "enim",
-  "UdefIdentity": 27,
-  "UDListDefinitionId": 291,
+  "ShortLabel": "impedit",
+  "TabOrder": 996,
+  "TextLength": 610,
+  "Tooltip": "vel",
+  "UdefIdentity": 694,
+  "UDListDefinitionId": 769,
   "Justification": "Center",
-  "Version": 277,
-  "TemplateVariableName": "Wintheiser-Bailey",
+  "Version": 754,
+  "TemplateVariableName": "Tromp, Adams and Cruickshank",
   "HasBeenPublished": false,
-  "MdoListName": "Breitenberg Inc and Sons",
+  "MdoListName": "Kihn LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 213
+      "FieldLength": 288
     }
   }
 }

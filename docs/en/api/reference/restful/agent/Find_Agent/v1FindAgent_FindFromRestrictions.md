@@ -14,7 +14,8 @@ POST /api/v1/Agents/Find/FindFromRestrictions
 Execute a Find operation and return a page of results.
 
 
-The criteria for the Find are passed in directly, not fetched by a restriction storage provider. The columns of the result are calculated based on the restriction. 
+The criteria for the Find are passed in directly, not fetched by a restriction storage provider. The columns of the result are calculated based on the restriction.
+NsApiSlow threshold: 5000 ms. 
 Archive Restriction Info objects represent search terms.
 
 
@@ -100,36 +101,36 @@ OK
 POST /api/v1/Agents/Find/FindFromRestrictions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Restrictions": [
     {
-      "Name": "Schmitt, Pagac and Baumbach",
-      "Operator": "laboriosam",
+      "Name": "Turcotte, Tremblay and Schimmel",
+      "Operator": "quia",
       "Values": [
-        "qui",
-        "nemo"
+        "sit",
+        "culpa"
       ],
       "DisplayValues": [
-        "architecto",
-        "et"
+        "quidem",
+        "vel"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 496,
+      "InterParenthesis": 109,
       "InterOperator": "And",
-      "UniqueHash": 910
+      "UniqueHash": 273
     }
   ],
-  "ProviderName": "Dickens, Zieme and Fadel",
-  "PageSize": 481,
-  "PageNumber": 991
+  "ProviderName": "Kuphal, Friesen and Williamson",
+  "PageSize": 637,
+  "PageNumber": 451
 }
 ```
 
@@ -142,51 +143,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Sporer, Volkman and Lueilwitz",
-      "DisplayTooltip": "eligendi",
-      "DisplayType": "velit",
+      "DisplayName": "Considine LLC",
+      "DisplayTooltip": "consequatur",
+      "DisplayType": "quod",
       "CanOrderBy": false,
-      "Name": "Lowe Inc and Sons",
-      "CanRestrictBy": false,
-      "RestrictionType": "accusamus",
-      "RestrictionListName": "Leffler LLC",
-      "IsVisible": true,
-      "ExtraInfo": "id",
-      "Width": "nihil",
-      "IconHint": "perferendis",
-      "HeadingIconHint": "aut"
+      "Name": "Stracke, Beatty and DuBuque",
+      "CanRestrictBy": true,
+      "RestrictionType": "ut",
+      "RestrictionListName": "Littel-Russel",
+      "IsVisible": false,
+      "ExtraInfo": "accusamus",
+      "Width": "quis",
+      "IconHint": "dolores",
+      "HeadingIconHint": "quibusdam"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Kuhic, Anderson and Walker",
-      "PrimaryKey": 884,
+      "EntityName": "Rogahn-Schulist",
+      "PrimaryKey": 752,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "quam",
-          "TooltipHint": "sunt",
-          "LinkHint": "qui"
+          "DisplayValue": "aspernatur",
+          "TooltipHint": "fugiat",
+          "LinkHint": "aspernatur"
         }
       },
-      "LinkHint": "rerum",
-      "StyleHint": "architecto",
+      "LinkHint": "aliquid",
+      "StyleHint": "qui",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 268
+          "FieldType": "System.String",
+          "FieldLength": 823
         }
       }
     }
   ],
-  "RowCount": 776,
+  "RowCount": 264,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 551
+      "FieldLength": 952
     }
   }
 }

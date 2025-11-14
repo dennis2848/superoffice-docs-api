@@ -15,6 +15,7 @@ Deletes the DocumentEntity
 
 
 Calls the Document agent service DeleteDocumentEntity.
+NsApiSlow threshold: 2000 ms.
 
 
 

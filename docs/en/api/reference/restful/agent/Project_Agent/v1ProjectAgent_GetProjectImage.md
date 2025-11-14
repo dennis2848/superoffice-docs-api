@@ -14,6 +14,8 @@ POST /api/v1/Agents/Project/GetProjectImage
 Returns the project image that is displayed in the CRM application.
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -73,7 +75,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 756
+  "ProjectId": 727
 }
 ```
 

@@ -11,7 +11,7 @@ content_type: reference
 POST /api/v1/Agents/Appointment/GetAlarms
 ```
 
-
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -78,13 +78,13 @@ OK
 POST /api/v1/Agents/Appointment/GetAlarms
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "IncludeInvitations": false,
   "IncludeAllAppointments": true,
-  "DefaultAlarmLeadTimeInMinutes": 783
+  "DefaultAlarmLeadTimeInMinutes": 519
 }
 ```
 
@@ -97,47 +97,47 @@ Content-Type: application/json; charset=utf-8
 {
   "Alarms": [
     {
-      "AppointmentId": 124,
-      "StartTime": "2008-10-05T03:46:54.0195335+02:00",
-      "EndDate": "2015-12-09T03:46:54.0195335+01:00",
-      "AlarmTime": "2006-01-07T03:46:54.0195335+01:00",
-      "PersonId": 70,
-      "PersonFullName": "Ellie Darrin Kilback DVM",
-      "ContactName": "Hackett, Greenholt and Kunze",
-      "ProjectId": 907,
-      "ProjectName": "Nikolaus-Hauck",
-      "AppointmentText": "perferendis",
-      "SaleId": 932,
-      "SaleName": "Franecki Inc and Sons",
-      "Location": "unde",
+      "AppointmentId": 713,
+      "StartTime": "2002-06-09T02:30:46.5382305+02:00",
+      "EndDate": "2020-01-10T02:30:46.5382305+01:00",
+      "AlarmTime": "2022-02-20T02:30:46.5382305+01:00",
+      "PersonId": 600,
+      "PersonFullName": "Sadie Kling",
+      "ContactName": "Krajcik, Hessel and Walter",
+      "ProjectId": 953,
+      "ProjectName": "Roob, O'Hara and McCullough",
+      "AppointmentText": "sit",
+      "SaleId": 259,
+      "SaleName": "Lehner Inc and Sons",
+      "Location": "nemo",
       "AppointmentType": "BookingForChecklist",
-      "ContactId": 255,
+      "ContactId": 445,
       "AssignmentStatus": "Assigning",
       "InvitationStatus": "Accepted",
       "BookingType": "None",
-      "FormalName": "Torphy Inc and Sons",
-      "TaskName": "Reichel-Ullrich",
+      "FormalName": "Hilpert, Lesch and Goldner",
+      "TaskName": "Gleason-Konopelski",
       "ContactDepartment": "",
-      "ContactFullName": "Penelope Swaniawski",
+      "ContactFullName": "Shea Rodrigo Thompson MD",
       "JoinVideomeetUrl": "http://www.example.com/",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 140
+          "FieldLength": 142
         }
       }
     }
   ],
-  "PollingInterval": 146,
-  "SilentAfter": 537,
+  "PollingInterval": 913,
+  "SilentAfter": 517,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 862
+      "FieldType": "System.String",
+      "FieldLength": 658
     }
   }
 }

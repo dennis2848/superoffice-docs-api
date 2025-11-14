@@ -27,8 +27,8 @@ Get the MDO list items for "DeliveryType" - with headings and filtering by user 
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/DeliveryType/MDOItems?flat=False
-GET /api/v1/List/DeliveryType/MDOItems?query=iusto
+GET /api/v1/List/DeliveryType/MDOItems?flat=True
+GET /api/v1/List/DeliveryType/MDOItems?query=qui
 ```
 
 
@@ -79,7 +79,7 @@ OK
 GET /api/v1/List/DeliveryType/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -90,50 +90,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 643,
-    "Name": "Von, Okuneva and Towne",
-    "ToolTip": "Excepturi amet.",
+    "Id": 844,
+    "Name": "Boyle LLC",
+    "ToolTip": "Aliquam voluptates quos eaque nihil iure officia nisi.",
     "Deleted": false,
-    "Rank": 296,
-    "Type": "id",
+    "Rank": 236,
+    "Type": "impedit",
     "ChildItems": [
       {
-        "Id": 50,
-        "Name": "O'Hara Group",
-        "ToolTip": "Dignissimos eos.",
+        "Id": 551,
+        "Name": "Cormier, Morissette and Koelpin",
+        "ToolTip": "Qui excepturi repellendus veritatis laudantium.",
         "Deleted": true,
-        "Rank": 357,
-        "Type": "exercitationem",
+        "Rank": 645,
+        "Type": "reiciendis",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "cupiditate",
-        "ColorBlock": 541,
-        "ExtraInfo": "consequatur",
-        "StyleHint": "nisi",
-        "FullName": "Roberto Leuschke III",
+        "IconHint": "recusandae",
+        "ColorBlock": 418,
+        "ExtraInfo": "unde",
+        "StyleHint": "quaerat",
+        "FullName": "Torey Hammes",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 743
+            "FieldLength": 288
           }
         }
       }
     ],
-    "IconHint": "optio",
-    "ColorBlock": 793,
-    "ExtraInfo": "totam",
-    "StyleHint": "deserunt",
-    "FullName": "Kelli Huels",
+    "IconHint": "nobis",
+    "ColorBlock": 732,
+    "ExtraInfo": "ut",
+    "StyleHint": "sit",
+    "FullName": "Nettie Gerlach II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 493
+        "FieldLength": 495
       }
     }
   }

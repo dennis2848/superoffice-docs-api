@@ -76,7 +76,7 @@ OK
 GET /api/v1/List/DeliveryTerm/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -87,56 +87,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 150,
-    "Name": "McKenzie Group",
-    "ToolTip": "Omnis nisi rerum et aperiam atque dolorem temporibus.",
+    "Id": 632,
+    "Name": "Hickle-Runte",
+    "ToolTip": "Sunt incidunt dignissimos voluptatem ea dolore sequi magnam.",
     "Deleted": false,
-    "Rank": 678,
-    "Type": "consequatur",
-    "ColorBlock": 864,
-    "IconHint": "illum",
+    "Rank": 159,
+    "Type": "labore",
+    "ColorBlock": 913,
+    "IconHint": "nihil",
     "Selected": false,
-    "LastChanged": "2009-08-04T03:47:00.6442984+02:00",
+    "LastChanged": "2013-10-19T02:30:53.2723907+02:00",
     "ChildItems": [
       {
-        "Id": 853,
-        "Name": "Marquardt, Gulgowski and Becker",
-        "ToolTip": "Modi temporibus.",
-        "Deleted": false,
-        "Rank": 519,
-        "Type": "ex",
-        "ColorBlock": 962,
-        "IconHint": "magni",
+        "Id": 394,
+        "Name": "Cole, Koch and King",
+        "ToolTip": "Expedita enim quo est qui doloremque sunt suscipit.",
+        "Deleted": true,
+        "Rank": 751,
+        "Type": "nam",
+        "ColorBlock": 612,
+        "IconHint": "molestias",
         "Selected": false,
-        "LastChanged": "2007-09-07T03:47:00.6442984+02:00",
+        "LastChanged": "2006-06-18T02:30:53.2723907+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sunt",
-        "StyleHint": "tenetur",
+        "ExtraInfo": "illo",
+        "StyleHint": "sit",
         "Hidden": true,
-        "FullName": "Ms. Conrad Lang",
+        "FullName": "Prof. Aric DuBuque",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 442
+            "FieldLength": 63
           }
         }
       }
     ],
-    "ExtraInfo": "totam",
-    "StyleHint": "facere",
-    "Hidden": false,
-    "FullName": "Miss Madalyn O'Reilly",
+    "ExtraInfo": "aliquam",
+    "StyleHint": "adipisci",
+    "Hidden": true,
+    "FullName": "Casandra Hammes",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 402
+        "FieldType": "System.Int32",
+        "FieldLength": 56
       }
     }
   }

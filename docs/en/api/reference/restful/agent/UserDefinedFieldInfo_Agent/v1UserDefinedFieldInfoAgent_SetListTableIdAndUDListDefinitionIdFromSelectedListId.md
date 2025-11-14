@@ -14,6 +14,8 @@ POST /api/v1/Agents/UserDefinedFieldInfo/SetListTableIdAndUDListDefinitionIdFrom
 Make stuff similar to what happens in the win client
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -113,7 +115,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Info": null,
-  "SelectedListId": 829
+  "SelectedListId": 602
 }
 ```
 
@@ -124,46 +126,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 752,
-  "ColumnId": 602,
-  "FieldDefault": "perspiciatis",
-  "FieldHeight": 487,
-  "FieldLabel": "nulla",
-  "FieldLeft": 764,
-  "FieldTop": 62,
+  "UDefFieldId": 16,
+  "ColumnId": 665,
+  "FieldDefault": "maxime",
+  "FieldHeight": 64,
+  "FieldLabel": "earum",
+  "FieldLeft": 627,
+  "FieldTop": 340,
   "FieldType": "Checkbox",
-  "FieldWidth": 676,
-  "FormatMask": "sint",
-  "HideLabel": true,
+  "FieldWidth": 548,
+  "FormatMask": "dignissimos",
+  "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 229,
-  "LabelLeft": 455,
-  "LabelTop": 140,
-  "LabelWidth": 288,
-  "LastVersionId": 426,
-  "ListTableId": 214,
+  "LabelHeight": 111,
+  "LabelLeft": 754,
+  "LabelTop": 160,
+  "LabelWidth": 89,
+  "LastVersionId": 699,
+  "ListTableId": 207,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 708,
-  "ProgId": "rerum",
-  "IsReadOnly": false,
-  "ShortLabel": "porro",
-  "TabOrder": 411,
-  "TextLength": 204,
-  "Tooltip": "nulla",
+  "Page1LineNo": 726,
+  "ProgId": "nemo",
+  "IsReadOnly": true,
+  "ShortLabel": "cupiditate",
+  "TabOrder": 540,
+  "TextLength": 599,
+  "Tooltip": "esse",
   "UdefIdentity": 797,
-  "UDListDefinitionId": 867,
+  "UDListDefinitionId": 141,
   "Justification": "Center",
-  "Version": 482,
-  "TemplateVariableName": "Klein Inc and Sons",
+  "Version": 293,
+  "TemplateVariableName": "Ledner-Gutmann",
   "HasBeenPublished": false,
-  "MdoListName": "Osinski, Connelly and Hyatt",
+  "MdoListName": "Considine Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 838
+      "FieldType": "System.Int32",
+      "FieldLength": 244
     }
   }
 }

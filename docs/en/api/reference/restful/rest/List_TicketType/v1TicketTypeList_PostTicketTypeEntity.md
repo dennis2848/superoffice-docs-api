@@ -102,35 +102,35 @@ OK
 POST /api/v1/List/TicketType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 768,
-  "Name": "Stehr, Heller and Smitham",
-  "Rank": 423,
-  "Tooltip": "modi",
-  "Icon": "veritatis",
-  "DefaultTicketStatus": 508,
+  "TicketTypeId": 148,
+  "Name": "Abshire-Wehner",
+  "Rank": 171,
+  "Tooltip": "iste",
+  "Icon": "aut",
+  "DefaultTicketStatus": 152,
   "TicketStatuses": [
-    430,
-    10
+    68,
+    96
   ],
-  "DefaultTicketPriority": 293,
+  "DefaultTicketPriority": 798,
   "TicketPriorities": [
-    7,
-    796
+    775,
+    945
   ],
-  "ReplyTemplate": 825,
+  "ReplyTemplate": 634,
   "IsExternalVisible": false,
   "IsDefault": false,
   "ShowInNew": false,
-  "ExcludeSignature": false,
-  "ExcludeEmailRecipients": true,
+  "ExcludeSignature": true,
+  "ExcludeEmailRecipients": false,
   "ExternalAsDefault": false,
   "VisibleForGroups": [
-    368,
-    652
+    519,
+    112
   ],
   "ReplyForwardNoSignature": false,
   "ReplyExternalAsDefault": false
@@ -144,40 +144,40 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 651,
-  "Name": "Eichmann, Daugherty and Renner",
-  "Rank": 215,
-  "Tooltip": "ad",
-  "Icon": "inventore",
-  "DefaultTicketStatus": 158,
+  "TicketTypeId": 577,
+  "Name": "Homenick LLC",
+  "Rank": 460,
+  "Tooltip": "est",
+  "Icon": "tempore",
+  "DefaultTicketStatus": 876,
   "TicketStatuses": [
-    591,
-    364
+    505,
+    180
   ],
-  "DefaultTicketPriority": 42,
+  "DefaultTicketPriority": 974,
   "TicketPriorities": [
-    565,
-    595
+    133,
+    159
   ],
-  "ReplyTemplate": 177,
+  "ReplyTemplate": 308,
   "IsExternalVisible": false,
-  "IsDefault": true,
+  "IsDefault": false,
   "ShowInNew": false,
-  "ExcludeSignature": true,
+  "ExcludeSignature": false,
   "ExcludeEmailRecipients": false,
   "ExternalAsDefault": false,
   "VisibleForGroups": [
-    486,
-    567
+    871,
+    910
   ],
-  "ReplyForwardNoSignature": true,
+  "ReplyForwardNoSignature": false,
   "ReplyExternalAsDefault": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 604
+      "FieldLength": 490
     }
   }
 }

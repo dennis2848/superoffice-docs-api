@@ -14,6 +14,8 @@ PUT /api/v1/Dash/{id}
 Updates the existing Dash
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -104,34 +106,34 @@ Dash updated.
 PUT /api/v1/Dash/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 740,
+  "DashboardId": 15,
   "UniqueId": "cum",
-  "Name": "Hilpert, Ondricka and Pollich",
-  "Description": "Implemented foreground open architecture",
-  "AssociateId": 536,
-  "Columns": 753,
+  "Name": "Russel Group",
+  "Description": "Right-sized explicit website",
+  "AssociateId": 822,
+  "Columns": 340,
   "Theme": null,
-  "VisibleForAll": 322,
+  "VisibleForAll": 517,
   "VisibleForAssociates": [
-    517,
-    941
+    128,
+    917
   ],
   "VisibleForGroups": [
-    759,
-    684
+    241,
+    114
   ],
-  "PinForAll": 733,
+  "PinForAll": 696,
   "PinForAssociates": [
-    464,
-    932
+    286,
+    981
   ],
   "PinForGroups": [
-    508,
-    685
+    890,
+    96
   ]
 }
 ```
@@ -143,37 +145,37 @@ HTTP/1.1 200 Dash updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 266,
-  "UniqueId": "id",
-  "Name": "Considine-Jacobi",
-  "Description": "Adaptive object-oriented budgetary management",
-  "AssociateId": 197,
-  "Columns": 84,
+  "DashboardId": 259,
+  "UniqueId": "velit",
+  "Name": "Hartmann LLC",
+  "Description": "Compatible regional throughput",
+  "AssociateId": 762,
+  "Columns": 976,
   "Theme": null,
-  "VisibleForAll": 361,
+  "VisibleForAll": 283,
   "VisibleForAssociates": [
-    613,
-    597
+    46,
+    790
   ],
   "VisibleForGroups": [
-    961,
-    394
+    111,
+    991
   ],
-  "PinForAll": 634,
+  "PinForAll": 365,
   "PinForAssociates": [
-    757,
-    552
+    954,
+    110
   ],
   "PinForGroups": [
-    66,
-    695
+    122,
+    114
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 328
+      "FieldLength": 85
     }
   },
   "_Links": {

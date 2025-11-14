@@ -14,6 +14,8 @@ POST /api/v1/Agents/Sale/GetOpenSalesForContact
 Returns all open sales for the contact provided.
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -98,11 +100,11 @@ OK
 POST /api/v1/Agents/Sale/GetOpenSalesForContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 256
+  "ContactId": 524
 }
 ```
 
@@ -114,37 +116,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Miller Group",
-    "SaleDate": "2005-08-14T03:46:55.2694888+02:00",
-    "SaleId": 636,
-    "Probability": 470,
-    "Title": "blanditiis",
-    "Amount": 22310.946,
-    "Currency": "earum",
-    "ProjectName": "Schneider-Rowe",
-    "AssociateFullName": "Mr. Rodrick Carolyne Romaguera IV",
-    "Description": "Enterprise-wide holistic function",
+    "ContactName": "O'Connell Inc and Sons",
+    "SaleDate": "2001-04-11T02:30:47.7881925+02:00",
+    "SaleId": 570,
+    "Probability": 918,
+    "Title": "rerum",
+    "Amount": 24232.088,
+    "Currency": "quia",
+    "ProjectName": "Block-Schuppe",
+    "AssociateFullName": "Mr. Maritza Alexandria Pagac",
+    "Description": "Extended next generation framework",
     "Status": "Lost",
-    "WeightedAmount": 2663.9,
-    "ProjectId": 541,
-    "EarningPercent": 11357.616,
-    "Earning": 22875.066,
-    "ContactId": 263,
-    "AssociateId": 238,
-    "PersonId": 987,
-    "SaleTypeId": 411,
-    "SaleTypeName": "Osinski Group",
-    "PersonFullName": "Dr. Mariane Bartell",
+    "WeightedAmount": 1006.014,
+    "ProjectId": 96,
+    "EarningPercent": 5669.406,
+    "Earning": 19562.428,
+    "ContactId": 961,
+    "AssociateId": 86,
+    "PersonId": 252,
+    "SaleTypeId": 133,
+    "SaleTypeName": "Muller Inc and Sons",
+    "PersonFullName": "Mr. Dannie Mosciski",
     "Completed": "Completed",
-    "ActiveErpLinks": 643,
-    "NextDueDate": "2012-09-25T03:46:55.2694888+02:00",
-    "Number": "1597160",
+    "ActiveErpLinks": 32,
+    "NextDueDate": "2014-04-16T02:30:47.7881925+02:00",
+    "Number": "521375",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 226
+        "FieldLength": 616
       }
     }
   }

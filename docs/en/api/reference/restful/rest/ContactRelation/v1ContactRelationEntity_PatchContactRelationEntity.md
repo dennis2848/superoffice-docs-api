@@ -14,7 +14,8 @@ PATCH /api/v1/Relation/{id}
 Update a ContactRelationEntity with changes, as described in a JSON Patch or a JSON Merge Patch document.
 
 
-See <a href="https://tools.ietf.org/html/rfc6902">RFC6902</a> and <a href="https://tools.ietf.org/html/rfc7386">RFC 7396</a>. Update the Department field to "foo" can be done either as a JSON PATCH:
+See <a href="https://tools.ietf.org/html/rfc6902">RFC6902</a> and <a href="https://tools.ietf.org/html/rfc7386">RFC 7396</a>.
+NsApiSlow threshold: 5000 ms. Update the Department field to "foo" can be done either as a JSON PATCH:
 
 ```js
 
@@ -132,12 +133,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "deleniti",
+    "path": "nisi",
     "value": {}
   },
   {
     "op": "add",
-    "path": "deleniti",
+    "path": "nisi",
     "value": {}
   }
 ]
@@ -150,30 +151,30 @@ HTTP/1.1 200 ContactRelationEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 954,
-  "SourcePersonId": 752,
-  "DestinationContactId": 204,
-  "DestinationPersonId": 234,
-  "RelationId": 275,
-  "Comment": "dignissimos",
-  "RelationDefinitionId": 169,
-  "Reversed": 228,
-  "UpdatedDate": "2012-05-02T03:46:59.8943184+02:00",
-  "CreatedDate": "2005-05-01T03:46:59.8943184+02:00",
+  "SourceContactId": 26,
+  "SourcePersonId": 908,
+  "DestinationContactId": 318,
+  "DestinationPersonId": 756,
+  "RelationId": 753,
+  "Comment": "voluptatem",
+  "RelationDefinitionId": 301,
+  "Reversed": 624,
+  "UpdatedDate": "2017-01-05T02:30:52.522416+01:00",
+  "CreatedDate": "2020-02-23T02:30:52.522416+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Yost, Bashirian and Jakubowski",
-  "SourcePersonName": "Predovic LLC",
-  "DestinationContactName": "Aufderhar-Stracke",
-  "DestinationPersonName": "Koch, Dickens and Barton",
-  "ActiveText": "et",
-  "PassiveText": "at",
+  "SourceContactName": "Krajcik, Walker and Schmitt",
+  "SourcePersonName": "Hills LLC",
+  "DestinationContactName": "Kutch, Legros and Reynolds",
+  "DestinationPersonName": "Hand LLC",
+  "ActiveText": "impedit",
+  "PassiveText": "corrupti",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 23
+      "FieldLength": 203
     }
   },
   "_Links": {

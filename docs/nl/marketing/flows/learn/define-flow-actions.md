@@ -1,10 +1,10 @@
----
+﻿---
 uid: help-nl-flow-actions
 title: Definieer flowacties
 description: Definieer flowacties
 keywords: flow, automatisering, flowactie, script uitvoeren, verdeel naar eigenaar
 author: Bergfrid Dias
-date: 09.01.2025
+date: 09.26.2025
 version: 11.3
 content_type: howto
 category: marketing
@@ -118,7 +118,7 @@ Persoon wordt verwijderd als lid uit de gespecificeerde selectie en/of project.
 
 Deze stap is vergelijkbaar met **Toevoegen aan selectie/project**.
 
-### Distribueer naar eigenaar
+### <a id="distribute"></a>Distribueer naar eigenaar
 
 Verdeel contactpersonen gelijkmatig over geselecteerde medewerkers of groepsleden. Handig voor het automatisch toewijzen van nieuwe leads aan een team.
 

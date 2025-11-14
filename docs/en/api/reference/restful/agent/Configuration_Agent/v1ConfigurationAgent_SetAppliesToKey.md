@@ -14,6 +14,8 @@ POST /api/v1/Agents/Configuration/SetAppliesToKey
 Set the type of assignTo the deltas of the given recipe should have
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -70,8 +72,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecipeId": "sapiente",
-  "AppliesToKey": "earum"
+  "RecipeId": "unde",
+  "AppliesToKey": "occaecati"
 }
 ```
 

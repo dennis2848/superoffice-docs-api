@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/GetVisibleForUserGroupsFromListName
 List of User groups that this list item is visible for
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -93,8 +95,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Turcotte-Treutel",
-  "ListItemId": 813
+  "UdListDefinitionName": "Powlowski, Leuschke and Kunde",
+  "ListItemId": 111
 }
 ```
 
@@ -106,56 +108,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 371,
-    "Name": "Jacobs Inc and Sons",
-    "ToolTip": "At et impedit sequi sed perferendis porro.",
+    "Id": 110,
+    "Name": "Kautzer LLC",
+    "ToolTip": "Rem et natus omnis.",
     "Deleted": false,
-    "Rank": 668,
-    "Type": "rerum",
-    "ColorBlock": 466,
-    "IconHint": "quia",
+    "Rank": 253,
+    "Type": "deleniti",
+    "ColorBlock": 967,
+    "IconHint": "officia",
     "Selected": true,
-    "LastChanged": "2012-08-07T03:46:54.9882491+02:00",
+    "LastChanged": "2012-07-06T02:30:47.4444538+02:00",
     "ChildItems": [
       {
-        "Id": 953,
-        "Name": "Halvorson-Block",
-        "ToolTip": "Nostrum aliquam odio neque exercitationem.",
-        "Deleted": false,
-        "Rank": 615,
-        "Type": "illo",
-        "ColorBlock": 527,
-        "IconHint": "vel",
-        "Selected": true,
-        "LastChanged": "2018-10-28T03:46:54.9882491+01:00",
+        "Id": 465,
+        "Name": "Predovic LLC",
+        "ToolTip": "Vitae fuga.",
+        "Deleted": true,
+        "Rank": 965,
+        "Type": "vitae",
+        "ColorBlock": 357,
+        "IconHint": "minima",
+        "Selected": false,
+        "LastChanged": "2011-11-12T02:30:47.4444538+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "tempora",
-        "StyleHint": "quia",
+        "ExtraInfo": "ab",
+        "StyleHint": "deleniti",
         "Hidden": false,
-        "FullName": "Rylee Weimann",
+        "FullName": "Alexys Keebler",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 41
+            "FieldType": "System.Int32",
+            "FieldLength": 662
           }
         }
       }
     ],
-    "ExtraInfo": "nulla",
-    "StyleHint": "in",
+    "ExtraInfo": "est",
+    "StyleHint": "ea",
     "Hidden": false,
-    "FullName": "Macy Gutmann",
+    "FullName": "Dariana Collins",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 104
+        "FieldLength": 74
       }
     }
   }

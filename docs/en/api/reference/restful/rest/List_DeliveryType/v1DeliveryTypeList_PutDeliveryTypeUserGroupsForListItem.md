@@ -98,47 +98,47 @@ OK
 PUT /api/v1/List/DeliveryType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 22,
-    "Name": "Parisian, Reinger and Kunde",
-    "ToolTip": "Voluptas expedita dolores eos.",
+    "Id": 939,
+    "Name": "Barton, Towne and Fahey",
+    "ToolTip": "Consequatur sed et voluptas voluptatum error ratione.",
     "Deleted": false,
-    "Rank": 946,
-    "Type": "natus",
-    "ColorBlock": 693,
-    "IconHint": "provident",
-    "Selected": true,
-    "LastChanged": "2006-01-17T03:47:00.6442984+01:00",
+    "Rank": 394,
+    "Type": "perferendis",
+    "ColorBlock": 790,
+    "IconHint": "minus",
+    "Selected": false,
+    "LastChanged": "2017-06-03T02:30:53.2723907+02:00",
     "ChildItems": [
       {
-        "Id": 323,
-        "Name": "Schuppe Group",
-        "ToolTip": "Aut exercitationem sapiente ut aut qui nulla distinctio.",
+        "Id": 207,
+        "Name": "Hayes Group",
+        "ToolTip": "Consequuntur id excepturi a.",
         "Deleted": true,
-        "Rank": 764,
-        "Type": "nisi",
-        "ColorBlock": 232,
-        "IconHint": "atque",
+        "Rank": 197,
+        "Type": "consequatur",
+        "ColorBlock": 623,
+        "IconHint": "inventore",
         "Selected": true,
-        "LastChanged": "2014-11-08T03:47:00.6442984+01:00",
+        "LastChanged": "1999-01-08T02:30:53.2723907+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "fuga",
-        "StyleHint": "reiciendis",
-        "Hidden": false,
-        "FullName": "Electa Gusikowski"
+        "ExtraInfo": "voluptas",
+        "StyleHint": "aut",
+        "Hidden": true,
+        "FullName": "Prof. Olaf Maud Halvorson"
       }
     ],
-    "ExtraInfo": "in",
-    "StyleHint": "aut",
+    "ExtraInfo": "rem",
+    "StyleHint": "quia",
     "Hidden": false,
-    "FullName": "Joel Herzog"
+    "FullName": "Dr. Milford McLaughlin"
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 918,
-    "Name": "Goyette LLC",
-    "ToolTip": "Ut tempore.",
-    "Deleted": false,
-    "Rank": 979,
-    "Type": "et",
-    "ColorBlock": 665,
-    "IconHint": "sunt",
-    "Selected": false,
-    "LastChanged": "2017-09-03T03:47:00.6442984+02:00",
+    "Id": 512,
+    "Name": "Hahn LLC",
+    "ToolTip": "Autem error quia.",
+    "Deleted": true,
+    "Rank": 154,
+    "Type": "dolores",
+    "ColorBlock": 143,
+    "IconHint": "aut",
+    "Selected": true,
+    "LastChanged": "2011-10-12T02:30:53.288015+02:00",
     "ChildItems": [
       {
-        "Id": 693,
-        "Name": "Nienow-DuBuque",
-        "ToolTip": "Iste est odit et sed.",
-        "Deleted": false,
-        "Rank": 528,
-        "Type": "eligendi",
-        "ColorBlock": 520,
-        "IconHint": "velit",
-        "Selected": false,
-        "LastChanged": "2005-03-02T03:47:00.6442984+01:00",
+        "Id": 698,
+        "Name": "Wolff, Kuhlman and Kulas",
+        "ToolTip": "Omnis consequuntur repellat dignissimos eligendi consequatur quasi officia.",
+        "Deleted": true,
+        "Rank": 652,
+        "Type": "qui",
+        "ColorBlock": 215,
+        "IconHint": "qui",
+        "Selected": true,
+        "LastChanged": "2015-12-27T02:30:53.288015+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eum",
-        "StyleHint": "et",
-        "Hidden": true,
-        "FullName": "Ms. Gunner Schneider V",
+        "ExtraInfo": "fugit",
+        "StyleHint": "temporibus",
+        "Hidden": false,
+        "FullName": "Mrs. Amaya Keeling II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 630
+            "FieldLength": 749
           }
         }
       }
     ],
-    "ExtraInfo": "ad",
-    "StyleHint": "in",
-    "Hidden": true,
-    "FullName": "Melisa Dietrich",
+    "ExtraInfo": "sit",
+    "StyleHint": "debitis",
+    "Hidden": false,
+    "FullName": "Jamel Kuhlman",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 182
+        "FieldType": "System.Int32",
+        "FieldLength": 108
       }
     }
   }

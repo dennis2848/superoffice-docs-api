@@ -14,6 +14,8 @@ POST /api/v1/Agents/ForeignSystem/GetKeyByValueAndIdentifier
 Get a foreignkey based on its name and value, that belongs to the specified deviceId, device, and application.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -86,16 +88,16 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetKeyByValueAndIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Schmitt Inc and Sons",
-  "DeviceName": "Prosacco-Bahringer",
-  "DeviceIdentifier": "tempora",
-  "KeyName": "Howell LLC",
-  "KeyValue": "laboriosam",
-  "TableName": "Bartell LLC"
+  "ApplicationName": "Mann, Nicolas and Fahey",
+  "DeviceName": "Pagac Group",
+  "DeviceIdentifier": "totam",
+  "KeyName": "Schultz LLC",
+  "KeyValue": "exercitationem",
+  "TableName": "Mayert-Hilll"
 }
 ```
 
@@ -106,20 +108,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "voluptatem",
-  "Value": "fugit",
-  "RecordId": 298,
-  "CreatedDate": "2004-03-31T03:46:54.9107593+02:00",
-  "UpdatedDate": "2022-10-28T03:46:54.9107593+02:00",
-  "UpdatedBy": "nulla",
-  "CreatedBy": "assumenda",
-  "TableName": "Mertz-Koelpin",
+  "Key": "eaque",
+  "Value": "debitis",
+  "RecordId": 452,
+  "CreatedDate": "2017-11-22T02:30:47.366331+01:00",
+  "UpdatedDate": "2019-09-09T02:30:47.366331+02:00",
+  "UpdatedBy": "excepturi",
+  "CreatedBy": "quibusdam",
+  "TableName": "Kuhlman, Kihn and Okuneva",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 696
+      "FieldLength": 467
     }
   }
 }

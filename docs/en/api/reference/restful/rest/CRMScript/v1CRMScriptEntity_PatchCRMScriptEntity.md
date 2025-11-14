@@ -15,6 +15,7 @@ Update a CRMScriptEntity with changes, as described in a JSON Patch or a JSON Me
 
 
 See <a href="https://tools.ietf.org/html/rfc6902">RFC6902</a> and <a href="https://tools.ietf.org/html/rfc7386">RFC 7396</a>.
+NsApiSlow threshold: 5000 ms.
 
 
 ## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered. Update the Department field to "foo" can be done either as a JSON PATCH:
@@ -130,18 +131,18 @@ CRMScriptEntity  updated.
 PATCH /api/v1/CRMScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "quos",
+    "path": "ducimus",
     "value": {}
   },
   {
     "op": "add",
-    "path": "quos",
+    "path": "ducimus",
     "value": {}
   }
 ]
@@ -154,58 +155,58 @@ HTTP/1.1 200 CRMScriptEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 215,
-  "UniqueIdentifier": "error",
-  "Name": "Kuhic LLC",
-  "Description": "Multi-channelled coherent ability",
-  "IncludeId": "dolores",
-  "AccessKey": "sed",
-  "HierarchyId": 473,
-  "Source": "impedit",
-  "SourceCode": "unde",
+  "EjscriptId": 973,
+  "UniqueIdentifier": "ullam",
+  "Name": "Legros-Lemke",
+  "Description": "Open-source real-time flexibility",
+  "IncludeId": "ratione",
+  "AccessKey": "officia",
+  "HierarchyId": 682,
+  "Source": "repudiandae",
+  "SourceCode": "commodi",
   "ScriptType": "CRMScript",
-  "HtmlOutput": 578,
+  "HtmlOutput": 194,
   "Includes": [
-    256,
-    924
+    93,
+    255
   ],
   "SourceMaps": [
     {
-      "LineNumberFrom": 719,
-      "LineNumberTo": 792,
-      "Delta": 222,
-      "IncludeId": "rem",
+      "LineNumberFrom": 209,
+      "LineNumberTo": 387,
+      "Delta": 316,
+      "IncludeId": "voluptate",
       "IncludedFrom": [
-        "a",
-        "ex"
+        "qui",
+        "ratione"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 758
+          "FieldLength": 720
         }
       }
     }
   ],
   "ValidationResult": null,
-  "Registered": "2008-01-23T03:46:59.8943184+01:00",
-  "RegisteredAssociateId": 263,
-  "Updated": "2013-07-15T03:46:59.8943184+02:00",
-  "UpdatedAssociateId": 263,
+  "Registered": "2000-01-30T02:30:52.522416+01:00",
+  "RegisteredAssociateId": 363,
+  "Updated": "2007-04-14T02:30:52.522416+02:00",
+  "UpdatedAssociateId": 4,
   "BlockedVerbs": "BlockAll",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 233
+      "FieldLength": 70
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

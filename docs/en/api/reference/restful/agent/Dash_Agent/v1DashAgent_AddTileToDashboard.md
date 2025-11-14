@@ -14,6 +14,8 @@ POST /api/v1/Agents/Dash/AddTileToDashboard
 Add a tile to a dashboard with next rank
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -84,8 +86,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 141,
-  "DashTileDefinitionId": 215
+  "DashboardId": 842,
+  "DashTileDefinitionId": 154
 }
 ```
 
@@ -96,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 178,
-  "DashboardId": 888,
-  "Height": 265,
-  "Width": 980,
-  "Rank": 666,
+  "DashboardTileId": 310,
+  "DashboardId": 932,
+  "Height": 242,
+  "Width": 295,
+  "Rank": 869,
   "DashTileDefinition": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 790
+      "FieldLength": 920
     }
   }
 }

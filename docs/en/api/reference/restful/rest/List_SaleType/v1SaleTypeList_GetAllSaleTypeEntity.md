@@ -89,7 +89,7 @@ OK
 GET /api/v1/List/SaleType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -100,53 +100,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "SaleTypeId": 690,
-    "Name": "Reinger Inc and Sons",
-    "Tooltip": "autem",
-    "Rank": 286,
+    "SaleTypeId": 650,
+    "Name": "Hagenes-Weber",
+    "Tooltip": "molestias",
+    "Rank": 383,
     "DurationUnit": "Century",
-    "SaleDuration": 992,
-    "SaleTypeCatId": 776,
+    "SaleDuration": 390,
+    "SaleTypeCatId": 782,
     "Deleted": false,
     "HasGuide": false,
     "HasStakeholders": false,
     "IsAutoAdvance": false,
     "AllowQuoteAlternatives": false,
-    "DefaultQuoteValidity": 324,
-    "QuoteLinesTemplate": 806,
-    "ConfirmationLinesTemplate": 17,
-    "MaxDiscountPercentSet": false,
+    "DefaultQuoteValidity": 73,
+    "QuoteLinesTemplate": 194,
+    "ConfirmationLinesTemplate": 225,
+    "MaxDiscountPercentSet": true,
     "MinEarningPercentSet": false,
-    "MaxDiscountPercent": 664,
-    "MinEarningPercent": 210,
-    "GroupQuoteLinesBy": 176,
-    "SortGroupLinesBy": 159,
+    "MaxDiscountPercent": 914,
+    "MinEarningPercent": 350,
+    "GroupQuoteLinesBy": 788,
+    "SortGroupLinesBy": 450,
     "Stages": [
       {
-        "Id": 1001,
-        "Name": "Towne Inc and Sons",
-        "ToolTip": "Vitae neque quia sunt aut.",
+        "Id": 552,
+        "Name": "Hagenes LLC",
+        "ToolTip": "Voluptas corrupti quia tenetur nobis eligendi qui.",
         "Deleted": true,
-        "Rank": 711,
-        "Type": "quisquam",
-        "ColorBlock": 496,
-        "IconHint": "veniam",
-        "Selected": false,
-        "LastChanged": "2024-10-28T03:47:00.8005429+01:00",
+        "Rank": 764,
+        "Type": "quia",
+        "ColorBlock": 864,
+        "IconHint": "culpa",
+        "Selected": true,
+        "LastChanged": "2021-04-07T02:30:53.4286352+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "accusantium",
-        "StyleHint": "facere",
-        "Hidden": true,
-        "FullName": "Loy Casper",
+        "ExtraInfo": "ratione",
+        "StyleHint": "sed",
+        "Hidden": false,
+        "FullName": "Miss Lisandro Leonel Stokes Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 542
+            "FieldLength": 325
           }
         }
       }
@@ -155,8 +155,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 20
+        "FieldType": "System.Int32",
+        "FieldLength": 277
       }
     }
   }

@@ -14,6 +14,8 @@ POST /api/v1/Agents/Associate/GetAssociateByPersonId
 Returns the associate that belongs to this person if the person is an associate.
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -91,7 +93,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 163
+  "PersonId": 518
 }
 ```
 
@@ -102,32 +104,32 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 888,
-  "Name": "Schmidt-Dietrich",
-  "PersonId": 3,
-  "Rank": 243,
-  "Tooltip": "iusto",
+  "AssociateId": 952,
+  "Name": "Paucek-Friesen",
+  "PersonId": 530,
+  "Rank": 806,
+  "Tooltip": "in",
   "Type": "AnonymousAssociate",
-  "GroupIdx": 483,
-  "FullName": "Raquel Grady",
-  "FormalName": "Buckridge-Price",
+  "GroupIdx": 271,
+  "FullName": "Miss Mariela Veum",
+  "FormalName": "Nienow-Gaylord",
   "Deleted": true,
-  "EjUserId": 451,
-  "UserName": "Waelchi-Morissette",
+  "EjUserId": 920,
+  "UserName": "Kemmer-Roob",
   "ExtraFields": {
-    "ExtraFields1": "et",
-    "ExtraFields2": "quibusdam"
+    "ExtraFields1": "dolorem",
+    "ExtraFields2": "atque"
   },
   "CustomFields": {
-    "CustomFields1": "est",
-    "CustomFields2": "voluptatem"
+    "CustomFields1": "et",
+    "CustomFields2": "et"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 179
+      "FieldType": "System.Int32",
+      "FieldLength": 159
     }
   }
 }

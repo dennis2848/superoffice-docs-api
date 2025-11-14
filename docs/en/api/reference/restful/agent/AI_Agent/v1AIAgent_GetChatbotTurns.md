@@ -15,6 +15,10 @@ Returns stored history of chat messages for a given chat_id.
 
 
 Chat_id is usually derived from soproto + current id, but could also be arbitrary name.
+NsApiSlow threshold: 2000 ms.
+
+
+## Experimental: ## The AI agent is experimental, subject to change, and not intended for partners.
 
 
 
@@ -79,11 +83,11 @@ OK
 POST /api/v1/Agents/AI/GetChatbotTurns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatId": "ipsa"
+  "ChatId": "facere"
 }
 ```
 
@@ -95,31 +99,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Timestamp": "2017-08-05T03:46:53.9726601+02:00",
-    "UserPrompt": "ducimus",
-    "UserDisplayText": "qui",
-    "BotResponse": "tenetur",
+    "Timestamp": "2005-01-26T02:30:46.4913585+01:00",
+    "UserPrompt": "quia",
+    "UserDisplayText": "id",
+    "BotResponse": "rem",
     "BotActions": {
-      "BotActions1": "asperiores",
-      "BotActions2": "nihil"
+      "BotActions1": "sed",
+      "BotActions2": "est"
     },
     "Attachments": [
-      "aliquam",
-      "a"
+      "nobis",
+      "id"
     ]
   },
   {
-    "Timestamp": "2017-08-05T03:46:53.9726601+02:00",
-    "UserPrompt": "ducimus",
-    "UserDisplayText": "qui",
-    "BotResponse": "tenetur",
+    "Timestamp": "2005-01-26T02:30:46.4913585+01:00",
+    "UserPrompt": "quia",
+    "UserDisplayText": "id",
+    "BotResponse": "rem",
     "BotActions": {
-      "BotActions1": "asperiores",
-      "BotActions2": "nihil"
+      "BotActions1": "sed",
+      "BotActions2": "est"
     },
     "Attachments": [
-      "aliquam",
-      "a"
+      "nobis",
+      "id"
     ]
   }
 ]

@@ -14,6 +14,9 @@ POST /api/v1/Agents/ErpSync/SaveErpSyncConnectorEntity
 Updates the existing ErpSyncConnectorEntity or creates a new ErpSyncConnectorEntity if the id parameter is 0.
 
 
+NsApiSlow threshold: 5000 ms.
+
+
 ## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
 
 
@@ -72,14 +75,14 @@ OK
 POST /api/v1/Agents/ErpSync/SaveErpSyncConnectorEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectorId": 709,
-  "DisplayName": "Ullrich, Connelly and Stoltenberg",
+  "ErpConnectorId": 362,
+  "DisplayName": "Quitzon, Bartell and Hessel",
   "URL": "http://www.example.com/",
-  "Deleted": false
+  "Deleted": true
 }
 ```
 
@@ -90,8 +93,8 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectorId": 800,
-  "DisplayName": "Runte, Kohler and Hickle",
+  "ErpConnectorId": 424,
+  "DisplayName": "Reichert LLC",
   "URL": "http://www.example.com/",
   "Deleted": false,
   "TableRight": null,
@@ -99,7 +102,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 488
+      "FieldLength": 490
     }
   }
 }

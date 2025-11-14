@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/GetTicketPriorityList
 Gets an array of TicketPriority objects.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -73,7 +75,7 @@ OK
 POST /api/v1/Agents/List/GetTicketPriorityList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -84,28 +86,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 471,
-    "Value": "rerum",
-    "Tooltip": "fugit",
+    "Id": 715,
+    "Value": "est",
+    "Tooltip": "veniam",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 149
+        "FieldType": "System.String",
+        "FieldLength": 328
       }
     }
   },
   {
-    "Id": 471,
-    "Value": "rerum",
-    "Tooltip": "fugit",
+    "Id": 715,
+    "Value": "est",
+    "Tooltip": "veniam",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 149
+        "FieldType": "System.String",
+        "FieldLength": 328
       }
     }
   }

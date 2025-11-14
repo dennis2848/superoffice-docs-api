@@ -14,6 +14,8 @@ POST /api/v1/Agents/ViewState/GetHistories
 Returns all history items that belong to the currently logged in user
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -72,7 +74,7 @@ OK
 POST /api/v1/Agents/ViewState/GetHistories
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -83,19 +85,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Rank": 434,
-    "Id": 217,
-    "HistoryName": "Mohr LLC",
-    "HistoryId": 348,
-    "AssociateId": 691,
-    "Name": "Kemmer Inc and Sons",
-    "ItemInfo": "doloribus",
+    "Rank": 450,
+    "Id": 533,
+    "HistoryName": "Greenfelder Group",
+    "HistoryId": 326,
+    "AssociateId": 199,
+    "Name": "Bernhard Group",
+    "ItemInfo": "quo",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 808
+        "FieldLength": 51
       }
     }
   }

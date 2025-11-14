@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/DeleteResourceEntity
 Deletes the ResourceEntity
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -26,7 +28,7 @@ Deletes the ResourceEntity
 | resourceEntityId | int32 | **Required** The identity of the ResourceEntity |
 
 ```http
-POST /api/v1/Agents/List/DeleteResourceEntity?resourceEntityId=686
+POST /api/v1/Agents/List/DeleteResourceEntity?resourceEntityId=646
 ```
 
 
@@ -57,7 +59,7 @@ No Content
 POST /api/v1/Agents/List/DeleteResourceEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response

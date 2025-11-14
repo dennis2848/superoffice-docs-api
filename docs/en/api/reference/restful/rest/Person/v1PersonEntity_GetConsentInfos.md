@@ -76,7 +76,7 @@ OK
 GET /api/v1/Person/{personId}/Consent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -87,27 +87,27 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentPersonId": 80,
-    "Comment": "ut",
-    "Registered": "2000-04-03T03:47:00.1443174+02:00",
-    "RegisteredAssociateId": 119,
-    "Updated": "2004-04-01T03:47:00.1443174+02:00",
-    "UpdatedAssociateId": 971,
-    "LegalBaseId": 825,
+    "ConsentPersonId": 358,
+    "Comment": "esse",
+    "Registered": "2005-08-21T02:30:52.7726429+02:00",
+    "RegisteredAssociateId": 170,
+    "Updated": "2014-07-26T02:30:52.7726429+02:00",
+    "UpdatedAssociateId": 644,
+    "LegalBaseId": 474,
     "LegalBaseKey": "laboriosam",
-    "LegalBaseName": "Pfeffer, Conn and Dietrich",
-    "ConsentPurposeId": 448,
-    "ConsentPurposeKey": "ipsum",
-    "ConsentPurposeName": "Schaefer, Medhurst and Swaniawski",
-    "ConsentSourceId": 740,
-    "ConsentSourceKey": "est",
-    "ConsentSourceName": "Rogahn LLC",
+    "LegalBaseName": "Kassulke, Gleason and Terry",
+    "ConsentPurposeId": 471,
+    "ConsentPurposeKey": "ut",
+    "ConsentPurposeName": "Harber, Cole and Marks",
+    "ConsentSourceId": 46,
+    "ConsentSourceKey": "magni",
+    "ConsentSourceName": "Brown, Kshlerin and Murphy",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 960
+        "FieldType": "System.Int32",
+        "FieldLength": 623
       }
     }
   }

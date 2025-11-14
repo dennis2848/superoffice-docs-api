@@ -31,6 +31,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.SaleHistorySaleHistoryExtender._colSoldReason
   - SuperOffice.CRM.ArchiveLists.SaleHistorySaleHistoryExtender._colSource
   - SuperOffice.CRM.ArchiveLists.SaleHistorySaleHistoryExtender._colStage
+  - SuperOffice.CRM.ArchiveLists.SaleHistorySaleHistoryExtender._colStageWhenClosed
   - SuperOffice.CRM.ArchiveLists.SaleHistorySaleHistoryExtender._colStalledReason
   langs:
   - csharp
@@ -95,6 +96,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.ExtenderBase{SuperOffice.CRM.Data.SaleHistTableInfo}.ModifyQuery
   - SuperOffice.CRM.ArchiveLists.ExtenderBase{SuperOffice.CRM.Data.SaleHistTableInfo}.GetRankRestriction(SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.ArchiveLists.ExtenderBase{SuperOffice.CRM.Data.SaleHistTableInfo}.StyleHintPrefix
+  - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase._orderBy
   - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase._minuteFields
   - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.Visible
   - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.Invisible
@@ -444,6 +446,25 @@ items:
     return:
       type: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
     content.vb: Protected _colProbPercent As ArchiveColumnInfo
+- uid: SuperOffice.CRM.ArchiveLists.SaleHistorySaleHistoryExtender._colStageWhenClosed
+  commentId: F:SuperOffice.CRM.ArchiveLists.SaleHistorySaleHistoryExtender._colStageWhenClosed
+  id: _colStageWhenClosed
+  parent: SuperOffice.CRM.ArchiveLists.SaleHistorySaleHistoryExtender
+  langs:
+  - csharp
+  - vb
+  name: _colStageWhenClosed
+  nameWithType: SaleHistorySaleHistoryExtender._colStageWhenClosed
+  fullName: SuperOffice.CRM.ArchiveLists.SaleHistorySaleHistoryExtender._colStageWhenClosed
+  type: Field
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: protected ArchiveColumnInfo _colStageWhenClosed
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    content.vb: Protected _colStageWhenClosed As ArchiveColumnInfo
 - uid: SuperOffice.CRM.ArchiveLists.SaleHistorySaleHistoryExtender._colStage
   commentId: F:SuperOffice.CRM.ArchiveLists.SaleHistorySaleHistoryExtender._colStage
   id: _colStage
@@ -1406,6 +1427,14 @@ references:
   fullName: SuperOffice.CRM.ArchiveLists.ExtenderBase<SuperOffice.CRM.Data.SaleHistTableInfo>.StyleHintPrefix
   nameWithType.vb: ExtenderBase(Of SaleHistTableInfo).StyleHintPrefix
   fullName.vb: SuperOffice.CRM.ArchiveLists.ExtenderBase(Of SuperOffice.CRM.Data.SaleHistTableInfo).StyleHintPrefix
+- uid: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase._orderBy
+  commentId: F:SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase._orderBy
+  parent: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.html#SuperOffice_CRM_ArchiveLists_ExtensibleColumnsBase__orderBy
+  name: _orderBy
+  nameWithType: ExtensibleColumnsBase._orderBy
+  fullName: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase._orderBy
 - uid: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase._minuteFields
   commentId: F:SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase._minuteFields
   parent: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase

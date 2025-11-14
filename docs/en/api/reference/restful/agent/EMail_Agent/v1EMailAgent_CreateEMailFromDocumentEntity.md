@@ -14,6 +14,9 @@ POST /api/v1/Agents/EMail/CreateEMailFromDocumentEntity
 Get an e-mail based on the provided DocumentEntity
 
 
+NsApiSlow threshold: 5000 ms.
+
+
 ## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 
@@ -101,7 +104,7 @@ OK
 POST /api/v1/Agents/EMail/CreateEMailFromDocumentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -118,147 +121,147 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 180,
-      "ContactName": "Prohaska Group",
-      "PersonId": 135,
-      "PersonName": "Torphy-Bogan",
-      "AssociateId": 475,
-      "Address": "et",
-      "EmailId": 398,
+      "ContactId": 959,
+      "ContactName": "Parker, Rice and Ratke",
+      "PersonId": 915,
+      "PersonName": "Heller Inc and Sons",
+      "AssociateId": 324,
+      "Address": "veniam",
+      "EmailId": 546,
       "DuplicatePersonIds": [
-        147,
-        759
+        164,
+        689
       ],
-      "Name": "Schulist-Stehr",
+      "Name": "Gutmann Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 694
+          "FieldLength": 360
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 947,
-      "ContactName": "Strosin, Metz and Morar",
-      "PersonId": 84,
-      "PersonName": "Marvin Inc and Sons",
-      "AssociateId": 169,
-      "Address": "quia",
-      "EmailId": 197,
+      "ContactId": 666,
+      "ContactName": "Cruickshank, Pagac and Hegmann",
+      "PersonId": 968,
+      "PersonName": "Bruen LLC",
+      "AssociateId": 604,
+      "Address": "perspiciatis",
+      "EmailId": 503,
       "DuplicatePersonIds": [
-        539,
-        983
+        504,
+        287
       ],
-      "Name": "Robel, Turner and Osinski",
+      "Name": "Braun LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 177
+          "FieldType": "System.Int32",
+          "FieldLength": 78
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 253,
-      "ContactName": "Mosciski LLC",
-      "PersonId": 240,
-      "PersonName": "Boehm, Kunde and Schmitt",
-      "AssociateId": 252,
-      "Address": "vero",
-      "EmailId": 451,
+      "ContactId": 731,
+      "ContactName": "Labadie, Upton and Jerde",
+      "PersonId": 568,
+      "PersonName": "Gibson, Krajcik and Schimmel",
+      "AssociateId": 389,
+      "Address": "et",
+      "EmailId": 726,
       "DuplicatePersonIds": [
-        544,
-        554
+        288,
+        606
       ],
-      "Name": "Kilback-Collins",
+      "Name": "Kunde Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 752
+          "FieldType": "System.Int32",
+          "FieldLength": 605
         }
       }
     }
   ],
-  "Subject": "enim",
-  "HTMLBody": "nesciunt",
+  "Subject": "non",
+  "HTMLBody": "excepturi",
   "From": null,
-  "Sent": "2004-07-01T03:46:54.785131+02:00",
-  "Size": 770,
+  "Sent": "2016-05-25T02:30:47.3038336+02:00",
+  "Size": 776,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "aut",
-  "PlainBody": "hic",
+  "MessageID": "voluptatem",
+  "PlainBody": "omnis",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 693,
+  "ServerId": 793,
   "Attachments": [
     {
-      "Description": "Multi-channelled analyzing alliance",
-      "Filename": "magnam",
-      "Size": 84,
-      "Type": "aliquam",
-      "Encoding": "placeat",
-      "Id": "voluptate",
-      "Disposition": "voluptatem",
-      "IsSafeFileExtension": true,
+      "Description": "Re-engineered solution-oriented functionalities",
+      "Filename": "quia",
+      "Size": 341,
+      "Type": "culpa",
+      "Encoding": "blanditiis",
+      "Id": "dolorem",
+      "Disposition": "rerum",
+      "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 848
+          "FieldLength": 131
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Kling, Pouros and O'Keefe",
+      "Name": "Schinner Inc and Sons",
       "Values": [
-        "aut",
-        "dicta"
+        "iste",
+        "quam"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 512
+          "FieldLength": 83
         }
       }
     },
     {
-      "Name": "Kling, Pouros and O'Keefe",
+      "Name": "Schinner Inc and Sons",
       "Values": [
-        "aut",
-        "dicta"
+        "iste",
+        "quam"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 512
+          "FieldLength": 83
         }
       }
     }
   ],
-  "FolderName": "Cruickshank Inc and Sons",
-  "EmailItemId": 466,
-  "AccountId": 204,
-  "ReceivedAt": "2004-11-04T03:46:54.785131+01:00",
+  "FolderName": "Jacobson Group",
+  "EmailItemId": 713,
+  "AccountId": 814,
+  "ReceivedAt": "2023-09-22T02:30:47.3038336+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2024-03-31T03:46:54.785131+02:00",
+  "RepliedAt": "2009-11-08T02:30:47.3038336+01:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -267,7 +270,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 313
+      "FieldLength": 532
     }
   }
 }

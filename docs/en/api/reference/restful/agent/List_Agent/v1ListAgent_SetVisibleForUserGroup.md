@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/SetVisibleForUserGroup
 Set a group which this list item should be visible for
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -68,15 +70,15 @@ No Content
 POST /api/v1/Agents/List/SetVisibleForUserGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 697,
-  "ListItemId": 57,
+  "UdListDefinitionId": 930,
+  "ListItemId": 711,
   "UserGroupId": [
-    983,
-    400
+    241,
+    416
   ],
   "Enable": false
 }

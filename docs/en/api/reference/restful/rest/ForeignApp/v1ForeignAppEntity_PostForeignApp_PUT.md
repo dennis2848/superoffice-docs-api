@@ -78,29 +78,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 972,
-  "Name": "Abbott-Hickle",
-  "CreatedDate": "2016-05-17T03:47:00.0193121+02:00",
-  "UpdatedDate": "2008-09-01T03:47:00.0193121+02:00",
+  "ForeignAppId": 168,
+  "Name": "Rodriguez Group",
+  "CreatedDate": "2001-11-16T02:30:52.631787+01:00",
+  "UpdatedDate": "2003-10-14T02:30:52.631787+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 929,
-      "Name": "Olson, Harvey and Batz",
-      "CreatedDate": "1999-02-04T03:47:00.0193121+01:00",
-      "UpdatedDate": "2012-09-13T03:47:00.0193121+02:00",
-      "AssociateFullName": "Ms. Karen Jevon Stroman",
-      "CreatedBy": "a",
-      "UpdatedBy": "non",
-      "DeviceIdentifier": "possimus",
-      "ForeignAppId": 244,
+      "ForeignDeviceId": 45,
+      "Name": "Gutkowski Inc and Sons",
+      "CreatedDate": "2007-03-08T02:30:52.6474115+01:00",
+      "UpdatedDate": "2012-02-13T02:30:52.6474115+01:00",
+      "AssociateFullName": "Ofelia Mills",
+      "CreatedBy": "sint",
+      "UpdatedBy": "quidem",
+      "DeviceIdentifier": "omnis",
+      "ForeignAppId": 430,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 430
+          "FieldType": "System.Int32",
+          "FieldLength": 623
         }
       }
     }
@@ -109,8 +109,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 321
+      "FieldType": "System.Int32",
+      "FieldLength": 470
     }
   }
 }

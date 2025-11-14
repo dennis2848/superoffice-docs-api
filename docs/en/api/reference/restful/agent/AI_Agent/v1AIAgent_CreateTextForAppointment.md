@@ -14,6 +14,11 @@ POST /api/v1/Agents/AI/CreateTextForAppointment
 Generate agenda text for an appointment based on appointment's company category, title, person, etc.
 
 
+NsApiSlow threshold: 2000 ms.
+
+
+## Experimental: ## The AI agent is experimental, subject to change, and not intended for partners.
+
 
 
 
@@ -75,7 +80,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Appointment": null,
-  "IsoLangCode": "voluptates"
+  "IsoLangCode": "aut"
 }
 ```
 
@@ -85,5 +90,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"nostrum"
+"nobis"
 ```

@@ -14,6 +14,8 @@ POST /api/v1/Agents/Diagnostics/GetSystemMessages
 Retrieves a list of system messages for a specific associate.
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -84,7 +86,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 629
+  "AssociateId": 885
 }
 ```
 
@@ -96,19 +98,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "MessageId": 977,
-    "AssociateId": 247,
-    "OnlineappId": 774,
-    "SystemMessageId": "quia",
-    "MarkdownMessage": "aut",
-    "Expire": "2013-11-20T03:46:54.6132622+01:00",
+    "MessageId": 98,
+    "AssociateId": 556,
+    "OnlineappId": 30,
+    "SystemMessageId": "consequatur",
+    "MarkdownMessage": "enim",
+    "Expire": "2012-12-04T02:30:47.0694635+01:00",
     "Type": "Error",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 101
+        "FieldType": "System.Int32",
+        "FieldLength": 287
       }
     }
   }

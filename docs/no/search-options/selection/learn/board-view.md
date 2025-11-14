@@ -3,31 +3,33 @@ uid: help-no-selection-board-view
 title: Bruk tavlevisning i utvalg
 description: Visualiser utvalg med tavlevisning med gruppering, filtre og dra-og-slipp-kort
 keywords: tavlevisning, utvalgsvisning, utvalg, salgstavle, prosjekttavle, sakstavle, kanban, gruppér etter, verktøylinje for filter
-author: Bergfrid Dias
-date: 08.25.2025
-version: 11.3
+author: digitaldiina
+date: 11.04.2025
+version: 11.6
 content_type: howto
 license: salespremium, servicepremium, marketingessentials
 audience: person
 audience_tooltip: SuperOffice CRM
 language: no
-index: true
 ---
 
 # Bruk tavlevisning i utvalg <i class="ph ph-kanban" aria-hidden="true"></i>
 
 Tavlevisning viser ditt [utvalg][2] i et kolonnebasert oppsett med kort. Du kan gruppere og filtrere utvalgsmedlemmene (postene som vises på tavlen), og bruke dra-og-slipp for å flytte kort mellom grupper.
 
-Funksjonaliteten er lik på tvers av støttede posttyper: Du kan dra kort, åpne oppgavemenyer og justere tavleinnstillinger. Tilgjengelige grupperings- og filterfelter varierer avhengig av om du jobber med salg, prosjekter eller saker.
+Funksjonaliteten er lik på tvers av støttede posttyper: Du kan dra kort, åpne oppgavemenyer og justere tavleinnstillinger. Tilgjengelige grupperings- og filterfelter varierer avhengig av om du jobber med firma, personm, salg, prosjekter eller saker.
 
 ![Tavlevisning som viser salg gruppert etter fase -screenshot][img2]
 
 ## Åpne tavlevisning
 
 1. Gå til et utvalg.
+
 1. Velg ikonet for **tavlevisning** øverst til høyre (<i class="ph ph-kanban" aria-label="Kanban board"></i>).
 
     ![Ikon for tavlevisning øverst til høyre i et utvalg][img1]
+
+1. Hvis utvalget ditt inneholder firmaer og personer, vil tavlevisningen bare vise én enhetstype om gangen. For å bytte klikker du på <i class="ph ph-gear-six" aria-label="Settings"></i>, og bruker deretter rullegardinlisten **Vis enhet** til å velge *Firma* eller *Person*.
 
 ## Arbeid med kort
 
@@ -40,6 +42,10 @@ Funksjonaliteten er lik på tvers av støttede posttyper: Du kan dra kort, åpne
 * Dra kort mellom kolonner for å oppdatere grupperingsfeltet (som fase eller eier).
   * Hvis undergrupper er aktivert, kan du også dra kort mellom rader i hver kolonne.
 
+* Klikk på et kort for å vise detaljene i [sidepanelet][11]. (Aktiver forhåndsvisningen ved å velge den fra rullegardinmenyen øverst på sidepanelet).
+
+    ![Sidepanel som viser prosjektdetaljer -screenshot][img12]
+
 * For å redigere et kort, pek på det og velg knappen **Rediger** (<i class="ph ph-pencil" aria-hidden="true"></i>). Dette åpner samme redigeringsdialog som brukes andre steder i SuperOffice CRM – uten å forlate tavlevisningen.
 
   ![Markør som peker på redigeringsknapp på et salg i tavlevisning -screenshot][img4]
@@ -49,6 +55,8 @@ Funksjonaliteten er lik på tvers av støttede posttyper: Du kan dra kort, åpne
   * **Salg:** Rediger, Opprett oppfølging, Marker som solgt/tapt, Slett
   * **Prosjekter:** Rediger, Opprett oppfølging, Opprett dokument, Marker som utført, Slett
   * **Saker:** Rediger, Lukk sak, Slett
+  * **Firma:** Rediger, Opprett oppfølging, Registrer salg, Flytt til neste kategori, Slett
+  * **Person:** Rediger, Opprett oppfølging, Registrer salg, Slett
 
   ![Åpen oppgavemeny for et salg i tavlevisning som viser tilgjengelige alternativer -screenshot][img5]
 
@@ -82,6 +90,8 @@ Eksempler på grupperingsfelt:
 * **Salg:** Fase, Salgstype, Eier
 * **Prosjekter:** Status, Ansvarlig, Type
 * **Saker:** Status, Sakstype, Prioritet, Eier
+* **Firma:** Kategori, Vår kontakt
+* **Person:** Kategori, Vår kontakt, Leadstatus
 
 ### Sortér kort i kolonner
 
@@ -114,6 +124,8 @@ Eksempler på filtre:
 * **Salg:** Salgstype, Eier, Fase, Neste aktivitet, Salgsdato
 * **Prosjekter:** Type, Ansvarlig, Status, Neste milepæl, Sluttdato
 * **Saker:** Sakkategori, Eier, Status, Registrert, Tidsfrist, Prioritet
+* **Firma:** Vår kontakt, Registrert, Neste aktivitet, Kategori, Land
+* **Person:** Vår kontakt, Eiergruppe, Registrert, Neste aktivitet, Leadstatus, Kategori, Land
 
 ### Oppsummer (kun salg)
 
@@ -211,6 +223,7 @@ Bruk gruppering kreativt for å organisere og handle effektivt på data.
 <!-- Refererte lenker -->
 [1]: create.md
 [2]: index.md
+[11]: ../../../learn/getting-started/main-screen/side-panel.md
 [12]: ../../../sale/learn/create.md
 [13]: ../../../sale/admin/sale-stage.md
 [14]: ../../../request/learn/create.md
@@ -232,3 +245,4 @@ Bruk gruppering kreativt for å organisere og handle effektivt på data.
 [img9]: ../../../../media/loc/en/search-options/board-view-filter-toolbar.png
 [img10]: ../../../../media/loc/en/search-options/board-view-filter-on-sale-type.png
 [img11]: ../../../../media/loc/en/search-options/board-view-summarized-sale-amount-per-column.png
+[img12]: ../../../../media/loc/en/search-options/selection-board-view-project-preview.png

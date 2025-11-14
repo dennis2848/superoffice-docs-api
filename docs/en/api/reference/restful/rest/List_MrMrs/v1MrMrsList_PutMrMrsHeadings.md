@@ -76,25 +76,25 @@ OK
 PUT /api/v1/List/MrMrs/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 607,
-    "Name": "D'Amore-Gleason",
-    "Tooltip": "dolorem",
+    "HeadingId": 132,
+    "Name": "Stiedemann Group",
+    "Tooltip": "inventore",
     "Deleted": false,
-    "Rank": 653,
-    "UdListDefinitionId": 917
+    "Rank": 309,
+    "UdListDefinitionId": 225
   },
   {
-    "HeadingId": 607,
-    "Name": "D'Amore-Gleason",
-    "Tooltip": "dolorem",
+    "HeadingId": 132,
+    "Name": "Stiedemann Group",
+    "Tooltip": "inventore",
     "Deleted": false,
-    "Rank": 653,
-    "UdListDefinitionId": 917
+    "Rank": 309,
+    "UdListDefinitionId": 225
   }
 ]
 ```
@@ -107,18 +107,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 999,
-    "Name": "Heller Inc and Sons",
-    "Tooltip": "dolores",
-    "Deleted": true,
-    "Rank": 599,
-    "UdListDefinitionId": 137,
+    "HeadingId": 673,
+    "Name": "Huels LLC",
+    "Tooltip": "aut",
+    "Deleted": false,
+    "Rank": 19,
+    "UdListDefinitionId": 237,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 517
+        "FieldLength": 545
       }
     }
   }

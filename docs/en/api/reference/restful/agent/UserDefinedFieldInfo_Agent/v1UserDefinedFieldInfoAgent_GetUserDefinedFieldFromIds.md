@@ -14,6 +14,8 @@ POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromIds
 Return an given array of user defined field identified by the ids.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -107,13 +109,13 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Ids": [
-    831,
-    388
+    934,
+    624
   ]
 }
 ```
@@ -126,46 +128,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 955,
-    "ColumnId": 612,
-    "FieldDefault": "est",
-    "FieldHeight": 985,
-    "FieldLabel": "rerum",
-    "FieldLeft": 717,
-    "FieldTop": 717,
+    "UDefFieldId": 919,
+    "ColumnId": 440,
+    "FieldDefault": "et",
+    "FieldHeight": 705,
+    "FieldLabel": "velit",
+    "FieldLeft": 1002,
+    "FieldTop": 126,
     "FieldType": "Checkbox",
-    "FieldWidth": 459,
-    "FormatMask": "quas",
-    "HideLabel": true,
-    "IsIndexed": false,
-    "LabelHeight": 29,
-    "LabelLeft": 383,
-    "LabelTop": 581,
-    "LabelWidth": 114,
-    "LastVersionId": 327,
-    "ListTableId": 978,
+    "FieldWidth": 107,
+    "FormatMask": "enim",
+    "HideLabel": false,
+    "IsIndexed": true,
+    "LabelHeight": 32,
+    "LabelLeft": 864,
+    "LabelTop": 599,
+    "LabelWidth": 630,
+    "LastVersionId": 310,
+    "ListTableId": 623,
     "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 880,
-    "ProgId": "numquam",
+    "Page1LineNo": 340,
+    "ProgId": "quisquam",
     "IsReadOnly": false,
-    "ShortLabel": "unde",
-    "TabOrder": 443,
-    "TextLength": 986,
-    "Tooltip": "aut",
-    "UdefIdentity": 721,
-    "UDListDefinitionId": 164,
+    "ShortLabel": "ullam",
+    "TabOrder": 591,
+    "TextLength": 753,
+    "Tooltip": "atque",
+    "UdefIdentity": 501,
+    "UDListDefinitionId": 326,
     "Justification": "Center",
-    "Version": 987,
-    "TemplateVariableName": "Flatley, Mills and Braun",
-    "HasBeenPublished": false,
-    "MdoListName": "Paucek LLC",
+    "Version": 627,
+    "TemplateVariableName": "Schmidt-Collier",
+    "HasBeenPublished": true,
+    "MdoListName": "Bergnaum, Erdman and Senger",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 723
+        "FieldLength": 20
       }
     }
   }

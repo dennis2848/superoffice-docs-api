@@ -111,33 +111,33 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 866,
-  "Name": "Dooley-Murazik",
-  "Rank": 260,
-  "Tooltip": "quos",
-  "Icon": "commodi",
-  "DefaultTicketStatus": 442,
+  "TicketTypeId": 439,
+  "Name": "Marks Inc and Sons",
+  "Rank": 943,
+  "Tooltip": "aut",
+  "Icon": "quia",
+  "DefaultTicketStatus": 420,
   "TicketStatuses": [
-    870,
-    745
+    15,
+    931
   ],
-  "DefaultTicketPriority": 833,
+  "DefaultTicketPriority": 86,
   "TicketPriorities": [
-    237,
-    521
+    290,
+    483
   ],
-  "ReplyTemplate": 285,
+  "ReplyTemplate": 515,
   "IsExternalVisible": true,
   "IsDefault": false,
-  "ShowInNew": true,
+  "ShowInNew": false,
   "ExcludeSignature": true,
   "ExcludeEmailRecipients": true,
   "ExternalAsDefault": false,
   "VisibleForGroups": [
-    870,
-    502
+    675,
+    822
   ],
-  "ReplyForwardNoSignature": false,
+  "ReplyForwardNoSignature": true,
   "ReplyExternalAsDefault": false
 }
 ```
@@ -149,31 +149,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 527,
-  "Name": "Volkman Group",
-  "Rank": 176,
-  "Tooltip": "natus",
-  "Icon": "omnis",
-  "DefaultTicketStatus": 81,
+  "TicketTypeId": 156,
+  "Name": "Hansen, Hills and Pouros",
+  "Rank": 596,
+  "Tooltip": "cupiditate",
+  "Icon": "qui",
+  "DefaultTicketStatus": 983,
   "TicketStatuses": [
-    629,
-    317
+    502,
+    659
   ],
-  "DefaultTicketPriority": 124,
+  "DefaultTicketPriority": 359,
   "TicketPriorities": [
-    244,
-    24
+    576,
+    820
   ],
-  "ReplyTemplate": 523,
-  "IsExternalVisible": true,
-  "IsDefault": false,
+  "ReplyTemplate": 902,
+  "IsExternalVisible": false,
+  "IsDefault": true,
   "ShowInNew": false,
-  "ExcludeSignature": false,
+  "ExcludeSignature": true,
   "ExcludeEmailRecipients": false,
-  "ExternalAsDefault": false,
+  "ExternalAsDefault": true,
   "VisibleForGroups": [
-    529,
-    653
+    491,
+    460
   ],
   "ReplyForwardNoSignature": false,
   "ReplyExternalAsDefault": false,
@@ -182,7 +182,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 889
+      "FieldLength": 85
     }
   }
 }

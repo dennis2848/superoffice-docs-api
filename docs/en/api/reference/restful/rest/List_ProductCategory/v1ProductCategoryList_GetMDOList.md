@@ -28,7 +28,7 @@ Get the MDO list items for "ProductCategory" - with headings and filtering by us
 
 ```http
 GET /api/v1/List/ProductCategory/MDOItems?flat=False
-GET /api/v1/List/ProductCategory/MDOItems?query=sunt
+GET /api/v1/List/ProductCategory/MDOItems?query=consectetur
 ```
 
 
@@ -90,50 +90,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 237,
-    "Name": "Harvey, Turcotte and Smith",
-    "ToolTip": "Est consequatur eos est est ea.",
+    "Id": 590,
+    "Name": "Rowe LLC",
+    "ToolTip": "Et voluptatem qui aut.",
     "Deleted": false,
-    "Rank": 111,
-    "Type": "quis",
+    "Rank": 326,
+    "Type": "dolore",
     "ChildItems": [
       {
-        "Id": 561,
-        "Name": "Durgan-Hessel",
-        "ToolTip": "Consequatur totam qui omnis recusandae.",
+        "Id": 384,
+        "Name": "Lebsack, Wolff and Wisoky",
+        "ToolTip": "A ipsa non in.",
         "Deleted": false,
-        "Rank": 877,
-        "Type": "quos",
+        "Rank": 766,
+        "Type": "autem",
         "ChildItems": [
           {},
           {}
         ],
         "IconHint": "qui",
-        "ColorBlock": 777,
-        "ExtraInfo": "enim",
-        "StyleHint": "tempore",
-        "FullName": "Nova Johns",
+        "ColorBlock": 293,
+        "ExtraInfo": "doloribus",
+        "StyleHint": "dicta",
+        "FullName": "Jonas Stehr",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 163
+            "FieldLength": 520
           }
         }
       }
     ],
-    "IconHint": "esse",
-    "ColorBlock": 503,
-    "ExtraInfo": "et",
-    "StyleHint": "error",
-    "FullName": "Prof. Wilhelmine Feil II",
+    "IconHint": "qui",
+    "ColorBlock": 13,
+    "ExtraInfo": "officia",
+    "StyleHint": "beatae",
+    "FullName": "Stanford Mueller",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 58
+        "FieldLength": 95
       }
     }
   }

@@ -15,6 +15,7 @@ Gets the next (not deleted) sale stage id if the current stage is deleted.
 
 
 If the current stage is not deleted, the CurrentStageId is returned
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -76,7 +77,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 725,
+  "SaleId": 189,
   "IncludeCurrentStage": false
 }
 ```
@@ -87,5 +88,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-919
+285
 ```

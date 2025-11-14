@@ -14,6 +14,8 @@ POST /api/v1/Agents/Project/SaveProjectMember
 Updates the existing ProjectMember or creates a new ProjectMember if the id parameter is 0.
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -61,6 +63,8 @@ The ProjectMember that is saved
 | EmailAddressName | String | The e-mail address description |
 | Comment | String | Comment text on the project membership |
 | FullName | String | The person's full name localized to the current culture/country.  (internal name used in clients for employees) |
+| Registered | String | The date and time when the project member was registered  in UTC. |
+| Updated | String | The date and time when the project member was last updated  in UTC. |
 
 ## Response:
 
@@ -95,6 +99,8 @@ OK
 | EmailAddressName | string | The e-mail address description |
 | Comment | string | Comment text on the project membership |
 | FullName | string | The person's full name localized to the current culture/country.  (internal name used in clients for employees) |
+| Registered | date-time | The date and time when the project member was registered  in UTC. |
+| Updated | date-time | The date and time when the project member was last updated  in UTC. |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -104,31 +110,33 @@ OK
 POST /api/v1/Agents/Project/SaveProjectMember
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectmemberId": 857,
-  "ContactId": 528,
-  "ProjectId": 8,
-  "ContactName": "Goodwin, Zboncak and White",
-  "ContactDepartment": "",
-  "ProjectName": "Kuhn LLC",
-  "EmailId": 507,
-  "EmailAddress": "savion@tillmandouglas.uk",
-  "CountryId": 783,
-  "Firstname": "Rossie",
-  "MiddleName": "Stoltenberg Inc and Sons",
-  "Lastname": "Bednar",
-  "PersonId": 793,
-  "Mrmrs": "maxime",
-  "ProjectMemberTypeName": "Murray LLC",
-  "Phone": "(596)550-6416",
-  "PhoneId": 39,
-  "ProjectMemberTypeId": 454,
-  "EmailAddressName": "bennett@schimmel.us",
-  "Comment": "assumenda",
-  "FullName": "Ms. Mariela Theron Sawayn"
+  "ProjectmemberId": 8,
+  "ContactId": 42,
+  "ProjectId": 385,
+  "ContactName": "Adams Inc and Sons",
+  "ContactDepartment": "visualize 24/365 users",
+  "ProjectName": "Stracke-Collier",
+  "EmailId": 771,
+  "EmailAddress": "lera.keeling@franecki.co.uk",
+  "CountryId": 311,
+  "Firstname": "Savion",
+  "MiddleName": "Boehm-Larson",
+  "Lastname": "Cruickshank",
+  "PersonId": 765,
+  "Mrmrs": "autem",
+  "ProjectMemberTypeName": "Reinger, Tillman and Hyatt",
+  "Phone": "(892)733-1429 x15454",
+  "PhoneId": 517,
+  "ProjectMemberTypeId": 434,
+  "EmailAddressName": "larue.fritsch@vonschamberger.name",
+  "Comment": "itaque",
+  "FullName": "Lacey Nienow",
+  "Registered": "2003-11-15T02:30:47.6944454+01:00",
+  "Updated": "2008-06-23T02:30:47.6944454+02:00"
 }
 ```
 
@@ -139,33 +147,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectmemberId": 992,
-  "ContactId": 924,
-  "ProjectId": 713,
-  "ContactName": "Jacobs Group",
+  "ProjectmemberId": 966,
+  "ContactId": 299,
+  "ProjectId": 858,
+  "ContactName": "Gottlieb-Wisoky",
   "ContactDepartment": "",
-  "ProjectName": "Ondricka-Rath",
-  "EmailId": 515,
-  "EmailAddress": "kaden@baumbach.ca",
-  "CountryId": 825,
-  "Firstname": "Esteban",
-  "MiddleName": "Beier LLC",
-  "Lastname": "Thompson",
-  "PersonId": 218,
-  "Mrmrs": "deserunt",
-  "ProjectMemberTypeName": "Harris-Sawayn",
-  "Phone": "375-783-8390",
-  "PhoneId": 163,
-  "ProjectMemberTypeId": 584,
-  "EmailAddressName": "delfina@wolforn.com",
-  "Comment": "velit",
-  "FullName": "Arielle Schamberger",
+  "ProjectName": "O'Keefe-Cummerata",
+  "EmailId": 488,
+  "EmailAddress": "lyric.jast@abbott.us",
+  "CountryId": 868,
+  "Firstname": "Mohamed",
+  "MiddleName": "Fadel, Casper and Monahan",
+  "Lastname": "Schultz",
+  "PersonId": 767,
+  "Mrmrs": "praesentium",
+  "ProjectMemberTypeName": "Hickle-Sauer",
+  "Phone": "452-624-5642",
+  "PhoneId": 402,
+  "ProjectMemberTypeId": 734,
+  "EmailAddressName": "scot.kuphal@keeling.co.uk",
+  "Comment": "est",
+  "FullName": "Sim Schaefer",
+  "Registered": "2024-07-25T02:30:47.6944454+02:00",
+  "Updated": "2019-05-15T02:30:47.6944454+02:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 163
+      "FieldLength": 322
     }
   }
 }

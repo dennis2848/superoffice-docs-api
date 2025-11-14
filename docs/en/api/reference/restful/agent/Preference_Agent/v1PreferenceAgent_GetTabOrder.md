@@ -14,6 +14,8 @@ POST /api/v1/Agents/Preference/GetTabOrder
 Gets the tab order.
 
 
+NsApiSlow threshold: 1000 ms.
+
 
 
 
@@ -77,11 +79,11 @@ OK
 POST /api/v1/Agents/Preference/GetTabOrder
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TabName": "Emard LLC"
+  "TabName": "Muller-Vandervort"
 }
 ```
 
@@ -92,16 +94,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TabOrderId": 994,
-  "TabName": "Rolfson Group",
-  "Order": "labore",
-  "AssociateId": 391,
+  "TabOrderId": 857,
+  "TabName": "Wolff Inc and Sons",
+  "Order": "hic",
+  "AssociateId": 632,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 781
+      "FieldLength": 900
     }
   }
 }

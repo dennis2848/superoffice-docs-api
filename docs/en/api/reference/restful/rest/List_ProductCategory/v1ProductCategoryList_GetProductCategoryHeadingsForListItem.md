@@ -32,7 +32,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ProductCategory/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/ProductCategory/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -97,56 +97,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 231,
-    "Name": "Funk-O'Kon",
-    "ToolTip": "Voluptatem quam quos laudantium quia earum cupiditate.",
-    "Deleted": true,
-    "Rank": 689,
-    "Type": "voluptates",
-    "ColorBlock": 379,
-    "IconHint": "omnis",
-    "Selected": true,
-    "LastChanged": "2014-04-18T03:47:00.7224209+02:00",
+    "Id": 779,
+    "Name": "Predovic-Stark",
+    "ToolTip": "Ducimus provident praesentium ea.",
+    "Deleted": false,
+    "Rank": 117,
+    "Type": "reprehenderit",
+    "ColorBlock": 212,
+    "IconHint": "numquam",
+    "Selected": false,
+    "LastChanged": "2007-10-17T02:30:53.3505129+02:00",
     "ChildItems": [
       {
-        "Id": 742,
-        "Name": "Ferry-Kovacek",
-        "ToolTip": "Architecto quaerat qui.",
+        "Id": 464,
+        "Name": "Schiller-Pfannerstill",
+        "ToolTip": "Non quibusdam enim.",
         "Deleted": false,
-        "Rank": 890,
-        "Type": "sed",
-        "ColorBlock": 834,
-        "IconHint": "fugiat",
-        "Selected": false,
-        "LastChanged": "2010-08-09T03:47:00.7224209+02:00",
+        "Rank": 850,
+        "Type": "provident",
+        "ColorBlock": 935,
+        "IconHint": "quis",
+        "Selected": true,
+        "LastChanged": "2002-01-24T02:30:53.3505129+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "illo",
-        "StyleHint": "voluptates",
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "et",
         "Hidden": false,
-        "FullName": "Mrs. Eunice Magali Hackett",
+        "FullName": "Macy Schinner",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 797
+            "FieldLength": 736
           }
         }
       }
     ],
-    "ExtraInfo": "facere",
-    "StyleHint": "dolorum",
+    "ExtraInfo": "commodi",
+    "StyleHint": "in",
     "Hidden": false,
-    "FullName": "Mrs. Kaitlin Kerluke MD",
+    "FullName": "Megane Rice",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 682
+        "FieldType": "System.Int32",
+        "FieldLength": 228
       }
     }
   }

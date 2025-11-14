@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/GetBusinesses
 Returns all available businesses that a contact could have.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -79,28 +81,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 891,
-    "Value": "ea",
-    "Tooltip": "voluptatem",
+    "Id": 520,
+    "Value": "nobis",
+    "Tooltip": "corporis",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 751
+        "FieldType": "System.String",
+        "FieldLength": 159
       }
     }
   },
   {
-    "Id": 891,
-    "Value": "ea",
-    "Tooltip": "voluptatem",
+    "Id": 520,
+    "Value": "nobis",
+    "Tooltip": "corporis",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 751
+        "FieldType": "System.String",
+        "FieldLength": 159
       }
     }
   }

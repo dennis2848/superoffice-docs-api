@@ -14,6 +14,8 @@ POST /api/v1/Agents/Ticket/DeleteTicketMessageEntity
 Delete a ticket message
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -65,11 +67,11 @@ No Content
 POST /api/v1/Agents/Ticket/DeleteTicketMessageEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageEntityId": 4
+  "TicketMessageEntityId": 563
 }
 ```
 

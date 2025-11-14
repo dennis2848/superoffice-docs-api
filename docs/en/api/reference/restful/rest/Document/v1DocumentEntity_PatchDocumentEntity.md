@@ -14,7 +14,8 @@ PATCH /api/v1/Document/{id}
 Update a DocumentEntity with changes, as described in a JSON Patch or a JSON Merge Patch document.
 
 
-See <a href="https://tools.ietf.org/html/rfc6902">RFC6902</a> and <a href="https://tools.ietf.org/html/rfc7386">RFC 7396</a>. Update the Department field to "foo" can be done either as a JSON PATCH:
+See <a href="https://tools.ietf.org/html/rfc6902">RFC6902</a> and <a href="https://tools.ietf.org/html/rfc7386">RFC 7396</a>.
+NsApiSlow threshold: 2000 ms. Update the Department field to "foo" can be done either as a JSON PATCH:
 
 ```js
 
@@ -142,18 +143,18 @@ DocumentEntity  updated.
 PATCH /api/v1/Document/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "neque",
+    "path": "tenetur",
     "value": {}
   },
   {
     "op": "add",
-    "path": "neque",
+    "path": "tenetur",
     "value": {}
   }
 ]
@@ -166,88 +167,88 @@ HTTP/1.1 200 DocumentEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 62,
+  "DocumentId": 848,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "voluptatem",
-  "Header": "doloremque",
-  "Name": "Gibson, Harris and Torp",
-  "OurRef": "similique",
-  "YourRef": "et",
-  "CreatedDate": "2008-05-27T03:46:59.988068+02:00",
-  "UpdatedDate": "2002-04-28T03:46:59.988068+02:00",
-  "Description": "Polarised multimedia framework",
+  "Attention": "tempora",
+  "Header": "quae",
+  "Name": "Christiansen-Balistreri",
+  "OurRef": "sunt",
+  "YourRef": "eius",
+  "CreatedDate": "2010-09-16T02:30:52.6161625+02:00",
+  "UpdatedDate": "2000-11-05T02:30:52.6161625+01:00",
+  "Description": "Right-sized transitional policy",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2010-09-14T03:46:59.988068+02:00",
-  "ExternalRef": "est",
+  "Date": "2005-08-20T02:30:52.6161625+02:00",
+  "ExternalRef": "quia",
   "Completed": "Completed",
-  "ActiveLinks": 427,
+  "ActiveLinks": 547,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Adams, Lebsack and Gleason",
-      "Id": 770,
-      "Description": "Networked multi-state methodology",
-      "ExtraInfo": "accusamus",
-      "LinkId": 251,
+      "EntityName": "Becker, O'Reilly and Sporer",
+      "Id": 88,
+      "Description": "Persistent attitude-oriented support",
+      "ExtraInfo": "neque",
+      "LinkId": 323,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 248
+          "FieldType": "System.Int32",
+          "FieldLength": 227
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 162,
-  "Snum": 217,
+  "SuggestedDocumentId": 704,
+  "Snum": 186,
   "UserDefinedFields": {
-    "SuperOffice:1": "Quinn Purdy",
-    "SuperOffice:2": "Cynthia Heller"
+    "SuperOffice:1": "Miss Sonia Lucas Ryan III",
+    "SuperOffice:2": "1302159120"
   },
   "ExtraFields": {
-    "ExtraFields1": "iste",
-    "ExtraFields2": "id"
+    "ExtraFields1": "sint",
+    "ExtraFields2": "perferendis"
   },
   "CustomFields": {
-    "CustomFields1": "non",
-    "CustomFields2": "sed"
+    "CustomFields1": "id",
+    "CustomFields2": "qui"
   },
-  "PublishEventDate": "2012-05-10T03:46:59.988068+02:00",
-  "PublishTo": "2017-11-06T03:46:59.988068+01:00",
-  "PublishFrom": "2015-07-17T03:46:59.988068+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "2009-10-14T02:30:52.6161625+02:00",
+  "PublishTo": "2024-08-27T02:30:52.6161625+02:00",
+  "PublishFrom": "2000-11-14T02:30:52.6161625+01:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 912,
+      "VisibleId": 918,
       "Visibility": "All",
-      "DisplayValue": "dolor",
+      "DisplayValue": "ea",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 219
+          "FieldLength": 763
         }
       }
     },
     {
-      "VisibleId": 912,
+      "VisibleId": 918,
       "Visibility": "All",
-      "DisplayValue": "dolor",
+      "DisplayValue": "ea",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 219
+          "FieldLength": 763
         }
       }
     }
@@ -257,7 +258,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 224
+      "FieldLength": 416
     }
   },
   "_Links": {

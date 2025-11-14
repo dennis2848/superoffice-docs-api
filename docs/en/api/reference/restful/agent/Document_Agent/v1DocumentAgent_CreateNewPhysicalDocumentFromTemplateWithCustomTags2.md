@@ -15,6 +15,7 @@ Create a new physical document based on a document template and store it in the 
 
 
 Tags are substituted according to the provided id's.  Use GetDocumentStream to obtain the created document content. Since there is a potential for a name conflict (the file name stored by the document entity earlier may prove to be invalid), the (possibly amended) document entity is returned. The client should not assume that any earlier, cached entity information is valid.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -121,18 +122,18 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 967,
-  "PersonId": 221,
-  "AppointmentId": 481,
-  "DocumentId": 2,
-  "SaleId": 528,
-  "SelectionId": 638,
-  "ProjectId": 261,
+  "ContactId": 246,
+  "PersonId": 162,
+  "AppointmentId": 774,
+  "DocumentId": 774,
+  "SaleId": 268,
+  "SelectionId": 487,
+  "ProjectId": 856,
   "CustomTags": {
-    "CustomTags1": "inventore",
-    "CustomTags2": "nulla"
+    "CustomTags1": "quia",
+    "CustomTags2": "iure"
   },
-  "UiCulture": "qui"
+  "UiCulture": "unde"
 }
 ```
 
@@ -143,88 +144,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 825,
+  "DocumentId": 996,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "hic",
-  "Header": "rerum",
-  "Name": "Schuster, Nienow and Pagac",
-  "OurRef": "est",
-  "YourRef": "qui",
-  "CreatedDate": "2014-02-17T03:46:54.67576+01:00",
-  "UpdatedDate": "2013-05-27T03:46:54.67576+02:00",
-  "Description": "Versatile bandwidth-monitored groupware",
+  "Attention": "quo",
+  "Header": "dicta",
+  "Name": "Hackett Inc and Sons",
+  "OurRef": "provident",
+  "YourRef": "earum",
+  "CreatedDate": "2013-03-13T02:30:47.1944624+01:00",
+  "UpdatedDate": "2005-06-01T02:30:47.1944624+02:00",
+  "Description": "Exclusive holistic task-force",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2015-11-02T03:46:54.67576+01:00",
-  "ExternalRef": "recusandae",
+  "Date": "2016-02-22T02:30:47.1944624+01:00",
+  "ExternalRef": "provident",
   "Completed": "Completed",
-  "ActiveLinks": 428,
+  "ActiveLinks": 515,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Bernhard-Beatty",
-      "Id": 741,
-      "Description": "Networked object-oriented array",
-      "ExtraInfo": "modi",
-      "LinkId": 897,
+      "EntityName": "Ruecker, Grimes and Adams",
+      "Id": 399,
+      "Description": "Automated cohesive algorithm",
+      "ExtraInfo": "accusamus",
+      "LinkId": 490,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 987
+          "FieldLength": 791
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 528,
-  "Snum": 398,
+  "SuggestedDocumentId": 38,
+  "Snum": 438,
   "UserDefinedFields": {
-    "SuperOffice:1": "Ms. Rodolfo Schinner",
-    "SuperOffice:2": "False"
+    "SuperOffice:1": "Ron Price",
+    "SuperOffice:2": "Aliyah Kovacek"
   },
   "ExtraFields": {
-    "ExtraFields1": "voluptatem",
-    "ExtraFields2": "voluptates"
+    "ExtraFields1": "architecto",
+    "ExtraFields2": "et"
   },
   "CustomFields": {
-    "CustomFields1": "ipsam",
-    "CustomFields2": "vitae"
+    "CustomFields1": "dicta",
+    "CustomFields2": "quibusdam"
   },
-  "PublishEventDate": "2023-08-23T03:46:54.67576+02:00",
-  "PublishTo": "2021-12-07T03:46:54.67576+01:00",
-  "PublishFrom": "2012-06-13T03:46:54.67576+02:00",
+  "PublishEventDate": "2013-01-02T02:30:47.1944624+01:00",
+  "PublishTo": "2007-11-02T02:30:47.1944624+01:00",
+  "PublishFrom": "2008-05-19T02:30:47.1944624+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 249,
+      "VisibleId": 717,
       "Visibility": "All",
-      "DisplayValue": "ducimus",
+      "DisplayValue": "atque",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 877
+          "FieldType": "System.Int32",
+          "FieldLength": 989
         }
       }
     },
     {
-      "VisibleId": 249,
+      "VisibleId": 717,
       "Visibility": "All",
-      "DisplayValue": "ducimus",
+      "DisplayValue": "atque",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 877
+          "FieldType": "System.Int32",
+          "FieldLength": 989
         }
       }
     }
@@ -234,7 +235,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 17
+      "FieldLength": 134
     }
   }
 }

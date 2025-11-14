@@ -14,6 +14,8 @@ POST /api/v1/Agents/Project/GetProject
 Gets a Project object.
 
 
+NsApiSlow threshold: 1000 ms.
+
 
 
 
@@ -27,7 +29,7 @@ Gets a Project object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Project/GetProject?projectId=740
+POST /api/v1/Agents/Project/GetProject?projectId=695
 POST /api/v1/Agents/Project/GetProject?$select=name,department,category/id
 ```
 
@@ -85,7 +87,7 @@ OK
 POST /api/v1/Agents/Project/GetProject
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -95,30 +97,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 272,
-  "Name": "Waters, Prohaska and Stamm",
-  "Description": "Fundamental non-volatile hardware",
+  "ProjectId": 257,
+  "Name": "Langworth Group",
+  "Description": "Business-focused background framework",
   "URL": "http://www.example.com/",
-  "Type": "debitis",
-  "AssociateId": 909,
-  "AssociateFullName": "Miss Deshawn Dillan Miller",
-  "TypeId": 188,
-  "Updated": "2019-07-21T03:46:55.1444933+02:00",
-  "StatusId": 305,
-  "Status": "necessitatibus",
-  "TextId": 517,
-  "PublishTo": "2011-06-22T03:46:55.1444933+02:00",
-  "PublishFrom": "2012-06-04T03:46:55.1444933+02:00",
+  "Type": "atque",
+  "AssociateId": 956,
+  "AssociateFullName": "Dr. Milo Trantow III",
+  "TypeId": 265,
+  "Updated": "2024-11-10T02:30:47.6006984+01:00",
+  "StatusId": 767,
+  "Status": "accusamus",
+  "TextId": 511,
+  "PublishTo": "2002-06-02T02:30:47.6006984+02:00",
+  "PublishFrom": "2007-10-03T02:30:47.6006984+02:00",
   "IsPublished": false,
   "URLName": "http://www.example.com/",
-  "ProjectNumber": "1405617",
-  "ActiveErpLinks": 329,
+  "ProjectNumber": "1376442",
+  "ActiveErpLinks": 63,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 334
+      "FieldType": "System.String",
+      "FieldLength": 5
     }
   }
 }

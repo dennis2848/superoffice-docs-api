@@ -80,7 +80,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -90,37 +90,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 632,
-  "Name": "Hahn-Johnston",
-  "Tooltip": "commodi",
-  "SaveInDb": 243,
-  "Filename": "numquam",
-  "DefaultOref": "natus",
+  "DocumentTemplateId": 501,
+  "Name": "Rodriguez Inc and Sons",
+  "Tooltip": "ratione",
+  "SaveInDb": 554,
+  "Filename": "illo",
+  "DefaultOref": "nostrum",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 245,
-  "IntentId": 783,
-  "IsDefaultPublished": false,
-  "Rank": 6,
-  "LoadTemplateFromPlugin": 761,
-  "MimeType": "quam",
+  "AutoeventId": 932,
+  "IntentId": 970,
+  "IsDefaultPublished": true,
+  "Rank": 833,
+  "LoadTemplateFromPlugin": 596,
+  "MimeType": "nobis",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 198,
+  "DocumentTypeKey": 225,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "alfonso_willms@mueller.us",
+  "EmailSubject": "adrian@hilllfritsch.us",
   "IncludeSignature": false,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "jayme_boehm@krisfay.name",
+  "SenderEmailAddress": "lelah@bernierkoelpin.name",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 620
+      "FieldType": "System.Int32",
+      "FieldLength": 78
     }
   }
 }

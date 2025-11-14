@@ -15,6 +15,7 @@ Deletes the ChatSessionEntity
 
 
 Calls the Chat agent service DeleteChatSessionEntity.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -53,7 +54,7 @@ ChatSessionEntity deleted.
 DELETE /api/v1/ChatSession/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response

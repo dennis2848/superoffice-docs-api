@@ -141,16 +141,16 @@ GET api/archives/findContact?$select=nameDepartment,fullname&amp;$filter=name be
 GET /api/v1/Archive/{archiveProviderName}?$select=name,department,category/id
 GET /api/v1/Archive/{archiveProviderName}?$filter=name begins 'S'
 GET /api/v1/Archive/{archiveProviderName}?$orderBy=name asc
-GET /api/v1/Archive/{archiveProviderName}?$entities=sed
-GET /api/v1/Archive/{archiveProviderName}?$top=655
-GET /api/v1/Archive/{archiveProviderName}?$skip=874
+GET /api/v1/Archive/{archiveProviderName}?$entities=ea
+GET /api/v1/Archive/{archiveProviderName}?$top=187
+GET /api/v1/Archive/{archiveProviderName}?$skip=541
 GET /api/v1/Archive/{archiveProviderName}?$mode=Full
 GET /api/v1/Archive/{archiveProviderName}?$options=GrandTotal=true
-GET /api/v1/Archive/{archiveProviderName}?$context=sit
+GET /api/v1/Archive/{archiveProviderName}?$context=suscipit
 GET /api/v1/Archive/{archiveProviderName}?$format=JSON
-GET /api/v1/Archive/{archiveProviderName}?$metadata=totam
+GET /api/v1/Archive/{archiveProviderName}?$metadata=impedit
 GET /api/v1/Archive/{archiveProviderName}?$inlineCount=AllPages
-GET /api/v1/Archive/{archiveProviderName}?$jsonSafe=True
+GET /api/v1/Archive/{archiveProviderName}?$jsonSafe=False
 GET /api/v1/Archive/{archiveProviderName}?$output=Display
 ```
 
@@ -191,7 +191,7 @@ OK
 GET /api/v1/Archive/{archiveProviderName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -202,21 +202,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "aut",
+  "odata.nextLink": "velit",
   "value": [
     {
-      "PrimaryKey": 9635,
+      "PrimaryKey": 2468,
       "EntityName": "sale",
-      "saleId": 9635,
-      "contactId": 5939,
-      "name": "Homenick, Spencer and Johns"
+      "saleId": 2468,
+      "contactId": 7587,
+      "name": "Daniel Group"
     },
     {
-      "PrimaryKey": 9842,
+      "PrimaryKey": 1539,
       "EntityName": "sale",
-      "saleId": 9842,
-      "contactId": 8858,
-      "name": "Turcotte, Fisher and Ledner"
+      "saleId": 1539,
+      "contactId": 8223,
+      "name": "Daniel-Davis"
     }
   ]
 }

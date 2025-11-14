@@ -226,6 +226,7 @@ items:
   - SuperOffice.CRM.Data.DBC.ExtTableFields
   - SuperOffice.CRM.Data.DBC.ExternalDocumentFields
   - SuperOffice.CRM.Data.DBC.ExternalEventFields
+  - SuperOffice.CRM.Data.DBC.ExternalOwnerFields
   - SuperOffice.CRM.Data.DBC.ExtraFieldsFields
   - SuperOffice.CRM.Data.DBC.ExtraMenusFields
   - SuperOffice.CRM.Data.DBC.ExtraTablesEntryFields
@@ -281,6 +282,7 @@ items:
   - SuperOffice.CRM.Data.DBC.KbWorkflowFields
   - SuperOffice.CRM.Data.DBC.LanguageInfoCountryFields
   - SuperOffice.CRM.Data.DBC.LanguageInfoFields
+  - SuperOffice.CRM.Data.DBC.LeadstatusFields
   - SuperOffice.CRM.Data.DBC.LegalBaseFields
   - SuperOffice.CRM.Data.DBC.LegalHtmlTagsFields
   - SuperOffice.CRM.Data.DBC.LicenseAssocLinkFields
@@ -383,6 +385,7 @@ items:
   - SuperOffice.CRM.Data.DBC.ProjectTypeStatusLinkFields
   - SuperOffice.CRM.Data.DBC.PublishFields
   - SuperOffice.CRM.Data.DBC.PushNotificationServiceFields
+  - SuperOffice.CRM.Data.DBC.QuickFilterInfoFields
   - SuperOffice.CRM.Data.DBC.QuickReplyFields
   - SuperOffice.CRM.Data.DBC.QuoteAlternativeFields
   - SuperOffice.CRM.Data.DBC.QuoteApprReasonFields
@@ -559,6 +562,7 @@ items:
   - SuperOffice.CRM.Data.DBC.TicketTypeFields
   - SuperOffice.CRM.Data.DBC.TicketTypePriorityFields
   - SuperOffice.CRM.Data.DBC.TicketTypeStatusFields
+  - SuperOffice.CRM.Data.DBC.TimeKeepingFields
   - SuperOffice.CRM.Data.DBC.TimestampsFields
   - SuperOffice.CRM.Data.DBC.TravelCurrentFields
   - SuperOffice.CRM.Data.DBC.TravelGeneratedDatabaseFields
@@ -687,6 +691,7 @@ items:
   - SuperOffice.CRM.Data.ExtTableTableInfo
   - SuperOffice.CRM.Data.ExternalDocumentTableInfo
   - SuperOffice.CRM.Data.ExternalEventTableInfo
+  - SuperOffice.CRM.Data.ExternalOwnerTableInfo
   - SuperOffice.CRM.Data.ExtraFieldsTableInfo
   - SuperOffice.CRM.Data.ExtraMenusTableInfo
   - SuperOffice.CRM.Data.ExtraTablesEntryTableInfo
@@ -743,6 +748,7 @@ items:
   - SuperOffice.CRM.Data.KbWorkflowTableInfo
   - SuperOffice.CRM.Data.LanguageInfoCountryTableInfo
   - SuperOffice.CRM.Data.LanguageInfoTableInfo
+  - SuperOffice.CRM.Data.LeadstatusTableInfo
   - SuperOffice.CRM.Data.LegalBaseTableInfo
   - SuperOffice.CRM.Data.LegalHtmlTagsTableInfo
   - SuperOffice.CRM.Data.LicenseAssocLinkTableInfo
@@ -845,6 +851,7 @@ items:
   - SuperOffice.CRM.Data.ProjectTypeStatusLinkTableInfo
   - SuperOffice.CRM.Data.PublishTableInfo
   - SuperOffice.CRM.Data.PushNotificationServiceTableInfo
+  - SuperOffice.CRM.Data.QuickFilterInfoTableInfo
   - SuperOffice.CRM.Data.QuickReplyTableInfo
   - SuperOffice.CRM.Data.QuoteAlternativeTableInfo
   - SuperOffice.CRM.Data.QuoteApprReasonGroupLinkTableInfo
@@ -1021,6 +1028,7 @@ items:
   - SuperOffice.CRM.Data.TicketTypePriorityTableInfo
   - SuperOffice.CRM.Data.TicketTypeStatusTableInfo
   - SuperOffice.CRM.Data.TicketTypeTableInfo
+  - SuperOffice.CRM.Data.TimeKeepingTableInfo
   - SuperOffice.CRM.Data.TimestampsTableInfo
   - SuperOffice.CRM.Data.TravelCurrentTableInfo
   - SuperOffice.CRM.Data.TravelGeneratedDatabaseTableInfo
@@ -14816,6 +14824,60 @@ references:
     name: DashboardTileFieldFields
     isExternal: true
     href: SuperOffice.CRM.Data.DBC.DashboardTileFieldFields.html
+- uid: SuperOffice.CRM.Data.DBC.QuickFilterInfoFields
+  commentId: T:SuperOffice.CRM.Data.DBC.QuickFilterInfoFields
+  isExternal: true
+  href: SuperOffice.CRM.Data.DBC.html
+  name: DBC.QuickFilterInfoFields
+  nameWithType: DBC.QuickFilterInfoFields
+  fullName: SuperOffice.CRM.Data.DBC.QuickFilterInfoFields
+  spec.csharp:
+  - uid: SuperOffice.CRM.Data.DBC
+    name: DBC
+    isExternal: true
+    href: SuperOffice.CRM.Data.DBC.html
+  - name: .
+  - uid: SuperOffice.CRM.Data.DBC.QuickFilterInfoFields
+    name: QuickFilterInfoFields
+    isExternal: true
+    href: SuperOffice.CRM.Data.DBC.QuickFilterInfoFields.html
+  spec.vb:
+  - uid: SuperOffice.CRM.Data.DBC
+    name: DBC
+    isExternal: true
+    href: SuperOffice.CRM.Data.DBC.html
+  - name: .
+  - uid: SuperOffice.CRM.Data.DBC.QuickFilterInfoFields
+    name: QuickFilterInfoFields
+    isExternal: true
+    href: SuperOffice.CRM.Data.DBC.QuickFilterInfoFields.html
+- uid: SuperOffice.CRM.Data.DBC.ExternalOwnerFields
+  commentId: T:SuperOffice.CRM.Data.DBC.ExternalOwnerFields
+  isExternal: true
+  href: SuperOffice.CRM.Data.DBC.html
+  name: DBC.ExternalOwnerFields
+  nameWithType: DBC.ExternalOwnerFields
+  fullName: SuperOffice.CRM.Data.DBC.ExternalOwnerFields
+  spec.csharp:
+  - uid: SuperOffice.CRM.Data.DBC
+    name: DBC
+    isExternal: true
+    href: SuperOffice.CRM.Data.DBC.html
+  - name: .
+  - uid: SuperOffice.CRM.Data.DBC.ExternalOwnerFields
+    name: ExternalOwnerFields
+    isExternal: true
+    href: SuperOffice.CRM.Data.DBC.ExternalOwnerFields.html
+  spec.vb:
+  - uid: SuperOffice.CRM.Data.DBC
+    name: DBC
+    isExternal: true
+    href: SuperOffice.CRM.Data.DBC.html
+  - name: .
+  - uid: SuperOffice.CRM.Data.DBC.ExternalOwnerFields
+    name: ExternalOwnerFields
+    isExternal: true
+    href: SuperOffice.CRM.Data.DBC.ExternalOwnerFields.html
 - uid: SuperOffice.CRM.Data.DBC.FormFields
   commentId: T:SuperOffice.CRM.Data.DBC.FormFields
   isExternal: true
@@ -15140,6 +15202,33 @@ references:
     name: BoardViewSettingsFields
     isExternal: true
     href: SuperOffice.CRM.Data.DBC.BoardViewSettingsFields.html
+- uid: SuperOffice.CRM.Data.DBC.TimeKeepingFields
+  commentId: T:SuperOffice.CRM.Data.DBC.TimeKeepingFields
+  isExternal: true
+  href: SuperOffice.CRM.Data.DBC.html
+  name: DBC.TimeKeepingFields
+  nameWithType: DBC.TimeKeepingFields
+  fullName: SuperOffice.CRM.Data.DBC.TimeKeepingFields
+  spec.csharp:
+  - uid: SuperOffice.CRM.Data.DBC
+    name: DBC
+    isExternal: true
+    href: SuperOffice.CRM.Data.DBC.html
+  - name: .
+  - uid: SuperOffice.CRM.Data.DBC.TimeKeepingFields
+    name: TimeKeepingFields
+    isExternal: true
+    href: SuperOffice.CRM.Data.DBC.TimeKeepingFields.html
+  spec.vb:
+  - uid: SuperOffice.CRM.Data.DBC
+    name: DBC
+    isExternal: true
+    href: SuperOffice.CRM.Data.DBC.html
+  - name: .
+  - uid: SuperOffice.CRM.Data.DBC.TimeKeepingFields
+    name: TimeKeepingFields
+    isExternal: true
+    href: SuperOffice.CRM.Data.DBC.TimeKeepingFields.html
 - uid: SuperOffice.CRM.Data.DBC.OnlineAppFields
   commentId: T:SuperOffice.CRM.Data.DBC.OnlineAppFields
   isExternal: true
@@ -16166,6 +16255,33 @@ references:
     name: UtmParametersFields
     isExternal: true
     href: SuperOffice.CRM.Data.DBC.UtmParametersFields.html
+- uid: SuperOffice.CRM.Data.DBC.LeadstatusFields
+  commentId: T:SuperOffice.CRM.Data.DBC.LeadstatusFields
+  isExternal: true
+  href: SuperOffice.CRM.Data.DBC.html
+  name: DBC.LeadstatusFields
+  nameWithType: DBC.LeadstatusFields
+  fullName: SuperOffice.CRM.Data.DBC.LeadstatusFields
+  spec.csharp:
+  - uid: SuperOffice.CRM.Data.DBC
+    name: DBC
+    isExternal: true
+    href: SuperOffice.CRM.Data.DBC.html
+  - name: .
+  - uid: SuperOffice.CRM.Data.DBC.LeadstatusFields
+    name: LeadstatusFields
+    isExternal: true
+    href: SuperOffice.CRM.Data.DBC.LeadstatusFields.html
+  spec.vb:
+  - uid: SuperOffice.CRM.Data.DBC
+    name: DBC
+    isExternal: true
+    href: SuperOffice.CRM.Data.DBC.html
+  - name: .
+  - uid: SuperOffice.CRM.Data.DBC.LeadstatusFields
+    name: LeadstatusFields
+    isExternal: true
+    href: SuperOffice.CRM.Data.DBC.LeadstatusFields.html
 - uid: SuperOffice.CRM.Data.DBC.TicketTypeFields
   commentId: T:SuperOffice.CRM.Data.DBC.TicketTypeFields
   isExternal: true
@@ -16719,6 +16835,14 @@ references:
   name: ExternalEventTableInfo
   nameWithType: ExternalEventTableInfo
   fullName: SuperOffice.CRM.Data.ExternalEventTableInfo
+- uid: SuperOffice.CRM.Data.ExternalOwnerTableInfo
+  commentId: T:SuperOffice.CRM.Data.ExternalOwnerTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  href: SuperOffice.CRM.Data.ExternalOwnerTableInfo.html
+  name: ExternalOwnerTableInfo
+  nameWithType: ExternalOwnerTableInfo
+  fullName: SuperOffice.CRM.Data.ExternalOwnerTableInfo
 - uid: SuperOffice.CRM.Data.ExtFieldTableInfo
   commentId: T:SuperOffice.CRM.Data.ExtFieldTableInfo
   parent: SuperOffice.CRM.Data
@@ -17182,6 +17306,14 @@ references:
   name: LanguageInfoCountryTableInfo
   nameWithType: LanguageInfoCountryTableInfo
   fullName: SuperOffice.CRM.Data.LanguageInfoCountryTableInfo
+- uid: SuperOffice.CRM.Data.LeadstatusTableInfo
+  commentId: T:SuperOffice.CRM.Data.LeadstatusTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  href: SuperOffice.CRM.Data.LeadstatusTableInfo.html
+  name: LeadstatusTableInfo
+  nameWithType: LeadstatusTableInfo
+  fullName: SuperOffice.CRM.Data.LeadstatusTableInfo
 - uid: SuperOffice.CRM.Data.LegalBaseTableInfo
   commentId: T:SuperOffice.CRM.Data.LegalBaseTableInfo
   parent: SuperOffice.CRM.Data
@@ -17998,6 +18130,14 @@ references:
   name: PushNotificationServiceTableInfo
   nameWithType: PushNotificationServiceTableInfo
   fullName: SuperOffice.CRM.Data.PushNotificationServiceTableInfo
+- uid: SuperOffice.CRM.Data.QuickFilterInfoTableInfo
+  commentId: T:SuperOffice.CRM.Data.QuickFilterInfoTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  href: SuperOffice.CRM.Data.QuickFilterInfoTableInfo.html
+  name: QuickFilterInfoTableInfo
+  nameWithType: QuickFilterInfoTableInfo
+  fullName: SuperOffice.CRM.Data.QuickFilterInfoTableInfo
 - uid: SuperOffice.CRM.Data.QuickReplyTableInfo
   commentId: T:SuperOffice.CRM.Data.QuickReplyTableInfo
   parent: SuperOffice.CRM.Data
@@ -19382,6 +19522,14 @@ references:
   name: TicketTypeStatusTableInfo
   nameWithType: TicketTypeStatusTableInfo
   fullName: SuperOffice.CRM.Data.TicketTypeStatusTableInfo
+- uid: SuperOffice.CRM.Data.TimeKeepingTableInfo
+  commentId: T:SuperOffice.CRM.Data.TimeKeepingTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  href: SuperOffice.CRM.Data.TimeKeepingTableInfo.html
+  name: TimeKeepingTableInfo
+  nameWithType: TimeKeepingTableInfo
+  fullName: SuperOffice.CRM.Data.TimeKeepingTableInfo
 - uid: SuperOffice.CRM.Data.TimestampsTableInfo
   commentId: T:SuperOffice.CRM.Data.TimestampsTableInfo
   parent: SuperOffice.CRM.Data

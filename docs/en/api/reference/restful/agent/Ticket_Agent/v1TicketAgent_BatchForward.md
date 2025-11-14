@@ -15,6 +15,7 @@ Forwards selected tickets to specified recipients.
 
 
 This method starts a batch task.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -76,27 +77,27 @@ OK
 POST /api/v1/Agents/Ticket/BatchForward
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "TicketIds": [
-    867,
-    825
+    435,
+    512
   ],
   "To": [
-    "rerum",
-    "sed"
+    "et",
+    "qui"
   ],
   "Cc": [
-    "esse",
-    "repellat"
+    "mollitia",
+    "quos"
   ],
   "Bcc": [
-    "corporis",
-    "repellat"
+    "assumenda",
+    "itaque"
   ],
-  "Comment": "et",
+  "Comment": "saepe",
   "CloseTicket": true
 }
 ```
@@ -107,5 +108,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-797
+509
 ```

@@ -14,6 +14,8 @@ POST /api/v1/Agents/Preference/SavePreferenceDescriptionLine
 Updates the existing PreferenceDescriptionLine or creates a new PreferenceDescriptionLine if the id parameter is 0.
 
 
+NsApiSlow threshold: 1000 ms.
+
 
 
 
@@ -74,15 +76,15 @@ OK
 POST /api/v1/Agents/Preference/SavePreferenceDescriptionLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 485,
-  "PrefDescId": 658,
-  "PrefValue": "explicabo",
-  "PrefShowValue": "perspiciatis",
-  "Description": "Horizontal asynchronous success",
+  "PrefDescLineId": 489,
+  "PrefDescId": 187,
+  "PrefValue": "tempore",
+  "PrefShowValue": "omnis",
+  "Description": "Diverse system-worthy benchmark",
   "IsBuiltin": false
 }
 ```
@@ -94,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 233,
-  "PrefDescId": 369,
-  "PrefValue": "nisi",
-  "PrefShowValue": "porro",
-  "Description": "Assimilated fresh-thinking instruction set",
-  "IsBuiltin": true,
+  "PrefDescLineId": 361,
+  "PrefDescId": 281,
+  "PrefValue": "possimus",
+  "PrefShowValue": "suscipit",
+  "Description": "Cross-group demand-driven intranet",
+  "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 449
+      "FieldLength": 647
     }
   }
 }

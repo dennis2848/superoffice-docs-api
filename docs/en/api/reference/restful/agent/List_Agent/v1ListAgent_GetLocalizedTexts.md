@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/GetLocalizedTexts
 Gets all localized texts in the CRM database.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -71,7 +73,7 @@ OK
 POST /api/v1/Agents/List/GetLocalizedTexts
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -82,18 +84,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageId": 416,
-    "ResourceId": 888,
-    "Text": "sapiente",
+    "LanguageId": 367,
+    "ResourceId": 401,
+    "Text": "voluptatem",
     "Type": "Column",
-    "LocalizedTextId": 733,
-    "IsBuiltIn": false,
+    "LocalizedTextId": 901,
+    "IsBuiltIn": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 210
+        "FieldType": "System.String",
+        "FieldLength": 204
       }
     }
   }

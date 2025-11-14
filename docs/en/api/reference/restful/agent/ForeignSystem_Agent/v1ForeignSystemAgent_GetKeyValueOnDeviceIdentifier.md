@@ -15,6 +15,7 @@ Returning a foreign key string value by its key name and device identifier, that
 
 
 A table name and record ID can also be specified.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -76,16 +77,16 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetKeyValueOnDeviceIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Mayert, Hirthe and Bosco",
-  "DeviceName": "Kuhlman LLC",
-  "DeviceIdentifier": "eveniet",
-  "KeyName": "Ortiz-Konopelski",
-  "TableName": "Legros, Borer and Boyer",
-  "RecordId": 525
+  "ApplicationName": "Okuneva-Nienow",
+  "DeviceName": "Adams, Russel and Eichmann",
+  "DeviceIdentifier": "molestiae",
+  "KeyName": "Herman, Lockman and Marquardt",
+  "TableName": "Murphy-Kris",
+  "RecordId": 777
 }
 ```
 
@@ -95,5 +96,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"aliquam"
+"expedita"
 ```

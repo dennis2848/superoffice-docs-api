@@ -14,6 +14,9 @@ POST /api/v1/Agents/User/GetUserFromEjUserId
 Get user from ejUserId - used for eJournal Legacy Support.
 
 
+NsApiSlow threshold: 2000 ms.
+
+
 ## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
 
 
@@ -100,11 +103,11 @@ OK
 POST /api/v1/Agents/User/GetUserFromEjUserId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjUserId": 303
+  "EjUserId": 506
 }
 ```
 
@@ -116,14 +119,14 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AssociateId": 986,
-    "Name": "Nitzsche Inc and Sons",
-    "Rank": 313,
-    "Tooltip": "et",
+    "AssociateId": 949,
+    "Name": "Daniel-Monahan",
+    "Rank": 471,
+    "Tooltip": "autem",
     "LicenseOwners": [
       {
-        "Name": "Gutmann-Torphy",
-        "Description": "Phased logistical hierarchy",
+        "Name": "Dibbert, Morar and Mueller",
+        "Description": "Future-proofed zero tolerance access",
         "RestrictedModuleLicenses": [
           {},
           {}
@@ -137,13 +140,13 @@ Content-Type: application/json; charset=utf-8
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 537
+            "FieldLength": 37
           }
         }
       },
       {
-        "Name": "Gutmann-Torphy",
-        "Description": "Phased logistical hierarchy",
+        "Name": "Dibbert, Morar and Mueller",
+        "Description": "Future-proofed zero tolerance access",
         "RestrictedModuleLicenses": [
           {},
           {}
@@ -157,7 +160,7 @@ Content-Type: application/json; charset=utf-8
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 537
+            "FieldLength": 37
           }
         }
       }
@@ -166,110 +169,110 @@ Content-Type: application/json; charset=utf-8
     "UserGroup": null,
     "OtherGroups": [
       {
-        "Value": "consequuntur",
-        "Tooltip": "sunt",
-        "Id": 302,
-        "Rank": 362,
+        "Value": "at",
+        "Tooltip": "aspernatur",
+        "Id": 996,
+        "Rank": 538,
         "Deleted": false,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 883
+            "FieldType": "System.Int32",
+            "FieldLength": 442
           }
         }
       }
     ],
     "Person": null,
     "Deleted": false,
-    "Lastlogin": "2014-03-26T03:46:55.628852+01:00",
-    "Lastlogout": "2007-07-10T03:46:55.628852+02:00",
-    "EjUserId": 177,
-    "RequestSignature": "minima",
+    "Lastlogin": "2018-08-14T02:30:48.1319312+02:00",
+    "Lastlogout": "2017-07-27T02:30:48.1319312+02:00",
+    "EjUserId": 809,
+    "RequestSignature": "facere",
     "Type": "AnonymousAssociate",
-    "IsPersonRetired": true,
-    "IsOnTravel": false,
+    "IsPersonRetired": false,
+    "IsOnTravel": true,
     "Credentials": [
       {
         "Type": null,
-        "Value": "laborum",
-        "DisplayValue": "voluptatibus",
+        "Value": "sequi",
+        "DisplayValue": "expedita",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 406
+            "FieldLength": 573
           }
         }
       },
       {
         "Type": null,
-        "Value": "laborum",
-        "DisplayValue": "voluptatibus",
+        "Value": "sequi",
+        "DisplayValue": "expedita",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 406
+            "FieldLength": 573
           }
         }
       }
     ],
-    "UserName": "Bartoletti Group",
+    "UserName": "Runte Inc and Sons",
     "TicketCategories": [
       {
-        "Id": 190,
-        "Name": "Shields, Beier and Wintheiser",
-        "ToolTip": "Tenetur iure dolorem nulla at enim reprehenderit.",
-        "Deleted": true,
-        "Rank": 622,
-        "Type": "eius",
+        "Id": 184,
+        "Name": "Collins-Grady",
+        "ToolTip": "Ratione aut quod hic quae rerum quo.",
+        "Deleted": false,
+        "Rank": 40,
+        "Type": "aliquam",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "possimus",
-        "ColorBlock": 72,
-        "ExtraInfo": "neque",
-        "StyleHint": "aliquam",
-        "FullName": "Dr. Alfonso Dietrich I",
+        "IconHint": "vel",
+        "ColorBlock": 452,
+        "ExtraInfo": "sequi",
+        "StyleHint": "id",
+        "FullName": "Joaquin Adams DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 95
+            "FieldLength": 306
           }
         }
       }
     ],
-    "NickName": "Adams-Shields",
+    "NickName": "Yost-Kreiger",
     "WaitingForApproval": false,
     "ExtraFields": {
-      "ExtraFields1": "rerum",
-      "ExtraFields2": "fugit"
+      "ExtraFields1": "maxime",
+      "ExtraFields2": "quas"
     },
     "CustomFields": {
-      "CustomFields1": "perspiciatis",
-      "CustomFields2": "eos"
+      "CustomFields1": "architecto",
+      "CustomFields2": "consequatur"
     },
     "PostSaveCommands": [
       {
-        "Name": "Ondricka-Reichert",
-        "DisplayName": "Wilkinson, Schimmel and Kunde",
-        "Description": "Multi-tiered 24 hour pricing structure",
-        "ToolTip": "Nesciunt tenetur.",
+        "Name": "Luettgen-Heathcote",
+        "DisplayName": "Blanda-Block",
+        "Description": "Profit-focused incremental initiative",
+        "ToolTip": "Non magni quia praesentium velit.",
         "Actions": "Implicit",
-        "ActionData": "doloribus",
+        "ActionData": "voluptatem",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 806
+            "FieldType": "System.String",
+            "FieldLength": 6
           }
         }
       }
@@ -279,7 +282,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 257
+        "FieldLength": 192
       }
     }
   }

@@ -15,6 +15,7 @@ Return an given array user defined field identified by the owner and the prog-id
 
 
 The prog-id is used as the key in the entity carriers. Note this may be different than the currently published field layout.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -110,13 +111,13 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromProgIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "ProgIds": [
-    "nihil",
-    "sunt"
+    "qui",
+    "numquam"
   ],
   "OwnerType": "Appointment"
 }
@@ -130,46 +131,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 547,
-    "ColumnId": 973,
-    "FieldDefault": "doloremque",
-    "FieldHeight": 477,
-    "FieldLabel": "optio",
-    "FieldLeft": 259,
-    "FieldTop": 133,
+    "UDefFieldId": 605,
+    "ColumnId": 123,
+    "FieldDefault": "possimus",
+    "FieldHeight": 738,
+    "FieldLabel": "et",
+    "FieldLeft": 336,
+    "FieldTop": 393,
     "FieldType": "Checkbox",
-    "FieldWidth": 947,
-    "FormatMask": "in",
+    "FieldWidth": 468,
+    "FormatMask": "dolorem",
     "HideLabel": false,
     "IsIndexed": false,
-    "LabelHeight": 198,
-    "LabelLeft": 778,
-    "LabelTop": 845,
-    "LabelWidth": 670,
-    "LastVersionId": 615,
-    "ListTableId": 366,
-    "IsMandatory": false,
+    "LabelHeight": 863,
+    "LabelLeft": 287,
+    "LabelTop": 179,
+    "LabelWidth": 126,
+    "LastVersionId": 518,
+    "ListTableId": 52,
+    "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 835,
-    "ProgId": "harum",
-    "IsReadOnly": true,
-    "ShortLabel": "culpa",
-    "TabOrder": 77,
-    "TextLength": 242,
-    "Tooltip": "impedit",
-    "UdefIdentity": 1002,
-    "UDListDefinitionId": 698,
+    "Page1LineNo": 936,
+    "ProgId": "ab",
+    "IsReadOnly": false,
+    "ShortLabel": "maxime",
+    "TabOrder": 382,
+    "TextLength": 434,
+    "Tooltip": "quam",
+    "UdefIdentity": 92,
+    "UDListDefinitionId": 765,
     "Justification": "Center",
-    "Version": 454,
-    "TemplateVariableName": "Schaefer-Yost",
+    "Version": 430,
+    "TemplateVariableName": "Beahan-Mueller",
     "HasBeenPublished": false,
-    "MdoListName": "Glover Group",
+    "MdoListName": "Mayert LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 437
+        "FieldLength": 285
       }
     }
   }

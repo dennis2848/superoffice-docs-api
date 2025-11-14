@@ -94,7 +94,7 @@ ProjectEntity found.
 GET /api/v1/Project/UdefLayout/Published/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -104,46 +104,46 @@ HTTP/1.1 200 ProjectEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 54,
-  "ColumnId": 347,
-  "FieldDefault": "quisquam",
-  "FieldHeight": 276,
-  "FieldLabel": "saepe",
-  "FieldLeft": 250,
-  "FieldTop": 552,
+  "UDefFieldId": 404,
+  "ColumnId": 191,
+  "FieldDefault": "explicabo",
+  "FieldHeight": 581,
+  "FieldLabel": "neque",
+  "FieldLeft": 183,
+  "FieldTop": 29,
   "FieldType": "Checkbox",
-  "FieldWidth": 174,
-  "FormatMask": "in",
+  "FieldWidth": 227,
+  "FormatMask": "necessitatibus",
   "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 154,
-  "LabelLeft": 472,
-  "LabelTop": 67,
-  "LabelWidth": 104,
-  "LastVersionId": 727,
-  "ListTableId": 373,
-  "IsMandatory": false,
+  "LabelHeight": 308,
+  "LabelLeft": 251,
+  "LabelTop": 454,
+  "LabelWidth": 58,
+  "LastVersionId": 746,
+  "ListTableId": 317,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 698,
-  "ProgId": "quidem",
-  "IsReadOnly": false,
-  "ShortLabel": "quaerat",
-  "TabOrder": 81,
-  "TextLength": 450,
-  "Tooltip": "est",
-  "UdefIdentity": 331,
-  "UDListDefinitionId": 719,
+  "Page1LineNo": 911,
+  "ProgId": "odit",
+  "IsReadOnly": true,
+  "ShortLabel": "iure",
+  "TabOrder": 94,
+  "TextLength": 401,
+  "Tooltip": "rerum",
+  "UdefIdentity": 993,
+  "UDListDefinitionId": 235,
   "Justification": "Center",
-  "Version": 579,
-  "TemplateVariableName": "Predovic-Pollich",
+  "Version": 410,
+  "TemplateVariableName": "Ritchie, Paucek and Fay",
   "HasBeenPublished": true,
-  "MdoListName": "Ondricka Inc and Sons",
+  "MdoListName": "Kilback LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 686
+      "FieldLength": 199
     }
   }
 }

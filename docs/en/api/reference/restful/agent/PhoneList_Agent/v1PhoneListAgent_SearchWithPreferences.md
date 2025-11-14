@@ -15,6 +15,7 @@ Searching the phone list.
 
 
 Search is based on the supplied preferences.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -86,11 +87,11 @@ OK
 POST /api/v1/Agents/PhoneList/SearchWithPreferences
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SearchString": "modi",
+  "SearchString": "voluptatem",
   "Preferences": null
 }
 ```
@@ -103,22 +104,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "(118)151-4117",
-    "PersonCellPhone": "(195)969-0936",
-    "PersonPrivatePhone": "(753)546-6770",
-    "PersonFaxNumber": "594044",
-    "PersonPagerNumber": "376923",
-    "PersonEmail": "kali_spinka@farrellrenner.co.uk",
-    "Id": 449,
-    "Name": "Pacocha-Fahey",
-    "Tooltip": "labore",
-    "UniqueId": "eos",
+    "PersonDirectPhone": "548.665.5133 x1811",
+    "PersonCellPhone": "(903)961-5377 x568",
+    "PersonPrivatePhone": "175-485-2882",
+    "PersonFaxNumber": "1229202",
+    "PersonPagerNumber": "1077283",
+    "PersonEmail": "barry@huelbraun.name",
+    "Id": 109,
+    "Name": "Abshire, King and Yundt",
+    "Tooltip": "qui",
+    "UniqueId": "sit",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 976
+        "FieldLength": 741
       }
     }
   }

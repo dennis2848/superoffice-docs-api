@@ -14,6 +14,8 @@ POST /api/v1/Agents/Workflow/GetWorkflowStepOption
 Get WorkflowStepOption by ID
 
 
+NsApiSlow threshold: 1000 ms.
+
 
 
 
@@ -78,11 +80,11 @@ OK
 POST /api/v1/Agents/Workflow/GetWorkflowStepOption
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowStepOptionId": 756
+  "WorkflowStepOptionId": 625
 }
 ```
 
@@ -94,23 +96,23 @@ Content-Type: application/json; charset=utf-8
 
 {
   "OptionType": "FormData",
-  "WorkflowStepOptionId": 24,
-  "WorkflowStepId": 121,
-  "WorkflowId": 447,
-  "Name": "O'Hara-Erdman",
-  "Rank": 782,
+  "WorkflowStepOptionId": 249,
+  "WorkflowStepId": 998,
+  "WorkflowId": 40,
+  "Name": "Heidenreich, Daniel and Morar",
+  "Rank": 395,
   "Steps": [
     {
-      "WorkflowStepId": 599,
-      "WorkflowId": 349,
+      "WorkflowStepId": 154,
+      "WorkflowId": 492,
       "StepType": "AddToList",
-      "Rank": 346
+      "Rank": 183
     },
     {
-      "WorkflowStepId": 599,
-      "WorkflowId": 349,
+      "WorkflowStepId": 154,
+      "WorkflowId": 492,
       "StepType": "AddToList",
-      "Rank": 346
+      "Rank": 183
     }
   ]
 }

@@ -14,6 +14,8 @@ POST /api/v1/Agents/FreeText/SetSingleWordOperator
 Sets the operator used when matching single words
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -65,7 +67,7 @@ No Content
 POST /api/v1/Agents/FreeText/SetSingleWordOperator
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {

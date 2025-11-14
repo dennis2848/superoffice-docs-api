@@ -14,6 +14,8 @@ POST /api/v1/Agents/Ticket/SaveTicketMessageEntityWithNotify
 Saves a ticket message and performs any user notifications
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -105,7 +107,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "NewEntity": null,
-  "Notify": true
+  "Notify": false
 }
 ```
 
@@ -116,28 +118,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 943,
+  "EjMessageId": 967,
   "Ticket": null,
-  "CreatedAt": "2001-11-16T03:46:55.550729+01:00",
+  "CreatedAt": "1999-10-25T02:30:48.0538071+02:00",
   "CreatedBy": null,
-  "Author": "commodi",
+  "Author": "qui",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "maxime",
-  "TimeSpent": 620,
-  "Body": "dicta",
-  "HtmlBody": "corrupti",
-  "EmailHeader": "cecile@walker.name",
-  "DebugInfo": "provident",
-  "MailSorter": "ut",
+  "MessageId": "asperiores",
+  "TimeSpent": 718,
+  "Body": "aut",
+  "HtmlBody": "dolor",
+  "EmailHeader": "walter@mayertbrekke.name",
+  "DebugInfo": "pariatur",
+  "MailSorter": "dicta",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "dolor",
+  "SearchTitle": "praesentium",
   "MessageHeaders": [
     {
-      "Id": 259,
-      "Name": "Hudson-Turcotte",
-      "Value": "harum",
+      "Id": 793,
+      "Name": "Veum Group",
+      "Value": "ipsum",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -145,50 +147,50 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 122
+          "FieldLength": 11
         }
       }
     }
   ],
   "Important": false,
-  "Language": "similique",
-  "Sentiment": 286,
-  "SentimentConfidence": 255,
+  "Language": "et",
+  "Sentiment": 78,
+  "SentimentConfidence": 817,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 801,
-      "Name": "Beatty-Osinski",
-      "ContentType": "optio",
-      "AttSize": 230,
-      "InlineImage": false,
-      "ContentId": "vero",
-      "AuthKey": "quos",
-      "IsSafeFileExtension": false,
+      "AttachmentId": 634,
+      "Name": "Sipes, Konopelski and Volkman",
+      "ContentType": "sequi",
+      "AttSize": 840,
+      "InlineImage": true,
+      "ContentId": "voluptatem",
+      "AuthKey": "ipsam",
+      "IsSafeFileExtension": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 482
+          "FieldLength": 297
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "unde",
-    "ExtraFields2": "repellendus"
+    "ExtraFields1": "molestiae",
+    "ExtraFields2": "quasi"
   },
   "CustomFields": {
-    "CustomFields1": "voluptatem",
-    "CustomFields2": "laborum"
+    "CustomFields1": "suscipit",
+    "CustomFields2": "velit"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 450
+      "FieldLength": 452
     }
   }
 }

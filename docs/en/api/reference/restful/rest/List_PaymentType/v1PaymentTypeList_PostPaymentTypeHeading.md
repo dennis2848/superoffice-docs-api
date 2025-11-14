@@ -80,12 +80,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 565,
-  "Name": "Greenfelder-Gottlieb",
-  "Tooltip": "minima",
+  "HeadingId": 339,
+  "Name": "Schmeler-Wintheiser",
+  "Tooltip": "eius",
   "Deleted": true,
-  "Rank": 179,
-  "UdListDefinitionId": 370
+  "Rank": 888,
+  "UdListDefinitionId": 183
 }
 ```
 
@@ -96,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 402,
-  "Name": "Konopelski Group",
-  "Tooltip": "est",
+  "HeadingId": 690,
+  "Name": "Dare Group",
+  "Tooltip": "qui",
   "Deleted": true,
-  "Rank": 850,
-  "UdListDefinitionId": 675,
+  "Rank": 718,
+  "UdListDefinitionId": 736,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 380
+      "FieldType": "System.Int32",
+      "FieldLength": 116
     }
   }
 }

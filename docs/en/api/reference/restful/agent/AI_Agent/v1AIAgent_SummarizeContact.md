@@ -14,6 +14,11 @@ POST /api/v1/Agents/AI/SummarizeContact
 Generate a short summary of the activities on a contact
 
 
+NsApiSlow threshold: 2000 ms.
+
+
+## Experimental: ## The AI agent is experimental, subject to change, and not intended for partners.
+
 
 
 
@@ -71,13 +76,13 @@ OK
 POST /api/v1/Agents/AI/SummarizeContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 982,
-  "NumSentences": 245,
-  "IsoLangCode": "eum"
+  "ContactId": 561,
+  "NumSentences": 152,
+  "IsoLangCode": "dolor"
 }
 ```
 
@@ -87,5 +92,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"vitae"
+"natus"
 ```

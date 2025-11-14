@@ -14,7 +14,8 @@ POST /api/v1/Agents/Document/GetContactDocuments
 Method that returns a specified number of document appointments within a time range.
 
 
-The document appointments belong to the contact specified.
+The document appointments belong to the contact specified. 
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -98,14 +99,14 @@ OK
 POST /api/v1/Agents/Document/GetContactDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 907,
-  "StartTime": "2023-08-25T03:46:54.6132622+02:00",
-  "EndTime": "2021-12-31T03:46:54.6132622+01:00",
-  "Count": 177
+  "ContactId": 213,
+  "StartTime": "2016-03-14T02:30:47.0694635+01:00",
+  "EndTime": "2023-03-26T02:30:47.0694635+01:00",
+  "Count": 201
 }
 ```
 
@@ -117,32 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 18,
-    "Attention": "animi",
-    "Header": "voluptatem",
-    "Name": "Powlowski-Feeney",
-    "OurRef": "temporibus",
-    "YourRef": "cumque",
-    "Description": "Business-focused user-facing extranet",
-    "DocumentTemplate": "est",
+    "DocumentId": 683,
+    "Attention": "eaque",
+    "Header": "ullam",
+    "Name": "Beatty-Hauck",
+    "OurRef": "neque",
+    "YourRef": "sint",
+    "Description": "Multi-channelled 24/7 projection",
+    "DocumentTemplate": "dolorem",
     "IsPublished": false,
-    "PersonId": 101,
-    "PersonFullName": "Devonte Davis",
-    "AssociateFullName": "Hyman Ariane Beer V",
-    "ContactId": 719,
-    "ContactName": "Harvey, Glover and Hermann",
-    "ProjectId": 511,
-    "ProjectName": "Daniel-Boyer",
-    "AssociateId": 252,
-    "Snum": 415,
-    "SaleId": 970,
-    "SaleName": "Dare Inc and Sons",
+    "PersonId": 838,
+    "PersonFullName": "Kathlyn Champlin",
+    "AssociateFullName": "Prof. Josefina Rodriguez",
+    "ContactId": 74,
+    "ContactName": "Gerhold, Renner and Crona",
+    "ProjectId": 721,
+    "ProjectName": "Kassulke, Wuckert and Roob",
+    "AssociateId": 422,
+    "Snum": 362,
+    "SaleId": 548,
+    "SaleName": "Lind-Hane",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 924
+        "FieldLength": 604
       }
     }
   }

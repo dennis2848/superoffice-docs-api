@@ -15,6 +15,7 @@ Retrieve a stream to a document template based on its id.
 
 
 Sanitizes the contents if possible.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -72,12 +73,12 @@ OK
 POST /api/v1/Agents/Document/GetSanitizedTemplateStreamFromId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TemplateId": 840,
-  "UiCulture": "aut"
+  "TemplateId": 808,
+  "UiCulture": "voluptas"
 }
 ```
 

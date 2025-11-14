@@ -83,12 +83,12 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 3,
-  "Name": "Weber-Johnson",
-  "Tooltip": "tempora",
+  "Id": 659,
+  "Name": "Goodwin, Kuphal and Ritchie",
+  "Tooltip": "cupiditate",
   "Deleted": false,
-  "UdListDefinitionId": 277,
-  "Rank": 254
+  "UdListDefinitionId": 49,
+  "Rank": 304
 }
 ```
 
@@ -99,18 +99,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 796,
-  "Name": "Schiller Inc and Sons",
-  "Tooltip": "adipisci",
+  "Id": 576,
+  "Name": "Kutch-Crooks",
+  "Tooltip": "quos",
   "Deleted": false,
-  "UdListDefinitionId": 656,
-  "Rank": 314,
+  "UdListDefinitionId": 367,
+  "Rank": 987,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 606
+      "FieldType": "System.Int32",
+      "FieldLength": 692
     }
   }
 }

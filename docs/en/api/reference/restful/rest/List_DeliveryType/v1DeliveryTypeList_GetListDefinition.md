@@ -66,7 +66,7 @@ OK
 GET /api/v1/List/DeliveryType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -76,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 830,
-  "Name": "Pfeffer-Frami",
-  "Tooltip": "expedita",
+  "Id": 488,
+  "Name": "Homenick Group",
+  "Tooltip": "impedit",
   "Deleted": false,
-  "Rank": 221,
-  "IsCustomList": true,
+  "Rank": 853,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "et",
-  "InUseByUserDefinedFields": false,
+  "ListType": "deserunt",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 417
+      "FieldType": "System.Int32",
+      "FieldLength": 319
     }
   },
   "_Links": {

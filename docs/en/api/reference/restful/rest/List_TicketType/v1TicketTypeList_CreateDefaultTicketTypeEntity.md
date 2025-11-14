@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/TicketType/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -84,40 +84,40 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 966,
-  "Name": "Nader Inc and Sons",
-  "Rank": 136,
-  "Tooltip": "quasi",
-  "Icon": "soluta",
-  "DefaultTicketStatus": 765,
+  "TicketTypeId": 123,
+  "Name": "Huels Inc and Sons",
+  "Rank": 433,
+  "Tooltip": "nesciunt",
+  "Icon": "nulla",
+  "DefaultTicketStatus": 865,
   "TicketStatuses": [
-    841,
-    693
+    773,
+    151
   ],
-  "DefaultTicketPriority": 751,
+  "DefaultTicketPriority": 340,
   "TicketPriorities": [
-    878,
-    987
+    75,
+    285
   ],
-  "ReplyTemplate": 732,
-  "IsExternalVisible": true,
+  "ReplyTemplate": 479,
+  "IsExternalVisible": false,
   "IsDefault": false,
   "ShowInNew": false,
-  "ExcludeSignature": true,
+  "ExcludeSignature": false,
   "ExcludeEmailRecipients": false,
-  "ExternalAsDefault": false,
+  "ExternalAsDefault": true,
   "VisibleForGroups": [
-    258,
-    478
+    114,
+    598
   ],
   "ReplyForwardNoSignature": false,
-  "ReplyExternalAsDefault": false,
+  "ReplyExternalAsDefault": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 191
+      "FieldLength": 520
     }
   }
 }

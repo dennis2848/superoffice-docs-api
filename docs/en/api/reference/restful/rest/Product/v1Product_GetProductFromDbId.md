@@ -93,7 +93,7 @@ OK
 GET /api/v1/Product/{productId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -103,73 +103,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 66,
-  "ERPProductKey": "est",
-  "ERPPriceListKey": "reprehenderit",
-  "Name": "Jones Group",
-  "Description": "Triple-buffered 24 hour help-desk",
-  "Code": "quos",
-  "PriceUnit": "veritatis",
-  "QuantityUnit": "et",
+  "ProductId": 95,
+  "ERPProductKey": "itaque",
+  "ERPPriceListKey": "tempore",
+  "Name": "Mohr, Weimann and Wiegand",
+  "Description": "User-centric real-time moderator",
+  "Code": "incidunt",
+  "PriceUnit": "quia",
+  "QuantityUnit": "reprehenderit",
   "IsSubscription": false,
-  "SubscriptionUnit": "et",
-  "DefaultSubscriptionQuantity": 28068.104,
-  "ItemNumber": "1501664",
+  "SubscriptionUnit": "atque",
+  "DefaultSubscriptionQuantity": 14291.039999999999,
+  "ItemNumber": "833853",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "officia",
-  "ProductTypeKey": "sed",
-  "VAT": 7389.972,
-  "VATInfo": "consequatur",
-  "UnitCost": 29932.834,
-  "UnitMinimumPrice": 15024.395999999999,
-  "UnitListPrice": 4926.648,
+  "ProductFamilyKey": "qui",
+  "ProductTypeKey": "quia",
+  "VAT": 19220.822,
+  "VATInfo": "esse",
+  "UnitCost": 15146.622,
+  "UnitMinimumPrice": 27764.106,
+  "UnitListPrice": 26924.194,
   "InAssortment": false,
-  "Supplier": "aut",
-  "SupplierCode": "est",
-  "Rights": "saepe",
-  "Rule": "repudiandae",
+  "Supplier": "accusamus",
+  "SupplierCode": "fuga",
+  "Rights": "asperiores",
+  "Rule": "in",
   "ExtraInfo": [
     {
-      "Name": "Kautzer-Block",
-      "Value": "est",
+      "Name": "Bogisich, Feil and O'Hara",
+      "Value": "dolores",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 513
+          "FieldLength": 313
         }
       }
     },
     {
-      "Name": "Kautzer-Block",
-      "Value": "est",
+      "Name": "Bogisich, Feil and O'Hara",
+      "Value": "dolores",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 513
+          "FieldLength": 313
         }
       }
     }
   ],
-  "RawExtraInfo": "quia",
-  "ExtraField1": "aut",
-  "ExtraField2": "illum",
-  "ExtraField3": "atque",
-  "ExtraField4": "neque",
-  "ExtraField5": "soluta",
-  "InStock": 12890.142,
+  "RawExtraInfo": "ipsa",
+  "ExtraField1": "veritatis",
+  "ExtraField2": "veritatis",
+  "ExtraField3": "eaque",
+  "ExtraField4": "sed",
+  "ExtraField5": "unde",
+  "InStock": 9527.36,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 268
+      "FieldLength": 780
     }
   }
 }

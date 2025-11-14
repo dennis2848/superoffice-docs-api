@@ -14,6 +14,8 @@ POST /api/v1/Agents/Ticket/GetTicketAttachments
 Get attachment infos for all attachments connected to messages in specified ticket
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -81,11 +83,11 @@ OK
 POST /api/v1/Agents/Ticket/GetTicketAttachments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketEntityId": 561
+  "TicketEntityId": 682
 }
 ```
 
@@ -97,20 +99,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 681,
-    "Name": "Hessel-Johnson",
-    "ContentType": "earum",
-    "AttSize": 750,
-    "InlineImage": true,
-    "ContentId": "quas",
-    "AuthKey": "optio",
+    "AttachmentId": 318,
+    "Name": "Medhurst LLC",
+    "ContentType": "omnis",
+    "AttSize": 483,
+    "InlineImage": false,
+    "ContentId": "aut",
+    "AuthKey": "et",
     "IsSafeFileExtension": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 706
+        "FieldType": "System.Int32",
+        "FieldLength": 968
       }
     }
   }

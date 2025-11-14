@@ -28,7 +28,7 @@ Get the MDO list items for "Currency" - with headings and filtering by user grou
 
 ```http
 GET /api/v1/List/Currency/MDOItems?flat=False
-GET /api/v1/List/Currency/MDOItems?query=et
+GET /api/v1/List/Currency/MDOItems?query=aperiam
 ```
 
 
@@ -90,50 +90,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 37,
-    "Name": "Cremin Group",
-    "ToolTip": "Illum totam sint iure laborum voluptates.",
+    "Id": 87,
+    "Name": "Feeney-Dare",
+    "ToolTip": "Voluptatibus soluta nesciunt provident asperiores minus.",
     "Deleted": false,
-    "Rank": 457,
-    "Type": "hic",
+    "Rank": 966,
+    "Type": "iusto",
     "ChildItems": [
       {
-        "Id": 937,
-        "Name": "Hirthe, Jacobs and Kutch",
-        "ToolTip": "Odio accusamus incidunt omnis ut qui.",
+        "Id": 312,
+        "Name": "Fay LLC",
+        "ToolTip": "Minima voluptas.",
         "Deleted": false,
-        "Rank": 218,
-        "Type": "tempora",
+        "Rank": 788,
+        "Type": "est",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "ea",
-        "ColorBlock": 269,
-        "ExtraInfo": "necessitatibus",
-        "StyleHint": "quaerat",
-        "FullName": "Morris Will",
+        "IconHint": "saepe",
+        "ColorBlock": 907,
+        "ExtraInfo": "aliquam",
+        "StyleHint": "laborum",
+        "FullName": "Mr. Fred Rolfson V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 240
+            "FieldType": "System.Int32",
+            "FieldLength": 119
           }
         }
       }
     ],
-    "IconHint": "aut",
-    "ColorBlock": 62,
-    "ExtraInfo": "est",
-    "StyleHint": "animi",
-    "FullName": "Clovis Ebert",
+    "IconHint": "soluta",
+    "ColorBlock": 68,
+    "ExtraInfo": "et",
+    "StyleHint": "sint",
+    "FullName": "Dr. Freddie Furman Bayer DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 409
+        "FieldLength": 914
       }
     }
   }

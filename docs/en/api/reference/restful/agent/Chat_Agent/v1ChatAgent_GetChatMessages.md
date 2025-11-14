@@ -14,6 +14,8 @@ POST /api/v1/Agents/Chat/GetChatMessages
 Get all or some of the messages in a chat session
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -85,8 +87,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 380,
-  "After": 593
+  "ChatSessionId": 471,
+  "After": 996
 }
 ```
 
@@ -98,15 +100,15 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ChatMessageId": 28,
-    "ChatSessionId": 690,
+    "ChatMessageId": 82,
+    "ChatSessionId": 516,
     "Type": "Invalid",
-    "Message": "vero",
-    "Author": "quia",
-    "ReadByCustomer": 814,
+    "Message": "ducimus",
+    "Author": "accusamus",
+    "ReadByCustomer": 607,
     "SpecialType": "Block",
-    "SpecialParam": "est",
-    "WhenPosted": "2000-12-22T03:46:54.3788954+01:00"
+    "SpecialParam": "in",
+    "WhenPosted": "2003-05-26T02:30:46.8975935+02:00"
   }
 ]
 ```

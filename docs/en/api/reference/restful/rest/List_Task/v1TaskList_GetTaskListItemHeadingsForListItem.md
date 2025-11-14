@@ -86,7 +86,7 @@ OK
 GET /api/v1/List/Task/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -97,56 +97,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 9,
-    "Name": "Schamberger LLC",
-    "ToolTip": "Ratione quaerat architecto.",
+    "Id": 392,
+    "Name": "Kris-Donnelly",
+    "ToolTip": "Qui ut sed.",
     "Deleted": false,
-    "Rank": 683,
-    "Type": "placeat",
-    "ColorBlock": 758,
-    "IconHint": "doloremque",
+    "Rank": 352,
+    "Type": "quia",
+    "ColorBlock": 815,
+    "IconHint": "similique",
     "Selected": false,
-    "LastChanged": "1998-09-15T03:47:00.8942898+02:00",
+    "LastChanged": "2020-03-26T02:30:53.4598845+01:00",
     "ChildItems": [
       {
-        "Id": 128,
-        "Name": "Harber Inc and Sons",
-        "ToolTip": "Non consectetur et.",
-        "Deleted": false,
-        "Rank": 773,
-        "Type": "eveniet",
-        "ColorBlock": 582,
-        "IconHint": "tempora",
+        "Id": 860,
+        "Name": "Hagenes Group",
+        "ToolTip": "Hic corrupti aut et non quas.",
+        "Deleted": true,
+        "Rank": 800,
+        "Type": "porro",
+        "ColorBlock": 417,
+        "IconHint": "aut",
         "Selected": false,
-        "LastChanged": "1998-09-19T03:47:00.8942898+02:00",
+        "LastChanged": "2005-10-20T02:30:53.4598845+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "debitis",
-        "StyleHint": "eveniet",
+        "ExtraInfo": "sit",
+        "StyleHint": "eos",
         "Hidden": true,
-        "FullName": "Micheal Batz",
+        "FullName": "Cole Kiehn",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 686
+            "FieldLength": 98
           }
         }
       }
     ],
-    "ExtraInfo": "tempore",
-    "StyleHint": "ut",
-    "Hidden": false,
-    "FullName": "Prof. Tavares Adrienne Kutch",
+    "ExtraInfo": "qui",
+    "StyleHint": "amet",
+    "Hidden": true,
+    "FullName": "Dr. Mohammed Frederick Wolf",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 753
+        "FieldType": "System.Int32",
+        "FieldLength": 365
       }
     }
   }

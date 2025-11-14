@@ -14,6 +14,9 @@ PUT /api/v1/Webhook/{id}
 Updates the existing Webhook
 
 
+NsApiSlow threshold: 2000 ms.
+
+
 ## Online Restricted: ## The Webhook agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 
@@ -106,32 +109,32 @@ Webhook updated.
 PUT /api/v1/Webhook/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 585,
-  "Name": "Batz, Breitenberg and Yundt",
+  "WebhookId": 777,
+  "Name": "Turcotte-Langosh",
   "Events": [
-    "consequuntur",
-    "sint"
+    "tenetur",
+    "laborum"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "molestiae",
+  "Secret": "nesciunt",
   "State": "Active",
-  "Type": "perspiciatis",
+  "Type": "ut",
   "Headers": {
-    "Headers1": "ex",
-    "Headers2": "qui"
+    "Headers1": "et",
+    "Headers2": "et"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "1998-04-16T03:47:00.5505518+02:00",
+  "Registered": "2014-11-17T02:30:53.1786436+01:00",
   "RegisteredAssociate": null,
-  "Updated": "2000-12-01T03:47:00.5505518+01:00",
+  "Updated": "2007-11-28T02:30:53.1786436+01:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "boris@harber.info"
+  "ErrorsEmail": "dixie@pacochaortiz.biz"
 }
 ```
 
@@ -142,28 +145,28 @@ HTTP/1.1 200 Webhook updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 366,
-  "Name": "Stehr, Ward and Ondricka",
+  "WebhookId": 451,
+  "Name": "Renner LLC",
   "Events": [
-    "corporis",
-    "neque"
+    "cupiditate",
+    "sed"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "eaque",
+  "Secret": "nobis",
   "State": "Active",
-  "Type": "porro",
+  "Type": "et",
   "Headers": {
-    "Headers1": "aut",
-    "Headers2": "non"
+    "Headers1": "id",
+    "Headers2": "placeat"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2010-07-07T03:47:00.5505518+02:00",
+  "Registered": "2002-10-05T02:30:53.1786436+02:00",
   "RegisteredAssociate": null,
-  "Updated": "2022-10-06T03:47:00.5505518+02:00",
+  "Updated": "2004-08-01T02:30:53.1786436+02:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "kaycee.hahn@whitelabadie.info",
+  "ErrorsEmail": "orin@brekke.us",
   "_Links": {
     "Self": "https://www.example.com/api/v1/project/321",
     "Archive": "https://www.example.com/api/v1/project"

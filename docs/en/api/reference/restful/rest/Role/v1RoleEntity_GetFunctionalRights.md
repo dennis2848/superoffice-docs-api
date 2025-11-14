@@ -79,7 +79,7 @@ OK
 GET /api/v1/Role/{roleId}/FunctionRight
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -90,56 +90,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 667,
-    "Name": "Grimes-Kerluke",
-    "ToolTip": "Delectus similique illo.",
+    "Id": 205,
+    "Name": "Smith, Borer and Reichel",
+    "ToolTip": "Amet quibusdam dolorem sint tenetur dolores.",
     "Deleted": false,
-    "Rank": 945,
-    "Type": "consectetur",
-    "ColorBlock": 992,
-    "IconHint": "rerum",
+    "Rank": 525,
+    "Type": "id",
+    "ColorBlock": 279,
+    "IconHint": "perspiciatis",
     "Selected": false,
-    "LastChanged": "2016-06-08T03:47:00.2224384+02:00",
+    "LastChanged": "2004-01-29T02:30:52.8349052+01:00",
     "ChildItems": [
       {
-        "Id": 207,
-        "Name": "Abshire, Gleichner and Littel",
-        "ToolTip": "Cupiditate doloribus est qui sequi earum aut doloremque.",
-        "Deleted": true,
-        "Rank": 424,
-        "Type": "ducimus",
-        "ColorBlock": 943,
-        "IconHint": "fugiat",
+        "Id": 667,
+        "Name": "Smith, Hintz and Okuneva",
+        "ToolTip": "Eos et incidunt possimus.",
+        "Deleted": false,
+        "Rank": 391,
+        "Type": "laborum",
+        "ColorBlock": 402,
+        "IconHint": "nam",
         "Selected": true,
-        "LastChanged": "1999-05-26T03:47:00.2224384+02:00",
+        "LastChanged": "2006-06-07T02:30:52.8349052+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "odio",
-        "StyleHint": "et",
+        "ExtraInfo": "accusantium",
+        "StyleHint": "excepturi",
         "Hidden": false,
-        "FullName": "Lucious Jewess",
+        "FullName": "Marguerite Boyle",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 722
+            "FieldType": "System.Int32",
+            "FieldLength": 322
           }
         }
       }
     ],
-    "ExtraInfo": "quas",
-    "StyleHint": "sint",
+    "ExtraInfo": "voluptatum",
+    "StyleHint": "quo",
     "Hidden": false,
-    "FullName": "Eloy Zboncak DVM",
+    "FullName": "Hilma Bahringer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 239
+        "FieldType": "System.String",
+        "FieldLength": 330
       }
     }
   }

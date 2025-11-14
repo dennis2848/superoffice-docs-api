@@ -14,6 +14,9 @@ POST /api/v1/Agents/User/GetCredentialTypesForUserType
 Get available credential types that can be used for the specified user type.
 
 
+NsApiSlow threshold: 2000 ms.
+
+
 ## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
 
 
@@ -81,7 +84,7 @@ OK
 POST /api/v1/Agents/User/GetCredentialTypesForUserType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -97,9 +100,9 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayType": "aperiam",
-    "Type": "cum",
-    "Description": "Streamlined real-time system engine",
+    "DisplayType": "repellat",
+    "Type": "tenetur",
+    "Description": "Sharable stable hardware",
     "ValueControl": "Edit",
     "CanCreatePerson": false,
     "IsUserNameSupported": false,
@@ -108,7 +111,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 26
+        "FieldLength": 352
       }
     }
   }

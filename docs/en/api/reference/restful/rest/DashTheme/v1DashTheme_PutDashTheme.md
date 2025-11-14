@@ -14,6 +14,8 @@ PUT /api/v1/DashTheme/{id}
 Updates the existing DashTheme
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -94,12 +96,12 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 842,
-  "Name": "O'Hara LLC",
-  "Config": "eum",
-  "Rank": 209,
-  "Client": "ipsum",
-  "Style": "maxime"
+  "DashboardThemeId": 207,
+  "Name": "Wunsch Inc and Sons",
+  "Config": "repellendus",
+  "Rank": 891,
+  "Client": "excepturi",
+  "Style": "odio"
 }
 ```
 
@@ -110,23 +112,23 @@ HTTP/1.1 200 DashTheme updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 621,
-  "Name": "Medhurst-Veum",
-  "Config": "quia",
-  "Rank": 746,
-  "Client": "sunt",
-  "Style": "unde",
+  "DashboardThemeId": 352,
+  "Name": "Botsford-Kling",
+  "Config": "eos",
+  "Rank": 169,
+  "Client": "odit",
+  "Style": "voluptatum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 818
+      "FieldType": "System.String",
+      "FieldLength": 855
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

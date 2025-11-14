@@ -14,6 +14,9 @@ POST /api/v1/Agents/CRMScript/CreateDefaultCRMScriptEntity
 Loading default values into a new CRMScriptEntity.
 
 
+NsApiSlow threshold: 5000 ms.
+
+
 ## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 
@@ -86,53 +89,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 770,
-  "UniqueIdentifier": "voluptatem",
-  "Name": "Berge LLC",
-  "Description": "Horizontal zero defect installation",
-  "IncludeId": "deserunt",
-  "AccessKey": "quaerat",
-  "HierarchyId": 67,
-  "Source": "est",
-  "SourceCode": "in",
+  "EjscriptId": 717,
+  "UniqueIdentifier": "ipsam",
+  "Name": "Will, Marquardt and Sanford",
+  "Description": "Seamless user-facing software",
+  "IncludeId": "doloribus",
+  "AccessKey": "voluptas",
+  "HierarchyId": 480,
+  "Source": "ut",
+  "SourceCode": "magnam",
   "ScriptType": "CRMScript",
-  "HtmlOutput": 830,
+  "HtmlOutput": 563,
   "Includes": [
-    89,
-    494
+    842,
+    692
   ],
   "SourceMaps": [
     {
-      "LineNumberFrom": 596,
-      "LineNumberTo": 309,
-      "Delta": 610,
-      "IncludeId": "ut",
+      "LineNumberFrom": 838,
+      "LineNumberTo": 94,
+      "Delta": 717,
+      "IncludeId": "laudantium",
       "IncludedFrom": [
-        "voluptatum",
-        "consectetur"
+        "dignissimos",
+        "repellat"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 581
+          "FieldType": "System.String",
+          "FieldLength": 586
         }
       }
     }
   ],
   "ValidationResult": null,
-  "Registered": "1998-08-21T03:46:54.5663888+02:00",
-  "RegisteredAssociateId": 677,
-  "Updated": "2009-01-10T03:46:54.5663888+01:00",
-  "UpdatedAssociateId": 227,
+  "Registered": "2010-02-19T02:30:47.0382145+01:00",
+  "RegisteredAssociateId": 725,
+  "Updated": "2006-07-12T02:30:47.0382145+02:00",
+  "UpdatedAssociateId": 966,
   "BlockedVerbs": "BlockAll",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 589
+      "FieldType": "System.Int32",
+      "FieldLength": 156
     }
   }
 }

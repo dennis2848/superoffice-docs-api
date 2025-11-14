@@ -76,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 283,
-  "Name": "Doyle LLC",
-  "Tooltip": "velit",
+  "Id": 937,
+  "Name": "Ondricka-Huels",
+  "Tooltip": "quasi",
   "Deleted": false,
-  "Rank": 134,
-  "IsCustomList": true,
+  "Rank": 919,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "nihil",
+  "ListType": "dolores",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 58
+      "FieldType": "System.String",
+      "FieldLength": 931
     }
   },
   "_Links": {

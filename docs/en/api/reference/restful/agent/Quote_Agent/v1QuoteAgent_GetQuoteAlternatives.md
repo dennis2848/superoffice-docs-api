@@ -14,6 +14,8 @@ POST /api/v1/Agents/Quote/GetQuoteAlternatives
 Get all quote alternatives for a quote version
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -96,11 +98,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteAlternatives
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 280
+  "QuoteVersionId": 471
 }
 ```
 
@@ -112,35 +114,35 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteAlternativeId": 394,
-    "ERPQuoteAlternativeKey": "neque",
-    "QuoteVersionId": 934,
-    "Name": "Treutel-Leannon",
-    "Description": "Assimilated directional extranet",
+    "QuoteAlternativeId": 986,
+    "ERPQuoteAlternativeKey": "ratione",
+    "QuoteVersionId": 112,
+    "Name": "Robel Inc and Sons",
+    "Description": "Innovative heuristic ability",
     "Status": "Error",
     "Reason": "",
-    "ERPDiscountPercent": 5102.152,
-    "ERPDiscountAmount": 28861.005999999998,
-    "DiscountPercent": 2704.642,
-    "DiscountAmount": 12683.297999999999,
+    "ERPDiscountPercent": 25432.41,
+    "ERPDiscountAmount": 25673.728,
+    "DiscountPercent": 26874.05,
+    "DiscountAmount": 27378.624,
     "UserValueOverride": "DiscountAmount",
-    "VATInfo": "rerum",
-    "VAT": 9944.1819999999989,
-    "EarningPercent": 13347.706,
-    "EarningAmount": 10335.931999999999,
-    "SubTotal": 26369.476,
-    "TotalPrice": 26269.188,
-    "ExtraField1": "placeat",
-    "ExtraField2": "eligendi",
-    "ExtraField3": "impedit",
-    "ExtraField4": "sed",
-    "ExtraField5": "eos",
+    "VATInfo": "amet",
+    "VAT": 6775.708,
+    "EarningPercent": 21402.086,
+    "EarningAmount": 31302.392,
+    "SubTotal": 31136.289999999997,
+    "TotalPrice": 14206.421999999999,
+    "ExtraField1": "quis",
+    "ExtraField2": "dicta",
+    "ExtraField3": "at",
+    "ExtraField4": "ipsa",
+    "ExtraField5": "consequatur",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 864
+        "FieldType": "System.String",
+        "FieldLength": 359
       }
     }
   }

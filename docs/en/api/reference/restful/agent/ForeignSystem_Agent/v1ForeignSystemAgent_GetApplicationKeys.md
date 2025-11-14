@@ -14,6 +14,8 @@ POST /api/v1/Agents/ForeignSystem/GetApplicationKeys
 Returns all ForeignKeys that belong to an application.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -85,7 +87,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Graham Group"
+  "ApplicationName": "Jacobson Group"
 }
 ```
 
@@ -97,20 +99,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "pariatur",
-    "Value": "qui",
-    "RecordId": 809,
-    "CreatedDate": "2015-02-06T03:46:54.9107593+01:00",
-    "UpdatedDate": "2015-05-05T03:46:54.9107593+02:00",
-    "UpdatedBy": "atque",
-    "CreatedBy": "eum",
-    "TableName": "Wunsch, Effertz and Dicki",
+    "Key": "odio",
+    "Value": "eos",
+    "RecordId": 493,
+    "CreatedDate": "2023-11-10T02:30:47.366331+01:00",
+    "UpdatedDate": "2006-09-26T02:30:47.366331+02:00",
+    "UpdatedBy": "in",
+    "CreatedBy": "quidem",
+    "TableName": "Krajcik, Ziemann and Deckow",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 882
+        "FieldLength": 143
       }
     }
   }

@@ -14,6 +14,9 @@ POST /api/v1/Agents/User/SaveRoleEntity
 Updates the existing RoleEntity or creates a new RoleEntity if the id parameter is 0.
 
 
+NsApiSlow threshold: 2000 ms.
+
+
 ## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
 
 
@@ -88,20 +91,20 @@ OK
 POST /api/v1/Agents/User/SaveRoleEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 732,
-  "Name": "Ankunding Inc and Sons",
-  "Tooltip": "ab",
+  "RoleId": 815,
+  "Name": "Bogisich, Powlowski and Bednar",
+  "Tooltip": "sint",
   "RoleType": "Anonymous",
-  "Deleted": 902,
-  "Rank": 592,
-  "Created": "2002-07-18T03:46:55.5663534+02:00",
-  "UseCategories": 269,
+  "Deleted": 109,
+  "Rank": 116,
+  "Created": "2003-10-26T02:30:48.0850579+01:00",
+  "UseCategories": 222,
   "CreatedBy": null,
-  "Updated": "2002-12-20T03:46:55.5663534+01:00",
+  "Updated": "2015-05-06T02:30:48.0850579+02:00",
   "UpdatedBy": null,
   "DataRights": null
 }
@@ -114,24 +117,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 699,
-  "Name": "Wintheiser-Reilly",
-  "Tooltip": "non",
+  "RoleId": 963,
+  "Name": "Streich-Koepp",
+  "Tooltip": "quia",
   "RoleType": "Anonymous",
-  "Deleted": 398,
-  "Rank": 680,
-  "Created": "2025-04-16T03:46:55.5663534+02:00",
-  "UseCategories": 285,
+  "Deleted": 5,
+  "Rank": 148,
+  "Created": "2010-02-21T02:30:48.0850579+01:00",
+  "UseCategories": 636,
   "CreatedBy": null,
-  "Updated": "1998-07-02T03:46:55.5663534+02:00",
+  "Updated": "2013-01-07T02:30:48.0850579+01:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 218
+      "FieldType": "System.Int32",
+      "FieldLength": 835
     }
   }
 }

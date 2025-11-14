@@ -14,7 +14,8 @@ POST /api/v1/Agents/Archive/GetArchiveListWithContext2
 Get a page of data for an archive using restrictions as strings, with context parameter.
 
 
-The columns returned will be those set as chosen columns, using either the SetChosenColumns service or the corresponding SelectableMDOList.SetSelected. 
+The columns returned will be those set as chosen columns, using either the SetChosenColumns service or the corresponding SelectableMDOList.SetSelected.
+NsApiSlow threshold: 5000 ms. 
 
 Archive Restriction strings are OData or SQL-ish.
 They are parsed and converted into ArchiveRestrictions.
@@ -170,18 +171,18 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListWithContext2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Waelchi, Tremblay and Kub",
-  "ProviderName": "Stokes-Schultz",
-  "SortOrder": "excepturi",
-  "Restriction": "nam",
-  "Entities": "modi",
-  "Page": 987,
-  "PageSize": 966,
-  "Context": "et"
+  "GuiName": "Pollich-Johns",
+  "ProviderName": "Hoeger-Carter",
+  "SortOrder": "veniam",
+  "Restriction": "asperiores",
+  "Entities": "accusamus",
+  "Page": 313,
+  "PageSize": 793,
+  "Context": "nostrum"
 }
 ```
 
@@ -193,23 +194,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Schumm LLC",
-    "PrimaryKey": 591,
+    "EntityName": "Metz-Lynch",
+    "PrimaryKey": 947,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "dolore",
-        "TooltipHint": "assumenda",
-        "LinkHint": "aliquid"
+        "DisplayValue": "consequatur",
+        "TooltipHint": "officia",
+        "LinkHint": "perspiciatis"
       }
     },
-    "LinkHint": "magni",
-    "StyleHint": "nostrum",
+    "LinkHint": "quia",
+    "StyleHint": "nam",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 857
+        "FieldLength": 985
       }
     }
   }

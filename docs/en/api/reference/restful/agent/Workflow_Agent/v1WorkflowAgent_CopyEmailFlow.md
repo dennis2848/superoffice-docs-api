@@ -14,6 +14,8 @@ POST /api/v1/Agents/Workflow/CopyEmailFlow
 Copy an email flow.
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -70,12 +72,12 @@ OK
 POST /api/v1/Agents/Workflow/CopyEmailFlow
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailFlowId": 297,
-  "NewName": "Shields-Torphy"
+  "EmailFlowId": 657,
+  "NewName": "Casper Group"
 }
 ```
 
@@ -85,5 +87,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-581
+726
 ```

@@ -14,6 +14,8 @@ POST /api/v1/Agents/Appointment/GetMyPublishedAppointments
 Get published appointments from the logged in user.
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -120,7 +122,7 @@ OK
 POST /api/v1/Agents/Appointment/GetMyPublishedAppointments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -131,67 +133,67 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 378,
-    "StartDate": "2014-02-22T03:46:54.0039095+01:00",
-    "EndDate": "2001-04-02T03:46:54.0039095+02:00",
+    "AppointmentId": 54,
+    "StartDate": "2019-09-03T02:30:46.522607+02:00",
+    "EndDate": "2011-07-20T02:30:46.522607+02:00",
     "Type": "BookingForChecklist",
-    "Task": "beatae",
-    "AssociateFullName": "Dr. Antonio Cornell Hammes",
-    "ContactName": "Haag LLC",
-    "Description": "Persistent next generation initiative",
-    "PersonFullName": "Damian Orn MD",
-    "PersonId": 879,
-    "ContactId": 796,
-    "ProjectId": 734,
-    "ProjectName": "Welch, Erdman and Brown",
-    "IsPublished": false,
-    "AssociateId": 312,
-    "ColorIndex": 691,
-    "IsFree": true,
-    "HasAlarm": false,
+    "Task": "dolorem",
+    "AssociateFullName": "Prof. Rogers Keeling",
+    "ContactName": "Eichmann, O'Conner and Oberbrunner",
+    "Description": "Extended grid-enabled infrastructure",
+    "PersonFullName": "Alta Kuhn II",
+    "PersonId": 867,
+    "ContactId": 507,
+    "ProjectId": 354,
+    "ProjectName": "Dickinson LLC",
+    "IsPublished": true,
+    "AssociateId": 973,
+    "ColorIndex": 148,
+    "IsFree": false,
+    "HasAlarm": true,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 416,
-    "PriorityName": "Pouros-Kuvalis",
+    "PriorityId": 793,
+    "PriorityName": "Kirlin LLC",
     "TaskType": "Appointment",
     "IsBookingMain": false,
     "IsRecurrence": true,
     "IsBooking": false,
-    "ActiveDate": "2002-04-17T03:46:54.0039095+02:00",
+    "ActiveDate": "2012-03-12T02:30:46.522607+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2001-02-14T03:46:54.0039095+01:00",
-    "RecurringEndDate": "2012-10-01T03:46:54.0039095+02:00",
-    "MotherId": 445,
-    "AssignedBy": 17,
-    "AssignedByFullName": "Mr. Isabella Steuber Jr.",
+    "RecurringStartDate": "2016-01-22T02:30:46.522607+01:00",
+    "RecurringEndDate": "2008-06-17T02:30:46.522607+02:00",
+    "MotherId": 219,
+    "AssignedBy": 768,
+    "AssignedByFullName": "Madalyn Hessel",
     "RejectReason": "",
-    "Location": "dolorem",
-    "AlarmLeadTime": "commodi",
-    "SaleId": 279,
-    "SaleName": "White Inc and Sons",
-    "AssociateName": "Larson-Bailey",
-    "CreatedDate": "2023-01-19T03:46:54.0039095+01:00",
-    "CreatedBy": "aperiam",
-    "CreatedByFullName": "Hyman Frami",
-    "CreatedByAssociateId": 980,
+    "Location": "ab",
+    "AlarmLeadTime": "recusandae",
+    "SaleId": 400,
+    "SaleName": "Schuster-Goodwin",
+    "AssociateName": "Gleichner-Price",
+    "CreatedDate": "2003-08-15T02:30:46.522607+02:00",
+    "CreatedBy": "beatae",
+    "CreatedByFullName": "Jamil Hilll",
+    "CreatedByAssociateId": 403,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "OwnedExternally": "Google",
-    "MotherAssociateId": 433,
+    "MotherAssociateId": 1002,
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 723,
-    "Title": "blanditiis",
-    "Agenda": "laboriosam",
-    "InternalNotes": "eos",
+    "PreferredTZLocation": 5,
+    "Title": "deleniti",
+    "Agenda": "ea",
+    "InternalNotes": "voluptatibus",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 728
+        "FieldLength": 691
       }
     }
   }

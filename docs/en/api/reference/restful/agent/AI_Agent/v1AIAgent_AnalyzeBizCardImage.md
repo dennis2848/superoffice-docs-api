@@ -15,6 +15,10 @@ Returns contact and person information from an image.
 
 
 Merges results with matching database records if merge = true
+NsApiSlow threshold: 1000 ms.
+
+
+## Experimental: ## The AI agent is experimental, subject to change, and not intended for partners.
 
 
 
@@ -78,7 +82,7 @@ OK
 POST /api/v1/Agents/AI/AnalyzeBizCardImage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -96,7 +100,7 @@ Content-Type: application/json; charset=utf-8
 {
   "Contact": null,
   "Person": null,
-  "LogoImage": "ea",
-  "PhotoImage": "mollitia"
+  "LogoImage": "laboriosam",
+  "PhotoImage": "et"
 }
 ```

@@ -15,6 +15,7 @@ Method that returns a specified number of appointments within a time range.
 
 
 The appointments belong to the currently logged on user.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -136,9 +137,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StartTime": "2011-09-23T03:46:54.2695244+02:00",
-  "EndTime": "2006-08-23T03:46:54.2695244+02:00",
-  "Count": 373
+  "StartTime": "2002-04-05T02:30:46.7882228+02:00",
+  "EndTime": "2002-01-03T02:30:46.7882228+01:00",
+  "Count": 89
 }
 ```
 
@@ -150,67 +151,67 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 455,
-    "StartDate": "2014-07-12T03:46:54.2695244+02:00",
-    "EndDate": "2019-08-03T03:46:54.2695244+02:00",
+    "AppointmentId": 694,
+    "StartDate": "2004-08-28T02:30:46.7882228+02:00",
+    "EndDate": "2008-04-30T02:30:46.7882228+02:00",
     "Type": "BookingForChecklist",
-    "Task": "dolores",
-    "AssociateFullName": "Ms. Vesta Diego Rodriguez",
-    "ContactName": "Lubowitz, VonRueden and Fahey",
-    "Description": "Front-line static info-mediaries",
-    "PersonFullName": "Ms. Friedrich Littel",
-    "PersonId": 343,
-    "ContactId": 637,
-    "ProjectId": 896,
-    "ProjectName": "Weimann Group",
+    "Task": "accusamus",
+    "AssociateFullName": "Juanita VonRueden",
+    "ContactName": "Gottlieb-Boehm",
+    "Description": "Versatile intermediate methodology",
+    "PersonFullName": "Eleazar Simonis",
+    "PersonId": 960,
+    "ContactId": 459,
+    "ProjectId": 898,
+    "ProjectName": "Heathcote-Nienow",
     "IsPublished": false,
-    "AssociateId": 909,
-    "ColorIndex": 121,
-    "IsFree": true,
-    "HasAlarm": true,
+    "AssociateId": 516,
+    "ColorIndex": 459,
+    "IsFree": false,
+    "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 315,
-    "PriorityName": "Hansen, Conn and Marquardt",
+    "PriorityId": 51,
+    "PriorityName": "Kuhic, Koss and Russel",
     "TaskType": "Appointment",
     "IsBookingMain": false,
     "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "2007-02-10T03:46:54.2695244+01:00",
+    "ActiveDate": "2025-07-07T02:30:46.7882228+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2005-07-23T03:46:54.2695244+02:00",
-    "RecurringEndDate": "2005-01-22T03:46:54.2695244+01:00",
-    "MotherId": 142,
-    "AssignedBy": 989,
-    "AssignedByFullName": "Doris Ullrich",
-    "RejectReason": "harness e-business e-commerce",
-    "Location": "maiores",
-    "AlarmLeadTime": "et",
-    "SaleId": 215,
-    "SaleName": "Hermann-Maggio",
-    "AssociateName": "Friesen LLC",
-    "CreatedDate": "2023-07-20T03:46:54.2695244+02:00",
-    "CreatedBy": "dolor",
-    "CreatedByFullName": "Marianna Hyatt III",
-    "CreatedByAssociateId": 332,
+    "RecurringStartDate": "2008-07-21T02:30:46.7882228+02:00",
+    "RecurringEndDate": "2010-07-10T02:30:46.7882228+02:00",
+    "MotherId": 551,
+    "AssignedBy": 27,
+    "AssignedByFullName": "Mr. Layla Pierce Ratke",
+    "RejectReason": "",
+    "Location": "eius",
+    "AlarmLeadTime": "mollitia",
+    "SaleId": 560,
+    "SaleName": "Wisoky, Hagenes and Luettgen",
+    "AssociateName": "Jenkins Group",
+    "CreatedDate": "2024-08-06T02:30:46.7882228+02:00",
+    "CreatedBy": "nemo",
+    "CreatedByFullName": "Mikayla Lynch",
+    "CreatedByAssociateId": 569,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "OwnedExternally": "Google",
-    "MotherAssociateId": 48,
+    "MotherAssociateId": 178,
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 998,
-    "Title": "consequatur",
-    "Agenda": "qui",
-    "InternalNotes": "ipsa",
+    "PreferredTZLocation": 493,
+    "Title": "aut",
+    "Agenda": "aut",
+    "InternalNotes": "sed",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 377
+        "FieldType": "System.Int32",
+        "FieldLength": 424
       }
     }
   }

@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/SaveHeadingEntity
 Updates the existing HeadingEntity or creates a new HeadingEntity if the id parameter is 0.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -78,12 +80,12 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 977,
-  "Name": "Mosciski Inc and Sons",
-  "Tooltip": "est",
+  "HeadingId": 300,
+  "Name": "Deckow, Larson and Ondricka",
+  "Tooltip": "iusto",
   "Deleted": false,
-  "Rank": 840,
-  "UdListDefinitionId": 937
+  "Rank": 362,
+  "UdListDefinitionId": 40
 }
 ```
 
@@ -94,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 780,
-  "Name": "Reinger-Turcotte",
-  "Tooltip": "mollitia",
+  "HeadingId": 298,
+  "Name": "Nader Inc and Sons",
+  "Tooltip": "quod",
   "Deleted": false,
-  "Rank": 352,
-  "UdListDefinitionId": 384,
+  "Rank": 14,
+  "UdListDefinitionId": 423,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 750
+      "FieldLength": 642
     }
   }
 }

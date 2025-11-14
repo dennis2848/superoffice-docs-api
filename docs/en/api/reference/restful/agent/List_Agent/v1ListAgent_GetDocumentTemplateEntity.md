@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/GetDocumentTemplateEntity
 Gets a DocumentTemplateEntity object.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -27,7 +29,7 @@ Gets a DocumentTemplateEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetDocumentTemplateEntity?documentTemplateEntityId=874
+POST /api/v1/Agents/List/GetDocumentTemplateEntity?documentTemplateEntityId=61
 POST /api/v1/Agents/List/GetDocumentTemplateEntity?$select=name,department,category/id
 ```
 
@@ -92,7 +94,7 @@ OK
 POST /api/v1/Agents/List/GetDocumentTemplateEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -102,37 +104,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 845,
-  "Name": "Rath Inc and Sons",
-  "Tooltip": "consequuntur",
-  "SaveInDb": 489,
-  "Filename": "nisi",
-  "DefaultOref": "aut",
+  "DocumentTemplateId": 172,
+  "Name": "Howell LLC",
+  "Tooltip": "sed",
+  "SaveInDb": 813,
+  "Filename": "quos",
+  "DefaultOref": "vel",
   "RecordType": "Appointment",
-  "Deleted": false,
+  "Deleted": true,
   "Direction": "Incoming",
-  "AutoeventId": 542,
-  "IntentId": 790,
-  "IsDefaultPublished": true,
-  "Rank": 981,
-  "LoadTemplateFromPlugin": 54,
-  "MimeType": "et",
+  "AutoeventId": 455,
+  "IntentId": 208,
+  "IsDefaultPublished": false,
+  "Rank": 922,
+  "LoadTemplateFromPlugin": 114,
+  "MimeType": "culpa",
   "IsInUseInGuides": true,
-  "DocumentTypeKey": 677,
+  "DocumentTypeKey": 725,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "garrett_schamberger@schmeler.uk",
+  "EmailSubject": "columbus@littelroberts.info",
   "IncludeSignature": true,
-  "ShowCurrents": true,
+  "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "vivian_yundt@pacochaklocko.biz",
+  "SenderEmailAddress": "sharon.nicolas@corkery.biz",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 301
+      "FieldLength": 880
     }
   }
 }

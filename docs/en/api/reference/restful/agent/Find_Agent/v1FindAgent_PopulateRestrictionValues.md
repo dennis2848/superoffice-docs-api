@@ -15,6 +15,7 @@ Take an incoming set of Restrictions (name + operator + any user-entered values)
 
 
 Used for dynamic date periods; perhaps others in the future
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -83,31 +84,31 @@ OK
 POST /api/v1/Agents/Find/PopulateRestrictionValues
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Restrictions": [
     {
-      "Name": "Schuster, Parker and Rippin",
-      "Operator": "est",
+      "Name": "Predovic LLC",
+      "Operator": "porro",
       "Values": [
-        "quo",
-        "harum"
+        "in",
+        "eius"
       ],
       "DisplayValues": [
-        "ex",
-        "id"
+        "aut",
+        "quas"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 721,
+      "InterParenthesis": 779,
       "InterOperator": "And",
-      "UniqueHash": 403
+      "UniqueHash": 330
     }
   ]
 }
@@ -121,44 +122,44 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Lang, Oberbrunner and Hettinger",
-    "Operator": "ex",
+    "Name": "Mann, Monahan and Larkin",
+    "Operator": "ut",
     "Values": [
-      "qui",
-      "iste"
+      "adipisci",
+      "aut"
     ],
     "DisplayValues": [
-      "hic",
-      "qui"
+      "saepe",
+      "accusamus"
     ],
     "ColumnInfo": null,
     "IsActive": true,
     "SubRestrictions": [
       {
-        "Name": "Schuster-Langworth",
-        "Operator": "quibusdam",
+        "Name": "Wilderman Inc and Sons",
+        "Operator": "assumenda",
         "Values": [
-          "in",
-          "ad"
+          "omnis",
+          "ab"
         ],
         "DisplayValues": [
-          "aut",
-          "exercitationem"
+          "porro",
+          "qui"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 106,
+        "InterParenthesis": 553,
         "InterOperator": "And",
-        "UniqueHash": 457
+        "UniqueHash": 484
       }
     ],
-    "InterParenthesis": 972,
+    "InterParenthesis": 496,
     "InterOperator": "And",
-    "UniqueHash": 550
+    "UniqueHash": 666
   }
 ]
 ```

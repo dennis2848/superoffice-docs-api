@@ -32,7 +32,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/MrMrs/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/MrMrs/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -86,7 +86,7 @@ OK
 GET /api/v1/List/MrMrs/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -97,56 +97,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 936,
-    "Name": "Mueller Group",
-    "ToolTip": "Iure veniam.",
-    "Deleted": false,
-    "Rank": 884,
-    "Type": "consequatur",
-    "ColorBlock": 187,
-    "IconHint": "aut",
-    "Selected": true,
-    "LastChanged": "2011-09-15T03:47:00.6755475+02:00",
+    "Id": 649,
+    "Name": "Farrell, Zieme and Heller",
+    "ToolTip": "Facilis rerum ratione minima aut.",
+    "Deleted": true,
+    "Rank": 909,
+    "Type": "soluta",
+    "ColorBlock": 762,
+    "IconHint": "ipsa",
+    "Selected": false,
+    "LastChanged": "2018-03-22T02:30:53.3192639+01:00",
     "ChildItems": [
       {
-        "Id": 455,
-        "Name": "Gutkowski, Emard and Stoltenberg",
-        "ToolTip": "Ullam accusamus error ea dolorum.",
+        "Id": 68,
+        "Name": "Little-Rice",
+        "ToolTip": "Dolorem minima pariatur asperiores esse nesciunt consequatur est.",
         "Deleted": true,
-        "Rank": 369,
-        "Type": "animi",
-        "ColorBlock": 44,
-        "IconHint": "illo",
+        "Rank": 395,
+        "Type": "dignissimos",
+        "ColorBlock": 395,
+        "IconHint": "occaecati",
         "Selected": false,
-        "LastChanged": "2019-12-03T03:47:00.6755475+01:00",
+        "LastChanged": "2012-03-15T02:30:53.3192639+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "id",
-        "StyleHint": "doloremque",
-        "Hidden": true,
-        "FullName": "Ms. Keely Retha Toy III",
+        "ExtraInfo": "architecto",
+        "StyleHint": "eos",
+        "Hidden": false,
+        "FullName": "Danial Watsica",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 498
+            "FieldLength": 229
           }
         }
       }
     ],
-    "ExtraInfo": "quibusdam",
-    "StyleHint": "dolores",
-    "Hidden": true,
-    "FullName": "Bella Herman",
+    "ExtraInfo": "quisquam",
+    "StyleHint": "molestiae",
+    "Hidden": false,
+    "FullName": "Adah Torp",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 431
+        "FieldLength": 602
       }
     }
   }

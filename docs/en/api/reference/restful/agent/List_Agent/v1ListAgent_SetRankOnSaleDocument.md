@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/SetRankOnSaleDocument
 Set rank order on project document
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -70,10 +72,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeStageLinkId": 946,
+  "SaleTypeStageLinkId": 644,
   "ItemsIds": [
-    698,
-    932
+    547,
+    517
   ]
 }
 ```

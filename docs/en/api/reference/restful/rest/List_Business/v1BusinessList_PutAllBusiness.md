@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/Business/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 166,
-    "Name": "Kertzmann Inc and Sons",
-    "Tooltip": "voluptatem",
+    "Id": 473,
+    "Name": "Fay-O'Reilly",
+    "Tooltip": "iste",
     "Deleted": false,
-    "UdListDefinitionId": 873,
-    "Rank": 590
+    "UdListDefinitionId": 505,
+    "Rank": 549
   },
   {
-    "Id": 166,
-    "Name": "Kertzmann Inc and Sons",
-    "Tooltip": "voluptatem",
+    "Id": 473,
+    "Name": "Fay-O'Reilly",
+    "Tooltip": "iste",
     "Deleted": false,
-    "UdListDefinitionId": 873,
-    "Rank": 590
+    "UdListDefinitionId": 505,
+    "Rank": 549
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 895,
-    "Name": "Hauck Group",
-    "Tooltip": "qui",
-    "Deleted": false,
-    "UdListDefinitionId": 675,
-    "Rank": 647,
+    "Id": 244,
+    "Name": "Stiedemann, Corkery and O'Keefe",
+    "Tooltip": "quas",
+    "Deleted": true,
+    "UdListDefinitionId": 706,
+    "Rank": 820,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 894
+        "FieldType": "System.String",
+        "FieldLength": 266
       }
     }
   }

@@ -89,15 +89,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 478,
-  "Name": "Hills-Jerde",
-  "Tooltip": "et",
+  "Id": 358,
+  "Name": "Mitchell Inc and Sons",
+  "Tooltip": "repellendus",
   "Deleted": false,
-  "Rank": 71,
+  "Rank": 739,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "ratione",
+  "ListType": "fugit",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -109,22 +109,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 432,
-  "Name": "Nicolas, Hane and Lakin",
-  "Tooltip": "itaque",
+  "Id": 530,
+  "Name": "Bartoletti, Nitzsche and Moore",
+  "Tooltip": "aut",
   "Deleted": false,
-  "Rank": 787,
+  "Rank": 580,
   "IsCustomList": true,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "non",
-  "InUseByUserDefinedFields": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "tenetur",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 966
+      "FieldType": "System.String",
+      "FieldLength": 967
     }
   }
 }

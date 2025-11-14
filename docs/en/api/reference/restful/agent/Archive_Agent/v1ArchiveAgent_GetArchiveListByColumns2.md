@@ -14,6 +14,8 @@ POST /api/v1/Agents/Archive/GetArchiveListByColumns2
 Get a page of results for an archive list, explicitly specifying the restrictions as a string, orderby and chosen columns.
 
 
+NsApiSlow threshold: 5000 ms. 
+
 Archive Restriction strings are OData or SQL-ish.
 They are parsed and converted into ArchiveRestrictions.
 
@@ -167,17 +169,17 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumns2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Kihn-Beier",
-  "Columns": "quis",
-  "SortOrder": "aperiam",
-  "Restrictions": "delectus",
-  "Entities": "delectus",
-  "Page": 770,
-  "PageSize": 835
+  "ProviderName": "Boyle, Grimes and Prosacco",
+  "Columns": "accusantium",
+  "SortOrder": "esse",
+  "Restrictions": "voluptates",
+  "Entities": "temporibus",
+  "Page": 347,
+  "PageSize": 964
 }
 ```
 
@@ -189,23 +191,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Kohler-Berge",
-    "PrimaryKey": 6,
+    "EntityName": "Lebsack-Lang",
+    "PrimaryKey": 825,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "praesentium",
-        "TooltipHint": "eos",
-        "LinkHint": "est"
+        "DisplayValue": "earum",
+        "TooltipHint": "fugiat",
+        "LinkHint": "porro"
       }
     },
-    "LinkHint": "ullam",
-    "StyleHint": "officia",
+    "LinkHint": "quo",
+    "StyleHint": "quis",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 88
+        "FieldType": "System.String",
+        "FieldLength": 714
       }
     }
   }

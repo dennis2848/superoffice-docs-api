@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/CreateDefaultWebPanelEntity
 Loading default values into a new WebPanelEntity.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -77,7 +79,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultWebPanelEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -87,26 +89,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 261,
-  "Name": "Abshire Group",
-  "Tooltip": "quam",
-  "Deleted": false,
-  "Rank": 568,
+  "WebPanelId": 168,
+  "Name": "Collier-Hettinger",
+  "Tooltip": "iusto",
+  "Deleted": true,
+  "Rank": 137,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": true,
-  "OnSatellite": false,
-  "OnTravel": true,
+  "OnCentral": false,
+  "OnSatellite": true,
+  "OnTravel": false,
   "OnSalesMarketingWeb": true,
   "OnSalesMarketingPocket": true,
-  "ShowInMenuBar": false,
+  "ShowInMenuBar": true,
   "ShowInToolBar": false,
   "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "WindowName": "Shanahan-Sanford",
+  "WindowName": "Wehner, Cassin and Berge",
   "Url": "http://www.example.com/",
-  "ProgId": "atque",
-  "Icon": 186,
+  "ProgId": "dolorem",
+  "Icon": 742,
   "AlwaysReloadOnShow": false,
   "NeverReloadOnCurrentChange": false,
   "TableRight": null,
@@ -114,7 +116,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 863
+      "FieldLength": 804
     }
   }
 }

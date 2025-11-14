@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/GetLocalizedTextsByLanguageId
 Gets all localized text belonging to a specific language.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -79,11 +81,11 @@ OK
 POST /api/v1/Agents/List/GetLocalizedTextsByLanguageId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "LanguageId": 976
+  "LanguageId": 404
 }
 ```
 
@@ -95,18 +97,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageId": 343,
-    "ResourceId": 685,
-    "Text": "iure",
+    "LanguageId": 826,
+    "ResourceId": 785,
+    "Text": "id",
     "Type": "Column",
-    "LocalizedTextId": 374,
-    "IsBuiltIn": true,
+    "LocalizedTextId": 758,
+    "IsBuiltIn": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 555
+        "FieldLength": 403
       }
     }
   }

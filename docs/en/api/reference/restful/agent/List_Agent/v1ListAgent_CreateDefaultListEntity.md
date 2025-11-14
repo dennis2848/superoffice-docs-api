@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/CreateDefaultListEntity
 Loading default values into a new ListEntity.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -65,7 +67,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultListEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -75,22 +77,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 156,
-  "Name": "Mitchell, Bartell and Oberbrunner",
-  "Tooltip": "facilis",
-  "Deleted": false,
-  "Rank": 956,
-  "IsCustomList": true,
-  "IsMDOList": true,
+  "Id": 183,
+  "Name": "Wintheiser-Schultz",
+  "Tooltip": "temporibus",
+  "Deleted": true,
+  "Rank": 69,
+  "IsCustomList": false,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "quam",
+  "ListType": "nobis",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 142
+      "FieldLength": 718
     }
   }
 }

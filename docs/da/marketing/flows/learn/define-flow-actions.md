@@ -1,10 +1,10 @@
----
+﻿---
 uid: help-da-flow-actions
 title: Definér flow-handlinger
 description: Definér flow-handlinger
 keywords: flow, automatisering, flow-handling, kør script, fordel til ejer
 author: Bergfrid Dias
-date: 09.01.2025
+date: 09.26.2025
 version: 11.3
 content_type: howto
 category: marketing
@@ -112,7 +112,7 @@ Personen fjernes som medlem fra det specificerede udvalg og/eller projekt.
 
 Dette trin ligner **Tilføj til udvalg og/eller projekt**.
 
-### Distribuer til ejer
+### <a id="distribute"></a>Distribuer til ejer
 
 Fordel kontakter ligeligt mellem valgte medarbejdere eller medlemmer af en angivet gruppe. Velegnet til at dele leads eller nye kontakter i et team.
 

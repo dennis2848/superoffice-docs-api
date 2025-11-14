@@ -14,6 +14,8 @@ POST /api/v1/Agents/Document/GetDocumentStream
 Get the document content as a stream
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -69,11 +71,11 @@ OK
 POST /api/v1/Agents/Document/GetDocumentStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 400
+  "DocumentId": 284
 }
 ```
 

@@ -32,7 +32,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ReasonSold/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/ReasonSold/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -97,56 +97,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 559,
-    "Name": "Blick-Boyle",
-    "ToolTip": "Nihil laboriosam aut.",
+    "Id": 855,
+    "Name": "Boehm, Corkery and Mitchell",
+    "ToolTip": "In quo sit voluptatem.",
     "Deleted": false,
-    "Rank": 679,
-    "Type": "natus",
-    "ColorBlock": 905,
-    "IconHint": "quia",
+    "Rank": 724,
+    "Type": "corporis",
+    "ColorBlock": 566,
+    "IconHint": "voluptatum",
     "Selected": false,
-    "LastChanged": "2016-04-21T03:47:00.8005429+02:00",
+    "LastChanged": "2012-04-06T02:30:53.4286352+02:00",
     "ChildItems": [
       {
-        "Id": 142,
-        "Name": "Torp, Gleason and Bayer",
-        "ToolTip": "Dolores et.",
+        "Id": 246,
+        "Name": "Bernier-Murray",
+        "ToolTip": "Eveniet aliquam quam reiciendis id voluptates ipsa tenetur.",
         "Deleted": false,
-        "Rank": 208,
-        "Type": "sapiente",
-        "ColorBlock": 212,
-        "IconHint": "quas",
+        "Rank": 37,
+        "Type": "officiis",
+        "ColorBlock": 57,
+        "IconHint": "quidem",
         "Selected": false,
-        "LastChanged": "2021-09-05T03:47:00.8005429+02:00",
+        "LastChanged": "2025-10-17T02:30:53.4286352+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "illo",
-        "StyleHint": "doloribus",
-        "Hidden": false,
-        "FullName": "Lazaro Kuhn",
+        "ExtraInfo": "et",
+        "StyleHint": "distinctio",
+        "Hidden": true,
+        "FullName": "Pedro Will",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 447
+            "FieldLength": 386
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "dignissimos",
+    "ExtraInfo": "harum",
+    "StyleHint": "quia",
     "Hidden": false,
-    "FullName": "Prof. Matilda Quigley III",
+    "FullName": "Miss Mikayla Garland Pouros II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 716
+        "FieldType": "System.String",
+        "FieldLength": 748
       }
     }
   }

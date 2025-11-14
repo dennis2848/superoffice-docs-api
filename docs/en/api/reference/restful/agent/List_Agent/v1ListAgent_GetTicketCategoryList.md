@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/GetTicketCategoryList
 Gets an array of TicketCategoryEntity objects.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -99,36 +101,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketCategoryId": 969,
-    "ParentId": 162,
-    "Name": "Wehner, Christiansen and Waters",
-    "Fullname": "dolor",
-    "CategoryMaster": 153,
+    "TicketCategoryId": 109,
+    "ParentId": 899,
+    "Name": "Mertz, Abbott and Nolan",
+    "Fullname": "consequuntur",
+    "CategoryMaster": 703,
     "Flags": "AcceptWhenReplying",
     "DelegateMethod": "Even",
-    "ExternalName": "West, Dicki and Lehner",
+    "ExternalName": "Langworth-Bernhard",
     "ClosingStatus": "Active",
     "MsgClosingStatus": "Active",
-    "AssignmentLag": 53,
-    "ReplyTemplate": 82,
-    "NotificationEmail": "fredrick.nikolaus@vandervort.biz",
+    "AssignmentLag": 277,
+    "ReplyTemplate": 663,
+    "NotificationEmail": "josiah.batz@marks.info",
     "DefaultTicketStatus": null,
     "DefaultMessageStatus": null,
-    "EffectiveReplyTemplateId": 580,
+    "EffectiveReplyTemplateId": 622,
     "ExtraFields": {
-      "ExtraFields1": "dolorem",
-      "ExtraFields2": "vero"
+      "ExtraFields1": "est",
+      "ExtraFields2": "nisi"
     },
     "CustomFields": {
-      "CustomFields1": "ex",
-      "CustomFields2": "ducimus"
+      "CustomFields1": "assumenda",
+      "CustomFields2": "eligendi"
     },
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 8
+        "FieldLength": 832
       }
     }
   }

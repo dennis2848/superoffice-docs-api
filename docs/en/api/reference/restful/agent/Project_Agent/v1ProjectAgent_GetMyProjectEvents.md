@@ -15,6 +15,7 @@ Gets all project events that belongs to the currently logged on user.
 
 
 The list of events are filtered by the Audience Visibility restrictions set when the project event is created.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -100,34 +101,34 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AssociateFullName": "Corrine Considine",
-    "Description": "Assimilated intermediate open architecture",
-    "ProjectId": 316,
-    "EventName": "Tromp-McKenzie",
-    "AssociateId": 318,
+    "AssociateFullName": "Dr. Sabina Bessie Jakubowski",
+    "Description": "Innovative interactive framework",
+    "ProjectId": 708,
+    "EventName": "Gislason-Daugherty",
+    "AssociateId": 73,
     "IsSignedOn": false,
-    "SignOffConfirmationText": "aut",
-    "SignOffText": "nobis",
-    "SignOnConfirmationText": "sequi",
-    "SignOnText": "qui",
-    "EventDate": "2014-09-15T03:46:55.1757421+02:00",
+    "SignOffConfirmationText": "unde",
+    "SignOffText": "quibusdam",
+    "SignOnConfirmationText": "unde",
+    "SignOnText": "maiores",
+    "EventDate": "2008-04-18T02:30:47.6788214+02:00",
     "Enabled": false,
     "SignOff": false,
-    "SignOffTaskEnable": true,
+    "SignOffTaskEnable": false,
     "SignOnTaskEnable": false,
     "SignOn": true,
-    "SignOffTaskId": 452,
-    "SignOnTaskId": 106,
-    "SignOffTriggersAssign": false,
-    "SignOnTriggersAssign": false,
-    "SignOnPersonId": 604,
-    "SignOffPersonId": 174,
+    "SignOffTaskId": 572,
+    "SignOnTaskId": 409,
+    "SignOffTriggersAssign": true,
+    "SignOnTriggersAssign": true,
+    "SignOnPersonId": 624,
+    "SignOffPersonId": 332,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 677
+        "FieldLength": 467
       }
     }
   }

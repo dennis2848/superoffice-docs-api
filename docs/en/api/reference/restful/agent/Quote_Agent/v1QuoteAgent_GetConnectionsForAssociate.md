@@ -14,6 +14,8 @@ POST /api/v1/Agents/Quote/GetConnectionsForAssociate
 Returns all connections available for the specified user.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -92,7 +94,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 691
+  "AssociateId": 936
 }
 ```
 
@@ -104,54 +106,54 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteConnectionId": 50,
-    "ERPName": "Langworth-Nikolaus",
-    "DisplayName": "Barrows Inc and Sons",
-    "DisplayDescription": "Grass-roots value-added pricing structure",
-    "Rank": 102,
-    "ConnectorName": "Herman-Torphy",
-    "ErpConnectionId": 708,
-    "ExtraData": "neque",
+    "QuoteConnectionId": 919,
+    "ERPName": "Dibbert, Erdman and Crooks",
+    "DisplayName": "Goldner-Stiedemann",
+    "DisplayDescription": "Synchronised user-facing neural-net",
+    "Rank": 260,
+    "ConnectorName": "Huels LLC",
+    "ErpConnectionId": 70,
+    "ExtraData": "totam",
     "IsAvailable": false,
     "InitializeResponse": null,
     "PriceLists": [
       {
-        "PriceListId": 252,
-        "ERPPriceListKey": "fuga",
-        "QuoteConnectionId": 549,
-        "Name": "Effertz, Farrell and Spinka",
-        "Description": "Expanded user-facing hub",
-        "Currency": "optio",
-        "CurrencyName": "Schumm-Parker",
-        "ValidFrom": "2012-04-22T03:46:55.2226157+02:00",
-        "ValidTo": "2020-08-19T03:46:55.2226157+02:00",
+        "PriceListId": 714,
+        "ERPPriceListKey": "labore",
+        "QuoteConnectionId": 621,
+        "Name": "Carter Inc and Sons",
+        "Description": "Polarised national analyzer",
+        "Currency": "atque",
+        "CurrencyName": "Dibbert LLC",
+        "ValidFrom": "2025-06-03T02:30:47.7256947+02:00",
+        "ValidTo": "1999-01-01T02:30:47.7256947+01:00",
         "IsActive": false,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 793
+            "FieldType": "System.String",
+            "FieldLength": 418
           }
         }
       }
     ],
-    "AllAccess": true,
-    "Deleted": false,
+    "AllAccess": false,
+    "Deleted": true,
     "UserGroupAccessIds": [
-      466,
-      302
+      820,
+      483
     ],
     "AssociateAccessIds": [
-      808,
-      171
+      422,
+      440
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 821
+        "FieldLength": 712
       }
     }
   }

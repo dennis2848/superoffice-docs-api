@@ -32,7 +32,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Rating/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/Rating/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -86,7 +86,7 @@ OK
 GET /api/v1/List/Rating/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -97,56 +97,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 562,
-    "Name": "Koepp-Ruecker",
-    "ToolTip": "Repellat quibusdam est sit.",
-    "Deleted": false,
-    "Rank": 298,
-    "Type": "eius",
-    "ColorBlock": 446,
-    "IconHint": "omnis",
+    "Id": 688,
+    "Name": "Emmerich-Considine",
+    "ToolTip": "Dolor qui debitis id.",
+    "Deleted": true,
+    "Rank": 264,
+    "Type": "id",
+    "ColorBlock": 277,
+    "IconHint": "harum",
     "Selected": true,
-    "LastChanged": "2002-02-05T03:47:00.7849183+01:00",
+    "LastChanged": "1999-05-14T02:30:53.4130107+02:00",
     "ChildItems": [
       {
-        "Id": 591,
-        "Name": "Bergnaum, Nicolas and Hudson",
-        "ToolTip": "Consequatur sit velit.",
+        "Id": 169,
+        "Name": "Toy, Hodkiewicz and Crist",
+        "ToolTip": "Rerum minus ea et.",
         "Deleted": false,
-        "Rank": 955,
-        "Type": "natus",
-        "ColorBlock": 512,
-        "IconHint": "harum",
+        "Rank": 65,
+        "Type": "dolore",
+        "ColorBlock": 252,
+        "IconHint": "qui",
         "Selected": false,
-        "LastChanged": "2024-05-27T03:47:00.7849183+02:00",
+        "LastChanged": "2001-03-31T02:30:53.4130107+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sint",
-        "StyleHint": "et",
+        "ExtraInfo": "nulla",
+        "StyleHint": "alias",
         "Hidden": false,
-        "FullName": "Jan Treutel",
+        "FullName": "Dr. Chanelle Oral Prohaska IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 961
+            "FieldLength": 464
           }
         }
       }
     ],
-    "ExtraInfo": "quaerat",
-    "StyleHint": "possimus",
-    "Hidden": false,
-    "FullName": "Domenico Konopelski V",
+    "ExtraInfo": "ad",
+    "StyleHint": "dolores",
+    "Hidden": true,
+    "FullName": "Allen Baumbach",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 301
+        "FieldLength": 718
       }
     }
   }

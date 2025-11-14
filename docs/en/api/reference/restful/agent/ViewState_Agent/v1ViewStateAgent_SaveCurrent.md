@@ -15,6 +15,7 @@ Saving the current history item.
 
 
 This history item is saved with Rank = 1, and all the remaining elements rank values are shifted one down. The list is maintained with the max lenght of the History list length preference.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -82,7 +83,7 @@ OK
 POST /api/v1/Agents/ViewState/SaveCurrent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -97,19 +98,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Rank": 414,
-  "Id": 561,
-  "HistoryName": "Brekke-Keeling",
-  "HistoryId": 949,
-  "AssociateId": 357,
-  "Name": "Reinger, Spinka and Dach",
-  "ItemInfo": "iure",
+  "Rank": 971,
+  "Id": 769,
+  "HistoryName": "Keeling Group",
+  "HistoryId": 637,
+  "AssociateId": 478,
+  "Name": "Jacobson, Labadie and Wiza",
+  "ItemInfo": "reiciendis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 104
+      "FieldType": "System.String",
+      "FieldLength": 907
     }
   }
 }

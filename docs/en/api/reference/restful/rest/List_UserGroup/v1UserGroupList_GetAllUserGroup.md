@@ -72,7 +72,7 @@ OK
 GET /api/v1/List/UserGroup/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -83,17 +83,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Value": "atque",
-    "Tooltip": "itaque",
-    "Id": 988,
-    "Rank": 504,
+    "Value": "ut",
+    "Tooltip": "hic",
+    "Id": 938,
+    "Rank": 710,
     "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 726
+        "FieldLength": 768
       }
     }
   }

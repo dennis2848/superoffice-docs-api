@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/GetListDefinitions
 Get a list of the lists - built-in and user-defined.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -83,11 +85,11 @@ OK
 POST /api/v1/Agents/List/GetListDefinitions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeDeleted": false
+  "IncludeDeleted": true
 }
 ```
 
@@ -99,22 +101,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 395,
-    "Name": "Walsh LLC",
-    "Tooltip": "itaque",
-    "Deleted": false,
-    "Rank": 440,
+    "Id": 355,
+    "Name": "Rippin, Conroy and Blick",
+    "Tooltip": "libero",
+    "Deleted": true,
+    "Rank": 356,
     "IsCustomList": false,
-    "IsMDOList": true,
-    "UseGroupsAndHeadings": false,
-    "ListType": "id",
-    "InUseByUserDefinedFields": true,
+    "IsMDOList": false,
+    "UseGroupsAndHeadings": true,
+    "ListType": "aut",
+    "InUseByUserDefinedFields": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 752
+        "FieldType": "System.Int32",
+        "FieldLength": 550
       }
     }
   }

@@ -80,7 +80,7 @@ ProjectEntity found.
 GET /api/v1/Project/{id}/Simple
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -90,30 +90,30 @@ HTTP/1.1 200 ProjectEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 915,
-  "Name": "Hintz-Waelchi",
-  "Description": "Proactive hybrid framework",
+  "ProjectId": 475,
+  "Name": "Orn, Gottlieb and Bauch",
+  "Description": "Object-based context-sensitive product",
   "URL": "http://www.example.com/",
-  "Type": "excepturi",
-  "AssociateId": 484,
-  "AssociateFullName": "Dustin Magdalen Schumm MD",
-  "TypeId": 223,
-  "Updated": "2004-10-31T03:47:00.1911895+01:00",
-  "StatusId": 525,
-  "Status": "laboriosam",
-  "TextId": 524,
-  "PublishTo": "2020-03-03T03:47:00.1911895+01:00",
-  "PublishFrom": "2020-08-30T03:47:00.1911895+02:00",
-  "IsPublished": false,
+  "Type": "doloribus",
+  "AssociateId": 125,
+  "AssociateFullName": "Maryse Walsh II",
+  "TypeId": 517,
+  "Updated": "2002-02-08T02:30:52.8192812+01:00",
+  "StatusId": 175,
+  "Status": "nostrum",
+  "TextId": 86,
+  "PublishTo": "2000-10-20T02:30:52.8192812+02:00",
+  "PublishFrom": "2018-04-13T02:30:52.8192812+02:00",
+  "IsPublished": true,
   "URLName": "http://www.example.com/",
-  "ProjectNumber": "1811871",
-  "ActiveErpLinks": 288,
+  "ProjectNumber": "747618",
+  "ActiveErpLinks": 257,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 604
+      "FieldLength": 714
     }
   }
 }

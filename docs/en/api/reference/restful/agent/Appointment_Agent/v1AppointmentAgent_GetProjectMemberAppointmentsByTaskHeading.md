@@ -15,6 +15,7 @@ Method that returns a specified number of appointments of a specific appointment
 
 
 The appointments belong to the projects where the person specified is member. Task represents the different types of activities, like “Phone call”, “Meeting” and so on. The heading represents a grouping or filtering of tasks.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -138,11 +139,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 540,
-  "StartTime": "2023-08-27T03:46:53.9882851+02:00",
-  "EndTime": "2009-06-07T03:46:53.9882851+02:00",
-  "Count": 403,
-  "TaskHeadingId": 263
+  "PersonId": 340,
+  "StartTime": "2006-09-28T02:30:46.5069828+02:00",
+  "EndTime": "2011-04-28T02:30:46.5069828+02:00",
+  "Count": 753,
+  "TaskHeadingId": 653
 }
 ```
 
@@ -154,67 +155,67 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 210,
-    "StartDate": "2017-09-03T03:46:53.9882851+02:00",
-    "EndDate": "2020-10-14T03:46:53.9882851+02:00",
+    "AppointmentId": 172,
+    "StartDate": "2012-11-21T02:30:46.5069828+01:00",
+    "EndDate": "2006-06-04T02:30:46.5069828+02:00",
     "Type": "BookingForChecklist",
-    "Task": "dicta",
-    "AssociateFullName": "Hermina Rutherford",
-    "ContactName": "Goldner-Little",
-    "Description": "Self-enabling composite Graphic Interface",
-    "PersonFullName": "Prof. Lucie Marks",
-    "PersonId": 507,
-    "ContactId": 919,
-    "ProjectId": 849,
-    "ProjectName": "Lueilwitz, McLaughlin and Bailey",
-    "IsPublished": true,
-    "AssociateId": 251,
-    "ColorIndex": 256,
-    "IsFree": false,
+    "Task": "praesentium",
+    "AssociateFullName": "Rodrigo Pollich",
+    "ContactName": "Little-Cummings",
+    "Description": "Fully-configurable analyzing concept",
+    "PersonFullName": "Domenico Schumm",
+    "PersonId": 58,
+    "ContactId": 730,
+    "ProjectId": 436,
+    "ProjectName": "Abshire Inc and Sons",
+    "IsPublished": false,
+    "AssociateId": 102,
+    "ColorIndex": 907,
+    "IsFree": true,
     "HasAlarm": false,
-    "IsAlldayEvent": false,
+    "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 804,
-    "PriorityName": "Greenholt-Marquardt",
+    "PriorityId": 881,
+    "PriorityName": "Reilly-Hansen",
     "TaskType": "Appointment",
-    "IsBookingMain": false,
+    "IsBookingMain": true,
     "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "2003-11-23T03:46:53.9882851+01:00",
+    "ActiveDate": "2004-06-16T02:30:46.5069828+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2000-05-30T03:46:53.9882851+02:00",
-    "RecurringEndDate": "2002-03-05T03:46:53.9882851+01:00",
-    "MotherId": 123,
-    "AssignedBy": 708,
-    "AssignedByFullName": "Stone Holly Ratke PhD",
+    "RecurringStartDate": "2006-12-09T02:30:46.5069828+01:00",
+    "RecurringEndDate": "2000-03-21T02:30:46.5069828+01:00",
+    "MotherId": 792,
+    "AssignedBy": 112,
+    "AssignedByFullName": "Carson Ruthie Conn PhD",
     "RejectReason": "",
-    "Location": "possimus",
-    "AlarmLeadTime": "et",
-    "SaleId": 930,
-    "SaleName": "Rice, Connelly and Denesik",
-    "AssociateName": "Runolfsson-O'Kon",
-    "CreatedDate": "2024-04-22T03:46:53.9882851+02:00",
-    "CreatedBy": "vitae",
-    "CreatedByFullName": "Kaleigh Champlin III",
-    "CreatedByAssociateId": 637,
+    "Location": "voluptatibus",
+    "AlarmLeadTime": "est",
+    "SaleId": 125,
+    "SaleName": "Hickle Inc and Sons",
+    "AssociateName": "DuBuque Group",
+    "CreatedDate": "2005-09-09T02:30:46.5069828+02:00",
+    "CreatedBy": "magnam",
+    "CreatedByFullName": "Dr. Wilfrid Malachi Hoppe",
+    "CreatedByAssociateId": 139,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "OwnedExternally": "Google",
-    "MotherAssociateId": 458,
+    "MotherAssociateId": 829,
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 199,
-    "Title": "qui",
-    "Agenda": "voluptates",
-    "InternalNotes": "occaecati",
+    "PreferredTZLocation": 878,
+    "Title": "fugit",
+    "Agenda": "beatae",
+    "InternalNotes": "in",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 778
+        "FieldLength": 996
       }
     }
   }

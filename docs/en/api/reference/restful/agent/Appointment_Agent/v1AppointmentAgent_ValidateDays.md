@@ -14,6 +14,8 @@ POST /api/v1/Agents/Appointment/ValidateDays
 Validates the set of dates to calculate any conflicts.
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -77,14 +79,14 @@ OK
 POST /api/v1/Agents/Appointment/ValidateDays
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "AppointmentEntity": null,
   "Dates": [
-    "inventore",
-    "soluta"
+    "harum",
+    "velit"
   ]
 }
 ```
@@ -97,18 +99,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Date": "2012-12-31T03:46:54.1445302+01:00",
+    "Date": "2002-09-06T02:30:46.6163546+02:00",
     "IsConflict": false,
-    "Description": "Customizable solution-oriented groupware",
-    "DescriptionStyleHint": "Synergized optimal matrix",
-    "Tooltip": "quasi"
+    "Description": "Adaptive assymetric Graphic Interface",
+    "DescriptionStyleHint": "Innovative interactive pricing structure",
+    "Tooltip": "similique"
   },
   {
-    "Date": "2012-12-31T03:46:54.1445302+01:00",
+    "Date": "2002-09-06T02:30:46.6163546+02:00",
     "IsConflict": false,
-    "Description": "Customizable solution-oriented groupware",
-    "DescriptionStyleHint": "Synergized optimal matrix",
-    "Tooltip": "quasi"
+    "Description": "Adaptive assymetric Graphic Interface",
+    "DescriptionStyleHint": "Innovative interactive pricing structure",
+    "Tooltip": "similique"
   }
 ]
 ```

@@ -15,6 +15,7 @@ When a user view/read a ticket, a number of action should be performed: set read
 
 
 Which actions will be performed depends on owner, caller and configuration
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -133,11 +134,11 @@ OK
 POST /api/v1/Agents/Ticket/ProcessTicketWhenRead
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketEntityId": 967
+  "TicketEntityId": 250
 }
 ```
 
@@ -148,21 +149,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 878,
-  "Title": "officia",
-  "CreatedAt": "2022-07-30T03:46:55.4882311+02:00",
-  "LastChanged": "2022-04-15T03:46:55.4882311+02:00",
-  "ReadByOwner": "2022-06-12T03:46:55.4882311+02:00",
-  "ReadByCustomer": "2024-09-03T03:46:55.4882311+02:00",
-  "FirstReadByOwner": "2000-05-21T03:46:55.4882311+02:00",
-  "FirstReadByUser": "2001-11-08T03:46:55.4882311+01:00",
-  "Activate": "2019-07-26T03:46:55.4882311+02:00",
-  "ClosedAt": "2017-08-09T03:46:55.4882311+02:00",
-  "RepliedAt": "2009-12-17T03:46:55.4882311+01:00",
-  "AlertTimeout": "2000-07-17T03:46:55.4882311+02:00",
-  "Deadline": "2014-07-04T03:46:55.4882311+02:00",
+  "TicketId": 527,
+  "Title": "ipsum",
+  "CreatedAt": "2012-09-29T02:30:47.9444374+02:00",
+  "LastChanged": "2012-10-16T02:30:47.9444374+02:00",
+  "ReadByOwner": "2019-03-02T02:30:47.9444374+01:00",
+  "ReadByCustomer": "2014-04-16T02:30:47.9444374+02:00",
+  "FirstReadByOwner": "2014-01-16T02:30:47.9444374+01:00",
+  "FirstReadByUser": "2021-09-21T02:30:47.9444374+02:00",
+  "Activate": "2018-11-23T02:30:47.9444374+01:00",
+  "ClosedAt": "2019-04-05T02:30:47.9444374+02:00",
+  "RepliedAt": "2000-07-31T02:30:47.9444374+02:00",
+  "AlertTimeout": "2008-12-20T02:30:47.9444374+01:00",
+  "Deadline": "2012-05-18T02:30:47.9444374+02:00",
   "CreatedBy": null,
-  "Author": "aut",
+  "Author": "dolorem",
   "OwnedBy": null,
   "Category": null,
   "Slevel": "External",
@@ -173,163 +174,163 @@ Content-Type: application/json; charset=utf-8
   "Person": null,
   "SecondaryPersons": [
     {
-      "Position": "fugiat",
-      "PersonId": 331,
-      "Mrmrs": "veniam",
-      "Firstname": "Laury",
-      "Lastname": "Goyette",
-      "MiddleName": "Crist, Russel and Dietrich",
-      "Title": "sequi",
-      "Description": "Integrated real-time circuit",
-      "Email": "van@heathcote.info",
-      "FullName": "Jacinto Muller",
-      "DirectPhone": "(032)291-1955",
-      "FormalName": "Renner LLC",
-      "CountryId": 157,
-      "ContactId": 762,
-      "ContactName": "D'Amore-Hamill",
-      "Retired": 486,
-      "Rank": 798,
-      "ActiveInterests": 543,
+      "Position": "ea",
+      "PersonId": 999,
+      "Mrmrs": "asperiores",
+      "Firstname": "Alessia",
+      "Lastname": "Barton",
+      "MiddleName": "Heaney-Gerlach",
+      "Title": "dignissimos",
+      "Description": "Synergized directional matrix",
+      "Email": "tom@franeckikub.com",
+      "FullName": "Benny Cassin I",
+      "DirectPhone": "(912)104-7041",
+      "FormalName": "Pfeffer LLC",
+      "CountryId": 359,
+      "ContactId": 315,
+      "ContactName": "Denesik LLC",
+      "Retired": 718,
+      "Rank": 838,
+      "ActiveInterests": 245,
       "ContactDepartment": "",
-      "ContactCountryId": 375,
-      "ContactOrgNr": "1766964",
-      "FaxPhone": "013.541.5709 x3732",
-      "MobilePhone": "826-021-9976 x64672",
-      "ContactPhone": "411.555.0748 x6763",
-      "AssociateName": "O'Hara Group",
-      "AssociateId": 661,
-      "UsePersonAddress": true,
-      "ContactFax": "sequi",
-      "Kanafname": "cumque",
-      "Kanalname": "in",
-      "Post1": "facere",
-      "Post2": "explicabo",
-      "Post3": "sint",
-      "EmailName": "arvid.cole@wizamorar.co.uk",
-      "ContactFullName": "Javier Hermiston",
-      "ActiveErpLinks": 336,
-      "TicketPriorityId": 926,
-      "SupportLanguageId": 915,
-      "SupportAssociateId": 14,
+      "ContactCountryId": 660,
+      "ContactOrgNr": "1153601",
+      "FaxPhone": "562-524-6029 x224",
+      "MobilePhone": "(246)265-4289 x1217",
+      "ContactPhone": "343.643.8627 x58043",
+      "AssociateName": "Nolan LLC",
+      "AssociateId": 990,
+      "UsePersonAddress": false,
+      "ContactFax": "voluptates",
+      "Kanafname": "qui",
+      "Kanalname": "nisi",
+      "Post1": "provident",
+      "Post2": "voluptas",
+      "Post3": "error",
+      "EmailName": "geraldine.zieme@hanequitzon.info",
+      "ContactFullName": "Dawson Nolan",
+      "ActiveErpLinks": 969,
+      "TicketPriorityId": 881,
+      "SupportLanguageId": 707,
+      "SupportAssociateId": 718,
       "CategoryName": "VIP Customer",
-      "PersonNumber": "887626",
+      "PersonNumber": "248763",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 289
+          "FieldLength": 180
         }
       }
     }
   ],
-  "AlertLevel": 742,
-  "ConnectId": 761,
+  "AlertLevel": 417,
+  "ConnectId": 963,
   "ReadStatus": "Green",
-  "TimeToReply": 499,
-  "RealTimeToReply": 11,
-  "TimeToClose": 225,
-  "RealTimeToClose": 608,
-  "TimeSpentInternally": 242,
-  "TimeSpentExternally": 229,
-  "TimeSpentQueue": 86,
-  "RealTimeSpentInternally": 459,
-  "RealTimeSpentExternally": 332,
-  "RealTimeSpentQueue": 418,
-  "TimeSpent": 555,
+  "TimeToReply": 301,
+  "RealTimeToReply": 93,
+  "TimeToClose": 129,
+  "RealTimeToClose": 478,
+  "TimeSpentInternally": 761,
+  "TimeSpentExternally": 89,
+  "TimeSpentQueue": 506,
+  "RealTimeSpentInternally": 110,
+  "RealTimeSpentExternally": 432,
+  "RealTimeSpentQueue": 941,
+  "TimeSpent": 696,
   "HasAttachment": true,
-  "NumReplies": 119,
-  "NumMessages": 290,
-  "FromAddress": "et",
+  "NumReplies": 321,
+  "NumMessages": 576,
+  "FromAddress": "beatae",
   "Messages": [
     {
-      "TicketMessageId": 963,
-      "CreatedAt": "2008-10-11T03:46:55.4882311+02:00",
+      "TicketMessageId": 276,
+      "CreatedAt": "2009-08-27T02:30:47.9444374+02:00",
       "Slevel": "External",
-      "Important": true,
-      "Author": "ducimus",
-      "PersonId": 123,
-      "PersonFullName": "Dr. Carlie McCullough",
-      "ContactId": 395,
-      "ContactName": "Krajcik, Schimmel and Veum",
+      "Important": false,
+      "Author": "tenetur",
+      "PersonId": 876,
+      "PersonFullName": "Mrs. Eva VonRueden IV",
+      "ContactId": 497,
+      "ContactName": "Wintheiser Inc and Sons",
       "ContactDepartment": "",
-      "NumAttachments": 965,
-      "EmailHeader": "katarina.zemlak@nicolascollier.co.uk",
+      "NumAttachments": 780,
+      "EmailHeader": "elvie_schuppe@ratke.info",
       "MessageHeaders": [
         {},
         {}
       ],
-      "Language": "enim",
-      "Sentiment": 341,
-      "SentimentConfidence": 453,
-      "CreatedBy": 478,
-      "ChangedAt": "2023-08-11T03:46:55.4882311+02:00",
+      "Language": "a",
+      "Sentiment": 794,
+      "SentimentConfidence": 309,
+      "CreatedBy": 916,
+      "ChangedAt": "2013-02-26T02:30:47.9444374+01:00",
       "Badge": "Comment",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 238
+          "FieldType": "System.String",
+          "FieldLength": 91
         }
       }
     }
   ],
   "Tags": [
     {
-      "Id": 998,
-      "Name": "Stanton, Cassin and Kub",
-      "ToolTip": "Animi ipsa.",
+      "Id": 535,
+      "Name": "Kuvalis LLC",
+      "ToolTip": "Dolorem nobis iste aliquid.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 935
+          "FieldType": "System.Int32",
+          "FieldLength": 222
         }
       }
     },
     {
-      "Id": 998,
-      "Name": "Stanton, Cassin and Kub",
-      "ToolTip": "Animi ipsa.",
+      "Id": 535,
+      "Name": "Kuvalis LLC",
+      "ToolTip": "Dolorem nobis iste aliquid.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 935
+          "FieldType": "System.Int32",
+          "FieldLength": 222
         }
       }
     }
   ],
-  "Language": "quis",
-  "Sentiment": 332,
-  "SentimentConfidence": 642,
-  "SuggestedCategoryId": 930,
+  "Language": "fuga",
+  "Sentiment": 841,
+  "SentimentConfidence": 492,
+  "SuggestedCategoryId": 218,
   "SuggestedCategoryName": "VIP Customer",
-  "OrigHumanCategoryId": 786,
-  "IconHint": "itaque",
+  "OrigHumanCategoryId": 662,
+  "IconHint": "ipsum",
   "Sale": null,
   "Project": null,
   "FormSubmission": null,
   "TicketType": null,
-  "ActiveStatusMonitorId": 76,
+  "ActiveStatusMonitorId": 989,
   "ExtraFields": {
-    "ExtraFields1": "soluta",
-    "ExtraFields2": "distinctio"
+    "ExtraFields1": "qui",
+    "ExtraFields2": "natus"
   },
   "CustomFields": {
-    "CustomFields1": "cumque",
-    "CustomFields2": "nihil"
+    "CustomFields1": "fuga",
+    "CustomFields2": "voluptatum"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 144
+      "FieldLength": 388
     }
   }
 }

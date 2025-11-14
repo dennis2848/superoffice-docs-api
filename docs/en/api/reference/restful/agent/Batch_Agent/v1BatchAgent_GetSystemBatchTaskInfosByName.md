@@ -14,6 +14,8 @@ POST /api/v1/Agents/Batch/GetSystemBatchTaskInfosByName
 Get an array of system BatchTaskInfo for the provided task name.
 
 
+NsApiSlow threshold: 3000 ms.
+
 
 
 
@@ -95,11 +97,11 @@ OK
 POST /api/v1/Agents/Batch/GetSystemBatchTaskInfosByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskName": "Ferry, Leannon and Ward"
+  "TaskName": "Rogahn LLC"
 }
 ```
 
@@ -111,37 +113,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 201,
-    "Name": "Feil-Bogisich",
-    "AssociateId": 338,
-    "DetailsTable": 561,
-    "DetailsRecord": 133,
+    "Id": 953,
+    "Name": "Hane LLC",
+    "AssociateId": 439,
+    "DetailsTable": 704,
+    "DetailsRecord": 789,
     "IsSystemTask": true,
-    "IsInternalTask": true,
+    "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "explicabo",
-      "ParameterObject2": "et"
+      "ParameterObject1": "incidunt",
+      "ParameterObject2": "unde"
     },
-    "LastStarted": "2003-11-10T03:46:54.3007673+01:00",
-    "Created": "2002-04-28T03:46:54.3007673+02:00",
-    "StartCount": 479,
-    "DatabaseSerialNumber": "937510",
-    "Context": "consequatur",
-    "Result": "consequuntur",
+    "LastStarted": "2013-08-24T02:30:46.8194719+02:00",
+    "Created": "2010-09-02T02:30:46.8194719+02:00",
+    "StartCount": 533,
+    "DatabaseSerialNumber": "1080616",
+    "Context": "laboriosam",
+    "Result": "maiores",
     "State": "All",
-    "Description": "Focused tangible migration",
-    "Response": "et",
-    "Request": "eum",
-    "ProgressDescription": "Cross-group assymetric secured line",
-    "ProgressPercent": 276,
-    "FileName": "Reichel, Cummings and Kub",
+    "Description": "Team-oriented human-resource success",
+    "Response": "consequuntur",
+    "Request": "corrupti",
+    "ProgressDescription": "Horizontal grid-enabled functionalities",
+    "ProgressPercent": 70,
+    "FileName": "Dicki, Langosh and Stroman",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 7
+        "FieldLength": 27
       }
     }
   }

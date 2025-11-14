@@ -14,6 +14,8 @@ POST /api/v1/Agents/Appointment/ConvertAppointmentToTask
 Convert appointment to task if certain criteria are met (participants &lt; 2)
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -133,11 +135,11 @@ OK
 POST /api/v1/Agents/Appointment/ConvertAppointmentToTask
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 602
+  "AppointmentId": 261
 }
 ```
 
@@ -152,121 +154,121 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2013-01-31T03:46:54.2695244+01:00",
-  "AppointmentId": 5,
-  "Description": "Public-key grid-enabled complexity",
-  "Title": "voluptates",
-  "Agenda": "dolorum",
-  "InternalNotes": "est",
-  "StartDate": "2015-08-24T03:46:54.2695244+02:00",
-  "EndDate": "1999-12-04T03:46:54.2695244+01:00",
+  "CreatedDate": "2012-05-22T02:30:46.7725977+02:00",
+  "AppointmentId": 99,
+  "Description": "Right-sized motivating flexibility",
+  "Title": "corrupti",
+  "Agenda": "fuga",
+  "InternalNotes": "eligendi",
+  "StartDate": "2004-06-26T02:30:46.7725977+02:00",
+  "EndDate": "2007-02-22T02:30:46.7725977+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 167,
+  "MotherId": 751,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2018-04-28T03:46:54.2695244+02:00",
+  "UpdatedDate": "2018-04-26T02:30:46.7882228+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 24,
+  "ActiveLinks": 770,
   "Links": [
     {
-      "EntityName": "Kemmer-Hegmann",
-      "Id": 59,
-      "Description": "Public-key disintermediate hub",
-      "ExtraInfo": "molestiae",
-      "LinkId": 459,
+      "EntityName": "Bradtke-Hagenes",
+      "Id": 834,
+      "Description": "Seamless discrete hub",
+      "ExtraInfo": "minus",
+      "LinkId": 581,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 142
+          "FieldType": "System.Int32",
+          "FieldLength": 382
         }
       }
     }
   ],
-  "AlarmLeadTime": "sint",
+  "AlarmLeadTime": "voluptas",
   "HasAlarm": false,
-  "ColorIndex": 995,
+  "ColorIndex": 250,
   "IsFree": false,
   "IsAlldayEvent": false,
-  "LagTime": "ipsam",
-  "LeadTime": "in",
-  "Location": "molestiae",
-  "RejectCounter": 726,
+  "LagTime": "at",
+  "LeadTime": "dicta",
+  "Location": "ea",
+  "RejectCounter": 142,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 5,
-      "PersonId": 606,
-      "ContactId": 70,
-      "EmailId": 74,
+      "AssociateId": 658,
+      "PersonId": 909,
+      "ContactId": 189,
+      "EmailId": 309,
       "SendEmail": true,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "loma.mante@marvin.ca",
-      "Description": "Expanded bifurcated task-force"
+      "EmailAddress": "desiree@parker.us",
+      "Description": "Up-sized mobile adapter"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2012-07-01T03:46:54.2695244+02:00",
-  "HasConflict": true,
+  "ActiveDate": "2015-02-17T02:30:46.7882228+01:00",
+  "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 241,
+  "PreferredTZLocation": 369,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 65,
+  "SuggestedAppointmentId": 23,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "OwnedExternally": "Google",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "nihil",
+  "CentralserviceVideomeetId": "dolorem",
   "UserDefinedFields": {
-    "SuperOffice:1": "Guido Swift",
-    "SuperOffice:2": "Zelma Melissa Shields PhD"
+    "SuperOffice:1": "True",
+    "SuperOffice:2": "Ms. Claudine Amely Lowe"
   },
   "ExtraFields": {
-    "ExtraFields1": "exercitationem",
-    "ExtraFields2": "blanditiis"
+    "ExtraFields1": "rem",
+    "ExtraFields2": "dolor"
   },
   "CustomFields": {
-    "CustomFields1": "eligendi",
+    "CustomFields1": "dolorum",
     "CustomFields2": "et"
   },
-  "PublishEventDate": "2007-08-03T03:46:54.2695244+02:00",
-  "PublishTo": "2010-12-26T03:46:54.2695244+01:00",
-  "PublishFrom": "2022-10-15T03:46:54.2695244+02:00",
-  "IsPublished": true,
+  "PublishEventDate": "2003-06-02T02:30:46.7882228+02:00",
+  "PublishTo": "2003-11-23T02:30:46.7882228+01:00",
+  "PublishFrom": "2002-04-03T02:30:46.7882228+02:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 749,
+      "VisibleId": 326,
       "Visibility": "All",
-      "DisplayValue": "cum",
+      "DisplayValue": "omnis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 20
+          "FieldType": "System.String",
+          "FieldLength": 408
         }
       }
     },
     {
-      "VisibleId": 749,
+      "VisibleId": 326,
       "Visibility": "All",
-      "DisplayValue": "cum",
+      "DisplayValue": "omnis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 20
+          "FieldType": "System.String",
+          "FieldLength": 408
         }
       }
     }
@@ -275,8 +277,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 134
+      "FieldType": "System.Int32",
+      "FieldLength": 841
     }
   }
 }

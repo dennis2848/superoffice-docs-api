@@ -14,6 +14,9 @@ POST /api/v1/Agents/EMail/CreateDefaultEMailConnectionInfo
 Loading default values into a new EMailConnectionInfo.
 
 
+NsApiSlow threshold: 5000 ms.
+
+
 ## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 
@@ -72,17 +75,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ServerName": "Gleichner-Haag",
-  "UserName": "Schuster, Haley and Bruen",
-  "Password": "veritatis",
-  "Folder": "perspiciatis",
+  "ServerName": "Wehner-Marks",
+  "UserName": "Beatty Inc and Sons",
+  "Password": "molestiae",
+  "Folder": "non",
   "UseSSL": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 449
+      "FieldLength": 536
     }
   }
 }

@@ -1,10 +1,10 @@
----
+﻿---
 uid: help-no-flow-actions
 title: Definer flythandlinger
 description: Definer flythandlinger
 keywords: flyt, automatisering, flythandling, kjør skript, fordel til eier
 author: Bergfrid Dias
-date: 09.01.2025
+date: 09.26.2025
 version: 11.3
 content_type: howto
 category: marketing
@@ -111,7 +111,7 @@ Personen fjernes som medlem fra det angitte utvalget og/eller prosjektet.
 
 Dette trinnet er likt **Legg til i utvalg/prosjekt**.
 
-## Fordel til eier
+## <a id="distribute"></a>Fordel til eier
 
 Fordel personer jevnt til valgte medarbeidere eller medlemmer av en spesifisert primærgruppe. Nyttig for å dele nye leads eller nye personer mellom et team.
 

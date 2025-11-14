@@ -14,6 +14,8 @@ POST /api/v1/Agents/Ticket/GetTicketSummaries
 Get an array of summaryitem for the given tickets
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -81,8 +83,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "TicketIds": [
-    736,
-    933
+    116,
+    365
   ]
 }
 ```
@@ -95,18 +97,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketId": 886,
-    "TicketStatus": 689,
-    "Title": "magni",
-    "Registered": "1998-08-29T03:46:55.4257333+02:00",
-    "IconHint": "enim"
+    "TicketId": 345,
+    "TicketStatus": 150,
+    "Title": "quis",
+    "Registered": "2003-03-18T02:30:47.8819394+01:00",
+    "IconHint": "est"
   },
   {
-    "TicketId": 886,
-    "TicketStatus": 689,
-    "Title": "magni",
-    "Registered": "1998-08-29T03:46:55.4257333+02:00",
-    "IconHint": "enim"
+    "TicketId": 345,
+    "TicketStatus": 150,
+    "Title": "quis",
+    "Registered": "2003-03-18T02:30:47.8819394+01:00",
+    "IconHint": "est"
   }
 ]
 ```

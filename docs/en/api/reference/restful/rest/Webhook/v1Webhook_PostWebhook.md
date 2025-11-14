@@ -15,6 +15,7 @@ Creates a new Webhook
 
 
 Calls the Webhook agent service SaveWebhook.
+NsApiSlow threshold: 2000 ms.
 
 
 ## Online Restricted: ## The Webhook agent is not available in Online by default. Access must be requested specifically when app is registered.
@@ -104,32 +105,32 @@ OK
 POST /api/v1/Webhook
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 85,
-  "Name": "Conn-Smitham",
+  "WebhookId": 344,
+  "Name": "Murray-Jenkins",
   "Events": [
-    "et",
-    "ea"
+    "voluptatibus",
+    "beatae"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "modi",
+  "Secret": "ut",
   "State": "Active",
-  "Type": "saepe",
+  "Type": "omnis",
   "Headers": {
-    "Headers1": "id",
-    "Headers2": "iste"
+    "Headers1": "quis",
+    "Headers2": "qui"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2007-07-04T03:47:00.5505518+02:00",
+  "Registered": "2018-11-22T02:30:53.1786436+01:00",
   "RegisteredAssociate": null,
-  "Updated": "2018-03-21T03:47:00.5505518+01:00",
+  "Updated": "2016-01-22T02:30:53.1786436+01:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "emil@schamberger.us"
+  "ErrorsEmail": "elouise@casperreynolds.com"
 }
 ```
 
@@ -140,28 +141,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 856,
-  "Name": "Hettinger Inc and Sons",
+  "WebhookId": 80,
+  "Name": "Hudson LLC",
   "Events": [
-    "blanditiis",
-    "ut"
+    "saepe",
+    "quia"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "eos",
+  "Secret": "et",
   "State": "Active",
-  "Type": "est",
+  "Type": "et",
   "Headers": {
-    "Headers1": "dolores",
-    "Headers2": "qui"
+    "Headers1": "amet",
+    "Headers2": "doloremque"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2025-04-01T03:47:00.5505518+02:00",
+  "Registered": "2004-02-25T02:30:53.1786436+01:00",
   "RegisteredAssociate": null,
-  "Updated": "2025-04-08T03:47:00.5505518+02:00",
+  "Updated": "2000-09-28T02:30:53.1786436+02:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "willie.will@damore.us",
+  "ErrorsEmail": "colleen_schaefer@cormierbruen.biz",
   "_Links": {
     "Self": "https://www.example.com/api/v1/project/321",
     "Archive": "https://www.example.com/api/v1/project"

@@ -14,6 +14,9 @@ POST /api/v1/Agents/CRMScript/GetCRMScriptByUniqueIdentifier
 Get information about a script from a unique identifier
 
 
+NsApiSlow threshold: 5000 ms.
+
+
 ## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 
@@ -90,7 +93,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "inventore"
+  "UniqueIdentifier": "incidunt"
 }
 ```
 
@@ -101,23 +104,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "omnis",
-  "Name": "Steuber-Kris",
-  "Description": "Mandatory system-worthy installation",
-  "IncludeId": "ducimus",
-  "Source": "aut",
-  "Registered": "2020-09-28T03:46:54.5663888+02:00",
-  "RegisteredBy": "quasi",
-  "Updated": "2019-03-30T03:46:54.5663888+01:00",
-  "UpdatedBy": "tempora",
-  "Path": "cumque",
+  "UniqueIdentifier": "sit",
+  "Name": "Gulgowski-Gibson",
+  "Description": "Streamlined responsive interface",
+  "IncludeId": "aspernatur",
+  "Source": "fugiat",
+  "Registered": "2002-07-08T02:30:47.0382145+02:00",
+  "RegisteredBy": "necessitatibus",
+  "Updated": "2002-01-13T02:30:47.0382145+01:00",
+  "UpdatedBy": "ea",
+  "Path": "dolorum",
   "BlockedVerbs": "BlockAll",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 592
+      "FieldType": "System.String",
+      "FieldLength": 816
     }
   }
 }

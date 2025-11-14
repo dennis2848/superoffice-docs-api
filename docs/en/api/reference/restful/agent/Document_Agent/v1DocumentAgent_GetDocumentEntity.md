@@ -14,6 +14,8 @@ POST /api/v1/Agents/Document/GetDocumentEntity
 Gets a DocumentEntity object.
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -27,7 +29,7 @@ Gets a DocumentEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Document/GetDocumentEntity?documentEntityId=736
+POST /api/v1/Agents/Document/GetDocumentEntity?documentEntityId=306
 POST /api/v1/Agents/Document/GetDocumentEntity?$select=name,department,category/id
 ```
 
@@ -111,88 +113,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 950,
+  "DocumentId": 19,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "adipisci",
-  "Header": "saepe",
-  "Name": "Vandervort Group",
-  "OurRef": "doloremque",
-  "YourRef": "totam",
-  "CreatedDate": "2021-10-08T03:46:54.6445112+02:00",
-  "UpdatedDate": "2013-04-11T03:46:54.6445112+02:00",
-  "Description": "Implemented object-oriented moderator",
+  "Attention": "ipsam",
+  "Header": "illum",
+  "Name": "Lebsack LLC",
+  "OurRef": "rerum",
+  "YourRef": "voluptatem",
+  "CreatedDate": "2024-01-22T02:30:47.1632139+01:00",
+  "UpdatedDate": "2016-04-13T02:30:47.1632139+02:00",
+  "Description": "User-centric zero tolerance initiative",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2022-04-09T03:46:54.6445112+02:00",
-  "ExternalRef": "consequuntur",
+  "Date": "2014-06-26T02:30:47.1632139+02:00",
+  "ExternalRef": "qui",
   "Completed": "Completed",
-  "ActiveLinks": 426,
+  "ActiveLinks": 392,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Ferry, Bernhard and Treutel",
-      "Id": 30,
-      "Description": "Business-focused value-added productivity",
-      "ExtraInfo": "quo",
-      "LinkId": 558,
+      "EntityName": "Ward Inc and Sons",
+      "Id": 866,
+      "Description": "Quality-focused intangible structure",
+      "ExtraInfo": "illum",
+      "LinkId": 756,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 782
+          "FieldType": "System.String",
+          "FieldLength": 287
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 119,
-  "Snum": 317,
+  "SuggestedDocumentId": 123,
+  "Snum": 193,
   "UserDefinedFields": {
-    "SuperOffice:1": "Maryjane Jeff Jast III",
-    "SuperOffice:2": "Vincenza Cleve Walker III"
+    "SuperOffice:1": "True",
+    "SuperOffice:2": "Miss Dianna Kitty Torp"
   },
   "ExtraFields": {
-    "ExtraFields1": "quas",
-    "ExtraFields2": "quia"
+    "ExtraFields1": "voluptate",
+    "ExtraFields2": "iure"
   },
   "CustomFields": {
-    "CustomFields1": "amet",
-    "CustomFields2": "enim"
+    "CustomFields1": "quo",
+    "CustomFields2": "qui"
   },
-  "PublishEventDate": "2018-01-05T03:46:54.6445112+01:00",
-  "PublishTo": "2009-04-05T03:46:54.6445112+02:00",
-  "PublishFrom": "2004-05-18T03:46:54.6445112+02:00",
+  "PublishEventDate": "2015-11-09T02:30:47.1632139+01:00",
+  "PublishTo": "2012-06-11T02:30:47.1632139+02:00",
+  "PublishFrom": "2019-03-07T02:30:47.1632139+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 468,
+      "VisibleId": 649,
       "Visibility": "All",
-      "DisplayValue": "excepturi",
+      "DisplayValue": "corrupti",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 272
+          "FieldType": "System.String",
+          "FieldLength": 534
         }
       }
     },
     {
-      "VisibleId": 468,
+      "VisibleId": 649,
       "Visibility": "All",
-      "DisplayValue": "excepturi",
+      "DisplayValue": "corrupti",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 272
+          "FieldType": "System.String",
+          "FieldLength": 534
         }
       }
     }
@@ -201,8 +203,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 389
+      "FieldType": "System.String",
+      "FieldLength": 176
     }
   }
 }

@@ -14,7 +14,8 @@ POST /api/v1/Agents/Document/GetProjectMemberDocumentsByTemplateType
 Method that returns a specified number of document appointments within a time range, filtered by document template type.
 
 
-The document appointments belong to the project member specified.
+The document appointments belong to the project member specified. 
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -103,11 +104,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 153,
-  "StartTime": "2012-05-20T03:46:54.6132622+02:00",
-  "EndTime": "2009-06-24T03:46:54.6132622+02:00",
-  "Count": 3,
-  "DocumentTemplateId": 832
+  "PersonId": 178,
+  "StartTime": "2010-06-18T02:30:47.0850878+02:00",
+  "EndTime": "2012-10-02T02:30:47.0850878+02:00",
+  "Count": 803,
+  "DocumentTemplateId": 594
 }
 ```
 
@@ -119,32 +120,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 803,
-    "Attention": "qui",
-    "Header": "laborum",
-    "Name": "Ward-Reilly",
-    "OurRef": "culpa",
-    "YourRef": "aperiam",
-    "Description": "Streamlined multi-tasking instruction set",
-    "DocumentTemplate": "natus",
+    "DocumentId": 529,
+    "Attention": "consectetur",
+    "Header": "illo",
+    "Name": "Bashirian Inc and Sons",
+    "OurRef": "dolores",
+    "YourRef": "temporibus",
+    "Description": "Self-enabling methodical emulation",
+    "DocumentTemplate": "fugit",
     "IsPublished": false,
-    "PersonId": 690,
-    "PersonFullName": "Prof. Leland Kraig Moore DDS",
-    "AssociateFullName": "Clifton Darrick Connelly MD",
-    "ContactId": 785,
-    "ContactName": "Wolff, Bruen and Jenkins",
-    "ProjectId": 786,
-    "ProjectName": "Hirthe, Kautzer and Heaney",
-    "AssociateId": 449,
-    "Snum": 18,
-    "SaleId": 981,
-    "SaleName": "Crona Inc and Sons",
+    "PersonId": 778,
+    "PersonFullName": "Prof. Clark Hilda Greenfelder Sr.",
+    "AssociateFullName": "Miss Milan Ella Roberts",
+    "ContactId": 317,
+    "ContactName": "Rippin-Langosh",
+    "ProjectId": 166,
+    "ProjectName": "Walsh-Buckridge",
+    "AssociateId": 958,
+    "Snum": 638,
+    "SaleId": 572,
+    "SaleName": "Smith-Kertzmann",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 891
+        "FieldType": "System.Int32",
+        "FieldLength": 768
       }
     }
   }

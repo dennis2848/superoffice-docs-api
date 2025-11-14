@@ -14,6 +14,8 @@ POST /api/v1/Agents/Person/AddEmailAddressToPerson
 Sets the primary email address on person, possibly re-ranking email addresses accordingly.
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -71,8 +73,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 455,
-  "EmailAddress": "dominic@douglas.co.uk",
+  "PersonId": 330,
+  "EmailAddress": "larry_friesen@sporer.co.uk",
   "SetAsPrimaryEmail": false
 }
 ```

@@ -61,7 +61,7 @@ OK
 GET /api/v1/List/ProductCategory/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -71,18 +71,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 598,
-  "Name": "Dibbert, Lind and Lebsack",
-  "Tooltip": "sunt",
-  "Deleted": false,
-  "UdListDefinitionId": 462,
-  "Rank": 35,
+  "Id": 691,
+  "Name": "Mohr-Aufderhar",
+  "Tooltip": "aut",
+  "Deleted": true,
+  "UdListDefinitionId": 967,
+  "Rank": 689,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 919
+      "FieldLength": 42
     }
   }
 }

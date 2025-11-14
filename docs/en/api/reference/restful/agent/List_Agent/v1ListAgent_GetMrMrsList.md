@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/GetMrMrsList
 Gets an array of MrMrs objects.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -84,28 +86,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 186,
-    "Value": "rerum",
-    "Tooltip": "aut",
+    "Id": 135,
+    "Value": "aut",
+    "Tooltip": "fugiat",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 453
+        "FieldLength": 375
       }
     }
   },
   {
-    "Id": 186,
-    "Value": "rerum",
-    "Tooltip": "aut",
+    "Id": 135,
+    "Value": "aut",
+    "Tooltip": "fugiat",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 453
+        "FieldLength": 375
       }
     }
   }

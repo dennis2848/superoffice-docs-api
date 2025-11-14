@@ -14,6 +14,8 @@ POST /api/v1/Agents/Batch/GetBatchTaskInfosByState
 Gets an array of user BatchTaskInfo with state defined by a BatchTaskState.
 
 
+NsApiSlow threshold: 3000 ms.
+
 
 
 
@@ -95,7 +97,7 @@ OK
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -111,37 +113,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 863,
-    "Name": "Jacobi-Oberbrunner",
-    "AssociateId": 727,
-    "DetailsTable": 227,
-    "DetailsRecord": 30,
-    "IsSystemTask": false,
+    "Id": 288,
+    "Name": "Maggio-O'Conner",
+    "AssociateId": 424,
+    "DetailsTable": 617,
+    "DetailsRecord": 670,
+    "IsSystemTask": true,
     "IsInternalTask": true,
     "ParameterObject": {
-      "ParameterObject1": "est",
-      "ParameterObject2": "rerum"
+      "ParameterObject1": "culpa",
+      "ParameterObject2": "dolores"
     },
-    "LastStarted": "2012-09-17T03:46:54.3007673+02:00",
-    "Created": "2014-05-02T03:46:54.3007673+02:00",
-    "StartCount": 160,
-    "DatabaseSerialNumber": "1643260",
-    "Context": "dolore",
-    "Result": "minima",
+    "LastStarted": "2019-05-27T02:30:46.8194719+02:00",
+    "Created": "2001-06-21T02:30:46.8194719+02:00",
+    "StartCount": 478,
+    "DatabaseSerialNumber": "112945",
+    "Context": "inventore",
+    "Result": "praesentium",
     "State": "All",
-    "Description": "Seamless multi-state orchestration",
-    "Response": "porro",
-    "Request": "maxime",
-    "ProgressDescription": "Cloned systemic help-desk",
-    "ProgressPercent": 272,
-    "FileName": "Bernhard, Parker and Kunze",
+    "Description": "Robust context-sensitive knowledge user",
+    "Response": "culpa",
+    "Request": "dolorum",
+    "ProgressDescription": "Re-engineered coherent leverage",
+    "ProgressPercent": 840,
+    "FileName": "Kunde-Batz",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 553
+        "FieldLength": 999
       }
     }
   }

@@ -15,6 +15,7 @@ Save a QuoteLineConfiguration object.
 
 
 It is not possible to add a new configuration.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -84,7 +85,7 @@ OK
 POST /api/v1/Agents/Quote/SaveQuoteLineConfiguration
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -99,21 +100,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineConfigurationId": 653,
-  "FieldName": "Koss, Littel and Funk",
-  "Label": "molestiae",
-  "Tooltip": "sapiente",
+  "QuoteLineConfigurationId": 248,
+  "FieldName": "Schuppe-Walsh",
+  "Label": "quam",
+  "Tooltip": "et",
   "Editable": false,
   "InUse": false,
   "Mandatory": false,
-  "Rank": 337,
+  "Rank": 544,
   "RestrictEdit": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 514
+      "FieldType": "System.Int32",
+      "FieldLength": 247
     }
   }
 }

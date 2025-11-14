@@ -14,6 +14,8 @@ POST /api/v1/Agents/Sale/GetMyOpportunities
 Returning the opportunities (open sales) belonging to the user currently logged on
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -98,11 +100,11 @@ OK
 POST /api/v1/Agents/Sale/GetMyOpportunities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Count": 254
+  "Count": 876
 }
 ```
 
@@ -114,37 +116,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Stoltenberg Inc and Sons",
-    "SaleDate": "2024-12-13T03:46:55.2694888+01:00",
-    "SaleId": 681,
-    "Probability": 376,
-    "Title": "nam",
-    "Amount": 20674.998,
-    "Currency": "quos",
-    "ProjectName": "Little-Fahey",
-    "AssociateFullName": "Eduardo Wyman",
-    "Description": "Up-sized human-resource projection",
+    "ContactName": "Jast Inc and Sons",
+    "SaleDate": "2016-10-24T02:30:47.7881925+02:00",
+    "SaleId": 388,
+    "Probability": 460,
+    "Title": "et",
+    "Amount": 26620.196,
+    "Currency": "sapiente",
+    "ProjectName": "Kessler Group",
+    "AssociateFullName": "Collin Bechtelar",
+    "Description": "Customizable 24/7 superstructure",
     "Status": "Lost",
-    "WeightedAmount": 22931.478,
-    "ProjectId": 586,
-    "EarningPercent": 2729.714,
-    "Earning": 16635.272,
-    "ContactId": 188,
-    "AssociateId": 94,
-    "PersonId": 862,
-    "SaleTypeId": 565,
-    "SaleTypeName": "Zemlak, Quitzon and Pagac",
-    "PersonFullName": "Marcelina Smitham",
+    "WeightedAmount": 10320.261999999999,
+    "ProjectId": 568,
+    "EarningPercent": 13563.952,
+    "Earning": 4221.498,
+    "ContactId": 628,
+    "AssociateId": 393,
+    "PersonId": 424,
+    "SaleTypeId": 145,
+    "SaleTypeName": "Pollich, Keeling and Wiza",
+    "PersonFullName": "Johnny Koch",
     "Completed": "Completed",
-    "ActiveErpLinks": 614,
-    "NextDueDate": "2002-08-28T03:46:55.2694888+02:00",
-    "Number": "1094436",
+    "ActiveErpLinks": 61,
+    "NextDueDate": "1999-12-06T02:30:47.7881925+01:00",
+    "Number": "754502",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 354
+        "FieldLength": 916
       }
     }
   }

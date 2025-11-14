@@ -14,6 +14,8 @@ POST /api/v1/Agents/Appointment/GetTaskListItem
 Gets a TaskListItem object.
 
 
+NsApiSlow threshold: 1000 ms.
+
 
 
 
@@ -27,7 +29,7 @@ Gets a TaskListItem object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Appointment/GetTaskListItem?taskListItemId=613
+POST /api/v1/Agents/Appointment/GetTaskListItem?taskListItemId=959
 POST /api/v1/Agents/Appointment/GetTaskListItem?$select=name,department,category/id
 ```
 
@@ -90,16 +92,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskListItemId": 523,
-  "Value": "quia",
+  "TaskListItemId": 519,
+  "Value": "laborum",
   "Direction": "Incoming",
   "Type": "Appointment",
-  "Tooltip": "culpa",
+  "Tooltip": "alias",
   "Deleted": false,
-  "IntentId": 508,
-  "Rank": 259,
+  "IntentId": 404,
+  "Rank": 626,
   "IsDefaultAlldayEvent": true,
-  "IsDefaultFree": false,
+  "IsDefaultFree": true,
   "IsDefaultPublished": false,
   "ColorIndex": "BlueAlt1",
   "DefaultVideomeetingStatus": "NoChange",
@@ -108,7 +110,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 130
+      "FieldLength": 367
     }
   }
 }

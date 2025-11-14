@@ -14,6 +14,8 @@ POST /api/v1/Agents/Ticket/CreateDefaultAttachmentEntity
 Loading default values into a new AttachmentEntity.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -63,7 +65,7 @@ OK
 POST /api/v1/Agents/Ticket/CreateDefaultAttachmentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,20 +75,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 924,
-  "Name": "Balistreri, Gerhold and Koepp",
-  "ContentType": "dolorum",
-  "AttSize": 94,
+  "AttachmentId": 850,
+  "Name": "Rath-Jacobi",
+  "ContentType": "eveniet",
+  "AttSize": 824,
   "InlineImage": false,
-  "ContentId": "impedit",
-  "AuthKey": "temporibus",
+  "ContentId": "omnis",
+  "AuthKey": "laboriosam",
   "IsSafeFileExtension": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 256
+      "FieldLength": 154
     }
   }
 }

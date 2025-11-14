@@ -85,20 +85,20 @@ OK
 PUT /api/v1/List/PaymentType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 849,
-  "Name": "Smitham Inc and Sons",
-  "Tooltip": "aspernatur",
+  "Id": 651,
+  "Name": "Koss, McClure and Gutmann",
+  "Tooltip": "et",
   "Deleted": false,
-  "Rank": 413,
+  "Rank": 251,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "quisquam",
-  "InUseByUserDefinedFields": false
+  "UseGroupsAndHeadings": true,
+  "ListType": "repellendus",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -109,22 +109,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 703,
-  "Name": "Abshire-Koch",
-  "Tooltip": "ut",
+  "Id": 146,
+  "Name": "Schimmel, Prohaska and Waelchi",
+  "Tooltip": "nobis",
   "Deleted": false,
-  "Rank": 515,
+  "Rank": 244,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "odio",
+  "ListType": "accusamus",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 895
+      "FieldType": "System.Int32",
+      "FieldLength": 780
     }
   }
 }

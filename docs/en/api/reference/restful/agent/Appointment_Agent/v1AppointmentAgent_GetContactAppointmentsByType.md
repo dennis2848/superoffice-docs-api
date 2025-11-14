@@ -15,6 +15,7 @@ Method that returns a specified number of appointments of a specific appointment
 
 
 The appointments belong to the contact specified. If the logged on user is not allowed to view this contacts appointments an exception is thrown.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -134,14 +135,14 @@ OK
 POST /api/v1/Agents/Appointment/GetContactAppointmentsByType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 816,
-  "StartTime": "2009-07-07T03:46:53.9726601+02:00",
-  "EndTime": "2021-07-07T03:46:53.9726601+02:00",
-  "Count": 237,
+  "ContactId": 977,
+  "StartTime": "2014-01-28T02:30:46.4913585+01:00",
+  "EndTime": "2006-05-01T02:30:46.4913585+02:00",
+  "Count": 994,
   "AppointmentType": "BookingForChecklist"
 }
 ```
@@ -154,67 +155,67 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 366,
-    "StartDate": "2011-02-03T03:46:53.9726601+01:00",
-    "EndDate": "2001-12-02T03:46:53.9726601+01:00",
+    "AppointmentId": 641,
+    "StartDate": "2014-09-26T02:30:46.4913585+02:00",
+    "EndDate": "2003-02-04T02:30:46.4913585+01:00",
     "Type": "BookingForChecklist",
-    "Task": "voluptate",
-    "AssociateFullName": "Cheyanne Macejkovic",
-    "ContactName": "Senger Group",
-    "Description": "Re-engineered real-time structure",
-    "PersonFullName": "Melvina Homenick",
-    "PersonId": 663,
-    "ContactId": 268,
-    "ProjectId": 430,
-    "ProjectName": "Gislason LLC",
+    "Task": "vero",
+    "AssociateFullName": "Alfonso Wyman",
+    "ContactName": "Bernier-Maggio",
+    "Description": "Diverse intermediate software",
+    "PersonFullName": "Mrs. Carlee Imani Dooley",
+    "PersonId": 97,
+    "ContactId": 891,
+    "ProjectId": 551,
+    "ProjectName": "Leffler Group",
     "IsPublished": false,
-    "AssociateId": 441,
-    "ColorIndex": 366,
-    "IsFree": true,
-    "HasAlarm": true,
-    "IsAlldayEvent": true,
+    "AssociateId": 353,
+    "ColorIndex": 362,
+    "IsFree": false,
+    "HasAlarm": false,
+    "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 675,
-    "PriorityName": "Lindgren, Blanda and Kuphal",
+    "PriorityId": 463,
+    "PriorityName": "Terry-Weber",
     "TaskType": "Appointment",
-    "IsBookingMain": false,
-    "IsRecurrence": true,
-    "IsBooking": false,
-    "ActiveDate": "2016-08-20T03:46:53.9726601+02:00",
+    "IsBookingMain": true,
+    "IsRecurrence": false,
+    "IsBooking": true,
+    "ActiveDate": "2000-05-13T02:30:46.4913585+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2011-07-24T03:46:53.9726601+02:00",
-    "RecurringEndDate": "2023-11-22T03:46:53.9726601+01:00",
-    "MotherId": 965,
-    "AssignedBy": 368,
-    "AssignedByFullName": "Heather Hauck MD",
-    "RejectReason": "",
-    "Location": "possimus",
-    "AlarmLeadTime": "doloribus",
-    "SaleId": 270,
-    "SaleName": "Schaefer-Boyle",
-    "AssociateName": "Lebsack-Sawayn",
-    "CreatedDate": "2003-05-24T03:46:53.9726601+02:00",
-    "CreatedBy": "non",
-    "CreatedByFullName": "Willie Koss",
-    "CreatedByAssociateId": 678,
+    "RecurringStartDate": "2009-03-05T02:30:46.4913585+01:00",
+    "RecurringEndDate": "2024-08-09T02:30:46.4913585+02:00",
+    "MotherId": 222,
+    "AssignedBy": 902,
+    "AssignedByFullName": "Jaclyn Thiel",
+    "RejectReason": "architect ubiquitous functionalities",
+    "Location": "voluptates",
+    "AlarmLeadTime": "quasi",
+    "SaleId": 509,
+    "SaleName": "Dicki, Cassin and Harris",
+    "AssociateName": "Heaney-Bins",
+    "CreatedDate": "2015-11-10T02:30:46.4913585+01:00",
+    "CreatedBy": "sapiente",
+    "CreatedByFullName": "Trudie Moen",
+    "CreatedByAssociateId": 276,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "OwnedExternally": "Google",
-    "MotherAssociateId": 290,
+    "MotherAssociateId": 673,
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 843,
-    "Title": "qui",
-    "Agenda": "ut",
-    "InternalNotes": "neque",
+    "PreferredTZLocation": 853,
+    "Title": "harum",
+    "Agenda": "quo",
+    "InternalNotes": "voluptatem",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 941
+        "FieldLength": 474
       }
     }
   }

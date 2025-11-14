@@ -14,6 +14,8 @@ POST /api/v1/Agents/Find/SaveRestrictions
 Save an array of restrictions for later use as search criteria (including as dynamic selection and Find).
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -72,20 +74,20 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "adipisci",
-  "ProviderName": "Funk Group",
-  "StorageKey": "numquam",
+  "StorageType": "dicta",
+  "ProviderName": "Fadel-Powlowski",
+  "StorageKey": "doloremque",
   "Restrictions": [
     {
-      "Name": "Hackett Inc and Sons",
-      "Operator": "beatae",
+      "Name": "Becker, D'Amore and Wilkinson",
+      "Operator": "eveniet",
       "Values": [
-        "iure",
-        "hic"
+        "animi",
+        "repudiandae"
       ],
       "DisplayValues": [
-        "rerum",
-        "dolor"
+        "libero",
+        "voluptate"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -93,9 +95,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 857,
+      "InterParenthesis": 596,
       "InterOperator": "And",
-      "UniqueHash": 173
+      "UniqueHash": 106
     }
   ]
 }

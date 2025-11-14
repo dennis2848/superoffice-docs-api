@@ -14,7 +14,8 @@ POST /api/v1/Agents/Document/GetContactDocumentsByTemplateTypes
 Method that returns a specified number of document appointments within a time range, filtered by document template types.
 
 
-The document appointments belong to the contact specified.
+The document appointments belong to the contact specified. 
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -99,17 +100,17 @@ OK
 POST /api/v1/Agents/Document/GetContactDocumentsByTemplateTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 208,
-  "StartTime": "1998-06-08T03:46:54.707009+02:00",
-  "EndTime": "2016-05-30T03:46:54.707009+02:00",
-  "Count": 198,
+  "ContactId": 881,
+  "StartTime": "2009-06-25T02:30:47.2257111+02:00",
+  "EndTime": "2006-12-20T02:30:47.2257111+01:00",
+  "Count": 835,
   "DocumentTemplateIds": [
-    590,
-    8
+    2,
+    897
   ]
 }
 ```
@@ -122,32 +123,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 430,
-    "Attention": "temporibus",
-    "Header": "quae",
-    "Name": "Gleichner LLC",
-    "OurRef": "accusamus",
-    "YourRef": "architecto",
-    "Description": "Optional scalable contingency",
-    "DocumentTemplate": "quo",
-    "IsPublished": false,
-    "PersonId": 229,
-    "PersonFullName": "Abbigail Summer Cummings DVM",
-    "AssociateFullName": "Magnus Larkin",
-    "ContactId": 591,
-    "ContactName": "Windler, Hilll and Lubowitz",
-    "ProjectId": 418,
-    "ProjectName": "Haag-Wisoky",
-    "AssociateId": 389,
-    "Snum": 349,
-    "SaleId": 916,
-    "SaleName": "Kovacek-Terry",
+    "DocumentId": 89,
+    "Attention": "dignissimos",
+    "Header": "atque",
+    "Name": "Kunde, Christiansen and Rohan",
+    "OurRef": "maiores",
+    "YourRef": "saepe",
+    "Description": "Programmable cohesive benchmark",
+    "DocumentTemplate": "architecto",
+    "IsPublished": true,
+    "PersonId": 285,
+    "PersonFullName": "Ada Balistreri",
+    "AssociateFullName": "Kyle Kautzer",
+    "ContactId": 458,
+    "ContactName": "Cremin Group",
+    "ProjectId": 2,
+    "ProjectName": "Stehr-Kuhn",
+    "AssociateId": 743,
+    "Snum": 817,
+    "SaleId": 116,
+    "SaleName": "Rohan, Donnelly and Quigley",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 682
+        "FieldLength": 588
       }
     }
   }

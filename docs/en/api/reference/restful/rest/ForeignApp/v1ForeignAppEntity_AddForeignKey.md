@@ -84,18 +84,18 @@ OK
 POST /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "omnis",
-  "Value": "dolores",
-  "RecordId": 323,
-  "CreatedDate": "2009-07-13T03:47:00.0349452+02:00",
-  "UpdatedDate": "2018-01-26T03:47:00.0349452+01:00",
-  "UpdatedBy": "eligendi",
-  "CreatedBy": "fugiat",
-  "TableName": "Gutkowski-Ryan"
+  "Key": "maiores",
+  "Value": "et",
+  "RecordId": 776,
+  "CreatedDate": "2010-01-07T02:30:52.6630355+01:00",
+  "UpdatedDate": "2022-03-08T02:30:52.6630355+01:00",
+  "UpdatedBy": "deserunt",
+  "CreatedBy": "quisquam",
+  "TableName": "Klocko Group"
 }
 ```
 
@@ -106,20 +106,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "voluptatibus",
-  "Value": "ratione",
-  "RecordId": 42,
-  "CreatedDate": "1999-01-24T03:47:00.0349452+01:00",
-  "UpdatedDate": "2011-01-25T03:47:00.0349452+01:00",
-  "UpdatedBy": "quasi",
-  "CreatedBy": "molestiae",
-  "TableName": "Weimann LLC",
+  "Key": "quis",
+  "Value": "quisquam",
+  "RecordId": 824,
+  "CreatedDate": "2008-06-10T02:30:52.6630355+02:00",
+  "UpdatedDate": "2004-01-01T02:30:52.6630355+01:00",
+  "UpdatedBy": "qui",
+  "CreatedBy": "voluptatum",
+  "TableName": "D'Amore Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 160
+      "FieldLength": 336
     }
   }
 }

@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/CreateDefaultTicketPriorityEntity
 Loading default values into a new TicketPriorityEntity.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -93,60 +95,60 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketPriorityId": 782,
-  "Name": "Ritchie-Koelpin",
+  "TicketPriorityId": 12,
+  "Name": "Johnson LLC",
   "Status": "Deleted",
   "Flags": "AlertSchedule",
-  "SortOrder": 616,
+  "SortOrder": 438,
   "TicketRead": "Continue",
   "ChangedOwner": "Continue",
   "TicketNewinfo": "Continue",
   "TicketClosed": "Continue",
   "TicketChangedPriority": "Continue",
   "TicketNew": "Continue",
-  "Deadline": 783,
-  "MonStart": "2013-09-22T03:46:54.9257675+02:00",
-  "MonStop": "2001-11-30T03:46:54.9257675+01:00",
-  "TueStart": "2025-06-29T03:46:54.9257675+02:00",
-  "TueStop": "2015-02-06T03:46:54.9257675+01:00",
-  "WedStart": "1999-01-14T03:46:54.9257675+01:00",
-  "WedStop": "2019-04-02T03:46:54.9257675+02:00",
-  "ThuStart": "2014-09-09T03:46:54.9257675+02:00",
-  "ThuStop": "2007-02-18T03:46:54.9257675+01:00",
-  "FriStart": "2013-08-09T03:46:54.9257675+02:00",
-  "FriStop": "2023-11-22T03:46:54.9257675+01:00",
-  "SatStart": "2024-09-25T03:46:54.9257675+02:00",
-  "SatStop": "2010-05-29T03:46:54.9257675+02:00",
-  "SunStart": "2019-11-27T03:46:54.9257675+01:00",
-  "SunStop": "2003-08-14T03:46:54.9257675+02:00",
+  "Deadline": 617,
+  "MonStart": "2000-08-10T02:30:47.3819557+02:00",
+  "MonStop": "2021-07-02T02:30:47.3819557+02:00",
+  "TueStart": "2019-08-22T02:30:47.3819557+02:00",
+  "TueStop": "2025-03-04T02:30:47.3819557+01:00",
+  "WedStart": "2014-07-16T02:30:47.3819557+02:00",
+  "WedStop": "2019-03-04T02:30:47.3819557+01:00",
+  "ThuStart": "2008-09-09T02:30:47.3819557+02:00",
+  "ThuStop": "2000-12-24T02:30:47.3819557+01:00",
+  "FriStart": "2025-02-16T02:30:47.3819557+01:00",
+  "FriStop": "2017-05-06T02:30:47.3819557+02:00",
+  "SatStart": "2014-03-22T02:30:47.3819557+01:00",
+  "SatStop": "2014-01-22T02:30:47.3819557+01:00",
+  "SunStart": "2019-11-19T02:30:47.3819557+01:00",
+  "SunStop": "2009-08-05T02:30:47.3819557+02:00",
   "NonDates": [
-    "doloremque",
-    "saepe"
+    "voluptas",
+    "a"
   ],
   "EscalationLevels": [
     {
-      "TicketAlertId": 455,
-      "AlertLevel": 593,
-      "AlertTimeout": 622,
-      "Action": 653,
-      "DelegateTo": 53,
-      "ScriptId": 910,
-      "EmailTo": "rowland_buckridge@tillman.uk",
-      "SmsTo": "saepe",
-      "ReplyTemplateIdCustomer": 274,
-      "ReplyTemplateIdUser": 562,
-      "ReplyTemplateIdCatmast": 454,
-      "ReplyTemplateIdEmail": 935,
-      "RtiCustomerSms": 222,
-      "ReplyTemplateIdUserSms": 840,
-      "ReplyTemplateIdCatmastSms": 262,
-      "ReplyTemplateIdSms": 773,
+      "TicketAlertId": 715,
+      "AlertLevel": 474,
+      "AlertTimeout": 531,
+      "Action": 252,
+      "DelegateTo": 507,
+      "ScriptId": 95,
+      "EmailTo": "freeman@handmills.uk",
+      "SmsTo": "minima",
+      "ReplyTemplateIdCustomer": 327,
+      "ReplyTemplateIdUser": 312,
+      "ReplyTemplateIdCatmast": 880,
+      "ReplyTemplateIdEmail": 211,
+      "RtiCustomerSms": 853,
+      "ReplyTemplateIdUserSms": 667,
+      "ReplyTemplateIdCatmastSms": 532,
+      "ReplyTemplateIdSms": 594,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 388
+          "FieldLength": 314
         }
       }
     }
@@ -155,8 +157,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 946
+      "FieldType": "System.String",
+      "FieldLength": 44
     }
   }
 }

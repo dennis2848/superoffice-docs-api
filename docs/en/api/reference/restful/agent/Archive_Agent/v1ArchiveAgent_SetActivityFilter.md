@@ -14,6 +14,8 @@ POST /api/v1/Agents/Archive/SetActivityFilter
 Set activity filter for the specified list.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 

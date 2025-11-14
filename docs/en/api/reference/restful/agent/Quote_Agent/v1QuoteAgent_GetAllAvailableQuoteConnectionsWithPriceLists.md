@@ -15,6 +15,7 @@ Get all available connections.
 
 
 Some installed connections may not be available to the user. Includes pricelists for the connection. This is a heavy call
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -82,7 +83,7 @@ OK
 POST /api/v1/Agents/Quote/GetAllAvailableQuoteConnectionsWithPriceLists
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -93,54 +94,54 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteConnectionId": 494,
-    "ERPName": "Herzog Inc and Sons",
-    "DisplayName": "Bergnaum Group",
-    "DisplayDescription": "Future-proofed dedicated approach",
-    "Rank": 525,
-    "ConnectorName": "Moore Group",
-    "ErpConnectionId": 116,
-    "ExtraData": "earum",
-    "IsAvailable": false,
+    "QuoteConnectionId": 225,
+    "ERPName": "Emard, Ruecker and Welch",
+    "DisplayName": "Berge-Klocko",
+    "DisplayDescription": "Quality-focused demand-driven Graphic Interface",
+    "Rank": 63,
+    "ConnectorName": "Reynolds Inc and Sons",
+    "ErpConnectionId": 122,
+    "ExtraData": "qui",
+    "IsAvailable": true,
     "InitializeResponse": null,
     "PriceLists": [
       {
-        "PriceListId": 125,
-        "ERPPriceListKey": "veritatis",
-        "QuoteConnectionId": 47,
-        "Name": "McGlynn Inc and Sons",
-        "Description": "Automated heuristic superstructure",
-        "Currency": "repudiandae",
-        "CurrencyName": "Schinner-Morar",
-        "ValidFrom": "2013-03-06T03:46:55.2069913+01:00",
-        "ValidTo": "2013-09-27T03:46:55.2069913+02:00",
+        "PriceListId": 615,
+        "ERPPriceListKey": "aut",
+        "QuoteConnectionId": 847,
+        "Name": "Shields, Cronin and Mraz",
+        "Description": "Synchronised fault-tolerant secured line",
+        "Currency": "dolore",
+        "CurrencyName": "Kuhn Inc and Sons",
+        "ValidFrom": "2015-01-13T02:30:47.7256947+01:00",
+        "ValidTo": "2025-05-02T02:30:47.7256947+02:00",
         "IsActive": false,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 19
+            "FieldType": "System.String",
+            "FieldLength": 212
           }
         }
       }
     ],
     "AllAccess": false,
-    "Deleted": true,
+    "Deleted": false,
     "UserGroupAccessIds": [
-      177,
-      23
+      83,
+      512
     ],
     "AssociateAccessIds": [
-      701,
-      613
+      314,
+      674
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 112
+        "FieldLength": 58
       }
     }
   }

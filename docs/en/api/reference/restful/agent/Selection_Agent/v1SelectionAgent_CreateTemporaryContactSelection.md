@@ -14,6 +14,8 @@ POST /api/v1/Agents/Selection/CreateTemporaryContactSelection
 Creates a temporary selection.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -106,7 +108,7 @@ OK
 POST /api/v1/Agents/Selection/CreateTemporaryContactSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -116,70 +118,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Virtual zero tolerance circuit",
-  "Postit": "velit",
+  "Description": "Seamless mission-critical capacity",
+  "Postit": "ut",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 677,
-  "IncludePerson": 639,
+  "GroupIdx": 38,
+  "IncludePerson": 515,
   "MemberCount": 99.99,
-  "Name": "Gleichner-Wilderman",
-  "PostitTextId": 379,
-  "CreatedDate": "2002-01-03T03:46:55.3788724+01:00",
-  "SelectionId": 335,
-  "SoundEx": "molestiae",
-  "Source": 312,
-  "TextId": 330,
-  "UpdatedDate": "2004-08-17T03:46:55.3788724+02:00",
-  "UpdatedCount": 776,
-  "Visibility": 128,
+  "Name": "Haag-Hermann",
+  "PostitTextId": 235,
+  "CreatedDate": "2013-05-22T02:30:47.819441+02:00",
+  "SelectionId": 599,
+  "SoundEx": "maxime",
+  "Source": 943,
+  "TextId": 247,
+  "UpdatedDate": "2014-02-19T02:30:47.819441+01:00",
+  "UpdatedCount": 199,
+  "Visibility": 536,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 298,
-  "TargetTableName": "Smitham, O'Kon and Rogahn",
+  "TargetTableNumber": 54,
+  "TargetTableName": "Toy Group",
   "Completed": false,
-  "LeftSelectionId": 669,
-  "RightSelectionId": 717,
+  "LeftSelectionId": 377,
+  "RightSelectionId": 948,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Goyette, Witting and Grimes",
-  "ShadowProviderName": "Stroman Group",
-  "ChartKey": "et",
-  "LastLoaded": "2005-08-29T03:46:55.3788724+02:00",
-  "LastLoadedBy": 121,
+  "MainProviderName": "Greenfelder, Rosenbaum and Von",
+  "ShadowProviderName": "Orn-Auer",
+  "ChartKey": "quam",
+  "LastLoaded": "2025-02-01T02:30:47.819441+01:00",
+  "LastLoadedBy": 880,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2016-03-28T03:46:55.3788724+02:00",
-  "LastMembershipChangeBy": 271,
+  "LastMembershipChange": "2013-03-12T02:30:47.819441+01:00",
+  "LastMembershipChangeBy": 282,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "recusandae",
-  "MemberTabHeading": "quis",
-  "MailingsProviderName": "Schultz Group",
-  "DashboardTileDefinitionId": 241,
+  "MainHeading": "eum",
+  "MemberTabHeading": "et",
+  "MailingsProviderName": "Schaden LLC",
+  "DashboardTileDefinitionId": 355,
   "VisibleFor": [
     {
-      "VisibleId": 37,
+      "VisibleId": 756,
       "Visibility": "All",
-      "DisplayValue": "blanditiis",
+      "DisplayValue": "quos",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 895
+          "FieldLength": 359
         }
       }
     },
     {
-      "VisibleId": 37,
+      "VisibleId": 756,
       "Visibility": "All",
-      "DisplayValue": "blanditiis",
+      "DisplayValue": "quos",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 895
+          "FieldLength": 359
         }
       }
     }
@@ -188,8 +190,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 172
+      "FieldType": "System.String",
+      "FieldLength": 777
     }
   }
 }

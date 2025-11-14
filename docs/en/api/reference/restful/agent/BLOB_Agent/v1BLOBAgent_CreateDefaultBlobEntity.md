@@ -14,6 +14,8 @@ POST /api/v1/Agents/BLOB/CreateDefaultBlobEntity
 Loading default values into a new BlobEntity.
 
 
+NsApiSlow threshold: 3000 ms.
+
 
 
 
@@ -68,7 +70,7 @@ OK
 POST /api/v1/Agents/BLOB/CreateDefaultBlobEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -78,25 +80,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 963,
-  "BlobSize": 834,
-  "Description": "Centralized object-oriented Graphical User Interface",
-  "ExtraInfo": "qui",
+  "BlobId": 543,
+  "BlobSize": 643,
+  "Description": "Compatible didactic utilisation",
+  "ExtraInfo": "sapiente",
   "IsEncrypted": false,
-  "IsZipped": true,
-  "MimeType": "dolorem",
-  "OriginalSize": 544,
-  "CreatedDate": "2019-04-08T03:46:54.3007673+02:00",
-  "UpdatedDate": "2005-06-15T03:46:54.3007673+02:00",
+  "IsZipped": false,
+  "MimeType": "similique",
+  "OriginalSize": 620,
+  "CreatedDate": "2013-01-14T02:30:46.8194719+01:00",
+  "UpdatedDate": "2019-09-18T02:30:46.8194719+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "accusamus",
+  "ConceptualType": "distinctio",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 388
+      "FieldLength": 975
     }
   }
 }

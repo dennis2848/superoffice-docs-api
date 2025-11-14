@@ -14,6 +14,8 @@ POST /api/v1/Agents/Quote/ApproveQuoteVersion
 Approves a quote version
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -78,14 +80,14 @@ OK
 POST /api/v1/Agents/Quote/ApproveQuoteVersion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 4,
-  "ApprovedByText": "et",
-  "ApprovedByAssociateId": 865,
-  "ApprovalText": "temporibus"
+  "QuoteVersionId": 1000,
+  "ApprovedByText": "voluptas",
+  "ApprovedByAssociateId": 351,
+  "ApprovalText": "nisi"
 }
 ```
 
@@ -97,13 +99,13 @@ Content-Type: application/json; charset=utf-8
 
 {
   "PluginResponse": null,
-  "CreatedAppointmentId": 909,
+  "CreatedAppointmentId": 314,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 58
+      "FieldType": "System.Int32",
+      "FieldLength": 681
     }
   }
 }

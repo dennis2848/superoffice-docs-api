@@ -85,19 +85,19 @@ OK
 PUT /api/v1/List/Currency
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 18,
-  "Name": "Hansen-Miller",
-  "Tooltip": "odio",
+  "Id": 174,
+  "Name": "Lockman LLC",
+  "Tooltip": "in",
   "Deleted": false,
-  "Rank": 673,
-  "IsCustomList": true,
+  "Rank": 358,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "nostrum",
+  "ListType": "illo",
   "InUseByUserDefinedFields": true
 }
 ```
@@ -109,22 +109,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 829,
-  "Name": "Renner-Stehr",
-  "Tooltip": "earum",
+  "Id": 120,
+  "Name": "Keebler, Turner and Becker",
+  "Tooltip": "ut",
   "Deleted": false,
-  "Rank": 729,
-  "IsCustomList": false,
-  "IsMDOList": false,
+  "Rank": 120,
+  "IsCustomList": true,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": true,
-  "ListType": "est",
-  "InUseByUserDefinedFields": true,
+  "ListType": "repellendus",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 358
+      "FieldType": "System.Int32",
+      "FieldLength": 297
     }
   }
 }

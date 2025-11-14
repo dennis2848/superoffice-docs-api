@@ -76,18 +76,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 179,
-  "Name": "Russel Group",
-  "Tooltip": "consectetur",
-  "Deleted": false,
-  "UdListDefinitionId": 838,
-  "Rank": 311,
+  "Id": 639,
+  "Name": "Kilback-Cummings",
+  "Tooltip": "nostrum",
+  "Deleted": true,
+  "UdListDefinitionId": 564,
+  "Rank": 644,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 16
+      "FieldType": "System.Int32",
+      "FieldLength": 237
     }
   }
 }

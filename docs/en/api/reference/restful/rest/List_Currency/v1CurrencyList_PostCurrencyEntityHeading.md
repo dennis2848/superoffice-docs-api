@@ -76,16 +76,16 @@ OK
 POST /api/v1/List/Currency/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 116,
-  "Name": "Predovic, Gleason and Klein",
-  "Tooltip": "iusto",
-  "Deleted": true,
-  "Rank": 680,
-  "UdListDefinitionId": 337
+  "HeadingId": 318,
+  "Name": "Tillman LLC",
+  "Tooltip": "in",
+  "Deleted": false,
+  "Rank": 43,
+  "UdListDefinitionId": 383
 }
 ```
 
@@ -96,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 618,
-  "Name": "Legros-Haag",
-  "Tooltip": "molestias",
+  "HeadingId": 7,
+  "Name": "Renner, Skiles and Homenick",
+  "Tooltip": "voluptatem",
   "Deleted": false,
-  "Rank": 258,
-  "UdListDefinitionId": 488,
+  "Rank": 808,
+  "UdListDefinitionId": 295,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 68
+      "FieldType": "System.Int32",
+      "FieldLength": 223
     }
   }
 }

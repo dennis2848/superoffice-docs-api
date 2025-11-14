@@ -14,6 +14,8 @@ POST /api/v1/Agents/Document/CheckinDocument
 Check in a currently checked-out document
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -80,19 +82,19 @@ OK
 POST /api/v1/Agents/Document/CheckinDocument
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 310,
+  "DocumentId": 304,
   "AllowedReturnTypes": [
-    "veniam",
-    "molestiae"
+    "similique",
+    "totam"
   ],
-  "VersionDescription": "Virtual mission-critical function",
+  "VersionDescription": "Object-based bifurcated service-desk",
   "VersionExtraFields": [
-    "ipsam",
-    "deserunt"
+    "quasi",
+    "est"
   ]
 }
 ```
@@ -104,11 +106,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExternalReference": "inventore",
-  "VersionId": "laboriosam",
-  "Success": true,
+  "ExternalReference": "ut",
+  "VersionId": "sunt",
+  "Success": false,
   "Type": "CustomGui",
-  "Value": "ipsa",
-  "AdditionalInfo": "consequuntur"
+  "Value": "quia",
+  "AdditionalInfo": "sint"
 }
 ```

@@ -39,6 +39,9 @@ items:
   - name: Ärenden
     href: ../request/learn/toc.yml
     topicHref: ../request/learn/index.md
+  - name: Egendefinierade objekt
+    href: ../custom-objects/learn/toc.yml
+    topicHref: ../custom-objects/learn/index.md
   - name: Urval
     href: ../search-options/selection/learn/toc.yml
     topicHref: ../search-options/selection/learn/index.md
@@ -48,6 +51,9 @@ items:
   - name: Marknadsföring
     href: ../marketing/learn/toc.yml
     topicHref: ../marketing/learn/index.md
+  - name: Lead-administration
+    href: ../lead/learn/toc.yml
+    topicHref: ../lead/learn/index.md
 
   - name: Mobile CRM
     href: ../mobile/superoffice-mobile/index.md
@@ -60,6 +66,10 @@ items:
     href: ../security/privacy/learn/toc.yml
     topicHref: ../security/privacy/learn/index.md
 
+  - name: AI-tjänster
+    href: ../ai/learn/toc.yml
+    topicHref: ../ai/learn/index.md
+
   - name: SAINT (försäljningsintelligens)
     href: ../saint/learn/toc.yml
     topicHref: ../saint/learn/index.md
@@ -68,75 +78,13 @@ items:
     topicHref: ../erp/learn/index.md
 
   - name: Anpassning
-    href: customization.yml
-    items:
-    - name: Översikt
-      href: customization.yml
-    - name: Listor
-      href: ../admin/lists/learn/toc.yml
-      topicHref: ../admin/lists/learn/index.md
-    - name: Preferenser
-      href: ../admin/preferences/learn/toc.yml
-      topicHref: ../admin/preferences/learn/index.md
-    - name: Egendefinierade objekt
-      href: ../custom-objects/learn/toc.yml
-      topicHref: ../custom-objects/learn/index.md
+    href: ../customization/admin/toc.yml
+    topicHref: ../customization/index.yml
 
-    - name: Skärmdesigner
-      href: ../ui/screen-designer/learn/toc.yml
-      topicHref: ../ui/screen-designer/learn/index.md
+  - name: Inställningar och underhåll
+    href: ../admin/learn/toc.yml
+    topicHref: ../admin/index.yml
 
-    - name: Alternativ
-      href: ../admin/options/learn/toc.yml
-      topicHref: ../admin/options/learn/index.md
-
-    - name: CRMScript
-      href: ../automation/crmscript/learn/toc.yml
-      topicHref: ../automation/crmscript/learn/index.md
-
-    - name: E-post
-      href: ../email/service/learn/toc.yml
-      topicHref: ../email/service/learn/index.md
-
-    - name: Kundcenter
-      href: ../customer-center/learn/toc.yml
-      topicHref: ../customer-center/learn/index.md
-
-    - name: Systemdesign
-      href: ../ui/blogic/learn/toc.yml
-      topicHref: ../ui/blogic/learn/index.md
-
-    - name: Lokalt
-      topicHref: ../automation/crmscript/learn/screen/data-exchange.md
-      items:
-      - name: Data Exchange
-        href: ../automation/crmscript/learn/screen/data-exchange.md
-      - name: Konfigurera SOAP-gränssnitt
-        href: ../admin/learn/configure-soap.md
-
-  - name: Administration och systeminställningar
-    href: administration.yml
-    items:
-    - name: Översikt
-      href: administration.yml
-    - name: Anpassa olika vyer i Inställningar och underhåll
-      href: ../admin/learn/adjusting-views.md
-    - name: Administrering av användare
-      href: ../admin/user-management/learn/toc.yml
-      topicHref: ../admin/user-management/learn/index.md
-    - name: Licenser
-      href: ../admin/license/learn/toc.yml
-      topicHref: ../admin/license/learn/index.md
-    - name: Import
-      href: ../admin/import/learn/toc.yml
-      topicHref: ../admin/import/learn/index.md
-    - name: Lägga till systemhändelse
-      href: ../admin/learn/add-system-event.md
-
-    - name: AI-tjänster
-      href: ../ai/learn/toc.yml
-      topicHref: ../ai/learn/index.md
-
-  - name: Inställningar för Windows-klient
-    href: ../onsite/win-client/learn/toc.yml
-    topicHref: ../onsite/win-client/learn/index.md
+  - name: Språk, översättning och tidszoner
+    href: ../localization/learn/toc.yml
+    topicHref: ../localization/learn/translate-fields.md

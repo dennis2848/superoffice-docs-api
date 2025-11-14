@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/SetTicketStatusSortOrder
 This method will set sort order of ticket status in a list
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -66,12 +68,12 @@ No Content
 POST /api/v1/Agents/List/SetTicketStatusSortOrder
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketStatusId": 523,
-  "SortOrder": 878
+  "TicketStatusId": 901,
+  "SortOrder": 20
 }
 ```
 

@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Currency/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -72,19 +72,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 530,
-  "Name": "Mann-Ankunding",
-  "Tooltip": "sed",
-  "Rank": 282,
-  "Rate": 21417.755999999998,
-  "Units": 23840.338,
+  "CurrencyId": 726,
+  "Name": "Prosacco Inc and Sons",
+  "Tooltip": "qui",
+  "Rank": 594,
+  "Rate": 27648.147999999997,
+  "Units": 27795.446,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 893
+      "FieldType": "System.String",
+      "FieldLength": 732
     }
   }
 }

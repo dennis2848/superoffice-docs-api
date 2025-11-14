@@ -14,6 +14,8 @@ POST /api/v1/Agents/Resource/DeleteResourceSubstitution
 Permanentely delete a resource substitution for one or more cultures
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -66,12 +68,12 @@ No Content
 POST /api/v1/Agents/Resource/DeleteResourceSubstitution
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ResourceName": "Miller LLC",
-  "Culture": "iusto"
+  "ResourceName": "Waters Inc and Sons",
+  "Culture": "quo"
 }
 ```
 

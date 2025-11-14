@@ -14,6 +14,8 @@ POST /api/v1/Agents/CustomerService/GetCustomerServiceStartupByOwner
 Get the carrier with data that Service needs when starting up for a specific user
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -77,11 +79,11 @@ OK
 POST /api/v1/Agents/CustomerService/GetCustomerServiceStartupByOwner
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UserId": 475
+  "UserId": 39
 }
 ```
 
@@ -93,27 +95,27 @@ Content-Type: application/json; charset=utf-8
 
 {
   "TimezoneEnabled": false,
-  "TZOffset": 521,
-  "RecaptchaSiteKey": "et",
+  "TZOffset": 828,
+  "RecaptchaSiteKey": "sit",
   "SelectedPreferences": [
     {
       "Level": "Database",
-      "RawValue": "nam",
+      "RawValue": "dolore",
       "Specification": null,
-      "DisplayValue": "illo",
-      "DisplayTooltip": "labore",
+      "DisplayValue": "qui",
+      "DisplayTooltip": "omnis",
       "DisplayType": "Bool",
       "TabOrder": null,
-      "TargetId": 868,
-      "PrefDescId": 873,
-      "TableName": "Brown, Weimann and Pacocha",
-      "UserPreferenceId": 46,
+      "TargetId": 405,
+      "PrefDescId": 716,
+      "TableName": "Weber, Wuckert and Harber",
+      "UserPreferenceId": 629,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 574
+          "FieldLength": 538
         }
       }
     }
@@ -122,8 +124,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 317
+      "FieldType": "System.Int32",
+      "FieldLength": 227
     }
   }
 }

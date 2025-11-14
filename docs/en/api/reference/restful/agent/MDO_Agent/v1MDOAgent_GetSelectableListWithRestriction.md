@@ -14,6 +14,8 @@ POST /api/v1/Agents/MDO/GetSelectableListWithRestriction
 Method to get a Selectable MDO list with restrictions.
 
 
+NsApiSlow threshold: 1700 ms.
+
 
 
 
@@ -90,13 +92,13 @@ OK
 POST /api/v1/Agents/MDO/GetSelectableListWithRestriction
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Reichert Group",
-  "AdditionalInfo": "laudantium",
-  "SearchValue": "natus"
+  "Name": "Ward LLC",
+  "AdditionalInfo": "non",
+  "SearchValue": "qui"
 }
 ```
 
@@ -108,56 +110,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 807,
-    "Name": "Kertzmann, Schuppe and Hilll",
-    "ToolTip": "Facere dignissimos hic quaerat voluptate.",
+    "Id": 85,
+    "Name": "Wolf, Jewess and Prosacco",
+    "ToolTip": "Accusamus tempora.",
     "Deleted": true,
-    "Rank": 930,
-    "Type": "possimus",
-    "ColorBlock": 339,
-    "IconHint": "nihil",
+    "Rank": 932,
+    "Type": "nesciunt",
+    "ColorBlock": 320,
+    "IconHint": "nemo",
     "Selected": false,
-    "LastChanged": "2014-02-28T03:46:55.0194982+01:00",
+    "LastChanged": "2024-10-10T02:30:47.4757021+02:00",
     "ChildItems": [
       {
-        "Id": 79,
-        "Name": "Zulauf, Torphy and Murray",
-        "ToolTip": "Qui harum hic quae.",
-        "Deleted": true,
-        "Rank": 800,
-        "Type": "est",
-        "ColorBlock": 52,
-        "IconHint": "consequatur",
-        "Selected": false,
-        "LastChanged": "2009-07-21T03:46:55.0194982+02:00",
+        "Id": 782,
+        "Name": "Hessel LLC",
+        "ToolTip": "Deserunt doloremque quia.",
+        "Deleted": false,
+        "Rank": 250,
+        "Type": "in",
+        "ColorBlock": 327,
+        "IconHint": "cumque",
+        "Selected": true,
+        "LastChanged": "2000-09-20T02:30:47.4757021+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "cumque",
-        "StyleHint": "voluptatem",
-        "Hidden": false,
-        "FullName": "Berniece Haley",
+        "ExtraInfo": "dolorum",
+        "StyleHint": "dolorem",
+        "Hidden": true,
+        "FullName": "Malvina Quitzon",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 926
+            "FieldLength": 933
           }
         }
       }
     ],
-    "ExtraInfo": "repudiandae",
-    "StyleHint": "vel",
+    "ExtraInfo": "sapiente",
+    "StyleHint": "et",
     "Hidden": false,
-    "FullName": "Miss Makenna Turner",
+    "FullName": "Ima Barrows V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 133
+        "FieldType": "System.String",
+        "FieldLength": 246
       }
     }
   }

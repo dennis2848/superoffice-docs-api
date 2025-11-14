@@ -15,6 +15,7 @@ Deletes the ChatTopicEntity
 
 
 Calls the Chat agent service DeleteChatTopicEntity.
+NsApiSlow threshold: 5000 ms.
 
 
 

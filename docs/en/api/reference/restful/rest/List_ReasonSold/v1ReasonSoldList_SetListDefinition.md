@@ -85,20 +85,20 @@ OK
 PUT /api/v1/List/ReasonSold
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 997,
-  "Name": "Stroman, Spencer and Medhurst",
-  "Tooltip": "nesciunt",
-  "Deleted": true,
-  "Rank": 615,
+  "Id": 414,
+  "Name": "Nicolas-Mohr",
+  "Tooltip": "praesentium",
+  "Deleted": false,
+  "Rank": 333,
   "IsCustomList": false,
   "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "ducimus",
-  "InUseByUserDefinedFields": true
+  "ListType": "eius",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -109,22 +109,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 794,
-  "Name": "Kovacek, Pollich and Gleason",
-  "Tooltip": "aut",
-  "Deleted": false,
-  "Rank": 916,
+  "Id": 952,
+  "Name": "Stanton Inc and Sons",
+  "Tooltip": "et",
+  "Deleted": true,
+  "Rank": 363,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "et",
+  "ListType": "similique",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 552
+      "FieldLength": 870
     }
   }
 }

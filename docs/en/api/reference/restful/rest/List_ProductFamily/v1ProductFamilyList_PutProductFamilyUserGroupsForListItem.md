@@ -103,42 +103,42 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 515,
-    "Name": "Dibbert, Bartoletti and Goyette",
-    "ToolTip": "Velit quia impedit laudantium dolorum rerum.",
-    "Deleted": false,
-    "Rank": 849,
-    "Type": "et",
-    "ColorBlock": 4,
-    "IconHint": "voluptate",
-    "Selected": true,
-    "LastChanged": "2023-03-21T03:47:00.7224209+01:00",
+    "Id": 193,
+    "Name": "Wiza Inc and Sons",
+    "ToolTip": "Quo dolores.",
+    "Deleted": true,
+    "Rank": 23,
+    "Type": "minus",
+    "ColorBlock": 660,
+    "IconHint": "dignissimos",
+    "Selected": false,
+    "LastChanged": "2008-10-04T02:30:53.3661371+02:00",
     "ChildItems": [
       {
-        "Id": 142,
-        "Name": "Hilll-Effertz",
-        "ToolTip": "Architecto et.",
-        "Deleted": true,
-        "Rank": 568,
-        "Type": "modi",
-        "ColorBlock": 502,
-        "IconHint": "tempora",
-        "Selected": true,
-        "LastChanged": "2018-07-14T03:47:00.7224209+02:00",
+        "Id": 17,
+        "Name": "Hamill LLC",
+        "ToolTip": "Non reiciendis maiores assumenda.",
+        "Deleted": false,
+        "Rank": 819,
+        "Type": "cum",
+        "ColorBlock": 711,
+        "IconHint": "voluptate",
+        "Selected": false,
+        "LastChanged": "2018-03-14T02:30:53.3661371+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "non",
-        "StyleHint": "nemo",
+        "ExtraInfo": "a",
+        "StyleHint": "quibusdam",
         "Hidden": true,
-        "FullName": "Mr. Sierra Heaney"
+        "FullName": "Bernadine Fisher"
       }
     ],
-    "ExtraInfo": "sit",
-    "StyleHint": "nostrum",
+    "ExtraInfo": "dolorum",
+    "StyleHint": "aut",
     "Hidden": false,
-    "FullName": "Brianne Sawayn"
+    "FullName": "Bret Hodkiewicz Sr."
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 829,
-    "Name": "Oberbrunner, Quigley and O'Keefe",
-    "ToolTip": "Magni ipsa totam molestias eaque autem qui.",
+    "Id": 789,
+    "Name": "Glover, Rowe and Bode",
+    "ToolTip": "Voluptatem dignissimos rem nesciunt veniam.",
     "Deleted": true,
-    "Rank": 911,
-    "Type": "est",
-    "ColorBlock": 466,
-    "IconHint": "aliquid",
-    "Selected": false,
-    "LastChanged": "2006-10-26T03:47:00.7224209+02:00",
+    "Rank": 416,
+    "Type": "ut",
+    "ColorBlock": 634,
+    "IconHint": "eligendi",
+    "Selected": true,
+    "LastChanged": "2010-09-05T02:30:53.3661371+02:00",
     "ChildItems": [
       {
-        "Id": 307,
-        "Name": "Littel Group",
-        "ToolTip": "Et qui illum amet.",
-        "Deleted": false,
-        "Rank": 796,
-        "Type": "laborum",
-        "ColorBlock": 996,
-        "IconHint": "mollitia",
+        "Id": 84,
+        "Name": "Ryan Inc and Sons",
+        "ToolTip": "Sapiente quia.",
+        "Deleted": true,
+        "Rank": 850,
+        "Type": "sed",
+        "ColorBlock": 809,
+        "IconHint": "est",
         "Selected": true,
-        "LastChanged": "2008-12-22T03:47:00.7224209+01:00",
+        "LastChanged": "2003-06-16T02:30:53.3661371+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "enim",
-        "StyleHint": "magnam",
-        "Hidden": true,
-        "FullName": "Reggie Beier",
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "eum",
+        "Hidden": false,
+        "FullName": "Mrs. Jodie Wyatt Hoeger",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 910
+            "FieldLength": 961
           }
         }
       }
     ],
-    "ExtraInfo": "est",
-    "StyleHint": "est",
-    "Hidden": true,
-    "FullName": "Mr. Flossie Abernathy",
+    "ExtraInfo": "ducimus",
+    "StyleHint": "sed",
+    "Hidden": false,
+    "FullName": "Juwan Mertz",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 608
+        "FieldType": "System.Int32",
+        "FieldLength": 533
       }
     }
   }

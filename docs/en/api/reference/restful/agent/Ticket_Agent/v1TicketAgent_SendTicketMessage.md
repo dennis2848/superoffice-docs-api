@@ -14,6 +14,8 @@ POST /api/v1/Agents/Ticket/SendTicketMessage
 Send a message to recipients by email
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -75,22 +77,22 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageEntityId": 402,
+  "TicketMessageEntityId": 603,
   "To": [
-    "quia",
-    "cumque"
+    "est",
+    "molestiae"
   ],
   "Cc": [
-    "minima",
-    "quaerat"
+    "perferendis",
+    "iusto"
   ],
   "Bcc": [
-    "voluptas",
-    "quidem"
+    "cupiditate",
+    "ipsum"
   ],
-  "Subject": "ab",
-  "ReplyTemplateId": 957,
-  "GdprSource": "veritatis"
+  "Subject": "aliquid",
+  "ReplyTemplateId": 272,
+  "GdprSource": "omnis"
 }
 ```
 

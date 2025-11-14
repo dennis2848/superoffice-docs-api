@@ -15,6 +15,7 @@ Creates a RecurrenceInfo object populated with the default values for the specif
 
 
 Using startDate as start date for the recurreing pattern.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -85,11 +86,11 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultRecurrenceByDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StartDate": "2017-04-02T03:46:54.1914032+02:00"
+  "StartDate": "2001-04-01T02:30:46.6632264+02:00"
 }
 ```
 
@@ -100,10 +101,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 748,
-  "StartDate": "2003-01-10T03:46:54.1914032+01:00",
-  "EndDate": "2017-08-31T03:46:54.1914032+02:00",
-  "RecurrenceCounter": 649,
+  "RecurrenceId": 370,
+  "StartDate": "2016-01-09T02:30:46.6632264+01:00",
+  "EndDate": "1999-04-20T02:30:46.6632264+02:00",
+  "RecurrenceCounter": 214,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": null,
@@ -112,18 +113,18 @@ Content-Type: application/json; charset=utf-8
   "YearPattern": null,
   "Dates": [
     {
-      "Date": "1999-08-04T03:46:54.1914032+02:00",
-      "IsConflict": false,
-      "Description": "Advanced bi-directional access",
-      "DescriptionStyleHint": "Pre-emptive executive neural-net",
-      "Tooltip": "exercitationem"
+      "Date": "2015-07-26T02:30:46.6632264+02:00",
+      "IsConflict": true,
+      "Description": "Synergistic executive migration",
+      "DescriptionStyleHint": "Compatible homogeneous archive",
+      "Tooltip": "ut"
     },
     {
-      "Date": "1999-08-04T03:46:54.1914032+02:00",
-      "IsConflict": false,
-      "Description": "Advanced bi-directional access",
-      "DescriptionStyleHint": "Pre-emptive executive neural-net",
-      "Tooltip": "exercitationem"
+      "Date": "2015-07-26T02:30:46.6632264+02:00",
+      "IsConflict": true,
+      "Description": "Synergistic executive migration",
+      "DescriptionStyleHint": "Compatible homogeneous archive",
+      "Tooltip": "ut"
     }
   ],
   "IsRecurrence": true

@@ -98,47 +98,47 @@ OK
 PUT /api/v1/List/Business/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 908,
-    "Name": "Larson, Dare and Hills",
-    "ToolTip": "Et blanditiis sunt.",
-    "Deleted": false,
-    "Rank": 198,
-    "Type": "porro",
-    "ColorBlock": 541,
-    "IconHint": "corporis",
-    "Selected": true,
-    "LastChanged": "2000-03-22T03:47:00.5818006+01:00",
+    "Id": 772,
+    "Name": "Veum Group",
+    "ToolTip": "Reiciendis consectetur sit debitis ea dolorem.",
+    "Deleted": true,
+    "Rank": 564,
+    "Type": "voluptatem",
+    "ColorBlock": 824,
+    "IconHint": "et",
+    "Selected": false,
+    "LastChanged": "2022-07-08T02:30:53.2098926+02:00",
     "ChildItems": [
       {
-        "Id": 781,
-        "Name": "Farrell-Zboncak",
-        "ToolTip": "Earum delectus ex ipsa.",
+        "Id": 146,
+        "Name": "Witting Group",
+        "ToolTip": "Ipsa est iusto sunt distinctio cupiditate.",
         "Deleted": false,
-        "Rank": 619,
-        "Type": "autem",
-        "ColorBlock": 810,
-        "IconHint": "dolor",
+        "Rank": 498,
+        "Type": "excepturi",
+        "ColorBlock": 715,
+        "IconHint": "omnis",
         "Selected": true,
-        "LastChanged": "2018-03-30T03:47:00.5818006+02:00",
+        "LastChanged": "2017-12-15T02:30:53.2098926+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eos",
-        "StyleHint": "porro",
-        "Hidden": false,
-        "FullName": "Austin Kris"
+        "ExtraInfo": "earum",
+        "StyleHint": "velit",
+        "Hidden": true,
+        "FullName": "Miss Fanny Jeffery Lowe"
       }
     ],
-    "ExtraInfo": "aut",
-    "StyleHint": "eos",
-    "Hidden": true,
-    "FullName": "Yvonne Zieme"
+    "ExtraInfo": "recusandae",
+    "StyleHint": "dolorum",
+    "Hidden": false,
+    "FullName": "Sydney Bechtelar I"
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 299,
-    "Name": "Gibson Inc and Sons",
-    "ToolTip": "Aut ipsa facilis dicta voluptatum qui quo.",
+    "Id": 320,
+    "Name": "Prosacco Inc and Sons",
+    "ToolTip": "Et unde rerum temporibus iste molestiae.",
     "Deleted": false,
-    "Rank": 904,
-    "Type": "optio",
-    "ColorBlock": 731,
-    "IconHint": "dolor",
+    "Rank": 144,
+    "Type": "tempore",
+    "ColorBlock": 791,
+    "IconHint": "molestiae",
     "Selected": true,
-    "LastChanged": "2000-01-23T03:47:00.5818006+01:00",
+    "LastChanged": "2018-12-03T02:30:53.2098926+01:00",
     "ChildItems": [
       {
-        "Id": 155,
-        "Name": "Hilll LLC",
-        "ToolTip": "Et ea.",
+        "Id": 756,
+        "Name": "Hagenes Group",
+        "ToolTip": "Dolor tempora deleniti.",
         "Deleted": false,
-        "Rank": 751,
-        "Type": "voluptate",
-        "ColorBlock": 388,
-        "IconHint": "ducimus",
+        "Rank": 434,
+        "Type": "voluptates",
+        "ColorBlock": 762,
+        "IconHint": "nihil",
         "Selected": false,
-        "LastChanged": "2009-04-06T03:47:00.5818006+02:00",
+        "LastChanged": "2025-08-20T02:30:53.2098926+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "maiores",
-        "StyleHint": "corrupti",
-        "Hidden": true,
-        "FullName": "Audrey Kiehn",
+        "ExtraInfo": "quis",
+        "StyleHint": "voluptatem",
+        "Hidden": false,
+        "FullName": "Alexie Hessel",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 187
+            "FieldType": "System.Int32",
+            "FieldLength": 600
           }
         }
       }
     ],
-    "ExtraInfo": "quo",
-    "StyleHint": "ut",
+    "ExtraInfo": "ducimus",
+    "StyleHint": "sit",
     "Hidden": false,
-    "FullName": "Ofelia Feest",
+    "FullName": "Mr. Otho Broderick Abshire",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 675
+        "FieldLength": 586
       }
     }
   }

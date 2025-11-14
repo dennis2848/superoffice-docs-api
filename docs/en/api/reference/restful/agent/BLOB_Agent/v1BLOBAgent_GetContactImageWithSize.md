@@ -14,6 +14,8 @@ POST /api/v1/Agents/BLOB/GetContactImageWithSize
 Returns the contact image that is displayed in the CRM application with a specified maximum size.
 
 
+NsApiSlow threshold: 3000 ms.
+
 
 
 
@@ -71,13 +73,13 @@ OK
 POST /api/v1/Agents/BLOB/GetContactImageWithSize
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 56,
-  "Width": 949,
-  "Height": 62
+  "ContactId": 379,
+  "Width": 890,
+  "Height": 666
 }
 ```
 

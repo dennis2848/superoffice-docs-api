@@ -15,6 +15,7 @@ Deletes the ContactRelationEntity
 
 
 Calls the Relation agent service DeleteContactRelation.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -54,7 +55,7 @@ ContactRelationEntity deleted.
 DELETE /api/v1/Relation/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response

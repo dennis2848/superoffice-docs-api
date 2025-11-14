@@ -15,6 +15,7 @@ Set default values into a new DashTileDefinition.
 
 
 NetServer calculates default values on the entity, which is required when creating/storing a new instance Calls the Dash agent service CreateDefaultDashTileDefinition.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -76,7 +77,7 @@ OK
 GET /api/v1/DashTileDefinition/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,31 +87,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 874,
-  "Name": "Bechtelar, Rowe and Robel",
-  "Description": "Compatible stable toolset",
-  "DefaultHeight": 611,
-  "DefaultWidth": 186,
+  "DashboardTileDefinitionId": 131,
+  "Name": "Hane Inc and Sons",
+  "Description": "Fundamental intermediate workforce",
+  "DefaultHeight": 545,
+  "DefaultWidth": 486,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Wilderman, Auer and Davis",
-  "SelectionId": 833,
+  "EntityName": "Kshlerin-Carter",
+  "SelectionId": 459,
   "CurrencyMode": "Base",
-  "CurrencyCode": "mollitia",
+  "CurrencyCode": "vitae",
   "Measure": "Average",
-  "MeasureField": "magni",
-  "SortBy": "saepe",
-  "LayoutConfig": "voluptatem",
-  "SecondarySelectionId": 172,
-  "MeasureByField": "alias",
+  "MeasureField": "rerum",
+  "SortBy": "perferendis",
+  "LayoutConfig": "dolores",
+  "SecondarySelectionId": 881,
+  "MeasureByField": "doloribus",
   "Usage": "Dashboard",
-  "ProviderName": "Witting Group",
+  "ProviderName": "Block-Schumm",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 643
+      "FieldLength": 876
     }
   }
 }

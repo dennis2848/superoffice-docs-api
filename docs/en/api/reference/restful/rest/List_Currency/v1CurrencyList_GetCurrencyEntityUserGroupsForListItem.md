@@ -76,7 +76,7 @@ OK
 GET /api/v1/List/Currency/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -87,56 +87,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 796,
-    "Name": "Marks-Dickens",
-    "ToolTip": "Ut voluptatem molestiae placeat ab veritatis facere natus.",
+    "Id": 757,
+    "Name": "Gleichner-Abernathy",
+    "ToolTip": "Rerum quis veritatis magni in debitis dolores ipsam.",
     "Deleted": false,
-    "Rank": 312,
-    "Type": "recusandae",
-    "ColorBlock": 476,
-    "IconHint": "in",
+    "Rank": 270,
+    "Type": "veritatis",
+    "ColorBlock": 208,
+    "IconHint": "qui",
     "Selected": false,
-    "LastChanged": "2003-08-04T03:47:00.628674+02:00",
+    "LastChanged": "2022-06-04T02:30:53.2567659+02:00",
     "ChildItems": [
       {
-        "Id": 403,
-        "Name": "Kihn Inc and Sons",
-        "ToolTip": "Exercitationem ratione ab quidem ipsam sit eos.",
-        "Deleted": true,
-        "Rank": 494,
-        "Type": "itaque",
-        "ColorBlock": 962,
-        "IconHint": "et",
+        "Id": 691,
+        "Name": "Stehr, Smitham and Jakubowski",
+        "ToolTip": "Expedita ipsam.",
+        "Deleted": false,
+        "Rank": 555,
+        "Type": "ratione",
+        "ColorBlock": 640,
+        "IconHint": "non",
         "Selected": false,
-        "LastChanged": "2018-05-24T03:47:00.628674+02:00",
+        "LastChanged": "2018-02-03T02:30:53.2567659+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "sit",
-        "Hidden": false,
-        "FullName": "Cristal Gleichner",
+        "ExtraInfo": "et",
+        "StyleHint": "voluptatem",
+        "Hidden": true,
+        "FullName": "Miss Stefanie Brakus IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 282
+            "FieldType": "System.Int32",
+            "FieldLength": 680
           }
         }
       }
     ],
-    "ExtraInfo": "placeat",
-    "StyleHint": "illo",
-    "Hidden": true,
-    "FullName": "Emmet King Sr.",
+    "ExtraInfo": "hic",
+    "StyleHint": "non",
+    "Hidden": false,
+    "FullName": "Lavinia Pfannerstill DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 885
+        "FieldType": "System.String",
+        "FieldLength": 115
       }
     }
   }

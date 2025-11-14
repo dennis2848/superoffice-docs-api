@@ -14,6 +14,8 @@ PUT /api/v1/ForeignApp/{id}
 Updates the existing ForeignAppEntity
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -93,27 +95,27 @@ ForeignAppEntity updated.
 PUT /api/v1/ForeignApp/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 333,
-  "Name": "Crist Group",
-  "CreatedDate": "2005-09-03T03:47:00.0193121+02:00",
-  "UpdatedDate": "2025-06-11T03:47:00.0193121+02:00",
+  "ForeignAppId": 784,
+  "Name": "Rowe LLC",
+  "CreatedDate": "2007-01-11T02:30:52.6474115+01:00",
+  "UpdatedDate": "2019-06-29T02:30:52.6474115+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 79,
-      "Name": "Halvorson-Block",
-      "CreatedDate": "2005-04-26T03:47:00.0193121+02:00",
-      "UpdatedDate": "2025-04-26T03:47:00.0193121+02:00",
-      "AssociateFullName": "Jalen Colton Larkin Jr.",
-      "CreatedBy": "est",
-      "UpdatedBy": "eum",
-      "DeviceIdentifier": "expedita",
-      "ForeignAppId": 486
+      "ForeignDeviceId": 60,
+      "Name": "Schmidt-Satterfield",
+      "CreatedDate": "2021-12-07T02:30:52.6474115+01:00",
+      "UpdatedDate": "2005-04-18T02:30:52.6474115+02:00",
+      "AssociateFullName": "Jamel Conn",
+      "CreatedBy": "tenetur",
+      "UpdatedBy": "laboriosam",
+      "DeviceIdentifier": "inventore",
+      "ForeignAppId": 980
     }
   ]
 }
@@ -126,29 +128,29 @@ HTTP/1.1 200 ForeignAppEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 314,
-  "Name": "Boyer-Konopelski",
-  "CreatedDate": "2011-09-24T03:47:00.0193121+02:00",
-  "UpdatedDate": "2007-12-05T03:47:00.0193121+01:00",
+  "ForeignAppId": 251,
+  "Name": "Shields-Schaefer",
+  "CreatedDate": "2011-05-02T02:30:52.6474115+02:00",
+  "UpdatedDate": "2006-07-19T02:30:52.6474115+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 463,
-      "Name": "Klein-Hansen",
-      "CreatedDate": "2006-04-11T03:47:00.0193121+02:00",
-      "UpdatedDate": "2008-10-12T03:47:00.0193121+02:00",
-      "AssociateFullName": "Marcelino Glover IV",
-      "CreatedBy": "laboriosam",
-      "UpdatedBy": "nihil",
-      "DeviceIdentifier": "et",
-      "ForeignAppId": 152,
+      "ForeignDeviceId": 999,
+      "Name": "Cremin Group",
+      "CreatedDate": "2024-01-01T02:30:52.6474115+01:00",
+      "UpdatedDate": "2004-07-24T02:30:52.6474115+02:00",
+      "AssociateFullName": "Jessika McGlynn",
+      "CreatedBy": "explicabo",
+      "UpdatedBy": "ut",
+      "DeviceIdentifier": "amet",
+      "ForeignAppId": 735,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 819
+          "FieldLength": 270
         }
       }
     }
@@ -158,7 +160,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 964
+      "FieldLength": 202
     }
   },
   "_Links": {

@@ -76,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 503,
-  "Name": "Heathcote, Simonis and Botsford",
-  "Tooltip": "eos",
+  "Id": 762,
+  "Name": "Murray-Jacobs",
+  "Tooltip": "doloremque",
   "Deleted": false,
-  "Rank": 623,
-  "IsCustomList": false,
-  "IsMDOList": false,
+  "Rank": 983,
+  "IsCustomList": true,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "consequatur",
+  "ListType": "labore",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 900
+      "FieldType": "System.String",
+      "FieldLength": 346
     }
   },
   "_Links": {

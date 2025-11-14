@@ -15,6 +15,7 @@ Get a ticket entity, adapted to the specific needs of the Request Management UI.
 
 
 WARNING: This endpoint is not guaranteed to be stable/compatible between versions
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -133,11 +134,11 @@ OK
 POST /api/v1/Agents/Ticket/GetForRmUi
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 931
+  "TicketId": 34
 }
 ```
 
@@ -148,21 +149,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 460,
-  "Title": "dolores",
-  "CreatedAt": "2011-07-31T03:46:55.4569825+02:00",
-  "LastChanged": "2010-09-09T03:46:55.4569825+02:00",
-  "ReadByOwner": "2019-09-02T03:46:55.4569825+02:00",
-  "ReadByCustomer": "2018-02-18T03:46:55.4569825+01:00",
-  "FirstReadByOwner": "1999-02-15T03:46:55.4569825+01:00",
-  "FirstReadByUser": "2019-03-30T03:46:55.4569825+01:00",
-  "Activate": "2005-03-20T03:46:55.4569825+01:00",
-  "ClosedAt": "2002-11-27T03:46:55.4569825+01:00",
-  "RepliedAt": "2004-06-20T03:46:55.4569825+02:00",
-  "AlertTimeout": "2006-02-25T03:46:55.4569825+01:00",
-  "Deadline": "2004-05-05T03:46:55.4569825+02:00",
+  "TicketId": 531,
+  "Title": "tempora",
+  "CreatedAt": "2014-11-08T02:30:47.9131881+01:00",
+  "LastChanged": "2007-08-16T02:30:47.9131881+02:00",
+  "ReadByOwner": "2012-05-09T02:30:47.9131881+02:00",
+  "ReadByCustomer": "2020-03-30T02:30:47.9131881+02:00",
+  "FirstReadByOwner": "2019-02-04T02:30:47.9131881+01:00",
+  "FirstReadByUser": "2004-12-02T02:30:47.9131881+01:00",
+  "Activate": "2022-03-20T02:30:47.9131881+01:00",
+  "ClosedAt": "2020-08-11T02:30:47.9131881+02:00",
+  "RepliedAt": "2011-08-10T02:30:47.9131881+02:00",
+  "AlertTimeout": "2011-03-27T02:30:47.9131881+01:00",
+  "Deadline": "2024-02-01T02:30:47.9131881+01:00",
   "CreatedBy": null,
-  "Author": "consectetur",
+  "Author": "dolorem",
   "OwnedBy": null,
   "Category": null,
   "Slevel": "External",
@@ -173,163 +174,163 @@ Content-Type: application/json; charset=utf-8
   "Person": null,
   "SecondaryPersons": [
     {
-      "Position": "aspernatur",
-      "PersonId": 925,
-      "Mrmrs": "impedit",
-      "Firstname": "Vallie",
-      "Lastname": "Lubowitz",
-      "MiddleName": "Morissette Inc and Sons",
-      "Title": "et",
-      "Description": "Assimilated global data-warehouse",
-      "Email": "milton_borer@ritchie.biz",
-      "FullName": "Alford Hand",
-      "DirectPhone": "(767)028-2441 x254",
-      "FormalName": "Von Inc and Sons",
-      "CountryId": 218,
-      "ContactId": 539,
-      "ContactName": "Fadel LLC",
-      "Retired": 627,
-      "Rank": 611,
-      "ActiveInterests": 950,
+      "Position": "eius",
+      "PersonId": 865,
+      "Mrmrs": "quibusdam",
+      "Firstname": "Shane",
+      "Lastname": "Sauer",
+      "MiddleName": "Fadel Inc and Sons",
+      "Title": "est",
+      "Description": "Ergonomic global adapter",
+      "Email": "kamille.romaguera@schinnerdeckow.com",
+      "FullName": "Norbert Lehner",
+      "DirectPhone": "(596)265-8076 x1372",
+      "FormalName": "Leuschke LLC",
+      "CountryId": 382,
+      "ContactId": 312,
+      "ContactName": "Littel-Langworth",
+      "Retired": 93,
+      "Rank": 181,
+      "ActiveInterests": 213,
       "ContactDepartment": "",
-      "ContactCountryId": 724,
-      "ContactOrgNr": "866887",
-      "FaxPhone": "(923)751-4239 x60995",
-      "MobilePhone": "1-885-542-3718 x998",
-      "ContactPhone": "(261)474-5298 x75864",
-      "AssociateName": "Kuhlman Inc and Sons",
-      "AssociateId": 2,
+      "ContactCountryId": 394,
+      "ContactOrgNr": "1115911",
+      "FaxPhone": "064-089-0003",
+      "MobilePhone": "666.199.0325",
+      "ContactPhone": "677-127-5453 x067",
+      "AssociateName": "Schultz-Cummerata",
+      "AssociateId": 647,
       "UsePersonAddress": true,
-      "ContactFax": "fugiat",
-      "Kanafname": "et",
-      "Kanalname": "et",
-      "Post1": "itaque",
-      "Post2": "similique",
-      "Post3": "ad",
-      "EmailName": "herta@kunzeprohaska.co.uk",
-      "ContactFullName": "Prof. Anderson Bosco DDS",
-      "ActiveErpLinks": 686,
-      "TicketPriorityId": 122,
-      "SupportLanguageId": 703,
-      "SupportAssociateId": 616,
+      "ContactFax": "repudiandae",
+      "Kanafname": "ipsam",
+      "Kanalname": "similique",
+      "Post1": "laboriosam",
+      "Post2": "omnis",
+      "Post3": "ipsa",
+      "EmailName": "muhammad.gutkowski@carrollsmitham.name",
+      "ContactFullName": "Mrs. Ethel Gerson Friesen I",
+      "ActiveErpLinks": 484,
+      "TicketPriorityId": 561,
+      "SupportLanguageId": 756,
+      "SupportAssociateId": 338,
       "CategoryName": "VIP Customer",
-      "PersonNumber": "718360",
+      "PersonNumber": "833380",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 62
+          "FieldType": "System.String",
+          "FieldLength": 32
         }
       }
     }
   ],
-  "AlertLevel": 560,
-  "ConnectId": 236,
+  "AlertLevel": 906,
+  "ConnectId": 338,
   "ReadStatus": "Green",
-  "TimeToReply": 549,
-  "RealTimeToReply": 746,
-  "TimeToClose": 151,
-  "RealTimeToClose": 326,
-  "TimeSpentInternally": 497,
-  "TimeSpentExternally": 317,
-  "TimeSpentQueue": 408,
-  "RealTimeSpentInternally": 506,
-  "RealTimeSpentExternally": 837,
-  "RealTimeSpentQueue": 518,
-  "TimeSpent": 246,
-  "HasAttachment": false,
-  "NumReplies": 995,
-  "NumMessages": 413,
-  "FromAddress": "ad",
+  "TimeToReply": 691,
+  "RealTimeToReply": 631,
+  "TimeToClose": 860,
+  "RealTimeToClose": 755,
+  "TimeSpentInternally": 933,
+  "TimeSpentExternally": 128,
+  "TimeSpentQueue": 113,
+  "RealTimeSpentInternally": 823,
+  "RealTimeSpentExternally": 334,
+  "RealTimeSpentQueue": 167,
+  "TimeSpent": 287,
+  "HasAttachment": true,
+  "NumReplies": 315,
+  "NumMessages": 69,
+  "FromAddress": "quia",
   "Messages": [
     {
-      "TicketMessageId": 400,
-      "CreatedAt": "2002-04-05T03:46:55.4569825+02:00",
+      "TicketMessageId": 578,
+      "CreatedAt": "2000-07-17T02:30:47.9131881+02:00",
       "Slevel": "External",
       "Important": false,
-      "Author": "sint",
-      "PersonId": 894,
-      "PersonFullName": "Dr. Misty Beverly Rutherford",
-      "ContactId": 311,
-      "ContactName": "Hegmann, Kris and Schinner",
-      "ContactDepartment": "benchmark collaborative communities",
-      "NumAttachments": 282,
-      "EmailHeader": "aisha.kuphal@hoppeherzog.uk",
+      "Author": "facere",
+      "PersonId": 423,
+      "PersonFullName": "Gwen Hudson Sr.",
+      "ContactId": 27,
+      "ContactName": "Stark, Christiansen and Cummerata",
+      "ContactDepartment": "",
+      "NumAttachments": 536,
+      "EmailHeader": "maya_murazik@smitham.com",
       "MessageHeaders": [
         {},
         {}
       ],
-      "Language": "maxime",
-      "Sentiment": 19,
-      "SentimentConfidence": 355,
-      "CreatedBy": 980,
-      "ChangedAt": "2001-04-25T03:46:55.4569825+02:00",
+      "Language": "vero",
+      "Sentiment": 957,
+      "SentimentConfidence": 537,
+      "CreatedBy": 671,
+      "ChangedAt": "2007-10-23T02:30:47.9131881+02:00",
       "Badge": "Comment",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 336
+          "FieldLength": 948
         }
       }
     }
   ],
   "Tags": [
     {
-      "Id": 724,
-      "Name": "Hintz-Gislason",
-      "ToolTip": "Nulla veritatis mollitia soluta sint cum voluptatem.",
+      "Id": 319,
+      "Name": "Schulist Inc and Sons",
+      "ToolTip": "Enim adipisci doloribus ea a ut quia.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 927
+          "FieldLength": 106
         }
       }
     },
     {
-      "Id": 724,
-      "Name": "Hintz-Gislason",
-      "ToolTip": "Nulla veritatis mollitia soluta sint cum voluptatem.",
+      "Id": 319,
+      "Name": "Schulist Inc and Sons",
+      "ToolTip": "Enim adipisci doloribus ea a ut quia.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 927
+          "FieldLength": 106
         }
       }
     }
   ],
-  "Language": "beatae",
-  "Sentiment": 882,
-  "SentimentConfidence": 150,
-  "SuggestedCategoryId": 431,
+  "Language": "quia",
+  "Sentiment": 590,
+  "SentimentConfidence": 229,
+  "SuggestedCategoryId": 392,
   "SuggestedCategoryName": "VIP Customer",
-  "OrigHumanCategoryId": 462,
-  "IconHint": "incidunt",
+  "OrigHumanCategoryId": 281,
+  "IconHint": "ipsum",
   "Sale": null,
   "Project": null,
   "FormSubmission": null,
   "TicketType": null,
-  "ActiveStatusMonitorId": 287,
+  "ActiveStatusMonitorId": 584,
   "ExtraFields": {
-    "ExtraFields1": "in",
-    "ExtraFields2": "et"
+    "ExtraFields1": "distinctio",
+    "ExtraFields2": "est"
   },
   "CustomFields": {
-    "CustomFields1": "temporibus",
-    "CustomFields2": "consequatur"
+    "CustomFields1": "in",
+    "CustomFields2": "ab"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 598
+      "FieldType": "System.String",
+      "FieldLength": 71
     }
   }
 }

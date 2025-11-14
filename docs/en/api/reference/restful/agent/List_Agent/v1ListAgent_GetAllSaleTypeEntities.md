@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/GetAllSaleTypeEntities
 Returns all sale types as entities with stakeholders, guide and quote properties
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -95,7 +97,7 @@ OK
 POST /api/v1/Agents/List/GetAllSaleTypeEntities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -111,53 +113,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "SaleTypeId": 709,
-    "Name": "Lemke LLC",
-    "Tooltip": "quia",
-    "Rank": 51,
+    "SaleTypeId": 791,
+    "Name": "Schmidt-Howell",
+    "Tooltip": "cum",
+    "Rank": 232,
     "DurationUnit": "Century",
-    "SaleDuration": 893,
-    "SaleTypeCatId": 150,
-    "Deleted": false,
+    "SaleDuration": 192,
+    "SaleTypeCatId": 971,
+    "Deleted": true,
     "HasGuide": false,
-    "HasStakeholders": true,
-    "IsAutoAdvance": false,
-    "AllowQuoteAlternatives": false,
-    "DefaultQuoteValidity": 165,
-    "QuoteLinesTemplate": 880,
-    "ConfirmationLinesTemplate": 936,
+    "HasStakeholders": false,
+    "IsAutoAdvance": true,
+    "AllowQuoteAlternatives": true,
+    "DefaultQuoteValidity": 282,
+    "QuoteLinesTemplate": 971,
+    "ConfirmationLinesTemplate": 490,
     "MaxDiscountPercentSet": false,
     "MinEarningPercentSet": false,
-    "MaxDiscountPercent": 833,
-    "MinEarningPercent": 573,
-    "GroupQuoteLinesBy": 876,
-    "SortGroupLinesBy": 110,
+    "MaxDiscountPercent": 10,
+    "MinEarningPercent": 749,
+    "GroupQuoteLinesBy": 596,
+    "SortGroupLinesBy": 27,
     "Stages": [
       {
-        "Id": 165,
-        "Name": "O'Connell, VonRueden and Parisian",
-        "ToolTip": "Nihil est quidem sit aut.",
-        "Deleted": true,
-        "Rank": 582,
-        "Type": "omnis",
-        "ColorBlock": 74,
-        "IconHint": "molestias",
-        "Selected": false,
-        "LastChanged": "2012-03-02T03:46:54.9413809+01:00",
+        "Id": 403,
+        "Name": "Schultz-Rutherford",
+        "ToolTip": "Possimus enim labore aut quos aspernatur quia.",
+        "Deleted": false,
+        "Rank": 654,
+        "Type": "dolorem",
+        "ColorBlock": 3,
+        "IconHint": "et",
+        "Selected": true,
+        "LastChanged": "2003-05-29T02:30:47.3975807+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ad",
-        "StyleHint": "doloremque",
+        "ExtraInfo": "rerum",
+        "StyleHint": "minima",
         "Hidden": false,
-        "FullName": "Sylvan Luettgen",
+        "FullName": "Mrs. Shanie Turcotte MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 816
+            "FieldType": "System.Int32",
+            "FieldLength": 211
           }
         }
       }
@@ -167,7 +169,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 677
+        "FieldLength": 910
       }
     }
   }

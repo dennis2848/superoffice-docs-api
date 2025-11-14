@@ -14,6 +14,8 @@ POST /api/v1/Agents/Diagnostics/GetWebAppUsagesForPeriod
 Get all WebAppUsages for a given period, that match an optional search term
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -86,9 +88,9 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "FromDate": "2021-09-19T03:46:54.6132622+02:00",
-  "ToDate": "2007-06-02T03:46:54.6132622+02:00",
-  "SearchTerm": "rem"
+  "FromDate": "2004-02-21T02:30:47.0694635+01:00",
+  "ToDate": "2023-08-18T02:30:47.0694635+02:00",
+  "SearchTerm": "odio"
 }
 ```
 
@@ -100,19 +102,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebAppUsageId": 400,
-    "AssocId": 492,
-    "Timestamp": "2019-05-01T03:46:54.6132622+02:00",
-    "ViewState": "esse",
-    "AggregateCount": 856,
-    "AggregateBin": 396,
-    "Version": 563,
+    "WebAppUsageId": 714,
+    "AssocId": 557,
+    "Timestamp": "2007-10-15T02:30:47.0694635+02:00",
+    "ViewState": "occaecati",
+    "AggregateCount": 927,
+    "AggregateBin": 755,
+    "Version": 344,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 954
+        "FieldType": "System.Int32",
+        "FieldLength": 789
       }
     }
   }

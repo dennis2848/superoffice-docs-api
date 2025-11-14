@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/Category/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 111,
-    "Name": "Bosco, Graham and Kulas",
-    "Tooltip": "veritatis",
+    "Id": 157,
+    "Name": "Schaden-Klocko",
+    "Tooltip": "veniam",
     "Deleted": true,
-    "UdListDefinitionId": 547,
-    "Rank": 48
+    "UdListDefinitionId": 561,
+    "Rank": 147
   },
   {
-    "Id": 111,
-    "Name": "Bosco, Graham and Kulas",
-    "Tooltip": "veritatis",
+    "Id": 157,
+    "Name": "Schaden-Klocko",
+    "Tooltip": "veniam",
     "Deleted": true,
-    "UdListDefinitionId": 547,
-    "Rank": 48
+    "UdListDefinitionId": 561,
+    "Rank": 147
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 967,
-    "Name": "Mraz Group",
-    "Tooltip": "dolores",
-    "Deleted": false,
-    "UdListDefinitionId": 290,
-    "Rank": 216,
+    "Id": 866,
+    "Name": "Schumm LLC",
+    "Tooltip": "ut",
+    "Deleted": true,
+    "UdListDefinitionId": 373,
+    "Rank": 901,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 227
+        "FieldLength": 23
       }
     }
   }

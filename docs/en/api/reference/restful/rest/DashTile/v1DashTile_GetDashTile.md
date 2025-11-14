@@ -15,6 +15,7 @@ Gets a DashTile object.
 
 
 Calls the Dash agent service GetDashTile.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -79,7 +80,7 @@ DashTile found.
 GET /api/v1/DashTile/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,18 +90,18 @@ HTTP/1.1 200 DashTile found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 787,
-  "DashboardId": 960,
-  "Height": 559,
-  "Width": 904,
-  "Rank": 18,
+  "DashboardTileId": 4,
+  "DashboardId": 124,
+  "Height": 297,
+  "Width": 484,
+  "Rank": 770,
   "DashTileDefinition": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 605
+      "FieldType": "System.String",
+      "FieldLength": 843
     }
   },
   "_Links": {

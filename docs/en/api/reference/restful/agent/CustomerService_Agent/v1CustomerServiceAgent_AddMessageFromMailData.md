@@ -15,6 +15,7 @@ This method will add a message to an existing request in the sam way as importMa
 
 
 It accepts RFC822 formatted data
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -84,12 +85,12 @@ OK
 POST /api/v1/Agents/CustomerService/AddMessageFromMailData
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 72,
-  "Data": "aut"
+  "TicketId": 584,
+  "Data": "in"
 }
 ```
 
@@ -100,20 +101,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 955,
-  "Title": "autem",
-  "OwnerName": "Hills Group",
+  "TicketId": 610,
+  "Title": "harum",
+  "OwnerName": "White-Jones",
   "CategoryName": "VIP Customer",
-  "PriorityName": "Reynolds-Deckow",
+  "PriorityName": "Bayer Inc and Sons",
   "TicketUrl": "http://www.example.com/",
-  "PersonName": "Jaskolski, O'Hara and Howe",
-  "ContactName": "Morar, Gerhold and Kling",
+  "PersonName": "Schinner LLC",
+  "ContactName": "Stroman, Kub and Feest",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 130
+      "FieldType": "System.String",
+      "FieldLength": 430
     }
   }
 }

@@ -15,6 +15,7 @@ Creates a new Dash
 
 
 Calls the Dash agent service SaveDash.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -105,30 +106,30 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 470,
-  "UniqueId": "voluptatem",
-  "Name": "Deckow Group",
-  "Description": "Reverse-engineered fresh-thinking toolset",
-  "AssociateId": 875,
-  "Columns": 674,
+  "DashboardId": 348,
+  "UniqueId": "non",
+  "Name": "Lubowitz-Keeling",
+  "Description": "User-centric multi-state service-desk",
+  "AssociateId": 515,
+  "Columns": 708,
   "Theme": null,
-  "VisibleForAll": 747,
+  "VisibleForAll": 701,
   "VisibleForAssociates": [
-    780,
-    455
+    720,
+    918
   ],
   "VisibleForGroups": [
-    130,
-    520
+    911,
+    145
   ],
-  "PinForAll": 506,
+  "PinForAll": 728,
   "PinForAssociates": [
-    76,
-    307
+    550,
+    812
   ],
   "PinForGroups": [
-    415,
-    164
+    517,
+    178
   ]
 }
 ```
@@ -140,37 +141,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 974,
-  "UniqueId": "laudantium",
-  "Name": "Sanford, Luettgen and Harber",
-  "Description": "User-centric incremental focus group",
-  "AssociateId": 200,
-  "Columns": 875,
+  "DashboardId": 336,
+  "UniqueId": "hic",
+  "Name": "Corwin Inc and Sons",
+  "Description": "Front-line bandwidth-monitored functionalities",
+  "AssociateId": 998,
+  "Columns": 848,
   "Theme": null,
-  "VisibleForAll": 231,
+  "VisibleForAll": 702,
   "VisibleForAssociates": [
-    734,
-    852
+    987,
+    954
   ],
   "VisibleForGroups": [
-    895,
-    389
+    636,
+    628
   ],
-  "PinForAll": 34,
+  "PinForAll": 361,
   "PinForAssociates": [
-    137,
-    984
+    262,
+    464
   ],
   "PinForGroups": [
-    918,
-    723
+    294,
+    572
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 898
+      "FieldLength": 244
     }
   },
   "_Links": {

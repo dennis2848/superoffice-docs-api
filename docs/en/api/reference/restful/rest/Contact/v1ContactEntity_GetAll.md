@@ -71,14 +71,14 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Contact?$select=name,department,category/id
 GET /api/v1/Contact?$filter=name begins 'S'
 GET /api/v1/Contact?$orderBy=name asc
-GET /api/v1/Contact?$entities=incidunt
-GET /api/v1/Contact?$top=672
-GET /api/v1/Contact?$skip=82
+GET /api/v1/Contact?$entities=esse
+GET /api/v1/Contact?$top=481
+GET /api/v1/Contact?$skip=285
 GET /api/v1/Contact?$mode=Full
 GET /api/v1/Contact?$options=GrandTotal=true
-GET /api/v1/Contact?$context=et
+GET /api/v1/Contact?$context=explicabo
 GET /api/v1/Contact?$format=JSON
-GET /api/v1/Contact?$jsonSafe=False
+GET /api/v1/Contact?$jsonSafe=True
 GET /api/v1/Contact?$output=Display
 ```
 
@@ -130,21 +130,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "soluta",
+  "odata.nextLink": "dolores",
   "value": [
     {
-      "PrimaryKey": 4247,
+      "PrimaryKey": 1353,
       "EntityName": "sale",
-      "saleId": 4247,
-      "contactId": 6959,
-      "name": "Hamill, Dach and Sauer"
+      "saleId": 1353,
+      "contactId": 1980,
+      "name": "Beatty-Welch"
     },
     {
-      "PrimaryKey": 5375,
+      "PrimaryKey": 7800,
       "EntityName": "sale",
-      "saleId": 5375,
-      "contactId": 6600,
-      "name": "Bernier LLC"
+      "saleId": 7800,
+      "contactId": 5428,
+      "name": "Legros LLC"
     }
   ]
 }

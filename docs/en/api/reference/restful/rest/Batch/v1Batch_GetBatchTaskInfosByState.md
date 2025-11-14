@@ -81,7 +81,7 @@ OK
 GET /api/v1/BatchTask/{state}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -92,37 +92,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 788,
-    "Name": "Russel-Beahan",
-    "AssociateId": 631,
-    "DetailsTable": 279,
-    "DetailsRecord": 483,
+    "Id": 768,
+    "Name": "Roob-Howe",
+    "AssociateId": 768,
+    "DetailsTable": 61,
+    "DetailsRecord": 695,
     "IsSystemTask": true,
-    "IsInternalTask": true,
+    "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "incidunt",
-      "ParameterObject2": "ut"
+      "ParameterObject1": "saepe",
+      "ParameterObject2": "libero"
     },
-    "LastStarted": "2009-12-24T03:47:00.3943072+01:00",
-    "Created": "1998-07-16T03:47:00.3943072+02:00",
-    "StartCount": 581,
-    "DatabaseSerialNumber": "575285",
-    "Context": "est",
-    "Result": "quasi",
+    "LastStarted": "2013-04-11T02:30:53.0380235+02:00",
+    "Created": "2000-06-27T02:30:53.0380235+02:00",
+    "StartCount": 380,
+    "DatabaseSerialNumber": "305135",
+    "Context": "natus",
+    "Result": "magni",
     "State": "All",
-    "Description": "Fully-configurable value-added concept",
-    "Response": "qui",
-    "Request": "autem",
-    "ProgressDescription": "Centralized full-range knowledge user",
-    "ProgressPercent": 450,
-    "FileName": "Kunze, Johns and Glover",
+    "Description": "Reverse-engineered transitional internet solution",
+    "Response": "sapiente",
+    "Request": "numquam",
+    "ProgressDescription": "Mandatory executive model",
+    "ProgressPercent": 35,
+    "FileName": "Jenkins LLC",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 657
+        "FieldLength": 390
       }
     }
   }

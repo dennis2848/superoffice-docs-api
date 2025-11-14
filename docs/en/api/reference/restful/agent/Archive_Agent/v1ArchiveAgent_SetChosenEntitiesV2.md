@@ -15,6 +15,7 @@ Set the currently chosen entities for the given gui name/provider name combinati
 
 
 This service corresponds to the SetSelected method of the SelectableMDOList service, for a list called archiveEntities: plus the archive provider name and gui name as its additionalInfo.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -75,13 +76,13 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Kassulke-Pollich",
-  "ProviderName": "Mohr-Bayer",
-  "Context": "ullam",
-  "OwnerKeys": "qui",
+  "GuiName": "Barrows-Howell",
+  "ProviderName": "Bashirian Inc and Sons",
+  "Context": "qui",
+  "OwnerKeys": "ut",
   "Entities": [
-    "asperiores",
-    "praesentium"
+    "nemo",
+    "in"
   ]
 }
 ```

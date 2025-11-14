@@ -14,6 +14,9 @@ POST /api/v1/Agents/EMail/GetEmailAppointmentRecurrence
 Get recurrence data contained in the email iCal attachment
 
 
+NsApiSlow threshold: 5000 ms.
+
+
 ## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 
@@ -85,11 +88,11 @@ OK
 POST /api/v1/Agents/EMail/GetEmailAppointmentRecurrence
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailItemId": 152
+  "MailItemId": 326
 }
 ```
 
@@ -100,10 +103,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 757,
-  "StartDate": "2018-11-28T03:46:54.7382579+01:00",
-  "EndDate": "2012-10-26T03:46:54.7382579+02:00",
-  "RecurrenceCounter": 925,
+  "RecurrenceId": 790,
+  "StartDate": "2014-12-20T02:30:47.2569602+01:00",
+  "EndDate": "2018-06-04T02:30:47.2569602+02:00",
+  "RecurrenceCounter": 317,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": null,
@@ -112,18 +115,18 @@ Content-Type: application/json; charset=utf-8
   "YearPattern": null,
   "Dates": [
     {
-      "Date": "2015-04-03T03:46:54.7382579+02:00",
-      "IsConflict": true,
-      "Description": "Mandatory multimedia interface",
-      "DescriptionStyleHint": "Reactive actuating pricing structure",
-      "Tooltip": "unde"
+      "Date": "2019-02-12T02:30:47.2569602+01:00",
+      "IsConflict": false,
+      "Description": "Total interactive definition",
+      "DescriptionStyleHint": "Vision-oriented well-modulated synergy",
+      "Tooltip": "voluptas"
     },
     {
-      "Date": "2015-04-03T03:46:54.7382579+02:00",
-      "IsConflict": true,
-      "Description": "Mandatory multimedia interface",
-      "DescriptionStyleHint": "Reactive actuating pricing structure",
-      "Tooltip": "unde"
+      "Date": "2019-02-12T02:30:47.2569602+01:00",
+      "IsConflict": false,
+      "Description": "Total interactive definition",
+      "DescriptionStyleHint": "Vision-oriented well-modulated synergy",
+      "Tooltip": "voluptas"
     }
   ],
   "IsRecurrence": false

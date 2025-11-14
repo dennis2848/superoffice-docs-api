@@ -14,6 +14,8 @@ POST /api/v1/Agents/Import/CreateErpImportData
 Populates the ImportLines and columnDefs basedfrom erp system
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -84,15 +86,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restriction": [
     {
-      "Name": "Swaniawski Group",
-      "Operator": "ipsa",
+      "Name": "Jast LLC",
+      "Operator": "iusto",
       "Values": [
-        "enim",
-        "nemo"
+        "molestias",
+        "possimus"
       ],
       "DisplayValues": [
-        "quasi",
-        "rerum"
+        "in",
+        "et"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -100,16 +102,16 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 819,
+      "InterParenthesis": 789,
       "InterOperator": "And",
-      "UniqueHash": 293
+      "UniqueHash": 169
     }
   ],
   "Columns": [
-    "ex",
-    "excepturi"
+    "tenetur",
+    "repellendus"
   ],
-  "ConnectionId": 509,
+  "ConnectionId": 636,
   "ErpActorType": "Customer"
 }
 ```
@@ -124,47 +126,47 @@ Content-Type: application/json; charset=utf-8
   "ImportLines": [
     {
       "Values": [
-        "et",
-        "unde"
+        "labore",
+        "quia"
       ],
       "Selected": false,
       "Operation": "ContactAdded",
       "Type": "Contact",
-      "ExternalKey": "est",
+      "ExternalKey": "provident",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 964
+          "FieldType": "System.String",
+          "FieldLength": 733
         }
       }
     }
   ],
   "ColumnInfos": [
     {
-      "Name": "Volkman Inc and Sons",
-      "DisplayName": "Kirlin-Jewess",
+      "Name": "Konopelski-Spencer",
+      "DisplayName": "Schuster-Nicolas",
       "Locked": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 848
+          "FieldType": "System.String",
+          "FieldLength": 704
         }
       }
     },
     {
-      "Name": "Volkman Inc and Sons",
-      "DisplayName": "Kirlin-Jewess",
+      "Name": "Konopelski-Spencer",
+      "DisplayName": "Schuster-Nicolas",
       "Locked": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 848
+          "FieldType": "System.String",
+          "FieldLength": 704
         }
       }
     }
@@ -174,7 +176,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 206
+      "FieldLength": 294
     }
   }
 }

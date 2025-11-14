@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/SaveProjectTypeEntity
 Updates the existing ProjectTypeEntity or creates a new ProjectTypeEntity if the id parameter is 0.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -86,35 +88,35 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjTypeId": 4,
-  "Name": "Feeney, Altenwerth and Kris",
-  "Tooltip": "iure",
-  "Rank": 27,
+  "ProjTypeId": 250,
+  "Name": "Bruen, Leannon and Upton",
+  "Tooltip": "officia",
+  "Rank": 982,
   "DurationUnit": "Century",
-  "ProjectDuration": 567,
-  "Deleted": false,
+  "ProjectDuration": 606,
+  "Deleted": true,
   "HasGuide": true,
-  "IsAutoAdvance": false,
+  "IsAutoAdvance": true,
   "Stages": [
     {
-      "Id": 396,
-      "Name": "Lind Inc and Sons",
-      "ToolTip": "Fugiat similique quam eos et ut.",
-      "Deleted": false,
-      "Rank": 868,
-      "Type": "voluptatem",
-      "ColorBlock": 207,
-      "IconHint": "natus",
+      "Id": 956,
+      "Name": "Treutel Inc and Sons",
+      "ToolTip": "Qui explicabo impedit necessitatibus autem.",
+      "Deleted": true,
+      "Rank": 191,
+      "Type": "sed",
+      "ColorBlock": 153,
+      "IconHint": "velit",
       "Selected": false,
-      "LastChanged": "2019-06-10T03:46:54.9413809+02:00",
+      "LastChanged": "2021-09-02T02:30:47.3975807+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "aliquam",
-      "StyleHint": "et",
-      "Hidden": false,
-      "FullName": "Chadrick O'Keefe"
+      "ExtraInfo": "et",
+      "StyleHint": "velit",
+      "Hidden": true,
+      "FullName": "Rosamond Towne"
     }
   ]
 }
@@ -127,41 +129,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjTypeId": 832,
-  "Name": "Turner, Hirthe and Jakubowski",
-  "Tooltip": "voluptates",
-  "Rank": 929,
+  "ProjTypeId": 353,
+  "Name": "Bergstrom LLC",
+  "Tooltip": "sunt",
+  "Rank": 742,
   "DurationUnit": "Century",
-  "ProjectDuration": 638,
-  "Deleted": true,
-  "HasGuide": false,
+  "ProjectDuration": 983,
+  "Deleted": false,
+  "HasGuide": true,
   "IsAutoAdvance": false,
   "Stages": [
     {
-      "Id": 173,
-      "Name": "Sipes Inc and Sons",
-      "ToolTip": "Expedita ipsam.",
-      "Deleted": true,
-      "Rank": 227,
-      "Type": "odio",
-      "ColorBlock": 528,
-      "IconHint": "dolores",
-      "Selected": false,
-      "LastChanged": "2005-03-15T03:46:54.9413809+01:00",
+      "Id": 686,
+      "Name": "Gottlieb, Thiel and Rippin",
+      "ToolTip": "Perspiciatis incidunt enim minus deleniti.",
+      "Deleted": false,
+      "Rank": 112,
+      "Type": "ut",
+      "ColorBlock": 102,
+      "IconHint": "voluptas",
+      "Selected": true,
+      "LastChanged": "2009-04-23T02:30:47.3975807+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "magnam",
-      "StyleHint": "illo",
-      "Hidden": true,
-      "FullName": "Enid Ankunding",
+      "ExtraInfo": "possimus",
+      "StyleHint": "iure",
+      "Hidden": false,
+      "FullName": "Elaina Aric Hauck DVM",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 776
+          "FieldLength": 723
         }
       }
     }
@@ -171,7 +173,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 364
+      "FieldLength": 444
     }
   }
 }

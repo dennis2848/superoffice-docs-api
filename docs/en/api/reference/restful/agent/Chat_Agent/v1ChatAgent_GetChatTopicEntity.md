@@ -14,6 +14,8 @@ POST /api/v1/Agents/Chat/GetChatTopicEntity
 Gets a ChatTopicEntity object.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -27,7 +29,7 @@ Gets a ChatTopicEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Chat/GetChatTopicEntity?chatTopicEntityId=527
+POST /api/v1/Agents/Chat/GetChatTopicEntity?chatTopicEntityId=928
 POST /api/v1/Agents/Chat/GetChatTopicEntity?$select=name,department,category/id
 ```
 
@@ -108,43 +110,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 585,
-  "Name": "Cormier-Heller",
-  "Description": "Enhanced zero defect structure",
-  "WelcomeMessage": "sit",
+  "ChatTopicId": 542,
+  "Name": "Berge LLC",
+  "Description": "Devolved dedicated data-warehouse",
+  "WelcomeMessage": "ea",
   "Language": null,
-  "LastAccept": "2015-05-13T03:46:54.3945199+02:00",
-  "SecondsPrAccept": 612,
-  "AlertRecipient": "harum",
+  "LastAccept": "2019-05-09T02:30:46.8975935+02:00",
+  "SecondsPrAccept": 28,
+  "AlertRecipient": "quibusdam",
   "AlertTemplate": null,
   "CollectConsent": false,
-  "BadgeHeader": "possimus",
-  "CustomQueueTextEnabled": false,
-  "CustomQueueText": "commodi",
-  "WarnNewChatMinutes": 912,
-  "WarnManagerNewChatMinutes": 906,
+  "BadgeHeader": "nemo",
+  "CustomQueueTextEnabled": true,
+  "CustomQueueText": "qui",
+  "WarnNewChatMinutes": 576,
+  "WarnManagerNewChatMinutes": 211,
   "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
   "OpeningHoursEnabled": true,
   "OpeningHours": null,
   "Widget": null,
-  "BotEnabled": false,
+  "BotEnabled": true,
   "BotSettings": null,
   "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 329,
-  "WarnManagerChatMessageMinutes": 179,
+  "WarnChatMessageMinutes": 839,
+  "WarnManagerChatMessageMinutes": 195,
   "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 713,
-  "OfflineFormQueueLength": 600,
+  "OfflineFormTimeLimit": 30,
+  "OfflineFormQueueLength": 592,
   "WidgetEnableRating": false,
-  "WidgetRatingText": "id",
+  "WidgetRatingText": "accusantium",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 734
+      "FieldLength": 431
     }
   }
 }

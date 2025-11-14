@@ -14,6 +14,8 @@ POST /api/v1/Agents/Selection/CreateTemporarySelectionFromIds
 Creates a temporary selection with members from a collection of entity id's.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -115,15 +117,15 @@ OK
 POST /api/v1/Agents/Selection/CreateTemporarySelectionFromIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Ids": [
-    354,
-    147
+    383,
+    247
   ],
-  "TargetTableNumber": 1000
+  "TargetTableNumber": 630
 }
 ```
 
@@ -134,70 +136,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "De-engineered executive encoding",
-  "Postit": "quam",
+  "Description": "Enterprise-wide motivating framework",
+  "Postit": "sit",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 176,
-  "IncludePerson": 686,
+  "GroupIdx": 828,
+  "IncludePerson": 418,
   "MemberCount": 99.99,
-  "Name": "Stiedemann-Hilpert",
-  "PostitTextId": 693,
-  "CreatedDate": "2009-03-17T03:46:55.3788724+01:00",
-  "SelectionId": 699,
-  "SoundEx": "temporibus",
-  "Source": 267,
-  "TextId": 848,
-  "UpdatedDate": "2021-12-06T03:46:55.3788724+01:00",
-  "UpdatedCount": 743,
-  "Visibility": 378,
+  "Name": "Klein, Brakus and Collins",
+  "PostitTextId": 294,
+  "CreatedDate": "2015-07-06T02:30:47.8350657+02:00",
+  "SelectionId": 190,
+  "SoundEx": "qui",
+  "Source": 26,
+  "TextId": 820,
+  "UpdatedDate": "2020-11-11T02:30:47.8350657+01:00",
+  "UpdatedCount": 93,
+  "Visibility": 660,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 183,
-  "TargetTableName": "Conn-Ratke",
+  "TargetTableNumber": 228,
+  "TargetTableName": "Hansen, Kshlerin and Stanton",
   "Completed": false,
-  "LeftSelectionId": 779,
-  "RightSelectionId": 105,
+  "LeftSelectionId": 830,
+  "RightSelectionId": 275,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Cremin-Metz",
-  "ShadowProviderName": "Hoppe, Klein and Fadel",
-  "ChartKey": "natus",
-  "LastLoaded": "2005-09-04T03:46:55.3788724+02:00",
-  "LastLoadedBy": 53,
+  "MainProviderName": "Boehm, Veum and Koch",
+  "ShadowProviderName": "Schulist, Brekke and Kemmer",
+  "ChartKey": "ipsa",
+  "LastLoaded": "2010-01-12T02:30:47.8350657+01:00",
+  "LastLoadedBy": 502,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2010-12-06T03:46:55.3788724+01:00",
-  "LastMembershipChangeBy": 998,
+  "LastMembershipChange": "2004-06-29T02:30:47.8350657+02:00",
+  "LastMembershipChangeBy": 782,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "modi",
-  "MemberTabHeading": "qui",
-  "MailingsProviderName": "Kautzer, Langosh and Maggio",
-  "DashboardTileDefinitionId": 177,
+  "MainHeading": "facere",
+  "MemberTabHeading": "nemo",
+  "MailingsProviderName": "Herman, Barton and Tillman",
+  "DashboardTileDefinitionId": 875,
   "VisibleFor": [
     {
-      "VisibleId": 525,
+      "VisibleId": 540,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "eos",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 61
+          "FieldLength": 97
         }
       }
     },
     {
-      "VisibleId": 525,
+      "VisibleId": 540,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "eos",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 61
+          "FieldLength": 97
         }
       }
     }
@@ -207,7 +209,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 40
+      "FieldLength": 163
     }
   }
 }

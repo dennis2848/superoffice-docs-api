@@ -11,7 +11,7 @@ content_type: reference
 POST /api/v1/Agents/License/GetLicenseFromLicenseServer
 ```
 
-
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/License/GetLicenseFromLicenseServer
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Cummerata, McKenzie and Kunze"
+  "OwnerName": "Stehr Group"
 }
 ```
 
@@ -93,21 +93,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Reason": "",
-  "CanBeActivated": false,
+  "CanBeActivated": true,
   "New": null,
   "Current": null,
   "ExtendedModuleLicenses": [
     {
       "New": null,
       "Current": null,
-      "NumberOfLicensesInUse": 222,
-      "NumberOfLicensesFree": 474,
-      "NumberOfLicensesAdded": 218,
-      "NumberOfLicensesNewTotal": 601,
-      "NumberOfLicensesNewFree": 834,
-      "NumberOfLicensesTotal": 871
+      "NumberOfLicensesInUse": 488,
+      "NumberOfLicensesFree": 893,
+      "NumberOfLicensesAdded": 802,
+      "NumberOfLicensesNewTotal": 194,
+      "NumberOfLicensesNewFree": 12,
+      "NumberOfLicensesTotal": 262
     }
   ],
-  "AccumulatedNextCheckDate": "1999-06-11T03:46:54.9107593+02:00"
+  "AccumulatedNextCheckDate": "2005-04-27T02:30:47.366331+02:00"
 }
 ```

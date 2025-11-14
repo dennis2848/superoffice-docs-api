@@ -14,6 +14,8 @@ POST /api/v1/Agents/Targets/DeleteTargetDimension
 Deletes the TargetDimension
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -26,7 +28,7 @@ Deletes the TargetDimension
 | targetDimensionId | int32 | **Required** The identity of the TargetDimension |
 
 ```http
-POST /api/v1/Agents/Targets/DeleteTargetDimension?targetDimensionId=596
+POST /api/v1/Agents/Targets/DeleteTargetDimension?targetDimensionId=814
 ```
 
 

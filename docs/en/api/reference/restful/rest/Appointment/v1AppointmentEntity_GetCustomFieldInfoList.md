@@ -81,19 +81,19 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Weber, Metz and Waters",
-    "DisplayName": "Schowalter-Russel",
-    "Description": "Configurable content-based focus group",
-    "ShortLabel": "quaerat",
-    "HideLabel": false,
-    "HideField": true,
-    "IsIndexed": true,
+    "FieldName": "Kuhic, Tremblay and Rau",
+    "DisplayName": "Waelchi, Padberg and Raynor",
+    "Description": "Automated dedicated neural-net",
+    "ShortLabel": "ab",
+    "HideLabel": true,
+    "HideField": false,
+    "IsIndexed": false,
     "IsMandatory": false,
     "IsReadOnly": false,
-    "IsExternal": false,
-    "IsDisplayField": false,
-    "Rank": 686,
-    "TemplateVariableName": "Paucek, Wuckert and Lubowitz"
+    "IsExternal": true,
+    "IsDisplayField": true,
+    "Rank": 701,
+    "TemplateVariableName": "Wilkinson-Kshlerin"
   }
 ]
 ```

@@ -15,6 +15,7 @@ Remove the license from a particular module owner from the database.
 
 
 It is not permitted to remove licenses from SuperOffice
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -81,7 +82,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ModuleOwner": "ullam"
+  "ModuleOwner": "qui"
 }
 ```
 
@@ -92,14 +93,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Succeeded": false,
+  "Succeeded": true,
   "Reason": "",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 187
+      "FieldType": "System.String",
+      "FieldLength": 979
     }
   }
 }

@@ -14,6 +14,9 @@ POST /api/v1/Agents/ErpSync/GetFieldsForNewErpActor
 Get the fields that must be filled out when creating a new ERP actor
 
 
+NsApiSlow threshold: 5000 ms.
+
+
 ## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
 
 
@@ -90,7 +93,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 61,
+  "ErpConnectionId": 7,
   "ErpActorType": "Customer"
 }
 ```
@@ -103,22 +106,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "FieldKey": "et",
-    "Rank": 471,
-    "DisplayName": "McCullough, Hilll and Kreiger",
-    "DisplayDescription": "Secured high-level solution",
+    "FieldKey": "illum",
+    "Rank": 555,
+    "DisplayName": "Streich Group",
+    "DisplayDescription": "User-friendly neutral secured line",
     "FieldType": "Checkbox",
-    "ListName": "Cronin-Kohler",
-    "DefaultValue": "eligendi",
-    "MaxLength": 53,
+    "ListName": "Rosenbaum, Rutherford and Runolfsson",
+    "DefaultValue": "earum",
+    "MaxLength": 862,
     "Access": "Mandatory",
     "ShowInSearch": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 495
+        "FieldType": "System.Int32",
+        "FieldLength": 380
       }
     }
   }

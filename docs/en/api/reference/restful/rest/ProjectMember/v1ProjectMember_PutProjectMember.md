@@ -14,6 +14,8 @@ PUT /api/v1/ProjectMember/{id}
 Updates the existing ProjectMember
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -75,6 +77,8 @@ The ProjectMember to be saved.
 | EmailAddressName | String | The e-mail address description |
 | Comment | String | Comment text on the project membership |
 | FullName | String | The person's full name localized to the current culture/country.  (internal name used in clients for employees) |
+| Registered | String | The date and time when the project member was registered  in UTC. |
+| Updated | String | The date and time when the project member was last updated  in UTC. |
 
 ## Response:
 
@@ -110,6 +114,8 @@ ProjectMember updated.
 | EmailAddressName | string | The e-mail address description |
 | Comment | string | Comment text on the project membership |
 | FullName | string | The person's full name localized to the current culture/country.  (internal name used in clients for employees) |
+| Registered | date-time | The date and time when the project member was registered  in UTC. |
+| Updated | date-time | The date and time when the project member was last updated  in UTC. |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 | _Links | object |  |
@@ -124,27 +130,29 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectmemberId": 501,
-  "ContactId": 569,
-  "ProjectId": 943,
-  "ContactName": "Larson, Koss and Braun",
+  "ProjectmemberId": 688,
+  "ContactId": 774,
+  "ProjectId": 256,
+  "ContactName": "Parker, Mohr and Watsica",
   "ContactDepartment": "",
-  "ProjectName": "Hermann Inc and Sons",
-  "EmailId": 27,
-  "EmailAddress": "keira@creminbarrows.uk",
-  "CountryId": 267,
-  "Firstname": "Madilyn",
-  "MiddleName": "Graham-Homenick",
-  "Lastname": "Nolan",
-  "PersonId": 296,
-  "Mrmrs": "repudiandae",
-  "ProjectMemberTypeName": "Lemke, Marvin and Wilderman",
-  "Phone": "930.336.2116 x0578",
-  "PhoneId": 730,
-  "ProjectMemberTypeId": 888,
-  "EmailAddressName": "mitchell_romaguera@nitzsche.uk",
-  "Comment": "quidem",
-  "FullName": "Terence Gleason"
+  "ProjectName": "Hartmann LLC",
+  "EmailId": 618,
+  "EmailAddress": "bennett_turner@hodkiewicz.ca",
+  "CountryId": 555,
+  "Firstname": "Louie",
+  "MiddleName": "Ferry, Stoltenberg and Bode",
+  "Lastname": "Vandervort",
+  "PersonId": 564,
+  "Mrmrs": "tempore",
+  "ProjectMemberTypeName": "Schimmel Inc and Sons",
+  "Phone": "609-979-9678 x4136",
+  "PhoneId": 140,
+  "ProjectMemberTypeId": 415,
+  "EmailAddressName": "betty_conroy@erdman.name",
+  "Comment": "porro",
+  "FullName": "Justyn Reinger",
+  "Registered": "2010-05-08T02:30:53.0692723+02:00",
+  "Updated": "2017-09-17T02:30:53.0692723+02:00"
 }
 ```
 
@@ -155,33 +163,35 @@ HTTP/1.1 200 ProjectMember updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectmemberId": 130,
-  "ContactId": 683,
-  "ProjectId": 552,
-  "ContactName": "Dickinson, Bechtelar and Bartell",
+  "ProjectmemberId": 301,
+  "ContactId": 224,
+  "ProjectId": 892,
+  "ContactName": "Prosacco-Kris",
   "ContactDepartment": "",
-  "ProjectName": "Kirlin, Emard and Hane",
-  "EmailId": 149,
-  "EmailAddress": "madilyn.pollich@weberpouros.name",
-  "CountryId": 105,
-  "Firstname": "Delphine",
-  "MiddleName": "Ruecker-Cummerata",
-  "Lastname": "Dare",
-  "PersonId": 538,
-  "Mrmrs": "illo",
-  "ProjectMemberTypeName": "Waters-Lowe",
-  "Phone": "017-933-7282 x8667",
-  "PhoneId": 994,
-  "ProjectMemberTypeId": 796,
-  "EmailAddressName": "margarett_leannon@reichert.ca",
-  "Comment": "ut",
-  "FullName": "Shaylee Strosin",
+  "ProjectName": "Olson, Kautzer and Bradtke",
+  "EmailId": 143,
+  "EmailAddress": "tanner@hoppe.uk",
+  "CountryId": 676,
+  "Firstname": "Rollin",
+  "MiddleName": "Franecki, Bosco and Bahringer",
+  "Lastname": "Deckow",
+  "PersonId": 635,
+  "Mrmrs": "quidem",
+  "ProjectMemberTypeName": "Collins LLC",
+  "Phone": "830-629-9242 x02258",
+  "PhoneId": 623,
+  "ProjectMemberTypeId": 947,
+  "EmailAddressName": "felicia@kohlerokeefe.uk",
+  "Comment": "esse",
+  "FullName": "Coy Braun",
+  "Registered": "2021-01-12T02:30:53.0692723+01:00",
+  "Updated": "2008-12-30T02:30:53.0692723+01:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 192
+      "FieldType": "System.String",
+      "FieldLength": 822
     }
   },
   "_Links": {

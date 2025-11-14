@@ -14,6 +14,8 @@ POST /api/v1/Agents/Person/SetPersonImage
 Stores the person image that is displayed in the CRM application.
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -66,11 +68,11 @@ No Content
 POST /api/v1/Agents/Person/SetPersonImage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 889,
+  "PersonId": 17,
   "Image": "GIF89....File contents as raw bytes..."
 }
 ```

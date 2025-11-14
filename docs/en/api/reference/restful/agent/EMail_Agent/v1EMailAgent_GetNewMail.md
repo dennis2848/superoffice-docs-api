@@ -14,6 +14,9 @@ POST /api/v1/Agents/EMail/GetNewMail
 Get new email in folder(s) for current associate
 
 
+NsApiSlow threshold: 5000 ms.
+
+
 ## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 
@@ -90,8 +93,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Folders": [
-    655,
-    698
+    463,
+    676
   ]
 }
 ```
@@ -104,45 +107,45 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ServerId": 627,
-    "MessageId": "dolor",
-    "Subject": "accusantium",
+    "ServerId": 37,
+    "MessageId": "consequatur",
+    "Subject": "nemo",
     "From": null,
     "To": [
       {
-        "ContactId": 94,
-        "ContactName": "Beatty, Kassulke and Koch",
-        "PersonId": 401,
-        "PersonName": "Kessler-Lowe",
-        "AssociateId": 943,
-        "Address": "sed",
-        "EmailId": 129,
+        "ContactId": 585,
+        "ContactName": "Swaniawski Inc and Sons",
+        "PersonId": 676,
+        "PersonName": "Ritchie-Stracke",
+        "AssociateId": 688,
+        "Address": "reprehenderit",
+        "EmailId": 221,
         "DuplicatePersonIds": [
-          890,
-          257
+          288,
+          897
         ],
-        "Name": "Douglas LLC",
+        "Name": "Thompson, Hilll and Auer",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 472
+            "FieldLength": 855
           }
         }
       }
     ],
-    "Sent": "2007-11-27T03:46:54.7226337+01:00",
+    "Sent": "1999-08-05T02:30:47.2413353+02:00",
     "Priority": "High",
     "Flags": "Answered",
-    "Size": 184,
+    "Size": 483,
     "EMailSOInfo": null,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 875
+        "FieldLength": 871
       }
     }
   }

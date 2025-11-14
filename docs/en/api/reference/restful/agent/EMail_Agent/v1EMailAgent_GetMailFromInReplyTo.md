@@ -14,6 +14,9 @@ POST /api/v1/Agents/EMail/GetMailFromInReplyTo
 Get email from db based on In-Reply-To Message Id
 
 
+NsApiSlow threshold: 5000 ms.
+
+
 ## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 
@@ -101,11 +104,11 @@ OK
 POST /api/v1/Agents/EMail/GetMailFromInReplyTo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "MessageId": "ipsam"
+  "MessageId": "beatae"
 }
 ```
 
@@ -118,147 +121,147 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 609,
-      "ContactName": "Friesen, Legros and Corkery",
-      "PersonId": 613,
-      "PersonName": "Koelpin Inc and Sons",
-      "AssociateId": 436,
-      "Address": "necessitatibus",
-      "EmailId": 852,
+      "ContactId": 453,
+      "ContactName": "Kiehn, Cronin and Casper",
+      "PersonId": 631,
+      "PersonName": "Steuber Inc and Sons",
+      "AssociateId": 805,
+      "Address": "et",
+      "EmailId": 563,
       "DuplicatePersonIds": [
-        914,
-        253
+        521,
+        130
       ],
-      "Name": "White, Blick and Schultz",
+      "Name": "Marks-Blanda",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 987
+          "FieldType": "System.String",
+          "FieldLength": 673
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 697,
-      "ContactName": "Sipes Group",
-      "PersonId": 729,
-      "PersonName": "Block LLC",
-      "AssociateId": 80,
-      "Address": "inventore",
-      "EmailId": 772,
+      "ContactId": 505,
+      "ContactName": "Runte-Predovic",
+      "PersonId": 473,
+      "PersonName": "Wuckert-Glover",
+      "AssociateId": 93,
+      "Address": "velit",
+      "EmailId": 210,
       "DuplicatePersonIds": [
-        514,
-        297
+        658,
+        173
       ],
-      "Name": "Ondricka LLC",
+      "Name": "Quigley, Rodriguez and Bashirian",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 9
+          "FieldType": "System.String",
+          "FieldLength": 944
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 992,
-      "ContactName": "Gottlieb LLC",
-      "PersonId": 403,
-      "PersonName": "Rosenbaum Group",
-      "AssociateId": 515,
-      "Address": "amet",
-      "EmailId": 971,
+      "ContactId": 827,
+      "ContactName": "Lockman LLC",
+      "PersonId": 820,
+      "PersonName": "Berge, Conn and Hermiston",
+      "AssociateId": 447,
+      "Address": "quaerat",
+      "EmailId": 921,
       "DuplicatePersonIds": [
-        993,
-        396
+        157,
+        530
       ],
-      "Name": "Feeney-Bahringer",
+      "Name": "Ernser Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 652
+          "FieldLength": 105
         }
       }
     }
   ],
-  "Subject": "delectus",
-  "HTMLBody": "pariatur",
+  "Subject": "enim",
+  "HTMLBody": "deserunt",
   "From": null,
-  "Sent": "2001-08-29T03:46:54.7226337+02:00",
-  "Size": 898,
+  "Sent": "2017-10-23T02:30:47.2413353+02:00",
+  "Size": 988,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "dolorem",
-  "PlainBody": "eos",
-  "IsSent": false,
+  "MessageID": "a",
+  "PlainBody": "occaecati",
+  "IsSent": true,
   "EMailSOInfo": null,
-  "ServerId": 626,
+  "ServerId": 107,
   "Attachments": [
     {
-      "Description": "Down-sized next generation collaboration",
-      "Filename": "incidunt",
-      "Size": 166,
-      "Type": "dolor",
-      "Encoding": "veritatis",
-      "Id": "et",
-      "Disposition": "sit",
+      "Description": "Right-sized foreground capability",
+      "Filename": "inventore",
+      "Size": 149,
+      "Type": "voluptas",
+      "Encoding": "aut",
+      "Id": "accusamus",
+      "Disposition": "dignissimos",
       "IsSafeFileExtension": true,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 857
+          "FieldType": "System.Int32",
+          "FieldLength": 795
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Nienow-Wintheiser",
+      "Name": "Gusikowski-Wehner",
       "Values": [
-        "a",
-        "quaerat"
+        "illum",
+        "et"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 722
+          "FieldType": "System.String",
+          "FieldLength": 889
         }
       }
     },
     {
-      "Name": "Nienow-Wintheiser",
+      "Name": "Gusikowski-Wehner",
       "Values": [
-        "a",
-        "quaerat"
+        "illum",
+        "et"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 722
+          "FieldType": "System.String",
+          "FieldLength": 889
         }
       }
     }
   ],
-  "FolderName": "Bogisich, Hilpert and Greenholt",
-  "EmailItemId": 90,
-  "AccountId": 193,
-  "ReceivedAt": "2016-01-17T03:46:54.7226337+01:00",
+  "FolderName": "Schumm-Trantow",
+  "EmailItemId": 488,
+  "AccountId": 275,
+  "ReceivedAt": "2001-05-24T02:30:47.2413353+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2024-01-24T03:46:54.7226337+01:00",
+  "RepliedAt": "2015-08-21T02:30:47.2413353+02:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -267,7 +270,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 217
+      "FieldLength": 450
     }
   }
 }

@@ -14,6 +14,8 @@ POST /api/v1/Agents/Chat/GetChatSessionEntity
 Gets a ChatSessionEntity object.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -27,7 +29,7 @@ Gets a ChatSessionEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Chat/GetChatSessionEntity?chatSessionEntityId=982
+POST /api/v1/Agents/Chat/GetChatSessionEntity?chatSessionEntityId=909
 POST /api/v1/Agents/Chat/GetChatSessionEntity?$select=name,department,category/id
 ```
 
@@ -108,43 +110,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 250,
-  "TopicId": 158,
+  "ChatSessionId": 630,
+  "TopicId": 630,
   "User": null,
   "Person": null,
-  "CustomerAlias": "harum",
-  "CustomerHost": "et",
-  "CustomerName": "Gottlieb, Collins and Cronin",
-  "CustomerEmail": "arvid.langworth@damore.com",
-  "CustomerPhone": "327.582.4552",
-  "CustomerConsented": true,
-  "CustomerCompanyName": "Hodkiewicz, Quitzon and Crona",
+  "CustomerAlias": "fugiat",
+  "CustomerHost": "a",
+  "CustomerName": "Sawayn, Bogan and Krajcik",
+  "CustomerEmail": "perry_towne@nitzsche.com",
+  "CustomerPhone": "567.825.9716 x83205",
+  "CustomerConsented": false,
+  "CustomerCompanyName": "Parker, Feil and Shanahan",
   "Status": "Closed",
-  "FirstMessage": "tempore",
-  "LastMessage": "eligendi",
-  "WhenRequested": "2007-03-25T03:46:54.3320222+02:00",
-  "WhenStarted": "2020-03-01T03:46:54.3320222+01:00",
-  "WhenEnded": "2006-04-24T03:46:54.3320222+02:00",
-  "WhenIdle": "1999-02-16T03:46:54.3320222+01:00",
-  "WhenFetched": "2011-06-02T03:46:54.3320222+02:00",
-  "SessionKey": "vitae",
-  "InitialQueuePos": 225,
-  "AlertLevel": 455,
-  "Rank": 346,
+  "FirstMessage": "quo",
+  "LastMessage": "dignissimos",
+  "WhenRequested": "2002-06-20T02:30:46.8507209+02:00",
+  "WhenStarted": "2005-04-30T02:30:46.8507209+02:00",
+  "WhenEnded": "2001-10-19T02:30:46.8507209+02:00",
+  "WhenIdle": "2002-11-08T02:30:46.8507209+01:00",
+  "WhenFetched": "2012-12-30T02:30:46.8507209+01:00",
+  "SessionKey": "est",
+  "InitialQueuePos": 556,
+  "AlertLevel": 988,
+  "Rank": 442,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": true,
-  "Rating": 1002,
+  "ChatbotIsActive": false,
+  "Rating": 94,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 689
+      "FieldLength": 739
     }
   }
 }

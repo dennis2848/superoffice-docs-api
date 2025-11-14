@@ -15,6 +15,7 @@ Returns all ERP Sync connections without config field data.
 
 
 Uses the `ErpConnection` archive.
+NsApiSlow threshold: 5000 ms.
 
 
 ## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
@@ -90,11 +91,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetAllConnections
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeDeleted": true
+  "IncludeDeleted": false
 }
 ```
 
@@ -106,33 +107,33 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ErpConnectionId": 70,
-    "ErpConnectorId": 858,
-    "DisplayName": "Kuhlman-Upton",
-    "DisplayDescription": "Balanced heuristic model",
+    "ErpConnectionId": 993,
+    "ErpConnectorId": 685,
+    "DisplayName": "Blick LLC",
+    "DisplayDescription": "Virtual transitional leverage",
     "Active": false,
-    "ConnectionId": "pariatur",
-    "MostRecentTimestamp": "dolorem",
+    "ConnectionId": "nulla",
+    "MostRecentTimestamp": "laudantium",
     "ConfigFields": {
-      "ConfigFields1": "tenetur",
-      "ConfigFields2": "voluptate"
+      "ConfigFields1": "assumenda",
+      "ConfigFields2": "ut"
     },
-    "Deleted": true,
+    "Deleted": false,
     "AllAccess": false,
     "UserGroupAccessIds": [
-      544,
-      534
+      363,
+      648
     ],
     "AssociateAccessIds": [
-      495,
-      837
+      292,
+      244
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 206
+        "FieldLength": 752
       }
     }
   }

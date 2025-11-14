@@ -15,6 +15,7 @@ Validate a CRMScript.
 
 
 This will check that the syntax is correct
+NsApiSlow threshold: 5000 ms.
 
 
 ## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
@@ -93,7 +94,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TriggerScriptUniqueId": "amet",
+  "TriggerScriptUniqueId": "dolores",
   "Entity": null
 }
 ```
@@ -105,22 +106,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 953,
-  "Name": "Rosenbaum, Barrows and McDermott",
+  "ScreenChooserId": 723,
+  "Name": "Kuhlman, Murphy and Fahey",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": false,
-  "UniqueIdentifier": "labore",
-  "Source": "facere",
-  "Registered": "2004-11-30T03:46:54.5820132+01:00",
-  "RegisteredAssociateId": 163,
-  "Updated": "2000-11-24T03:46:54.5820132+01:00",
-  "UpdatedAssociateId": 312,
+  "Enabled": true,
+  "UniqueIdentifier": "nemo",
+  "Source": "error",
+  "Registered": "2012-08-20T02:30:47.0538389+02:00",
+  "RegisteredAssociateId": 385,
+  "Updated": "2007-03-17T02:30:47.0538389+01:00",
+  "UpdatedAssociateId": 565,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 261
+      "FieldType": "System.Int32",
+      "FieldLength": 605
     }
   }
 }

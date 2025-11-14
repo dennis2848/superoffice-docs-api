@@ -14,6 +14,9 @@ POST /api/v1/Agents/User/GetUserInfoList
 Gets an array of UserInfo objects.
 
 
+NsApiSlow threshold: 1000 ms.
+
+
 ## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
 
 
@@ -87,7 +90,7 @@ OK
 POST /api/v1/Agents/User/GetUserInfoList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -99,29 +102,29 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Deleted": false,
-    "UserInfoId": 645,
-    "UserName": "Wiza Group",
-    "PersonId": 33,
-    "Rank": 601,
-    "Tooltip": "eum",
-    "UserGroupId": 952,
-    "EjUserId": 731,
+    "UserInfoId": 647,
+    "UserName": "Spinka, Smitham and Kub",
+    "PersonId": 729,
+    "Rank": 360,
+    "Tooltip": "omnis",
+    "UserGroupId": 539,
+    "EjUserId": 524,
     "UserType": "AnonymousAssociate",
     "GrantedLicenses": [
-      "minus",
-      "repudiandae"
+      "qui",
+      "nihil"
     ],
     "CanLogon": true,
-    "RoleName": "Yundt-Hyatt",
-    "RoleTooltip": "fugiat",
-    "UserGroupName": "Zulauf, Homenick and Gusikowski",
-    "UserGroupTooltip": "pariatur",
+    "RoleName": "Langosh, Orn and Murphy",
+    "RoleTooltip": "atque",
+    "UserGroupName": "Konopelski Group",
+    "UserGroupTooltip": "non",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 303
+        "FieldType": "System.Int32",
+        "FieldLength": 595
       }
     }
   }

@@ -26,7 +26,7 @@ Gets all the ProjectType items
 | includeDeleted | bool |  Include deleted items in the result? |
 
 ```http
-GET /api/v1/List/ProjectType/Items?includeDeleted=False
+GET /api/v1/List/ProjectType/Items?includeDeleted=True
 ```
 
 
@@ -71,7 +71,7 @@ OK
 GET /api/v1/List/ProjectType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -82,18 +82,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 314,
-    "Name": "Witting Inc and Sons",
-    "Tooltip": "qui",
+    "Id": 212,
+    "Name": "Bashirian, Robel and Miller",
+    "Tooltip": "nesciunt",
     "Deleted": false,
-    "UdListDefinitionId": 992,
-    "Rank": 445,
+    "UdListDefinitionId": 452,
+    "Rank": 436,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 556
+        "FieldType": "System.Int32",
+        "FieldLength": 484
       }
     }
   }

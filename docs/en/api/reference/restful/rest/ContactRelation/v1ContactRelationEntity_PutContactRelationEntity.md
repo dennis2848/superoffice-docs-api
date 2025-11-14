@@ -14,6 +14,8 @@ PUT /api/v1/Relation/{id}
 Updates the existing ContactRelationEntity
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -115,28 +117,28 @@ ContactRelationEntity updated.
 PUT /api/v1/Relation/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 13,
-  "SourcePersonId": 46,
-  "DestinationContactId": 838,
-  "DestinationPersonId": 534,
-  "RelationId": 555,
-  "Comment": "inventore",
-  "RelationDefinitionId": 107,
-  "Reversed": 401,
-  "UpdatedDate": "2016-03-28T03:46:59.8943184+02:00",
-  "CreatedDate": "2022-09-10T03:46:59.8943184+02:00",
+  "SourceContactId": 96,
+  "SourcePersonId": 374,
+  "DestinationContactId": 876,
+  "DestinationPersonId": 611,
+  "RelationId": 805,
+  "Comment": "asperiores",
+  "RelationDefinitionId": 584,
+  "Reversed": 57,
+  "UpdatedDate": "2007-05-11T02:30:52.506791+02:00",
+  "CreatedDate": "2003-11-30T02:30:52.506791+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Flatley-Zulauf",
-  "SourcePersonName": "Fadel LLC",
-  "DestinationContactName": "Bashirian Inc and Sons",
-  "DestinationPersonName": "Jakubowski-Veum",
-  "ActiveText": "accusamus",
-  "PassiveText": "hic"
+  "SourceContactName": "Vandervort, Mosciski and Fritsch",
+  "SourcePersonName": "Little-Johns",
+  "DestinationContactName": "Nikolaus, Gibson and Schuster",
+  "DestinationPersonName": "Skiles LLC",
+  "ActiveText": "nihil",
+  "PassiveText": "sunt"
 }
 ```
 
@@ -147,30 +149,30 @@ HTTP/1.1 200 ContactRelationEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 317,
-  "SourcePersonId": 538,
-  "DestinationContactId": 498,
-  "DestinationPersonId": 609,
-  "RelationId": 980,
-  "Comment": "mollitia",
-  "RelationDefinitionId": 267,
-  "Reversed": 987,
-  "UpdatedDate": "2015-02-13T03:46:59.8943184+01:00",
-  "CreatedDate": "2022-07-02T03:46:59.8943184+02:00",
+  "SourceContactId": 920,
+  "SourcePersonId": 602,
+  "DestinationContactId": 628,
+  "DestinationPersonId": 601,
+  "RelationId": 523,
+  "Comment": "ut",
+  "RelationDefinitionId": 392,
+  "Reversed": 83,
+  "UpdatedDate": "1999-08-02T02:30:52.522416+02:00",
+  "CreatedDate": "2017-06-20T02:30:52.522416+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Blick-Murphy",
-  "SourcePersonName": "Moore, Mueller and Larson",
-  "DestinationContactName": "Cassin-Bayer",
-  "DestinationPersonName": "Kub-D'Amore",
-  "ActiveText": "laboriosam",
-  "PassiveText": "quia",
+  "SourceContactName": "Fahey Group",
+  "SourcePersonName": "Veum LLC",
+  "DestinationContactName": "Hamill Inc and Sons",
+  "DestinationPersonName": "Schmeler LLC",
+  "ActiveText": "beatae",
+  "PassiveText": "doloremque",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 22
+      "FieldType": "System.String",
+      "FieldLength": 507
     }
   },
   "_Links": {

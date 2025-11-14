@@ -15,6 +15,7 @@ Find all roles with a given functional right.
 
 
 The roles matched must contain the specified functional right. 
+NsApiSlow threshold: 2000 ms.
 
 
 ## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
@@ -90,11 +91,11 @@ OK
 POST /api/v1/Agents/User/FindRolesWithFunctionalRight
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "FunctionalRightName": "Kutch, Hickle and Krajcik"
+  "FunctionalRightName": "Ankunding, Barrows and Rice"
 }
 ```
 
@@ -106,50 +107,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 707,
-    "Name": "Wintheiser LLC",
-    "ToolTip": "Asperiores et et.",
+    "Id": 658,
+    "Name": "Buckridge-Armstrong",
+    "ToolTip": "Maiores reiciendis architecto.",
     "Deleted": false,
-    "Rank": 88,
-    "Type": "rerum",
+    "Rank": 904,
+    "Type": "qui",
     "ChildItems": [
       {
-        "Id": 904,
-        "Name": "Miller LLC",
-        "ToolTip": "Alias non nihil tenetur quo.",
+        "Id": 67,
+        "Name": "Kub LLC",
+        "ToolTip": "Tenetur cum maxime aperiam fuga ad facilis.",
         "Deleted": false,
-        "Rank": 603,
-        "Type": "quibusdam",
+        "Rank": 94,
+        "Type": "voluptatibus",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "dolores",
-        "ColorBlock": 614,
-        "ExtraInfo": "natus",
-        "StyleHint": "sit",
-        "FullName": "Khalil Halvorson",
+        "IconHint": "possimus",
+        "ColorBlock": 771,
+        "ExtraInfo": "sed",
+        "StyleHint": "accusamus",
+        "FullName": "Ms. Melvin Littel III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 939
+            "FieldType": "System.Int32",
+            "FieldLength": 467
           }
         }
       }
     ],
-    "IconHint": "asperiores",
-    "ColorBlock": 696,
-    "ExtraInfo": "qui",
-    "StyleHint": "id",
-    "FullName": "Miss Amie Maymie Heller",
+    "IconHint": "qui",
+    "ColorBlock": 222,
+    "ExtraInfo": "facilis",
+    "StyleHint": "amet",
+    "FullName": "Prof. Darius Karelle Gleichner IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 955
+        "FieldLength": 27
       }
     }
   }

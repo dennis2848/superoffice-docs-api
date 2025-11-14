@@ -14,6 +14,8 @@ POST /api/v1/Agents/Ticket/GetAttachmentInfo
 Get a list with meta data for all attached attachments
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -81,11 +83,11 @@ OK
 POST /api/v1/Agents/Ticket/GetAttachmentInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageEntityId": 12
+  "TicketMessageEntityId": 39
 }
 ```
 
@@ -97,20 +99,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 190,
-    "Name": "Konopelski-Spencer",
-    "ContentType": "iusto",
-    "AttSize": 87,
+    "AttachmentId": 754,
+    "Name": "Rosenbaum LLC",
+    "ContentType": "eveniet",
+    "AttSize": 544,
     "InlineImage": false,
-    "ContentId": "soluta",
-    "AuthKey": "doloremque",
-    "IsSafeFileExtension": false,
+    "ContentId": "dolor",
+    "AuthKey": "quia",
+    "IsSafeFileExtension": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 349
+        "FieldType": "System.String",
+        "FieldLength": 436
       }
     }
   }

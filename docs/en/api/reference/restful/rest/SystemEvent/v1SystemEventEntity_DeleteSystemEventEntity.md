@@ -15,6 +15,7 @@ Deletes the SystemEventEntity
 
 
 Calls the Configuration agent service DeleteSystemEventEntity.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -53,7 +54,7 @@ SystemEventEntity deleted.
 DELETE /api/v1/SystemEvent/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response

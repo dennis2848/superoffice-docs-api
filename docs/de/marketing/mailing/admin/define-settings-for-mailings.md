@@ -1,17 +1,20 @@
----
+﻿---
 uid: help-de-mailing-settings
 title: Einstellungen für Kampagnen festlegen
 description: Einstellungen für Kampagnen festlegen
 keywords: Marketing, Einstellungen
-author: SuperOffice RnD
-date: 02.12.2024
-version: 10
+author: SuperOffice Product and Engineering
+date: 09.26.2025
+version: 10.5
 content_type: reference
-language: de
-deployment: onsite
+category: marketing
+topic: mailing
+license: marketingessentials
 audience: person
 audience_tooltip: SuperOffice Marketing
 redirect_from: /de/marketing/mailing/learn/admin/define-settings-for-mailings
+language: de
+deployment: onsite
 ---
 
 # Einstellungen für Kampagnen festlegen
@@ -54,6 +57,6 @@ Zum Testen der Einstellungen geben Sie eine Mobilfunknummer und etwas Text ein u
 Informationen über zusätzliche Module finden Sie unter [SMS][1].
 
 <!-- Referenced links -->
-[1]: ../../../admin/preferences/learn/global-preferences/sms.md
+[1]: ../../../../en/marketing/sms/it/set-up.md
 
 <!-- Referenced images -->

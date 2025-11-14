@@ -76,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 280,
-  "Name": "Schaefer, Hermiston and Mitchell",
-  "Tooltip": "laudantium",
+  "Id": 288,
+  "Name": "Bernier Group",
+  "Tooltip": "enim",
   "Deleted": false,
-  "Rank": 148,
+  "Rank": 497,
   "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "laudantium",
-  "InUseByUserDefinedFields": true,
+  "ListType": "doloribus",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 197
+      "FieldLength": 891
     }
   },
   "_Links": {

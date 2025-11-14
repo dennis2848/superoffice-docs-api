@@ -15,6 +15,7 @@ Gets a PriceList object.
 
 
 Calls the Quote agent service GetPriceList.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -83,7 +84,7 @@ PriceList found.
 GET /api/v1/Pricelist/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -93,27 +94,27 @@ HTTP/1.1 200 PriceList found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 490,
-  "ERPPriceListKey": "modi",
-  "QuoteConnectionId": 343,
-  "Name": "Padberg, Feil and Schuster",
-  "Description": "Integrated interactive superstructure",
-  "Currency": "id",
-  "CurrencyName": "Marks, Carter and Paucek",
-  "ValidFrom": "2005-07-01T03:47:00.7067961+02:00",
-  "ValidTo": "2006-07-18T03:47:00.7067961+02:00",
-  "IsActive": false,
+  "PriceListId": 544,
+  "ERPPriceListKey": "quia",
+  "QuoteConnectionId": 952,
+  "Name": "Osinski, Romaguera and Rodriguez",
+  "Description": "Enterprise-wide contextually-based array",
+  "Currency": "assumenda",
+  "CurrencyName": "McLaughlin Group",
+  "ValidFrom": "2014-01-18T02:30:53.3348881+01:00",
+  "ValidTo": "2019-12-23T02:30:53.3348881+01:00",
+  "IsActive": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 228
+      "FieldLength": 952
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

@@ -74,16 +74,16 @@ OK
 POST /api/v1/List/Business/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 575,
-  "Name": "Blick Inc and Sons",
-  "Tooltip": "necessitatibus",
+  "Id": 711,
+  "Name": "Turcotte-Purdy",
+  "Tooltip": "soluta",
   "Deleted": true,
-  "UdListDefinitionId": 666,
-  "Rank": 778
+  "UdListDefinitionId": 973,
+  "Rank": 286
 }
 ```
 
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 245,
-  "Name": "Rath-Emard",
-  "Tooltip": "officiis",
-  "Deleted": true,
-  "UdListDefinitionId": 533,
-  "Rank": 453,
+  "Id": 519,
+  "Name": "Koss LLC",
+  "Tooltip": "maiores",
+  "Deleted": false,
+  "UdListDefinitionId": 830,
+  "Rank": 685,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 659
+      "FieldLength": 959
     }
   }
 }

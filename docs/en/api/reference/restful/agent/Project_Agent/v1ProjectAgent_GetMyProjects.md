@@ -15,6 +15,7 @@ Returning the projects belonging to an associate.
 
 
 If memberProjects is false only the projects where the associate is project responsible is returned, otherwise both the projects where the associate is project responsible and project member is returned.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -93,7 +94,7 @@ OK
 POST /api/v1/Agents/Project/GetMyProjects
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -109,30 +110,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 224,
-    "Name": "Baumbach, Heathcote and Hoppe",
-    "Description": "Profound client-driven leverage",
+    "ProjectId": 702,
+    "Name": "Lehner-Lehner",
+    "Description": "Realigned local hub",
     "URL": "http://www.example.com/",
-    "Type": "in",
+    "Type": "incidunt",
     "AssociateId": 610,
-    "AssociateFullName": "Daron Brakus",
-    "TypeId": 770,
-    "Updated": "2008-12-13T03:46:55.1757421+01:00",
-    "StatusId": 428,
-    "Status": "recusandae",
-    "TextId": 588,
-    "PublishTo": "2003-02-14T03:46:55.1757421+01:00",
-    "PublishFrom": "2010-10-03T03:46:55.1757421+02:00",
+    "AssociateFullName": "Esmeralda Wolf",
+    "TypeId": 810,
+    "Updated": "2014-06-07T02:30:47.6944454+02:00",
+    "StatusId": 929,
+    "Status": "voluptatibus",
+    "TextId": 366,
+    "PublishTo": "2021-07-26T02:30:47.6944454+02:00",
+    "PublishFrom": "2008-06-14T02:30:47.6944454+02:00",
     "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "1958447",
-    "ActiveErpLinks": 243,
+    "ProjectNumber": "981329",
+    "ActiveErpLinks": 400,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 362
+        "FieldType": "System.String",
+        "FieldLength": 138
       }
     }
   }

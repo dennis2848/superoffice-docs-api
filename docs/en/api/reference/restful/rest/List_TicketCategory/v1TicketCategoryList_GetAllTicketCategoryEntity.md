@@ -86,36 +86,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketCategoryId": 852,
-    "ParentId": 242,
-    "Name": "Greenfelder-Crooks",
-    "Fullname": "quia",
-    "CategoryMaster": 392,
+    "TicketCategoryId": 607,
+    "ParentId": 654,
+    "Name": "Heaney-Hand",
+    "Fullname": "possimus",
+    "CategoryMaster": 491,
     "Flags": "AcceptWhenReplying",
     "DelegateMethod": "Even",
-    "ExternalName": "Koch, Raynor and Fadel",
+    "ExternalName": "Lehner, Armstrong and Denesik",
     "ClosingStatus": "Active",
     "MsgClosingStatus": "Active",
-    "AssignmentLag": 827,
-    "ReplyTemplate": 88,
-    "NotificationEmail": "cedrick_stanton@goyette.biz",
+    "AssignmentLag": 571,
+    "ReplyTemplate": 277,
+    "NotificationEmail": "kelli@legros.info",
     "DefaultTicketStatus": null,
     "DefaultMessageStatus": null,
-    "EffectiveReplyTemplateId": 678,
+    "EffectiveReplyTemplateId": 255,
     "ExtraFields": {
-      "ExtraFields1": "quis",
-      "ExtraFields2": "repellendus"
+      "ExtraFields1": "corrupti",
+      "ExtraFields2": "beatae"
     },
     "CustomFields": {
-      "CustomFields1": "rerum",
-      "CustomFields2": "itaque"
+      "CustomFields1": "mollitia",
+      "CustomFields2": "et"
     },
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 76
+        "FieldType": "System.Int32",
+        "FieldLength": 528
       }
     }
   }

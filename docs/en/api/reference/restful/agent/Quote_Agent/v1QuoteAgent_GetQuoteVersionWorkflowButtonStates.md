@@ -14,6 +14,8 @@ POST /api/v1/Agents/Quote/GetQuoteVersionWorkflowButtonStates
 Get all button states for the Quote version dialog.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -78,12 +80,12 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteVersionWorkflowButtonStates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 99,
-  "QuoteAlternativeId": 141
+  "QuoteVersionId": 173,
+  "QuoteAlternativeId": 631
 }
 ```
 
@@ -97,16 +99,16 @@ Content-Type: application/json; charset=utf-8
   "ActionButtons": [
     {
       "Action": "Approve",
-      "ImageHint": "quas",
-      "DisplayText": "sit",
-      "TooltipText": "aut",
-      "Enabled": false,
+      "ImageHint": "laudantium",
+      "DisplayText": "et",
+      "TooltipText": "qui",
+      "Enabled": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 421
+          "FieldType": "System.Int32",
+          "FieldLength": 35
         }
       }
     }
@@ -119,7 +121,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 671
+      "FieldLength": 477
     }
   }
 }

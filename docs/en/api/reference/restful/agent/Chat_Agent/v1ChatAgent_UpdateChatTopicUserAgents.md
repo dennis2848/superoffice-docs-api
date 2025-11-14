@@ -14,6 +14,8 @@ POST /api/v1/Agents/Chat/UpdateChatTopicUserAgents
 Update users roles in a chat topic
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -78,26 +80,26 @@ OK
 POST /api/v1/Agents/Chat/UpdateChatTopicUserAgents
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 580,
+  "ChatTopicId": 288,
   "Useragents": [
     {
-      "TopicId": 665,
+      "TopicId": 453,
       "User": null,
-      "CanListen": true,
+      "CanListen": false,
       "CanRespond": true,
-      "CanManage": false,
+      "CanManage": true,
       "CanNotify": false
     },
     {
-      "TopicId": 665,
+      "TopicId": 453,
       "User": null,
-      "CanListen": true,
+      "CanListen": false,
       "CanRespond": true,
-      "CanManage": false,
+      "CanManage": true,
       "CanNotify": false
     }
   ]
@@ -112,18 +114,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TopicId": 886,
+    "TopicId": 395,
     "User": null,
     "CanListen": false,
-    "CanRespond": false,
+    "CanRespond": true,
     "CanManage": false,
     "CanNotify": true
   },
   {
-    "TopicId": 886,
+    "TopicId": 395,
     "User": null,
     "CanListen": false,
-    "CanRespond": false,
+    "CanRespond": true,
     "CanManage": false,
     "CanNotify": true
   }

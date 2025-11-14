@@ -14,6 +14,8 @@ POST /api/v1/Agents/Person/GetAddress
 Gets the person's localized address.
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -79,11 +81,11 @@ OK
 POST /api/v1/Agents/Person/GetAddress
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 477
+  "PersonId": 275
 }
 ```
 
@@ -94,41 +96,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Wgs84Latitude": 9665.256,
-  "Wgs84Longitude": 5522.108,
+  "Wgs84Latitude": 19440.202,
+  "Wgs84Longitude": 3597.832,
   "LocalizedAddress": [
     [
       {
-        "Name": "Russel, Powlowski and O'Reilly",
-        "Value": "ut",
-        "Tooltip": "consequuntur",
-        "Label": "aliquam",
-        "ValueLength": 902,
-        "AddressType": "sapiente",
+        "Name": "Casper, Stracke and Carroll",
+        "Value": "qui",
+        "Tooltip": "et",
+        "Label": "quia",
+        "ValueLength": 768,
+        "AddressType": "placeat",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 985
+            "FieldLength": 1000
           }
         }
       }
     ],
     [
       {
-        "Name": "Ritchie Inc and Sons",
-        "Value": "aspernatur",
-        "Tooltip": "animi",
-        "Label": "adipisci",
-        "ValueLength": 658,
-        "AddressType": "aut",
+        "Name": "Hagenes, Leffler and Kerluke",
+        "Value": "et",
+        "Tooltip": "quidem",
+        "Label": "qui",
+        "ValueLength": 518,
+        "AddressType": "suscipit",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 965
+            "FieldLength": 477
           }
         }
       }
@@ -136,13 +138,13 @@ Content-Type: application/json; charset=utf-8
   ],
   "Street": null,
   "Postal": null,
-  "Formatted": "pariatur",
+  "Formatted": "est",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 732
+      "FieldLength": 387
     }
   }
 }

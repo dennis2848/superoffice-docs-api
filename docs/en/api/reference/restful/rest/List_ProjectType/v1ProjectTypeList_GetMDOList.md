@@ -28,7 +28,7 @@ Get the MDO list items for "ProjType" - with headings and filtering by user grou
 
 ```http
 GET /api/v1/List/ProjectType/MDOItems?flat=False
-GET /api/v1/List/ProjectType/MDOItems?query=porro
+GET /api/v1/List/ProjectType/MDOItems?query=aut
 ```
 
 
@@ -90,50 +90,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 838,
-    "Name": "Bernier Inc and Sons",
-    "ToolTip": "Quaerat sunt neque praesentium animi.",
-    "Deleted": true,
-    "Rank": 407,
-    "Type": "quo",
+    "Id": 494,
+    "Name": "Hamill LLC",
+    "ToolTip": "Voluptatem harum doloremque commodi voluptatum.",
+    "Deleted": false,
+    "Rank": 943,
+    "Type": "tempora",
     "ChildItems": [
       {
-        "Id": 132,
-        "Name": "Roob-Stark",
-        "ToolTip": "Aliquid sunt molestiae quia.",
+        "Id": 103,
+        "Name": "Bauch-Ebert",
+        "ToolTip": "Quasi fugit saepe illum quasi quis aperiam sit.",
         "Deleted": false,
-        "Rank": 141,
-        "Type": "atque",
+        "Rank": 974,
+        "Type": "corrupti",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "voluptatum",
-        "ColorBlock": 947,
-        "ExtraInfo": "officia",
-        "StyleHint": "et",
-        "FullName": "Lucious Hammes",
+        "IconHint": "blanditiis",
+        "ColorBlock": 781,
+        "ExtraInfo": "maiores",
+        "StyleHint": "molestiae",
+        "FullName": "Mr. Audreanne Laverne Schaefer",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 824
+            "FieldType": "System.String",
+            "FieldLength": 312
           }
         }
       }
     ],
-    "IconHint": "optio",
-    "ColorBlock": 749,
-    "ExtraInfo": "praesentium",
-    "StyleHint": "voluptate",
-    "FullName": "Estefania Deckow",
+    "IconHint": "est",
+    "ColorBlock": 2,
+    "ExtraInfo": "voluptatem",
+    "StyleHint": "illum",
+    "FullName": "Mae Thiel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 916
+        "FieldType": "System.String",
+        "FieldLength": 774
       }
     }
   }

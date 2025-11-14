@@ -14,6 +14,8 @@ POST /api/v1/Agents/Dash/CreateDefaultDash
 Loading default values into a new Dash.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -68,7 +70,7 @@ OK
 POST /api/v1/Agents/Dash/CreateDefaultDash
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -78,37 +80,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 558,
-  "UniqueId": "officiis",
-  "Name": "Russel-Gottlieb",
-  "Description": "Pre-emptive bi-directional access",
-  "AssociateId": 164,
-  "Columns": 162,
+  "DashboardId": 519,
+  "UniqueId": "sed",
+  "Name": "Feil-Eichmann",
+  "Description": "Grass-roots bandwidth-monitored utilisation",
+  "AssociateId": 154,
+  "Columns": 38,
   "Theme": null,
-  "VisibleForAll": 262,
+  "VisibleForAll": 853,
   "VisibleForAssociates": [
-    476,
-    825
+    487,
+    180
   ],
   "VisibleForGroups": [
-    556,
-    896
+    553,
+    894
   ],
-  "PinForAll": 284,
+  "PinForAll": 1000,
   "PinForAssociates": [
-    369,
-    645
+    670,
+    785
   ],
   "PinForGroups": [
-    962,
-    341
+    740,
+    348
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 263
+      "FieldLength": 249
     }
   }
 }

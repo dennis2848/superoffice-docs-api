@@ -15,6 +15,7 @@ Creates a new Product
 
 
 Calls the Quote agent service SaveProduct.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -142,55 +143,55 @@ OK
 POST /api/v1/Product
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 27,
-  "ERPProductKey": "reiciendis",
-  "ERPPriceListKey": "nemo",
-  "Name": "Hegmann LLC",
-  "Description": "Face to face well-modulated throughput",
-  "Code": "omnis",
-  "PriceUnit": "voluptate",
-  "QuantityUnit": "aut",
+  "ProductId": 594,
+  "ERPProductKey": "nemo",
+  "ERPPriceListKey": "pariatur",
+  "Name": "Strosin LLC",
+  "Description": "Switchable asynchronous contingency",
+  "Code": "laboriosam",
+  "PriceUnit": "eaque",
+  "QuantityUnit": "vel",
   "IsSubscription": true,
-  "SubscriptionUnit": "distinctio",
-  "DefaultSubscriptionQuantity": 17754.11,
-  "ItemNumber": "1712753",
+  "SubscriptionUnit": "sit",
+  "DefaultSubscriptionQuantity": 13958.836,
+  "ItemNumber": "1171754",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "atque",
-  "ProductTypeKey": "sint",
-  "VAT": 16835.847999999998,
-  "VATInfo": "quaerat",
-  "UnitCost": 8580.892,
-  "UnitMinimumPrice": 10201.17,
-  "UnitListPrice": 8756.3959999999988,
-  "InAssortment": true,
-  "Supplier": "facere",
-  "SupplierCode": "natus",
-  "Rights": "quia",
-  "Rule": "et",
+  "ProductFamilyKey": "ipsa",
+  "ProductTypeKey": "id",
+  "VAT": 6766.306,
+  "VATInfo": "reprehenderit",
+  "UnitCost": 6681.688,
+  "UnitMinimumPrice": 8204.812,
+  "UnitListPrice": 11464.172,
+  "InAssortment": false,
+  "Supplier": "accusantium",
+  "SupplierCode": "magni",
+  "Rights": "doloremque",
+  "Rule": "suscipit",
   "ExtraInfo": [
     {
-      "Name": "Okuneva, Durgan and Luettgen",
-      "Value": "totam",
+      "Name": "Weissnat Inc and Sons",
+      "Value": "repellendus",
       "Type": "Image"
     },
     {
-      "Name": "Okuneva, Durgan and Luettgen",
-      "Value": "totam",
+      "Name": "Weissnat Inc and Sons",
+      "Value": "repellendus",
       "Type": "Image"
     }
   ],
-  "RawExtraInfo": "sit",
-  "ExtraField1": "deleniti",
-  "ExtraField2": "aut",
-  "ExtraField3": "iste",
-  "ExtraField4": "odio",
-  "ExtraField5": "culpa",
-  "InStock": 17443.844
+  "RawExtraInfo": "harum",
+  "ExtraField1": "dolores",
+  "ExtraField2": "blanditiis",
+  "ExtraField3": "assumenda",
+  "ExtraField4": "at",
+  "ExtraField5": "sunt",
+  "InStock": 20574.71
 }
 ```
 
@@ -201,73 +202,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 668,
-  "ERPProductKey": "sequi",
-  "ERPPriceListKey": "quisquam",
-  "Name": "Wolf Inc and Sons",
-  "Description": "Grass-roots executive algorithm",
-  "Code": "facere",
-  "PriceUnit": "tempora",
-  "QuantityUnit": "quis",
-  "IsSubscription": false,
-  "SubscriptionUnit": "sunt",
-  "DefaultSubscriptionQuantity": 16152.635999999999,
-  "ItemNumber": "227290",
+  "ProductId": 986,
+  "ERPProductKey": "et",
+  "ERPPriceListKey": "eos",
+  "Name": "Koelpin, Sawayn and Auer",
+  "Description": "Vision-oriented explicit productivity",
+  "Code": "maiores",
+  "PriceUnit": "sint",
+  "QuantityUnit": "excepturi",
+  "IsSubscription": true,
+  "SubscriptionUnit": "non",
+  "DefaultSubscriptionQuantity": 9605.71,
+  "ItemNumber": "266004",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "excepturi",
-  "ProductTypeKey": "magni",
-  "VAT": 12119.178,
-  "VATInfo": "laborum",
-  "UnitCost": 17224.464,
-  "UnitMinimumPrice": 8643.572,
-  "UnitListPrice": 25488.822,
-  "InAssortment": true,
-  "Supplier": "soluta",
-  "SupplierCode": "quo",
-  "Rights": "reprehenderit",
-  "Rule": "libero",
+  "ProductFamilyKey": "ipsam",
+  "ProductTypeKey": "repellat",
+  "VAT": 29685.248,
+  "VATInfo": "quo",
+  "UnitCost": 24626.971999999998,
+  "UnitMinimumPrice": 25520.162,
+  "UnitListPrice": 22890.736,
+  "InAssortment": false,
+  "Supplier": "earum",
+  "SupplierCode": "impedit",
+  "Rights": "molestiae",
+  "Rule": "aliquid",
   "ExtraInfo": [
     {
-      "Name": "Feil Inc and Sons",
-      "Value": "qui",
+      "Name": "Lebsack-Stokes",
+      "Value": "blanditiis",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 529
+          "FieldType": "System.Int32",
+          "FieldLength": 265
         }
       }
     },
     {
-      "Name": "Feil Inc and Sons",
-      "Value": "qui",
+      "Name": "Lebsack-Stokes",
+      "Value": "blanditiis",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 529
+          "FieldType": "System.Int32",
+          "FieldLength": 265
         }
       }
     }
   ],
-  "RawExtraInfo": "cum",
-  "ExtraField1": "et",
-  "ExtraField2": "eos",
-  "ExtraField3": "aliquam",
-  "ExtraField4": "sapiente",
-  "ExtraField5": "cumque",
-  "InStock": 1068.694,
+  "RawExtraInfo": "deserunt",
+  "ExtraField1": "maxime",
+  "ExtraField2": "eligendi",
+  "ExtraField3": "aliquid",
+  "ExtraField4": "veritatis",
+  "ExtraField5": "sint",
+  "InStock": 26150.095999999998,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 9
+      "FieldLength": 674
     }
   }
 }

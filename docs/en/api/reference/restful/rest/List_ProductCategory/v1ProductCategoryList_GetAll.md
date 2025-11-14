@@ -26,7 +26,7 @@ Gets all the ProductCategory items
 | includeDeleted | bool |  Include deleted items in the result? |
 
 ```http
-GET /api/v1/List/ProductCategory/Items?includeDeleted=False
+GET /api/v1/List/ProductCategory/Items?includeDeleted=True
 ```
 
 
@@ -71,7 +71,7 @@ OK
 GET /api/v1/List/ProductCategory/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -82,18 +82,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 49,
-    "Name": "Hoeger LLC",
-    "Tooltip": "et",
-    "Deleted": false,
-    "UdListDefinitionId": 624,
-    "Rank": 654,
+    "Id": 103,
+    "Name": "Bosco-Wuckert",
+    "Tooltip": "omnis",
+    "Deleted": true,
+    "UdListDefinitionId": 260,
+    "Rank": 965,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 718
+        "FieldLength": 982
       }
     }
   }

@@ -15,6 +15,7 @@ Update a RoleEntity with changes, as described in a JSON Patch or a JSON Merge P
 
 
 See <a href="https://tools.ietf.org/html/rfc6902">RFC6902</a> and <a href="https://tools.ietf.org/html/rfc7386">RFC 7396</a>.
+NsApiSlow threshold: 2000 ms.
 
 
 ## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps. Update the Department field to "foo" can be done either as a JSON PATCH:
@@ -123,18 +124,18 @@ RoleEntity  updated.
 PATCH /api/v1/Role/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "quo",
+    "path": "ut",
     "value": {}
   },
   {
     "op": "add",
-    "path": "quo",
+    "path": "ut",
     "value": {}
   }
 ]
@@ -147,24 +148,24 @@ HTTP/1.1 200 RoleEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 16,
-  "Name": "Sporer Inc and Sons",
-  "Tooltip": "asperiores",
+  "RoleId": 597,
+  "Name": "Greenfelder Group",
+  "Tooltip": "aspernatur",
   "RoleType": "Anonymous",
-  "Deleted": 530,
-  "Rank": 543,
-  "Created": "2011-02-06T03:47:00.2224384+01:00",
-  "UseCategories": 34,
+  "Deleted": 104,
+  "Rank": 446,
+  "Created": "2003-10-22T02:30:52.8349052+02:00",
+  "UseCategories": 853,
   "CreatedBy": null,
-  "Updated": "2001-09-21T03:47:00.2224384+02:00",
+  "Updated": "2005-07-11T02:30:52.8349052+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 489
+      "FieldType": "System.String",
+      "FieldLength": 903
     }
   },
   "_Links": {

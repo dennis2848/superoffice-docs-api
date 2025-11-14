@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/GetAllDocumentTemplates
 Returns all templates
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -114,37 +116,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentTemplateId": 91,
-    "Name": "Dicki-Quitzon",
-    "Tooltip": "exercitationem",
-    "SaveInDb": 233,
-    "Filename": "natus",
-    "DefaultOref": "et",
+    "DocumentTemplateId": 589,
+    "Name": "Beahan-Treutel",
+    "Tooltip": "omnis",
+    "SaveInDb": 135,
+    "Filename": "aspernatur",
+    "DefaultOref": "natus",
     "RecordType": "Appointment",
-    "Deleted": false,
+    "Deleted": true,
     "Direction": "Incoming",
-    "AutoeventId": 865,
-    "IntentId": 788,
-    "IsDefaultPublished": true,
-    "Rank": 477,
-    "LoadTemplateFromPlugin": 882,
-    "MimeType": "ducimus",
+    "AutoeventId": 980,
+    "IntentId": 216,
+    "IsDefaultPublished": false,
+    "Rank": 591,
+    "LoadTemplateFromPlugin": 466,
+    "MimeType": "qui",
     "IsInUseInGuides": true,
-    "DocumentTypeKey": 426,
+    "DocumentTypeKey": 911,
     "QuoteDocType": "ConfirmationLines",
     "PrivacyDocType": "None",
-    "EmailSubject": "leilani@hammes.uk",
-    "IncludeSignature": false,
+    "EmailSubject": "luisa@kozeypadberg.biz",
+    "IncludeSignature": true,
     "ShowCurrents": false,
     "SenderEmailMode": "UseDefaultSender",
-    "SenderEmailAddress": "bartholome.weber@zemlak.ca",
+    "SenderEmailAddress": "lisandro@kihn.info",
     "InvitationDocType": "Cancelled",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 981
+        "FieldLength": 107
       }
     }
   }

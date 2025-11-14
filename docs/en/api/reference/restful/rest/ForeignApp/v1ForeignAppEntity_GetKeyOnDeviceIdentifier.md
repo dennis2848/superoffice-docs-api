@@ -74,7 +74,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}/{recordId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -82,23 +82,23 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Mon, 16 Feb 2009 03:47:00 G2T
+Last-Modified: Mon, 24 Apr 2017 02:30:52 G4T
 
 {
-  "Key": "aut",
-  "Value": "aut",
-  "RecordId": 199,
-  "CreatedDate": "2021-01-12T03:47:00.0349452+01:00",
-  "UpdatedDate": "2009-02-16T03:47:00.0349452+01:00",
-  "UpdatedBy": "corrupti",
-  "CreatedBy": "aliquid",
-  "TableName": "Borer-Satterfield",
+  "Key": "ea",
+  "Value": "voluptas",
+  "RecordId": 756,
+  "CreatedDate": "2020-03-30T02:30:52.6474115+02:00",
+  "UpdatedDate": "2017-04-24T02:30:52.6474115+02:00",
+  "UpdatedBy": "inventore",
+  "CreatedBy": "quaerat",
+  "TableName": "Purdy, Quigley and Kerluke",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 438
+      "FieldType": "System.Int32",
+      "FieldLength": 38
     }
   }
 }

@@ -76,16 +76,16 @@ OK
 POST /api/v1/List/ProductCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 484,
-  "Name": "Johnson, O'Reilly and Crist",
-  "Tooltip": "natus",
-  "Deleted": false,
-  "Rank": 950,
-  "UdListDefinitionId": 297
+  "HeadingId": 461,
+  "Name": "Weber-Medhurst",
+  "Tooltip": "suscipit",
+  "Deleted": true,
+  "Rank": 21,
+  "UdListDefinitionId": 678
 }
 ```
 
@@ -96,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 682,
-  "Name": "Parker Group",
-  "Tooltip": "sit",
+  "HeadingId": 875,
+  "Name": "Daugherty-Huel",
+  "Tooltip": "explicabo",
   "Deleted": false,
-  "Rank": 401,
-  "UdListDefinitionId": 47,
+  "Rank": 537,
+  "UdListDefinitionId": 757,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 249
+      "FieldType": "System.String",
+      "FieldLength": 203
     }
   }
 }

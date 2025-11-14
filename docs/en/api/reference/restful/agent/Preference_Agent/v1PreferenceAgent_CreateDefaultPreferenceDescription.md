@@ -14,6 +14,8 @@ POST /api/v1/Agents/Preference/CreateDefaultPreferenceDescription
 Loading default values into a new PreferenceDescription.
 
 
+NsApiSlow threshold: 1000 ms.
+
 
 
 
@@ -73,7 +75,7 @@ OK
 POST /api/v1/Agents/Preference/CreateDefaultPreferenceDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -83,30 +85,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 473,
-  "Section": "illum",
-  "Key": "rerum",
-  "Name": "Wyman-Abbott",
+  "PrefDescId": 858,
+  "Section": "quis",
+  "Key": "exercitationem",
+  "Name": "Fritsch, Bauch and Kemmer",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Decentralized even-keeled time-frame",
-  "IsBuiltin": true,
-  "TableName": "Carter, Lueilwitz and Ryan",
-  "UserDefinedListId": 789,
-  "Rank": 888,
-  "SubGroup": "et",
-  "MinLevel": 233,
-  "MaxValue": 120,
-  "MinValue": 523,
-  "RequiredLicense": "et",
+  "Description": "User-centric national access",
+  "IsBuiltin": false,
+  "TableName": "Ferry-Lindgren",
+  "UserDefinedListId": 558,
+  "Rank": 74,
+  "SubGroup": "ab",
+  "MinLevel": 256,
+  "MaxValue": 766,
+  "MinValue": 194,
+  "RequiredLicense": "laudantium",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 49
+      "FieldType": "System.Int32",
+      "FieldLength": 143
     }
   }
 }

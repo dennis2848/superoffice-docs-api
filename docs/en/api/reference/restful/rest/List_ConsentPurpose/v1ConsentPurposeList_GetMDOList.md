@@ -27,8 +27,8 @@ Get the MDO list items for "ConsentPurpose" - with headings and filtering by use
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/ConsentPurpose/MDOItems?flat=False
-GET /api/v1/List/ConsentPurpose/MDOItems?query=voluptas
+GET /api/v1/List/ConsentPurpose/MDOItems?flat=True
+GET /api/v1/List/ConsentPurpose/MDOItems?query=possimus
 ```
 
 
@@ -90,50 +90,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 120,
-    "Name": "Blick Inc and Sons",
-    "ToolTip": "Non est magnam ipsum aspernatur ea voluptatum ea.",
+    "Id": 471,
+    "Name": "Cartwright, Mueller and Feil",
+    "ToolTip": "Sed magni labore quam.",
     "Deleted": false,
-    "Rank": 522,
-    "Type": "velit",
+    "Rank": 492,
+    "Type": "libero",
     "ChildItems": [
       {
-        "Id": 204,
-        "Name": "Beier, Jones and Moen",
-        "ToolTip": "Laboriosam et et non.",
-        "Deleted": false,
-        "Rank": 698,
-        "Type": "iste",
+        "Id": 430,
+        "Name": "Hagenes-Reilly",
+        "ToolTip": "Reprehenderit architecto.",
+        "Deleted": true,
+        "Rank": 263,
+        "Type": "hic",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "sunt",
-        "ColorBlock": 923,
-        "ExtraInfo": "et",
-        "StyleHint": "est",
-        "FullName": "Clemens Wyman",
+        "IconHint": "hic",
+        "ColorBlock": 674,
+        "ExtraInfo": "cum",
+        "StyleHint": "saepe",
+        "FullName": "Sienna Lind",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 765
+            "FieldType": "System.Int32",
+            "FieldLength": 897
           }
         }
       }
     ],
-    "IconHint": "quo",
-    "ColorBlock": 704,
-    "ExtraInfo": "facilis",
-    "StyleHint": "aut",
-    "FullName": "Hulda Feil",
+    "IconHint": "eum",
+    "ColorBlock": 447,
+    "ExtraInfo": "aut",
+    "StyleHint": "libero",
+    "FullName": "D'angelo Paucek",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 580
+        "FieldLength": 239
       }
     }
   }

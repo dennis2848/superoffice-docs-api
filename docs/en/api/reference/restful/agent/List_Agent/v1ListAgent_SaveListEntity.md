@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/SaveListEntity
 Updates the existing ListEntity or creates a new ListEntity if the id parameter is 0.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -86,15 +88,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 511,
-  "Name": "Kuhn, Lueilwitz and Rau",
-  "Tooltip": "hic",
+  "Id": 321,
+  "Name": "O'Hara Group",
+  "Tooltip": "ut",
   "Deleted": false,
-  "Rank": 88,
-  "IsCustomList": false,
+  "Rank": 322,
+  "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "voluptate",
+  "UseGroupsAndHeadings": false,
+  "ListType": "officia",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -106,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 784,
-  "Name": "Boyer, Gibson and Windler",
-  "Tooltip": "at",
-  "Deleted": true,
-  "Rank": 972,
-  "IsCustomList": false,
+  "Id": 594,
+  "Name": "Hartmann, Blanda and Kuhn",
+  "Tooltip": "tenetur",
+  "Deleted": false,
+  "Rank": 541,
+  "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "cum",
+  "UseGroupsAndHeadings": true,
+  "ListType": "facilis",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 114
+      "FieldLength": 39
     }
   }
 }

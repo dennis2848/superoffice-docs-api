@@ -14,7 +14,8 @@ PATCH /api/v1/SaleStakeholder/{id}
 Update a SaleStakeholder with changes, as described in a JSON Patch or a JSON Merge Patch document.
 
 
-See <a href="https://tools.ietf.org/html/rfc6902">RFC6902</a> and <a href="https://tools.ietf.org/html/rfc7386">RFC 7396</a>. Update the Department field to "foo" can be done either as a JSON PATCH:
+See <a href="https://tools.ietf.org/html/rfc6902">RFC6902</a> and <a href="https://tools.ietf.org/html/rfc7386">RFC 7396</a>.
+NsApiSlow threshold: 1000 ms. Update the Department field to "foo" can be done either as a JSON PATCH:
 
 ```js
 
@@ -133,12 +134,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "quaerat",
+    "path": "doloribus",
     "value": {}
   },
   {
     "op": "add",
-    "path": "quaerat",
+    "path": "doloribus",
     "value": {}
   }
 ]
@@ -151,31 +152,31 @@ HTTP/1.1 200 SaleStakeholder  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Upton Group",
-  "Comment": "est",
-  "StakeholderRoleId": 540,
-  "CountryId": 364,
-  "PersonId": 247,
-  "EmailDescription": "aron@wehner.us",
-  "EmailId": 908,
-  "EmailAddress": "dedrick.durgan@effertzwill.name",
-  "PhoneId": 729,
-  "ContactName": "Parker-Kessler",
-  "ContactId": 478,
-  "SaleId": 967,
-  "Mrmrs": "aliquam",
-  "Firstname": "Terrill",
-  "MiddleName": "Hartmann, Corwin and Monahan",
-  "Lastname": "Greenholt",
-  "SaleStakeholderId": 131,
-  "Rank": 879,
-  "Phone": "004.916.9127 x2050",
+  "StakeholderRoleName": "Lockman, Wisozk and Keeling",
+  "Comment": "deleniti",
+  "StakeholderRoleId": 615,
+  "CountryId": 846,
+  "PersonId": 449,
+  "EmailDescription": "margaretta_kerluke@metz.biz",
+  "EmailId": 729,
+  "EmailAddress": "felix@robertsmcglynn.name",
+  "PhoneId": 700,
+  "ContactName": "Carter, Feeney and Tremblay",
+  "ContactId": 337,
+  "SaleId": 852,
+  "Mrmrs": "dolorem",
+  "Firstname": "Eldon",
+  "MiddleName": "Torphy, Bayer and Wunsch",
+  "Lastname": "Konopelski",
+  "SaleStakeholderId": 111,
+  "Rank": 203,
+  "Phone": "891.336.1257 x77951",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 708
+      "FieldType": "System.String",
+      "FieldLength": 998
     }
   },
   "_Links": {

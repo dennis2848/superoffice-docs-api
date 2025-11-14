@@ -15,6 +15,7 @@ Calculate the default orderby columns for a given provider and a set of desired 
 
 
 This is the same algorithm that is used by the Find service method.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -80,10 +81,10 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Senger Group",
+  "ProviderName": "Von, Kshlerin and Howe",
   "DesiredColumns": [
-    "fuga",
-    "doloremque"
+    "rerum",
+    "officia"
   ]
 }
 ```
@@ -96,11 +97,11 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Schinner Inc and Sons",
+    "Name": "Friesen Inc and Sons",
     "Direction": "ASC"
   },
   {
-    "Name": "Schinner Inc and Sons",
+    "Name": "Friesen Inc and Sons",
     "Direction": "ASC"
   }
 ]

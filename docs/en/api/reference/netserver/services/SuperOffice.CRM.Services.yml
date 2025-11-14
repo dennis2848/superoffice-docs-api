@@ -85,6 +85,7 @@ items:
   - SuperOffice.CRM.Services.ContactAgent
   - SuperOffice.CRM.Services.ContactEntity
   - SuperOffice.CRM.Services.ContactOrPersonFromEmail
+  - SuperOffice.CRM.Services.ContactPersonBoardViewSettings
   - SuperOffice.CRM.Services.ContactPersonId
   - SuperOffice.CRM.Services.ContactRelationEntity
   - SuperOffice.CRM.Services.ContactSummary
@@ -287,7 +288,6 @@ items:
   - SuperOffice.CRM.Services.ImportColumnInfo
   - SuperOffice.CRM.Services.ImportErpData
   - SuperOffice.CRM.Services.ImportLine
-  - SuperOffice.CRM.Services.InitalUtmParameters
   - SuperOffice.CRM.Services.Installation
   - SuperOffice.CRM.Services.KbCategory
   - SuperOffice.CRM.Services.LanguageInfo
@@ -375,6 +375,7 @@ items:
   - SuperOffice.CRM.Services.ProjectType
   - SuperOffice.CRM.Services.ProjectTypeEntity
   - SuperOffice.CRM.Services.ProjectTypeStatusLink
+  - SuperOffice.CRM.Services.QuickFilterInfo
   - SuperOffice.CRM.Services.QuickReply
   - SuperOffice.CRM.Services.Quote
   - SuperOffice.CRM.Services.QuoteAgent
@@ -441,6 +442,7 @@ items:
   - SuperOffice.CRM.Services.SaleTypeEntity
   - SuperOffice.CRM.Services.SaleTypeStageLink
   - SuperOffice.CRM.Services.SalesActivity
+  - SuperOffice.CRM.Services.SavedUtmParameters
   - SuperOffice.CRM.Services.Script
   - SuperOffice.CRM.Services.SelectableMDOListItem
   - SuperOffice.CRM.Services.SelectionAgent
@@ -521,6 +523,7 @@ items:
   - SuperOffice.CRM.Services.UserAgent
   - SuperOffice.CRM.Services.UserAndInstallationLicenceStatus
   - SuperOffice.CRM.Services.UserCandidate
+  - SuperOffice.CRM.Services.UserConnectedState
   - SuperOffice.CRM.Services.UserDefinedFieldInfo
   - SuperOffice.CRM.Services.UserDefinedFieldInfoAgent
   - SuperOffice.CRM.Services.UserGroup
@@ -1534,6 +1537,13 @@ references:
   name: ContactOrPersonFromEmail
   nameWithType: ContactOrPersonFromEmail
   fullName: SuperOffice.CRM.Services.ContactOrPersonFromEmail
+- uid: SuperOffice.CRM.Services.ContactPersonBoardViewSettings
+  commentId: T:SuperOffice.CRM.Services.ContactPersonBoardViewSettings
+  isExternal: true
+  href: SuperOffice.CRM.Services.ContactPersonBoardViewSettings.html
+  name: ContactPersonBoardViewSettings
+  nameWithType: ContactPersonBoardViewSettings
+  fullName: SuperOffice.CRM.Services.ContactPersonBoardViewSettings
 - uid: SuperOffice.CRM.Services.ContactPersonId
   commentId: T:SuperOffice.CRM.Services.ContactPersonId
   isExternal: true
@@ -2529,14 +2539,6 @@ references:
   name: ImportLine
   nameWithType: ImportLine
   fullName: SuperOffice.CRM.Services.ImportLine
-- uid: SuperOffice.CRM.Services.InitalUtmParameters
-  commentId: T:SuperOffice.CRM.Services.InitalUtmParameters
-  parent: SuperOffice.CRM.Services
-  isExternal: true
-  href: SuperOffice.CRM.Services.InitalUtmParameters.html
-  name: InitalUtmParameters
-  nameWithType: InitalUtmParameters
-  fullName: SuperOffice.CRM.Services.InitalUtmParameters
 - uid: SuperOffice.CRM.Services.Installation
   commentId: T:SuperOffice.CRM.Services.Installation
   isExternal: true
@@ -3124,6 +3126,13 @@ references:
   name: ProjectTypeStatusLink
   nameWithType: ProjectTypeStatusLink
   fullName: SuperOffice.CRM.Services.ProjectTypeStatusLink
+- uid: SuperOffice.CRM.Services.QuickFilterInfo
+  commentId: T:SuperOffice.CRM.Services.QuickFilterInfo
+  isExternal: true
+  href: SuperOffice.CRM.Services.QuickFilterInfo.html
+  name: QuickFilterInfo
+  nameWithType: QuickFilterInfo
+  fullName: SuperOffice.CRM.Services.QuickFilterInfo
 - uid: SuperOffice.CRM.Services.QuickReply
   commentId: T:SuperOffice.CRM.Services.QuickReply
   isExternal: true
@@ -3559,6 +3568,14 @@ references:
   name: SaleTypeStageLink
   nameWithType: SaleTypeStageLink
   fullName: SuperOffice.CRM.Services.SaleTypeStageLink
+- uid: SuperOffice.CRM.Services.SavedUtmParameters
+  commentId: T:SuperOffice.CRM.Services.SavedUtmParameters
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  href: SuperOffice.CRM.Services.SavedUtmParameters.html
+  name: SavedUtmParameters
+  nameWithType: SavedUtmParameters
+  fullName: SuperOffice.CRM.Services.SavedUtmParameters
 - uid: SuperOffice.CRM.Services.Script
   commentId: T:SuperOffice.CRM.Services.Script
   parent: SuperOffice.CRM.Services
@@ -4102,6 +4119,13 @@ references:
   name: UserCandidate
   nameWithType: UserCandidate
   fullName: SuperOffice.CRM.Services.UserCandidate
+- uid: SuperOffice.CRM.Services.UserConnectedState
+  commentId: T:SuperOffice.CRM.Services.UserConnectedState
+  isExternal: true
+  href: SuperOffice.CRM.Services.UserConnectedState.html
+  name: UserConnectedState
+  nameWithType: UserConnectedState
+  fullName: SuperOffice.CRM.Services.UserConnectedState
 - uid: SuperOffice.CRM.Services.UserDefinedFieldInfo
   commentId: T:SuperOffice.CRM.Services.UserDefinedFieldInfo
   parent: SuperOffice.CRM.Services

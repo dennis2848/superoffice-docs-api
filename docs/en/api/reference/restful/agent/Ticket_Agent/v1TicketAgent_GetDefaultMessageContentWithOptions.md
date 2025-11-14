@@ -14,6 +14,8 @@ POST /api/v1/Agents/Ticket/GetDefaultMessageContentWithOptions
 Generate a default message content with option to exclude signature: attachments and body as sanitized HTML
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -77,14 +79,14 @@ OK
 POST /api/v1/Agents/Ticket/GetDefaultMessageContentWithOptions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 562,
+  "TicketId": 231,
   "MessageActionType": "Forward",
-  "TicketMessageId": 166,
-  "TicketTypeId": 776,
+  "TicketMessageId": 856,
+  "TicketTypeId": 218,
   "ExcludeSignature": true
 }
 ```
@@ -96,23 +98,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Body": "adipisci",
+  "Body": "deleniti",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 213,
-      "Name": "Ryan, Ledner and Schmitt",
-      "ContentType": "et",
-      "AttSize": 609,
-      "InlineImage": true,
-      "ContentId": "quia",
-      "AuthKey": "vero",
+      "AttachmentId": 180,
+      "Name": "Weimann, Walker and Runolfsson",
+      "ContentType": "amet",
+      "AttSize": 906,
+      "InlineImage": false,
+      "ContentId": "deserunt",
+      "AuthKey": "eligendi",
       "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 217
+          "FieldType": "System.String",
+          "FieldLength": 286
         }
       }
     }

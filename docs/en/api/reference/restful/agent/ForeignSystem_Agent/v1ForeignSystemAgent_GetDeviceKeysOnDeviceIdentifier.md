@@ -14,6 +14,8 @@ POST /api/v1/Agents/ForeignSystem/GetDeviceKeysOnDeviceIdentifier
 Returns all ForeignKeys that belong to a device with a given deviceIdentifier.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -87,9 +89,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Gaylord-Cummerata",
-  "DeviceName": "Rodriguez, Rogahn and Windler",
-  "DeviceIdentifier": "soluta"
+  "ApplicationName": "Kshlerin Inc and Sons",
+  "DeviceName": "Littel LLC",
+  "DeviceIdentifier": "ad"
 }
 ```
 
@@ -101,20 +103,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "nisi",
-    "Value": "aliquid",
-    "RecordId": 672,
-    "CreatedDate": "2016-06-28T03:46:54.9107593+02:00",
-    "UpdatedDate": "2000-12-25T03:46:54.9107593+01:00",
-    "UpdatedBy": "dolorem",
-    "CreatedBy": "rerum",
-    "TableName": "Abernathy Inc and Sons",
+    "Key": "ducimus",
+    "Value": "et",
+    "RecordId": 405,
+    "CreatedDate": "2022-12-06T02:30:47.366331+01:00",
+    "UpdatedDate": "2009-08-22T02:30:47.366331+02:00",
+    "UpdatedBy": "consectetur",
+    "CreatedBy": "dicta",
+    "TableName": "Beahan Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 392
+        "FieldType": "System.Int32",
+        "FieldLength": 787
       }
     }
   }

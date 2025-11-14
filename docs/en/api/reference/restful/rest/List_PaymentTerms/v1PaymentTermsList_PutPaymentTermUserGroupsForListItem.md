@@ -98,47 +98,47 @@ OK
 PUT /api/v1/List/PaymentTerm/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 24,
-    "Name": "Stracke-Shanahan",
-    "ToolTip": "Autem voluptates ut labore.",
+    "Id": 418,
+    "Name": "Jones-Ziemann",
+    "ToolTip": "Deserunt itaque nihil quae similique quas non aut.",
     "Deleted": true,
-    "Rank": 841,
-    "Type": "est",
-    "ColorBlock": 387,
-    "IconHint": "fuga",
+    "Rank": 459,
+    "Type": "unde",
+    "ColorBlock": 961,
+    "IconHint": "voluptatem",
     "Selected": false,
-    "LastChanged": "2024-07-10T03:47:00.6911718+02:00",
+    "LastChanged": "2001-12-13T02:30:53.3192639+01:00",
     "ChildItems": [
       {
-        "Id": 51,
-        "Name": "Towne-Lind",
-        "ToolTip": "Beatae magnam voluptatem esse.",
-        "Deleted": false,
-        "Rank": 727,
-        "Type": "et",
-        "ColorBlock": 948,
-        "IconHint": "hic",
-        "Selected": false,
-        "LastChanged": "2017-03-15T03:47:00.6911718+01:00",
+        "Id": 880,
+        "Name": "Leffler LLC",
+        "ToolTip": "Et eum aliquam ut mollitia excepturi nihil.",
+        "Deleted": true,
+        "Rank": 874,
+        "Type": "magni",
+        "ColorBlock": 841,
+        "IconHint": "qui",
+        "Selected": true,
+        "LastChanged": "2008-01-06T02:30:53.3192639+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "amet",
-        "StyleHint": "sed",
+        "ExtraInfo": "ducimus",
+        "StyleHint": "a",
         "Hidden": false,
-        "FullName": "Sasha Simonis"
+        "FullName": "Dr. John Boehm DDS"
       }
     ],
-    "ExtraInfo": "blanditiis",
-    "StyleHint": "mollitia",
-    "Hidden": true,
-    "FullName": "Antonina Cronin"
+    "ExtraInfo": "nobis",
+    "StyleHint": "ad",
+    "Hidden": false,
+    "FullName": "Ardith Bogisich V"
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 660,
-    "Name": "Smith LLC",
-    "ToolTip": "Harum aut est veniam veniam nostrum.",
+    "Id": 666,
+    "Name": "Hermann-Stiedemann",
+    "ToolTip": "Asperiores enim asperiores ut magni qui.",
     "Deleted": false,
-    "Rank": 359,
-    "Type": "voluptas",
-    "ColorBlock": 279,
-    "IconHint": "ut",
+    "Rank": 400,
+    "Type": "sed",
+    "ColorBlock": 7,
+    "IconHint": "dolor",
     "Selected": false,
-    "LastChanged": "2003-07-27T03:47:00.6911718+02:00",
+    "LastChanged": "2000-01-01T02:30:53.3192639+01:00",
     "ChildItems": [
       {
-        "Id": 655,
-        "Name": "Mills-Mohr",
-        "ToolTip": "Sed nemo qui.",
-        "Deleted": false,
-        "Rank": 514,
-        "Type": "et",
-        "ColorBlock": 404,
-        "IconHint": "voluptas",
-        "Selected": true,
-        "LastChanged": "2014-02-15T03:47:00.6911718+01:00",
+        "Id": 253,
+        "Name": "Friesen-Little",
+        "ToolTip": "Est et mollitia minus dolorem ducimus.",
+        "Deleted": true,
+        "Rank": 62,
+        "Type": "nihil",
+        "ColorBlock": 565,
+        "IconHint": "repellat",
+        "Selected": false,
+        "LastChanged": "2009-08-17T02:30:53.3192639+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "reprehenderit",
-        "StyleHint": "in",
-        "Hidden": false,
-        "FullName": "Susan Wiza",
+        "ExtraInfo": "quam",
+        "StyleHint": "maiores",
+        "Hidden": true,
+        "FullName": "Peggie Ward",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 777
+            "FieldType": "System.Int32",
+            "FieldLength": 83
           }
         }
       }
     ],
-    "ExtraInfo": "aliquid",
-    "StyleHint": "vel",
-    "Hidden": false,
-    "FullName": "Mariela D'Amore",
+    "ExtraInfo": "in",
+    "StyleHint": "quod",
+    "Hidden": true,
+    "FullName": "Shaylee Stokes PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 266
+        "FieldLength": 468
       }
     }
   }

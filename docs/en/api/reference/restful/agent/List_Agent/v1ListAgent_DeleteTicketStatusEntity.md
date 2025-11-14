@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/DeleteTicketStatusEntity
 Deletes the TicketStatusEntity
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -26,7 +28,7 @@ Deletes the TicketStatusEntity
 | ticketStatusEntityId | int32 | **Required** The identity of the TicketStatusEntity |
 
 ```http
-POST /api/v1/Agents/List/DeleteTicketStatusEntity?ticketStatusEntityId=58
+POST /api/v1/Agents/List/DeleteTicketStatusEntity?ticketStatusEntityId=960
 ```
 
 
@@ -57,7 +59,7 @@ No Content
 POST /api/v1/Agents/List/DeleteTicketStatusEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response

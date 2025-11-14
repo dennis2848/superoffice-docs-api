@@ -14,6 +14,8 @@ PUT /api/v1/Product/{id}
 Updates the existing Product
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -145,55 +147,55 @@ Product updated.
 PUT /api/v1/Product/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 630,
-  "ERPProductKey": "itaque",
-  "ERPPriceListKey": "consequatur",
-  "Name": "Beer, Rau and Abernathy",
-  "Description": "Stand-alone static synergy",
-  "Code": "sequi",
-  "PriceUnit": "ullam",
-  "QuantityUnit": "nihil",
-  "IsSubscription": false,
-  "SubscriptionUnit": "et",
-  "DefaultSubscriptionQuantity": 26319.332,
-  "ItemNumber": "1059772",
+  "ProductId": 828,
+  "ERPProductKey": "ab",
+  "ERPPriceListKey": "est",
+  "Name": "Anderson-Abbott",
+  "Description": "Integrated stable open architecture",
+  "Code": "aut",
+  "PriceUnit": "quidem",
+  "QuantityUnit": "dolor",
+  "IsSubscription": true,
+  "SubscriptionUnit": "magni",
+  "DefaultSubscriptionQuantity": 9104.27,
+  "ItemNumber": "1128528",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "repellendus",
-  "ProductTypeKey": "unde",
-  "VAT": 21724.888,
-  "VATInfo": "eum",
-  "UnitCost": 27604.272,
-  "UnitMinimumPrice": 21.938,
-  "UnitListPrice": 10288.922,
+  "ProductFamilyKey": "et",
+  "ProductTypeKey": "aliquam",
+  "VAT": 10238.778,
+  "VATInfo": "sed",
+  "UnitCost": 7217.602,
+  "UnitMinimumPrice": 17108.506,
+  "UnitListPrice": 20483.824,
   "InAssortment": true,
-  "Supplier": "ducimus",
-  "SupplierCode": "ut",
-  "Rights": "qui",
-  "Rule": "qui",
+  "Supplier": "nulla",
+  "SupplierCode": "et",
+  "Rights": "et",
+  "Rule": "eos",
   "ExtraInfo": [
     {
-      "Name": "Weissnat-Baumbach",
-      "Value": "aspernatur",
+      "Name": "Armstrong, Mayert and Rolfson",
+      "Value": "praesentium",
       "Type": "Image"
     },
     {
-      "Name": "Weissnat-Baumbach",
-      "Value": "aspernatur",
+      "Name": "Armstrong, Mayert and Rolfson",
+      "Value": "praesentium",
       "Type": "Image"
     }
   ],
-  "RawExtraInfo": "minus",
-  "ExtraField1": "ipsa",
-  "ExtraField2": "voluptas",
-  "ExtraField3": "doloribus",
-  "ExtraField4": "assumenda",
-  "ExtraField5": "laboriosam",
-  "InStock": 20606.05
+  "RawExtraInfo": "consequatur",
+  "ExtraField1": "aut",
+  "ExtraField2": "ullam",
+  "ExtraField3": "quisquam",
+  "ExtraField4": "ratione",
+  "ExtraField5": "sint",
+  "InStock": 13143.996
 }
 ```
 
@@ -204,73 +206,73 @@ HTTP/1.1 200 Product updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 772,
-  "ERPProductKey": "voluptatum",
-  "ERPPriceListKey": "distinctio",
-  "Name": "Kling Inc and Sons",
-  "Description": "Exclusive incremental neural-net",
-  "Code": "aliquid",
-  "PriceUnit": "optio",
-  "QuantityUnit": "quidem",
+  "ProductId": 519,
+  "ERPProductKey": "aliquid",
+  "ERPPriceListKey": "sit",
+  "Name": "Stamm Group",
+  "Description": "Fundamental next generation encoding",
+  "Code": "nam",
+  "PriceUnit": "unde",
+  "QuantityUnit": "pariatur",
   "IsSubscription": false,
-  "SubscriptionUnit": "assumenda",
-  "DefaultSubscriptionQuantity": 28782.656,
-  "ItemNumber": "1395242",
+  "SubscriptionUnit": "quasi",
+  "DefaultSubscriptionQuantity": 18.804,
+  "ItemNumber": "961245",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "ut",
-  "ProductTypeKey": "nihil",
-  "VAT": 13736.322,
-  "VATInfo": "velit",
-  "UnitCost": 25582.842,
-  "UnitMinimumPrice": 20490.092,
-  "UnitListPrice": 3159.072,
-  "InAssortment": false,
-  "Supplier": "quas",
-  "SupplierCode": "corporis",
-  "Rights": "corporis",
-  "Rule": "rerum",
+  "ProductFamilyKey": "ea",
+  "ProductTypeKey": "et",
+  "VAT": 13526.344,
+  "VATInfo": "deleniti",
+  "UnitCost": 2450.788,
+  "UnitMinimumPrice": 29898.36,
+  "UnitListPrice": 30772.746,
+  "InAssortment": true,
+  "Supplier": "omnis",
+  "SupplierCode": "veniam",
+  "Rights": "dignissimos",
+  "Rule": "quidem",
   "ExtraInfo": [
     {
-      "Name": "Wintheiser-Leffler",
-      "Value": "omnis",
+      "Name": "Hyatt, Ziemann and Schiller",
+      "Value": "non",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 22
+          "FieldType": "System.Int32",
+          "FieldLength": 854
         }
       }
     },
     {
-      "Name": "Wintheiser-Leffler",
-      "Value": "omnis",
+      "Name": "Hyatt, Ziemann and Schiller",
+      "Value": "non",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 22
+          "FieldType": "System.Int32",
+          "FieldLength": 854
         }
       }
     }
   ],
-  "RawExtraInfo": "sunt",
-  "ExtraField1": "laudantium",
-  "ExtraField2": "assumenda",
-  "ExtraField3": "enim",
-  "ExtraField4": "molestias",
-  "ExtraField5": "adipisci",
-  "InStock": 14435.204,
+  "RawExtraInfo": "maiores",
+  "ExtraField1": "corrupti",
+  "ExtraField2": "deleniti",
+  "ExtraField3": "voluptas",
+  "ExtraField4": "enim",
+  "ExtraField5": "repellendus",
+  "InStock": 31023.466,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 808
+      "FieldLength": 608
     }
   }
 }

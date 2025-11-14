@@ -76,25 +76,25 @@ OK
 PUT /api/v1/List/ProductFamily/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 128,
-    "Name": "Reichel-Hilpert",
-    "Tooltip": "minima",
+    "HeadingId": 314,
+    "Name": "Ullrich, Zieme and Hudson",
+    "Tooltip": "minus",
     "Deleted": false,
-    "Rank": 382,
-    "UdListDefinitionId": 316
+    "Rank": 383,
+    "UdListDefinitionId": 445
   },
   {
-    "HeadingId": 128,
-    "Name": "Reichel-Hilpert",
-    "Tooltip": "minima",
+    "HeadingId": 314,
+    "Name": "Ullrich, Zieme and Hudson",
+    "Tooltip": "minus",
     "Deleted": false,
-    "Rank": 382,
-    "UdListDefinitionId": 316
+    "Rank": 383,
+    "UdListDefinitionId": 445
   }
 ]
 ```
@@ -107,18 +107,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 710,
-    "Name": "Leffler-Gutkowski",
-    "Tooltip": "quia",
+    "HeadingId": 416,
+    "Name": "Gutkowski-Schuppe",
+    "Tooltip": "et",
     "Deleted": false,
-    "Rank": 354,
-    "UdListDefinitionId": 195,
+    "Rank": 221,
+    "UdListDefinitionId": 147,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 701
+        "FieldLength": 710
       }
     }
   }

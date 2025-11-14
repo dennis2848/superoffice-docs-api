@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/GetCategoryList
 Gets an array of Category objects.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -84,28 +86,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 720,
-    "Value": "id",
+    "Id": 915,
+    "Value": "quas",
     "Tooltip": "et",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 184
+        "FieldLength": 616
       }
     }
   },
   {
-    "Id": 720,
-    "Value": "id",
+    "Id": 915,
+    "Value": "quas",
     "Tooltip": "et",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 184
+        "FieldLength": 616
       }
     }
   }

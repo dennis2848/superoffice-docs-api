@@ -14,6 +14,9 @@ POST /api/v1/Agents/User/CreateDefaultUntrustedCredentials
 Loading default values into a new UntrustedCredentials.
 
 
+NsApiSlow threshold: 5000 ms.
+
+
 ## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
 
 
@@ -73,18 +76,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ValidFrom": "2014-10-13T03:46:55.581978+02:00",
-  "ValidTo": "2005-01-08T03:46:55.581978+01:00",
-  "Comment": "architecto",
-  "SecretValue": "ut",
-  "PublicValue": "quo",
+  "ValidFrom": "2000-08-05T02:30:48.1006818+02:00",
+  "ValidTo": "2009-08-07T02:30:48.1006818+02:00",
+  "Comment": "dolorem",
+  "SecretValue": "voluptatem",
+  "PublicValue": "aliquid",
   "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 992
+      "FieldLength": 570
     }
   }
 }

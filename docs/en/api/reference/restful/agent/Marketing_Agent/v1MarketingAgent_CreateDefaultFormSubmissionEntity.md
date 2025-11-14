@@ -14,6 +14,8 @@ POST /api/v1/Agents/Marketing/CreateDefaultFormSubmissionEntity
 Loading default values into a new FormSubmissionEntity.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -65,7 +67,7 @@ OK
 POST /api/v1/Agents/Marketing/CreateDefaultFormSubmissionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -75,22 +77,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormSubmissionId": 520,
-  "FormId": 35,
-  "WhenSubmitted": "1998-12-02T03:46:55.0038735+01:00",
-  "ContactId": 904,
-  "PersonId": 649,
-  "EmailAddress": "consuelo_terry@osinski.name",
-  "ResponseShipmentAddrId": 209,
-  "Response": "dolor",
+  "FormSubmissionId": 957,
+  "FormId": 193,
+  "WhenSubmitted": "2010-02-21T02:30:47.4600781+01:00",
+  "ContactId": 299,
+  "PersonId": 668,
+  "EmailAddress": "dejuan@kreiger.us",
+  "ResponseShipmentAddrId": 988,
+  "Response": "illo",
   "Status": "EmailVerification",
-  "ProcessingLog": "repudiandae",
+  "ProcessingLog": "sed",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 150
+      "FieldType": "System.Int32",
+      "FieldLength": 552
     }
   }
 }

@@ -1,12 +1,16 @@
----
+﻿---
 uid: help-sv-tutorial-email-mailing
 title: Handledning - e-postutskick
 description: När du har slutfört de nödvändiga förberedelserna, vilket inkluderar att skapa din mållista och förbereda din utskicksmall, är du redo att skapa ett nytt utskick i SuperOffice CRM. I den här instruktionsguiden lär du dig att skapa ett e-postutskick.
 keywords: e-postutskick
-date: 06.27.2025
+date: 09.26.2025
 version: 10.5
 content_type: tutorial
+category: marketing
+topic: mailing
+license: marketingessentials
 audience: person
+audience_tooltip: SuperOffice Marketing
 language: sv
 ---
 
@@ -77,5 +81,5 @@ Om du försöker skicka från en domän som inte har en giltig SPF-post visas en
 [!include[Så här bekräftar och skickar du ett utskick](includes/step-5-confirm-and-send-mailing.md)]
 
 <!-- Referenced links -->
-[2]: ../../../../admin/lists/learn/add-items-to-mailing-domain.md
+[2]: ../../admin/add-domain.md
 [4]: ../../../learn/create-folder.md

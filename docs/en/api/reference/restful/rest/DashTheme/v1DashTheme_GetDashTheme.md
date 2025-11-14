@@ -15,6 +15,7 @@ Gets a DashTheme object.
 
 
 Calls the Dash agent service GetDashTheme.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -89,23 +90,23 @@ HTTP/1.1 200 DashTheme found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 926,
-  "Name": "Tillman, Heathcote and Gibson",
-  "Config": "eos",
-  "Rank": 260,
-  "Client": "praesentium",
-  "Style": "beatae",
+  "DashboardThemeId": 490,
+  "Name": "Schmitt, Huel and Greenholt",
+  "Config": "quia",
+  "Rank": 966,
+  "Client": "quo",
+  "Style": "porro",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 947
+      "FieldLength": 500
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

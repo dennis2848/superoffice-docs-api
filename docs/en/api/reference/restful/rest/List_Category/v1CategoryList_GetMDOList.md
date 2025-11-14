@@ -27,8 +27,8 @@ Get the MDO list items for "Category" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Category/MDOItems?flat=True
-GET /api/v1/List/Category/MDOItems?query=nostrum
+GET /api/v1/List/Category/MDOItems?flat=False
+GET /api/v1/List/Category/MDOItems?query=corporis
 ```
 
 
@@ -79,7 +79,7 @@ OK
 GET /api/v1/List/Category/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -90,50 +90,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 897,
-    "Name": "Wilkinson-Prosacco",
-    "ToolTip": "Rerum beatae qui voluptas adipisci.",
-    "Deleted": false,
-    "Rank": 64,
-    "Type": "aut",
+    "Id": 25,
+    "Name": "Goyette, Reinger and Reinger",
+    "ToolTip": "Et sit sed sint recusandae et voluptatem maiores.",
+    "Deleted": true,
+    "Rank": 22,
+    "Type": "veniam",
     "ChildItems": [
       {
-        "Id": 685,
-        "Name": "Hodkiewicz LLC",
-        "ToolTip": "Quaerat amet velit.",
-        "Deleted": false,
-        "Rank": 37,
-        "Type": "qui",
+        "Id": 69,
+        "Name": "Dickens Inc and Sons",
+        "ToolTip": "Alias nemo.",
+        "Deleted": true,
+        "Rank": 690,
+        "Type": "debitis",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "quidem",
-        "ColorBlock": 658,
-        "ExtraInfo": "ut",
-        "StyleHint": "consequatur",
-        "FullName": "Velva Pagac",
+        "IconHint": "suscipit",
+        "ColorBlock": 178,
+        "ExtraInfo": "quae",
+        "StyleHint": "nam",
+        "FullName": "Prof. Adah America Fadel I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 485
+            "FieldLength": 264
           }
         }
       }
     ],
-    "IconHint": "nihil",
-    "ColorBlock": 113,
-    "ExtraInfo": "assumenda",
-    "StyleHint": "facilis",
-    "FullName": "Rhett Schuppe V",
+    "IconHint": "soluta",
+    "ColorBlock": 243,
+    "ExtraInfo": "quam",
+    "StyleHint": "ut",
+    "FullName": "Prudence Raynor",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 863
+        "FieldType": "System.Int32",
+        "FieldLength": 590
       }
     }
   }

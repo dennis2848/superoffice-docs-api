@@ -76,16 +76,16 @@ OK
 POST /api/v1/List/Country/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 607,
-  "Name": "Reinger, Treutel and Barrows",
-  "Tooltip": "quo",
-  "Deleted": false,
-  "Rank": 543,
-  "UdListDefinitionId": 178
+  "HeadingId": 71,
+  "Name": "McCullough Inc and Sons",
+  "Tooltip": "fugiat",
+  "Deleted": true,
+  "Rank": 539,
+  "UdListDefinitionId": 43
 }
 ```
 
@@ -96,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 577,
-  "Name": "Yost, Stoltenberg and Toy",
-  "Tooltip": "deleniti",
+  "HeadingId": 707,
+  "Name": "Roob-Greenholt",
+  "Tooltip": "aut",
   "Deleted": true,
-  "Rank": 815,
-  "UdListDefinitionId": 413,
+  "Rank": 4,
+  "UdListDefinitionId": 865,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 48
+      "FieldType": "System.Int32",
+      "FieldLength": 483
     }
   }
 }

@@ -18,8 +18,9 @@ items:
   - SuperOffice.Util.RagAIHelper.Markdownize(System.Boolean,System.String)
   - SuperOffice.Util.RagAIHelper.Markdownize(System.String,System.String,System.IO.Stream)
   - SuperOffice.Util.RagAIHelper.Markdownize(System.String,System.String,System.String)
-  - SuperOffice.Util.RagAIHelper.PutDocument(System.String,System.String,System.String,System.String,SuperOffice.Data.RagType,System.Collections.Generic.Dictionary{System.String,System.Object})
+  - SuperOffice.Util.RagAIHelper.PutDocument(System.String,System.String,System.String,SuperOffice.Data.RagType,System.Collections.Generic.Dictionary{System.String,System.Object})
   - SuperOffice.Util.RagAIHelper.ServiceCopilotNS
+  - SuperOffice.Util.RagAIHelper._sharedHttpClient
   langs:
   - csharp
   - vb
@@ -57,6 +58,36 @@ items:
   extensionMethods:
   - SuperOffice.Util.RagAIHelper.EnumUtil.MapEnums``2
   - SuperOffice.Util.RagAIHelper.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+- uid: SuperOffice.Util.RagAIHelper._sharedHttpClient
+  commentId: F:SuperOffice.Util.RagAIHelper._sharedHttpClient
+  id: _sharedHttpClient
+  parent: SuperOffice.Util.RagAIHelper
+  langs:
+  - csharp
+  - vb
+  name: _sharedHttpClient
+  nameWithType: RagAIHelper._sharedHttpClient
+  fullName: SuperOffice.Util.RagAIHelper._sharedHttpClient
+  type: Field
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.Util
+  summary: >-
+    This HttpClient is created with an explicit IHttpClientHandler, to avoid Kiota
+
+    creating one using its own factory. This is because when on .NET Framework,
+
+    Kiota defaults to using a different IHttpClientHandler implementation (WinHttpHandler.cs)
+
+    than the one used in the rest of the codebase, and we want to use the same implementation
+
+    everywhere to ensure HTTP requests behaves consistently and predictably.
+  example: []
+  syntax:
+    content: protected static HttpClient _sharedHttpClient
+    return:
+      type: System.Net.Http.HttpClient
+    content.vb: Protected Shared _sharedHttpClient As HttpClient
 - uid: SuperOffice.Util.RagAIHelper.ServiceCopilotNS
   commentId: F:SuperOffice.Util.RagAIHelper.ServiceCopilotNS
   id: ServiceCopilotNS
@@ -300,26 +331,24 @@ items:
   nameWithType.vb: RagAIHelper.DeleteNamespace(String)
   fullName.vb: SuperOffice.Util.RagAIHelper.DeleteNamespace(String)
   name.vb: DeleteNamespace(String)
-- uid: SuperOffice.Util.RagAIHelper.PutDocument(System.String,System.String,System.String,System.String,SuperOffice.Data.RagType,System.Collections.Generic.Dictionary{System.String,System.Object})
-  commentId: M:SuperOffice.Util.RagAIHelper.PutDocument(System.String,System.String,System.String,System.String,SuperOffice.Data.RagType,System.Collections.Generic.Dictionary{System.String,System.Object})
-  id: PutDocument(System.String,System.String,System.String,System.String,SuperOffice.Data.RagType,System.Collections.Generic.Dictionary{System.String,System.Object})
+- uid: SuperOffice.Util.RagAIHelper.PutDocument(System.String,System.String,System.String,SuperOffice.Data.RagType,System.Collections.Generic.Dictionary{System.String,System.Object})
+  commentId: M:SuperOffice.Util.RagAIHelper.PutDocument(System.String,System.String,System.String,SuperOffice.Data.RagType,System.Collections.Generic.Dictionary{System.String,System.Object})
+  id: PutDocument(System.String,System.String,System.String,SuperOffice.Data.RagType,System.Collections.Generic.Dictionary{System.String,System.Object})
   parent: SuperOffice.Util.RagAIHelper
   langs:
   - csharp
   - vb
-  name: PutDocument(string, string, string, string, RagType, Dictionary<string, object>)
-  nameWithType: RagAIHelper.PutDocument(string, string, string, string, RagType, Dictionary<string, object>)
-  fullName: SuperOffice.Util.RagAIHelper.PutDocument(string, string, string, string, SuperOffice.Data.RagType, System.Collections.Generic.Dictionary<string, object>)
+  name: PutDocument(string, string, string, RagType, Dictionary<string, object>)
+  nameWithType: RagAIHelper.PutDocument(string, string, string, RagType, Dictionary<string, object>)
+  fullName: SuperOffice.Util.RagAIHelper.PutDocument(string, string, string, SuperOffice.Data.RagType, System.Collections.Generic.Dictionary<string, object>)
   type: Method
   assemblies:
   - SoDataBase.BusinessLogic
   namespace: SuperOffice.Util
   syntax:
-    content: public Task PutDocument(string namespaceName, string uid, string id, string documentContent, RagType ragType, Dictionary<string, object> metadata = null)
+    content: public Task PutDocument(string namespaceName, string id, string documentContent, RagType ragType, Dictionary<string, object> metadata = null)
     parameters:
     - id: namespaceName
-      type: System.String
-    - id: uid
       type: System.String
     - id: id
       type: System.String
@@ -331,11 +360,11 @@ items:
       type: System.Collections.Generic.Dictionary{System.String,System.Object}
     return:
       type: System.Threading.Tasks.Task
-    content.vb: Public Function PutDocument(namespaceName As String, uid As String, id As String, documentContent As String, ragType As RagType, metadata As Dictionary(Of String, Object) = Nothing) As Task
+    content.vb: Public Function PutDocument(namespaceName As String, id As String, documentContent As String, ragType As RagType, metadata As Dictionary(Of String, Object) = Nothing) As Task
   overload: SuperOffice.Util.RagAIHelper.PutDocument*
-  nameWithType.vb: RagAIHelper.PutDocument(String, String, String, String, RagType, Dictionary(Of String, Object))
-  fullName.vb: SuperOffice.Util.RagAIHelper.PutDocument(String, String, String, String, SuperOffice.Data.RagType, System.Collections.Generic.Dictionary(Of String, Object))
-  name.vb: PutDocument(String, String, String, String, RagType, Dictionary(Of String, Object))
+  nameWithType.vb: RagAIHelper.PutDocument(String, String, String, RagType, Dictionary(Of String, Object))
+  fullName.vb: SuperOffice.Util.RagAIHelper.PutDocument(String, String, String, SuperOffice.Data.RagType, System.Collections.Generic.Dictionary(Of String, Object))
+  name.vb: PutDocument(String, String, String, RagType, Dictionary(Of String, Object))
 - uid: SuperOffice.Util.RagAIHelper.Markdownize(System.Boolean,System.String)
   commentId: M:SuperOffice.Util.RagAIHelper.Markdownize(System.Boolean,System.String)
   id: Markdownize(System.Boolean,System.String)
@@ -984,6 +1013,51 @@ references:
     name: ConnectorWS
     isExternal: true
     href: SuperOffice.ErpSync.ConnectorWS.html
+- uid: System.Net.Http.HttpClient
+  commentId: T:System.Net.Http.HttpClient
+  parent: System.Net.Http
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.net.http.httpclient
+  name: HttpClient
+  nameWithType: HttpClient
+  fullName: System.Net.Http.HttpClient
+- uid: System.Net.Http
+  commentId: N:System.Net.Http
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Net.Http
+  nameWithType: System.Net.Http
+  fullName: System.Net.Http
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Net
+    name: Net
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net
+  - name: .
+  - uid: System.Net.Http
+    name: Http
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net.http
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Net
+    name: Net
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net
+  - name: .
+  - uid: System.Net.Http
+    name: Http
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net.http
 - uid: System.String
   commentId: T:System.String
   parent: System
@@ -1581,7 +1655,7 @@ references:
 - uid: SuperOffice.Util.RagAIHelper.PutDocument*
   commentId: Overload:SuperOffice.Util.RagAIHelper.PutDocument
   isExternal: true
-  href: SuperOffice.Util.RagAIHelper.html#SuperOffice_Util_RagAIHelper_PutDocument_System_String_System_String_System_String_System_String_SuperOffice_Data_RagType_System_Collections_Generic_Dictionary_System_String_System_Object__
+  href: SuperOffice.Util.RagAIHelper.html#SuperOffice_Util_RagAIHelper_PutDocument_System_String_System_String_System_String_SuperOffice_Data_RagType_System_Collections_Generic_Dictionary_System_String_System_Object__
   name: PutDocument
   nameWithType: RagAIHelper.PutDocument
   fullName: SuperOffice.Util.RagAIHelper.PutDocument

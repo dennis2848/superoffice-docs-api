@@ -14,6 +14,8 @@ POST /api/v1/Agents/MDO/GetSimpleList
 Method returns a simple flat MDO List.
 
 
+NsApiSlow threshold: 1700 ms.
+
 
 
 
@@ -89,7 +91,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Kreiger Inc and Sons"
+  "Name": "Lakin, Lowe and Zemlak"
 }
 ```
 
@@ -101,50 +103,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 154,
-    "Name": "Feeney, Runolfsson and Stoltenberg",
-    "ToolTip": "Voluptates totam eum.",
+    "Id": 160,
+    "Name": "Waelchi-Simonis",
+    "ToolTip": "Aut perferendis voluptates et nihil non.",
     "Deleted": false,
-    "Rank": 181,
-    "Type": "in",
+    "Rank": 561,
+    "Type": "natus",
     "ChildItems": [
       {
-        "Id": 160,
-        "Name": "Yost Inc and Sons",
-        "ToolTip": "Optio eos.",
+        "Id": 890,
+        "Name": "Eichmann-Wiegand",
+        "ToolTip": "Qui ut fugit dolorem sed iure.",
         "Deleted": false,
-        "Rank": 746,
-        "Type": "sequi",
+        "Rank": 589,
+        "Type": "quia",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "eos",
-        "ColorBlock": 821,
-        "ExtraInfo": "sequi",
-        "StyleHint": "et",
-        "FullName": "Naomi Cronin",
+        "IconHint": "aspernatur",
+        "ColorBlock": 427,
+        "ExtraInfo": "necessitatibus",
+        "StyleHint": "magnam",
+        "FullName": "Mrs. Macy Tyrell Jast",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 264
+            "FieldType": "System.Int32",
+            "FieldLength": 778
           }
         }
       }
     ],
-    "IconHint": "sunt",
-    "ColorBlock": 732,
-    "ExtraInfo": "eveniet",
-    "StyleHint": "nam",
-    "FullName": "Prof. Vergie Runte",
+    "IconHint": "non",
+    "ColorBlock": 821,
+    "ExtraInfo": "et",
+    "StyleHint": "voluptatibus",
+    "FullName": "Parker Bode",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 651
+        "FieldType": "System.String",
+        "FieldLength": 608
       }
     }
   }

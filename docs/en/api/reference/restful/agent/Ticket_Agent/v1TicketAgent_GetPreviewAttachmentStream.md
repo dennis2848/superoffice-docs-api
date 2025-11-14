@@ -15,6 +15,7 @@ Deprecated, see GetPreviewAttachment instead.
 
 
 Retrieve an attachment from ticket message. The returned data is intended to be used for a preview. The returned data is sanitized.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -79,11 +80,11 @@ OK
 POST /api/v1/Agents/Ticket/GetPreviewAttachmentStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 611
+  "AttachmentId": 636
 }
 ```
 
@@ -94,16 +95,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Dicki LLC",
-  "Type": "inventore",
-  "Size": 276,
+  "Name": "Roob Inc and Sons",
+  "Type": "quos",
+  "Size": 620,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 424
+      "FieldLength": 412
     }
   }
 }

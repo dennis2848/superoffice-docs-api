@@ -14,6 +14,8 @@ POST /api/v1/Agents/Document/SubstituteTemplateVariablesEx
 Parse the source string, and replace any template variable tags with their values, based on the identities, custom values and entities specified in the other parameters.
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -69,7 +71,7 @@ OK
 POST /api/v1/Agents/Document/SubstituteTemplateVariablesEx
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -83,5 +85,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"adipisci"
+"id"
 ```

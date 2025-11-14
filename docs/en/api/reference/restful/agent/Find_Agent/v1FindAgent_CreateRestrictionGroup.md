@@ -14,6 +14,8 @@ POST /api/v1/Agents/Find/CreateRestrictionGroup
 Create a restriction group, initialized with next rank etc.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -78,14 +80,14 @@ OK
 POST /api/v1/Agents/Find/CreateRestrictionGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "totam",
-  "ProviderName": "Mills, Blick and Dickens",
-  "StorageKey": "eos",
-  "Context": "autem"
+  "StorageType": "eaque",
+  "ProviderName": "Zulauf, Hagenes and Collins",
+  "StorageKey": "nostrum",
+  "Context": "ab"
 }
 ```
 
@@ -96,20 +98,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Swift Inc and Sons",
-  "Description": "Cross-platform 5th generation interface",
-  "Rank": 145,
+  "Name": "Stokes-Fay",
+  "Description": "Virtual even-keeled complexity",
+  "Rank": 811,
   "Restrictions": [
     {
-      "Name": "Ankunding Group",
-      "Operator": "rem",
+      "Name": "Schuster LLC",
+      "Operator": "dolorem",
       "Values": [
-        "reiciendis",
-        "sed"
+        "unde",
+        "sit"
       ],
       "DisplayValues": [
-        "laudantium",
-        "ad"
+        "ut",
+        "omnis"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -117,9 +119,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 367,
+      "InterParenthesis": 327,
       "InterOperator": "And",
-      "UniqueHash": 976
+      "UniqueHash": 80
     }
   ]
 }

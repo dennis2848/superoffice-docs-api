@@ -14,6 +14,8 @@ POST /api/v1/Agents/Contact/GetMyContacts
 Getting the contacts where the user currently logged in is set as contact owner.
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -89,7 +91,7 @@ OK
 POST /api/v1/Agents/Contact/GetMyContacts
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -100,36 +102,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 786,
-    "Name": "Ruecker, Hansen and Barrows",
-    "OrgNr": "1279435",
-    "Department": "reinvent customized niches",
+    "ContactId": 806,
+    "Name": "Swaniawski, Predovic and Reichert",
+    "OrgNr": "1033477",
+    "Department": "",
     "URL": "http://www.example.com/",
-    "City": "iure",
-    "DirectPhone": "1-321-676-2216",
-    "AssociateId": 636,
-    "CountryId": 993,
-    "EmailAddress": "amira_rutherford@sipesmurray.biz",
-    "Kananame": "rem",
-    "EmailAddressName": "sylvan.fahey@bartoncarter.biz",
+    "City": "impedit",
+    "DirectPhone": "335.133.6377 x4325",
+    "AssociateId": 569,
+    "CountryId": 183,
+    "EmailAddress": "abbey_baumbach@towne.info",
+    "Kananame": "aut",
+    "EmailAddressName": "wilfredo.mayert@herman.info",
     "URLName": "http://www.example.com/",
-    "AssociateFullName": "Ms. Austen Gibson IV",
+    "AssociateFullName": "Cassandre Kessler",
     "BusinessName": "Information Technology",
     "CategoryName": "VIP Customer",
     "CountryName": "Sokovia",
     "Address": null,
-    "FormattedAddress": "dolorem",
-    "FullName": "Kurt Green",
-    "IsOwnerContact": true,
-    "ActiveErpLinks": 902,
-    "Number1": "516090",
-    "Number2": "962212",
+    "FormattedAddress": "ut",
+    "FullName": "Prof. Jeanne Rath Sr.",
+    "IsOwnerContact": false,
+    "ActiveErpLinks": 586,
+    "Number1": "829740",
+    "Number2": "1315457",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 872
+        "FieldLength": 478
       }
     }
   }

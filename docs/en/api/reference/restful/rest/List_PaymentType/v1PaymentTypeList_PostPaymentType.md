@@ -74,16 +74,16 @@ OK
 POST /api/v1/List/PaymentType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 250,
-  "Name": "Kshlerin Inc and Sons",
-  "Tooltip": "ipsa",
+  "Id": 196,
+  "Name": "Skiles, Stiedemann and Stroman",
+  "Tooltip": "expedita",
   "Deleted": false,
-  "UdListDefinitionId": 428,
-  "Rank": 55
+  "UdListDefinitionId": 932,
+  "Rank": 122
 }
 ```
 
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 661,
-  "Name": "Emmerich, Feeney and Windler",
-  "Tooltip": "molestiae",
+  "Id": 610,
+  "Name": "Kassulke Group",
+  "Tooltip": "et",
   "Deleted": false,
-  "UdListDefinitionId": 619,
-  "Rank": 42,
+  "UdListDefinitionId": 654,
+  "Rank": 257,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 430
+      "FieldLength": 315
     }
   }
 }

@@ -14,6 +14,8 @@ POST /api/v1/Agents/Contact/GetAddress
 Gets the contact's localized address.
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -83,7 +85,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 273
+  "ContactId": 356
 }
 ```
 
@@ -94,41 +96,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Wgs84Latitude": 20117.146,
-  "Wgs84Longitude": 24768.002,
+  "Wgs84Latitude": 29600.629999999997,
+  "Wgs84Longitude": 29036.51,
   "LocalizedAddress": [
     [
       {
-        "Name": "Deckow, Boyle and Friesen",
-        "Value": "corporis",
-        "Tooltip": "porro",
-        "Label": "perspiciatis",
-        "ValueLength": 624,
-        "AddressType": "molestiae",
+        "Name": "Breitenberg, Lowe and Willms",
+        "Value": "molestias",
+        "Tooltip": "quis",
+        "Label": "dicta",
+        "ValueLength": 149,
+        "AddressType": "molestias",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 225
+            "FieldLength": 636
           }
         }
       }
     ],
     [
       {
-        "Name": "Breitenberg, Hammes and Quitzon",
-        "Value": "inventore",
-        "Tooltip": "ut",
-        "Label": "dolor",
-        "ValueLength": 912,
-        "AddressType": "voluptas",
+        "Name": "Wisozk, Oberbrunner and Hartmann",
+        "Value": "voluptas",
+        "Tooltip": "repellendus",
+        "Label": "doloribus",
+        "ValueLength": 559,
+        "AddressType": "consequuntur",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 410
+            "FieldLength": 264
           }
         }
       }
@@ -136,13 +138,13 @@ Content-Type: application/json; charset=utf-8
   ],
   "Street": null,
   "Postal": null,
-  "Formatted": "repudiandae",
+  "Formatted": "doloremque",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 585
+      "FieldLength": 56
     }
   }
 }

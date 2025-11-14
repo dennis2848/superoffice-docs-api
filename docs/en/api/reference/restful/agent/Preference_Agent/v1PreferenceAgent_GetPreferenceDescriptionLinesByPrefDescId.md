@@ -14,6 +14,8 @@ POST /api/v1/Agents/Preference/GetPreferenceDescriptionLinesByPrefDescId
 Get all preference description lines from a prefDesc_id
 
 
+NsApiSlow threshold: 1000 ms.
+
 
 
 
@@ -79,11 +81,11 @@ OK
 POST /api/v1/Agents/Preference/GetPreferenceDescriptionLinesByPrefDescId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 961
+  "PrefDescId": 841
 }
 ```
 
@@ -95,18 +97,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescLineId": 575,
-    "PrefDescId": 760,
-    "PrefValue": "dolor",
-    "PrefShowValue": "qui",
-    "Description": "Switchable homogeneous superstructure",
-    "IsBuiltin": false,
+    "PrefDescLineId": 804,
+    "PrefDescId": 868,
+    "PrefValue": "sapiente",
+    "PrefShowValue": "voluptatem",
+    "Description": "Phased bottom-line flexibility",
+    "IsBuiltin": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 782
+        "FieldLength": 304
       }
     }
   }

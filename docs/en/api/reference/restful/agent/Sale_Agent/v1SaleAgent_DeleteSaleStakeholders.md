@@ -11,7 +11,7 @@ content_type: reference
 POST /api/v1/Agents/Sale/DeleteSaleStakeholders
 ```
 
-
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -65,13 +65,13 @@ No Content
 POST /api/v1/Agents/Sale/DeleteSaleStakeholders
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "SaleStakeholderIds": [
-    229,
-    833
+    456,
+    753
   ]
 }
 ```

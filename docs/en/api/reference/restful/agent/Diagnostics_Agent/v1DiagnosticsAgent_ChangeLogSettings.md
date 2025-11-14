@@ -14,6 +14,8 @@ POST /api/v1/Agents/Diagnostics/ChangeLogSettings
 Change NetServer log settings.
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -72,18 +74,18 @@ No Content
 POST /api/v1/Agents/Diagnostics/ChangeLogSettings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "LogWarning": false,
-  "LogInformation": false,
-  "LogSuccessAudit": true,
+  "LogInformation": true,
+  "LogSuccessAudit": false,
   "LogFailureAudit": false,
-  "LogToEventLog": true,
+  "LogToEventLog": false,
   "LogToSuperOffice": false,
   "LogToFile": false,
-  "LogToTrace": true
+  "LogToTrace": false
 }
 ```
 

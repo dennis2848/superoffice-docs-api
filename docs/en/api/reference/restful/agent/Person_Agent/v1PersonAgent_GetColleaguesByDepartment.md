@@ -15,6 +15,7 @@ Gets the persons working in a specific department in the same company as the log
 
 
 Departments can be retrieved with the PhoneList.DepartmentList service.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -116,11 +117,11 @@ OK
 POST /api/v1/Agents/Person/GetColleaguesByDepartment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DepartmentId": 126
+  "DepartmentId": 933
 }
 ```
 
@@ -132,53 +133,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "quaerat",
-    "PersonId": 599,
-    "Mrmrs": "totam",
-    "Firstname": "Alphonso",
-    "Lastname": "Cassin",
-    "MiddleName": "Grady Group",
-    "Title": "nihil",
-    "Description": "Business-focused dynamic firmware",
-    "Email": "emmalee_mann@gutmann.com",
-    "FullName": "Queen Pacocha",
-    "DirectPhone": "666.180.9556 x867",
-    "FormalName": "DuBuque LLC",
-    "CountryId": 592,
-    "ContactId": 27,
-    "ContactName": "Ledner-Daniel",
-    "Retired": 215,
-    "Rank": 709,
-    "ActiveInterests": 846,
+    "Position": "quia",
+    "PersonId": 350,
+    "Mrmrs": "enim",
+    "Firstname": "Angus",
+    "Lastname": "Spencer",
+    "MiddleName": "Baumbach Inc and Sons",
+    "Title": "unde",
+    "Description": "Advanced full-range analyzer",
+    "Email": "jan_towne@konopelski.com",
+    "FullName": "Aisha Schaefer",
+    "DirectPhone": "749.807.3315 x959",
+    "FormalName": "Nitzsche, Zulauf and Mann",
+    "CountryId": 742,
+    "ContactId": 39,
+    "ContactName": "Lueilwitz, Abbott and Hoppe",
+    "Retired": 261,
+    "Rank": 639,
+    "ActiveInterests": 860,
     "ContactDepartment": "",
-    "ContactCountryId": 960,
-    "ContactOrgNr": "1191682",
-    "FaxPhone": "759-369-7447",
-    "MobilePhone": "811-713-3895 x623",
-    "ContactPhone": "276-932-1397 x914",
-    "AssociateName": "Thompson, Volkman and Sipes",
-    "AssociateId": 641,
+    "ContactCountryId": 198,
+    "ContactOrgNr": "723652",
+    "FaxPhone": "400.383.7722 x71791",
+    "MobilePhone": "(895)282-2792 x60339",
+    "ContactPhone": "812-352-6281 x272",
+    "AssociateName": "Kreiger-Turcotte",
+    "AssociateId": 40,
     "UsePersonAddress": false,
-    "ContactFax": "eveniet",
-    "Kanafname": "enim",
-    "Kanalname": "iusto",
-    "Post1": "sit",
-    "Post2": "veritatis",
-    "Post3": "minus",
-    "EmailName": "jocelyn_nienow@kiehn.ca",
-    "ContactFullName": "Ms. Wyatt Prosacco",
-    "ActiveErpLinks": 190,
-    "TicketPriorityId": 42,
-    "SupportLanguageId": 345,
-    "SupportAssociateId": 149,
+    "ContactFax": "quisquam",
+    "Kanafname": "sequi",
+    "Kanalname": "et",
+    "Post1": "consequatur",
+    "Post2": "est",
+    "Post3": "minima",
+    "EmailName": "freddy@bergnaum.uk",
+    "ContactFullName": "Lilla Ulises Cole II",
+    "ActiveErpLinks": 309,
+    "TicketPriorityId": 956,
+    "SupportLanguageId": 329,
+    "SupportAssociateId": 14,
     "CategoryName": "VIP Customer",
-    "PersonNumber": "1455199",
+    "PersonNumber": "1354532",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 873
+        "FieldLength": 914
       }
     }
   }

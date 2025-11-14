@@ -76,7 +76,7 @@ OK
 GET /api/v1/List/SelectionCategory/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -87,56 +87,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 98,
-    "Name": "Jenkins Group",
-    "ToolTip": "Vel ut ut.",
+    "Id": 594,
+    "Name": "Labadie, Bradtke and Macejkovic",
+    "ToolTip": "Et rem ipsa voluptate facere.",
     "Deleted": false,
-    "Rank": 971,
-    "Type": "dignissimos",
-    "ColorBlock": 328,
-    "IconHint": "corporis",
-    "Selected": false,
-    "LastChanged": "2001-01-13T03:47:00.8161673+01:00",
+    "Rank": 334,
+    "Type": "dolore",
+    "ColorBlock": 625,
+    "IconHint": "assumenda",
+    "Selected": true,
+    "LastChanged": "2022-08-13T02:30:53.4442597+02:00",
     "ChildItems": [
       {
-        "Id": 439,
-        "Name": "Hagenes-Hettinger",
-        "ToolTip": "Et enim in et voluptatum aliquam.",
-        "Deleted": false,
-        "Rank": 370,
-        "Type": "illo",
-        "ColorBlock": 662,
-        "IconHint": "consequatur",
+        "Id": 712,
+        "Name": "Bernier, Huel and Schaefer",
+        "ToolTip": "Repellendus porro culpa asperiores est.",
+        "Deleted": true,
+        "Rank": 698,
+        "Type": "voluptatem",
+        "ColorBlock": 831,
+        "IconHint": "vero",
         "Selected": false,
-        "LastChanged": "2018-11-25T03:47:00.8161673+01:00",
+        "LastChanged": "2017-12-29T02:30:53.4442597+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "explicabo",
-        "StyleHint": "voluptatem",
+        "ExtraInfo": "sint",
+        "StyleHint": "alias",
         "Hidden": false,
-        "FullName": "Miss Elvie Oma Cremin",
+        "FullName": "Moises Dare Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 391
+            "FieldType": "System.Int32",
+            "FieldLength": 123
           }
         }
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "voluptate",
-    "Hidden": true,
-    "FullName": "Mr. Dominique Dare I",
+    "ExtraInfo": "veritatis",
+    "StyleHint": "aut",
+    "Hidden": false,
+    "FullName": "Zion Paucek",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 245
+        "FieldLength": 685
       }
     }
   }

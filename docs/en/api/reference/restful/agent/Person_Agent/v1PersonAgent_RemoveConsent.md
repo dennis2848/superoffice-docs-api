@@ -14,6 +14,8 @@ POST /api/v1/Agents/Person/RemoveConsent
 Turn off consent for a specified person and purpose.
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -66,12 +68,12 @@ No Content
 POST /api/v1/Agents/Person/RemoveConsent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 207,
-  "Purpose": "sint"
+  "PersonId": 137,
+  "Purpose": "aperiam"
 }
 ```
 

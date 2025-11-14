@@ -15,6 +15,7 @@ Gets a RoleEntity object.
 
 
 Calls the User agent service GetRoleEntity.
+NsApiSlow threshold: 2000 ms.
 
 
 ## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
@@ -88,7 +89,7 @@ RoleEntity found.
 GET /api/v1/Role/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -98,24 +99,24 @@ HTTP/1.1 200 RoleEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 463,
-  "Name": "Romaguera, O'Reilly and Moore",
-  "Tooltip": "labore",
+  "RoleId": 126,
+  "Name": "Gorczany, Osinski and Hammes",
+  "Tooltip": "laboriosam",
   "RoleType": "Anonymous",
-  "Deleted": 802,
-  "Rank": 548,
-  "Created": "2002-10-15T03:47:00.2068137+02:00",
-  "UseCategories": 460,
+  "Deleted": 918,
+  "Rank": 429,
+  "Created": "2001-08-02T02:30:52.8349052+02:00",
+  "UseCategories": 589,
   "CreatedBy": null,
-  "Updated": "2018-01-09T03:47:00.2068137+01:00",
+  "Updated": "2019-11-05T02:30:52.8349052+01:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 661
+      "FieldType": "System.String",
+      "FieldLength": 594
     }
   },
   "_Links": {

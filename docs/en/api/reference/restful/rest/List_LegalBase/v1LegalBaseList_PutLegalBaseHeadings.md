@@ -76,25 +76,25 @@ OK
 PUT /api/v1/List/LegalBase/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 229,
-    "Name": "Koch Inc and Sons",
-    "Tooltip": "quia",
+    "HeadingId": 800,
+    "Name": "Weimann, Kunze and Schulist",
+    "Tooltip": "in",
     "Deleted": false,
-    "Rank": 585,
-    "UdListDefinitionId": 208
+    "Rank": 174,
+    "UdListDefinitionId": 696
   },
   {
-    "HeadingId": 229,
-    "Name": "Koch Inc and Sons",
-    "Tooltip": "quia",
+    "HeadingId": 800,
+    "Name": "Weimann, Kunze and Schulist",
+    "Tooltip": "in",
     "Deleted": false,
-    "Rank": 585,
-    "UdListDefinitionId": 208
+    "Rank": 174,
+    "UdListDefinitionId": 696
   }
 ]
 ```
@@ -107,18 +107,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 336,
-    "Name": "Corkery Group",
-    "Tooltip": "saepe",
+    "HeadingId": 982,
+    "Name": "Larson Inc and Sons",
+    "Tooltip": "repudiandae",
     "Deleted": true,
-    "Rank": 326,
-    "UdListDefinitionId": 842,
+    "Rank": 144,
+    "UdListDefinitionId": 706,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 672
+        "FieldLength": 636
       }
     }
   }

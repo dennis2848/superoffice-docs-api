@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/GetAllCurrencies
 Returns all currencies
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -80,11 +82,11 @@ OK
 POST /api/v1/Agents/List/GetAllCurrencies
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeDeleted": true
+  "IncludeDeleted": false
 }
 ```
 
@@ -96,19 +98,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CurrencyId": 379,
-    "Name": "Klocko Inc and Sons",
-    "Tooltip": "inventore",
-    "Rank": 152,
-    "Rate": 3550.8219999999997,
-    "Units": 24203.881999999998,
-    "Deleted": true,
+    "CurrencyId": 276,
+    "Name": "Boehm, Hegmann and Stamm",
+    "Tooltip": "et",
+    "Rank": 826,
+    "Rate": 391.75,
+    "Units": 18211.674,
+    "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 656
+        "FieldType": "System.Int32",
+        "FieldLength": 201
       }
     }
   }

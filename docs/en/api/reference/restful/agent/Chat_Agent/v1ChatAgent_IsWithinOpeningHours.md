@@ -15,6 +15,7 @@ Check if we are right now within the opening hours of the given topic.
 
 
 Will use timezones to calculate if configured.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -71,11 +72,11 @@ OK
 POST /api/v1/Agents/Chat/IsWithinOpeningHours
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 619
+  "ChatTopicId": 578
 }
 ```
 

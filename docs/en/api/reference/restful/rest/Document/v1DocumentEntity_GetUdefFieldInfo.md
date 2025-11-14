@@ -94,7 +94,7 @@ DocumentEntity found.
 GET /api/v1/Document/UdefLayout/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -104,46 +104,46 @@ HTTP/1.1 200 DocumentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 783,
-  "ColumnId": 7,
-  "FieldDefault": "voluptas",
-  "FieldHeight": 148,
-  "FieldLabel": "voluptatem",
-  "FieldLeft": 685,
-  "FieldTop": 571,
+  "UDefFieldId": 807,
+  "ColumnId": 594,
+  "FieldDefault": "rem",
+  "FieldHeight": 674,
+  "FieldLabel": "dolores",
+  "FieldLeft": 719,
+  "FieldTop": 31,
   "FieldType": "Checkbox",
-  "FieldWidth": 797,
-  "FormatMask": "voluptatibus",
+  "FieldWidth": 41,
+  "FormatMask": "nihil",
   "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 50,
-  "LabelLeft": 375,
-  "LabelTop": 550,
-  "LabelWidth": 659,
-  "LastVersionId": 797,
-  "ListTableId": 112,
+  "LabelHeight": 872,
+  "LabelLeft": 207,
+  "LabelTop": 48,
+  "LabelWidth": 921,
+  "LastVersionId": 683,
+  "ListTableId": 410,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 134,
-  "ProgId": "facilis",
-  "IsReadOnly": true,
-  "ShortLabel": "voluptatem",
-  "TabOrder": 536,
-  "TextLength": 778,
-  "Tooltip": "ea",
-  "UdefIdentity": 827,
-  "UDListDefinitionId": 382,
+  "Page1LineNo": 660,
+  "ProgId": "enim",
+  "IsReadOnly": false,
+  "ShortLabel": "culpa",
+  "TabOrder": 963,
+  "TextLength": 948,
+  "Tooltip": "corporis",
+  "UdefIdentity": 956,
+  "UDListDefinitionId": 913,
   "Justification": "Center",
-  "Version": 21,
-  "TemplateVariableName": "Nitzsche, Pfannerstill and Barton",
+  "Version": 296,
+  "TemplateVariableName": "Langworth-Vandervort",
   "HasBeenPublished": false,
-  "MdoListName": "Howell-Cartwright",
+  "MdoListName": "Renner-Effertz",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 22
+      "FieldType": "System.Int32",
+      "FieldLength": 570
     }
   }
 }

@@ -14,6 +14,8 @@ POST /api/v1/Agents/Preference/GetAllFromSection
 Gets all PreferenceDescription-items in the specified section
 
 
+NsApiSlow threshold: 1000 ms.
+
 
 
 
@@ -95,7 +97,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Section": "aspernatur"
+  "Section": "inventore"
 }
 ```
 
@@ -107,30 +109,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 211,
-    "Section": "labore",
-    "Key": "ipsum",
-    "Name": "Farrell, Boehm and Hayes",
+    "PrefDescId": 138,
+    "Section": "praesentium",
+    "Key": "officiis",
+    "Name": "Hegmann-Denesik",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Digitized fresh-thinking analyzer",
+    "Description": "Fundamental tertiary protocol",
     "IsBuiltin": false,
-    "TableName": "Ebert Inc and Sons",
-    "UserDefinedListId": 139,
-    "Rank": 759,
-    "SubGroup": "facilis",
-    "MinLevel": 798,
-    "MaxValue": 809,
-    "MinValue": 583,
-    "RequiredLicense": "ipsam",
+    "TableName": "Rowe-Ledner",
+    "UserDefinedListId": 704,
+    "Rank": 282,
+    "SubGroup": "enim",
+    "MinLevel": 222,
+    "MaxValue": 822,
+    "MinValue": 941,
+    "RequiredLicense": "itaque",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 798
+        "FieldLength": 505
       }
     }
   }

@@ -15,6 +15,7 @@ Set default values into a new TicketTypeEntity.
 
 
 NetServer calculates default values on the entity, which is required when creating/storing a new instance Calls the List agent service CreateDefaultTicketTypeEntity.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -86,40 +87,40 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 479,
-  "Name": "Miller Inc and Sons",
-  "Rank": 162,
-  "Tooltip": "nihil",
-  "Icon": "aut",
-  "DefaultTicketStatus": 320,
+  "TicketTypeId": 670,
+  "Name": "Bode, Jacobs and Mayert",
+  "Rank": 557,
+  "Tooltip": "nisi",
+  "Icon": "alias",
+  "DefaultTicketStatus": 749,
   "TicketStatuses": [
-    890,
-    835
+    1001,
+    952
   ],
-  "DefaultTicketPriority": 190,
+  "DefaultTicketPriority": 814,
   "TicketPriorities": [
-    997,
-    510
+    156,
+    776
   ],
-  "ReplyTemplate": 966,
-  "IsExternalVisible": true,
+  "ReplyTemplate": 785,
+  "IsExternalVisible": false,
   "IsDefault": true,
   "ShowInNew": true,
   "ExcludeSignature": false,
   "ExcludeEmailRecipients": true,
-  "ExternalAsDefault": true,
+  "ExternalAsDefault": false,
   "VisibleForGroups": [
-    931,
-    434
+    258,
+    7
   ],
-  "ReplyForwardNoSignature": false,
+  "ReplyForwardNoSignature": true,
   "ReplyExternalAsDefault": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 454
+      "FieldType": "System.String",
+      "FieldLength": 368
     }
   }
 }

@@ -14,6 +14,8 @@ POST /api/v1/Agents/Person/SetConsent
 Set a specified type of consent on the person.
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -69,15 +71,15 @@ No Content
 POST /api/v1/Agents/Person/SetConsent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 840,
-  "Purpose": "accusantium",
-  "Source": "repellat",
-  "LegalBase": "laborum",
-  "Comment": "est"
+  "PersonId": 52,
+  "Purpose": "sint",
+  "Source": "odit",
+  "LegalBase": "fuga",
+  "Comment": "dolore"
 }
 ```
 

@@ -14,6 +14,8 @@ POST /api/v1/Agents/Marketing/SaveFormEntity
 Updates the existing FormEntity or creates a new FormEntity if the id parameter is 0.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -108,36 +110,36 @@ OK
 POST /api/v1/Agents/Marketing/SaveFormEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormId": 412,
+  "FormId": 902,
   "FormKey": "est",
-  "Name": "Bradtke-Watsica",
-  "Description": "Intuitive demand-driven framework",
-  "Config": "dolores",
-  "FolderId": 863,
-  "ScriptId": 175,
-  "ResponseShipmentId": 285,
-  "Active": false,
-  "Expires": "2000-01-16T03:46:55.0038735+01:00",
-  "MaxSubmits": 850,
+  "Name": "Schaefer-Hilll",
+  "Description": "Customer-focused mobile toolset",
+  "Config": "dolorum",
+  "FolderId": 532,
+  "ScriptId": 480,
+  "ResponseShipmentId": 466,
+  "Active": true,
+  "Expires": "2016-01-02T02:30:47.4600781+01:00",
+  "MaxSubmits": 778,
   "Type": "Normal",
-  "Recipe": "magnam",
-  "GroupId": 576,
+  "Recipe": "et",
+  "GroupId": 859,
   "NewTicket": true,
   "RecaptchaMode": "GlobalKeysExist",
-  "Registered": "2022-02-09T03:46:55.0038735+01:00",
-  "RegisteredAssociateId": 858,
-  "Updated": "2020-09-30T03:46:55.0038735+02:00",
-  "UpdatedAssociateId": 989,
-  "UpdatedCount": 805,
+  "Registered": "2006-01-16T02:30:47.4600781+01:00",
+  "RegisteredAssociateId": 233,
+  "Updated": "2001-11-22T02:30:47.4600781+01:00",
+  "UpdatedAssociateId": 881,
+  "UpdatedCount": 258,
   "EmailFlows": [
-    47,
-    685
+    97,
+    881
   ],
-  "FolderName": "Welch, Flatley and Stark"
+  "FolderName": "Sipes-Breitenberg"
 }
 ```
 
@@ -148,38 +150,38 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormId": 953,
-  "FormKey": "et",
-  "Name": "Brekke, Turner and Hessel",
-  "Description": "Right-sized mission-critical archive",
-  "Config": "sunt",
-  "FolderId": 149,
-  "ScriptId": 585,
-  "ResponseShipmentId": 56,
+  "FormId": 34,
+  "FormKey": "sint",
+  "Name": "Dare, Kovacek and Hyatt",
+  "Description": "Virtual intermediate extranet",
+  "Config": "dolor",
+  "FolderId": 472,
+  "ScriptId": 445,
+  "ResponseShipmentId": 680,
   "Active": false,
-  "Expires": "1999-05-16T03:46:55.0038735+02:00",
-  "MaxSubmits": 553,
+  "Expires": "2016-10-19T02:30:47.4600781+02:00",
+  "MaxSubmits": 857,
   "Type": "Normal",
-  "Recipe": "possimus",
-  "GroupId": 338,
+  "Recipe": "et",
+  "GroupId": 228,
   "NewTicket": false,
   "RecaptchaMode": "GlobalKeysExist",
-  "Registered": "2011-12-26T03:46:55.0038735+01:00",
-  "RegisteredAssociateId": 819,
-  "Updated": "2020-12-24T03:46:55.0038735+01:00",
-  "UpdatedAssociateId": 160,
-  "UpdatedCount": 622,
+  "Registered": "2021-09-03T02:30:47.4600781+02:00",
+  "RegisteredAssociateId": 891,
+  "Updated": "1999-06-13T02:30:47.4600781+02:00",
+  "UpdatedAssociateId": 673,
+  "UpdatedCount": 582,
   "EmailFlows": [
-    355,
-    920
+    794,
+    456
   ],
-  "FolderName": "Gutmann-Murray",
+  "FolderName": "Kuhn Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 143
+      "FieldLength": 550
     }
   }
 }

@@ -85,19 +85,19 @@ OK
 PUT /api/v1/List/UserGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 959,
-  "Name": "Monahan LLC",
-  "Tooltip": "omnis",
+  "Id": 322,
+  "Name": "Lockman, Maggio and Langworth",
+  "Tooltip": "aut",
   "Deleted": false,
-  "Rank": 349,
+  "Rank": 294,
   "IsCustomList": true,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": true,
-  "ListType": "vero",
+  "ListType": "eius",
   "InUseByUserDefinedFields": true
 }
 ```
@@ -109,22 +109,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 311,
-  "Name": "Miller, Kunde and Williamson",
-  "Tooltip": "et",
-  "Deleted": false,
-  "Rank": 400,
-  "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "quam",
-  "InUseByUserDefinedFields": false,
+  "Id": 477,
+  "Name": "Kozey-Boehm",
+  "Tooltip": "voluptates",
+  "Deleted": true,
+  "Rank": 655,
+  "IsCustomList": true,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "in",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 378
+      "FieldType": "System.Int32",
+      "FieldLength": 904
     }
   }
 }

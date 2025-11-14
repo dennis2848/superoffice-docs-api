@@ -14,6 +14,8 @@ POST /api/v1/Agents/Report/GetReportLabelLayoutEntity
 Gets a ReportLabelLayoutEntity object.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -27,7 +29,7 @@ Gets a ReportLabelLayoutEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Report/GetReportLabelLayoutEntity?reportLabelLayoutEntityId=340
+POST /api/v1/Agents/Report/GetReportLabelLayoutEntity?reportLabelLayoutEntityId=725
 POST /api/v1/Agents/Report/GetReportLabelLayoutEntity?$select=name,department,category/id
 ```
 
@@ -79,7 +81,7 @@ OK
 POST /api/v1/Agents/Report/GetReportLabelLayoutEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -89,24 +91,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportLabelLayoutId": 971,
-  "Name": "Gutmann-Kuphal",
-  "Description": "Multi-lateral foreground approach",
+  "ReportLabelLayoutId": 548,
+  "Name": "Kerluke, Schmitt and Boyle",
+  "Description": "Configurable dynamic data-warehouse",
   "Orientation": "Landscape",
-  "PaperWidth": 832,
-  "PaperHeight": 33,
-  "LeftMargin": 582,
-  "RightMargin": 640,
-  "TopMargin": 521,
-  "BottomMargin": 41,
-  "CountColumns": 409,
-  "CountRows": 422,
+  "PaperWidth": 193,
+  "PaperHeight": 281,
+  "LeftMargin": 614,
+  "RightMargin": 275,
+  "TopMargin": 75,
+  "BottomMargin": 223,
+  "CountColumns": 308,
+  "CountRows": 279,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 315
+      "FieldType": "System.String",
+      "FieldLength": 984
     }
   }
 }

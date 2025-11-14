@@ -15,6 +15,7 @@ Updates the existing DocumentEntity or creates a new DocumentEntity if the id pa
 
 
 Save the document entity. If the entity already exists and the file name of the incoming entity is different from the existing one, a corresponding renaming of the physical document will be attempted. This may cause an amended file name to be substituted into the document entity, since a document plugin may have aribitrary rules on file names and collisions. Clients should always inspect the return value from this call and not assume that what they sent for saving is the final truth.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -132,77 +133,77 @@ OK
 POST /api/v1/Agents/Document/SaveDocumentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 411,
+  "DocumentId": 919,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "quia",
-  "Header": "non",
-  "Name": "Mills-Green",
-  "OurRef": "qui",
-  "YourRef": "magnam",
-  "CreatedDate": "1999-08-21T03:46:54.6445112+02:00",
-  "UpdatedDate": "2008-10-02T03:46:54.6445112+02:00",
-  "Description": "Innovative background Graphical User Interface",
+  "Attention": "quibusdam",
+  "Header": "expedita",
+  "Name": "Mraz-Walker",
+  "OurRef": "quasi",
+  "YourRef": "sunt",
+  "CreatedDate": "2006-06-08T02:30:47.1475873+02:00",
+  "UpdatedDate": "2011-12-18T02:30:47.1475873+01:00",
+  "Description": "Horizontal assymetric portal",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2011-09-01T03:46:54.6445112+02:00",
-  "ExternalRef": "exercitationem",
+  "Date": "2019-10-14T02:30:47.1632139+02:00",
+  "ExternalRef": "adipisci",
   "Completed": "Completed",
-  "ActiveLinks": 503,
+  "ActiveLinks": 331,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Schneider-Hartmann",
-      "Id": 497,
-      "Description": "Realigned 5th generation encryption",
-      "ExtraInfo": "harum",
-      "LinkId": 95
+      "EntityName": "Nicolas, Boyer and Price",
+      "Id": 246,
+      "Description": "Assimilated human-resource orchestration",
+      "ExtraInfo": "est",
+      "LinkId": 950
     },
     {
-      "EntityName": "Schneider-Hartmann",
-      "Id": 497,
-      "Description": "Realigned 5th generation encryption",
-      "ExtraInfo": "harum",
-      "LinkId": 95
+      "EntityName": "Nicolas, Boyer and Price",
+      "Id": 246,
+      "Description": "Assimilated human-resource orchestration",
+      "ExtraInfo": "est",
+      "LinkId": 950
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 761,
-  "Snum": 858,
+  "SuggestedDocumentId": 18,
+  "Snum": 394,
   "UserDefinedFields": {
-    "SuperOffice:1": "False",
-    "SuperOffice:2": "1808639473"
+    "SuperOffice:1": "Mr. Toni Viola Hills Sr.",
+    "SuperOffice:2": "Elton Haley"
   },
   "ExtraFields": {
-    "ExtraFields1": "distinctio",
-    "ExtraFields2": "alias"
+    "ExtraFields1": "sit",
+    "ExtraFields2": "repudiandae"
   },
   "CustomFields": {
-    "CustomFields1": "tempore",
-    "CustomFields2": "laboriosam"
+    "CustomFields1": "dolores",
+    "CustomFields2": "expedita"
   },
-  "PublishEventDate": "2003-05-13T03:46:54.6445112+02:00",
-  "PublishTo": "2004-11-13T03:46:54.6445112+01:00",
-  "PublishFrom": "2004-08-21T03:46:54.6445112+02:00",
-  "IsPublished": true,
+  "PublishEventDate": "2008-10-02T02:30:47.1632139+02:00",
+  "PublishTo": "2005-09-02T02:30:47.1632139+02:00",
+  "PublishFrom": "2025-01-10T02:30:47.1632139+01:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 974,
+      "VisibleId": 874,
       "Visibility": "All",
-      "DisplayValue": "officiis"
+      "DisplayValue": "ipsum"
     },
     {
-      "VisibleId": 974,
+      "VisibleId": 874,
       "Visibility": "All",
-      "DisplayValue": "officiis"
+      "DisplayValue": "ipsum"
     }
   ]
 }
@@ -215,88 +216,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 971,
+  "DocumentId": 140,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "rerum",
+  "Attention": "tempora",
   "Header": "ut",
-  "Name": "Nicolas Inc and Sons",
-  "OurRef": "rerum",
-  "YourRef": "est",
-  "CreatedDate": "2019-08-09T03:46:54.6445112+02:00",
-  "UpdatedDate": "2022-08-30T03:46:54.6445112+02:00",
-  "Description": "Re-engineered hybrid project",
+  "Name": "McKenzie-Little",
+  "OurRef": "ratione",
+  "YourRef": "ducimus",
+  "CreatedDate": "1999-09-05T02:30:47.1632139+02:00",
+  "UpdatedDate": "2018-07-17T02:30:47.1632139+02:00",
+  "Description": "Enterprise-wide holistic website",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2000-08-25T03:46:54.6445112+02:00",
-  "ExternalRef": "temporibus",
+  "Date": "2018-07-07T02:30:47.1632139+02:00",
+  "ExternalRef": "reiciendis",
   "Completed": "Completed",
-  "ActiveLinks": 477,
+  "ActiveLinks": 518,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Dickens-Leuschke",
-      "Id": 293,
-      "Description": "Managed bifurcated forecast",
-      "ExtraInfo": "temporibus",
-      "LinkId": 873,
+      "EntityName": "Hilpert LLC",
+      "Id": 632,
+      "Description": "Public-key zero defect migration",
+      "ExtraInfo": "rem",
+      "LinkId": 944,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 655
+          "FieldType": "System.String",
+          "FieldLength": 565
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 644,
-  "Snum": 392,
+  "SuggestedDocumentId": 110,
+  "Snum": 242,
   "UserDefinedFields": {
-    "SuperOffice:1": "True",
-    "SuperOffice:2": "303190292"
+    "SuperOffice:1": "Fritz Mueller",
+    "SuperOffice:2": "Sylvester Harris"
   },
   "ExtraFields": {
-    "ExtraFields1": "consectetur",
-    "ExtraFields2": "totam"
+    "ExtraFields1": "incidunt",
+    "ExtraFields2": "ut"
   },
   "CustomFields": {
-    "CustomFields1": "non",
-    "CustomFields2": "amet"
+    "CustomFields1": "aliquid",
+    "CustomFields2": "ducimus"
   },
-  "PublishEventDate": "2004-11-27T03:46:54.6445112+01:00",
-  "PublishTo": "2002-11-26T03:46:54.6445112+01:00",
-  "PublishFrom": "2010-09-29T03:46:54.6445112+02:00",
+  "PublishEventDate": "2002-02-05T02:30:47.1632139+01:00",
+  "PublishTo": "2009-02-18T02:30:47.1632139+01:00",
+  "PublishFrom": "2013-07-13T02:30:47.1632139+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 727,
+      "VisibleId": 660,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "illo",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 755
+          "FieldType": "System.Int32",
+          "FieldLength": 278
         }
       }
     },
     {
-      "VisibleId": 727,
+      "VisibleId": 660,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "illo",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 755
+          "FieldType": "System.Int32",
+          "FieldLength": 278
         }
       }
     }
@@ -305,8 +306,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 776
+      "FieldType": "System.String",
+      "FieldLength": 374
     }
   }
 }

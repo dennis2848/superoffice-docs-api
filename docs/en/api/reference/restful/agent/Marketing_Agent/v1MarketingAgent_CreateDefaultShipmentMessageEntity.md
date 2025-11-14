@@ -14,6 +14,8 @@ POST /api/v1/Agents/Marketing/CreateDefaultShipmentMessageEntity
 Loading default values into a new ShipmentMessageEntity.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -86,33 +88,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 298,
-  "PlainMessage": "nemo",
-  "HtmlMessage": "eaque",
-  "SmsMessage": "repellendus",
-  "Description": "Cross-platform background extranet",
-  "Subject": "sed",
-  "FolderId": 918,
-  "HeaderField": "fuga",
-  "Design": "debitis",
+  "ShipmentMessageId": 736,
+  "PlainMessage": "voluptatem",
+  "HtmlMessage": "blanditiis",
+  "SmsMessage": "et",
+  "Description": "Fundamental value-added encryption",
+  "Subject": "aut",
+  "FolderId": 217,
+  "HeaderField": "rem",
+  "Design": "suscipit",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": true,
-  "InlineImages": true,
-  "LongDescription": "Intuitive regional contingency",
-  "AccessKey": "est",
-  "DocumentMessage": 734,
-  "Registered": "2010-09-20T03:46:55.0038735+02:00",
-  "RegisteredAssociateId": 498,
-  "Updated": "2007-08-03T03:46:55.0038735+02:00",
-  "UpdatedAssociateId": 441,
-  "UpdatedCount": 71,
+  "InlineImages": false,
+  "LongDescription": "Managed bi-directional function",
+  "AccessKey": "ad",
+  "DocumentMessage": 530,
+  "Registered": "2015-05-28T02:30:47.4600781+02:00",
+  "RegisteredAssociateId": 543,
+  "Updated": "2009-04-06T02:30:47.4600781+02:00",
+  "UpdatedAssociateId": 860,
+  "UpdatedCount": 913,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 820
+      "FieldType": "System.String",
+      "FieldLength": 421
     }
   }
 }

@@ -76,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 830,
-  "Name": "Robel-Gaylord",
-  "Tooltip": "sed",
-  "Deleted": true,
-  "Rank": 246,
+  "Id": 693,
+  "Name": "Haley LLC",
+  "Tooltip": "unde",
+  "Deleted": false,
+  "Rank": 931,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "dolores",
+  "UseGroupsAndHeadings": false,
+  "ListType": "molestiae",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 326
+      "FieldLength": 175
     }
   },
   "_Links": {

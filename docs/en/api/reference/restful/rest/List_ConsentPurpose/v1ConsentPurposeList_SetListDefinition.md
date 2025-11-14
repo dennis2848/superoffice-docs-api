@@ -89,16 +89,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 754,
-  "Name": "Haley, Kunze and Satterfield",
-  "Tooltip": "molestiae",
+  "Id": 319,
+  "Name": "Schultz Group",
+  "Tooltip": "amet",
   "Deleted": true,
-  "Rank": 214,
+  "Rank": 591,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "minus",
-  "InUseByUserDefinedFields": true
+  "UseGroupsAndHeadings": false,
+  "ListType": "et",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -109,22 +109,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 623,
-  "Name": "Metz Group",
-  "Tooltip": "eum",
-  "Deleted": false,
-  "Rank": 568,
+  "Id": 326,
+  "Name": "Schaefer, Will and Ziemann",
+  "Tooltip": "nulla",
+  "Deleted": true,
+  "Rank": 77,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "sapiente",
-  "InUseByUserDefinedFields": true,
+  "ListType": "nisi",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 210
+      "FieldLength": 280
     }
   }
 }

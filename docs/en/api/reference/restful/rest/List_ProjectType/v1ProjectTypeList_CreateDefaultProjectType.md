@@ -61,7 +61,7 @@ OK
 GET /api/v1/List/ProjectType/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -71,18 +71,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 868,
-  "Name": "Harris-Zieme",
-  "Tooltip": "unde",
+  "Id": 915,
+  "Name": "Herzog Group",
+  "Tooltip": "fugiat",
   "Deleted": true,
-  "UdListDefinitionId": 250,
-  "Rank": 185,
+  "UdListDefinitionId": 503,
+  "Rank": 649,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 987
+      "FieldLength": 396
     }
   }
 }

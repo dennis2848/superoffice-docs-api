@@ -14,7 +14,8 @@ POST /api/v1/Agents/Archive/GetArchiveList2
 Get a page of data for an archive using a restriction string.
 
 
-The columns returned will be those set as chosen columns, using either the SetChosenColumns service or the corresponding SelectableMDOList.SetSelected. 
+The columns returned will be those set as chosen columns, using either the SetChosenColumns service or the corresponding SelectableMDOList.SetSelected.
+NsApiSlow threshold: 5000 ms. 
 
 Archive Restriction strings are OData or SQL-ish.
 They are parsed and converted into ArchiveRestrictions.
@@ -169,17 +170,17 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveList2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Morissette, Mosciski and Steuber",
-  "ProviderName": "Abernathy-Bergnaum",
-  "SortOrder": "voluptatem",
-  "Restriction": "quos",
-  "Entities": "voluptas",
-  "Page": 824,
-  "PageSize": 514
+  "GuiName": "Paucek-Rodriguez",
+  "ProviderName": "Steuber-Schiller",
+  "SortOrder": "perspiciatis",
+  "Restriction": "ea",
+  "Entities": "commodi",
+  "Page": 292,
+  "PageSize": 368
 }
 ```
 
@@ -191,23 +192,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Bins, Bauch and Schumm",
-    "PrimaryKey": 234,
+    "EntityName": "Spinka, Gutmann and O'Keefe",
+    "PrimaryKey": 474,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "aut",
-        "TooltipHint": "recusandae",
-        "LinkHint": "doloribus"
+        "DisplayValue": "magnam",
+        "TooltipHint": "nihil",
+        "LinkHint": "autem"
       }
     },
-    "LinkHint": "est",
-    "StyleHint": "et",
+    "LinkHint": "suscipit",
+    "StyleHint": "quaerat",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 921
+        "FieldLength": 361
       }
     }
   }

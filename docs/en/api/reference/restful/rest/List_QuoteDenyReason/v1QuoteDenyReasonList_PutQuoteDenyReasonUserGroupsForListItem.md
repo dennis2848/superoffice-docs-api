@@ -98,47 +98,47 @@ OK
 PUT /api/v1/List/QuoteDenyReason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 167,
-    "Name": "Schmitt-Beahan",
-    "ToolTip": "Minima quos et sit.",
-    "Deleted": false,
-    "Rank": 179,
-    "Type": "nemo",
-    "ColorBlock": 131,
-    "IconHint": "aperiam",
-    "Selected": true,
-    "LastChanged": "2013-09-22T03:47:00.7692942+02:00",
+    "Id": 803,
+    "Name": "Toy Group",
+    "ToolTip": "Ipsa error quaerat aspernatur veritatis maxime quia perferendis.",
+    "Deleted": true,
+    "Rank": 530,
+    "Type": "a",
+    "ColorBlock": 123,
+    "IconHint": "officiis",
+    "Selected": false,
+    "LastChanged": "2005-06-12T02:30:53.3973865+02:00",
     "ChildItems": [
       {
-        "Id": 723,
-        "Name": "Witting, Thiel and Hermann",
-        "ToolTip": "Magnam explicabo deserunt quis sit iste tenetur suscipit.",
-        "Deleted": true,
-        "Rank": 554,
-        "Type": "beatae",
-        "ColorBlock": 511,
-        "IconHint": "expedita",
-        "Selected": false,
-        "LastChanged": "2010-04-01T03:47:00.7692942+02:00",
+        "Id": 729,
+        "Name": "Toy LLC",
+        "ToolTip": "Illum quidem ratione.",
+        "Deleted": false,
+        "Rank": 627,
+        "Type": "at",
+        "ColorBlock": 473,
+        "IconHint": "qui",
+        "Selected": true,
+        "LastChanged": "2014-12-18T02:30:53.3973865+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "illum",
-        "StyleHint": "praesentium",
+        "ExtraInfo": "dignissimos",
+        "StyleHint": "qui",
         "Hidden": true,
-        "FullName": "Ike Ankunding"
+        "FullName": "Mrs. Cedrick Bettie Raynor PhD"
       }
     ],
-    "ExtraInfo": "harum",
-    "StyleHint": "tempora",
+    "ExtraInfo": "quia",
+    "StyleHint": "praesentium",
     "Hidden": false,
-    "FullName": "Toy Robel"
+    "FullName": "Miss Ellsworth Romaguera Jr."
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 137,
-    "Name": "Stanton LLC",
-    "ToolTip": "Adipisci temporibus quia.",
-    "Deleted": false,
-    "Rank": 175,
-    "Type": "quia",
-    "ColorBlock": 509,
-    "IconHint": "ipsum",
-    "Selected": false,
-    "LastChanged": "2005-06-03T03:47:00.7692942+02:00",
+    "Id": 642,
+    "Name": "Dach-Ernser",
+    "ToolTip": "Facere error delectus.",
+    "Deleted": true,
+    "Rank": 917,
+    "Type": "ducimus",
+    "ColorBlock": 35,
+    "IconHint": "laborum",
+    "Selected": true,
+    "LastChanged": "2005-02-25T02:30:53.3973865+01:00",
     "ChildItems": [
       {
-        "Id": 69,
-        "Name": "Jenkins, Bailey and Graham",
-        "ToolTip": "Accusamus aut expedita harum ab.",
-        "Deleted": true,
-        "Rank": 770,
-        "Type": "aliquid",
-        "ColorBlock": 543,
-        "IconHint": "vel",
+        "Id": 993,
+        "Name": "Wehner, Kemmer and Leuschke",
+        "ToolTip": "Cupiditate esse ea ut et vel veritatis quasi.",
+        "Deleted": false,
+        "Rank": 598,
+        "Type": "ut",
+        "ColorBlock": 731,
+        "IconHint": "expedita",
         "Selected": false,
-        "LastChanged": "1998-06-07T03:47:00.7692942+02:00",
+        "LastChanged": "2023-11-22T02:30:53.3973865+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "facilis",
-        "StyleHint": "aut",
-        "Hidden": false,
-        "FullName": "Karina Padberg",
+        "ExtraInfo": "odit",
+        "StyleHint": "impedit",
+        "Hidden": true,
+        "FullName": "Mrs. Alek Wyman",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 642
+            "FieldLength": 670
           }
         }
       }
     ],
-    "ExtraInfo": "adipisci",
-    "StyleHint": "doloribus",
+    "ExtraInfo": "beatae",
+    "StyleHint": "eos",
     "Hidden": true,
-    "FullName": "Velda Cummerata",
+    "FullName": "Emmet Hamill",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 612
+        "FieldLength": 266
       }
     }
   }

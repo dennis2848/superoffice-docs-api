@@ -14,6 +14,11 @@ POST /api/v1/Agents/AI/Answer
 Returns an answer.
 
 
+NsApiSlow threshold: 1000 ms.
+
+
+## Experimental: ## The AI agent is experimental, subject to change, and not intended for partners.
+
 
 
 
@@ -77,14 +82,14 @@ OK
 POST /api/v1/Agents/AI/Answer
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "NamespaceName": "Beer, Blick and Leannon",
-  "Query": "ullam",
+  "NamespaceName": "Bode Group",
+  "Query": "quae",
   "Type": "Document",
-  "Top": 128
+  "Top": 859
 }
 ```
 
@@ -95,29 +100,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Answer": "dolorem",
+  "Answer": "at",
   "Source": [
     {
-      "Chunk": "nisi",
-      "Title": "aut",
-      "Id": "fugit",
+      "Chunk": "autem",
+      "Title": "dicta",
+      "Id": "exercitationem",
       "Type": "Document",
-      "Score": 28563.275999999998,
+      "Score": 12962.224,
       "Metadata": {
         "fieldName": {}
       }
     },
     {
-      "Chunk": "nisi",
-      "Title": "aut",
-      "Id": "fugit",
+      "Chunk": "autem",
+      "Title": "dicta",
+      "Id": "exercitationem",
       "Type": "Document",
-      "Score": 28563.275999999998,
+      "Score": 12962.224,
       "Metadata": {
         "fieldName": {}
       }
     }
   ],
-  "TrackingId": "nihil"
+  "TrackingId": "aliquid"
 }
 ```

@@ -15,6 +15,7 @@ Deletes the AppointmentEntity
 
 
 Calls the Appointment agent service DeleteAppointmentEntity.
+NsApiSlow threshold: 2000 ms.
 
 
 

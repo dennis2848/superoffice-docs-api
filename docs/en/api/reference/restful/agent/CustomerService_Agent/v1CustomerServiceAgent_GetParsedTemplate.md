@@ -14,6 +14,8 @@ POST /api/v1/Agents/CustomerService/GetParsedTemplate
 Get a specific langauge version of the reply template, and run this trough the parser
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -81,14 +83,14 @@ OK
 POST /api/v1/Agents/CustomerService/GetParsedTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 485,
-  "LanguageId": 25,
-  "PersonId": 920,
-  "TicketId": 818
+  "ReplyTemplateId": 790,
+  "LanguageId": 985,
+  "PersonId": 517,
+  "TicketId": 901
 }
 ```
 
@@ -99,36 +101,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 439,
-  "PlainParsed": "eos",
-  "HtmlParsed": "enim",
+  "ReplyTemplateId": 959,
+  "PlainParsed": "nesciunt",
+  "HtmlParsed": "architecto",
   "Attachments": [
     {
-      "AttachmentId": 981,
-      "Name": "Cremin-Heller",
-      "ContentType": "veniam",
-      "AttSize": 51,
+      "AttachmentId": 533,
+      "Name": "Rosenbaum-Hahn",
+      "ContentType": "aut",
+      "AttSize": 144,
       "InlineImage": false,
-      "ContentId": "at",
-      "AuthKey": "harum",
+      "ContentId": "rerum",
+      "AuthKey": "consequatur",
       "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 977
+          "FieldType": "System.String",
+          "FieldLength": 580
         }
       }
     }
   ],
-  "Subject": "sit",
+  "Subject": "cupiditate",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 910
+      "FieldLength": 454
     }
   }
 }

@@ -14,6 +14,8 @@ POST /api/v1/Agents/Chat/CreateDefaultChatTopicEntity
 Loading default values into a new ChatTopicEntity.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -96,43 +98,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 726,
-  "Name": "Von Inc and Sons",
-  "Description": "Face to face empowering access",
-  "WelcomeMessage": "officiis",
+  "ChatTopicId": 411,
+  "Name": "Corkery-Fisher",
+  "Description": "Configurable multimedia attitude",
+  "WelcomeMessage": "blanditiis",
   "Language": null,
-  "LastAccept": "2025-02-27T03:46:54.3788954+01:00",
-  "SecondsPrAccept": 436,
-  "AlertRecipient": "sit",
+  "LastAccept": "2011-04-13T02:30:46.8975935+02:00",
+  "SecondsPrAccept": 207,
+  "AlertRecipient": "nisi",
   "AlertTemplate": null,
   "CollectConsent": true,
-  "BadgeHeader": "aut",
-  "CustomQueueTextEnabled": false,
-  "CustomQueueText": "sed",
-  "WarnNewChatMinutes": 107,
-  "WarnManagerNewChatMinutes": 309,
-  "TicketEnabled": true,
+  "BadgeHeader": "repudiandae",
+  "CustomQueueTextEnabled": true,
+  "CustomQueueText": "veritatis",
+  "WarnNewChatMinutes": 838,
+  "WarnManagerNewChatMinutes": 983,
+  "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
   "OpeningHoursEnabled": false,
   "OpeningHours": null,
   "Widget": null,
-  "BotEnabled": true,
+  "BotEnabled": false,
   "BotSettings": null,
-  "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 185,
-  "WarnManagerChatMessageMinutes": 899,
-  "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 444,
-  "OfflineFormQueueLength": 204,
-  "WidgetEnableRating": true,
-  "WidgetRatingText": "dolores",
+  "OfflineCollectConsent": true,
+  "WarnChatMessageMinutes": 895,
+  "WarnManagerChatMessageMinutes": 284,
+  "UseQueueOfflineForm": true,
+  "OfflineFormTimeLimit": 443,
+  "OfflineFormQueueLength": 352,
+  "WidgetEnableRating": false,
+  "WidgetRatingText": "adipisci",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 766
+      "FieldType": "System.String",
+      "FieldLength": 664
     }
   }
 }

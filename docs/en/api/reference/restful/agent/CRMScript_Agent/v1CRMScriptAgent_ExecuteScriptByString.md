@@ -14,6 +14,9 @@ POST /api/v1/Agents/CRMScript/ExecuteScriptByString
 Execute a CRMScript 2 (JavaScript), returning the printed output value.
 
 
+NsApiSlow threshold: 5000 ms.
+
+
 ## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 
@@ -86,14 +89,14 @@ OK
 POST /api/v1/Agents/CRMScript/ExecuteScriptByString
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Script": "excepturi",
+  "Script": "quas",
   "Parameters": {
-    "Parameters1": "quasi",
-    "Parameters2": "aut"
+    "Parameters1": "dolorem",
+    "Parameters2": "perspiciatis"
   },
   "EventData": null
 }
@@ -106,27 +109,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Output": "laborum",
+  "Output": "odit",
   "Parameters": {
-    "Parameters1": "quos",
-    "Parameters2": "sint"
+    "Parameters1": "doloribus",
+    "Parameters2": "molestiae"
   },
   "TraceRun": null,
   "Eventdata": null,
   "Success": false,
   "ErrorInformation": null,
-  "StatusCode": 901,
-  "StatusMessage": "iste",
+  "StatusCode": 601,
+  "StatusMessage": "deleniti",
   "Headers": {
-    "Headers1": "quo",
-    "Headers2": "officia"
+    "Headers1": "quidem",
+    "Headers2": "et"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 186
+      "FieldType": "System.Int32",
+      "FieldLength": 578
     }
   }
 }

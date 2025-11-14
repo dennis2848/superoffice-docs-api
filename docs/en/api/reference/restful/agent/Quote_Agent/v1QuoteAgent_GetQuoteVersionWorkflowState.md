@@ -15,6 +15,7 @@ Get all button states for the Quote version dialog.
 
 
 Packages ImageState, Button states and status info into one call. Collects most important warnings/errors from across all quotelines/alternatives in this quote version.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -80,12 +81,12 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteVersionWorkflowState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 286,
-  "QuoteAlternativeId": 933
+  "QuoteVersionId": 143,
+  "QuoteAlternativeId": 919
 }
 ```
 
@@ -99,16 +100,16 @@ Content-Type: application/json; charset=utf-8
   "ActionButtons": [
     {
       "Action": "Approve",
-      "ImageHint": "minus",
-      "DisplayText": "ea",
-      "TooltipText": "voluptatem",
+      "ImageHint": "est",
+      "DisplayText": "eius",
+      "TooltipText": "quasi",
       "Enabled": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 722
+          "FieldType": "System.String",
+          "FieldLength": 372
         }
       }
     }
@@ -121,7 +122,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 917
+      "FieldLength": 468
     }
   }
 }

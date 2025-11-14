@@ -15,6 +15,7 @@ Get the criteria for this dynamic selection.
 
 
 This call supports multiple criteria groups.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -81,7 +82,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 573
+  "SelectionId": 366
 }
 ```
 
@@ -93,20 +94,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Veum, Haag and Hamill",
-    "Description": "Cross-platform value-added initiative",
-    "Rank": 945,
+    "Name": "Weber-Grant",
+    "Description": "Sharable tertiary knowledge user",
+    "Rank": 624,
     "Restrictions": [
       {
-        "Name": "Satterfield, Boyle and Windler",
-        "Operator": "porro",
+        "Name": "Lakin, Hilll and Beer",
+        "Operator": "et",
         "Values": [
-          "veniam",
-          "aspernatur"
+          "autem",
+          "ratione"
         ],
         "DisplayValues": [
-          "possimus",
-          "dolorum"
+          "ipsam",
+          "esse"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -114,27 +115,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 978,
+        "InterParenthesis": 37,
         "InterOperator": "And",
-        "UniqueHash": 902
+        "UniqueHash": 756
       }
     ]
   },
   {
-    "Name": "Veum, Haag and Hamill",
-    "Description": "Cross-platform value-added initiative",
-    "Rank": 945,
+    "Name": "Weber-Grant",
+    "Description": "Sharable tertiary knowledge user",
+    "Rank": 624,
     "Restrictions": [
       {
-        "Name": "Satterfield, Boyle and Windler",
-        "Operator": "porro",
+        "Name": "Lakin, Hilll and Beer",
+        "Operator": "et",
         "Values": [
-          "veniam",
-          "aspernatur"
+          "autem",
+          "ratione"
         ],
         "DisplayValues": [
-          "possimus",
-          "dolorum"
+          "ipsam",
+          "esse"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -142,9 +143,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 978,
+        "InterParenthesis": 37,
         "InterOperator": "And",
-        "UniqueHash": 902
+        "UniqueHash": 756
       }
     ]
   }

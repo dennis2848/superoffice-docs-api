@@ -14,6 +14,9 @@ POST /api/v1/Agents/User/DeleteRole
 Delete the specified role and move all users associated with the role to the replacingRoleId
 
 
+NsApiSlow threshold: 2000 ms.
+
+
 ## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
 
 
@@ -68,12 +71,12 @@ No Content
 POST /api/v1/Agents/User/DeleteRole
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleIdToDelete": 911,
-  "ReplacingRoleId": 137
+  "RoleIdToDelete": 792,
+  "ReplacingRoleId": 417
 }
 ```
 

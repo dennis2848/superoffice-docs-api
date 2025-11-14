@@ -28,7 +28,7 @@ Get the MDO list items for "Prob" - with headings and filtering by user group.
 
 ```http
 GET /api/v1/List/Rating/MDOItems?flat=False
-GET /api/v1/List/Rating/MDOItems?query=voluptatum
+GET /api/v1/List/Rating/MDOItems?query=porro
 ```
 
 
@@ -90,50 +90,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 867,
-    "Name": "Heidenreich-Hickle",
-    "ToolTip": "Aut enim cum ut vitae quibusdam.",
-    "Deleted": false,
-    "Rank": 288,
-    "Type": "officiis",
+    "Id": 515,
+    "Name": "Miller Group",
+    "ToolTip": "Temporibus libero suscipit autem.",
+    "Deleted": true,
+    "Rank": 748,
+    "Type": "facilis",
     "ChildItems": [
       {
-        "Id": 909,
-        "Name": "Gerhold-Jones",
-        "ToolTip": "Cupiditate debitis sapiente aliquam nihil tempore amet ipsa.",
+        "Id": 920,
+        "Name": "Armstrong-Gleichner",
+        "ToolTip": "Vel perferendis consequatur aliquam sed iste voluptatibus.",
         "Deleted": false,
-        "Rank": 680,
-        "Type": "quia",
+        "Rank": 313,
+        "Type": "aut",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "repellat",
-        "ColorBlock": 953,
-        "ExtraInfo": "eaque",
-        "StyleHint": "consequuntur",
-        "FullName": "Mr. Jazmin Gaston Jaskolski Sr.",
+        "IconHint": "iusto",
+        "ColorBlock": 790,
+        "ExtraInfo": "qui",
+        "StyleHint": "occaecati",
+        "FullName": "Coby Klein III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 326
+            "FieldLength": 29
           }
         }
       }
     ],
-    "IconHint": "harum",
-    "ColorBlock": 454,
-    "ExtraInfo": "expedita",
-    "StyleHint": "eveniet",
-    "FullName": "Hollie Shayne Schoen I",
+    "IconHint": "est",
+    "ColorBlock": 815,
+    "ExtraInfo": "dolor",
+    "StyleHint": "assumenda",
+    "FullName": "Roosevelt Paucek",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 882
+        "FieldLength": 1002
       }
     }
   }

@@ -15,6 +15,7 @@ Method that returns a specified number of appointments of a specific appointment
 
 
 The appointments belong to the contact specified. Task represents the different types of activities, like “Phone call”, “Meeting” and so on. The heading represents a grouping or filtering of tasks.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -134,15 +135,15 @@ OK
 POST /api/v1/Agents/Appointment/GetContactAppointmentsByTaskHeading
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 520,
-  "StartTime": "2010-06-07T03:46:53.9882851+02:00",
-  "EndTime": "2016-07-10T03:46:53.9882851+02:00",
-  "Count": 60,
-  "TaskHeadingId": 306
+  "ContactId": 90,
+  "StartTime": "2015-10-02T02:30:46.522607+02:00",
+  "EndTime": "2001-02-18T02:30:46.522607+01:00",
+  "Count": 324,
+  "TaskHeadingId": 550
 }
 ```
 
@@ -154,67 +155,67 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 618,
-    "StartDate": "2017-04-16T03:46:54.0039095+02:00",
-    "EndDate": "2006-08-17T03:46:54.0039095+02:00",
+    "AppointmentId": 535,
+    "StartDate": "2008-09-18T02:30:46.522607+02:00",
+    "EndDate": "2011-11-01T02:30:46.522607+01:00",
     "Type": "BookingForChecklist",
-    "Task": "totam",
-    "AssociateFullName": "Alvina Jast",
-    "ContactName": "Rutherford Group",
-    "Description": "Digitized bi-directional orchestration",
-    "PersonFullName": "Clemens Price",
-    "PersonId": 791,
-    "ContactId": 543,
-    "ProjectId": 749,
-    "ProjectName": "Torp, Larkin and Cartwright",
-    "IsPublished": false,
-    "AssociateId": 393,
-    "ColorIndex": 228,
+    "Task": "recusandae",
+    "AssociateFullName": "Derek Bins",
+    "ContactName": "Deckow, Powlowski and Harris",
+    "Description": "Quality-focused context-sensitive infrastructure",
+    "PersonFullName": "Miss Daryl Gislason",
+    "PersonId": 206,
+    "ContactId": 114,
+    "ProjectId": 491,
+    "ProjectName": "Shields, Fritsch and O'Reilly",
+    "IsPublished": true,
+    "AssociateId": 922,
+    "ColorIndex": 486,
     "IsFree": false,
-    "HasAlarm": true,
+    "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 33,
-    "PriorityName": "Ward LLC",
+    "PriorityId": 908,
+    "PriorityName": "Ferry Inc and Sons",
     "TaskType": "Appointment",
     "IsBookingMain": false,
     "IsRecurrence": false,
     "IsBooking": true,
-    "ActiveDate": "2004-07-27T03:46:54.0039095+02:00",
+    "ActiveDate": "2019-02-05T02:30:46.522607+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2023-06-14T03:46:54.0039095+02:00",
-    "RecurringEndDate": "1999-06-19T03:46:54.0039095+02:00",
-    "MotherId": 271,
-    "AssignedBy": 966,
-    "AssignedByFullName": "Soledad Dietrich",
+    "RecurringStartDate": "2012-07-27T02:30:46.522607+02:00",
+    "RecurringEndDate": "2001-04-01T02:30:46.522607+02:00",
+    "MotherId": 455,
+    "AssignedBy": 603,
+    "AssignedByFullName": "Miss Bret Kunde",
     "RejectReason": "",
-    "Location": "illo",
-    "AlarmLeadTime": "dolorem",
-    "SaleId": 627,
-    "SaleName": "Predovic Group",
-    "AssociateName": "Haley LLC",
-    "CreatedDate": "2021-11-03T03:46:54.0039095+01:00",
-    "CreatedBy": "omnis",
-    "CreatedByFullName": "Adolphus Ruecker",
-    "CreatedByAssociateId": 511,
+    "Location": "cupiditate",
+    "AlarmLeadTime": "enim",
+    "SaleId": 442,
+    "SaleName": "Hane LLC",
+    "AssociateName": "Kutch-Runolfsson",
+    "CreatedDate": "2016-06-10T02:30:46.522607+02:00",
+    "CreatedBy": "asperiores",
+    "CreatedByFullName": "Prof. Nigel Collins",
+    "CreatedByAssociateId": 808,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "OwnedExternally": "Google",
-    "MotherAssociateId": 130,
+    "MotherAssociateId": 785,
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 69,
-    "Title": "architecto",
-    "Agenda": "quae",
-    "InternalNotes": "fuga",
+    "PreferredTZLocation": 683,
+    "Title": "voluptas",
+    "Agenda": "omnis",
+    "InternalNotes": "modi",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 954
+        "FieldLength": 830
       }
     }
   }

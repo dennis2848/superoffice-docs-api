@@ -98,47 +98,47 @@ OK
 PUT /api/v1/List/DeliveryTerm/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 699,
-    "Name": "Runte-Romaguera",
-    "ToolTip": "Ut a.",
-    "Deleted": false,
-    "Rank": 287,
-    "Type": "minus",
-    "ColorBlock": 906,
-    "IconHint": "quisquam",
+    "Id": 111,
+    "Name": "Skiles Inc and Sons",
+    "ToolTip": "Tempora velit.",
+    "Deleted": true,
+    "Rank": 424,
+    "Type": "est",
+    "ColorBlock": 646,
+    "IconHint": "consequuntur",
     "Selected": true,
-    "LastChanged": "1999-08-16T03:47:00.6442984+02:00",
+    "LastChanged": "2023-08-06T02:30:53.2723907+02:00",
     "ChildItems": [
       {
-        "Id": 252,
-        "Name": "Hermiston-Wisozk",
-        "ToolTip": "Dolorem est.",
+        "Id": 9,
+        "Name": "Gottlieb Inc and Sons",
+        "ToolTip": "Illum animi voluptatum nulla.",
         "Deleted": true,
-        "Rank": 172,
-        "Type": "et",
-        "ColorBlock": 843,
-        "IconHint": "voluptatum",
+        "Rank": 748,
+        "Type": "iusto",
+        "ColorBlock": 986,
+        "IconHint": "omnis",
         "Selected": false,
-        "LastChanged": "2020-12-11T03:47:00.6442984+01:00",
+        "LastChanged": "2017-10-22T02:30:53.2723907+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "commodi",
-        "StyleHint": "aut",
+        "ExtraInfo": "tempore",
+        "StyleHint": "nam",
         "Hidden": false,
-        "FullName": "Miss Stanton Savion Hamill PhD"
+        "FullName": "Dr. Arlie Jamel Cassin PhD"
       }
     ],
-    "ExtraInfo": "consequatur",
-    "StyleHint": "nostrum",
-    "Hidden": false,
-    "FullName": "Douglas Conroy IV"
+    "ExtraInfo": "architecto",
+    "StyleHint": "enim",
+    "Hidden": true,
+    "FullName": "Jewell Stehr I"
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 778,
-    "Name": "Trantow-Toy",
-    "ToolTip": "Velit at est officiis temporibus tempora et.",
+    "Id": 648,
+    "Name": "Weissnat Inc and Sons",
+    "ToolTip": "Fuga reiciendis error ipsa expedita.",
     "Deleted": false,
-    "Rank": 451,
-    "Type": "vel",
-    "ColorBlock": 324,
-    "IconHint": "ea",
-    "Selected": true,
-    "LastChanged": "1999-02-22T03:47:00.6442984+01:00",
+    "Rank": 626,
+    "Type": "occaecati",
+    "ColorBlock": 580,
+    "IconHint": "at",
+    "Selected": false,
+    "LastChanged": "2014-02-06T02:30:53.2723907+01:00",
     "ChildItems": [
       {
-        "Id": 346,
-        "Name": "Balistreri Inc and Sons",
-        "ToolTip": "Sequi illum et.",
-        "Deleted": true,
-        "Rank": 221,
-        "Type": "ipsam",
-        "ColorBlock": 191,
-        "IconHint": "nulla",
+        "Id": 850,
+        "Name": "Rempel LLC",
+        "ToolTip": "Veritatis corporis voluptatum optio ab minus.",
+        "Deleted": false,
+        "Rank": 537,
+        "Type": "debitis",
+        "ColorBlock": 513,
+        "IconHint": "eum",
         "Selected": true,
-        "LastChanged": "2017-07-02T03:47:00.6442984+02:00",
+        "LastChanged": "2003-05-07T02:30:53.2723907+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "natus",
-        "StyleHint": "velit",
+        "ExtraInfo": "est",
+        "StyleHint": "delectus",
         "Hidden": false,
-        "FullName": "Johnathon Kassulke",
+        "FullName": "Marjorie Torp III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 335
+            "FieldLength": 368
           }
         }
       }
     ],
-    "ExtraInfo": "illum",
-    "StyleHint": "velit",
+    "ExtraInfo": "est",
+    "StyleHint": "iste",
     "Hidden": false,
-    "FullName": "Nathan Nicolas",
+    "FullName": "Kyra Muller",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 499
+        "FieldType": "System.String",
+        "FieldLength": 538
       }
     }
   }

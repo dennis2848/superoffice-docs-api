@@ -76,25 +76,25 @@ OK
 PUT /api/v1/List/UserGroup/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 441,
-    "Name": "Kovacek, Gorczany and Deckow",
-    "Tooltip": "maiores",
-    "Deleted": true,
-    "Rank": 43,
-    "UdListDefinitionId": 410
+    "HeadingId": 983,
+    "Name": "O'Reilly, O'Keefe and Fisher",
+    "Tooltip": "quam",
+    "Deleted": false,
+    "Rank": 382,
+    "UdListDefinitionId": 173
   },
   {
-    "HeadingId": 441,
-    "Name": "Kovacek, Gorczany and Deckow",
-    "Tooltip": "maiores",
-    "Deleted": true,
-    "Rank": 43,
-    "UdListDefinitionId": 410
+    "HeadingId": 983,
+    "Name": "O'Reilly, O'Keefe and Fisher",
+    "Tooltip": "quam",
+    "Deleted": false,
+    "Rank": 382,
+    "UdListDefinitionId": 173
   }
 ]
 ```
@@ -107,18 +107,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 255,
-    "Name": "Hettinger, Stamm and Borer",
-    "Tooltip": "repellat",
+    "HeadingId": 894,
+    "Name": "Powlowski LLC",
+    "Tooltip": "est",
     "Deleted": false,
-    "Rank": 576,
-    "UdListDefinitionId": 586,
+    "Rank": 882,
+    "UdListDefinitionId": 914,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 663
+        "FieldType": "System.Int32",
+        "FieldLength": 511
       }
     }
   }

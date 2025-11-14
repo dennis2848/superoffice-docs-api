@@ -69,7 +69,7 @@ OK
 GET /api/v1/List/Currency/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -79,19 +79,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 271,
-  "Name": "Bednar Group",
-  "Tooltip": "non",
-  "Rank": 10,
-  "Rate": 27917.672,
-  "Units": 3886.16,
+  "CurrencyId": 195,
+  "Name": "Auer-Franecki",
+  "Tooltip": "pariatur",
+  "Rank": 720,
+  "Rate": 30681.86,
+  "Units": 22053.958,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 919
+      "FieldType": "System.String",
+      "FieldLength": 375
     }
   }
 }

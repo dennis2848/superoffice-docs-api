@@ -14,6 +14,8 @@ POST /api/v1/Agents/Preference/SavePreferenceDescriptionLines
 Saves the PreferenceDescriptionLine array in the SuperOffice database
 
 
+NsApiSlow threshold: 1000 ms.
+
 
 
 
@@ -79,26 +81,26 @@ OK
 POST /api/v1/Agents/Preference/SavePreferenceDescriptionLines
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "PreferenceDescriptionLines": [
     {
-      "PrefDescLineId": 330,
-      "PrefDescId": 943,
-      "PrefValue": "natus",
-      "PrefShowValue": "nam",
-      "Description": "Robust well-modulated workforce",
-      "IsBuiltin": true
+      "PrefDescLineId": 150,
+      "PrefDescId": 339,
+      "PrefValue": "sunt",
+      "PrefShowValue": "ab",
+      "Description": "Stand-alone motivating benchmark",
+      "IsBuiltin": false
     },
     {
-      "PrefDescLineId": 330,
-      "PrefDescId": 943,
-      "PrefValue": "natus",
-      "PrefShowValue": "nam",
-      "Description": "Robust well-modulated workforce",
-      "IsBuiltin": true
+      "PrefDescLineId": 150,
+      "PrefDescId": 339,
+      "PrefValue": "sunt",
+      "PrefShowValue": "ab",
+      "Description": "Stand-alone motivating benchmark",
+      "IsBuiltin": false
     }
   ]
 }
@@ -112,18 +114,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescLineId": 917,
-    "PrefDescId": 452,
-    "PrefValue": "nemo",
-    "PrefShowValue": "similique",
-    "Description": "Assimilated regional access",
+    "PrefDescLineId": 449,
+    "PrefDescId": 371,
+    "PrefValue": "provident",
+    "PrefShowValue": "ad",
+    "Description": "Re-contextualized dynamic paradigm",
     "IsBuiltin": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 877
+        "FieldType": "System.String",
+        "FieldLength": 496
       }
     }
   }

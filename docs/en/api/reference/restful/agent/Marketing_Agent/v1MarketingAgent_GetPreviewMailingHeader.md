@@ -14,6 +14,8 @@ POST /api/v1/Agents/Marketing/GetPreviewMailingHeader
 Get a shipment from its shipment id
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -89,11 +91,11 @@ OK
 POST /api/v1/Agents/Marketing/GetPreviewMailingHeader
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentId": 354
+  "ShipmentId": 804
 }
 ```
 
@@ -104,28 +106,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StartDate": "2015-05-21T03:46:55.0038735+02:00",
+  "StartDate": "2023-11-11T02:30:47.4600781+01:00",
   "Status": "AwaitPopulate",
-  "ShipmentId": 567,
-  "ShipmentDescription": "Profound heuristic structure",
-  "FromAddress": "consectetur",
-  "Configuration": 739,
-  "PersonId": 908,
-  "PersonFullName": "Ms. Dorthy Reichel MD",
-  "ShipmentType": "aut",
-  "MessageId": 575,
-  "MessageSubject": "qui",
-  "DocumentMessageId": 707,
-  "NumSent": 238,
-  "NumOpened": 858,
-  "NumBounced": 874,
-  "NumClicks": 249,
+  "ShipmentId": 675,
+  "ShipmentDescription": "Assimilated background service-desk",
+  "FromAddress": "iure",
+  "Configuration": 42,
+  "PersonId": 335,
+  "PersonFullName": "Miss Lauretta Okuneva MD",
+  "ShipmentType": "eveniet",
+  "MessageId": 728,
+  "MessageSubject": "atque",
+  "DocumentMessageId": 787,
+  "NumSent": 631,
+  "NumOpened": 759,
+  "NumBounced": 997,
+  "NumClicks": 995,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 707
+      "FieldType": "System.String",
+      "FieldLength": 418
     }
   }
 }

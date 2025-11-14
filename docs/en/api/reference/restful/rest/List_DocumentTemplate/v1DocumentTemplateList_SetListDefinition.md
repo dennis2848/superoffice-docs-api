@@ -89,16 +89,16 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 391,
-  "Name": "Sanford-Bergnaum",
-  "Tooltip": "praesentium",
-  "Deleted": false,
-  "Rank": 616,
+  "Id": 274,
+  "Name": "Hyatt-Romaguera",
+  "Tooltip": "non",
+  "Deleted": true,
+  "Rank": 6,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "ad",
-  "InUseByUserDefinedFields": false
+  "ListType": "odio",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -109,22 +109,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 156,
-  "Name": "Hermann-Franecki",
-  "Tooltip": "ratione",
-  "Deleted": true,
-  "Rank": 8,
-  "IsCustomList": false,
+  "Id": 143,
+  "Name": "Brown Inc and Sons",
+  "Tooltip": "sunt",
+  "Deleted": false,
+  "Rank": 442,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "delectus",
+  "ListType": "aut",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 211
+      "FieldType": "System.String",
+      "FieldLength": 110
     }
   }
 }

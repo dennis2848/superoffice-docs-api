@@ -31,7 +31,7 @@ Gets a selectable MDO list of the headings for this list item
 | showDeleted | bool |  Set to true if you want deleted headings |
 
 ```http
-GET /api/v1/List/{udListDefinitionName}/Items/{listItemId}/Headings?showDeleted=True
+GET /api/v1/List/{udListDefinitionName}/Items/{listItemId}/Headings?showDeleted=False
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/{udListDefinitionName}/Items/{listItemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 291,
-    "Name": "Pagac, Schmeler and Fahey",
-    "ToolTip": "Et doloribus accusamus omnis ipsa omnis numquam quia.",
+    "Id": 34,
+    "Name": "Streich, Daugherty and Hermiston",
+    "ToolTip": "Non dignissimos velit ut commodi earum.",
     "Deleted": false,
-    "Rank": 235,
-    "Type": "ullam",
-    "ColorBlock": 32,
-    "IconHint": "suscipit",
-    "Selected": false,
-    "LastChanged": "2014-12-18T03:47:00.5661762+01:00",
+    "Rank": 134,
+    "Type": "voluptatem",
+    "ColorBlock": 956,
+    "IconHint": "minima",
+    "Selected": true,
+    "LastChanged": "2014-09-06T02:30:53.194268+02:00",
     "ChildItems": [
       {
-        "Id": 295,
-        "Name": "Bode, Kertzmann and O'Connell",
-        "ToolTip": "Id aliquid quam et ut laboriosam.",
-        "Deleted": false,
-        "Rank": 826,
-        "Type": "in",
-        "ColorBlock": 368,
-        "IconHint": "voluptatum",
-        "Selected": true,
-        "LastChanged": "2001-05-17T03:47:00.5661762+02:00",
+        "Id": 65,
+        "Name": "Romaguera-Schimmel",
+        "ToolTip": "Aut quas voluptatum sint voluptates.",
+        "Deleted": true,
+        "Rank": 87,
+        "Type": "quia",
+        "ColorBlock": 210,
+        "IconHint": "et",
+        "Selected": false,
+        "LastChanged": "2001-02-08T02:30:53.194268+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sapiente",
-        "StyleHint": "rerum",
-        "Hidden": false,
-        "FullName": "Cortney Lindgren",
+        "ExtraInfo": "fugit",
+        "StyleHint": "consequatur",
+        "Hidden": true,
+        "FullName": "Sallie Wiegand",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 569
+            "FieldLength": 278
           }
         }
       }
     ],
-    "ExtraInfo": "officia",
-    "StyleHint": "facilis",
+    "ExtraInfo": "quo",
+    "StyleHint": "repudiandae",
     "Hidden": false,
-    "FullName": "Thora McLaughlin",
+    "FullName": "Jayden Lubowitz",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 928
+        "FieldType": "System.String",
+        "FieldLength": 975
       }
     }
   }

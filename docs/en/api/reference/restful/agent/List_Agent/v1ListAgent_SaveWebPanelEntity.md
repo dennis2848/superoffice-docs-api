@@ -14,10 +14,22 @@ POST /api/v1/Agents/List/SaveWebPanelEntity
 Updates the existing WebPanelEntity or creates a new WebPanelEntity if the id parameter is 0.
 
 
+NsApiSlow threshold: 5000 ms.
 
 
 
 
+
+
+## Query String Parameters
+
+| Parameter Name | Type |  Description |
+|----------------|------|--------------|
+| $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
+
+```http
+POST /api/v1/Agents/List/SaveWebPanelEntity?$select=name,department,category/id
+```
 
 
 ## Request Headers
@@ -34,34 +46,13 @@ Updates the existing WebPanelEntity or creates a new WebPanelEntity if the id pa
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: webPanelEntity 
+## Request Body: request 
 
-The WebPanelEntity that is saved 
+WebPanelEntity 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| WebPanelId | Integer | The identity of the web panel |
-| Name | String | The name of the web panel |
-| Tooltip | String | The tooltip of the web panel |
-| Deleted | Boolean | True if the web panel is marked as deleted |
-| Rank | Integer | The rank of the web panel |
-| UrlEncoding | String | The encoding of the URL |
-| VisibleIn | String | The webpanel is visible in |
-| OnCentral | Boolean | Is the webpanel visible when user is on central database |
-| OnSatellite | Boolean | Is the webpanel visible when user is on a satellite |
-| OnTravel | Boolean | Is the webpanel visible when user is on travel |
-| OnSalesMarketingWeb | Boolean | Is the webpanel visible when user is on web client |
-| OnSalesMarketingPocket | Boolean | Is the webpanel visible when user is on pocket client |
-| ShowInMenuBar | Boolean | Does the webpanel have a menu bar |
-| ShowInToolBar | Boolean | Does the webpanel have a toolbar |
-| ShowInAddressBar | Boolean | Does the webpanel have an address bar |
-| ShowInStatusBar | Boolean | Does the webpanel have a status bar |
-| WindowName | String | The window which the URL address is to open in (webpanel only) |
-| Url | String | The url |
-| ProgId | String | String key that can be used to uniquely retrieve the panel; particularly useful for partners and others who do not wish to store database ID's |
-| Icon | Integer | The icon of the webpanel |
-| AlwaysReloadOnShow | Boolean | If set to true, the content will reload every time the panel is shown |
-| NeverReloadOnCurrentChange | Boolean | If set to true, the content will not reload on current changes, only applies to sidepanels |
+| WebPanelEntity | WebPanelEntity | The web panel entity contains information on a web panel <para /> Carrier object for WebPanelEntity. Services for the WebPanelEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IListAgent">List Agent</see>. |
 
 ## Response:
 
@@ -106,32 +97,11 @@ OK
 POST /api/v1/Agents/List/SaveWebPanelEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 968,
-  "Name": "Kirlin-Larkin",
-  "Tooltip": "omnis",
-  "Deleted": false,
-  "Rank": 748,
-  "UrlEncoding": "ANSI",
-  "VisibleIn": "ActivityDialog",
-  "OnCentral": false,
-  "OnSatellite": true,
-  "OnTravel": false,
-  "OnSalesMarketingWeb": false,
-  "OnSalesMarketingPocket": false,
-  "ShowInMenuBar": true,
-  "ShowInToolBar": false,
-  "ShowInAddressBar": true,
-  "ShowInStatusBar": true,
-  "WindowName": "Jenkins-Hansen",
-  "Url": "http://www.example.com/",
-  "ProgId": "asperiores",
-  "Icon": 320,
-  "AlwaysReloadOnShow": false,
-  "NeverReloadOnCurrentChange": false
+  "WebPanelEntity": null
 }
 ```
 
@@ -142,34 +112,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 349,
-  "Name": "Beer LLC",
-  "Tooltip": "dolor",
-  "Deleted": true,
-  "Rank": 613,
+  "WebPanelId": 586,
+  "Name": "Kilback-Moen",
+  "Tooltip": "velit",
+  "Deleted": false,
+  "Rank": 803,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
   "OnSatellite": false,
   "OnTravel": false,
-  "OnSalesMarketingWeb": true,
-  "OnSalesMarketingPocket": true,
+  "OnSalesMarketingWeb": false,
+  "OnSalesMarketingPocket": false,
   "ShowInMenuBar": true,
   "ShowInToolBar": false,
   "ShowInAddressBar": false,
-  "ShowInStatusBar": true,
-  "WindowName": "Cassin LLC",
+  "ShowInStatusBar": false,
+  "WindowName": "Bergnaum-VonRueden",
   "Url": "http://www.example.com/",
-  "ProgId": "est",
-  "Icon": 103,
-  "AlwaysReloadOnShow": false,
-  "NeverReloadOnCurrentChange": true,
+  "ProgId": "ad",
+  "Icon": 737,
+  "AlwaysReloadOnShow": true,
+  "NeverReloadOnCurrentChange": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 527
+      "FieldLength": 348
     }
   }
 }

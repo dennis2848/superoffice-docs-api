@@ -15,6 +15,7 @@ Create a new document content based on a document template and store it in the d
 
 
 Tags are substituted according to the provided id's.  Use GetDocumentStream to obtain the created document. Since there is a potential for a name conflict (the file name stored by the document entity earlier may prove to be invalid), the (possibly amended) document entity is returned. The client should not assume that any earlier, cached entity information is valid.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -120,13 +121,13 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 664,
-  "PersonId": 518,
-  "AppointmentId": 76,
-  "DocumentId": 344,
-  "SaleId": 46,
-  "SelectionId": 561,
-  "ProjectId": 820,
+  "ContactId": 2,
+  "PersonId": 788,
+  "AppointmentId": 107,
+  "DocumentId": 186,
+  "SaleId": 129,
+  "SelectionId": 31,
+  "ProjectId": 766,
   "UiCulture": "voluptatem"
 }
 ```
@@ -138,88 +139,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 791,
+  "DocumentId": 475,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "doloremque",
-  "Header": "quo",
-  "Name": "Renner Group",
-  "OurRef": "cupiditate",
-  "YourRef": "et",
-  "CreatedDate": "2016-09-04T03:46:54.67576+02:00",
-  "UpdatedDate": "2001-01-29T03:46:54.67576+01:00",
-  "Description": "Customer-focused holistic encoding",
+  "Attention": "qui",
+  "Header": "aliquam",
+  "Name": "Reilly Inc and Sons",
+  "OurRef": "fuga",
+  "YourRef": "nostrum",
+  "CreatedDate": "2019-11-12T02:30:47.1944624+01:00",
+  "UpdatedDate": "2003-09-25T02:30:47.1944624+02:00",
+  "Description": "Cloned maximized approach",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2025-05-25T03:46:54.6913844+02:00",
-  "ExternalRef": "libero",
+  "Date": "2025-01-14T02:30:47.2100867+01:00",
+  "ExternalRef": "repellat",
   "Completed": "Completed",
-  "ActiveLinks": 705,
+  "ActiveLinks": 568,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Maggio, Ward and Cruickshank",
-      "Id": 256,
-      "Description": "Enhanced executive monitoring",
-      "ExtraInfo": "harum",
-      "LinkId": 10,
+      "EntityName": "Collier-Nienow",
+      "Id": 409,
+      "Description": "Optional heuristic local area network",
+      "ExtraInfo": "omnis",
+      "LinkId": 713,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 158
+          "FieldLength": 853
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 103,
-  "Snum": 905,
+  "SuggestedDocumentId": 795,
+  "Snum": 812,
   "UserDefinedFields": {
-    "SuperOffice:1": "False",
-    "SuperOffice:2": "Ms. Ed Aryanna Thompson"
+    "SuperOffice:1": "1516990013",
+    "SuperOffice:2": "Prof. Chelsey Orpha Dicki DDS"
   },
   "ExtraFields": {
-    "ExtraFields1": "dolore",
-    "ExtraFields2": "est"
+    "ExtraFields1": "quia",
+    "ExtraFields2": "ipsam"
   },
   "CustomFields": {
-    "CustomFields1": "eum",
-    "CustomFields2": "vel"
+    "CustomFields1": "tempore",
+    "CustomFields2": "voluptatem"
   },
-  "PublishEventDate": "2011-06-12T03:46:54.6913844+02:00",
-  "PublishTo": "2004-04-18T03:46:54.6913844+02:00",
-  "PublishFrom": "2004-06-22T03:46:54.6913844+02:00",
+  "PublishEventDate": "2008-11-24T02:30:47.2100867+01:00",
+  "PublishTo": "2017-03-01T02:30:47.2100867+01:00",
+  "PublishFrom": "2001-10-13T02:30:47.2100867+02:00",
   "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 233,
+      "VisibleId": 809,
       "Visibility": "All",
-      "DisplayValue": "repellat",
+      "DisplayValue": "autem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 295
+          "FieldType": "System.String",
+          "FieldLength": 81
         }
       }
     },
     {
-      "VisibleId": 233,
+      "VisibleId": 809,
       "Visibility": "All",
-      "DisplayValue": "repellat",
+      "DisplayValue": "autem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 295
+          "FieldType": "System.String",
+          "FieldLength": 81
         }
       }
     }
@@ -229,7 +230,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 924
+      "FieldLength": 186
     }
   }
 }

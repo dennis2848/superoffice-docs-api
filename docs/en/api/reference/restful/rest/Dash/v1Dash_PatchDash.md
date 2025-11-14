@@ -14,7 +14,8 @@ PATCH /api/v1/Dash/{id}
 Update a Dash with changes, as described in a JSON Patch or a JSON Merge Patch document.
 
 
-See <a href="https://tools.ietf.org/html/rfc6902">RFC6902</a> and <a href="https://tools.ietf.org/html/rfc7386">RFC 7396</a>. Update the Department field to "foo" can be done either as a JSON PATCH:
+See <a href="https://tools.ietf.org/html/rfc6902">RFC6902</a> and <a href="https://tools.ietf.org/html/rfc7386">RFC 7396</a>.
+NsApiSlow threshold: 5000 ms. Update the Department field to "foo" can be done either as a JSON PATCH:
 
 ```js
 
@@ -121,18 +122,18 @@ Dash  updated.
 PATCH /api/v1/Dash/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "eaque",
+    "path": "delectus",
     "value": {}
   },
   {
     "op": "add",
-    "path": "eaque",
+    "path": "delectus",
     "value": {}
   }
 ]
@@ -145,37 +146,37 @@ HTTP/1.1 200 Dash  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 548,
-  "UniqueId": "sit",
-  "Name": "Brekke Inc and Sons",
-  "Description": "Distributed cohesive circuit",
-  "AssociateId": 475,
-  "Columns": 362,
+  "DashboardId": 535,
+  "UniqueId": "dolores",
+  "Name": "Hammes, Renner and Langworth",
+  "Description": "Reverse-engineered static moderator",
+  "AssociateId": 854,
+  "Columns": 527,
   "Theme": null,
-  "VisibleForAll": 623,
+  "VisibleForAll": 996,
   "VisibleForAssociates": [
-    356,
-    846
+    769,
+    612
   ],
   "VisibleForGroups": [
-    970,
-    89
+    588,
+    380
   ],
-  "PinForAll": 371,
+  "PinForAll": 126,
   "PinForAssociates": [
-    440,
-    819
+    855,
+    475
   ],
   "PinForGroups": [
-    181,
-    58
+    987,
+    147
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 976
+      "FieldLength": 370
     }
   },
   "_Links": {

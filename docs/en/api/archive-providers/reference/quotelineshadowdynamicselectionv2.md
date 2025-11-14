@@ -155,7 +155,7 @@ QuoteLine shadow selection archive with OR-able selection groups. Each group is 
 |alternative/version/quote/sale/earning|decimal|Sale - Profit: Gross profit (gross sales total - cost) for the sale| x |
 |alternative/version/quote/sale/earningPercent|decimal|Sale - Profit as %: The profit as a percentage of the gross sales total| x |
 |alternative/version/quote/sale/probPercent|int|Sale - Probability as %: Probability as %| x |
-|alternative/version/quote/sale/originalStage|listAny|Sale - Stage: Displays the stage of the sale| x |
+|alternative/version/quote/sale/originalStage|listAny|Sale - Stage when closed: Stage when closed| x |
 |alternative/version/quote/sale/stage|listAny|Sale - Stage: Displays the stage of the sale| x |
 |alternative/version/quote/sale/stageName| *None* |Sale - Stage name: Displays the stage of the sale| x |
 |alternative/version/quote/sale/saleStatus|listAny|Sale - Status: The status of the sale - open, lost or sold| x |
@@ -177,6 +177,7 @@ QuoteLine shadow selection archive with OR-able selection groups. Each group is 
 |alternative/version/quote/sale/createdByWorkflow|listAny|Sale - Created by flow: Created by flow| x |
 |alternative/version/quote/sale/amountInBaseCurrency| *None* |Sale - Amount (BaseCurrency): The gross sales total| x |
 |alternative/version/quote/sale/amountWeightedInBaseCurrency| *None* |Sale - Weighted amount (BaseCurrency): Virtual field calculated from amount * probability percent.| x |
+|alternative/version/quote/sale/daysInStage| *None* |Sale - Days in stage: Total number of days in this stage| x |
 |alternative/version/quote/sale/visibleFor|listAny|Sale - Visible for|  |
 |alternative/version/quote/sale/sale/textId|int|Sale - Text ID| x |
 |alternative/version/quote/sale/sale/description|positiveString|Sale - Text: Displays the text entered in the description field| x |
@@ -222,13 +223,17 @@ QuoteLine shadow selection archive with OR-able selection groups. Each group is 
 |alternative/version/quote/sale/person/personAssociateId|associate|Sale - Our contact: Displays our contact| x |
 |alternative/version/quote/sale/person/personAssociateFullName|associate|Sale - Our contact - Full name: Displays our contact| x |
 |alternative/version/quote/sale/person/personCategory|listAny|Sale - Category| x |
-|alternative/version/quote/sale/person/personBusiness|listAny|Sale - Business| x |
-|alternative/version/quote/sale/person/personDeletedDate|datetime|Sale - Deleted date: Deleted date|  |
-|alternative/version/quote/sale/person/hasCompany|bool|Sale - Has company: The contact is associated with a company| x |
+|alternative/version/quote/sale/person/personCategoryGroup|listAny|Sale - Category group| x |
+|alternative/version/quote/sale/person/personCategoryRank|int|Sale - !!Category rank| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|alternative/version/quote/sale/person/personBusiness|listAny|Sale - Business| x |
+|alternative/version/quote/sale/person/leadStatus|listAny|Sale - Lead status| x |
+|alternative/version/quote/sale/person/leadstatusRank|int|Sale - !!Lead status RANK| x |
+|alternative/version/quote/sale/person/personDeletedDate|datetime|Sale - Deleted date: Deleted date|  |
+|alternative/version/quote/sale/person/hasCompany|bool|Sale - Has company: The contact is associated with a company| x |
 |alternative/version/quote/sale/person/isProjectMember|bool|Sale - Is project member: This person is a project member| x |
 |alternative/version/quote/sale/person/isStakeholder|bool|Sale - Is stakeholder: This person is a sale stakeholder| x |
 |alternative/version/quote/sale/person/updatedByWorkflow|listAny|Sale - Updated by flow: Updated by flow| x |
@@ -313,8 +318,8 @@ QuoteLine shadow selection archive with OR-able selection groups. Each group is 
 |alternative/version/quote/sale/person/personExtra/x\_person\_appointment\_relation|stringorPK|Sale - Extra appointment relation: Appointment relation on person| x |
 |alternative/version/quote/sale/person/personExtra/x\_person\_contact\_relation|stringorPK|Sale - Extra company relation: Company relation on contact| x |
 |alternative/version/quote/sale/person/personExtra/y\_rental/id|int|Sale - Rental - id: Displays the row's primary key (y\_rental)| x |
-|alternative/version/quote/sale/person/personExtra/y\_rental/x\_start|date|Sale - Rental - Start rental| x |
-|alternative/version/quote/sale/person/personExtra/y\_rental/x\_end|date|Sale - Rental - End| x |
+|alternative/version/quote/sale/person/personExtra/y\_rental/x\_start|date|Sale - Rental - Start rental: Start rental| x |
+|alternative/version/quote/sale/person/personExtra/y\_rental/x\_end|date|Sale - Rental - End: End| x |
 |alternative/version/quote/sale/person/personExtra/y\_rental/x\_amount|int|Sale - Rental - Amount: Number to rent. Default = 1| x |
 |alternative/version/quote/sale/person/personExtra/y\_rental/x\_contact|stringorPK|Sale - Rental - Renter: Company that rents equipment| x |
 |alternative/version/quote/sale/person/personExtra/y\_rental/y\_equipment/x\_name|string|Sale - Rental - Equipment - Name: Equpment name custom field. Cannot be null., show in table| x |
@@ -324,15 +329,15 @@ QuoteLine shadow selection archive with OR-able selection groups. Each group is 
 |alternative/version/quote/sale/person/personAssociate/middleName|string|Sale - Middle Name: Displays the contact's middle name.| x |
 |alternative/version/quote/sale/person/personAssociate/fullName|string|Sale - Full name: Displays full name of user (first, middle, last - according to settings)| x |
 |alternative/version/quote/sale/person/personAssociate/contactId|int|Sale - Company ID: Database ID of the company the user belongs to|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |alternative/version/quote/sale/person/personAssociate/personId|int|Sale - Contact ID: Database ID of the contact row|  |
 |alternative/version/quote/sale/person/personAssociate/mrMrs|string|Sale - Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
 |alternative/version/quote/sale/person/personAssociate/title|string|Sale - Title: Displays whether the contact is addressed as Mr or Ms| x |
 |alternative/version/quote/sale/person/personAssociate/associateDbId|associate|Sale - ID| x |
 |alternative/version/quote/sale/person/personAssociate/contactName|string|Sale - Owning company: Name of the company the user belongs to| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |alternative/version/quote/sale/person/personAssociate/contactDepartment|string|Sale - Owning department: Name of the department at the company the user belongs to| x |
 |alternative/version/quote/sale/person/personAssociate/usergroup|userGroup|Sale - Primary group: The user's primary user group| x |
 |alternative/version/quote/sale/person/personAssociate/usergroupId|int|Sale - Group ID: The user's primary user group| x |
@@ -344,7 +349,7 @@ QuoteLine shadow selection archive with OR-able selection groups. Each group is 
 |alternative/version/quote/sale/person/personAssociate/assocType|listAny|Sale - Type: Type of user: associate, external user, system user, anonymous account| x |
 |alternative/version/quote/sale/person/personAssociate/ejUserId|int|Sale - Service user ID: The database ID of a Service user|  |
 |alternative/version/quote/sale/person/personAssociate/simultaneousEjUser|bool|Sale - Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|alternative/version/quote/sale/person/personAssociate/ejDisplayName|string|Sale - Nick name: User's nick name in Service| x |
+|alternative/version/quote/sale/person/personAssociate/ejDisplayName|string|Sale - Nickname: User's nickname in Service| x |
 |alternative/version/quote/sale/person/personAssociate/ejStatus|int|Sale - Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |alternative/version/quote/sale/person/personAssociate/credentialType| *None* |Sale - Auth. type: What type of credentials to use when this user logs in| x |
 |alternative/version/quote/sale/person/personAssociate/credentialDisplayValue| *None* |Sale - Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
@@ -377,7 +382,7 @@ QuoteLine shadow selection archive with OR-able selection groups. Each group is 
 |alternative/version/quote/sale/person/correspondingAssociate/assocType|listAny|Sale - Type: Type of user: associate, external user, system user, anonymous account| x |
 |alternative/version/quote/sale/person/correspondingAssociate/ejUserId|int|Sale - Service user ID: The database ID of a Service user|  |
 |alternative/version/quote/sale/person/correspondingAssociate/simultaneousEjUser|bool|Sale - Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|alternative/version/quote/sale/person/correspondingAssociate/ejDisplayName|string|Sale - Nick name: User's nick name in Service| x |
+|alternative/version/quote/sale/person/correspondingAssociate/ejDisplayName|string|Sale - Nickname: User's nickname in Service| x |
 |alternative/version/quote/sale/person/correspondingAssociate/ejStatus|int|Sale - Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |alternative/version/quote/sale/person/correspondingAssociate/credentialType| *None* |Sale - Auth. type: What type of credentials to use when this user logs in| x |
 |alternative/version/quote/sale/person/correspondingAssociate/credentialDisplayValue| *None* |Sale - Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
@@ -407,6 +412,8 @@ QuoteLine shadow selection archive with OR-able selection groups. Each group is 
 |alternative/version/quote/sale/contact/hasInterests|bool|Sale - Has interests: Displays an Icon indicating if the contact has active interests| x |
 |alternative/version/quote/sale/contact/associateId|associate|Sale - Our contact: Displays our contact| x |
 |alternative/version/quote/sale/contact/category|listAny|Sale - Category| x |
+|alternative/version/quote/sale/contact/categoryGroup|listAny|Sale - Category group| x |
+|alternative/version/quote/sale/contact/companyCategoryRank|int|Sale - Category rank| x |
 |alternative/version/quote/sale/contact/business|listAny|Sale - Business| x |
 |alternative/version/quote/sale/contact/country|listAny|Sale - Country: This criterion corresponds to the Country field on the Company card.| x |
 |alternative/version/quote/sale/contact/countryId|int|Sale - Country ID: Country ID| x |
@@ -426,17 +433,18 @@ QuoteLine shadow selection archive with OR-able selection groups. Each group is 
 |alternative/version/quote/sale/contact/phone/formattedNumber|string|Sale - Phone: Displays phone number|  |
 |alternative/version/quote/sale/contact/activeErpLinks|bool|Sale - ERP connected: Is there an active ERP Sync?| x |
 |alternative/version/quote/sale/contact/deletedDate|datetime|Sale - Deleted date: Deleted date|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |alternative/version/quote/sale/contact/mainContact| *None* |Sale - Main contact: Main contact for this company| x |
+|alternative/version/quote/sale/contact/forceCompany|bool|Sale - Dummy: Dummy|  |
 |alternative/version/quote/sale/contact/contactPhone/formattedNumber|string|Sale - Telephone - Phone: Displays phone number|  |
 |alternative/version/quote/sale/contact/contactPhone/description|string|Sale - Telephone - Description: Phone number description| x |
 |alternative/version/quote/sale/contact/contactFax/formattedNumber|string|Sale - Fax - Phone: Displays phone number|  |
 |alternative/version/quote/sale/contact/contactFax/description|string|Sale - Fax - Description: Phone number description| x |
 |alternative/version/quote/sale/contact/searchPhone/formattedNumber|string|Sale - Searchphone - Phone: Displays phone number|  |
 |alternative/version/quote/sale/contact/searchPhone/description|string|Sale - Searchphone - Description: Phone number description| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |alternative/version/quote/sale/contact/email/emailProtocol|string|Sale - Protocol: E-mail protocol, such as SMTP| x |
 |alternative/version/quote/sale/contact/email/emailAddress|string|Sale - E-mail| x |
 |alternative/version/quote/sale/contact/email/emailDescription|string|Sale - Description| x |
@@ -504,7 +512,7 @@ QuoteLine shadow selection archive with OR-able selection groups. Each group is 
 |alternative/version/quote/sale/contact/contactAssociate/assocType|listAny|Sale - Type: Type of user: associate, external user, system user, anonymous account| x |
 |alternative/version/quote/sale/contact/contactAssociate/ejUserId|int|Sale - Service user ID: The database ID of a Service user|  |
 |alternative/version/quote/sale/contact/contactAssociate/simultaneousEjUser|bool|Sale - Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|alternative/version/quote/sale/contact/contactAssociate/ejDisplayName|string|Sale - Nick name: User's nick name in Service| x |
+|alternative/version/quote/sale/contact/contactAssociate/ejDisplayName|string|Sale - Nickname: User's nickname in Service| x |
 |alternative/version/quote/sale/contact/contactAssociate/ejStatus|int|Sale - Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |alternative/version/quote/sale/contact/contactAssociate/credentialType| *None* |Sale - Auth. type: What type of credentials to use when this user logs in| x |
 |alternative/version/quote/sale/contact/contactAssociate/credentialDisplayValue| *None* |Sale - Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
@@ -529,6 +537,10 @@ QuoteLine shadow selection archive with OR-able selection groups. Each group is 
 |alternative/version/quote/sale/contact/contactUdef/SuperOffice:10|string|Sale - page1marketingonly| x |
 |alternative/version/quote/sale/contact/contactUdef/SuperOffice:11|string|Sale - page1adminonly| x |
 |alternative/version/quote/sale/contact/contactUdef/SuperOffice:12|listAny|Sale - Udlist one: Static tooltip for udlist one| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |alternative/version/quote/sale/contact/contactUdef/SuperOffice:13|listAny|Sale - Udlist two: Static tooltip for udlist two| x |
 |alternative/version/quote/sale/contact/contactExtra/x\_contact\_integer|int|Sale - Extra Integer: Custom integer field| x |
 |alternative/version/quote/sale/contact/contactExtra/x\_contact\_hidden\_integer|int|Sale - Extra hidden integer: Custom integer field - hidden| x |
@@ -537,10 +549,6 @@ QuoteLine shadow selection archive with OR-able selection groups. Each group is 
 |alternative/version/quote/sale/contact/contactExtra/x\_contact\_longtext|string|Sale - Extra LongText: Custom long text field. DO not keep HTML. 3 Line text area editor| x |
 |alternative/version/quote/sale/contact/contactExtra/x\_contact\_dropdown|listAny|Sale - Extra Long Dropdown: Custom long text field with dropdown: Volvo, Saab, etc.| x |
 |alternative/version/quote/sale/contact/contactExtra/x\_contact\_date|date|Sale - Extra date: Custom date field. User current as default.| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |alternative/version/quote/sale/contact/contactExtra/x\_contact\_datetime|datetime|Sale - Extra DateTime: Custom Date Time field. No default value. External| x |
 |alternative/version/quote/sale/contact/contactExtra/x\_contact\_time| *None* |Sale - Extra time: Custom time field.| x |
 |alternative/version/quote/sale/contact/contactExtra/x\_contact\_boolean|bool|Sale - Extra boolean: Custom boolean field.| x |
@@ -550,7 +558,7 @@ QuoteLine shadow selection archive with OR-able selection groups. Each group is 
 |alternative/version/quote/sale/contact/contactExtra/x\_contact\_contact\_relation|stringorPK|Sale - Extra Company: Custom company relation. Do not show one-to-many relations. Show function buttons| x |
 |alternative/version/quote/sale/contact/contactExtra/x\_contact\_request\_relation|stringorPK|Sale - Extra Request relation: Request relation on company| x |
 |alternative/version/quote/sale/contact/contactExtra/x\_contact\_contact|stringorPK|Sale - Extra contact relation: Contact relation on company| x |
-|alternative/version/quote/sale/contact/contactExtra/y\_organization/x\_name|string|Sale - Organization - Name| x |
+|alternative/version/quote/sale/contact/contactExtra/y\_organization/x\_name|string|Sale - Organization - Name: Name| x |
 |alternative/version/quote/sale/contact/NumberOfActivities|int|Sale - Number of activities|  |
 |alternative/version/quote/sale/contact/NumberOfActivitiesInPeriod|int|Sale - Number of activities in last 90 days|  |
 |alternative/version/quote/sale/contact/NumberOfNotCompletedActivities|int|Sale - Number of non-completed activities|  |
@@ -602,7 +610,7 @@ QuoteLine shadow selection archive with OR-able selection groups. Each group is 
 |alternative/version/quote/sale/associate/assocType|listAny|Sale - Type: Type of user: associate, external user, system user, anonymous account| x |
 |alternative/version/quote/sale/associate/ejUserId|int|Sale - Service user ID: The database ID of a Service user|  |
 |alternative/version/quote/sale/associate/simultaneousEjUser|bool|Sale - Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|alternative/version/quote/sale/associate/ejDisplayName|string|Sale - Nick name: User's nick name in Service| x |
+|alternative/version/quote/sale/associate/ejDisplayName|string|Sale - Nickname: User's nickname in Service| x |
 |alternative/version/quote/sale/associate/ejStatus|int|Sale - Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |alternative/version/quote/sale/associate/credentialType| *None* |Sale - Auth. type: What type of credentials to use when this user logs in| x |
 |alternative/version/quote/sale/associate/credentialDisplayValue| *None* |Sale - Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
@@ -633,6 +641,10 @@ QuoteLine shadow selection archive with OR-able selection groups. Each group is 
 |alternative/version/quote/sale/project/hasInfoText|bool|Sale - Project - Info: Displays an icon indicating if the project has a description text. The text itself will be displayed in a tooltip.| x |
 |alternative/version/quote/sale/project/icon| *None* |Sale - Project - Category: Displays the icon for an activity type| x |
 |alternative/version/quote/sale/project/text|string|Sale - Project - Text: Displays a descriptive text for the item| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |alternative/version/quote/sale/project/description|string|Sale - Project - Description: Description| x |
 |alternative/version/quote/sale/project/updatedBy|associate|Sale - Project - Updated by: The user who last updated the data| x |
 |alternative/version/quote/sale/project/updatedByFullName|associate|Sale - Project - Updated by - Full name: The user who last updated the data| x |
@@ -641,10 +653,6 @@ QuoteLine shadow selection archive with OR-able selection groups. Each group is 
 |alternative/version/quote/sale/project/registeredByFullName|associate|Sale - Project - Registered by - Full name: The user who registered the data| x |
 |alternative/version/quote/sale/project/registeredDate|date|Sale - Project - Registered date: The date/time the data was registered in UTC.| x |
 |alternative/version/quote/sale/project/hasGuide|bool|Sale - Project - Guided: Does this sale have a Sales Guide| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |alternative/version/quote/sale/project/nextMilestone|date|Sale - Project - Next milestone: Date of next non-completed activity that is marked as a milestone| x |
 |alternative/version/quote/sale/project/endDate|date|Sale - Project - End date: End date of project| x |
 |alternative/version/quote/sale/project/imageThumbnail| *None* |Sale - Project - Thumbnail: Scaled-down image of project image|  |
@@ -680,7 +688,7 @@ QuoteLine shadow selection archive with OR-able selection groups. Each group is 
 |alternative/version/quote/sale/project/projectAssociate/assocType|listAny|Sale - Project - Type: Type of user: associate, external user, system user, anonymous account| x |
 |alternative/version/quote/sale/project/projectAssociate/ejUserId|int|Sale - Project - Service user ID: The database ID of a Service user|  |
 |alternative/version/quote/sale/project/projectAssociate/simultaneousEjUser|bool|Sale - Project - Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|alternative/version/quote/sale/project/projectAssociate/ejDisplayName|string|Sale - Project - Nick name: User's nick name in Service| x |
+|alternative/version/quote/sale/project/projectAssociate/ejDisplayName|string|Sale - Project - Nickname: User's nickname in Service| x |
 |alternative/version/quote/sale/project/projectAssociate/ejStatus|int|Sale - Project - Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |alternative/version/quote/sale/project/projectAssociate/credentialType| *None* |Sale - Project - Auth. type: What type of credentials to use when this user logs in| x |
 |alternative/version/quote/sale/project/projectAssociate/credentialDisplayValue| *None* |Sale - Project - Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
@@ -737,6 +745,10 @@ QuoteLine shadow selection archive with OR-able selection groups. Each group is 
 |alternative/version/quote/connection/updatedBy|associate|ERP connection - Updated by: The user who last updated the data| x |
 |alternative/version/quote/connection/updatedDate|date|ERP connection - Updated: The date/time the data was last updated in UTC.| x |
 |alternative/version/quote/connection/registeredBy|associate|ERP connection - Registered by: The user who registered the data| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |alternative/version/quote/connection/registeredDate|date|ERP connection - Registered date: The date/time the data was registered in UTC.| x |
 |alternative/version/quote/connection/erpConnection/id|int|ERP connection - ERP connections - Connection ID: Database key for an ERP connection|  |
 |alternative/version/quote/connection/erpConnection/name|string|ERP connection - ERP connections - Name: Name of the ERP connection in the CRM system|  |
@@ -745,10 +757,6 @@ QuoteLine shadow selection archive with OR-able selection groups. Each group is 
 |alternative/version/quote/connection/erpConnection/erpId|string|ERP connection - ERP connections - ERP ID: The global unique ID of this ERP connection, as used by the Sync Connector|  |
 |alternative/version/quote/connection/erpConnection/mostRecent|string|ERP connection - ERP connections - Timestamp: The timestamp of the most recent synchronization on this ERP connection|  |
 |alternative/version/quote/connection/erpConnection/allAccess|bool|ERP connection - ERP connections - Unrestricted: There are no access restrictions on this ERP connection|  |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |alternative/version/quote/connection/erpConnection/deleted|bool|ERP connection - ERP connections - Deleted: Column showing if the ERP connection has been marked as deleted|  |
 |alternative/version/quote/connection/erpConnection/updatedBy|associate|ERP connection - ERP connections - Updated by: The user who last updated the data| x |
 |alternative/version/quote/connection/erpConnection/updatedDate|date|ERP connection - ERP connections - Updated: The date/time the data was last updated in UTC.| x |
@@ -765,7 +773,7 @@ QuoteLine shadow selection archive with OR-able selection groups. Each group is 
 ## Sample
 
 ```http!
-GET /api/v1/archive/QuoteLineShadowDynamicSelectionV2?$select=alternative/version/approvedBy,alternative/version/quote/sale/person/fullName,alternative/version/quote/sale/person/email/emailDescription
+GET /api/v1/archive/QuoteLineShadowDynamicSelectionV2?$select=quoteLineId,alternative/version/quote/sale/amount,alternative/version/quote/sale/stage,alternative/version/quote/sale/person/personAssociate/locationAddress,alternative/version/quote/sale/person/withdrawnEmarketingConsent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

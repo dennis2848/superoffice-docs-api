@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/{udListDefinitionName}/Items/{listItemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 860,
-    "Name": "Wiegand, Langworth and Kirlin",
-    "ToolTip": "Consequuntur a.",
+    "Id": 899,
+    "Name": "Wehner-Gutkowski",
+    "ToolTip": "In itaque qui.",
     "Deleted": true,
-    "Rank": 764,
-    "Type": "et",
-    "ColorBlock": 734,
-    "IconHint": "dolore",
+    "Rank": 12,
+    "Type": "nostrum",
+    "ColorBlock": 533,
+    "IconHint": "possimus",
     "Selected": true,
-    "LastChanged": "2011-11-08T03:47:00.5661762+01:00",
+    "LastChanged": "2023-07-10T02:30:53.194268+02:00",
     "ChildItems": [
       {
-        "Id": 15,
-        "Name": "Champlin, Stehr and Schulist",
-        "ToolTip": "Consectetur quae ut nemo quae.",
+        "Id": 319,
+        "Name": "Weissnat Inc and Sons",
+        "ToolTip": "Voluptatum magni aut officia voluptas.",
         "Deleted": false,
-        "Rank": 262,
-        "Type": "aliquid",
-        "ColorBlock": 38,
-        "IconHint": "eligendi",
+        "Rank": 472,
+        "Type": "praesentium",
+        "ColorBlock": 321,
+        "IconHint": "non",
         "Selected": true,
-        "LastChanged": "2025-03-25T03:47:00.5661762+01:00",
+        "LastChanged": "2018-09-26T02:30:53.194268+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "officiis",
+        "ExtraInfo": "eveniet",
+        "StyleHint": "rerum",
         "Hidden": false,
-        "FullName": "Mrs. Lavada Rene Emmerich III"
+        "FullName": "Mrs. Gus Verla Jacobs"
       }
     ],
-    "ExtraInfo": "ducimus",
-    "StyleHint": "porro",
+    "ExtraInfo": "eveniet",
+    "StyleHint": "dignissimos",
     "Hidden": false,
-    "FullName": "Alexandrine Glover"
+    "FullName": "Ms. Jocelyn Anais Grant"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 485,
-    "Name": "Buckridge-Daugherty",
-    "ToolTip": "Voluptatum totam quasi.",
+    "Id": 883,
+    "Name": "Vandervort-Larson",
+    "ToolTip": "Minus et sapiente sunt distinctio.",
     "Deleted": false,
-    "Rank": 100,
-    "Type": "sed",
-    "ColorBlock": 766,
-    "IconHint": "cum",
+    "Rank": 718,
+    "Type": "qui",
+    "ColorBlock": 230,
+    "IconHint": "nihil",
     "Selected": false,
-    "LastChanged": "2011-04-20T03:47:00.5661762+02:00",
+    "LastChanged": "2013-11-07T02:30:53.194268+01:00",
     "ChildItems": [
       {
-        "Id": 401,
-        "Name": "Conroy Group",
-        "ToolTip": "Et molestiae ut est accusantium corrupti vitae.",
+        "Id": 383,
+        "Name": "Bashirian, Jones and Greenholt",
+        "ToolTip": "Aut reprehenderit quia et.",
         "Deleted": false,
-        "Rank": 649,
-        "Type": "dolor",
-        "ColorBlock": 512,
-        "IconHint": "ea",
-        "Selected": false,
-        "LastChanged": "2010-04-13T03:47:00.5661762+02:00",
+        "Rank": 130,
+        "Type": "ad",
+        "ColorBlock": 233,
+        "IconHint": "perferendis",
+        "Selected": true,
+        "LastChanged": "2025-03-18T02:30:53.194268+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ducimus",
-        "StyleHint": "vero",
-        "Hidden": true,
-        "FullName": "Shana Marian Wilkinson MD",
+        "ExtraInfo": "rerum",
+        "StyleHint": "fugit",
+        "Hidden": false,
+        "FullName": "Elza Schowalter",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 481
+            "FieldLength": 360
           }
         }
       }
     ],
-    "ExtraInfo": "deleniti",
-    "StyleHint": "ut",
+    "ExtraInfo": "et",
+    "StyleHint": "maiores",
     "Hidden": false,
-    "FullName": "Ms. Lilly Velda Kertzmann DVM",
+    "FullName": "Kasandra Paucek",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 321
+        "FieldType": "System.String",
+        "FieldLength": 536
       }
     }
   }

@@ -45,7 +45,7 @@ highlightedContent:
     - title: "Video meetings"
       itemType: school
       typeDesc: learn
-      url: ../diary/video-meeting/index.md
+      url: ../../../integrations/video-meetings/index.md
     # Card
     - title: "Customer Service"
       itemType: map
@@ -108,7 +108,7 @@ conceptualContent:
         - text: "Authentication"
           itemType: map
           typeDesc: overview
-          url: ../../api/authentication/index.yml
+          url: ../api/authentication/index.yml
         - text: Reset password
           itemType: list
           typeDesc: how-to-guide
@@ -156,7 +156,7 @@ conceptualContent:
         - text: Integration points
           itemType: explore
           typeDesc: concept
-          url: ../../api/overview/index.md
+          url: ../api/overview/index.md
         - text: App store
           itemType: map
           typeDesc: overview
@@ -168,11 +168,11 @@ conceptualContent:
         - text: SharePoint documents
           itemType: explore
           typeDesc: concept
-          url: ../document/cloud/sharepoint-documents/index.md
+          url: ../../../integrations/sharepoint-documents/index.md
         - text: Google Workspace document integration
           itemType: explore
           typeDesc: concept
-          url: ../document/cloud/g-suite/index.md
+          url: ../../../integrations/g-suite/index.md
 
 # Card with summary style
 additionalContent:

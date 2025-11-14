@@ -1,12 +1,16 @@
----
+﻿---
 uid: help-nl-tutorial-form-mailing
 title: Zelfstudie - formulier antwoordmailing
 description: In deze zelfstudie leert u een formulier voor antwoordmailing te maken.
 keywords: formuliermailing, antwoordmailing
-date: 06.27.2025
+date: 09.26.2025
 version: 10.5
 content_type: tutorial
+category: marketing
+topic: mailing
+license: marketingessentials
 audience: person
+audience_tooltip: SuperOffice Marketing
 language: nl
 ---
 
@@ -57,5 +61,5 @@ De eerste stap bij het maken van een formulierantwoord is **Instellingen**. Hier
 [!include[Stap 3 e-mail](includes/step-3-content-email.md)]
 
 <!-- Referenced links -->
-[1]: ../../../../admin/lists/learn/add-items-to-mailing-domain.md
+[1]: ../../admin/add-domain.md
 [2]: ../../../learn/create-folder.md

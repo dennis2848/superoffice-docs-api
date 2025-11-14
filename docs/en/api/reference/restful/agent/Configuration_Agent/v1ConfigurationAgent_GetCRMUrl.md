@@ -14,6 +14,8 @@ POST /api/v1/Agents/Configuration/GetCRMUrl
 Returns a valid url based in the soprotocol provided
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -75,9 +77,9 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SoProtocol": "nostrum",
-  "Currents": "quia",
-  "Frameless": false
+  "SoProtocol": "et",
+  "Currents": "assumenda",
+  "Frameless": true
 }
 ```
 

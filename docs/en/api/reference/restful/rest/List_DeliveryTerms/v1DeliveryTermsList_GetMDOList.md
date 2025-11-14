@@ -27,8 +27,8 @@ Get the MDO list items for "DeliveryTerms" - with headings and filtering by user
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/DeliveryTerm/MDOItems?flat=True
-GET /api/v1/List/DeliveryTerm/MDOItems?query=suscipit
+GET /api/v1/List/DeliveryTerm/MDOItems?flat=False
+GET /api/v1/List/DeliveryTerm/MDOItems?query=quod
 ```
 
 
@@ -90,50 +90,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 9,
-    "Name": "Green Group",
-    "ToolTip": "Reprehenderit earum tenetur.",
+    "Id": 877,
+    "Name": "Conn Inc and Sons",
+    "ToolTip": "Odio aut fuga libero quasi.",
     "Deleted": false,
-    "Rank": 640,
-    "Type": "velit",
+    "Rank": 148,
+    "Type": "dolorum",
     "ChildItems": [
       {
-        "Id": 101,
-        "Name": "Sporer LLC",
-        "ToolTip": "Autem iste nemo quia magni iste.",
-        "Deleted": false,
-        "Rank": 168,
-        "Type": "aut",
+        "Id": 643,
+        "Name": "Jones, Cole and Keebler",
+        "ToolTip": "Est sunt quo totam aut aut.",
+        "Deleted": true,
+        "Rank": 816,
+        "Type": "fugiat",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "sequi",
-        "ColorBlock": 52,
-        "ExtraInfo": "est",
-        "StyleHint": "itaque",
-        "FullName": "Clarissa Kulas",
+        "IconHint": "accusamus",
+        "ColorBlock": 111,
+        "ExtraInfo": "optio",
+        "StyleHint": "voluptatum",
+        "FullName": "Justus Allan Carter I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 415
+            "FieldType": "System.Int32",
+            "FieldLength": 469
           }
         }
       }
     ],
-    "IconHint": "amet",
-    "ColorBlock": 24,
-    "ExtraInfo": "quo",
-    "StyleHint": "cum",
-    "FullName": "Mr. Horace Torp PhD",
+    "IconHint": "et",
+    "ColorBlock": 209,
+    "ExtraInfo": "odio",
+    "StyleHint": "voluptatem",
+    "FullName": "Mr. Bryana Myron Batz",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 472
+        "FieldType": "System.Int32",
+        "FieldLength": 966
       }
     }
   }

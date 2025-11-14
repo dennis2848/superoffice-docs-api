@@ -14,6 +14,8 @@ POST /api/v1/Agents/Ticket/SplitTicketMessage
 Create new ticket and move/copy data from existing ticket in addition update old message and save new message in a single request.
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -142,8 +144,8 @@ Content-Type: application/json; charset=utf-8
   "NewTicketEntity": null,
   "NewTicketMessage": null,
   "TransferAttachmentsIds": [
-    859,
-    418
+    305,
+    25
   ]
 }
 ```
@@ -155,21 +157,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 655,
-  "Title": "vel",
-  "CreatedAt": "2017-03-17T03:46:55.5038556+01:00",
-  "LastChanged": "2021-01-23T03:46:55.5038556+01:00",
-  "ReadByOwner": "2018-03-15T03:46:55.5038556+01:00",
-  "ReadByCustomer": "2005-11-19T03:46:55.5038556+01:00",
-  "FirstReadByOwner": "1998-09-27T03:46:55.5038556+02:00",
-  "FirstReadByUser": "2011-05-17T03:46:55.5038556+02:00",
-  "Activate": "2002-07-03T03:46:55.5038556+02:00",
-  "ClosedAt": "2023-05-13T03:46:55.5038556+02:00",
-  "RepliedAt": "2002-03-25T03:46:55.5038556+01:00",
-  "AlertTimeout": "2018-10-03T03:46:55.5038556+02:00",
-  "Deadline": "1998-04-30T03:46:55.5038556+02:00",
+  "TicketId": 414,
+  "Title": "aliquid",
+  "CreatedAt": "2020-03-07T02:30:47.9600614+01:00",
+  "LastChanged": "2008-02-29T02:30:47.9600614+01:00",
+  "ReadByOwner": "2017-09-19T02:30:47.9600614+02:00",
+  "ReadByCustomer": "2014-05-06T02:30:47.9600614+02:00",
+  "FirstReadByOwner": "2019-04-10T02:30:47.9600614+02:00",
+  "FirstReadByUser": "2025-03-20T02:30:47.9600614+01:00",
+  "Activate": "2013-01-27T02:30:47.9600614+01:00",
+  "ClosedAt": "2016-02-29T02:30:47.9600614+01:00",
+  "RepliedAt": "2014-03-04T02:30:47.9600614+01:00",
+  "AlertTimeout": "2002-07-01T02:30:47.9600614+02:00",
+  "Deadline": "2003-03-09T02:30:47.9600614+01:00",
   "CreatedBy": null,
-  "Author": "ut",
+  "Author": "esse",
   "OwnedBy": null,
   "Category": null,
   "Slevel": "External",
@@ -180,163 +182,163 @@ Content-Type: application/json; charset=utf-8
   "Person": null,
   "SecondaryPersons": [
     {
-      "Position": "ratione",
-      "PersonId": 362,
-      "Mrmrs": "et",
-      "Firstname": "Talon",
-      "Lastname": "Koch",
-      "MiddleName": "Blanda-Quigley",
-      "Title": "sit",
-      "Description": "Enhanced heuristic pricing structure",
-      "Email": "axel_wiza@stehr.uk",
-      "FullName": "Dixie Jacobi Jr.",
-      "DirectPhone": "934-386-3375 x5468",
-      "FormalName": "Ledner, Pfannerstill and Robel",
-      "CountryId": 962,
-      "ContactId": 448,
-      "ContactName": "Schmeler, Schinner and Keebler",
-      "Retired": 377,
-      "Rank": 593,
-      "ActiveInterests": 608,
-      "ContactDepartment": "implement rich niches",
-      "ContactCountryId": 406,
-      "ContactOrgNr": "376142",
-      "FaxPhone": "1-245-631-6187",
-      "MobilePhone": "453-718-3729 x86684",
-      "ContactPhone": "564.450.2358",
-      "AssociateName": "Stark-Waters",
-      "AssociateId": 372,
-      "UsePersonAddress": false,
-      "ContactFax": "reiciendis",
-      "Kanafname": "omnis",
-      "Kanalname": "consequatur",
-      "Post1": "nisi",
-      "Post2": "aut",
-      "Post3": "ab",
-      "EmailName": "ignacio@ziemann.uk",
-      "ContactFullName": "Prof. Ryley Bogan",
-      "ActiveErpLinks": 846,
-      "TicketPriorityId": 242,
-      "SupportLanguageId": 694,
-      "SupportAssociateId": 215,
+      "Position": "ducimus",
+      "PersonId": 497,
+      "Mrmrs": "ut",
+      "Firstname": "Dawn",
+      "Lastname": "Kunze",
+      "MiddleName": "Kling, Glover and Collier",
+      "Title": "cum",
+      "Description": "Compatible secondary throughput",
+      "Email": "fletcher.mueller@huel.uk",
+      "FullName": "Justice Brandi Mosciski IV",
+      "DirectPhone": "1-867-859-6595",
+      "FormalName": "Quitzon-VonRueden",
+      "CountryId": 162,
+      "ContactId": 784,
+      "ContactName": "Zulauf Group",
+      "Retired": 740,
+      "Rank": 77,
+      "ActiveInterests": 671,
+      "ContactDepartment": "",
+      "ContactCountryId": 148,
+      "ContactOrgNr": "1304716",
+      "FaxPhone": "383-048-4677",
+      "MobilePhone": "450-851-9177 x35318",
+      "ContactPhone": "021.396.6084",
+      "AssociateName": "Watsica-Lehner",
+      "AssociateId": 458,
+      "UsePersonAddress": true,
+      "ContactFax": "adipisci",
+      "Kanafname": "ad",
+      "Kanalname": "voluptas",
+      "Post1": "reiciendis",
+      "Post2": "eum",
+      "Post3": "excepturi",
+      "EmailName": "nasir_simonis@spencertreutel.name",
+      "ContactFullName": "Rod Mohr Sr.",
+      "ActiveErpLinks": 276,
+      "TicketPriorityId": 14,
+      "SupportLanguageId": 985,
+      "SupportAssociateId": 703,
       "CategoryName": "VIP Customer",
-      "PersonNumber": "1823339",
+      "PersonNumber": "850686",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 890
+          "FieldLength": 945
         }
       }
     }
   ],
-  "AlertLevel": 484,
-  "ConnectId": 428,
+  "AlertLevel": 573,
+  "ConnectId": 763,
   "ReadStatus": "Green",
-  "TimeToReply": 563,
-  "RealTimeToReply": 860,
-  "TimeToClose": 500,
-  "RealTimeToClose": 635,
-  "TimeSpentInternally": 411,
-  "TimeSpentExternally": 376,
-  "TimeSpentQueue": 438,
-  "RealTimeSpentInternally": 1002,
-  "RealTimeSpentExternally": 924,
-  "RealTimeSpentQueue": 143,
-  "TimeSpent": 304,
+  "TimeToReply": 814,
+  "RealTimeToReply": 607,
+  "TimeToClose": 106,
+  "RealTimeToClose": 656,
+  "TimeSpentInternally": 164,
+  "TimeSpentExternally": 380,
+  "TimeSpentQueue": 472,
+  "RealTimeSpentInternally": 390,
+  "RealTimeSpentExternally": 908,
+  "RealTimeSpentQueue": 98,
+  "TimeSpent": 801,
   "HasAttachment": true,
-  "NumReplies": 408,
-  "NumMessages": 380,
-  "FromAddress": "mollitia",
+  "NumReplies": 844,
+  "NumMessages": 11,
+  "FromAddress": "quam",
   "Messages": [
     {
-      "TicketMessageId": 565,
-      "CreatedAt": "2010-12-05T03:46:55.5038556+01:00",
+      "TicketMessageId": 746,
+      "CreatedAt": "2008-06-05T02:30:47.9600614+02:00",
       "Slevel": "External",
-      "Important": true,
-      "Author": "dolorem",
-      "PersonId": 99,
-      "PersonFullName": "Mr. Sam Wisoky",
-      "ContactId": 456,
-      "ContactName": "Gottlieb, Brakus and O'Kon",
+      "Important": false,
+      "Author": "et",
+      "PersonId": 616,
+      "PersonFullName": "Kiel Parker",
+      "ContactId": 261,
+      "ContactName": "Borer, Volkman and Gibson",
       "ContactDepartment": "",
-      "NumAttachments": 164,
-      "EmailHeader": "gerardo.leannon@weber.info",
+      "NumAttachments": 413,
+      "EmailHeader": "stan_koch@beer.info",
       "MessageHeaders": [
         {},
         {}
       ],
-      "Language": "voluptas",
-      "Sentiment": 93,
-      "SentimentConfidence": 734,
-      "CreatedBy": 672,
-      "ChangedAt": "2005-02-04T03:46:55.5038556+01:00",
+      "Language": "quasi",
+      "Sentiment": 322,
+      "SentimentConfidence": 925,
+      "CreatedBy": 526,
+      "ChangedAt": "2025-09-09T02:30:47.9600614+02:00",
       "Badge": "Comment",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 137
+          "FieldType": "System.String",
+          "FieldLength": 180
         }
       }
     }
   ],
   "Tags": [
     {
-      "Id": 570,
-      "Name": "Torp, Koepp and Bergnaum",
-      "ToolTip": "Natus quis eaque facere.",
+      "Id": 311,
+      "Name": "Schmitt LLC",
+      "ToolTip": "Voluptatem fuga molestiae autem similique commodi et.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 119
+          "FieldLength": 304
         }
       }
     },
     {
-      "Id": 570,
-      "Name": "Torp, Koepp and Bergnaum",
-      "ToolTip": "Natus quis eaque facere.",
+      "Id": 311,
+      "Name": "Schmitt LLC",
+      "ToolTip": "Voluptatem fuga molestiae autem similique commodi et.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 119
+          "FieldLength": 304
         }
       }
     }
   ],
-  "Language": "non",
-  "Sentiment": 658,
-  "SentimentConfidence": 624,
-  "SuggestedCategoryId": 252,
+  "Language": "ducimus",
+  "Sentiment": 968,
+  "SentimentConfidence": 301,
+  "SuggestedCategoryId": 403,
   "SuggestedCategoryName": "VIP Customer",
-  "OrigHumanCategoryId": 493,
-  "IconHint": "distinctio",
+  "OrigHumanCategoryId": 89,
+  "IconHint": "ullam",
   "Sale": null,
   "Project": null,
   "FormSubmission": null,
   "TicketType": null,
-  "ActiveStatusMonitorId": 259,
+  "ActiveStatusMonitorId": 1000,
   "ExtraFields": {
-    "ExtraFields1": "hic",
-    "ExtraFields2": "est"
+    "ExtraFields1": "non",
+    "ExtraFields2": "voluptatem"
   },
   "CustomFields": {
-    "CustomFields1": "non",
-    "CustomFields2": "sunt"
+    "CustomFields1": "nostrum",
+    "CustomFields2": "placeat"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 769
+      "FieldType": "System.String",
+      "FieldLength": 270
     }
   }
 }

@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/GetProjectTypeEntity
 Gets a ProjectTypeEntity object.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -27,7 +29,7 @@ Gets a ProjectTypeEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetProjectTypeEntity?projectTypeEntityId=776
+POST /api/v1/Agents/List/GetProjectTypeEntity?projectTypeEntityId=26
 POST /api/v1/Agents/List/GetProjectTypeEntity?$select=name,department,category/id
 ```
 
@@ -77,7 +79,7 @@ OK
 POST /api/v1/Agents/List/GetProjectTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -87,41 +89,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjTypeId": 153,
-  "Name": "McGlynn, Pollich and Feil",
-  "Tooltip": "id",
-  "Rank": 429,
+  "ProjTypeId": 350,
+  "Name": "Morissette Inc and Sons",
+  "Tooltip": "qui",
+  "Rank": 995,
   "DurationUnit": "Century",
-  "ProjectDuration": 403,
+  "ProjectDuration": 390,
   "Deleted": false,
   "HasGuide": false,
-  "IsAutoAdvance": false,
+  "IsAutoAdvance": true,
   "Stages": [
     {
-      "Id": 217,
-      "Name": "Pouros-Keeling",
-      "ToolTip": "Nisi consequatur nihil qui libero nemo.",
-      "Deleted": false,
-      "Rank": 744,
-      "Type": "sit",
-      "ColorBlock": 877,
-      "IconHint": "veniam",
-      "Selected": true,
-      "LastChanged": "2002-04-12T03:46:54.9413809+02:00",
+      "Id": 786,
+      "Name": "Reilly Inc and Sons",
+      "ToolTip": "Quia beatae harum dolor in.",
+      "Deleted": true,
+      "Rank": 671,
+      "Type": "sed",
+      "ColorBlock": 343,
+      "IconHint": "excepturi",
+      "Selected": false,
+      "LastChanged": "1999-10-22T02:30:47.3975807+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "earum",
-      "StyleHint": "debitis",
+      "ExtraInfo": "illo",
+      "StyleHint": "neque",
       "Hidden": false,
-      "FullName": "Clark McDermott DVM",
+      "FullName": "Noah Johnston MD",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 85
+          "FieldLength": 146
         }
       }
     }
@@ -131,7 +133,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 780
+      "FieldLength": 761
     }
   }
 }

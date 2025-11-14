@@ -15,6 +15,7 @@ Creates a new ProjectMember
 
 
 Calls the Project agent service SaveProjectMember.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -73,6 +74,8 @@ The ProjectMember to be saved.
 | EmailAddressName | String | The e-mail address description |
 | Comment | String | Comment text on the project membership |
 | FullName | String | The person's full name localized to the current culture/country.  (internal name used in clients for employees) |
+| Registered | String | The date and time when the project member was registered  in UTC. |
+| Updated | String | The date and time when the project member was last updated  in UTC. |
 
 ## Response:
 
@@ -107,6 +110,8 @@ OK
 | EmailAddressName | string | The e-mail address description |
 | Comment | string | Comment text on the project membership |
 | FullName | string | The person's full name localized to the current culture/country.  (internal name used in clients for employees) |
+| Registered | date-time | The date and time when the project member was registered  in UTC. |
+| Updated | date-time | The date and time when the project member was last updated  in UTC. |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 | _Links | object |  |
@@ -117,31 +122,33 @@ OK
 POST /api/v1/ProjectMember
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectmemberId": 969,
-  "ContactId": 666,
-  "ProjectId": 639,
-  "ContactName": "Lueilwitz-Muller",
+  "ProjectmemberId": 915,
+  "ContactId": 857,
+  "ProjectId": 517,
+  "ContactName": "Zulauf, Bergstrom and Fahey",
   "ContactDepartment": "",
-  "ProjectName": "Stokes, Wisozk and Hilll",
-  "EmailId": 960,
-  "EmailAddress": "osbaldo@hyatthaag.info",
-  "CountryId": 591,
-  "Firstname": "Harrison",
-  "MiddleName": "Jacobi LLC",
-  "Lastname": "Pacocha",
-  "PersonId": 809,
-  "Mrmrs": "quidem",
-  "ProjectMemberTypeName": "Abernathy LLC",
-  "Phone": "(429)884-9750 x99705",
-  "PhoneId": 935,
-  "ProjectMemberTypeId": 285,
-  "EmailAddressName": "euna_denesik@howe.co.uk",
-  "Comment": "necessitatibus",
-  "FullName": "Jarrett Greenfelder"
+  "ProjectName": "Hilpert, Zulauf and Cassin",
+  "EmailId": 755,
+  "EmailAddress": "sofia@heller.info",
+  "CountryId": 533,
+  "Firstname": "Ed",
+  "MiddleName": "Gerlach Group",
+  "Lastname": "Gutkowski",
+  "PersonId": 405,
+  "Mrmrs": "veritatis",
+  "ProjectMemberTypeName": "Stokes-Koch",
+  "Phone": "(668)276-4519 x044",
+  "PhoneId": 709,
+  "ProjectMemberTypeId": 843,
+  "EmailAddressName": "celia_feil@herzog.uk",
+  "Comment": "voluptatem",
+  "FullName": "Felton Padberg",
+  "Registered": "2004-04-30T02:30:53.0692723+02:00",
+  "Updated": "2005-05-10T02:30:53.0692723+02:00"
 }
 ```
 
@@ -152,33 +159,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectmemberId": 376,
-  "ContactId": 515,
-  "ProjectId": 296,
-  "ContactName": "Simonis-Gutkowski",
-  "ContactDepartment": "target e-business eyeballs",
-  "ProjectName": "Collier-Gusikowski",
-  "EmailId": 511,
-  "EmailAddress": "vincenza@abernathycasper.ca",
-  "CountryId": 652,
-  "Firstname": "Kasandra",
-  "MiddleName": "Mosciski-Ankunding",
-  "Lastname": "Harber",
-  "PersonId": 170,
-  "Mrmrs": "minima",
-  "ProjectMemberTypeName": "Kemmer-Larson",
-  "Phone": "393.112.8205 x654",
-  "PhoneId": 775,
-  "ProjectMemberTypeId": 373,
-  "EmailAddressName": "erling@quitzonsauer.name",
-  "Comment": "id",
-  "FullName": "Dr. Carolanne Legros IV",
+  "ProjectmemberId": 938,
+  "ContactId": 189,
+  "ProjectId": 305,
+  "ContactName": "Powlowski-Blanda",
+  "ContactDepartment": "",
+  "ProjectName": "Zulauf, Adams and Kuhic",
+  "EmailId": 267,
+  "EmailAddress": "elena_schmeler@smitham.info",
+  "CountryId": 450,
+  "Firstname": "Marisa",
+  "MiddleName": "Macejkovic-Batz",
+  "Lastname": "Bednar",
+  "PersonId": 402,
+  "Mrmrs": "vero",
+  "ProjectMemberTypeName": "Watsica-Heaney",
+  "Phone": "276-614-8586",
+  "PhoneId": 264,
+  "ProjectMemberTypeId": 87,
+  "EmailAddressName": "jeanette.paucek@johnston.uk",
+  "Comment": "sit",
+  "FullName": "Noe Durgan",
+  "Registered": "2015-07-12T02:30:53.0692723+02:00",
+  "Updated": "2024-01-22T02:30:53.0692723+01:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 696
+      "FieldType": "System.Int32",
+      "FieldLength": 922
     }
   },
   "_Links": {

@@ -14,6 +14,8 @@ POST /api/v1/Agents/Appointment/CreateAppointmentForUID
 Create an invitation record and an appointment with a given UID to reserve it if the UID is unused, otherwise null.
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -139,7 +141,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "AppointmentEntity": null,
-  "UID": "voluptatem"
+  "UID": "unde"
 }
 ```
 
@@ -154,121 +156,121 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2011-02-17T03:46:54.2382763+01:00",
-  "AppointmentId": 660,
-  "Description": "Reverse-engineered background approach",
-  "Title": "aperiam",
-  "Agenda": "tenetur",
-  "InternalNotes": "quia",
-  "StartDate": "2019-03-04T03:46:54.2382763+01:00",
-  "EndDate": "2012-12-05T03:46:54.2382763+01:00",
+  "CreatedDate": "2011-07-11T02:30:46.7569739+02:00",
+  "AppointmentId": 705,
+  "Description": "Enhanced bifurcated benchmark",
+  "Title": "adipisci",
+  "Agenda": "perspiciatis",
+  "InternalNotes": "cum",
+  "StartDate": "2006-12-01T02:30:46.7569739+01:00",
+  "EndDate": "2012-12-31T02:30:46.7569739+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 982,
+  "MotherId": 486,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2024-06-13T03:46:54.2382763+02:00",
+  "UpdatedDate": "2022-06-09T02:30:46.7569739+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 369,
+  "ActiveLinks": 225,
   "Links": [
     {
-      "EntityName": "Mante, Bashirian and Stehr",
-      "Id": 368,
-      "Description": "Innovative disintermediate architecture",
-      "ExtraInfo": "aut",
-      "LinkId": 984,
+      "EntityName": "Dickinson Inc and Sons",
+      "Id": 707,
+      "Description": "Universal radical customer loyalty",
+      "ExtraInfo": "porro",
+      "LinkId": 406,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 640
+          "FieldType": "System.Int32",
+          "FieldLength": 764
         }
       }
     }
   ],
-  "AlarmLeadTime": "explicabo",
-  "HasAlarm": false,
-  "ColorIndex": 551,
+  "AlarmLeadTime": "distinctio",
+  "HasAlarm": true,
+  "ColorIndex": 492,
   "IsFree": false,
-  "IsAlldayEvent": false,
-  "LagTime": "earum",
-  "LeadTime": "vel",
-  "Location": "dicta",
-  "RejectCounter": 991,
+  "IsAlldayEvent": true,
+  "LagTime": "quis",
+  "LeadTime": "odio",
+  "Location": "reiciendis",
+  "RejectCounter": 597,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 529,
-      "PersonId": 686,
-      "ContactId": 651,
-      "EmailId": 645,
+      "AssociateId": 511,
+      "PersonId": 43,
+      "ContactId": 757,
+      "EmailId": 253,
       "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "velma_hoeger@sauer.co.uk",
-      "Description": "Cloned global access"
+      "EmailAddress": "jadon.schuppe@jerde.name",
+      "Description": "Focused actuating paradigm"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2010-01-01T03:46:54.2382763+01:00",
+  "ActiveDate": "2003-06-09T02:30:46.7569739+02:00",
   "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 768,
+  "PreferredTZLocation": 584,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 813,
+  "SuggestedAppointmentId": 607,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "OwnedExternally": "Google",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "sunt",
+  "CentralserviceVideomeetId": "omnis",
   "UserDefinedFields": {
-    "SuperOffice:1": "1594208523",
-    "SuperOffice:2": "1738573626"
+    "SuperOffice:1": "Miss Lauriane Schinner",
+    "SuperOffice:2": "Jacquelyn Pollich"
   },
   "ExtraFields": {
-    "ExtraFields1": "dolores",
-    "ExtraFields2": "aliquid"
+    "ExtraFields1": "molestiae",
+    "ExtraFields2": "ut"
   },
   "CustomFields": {
-    "CustomFields1": "beatae",
-    "CustomFields2": "enim"
+    "CustomFields1": "unde",
+    "CustomFields2": "non"
   },
-  "PublishEventDate": "2008-03-24T03:46:54.2382763+01:00",
-  "PublishTo": "2009-12-05T03:46:54.2382763+01:00",
-  "PublishFrom": "2013-11-16T03:46:54.2382763+01:00",
+  "PublishEventDate": "2020-01-25T02:30:46.7569739+01:00",
+  "PublishTo": "2020-10-19T02:30:46.7569739+02:00",
+  "PublishFrom": "2015-09-22T02:30:46.7569739+02:00",
   "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 207,
+      "VisibleId": 503,
       "Visibility": "All",
-      "DisplayValue": "minima",
+      "DisplayValue": "sint",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 242
+          "FieldLength": 780
         }
       }
     },
     {
-      "VisibleId": 207,
+      "VisibleId": 503,
       "Visibility": "All",
-      "DisplayValue": "minima",
+      "DisplayValue": "sint",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 242
+          "FieldLength": 780
         }
       }
     }
@@ -278,7 +280,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 8
+      "FieldLength": 108
     }
   }
 }

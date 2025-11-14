@@ -14,6 +14,8 @@ POST /api/v1/Agents/NumberAllocation/SetNumberEachTemplate
 Saves true or false if Automatically create new counters for new document templates
 
 
+NsApiSlow threshold: 1000 ms.
+
 
 
 
@@ -65,7 +67,7 @@ No Content
 POST /api/v1/Agents/NumberAllocation/SetNumberEachTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {

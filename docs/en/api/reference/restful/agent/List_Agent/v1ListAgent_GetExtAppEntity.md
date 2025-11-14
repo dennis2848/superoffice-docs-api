@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/GetExtAppEntity
 Gets a ExtAppEntity object.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -27,7 +29,7 @@ Gets a ExtAppEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetExtAppEntity?extAppEntityId=238
+POST /api/v1/Agents/List/GetExtAppEntity?extAppEntityId=165
 POST /api/v1/Agents/List/GetExtAppEntity?$select=name,department,category/id
 ```
 
@@ -99,34 +101,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExtAppId": 814,
-  "Name": "Mayert-Zemlak",
-  "Tooltip": "nulla",
+  "ExtAppId": 645,
+  "Name": "Kshlerin, Welch and Feeney",
+  "Tooltip": "sed",
   "Deleted": true,
-  "Rank": 502,
-  "Filename": "id",
-  "Parameters": "ut",
-  "Workdir": "omnis",
+  "Rank": 994,
+  "Filename": "et",
+  "Parameters": "iusto",
+  "Workdir": "hic",
   "ShowState": "AddressBar",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
-  "OnSatellite": false,
-  "OnTravel": false,
-  "OnSalesMarketingPocket": true,
+  "OnSatellite": true,
+  "OnTravel": true,
+  "OnSalesMarketingPocket": false,
   "ShowInMenuBar": false,
   "ShowInToolBar": false,
-  "ShowInAddressBar": true,
+  "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "Icon": 13,
+  "Icon": 427,
   "WaitToFinish": false,
   "ExecuteOnEvent": "LocalUpdate",
-  "Path": "cupiditate",
+  "Path": "ab",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 960
+      "FieldType": "System.String",
+      "FieldLength": 537
     }
   }
 }

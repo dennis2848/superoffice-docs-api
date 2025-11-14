@@ -14,6 +14,8 @@ POST /api/v1/Agents/Targets/CreateDefaultTargetAssignment
 Loading default values into a new TargetAssignment.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -74,24 +76,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetAssignmentInfoId": 608,
+  "TargetAssignmentInfoId": 391,
   "Values": [
-    943,
-    914
+    730,
+    52
   ],
   "Locked": false,
   "TargetAssociate": null,
   "TargetContact": null,
   "TargetUserGroup": null,
   "Currency": null,
-  "DimensionListItem": 469,
-  "DimensionListItemDisplayName": "Ankunding-Kassulke",
+  "DimensionListItem": 176,
+  "DimensionListItemDisplayName": "Lang-Klein",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 599
+      "FieldType": "System.String",
+      "FieldLength": 461
     }
   }
 }

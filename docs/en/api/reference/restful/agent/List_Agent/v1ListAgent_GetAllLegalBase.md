@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/GetAllLegalBase
 Gets an array of all LegalBase objects
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -82,18 +84,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LegalBaseId": 752,
-    "Name": "Dietrich-Kassulke",
-    "Tooltip": "inventore",
-    "Rank": 589,
-    "Key": "quia",
-    "Deleted": false,
+    "LegalBaseId": 667,
+    "Name": "Wilkinson, Streich and Sipes",
+    "Tooltip": "praesentium",
+    "Rank": 120,
+    "Key": "nulla",
+    "Deleted": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 908
+        "FieldType": "System.Int32",
+        "FieldLength": 310
       }
     }
   }

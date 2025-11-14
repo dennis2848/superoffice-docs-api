@@ -14,6 +14,8 @@ POST /api/v1/Agents/Dash/SaveDash
 Updates the existing Dash or creates a new Dash if the id parameter is 0.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -88,34 +90,34 @@ OK
 POST /api/v1/Agents/Dash/SaveDash
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 620,
-  "UniqueId": "tempora",
-  "Name": "Bartoletti-Glover",
-  "Description": "Versatile interactive access",
-  "AssociateId": 177,
-  "Columns": 172,
+  "DashboardId": 616,
+  "UniqueId": "impedit",
+  "Name": "Schuppe, Fisher and Rodriguez",
+  "Description": "Profound 3rd generation definition",
+  "AssociateId": 982,
+  "Columns": 624,
   "Theme": null,
-  "VisibleForAll": 969,
+  "VisibleForAll": 566,
   "VisibleForAssociates": [
-    666,
-    422
+    155,
+    81
   ],
   "VisibleForGroups": [
-    181,
-    345
+    653,
+    45
   ],
-  "PinForAll": 670,
+  "PinForAll": 942,
   "PinForAssociates": [
-    272,
-    860
+    302,
+    882
   ],
   "PinForGroups": [
-    82,
-    656
+    295,
+    861
   ]
 }
 ```
@@ -127,37 +129,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 805,
-  "UniqueId": "neque",
-  "Name": "Ryan LLC",
-  "Description": "Mandatory zero defect attitude",
-  "AssociateId": 448,
-  "Columns": 650,
+  "DashboardId": 540,
+  "UniqueId": "accusantium",
+  "Name": "Waters, Walter and Effertz",
+  "Description": "Assimilated national success",
+  "AssociateId": 13,
+  "Columns": 585,
   "Theme": null,
-  "VisibleForAll": 527,
+  "VisibleForAll": 318,
   "VisibleForAssociates": [
-    699,
-    228
+    145,
+    752
   ],
   "VisibleForGroups": [
-    656,
-    589
+    330,
+    142
   ],
-  "PinForAll": 220,
+  "PinForAll": 844,
   "PinForAssociates": [
-    721,
-    630
+    126,
+    588
   ],
   "PinForGroups": [
-    552,
-    498
+    378,
+    672
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 509
+      "FieldLength": 229
     }
   }
 }

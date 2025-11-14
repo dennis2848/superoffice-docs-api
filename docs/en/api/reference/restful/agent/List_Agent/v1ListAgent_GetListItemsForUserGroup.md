@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/GetListItemsForUserGroup
 List of list items that is visible in the usergroup
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -89,12 +91,12 @@ OK
 POST /api/v1/Agents/List/GetListItemsForUserGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 291,
-  "GroupId": 789
+  "UdListDefinitionId": 50,
+  "GroupId": 723
 }
 ```
 
@@ -106,56 +108,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 311,
-    "Name": "Kirlin-O'Keefe",
-    "ToolTip": "Iusto quibusdam et qui cupiditate.",
-    "Deleted": false,
-    "Rank": 368,
-    "Type": "a",
-    "ColorBlock": 982,
-    "IconHint": "sint",
+    "Id": 216,
+    "Name": "Ebert-Bins",
+    "ToolTip": "Architecto cumque sint iste eligendi.",
+    "Deleted": true,
+    "Rank": 177,
+    "Type": "perferendis",
+    "ColorBlock": 803,
+    "IconHint": "aperiam",
     "Selected": true,
-    "LastChanged": "2000-10-09T03:46:54.9569999+02:00",
+    "LastChanged": "2024-07-18T02:30:47.4132046+02:00",
     "ChildItems": [
       {
-        "Id": 28,
-        "Name": "Pacocha, Abernathy and Marks",
-        "ToolTip": "Enim voluptatibus reiciendis nostrum.",
-        "Deleted": false,
-        "Rank": 79,
-        "Type": "iusto",
-        "ColorBlock": 278,
+        "Id": 252,
+        "Name": "Grimes-Hilll",
+        "ToolTip": "Sunt et exercitationem nam et quisquam.",
+        "Deleted": true,
+        "Rank": 815,
+        "Type": "voluptas",
+        "ColorBlock": 147,
         "IconHint": "sunt",
-        "Selected": false,
-        "LastChanged": "2016-10-27T03:46:54.9569999+02:00",
+        "Selected": true,
+        "LastChanged": "2023-06-26T02:30:47.4132046+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nihil",
-        "StyleHint": "omnis",
-        "Hidden": true,
-        "FullName": "Elenora Schumm",
+        "ExtraInfo": "quibusdam",
+        "StyleHint": "ullam",
+        "Hidden": false,
+        "FullName": "Rosemarie Block",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 322
+            "FieldLength": 854
           }
         }
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "molestias",
-    "Hidden": true,
-    "FullName": "Ms. Franco Jaskolski V",
+    "ExtraInfo": "quis",
+    "StyleHint": "commodi",
+    "Hidden": false,
+    "FullName": "Lexi O'Hara",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 809
+        "FieldLength": 286
       }
     }
   }

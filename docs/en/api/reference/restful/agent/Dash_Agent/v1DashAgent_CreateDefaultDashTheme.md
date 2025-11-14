@@ -14,6 +14,8 @@ POST /api/v1/Agents/Dash/CreateDefaultDashTheme
 Loading default values into a new DashTheme.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -61,7 +63,7 @@ OK
 POST /api/v1/Agents/Dash/CreateDefaultDashTheme
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -71,18 +73,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 181,
-  "Name": "Tromp, Emard and Schaden",
-  "Config": "accusantium",
-  "Rank": 488,
-  "Client": "explicabo",
-  "Style": "dolore",
+  "DashboardThemeId": 158,
+  "Name": "McGlynn-Murray",
+  "Config": "numquam",
+  "Rank": 264,
+  "Client": "fuga",
+  "Style": "non",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 604
+      "FieldLength": 526
     }
   }
 }

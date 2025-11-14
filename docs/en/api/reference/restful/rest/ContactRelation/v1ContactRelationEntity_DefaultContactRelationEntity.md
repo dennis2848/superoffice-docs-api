@@ -15,6 +15,7 @@ Set default values into a new ContactRelationEntity.
 
 
 NetServer calculates default values on the entity, which is required when creating/storing a new instance Calls the Relation agent service CreateDefaultContactRelationEntity.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -75,7 +76,7 @@ OK
 GET /api/v1/Relation/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -83,33 +84,33 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Tue, 12 Apr 2005 03:46:59 G4T
+Last-Modified: Sun, 30 Mar 2014 02:30:52 G3T
 
 {
-  "SourceContactId": 675,
-  "SourcePersonId": 167,
-  "DestinationContactId": 446,
-  "DestinationPersonId": 360,
-  "RelationId": 75,
-  "Comment": "voluptatem",
-  "RelationDefinitionId": 995,
-  "Reversed": 524,
-  "UpdatedDate": "2005-04-12T03:46:59.8786923+02:00",
-  "CreatedDate": "2009-09-22T03:46:59.8786923+02:00",
+  "SourceContactId": 315,
+  "SourcePersonId": 473,
+  "DestinationContactId": 899,
+  "DestinationPersonId": 84,
+  "RelationId": 495,
+  "Comment": "sit",
+  "RelationDefinitionId": 124,
+  "Reversed": 317,
+  "UpdatedDate": "2014-03-30T02:30:52.506791+01:00",
+  "CreatedDate": "2000-06-29T02:30:52.506791+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Kovacek Inc and Sons",
-  "SourcePersonName": "Daniel-Marks",
-  "DestinationContactName": "Monahan, D'Amore and Jast",
-  "DestinationPersonName": "Crona, Konopelski and Leuschke",
-  "ActiveText": "quia",
-  "PassiveText": "amet",
+  "SourceContactName": "Cormier, O'Kon and Mitchell",
+  "SourcePersonName": "Reynolds, Gaylord and Schultz",
+  "DestinationContactName": "Schmitt LLC",
+  "DestinationPersonName": "Herzog Inc and Sons",
+  "ActiveText": "voluptatum",
+  "PassiveText": "natus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 861
+      "FieldType": "System.Int32",
+      "FieldLength": 222
     }
   }
 }

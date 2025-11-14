@@ -98,47 +98,47 @@ OK
 PUT /api/v1/List/DocumentTemplate/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 658,
-    "Name": "Bode, Howe and Johns",
-    "ToolTip": "Quam hic vitae itaque ratione.",
-    "Deleted": true,
-    "Rank": 87,
-    "Type": "eos",
-    "ColorBlock": 352,
-    "IconHint": "quis",
+    "Id": 9,
+    "Name": "Sporer Inc and Sons",
+    "ToolTip": "Itaque adipisci vel atque quia aut.",
+    "Deleted": false,
+    "Rank": 562,
+    "Type": "quo",
+    "ColorBlock": 298,
+    "IconHint": "illo",
     "Selected": false,
-    "LastChanged": "2011-07-25T03:47:00.6599229+02:00",
+    "LastChanged": "2018-01-09T02:30:53.288015+01:00",
     "ChildItems": [
       {
-        "Id": 387,
-        "Name": "Haag-Toy",
-        "ToolTip": "Nihil neque animi est.",
-        "Deleted": false,
-        "Rank": 367,
-        "Type": "aspernatur",
-        "ColorBlock": 447,
-        "IconHint": "necessitatibus",
-        "Selected": true,
-        "LastChanged": "2002-01-24T03:47:00.6599229+01:00",
+        "Id": 256,
+        "Name": "Zemlak, Miller and Fritsch",
+        "ToolTip": "Ut exercitationem nisi voluptas molestias rem et.",
+        "Deleted": true,
+        "Rank": 905,
+        "Type": "quis",
+        "ColorBlock": 84,
+        "IconHint": "pariatur",
+        "Selected": false,
+        "LastChanged": "2012-01-28T02:30:53.288015+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quas",
-        "StyleHint": "corporis",
+        "ExtraInfo": "adipisci",
+        "StyleHint": "quisquam",
         "Hidden": true,
-        "FullName": "Jarvis Wuckert PhD"
+        "FullName": "Hermina Timmothy Pfannerstill V"
       }
     ],
-    "ExtraInfo": "inventore",
-    "StyleHint": "suscipit",
+    "ExtraInfo": "quod",
+    "StyleHint": "consectetur",
     "Hidden": false,
-    "FullName": "Duncan Grimes DDS"
+    "FullName": "Ms. Shanny Brad Keebler DVM"
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 652,
-    "Name": "Hansen, Dooley and Wisozk",
-    "ToolTip": "Est et ut in doloribus voluptatibus.",
+    "Id": 140,
+    "Name": "Olson, Lang and Moore",
+    "ToolTip": "Quasi ad nihil adipisci.",
     "Deleted": false,
-    "Rank": 793,
-    "Type": "cumque",
-    "ColorBlock": 112,
-    "IconHint": "dicta",
+    "Rank": 875,
+    "Type": "hic",
+    "ColorBlock": 285,
+    "IconHint": "iure",
     "Selected": false,
-    "LastChanged": "2003-04-22T03:47:00.6599229+02:00",
+    "LastChanged": "2009-04-25T02:30:53.288015+02:00",
     "ChildItems": [
       {
-        "Id": 167,
-        "Name": "Padberg-McKenzie",
-        "ToolTip": "Placeat minus dolore ratione enim vitae.",
+        "Id": 472,
+        "Name": "Jewess-Keebler",
+        "ToolTip": "Atque iste.",
         "Deleted": false,
-        "Rank": 698,
-        "Type": "sed",
-        "ColorBlock": 904,
-        "IconHint": "nihil",
-        "Selected": false,
-        "LastChanged": "2019-02-17T03:47:00.6599229+01:00",
+        "Rank": 713,
+        "Type": "et",
+        "ColorBlock": 894,
+        "IconHint": "eos",
+        "Selected": true,
+        "LastChanged": "2012-10-15T02:30:53.288015+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "iusto",
-        "StyleHint": "aperiam",
+        "ExtraInfo": "nihil",
+        "StyleHint": "est",
         "Hidden": false,
-        "FullName": "Mae Gusikowski",
+        "FullName": "Lillian Jannie Durgan PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 89
+            "FieldType": "System.Int32",
+            "FieldLength": 965
           }
         }
       }
     ],
-    "ExtraInfo": "non",
-    "StyleHint": "reprehenderit",
+    "ExtraInfo": "error",
+    "StyleHint": "voluptate",
     "Hidden": true,
-    "FullName": "Greg Kassulke II",
+    "FullName": "Pietro Antone Dibbert V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 886
+        "FieldType": "System.String",
+        "FieldLength": 389
       }
     }
   }

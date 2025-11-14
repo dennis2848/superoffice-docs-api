@@ -66,7 +66,7 @@ OK
 GET /api/v1/List/PaymentTerm
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -76,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 922,
-  "Name": "Klein, Bailey and Pfannerstill",
-  "Tooltip": "consequatur",
-  "Deleted": false,
-  "Rank": 921,
+  "Id": 125,
+  "Name": "Hirthe-Donnelly",
+  "Tooltip": "veniam",
+  "Deleted": true,
+  "Rank": 535,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "praesentium",
-  "InUseByUserDefinedFields": false,
+  "ListType": "asperiores",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 683
+      "FieldType": "System.String",
+      "FieldLength": 544
     }
   },
   "_Links": {

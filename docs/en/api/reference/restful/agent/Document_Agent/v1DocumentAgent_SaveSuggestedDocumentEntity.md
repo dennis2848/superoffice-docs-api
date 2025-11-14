@@ -14,6 +14,8 @@ POST /api/v1/Agents/Document/SaveSuggestedDocumentEntity
 Updates the existing SuggestedDocumentEntity or creates a new SuggestedDocumentEntity if the id parameter is 0.
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -88,14 +90,14 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedDocumentId": 174,
-  "Name": "Cormier-Weber",
-  "Tooltip": "ab",
-  "Rank": 561,
-  "DoctmplId": 29,
-  "Header": "aut",
-  "OurRef": "voluptatem",
-  "Deleted": false,
+  "SuggestedDocumentId": 252,
+  "Name": "Koepp, Gulgowski and Beatty",
+  "Tooltip": "eos",
+  "Rank": 815,
+  "DoctmplId": 199,
+  "Header": "qui",
+  "OurRef": "molestiae",
+  "Deleted": true,
   "DocTmpl": null,
   "ProjectTypeStatusLink": null,
   "SaleTypeStageLink": null
@@ -109,14 +111,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedDocumentId": 441,
-  "Name": "Lehner Inc and Sons",
-  "Tooltip": "laboriosam",
-  "Rank": 476,
-  "DoctmplId": 54,
-  "Header": "distinctio",
-  "OurRef": "enim",
-  "Deleted": false,
+  "SuggestedDocumentId": 127,
+  "Name": "Abshire LLC",
+  "Tooltip": "est",
+  "Rank": 828,
+  "DoctmplId": 795,
+  "Header": "esse",
+  "OurRef": "impedit",
+  "Deleted": true,
   "DocTmpl": null,
   "ProjectTypeStatusLink": null,
   "SaleTypeStageLink": null,
@@ -124,8 +126,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 778
+      "FieldType": "System.Int32",
+      "FieldLength": 619
     }
   }
 }

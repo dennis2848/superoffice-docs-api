@@ -14,6 +14,8 @@ POST /api/v1/Agents/BulkUpdate/GetStoredFields
 Get all stored fields for a given tablename/entity and context
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -89,12 +91,12 @@ OK
 POST /api/v1/Agents/BulkUpdate/GetStoredFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Tablename": "project",
-  "Context": "ipsam"
+  "Context": "consectetur"
 }
 ```
 
@@ -109,73 +111,73 @@ Content-Type: application/json; charset=utf-8
     "CanSupportMultiUse": false,
     "DefaultShowInGui": false,
     "DefaultShowInSelector": false,
-    "IsActive": false,
-    "Key": "saepe",
-    "ValueType": "fuga",
-    "Mandatory": false,
-    "EncodedDisplayName": "Berge, Keeling and Murphy",
-    "EncodedDisplayDescription": "Ergonomic modular firmware",
-    "IconHint": "est",
+    "IsActive": true,
+    "Key": "non",
+    "ValueType": "doloribus",
+    "Mandatory": true,
+    "EncodedDisplayName": "Donnelly, Terry and Larson",
+    "EncodedDisplayDescription": "Pre-emptive radical superstructure",
+    "IconHint": "et",
     "ControlInfos": [
       {
-        "Type": "temporibus",
-        "Label": "dolore",
-        "Dimension": 572,
-        "ListProviderName": "Padberg, Purdy and Kerluke",
-        "ListProviderExtraInfo": "harum",
-        "ListProviderPrimaryKeyName": "Homenick Inc and Sons",
-        "ListLeadText": "ipsam",
+        "Type": "sed",
+        "Label": "sed",
+        "Dimension": 562,
+        "ListProviderName": "Ziemann-Schoen",
+        "ListProviderExtraInfo": "ullam",
+        "ListProviderPrimaryKeyName": "Terry Group",
+        "ListLeadText": "nesciunt",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 155
+            "FieldLength": 946
           }
         }
       }
     ],
-    "EncodedDataCaption": "aut",
-    "EncodedDataCaptionDescription": "Realigned reciprocal collaboration",
-    "CurrentOperationType": "nemo",
+    "EncodedDataCaption": "error",
+    "EncodedDataCaptionDescription": "Profound clear-thinking help-desk",
+    "CurrentOperationType": "inventore",
     "Values": [
-      "quis",
-      "architecto"
+      "rerum",
+      "sunt"
     ],
     "DisplayValues": [
-      "id",
-      "quisquam"
+      "est",
+      "optio"
     ],
     "OperationInfos": [
       {
-        "Key": "eligendi",
-        "EncodedDisplayName": "Luettgen, Larson and Doyle",
+        "Key": "placeat",
+        "EncodedDisplayName": "Kemmer, Vandervort and Kling",
         "EncodedLeadTexts": [
-          "eius",
+          "amet",
           "qui"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 424
+            "FieldType": "System.String",
+            "FieldLength": 419
           }
         }
       },
       {
-        "Key": "eligendi",
-        "EncodedDisplayName": "Luettgen, Larson and Doyle",
+        "Key": "placeat",
+        "EncodedDisplayName": "Kemmer, Vandervort and Kling",
         "EncodedLeadTexts": [
-          "eius",
+          "amet",
           "qui"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 424
+            "FieldType": "System.String",
+            "FieldLength": 419
           }
         }
       }

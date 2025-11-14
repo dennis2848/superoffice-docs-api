@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/GetSources
 Returns all sources
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -68,7 +70,7 @@ OK
 POST /api/v1/Agents/List/GetSources
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -79,28 +81,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 690,
-    "Value": "natus",
-    "Tooltip": "aut",
+    "Id": 302,
+    "Value": "accusamus",
+    "Tooltip": "quo",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 505
+        "FieldLength": 879
       }
     }
   },
   {
-    "Id": 690,
-    "Value": "natus",
-    "Tooltip": "aut",
+    "Id": 302,
+    "Value": "accusamus",
+    "Tooltip": "quo",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 505
+        "FieldLength": 879
       }
     }
   }

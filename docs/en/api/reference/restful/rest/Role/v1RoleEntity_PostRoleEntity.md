@@ -15,6 +15,7 @@ Creates a new RoleEntity
 
 
 Calls the User agent service SaveRoleEntity.
+NsApiSlow threshold: 2000 ms.
 
 
 ## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
@@ -106,16 +107,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 640,
-  "Name": "Buckridge, DuBuque and Sipes",
-  "Tooltip": "officia",
+  "RoleId": 331,
+  "Name": "Runolfsson, Feeney and Schoen",
+  "Tooltip": "quia",
   "RoleType": "Anonymous",
-  "Deleted": 450,
-  "Rank": 367,
-  "Created": "2012-08-20T03:47:00.2068137+02:00",
-  "UseCategories": 384,
+  "Deleted": 397,
+  "Rank": 893,
+  "Created": "2025-02-25T02:30:52.8349052+01:00",
+  "UseCategories": 598,
   "CreatedBy": null,
-  "Updated": "2025-02-24T03:47:00.2068137+01:00",
+  "Updated": "2016-06-01T02:30:52.8349052+02:00",
   "UpdatedBy": null,
   "DataRights": null
 }
@@ -128,16 +129,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 454,
-  "Name": "Swaniawski, Koss and Hoeger",
-  "Tooltip": "cum",
+  "RoleId": 205,
+  "Name": "Waters, Hauck and Mayert",
+  "Tooltip": "quia",
   "RoleType": "Anonymous",
-  "Deleted": 623,
-  "Rank": 538,
-  "Created": "2020-05-16T03:47:00.2068137+02:00",
-  "UseCategories": 930,
+  "Deleted": 955,
+  "Rank": 433,
+  "Created": "2011-12-15T02:30:52.8349052+01:00",
+  "UseCategories": 451,
   "CreatedBy": null,
-  "Updated": "2005-11-12T03:47:00.2068137+01:00",
+  "Updated": "2019-05-13T02:30:52.8349052+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -145,7 +146,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 806
+      "FieldLength": 70
     }
   },
   "_Links": {

@@ -14,6 +14,8 @@ POST /api/v1/Agents/Saint/RegenerateStatusMonitors
 Regenerate status monitors
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -110,37 +112,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 973,
-  "Name": "McCullough LLC",
-  "AssociateId": 214,
-  "DetailsTable": 332,
-  "DetailsRecord": 206,
-  "IsSystemTask": false,
+  "Id": 447,
+  "Name": "Lebsack-Miller",
+  "AssociateId": 717,
+  "DetailsTable": 209,
+  "DetailsRecord": 295,
+  "IsSystemTask": true,
   "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "alias",
-    "ParameterObject2": "sequi"
+    "ParameterObject1": "facilis",
+    "ParameterObject2": "alias"
   },
-  "LastStarted": "2006-08-06T03:46:55.2382402+02:00",
-  "Created": "2003-04-11T03:46:55.2382402+02:00",
-  "StartCount": 389,
-  "DatabaseSerialNumber": "885264",
-  "Context": "itaque",
-  "Result": "sapiente",
+  "LastStarted": "2005-09-24T02:30:47.7569437+02:00",
+  "Created": "2025-09-01T02:30:47.7569437+02:00",
+  "StartCount": 670,
+  "DatabaseSerialNumber": "1462411",
+  "Context": "laboriosam",
+  "Result": "excepturi",
   "State": "All",
-  "Description": "Business-focused 6th generation success",
-  "Response": "nam",
-  "Request": "minus",
-  "ProgressDescription": "Progressive human-resource time-frame",
-  "ProgressPercent": 47,
-  "FileName": "Sanford, Herzog and Fahey",
+  "Description": "Future-proofed intangible open architecture",
+  "Response": "omnis",
+  "Request": "quas",
+  "ProgressDescription": "Adaptive analyzing utilisation",
+  "ProgressPercent": 594,
+  "FileName": "Lubowitz-Romaguera",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 682
+      "FieldType": "System.Int32",
+      "FieldLength": 567
     }
   }
 }

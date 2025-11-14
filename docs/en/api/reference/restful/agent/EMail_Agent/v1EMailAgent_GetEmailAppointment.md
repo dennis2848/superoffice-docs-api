@@ -14,6 +14,9 @@ POST /api/v1/Agents/EMail/GetEmailAppointment
 Get appointment data contained in the emails iCal attachment
 
 
+NsApiSlow threshold: 5000 ms.
+
+
 ## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 
@@ -87,7 +90,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailItemId": 31
+  "MailItemId": 386
 }
 ```
 
@@ -101,20 +104,20 @@ Content-Type: application/json; charset=utf-8
   "Appointment": null,
   "CalMethod": "Add",
   "Participants": [
-    "quia",
-    "reiciendis"
+    "laboriosam",
+    "nostrum"
   ],
-  "Comment": "adipisci",
-  "Sequence": 355,
-  "DtStart": "2014-11-07T03:46:54.7382579+01:00",
-  "DtEnd": "2017-12-24T03:46:54.7382579+01:00",
-  "Superseded": false,
+  "Comment": "optio",
+  "Sequence": 546,
+  "DtStart": "2002-09-09T02:30:47.2569602+02:00",
+  "DtEnd": "2010-10-23T02:30:47.2569602+02:00",
+  "Superseded": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 27
+      "FieldType": "System.String",
+      "FieldLength": 237
     }
   }
 }

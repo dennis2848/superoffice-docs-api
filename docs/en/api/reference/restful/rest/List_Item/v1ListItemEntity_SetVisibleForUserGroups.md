@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/{udListDefinitionId}/Items/{listItemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 58,
-    "Name": "Lesch, Fay and Feil",
-    "ToolTip": "Ad et.",
-    "Deleted": false,
-    "Rank": 480,
-    "Type": "soluta",
-    "ColorBlock": 140,
-    "IconHint": "aspernatur",
+    "Id": 137,
+    "Name": "Ondricka, Schroeder and Dare",
+    "ToolTip": "Qui corrupti quae.",
+    "Deleted": true,
+    "Rank": 452,
+    "Type": "ipsa",
+    "ColorBlock": 749,
+    "IconHint": "eos",
     "Selected": false,
-    "LastChanged": "2012-12-03T03:47:00.5505518+01:00",
+    "LastChanged": "2007-08-24T02:30:53.1786436+02:00",
     "ChildItems": [
       {
-        "Id": 881,
-        "Name": "Kilback Group",
-        "ToolTip": "Ipsam sunt.",
+        "Id": 138,
+        "Name": "Kozey LLC",
+        "ToolTip": "Similique quo voluptas numquam repellat voluptatem.",
         "Deleted": false,
-        "Rank": 478,
-        "Type": "reiciendis",
-        "ColorBlock": 572,
-        "IconHint": "recusandae",
-        "Selected": true,
-        "LastChanged": "2020-08-03T03:47:00.5505518+02:00",
+        "Rank": 372,
+        "Type": "fugiat",
+        "ColorBlock": 720,
+        "IconHint": "porro",
+        "Selected": false,
+        "LastChanged": "2002-05-17T02:30:53.1786436+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "a",
-        "StyleHint": "minima",
-        "Hidden": true,
-        "FullName": "Santiago Treutel"
+        "ExtraInfo": "commodi",
+        "StyleHint": "repellat",
+        "Hidden": false,
+        "FullName": "Felipe Ledner"
       }
     ],
-    "ExtraInfo": "nisi",
-    "StyleHint": "iure",
+    "ExtraInfo": "aut",
+    "StyleHint": "sunt",
     "Hidden": false,
-    "FullName": "Winona Prudence Gerlach V"
+    "FullName": "Cassidy Mosciski"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 920,
-    "Name": "Rath LLC",
-    "ToolTip": "Consequatur rerum similique animi perferendis.",
-    "Deleted": true,
-    "Rank": 983,
-    "Type": "incidunt",
-    "ColorBlock": 832,
-    "IconHint": "veritatis",
-    "Selected": false,
-    "LastChanged": "2010-10-05T03:47:00.5505518+02:00",
+    "Id": 932,
+    "Name": "Hirthe Group",
+    "ToolTip": "Quas ex sequi ullam.",
+    "Deleted": false,
+    "Rank": 661,
+    "Type": "eveniet",
+    "ColorBlock": 703,
+    "IconHint": "sed",
+    "Selected": true,
+    "LastChanged": "1999-02-27T02:30:53.194268+01:00",
     "ChildItems": [
       {
-        "Id": 758,
-        "Name": "Cassin LLC",
-        "ToolTip": "Alias amet officia qui ab voluptatem facere voluptas.",
-        "Deleted": false,
-        "Rank": 132,
-        "Type": "quidem",
-        "ColorBlock": 127,
-        "IconHint": "quam",
+        "Id": 409,
+        "Name": "Hickle-Murray",
+        "ToolTip": "Tenetur quae placeat veritatis provident ut qui.",
+        "Deleted": true,
+        "Rank": 659,
+        "Type": "harum",
+        "ColorBlock": 199,
+        "IconHint": "exercitationem",
         "Selected": false,
-        "LastChanged": "2007-07-26T03:47:00.5505518+02:00",
+        "LastChanged": "2008-05-03T02:30:53.194268+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "aliquid",
+        "ExtraInfo": "cupiditate",
+        "StyleHint": "dolor",
         "Hidden": false,
-        "FullName": "Theodore McDermott",
+        "FullName": "Prof. Marcia Nolan Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 659
+            "FieldLength": 529
           }
         }
       }
     ],
-    "ExtraInfo": "eligendi",
-    "StyleHint": "aut",
-    "Hidden": false,
-    "FullName": "Aurelio Rippin DDS",
+    "ExtraInfo": "sed",
+    "StyleHint": "tenetur",
+    "Hidden": true,
+    "FullName": "Naomie Torphy",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 178
+        "FieldType": "System.Int32",
+        "FieldLength": 392
       }
     }
   }

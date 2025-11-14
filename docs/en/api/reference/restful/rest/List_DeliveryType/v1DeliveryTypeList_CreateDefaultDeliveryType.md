@@ -61,7 +61,7 @@ OK
 GET /api/v1/List/DeliveryType/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -71,18 +71,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 295,
-  "Name": "Bednar-Jacobi",
-  "Tooltip": "a",
+  "Id": 440,
+  "Name": "Barton Inc and Sons",
+  "Tooltip": "architecto",
   "Deleted": false,
-  "UdListDefinitionId": 407,
-  "Rank": 255,
+  "UdListDefinitionId": 957,
+  "Rank": 495,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 226
+      "FieldType": "System.String",
+      "FieldLength": 96
     }
   }
 }

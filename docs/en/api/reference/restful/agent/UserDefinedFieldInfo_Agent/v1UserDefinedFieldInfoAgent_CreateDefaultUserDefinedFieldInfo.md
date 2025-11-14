@@ -14,6 +14,8 @@ POST /api/v1/Agents/UserDefinedFieldInfo/CreateDefaultUserDefinedFieldInfo
 Loading default values into a new UserDefinedFieldInfo.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -89,7 +91,7 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/CreateDefaultUserDefinedFieldInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -99,46 +101,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 376,
-  "ColumnId": 711,
-  "FieldDefault": "dicta",
-  "FieldHeight": 219,
-  "FieldLabel": "officiis",
-  "FieldLeft": 692,
-  "FieldTop": 125,
+  "UDefFieldId": 628,
+  "ColumnId": 769,
+  "FieldDefault": "voluptatem",
+  "FieldHeight": 382,
+  "FieldLabel": "eum",
+  "FieldLeft": 90,
+  "FieldTop": 754,
   "FieldType": "Checkbox",
-  "FieldWidth": 317,
-  "FormatMask": "voluptatem",
-  "HideLabel": false,
+  "FieldWidth": 817,
+  "FormatMask": "molestiae",
+  "HideLabel": true,
   "IsIndexed": false,
-  "LabelHeight": 53,
-  "LabelLeft": 644,
-  "LabelTop": 894,
-  "LabelWidth": 372,
-  "LastVersionId": 648,
-  "ListTableId": 2,
+  "LabelHeight": 851,
+  "LabelLeft": 334,
+  "LabelTop": 201,
+  "LabelWidth": 900,
+  "LastVersionId": 301,
+  "ListTableId": 255,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 90,
-  "ProgId": "nemo",
+  "Page1LineNo": 566,
+  "ProgId": "sapiente",
   "IsReadOnly": false,
   "ShortLabel": "dignissimos",
-  "TabOrder": 786,
-  "TextLength": 832,
-  "Tooltip": "dolorem",
-  "UdefIdentity": 978,
-  "UDListDefinitionId": 182,
+  "TabOrder": 9,
+  "TextLength": 782,
+  "Tooltip": "cumque",
+  "UdefIdentity": 616,
+  "UDListDefinitionId": 958,
   "Justification": "Center",
-  "Version": 118,
-  "TemplateVariableName": "Ward, Kuhlman and Witting",
+  "Version": 862,
+  "TemplateVariableName": "Torp-Abernathy",
   "HasBeenPublished": false,
-  "MdoListName": "Hintz Inc and Sons",
+  "MdoListName": "Waelchi-Carter",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 952
+      "FieldType": "System.String",
+      "FieldLength": 793
     }
   }
 }

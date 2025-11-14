@@ -14,6 +14,8 @@ POST /api/v1/Agents/Project/SetDuplicateRulesStatus
 Set which duplicate rules should be active or not
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -71,15 +73,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Rules": [
     {
-      "Name": "Sanford Inc and Sons",
-      "DisplayName": "Hilll, Kassulke and Cormier",
-      "DisplayTooltip": "nostrum",
+      "Name": "Hickle, Keeling and Treutel",
+      "DisplayName": "Lindgren, Corkery and Mante",
+      "DisplayTooltip": "voluptatem",
       "IsActive": true
     },
     {
-      "Name": "Sanford Inc and Sons",
-      "DisplayName": "Hilll, Kassulke and Cormier",
-      "DisplayTooltip": "nostrum",
+      "Name": "Hickle, Keeling and Treutel",
+      "DisplayName": "Lindgren, Corkery and Mante",
+      "DisplayTooltip": "voluptatem",
       "IsActive": true
     }
   ]

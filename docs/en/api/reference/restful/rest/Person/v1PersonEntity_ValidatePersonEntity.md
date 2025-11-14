@@ -101,7 +101,8 @@ Entity to be checked for errors.
 | BounceEmails | Array | Email addresses with a positive bounce counter. |
 | ActiveStatusMonitorId | Integer | Active status monitor identity with the lowest rank for person |
 | CreatedByFormId | Integer | The form id of the form that created the person |
-| InitialUtmParameters | InitalUtmParameters | Initial utm parameters when creating this person, readonly fields |
+| UtmParameters | SavedUtmParameters | Utm parameters when creating this person, readonly fields |
+| LeadstatusId | Integer | Refinement of categories of lead type. Empty if the category is not a lead type. |
 | UserDefinedFields | Object | Deprecated: Use {SuperOffice.CRM.Services.PersonEntity.CustomFields} instead. Dictionary of user defined field data. The key string is the ProgId of the UdefField, or if the ProgId is empty it is a string of the format "SuperOffice:[UdefFieldIdentity]", e.g. "SuperOffice:1234" |
 | ExtraFields | Object | Deprecated: Use {SuperOffice.CRM.Services.PersonEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | Object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.PersonEntity.ExtraFields} and <see cref="P:SuperOffice.CRM.Services.PersonEntity.UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
@@ -123,92 +124,92 @@ OK
 POST /api/v1/Person/Validate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 882,
-  "Firstname": "Gabriel",
-  "MiddleName": "Cormier Group",
-  "Lastname": "Hoeger",
-  "Mrmrs": "qui",
-  "Title": "voluptas",
-  "UpdatedDate": "2001-05-08T03:47:00.1443174+02:00",
-  "CreatedDate": "2010-08-16T03:47:00.1443174+02:00",
-  "BirthDate": "2024-02-08T03:47:00.1443174+01:00",
+  "PersonId": 903,
+  "Firstname": "Joanie",
+  "MiddleName": "Halvorson-Bernier",
+  "Lastname": "Pfeffer",
+  "Mrmrs": "assumenda",
+  "Title": "magni",
+  "UpdatedDate": "2024-12-08T02:30:52.7726429+01:00",
+  "CreatedDate": "2016-03-09T02:30:52.7726429+01:00",
+  "BirthDate": "2016-05-15T02:30:52.7726429+02:00",
   "CreatedBy": null,
   "Emails": [
     {
-      "Value": "ipsum",
-      "StrippedValue": "laudantium",
-      "Description": "Virtual fault-tolerant access"
+      "Value": "rerum",
+      "StrippedValue": "et",
+      "Description": "Future-proofed logistical strategy"
     },
     {
-      "Value": "ipsum",
-      "StrippedValue": "laudantium",
-      "Description": "Virtual fault-tolerant access"
+      "Value": "rerum",
+      "StrippedValue": "et",
+      "Description": "Future-proofed logistical strategy"
     }
   ],
-  "Description": "Secured discrete parallelism",
-  "IsAssociate": false,
+  "Description": "Phased full-range open architecture",
+  "IsAssociate": true,
   "PrivatePhones": [
     {
-      "Value": "quis",
-      "StrippedValue": "nobis",
-      "Description": "Triple-buffered neutral moderator"
+      "Value": "autem",
+      "StrippedValue": "aut",
+      "Description": "Open-architected zero defect implementation"
     },
     {
-      "Value": "quis",
-      "StrippedValue": "nobis",
-      "Description": "Triple-buffered neutral moderator"
+      "Value": "autem",
+      "StrippedValue": "aut",
+      "Description": "Open-architected zero defect implementation"
     }
   ],
   "Faxes": [
     {
-      "Value": "sed",
-      "StrippedValue": "necessitatibus",
-      "Description": "Polarised stable ability"
+      "Value": "nesciunt",
+      "StrippedValue": "quia",
+      "Description": "User-friendly 4th generation Graphic Interface"
     },
     {
-      "Value": "sed",
-      "StrippedValue": "necessitatibus",
-      "Description": "Polarised stable ability"
+      "Value": "nesciunt",
+      "StrippedValue": "quia",
+      "Description": "User-friendly 4th generation Graphic Interface"
     }
   ],
   "MobilePhones": [
     {
-      "Value": "alias",
-      "StrippedValue": "voluptatem",
-      "Description": "Profit-focused content-based implementation"
+      "Value": "sapiente",
+      "StrippedValue": "eveniet",
+      "Description": "Optional bifurcated framework"
     },
     {
-      "Value": "alias",
-      "StrippedValue": "voluptatem",
-      "Description": "Profit-focused content-based implementation"
+      "Value": "sapiente",
+      "StrippedValue": "eveniet",
+      "Description": "Optional bifurcated framework"
     }
   ],
   "OfficePhones": [
     {
-      "Value": "omnis",
-      "StrippedValue": "porro",
-      "Description": "Horizontal directional adapter"
+      "Value": "quidem",
+      "StrippedValue": "non",
+      "Description": "Object-based background algorithm"
     },
     {
-      "Value": "omnis",
-      "StrippedValue": "porro",
-      "Description": "Horizontal directional adapter"
+      "Value": "quidem",
+      "StrippedValue": "non",
+      "Description": "Object-based background algorithm"
     }
   ],
   "OtherPhones": [
     {
-      "Value": "omnis",
-      "StrippedValue": "perspiciatis",
-      "Description": "Networked 5th generation internet solution"
+      "Value": "dolorum",
+      "StrippedValue": "dolor",
+      "Description": "Enhanced assymetric structure"
     },
     {
-      "Value": "omnis",
-      "StrippedValue": "perspiciatis",
-      "Description": "Networked 5th generation internet solution"
+      "Value": "dolorum",
+      "StrippedValue": "dolor",
+      "Description": "Enhanced assymetric structure"
     }
   ],
   "Position": null,
@@ -217,151 +218,152 @@ Content-Type: application/json; charset=utf-8
   "Country": null,
   "Interests": [
     {
-      "Id": 937,
-      "Name": "Zieme, Stamm and Vandervort",
-      "ToolTip": "Laudantium qui nesciunt culpa porro voluptate.",
+      "Id": 982,
+      "Name": "Cummings, Homenick and Tremblay",
+      "ToolTip": "Sint laboriosam quod voluptatum deserunt et est ducimus.",
       "Deleted": false,
-      "Rank": 622,
-      "Type": "non",
-      "ColorBlock": 756,
-      "IconHint": "sequi",
-      "Selected": false,
-      "LastChanged": "2018-06-30T03:47:00.1443174+02:00",
+      "Rank": 237,
+      "Type": "qui",
+      "ColorBlock": 321,
+      "IconHint": "voluptas",
+      "Selected": true,
+      "LastChanged": "2025-02-26T02:30:52.7726429+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "ut",
-      "StyleHint": "nihil",
-      "Hidden": true,
-      "FullName": "Prof. Colton Nona Deckow"
+      "ExtraInfo": "voluptas",
+      "StyleHint": "eligendi",
+      "Hidden": false,
+      "FullName": "Americo Durgan"
     }
   ],
-  "PersonNumber": "630272",
-  "FullName": "Pablo Haley",
+  "PersonNumber": "495531",
+  "FullName": "Miss Fredy Eleazar Rodriguez",
   "NoMailing": false,
   "UsePersonAddress": false,
   "Retired": true,
   "Urls": [
     {
-      "Value": "ea",
-      "StrippedValue": "dolor",
-      "Description": "Quality-focused fault-tolerant software"
+      "Value": "assumenda",
+      "StrippedValue": "delectus",
+      "Description": "Upgradable impactful concept"
     },
     {
-      "Value": "ea",
-      "StrippedValue": "dolor",
-      "Description": "Quality-focused fault-tolerant software"
+      "Value": "assumenda",
+      "StrippedValue": "delectus",
+      "Description": "Upgradable impactful concept"
     }
   ],
-  "FormalName": "VonRueden, Hegmann and Predovic",
+  "FormalName": "Wilderman Inc and Sons",
   "Address": null,
-  "Post3": "et",
-  "Post2": "pariatur",
-  "Post1": "impedit",
-  "Kanalname": "qui",
-  "Kanafname": "ea",
+  "Post3": "quae",
+  "Post2": "nemo",
+  "Post1": "et",
+  "Kanalname": "sint",
+  "Kanafname": "vel",
   "CorrespondingAssociate": null,
   "Category": null,
   "Business": null,
   "Associate": null,
-  "Salutation": "dolores",
-  "ActiveInterests": 489,
+  "Salutation": "accusantium",
+  "ActiveInterests": 194,
   "SupportAssociate": null,
   "TicketPriority": null,
   "CustomerLanguage": null,
-  "DbiAgentId": 218,
-  "DbiKey": "et",
-  "DbiLastModified": "2017-11-23T03:47:00.1443174+01:00",
-  "DbiLastSyncronized": "2023-01-27T03:47:00.1443174+01:00",
-  "SentInfo": 733,
-  "ShowContactTickets": 163,
+  "DbiAgentId": 634,
+  "DbiKey": "deleniti",
+  "DbiLastModified": "2018-09-26T02:30:52.7726429+02:00",
+  "DbiLastSyncronized": "2018-09-15T02:30:52.7726429+02:00",
+  "SentInfo": 755,
+  "ShowContactTickets": 407,
   "UserInfo": null,
   "ChatEmails": [
     {
-      "Value": "iure",
-      "StrippedValue": "non",
-      "Description": "Monitored 5th generation flexibility"
+      "Value": "possimus",
+      "StrippedValue": "rerum",
+      "Description": "Up-sized executive monitoring"
     },
     {
-      "Value": "iure",
-      "StrippedValue": "non",
-      "Description": "Monitored 5th generation flexibility"
+      "Value": "possimus",
+      "StrippedValue": "rerum",
+      "Description": "Up-sized executive monitoring"
     }
   ],
   "InternetPhones": [
     {
-      "Value": "et",
-      "StrippedValue": "adipisci",
-      "Description": "Operative interactive hardware"
+      "Value": "eum",
+      "StrippedValue": "voluptatem",
+      "Description": "Fundamental multi-tasking complexity"
     },
     {
-      "Value": "et",
-      "StrippedValue": "adipisci",
-      "Description": "Operative interactive hardware"
+      "Value": "eum",
+      "StrippedValue": "voluptatem",
+      "Description": "Fundamental multi-tasking complexity"
     }
   ],
-  "Source": 865,
-  "ActiveErpLinks": 581,
+  "Source": 514,
+  "ActiveErpLinks": 550,
   "ShipmentTypes": [
     {
-      "Id": 218,
-      "Name": "Johns Inc and Sons",
-      "ToolTip": "Explicabo deserunt sit sed at.",
-      "Deleted": false,
-      "Rank": 325,
-      "Type": "tenetur",
-      "ColorBlock": 946,
-      "IconHint": "incidunt",
-      "Selected": false,
-      "LastChanged": "2010-07-21T03:47:00.1599324+02:00",
+      "Id": 303,
+      "Name": "Nicolas Group",
+      "ToolTip": "Officiis et.",
+      "Deleted": true,
+      "Rank": 809,
+      "Type": "autem",
+      "ColorBlock": 514,
+      "IconHint": "hic",
+      "Selected": true,
+      "LastChanged": "2016-12-28T02:30:52.7726429+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "earum",
-      "StyleHint": "aliquid",
+      "ExtraInfo": "eligendi",
+      "StyleHint": "saepe",
       "Hidden": false,
-      "FullName": "Cassandre Wehner"
+      "FullName": "Sim Stanton"
     }
   ],
   "Consents": [
     {
-      "ConsentPersonId": 14,
-      "Comment": "exercitationem",
-      "Registered": "2000-09-13T03:47:00.1599324+02:00",
-      "RegisteredAssociateId": 399,
-      "Updated": "2000-12-08T03:47:00.1599324+01:00",
-      "UpdatedAssociateId": 203,
-      "LegalBaseId": 332,
-      "LegalBaseKey": "rem",
-      "LegalBaseName": "Hickle, Kiehn and Durgan",
-      "ConsentPurposeId": 207,
-      "ConsentPurposeKey": "laudantium",
-      "ConsentPurposeName": "Upton, Abbott and Auer",
-      "ConsentSourceId": 413,
-      "ConsentSourceKey": "repellendus",
-      "ConsentSourceName": "Witting-Effertz"
+      "ConsentPersonId": 993,
+      "Comment": "sed",
+      "Registered": "1999-11-03T02:30:52.7726429+01:00",
+      "RegisteredAssociateId": 179,
+      "Updated": "2015-03-17T02:30:52.7726429+01:00",
+      "UpdatedAssociateId": 156,
+      "LegalBaseId": 59,
+      "LegalBaseKey": "iusto",
+      "LegalBaseName": "Beier, D'Amore and Lakin",
+      "ConsentPurposeId": 31,
+      "ConsentPurposeKey": "ut",
+      "ConsentPurposeName": "Bauch, Sawayn and Rosenbaum",
+      "ConsentSourceId": 398,
+      "ConsentSourceKey": "corrupti",
+      "ConsentSourceName": "Becker-Stark"
     }
   ],
   "BounceEmails": [
-    "velva_mraz@casper.uk",
-    "hunter@wisoky.com"
+    "braulio.ortiz@jones.co.uk",
+    "brooks@stamm.uk"
   ],
-  "ActiveStatusMonitorId": 370,
-  "CreatedByFormId": 499,
-  "InitialUtmParameters": null,
+  "ActiveStatusMonitorId": 858,
+  "CreatedByFormId": 250,
+  "UtmParameters": null,
+  "LeadstatusId": 851,
   "UserDefinedFields": {
-    "SuperOffice:1": "164668249",
-    "SuperOffice:2": "1969446538"
+    "SuperOffice:1": "False",
+    "SuperOffice:2": "517367165"
   },
   "ExtraFields": {
-    "ExtraFields1": "dolor",
-    "ExtraFields2": "aut"
+    "ExtraFields1": "id",
+    "ExtraFields2": "veniam"
   },
   "CustomFields": {
-    "CustomFields1": "velit",
-    "CustomFields2": "optio"
+    "CustomFields1": "in",
+    "CustomFields2": "qui"
   }
 }
 ```
@@ -373,7 +375,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "animi",
-  "2": "et"
+  "1": "voluptas",
+  "2": "temporibus"
 }
 ```

@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/GetListItemsForUserGroupFromListName
 List of list items that is visible in the usergroup
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -89,12 +91,12 @@ OK
 POST /api/v1/Agents/List/GetListItemsForUserGroupFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Legros Inc and Sons",
-  "GroupId": 466
+  "UdListDefinitionName": "Nikolaus-Bergnaum",
+  "GroupId": 486
 }
 ```
 
@@ -106,56 +108,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 49,
-    "Name": "Fritsch, Donnelly and Johnston",
-    "ToolTip": "Earum rerum qui et eaque.",
+    "Id": 724,
+    "Name": "Legros Group",
+    "ToolTip": "Et enim consequatur perferendis placeat amet similique.",
     "Deleted": true,
-    "Rank": 886,
-    "Type": "sed",
-    "ColorBlock": 454,
-    "IconHint": "iste",
-    "Selected": false,
-    "LastChanged": "2010-11-20T03:46:54.9569999+01:00",
+    "Rank": 778,
+    "Type": "itaque",
+    "ColorBlock": 266,
+    "IconHint": "aperiam",
+    "Selected": true,
+    "LastChanged": "2003-02-15T02:30:47.4132046+01:00",
     "ChildItems": [
       {
-        "Id": 699,
-        "Name": "Roberts LLC",
-        "ToolTip": "Vero corporis.",
+        "Id": 156,
+        "Name": "Corwin-Rogahn",
+        "ToolTip": "Fuga rem.",
         "Deleted": false,
-        "Rank": 324,
-        "Type": "id",
-        "ColorBlock": 750,
-        "IconHint": "commodi",
+        "Rank": 581,
+        "Type": "alias",
+        "ColorBlock": 710,
+        "IconHint": "ea",
         "Selected": false,
-        "LastChanged": "2020-04-27T03:46:54.9569999+02:00",
+        "LastChanged": "2016-10-01T02:30:47.4132046+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "pariatur",
-        "StyleHint": "architecto",
+        "ExtraInfo": "est",
+        "StyleHint": "reiciendis",
         "Hidden": true,
-        "FullName": "Athena Block",
+        "FullName": "Katelyn Tod McKenzie MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 593
+            "FieldLength": 48
           }
         }
       }
     ],
-    "ExtraInfo": "voluptate",
-    "StyleHint": "qui",
+    "ExtraInfo": "esse",
+    "StyleHint": "adipisci",
     "Hidden": false,
-    "FullName": "Kallie Feil",
+    "FullName": "Miss Francesco Reyna Harvey II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 870
+        "FieldType": "System.String",
+        "FieldLength": 24
       }
     }
   }

@@ -14,6 +14,8 @@ POST /api/v1/Agents/Targets/CreateDefaultTargetAssignmentForUserGroupWithYearAnd
 Returns a default target assignment for the specified usergroup, for the specified year and dimension.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -84,13 +86,13 @@ OK
 POST /api/v1/Agents/Targets/CreateDefaultTargetAssignmentForUserGroupWithYearAndDimension
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UserGroupId": 538,
-  "Year": 34,
-  "TargetDimensionId": 417
+  "UserGroupId": 258,
+  "Year": 320,
+  "TargetDimensionId": 811
 }
 ```
 
@@ -102,24 +104,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetAssignmentInfoId": 724,
+    "TargetAssignmentInfoId": 331,
     "Values": [
-      798,
-      747
+      493,
+      443
     ],
     "Locked": false,
     "TargetAssociate": null,
     "TargetContact": null,
     "TargetUserGroup": null,
     "Currency": null,
-    "DimensionListItem": 747,
-    "DimensionListItemDisplayName": "Wisoky, Dickens and Reichel",
+    "DimensionListItem": 903,
+    "DimensionListItemDisplayName": "Wolff-Schaefer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 358
+        "FieldLength": 698
       }
     }
   }

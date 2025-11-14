@@ -76,18 +76,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 328,
-    "Name": "Blanda LLC",
-    "Tooltip": "minima",
+    "HeadingId": 268,
+    "Name": "Heathcote, Romaguera and Green",
+    "Tooltip": "reiciendis",
     "Deleted": false,
-    "Rank": 208,
-    "UdListDefinitionId": 449,
+    "Rank": 96,
+    "UdListDefinitionId": 142,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 474
+        "FieldType": "System.Int32",
+        "FieldLength": 439
       }
     }
   }

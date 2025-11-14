@@ -63,7 +63,7 @@ OK
 GET /api/v1/List/WebPanel/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -74,18 +74,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 112,
-    "Name": "Botsford, Luettgen and Aufderhar",
-    "Tooltip": "voluptatem",
+    "HeadingId": 782,
+    "Name": "Beier-Morissette",
+    "Tooltip": "corrupti",
     "Deleted": true,
-    "Rank": 864,
-    "UdListDefinitionId": 706,
+    "Rank": 950,
+    "UdListDefinitionId": 693,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 126
+        "FieldType": "System.Int32",
+        "FieldLength": 776
       }
     }
   }

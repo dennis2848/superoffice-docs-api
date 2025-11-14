@@ -14,6 +14,8 @@ POST /api/v1/Agents/Dash/SaveDashTheme
 Updates the existing DashTheme or creates a new DashTheme if the id parameter is 0.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -74,16 +76,16 @@ OK
 POST /api/v1/Agents/Dash/SaveDashTheme
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 911,
-  "Name": "Muller Inc and Sons",
-  "Config": "similique",
-  "Rank": 178,
-  "Client": "aut",
-  "Style": "qui"
+  "DashboardThemeId": 139,
+  "Name": "Grady LLC",
+  "Config": "est",
+  "Rank": 849,
+  "Client": "ut",
+  "Style": "accusantium"
 }
 ```
 
@@ -94,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 472,
-  "Name": "Pfeffer, Tremblay and Howell",
-  "Config": "non",
-  "Rank": 145,
-  "Client": "praesentium",
-  "Style": "delectus",
+  "DashboardThemeId": 849,
+  "Name": "Renner, Nicolas and Towne",
+  "Config": "quisquam",
+  "Rank": 67,
+  "Client": "fuga",
+  "Style": "molestiae",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 559
+      "FieldType": "System.String",
+      "FieldLength": 107
     }
   }
 }

@@ -14,6 +14,8 @@ POST /api/v1/Agents/Find/SaveRestrictionsWithContext2
 Save an array of restrictions for later use as search criteria (including as dynamic selection and Find).
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -69,15 +71,15 @@ No Content
 POST /api/v1/Agents/Find/SaveRestrictionsWithContext2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "beatae",
-  "ProviderName": "Jacobson LLC",
-  "StorageKey": "sint",
-  "Restrictions": "voluptate",
-  "Context": "accusamus"
+  "StorageType": "saepe",
+  "ProviderName": "Miller, Walter and Donnelly",
+  "StorageKey": "odit",
+  "Restrictions": "sit",
+  "Context": "nemo"
 }
 ```
 

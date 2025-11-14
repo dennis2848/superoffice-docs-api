@@ -14,6 +14,9 @@ POST /api/v1/Agents/EMail/CreateDefaultEMailEntity
 Loading default values into a new EMailEntity.
 
 
+NsApiSlow threshold: 5000 ms.
+
+
 ## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 
@@ -83,7 +86,7 @@ OK
 POST /api/v1/Agents/EMail/CreateDefaultEMailEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -95,148 +98,148 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 539,
-      "ContactName": "Bogisich LLC",
-      "PersonId": 477,
-      "PersonName": "Rodriguez, Connelly and Morissette",
-      "AssociateId": 420,
-      "Address": "qui",
-      "EmailId": 169,
+      "ContactId": 483,
+      "ContactName": "Cremin LLC",
+      "PersonId": 364,
+      "PersonName": "Kozey, Turner and McKenzie",
+      "AssociateId": 452,
+      "Address": "ea",
+      "EmailId": 122,
       "DuplicatePersonIds": [
-        75,
-        312
+        772,
+        52
       ],
-      "Name": "McDermott, Bode and Swift",
+      "Name": "Lowe-Lang",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 591
+          "FieldLength": 22
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 727,
-      "ContactName": "DuBuque LLC",
-      "PersonId": 493,
-      "PersonName": "Reynolds Group",
-      "AssociateId": 66,
-      "Address": "voluptatum",
-      "EmailId": 2,
+      "ContactId": 917,
+      "ContactName": "Carroll Group",
+      "PersonId": 146,
+      "PersonName": "Grady LLC",
+      "AssociateId": 310,
+      "Address": "sed",
+      "EmailId": 217,
       "DuplicatePersonIds": [
-        20,
-        981
+        161,
+        805
       ],
-      "Name": "Lesch, Heidenreich and Prohaska",
+      "Name": "Schneider-Koepp",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 222
+          "FieldType": "System.Int32",
+          "FieldLength": 3
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 409,
-      "ContactName": "Crist LLC",
-      "PersonId": 779,
-      "PersonName": "Runte-Runolfsson",
-      "AssociateId": 906,
-      "Address": "qui",
-      "EmailId": 561,
+      "ContactId": 165,
+      "ContactName": "Harber Inc and Sons",
+      "PersonId": 31,
+      "PersonName": "Gulgowski-Thiel",
+      "AssociateId": 593,
+      "Address": "asperiores",
+      "EmailId": 693,
       "DuplicatePersonIds": [
-        162,
-        638
+        174,
+        986
       ],
-      "Name": "Auer-Koch",
+      "Name": "Marvin Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 88
+          "FieldLength": 611
         }
       }
     }
   ],
-  "Subject": "eligendi",
-  "HTMLBody": "quisquam",
+  "Subject": "autem",
+  "HTMLBody": "libero",
   "From": null,
-  "Sent": "2010-12-02T03:46:54.7695066+01:00",
-  "Size": 201,
+  "Sent": "2012-07-23T02:30:47.2882099+02:00",
+  "Size": 897,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "quis",
-  "PlainBody": "aspernatur",
+  "MessageID": "quidem",
+  "PlainBody": "tenetur",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 483,
+  "ServerId": 89,
   "Attachments": [
     {
-      "Description": "Visionary bandwidth-monitored leverage",
-      "Filename": "ut",
-      "Size": 646,
-      "Type": "est",
-      "Encoding": "eveniet",
-      "Id": "laboriosam",
-      "Disposition": "rem",
+      "Description": "Sharable transitional policy",
+      "Filename": "autem",
+      "Size": 344,
+      "Type": "odit",
+      "Encoding": "voluptatem",
+      "Id": "assumenda",
+      "Disposition": "ratione",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 502
+          "FieldType": "System.String",
+          "FieldLength": 114
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Stracke Group",
+      "Name": "Leffler-Goldner",
       "Values": [
-        "quia",
-        "ea"
+        "voluptatem",
+        "ut"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 368
+          "FieldLength": 68
         }
       }
     },
     {
-      "Name": "Stracke Group",
+      "Name": "Leffler-Goldner",
       "Values": [
-        "quia",
-        "ea"
+        "voluptatem",
+        "ut"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 368
+          "FieldLength": 68
         }
       }
     }
   ],
-  "FolderName": "Kutch-Lowe",
-  "EmailItemId": 509,
-  "AccountId": 660,
-  "ReceivedAt": "2023-08-27T03:46:54.7695066+02:00",
+  "FolderName": "Williamson, Gutmann and McLaughlin",
+  "EmailItemId": 962,
+  "AccountId": 861,
+  "ReceivedAt": "2008-08-15T02:30:47.2882099+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2005-04-19T03:46:54.7695066+02:00",
-  "HasCalendarData": true,
+  "RepliedAt": "2002-02-11T02:30:47.2882099+01:00",
+  "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
@@ -244,7 +247,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 990
+      "FieldLength": 303
     }
   }
 }

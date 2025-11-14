@@ -3,31 +3,33 @@ uid: help-de-selection-board-view
 title: Board-Ansicht in Selektionen verwenden
 description: Selektionen mit der Board-Ansicht visualisieren – mit Gruppierung, Filtern und Drag-and-Drop-Karten
 keywords: Board-Ansicht, Selektionsansicht, Selektion, Verkaufsboard, Projektboard, Anfrageboard, Kanban, gruppieren nach, Filterleiste
-author: Bergfrid Dias
-date: 08.25.2025
-version: 11.3
+author: digitaldiina
+date: 11.04.2025
+version: 11.6
 content_type: howto
 license: salespremium, servicepremium, marketingessentials
 audience: person
 audience_tooltip: SuperOffice CRM
 language: de
-index: true
 ---
 
 # Board-Ansicht in Selektionen verwenden <i class="ph ph-kanban" aria-hidden="true"></i>
 
 Die Board-Ansicht zeigt Ihre [Selektion][2] in einem spaltenbasierten Layout mit Karten an. Sie können die Selektionsmitglieder (Datensätze auf dem Board) gruppieren und filtern sowie Karten per Drag-and-Drop zwischen Gruppen verschieben.
 
-Die Funktionalität ist für alle unterstützten Selektionstypen gleich: Sie können Karten ziehen, Aufgabenmenüs öffnen und Board-Einstellungen anpassen. Die verfügbaren Gruppierungs- und Filterfelder unterscheiden sich je nachdem, ob Sie mit Verkäufen, Projekten oder Anfragen arbeiten.
+Die Funktionalität ist für alle unterstützten Selektionstypen gleich: Sie können Karten ziehen, Aufgabenmenüs öffnen und Board-Einstellungen anpassen. Die verfügbaren Gruppierungs- und Filterfelder unterscheiden sich je nachdem, ob Sie mit Firmen, Personen, Verkäufen, Projekten oder Anfragen arbeiten.
 
 ![Board-Ansicht mit Verkäufen nach Stufe gruppiert -screenshot][img2]
 
 ## Board-Ansicht öffnen
 
 1. Öffnen Sie eine Selektion.
+
 1. Klicken Sie oben rechts auf das Symbol für die **Board-Ansicht** (<i class="ph ph-kanban" aria-label="Kanban board"></i>).
 
     ![Symbol zum Umschalten in die Board-Ansicht oben rechts in einer Selektion][img1]
+
+1. Wenn Ihre Selektion Firmen und Personen enthält, zeigt die Board‑Ansicht immer nur einen Entitätstyp gleichzeitig an. Zum Wechseln klicken Sie auf <i class="ph ph-gear-six" aria-label="Settings"></i> und wählen im Dropdown **Entität anzeigen** entweder *Firma* oder *Person*.
 
 ## Mit Karten arbeiten
 
@@ -40,6 +42,10 @@ Die Funktionalität ist für alle unterstützten Selektionstypen gleich: Sie kö
 * Ziehen Sie Karten zwischen Spalten, um das Gruppierungsfeld zu aktualisieren (z. B. Stufe oder Besitzer).
   * Wenn Untergruppen aktiviert sind, können Sie Karten auch zwischen Zeilen innerhalb jeder Spalte verschieben.
 
+* Klicken Sie auf eine Karte, um ihre Details in der [Seitenleiste][11] anzuzeigen. (Aktivieren Sie die Vorschau, indem Sie sie aus dem Dropdown-Menü oben in der Seitenleiste auswählen).
+
+    ![Seitenleiste mit Projektdetails -screenshot][img12]
+
 * Um eine Karte zu bearbeiten, bewegen Sie die Maus darüber und klicken Sie auf **Bearbeiten** (<i class="ph ph-pencil" aria-hidden="true"></i>). Dies öffnet denselben Bearbeitungsdialog wie an anderer Stelle in SuperOffice CRM – ohne die Board-Ansicht zu verlassen.
 
   ![Cursor zeigt auf die Schaltfläche Bearbeiten auf einer Verkaufskarte -screenshot][img4]
@@ -49,6 +55,8 @@ Die Funktionalität ist für alle unterstützten Selektionstypen gleich: Sie kö
   * **Verkäufe:** Bearbeiten, Folgeaufgabe erstellen, Als verkauft/verloren markieren, Löschen
   * **Projekte:** Bearbeiten, Folgeaufgabe erstellen, Dokument erstellen, Als abgeschlossen markieren, Löschen
   * **Anfragen:** Bearbeiten, Anfrage schließen, Löschen
+  * **Firma:** Bearbeiten, Folgeaufgabe erstellen, Verkauf erstellen, Zur nächten Katerorie wechslen Löschen
+  * **Person:** Bearbeiten, Folgeaufgabe erstellen, Verkauf erstellen, Löschen
 
   ![Geöffnetes Aufgabenmenü für einen Verkauf in der Board-Ansicht mit verfügbaren Optionen -screenshot][img5]
 
@@ -82,6 +90,8 @@ Beispiele für Gruppierungsfelder:
 * **Verkäufe:** Stufe, Verkaufstyp, Besitzer
 * **Projekte:** Status, Verantwortlicher, Typ
 * **Anfragen:** Status, Anfragetyp, Priorität, Besitzer
+* **Firma:** Kategorie, Verantwortlich
+* **Person:** Kategorie, Verantwortlich, Lead Status
 
 ### Karten in Spalten sortieren
 
@@ -114,6 +124,8 @@ Beispiele für Filter:
 * **Verkauf:** Verkaufsart, Eigentümer, Phase, Nächste Aktivität, Verkaufsdatum
 * **Projekte:** Typ, Verantwortlich, Status, Nächster Meilenstein, Enddatum
 * **Anfragen:** Anfragekategorie, Eigentümer, Status, Erstellt, Frist, Priorität
+* **Firma:** Verantwortlich, Erfasstesdatum Nächste Aktivität, Kategorie, Land
+* **Person:** Verantwortlich, Eigentümergruppe Erfasstesdatum Nächste Aktivität, Lead Status, Kategorie, Land
 
 ### Zusammenfassen (nur Verkäufe)
 
@@ -211,6 +223,7 @@ Nutzen Sie Gruppierung kreativ, um Daten effizient zu organisieren und zu nutzen
 <!-- Referenzierte Links -->
 [1]: create.md
 [2]: index.md
+[11]: ../../../learn/getting-started/main-screen/side-panel.md
 [12]: ../../../sale/learn/create.md
 [13]: ../../../sale/admin/sale-stage.md
 [14]: ../../../request/learn/create.md
@@ -232,3 +245,4 @@ Nutzen Sie Gruppierung kreativ, um Daten effizient zu organisieren und zu nutzen
 [img9]: ../../../../media/loc/en/search-options/board-view-filter-toolbar.png
 [img10]: ../../../../media/loc/en/search-options/board-view-filter-on-sale-type.png
 [img11]: ../../../../media/loc/en/search-options/board-view-summarized-sale-amount-per-column.png
+[img12]: ../../../../media/loc/en/search-options/selection-board-view-project-preview.png

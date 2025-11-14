@@ -15,6 +15,7 @@ Creates an AppointmentEntity populated with values from an existing appointment.
 
 
 The new appointment will get the same task type and participant list as the source appointment. The date of the new appointment will be set to today, but the time component is kept.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -140,8 +141,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 552,
-  "AssociateId": 116
+  "AppointmentId": 782,
+  "AssociateId": 987
 }
 ```
 
@@ -156,121 +157,121 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2000-01-25T03:46:54.0820313+01:00",
-  "AppointmentId": 797,
-  "Description": "Up-sized human-resource firmware",
-  "Title": "vitae",
-  "Agenda": "ea",
-  "InternalNotes": "dolorem",
-  "StartDate": "2019-03-27T03:46:54.0820313+01:00",
-  "EndDate": "2019-04-19T03:46:54.0820313+02:00",
+  "CreatedDate": "2001-06-12T02:30:46.6007285+02:00",
+  "AppointmentId": 480,
+  "Description": "Reduced disintermediate alliance",
+  "Title": "ut",
+  "Agenda": "non",
+  "InternalNotes": "quam",
+  "StartDate": "2014-05-21T02:30:46.6007285+02:00",
+  "EndDate": "2015-09-21T02:30:46.6007285+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 944,
+  "MotherId": 75,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2018-03-19T03:46:54.1132807+01:00",
+  "UpdatedDate": "2024-02-03T02:30:46.6007285+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 442,
+  "ActiveLinks": 236,
   "Links": [
     {
-      "EntityName": "Turcotte-Blick",
-      "Id": 641,
-      "Description": "Exclusive bifurcated benchmark",
-      "ExtraInfo": "dolorem",
-      "LinkId": 471,
+      "EntityName": "Stroman, Kutch and Kuhic",
+      "Id": 537,
+      "Description": "Multi-channelled zero administration matrix",
+      "ExtraInfo": "deleniti",
+      "LinkId": 959,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 884
+          "FieldLength": 159
         }
       }
     }
   ],
-  "AlarmLeadTime": "consequatur",
+  "AlarmLeadTime": "quibusdam",
   "HasAlarm": false,
-  "ColorIndex": 637,
+  "ColorIndex": 63,
   "IsFree": false,
   "IsAlldayEvent": false,
-  "LagTime": "debitis",
-  "LeadTime": "sint",
-  "Location": "et",
-  "RejectCounter": 324,
+  "LagTime": "repellat",
+  "LeadTime": "quis",
+  "Location": "doloribus",
+  "RejectCounter": 544,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 361,
-      "PersonId": 153,
-      "ContactId": 689,
-      "EmailId": 794,
+      "AssociateId": 175,
+      "PersonId": 388,
+      "ContactId": 275,
+      "EmailId": 851,
       "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "lavon_schmeler@hirtheeffertz.info",
-      "Description": "Progressive contextually-based internet solution"
+      "EmailAddress": "camron_ernser@weissnat.co.uk",
+      "Description": "Reactive methodical projection"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2013-09-03T03:46:54.1132807+02:00",
-  "HasConflict": false,
+  "ActiveDate": "2004-06-13T02:30:46.6007285+02:00",
+  "HasConflict": true,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 384,
+  "PreferredTZLocation": 304,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 840,
+  "SuggestedAppointmentId": 168,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "OwnedExternally": "Google",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "blanditiis",
+  "CentralserviceVideomeetId": "minus",
   "UserDefinedFields": {
-    "SuperOffice:1": "Hillary Ankunding",
-    "SuperOffice:2": "214439030"
+    "SuperOffice:1": "Sadye Reichel I",
+    "SuperOffice:2": "Lucio Parisian"
   },
   "ExtraFields": {
-    "ExtraFields1": "quasi",
-    "ExtraFields2": "sunt"
+    "ExtraFields1": "distinctio",
+    "ExtraFields2": "officiis"
   },
   "CustomFields": {
-    "CustomFields1": "nam",
-    "CustomFields2": "illum"
+    "CustomFields1": "voluptas",
+    "CustomFields2": "a"
   },
-  "PublishEventDate": "2010-07-20T03:46:54.1445302+02:00",
-  "PublishTo": "2003-04-16T03:46:54.1445302+02:00",
-  "PublishFrom": "2003-04-01T03:46:54.1445302+02:00",
+  "PublishEventDate": "2022-09-15T02:30:46.6007285+02:00",
+  "PublishTo": "2012-03-08T02:30:46.6007285+01:00",
+  "PublishFrom": "2010-05-01T02:30:46.6007285+02:00",
   "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 351,
+      "VisibleId": 86,
       "Visibility": "All",
-      "DisplayValue": "id",
+      "DisplayValue": "atque",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 383
+          "FieldType": "System.Int32",
+          "FieldLength": 431
         }
       }
     },
     {
-      "VisibleId": 351,
+      "VisibleId": 86,
       "Visibility": "All",
-      "DisplayValue": "id",
+      "DisplayValue": "atque",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 383
+          "FieldType": "System.Int32",
+          "FieldLength": 431
         }
       }
     }
@@ -279,8 +280,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 488
+      "FieldType": "System.Int32",
+      "FieldLength": 169
     }
   }
 }

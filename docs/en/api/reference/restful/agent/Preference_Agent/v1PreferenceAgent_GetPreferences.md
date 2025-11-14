@@ -15,6 +15,7 @@ Get one or more preferences based on a set of specifications.
 
 
 &lt;br/&gt;The prefDisplayvalue and prefDisplaytooltip are blank (faster processing relative to GetPreferencesWithDisplayValues)
+NsApiSlow threshold: 1000 ms.
 
 
 
@@ -86,18 +87,18 @@ OK
 POST /api/v1/Agents/Preference/GetPreferences
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Specifications": [
     {
-      "Section": "quia",
-      "Key": "illo"
+      "Section": "cumque",
+      "Key": "autem"
     },
     {
-      "Section": "quia",
-      "Key": "illo"
+      "Section": "cumque",
+      "Key": "autem"
     }
   ]
 }
@@ -112,22 +113,22 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Level": "Database",
-    "RawValue": "tempore",
+    "RawValue": "occaecati",
     "Specification": null,
-    "DisplayValue": "vero",
-    "DisplayTooltip": "voluptas",
+    "DisplayValue": "dolor",
+    "DisplayTooltip": "odit",
     "DisplayType": "Bool",
     "TabOrder": null,
-    "TargetId": 121,
-    "PrefDescId": 909,
-    "TableName": "Dach LLC",
-    "UserPreferenceId": 763,
+    "TargetId": 973,
+    "PrefDescId": 237,
+    "TableName": "Rosenbaum-Bernier",
+    "UserPreferenceId": 407,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 634
+        "FieldType": "System.String",
+        "FieldLength": 631
       }
     }
   }

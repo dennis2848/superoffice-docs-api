@@ -78,18 +78,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 30,
-  "Name": "Mraz-Kemmer",
-  "Tooltip": "error",
-  "Rank": 72,
-  "Key": "ullam",
+  "LegalBaseId": 539,
+  "Name": "Goldner, Gutmann and Hills",
+  "Tooltip": "sapiente",
+  "Rank": 505,
+  "Key": "fuga",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 385
+      "FieldType": "System.Int32",
+      "FieldLength": 643
     }
   }
 }

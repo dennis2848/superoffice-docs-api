@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/GetWebPanelList
 Return a list of all web panels.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -87,7 +89,7 @@ OK
 POST /api/v1/Agents/List/GetWebPanelList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -98,26 +100,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebPanelId": 697,
-    "Name": "O'Keefe, Wyman and Kshlerin",
-    "Tooltip": "voluptas",
-    "Deleted": true,
-    "Rank": 407,
+    "WebPanelId": 709,
+    "Name": "Johnson, Jenkins and Rogahn",
+    "Tooltip": "est",
+    "Deleted": false,
+    "Rank": 293,
     "UrlEncoding": "ANSI",
     "VisibleIn": "ActivityDialog",
-    "OnCentral": false,
+    "OnCentral": true,
     "OnSatellite": false,
-    "OnTravel": true,
+    "OnTravel": false,
     "OnSalesMarketingWeb": false,
-    "OnSalesMarketingPocket": true,
-    "ShowInMenuBar": false,
+    "OnSalesMarketingPocket": false,
+    "ShowInMenuBar": true,
     "ShowInToolBar": false,
-    "ShowInAddressBar": false,
+    "ShowInAddressBar": true,
     "ShowInStatusBar": false,
-    "WindowName": "Stiedemann, Kiehn and Boehm",
+    "WindowName": "Heathcote-Kihn",
     "Url": "http://www.example.com/",
-    "ProgId": "est",
-    "Icon": 479,
+    "ProgId": "aut",
+    "Icon": 15,
     "AlwaysReloadOnShow": true,
     "NeverReloadOnCurrentChange": true,
     "TableRight": null,
@@ -125,7 +127,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 793
+        "FieldLength": 974
       }
     }
   }

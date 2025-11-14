@@ -71,18 +71,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 689,
-  "Name": "Jaskolski, Morissette and Denesik",
-  "Tooltip": "aperiam",
-  "Deleted": true,
-  "UdListDefinitionId": 822,
-  "Rank": 472,
+  "Id": 418,
+  "Name": "Stamm, Abernathy and Lang",
+  "Tooltip": "esse",
+  "Deleted": false,
+  "UdListDefinitionId": 686,
+  "Rank": 524,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 915
+      "FieldType": "System.Int32",
+      "FieldLength": 694
     }
   }
 }

@@ -61,7 +61,7 @@ OK
 GET /api/v1/List/Reason/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -71,18 +71,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 844,
-  "Name": "Becker, Schmeler and Okuneva",
-  "Tooltip": "voluptas",
+  "Id": 923,
+  "Name": "Abshire Inc and Sons",
+  "Tooltip": "dolorem",
   "Deleted": false,
-  "UdListDefinitionId": 579,
-  "Rank": 966,
+  "UdListDefinitionId": 928,
+  "Rank": 177,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 938
+      "FieldLength": 850
     }
   }
 }

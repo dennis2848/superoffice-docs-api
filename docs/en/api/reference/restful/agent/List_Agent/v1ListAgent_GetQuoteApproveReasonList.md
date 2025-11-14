@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/GetQuoteApproveReasonList
 Gets an array of QuoteApproveReason objects.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -84,28 +86,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 958,
-    "Value": "eum",
-    "Tooltip": "odio",
+    "Id": 333,
+    "Value": "autem",
+    "Tooltip": "officia",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 309
+        "FieldLength": 240
       }
     }
   },
   {
-    "Id": 958,
-    "Value": "eum",
-    "Tooltip": "odio",
+    "Id": 333,
+    "Value": "autem",
+    "Tooltip": "officia",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 309
+        "FieldLength": 240
       }
     }
   }

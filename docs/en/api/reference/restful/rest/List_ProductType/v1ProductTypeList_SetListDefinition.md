@@ -85,19 +85,19 @@ OK
 PUT /api/v1/List/ProductType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 94,
-  "Name": "Swaniawski, Pfeffer and Berge",
-  "Tooltip": "voluptas",
+  "Id": 53,
+  "Name": "Gaylord LLC",
+  "Tooltip": "consequatur",
   "Deleted": false,
-  "Rank": 98,
-  "IsCustomList": true,
+  "Rank": 216,
+  "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "magnam",
+  "UseGroupsAndHeadings": true,
+  "ListType": "possimus",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -109,22 +109,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 376,
-  "Name": "Schmeler LLC",
-  "Tooltip": "numquam",
+  "Id": 142,
+  "Name": "Jones Inc and Sons",
+  "Tooltip": "eum",
   "Deleted": false,
-  "Rank": 937,
+  "Rank": 111,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "harum",
+  "ListType": "consequuntur",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 532
+      "FieldLength": 305
     }
   }
 }

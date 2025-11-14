@@ -14,6 +14,9 @@ POST /api/v1/Agents/User/RemoveUntrustedCredentialsForAssociate
 Remove a credentials entry for a specified user.
 
 
+NsApiSlow threshold: 2000 ms.
+
+
 ## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
 
 
@@ -73,9 +76,9 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 855,
-  "Type": "alias",
-  "PublicValue": "doloribus"
+  "AssociateId": 752,
+  "Type": "ratione",
+  "PublicValue": "quia"
 }
 ```
 

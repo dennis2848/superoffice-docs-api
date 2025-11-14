@@ -15,6 +15,7 @@ Get criteria information from a set of saved criteria, for a specific set of col
 
 
 The result contains the restrictions in two forms: fully populated ArchiveRestrictionInfo objects, used to display details and for saving changes; and as a list suitable for an Archive control. ALL columns specified in the call will be present in the results; those that do not have corresponding criteria set will have empty values and the default (first) operator, with the IsActive flag set to false.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -83,20 +84,20 @@ OK
 POST /api/v1/Agents/Find/GetSpecifiedCriteriaInformationWithDefaults
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "dicta",
-  "ProviderName": "Abernathy, Stehr and Mayer",
-  "StorageKey": "quos",
+  "StorageType": "repudiandae",
+  "ProviderName": "Kulas-Carroll",
+  "StorageKey": "non",
   "DesiredColumnNames": [
-    "Homenick, Kautzer and Beier",
-    "Simonis-Mann"
+    "Beahan Group",
+    "Murphy Inc and Sons"
   ],
   "StaticColumns": [
-    "in",
-    "qui"
+    "at",
+    "et"
   ]
 }
 ```
@@ -110,15 +111,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Veum-Hackett",
-      "Operator": "fugiat",
+      "Name": "Franecki LLC",
+      "Operator": "qui",
       "Values": [
-        "ducimus",
-        "non"
+        "fugit",
+        "esse"
       ],
       "DisplayValues": [
-        "et",
-        "accusamus"
+        "aperiam",
+        "et"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -126,65 +127,65 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 38,
+      "InterParenthesis": 2,
       "InterOperator": "And",
-      "UniqueHash": 860
+      "UniqueHash": 82
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Erdman-Kertzmann",
-      "DisplayTooltip": "amet",
-      "DisplayType": "quia",
-      "CanOrderBy": true,
-      "Name": "Morissette-Bins",
-      "CanRestrictBy": true,
-      "RestrictionType": "deleniti",
-      "RestrictionListName": "Heaney Group",
-      "IsVisible": false,
-      "ExtraInfo": "aut",
-      "Width": "maxime",
-      "IconHint": "et",
-      "HeadingIconHint": "numquam"
+      "DisplayName": "Hamill, Schinner and Schmeler",
+      "DisplayTooltip": "temporibus",
+      "DisplayType": "voluptatem",
+      "CanOrderBy": false,
+      "Name": "Nikolaus, Braun and Goldner",
+      "CanRestrictBy": false,
+      "RestrictionType": "fugiat",
+      "RestrictionListName": "Leannon, Bosco and Sipes",
+      "IsVisible": true,
+      "ExtraInfo": "ea",
+      "Width": "qui",
+      "IconHint": "nobis",
+      "HeadingIconHint": "placeat"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Roob Inc and Sons",
-      "PrimaryKey": 727,
+      "EntityName": "Koch Group",
+      "PrimaryKey": 296,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "molestiae",
-          "TooltipHint": "excepturi",
-          "LinkHint": "iure"
+          "DisplayValue": "aliquam",
+          "TooltipHint": "ut",
+          "LinkHint": "occaecati"
         }
       },
-      "LinkHint": "et",
-      "StyleHint": "quaerat",
+      "LinkHint": "accusantium",
+      "StyleHint": "aliquid",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 796
+          "FieldLength": 60
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Rath Group",
-      "Description": "Secured dynamic firmware",
-      "Rank": 2,
+      "Name": "Botsford, Rempel and Schinner",
+      "Description": "Sharable 4th generation workforce",
+      "Rank": 925,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Rath Group",
-      "Description": "Secured dynamic firmware",
-      "Rank": 2,
+      "Name": "Botsford, Rempel and Schinner",
+      "Description": "Sharable 4th generation workforce",
+      "Rank": 925,
       "Restrictions": [
         {},
         {}
@@ -195,8 +196,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 731
+      "FieldType": "System.Int32",
+      "FieldLength": 725
     }
   }
 }

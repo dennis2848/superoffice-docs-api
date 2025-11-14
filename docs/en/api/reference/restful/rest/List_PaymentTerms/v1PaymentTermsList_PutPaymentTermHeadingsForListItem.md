@@ -98,47 +98,47 @@ OK
 PUT /api/v1/List/PaymentTerm/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 770,
-    "Name": "McCullough, Feil and Lakin",
-    "ToolTip": "Eligendi minima ut exercitationem.",
-    "Deleted": false,
-    "Rank": 520,
-    "Type": "est",
-    "ColorBlock": 186,
-    "IconHint": "sequi",
-    "Selected": false,
-    "LastChanged": "2017-02-22T03:47:00.6911718+01:00",
+    "Id": 949,
+    "Name": "Marks Inc and Sons",
+    "ToolTip": "Velit excepturi.",
+    "Deleted": true,
+    "Rank": 308,
+    "Type": "autem",
+    "ColorBlock": 640,
+    "IconHint": "dolores",
+    "Selected": true,
+    "LastChanged": "2025-01-06T02:30:53.3192639+01:00",
     "ChildItems": [
       {
-        "Id": 32,
-        "Name": "Lang, Daugherty and Will",
-        "ToolTip": "Assumenda voluptates qui alias consequatur quis et.",
-        "Deleted": true,
-        "Rank": 602,
-        "Type": "et",
-        "ColorBlock": 752,
-        "IconHint": "aut",
-        "Selected": false,
-        "LastChanged": "1999-09-15T03:47:00.6911718+02:00",
+        "Id": 677,
+        "Name": "Gleason Group",
+        "ToolTip": "Natus dolorum officiis.",
+        "Deleted": false,
+        "Rank": 205,
+        "Type": "facilis",
+        "ColorBlock": 362,
+        "IconHint": "praesentium",
+        "Selected": true,
+        "LastChanged": "2016-05-06T02:30:53.3192639+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "provident",
-        "Hidden": true,
-        "FullName": "Amir Prosacco"
+        "ExtraInfo": "assumenda",
+        "StyleHint": "ad",
+        "Hidden": false,
+        "FullName": "Miss Baby Jarod Frami"
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "architecto",
-    "Hidden": true,
-    "FullName": "Ashton Simonis"
+    "ExtraInfo": "beatae",
+    "StyleHint": "quae",
+    "Hidden": false,
+    "FullName": "Prof. Aglae Luther Marvin Jr."
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 931,
-    "Name": "Price LLC",
-    "ToolTip": "Consequatur accusantium tenetur nisi voluptas minus repellendus.",
+    "Id": 41,
+    "Name": "Thompson Inc and Sons",
+    "ToolTip": "Voluptate illo quos explicabo ea.",
     "Deleted": false,
-    "Rank": 44,
-    "Type": "quis",
-    "ColorBlock": 28,
-    "IconHint": "possimus",
+    "Rank": 170,
+    "Type": "omnis",
+    "ColorBlock": 853,
+    "IconHint": "et",
     "Selected": false,
-    "LastChanged": "2013-06-28T03:47:00.6911718+02:00",
+    "LastChanged": "2018-11-26T02:30:53.3192639+01:00",
     "ChildItems": [
       {
-        "Id": 130,
-        "Name": "Howe Inc and Sons",
-        "ToolTip": "Id quia nobis.",
+        "Id": 863,
+        "Name": "Howe LLC",
+        "ToolTip": "Hic quam ducimus soluta.",
         "Deleted": true,
-        "Rank": 652,
-        "Type": "dolorem",
-        "ColorBlock": 904,
-        "IconHint": "ullam",
-        "Selected": false,
-        "LastChanged": "2022-05-30T03:47:00.6911718+02:00",
+        "Rank": 917,
+        "Type": "aut",
+        "ColorBlock": 224,
+        "IconHint": "odio",
+        "Selected": true,
+        "LastChanged": "2007-07-09T02:30:53.3192639+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "excepturi",
-        "StyleHint": "nihil",
-        "Hidden": false,
-        "FullName": "Candelario Hamill",
+        "ExtraInfo": "ullam",
+        "StyleHint": "maiores",
+        "Hidden": true,
+        "FullName": "Violette Spinka",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 133
+            "FieldLength": 358
           }
         }
       }
     ],
-    "ExtraInfo": "ullam",
-    "StyleHint": "ratione",
-    "Hidden": false,
-    "FullName": "Domingo Rolfson",
+    "ExtraInfo": "ut",
+    "StyleHint": "ut",
+    "Hidden": true,
+    "FullName": "Ivah Schultz",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 214
+        "FieldLength": 257
       }
     }
   }

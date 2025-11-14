@@ -14,6 +14,8 @@ PUT /api/v1/DashTile/{id}
 Updates the existing DashTile
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -90,15 +92,15 @@ DashTile updated.
 PUT /api/v1/DashTile/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 430,
-  "DashboardId": 802,
-  "Height": 343,
-  "Width": 48,
-  "Rank": 245,
+  "DashboardTileId": 771,
+  "DashboardId": 595,
+  "Height": 416,
+  "Width": 935,
+  "Rank": 750,
   "DashTileDefinition": null
 }
 ```
@@ -110,23 +112,23 @@ HTTP/1.1 200 DashTile updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 912,
-  "DashboardId": 587,
-  "Height": 428,
-  "Width": 708,
-  "Rank": 535,
+  "DashboardTileId": 23,
+  "DashboardId": 160,
+  "Height": 573,
+  "Width": 292,
+  "Rank": 58,
   "DashTileDefinition": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 832
+      "FieldType": "System.String",
+      "FieldLength": 265
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

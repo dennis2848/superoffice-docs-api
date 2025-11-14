@@ -14,6 +14,8 @@ POST /api/v1/Agents/Project/UpdateProjectMember
 Updates a ProjectMember row.
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -85,6 +87,8 @@ OK
 | EmailAddressName | string | The e-mail address description |
 | Comment | string | Comment text on the project membership |
 | FullName | string | The person's full name localized to the current culture/country.  (internal name used in clients for employees) |
+| Registered | date-time | The date and time when the project member was registered  in UTC. |
+| Updated | date-time | The date and time when the project member was last updated  in UTC. |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -94,7 +98,7 @@ OK
 POST /api/v1/Agents/Project/UpdateProjectMember
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -109,33 +113,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectmemberId": 840,
-  "ContactId": 505,
-  "ProjectId": 25,
-  "ContactName": "Anderson LLC",
-  "ContactDepartment": "",
-  "ProjectName": "Pouros-Abshire",
-  "EmailId": 489,
-  "EmailAddress": "luella.monahan@wintheiserrunolfsdottir.us",
-  "CountryId": 271,
-  "Firstname": "Danika",
-  "MiddleName": "Corwin, Littel and Bogan",
-  "Lastname": "Strosin",
-  "PersonId": 138,
-  "Mrmrs": "perferendis",
-  "ProjectMemberTypeName": "Fritsch Inc and Sons",
-  "Phone": "(295)378-2529 x00653",
-  "PhoneId": 338,
-  "ProjectMemberTypeId": 719,
-  "EmailAddressName": "nia@medhurstlakin.ca",
-  "Comment": "quaerat",
-  "FullName": "Gaylord Elouise Jenkins I",
+  "ProjectmemberId": 430,
+  "ContactId": 253,
+  "ProjectId": 954,
+  "ContactName": "Collier LLC",
+  "ContactDepartment": "aggregate one-to-one synergies",
+  "ProjectName": "Strosin Group",
+  "EmailId": 82,
+  "EmailAddress": "dashawn.hayes@kreiger.uk",
+  "CountryId": 128,
+  "Firstname": "Nelle",
+  "MiddleName": "Klocko-Kulas",
+  "Lastname": "Powlowski",
+  "PersonId": 2,
+  "Mrmrs": "earum",
+  "ProjectMemberTypeName": "Armstrong Inc and Sons",
+  "Phone": "(761)156-3589",
+  "PhoneId": 489,
+  "ProjectMemberTypeId": 469,
+  "EmailAddressName": "verda_hodkiewicz@kuhicschmidt.name",
+  "Comment": "corrupti",
+  "FullName": "Alexa Spinka",
+  "Registered": "2022-03-26T02:30:47.6944454+01:00",
+  "Updated": "2011-02-22T02:30:47.6944454+01:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 3
+      "FieldLength": 331
     }
   }
 }

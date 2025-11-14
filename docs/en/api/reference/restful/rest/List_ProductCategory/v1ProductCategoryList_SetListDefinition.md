@@ -89,15 +89,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 401,
-  "Name": "Fritsch-Zemlak",
-  "Tooltip": "nisi",
+  "Id": 279,
+  "Name": "Hodkiewicz LLC",
+  "Tooltip": "repellendus",
   "Deleted": false,
-  "Rank": 225,
+  "Rank": 129,
   "IsCustomList": false,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "est",
+  "UseGroupsAndHeadings": true,
+  "ListType": "sit",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -109,22 +109,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 988,
-  "Name": "Frami, Bogisich and Feil",
-  "Tooltip": "totam",
-  "Deleted": false,
-  "Rank": 476,
+  "Id": 137,
+  "Name": "Carter Group",
+  "Tooltip": "numquam",
+  "Deleted": true,
+  "Rank": 192,
   "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "in",
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "repudiandae",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 890
+      "FieldType": "System.Int32",
+      "FieldLength": 81
     }
   }
 }

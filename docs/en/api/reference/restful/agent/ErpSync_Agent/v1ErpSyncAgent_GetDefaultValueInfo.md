@@ -14,6 +14,9 @@ POST /api/v1/Agents/ErpSync/GetDefaultValueInfo
 Get information about default value for an ERP field
 
 
+NsApiSlow threshold: 5000 ms.
+
+
 ## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
 
 
@@ -85,11 +88,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetDefaultValueInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpFieldId": 935
+  "ErpFieldId": 795
 }
 ```
 
@@ -100,22 +103,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpFieldId": 950,
-  "DefaultValue": "expedita",
+  "ErpFieldId": 277,
+  "DefaultValue": "reiciendis",
   "HasFirstSyncDefaultValue": true,
-  "FirstSyncDefaultValue": "voluptas",
-  "PromptUser": true,
-  "Mandatory": false,
-  "ErpFieldKey": "dolorem",
+  "FirstSyncDefaultValue": "quia",
+  "PromptUser": false,
+  "Mandatory": true,
+  "ErpFieldKey": "dolor",
   "FieldType": "Checkbox",
-  "ListName": "Murphy, Ullrich and McGlynn",
+  "ListName": "Sipes-Aufderhar",
   "Access": "Mandatory",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 455
+      "FieldLength": 687
     }
   }
 }

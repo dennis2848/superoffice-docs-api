@@ -14,6 +14,8 @@ POST /api/v1/Agents/Import/CreateDefaultImportLine
 Create a new empty import row with x count of values
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -82,7 +84,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountColumns": 194
+  "CountColumns": 682
 }
 ```
 
@@ -94,19 +96,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Values": [
-    "nostrum",
-    "autem"
+    "magni",
+    "eligendi"
   ],
   "Selected": false,
   "Operation": "ContactAdded",
   "Type": "Contact",
-  "ExternalKey": "officia",
+  "ExternalKey": "aliquid",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 667
+      "FieldLength": 755
     }
   }
 }

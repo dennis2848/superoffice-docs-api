@@ -14,6 +14,8 @@ POST /api/v1/Agents/Dash/DuplicateTile
 Duplicate for the tile and all the sub elements
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -80,12 +82,12 @@ OK
 POST /api/v1/Agents/Dash/DuplicateTile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashTileId": 424,
-  "Name": "Wisoky, Green and Jones"
+  "DashTileId": 243,
+  "Name": "Senger LLC"
 }
 ```
 
@@ -96,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 111,
-  "DashboardId": 141,
-  "Height": 416,
-  "Width": 14,
-  "Rank": 589,
+  "DashboardTileId": 609,
+  "DashboardId": 985,
+  "Height": 769,
+  "Width": 28,
+  "Rank": 847,
   "DashTileDefinition": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 447
+      "FieldLength": 368
     }
   }
 }

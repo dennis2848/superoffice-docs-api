@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/SaveListItemEntity
 Save the ListItemEntity.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -94,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 469,
-  "Name": "Pfannerstill-Dare",
-  "Tooltip": "eligendi",
-  "Deleted": false,
-  "UdListDefinitionId": 300,
-  "Rank": 395,
+  "Id": 706,
+  "Name": "VonRueden-Herzog",
+  "Tooltip": "dolore",
+  "Deleted": true,
+  "UdListDefinitionId": 91,
+  "Rank": 475,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 763
+      "FieldLength": 253
     }
   }
 }

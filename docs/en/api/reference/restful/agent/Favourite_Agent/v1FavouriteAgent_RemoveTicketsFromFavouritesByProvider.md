@@ -14,6 +14,8 @@ POST /api/v1/Agents/Favourite/RemoveTicketsFromFavouritesByProvider
 Remove a list of tickets from favourites that are given by the ticket provider.
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -67,22 +69,22 @@ No Content
 POST /api/v1/Agents/Favourite/RemoveTicketsFromFavouritesByProvider
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Raynor, Gottlieb and Ryan",
+  "ProviderName": "Bauch-Rogahn",
   "Restrictions": [
     {
-      "Name": "Crooks LLC",
-      "Operator": "aspernatur",
+      "Name": "Senger Group",
+      "Operator": "enim",
       "Values": [
-        "delectus",
-        "et"
+        "impedit",
+        "in"
       ],
       "DisplayValues": [
-        "ipsum",
-        "recusandae"
+        "quisquam",
+        "explicabo"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -90,12 +92,12 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 977,
+      "InterParenthesis": 978,
       "InterOperator": "And",
-      "UniqueHash": 112
+      "UniqueHash": 987
     }
   ],
-  "AssociateId": 272
+  "AssociateId": 17
 }
 ```
 

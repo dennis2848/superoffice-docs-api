@@ -15,6 +15,7 @@ This method will try to verify a Google recaptcha token.
 
 
 The token is gained from the recaptcha frontend component
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -72,12 +73,12 @@ OK
 POST /api/v1/Agents/Marketing/VerifyGoogleRecaptcha
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Token": "rerum",
-  "OptionalSecretKey": "iure"
+  "Token": "voluptate",
+  "OptionalSecretKey": "sed"
 }
 ```
 

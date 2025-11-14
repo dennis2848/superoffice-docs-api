@@ -3,31 +3,33 @@ uid: help-nl-selection-board-view
 title: Boardweergave gebruiken in selecties
 description: Visualiseer selecties met de boardweergave met groepering, filters en drag-and-drop-kaarten
 keywords: boardweergave, board-weergave, selectieoverzicht, selectie, verkoopboard, projectboard, verzoekboard, kanban, groeperen op, filterwerkbalk
-author: Bergfrid Dias
-date: 08.25.2025
-version: 11.3
+author: digitaldiina
+date: 11.04.2025
+version: 11.6
 content_type: howto
 license: salespremium, servicepremium, marketingessentials
 audience: person
 audience_tooltip: SuperOffice CRM
 language: nl
-index: true
 ---
 
 # Boardweergave gebruiken in selecties <i class="ph ph-kanban" aria-hidden="true"></i>
 
 De boardweergave toont je [selectie][2] in een kolomindeling met kaarten. Je kunt de selectieleden (records op het board) groeperen en filteren en kaarten verplaatsen tussen groepen via drag-and-drop.
 
-De functionaliteit is identiek voor alle ondersteunde entiteiten: je kunt kaarten slepen, taakmenu's openen en boardinstellingen aanpassen. De beschikbare velden voor groepering en filtering verschillen afhankelijk van of je werkt met verkopen, projecten of verzoeken.
+De functionaliteit is identiek voor alle ondersteunde entiteiten: je kunt kaarten slepen, taakmenu's openen en boardinstellingen aanpassen. De beschikbare velden voor groepering en filtering verschillen afhankelijk van of je werkt met bedrijven, personen, verkopen, projecten of verzoeken.
 
 ![Boardweergave van verkopen gegroepeerd op fase -screenshot][img2]
 
 ## Boardweergave openen
 
 1. Ga naar een selectie.
+
 1. Klik rechtsboven op het pictogram voor **boardweergave** (<i class="ph ph-kanban" aria-label="Kanban board"></i>).
 
     ![Pictogram voor boardweergave rechtsboven in een selectie][img1]
+
+1. Als uw selectie bedrijven en personen bevat, toont de bordweergave slechts één entiteitstype tegelijk. Om te wisselen klikt u op <i class="ph ph-gear-six" aria-label="Settings"></i> en gebruikt u vervolgens de vervolgkeuzelijst **Entiteit weergeven** om *Bedrijf* of *Persoon* te kiezen.
 
 ## Werken met kaarten
 
@@ -40,15 +42,21 @@ De functionaliteit is identiek voor alle ondersteunde entiteiten: je kunt kaarte
 * Versleep kaarten tussen kolommen om het groeperingsveld bij te werken (zoals fase of eigenaar).
   * Als subgroepen zijn ingeschakeld, kun je kaarten ook tussen rijen binnen elke kolom slepen.
 
+* Klik op een kaart om de details in het [zijpaneel][11] te bekijken. (Schakel de voorbeeldweergave in door deze te selecteren in het vervolgkeuzemenu bovenaan het zijpaneel).
+
+    ![Zijpaneel met projectdetails -screenshot][img12]
+
 * Om een kaart te bewerken, wijs deze aan en klik op **Bewerken** (<i class="ph ph-pencil" aria-hidden="true"></i>). Dezelfde bewerkdialoog wordt gebruikt als elders in SuperOffice CRM – zonder de boardweergave te verlaten.
 
   ![Cursor wijst naar de knop Bewerken op een verkoopkaart -screenshot][img4]
 
 * Voor meer opties: wijs naar de kaart om het **Taak**-menu te tonen <i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i>, klik erop en kies een actie.
 
-  * **Verkopen:** Bewerken, Vervolgactiviteit aanmaken, Markeren als gewonnen/verloren, Verwijderen
-  * **Projecten:** Bewerken, Vervolgactiviteit aanmaken, Document aanmaken, Markeren als voltooid, Verwijderen
+  * **Verkopen:** Bewerken, Vervolgactiviteit maken, Markeren als gewonnen/verloren, Verwijderen
+  * **Projecten:** Bewerken, Vervolgactiviteit maken, Document aanmaken, Markeren als voltooid, Verwijderen
   * **Verzoeken:** Bewerken, Verzoek sluiten, Verwijderen
+  * **Bedrijf:** Bewerken, Vervolgactiviteit maken, Verkoop maken, Naar de volgende categorie, Verwijderen
+  * **Persoon:** Bewerken, Vervolgactiviteit maken, Verkoop maken, Verwijderen
 
   ![Geopend taakmenu op een verkoop in boardweergave met beschikbare acties -screenshot][img5]
 
@@ -82,6 +90,8 @@ Voorbeelden van groeperingsvelden:
 * **Verkopen:** Fase, Verkooptype, Eigenaar
 * **Projecten:** Status, Verantwoordelijke, Type
 * **Verzoeken:** Status, Verzoektype, Prioriteit, Eigenaar
+* **Bedrijf:** Categorie, Onze kontaktpersoon
+* **Persoon:** Categorie, Onze kontaktpersoon, Leadstatus
 
 ### Kaarten sorteren in kolommen
 
@@ -114,6 +124,8 @@ Voorbeelden van filters:
 * **Verkoop:** Verkooptype, Eigenaar, Fase, Volgende activiteit, Verkoopdatum
 * **Projecten:** Type, Verantwoordelijke, Status, Volgende mijlpaal, Einddatum
 * **Verzoeken:** Verzoekcategorie, Eigenaar, Status, Gemaakt, Deadline, Prioriteit
+* **Bedrijf:** Onze kontaktpersoon, Geregistreede datum, Volgende activiteit, Categorie, Land
+* **Persoon:** Onze kontaktpersoon, Eigenaar groep, Geregistreede datum, Volgende activiteit, Leadstatus, Categorie, Land
 
 ### Samenvatten (alleen verkopen)
 
@@ -211,6 +223,7 @@ Gebruik groepering creatief om efficiënt met gegevens te werken.
 <!-- Verwijzingen -->
 [1]: create.md
 [2]: index.md
+[11]: ../../../learn/getting-started/main-screen/side-panel.md
 [12]: ../../../sale/learn/create.md
 [13]: ../../../sale/admin/sale-stage.md
 [14]: ../../../request/learn/create.md
@@ -232,3 +245,4 @@ Gebruik groepering creatief om efficiënt met gegevens te werken.
 [img9]: ../../../../media/loc/en/search-options/board-view-filter-toolbar.png
 [img10]: ../../../../media/loc/en/search-options/board-view-filter-on-sale-type.png
 [img11]: ../../../../media/loc/en/search-options/board-view-summarized-sale-amount-per-column.png
+[img12]: ../../../../media/loc/en/search-options/selection-board-view-project-preview.png

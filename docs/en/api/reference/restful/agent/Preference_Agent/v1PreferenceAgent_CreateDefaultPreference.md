@@ -14,6 +14,8 @@ POST /api/v1/Agents/Preference/CreateDefaultPreference
 Loading default values into a new Preference.
 
 
+NsApiSlow threshold: 1000 ms.
+
 
 
 
@@ -77,22 +79,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "non",
+  "RawValue": "sunt",
   "Specification": null,
-  "DisplayValue": "et",
-  "DisplayTooltip": "iste",
+  "DisplayValue": "corporis",
+  "DisplayTooltip": "optio",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 415,
-  "PrefDescId": 339,
-  "TableName": "Denesik-VonRueden",
-  "UserPreferenceId": 735,
+  "TargetId": 218,
+  "PrefDescId": 158,
+  "TableName": "Davis-Reinger",
+  "UserPreferenceId": 529,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 668
+      "FieldType": "System.String",
+      "FieldLength": 291
     }
   }
 }

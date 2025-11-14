@@ -80,12 +80,12 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 71,
-  "Name": "West Inc and Sons",
-  "Tooltip": "voluptas",
+  "HeadingId": 463,
+  "Name": "Reilly-Schulist",
+  "Tooltip": "ipsum",
   "Deleted": false,
-  "Rank": 596,
-  "UdListDefinitionId": 771
+  "Rank": 891,
+  "UdListDefinitionId": 57
 }
 ```
 
@@ -96,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 893,
-  "Name": "Weber-Shields",
-  "Tooltip": "mollitia",
-  "Deleted": true,
-  "Rank": 279,
-  "UdListDefinitionId": 557,
+  "HeadingId": 29,
+  "Name": "Mayert LLC",
+  "Tooltip": "asperiores",
+  "Deleted": false,
+  "Rank": 995,
+  "UdListDefinitionId": 813,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 677
+      "FieldType": "System.String",
+      "FieldLength": 789
     }
   }
 }

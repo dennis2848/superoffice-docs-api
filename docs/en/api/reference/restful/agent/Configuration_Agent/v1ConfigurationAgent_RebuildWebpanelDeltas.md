@@ -15,6 +15,7 @@ Flush and rebuild webpanel deltas.
 
 
 Mostly used after adding/editing webpanels or change group visibility of them
+NsApiSlow threshold: 5000 ms.
 
 
 

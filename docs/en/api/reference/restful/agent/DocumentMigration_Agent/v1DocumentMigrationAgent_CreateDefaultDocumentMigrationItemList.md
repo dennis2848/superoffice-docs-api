@@ -14,6 +14,9 @@ POST /api/v1/Agents/DocumentMigration/CreateDefaultDocumentMigrationItemList
 Loading default values into a new DocumentMigrationItemList.
 
 
+NsApiSlow threshold: 5000 ms.
+
+
 ## Online Restricted: ## The DocumentMigration agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for SuperOffice-internal apps.
 
 
@@ -69,29 +72,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumDocumentsOmitted": 125,
-  "NumDocumentsAlreadyMigrated": 717,
+  "NumDocumentsOmitted": 983,
+  "NumDocumentsAlreadyMigrated": 661,
   "Documents": [
     {
-      "DocumentId": 552,
-      "ContactId": 99,
-      "PersonId": 947,
-      "SaleId": 776,
-      "ProjectId": 959,
-      "DocTmplId": 750,
-      "AssociateId": 926,
-      "UserGroupId": 691,
-      "VisibleForId": 424
+      "DocumentId": 764,
+      "ContactId": 796,
+      "PersonId": 816,
+      "SaleId": 791,
+      "ProjectId": 301,
+      "DocTmplId": 869,
+      "AssociateId": 16,
+      "UserGroupId": 448,
+      "VisibleForId": 729
     }
   ],
   "Associates": [
     {
-      "AssociateId": 348,
-      "EmailAddress": "bailee.davis@mullerschaefer.uk"
+      "AssociateId": 735,
+      "EmailAddress": "eldora_gleichner@littleullrich.co.uk"
     },
     {
-      "AssociateId": 348,
-      "EmailAddress": "bailee.davis@mullerschaefer.uk"
+      "AssociateId": 735,
+      "EmailAddress": "eldora_gleichner@littleullrich.co.uk"
     }
   ]
 }

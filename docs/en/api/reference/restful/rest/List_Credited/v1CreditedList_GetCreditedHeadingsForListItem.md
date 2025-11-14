@@ -32,7 +32,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Credited/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/Credited/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -86,7 +86,7 @@ OK
 GET /api/v1/List/Credited/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -97,56 +97,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 428,
-    "Name": "White Group",
-    "ToolTip": "Ullam voluptates.",
+    "Id": 451,
+    "Name": "Altenwerth-Olson",
+    "ToolTip": "Incidunt non non commodi porro porro laborum.",
     "Deleted": false,
-    "Rank": 360,
-    "Type": "odit",
-    "ColorBlock": 128,
-    "IconHint": "repellendus",
+    "Rank": 1000,
+    "Type": "voluptas",
+    "ColorBlock": 970,
+    "IconHint": "rerum",
     "Selected": false,
-    "LastChanged": "2009-02-18T03:47:00.628674+01:00",
+    "LastChanged": "1999-03-29T02:30:53.2567659+02:00",
     "ChildItems": [
       {
-        "Id": 857,
-        "Name": "Wunsch-McClure",
-        "ToolTip": "Quam explicabo.",
+        "Id": 666,
+        "Name": "Little-Gusikowski",
+        "ToolTip": "Ad delectus iusto voluptatem perferendis aut in cupiditate.",
         "Deleted": false,
-        "Rank": 736,
-        "Type": "voluptatem",
-        "ColorBlock": 427,
-        "IconHint": "placeat",
-        "Selected": false,
-        "LastChanged": "2021-08-12T03:47:00.628674+02:00",
+        "Rank": 23,
+        "Type": "sequi",
+        "ColorBlock": 576,
+        "IconHint": "laudantium",
+        "Selected": true,
+        "LastChanged": "2003-04-07T02:30:53.2567659+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "adipisci",
-        "StyleHint": "mollitia",
+        "ExtraInfo": "pariatur",
+        "StyleHint": "est",
         "Hidden": false,
-        "FullName": "Kellen Frami",
+        "FullName": "Jadyn Weimann",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 439
+            "FieldLength": 807
           }
         }
       }
     ],
-    "ExtraInfo": "tempora",
-    "StyleHint": "magnam",
+    "ExtraInfo": "dolorem",
+    "StyleHint": "molestiae",
     "Hidden": false,
-    "FullName": "Mrs. Carmen Margarete Brown IV",
+    "FullName": "Richmond Padberg",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 229
+        "FieldType": "System.Int32",
+        "FieldLength": 514
       }
     }
   }

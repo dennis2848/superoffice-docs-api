@@ -14,6 +14,8 @@ POST /api/v1/Agents/Configuration/GetCSAuthUrl
 Will generate an url to the emarketing module
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -76,10 +78,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Language": "hic",
-  "ProgramName": "Toy-Becker",
-  "Action": "odit",
-  "ExtraParameters": "dignissimos"
+  "Language": "eaque",
+  "ProgramName": "Kuphal-Barrows",
+  "Action": "voluptatum",
+  "ExtraParameters": "quia"
 }
 ```
 

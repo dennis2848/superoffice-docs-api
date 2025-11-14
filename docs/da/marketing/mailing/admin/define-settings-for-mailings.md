@@ -1,17 +1,20 @@
----
+﻿---
 uid: help-da-mailing-settings
 title: Angive indstillinger for udsendelser
 description: Angive indstillinger for udsendelser
 keywords: Marketing, indstillinger
-author: SuperOffice RnD
-date: 02.12.2024
-version: 10
+author: SuperOffice Product and Engineering
+date: 09.26.2025
+version: 10.5
 content_type: howto
-language: da
-deployment: onsite
+category: marketing
+topic: mailing
+license: marketingessentials
 audience: person
 audience_tooltip: SuperOffice Marketing
 redirect_from: /da/marketing/mailing/learn/admin/define-settings-for-mailings
+language: da
+deployment: onsite
 ---
 
 # Angive indstillinger for udsendelser
@@ -54,6 +57,6 @@ Hvis du vil teste indstillingerne, skal du angive et mobiltelefonnummer og noget
 For information om yderligere moduler, se [SMS.][1]
 
 <!-- Referenced links -->
-[1]: ../../../admin/preferences/learn/global-preferences/sms.md
+[1]: ../../../../en/marketing/sms/it/set-up.md
 
 <!-- Referenced images -->

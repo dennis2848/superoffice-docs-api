@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/GetLanguageInfoList
 Gets an array of LanguageInfo objects.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -77,7 +79,7 @@ OK
 POST /api/v1/Agents/List/GetLanguageInfoList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -88,19 +90,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageInfoId": 918,
-    "LCID": 168,
-    "EnglishName": "Jacobi, Hamill and Marks",
-    "NativeName": "Kilback-Oberbrunner",
-    "ThreeLetterISOLanguageName": "Herzog, Tremblay and Skiles",
-    "TwoLetterISOLanguageName": "Jerde-Hettinger",
-    "IsBuiltIn": false,
+    "LanguageInfoId": 31,
+    "LCID": 454,
+    "EnglishName": "Hoeger Inc and Sons",
+    "NativeName": "Rodriguez, Rosenbaum and Turcotte",
+    "ThreeLetterISOLanguageName": "Stehr-Graham",
+    "TwoLetterISOLanguageName": "Mayer, Lindgren and Pacocha",
+    "IsBuiltIn": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 207
+        "FieldLength": 405
       }
     }
   }

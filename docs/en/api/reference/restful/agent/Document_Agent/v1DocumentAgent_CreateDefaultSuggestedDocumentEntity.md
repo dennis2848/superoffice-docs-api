@@ -14,6 +14,8 @@ POST /api/v1/Agents/Document/CreateDefaultSuggestedDocumentEntity
 Loading default values into a new SuggestedDocumentEntity.
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -66,7 +68,7 @@ OK
 POST /api/v1/Agents/Document/CreateDefaultSuggestedDocumentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -76,14 +78,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedDocumentId": 640,
-  "Name": "Corkery, Adams and Osinski",
-  "Tooltip": "et",
-  "Rank": 858,
-  "DoctmplId": 436,
-  "Header": "neque",
-  "OurRef": "tenetur",
-  "Deleted": false,
+  "SuggestedDocumentId": 857,
+  "Name": "Balistreri, Nienow and Bartell",
+  "Tooltip": "soluta",
+  "Rank": 834,
+  "DoctmplId": 313,
+  "Header": "deleniti",
+  "OurRef": "cum",
+  "Deleted": true,
   "DocTmpl": null,
   "ProjectTypeStatusLink": null,
   "SaleTypeStageLink": null,
@@ -91,8 +93,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 869
+      "FieldType": "System.Int32",
+      "FieldLength": 36
     }
   }
 }

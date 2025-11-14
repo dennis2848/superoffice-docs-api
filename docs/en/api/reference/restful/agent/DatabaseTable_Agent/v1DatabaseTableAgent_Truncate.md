@@ -15,6 +15,7 @@ Drop all rows in a table.
 
 
 This clearance is not individually logged in TravelTransactionlog or Webhook/script calls
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -85,7 +86,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Gutkowski, Crooks and Haley"
+  "TableName": "Bernier-Kulas"
 }
 ```
 
@@ -97,40 +98,40 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Success": true,
-  "Message": "adipisci",
-  "Inserts": 239,
-  "Updates": 499,
-  "Deletes": 567,
+  "Message": "qui",
+  "Inserts": 543,
+  "Updates": 639,
+  "Deletes": 939,
   "RowStatus": [
     {
-      "PrimaryKey": 350,
+      "PrimaryKey": 889,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "doloremque",
-        "velit"
+        "officiis",
+        "quia"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 418
+          "FieldLength": 657
         }
       }
     },
     {
-      "PrimaryKey": 350,
+      "PrimaryKey": 889,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "doloremque",
-        "velit"
+        "officiis",
+        "quia"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 418
+          "FieldLength": 657
         }
       }
     }
@@ -140,7 +141,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 737
+      "FieldLength": 857
     }
   }
 }

@@ -14,6 +14,8 @@ POST /api/v1/Agents/ViewState/DeleteHistory
 Deletes the history element
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -66,12 +68,12 @@ No Content
 POST /api/v1/Agents/ViewState/DeleteHistory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HistoryName": "Lowe LLC",
-  "Id": 744
+  "HistoryName": "Ritchie Inc and Sons",
+  "Id": 946
 }
 ```
 

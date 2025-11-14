@@ -11,7 +11,7 @@ content_type: reference
 POST /api/v1/Agents/Sale/HasGuideActivities
 ```
 
-
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -69,11 +69,11 @@ OK
 POST /api/v1/Agents/Sale/HasGuideActivities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 100
+  "SaleId": 269
 }
 ```
 

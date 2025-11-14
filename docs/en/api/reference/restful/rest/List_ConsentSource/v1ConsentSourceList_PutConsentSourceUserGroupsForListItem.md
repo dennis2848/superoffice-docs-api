@@ -98,47 +98,47 @@ OK
 PUT /api/v1/List/ConsentSource/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 448,
-    "Name": "Schaefer-Ondricka",
-    "ToolTip": "Alias similique velit.",
+    "Id": 887,
+    "Name": "Adams-O'Conner",
+    "ToolTip": "Facere id numquam vero.",
     "Deleted": false,
-    "Rank": 311,
-    "Type": "eius",
-    "ColorBlock": 676,
-    "IconHint": "ullam",
-    "Selected": true,
-    "LastChanged": "1998-06-16T03:47:00.6130405+02:00",
+    "Rank": 263,
+    "Type": "sed",
+    "ColorBlock": 133,
+    "IconHint": "placeat",
+    "Selected": false,
+    "LastChanged": "2019-09-21T02:30:53.2411414+02:00",
     "ChildItems": [
       {
-        "Id": 968,
-        "Name": "Schoen LLC",
-        "ToolTip": "Saepe consequatur vel qui.",
+        "Id": 139,
+        "Name": "Bogan, Bode and Schowalter",
+        "ToolTip": "Nesciunt optio iusto et commodi.",
         "Deleted": false,
-        "Rank": 635,
-        "Type": "aut",
-        "ColorBlock": 126,
-        "IconHint": "ex",
+        "Rank": 908,
+        "Type": "sunt",
+        "ColorBlock": 894,
+        "IconHint": "blanditiis",
         "Selected": false,
-        "LastChanged": "2000-11-05T03:47:00.6130405+01:00",
+        "LastChanged": "2012-03-02T02:30:53.2411414+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolores",
-        "StyleHint": "quia",
-        "Hidden": false,
-        "FullName": "Ana Wehner"
+        "ExtraInfo": "eius",
+        "StyleHint": "magni",
+        "Hidden": true,
+        "FullName": "Prof. Hayden Colten Ledner V"
       }
     ],
-    "ExtraInfo": "fugit",
-    "StyleHint": "ad",
+    "ExtraInfo": "et",
+    "StyleHint": "aut",
     "Hidden": true,
-    "FullName": "Dr. Helene Bo Olson"
+    "FullName": "Mabelle Hilpert"
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 221,
-    "Name": "Donnelly LLC",
-    "ToolTip": "Aut alias suscipit corrupti doloribus porro.",
-    "Deleted": true,
-    "Rank": 588,
-    "Type": "et",
-    "ColorBlock": 251,
-    "IconHint": "autem",
-    "Selected": false,
-    "LastChanged": "2000-03-20T03:47:00.6130405+01:00",
+    "Id": 475,
+    "Name": "Murray, Toy and Adams",
+    "ToolTip": "Consequatur saepe ut doloremque ratione omnis.",
+    "Deleted": false,
+    "Rank": 536,
+    "Type": "temporibus",
+    "ColorBlock": 184,
+    "IconHint": "et",
+    "Selected": true,
+    "LastChanged": "2007-04-06T02:30:53.2411414+02:00",
     "ChildItems": [
       {
-        "Id": 344,
-        "Name": "Watsica-Cummings",
-        "ToolTip": "Praesentium quo qui aliquam voluptate.",
+        "Id": 702,
+        "Name": "Legros LLC",
+        "ToolTip": "Deleniti pariatur.",
         "Deleted": false,
-        "Rank": 904,
-        "Type": "perferendis",
-        "ColorBlock": 77,
-        "IconHint": "illum",
+        "Rank": 755,
+        "Type": "neque",
+        "ColorBlock": 943,
+        "IconHint": "quo",
         "Selected": false,
-        "LastChanged": "2014-01-25T03:47:00.6130405+01:00",
+        "LastChanged": "2016-03-29T02:30:53.2411414+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "non",
-        "StyleHint": "recusandae",
+        "ExtraInfo": "molestias",
+        "StyleHint": "velit",
         "Hidden": false,
-        "FullName": "Kathryn Brown",
+        "FullName": "Freda Terry",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 971
+            "FieldLength": 948
           }
         }
       }
     ],
-    "ExtraInfo": "tempora",
-    "StyleHint": "dolores",
+    "ExtraInfo": "neque",
+    "StyleHint": "non",
     "Hidden": false,
-    "FullName": "Marco Beer",
+    "FullName": "Liana Vita Hermann PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 443
+        "FieldType": "System.String",
+        "FieldLength": 732
       }
     }
   }

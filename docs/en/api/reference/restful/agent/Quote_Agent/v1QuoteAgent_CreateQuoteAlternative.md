@@ -14,6 +14,8 @@ POST /api/v1/Agents/Quote/CreateQuoteAlternative
 Create a new quote alternative on a version.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -98,13 +100,13 @@ OK
 POST /api/v1/Agents/Quote/CreateQuoteAlternative
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 229,
-  "QuoteAlternativeName": "Ratke Group",
-  "QuoteAlternativeDescription": "Innovative heuristic analyzer"
+  "QuoteVersionId": 482,
+  "QuoteAlternativeName": "Jaskolski Group",
+  "QuoteAlternativeDescription": "Programmable modular interface"
 }
 ```
 
@@ -115,35 +117,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 695,
-  "ERPQuoteAlternativeKey": "nisi",
-  "QuoteVersionId": 656,
-  "Name": "Gaylord-Padberg",
-  "Description": "Visionary 5th generation capacity",
+  "QuoteAlternativeId": 179,
+  "ERPQuoteAlternativeKey": "sit",
+  "QuoteVersionId": 878,
+  "Name": "Abbott-Harber",
+  "Description": "Face to face maximized capacity",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 10517.704,
-  "ERPDiscountAmount": 4741.742,
-  "DiscountPercent": 5807.302,
-  "DiscountAmount": 15829.833999999999,
+  "ERPDiscountPercent": 6716.1619999999994,
+  "ERPDiscountAmount": 22188.719999999998,
+  "DiscountPercent": 9984.9239999999991,
+  "DiscountAmount": 5099.018,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "corrupti",
-  "VAT": 26902.255999999998,
-  "EarningPercent": 3296.968,
-  "EarningAmount": 8452.398,
-  "SubTotal": 19239.626,
-  "TotalPrice": 19145.606,
-  "ExtraField1": "et",
-  "ExtraField2": "rem",
-  "ExtraField3": "tenetur",
-  "ExtraField4": "culpa",
-  "ExtraField5": "explicabo",
+  "VATInfo": "soluta",
+  "VAT": 10326.529999999999,
+  "EarningPercent": 31249.113999999998,
+  "EarningAmount": 20486.958,
+  "SubTotal": 16415.892,
+  "TotalPrice": 20499.494,
+  "ExtraField1": "est",
+  "ExtraField2": "ut",
+  "ExtraField3": "nisi",
+  "ExtraField4": "velit",
+  "ExtraField5": "omnis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 418
+      "FieldType": "System.String",
+      "FieldLength": 374
     }
   }
 }

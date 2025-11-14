@@ -74,25 +74,25 @@ OK
 PUT /api/v1/Selection/{selectionId}/CriteriaGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Marks Inc and Sons",
-    "Description": "Face to face content-based synergy",
-    "Rank": 635,
+    "Name": "Stokes, Doyle and Sawayn",
+    "Description": "Distributed motivating utilisation",
+    "Rank": 386,
     "Restrictions": [
       {
-        "Name": "Willms Group",
-        "Operator": "ea",
+        "Name": "Treutel Inc and Sons",
+        "Operator": "ut",
         "Values": [
-          "adipisci",
-          "voluptatem"
+          "ut",
+          "nemo"
         ],
         "DisplayValues": [
-          "sed",
-          "perspiciatis"
+          "numquam",
+          "quod"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -100,27 +100,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 595,
+        "InterParenthesis": 454,
         "InterOperator": "And",
-        "UniqueHash": 458
+        "UniqueHash": 349
       }
     ]
   },
   {
-    "Name": "Marks Inc and Sons",
-    "Description": "Face to face content-based synergy",
-    "Rank": 635,
+    "Name": "Stokes, Doyle and Sawayn",
+    "Description": "Distributed motivating utilisation",
+    "Rank": 386,
     "Restrictions": [
       {
-        "Name": "Willms Group",
-        "Operator": "ea",
+        "Name": "Treutel Inc and Sons",
+        "Operator": "ut",
         "Values": [
-          "adipisci",
-          "voluptatem"
+          "ut",
+          "nemo"
         ],
         "DisplayValues": [
-          "sed",
-          "perspiciatis"
+          "numquam",
+          "quod"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -128,9 +128,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 595,
+        "InterParenthesis": 454,
         "InterOperator": "And",
-        "UniqueHash": 458
+        "UniqueHash": 349
       }
     ]
   }
@@ -145,20 +145,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Rohan LLC",
-    "Description": "Open-architected radical productivity",
-    "Rank": 939,
+    "Name": "Wiegand-Larkin",
+    "Description": "De-engineered dedicated orchestration",
+    "Rank": 506,
     "Restrictions": [
       {
-        "Name": "Ziemann LLC",
-        "Operator": "porro",
+        "Name": "Predovic, Christiansen and Rohan",
+        "Operator": "voluptates",
         "Values": [
-          "cum",
-          "est"
+          "earum",
+          "non"
         ],
         "DisplayValues": [
-          "qui",
-          "saepe"
+          "ut",
+          "qui"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -166,27 +166,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 690,
+        "InterParenthesis": 792,
         "InterOperator": "And",
-        "UniqueHash": 401
+        "UniqueHash": 254
       }
     ]
   },
   {
-    "Name": "Rohan LLC",
-    "Description": "Open-architected radical productivity",
-    "Rank": 939,
+    "Name": "Wiegand-Larkin",
+    "Description": "De-engineered dedicated orchestration",
+    "Rank": 506,
     "Restrictions": [
       {
-        "Name": "Ziemann LLC",
-        "Operator": "porro",
+        "Name": "Predovic, Christiansen and Rohan",
+        "Operator": "voluptates",
         "Values": [
-          "cum",
-          "est"
+          "earum",
+          "non"
         ],
         "DisplayValues": [
-          "qui",
-          "saepe"
+          "ut",
+          "qui"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -194,9 +194,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 690,
+        "InterParenthesis": 792,
         "InterOperator": "And",
-        "UniqueHash": 401
+        "UniqueHash": 254
       }
     ]
   }

@@ -15,6 +15,7 @@ POST /api/v1/Agents/Chat/PickUpFirstChatSession
 
 
 The welcome message is sent to the customer.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -108,43 +109,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 694,
-  "TopicId": 824,
+  "ChatSessionId": 359,
+  "TopicId": 218,
   "User": null,
   "Person": null,
-  "CustomerAlias": "qui",
-  "CustomerHost": "sunt",
-  "CustomerName": "Gerlach, Conroy and Morar",
-  "CustomerEmail": "roel@doylehoppe.ca",
-  "CustomerPhone": "1-023-590-6955 x4839",
-  "CustomerConsented": true,
-  "CustomerCompanyName": "Schaden-Beier",
+  "CustomerAlias": "placeat",
+  "CustomerHost": "provident",
+  "CustomerName": "Gusikowski Inc and Sons",
+  "CustomerEmail": "violette@boylemoen.ca",
+  "CustomerPhone": "495-039-5008 x01749",
+  "CustomerConsented": false,
+  "CustomerCompanyName": "Farrell LLC",
   "Status": "Closed",
-  "FirstMessage": "nemo",
-  "LastMessage": "culpa",
-  "WhenRequested": "2016-09-05T03:46:54.3788954+02:00",
-  "WhenStarted": "2016-04-12T03:46:54.3788954+02:00",
-  "WhenEnded": "1999-05-13T03:46:54.3788954+02:00",
-  "WhenIdle": "2012-07-18T03:46:54.3788954+02:00",
-  "WhenFetched": "2008-04-07T03:46:54.3788954+02:00",
-  "SessionKey": "voluptas",
-  "InitialQueuePos": 441,
-  "AlertLevel": 819,
-  "Rank": 866,
+  "FirstMessage": "facere",
+  "LastMessage": "sed",
+  "WhenRequested": "2006-03-14T02:30:46.8975935+01:00",
+  "WhenStarted": "2024-04-15T02:30:46.8975935+02:00",
+  "WhenEnded": "2007-07-29T02:30:46.8975935+02:00",
+  "WhenIdle": "2008-11-21T02:30:46.8975935+01:00",
+  "WhenFetched": "2001-06-04T02:30:46.8975935+02:00",
+  "SessionKey": "aliquid",
+  "InitialQueuePos": 123,
+  "AlertLevel": 6,
+  "Rank": 640,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": false,
-  "Rating": 317,
+  "ChatbotIsActive": true,
+  "Rating": 960,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 633
+      "FieldType": "System.String",
+      "FieldLength": 647
     }
   }
 }

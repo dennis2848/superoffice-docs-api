@@ -76,7 +76,7 @@ OK
 GET /api/v1/List/Competitor/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -87,56 +87,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 353,
-    "Name": "Kutch-Flatley",
-    "ToolTip": "Consequatur non et veniam impedit pariatur.",
-    "Deleted": true,
-    "Rank": 249,
-    "Type": "voluptate",
-    "ColorBlock": 562,
-    "IconHint": "adipisci",
+    "Id": 798,
+    "Name": "Lowe-Kiehn",
+    "ToolTip": "Ut velit iure voluptas est.",
+    "Deleted": false,
+    "Rank": 627,
+    "Type": "perferendis",
+    "ColorBlock": 272,
+    "IconHint": "officiis",
     "Selected": false,
-    "LastChanged": "2000-04-14T03:47:00.5974251+02:00",
+    "LastChanged": "2011-07-22T02:30:53.2255171+02:00",
     "ChildItems": [
       {
-        "Id": 419,
-        "Name": "Grant-Wilderman",
-        "ToolTip": "Tenetur impedit officiis autem mollitia.",
+        "Id": 30,
+        "Name": "Simonis-Kub",
+        "ToolTip": "Exercitationem cupiditate error natus.",
         "Deleted": false,
-        "Rank": 35,
-        "Type": "possimus",
-        "ColorBlock": 62,
-        "IconHint": "exercitationem",
+        "Rank": 368,
+        "Type": "animi",
+        "ColorBlock": 997,
+        "IconHint": "odit",
         "Selected": false,
-        "LastChanged": "1999-01-29T03:47:00.5974251+01:00",
+        "LastChanged": "2012-12-12T02:30:53.2255171+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "necessitatibus",
-        "StyleHint": "quae",
+        "ExtraInfo": "sint",
+        "StyleHint": "ipsam",
         "Hidden": false,
-        "FullName": "Miss Wilbert Larry Stehr",
+        "FullName": "Claudie Alexanne Hand Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 230
+            "FieldLength": 702
           }
         }
       }
     ],
-    "ExtraInfo": "a",
-    "StyleHint": "occaecati",
-    "Hidden": true,
-    "FullName": "Ms. Jaleel Dooley DVM",
+    "ExtraInfo": "qui",
+    "StyleHint": "quaerat",
+    "Hidden": false,
+    "FullName": "Janie Windler",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 385
+        "FieldType": "System.Int32",
+        "FieldLength": 598
       }
     }
   }

@@ -14,6 +14,8 @@ POST /api/v1/Agents/Find/DeleteRestrictionGroup
 Create a restriction group, initialized with next rank etc.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -73,11 +75,11 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "aperiam",
-  "ProviderName": "White, Yundt and Corkery",
-  "StorageKey": "quod",
-  "Rank": 926,
-  "Context": "corrupti"
+  "StorageType": "voluptas",
+  "ProviderName": "Jenkins LLC",
+  "StorageKey": "voluptatem",
+  "Rank": 507,
+  "Context": "ea"
 }
 ```
 

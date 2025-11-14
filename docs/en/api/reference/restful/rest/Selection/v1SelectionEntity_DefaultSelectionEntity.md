@@ -15,6 +15,7 @@ Set default values into a new SelectionEntity.
 
 
 NetServer calculates default values on the entity, which is required when creating/storing a new instance Calls the Selection agent service CreateDefaultSelectionEntity.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -98,7 +99,7 @@ OK
 GET /api/v1/Selection/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -106,73 +107,73 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Fri, 21 Jan 2000 03:47:00 G1T
+Last-Modified: Tue, 03 Nov 2015 02:30:52 G11T
 
 {
-  "Description": "Fully-configurable multimedia encryption",
-  "Postit": "voluptatibus",
+  "Description": "Triple-buffered attitude-oriented matrices",
+  "Postit": "aliquid",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 688,
-  "IncludePerson": 776,
+  "GroupIdx": 882,
+  "IncludePerson": 116,
   "MemberCount": 99.99,
-  "Name": "Huels, Ondricka and Farrell",
-  "PostitTextId": 838,
-  "CreatedDate": "2001-08-30T03:47:00.2849361+02:00",
-  "SelectionId": 147,
-  "SoundEx": "quam",
-  "Source": 724,
-  "TextId": 171,
-  "UpdatedDate": "2000-01-21T03:47:00.2849361+01:00",
-  "UpdatedCount": 120,
-  "Visibility": 208,
+  "Name": "Green Inc and Sons",
+  "PostitTextId": 998,
+  "CreatedDate": "2014-11-21T02:30:52.9130204+01:00",
+  "SelectionId": 173,
+  "SoundEx": "suscipit",
+  "Source": 370,
+  "TextId": 279,
+  "UpdatedDate": "2015-11-03T02:30:52.9130204+01:00",
+  "UpdatedCount": 83,
+  "Visibility": 939,
   "SelectionType": "Combined",
   "CompanyUnique": true,
-  "TargetTableNumber": 121,
-  "TargetTableName": "Leuschke, Hauck and Batz",
+  "TargetTableNumber": 678,
+  "TargetTableName": "Becker LLC",
   "Completed": false,
-  "LeftSelectionId": 560,
-  "RightSelectionId": 212,
+  "LeftSelectionId": 709,
+  "RightSelectionId": 805,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "O'Reilly Group",
-  "ShadowProviderName": "Graham, Roob and Swaniawski",
-  "ChartKey": "illo",
-  "LastLoaded": "2019-08-27T03:47:00.2849361+02:00",
-  "LastLoadedBy": 918,
+  "MainProviderName": "Lynch, Fahey and Hermiston",
+  "ShadowProviderName": "Schamberger LLC",
+  "ChartKey": "voluptatem",
+  "LastLoaded": "2012-10-03T02:30:52.9130204+02:00",
+  "LastLoadedBy": 434,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "1999-03-22T03:47:00.2849361+01:00",
-  "LastMembershipChangeBy": 194,
+  "LastMembershipChange": "2002-04-10T02:30:52.9130204+02:00",
+  "LastMembershipChangeBy": 74,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "rerum",
-  "MemberTabHeading": "quia",
-  "MailingsProviderName": "Tremblay-Pfannerstill",
-  "DashboardTileDefinitionId": 905,
+  "MainHeading": "quisquam",
+  "MemberTabHeading": "omnis",
+  "MailingsProviderName": "Marvin Inc and Sons",
+  "DashboardTileDefinitionId": 463,
   "VisibleFor": [
     {
-      "VisibleId": 83,
+      "VisibleId": 198,
       "Visibility": "All",
-      "DisplayValue": "voluptates",
+      "DisplayValue": "suscipit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 569
+          "FieldType": "System.Int32",
+          "FieldLength": 174
         }
       }
     },
     {
-      "VisibleId": 83,
+      "VisibleId": 198,
       "Visibility": "All",
-      "DisplayValue": "voluptates",
+      "DisplayValue": "suscipit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 569
+          "FieldType": "System.Int32",
+          "FieldLength": 174
         }
       }
     }
@@ -182,7 +183,7 @@ Last-Modified: Fri, 21 Jan 2000 03:47:00 G1T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 876
+      "FieldLength": 662
     }
   }
 }

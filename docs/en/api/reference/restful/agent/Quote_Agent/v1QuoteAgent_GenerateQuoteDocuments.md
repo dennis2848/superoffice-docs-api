@@ -15,6 +15,7 @@ Generate all the documents required to send the Quote as an email to the prospec
 
 
 Quote version status is not changed by this method.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -88,16 +89,16 @@ OK
 POST /api/v1/Agents/Quote/GenerateQuoteDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 286,
-  "EmailBodyTemplateId": 33,
-  "AttachMainDocument": true,
-  "QuotedProductsTemplateId": 556,
-  "IncludeAttachments": false,
-  "RawMailSubject": "labore"
+  "QuoteVersionId": 372,
+  "EmailBodyTemplateId": 923,
+  "AttachMainDocument": false,
+  "QuotedProductsTemplateId": 540,
+  "IncludeAttachments": true,
+  "RawMailSubject": "esse"
 }
 ```
 
@@ -108,23 +109,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteDocumentId": 592,
-  "QuotedProductsId": 487,
+  "QuoteDocumentId": 294,
+  "QuotedProductsId": 988,
   "QuoteAttachmentIds": [
-    586,
-    541
+    196,
+    89
   ],
-  "MailBody": "est",
-  "MailSubject": "et",
-  "ToEmail": "hazel_tillman@rempelcummerata.info",
-  "ToFullName": "Alexandro Kautzer",
-  "ErrorMessage": "debitis",
+  "MailBody": "dolor",
+  "MailSubject": "deleniti",
+  "ToEmail": "david_rath@buckridge.us",
+  "ToFullName": "Mr. Hosea Anderson Jr.",
+  "ErrorMessage": "laboriosam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 979
+      "FieldType": "System.Int32",
+      "FieldLength": 536
     }
   }
 }

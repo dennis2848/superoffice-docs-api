@@ -15,6 +15,7 @@ Create a new physical document based on a document template and store it in the 
 
 
 Tags are substituted according to the provided id's.  Use GetDocumentStream to obtain the created document content. Since there is a potential for a name conflict (the file name stored by the document entity earlier may prove to be invalid), the (possibly amended) document entity is returned. The client should not assume that any earlier, cached entity information is valid.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -118,26 +119,26 @@ OK
 POST /api/v1/Agents/Document/CreateNewPhysicalDocumentFromTemplateWithCustomTags
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 445,
-  "PersonId": 977,
-  "AppointmentId": 113,
-  "DocumentId": 608,
-  "SaleId": 838,
-  "SelectionId": 826,
-  "ProjectId": 650,
+  "ContactId": 634,
+  "PersonId": 440,
+  "AppointmentId": 960,
+  "DocumentId": 634,
+  "SaleId": 351,
+  "SelectionId": 472,
+  "ProjectId": 875,
   "CustomTags": [
-    "ipsum",
-    "ea"
+    "et",
+    "asperiores"
   ],
   "CustomValues": [
-    "eaque",
-    "nam"
+    "officia",
+    "et"
   ],
-  "UiCulture": "et"
+  "UiCulture": "quia"
 }
 ```
 
@@ -148,88 +149,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 467,
+  "DocumentId": 525,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "voluptatibus",
-  "Header": "qui",
-  "Name": "Powlowski-Heaney",
-  "OurRef": "voluptatem",
-  "YourRef": "distinctio",
-  "CreatedDate": "2019-06-24T03:46:54.67576+02:00",
-  "UpdatedDate": "2011-07-25T03:46:54.67576+02:00",
-  "Description": "Switchable national data-warehouse",
+  "Attention": "fugit",
+  "Header": "quia",
+  "Name": "Kovacek-Osinski",
+  "OurRef": "labore",
+  "YourRef": "ipsa",
+  "CreatedDate": "2007-06-06T02:30:47.1944624+02:00",
+  "UpdatedDate": "2009-06-21T02:30:47.1944624+02:00",
+  "Description": "Horizontal explicit encryption",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2023-12-22T03:46:54.67576+01:00",
-  "ExternalRef": "et",
+  "Date": "2007-01-19T02:30:47.1944624+01:00",
+  "ExternalRef": "nobis",
   "Completed": "Completed",
-  "ActiveLinks": 553,
+  "ActiveLinks": 110,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Ryan, Dicki and Ryan",
-      "Id": 12,
-      "Description": "Programmable attitude-oriented application",
-      "ExtraInfo": "ex",
-      "LinkId": 330,
+      "EntityName": "Treutel-Funk",
+      "Id": 952,
+      "Description": "Multi-lateral systemic approach",
+      "ExtraInfo": "et",
+      "LinkId": 435,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 55
+          "FieldLength": 717
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 1001,
-  "Snum": 483,
+  "SuggestedDocumentId": 484,
+  "Snum": 314,
   "UserDefinedFields": {
-    "SuperOffice:1": "Melany Tromp",
-    "SuperOffice:2": "Nathan O'Keefe"
+    "SuperOffice:1": "Evangeline Lehner",
+    "SuperOffice:2": "Winona Johnson Hayes MD"
   },
   "ExtraFields": {
-    "ExtraFields1": "amet",
-    "ExtraFields2": "minus"
+    "ExtraFields1": "corrupti",
+    "ExtraFields2": "eos"
   },
   "CustomFields": {
-    "CustomFields1": "totam",
-    "CustomFields2": "vitae"
+    "CustomFields1": "adipisci",
+    "CustomFields2": "accusamus"
   },
-  "PublishEventDate": "2016-07-21T03:46:54.67576+02:00",
-  "PublishTo": "2024-06-27T03:46:54.67576+02:00",
-  "PublishFrom": "2003-01-02T03:46:54.67576+01:00",
+  "PublishEventDate": "2022-01-16T02:30:47.1944624+01:00",
+  "PublishTo": "2015-12-31T02:30:47.1944624+01:00",
+  "PublishFrom": "2002-09-26T02:30:47.1944624+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 178,
+      "VisibleId": 331,
       "Visibility": "All",
-      "DisplayValue": "sed",
+      "DisplayValue": "quia",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 907
+          "FieldLength": 291
         }
       }
     },
     {
-      "VisibleId": 178,
+      "VisibleId": 331,
       "Visibility": "All",
-      "DisplayValue": "sed",
+      "DisplayValue": "quia",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 907
+          "FieldLength": 291
         }
       }
     }
@@ -239,7 +240,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 307
+      "FieldLength": 378
     }
   }
 }

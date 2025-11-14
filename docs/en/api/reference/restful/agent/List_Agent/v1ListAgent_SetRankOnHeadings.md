@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/SetRankOnHeadings
 Set rank order on headings
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -66,14 +68,14 @@ No Content
 POST /api/v1/Agents/List/SetRankOnHeadings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 229,
+  "UdListDefinitionId": 5,
   "HeadingIds": [
-    306,
-    979
+    767,
+    434
   ]
 }
 ```

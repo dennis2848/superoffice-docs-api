@@ -93,60 +93,60 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketPriorityId": 136,
-  "Name": "Rice, Roob and White",
+  "TicketPriorityId": 360,
+  "Name": "Ondricka-Daniel",
   "Status": "Deleted",
   "Flags": "AlertSchedule",
-  "SortOrder": 757,
+  "SortOrder": 468,
   "TicketRead": "Continue",
   "ChangedOwner": "Continue",
   "TicketNewinfo": "Continue",
   "TicketClosed": "Continue",
   "TicketChangedPriority": "Continue",
   "TicketNew": "Continue",
-  "Deadline": 974,
-  "MonStart": "2025-04-05T03:47:00.9099142+02:00",
-  "MonStop": "2001-11-13T03:47:00.9099142+01:00",
-  "TueStart": "2023-04-03T03:47:00.9099142+02:00",
-  "TueStop": "2005-09-30T03:47:00.9099142+02:00",
-  "WedStart": "2007-06-01T03:47:00.9099142+02:00",
-  "WedStop": "2006-07-29T03:47:00.9099142+02:00",
-  "ThuStart": "2017-10-19T03:47:00.9099142+02:00",
-  "ThuStop": "2001-06-22T03:47:00.9099142+02:00",
-  "FriStart": "2000-11-05T03:47:00.9099142+01:00",
-  "FriStop": "2011-03-03T03:47:00.9099142+01:00",
-  "SatStart": "2006-12-15T03:47:00.9099142+01:00",
-  "SatStop": "2017-01-24T03:47:00.9099142+01:00",
-  "SunStart": "2017-01-10T03:47:00.9099142+01:00",
-  "SunStop": "2007-02-01T03:47:00.9099142+01:00",
+  "Deadline": 737,
+  "MonStart": "2023-09-22T02:30:53.5223788+02:00",
+  "MonStop": "2006-06-12T02:30:53.5223788+02:00",
+  "TueStart": "2004-02-20T02:30:53.5223788+01:00",
+  "TueStop": "2024-05-03T02:30:53.5223788+02:00",
+  "WedStart": "2003-02-28T02:30:53.5223788+01:00",
+  "WedStop": "2005-07-28T02:30:53.5223788+02:00",
+  "ThuStart": "2011-11-05T02:30:53.5223788+01:00",
+  "ThuStop": "2024-10-29T02:30:53.5223788+01:00",
+  "FriStart": "2012-05-12T02:30:53.5223788+02:00",
+  "FriStop": "2005-08-22T02:30:53.5223788+02:00",
+  "SatStart": "2021-05-22T02:30:53.5223788+02:00",
+  "SatStop": "2014-06-11T02:30:53.5223788+02:00",
+  "SunStart": "2009-12-12T02:30:53.5223788+01:00",
+  "SunStop": "2022-05-24T02:30:53.5223788+02:00",
   "NonDates": [
-    "ducimus",
-    "et"
+    "vitae",
+    "aut"
   ],
   "EscalationLevels": [
     {
-      "TicketAlertId": 344,
-      "AlertLevel": 162,
-      "AlertTimeout": 611,
-      "Action": 652,
-      "DelegateTo": 583,
-      "ScriptId": 14,
-      "EmailTo": "derick@cummingskoepp.us",
-      "SmsTo": "qui",
-      "ReplyTemplateIdCustomer": 433,
-      "ReplyTemplateIdUser": 484,
-      "ReplyTemplateIdCatmast": 534,
-      "ReplyTemplateIdEmail": 410,
-      "RtiCustomerSms": 57,
-      "ReplyTemplateIdUserSms": 424,
-      "ReplyTemplateIdCatmastSms": 722,
-      "ReplyTemplateIdSms": 768,
+      "TicketAlertId": 51,
+      "AlertLevel": 57,
+      "AlertTimeout": 315,
+      "Action": 567,
+      "DelegateTo": 464,
+      "ScriptId": 386,
+      "EmailTo": "hal.hodkiewicz@greenhalvorson.us",
+      "SmsTo": "quidem",
+      "ReplyTemplateIdCustomer": 929,
+      "ReplyTemplateIdUser": 680,
+      "ReplyTemplateIdCatmast": 454,
+      "ReplyTemplateIdEmail": 663,
+      "RtiCustomerSms": 640,
+      "ReplyTemplateIdUserSms": 650,
+      "ReplyTemplateIdCatmastSms": 310,
+      "ReplyTemplateIdSms": 97,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 559
+          "FieldType": "System.String",
+          "FieldLength": 581
         }
       }
     }
@@ -155,8 +155,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 565
+      "FieldType": "System.String",
+      "FieldLength": 232
     }
   }
 }

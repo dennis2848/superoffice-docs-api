@@ -14,6 +14,8 @@ POST /api/v1/Agents/Configuration/GetWindowPosSizesOnAssociateId
 Gets the window and dialog position and size settings belonging to the specified associate
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -84,11 +86,11 @@ OK
 POST /api/v1/Agents/Configuration/GetWindowPosSizesOnAssociateId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 179
+  "AssociateId": 659
 }
 ```
 
@@ -100,23 +102,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "OwnerWindow": "minus",
-    "PersonId": 333,
-    "AssociateId": 881,
-    "ExtraId": 23,
-    "ExtraInfo": "ut",
-    "Height": 716,
-    "LeftX": 977,
+    "OwnerWindow": "ut",
+    "PersonId": 408,
+    "AssociateId": 738,
+    "ExtraId": 817,
+    "ExtraInfo": "tempora",
+    "Height": 33,
+    "LeftX": 22,
     "State": "Maximized",
-    "UpperY": 705,
-    "Width": 827,
-    "WindowPosSizeId": 436,
+    "UpperY": 113,
+    "Width": 112,
+    "WindowPosSizeId": 842,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 497
+        "FieldLength": 136
       }
     }
   }

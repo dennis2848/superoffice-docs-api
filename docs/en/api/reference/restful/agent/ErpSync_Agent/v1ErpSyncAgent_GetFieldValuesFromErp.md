@@ -14,6 +14,9 @@ POST /api/v1/Agents/ErpSync/GetFieldValuesFromErp
 Get Erp Field values
 
 
+NsApiSlow threshold: 5000 ms.
+
+
 ## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
 
 
@@ -87,9 +90,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 382,
+  "ErpConnectionId": 665,
   "ActorTypeErp": "Customer",
-  "ErpKey": "dolore"
+  "ErpKey": "consequatur"
 }
 ```
 
@@ -101,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Collins, Bayer and Luettgen",
-    "CrmFieldKey": "non",
-    "Value": "suscipit",
-    "DisplayValue": "facilis",
-    "SyncToCrm": false,
+    "DisplayName": "Funk, Brekke and Jaskolski",
+    "CrmFieldKey": "ullam",
+    "Value": "a",
+    "DisplayValue": "illo",
+    "SyncToCrm": true,
     "SyncToErp": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 763
+        "FieldLength": 815
       }
     }
   }

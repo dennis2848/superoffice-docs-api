@@ -89,16 +89,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 743,
-  "Name": "Barrows, Kutch and Keebler",
-  "Tooltip": "veritatis",
-  "Deleted": true,
-  "Rank": 220,
-  "IsCustomList": false,
+  "Id": 40,
+  "Name": "Wilkinson-Kassulke",
+  "Tooltip": "corporis",
+  "Deleted": false,
+  "Rank": 240,
+  "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "est",
-  "InUseByUserDefinedFields": false
+  "UseGroupsAndHeadings": false,
+  "ListType": "ut",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -109,22 +109,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 558,
-  "Name": "Hane-Schmitt",
-  "Tooltip": "voluptatem",
+  "Id": 19,
+  "Name": "Sawayn, Lowe and Olson",
+  "Tooltip": "quidem",
   "Deleted": false,
-  "Rank": 839,
-  "IsCustomList": false,
+  "Rank": 157,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "distinctio",
+  "ListType": "officia",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 962
+      "FieldLength": 355
     }
   }
 }

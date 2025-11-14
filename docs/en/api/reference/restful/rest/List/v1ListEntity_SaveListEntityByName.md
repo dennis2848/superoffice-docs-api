@@ -90,15 +90,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 842,
-  "Name": "Konopelski, Cassin and Marquardt",
-  "Tooltip": "rerum",
+  "Id": 244,
+  "Name": "Wyman-Farrell",
+  "Tooltip": "eum",
   "Deleted": false,
-  "Rank": 583,
-  "IsCustomList": true,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "rerum",
+  "Rank": 131,
+  "IsCustomList": false,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "perspiciatis",
   "InUseByUserDefinedFields": true
 }
 ```
@@ -110,22 +110,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 567,
-  "Name": "Romaguera, Hoppe and Prohaska",
-  "Tooltip": "vitae",
+  "Id": 796,
+  "Name": "Pollich Group",
+  "Tooltip": "itaque",
   "Deleted": false,
-  "Rank": 409,
+  "Rank": 872,
   "IsCustomList": true,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "ipsam",
-  "InUseByUserDefinedFields": false,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "dolorum",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 982
+      "FieldLength": 43
     }
   }
 }

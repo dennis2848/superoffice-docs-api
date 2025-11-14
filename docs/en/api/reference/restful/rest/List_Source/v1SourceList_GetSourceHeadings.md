@@ -63,7 +63,7 @@ OK
 GET /api/v1/List/Source/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -74,18 +74,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 519,
-    "Name": "Prosacco LLC",
-    "Tooltip": "suscipit",
-    "Deleted": true,
-    "Rank": 433,
-    "UdListDefinitionId": 659,
+    "HeadingId": 406,
+    "Name": "Johnson, Ebert and Haley",
+    "Tooltip": "reiciendis",
+    "Deleted": false,
+    "Rank": 989,
+    "UdListDefinitionId": 224,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 467
+        "FieldLength": 818
       }
     }
   }

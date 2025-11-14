@@ -76,16 +76,16 @@ OK
 POST /api/v1/List/ReasonSold/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 573,
-  "Name": "Armstrong, Lehner and Champlin",
-  "Tooltip": "corrupti",
-  "Deleted": true,
-  "Rank": 593,
-  "UdListDefinitionId": 935
+  "HeadingId": 445,
+  "Name": "Reilly-Schmitt",
+  "Tooltip": "ut",
+  "Deleted": false,
+  "Rank": 902,
+  "UdListDefinitionId": 840
 }
 ```
 
@@ -96,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 993,
-  "Name": "Witting, Cremin and Dibbert",
-  "Tooltip": "animi",
+  "HeadingId": 506,
+  "Name": "Dietrich Group",
+  "Tooltip": "voluptatem",
   "Deleted": false,
-  "Rank": 884,
-  "UdListDefinitionId": 742,
+  "Rank": 164,
+  "UdListDefinitionId": 65,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 977
+      "FieldLength": 67
     }
   }
 }

@@ -15,6 +15,7 @@ Calculate the default desired columns, i.
 
 
 e., the result columns for a given search. The search is defined by a provider name and a set of restrictions. This is the algorithm that is used by the Find service method.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -91,28 +92,28 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Gorczany-D'Amore",
+  "ProviderName": "Boyle-Dickens",
   "Restrictions": [
     {
-      "Name": "Anderson-Walter",
-      "Operator": "natus",
+      "Name": "Heller-Wintheiser",
+      "Operator": "consectetur",
       "Values": [
-        "inventore",
-        "occaecati"
+        "ab",
+        "fugit"
       ],
       "DisplayValues": [
-        "eos",
-        "consequatur"
+        "dolorem",
+        "cupiditate"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 906,
+      "InterParenthesis": 105,
       "InterOperator": "And",
-      "UniqueHash": 993
+      "UniqueHash": 115
     }
   ]
 }
@@ -126,19 +127,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Gerhold, Sawayn and Gusikowski",
-    "DisplayTooltip": "amet",
-    "DisplayType": "assumenda",
+    "DisplayName": "Lesch Group",
+    "DisplayTooltip": "asperiores",
+    "DisplayType": "vero",
     "CanOrderBy": false,
-    "Name": "Collier, Stiedemann and Kutch",
-    "CanRestrictBy": true,
-    "RestrictionType": "aliquid",
-    "RestrictionListName": "Effertz Inc and Sons",
+    "Name": "Ziemann, Rodriguez and Hand",
+    "CanRestrictBy": false,
+    "RestrictionType": "saepe",
+    "RestrictionListName": "Cassin-Zulauf",
     "IsVisible": false,
-    "ExtraInfo": "modi",
-    "Width": "repellat",
-    "IconHint": "minus",
-    "HeadingIconHint": "minima"
+    "ExtraInfo": "enim",
+    "Width": "architecto",
+    "IconHint": "sit",
+    "HeadingIconHint": "consequatur"
   }
 ]
 ```

@@ -32,7 +32,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Currency/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/Currency/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -97,56 +97,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 124,
-    "Name": "Rippin Group",
-    "ToolTip": "Excepturi eaque in.",
-    "Deleted": false,
-    "Rank": 583,
-    "Type": "impedit",
-    "ColorBlock": 709,
-    "IconHint": "voluptatem",
-    "Selected": false,
-    "LastChanged": "1999-09-21T03:47:00.628674+02:00",
+    "Id": 338,
+    "Name": "Streich, Walsh and Kunze",
+    "ToolTip": "Expedita culpa.",
+    "Deleted": true,
+    "Rank": 81,
+    "Type": "quis",
+    "ColorBlock": 922,
+    "IconHint": "sit",
+    "Selected": true,
+    "LastChanged": "2014-09-30T02:30:53.2723907+02:00",
     "ChildItems": [
       {
-        "Id": 346,
-        "Name": "Kunde Inc and Sons",
-        "ToolTip": "Nesciunt sed.",
+        "Id": 397,
+        "Name": "Langworth Group",
+        "ToolTip": "Ad sed cum voluptate officia libero.",
         "Deleted": true,
-        "Rank": 607,
-        "Type": "ipsam",
-        "ColorBlock": 984,
-        "IconHint": "ducimus",
+        "Rank": 712,
+        "Type": "aspernatur",
+        "ColorBlock": 394,
+        "IconHint": "quibusdam",
         "Selected": false,
-        "LastChanged": "2009-12-03T03:47:00.628674+01:00",
+        "LastChanged": "2014-12-09T02:30:53.2723907+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "in",
-        "StyleHint": "molestias",
+        "ExtraInfo": "officiis",
+        "StyleHint": "tempore",
         "Hidden": true,
-        "FullName": "Alisha Douglas",
+        "FullName": "Ms. Zena Kertzmann",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 532
+            "FieldLength": 677
           }
         }
       }
     ],
-    "ExtraInfo": "sint",
-    "StyleHint": "quia",
-    "Hidden": false,
-    "FullName": "Ms. Eddie Nienow",
+    "ExtraInfo": "facere",
+    "StyleHint": "ratione",
+    "Hidden": true,
+    "FullName": "Dr. Grayce Geo Runte",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 763
+        "FieldType": "System.String",
+        "FieldLength": 271
       }
     }
   }

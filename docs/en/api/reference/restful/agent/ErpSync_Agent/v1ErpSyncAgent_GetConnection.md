@@ -14,6 +14,9 @@ POST /api/v1/Agents/ErpSync/GetConnection
 Returns the specified connection.
 
 
+NsApiSlow threshold: 5000 ms.
+
+
 ## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
 
 
@@ -87,11 +90,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetConnection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 10
+  "ErpConnectionId": 32
 }
 ```
 
@@ -102,33 +105,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 218,
-  "ErpConnectorId": 45,
-  "DisplayName": "Gulgowski, Runolfsson and Kertzmann",
-  "DisplayDescription": "User-centric high-level process improvement",
+  "ErpConnectionId": 485,
+  "ErpConnectorId": 353,
+  "DisplayName": "Grady, Schimmel and O'Reilly",
+  "DisplayDescription": "Proactive bifurcated monitoring",
   "Active": false,
-  "ConnectionId": "cumque",
-  "MostRecentTimestamp": "at",
+  "ConnectionId": "ut",
+  "MostRecentTimestamp": "molestias",
   "ConfigFields": {
-    "ConfigFields1": "numquam",
-    "ConfigFields2": "in"
+    "ConfigFields1": "officia",
+    "ConfigFields2": "dolor"
   },
   "Deleted": false,
   "AllAccess": true,
   "UserGroupAccessIds": [
-    487,
-    441
+    86,
+    882
   ],
   "AssociateAccessIds": [
-    394,
-    386
+    108,
+    468
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 589
+      "FieldLength": 88
     }
   }
 }

@@ -14,6 +14,11 @@ POST /api/v1/Agents/AI/SummarizeText
 Generate a short summary of a text
 
 
+NsApiSlow threshold: 2000 ms.
+
+
+## Experimental: ## The AI agent is experimental, subject to change, and not intended for partners.
+
 
 
 
@@ -71,13 +76,13 @@ OK
 POST /api/v1/Agents/AI/SummarizeText
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Text": "itaque",
-  "PercentSmaller": 704,
-  "IsoLangCode": "quas"
+  "Text": "ipsum",
+  "PercentSmaller": 680,
+  "IsoLangCode": "enim"
 }
 ```
 
@@ -87,5 +92,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"accusantium"
+"fugiat"
 ```

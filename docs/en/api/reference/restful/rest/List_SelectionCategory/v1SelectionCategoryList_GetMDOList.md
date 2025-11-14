@@ -27,8 +27,8 @@ Get the MDO list items for "SearchCat" - with headings and filtering by user gro
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/SelectionCategory/MDOItems?flat=True
-GET /api/v1/List/SelectionCategory/MDOItems?query=similique
+GET /api/v1/List/SelectionCategory/MDOItems?flat=False
+GET /api/v1/List/SelectionCategory/MDOItems?query=ut
 ```
 
 
@@ -79,7 +79,7 @@ OK
 GET /api/v1/List/SelectionCategory/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -90,50 +90,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 844,
-    "Name": "Kuhn LLC",
-    "ToolTip": "Omnis maiores sed porro libero.",
+    "Id": 301,
+    "Name": "Romaguera Group",
+    "ToolTip": "Eos tenetur sit quia.",
     "Deleted": false,
-    "Rank": 941,
-    "Type": "nam",
+    "Rank": 2,
+    "Type": "provident",
     "ChildItems": [
       {
-        "Id": 976,
-        "Name": "Price-Jenkins",
-        "ToolTip": "Modi quos expedita eum laudantium.",
+        "Id": 240,
+        "Name": "Hintz, Kozey and Rosenbaum",
+        "ToolTip": "Nesciunt molestiae repudiandae iure quo nihil autem.",
         "Deleted": true,
-        "Rank": 874,
-        "Type": "cum",
+        "Rank": 523,
+        "Type": "dignissimos",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "itaque",
-        "ColorBlock": 124,
-        "ExtraInfo": "nam",
-        "StyleHint": "adipisci",
-        "FullName": "Breana Royal Macejkovic PhD",
+        "IconHint": "saepe",
+        "ColorBlock": 721,
+        "ExtraInfo": "tempora",
+        "StyleHint": "aliquid",
+        "FullName": "Vern Walter",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 54
+            "FieldType": "System.String",
+            "FieldLength": 105
           }
         }
       }
     ],
-    "IconHint": "non",
-    "ColorBlock": 21,
-    "ExtraInfo": "perferendis",
-    "StyleHint": "quisquam",
-    "FullName": "Dr. Rosetta Kilback",
+    "IconHint": "nobis",
+    "ColorBlock": 41,
+    "ExtraInfo": "aut",
+    "StyleHint": "iure",
+    "FullName": "Cordie Hilll",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 848
+        "FieldType": "System.String",
+        "FieldLength": 437
       }
     }
   }

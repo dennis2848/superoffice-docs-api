@@ -96,34 +96,34 @@ OK
 PUT /api/v1/Selection/{selectionId}/Criteria
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Rice Group",
-    "Operator": "quia",
+    "Name": "Wintheiser, Bayer and Olson",
+    "Operator": "fugiat",
     "Values": [
-      "repellat",
-      "quia"
+      "similique",
+      "voluptatem"
     ],
     "DisplayValues": [
-      "commodi",
-      "iusto"
+      "aut",
+      "molestiae"
     ],
     "ColumnInfo": null,
     "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Monahan Group",
-        "Operator": "dicta",
+        "Name": "Zulauf, Hyatt and Dicki",
+        "Operator": "repellat",
         "Values": [
-          "minima",
-          "quasi"
+          "veritatis",
+          "saepe"
         ],
         "DisplayValues": [
-          "assumenda",
-          "neque"
+          "accusamus",
+          "suscipit"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -131,14 +131,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 423,
+        "InterParenthesis": 820,
         "InterOperator": "And",
-        "UniqueHash": 909
+        "UniqueHash": 417
       }
     ],
-    "InterParenthesis": 101,
+    "InterParenthesis": 191,
     "InterOperator": "And",
-    "UniqueHash": 329
+    "UniqueHash": 972
   }
 ]
 ```
@@ -151,29 +151,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Kuhic, Donnelly and Mills",
-    "Operator": "ad",
+    "Name": "Orn Group",
+    "Operator": "enim",
     "Values": [
-      "laborum",
-      "officiis"
+      "voluptas",
+      "consequatur"
     ],
     "DisplayValues": [
-      "neque",
-      "quis"
+      "explicabo",
+      "ut"
     ],
     "ColumnInfo": null,
-    "IsActive": false,
+    "IsActive": true,
     "SubRestrictions": [
       {
-        "Name": "Robel Inc and Sons",
-        "Operator": "itaque",
+        "Name": "Dibbert-Schmeler",
+        "Operator": "dolores",
         "Values": [
-          "voluptas",
-          "esse"
+          "ullam",
+          "quos"
         ],
         "DisplayValues": [
-          "dolor",
-          "est"
+          "aperiam",
+          "ut"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -181,14 +181,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 384,
+        "InterParenthesis": 281,
         "InterOperator": "And",
-        "UniqueHash": 119
+        "UniqueHash": 283
       }
     ],
-    "InterParenthesis": 762,
+    "InterParenthesis": 680,
     "InterOperator": "And",
-    "UniqueHash": 567
+    "UniqueHash": 984
   }
 ]
 ```

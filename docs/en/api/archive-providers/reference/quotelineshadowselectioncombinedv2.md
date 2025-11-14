@@ -160,7 +160,7 @@ Implementation of the provider for the combined selection
 |alternative/version/quote/sale/earning|decimal|Sale - Profit: Gross profit (gross sales total - cost) for the sale| x |
 |alternative/version/quote/sale/earningPercent|decimal|Sale - Profit as %: The profit as a percentage of the gross sales total| x |
 |alternative/version/quote/sale/probPercent|int|Sale - Probability as %: Probability as %| x |
-|alternative/version/quote/sale/originalStage|listAny|Sale - Stage: Displays the stage of the sale| x |
+|alternative/version/quote/sale/originalStage|listAny|Sale - Stage when closed: Stage when closed| x |
 |alternative/version/quote/sale/stage|listAny|Sale - Stage: Displays the stage of the sale| x |
 |alternative/version/quote/sale/stageName| *None* |Sale - Stage name: Displays the stage of the sale| x |
 |alternative/version/quote/sale/saleStatus|listAny|Sale - Status: The status of the sale - open, lost or sold| x |
@@ -182,6 +182,7 @@ Implementation of the provider for the combined selection
 |alternative/version/quote/sale/createdByWorkflow|listAny|Sale - Created by flow: Created by flow| x |
 |alternative/version/quote/sale/amountInBaseCurrency| *None* |Sale - Amount (BaseCurrency): The gross sales total| x |
 |alternative/version/quote/sale/amountWeightedInBaseCurrency| *None* |Sale - Weighted amount (BaseCurrency): Virtual field calculated from amount * probability percent.| x |
+|alternative/version/quote/sale/daysInStage| *None* |Sale - Days in stage: Total number of days in this stage| x |
 |alternative/version/quote/sale/visibleFor|listAny|Sale - Visible for|  |
 |alternative/version/quote/sale/sale/textId|int|Sale - Text ID| x |
 |alternative/version/quote/sale/sale/description|positiveString|Sale - Text: Displays the text entered in the description field| x |
@@ -224,14 +225,18 @@ Implementation of the provider for the combined selection
 |alternative/version/quote/sale/person/supportLanguage|listAny|Sale - Preferred language: Preferred language used for reply templates and more| x |
 |alternative/version/quote/sale/person/supportAssociate|associate|Sale - Our service contact: Default service contact for this contact| x |
 |alternative/version/quote/sale/person/supportAssociateFullName|associate|Sale - Our service contact - Full name: Default service contact for this contact| x |
-|alternative/version/quote/sale/person/personAssociateId|associate|Sale - Our contact: Displays our contact| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|alternative/version/quote/sale/person/personAssociateId|associate|Sale - Our contact: Displays our contact| x |
 |alternative/version/quote/sale/person/personAssociateFullName|associate|Sale - Our contact - Full name: Displays our contact| x |
 |alternative/version/quote/sale/person/personCategory|listAny|Sale - Category| x |
+|alternative/version/quote/sale/person/personCategoryGroup|listAny|Sale - Category group| x |
+|alternative/version/quote/sale/person/personCategoryRank|int|Sale - !!Category rank| x |
 |alternative/version/quote/sale/person/personBusiness|listAny|Sale - Business| x |
+|alternative/version/quote/sale/person/leadStatus|listAny|Sale - Lead status| x |
+|alternative/version/quote/sale/person/leadstatusRank|int|Sale - !!Lead status RANK| x |
 |alternative/version/quote/sale/person/personDeletedDate|datetime|Sale - Deleted date: Deleted date|  |
 |alternative/version/quote/sale/person/hasCompany|bool|Sale - Has company: The contact is associated with a company| x |
 |alternative/version/quote/sale/person/isProjectMember|bool|Sale - Is project member: This person is a project member| x |
@@ -318,21 +323,21 @@ Implementation of the provider for the combined selection
 |alternative/version/quote/sale/person/personExtra/x\_person\_appointment\_relation|stringorPK|Sale - Extra appointment relation: Appointment relation on person| x |
 |alternative/version/quote/sale/person/personExtra/x\_person\_contact\_relation|stringorPK|Sale - Extra company relation: Company relation on contact| x |
 |alternative/version/quote/sale/person/personExtra/y\_rental/id|int|Sale - Rental - id: Displays the row's primary key (y\_rental)| x |
-|alternative/version/quote/sale/person/personExtra/y\_rental/x\_start|date|Sale - Rental - Start rental| x |
-|alternative/version/quote/sale/person/personExtra/y\_rental/x\_end|date|Sale - Rental - End| x |
+|alternative/version/quote/sale/person/personExtra/y\_rental/x\_start|date|Sale - Rental - Start rental: Start rental| x |
+|alternative/version/quote/sale/person/personExtra/y\_rental/x\_end|date|Sale - Rental - End: End| x |
 |alternative/version/quote/sale/person/personExtra/y\_rental/x\_amount|int|Sale - Rental - Amount: Number to rent. Default = 1| x |
 |alternative/version/quote/sale/person/personExtra/y\_rental/x\_contact|stringorPK|Sale - Rental - Renter: Company that rents equipment| x |
 |alternative/version/quote/sale/person/personExtra/y\_rental/y\_equipment/x\_name|string|Sale - Rental - Equipment - Name: Equpment name custom field. Cannot be null., show in table| x |
 |alternative/version/quote/sale/person/personExtra/y\_car/id|int|Sale - Car - id: Displays the row's primary key (y\_car)| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |alternative/version/quote/sale/person/personAssociate/firstName|string|Sale - First name: Displays the contact's first name| x |
 |alternative/version/quote/sale/person/personAssociate/lastName|string|Sale - Last name: Displays the contact's last name| x |
 |alternative/version/quote/sale/person/personAssociate/middleName|string|Sale - Middle Name: Displays the contact's middle name.| x |
 |alternative/version/quote/sale/person/personAssociate/fullName|string|Sale - Full name: Displays full name of user (first, middle, last - according to settings)| x |
 |alternative/version/quote/sale/person/personAssociate/contactId|int|Sale - Company ID: Database ID of the company the user belongs to|  |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |alternative/version/quote/sale/person/personAssociate/personId|int|Sale - Contact ID: Database ID of the contact row|  |
 |alternative/version/quote/sale/person/personAssociate/mrMrs|string|Sale - Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
 |alternative/version/quote/sale/person/personAssociate/title|string|Sale - Title: Displays whether the contact is addressed as Mr or Ms| x |
@@ -349,7 +354,7 @@ Implementation of the provider for the combined selection
 |alternative/version/quote/sale/person/personAssociate/assocType|listAny|Sale - Type: Type of user: associate, external user, system user, anonymous account| x |
 |alternative/version/quote/sale/person/personAssociate/ejUserId|int|Sale - Service user ID: The database ID of a Service user|  |
 |alternative/version/quote/sale/person/personAssociate/simultaneousEjUser|bool|Sale - Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|alternative/version/quote/sale/person/personAssociate/ejDisplayName|string|Sale - Nick name: User's nick name in Service| x |
+|alternative/version/quote/sale/person/personAssociate/ejDisplayName|string|Sale - Nickname: User's nickname in Service| x |
 |alternative/version/quote/sale/person/personAssociate/ejStatus|int|Sale - Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |alternative/version/quote/sale/person/personAssociate/credentialType| *None* |Sale - Auth. type: What type of credentials to use when this user logs in| x |
 |alternative/version/quote/sale/person/personAssociate/credentialDisplayValue| *None* |Sale - Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
@@ -382,7 +387,7 @@ Implementation of the provider for the combined selection
 |alternative/version/quote/sale/person/correspondingAssociate/assocType|listAny|Sale - Type: Type of user: associate, external user, system user, anonymous account| x |
 |alternative/version/quote/sale/person/correspondingAssociate/ejUserId|int|Sale - Service user ID: The database ID of a Service user|  |
 |alternative/version/quote/sale/person/correspondingAssociate/simultaneousEjUser|bool|Sale - Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|alternative/version/quote/sale/person/correspondingAssociate/ejDisplayName|string|Sale - Nick name: User's nick name in Service| x |
+|alternative/version/quote/sale/person/correspondingAssociate/ejDisplayName|string|Sale - Nickname: User's nickname in Service| x |
 |alternative/version/quote/sale/person/correspondingAssociate/ejStatus|int|Sale - Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |alternative/version/quote/sale/person/correspondingAssociate/credentialType| *None* |Sale - Auth. type: What type of credentials to use when this user logs in| x |
 |alternative/version/quote/sale/person/correspondingAssociate/credentialDisplayValue| *None* |Sale - Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
@@ -412,6 +417,8 @@ Implementation of the provider for the combined selection
 |alternative/version/quote/sale/contact/hasInterests|bool|Sale - Has interests: Displays an Icon indicating if the contact has active interests| x |
 |alternative/version/quote/sale/contact/associateId|associate|Sale - Our contact: Displays our contact| x |
 |alternative/version/quote/sale/contact/category|listAny|Sale - Category| x |
+|alternative/version/quote/sale/contact/categoryGroup|listAny|Sale - Category group| x |
+|alternative/version/quote/sale/contact/companyCategoryRank|int|Sale - Category rank| x |
 |alternative/version/quote/sale/contact/business|listAny|Sale - Business| x |
 |alternative/version/quote/sale/contact/country|listAny|Sale - Country: This criterion corresponds to the Country field on the Company card.| x |
 |alternative/version/quote/sale/contact/countryId|int|Sale - Country ID: Country ID| x |
@@ -426,17 +433,18 @@ Implementation of the provider for the combined selection
 |alternative/version/quote/sale/contact/registeredBy|associate|Sale - Registered by: The user who registered the data| x |
 |alternative/version/quote/sale/contact/registeredByFullName|associate|Sale - Registered by - Full name: The user who registered the data| x |
 |alternative/version/quote/sale/contact/registeredDate|date|Sale - Registered date: The date/time the data was registered in UTC.| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |alternative/version/quote/sale/contact/contactSource|listAny|Sale - Source: Source (Company)| x |
 |alternative/version/quote/sale/contact/contactDeleted|bool|Sale - Deleted: Deleted| x |
 |alternative/version/quote/sale/contact/phone/formattedNumber|string|Sale - Phone: Displays phone number|  |
 |alternative/version/quote/sale/contact/activeErpLinks|bool|Sale - ERP connected: Is there an active ERP Sync?| x |
 |alternative/version/quote/sale/contact/deletedDate|datetime|Sale - Deleted date: Deleted date|  |
 |alternative/version/quote/sale/contact/mainContact| *None* |Sale - Main contact: Main contact for this company| x |
+|alternative/version/quote/sale/contact/forceCompany|bool|Sale - Dummy: Dummy|  |
 |alternative/version/quote/sale/contact/contactPhone/formattedNumber|string|Sale - Telephone - Phone: Displays phone number|  |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |alternative/version/quote/sale/contact/contactPhone/description|string|Sale - Telephone - Description: Phone number description| x |
 |alternative/version/quote/sale/contact/contactFax/formattedNumber|string|Sale - Fax - Phone: Displays phone number|  |
 |alternative/version/quote/sale/contact/contactFax/description|string|Sale - Fax - Description: Phone number description| x |
@@ -509,7 +517,7 @@ Implementation of the provider for the combined selection
 |alternative/version/quote/sale/contact/contactAssociate/assocType|listAny|Sale - Type: Type of user: associate, external user, system user, anonymous account| x |
 |alternative/version/quote/sale/contact/contactAssociate/ejUserId|int|Sale - Service user ID: The database ID of a Service user|  |
 |alternative/version/quote/sale/contact/contactAssociate/simultaneousEjUser|bool|Sale - Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|alternative/version/quote/sale/contact/contactAssociate/ejDisplayName|string|Sale - Nick name: User's nick name in Service| x |
+|alternative/version/quote/sale/contact/contactAssociate/ejDisplayName|string|Sale - Nickname: User's nickname in Service| x |
 |alternative/version/quote/sale/contact/contactAssociate/ejStatus|int|Sale - Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |alternative/version/quote/sale/contact/contactAssociate/credentialType| *None* |Sale - Auth. type: What type of credentials to use when this user logs in| x |
 |alternative/version/quote/sale/contact/contactAssociate/credentialDisplayValue| *None* |Sale - Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
@@ -529,6 +537,10 @@ Implementation of the provider for the combined selection
 |alternative/version/quote/sale/contact/contactUdef/SuperOffice:5|unlimitedDate|Sale - companyunlimiteddate: tooltipunlimiteddate| x |
 |alternative/version/quote/sale/contact/contactUdef/SuperOffice:6|bool|Sale - companycheckbox| x |
 |alternative/version/quote/sale/contact/contactUdef/SuperOffice:7|listAny|Sale - companydropdownlistbox| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |alternative/version/quote/sale/contact/contactUdef/SuperOffice:8|decimal|Sale - companydecimal| x |
 |alternative/version/quote/sale/contact/contactUdef/SuperOffice:9|string|Sale - page1saleonly| x |
 |alternative/version/quote/sale/contact/contactUdef/SuperOffice:10|string|Sale - page1marketingonly| x |
@@ -537,10 +549,6 @@ Implementation of the provider for the combined selection
 |alternative/version/quote/sale/contact/contactUdef/SuperOffice:13|listAny|Sale - Udlist two: Static tooltip for udlist two| x |
 |alternative/version/quote/sale/contact/contactExtra/x\_contact\_integer|int|Sale - Extra Integer: Custom integer field| x |
 |alternative/version/quote/sale/contact/contactExtra/x\_contact\_hidden\_integer|int|Sale - Extra hidden integer: Custom integer field - hidden| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |alternative/version/quote/sale/contact/contactExtra/x\_contact\_default\_integer|int|Sale - Extra Default Integer: Custom integer field with default value 123.| x |
 |alternative/version/quote/sale/contact/contactExtra/x\_contact\_float|decimal|Sale - Extra Float: Custom float field with 3 decimals| x |
 |alternative/version/quote/sale/contact/contactExtra/x\_contact\_longtext|string|Sale - Extra LongText: Custom long text field. DO not keep HTML. 3 Line text area editor| x |
@@ -555,7 +563,7 @@ Implementation of the provider for the combined selection
 |alternative/version/quote/sale/contact/contactExtra/x\_contact\_contact\_relation|stringorPK|Sale - Extra Company: Custom company relation. Do not show one-to-many relations. Show function buttons| x |
 |alternative/version/quote/sale/contact/contactExtra/x\_contact\_request\_relation|stringorPK|Sale - Extra Request relation: Request relation on company| x |
 |alternative/version/quote/sale/contact/contactExtra/x\_contact\_contact|stringorPK|Sale - Extra contact relation: Contact relation on company| x |
-|alternative/version/quote/sale/contact/contactExtra/y\_organization/x\_name|string|Sale - Organization - Name| x |
+|alternative/version/quote/sale/contact/contactExtra/y\_organization/x\_name|string|Sale - Organization - Name: Name| x |
 |alternative/version/quote/sale/contact/NumberOfActivities|int|Sale - Number of activities|  |
 |alternative/version/quote/sale/contact/NumberOfActivitiesInPeriod|int|Sale - Number of activities in last 90 days|  |
 |alternative/version/quote/sale/contact/NumberOfNotCompletedActivities|int|Sale - Number of non-completed activities|  |
@@ -607,7 +615,7 @@ Implementation of the provider for the combined selection
 |alternative/version/quote/sale/associate/assocType|listAny|Sale - Type: Type of user: associate, external user, system user, anonymous account| x |
 |alternative/version/quote/sale/associate/ejUserId|int|Sale - Service user ID: The database ID of a Service user|  |
 |alternative/version/quote/sale/associate/simultaneousEjUser|bool|Sale - Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|alternative/version/quote/sale/associate/ejDisplayName|string|Sale - Nick name: User's nick name in Service| x |
+|alternative/version/quote/sale/associate/ejDisplayName|string|Sale - Nickname: User's nickname in Service| x |
 |alternative/version/quote/sale/associate/ejStatus|int|Sale - Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |alternative/version/quote/sale/associate/credentialType| *None* |Sale - Auth. type: What type of credentials to use when this user logs in| x |
 |alternative/version/quote/sale/associate/credentialDisplayValue| *None* |Sale - Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
@@ -633,6 +641,10 @@ Implementation of the provider for the combined selection
 |alternative/version/quote/sale/project/number|string|Sale - Project - Number: Displays the project's number| x |
 |alternative/version/quote/sale/project/type|listAny|Sale - Project - Project type: Displays the project's type| x |
 |alternative/version/quote/sale/project/status|listAny|Sale - Project - Status: Displays the project's status| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |alternative/version/quote/sale/project/statusRank| *None* |Sale - Project - Status rank: Rank of the project status in the status list| x |
 |alternative/version/quote/sale/project/associateId|associate|Sale - Project - ID: Displays login ID of the associate who owns the project| x |
 |alternative/version/quote/sale/project/hasInfoText|bool|Sale - Project - Info: Displays an icon indicating if the project has a description text. The text itself will be displayed in a tooltip.| x |
@@ -641,10 +653,6 @@ Implementation of the provider for the combined selection
 |alternative/version/quote/sale/project/description|string|Sale - Project - Description: Description| x |
 |alternative/version/quote/sale/project/updatedBy|associate|Sale - Project - Updated by: The user who last updated the data| x |
 |alternative/version/quote/sale/project/updatedByFullName|associate|Sale - Project - Updated by - Full name: The user who last updated the data| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |alternative/version/quote/sale/project/updatedDate|date|Sale - Project - Updated: The date/time the data was last updated in UTC.| x |
 |alternative/version/quote/sale/project/registeredBy|associate|Sale - Project - Registered by: The user who registered the data| x |
 |alternative/version/quote/sale/project/registeredByFullName|associate|Sale - Project - Registered by - Full name: The user who registered the data| x |
@@ -685,7 +693,7 @@ Implementation of the provider for the combined selection
 |alternative/version/quote/sale/project/projectAssociate/assocType|listAny|Sale - Project - Type: Type of user: associate, external user, system user, anonymous account| x |
 |alternative/version/quote/sale/project/projectAssociate/ejUserId|int|Sale - Project - Service user ID: The database ID of a Service user|  |
 |alternative/version/quote/sale/project/projectAssociate/simultaneousEjUser|bool|Sale - Project - Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|alternative/version/quote/sale/project/projectAssociate/ejDisplayName|string|Sale - Project - Nick name: User's nick name in Service| x |
+|alternative/version/quote/sale/project/projectAssociate/ejDisplayName|string|Sale - Project - Nickname: User's nickname in Service| x |
 |alternative/version/quote/sale/project/projectAssociate/ejStatus|int|Sale - Project - Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |alternative/version/quote/sale/project/projectAssociate/credentialType| *None* |Sale - Project - Auth. type: What type of credentials to use when this user logs in| x |
 |alternative/version/quote/sale/project/projectAssociate/credentialDisplayValue| *None* |Sale - Project - Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
@@ -737,6 +745,10 @@ Implementation of the provider for the combined selection
 |alternative/version/quote/connection/erpName|int|ERP connection - ERP name: Name of ERP system| x |
 |alternative/version/quote/connection/displayName|string|ERP connection - Name: Localized display name| x |
 |alternative/version/quote/connection/displayDescription|string|ERP connection - Description: Describes the connection in more detail.| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |alternative/version/quote/connection/connectorName|string|ERP connection - Quote Connector name: Name of Quote Connector module. Defined by the developer of the module.| x |
 |alternative/version/quote/connection/extraData|string|ERP connection - Extra data: XML encoded data.| x |
 |alternative/version/quote/connection/updatedBy|associate|ERP connection - Updated by: The user who last updated the data| x |
@@ -745,10 +757,6 @@ Implementation of the provider for the combined selection
 |alternative/version/quote/connection/registeredDate|date|ERP connection - Registered date: The date/time the data was registered in UTC.| x |
 |alternative/version/quote/connection/erpConnection/id|int|ERP connection - ERP connections - Connection ID: Database key for an ERP connection|  |
 |alternative/version/quote/connection/erpConnection/name|string|ERP connection - ERP connections - Name: Name of the ERP connection in the CRM system|  |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |alternative/version/quote/connection/erpConnection/description|string|ERP connection - ERP connections - Description: The description of the ERP connection in the CRM system|  |
 |alternative/version/quote/connection/erpConnection/active|bool|ERP connection - ERP connections - Active: Is the ERP connection currently active?|  |
 |alternative/version/quote/connection/erpConnection/erpId|string|ERP connection - ERP connections - ERP ID: The global unique ID of this ERP connection, as used by the Sync Connector|  |
@@ -770,7 +778,7 @@ Implementation of the provider for the combined selection
 ## Sample
 
 ```http!
-GET /api/v1/archive/QuoteLineShadowSelectionCombinedV2?$select=alternative/reason,alternative/version/description,alternative/version/approvedDate,alternative/version/quote/sale/person/personUdef/SuperOffice:8,alternative/version/quote/sale/person/personExtra/x_person_hidden_integer
+GET /api/v1/archive/QuoteLineShadowSelectionCombinedV2?$select=unitMinimumPrice,alternative/version/quote/sale/person/personMobilePhone/description,alternative/version/quote/sale/person/correspondingAssociate/role,alternative/version/quote/sale/person/withdrawnEmarketingConsent,alternative/version/quote/sale/contact/countryId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

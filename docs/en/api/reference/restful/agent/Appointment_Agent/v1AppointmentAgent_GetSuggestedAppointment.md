@@ -14,6 +14,8 @@ POST /api/v1/Agents/Appointment/GetSuggestedAppointment
 Gets a SuggestedAppointment object.
 
 
+NsApiSlow threshold: 1000 ms.
+
 
 
 
@@ -27,7 +29,7 @@ Gets a SuggestedAppointment object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Appointment/GetSuggestedAppointment?suggestedAppointmentId=303
+POST /api/v1/Agents/Appointment/GetSuggestedAppointment?suggestedAppointmentId=221
 POST /api/v1/Agents/Appointment/GetSuggestedAppointment?$select=name,department,category/id
 ```
 
@@ -91,26 +93,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AutoSuggest": 510,
-  "Deleted": 613,
-  "DaysFuture": 1001,
-  "Tooltip": "voluptate",
-  "Text": "aut",
-  "TaskId": 465,
-  "SuggestedAppointmentId": 679,
-  "SaleTypeStageLinkId": 583,
-  "RegisteredAssociateId": 211,
-  "Rank": 948,
-  "ProjectTypeStatusLinkId": 336,
-  "Name": "Rohan Group",
-  "Duration": 554,
+  "AutoSuggest": 155,
+  "Deleted": 546,
+  "DaysFuture": 860,
+  "Tooltip": "incidunt",
+  "Text": "ad",
+  "TaskId": 180,
+  "SuggestedAppointmentId": 462,
+  "SaleTypeStageLinkId": 143,
+  "RegisteredAssociateId": 306,
+  "Rank": 704,
+  "ProjectTypeStatusLinkId": 459,
+  "Name": "Stracke-Jacobs",
+  "Duration": 390,
   "Associate": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 831
+      "FieldLength": 106
     }
   }
 }

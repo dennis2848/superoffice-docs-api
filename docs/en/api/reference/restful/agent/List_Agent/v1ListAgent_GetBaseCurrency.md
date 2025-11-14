@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/GetBaseCurrency
 Get the base currency, used for calculating exchange rates
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -72,7 +74,7 @@ OK
 POST /api/v1/Agents/List/GetBaseCurrency
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -82,19 +84,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 817,
-  "Name": "Wisoky LLC",
-  "Tooltip": "ab",
-  "Rank": 811,
-  "Rate": 12225.734,
-  "Units": 8229.884,
+  "CurrencyId": 856,
+  "Name": "Bernhard, Kovacek and Murray",
+  "Tooltip": "quos",
+  "Rank": 318,
+  "Rate": 16108.76,
+  "Units": 22561.666,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 500
+      "FieldLength": 578
     }
   }
 }

@@ -14,6 +14,8 @@ POST /api/v1/Agents/CustomerService/GetSmsConfig
 Get the SmsConfig settings for Customer Service sms providers.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -80,18 +82,18 @@ Content-Type: application/json; charset=utf-8
 
 {
   "DefaultSmsCountry": "Sokovia",
-  "NetServerSmsProvider": "esse",
-  "NsPluginSender": "ea",
+  "NetServerSmsProvider": "est",
+  "NsPluginSender": "quis",
   "NsPluginConfig": {
-    "NsPluginConfig1": "quibusdam",
-    "NsPluginConfig2": "aliquam"
+    "NsPluginConfig1": "vitae",
+    "NsPluginConfig2": "qui"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 453
+      "FieldLength": 148
     }
   }
 }

@@ -14,6 +14,8 @@ POST /api/v1/Agents/Workflow/CreateEmailFlowContent
 Create content to an email flow
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -70,12 +72,12 @@ OK
 POST /api/v1/Agents/Workflow/CreateEmailFlowContent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailFlowId": 375,
-  "ContentName": "Murray Group"
+  "EmailFlowId": 153,
+  "ContentName": "Lueilwitz, Kris and Lind"
 }
 ```
 
@@ -85,5 +87,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-578
+110
 ```

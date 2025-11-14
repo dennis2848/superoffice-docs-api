@@ -14,6 +14,8 @@ POST /api/v1/Agents/Dash/SaveDashTileDefinition
 Updates the existing DashTileDefinition or creates a new DashTileDefinition if the id parameter is 0.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -100,29 +102,29 @@ OK
 POST /api/v1/Agents/Dash/SaveDashTileDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 722,
-  "Name": "Pouros-Schulist",
-  "Description": "Virtual contextually-based middleware",
-  "DefaultHeight": 555,
-  "DefaultWidth": 351,
+  "DashboardTileDefinitionId": 604,
+  "Name": "Dickens-Mills",
+  "Description": "Total bifurcated synergy",
+  "DefaultHeight": 723,
+  "DefaultWidth": 552,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Stamm-Konopelski",
-  "SelectionId": 70,
+  "EntityName": "O'Reilly-Moen",
+  "SelectionId": 613,
   "CurrencyMode": "Base",
-  "CurrencyCode": "cum",
+  "CurrencyCode": "et",
   "Measure": "Average",
-  "MeasureField": "similique",
-  "SortBy": "sunt",
-  "LayoutConfig": "incidunt",
-  "SecondarySelectionId": 515,
-  "MeasureByField": "perspiciatis",
+  "MeasureField": "qui",
+  "SortBy": "eum",
+  "LayoutConfig": "magnam",
+  "SecondarySelectionId": 244,
+  "MeasureByField": "consequatur",
   "Usage": "Dashboard",
-  "ProviderName": "Hauck LLC"
+  "ProviderName": "Halvorson-Huels"
 }
 ```
 
@@ -133,31 +135,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 81,
-  "Name": "Bartoletti LLC",
-  "Description": "User-friendly scalable productivity",
-  "DefaultHeight": 321,
-  "DefaultWidth": 182,
+  "DashboardTileDefinitionId": 668,
+  "Name": "Bogisich Inc and Sons",
+  "Description": "Intuitive secondary approach",
+  "DefaultHeight": 125,
+  "DefaultWidth": 342,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Bernhard Group",
-  "SelectionId": 665,
+  "EntityName": "Nienow Group",
+  "SelectionId": 325,
   "CurrencyMode": "Base",
-  "CurrencyCode": "laborum",
+  "CurrencyCode": "eos",
   "Measure": "Average",
-  "MeasureField": "dolorem",
-  "SortBy": "ut",
-  "LayoutConfig": "molestiae",
-  "SecondarySelectionId": 761,
-  "MeasureByField": "error",
+  "MeasureField": "corrupti",
+  "SortBy": "doloribus",
+  "LayoutConfig": "libero",
+  "SecondarySelectionId": 390,
+  "MeasureByField": "est",
   "Usage": "Dashboard",
-  "ProviderName": "Casper-Runolfsson",
+  "ProviderName": "Koepp Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 338
+      "FieldLength": 340
     }
   }
 }

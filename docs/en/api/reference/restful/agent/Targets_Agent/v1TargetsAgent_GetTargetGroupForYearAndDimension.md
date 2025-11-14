@@ -14,6 +14,8 @@ POST /api/v1/Agents/Targets/GetTargetGroupForYearAndDimension
 Returns the target group for the specified year and dimension.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -80,12 +82,12 @@ OK
 POST /api/v1/Agents/Targets/GetTargetGroupForYearAndDimension
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetYear": 376,
-  "DimensionId": 353
+  "TargetYear": 310,
+  "DimensionId": 535
 }
 ```
 
@@ -96,30 +98,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 493,
-  "Year": 793,
+  "TargetGroupId": 155,
+  "Year": 940,
   "EntityType": "None",
   "PeriodType": "HalfYear",
   "TargetAssignments": [
     {
-      "TargetAssignmentInfoId": 949,
+      "TargetAssignmentInfoId": 745,
       "Values": [
-        654,
-        68
+        365,
+        771
       ],
-      "Locked": true,
+      "Locked": false,
       "TargetAssociate": null,
       "TargetContact": null,
       "TargetUserGroup": null,
       "Currency": null,
-      "DimensionListItem": 876,
-      "DimensionListItemDisplayName": "Bartell-Wintheiser",
+      "DimensionListItem": 51,
+      "DimensionListItemDisplayName": "Thiel-Osinski",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 51
+          "FieldLength": 643
         }
       }
     }
@@ -129,8 +131,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 330
+      "FieldType": "System.Int32",
+      "FieldLength": 200
     }
   }
 }

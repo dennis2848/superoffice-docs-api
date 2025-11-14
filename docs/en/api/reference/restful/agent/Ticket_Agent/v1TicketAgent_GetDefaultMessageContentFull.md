@@ -14,6 +14,8 @@ POST /api/v1/Agents/Ticket/GetDefaultMessageContentFull
 Generate a default message content: attachments and body as sanitized HTML
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -76,14 +78,14 @@ OK
 POST /api/v1/Agents/Ticket/GetDefaultMessageContentFull
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 867,
+  "TicketId": 851,
   "MessageActionType": "Forward",
-  "TicketMessageId": 703,
-  "TicketTypeId": 271
+  "TicketMessageId": 454,
+  "TicketTypeId": 144
 }
 ```
 
@@ -94,23 +96,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Body": "nisi",
+  "Body": "facilis",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 747,
-      "Name": "Vandervort, Rath and Koepp",
-      "ContentType": "quasi",
-      "AttSize": 244,
+      "AttachmentId": 394,
+      "Name": "Johns, Stark and Veum",
+      "ContentType": "accusamus",
+      "AttSize": 373,
       "InlineImage": false,
-      "ContentId": "dolorem",
-      "AuthKey": "similique",
+      "ContentId": "tenetur",
+      "AuthKey": "atque",
       "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 183
+          "FieldLength": 449
         }
       }
     }

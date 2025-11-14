@@ -1,12 +1,16 @@
----
+﻿---
 uid: help-da-tutorial-form-mailing
 title: Selvstudium - udsendelse af formularsvar
 description: I dette selvstudium lærer du, hvordan du opretter en formularsvarudsendelse.
 keywords: formularsvar, formularudsendelse
-date: 06.27.2025
+date: 09.26.2025
 version: 10.5
 content_type: tutorial
+category: marketing
+topic: mailing
+license: marketingessentials
 audience: person
+audience_tooltip: SuperOffice Marketing
 language: da
 ---
 
@@ -57,5 +61,5 @@ Det første trin ved oprettelse af et formularsvar kaldes **Opsætning**. Her ka
 [!include[Trin 3 e-mail](includes/step-3-content-email.md)]
 
 <!-- Referenced links -->
-[1]: ../../../../admin/lists/learn/add-items-to-mailing-domain.md
+[1]: ../../admin/add-domain.md
 [2]: ../../../learn/create-folder.md

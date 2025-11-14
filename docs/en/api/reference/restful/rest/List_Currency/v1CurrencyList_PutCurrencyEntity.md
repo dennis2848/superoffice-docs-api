@@ -87,13 +87,13 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 389,
-  "Name": "Stark LLC",
-  "Tooltip": "debitis",
-  "Rank": 699,
-  "Rate": 16635.272,
-  "Units": 9345.588,
-  "Deleted": true
+  "CurrencyId": 453,
+  "Name": "Will Inc and Sons",
+  "Tooltip": "tempora",
+  "Rank": 921,
+  "Rate": 28428.514,
+  "Units": 12955.956,
+  "Deleted": false
 }
 ```
 
@@ -104,19 +104,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 176,
-  "Name": "Skiles-DuBuque",
-  "Tooltip": "officiis",
-  "Rank": 536,
-  "Rate": 21919.196,
-  "Units": 6515.586,
+  "CurrencyId": 489,
+  "Name": "Wuckert, Conn and Lowe",
+  "Tooltip": "sequi",
+  "Rank": 454,
+  "Rate": 28397.174,
+  "Units": 18042.438,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 726
+      "FieldLength": 527
     }
   }
 }

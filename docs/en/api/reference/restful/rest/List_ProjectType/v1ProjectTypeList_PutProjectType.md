@@ -79,16 +79,16 @@ OK
 PUT /api/v1/List/ProjectType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 890,
-  "Name": "Runolfsson Group",
-  "Tooltip": "qui",
-  "Deleted": false,
-  "UdListDefinitionId": 430,
-  "Rank": 901
+  "Id": 932,
+  "Name": "Medhurst Group",
+  "Tooltip": "aut",
+  "Deleted": true,
+  "UdListDefinitionId": 610,
+  "Rank": 887
 }
 ```
 
@@ -99,18 +99,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 570,
-  "Name": "Hayes, Oberbrunner and Rodriguez",
-  "Tooltip": "non",
+  "Id": 874,
+  "Name": "Boyer Group",
+  "Tooltip": "adipisci",
   "Deleted": true,
-  "UdListDefinitionId": 494,
-  "Rank": 879,
+  "UdListDefinitionId": 265,
+  "Rank": 896,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 853
+      "FieldLength": 188
     }
   }
 }

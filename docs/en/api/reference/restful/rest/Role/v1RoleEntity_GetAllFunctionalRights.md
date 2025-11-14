@@ -79,7 +79,7 @@ OK
 GET /api/v1/Role/{roleType}/FunctionRight
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -90,56 +90,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 831,
-    "Name": "Gerhold-Collins",
-    "ToolTip": "Voluptatem consequatur ea doloremque.",
+    "Id": 726,
+    "Name": "Smitham LLC",
+    "ToolTip": "Qui et rerum sapiente.",
     "Deleted": true,
-    "Rank": 830,
-    "Type": "tempora",
-    "ColorBlock": 502,
-    "IconHint": "aut",
-    "Selected": false,
-    "LastChanged": "2011-11-07T03:47:00.2224384+01:00",
+    "Rank": 28,
+    "Type": "ut",
+    "ColorBlock": 810,
+    "IconHint": "placeat",
+    "Selected": true,
+    "LastChanged": "1998-07-30T02:30:52.8349052+02:00",
     "ChildItems": [
       {
-        "Id": 554,
-        "Name": "Considine Group",
-        "ToolTip": "Necessitatibus itaque quam explicabo est.",
+        "Id": 948,
+        "Name": "Wilderman Group",
+        "ToolTip": "Sint facilis ut.",
         "Deleted": true,
-        "Rank": 452,
-        "Type": "iusto",
-        "ColorBlock": 743,
-        "IconHint": "delectus",
+        "Rank": 55,
+        "Type": "iste",
+        "ColorBlock": 459,
+        "IconHint": "aut",
         "Selected": false,
-        "LastChanged": "2008-04-29T03:47:00.2224384+02:00",
+        "LastChanged": "2002-10-14T02:30:52.8349052+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "harum",
-        "StyleHint": "saepe",
+        "ExtraInfo": "aut",
+        "StyleHint": "repellendus",
         "Hidden": true,
-        "FullName": "Mrs. Cameron Von",
+        "FullName": "Dr. Jovanny Wilton Feeney DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 844
+            "FieldType": "System.Int32",
+            "FieldLength": 849
           }
         }
       }
     ],
-    "ExtraInfo": "sit",
-    "StyleHint": "neque",
+    "ExtraInfo": "totam",
+    "StyleHint": "ut",
     "Hidden": false,
-    "FullName": "Isaac Heaney",
+    "FullName": "Mr. Virginie Neal Weber DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 767
+        "FieldLength": 372
       }
     }
   }

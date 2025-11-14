@@ -86,7 +86,7 @@ OK
 GET /api/v1/List/Position/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -97,56 +97,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 922,
-    "Name": "Volkman, Wiza and Swaniawski",
-    "ToolTip": "Rerum inventore ipsa perferendis accusamus.",
+    "Id": 724,
+    "Name": "Funk, Mante and Smith",
+    "ToolTip": "Est omnis fugit.",
     "Deleted": true,
-    "Rank": 413,
-    "Type": "dignissimos",
-    "ColorBlock": 875,
-    "IconHint": "inventore",
+    "Rank": 782,
+    "Type": "et",
+    "ColorBlock": 530,
+    "IconHint": "nihil",
     "Selected": true,
-    "LastChanged": "2011-12-12T03:47:00.7067961+01:00",
+    "LastChanged": "2014-05-15T02:30:53.3348881+02:00",
     "ChildItems": [
       {
-        "Id": 532,
-        "Name": "Weimann Inc and Sons",
-        "ToolTip": "Veritatis qui.",
-        "Deleted": true,
-        "Rank": 34,
-        "Type": "quos",
-        "ColorBlock": 910,
-        "IconHint": "deleniti",
+        "Id": 728,
+        "Name": "Stroman-Heller",
+        "ToolTip": "Deserunt accusamus facilis et rem.",
+        "Deleted": false,
+        "Rank": 332,
+        "Type": "ipsam",
+        "ColorBlock": 795,
+        "IconHint": "reprehenderit",
         "Selected": false,
-        "LastChanged": "2021-02-11T03:47:00.7067961+01:00",
+        "LastChanged": "2018-03-01T02:30:53.3348881+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "est",
-        "StyleHint": "sit",
+        "ExtraInfo": "quo",
+        "StyleHint": "impedit",
         "Hidden": false,
-        "FullName": "Prof. Halle Alena Casper",
+        "FullName": "Demario Damion Ferry DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 623
+            "FieldLength": 871
           }
         }
       }
     ],
-    "ExtraInfo": "quos",
-    "StyleHint": "neque",
-    "Hidden": false,
-    "FullName": "Miss Billy Little",
+    "ExtraInfo": "aliquam",
+    "StyleHint": "numquam",
+    "Hidden": true,
+    "FullName": "Lonnie Carlo Schumm DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 385
+        "FieldType": "System.String",
+        "FieldLength": 195
       }
     }
   }

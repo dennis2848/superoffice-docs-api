@@ -14,6 +14,8 @@ POST /api/v1/Agents/Appointment/GetPublishedAppointment
 Get published appointment by appointment id.
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -128,11 +130,11 @@ OK
 POST /api/v1/Agents/Appointment/GetPublishedAppointment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 841
+  "AppointmentId": 368
 }
 ```
 
@@ -143,67 +145,67 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 490,
-  "StartDate": "2000-11-08T03:46:54.0039095+01:00",
-  "EndDate": "2012-03-05T03:46:54.0039095+01:00",
+  "AppointmentId": 866,
+  "StartDate": "2004-01-31T02:30:46.522607+01:00",
+  "EndDate": "2005-06-19T02:30:46.522607+02:00",
   "Type": "BookingForChecklist",
-  "Task": "in",
-  "AssociateFullName": "Zora Yundt",
-  "ContactName": "Erdman, Stehr and Gaylord",
-  "Description": "De-engineered reciprocal parallelism",
-  "PersonFullName": "Sophia Spinka",
-  "PersonId": 518,
-  "ContactId": 107,
-  "ProjectId": 146,
-  "ProjectName": "Quigley LLC",
-  "IsPublished": true,
-  "AssociateId": 667,
-  "ColorIndex": 607,
+  "Task": "et",
+  "AssociateFullName": "Mrs. Amaya Ortiz III",
+  "ContactName": "Lueilwitz LLC",
+  "Description": "Integrated interactive capability",
+  "PersonFullName": "Pauline Werner Hane I",
+  "PersonId": 575,
+  "ContactId": 922,
+  "ProjectId": 754,
+  "ProjectName": "Will, McKenzie and Anderson",
+  "IsPublished": false,
+  "AssociateId": 907,
+  "ColorIndex": 281,
   "IsFree": false,
   "HasAlarm": true,
   "IsAlldayEvent": true,
   "Private": "PrivateGroup",
-  "PriorityId": 326,
-  "PriorityName": "Krajcik-Erdman",
+  "PriorityId": 456,
+  "PriorityName": "Champlin-Mraz",
   "TaskType": "Appointment",
   "IsBookingMain": false,
   "IsRecurrence": false,
   "IsBooking": false,
-  "ActiveDate": "2003-03-12T03:46:54.0039095+01:00",
+  "ActiveDate": "2023-04-24T02:30:46.522607+02:00",
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
   "Completed": "Completed",
   "RecurringPattern": "Custom",
-  "RecurringStartDate": "2012-05-01T03:46:54.0039095+02:00",
-  "RecurringEndDate": "2015-08-30T03:46:54.0039095+02:00",
-  "MotherId": 567,
-  "AssignedBy": 958,
-  "AssignedByFullName": "Moshe Nader IV",
+  "RecurringStartDate": "2016-04-26T02:30:46.522607+02:00",
+  "RecurringEndDate": "2016-07-05T02:30:46.522607+02:00",
+  "MotherId": 288,
+  "AssignedBy": 322,
+  "AssignedByFullName": "Eudora Sipes MD",
   "RejectReason": "",
-  "Location": "aut",
-  "AlarmLeadTime": "eos",
-  "SaleId": 172,
-  "SaleName": "Fritsch LLC",
-  "AssociateName": "Torphy-Russel",
-  "CreatedDate": "2010-01-25T03:46:54.0039095+01:00",
-  "CreatedBy": "qui",
-  "CreatedByFullName": "Bruce Herzog PhD",
-  "CreatedByAssociateId": 209,
+  "Location": "odit",
+  "AlarmLeadTime": "consectetur",
+  "SaleId": 2,
+  "SaleName": "Wuckert Group",
+  "AssociateName": "Mills, Nienow and Zemlak",
+  "CreatedDate": "2011-10-25T02:30:46.522607+02:00",
+  "CreatedBy": "sed",
+  "CreatedByFullName": "Mrs. Armand Joel Greenholt III",
+  "CreatedByAssociateId": 21,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "OwnedExternally": "Google",
-  "MotherAssociateId": 253,
+  "MotherAssociateId": 628,
   "JoinVideomeetUrl": "http://www.example.com/",
-  "PreferredTZLocation": 644,
-  "Title": "ut",
-  "Agenda": "consequuntur",
-  "InternalNotes": "rerum",
+  "PreferredTZLocation": 890,
+  "Title": "porro",
+  "Agenda": "fuga",
+  "InternalNotes": "repellendus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 298
+      "FieldType": "System.Int32",
+      "FieldLength": 352
     }
   }
 }

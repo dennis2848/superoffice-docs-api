@@ -14,6 +14,8 @@ POST /api/v1/Agents/Dash/CreateDefaultPreviewDashTile
 Loading default values into a new PreviewDashTile.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -57,7 +59,7 @@ OK
 POST /api/v1/Agents/Dash/CreateDefaultPreviewDashTile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -67,14 +69,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Bradtke LLC",
+  "Name": "Conn-Kuhlman",
   "TileType": "Area",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 798
+      "FieldLength": 405
     }
   }
 }

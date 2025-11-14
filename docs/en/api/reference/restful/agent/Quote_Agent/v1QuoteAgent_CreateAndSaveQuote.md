@@ -14,6 +14,8 @@ POST /api/v1/Agents/Quote/CreateAndSaveQuote
 Creates a new quote on a sale.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -92,9 +94,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 501,
-  "ConnectionId": 829,
-  "FirstAlternativeName": "Cartwright-Batz"
+  "SaleId": 893,
+  "ConnectionId": 994,
+  "FirstAlternativeName": "Beahan, Friesen and Bechtelar"
 }
 ```
 
@@ -105,58 +107,58 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 782,
-  "SaleId": 764,
-  "QuoteConnectionId": 544,
-  "ERPQuoteKey": "recusandae",
-  "ERPOrderKey": "rem",
-  "ActiveQuoteVersionId": 784,
-  "AcceptedQuoteAlternativeId": 716,
-  "UseValuesFromQuote": 356,
-  "DocumentId": 624,
-  "PoNumber": "1426661",
-  "OrderComment": "corporis",
-  "PreferredEmailCulture": "lincoln@heidenreich.uk",
+  "QuoteId": 370,
+  "SaleId": 404,
+  "QuoteConnectionId": 117,
+  "ERPQuoteKey": "rerum",
+  "ERPOrderKey": "rerum",
+  "ActiveQuoteVersionId": 832,
+  "AcceptedQuoteAlternativeId": 844,
+  "UseValuesFromQuote": 469,
+  "DocumentId": 270,
+  "PoNumber": "456101",
+  "OrderComment": "nisi",
+  "PreferredEmailCulture": "geraldine@schmittfahey.co.uk",
   "QuoteVersions": [
     {
-      "QuoteVersionId": 137,
-      "ERPQuoteVersionKey": "aut",
-      "QuoteId": 308,
-      "Description": "Realigned exuding orchestration",
-      "Number": "1297568",
+      "QuoteVersionId": 794,
+      "ERPQuoteVersionKey": "et",
+      "QuoteId": 38,
+      "Description": "Mandatory value-added instruction set",
+      "Number": "975400",
       "State": "Archived",
       "ArchivedState": "Archived",
       "Status": "Error",
       "Reason": "",
-      "LikelyQuoteAlternativeId": 777,
-      "SentDate": "2004-05-23T03:46:55.2226157+02:00",
-      "FollowupId": 931,
-      "ExpirationDate": "2024-03-24T03:46:55.2226157+01:00",
-      "DeliveryCountryId": 526,
-      "HasOwnDeliveryAddress": true,
-      "InvoiceCountryId": 134,
+      "LikelyQuoteAlternativeId": 813,
+      "SentDate": "2002-02-12T02:30:47.7413192+01:00",
+      "FollowupId": 414,
+      "ExpirationDate": "2024-03-24T02:30:47.7413192+01:00",
+      "DeliveryCountryId": 702,
+      "HasOwnDeliveryAddress": false,
+      "InvoiceCountryId": 293,
       "HasOwnInvoiceAddress": false,
-      "ERPPaymentTermsKey": "cumque",
-      "ERPPaymentTypeKey": "fugiat",
-      "ERPDeliveryTermsKey": "excepturi",
-      "ERPDeliveryTypeKey": "ut",
-      "Rank": 852,
-      "ApprovedBy": 580,
-      "ApprovedText": "perspiciatis",
-      "ApprovedRegisteredBy": 129,
-      "ApprovedRegisteredDate": "2015-03-24T03:46:55.2226157+01:00",
-      "ExtraField1": "saepe",
-      "ExtraField2": "velit",
-      "ExtraField3": "autem",
-      "ExtraField4": "asperiores",
-      "ExtraField5": "esse",
-      "LastRecalculated": "2007-11-03T03:46:55.2226157+01:00",
-      "Updated": "1999-02-18T03:46:55.2226157+01:00",
-      "UpdatedAssociateId": 145,
-      "Registered": "2011-06-01T03:46:55.2226157+02:00",
-      "RegisteredAssociateId": 206,
-      "RequestAssociateId": 853,
-      "RequestComment": "exercitationem",
+      "ERPPaymentTermsKey": "cum",
+      "ERPPaymentTypeKey": "magni",
+      "ERPDeliveryTermsKey": "sunt",
+      "ERPDeliveryTypeKey": "adipisci",
+      "Rank": 109,
+      "ApprovedBy": 648,
+      "ApprovedText": "consequatur",
+      "ApprovedRegisteredBy": 372,
+      "ApprovedRegisteredDate": "2020-07-14T02:30:47.7413192+02:00",
+      "ExtraField1": "in",
+      "ExtraField2": "illum",
+      "ExtraField3": "delectus",
+      "ExtraField4": "magni",
+      "ExtraField5": "reprehenderit",
+      "LastRecalculated": "2004-09-25T02:30:47.7413192+02:00",
+      "Updated": "2012-06-24T02:30:47.7413192+02:00",
+      "UpdatedAssociateId": 924,
+      "Registered": "2019-04-10T02:30:47.7413192+02:00",
+      "RegisteredAssociateId": 522,
+      "RequestAssociateId": 904,
+      "RequestComment": "dignissimos",
       "QuoteAlternatives": [
         {},
         {}
@@ -165,8 +167,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 680
+          "FieldType": "System.String",
+          "FieldLength": 115
         }
       }
     }
@@ -176,7 +178,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 454
+      "FieldLength": 734
     }
   }
 }

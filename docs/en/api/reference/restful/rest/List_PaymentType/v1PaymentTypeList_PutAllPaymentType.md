@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/PaymentType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 517,
-    "Name": "Kling-Little",
-    "Tooltip": "quaerat",
+    "Id": 228,
+    "Name": "Ankunding Group",
+    "Tooltip": "dolor",
     "Deleted": true,
-    "UdListDefinitionId": 420,
-    "Rank": 75
+    "UdListDefinitionId": 713,
+    "Rank": 37
   },
   {
-    "Id": 517,
-    "Name": "Kling-Little",
-    "Tooltip": "quaerat",
+    "Id": 228,
+    "Name": "Ankunding Group",
+    "Tooltip": "dolor",
     "Deleted": true,
-    "UdListDefinitionId": 420,
-    "Rank": 75
+    "UdListDefinitionId": 713,
+    "Rank": 37
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 122,
-    "Name": "Padberg Group",
-    "Tooltip": "nihil",
+    "Id": 822,
+    "Name": "Pollich Inc and Sons",
+    "Tooltip": "ab",
     "Deleted": false,
-    "UdListDefinitionId": 995,
-    "Rank": 677,
+    "UdListDefinitionId": 655,
+    "Rank": 4,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 753
+        "FieldType": "System.Int32",
+        "FieldLength": 548
       }
     }
   }

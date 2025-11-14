@@ -76,25 +76,25 @@ OK
 PUT /api/v1/List/ProductType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 566,
-    "Name": "Farrell, Wintheiser and Grimes",
-    "Tooltip": "commodi",
-    "Deleted": true,
-    "Rank": 137,
-    "UdListDefinitionId": 747
+    "HeadingId": 808,
+    "Name": "Feil, Mayer and Donnelly",
+    "Tooltip": "quam",
+    "Deleted": false,
+    "Rank": 683,
+    "UdListDefinitionId": 20
   },
   {
-    "HeadingId": 566,
-    "Name": "Farrell, Wintheiser and Grimes",
-    "Tooltip": "commodi",
-    "Deleted": true,
-    "Rank": 137,
-    "UdListDefinitionId": 747
+    "HeadingId": 808,
+    "Name": "Feil, Mayer and Donnelly",
+    "Tooltip": "quam",
+    "Deleted": false,
+    "Rank": 683,
+    "UdListDefinitionId": 20
   }
 ]
 ```
@@ -107,18 +107,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 369,
-    "Name": "McDermott, Grant and Kirlin",
-    "Tooltip": "consequatur",
+    "HeadingId": 101,
+    "Name": "Pollich Inc and Sons",
+    "Tooltip": "et",
     "Deleted": false,
-    "Rank": 685,
-    "UdListDefinitionId": 445,
+    "Rank": 998,
+    "UdListDefinitionId": 86,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 764
+        "FieldType": "System.Int32",
+        "FieldLength": 750
       }
     }
   }

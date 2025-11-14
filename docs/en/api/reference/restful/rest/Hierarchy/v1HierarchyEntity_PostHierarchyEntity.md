@@ -15,6 +15,7 @@ Creates a new HierarchyEntity
 
 
 Calls the List agent service SaveHierarchyEntity.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -95,36 +96,36 @@ OK
 POST /api/v1/Hierarchy
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 957,
+  "HierarchyId": 716,
   "Domain": "Dashboards",
-  "Name": "Brekke Inc and Sons",
-  "Fullname": "ea",
-  "ParentId": 560,
+  "Name": "Frami-Kunde",
+  "Fullname": "perferendis",
+  "ParentId": 611,
   "Children": [
     {
-      "HierarchyId": 865,
+      "HierarchyId": 888,
       "Domain": "Dashboards",
-      "Name": "Blanda Inc and Sons",
-      "Fullname": "illo",
-      "ParentId": 88,
+      "Name": "Smith-Simonis",
+      "Fullname": "et",
+      "ParentId": 844,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2004-02-10T03:47:00.0349452+01:00",
-      "RegisteredAssociateId": 295,
-      "Updated": "1998-06-19T03:47:00.0349452+02:00",
-      "UpdatedAssociateId": 933
+      "Registered": "2025-01-18T02:30:52.6630355+01:00",
+      "RegisteredAssociateId": 747,
+      "Updated": "2019-03-13T02:30:52.6630355+01:00",
+      "UpdatedAssociateId": 366
     }
   ],
-  "Registered": "2020-01-03T03:47:00.0349452+01:00",
-  "RegisteredAssociateId": 950,
-  "Updated": "2018-03-22T03:47:00.0349452+01:00",
-  "UpdatedAssociateId": 428
+  "Registered": "2005-10-31T02:30:52.6630355+01:00",
+  "RegisteredAssociateId": 921,
+  "Updated": "2013-05-07T02:30:52.6630355+02:00",
+  "UpdatedAssociateId": 362
 }
 ```
 
@@ -135,46 +136,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 233,
+  "HierarchyId": 157,
   "Domain": "Dashboards",
-  "Name": "Hirthe, Bauch and Lowe",
-  "Fullname": "cumque",
-  "ParentId": 433,
+  "Name": "Crooks-Durgan",
+  "Fullname": "officiis",
+  "ParentId": 315,
   "Children": [
     {
-      "HierarchyId": 14,
+      "HierarchyId": 103,
       "Domain": "Dashboards",
-      "Name": "Collins-Ruecker",
-      "Fullname": "eaque",
-      "ParentId": 368,
+      "Name": "Dare, McCullough and Rippin",
+      "Fullname": "veniam",
+      "ParentId": 280,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2011-01-31T03:47:00.0349452+01:00",
-      "RegisteredAssociateId": 225,
-      "Updated": "2003-08-15T03:47:00.0349452+02:00",
-      "UpdatedAssociateId": 34,
+      "Registered": "2011-04-01T02:30:52.6630355+02:00",
+      "RegisteredAssociateId": 283,
+      "Updated": "2023-08-09T02:30:52.6630355+02:00",
+      "UpdatedAssociateId": 50,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 249
+          "FieldLength": 462
         }
       }
     }
   ],
-  "Registered": "2024-08-26T03:47:00.0349452+02:00",
-  "RegisteredAssociateId": 613,
-  "Updated": "2006-04-29T03:47:00.0349452+02:00",
-  "UpdatedAssociateId": 892,
+  "Registered": "2002-12-29T02:30:52.6630355+01:00",
+  "RegisteredAssociateId": 622,
+  "Updated": "2025-05-26T02:30:52.6630355+02:00",
+  "UpdatedAssociateId": 123,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 354
+      "FieldType": "System.String",
+      "FieldLength": 407
     }
   },
   "_Links": {

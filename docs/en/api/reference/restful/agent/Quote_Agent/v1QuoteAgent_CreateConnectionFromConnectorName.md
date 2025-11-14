@@ -14,6 +14,8 @@ POST /api/v1/Agents/Quote/CreateConnectionFromConnectorName
 Create a new connection.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -92,7 +94,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConnectorName": "Cartwright, Zboncak and Koepp"
+  "ConnectorName": "Lemke-Hickle"
 }
 ```
 
@@ -103,54 +105,54 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 63,
-  "ERPName": "Ward Inc and Sons",
-  "DisplayName": "Douglas-Goodwin",
-  "DisplayDescription": "Profit-focused 24/7 internet solution",
-  "Rank": 673,
-  "ConnectorName": "Altenwerth, Lubowitz and Pacocha",
-  "ErpConnectionId": 847,
-  "ExtraData": "reiciendis",
-  "IsAvailable": true,
+  "QuoteConnectionId": 359,
+  "ERPName": "Aufderhar-Ruecker",
+  "DisplayName": "Schimmel, O'Kon and Goyette",
+  "DisplayDescription": "Decentralized full-range benchmark",
+  "Rank": 718,
+  "ConnectorName": "D'Amore-Renner",
+  "ErpConnectionId": 19,
+  "ExtraData": "voluptas",
+  "IsAvailable": false,
   "InitializeResponse": null,
   "PriceLists": [
     {
-      "PriceListId": 925,
-      "ERPPriceListKey": "nulla",
-      "QuoteConnectionId": 461,
-      "Name": "Breitenberg, Mueller and Cremin",
-      "Description": "Re-engineered content-based process improvement",
-      "Currency": "voluptatem",
-      "CurrencyName": "Bernier Group",
-      "ValidFrom": "2002-03-23T03:46:55.2226157+01:00",
-      "ValidTo": "2011-11-24T03:46:55.2226157+01:00",
-      "IsActive": false,
+      "PriceListId": 27,
+      "ERPPriceListKey": "ipsa",
+      "QuoteConnectionId": 960,
+      "Name": "Upton-Runolfsdottir",
+      "Description": "Decentralized intermediate info-mediaries",
+      "Currency": "assumenda",
+      "CurrencyName": "Wintheiser, Halvorson and Kassulke",
+      "ValidFrom": "2005-06-12T02:30:47.7256947+02:00",
+      "ValidTo": "2011-10-01T02:30:47.7256947+02:00",
+      "IsActive": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 502
+          "FieldLength": 216
         }
       }
     }
   ],
-  "AllAccess": true,
-  "Deleted": true,
+  "AllAccess": false,
+  "Deleted": false,
   "UserGroupAccessIds": [
-    455,
-    717
+    824,
+    295
   ],
   "AssociateAccessIds": [
-    434,
-    377
+    297,
+    798
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 746
+      "FieldLength": 898
     }
   }
 }

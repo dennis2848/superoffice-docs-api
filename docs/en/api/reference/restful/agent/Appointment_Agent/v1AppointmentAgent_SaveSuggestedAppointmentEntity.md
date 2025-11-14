@@ -14,6 +14,8 @@ POST /api/v1/Agents/Appointment/SaveSuggestedAppointmentEntity
 Updates the existing SuggestedAppointmentEntity or creates a new SuggestedAppointmentEntity if the id parameter is 0.
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -90,21 +92,21 @@ OK
 POST /api/v1/Agents/Appointment/SaveSuggestedAppointmentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedAppointmentId": 652,
-  "Name": "Gerhold-Hagenes",
-  "Tooltip": "omnis",
-  "Rank": 416,
-  "Deleted": true,
-  "DaysFuture": 655,
-  "Duration": "odio",
+  "SuggestedAppointmentId": 325,
+  "Name": "Wolf Inc and Sons",
+  "Tooltip": "earum",
+  "Rank": 424,
+  "Deleted": false,
+  "DaysFuture": 799,
+  "Duration": "nihil",
   "AutoSuggest": false,
-  "IsMilestone": true,
+  "IsMilestone": false,
   "AssignToMember": false,
-  "Text": "non",
+  "Text": "dolores",
   "ProjectTypeStatusLink": null,
   "SaleTypeStageLink": null,
   "Type": null
@@ -118,17 +120,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedAppointmentId": 555,
-  "Name": "Weimann, Carter and Durgan",
-  "Tooltip": "dolorem",
-  "Rank": 328,
-  "Deleted": false,
-  "DaysFuture": 385,
-  "Duration": "consequatur",
-  "AutoSuggest": true,
-  "IsMilestone": true,
-  "AssignToMember": false,
-  "Text": "dolorem",
+  "SuggestedAppointmentId": 525,
+  "Name": "Spinka Group",
+  "Tooltip": "praesentium",
+  "Rank": 778,
+  "Deleted": true,
+  "DaysFuture": 466,
+  "Duration": "voluptas",
+  "AutoSuggest": false,
+  "IsMilestone": false,
+  "AssignToMember": true,
+  "Text": "voluptatem",
   "ProjectTypeStatusLink": null,
   "SaleTypeStageLink": null,
   "Type": null,
@@ -137,7 +139,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 649
+      "FieldLength": 59
     }
   }
 }

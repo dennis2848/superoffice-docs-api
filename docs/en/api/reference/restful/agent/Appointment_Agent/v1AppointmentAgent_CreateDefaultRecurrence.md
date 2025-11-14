@@ -14,6 +14,8 @@ POST /api/v1/Agents/Appointment/CreateDefaultRecurrence
 Creates a RecurrenceInfo object populated with the default values for the specific type.
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -75,7 +77,7 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultRecurrence
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -85,10 +87,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 932,
-  "StartDate": "2005-06-23T03:46:54.1445302+02:00",
-  "EndDate": "2023-03-13T03:46:54.1445302+01:00",
-  "RecurrenceCounter": 213,
+  "RecurrenceId": 524,
+  "StartDate": "2014-09-27T02:30:46.6163546+02:00",
+  "EndDate": "2010-03-04T02:30:46.6163546+01:00",
+  "RecurrenceCounter": 268,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": null,
@@ -97,20 +99,20 @@ Content-Type: application/json; charset=utf-8
   "YearPattern": null,
   "Dates": [
     {
-      "Date": "2020-03-28T03:46:54.1445302+01:00",
+      "Date": "2007-06-03T02:30:46.6163546+02:00",
       "IsConflict": true,
-      "Description": "Visionary incremental Graphic Interface",
-      "DescriptionStyleHint": "Phased explicit matrix",
-      "Tooltip": "architecto"
+      "Description": "Ameliorated fresh-thinking time-frame",
+      "DescriptionStyleHint": "Progressive tertiary extranet",
+      "Tooltip": "quis"
     },
     {
-      "Date": "2020-03-28T03:46:54.1445302+01:00",
+      "Date": "2007-06-03T02:30:46.6163546+02:00",
       "IsConflict": true,
-      "Description": "Visionary incremental Graphic Interface",
-      "DescriptionStyleHint": "Phased explicit matrix",
-      "Tooltip": "architecto"
+      "Description": "Ameliorated fresh-thinking time-frame",
+      "DescriptionStyleHint": "Progressive tertiary extranet",
+      "Tooltip": "quis"
     }
   ],
-  "IsRecurrence": true
+  "IsRecurrence": false
 }
 ```

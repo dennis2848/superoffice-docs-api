@@ -14,6 +14,8 @@ POST /api/v1/Agents/Chat/GetChatTopicUserAgentList
 Get list of users assigned to a chat topic
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -81,7 +83,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 129
+  "ChatTopicId": 311
 }
 ```
 
@@ -93,20 +95,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TopicId": 408,
+    "TopicId": 689,
     "User": null,
     "CanListen": true,
     "CanRespond": false,
     "CanManage": false,
-    "CanNotify": false
+    "CanNotify": true
   },
   {
-    "TopicId": 408,
+    "TopicId": 689,
     "User": null,
     "CanListen": true,
     "CanRespond": false,
     "CanManage": false,
-    "CanNotify": false
+    "CanNotify": true
   }
 ]
 ```

@@ -14,6 +14,8 @@ POST /api/v1/Agents/Contact/GetNameDepartmentDuplicates
 Get duplicates based on the contact name and department
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -83,7 +85,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Champlin, McDermott and Schuster",
+  "Name": "Kuhic, Jacobs and Bailey",
   "Department": ""
 }
 ```
@@ -96,17 +98,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Reilly, Cruickshank and Marks",
-    "SoPrimaryKey": 603,
-    "EntryName": "Ankunding LLC",
-    "EntryIdentifier": "dolorem",
-    "RuleDisplayName": "Hettinger-Gaylord",
+    "RuleName": "Hettinger, Hansen and Jacobs",
+    "SoPrimaryKey": 122,
+    "EntryName": "Welch Group",
+    "EntryIdentifier": "rerum",
+    "RuleDisplayName": "Leuschke, Mante and Thompson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 896
+        "FieldType": "System.String",
+        "FieldLength": 486
       }
     }
   }

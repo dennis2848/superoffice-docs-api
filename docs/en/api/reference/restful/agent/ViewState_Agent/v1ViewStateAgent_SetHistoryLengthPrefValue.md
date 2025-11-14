@@ -14,6 +14,8 @@ POST /api/v1/Agents/ViewState/SetHistoryLengthPrefValue
 Set the logged on user's preferred history list length.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -65,11 +67,11 @@ No Content
 POST /api/v1/Agents/ViewState/SetHistoryLengthPrefValue
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Length": 122
+  "Length": 132
 }
 ```
 

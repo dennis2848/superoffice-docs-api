@@ -76,7 +76,7 @@ OK
 GET /api/v1/List/LegalBase/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -87,56 +87,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 244,
-    "Name": "Block-Steuber",
-    "ToolTip": "Deleniti voluptatem quae error earum eum ex aperiam.",
-    "Deleted": true,
-    "Rank": 919,
-    "Type": "atque",
-    "ColorBlock": 415,
-    "IconHint": "est",
+    "Id": 28,
+    "Name": "Willms, Bradtke and Mosciski",
+    "ToolTip": "Nobis nihil nemo soluta recusandae beatae assumenda.",
+    "Deleted": false,
+    "Rank": 658,
+    "Type": "quas",
+    "ColorBlock": 367,
+    "IconHint": "consequatur",
     "Selected": false,
-    "LastChanged": "2010-10-27T03:47:00.6599229+02:00",
+    "LastChanged": "2008-08-15T02:30:53.3036395+02:00",
     "ChildItems": [
       {
-        "Id": 856,
-        "Name": "Fay Group",
-        "ToolTip": "Pariatur et perspiciatis necessitatibus sint consequatur facilis sed.",
+        "Id": 65,
+        "Name": "Marvin LLC",
+        "ToolTip": "Optio quam qui ex error tempore quia eos.",
         "Deleted": false,
-        "Rank": 200,
-        "Type": "velit",
-        "ColorBlock": 199,
-        "IconHint": "similique",
-        "Selected": true,
-        "LastChanged": "2012-02-29T03:47:00.6599229+01:00",
+        "Rank": 623,
+        "Type": "vel",
+        "ColorBlock": 897,
+        "IconHint": "qui",
+        "Selected": false,
+        "LastChanged": "2012-07-26T02:30:53.3036395+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "totam",
-        "StyleHint": "eligendi",
+        "ExtraInfo": "nemo",
+        "StyleHint": "reiciendis",
         "Hidden": false,
-        "FullName": "America Brakus PhD",
+        "FullName": "Arden Dickens Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 353
+            "FieldType": "System.String",
+            "FieldLength": 46
           }
         }
       }
     ],
-    "ExtraInfo": "vitae",
-    "StyleHint": "eos",
-    "Hidden": false,
-    "FullName": "Deshaun Orn",
+    "ExtraInfo": "vero",
+    "StyleHint": "numquam",
+    "Hidden": true,
+    "FullName": "Miss Laverna Karlie Moen",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 138
+        "FieldType": "System.Int32",
+        "FieldLength": 476
       }
     }
   }

@@ -15,6 +15,7 @@ Create a new physical document based on the documents template.
 
 
 Do not replace template tags, as the document is going to be used as a mail merge source. Use GetDocumentStream to obtain the created documents. Since there is a potential for a name conflict (the file name stored by the document entity earlier may prove to be invalid), the (possibly amended) document entity is returned. The client should not assume that any earlier, cached entity information is valid.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -114,8 +115,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 103,
-  "UiCulture": "necessitatibus"
+  "DocumentId": 314,
+  "UiCulture": "aut"
 }
 ```
 
@@ -126,88 +127,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 258,
+  "DocumentId": 678,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "sed",
-  "Header": "alias",
-  "Name": "Stehr Inc and Sons",
-  "OurRef": "omnis",
-  "YourRef": "magni",
-  "CreatedDate": "2009-10-26T03:46:54.6601354+01:00",
-  "UpdatedDate": "2006-01-13T03:46:54.6601354+01:00",
-  "Description": "Function-based mobile functionalities",
+  "Attention": "et",
+  "Header": "corporis",
+  "Name": "Leuschke LLC",
+  "OurRef": "laboriosam",
+  "YourRef": "nihil",
+  "CreatedDate": "2003-07-03T02:30:47.1788377+02:00",
+  "UpdatedDate": "1999-06-26T02:30:47.1788377+02:00",
+  "Description": "Re-engineered discrete database",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2007-10-19T03:46:54.6601354+02:00",
-  "ExternalRef": "hic",
+  "Date": "2007-03-28T02:30:47.1788377+02:00",
+  "ExternalRef": "vel",
   "Completed": "Completed",
-  "ActiveLinks": 799,
+  "ActiveLinks": 452,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Kilback-Ward",
-      "Id": 858,
-      "Description": "Vision-oriented local portal",
-      "ExtraInfo": "provident",
-      "LinkId": 467,
+      "EntityName": "Spencer Group",
+      "Id": 187,
+      "Description": "Programmable multimedia circuit",
+      "ExtraInfo": "quis",
+      "LinkId": 249,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 744
+          "FieldLength": 761
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 116,
-  "Snum": 888,
+  "SuggestedDocumentId": 824,
+  "Snum": 403,
   "UserDefinedFields": {
-    "SuperOffice:1": "398794159",
-    "SuperOffice:2": "930918072"
+    "SuperOffice:1": "Peyton Pagac",
+    "SuperOffice:2": "Caterina Gutkowski"
   },
   "ExtraFields": {
-    "ExtraFields1": "autem",
-    "ExtraFields2": "voluptatem"
+    "ExtraFields1": "corporis",
+    "ExtraFields2": "voluptas"
   },
   "CustomFields": {
-    "CustomFields1": "ex",
-    "CustomFields2": "ipsa"
+    "CustomFields1": "et",
+    "CustomFields2": "suscipit"
   },
-  "PublishEventDate": "2008-08-17T03:46:54.6601354+02:00",
-  "PublishTo": "2006-10-31T03:46:54.6601354+01:00",
-  "PublishFrom": "2014-05-23T03:46:54.6601354+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "2008-10-22T02:30:47.1788377+02:00",
+  "PublishTo": "2014-12-15T02:30:47.1788377+01:00",
+  "PublishFrom": "1998-08-26T02:30:47.1788377+02:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 72,
+      "VisibleId": 856,
       "Visibility": "All",
-      "DisplayValue": "sit",
+      "DisplayValue": "aut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 902
+          "FieldType": "System.Int32",
+          "FieldLength": 654
         }
       }
     },
     {
-      "VisibleId": 72,
+      "VisibleId": 856,
       "Visibility": "All",
-      "DisplayValue": "sit",
+      "DisplayValue": "aut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 902
+          "FieldType": "System.Int32",
+          "FieldLength": 654
         }
       }
     }
@@ -217,7 +218,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 499
+      "FieldLength": 13
     }
   }
 }

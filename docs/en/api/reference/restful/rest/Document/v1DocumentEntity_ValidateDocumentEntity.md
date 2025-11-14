@@ -92,77 +92,77 @@ OK
 POST /api/v1/Document/Validate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 459,
+  "DocumentId": 588,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "veniam",
-  "Header": "ratione",
-  "Name": "Mertz LLC",
-  "OurRef": "illo",
-  "YourRef": "vero",
-  "CreatedDate": "2010-09-25T03:47:00.005716+02:00",
-  "UpdatedDate": "2013-04-14T03:47:00.005716+02:00",
-  "Description": "Operative user-facing website",
+  "Attention": "porro",
+  "Header": "vitae",
+  "Name": "Howell-Kovacek",
+  "OurRef": "tenetur",
+  "YourRef": "voluptas",
+  "CreatedDate": "2023-05-17T02:30:52.631787+02:00",
+  "UpdatedDate": "1998-11-27T02:30:52.631787+01:00",
+  "Description": "Devolved client-server orchestration",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2019-05-23T03:47:00.005716+02:00",
-  "ExternalRef": "qui",
+  "Date": "1999-09-14T02:30:52.631787+02:00",
+  "ExternalRef": "aut",
   "Completed": "Completed",
-  "ActiveLinks": 536,
+  "ActiveLinks": 635,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Rice-Berge",
-      "Id": 549,
-      "Description": "Enterprise-wide executive toolset",
-      "ExtraInfo": "impedit",
-      "LinkId": 930
+      "EntityName": "Veum, Schmeler and Beer",
+      "Id": 35,
+      "Description": "Reactive radical product",
+      "ExtraInfo": "voluptatem",
+      "LinkId": 693
     },
     {
-      "EntityName": "Rice-Berge",
-      "Id": 549,
-      "Description": "Enterprise-wide executive toolset",
-      "ExtraInfo": "impedit",
-      "LinkId": 930
+      "EntityName": "Veum, Schmeler and Beer",
+      "Id": 35,
+      "Description": "Reactive radical product",
+      "ExtraInfo": "voluptatem",
+      "LinkId": 693
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 649,
-  "Snum": 672,
+  "SuggestedDocumentId": 480,
+  "Snum": 927,
   "UserDefinedFields": {
-    "SuperOffice:1": "Sallie Herman",
-    "SuperOffice:2": "86956468"
+    "SuperOffice:1": "377336662",
+    "SuperOffice:2": "Mrs. Estelle Huel"
   },
   "ExtraFields": {
-    "ExtraFields1": "quia",
-    "ExtraFields2": "blanditiis"
+    "ExtraFields1": "voluptates",
+    "ExtraFields2": "at"
   },
   "CustomFields": {
-    "CustomFields1": "est",
-    "CustomFields2": "suscipit"
+    "CustomFields1": "velit",
+    "CustomFields2": "sit"
   },
-  "PublishEventDate": "2016-10-13T03:47:00.005716+02:00",
-  "PublishTo": "2016-10-15T03:47:00.005716+02:00",
-  "PublishFrom": "2012-11-28T03:47:00.005716+01:00",
+  "PublishEventDate": "2018-05-21T02:30:52.631787+02:00",
+  "PublishTo": "2025-10-28T02:30:52.631787+01:00",
+  "PublishFrom": "2021-01-14T02:30:52.631787+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 732,
+      "VisibleId": 587,
       "Visibility": "All",
-      "DisplayValue": "officia"
+      "DisplayValue": "et"
     },
     {
-      "VisibleId": 732,
+      "VisibleId": 587,
       "Visibility": "All",
-      "DisplayValue": "officia"
+      "DisplayValue": "et"
     }
   ]
 }
@@ -175,7 +175,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "tenetur",
-  "2": "nihil"
+  "1": "sequi",
+  "2": "omnis"
 }
 ```

@@ -14,7 +14,8 @@ POST /api/v1/Agents/Document/GetContactDocumentsByTemplateType
 Method that returns a specified number of document appointments within a time range, filtered by document template type.
 
 
-The document appointments belong to the contact specified.
+The document appointments belong to the contact specified. 
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -99,15 +100,15 @@ OK
 POST /api/v1/Agents/Document/GetContactDocumentsByTemplateType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 527,
-  "StartTime": "2025-03-31T03:46:54.6132622+02:00",
-  "EndTime": "2023-10-04T03:46:54.6132622+02:00",
-  "Count": 129,
-  "DocumentTemplateId": 117
+  "ContactId": 199,
+  "StartTime": "2003-03-31T02:30:47.0694635+02:00",
+  "EndTime": "2003-12-11T02:30:47.0694635+01:00",
+  "Count": 929,
+  "DocumentTemplateId": 72
 }
 ```
 
@@ -119,32 +120,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 597,
-    "Attention": "quo",
-    "Header": "incidunt",
-    "Name": "Jast, Altenwerth and Keeling",
-    "OurRef": "eos",
-    "YourRef": "quis",
-    "Description": "Fundamental modular pricing structure",
-    "DocumentTemplate": "quidem",
+    "DocumentId": 277,
+    "Attention": "voluptas",
+    "Header": "ipsum",
+    "Name": "Ortiz LLC",
+    "OurRef": "qui",
+    "YourRef": "dolor",
+    "Description": "Configurable real-time capacity",
+    "DocumentTemplate": "officia",
     "IsPublished": false,
-    "PersonId": 145,
-    "PersonFullName": "Justice Gottlieb",
-    "AssociateFullName": "Prof. Lyla Edd VonRueden DDS",
-    "ContactId": 28,
-    "ContactName": "Abshire Group",
-    "ProjectId": 650,
-    "ProjectName": "Von Inc and Sons",
-    "AssociateId": 446,
-    "Snum": 29,
-    "SaleId": 614,
-    "SaleName": "Grimes, Rutherford and Sauer",
+    "PersonId": 65,
+    "PersonFullName": "Prof. Braulio Rebekah Schoen",
+    "AssociateFullName": "Linnie Roob",
+    "ContactId": 826,
+    "ContactName": "Hauck Group",
+    "ProjectId": 971,
+    "ProjectName": "Bednar-Jerde",
+    "AssociateId": 356,
+    "Snum": 884,
+    "SaleId": 756,
+    "SaleName": "Nikolaus, Hahn and Terry",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 323
+        "FieldLength": 825
       }
     }
   }

@@ -77,17 +77,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Value": "et",
-  "Tooltip": "ut",
-  "Id": 292,
-  "Rank": 997,
+  "Value": "qui",
+  "Tooltip": "sequi",
+  "Id": 166,
+  "Rank": 923,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 276
+      "FieldType": "System.String",
+      "FieldLength": 899
     }
   }
 }

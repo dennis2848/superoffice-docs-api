@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/GetFromListDefinition
 Get a list item for the specified list defintion
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -80,12 +82,12 @@ OK
 POST /api/v1/Agents/List/GetFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 584,
-  "UdListDefinitionId": 554
+  "Id": 720,
+  "UdListDefinitionId": 674
 }
 ```
 
@@ -96,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 27,
-  "Name": "Bergstrom-Hessel",
-  "Tooltip": "fugit",
+  "Id": 479,
+  "Name": "Goodwin Inc and Sons",
+  "Tooltip": "molestiae",
   "Deleted": false,
-  "UdListDefinitionId": 916,
-  "Rank": 898,
+  "UdListDefinitionId": 593,
+  "Rank": 208,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 458
+      "FieldType": "System.Int32",
+      "FieldLength": 382
     }
   }
 }

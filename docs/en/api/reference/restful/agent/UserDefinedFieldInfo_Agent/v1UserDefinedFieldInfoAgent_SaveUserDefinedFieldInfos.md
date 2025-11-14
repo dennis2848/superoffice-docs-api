@@ -15,6 +15,7 @@ Save an array of user defined fields.
 
 
 This will update the unpublished layout.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -67,46 +68,46 @@ No Content
 POST /api/v1/Agents/UserDefinedFieldInfo/SaveUserDefinedFieldInfos
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Infos": [
     {
-      "UDefFieldId": 487,
-      "ColumnId": 194,
-      "FieldDefault": "ut",
-      "FieldHeight": 5,
-      "FieldLabel": "quia",
-      "FieldLeft": 411,
-      "FieldTop": 849,
+      "UDefFieldId": 594,
+      "ColumnId": 211,
+      "FieldDefault": "minima",
+      "FieldHeight": 985,
+      "FieldLabel": "aut",
+      "FieldLeft": 81,
+      "FieldTop": 107,
       "FieldType": "Checkbox",
-      "FieldWidth": 127,
-      "FormatMask": "quaerat",
+      "FieldWidth": 976,
+      "FormatMask": "aspernatur",
       "HideLabel": false,
       "IsIndexed": false,
-      "LabelHeight": 751,
-      "LabelLeft": 428,
-      "LabelTop": 154,
-      "LabelWidth": 229,
-      "LastVersionId": 927,
-      "ListTableId": 486,
+      "LabelHeight": 819,
+      "LabelLeft": 301,
+      "LabelTop": 996,
+      "LabelWidth": 319,
+      "LastVersionId": 328,
+      "ListTableId": 46,
       "IsMandatory": false,
       "Type": "Appointment",
-      "Page1LineNo": 522,
-      "ProgId": "quidem",
-      "IsReadOnly": false,
-      "ShortLabel": "aut",
-      "TabOrder": 364,
-      "TextLength": 551,
-      "Tooltip": "ut",
-      "UdefIdentity": 62,
-      "UDListDefinitionId": 468,
+      "Page1LineNo": 473,
+      "ProgId": "quis",
+      "IsReadOnly": true,
+      "ShortLabel": "qui",
+      "TabOrder": 654,
+      "TextLength": 590,
+      "Tooltip": "temporibus",
+      "UdefIdentity": 373,
+      "UDListDefinitionId": 298,
       "Justification": "Center",
-      "Version": 326,
-      "TemplateVariableName": "Paucek, Gleason and Swift",
+      "Version": 319,
+      "TemplateVariableName": "McDermott-Nicolas",
       "HasBeenPublished": false,
-      "MdoListName": "Gusikowski, Keebler and Kautzer"
+      "MdoListName": "Bosco, Ledner and Dooley"
     }
   ]
 }

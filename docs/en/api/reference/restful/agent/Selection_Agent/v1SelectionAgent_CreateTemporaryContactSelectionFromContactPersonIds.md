@@ -14,6 +14,8 @@ POST /api/v1/Agents/Selection/CreateTemporaryContactSelectionFromContactPersonId
 Creates a temporary selection with members from a collection of ContactPerson id's.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -114,18 +116,18 @@ OK
 POST /api/v1/Agents/Selection/CreateTemporaryContactSelectionFromContactPersonIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "ContactPersonIds": [
     {
-      "PersonId": 97,
-      "ContactId": 357
+      "PersonId": 328,
+      "ContactId": 997
     },
     {
-      "PersonId": 97,
-      "ContactId": 357
+      "PersonId": 328,
+      "ContactId": 997
     }
   ]
 }
@@ -138,70 +140,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Programmable motivating algorithm",
-  "Postit": "sed",
+  "Description": "Optimized cohesive contingency",
+  "Postit": "corporis",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 920,
-  "IncludePerson": 117,
+  "GroupIdx": 222,
+  "IncludePerson": 774,
   "MemberCount": 99.99,
-  "Name": "Stracke-Thompson",
-  "PostitTextId": 725,
-  "CreatedDate": "2021-01-21T03:46:55.3163674+01:00",
-  "SelectionId": 994,
-  "SoundEx": "pariatur",
-  "Source": 888,
-  "TextId": 757,
-  "UpdatedDate": "2005-06-19T03:46:55.3163674+02:00",
-  "UpdatedCount": 443,
-  "Visibility": 882,
+  "Name": "Tremblay Inc and Sons",
+  "PostitTextId": 132,
+  "CreatedDate": "2004-08-21T02:30:47.819441+02:00",
+  "SelectionId": 90,
+  "SoundEx": "placeat",
+  "Source": 471,
+  "TextId": 793,
+  "UpdatedDate": "2019-05-23T02:30:47.819441+02:00",
+  "UpdatedCount": 581,
+  "Visibility": 927,
   "SelectionType": "Combined",
   "CompanyUnique": true,
-  "TargetTableNumber": 577,
-  "TargetTableName": "Lakin Inc and Sons",
+  "TargetTableNumber": 655,
+  "TargetTableName": "Marquardt Inc and Sons",
   "Completed": false,
-  "LeftSelectionId": 259,
-  "RightSelectionId": 352,
+  "LeftSelectionId": 907,
+  "RightSelectionId": 708,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Reilly Group",
-  "ShadowProviderName": "Hermann-Huels",
-  "ChartKey": "sed",
-  "LastLoaded": "2009-03-10T03:46:55.3163674+01:00",
-  "LastLoadedBy": 961,
+  "MainProviderName": "Bartell Inc and Sons",
+  "ShadowProviderName": "Crooks Group",
+  "ChartKey": "illo",
+  "LastLoaded": "2010-09-25T02:30:47.819441+02:00",
+  "LastLoadedBy": 689,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2000-06-18T03:46:55.3163674+02:00",
-  "LastMembershipChangeBy": 391,
+  "LastMembershipChange": "1998-09-13T02:30:47.819441+02:00",
+  "LastMembershipChangeBy": 873,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "maxime",
-  "MemberTabHeading": "molestiae",
-  "MailingsProviderName": "Treutel, Pollich and Veum",
-  "DashboardTileDefinitionId": 512,
+  "MainHeading": "perspiciatis",
+  "MemberTabHeading": "qui",
+  "MailingsProviderName": "Larson-Schiller",
+  "DashboardTileDefinitionId": 912,
   "VisibleFor": [
     {
-      "VisibleId": 323,
+      "VisibleId": 648,
       "Visibility": "All",
-      "DisplayValue": "voluptas",
+      "DisplayValue": "culpa",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 754
+          "FieldLength": 723
         }
       }
     },
     {
-      "VisibleId": 323,
+      "VisibleId": 648,
       "Visibility": "All",
-      "DisplayValue": "voluptas",
+      "DisplayValue": "culpa",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 754
+          "FieldLength": 723
         }
       }
     }
@@ -210,8 +212,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 56
+      "FieldType": "System.String",
+      "FieldLength": 330
     }
   }
 }

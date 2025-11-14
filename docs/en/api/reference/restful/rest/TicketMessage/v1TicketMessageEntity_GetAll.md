@@ -71,12 +71,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/TicketMessage?$select=name,department,category/id
 GET /api/v1/TicketMessage?$filter=name begins 'S'
 GET /api/v1/TicketMessage?$orderBy=name asc
-GET /api/v1/TicketMessage?$entities=et
-GET /api/v1/TicketMessage?$top=811
-GET /api/v1/TicketMessage?$skip=502
+GET /api/v1/TicketMessage?$entities=alias
+GET /api/v1/TicketMessage?$top=636
+GET /api/v1/TicketMessage?$skip=318
 GET /api/v1/TicketMessage?$mode=Full
 GET /api/v1/TicketMessage?$options=GrandTotal=true
-GET /api/v1/TicketMessage?$context=suscipit
+GET /api/v1/TicketMessage?$context=expedita
 GET /api/v1/TicketMessage?$format=JSON
 GET /api/v1/TicketMessage?$jsonSafe=False
 GET /api/v1/TicketMessage?$output=Display
@@ -119,7 +119,7 @@ OK
 GET /api/v1/TicketMessage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -130,21 +130,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "nesciunt",
+  "odata.nextLink": "impedit",
   "value": [
     {
-      "PrimaryKey": 991,
+      "PrimaryKey": 1617,
       "EntityName": "sale",
-      "saleId": 991,
-      "contactId": 7570,
-      "name": "Predovic Inc and Sons"
+      "saleId": 1617,
+      "contactId": 7910,
+      "name": "Krajcik-Welch"
     },
     {
-      "PrimaryKey": 1905,
+      "PrimaryKey": 2711,
       "EntityName": "sale",
-      "saleId": 1905,
-      "contactId": 8342,
-      "name": "Parisian Group"
+      "saleId": 2711,
+      "contactId": 3856,
+      "name": "Schoen LLC"
     }
   ]
 }

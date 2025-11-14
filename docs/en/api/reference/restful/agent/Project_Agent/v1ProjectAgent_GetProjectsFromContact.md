@@ -14,6 +14,8 @@ POST /api/v1/Agents/Project/GetProjectsFromContact
 Returns all projects where the given contact has projectmembers.
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -91,11 +93,11 @@ OK
 POST /api/v1/Agents/Project/GetProjectsFromContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 125
+  "ContactId": 939
 }
 ```
 
@@ -107,30 +109,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 800,
-    "Name": "Kovacek-Jacobson",
-    "Description": "Organic solution-oriented system engine",
+    "ProjectId": 469,
+    "Name": "Shields, Ondricka and Cummerata",
+    "Description": "Expanded 24 hour workforce",
     "URL": "http://www.example.com/",
-    "Type": "saepe",
-    "AssociateId": 711,
-    "AssociateFullName": "Mr. May Dina Abbott V",
-    "TypeId": 492,
-    "Updated": "2012-05-11T03:46:55.1757421+02:00",
-    "StatusId": 219,
-    "Status": "cupiditate",
-    "TextId": 321,
-    "PublishTo": "2007-02-06T03:46:55.1757421+01:00",
-    "PublishFrom": "1998-07-03T03:46:55.1757421+02:00",
+    "Type": "reiciendis",
+    "AssociateId": 998,
+    "AssociateFullName": "Mr. Ruby Lueilwitz",
+    "TypeId": 528,
+    "Updated": "2003-09-10T02:30:47.6944454+02:00",
+    "StatusId": 127,
+    "Status": "quae",
+    "TextId": 928,
+    "PublishTo": "2011-03-06T02:30:47.6944454+01:00",
+    "PublishFrom": "2009-01-06T02:30:47.6944454+01:00",
     "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "518424",
-    "ActiveErpLinks": 930,
+    "ProjectNumber": "1600243",
+    "ActiveErpLinks": 25,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 143
+        "FieldLength": 424
       }
     }
   }

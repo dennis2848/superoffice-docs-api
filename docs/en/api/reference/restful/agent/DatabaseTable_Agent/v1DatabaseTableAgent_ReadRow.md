@@ -14,6 +14,8 @@ POST /api/v1/Agents/DatabaseTable/ReadRow
 Read a row from a table
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -75,12 +77,12 @@ OK
 POST /api/v1/Agents/DatabaseTable/ReadRow
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Lakin, Macejkovic and Schimmel",
-  "Id": 374
+  "TableName": "Wuckert Inc and Sons",
+  "Id": 39
 }
 ```
 
@@ -92,15 +94,15 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Values": {
-    "Values1": "rerum",
-    "Values2": "est"
+    "Values1": "molestias",
+    "Values2": "sed"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 564
+      "FieldLength": 815
     }
   }
 }

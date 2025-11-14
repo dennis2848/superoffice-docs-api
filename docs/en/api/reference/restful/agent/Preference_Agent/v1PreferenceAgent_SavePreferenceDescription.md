@@ -14,6 +14,8 @@ POST /api/v1/Agents/Preference/SavePreferenceDescription
 Updates the existing PreferenceDescription or creates a new PreferenceDescription if the id parameter is 0.
 
 
+NsApiSlow threshold: 1000 ms.
+
 
 
 
@@ -98,28 +100,28 @@ OK
 POST /api/v1/Agents/Preference/SavePreferenceDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 44,
-  "Section": "cum",
-  "Key": "et",
-  "Name": "Spinka-Anderson",
+  "PrefDescId": 883,
+  "Section": "eum",
+  "Key": "unde",
+  "Name": "Stanton-Cassin",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Virtual web-enabled core",
+  "Description": "Horizontal dedicated hierarchy",
   "IsBuiltin": false,
-  "TableName": "Mayer Group",
-  "UserDefinedListId": 932,
-  "Rank": 41,
-  "SubGroup": "praesentium",
-  "MinLevel": 35,
-  "MaxValue": 888,
-  "MinValue": 61,
-  "RequiredLicense": "mollitia"
+  "TableName": "Dietrich, Quigley and Considine",
+  "UserDefinedListId": 525,
+  "Rank": 662,
+  "SubGroup": "consequatur",
+  "MinLevel": 24,
+  "MaxValue": 784,
+  "MinValue": 435,
+  "RequiredLicense": "et"
 }
 ```
 
@@ -130,30 +132,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 899,
-  "Section": "aliquid",
-  "Key": "in",
-  "Name": "Stracke-Jacobson",
+  "PrefDescId": 821,
+  "Section": "doloribus",
+  "Key": "iste",
+  "Name": "Pollich, Nader and McLaughlin",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Centralized heuristic process improvement",
+  "Description": "Monitored optimizing migration",
   "IsBuiltin": false,
-  "TableName": "Jewess, Schinner and McGlynn",
-  "UserDefinedListId": 563,
-  "Rank": 506,
-  "SubGroup": "dignissimos",
-  "MinLevel": 155,
-  "MaxValue": 820,
-  "MinValue": 784,
-  "RequiredLicense": "labore",
+  "TableName": "Bechtelar LLC",
+  "UserDefinedListId": 678,
+  "Rank": 725,
+  "SubGroup": "laboriosam",
+  "MinLevel": 449,
+  "MaxValue": 174,
+  "MinValue": 473,
+  "RequiredLicense": "dolor",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 5
+      "FieldType": "System.Int32",
+      "FieldLength": 196
     }
   }
 }

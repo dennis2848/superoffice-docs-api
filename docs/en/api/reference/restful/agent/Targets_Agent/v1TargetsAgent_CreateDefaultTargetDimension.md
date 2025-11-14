@@ -14,6 +14,8 @@ POST /api/v1/Agents/Targets/CreateDefaultTargetDimension
 Loading default values into a new TargetDimension.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -64,7 +66,7 @@ OK
 POST /api/v1/Agents/Targets/CreateDefaultTargetDimension
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -74,24 +76,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetDimensionId": 235,
+  "TargetDimensionId": 655,
   "AssignmentLevel": "Associate",
   "EntityType": "None",
   "MeasurementUnit": "Amount",
-  "DimensionListField": "nobis",
-  "DimensionListName": "Simonis-Schaefer",
-  "DimensionListId": 411,
-  "DimensionListLabel": "ab",
+  "DimensionListField": "corrupti",
+  "DimensionListName": "Schulist, Kemmer and Daugherty",
+  "DimensionListId": 405,
+  "DimensionListLabel": "nihil",
   "SelectedDimensions": [
-    253,
-    633
+    849,
+    575
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 141
+      "FieldLength": 344
     }
   }
 }

@@ -14,6 +14,8 @@ POST /api/v1/Agents/Appointment/GetUIDFromAppointmentId
 Get the UID associated with the appointment id in the Invitation table.
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -74,7 +76,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 277,
+  "AppointmentId": 886,
   "UseMotherId": true
 }
 ```
@@ -85,5 +87,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"nisi"
+"perspiciatis"
 ```

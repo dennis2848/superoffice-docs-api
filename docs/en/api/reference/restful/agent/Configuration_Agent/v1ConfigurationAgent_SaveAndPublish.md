@@ -14,6 +14,8 @@ POST /api/v1/Agents/Configuration/SaveAndPublish
 Save the incomming draft and publish
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -86,7 +88,7 @@ OK
 POST /api/v1/Agents/Configuration/SaveAndPublish
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -101,28 +103,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 574,
-  "Name": "Flatley, Okuneva and Beahan",
-  "Description": "Down-sized encompassing methodology",
-  "DeltaJson": "sunt",
+  "ConfigurableScreenDeltaId": 316,
+  "Name": "Yost-Runolfsdottir",
+  "Description": "Sharable incremental process improvement",
+  "DeltaJson": "consectetur",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "voluptatum",
-  "UpdatedDate": "1999-07-04T03:46:54.4570178+02:00",
-  "CreatedDate": "1999-03-01T03:46:54.4570178+01:00",
+  "RecipeId": "aliquam",
+  "UpdatedDate": "2005-06-22T02:30:46.9288431+02:00",
+  "CreatedDate": "2012-03-21T02:30:46.9288431+01:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    709,
-    762
+    995,
+    139
   ],
-  "AppliesToKey": "quia",
+  "AppliesToKey": "et",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 646
+      "FieldType": "System.String",
+      "FieldLength": 829
     }
   }
 }

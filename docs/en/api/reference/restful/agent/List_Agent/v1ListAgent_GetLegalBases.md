@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/GetLegalBases
 Returns all defined bases.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -82,18 +84,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LegalBaseId": 527,
-    "Name": "Hamill-Rempel",
-    "Tooltip": "nulla",
-    "Rank": 105,
-    "Key": "autem",
+    "LegalBaseId": 960,
+    "Name": "Schmitt Group",
+    "Tooltip": "ea",
+    "Rank": 148,
+    "Key": "facere",
     "Deleted": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 123
+        "FieldLength": 271
       }
     }
   }

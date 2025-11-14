@@ -14,6 +14,8 @@ POST /api/v1/Agents/Appointment/ToggleActivities
 Toggle the completed status for an array of activities.
 
 
+NsApiSlow threshold: 1000 ms.
+
 
 
 
@@ -74,8 +76,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ActivityIdentifier": [
-    "ut",
-    "dolore"
+    "eum",
+    "aut"
   ]
 }
 ```

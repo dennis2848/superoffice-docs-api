@@ -14,6 +14,8 @@ POST /api/v1/Agents/Quote/SaveQuoteVersion
 Saves a quote version
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -112,7 +114,7 @@ OK
 POST /api/v1/Agents/Quote/SaveQuoteVersion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -127,75 +129,75 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 388,
-  "ERPQuoteVersionKey": "non",
-  "QuoteId": 8,
-  "Description": "Virtual logistical model",
-  "Number": "404393",
+  "QuoteVersionId": 757,
+  "ERPQuoteVersionKey": "labore",
+  "QuoteId": 300,
+  "Description": "Function-based leading edge access",
+  "Number": "1702578",
   "State": "Archived",
   "ArchivedState": "Archived",
   "Status": "Error",
   "Reason": "",
-  "LikelyQuoteAlternativeId": 658,
-  "SentDate": "2004-07-10T03:46:55.1913666+02:00",
-  "FollowupId": 669,
-  "ExpirationDate": "1998-09-13T03:46:55.1913666+02:00",
-  "DeliveryCountryId": 121,
+  "LikelyQuoteAlternativeId": 993,
+  "SentDate": "2022-06-09T02:30:47.7100701+02:00",
+  "FollowupId": 189,
+  "ExpirationDate": "2024-05-26T02:30:47.7100701+02:00",
+  "DeliveryCountryId": 962,
   "HasOwnDeliveryAddress": false,
-  "InvoiceCountryId": 423,
+  "InvoiceCountryId": 82,
   "HasOwnInvoiceAddress": false,
-  "ERPPaymentTermsKey": "delectus",
-  "ERPPaymentTypeKey": "numquam",
-  "ERPDeliveryTermsKey": "voluptatem",
-  "ERPDeliveryTypeKey": "assumenda",
-  "Rank": 941,
-  "ApprovedBy": 362,
-  "ApprovedText": "vel",
-  "ApprovedRegisteredBy": 691,
-  "ApprovedRegisteredDate": "2022-06-08T03:46:55.1913666+02:00",
-  "ExtraField1": "libero",
+  "ERPPaymentTermsKey": "commodi",
+  "ERPPaymentTypeKey": "occaecati",
+  "ERPDeliveryTermsKey": "sed",
+  "ERPDeliveryTypeKey": "nulla",
+  "Rank": 170,
+  "ApprovedBy": 385,
+  "ApprovedText": "aliquam",
+  "ApprovedRegisteredBy": 682,
+  "ApprovedRegisteredDate": "2022-04-06T02:30:47.7100701+02:00",
+  "ExtraField1": "autem",
   "ExtraField2": "et",
-  "ExtraField3": "aspernatur",
-  "ExtraField4": "amet",
-  "ExtraField5": "similique",
-  "LastRecalculated": "2015-11-10T03:46:55.1913666+01:00",
-  "Updated": "2004-09-19T03:46:55.1913666+02:00",
-  "UpdatedAssociateId": 917,
-  "Registered": "2020-07-22T03:46:55.1913666+02:00",
-  "RegisteredAssociateId": 887,
-  "RequestAssociateId": 346,
-  "RequestComment": "nobis",
+  "ExtraField3": "quis",
+  "ExtraField4": "impedit",
+  "ExtraField5": "assumenda",
+  "LastRecalculated": "2015-08-14T02:30:47.7100701+02:00",
+  "Updated": "2023-07-09T02:30:47.7100701+02:00",
+  "UpdatedAssociateId": 678,
+  "Registered": "2024-10-04T02:30:47.7100701+02:00",
+  "RegisteredAssociateId": 297,
+  "RequestAssociateId": 275,
+  "RequestComment": "eius",
   "QuoteAlternatives": [
     {
-      "QuoteAlternativeId": 160,
-      "ERPQuoteAlternativeKey": "hic",
-      "QuoteVersionId": 92,
-      "Name": "Veum-Parisian",
-      "Description": "Open-source modular solution",
+      "QuoteAlternativeId": 700,
+      "ERPQuoteAlternativeKey": "sit",
+      "QuoteVersionId": 835,
+      "Name": "Lowe, Block and Bailey",
+      "Description": "Open-architected web-enabled benchmark",
       "Status": "Error",
       "Reason": "",
-      "ERPDiscountPercent": 11812.046,
-      "ERPDiscountAmount": 30757.075999999997,
-      "DiscountPercent": 2986.7019999999998,
-      "DiscountAmount": 25745.809999999998,
+      "ERPDiscountPercent": 17453.246,
+      "ERPDiscountAmount": 16497.376,
+      "DiscountPercent": 29700.917999999998,
+      "DiscountAmount": 15948.926,
       "UserValueOverride": "DiscountAmount",
-      "VATInfo": "nesciunt",
-      "VAT": 16635.272,
-      "EarningPercent": 20314.588,
-      "EarningAmount": 1306.878,
-      "SubTotal": 20233.104,
-      "TotalPrice": 8897.426,
-      "ExtraField1": "illo",
-      "ExtraField2": "enim",
-      "ExtraField3": "fugiat",
-      "ExtraField4": "provident",
-      "ExtraField5": "sint",
+      "VATInfo": "est",
+      "VAT": 31296.124,
+      "EarningPercent": 4453.414,
+      "EarningAmount": 2544.808,
+      "SubTotal": 5415.552,
+      "TotalPrice": 10768.423999999999,
+      "ExtraField1": "vel",
+      "ExtraField2": "quo",
+      "ExtraField3": "enim",
+      "ExtraField4": "temporibus",
+      "ExtraField5": "dolorum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 326
+          "FieldType": "System.Int32",
+          "FieldLength": 694
         }
       }
     }
@@ -205,7 +207,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 399
+      "FieldLength": 296
     }
   }
 }

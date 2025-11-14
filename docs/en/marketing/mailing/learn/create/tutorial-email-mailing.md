@@ -1,12 +1,16 @@
----
+﻿---
 uid: help-en-tutorial-email-mailing
 title: Tutorial - email mailing
 description: When you have completed the necessary preparations, which includes creating your target list and preparing your mailing template, then you are ready to create a new mailing in SuperOffice CRM. In this tutorial, you will learn to create an email mailing.
 keywords: email mailing
-date: 06.27.2025
+date: 09.26.2025
 version: 10.5
 content_type: tutorial
+category: marketing
+topic: mailing
+license: marketingessentials
 audience: person
+audience_tooltip: SuperOffice Marketing
 language: en
 ---
 
@@ -77,5 +81,5 @@ Attempting to send from a domain that does not have a valid SPF record will prom
 [!include[How to confirm and send a mailing](includes/step-5-confirm-and-send-mailing.md)]
 
 <!-- Referenced links -->
-[2]: ../../../../admin/lists/learn/add-items-to-mailing-domain.md
+[2]: ../../admin/add-domain.md
 [4]: ../../../learn/create-folder.md

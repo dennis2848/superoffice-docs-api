@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/GetTaskMenuByProgId
 Get a task menu using the ProgId key that was specified when it was created
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -87,11 +89,11 @@ OK
 POST /api/v1/Agents/List/GetTaskMenuByProgId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProgId": "at"
+  "ProgId": "nisi"
 }
 ```
 
@@ -102,26 +104,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskMenuId": 607,
-  "Name": "Thompson-Hartmann",
-  "Tooltip": "aut",
-  "TableName": "Kozey-Volkman",
-  "Area": "reiciendis",
+  "TaskMenuId": 881,
+  "Name": "Herzog, Kris and Runolfsson",
+  "Tooltip": "architecto",
+  "TableName": "Feest-Vandervort",
+  "Area": "et",
   "UrlOrSoprotocol": "http://www.example.com/",
   "TaskType": "CrmScript",
-  "CrmScriptId": 37,
+  "CrmScriptId": 325,
   "ShowInClient": "Mobile",
   "ArchiveBehaviour": "InArchives",
-  "Rank": 458,
+  "Rank": 354,
   "Encoding": "ANSI",
-  "ProgId": "et",
+  "ProgId": "ea",
   "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 647
+      "FieldLength": 591
     }
   }
 }

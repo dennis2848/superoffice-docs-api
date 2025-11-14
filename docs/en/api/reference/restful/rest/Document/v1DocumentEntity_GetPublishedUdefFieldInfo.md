@@ -94,7 +94,7 @@ DocumentEntity found.
 GET /api/v1/Document/UdefLayout/Published/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -104,46 +104,46 @@ HTTP/1.1 200 DocumentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 268,
-  "ColumnId": 639,
-  "FieldDefault": "error",
-  "FieldHeight": 152,
-  "FieldLabel": "sint",
-  "FieldLeft": 103,
-  "FieldTop": 651,
+  "UDefFieldId": 796,
+  "ColumnId": 846,
+  "FieldDefault": "omnis",
+  "FieldHeight": 94,
+  "FieldLabel": "corporis",
+  "FieldLeft": 823,
+  "FieldTop": 120,
   "FieldType": "Checkbox",
-  "FieldWidth": 305,
-  "FormatMask": "id",
-  "HideLabel": true,
+  "FieldWidth": 848,
+  "FormatMask": "natus",
+  "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 351,
-  "LabelLeft": 220,
-  "LabelTop": 339,
-  "LabelWidth": 853,
-  "LastVersionId": 960,
-  "ListTableId": 589,
+  "LabelHeight": 293,
+  "LabelLeft": 564,
+  "LabelTop": 475,
+  "LabelWidth": 710,
+  "LastVersionId": 840,
+  "ListTableId": 405,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 275,
-  "ProgId": "consectetur",
+  "Page1LineNo": 843,
+  "ProgId": "itaque",
   "IsReadOnly": false,
-  "ShortLabel": "aliquam",
-  "TabOrder": 131,
-  "TextLength": 618,
-  "Tooltip": "quae",
-  "UdefIdentity": 269,
-  "UDListDefinitionId": 760,
+  "ShortLabel": "quibusdam",
+  "TabOrder": 190,
+  "TextLength": 281,
+  "Tooltip": "labore",
+  "UdefIdentity": 320,
+  "UDListDefinitionId": 186,
   "Justification": "Center",
-  "Version": 921,
-  "TemplateVariableName": "Ledner, Beahan and Hoeger",
+  "Version": 552,
+  "TemplateVariableName": "Lockman Inc and Sons",
   "HasBeenPublished": false,
-  "MdoListName": "Osinski, Klein and Sipes",
+  "MdoListName": "Spinka Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 780
+      "FieldLength": 402
     }
   }
 }

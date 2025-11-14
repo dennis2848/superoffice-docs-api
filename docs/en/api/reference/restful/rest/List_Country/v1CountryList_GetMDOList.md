@@ -27,8 +27,8 @@ Get the MDO list items for "Country" - with headings and filtering by user group
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Country/MDOItems?flat=True
-GET /api/v1/List/Country/MDOItems?query=eius
+GET /api/v1/List/Country/MDOItems?flat=False
+GET /api/v1/List/Country/MDOItems?query=laboriosam
 ```
 
 
@@ -79,7 +79,7 @@ OK
 GET /api/v1/List/Country/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -90,50 +90,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 62,
-    "Name": "Boyle Group",
-    "ToolTip": "Laborum excepturi laborum.",
+    "Id": 851,
+    "Name": "Mueller, Brakus and Walter",
+    "ToolTip": "Dolores reiciendis dolor.",
     "Deleted": false,
-    "Rank": 368,
-    "Type": "veritatis",
+    "Rank": 585,
+    "Type": "ut",
     "ChildItems": [
       {
-        "Id": 598,
-        "Name": "Hagenes, Collins and Kerluke",
-        "ToolTip": "Laudantium laboriosam id deserunt molestiae tenetur quam ea.",
-        "Deleted": true,
+        "Id": 190,
+        "Name": "Ward-Wisozk",
+        "ToolTip": "Similique doloremque.",
+        "Deleted": false,
         "Rank": 842,
-        "Type": "sed",
+        "Type": "illo",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "quia",
-        "ColorBlock": 369,
-        "ExtraInfo": "pariatur",
+        "IconHint": "sequi",
+        "ColorBlock": 721,
+        "ExtraInfo": "tempore",
         "StyleHint": "eligendi",
-        "FullName": "Miss Emmanuelle Josh Kirlin",
+        "FullName": "Prof. Zakary Alta Moen II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 446
+            "FieldLength": 85
           }
         }
       }
     ],
-    "IconHint": "et",
-    "ColorBlock": 511,
-    "ExtraInfo": "amet",
-    "StyleHint": "et",
-    "FullName": "Miss Rylee Bosco MD",
+    "IconHint": "quod",
+    "ColorBlock": 33,
+    "ExtraInfo": "molestias",
+    "StyleHint": "quae",
+    "FullName": "Mr. Patricia Matteo Dibbert",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 507
+        "FieldType": "System.String",
+        "FieldLength": 402
       }
     }
   }

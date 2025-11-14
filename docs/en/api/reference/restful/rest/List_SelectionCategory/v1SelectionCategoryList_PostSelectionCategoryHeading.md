@@ -76,16 +76,16 @@ OK
 POST /api/v1/List/SelectionCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 265,
-  "Name": "O'Connell, Moen and Yundt",
-  "Tooltip": "ratione",
+  "HeadingId": 491,
+  "Name": "Barton, Nitzsche and Abernathy",
+  "Tooltip": "pariatur",
   "Deleted": false,
-  "Rank": 964,
-  "UdListDefinitionId": 357
+  "Rank": 693,
+  "UdListDefinitionId": 924
 }
 ```
 
@@ -96,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 273,
-  "Name": "Doyle, Conroy and Durgan",
-  "Tooltip": "eaque",
+  "HeadingId": 679,
+  "Name": "Howe-Bailey",
+  "Tooltip": "fuga",
   "Deleted": false,
-  "Rank": 461,
-  "UdListDefinitionId": 234,
+  "Rank": 321,
+  "UdListDefinitionId": 720,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 82
+      "FieldLength": 887
     }
   }
 }

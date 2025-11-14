@@ -14,6 +14,9 @@ POST /api/v1/Agents/User/GetUntrustedCredentials
 Get a set of credentials of a specified type for authenticated user.
 
 
+NsApiSlow threshold: 2000 ms.
+
+
 ## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
 
 
@@ -85,7 +88,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Type": "corrupti"
+  "Type": "est"
 }
 ```
 
@@ -97,18 +100,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ValidFrom": "2004-06-04T03:46:55.6132266+02:00",
-    "ValidTo": "2016-06-07T03:46:55.6132266+02:00",
-    "Comment": "adipisci",
-    "SecretValue": "minima",
-    "PublicValue": "ipsam",
-    "IsActive": false,
+    "ValidFrom": "2011-01-25T02:30:48.1163068+01:00",
+    "ValidTo": "2007-10-29T02:30:48.1163068+01:00",
+    "Comment": "ut",
+    "SecretValue": "accusantium",
+    "PublicValue": "est",
+    "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 88
+        "FieldLength": 834
       }
     }
   }

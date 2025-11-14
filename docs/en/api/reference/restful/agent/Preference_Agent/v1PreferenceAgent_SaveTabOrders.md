@@ -11,7 +11,7 @@ content_type: reference
 POST /api/v1/Agents/Preference/SaveTabOrders
 ```
 
-
+NsApiSlow threshold: 1000 ms.
 
 
 
@@ -71,16 +71,16 @@ Content-Type: application/json; charset=utf-8
 {
   "TabOrders": [
     {
-      "TabOrderId": 29,
-      "TabName": "Roberts, King and Johns",
-      "Order": "tempore",
-      "AssociateId": 747
+      "TabOrderId": 476,
+      "TabName": "Halvorson-Hintz",
+      "Order": "magnam",
+      "AssociateId": 848
     },
     {
-      "TabOrderId": 29,
-      "TabName": "Roberts, King and Johns",
-      "Order": "tempore",
-      "AssociateId": 747
+      "TabOrderId": 476,
+      "TabName": "Halvorson-Hintz",
+      "Order": "magnam",
+      "AssociateId": 848
     }
   ]
 }

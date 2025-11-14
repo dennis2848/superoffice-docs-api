@@ -15,6 +15,7 @@ Creates a new ChatSessionEntity
 
 
 Calls the Chat agent service SaveChatSessionEntity.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -137,41 +138,41 @@ OK
 POST /api/v1/ChatSession
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 233,
-  "TopicId": 47,
+  "ChatSessionId": 757,
+  "TopicId": 401,
   "User": null,
   "Person": null,
-  "CustomerAlias": "in",
-  "CustomerHost": "ut",
-  "CustomerName": "Kub Group",
-  "CustomerEmail": "adah@gleichner.uk",
-  "CustomerPhone": "1-796-225-2002 x32234",
+  "CustomerAlias": "sint",
+  "CustomerHost": "aspernatur",
+  "CustomerName": "Barrows, Murray and Padberg",
+  "CustomerEmail": "vida@keeling.us",
+  "CustomerPhone": "762-248-2668",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Hand, Paucek and Towne",
+  "CustomerCompanyName": "Murphy, Kertzmann and Waters",
   "Status": "Closed",
-  "FirstMessage": "placeat",
-  "LastMessage": "aut",
-  "WhenRequested": "2003-10-24T03:46:59.7224496+02:00",
-  "WhenStarted": "2024-07-06T03:46:59.7224496+02:00",
-  "WhenEnded": "2021-12-02T03:46:59.7224496+01:00",
-  "WhenIdle": "2001-10-20T03:46:59.7224496+02:00",
-  "WhenFetched": "2020-11-06T03:46:59.7224496+01:00",
-  "SessionKey": "placeat",
-  "InitialQueuePos": 721,
-  "AlertLevel": 829,
-  "Rank": 664,
+  "FirstMessage": "ipsum",
+  "LastMessage": "temporibus",
+  "WhenRequested": "2014-08-31T02:30:52.350546+02:00",
+  "WhenStarted": "1999-10-26T02:30:52.350546+02:00",
+  "WhenEnded": "2010-09-09T02:30:52.350546+02:00",
+  "WhenIdle": "2016-09-09T02:30:52.350546+02:00",
+  "WhenFetched": "2018-03-17T02:30:52.350546+01:00",
+  "SessionKey": "rerum",
+  "InitialQueuePos": 41,
+  "AlertLevel": 365,
+  "Rank": 714,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": false,
-  "Rating": 699
+  "ChatbotIsActive": true,
+  "Rating": 692
 }
 ```
 
@@ -182,29 +183,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 112,
-  "TopicId": 980,
+  "ChatSessionId": 341,
+  "TopicId": 551,
   "User": null,
   "Person": null,
-  "CustomerAlias": "labore",
-  "CustomerHost": "officiis",
-  "CustomerName": "Daniel, O'Keefe and Langosh",
-  "CustomerEmail": "warren.schowalter@gibson.us",
-  "CustomerPhone": "455.204.0152 x5045",
-  "CustomerConsented": true,
-  "CustomerCompanyName": "Herzog Inc and Sons",
+  "CustomerAlias": "magni",
+  "CustomerHost": "quod",
+  "CustomerName": "Kris-Leannon",
+  "CustomerEmail": "america.gleichner@bailey.name",
+  "CustomerPhone": "(312)798-1353",
+  "CustomerConsented": false,
+  "CustomerCompanyName": "Bayer-Bauch",
   "Status": "Closed",
-  "FirstMessage": "consequatur",
-  "LastMessage": "rem",
-  "WhenRequested": "2025-02-28T03:46:59.7380732+01:00",
-  "WhenStarted": "2010-11-17T03:46:59.7380732+01:00",
-  "WhenEnded": "2008-01-24T03:46:59.7380732+01:00",
-  "WhenIdle": "2007-12-15T03:46:59.7380732+01:00",
-  "WhenFetched": "2010-05-28T03:46:59.7380732+02:00",
-  "SessionKey": "commodi",
-  "InitialQueuePos": 694,
-  "AlertLevel": 89,
-  "Rank": 482,
+  "FirstMessage": "possimus",
+  "LastMessage": "est",
+  "WhenRequested": "2025-02-10T02:30:52.350546+01:00",
+  "WhenStarted": "2011-12-11T02:30:52.350546+01:00",
+  "WhenEnded": "2000-08-17T02:30:52.350546+02:00",
+  "WhenIdle": "2010-09-26T02:30:52.350546+02:00",
+  "WhenFetched": "2002-11-20T02:30:52.350546+01:00",
+  "SessionKey": "amet",
+  "InitialQueuePos": 142,
+  "AlertLevel": 441,
+  "Rank": 730,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -212,18 +213,18 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 773,
+  "Rating": 34,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 230
+      "FieldLength": 389
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

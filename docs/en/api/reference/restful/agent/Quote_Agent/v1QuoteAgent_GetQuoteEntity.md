@@ -14,6 +14,8 @@ POST /api/v1/Agents/Quote/GetQuoteEntity
 Get a Quote
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -86,11 +88,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 635
+  "QuoteId": 76
 }
 ```
 
@@ -101,58 +103,58 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 664,
-  "SaleId": 594,
-  "QuoteConnectionId": 825,
-  "ERPQuoteKey": "quia",
-  "ERPOrderKey": "culpa",
-  "ActiveQuoteVersionId": 755,
-  "AcceptedQuoteAlternativeId": 456,
-  "UseValuesFromQuote": 588,
-  "DocumentId": 259,
-  "PoNumber": "1725738",
-  "OrderComment": "quo",
-  "PreferredEmailCulture": "jalon@rippinmitchell.com",
+  "QuoteId": 315,
+  "SaleId": 362,
+  "QuoteConnectionId": 5,
+  "ERPQuoteKey": "magnam",
+  "ERPOrderKey": "quae",
+  "ActiveQuoteVersionId": 637,
+  "AcceptedQuoteAlternativeId": 979,
+  "UseValuesFromQuote": 38,
+  "DocumentId": 877,
+  "PoNumber": "949355",
+  "OrderComment": "sed",
+  "PreferredEmailCulture": "domenick_sanford@hirthe.co.uk",
   "QuoteVersions": [
     {
-      "QuoteVersionId": 507,
-      "ERPQuoteVersionKey": "quia",
-      "QuoteId": 143,
-      "Description": "Compatible interactive function",
-      "Number": "1196249",
+      "QuoteVersionId": 433,
+      "ERPQuoteVersionKey": "nihil",
+      "QuoteId": 668,
+      "Description": "Cross-platform national database",
+      "Number": "1179916",
       "State": "Archived",
       "ArchivedState": "Archived",
       "Status": "Error",
       "Reason": "",
-      "LikelyQuoteAlternativeId": 833,
-      "SentDate": "2002-07-20T03:46:55.2226157+02:00",
-      "FollowupId": 686,
-      "ExpirationDate": "2016-08-07T03:46:55.2226157+02:00",
-      "DeliveryCountryId": 762,
-      "HasOwnDeliveryAddress": false,
-      "InvoiceCountryId": 923,
+      "LikelyQuoteAlternativeId": 316,
+      "SentDate": "2009-02-24T02:30:47.7413192+01:00",
+      "FollowupId": 215,
+      "ExpirationDate": "2014-03-14T02:30:47.7413192+01:00",
+      "DeliveryCountryId": 712,
+      "HasOwnDeliveryAddress": true,
+      "InvoiceCountryId": 764,
       "HasOwnInvoiceAddress": false,
-      "ERPPaymentTermsKey": "ut",
-      "ERPPaymentTypeKey": "ratione",
-      "ERPDeliveryTermsKey": "quibusdam",
-      "ERPDeliveryTypeKey": "ut",
-      "Rank": 437,
-      "ApprovedBy": 68,
-      "ApprovedText": "enim",
-      "ApprovedRegisteredBy": 986,
-      "ApprovedRegisteredDate": "2011-08-13T03:46:55.2226157+02:00",
-      "ExtraField1": "ea",
-      "ExtraField2": "quae",
-      "ExtraField3": "officiis",
-      "ExtraField4": "soluta",
-      "ExtraField5": "vel",
-      "LastRecalculated": "2012-01-29T03:46:55.2226157+01:00",
-      "Updated": "2013-06-14T03:46:55.2226157+02:00",
-      "UpdatedAssociateId": 698,
-      "Registered": "2021-12-27T03:46:55.2226157+01:00",
-      "RegisteredAssociateId": 591,
-      "RequestAssociateId": 784,
-      "RequestComment": "quis",
+      "ERPPaymentTermsKey": "nostrum",
+      "ERPPaymentTypeKey": "quia",
+      "ERPDeliveryTermsKey": "ut",
+      "ERPDeliveryTypeKey": "rerum",
+      "Rank": 57,
+      "ApprovedBy": 737,
+      "ApprovedText": "est",
+      "ApprovedRegisteredBy": 901,
+      "ApprovedRegisteredDate": "2015-04-15T02:30:47.7413192+02:00",
+      "ExtraField1": "omnis",
+      "ExtraField2": "asperiores",
+      "ExtraField3": "dolor",
+      "ExtraField4": "sint",
+      "ExtraField5": "velit",
+      "LastRecalculated": "2022-03-11T02:30:47.7413192+01:00",
+      "Updated": "2015-11-03T02:30:47.7413192+01:00",
+      "UpdatedAssociateId": 197,
+      "Registered": "2009-02-06T02:30:47.7413192+01:00",
+      "RegisteredAssociateId": 948,
+      "RequestAssociateId": 520,
+      "RequestComment": "et",
       "QuoteAlternatives": [
         {},
         {}
@@ -161,8 +163,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 494
+          "FieldType": "System.String",
+          "FieldLength": 462
         }
       }
     }
@@ -171,8 +173,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 592
+      "FieldType": "System.Int32",
+      "FieldLength": 583
     }
   }
 }

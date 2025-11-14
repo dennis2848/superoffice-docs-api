@@ -70,7 +70,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -78,24 +78,24 @@ Accept-Language: *
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Thu, 02 Oct 2014 03:47:00 G10T
+Last-Modified: Sun, 05 Aug 2018 02:30:52 G8T
 
 {
-  "ForeignDeviceId": 137,
-  "Name": "Purdy Inc and Sons",
-  "CreatedDate": "2006-05-25T03:47:00.0349452+02:00",
-  "UpdatedDate": "2014-10-02T03:47:00.0349452+02:00",
-  "AssociateFullName": "Prof. Tobin Beahan Jr.",
-  "CreatedBy": "et",
-  "UpdatedBy": "ut",
-  "DeviceIdentifier": "exercitationem",
-  "ForeignAppId": 858,
+  "ForeignDeviceId": 910,
+  "Name": "Maggio, Medhurst and Labadie",
+  "CreatedDate": "2002-07-10T02:30:52.6474115+02:00",
+  "UpdatedDate": "2018-08-05T02:30:52.6474115+02:00",
+  "AssociateFullName": "Prof. Emmitt Roberts PhD",
+  "CreatedBy": "tempora",
+  "UpdatedBy": "nobis",
+  "DeviceIdentifier": "reiciendis",
+  "ForeignAppId": 582,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 817
+      "FieldLength": 406
     }
   }
 }

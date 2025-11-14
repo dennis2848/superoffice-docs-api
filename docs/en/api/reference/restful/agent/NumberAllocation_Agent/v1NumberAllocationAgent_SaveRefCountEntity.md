@@ -14,6 +14,8 @@ POST /api/v1/Agents/NumberAllocation/SaveRefCountEntity
 Updates the existing RefCountEntity or creates a new RefCountEntity if the id parameter is 0.
 
 
+NsApiSlow threshold: 1000 ms.
+
 
 
 
@@ -84,39 +86,39 @@ OK
 POST /api/v1/Agents/NumberAllocation/SaveRefCountEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RefCountsId": 623,
-  "Field": "in",
-  "RecordId": 920,
+  "RefCountsId": 308,
+  "Field": "tempora",
+  "RecordId": 573,
   "SuggestedRecords": [
     {
-      "Id": 972,
-      "Name": "Luettgen Group",
-      "ToolTip": "Optio dolorem sed sed.",
+      "Id": 836,
+      "Name": "Weissnat, Lind and Macejkovic",
+      "ToolTip": "Earum ab quia.",
       "Deleted": false,
-      "Rank": 224,
-      "Type": "necessitatibus",
+      "Rank": 264,
+      "Type": "provident",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "sequi",
-      "ColorBlock": 199,
-      "ExtraInfo": "ut",
-      "StyleHint": "tempora",
-      "FullName": "Madeline Adams"
+      "IconHint": "et",
+      "ColorBlock": 928,
+      "ExtraInfo": "quaerat",
+      "StyleHint": "odio",
+      "FullName": "Werner Waters Jr."
     }
   ],
-  "CurrentValue": 53,
-  "TravelPrefix": 362,
-  "SatPrefix": 669,
+  "CurrentValue": 130,
+  "TravelPrefix": 548,
+  "SatPrefix": 283,
   "Allocate": false,
   "Unique": true,
   "ReadOnly": false,
-  "AllowBlank": true
+  "AllowBlank": false
 }
 ```
 
@@ -127,49 +129,49 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RefCountsId": 308,
-  "Field": "sequi",
-  "RecordId": 175,
+  "RefCountsId": 995,
+  "Field": "eius",
+  "RecordId": 296,
   "SuggestedRecords": [
     {
-      "Id": 677,
-      "Name": "Zulauf, Murazik and Kohler",
-      "ToolTip": "Ipsum aut asperiores repudiandae commodi odit voluptas.",
+      "Id": 828,
+      "Name": "Welch LLC",
+      "ToolTip": "Magnam est qui.",
       "Deleted": false,
-      "Rank": 197,
-      "Type": "dignissimos",
+      "Rank": 538,
+      "Type": "earum",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "aut",
-      "ColorBlock": 319,
-      "ExtraInfo": "est",
-      "StyleHint": "eligendi",
-      "FullName": "Kaycee Effertz",
+      "IconHint": "vel",
+      "ColorBlock": 879,
+      "ExtraInfo": "nesciunt",
+      "StyleHint": "consequatur",
+      "FullName": "Ms. Jacky Balistreri",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 108
+          "FieldType": "System.Int32",
+          "FieldLength": 779
         }
       }
     }
   ],
-  "CurrentValue": 247,
-  "TravelPrefix": 392,
-  "SatPrefix": 345,
+  "CurrentValue": 327,
+  "TravelPrefix": 698,
+  "SatPrefix": 858,
   "Allocate": false,
-  "Unique": false,
-  "ReadOnly": false,
-  "AllowBlank": true,
+  "Unique": true,
+  "ReadOnly": true,
+  "AllowBlank": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 70
+      "FieldLength": 980
     }
   }
 }

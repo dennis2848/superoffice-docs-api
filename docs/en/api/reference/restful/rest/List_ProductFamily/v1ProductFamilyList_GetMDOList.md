@@ -28,7 +28,7 @@ Get the MDO list items for "ProductFamily" - with headings and filtering by user
 
 ```http
 GET /api/v1/List/ProductFamily/MDOItems?flat=True
-GET /api/v1/List/ProductFamily/MDOItems?query=perferendis
+GET /api/v1/List/ProductFamily/MDOItems?query=harum
 ```
 
 
@@ -79,7 +79,7 @@ OK
 GET /api/v1/List/ProductFamily/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -90,50 +90,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 306,
-    "Name": "Sanford Group",
-    "ToolTip": "Autem adipisci autem.",
+    "Id": 805,
+    "Name": "Stokes, Kertzmann and Graham",
+    "ToolTip": "Voluptas nam accusamus ab quo praesentium aut dolor.",
     "Deleted": false,
-    "Rank": 419,
-    "Type": "voluptatem",
+    "Rank": 552,
+    "Type": "aut",
     "ChildItems": [
       {
-        "Id": 40,
-        "Name": "Kirlin-Lakin",
-        "ToolTip": "Voluptas explicabo nesciunt aut non deserunt.",
-        "Deleted": false,
-        "Rank": 915,
-        "Type": "modi",
+        "Id": 312,
+        "Name": "Ebert Inc and Sons",
+        "ToolTip": "Dicta odio soluta libero ut.",
+        "Deleted": true,
+        "Rank": 551,
+        "Type": "laudantium",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "voluptas",
-        "ColorBlock": 154,
-        "ExtraInfo": "aut",
-        "StyleHint": "nobis",
-        "FullName": "Kariane Kessler",
+        "IconHint": "sunt",
+        "ColorBlock": 780,
+        "ExtraInfo": "ea",
+        "StyleHint": "est",
+        "FullName": "Monserrate Schuster",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 926
+            "FieldLength": 49
           }
         }
       }
     ],
-    "IconHint": "ut",
-    "ColorBlock": 346,
-    "ExtraInfo": "aperiam",
-    "StyleHint": "est",
-    "FullName": "Ruthe Rice",
+    "IconHint": "eaque",
+    "ColorBlock": 756,
+    "ExtraInfo": "aliquam",
+    "StyleHint": "et",
+    "FullName": "Ms. Carmen Elena Considine MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 127
+        "FieldType": "System.String",
+        "FieldLength": 552
       }
     }
   }

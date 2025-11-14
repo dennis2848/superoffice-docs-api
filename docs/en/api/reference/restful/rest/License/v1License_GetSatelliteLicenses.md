@@ -74,30 +74,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Murray-Goldner",
-    "Description": "Exclusive multimedia customer loyalty",
+    "Name": "Nitzsche-Mayer",
+    "Description": "Object-based bandwidth-monitored array",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 119,
-        "Tooltip": "odio",
-        "CanAssign": true,
-        "Free": 642,
-        "InUse": 420,
+        "Unrestricted": true,
+        "Total": 763,
+        "Tooltip": "exercitationem",
+        "CanAssign": false,
+        "Free": 532,
+        "InUse": 615,
         "IsHidden": true,
         "Assigned": false,
-        "ModuleLicenseId": 730,
-        "Name": "Russel, Conroy and Marquardt",
-        "Description": "Persistent high-level initiative",
-        "PrerequisiteModuleName": "Swift, Moore and Baumbach",
-        "SortOrder": 570,
-        "ExtraFlags": 473,
+        "ModuleLicenseId": 841,
+        "Name": "Stark-Daugherty",
+        "Description": "Quality-focused impactful application",
+        "PrerequisiteModuleName": "Dicki, Kozey and Schimmel",
+        "SortOrder": 148,
+        "ExtraFlags": 24,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 77
+            "FieldType": "System.Int32",
+            "FieldLength": 781
           }
         }
       }
@@ -105,25 +105,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 639,
-        "Tooltip": "quis",
+        "Total": 684,
+        "Tooltip": "est",
         "CanAssign": false,
-        "Free": 218,
-        "InUse": 76,
+        "Free": 829,
+        "InUse": 597,
         "IsHidden": false,
-        "Assigned": true,
-        "ModuleLicenseId": 760,
-        "Name": "Ullrich-Wisozk",
-        "Description": "Self-enabling high-level monitoring",
-        "PrerequisiteModuleName": "Schmidt Group",
-        "SortOrder": 438,
-        "ExtraFlags": 565,
+        "Assigned": false,
+        "ModuleLicenseId": 253,
+        "Name": "Howell, Mosciski and Collins",
+        "Description": "Reverse-engineered user-facing local area network",
+        "PrerequisiteModuleName": "Davis LLC",
+        "SortOrder": 944,
+        "ExtraFlags": 301,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 490
+            "FieldLength": 863
           }
         }
       }
@@ -133,35 +133,35 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 531
+        "FieldLength": 945
       }
     }
   },
   {
-    "Name": "Murray-Goldner",
-    "Description": "Exclusive multimedia customer loyalty",
+    "Name": "Nitzsche-Mayer",
+    "Description": "Object-based bandwidth-monitored array",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 119,
-        "Tooltip": "odio",
-        "CanAssign": true,
-        "Free": 642,
-        "InUse": 420,
+        "Unrestricted": true,
+        "Total": 763,
+        "Tooltip": "exercitationem",
+        "CanAssign": false,
+        "Free": 532,
+        "InUse": 615,
         "IsHidden": true,
         "Assigned": false,
-        "ModuleLicenseId": 730,
-        "Name": "Russel, Conroy and Marquardt",
-        "Description": "Persistent high-level initiative",
-        "PrerequisiteModuleName": "Swift, Moore and Baumbach",
-        "SortOrder": 570,
-        "ExtraFlags": 473,
+        "ModuleLicenseId": 841,
+        "Name": "Stark-Daugherty",
+        "Description": "Quality-focused impactful application",
+        "PrerequisiteModuleName": "Dicki, Kozey and Schimmel",
+        "SortOrder": 148,
+        "ExtraFlags": 24,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 77
+            "FieldType": "System.Int32",
+            "FieldLength": 781
           }
         }
       }
@@ -169,25 +169,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 639,
-        "Tooltip": "quis",
+        "Total": 684,
+        "Tooltip": "est",
         "CanAssign": false,
-        "Free": 218,
-        "InUse": 76,
+        "Free": 829,
+        "InUse": 597,
         "IsHidden": false,
-        "Assigned": true,
-        "ModuleLicenseId": 760,
-        "Name": "Ullrich-Wisozk",
-        "Description": "Self-enabling high-level monitoring",
-        "PrerequisiteModuleName": "Schmidt Group",
-        "SortOrder": 438,
-        "ExtraFlags": 565,
+        "Assigned": false,
+        "ModuleLicenseId": 253,
+        "Name": "Howell, Mosciski and Collins",
+        "Description": "Reverse-engineered user-facing local area network",
+        "PrerequisiteModuleName": "Davis LLC",
+        "SortOrder": 944,
+        "ExtraFlags": 301,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 490
+            "FieldLength": 863
           }
         }
       }
@@ -197,7 +197,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 531
+        "FieldLength": 945
       }
     }
   }

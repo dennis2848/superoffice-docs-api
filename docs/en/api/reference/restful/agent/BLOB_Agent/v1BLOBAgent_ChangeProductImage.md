@@ -11,7 +11,7 @@ content_type: reference
 POST /api/v1/Agents/BLOB/ChangeProductImage
 ```
 
-
+NsApiSlow threshold: 3000 ms.
 
 
 
@@ -70,8 +70,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 56,
-  "BlobId": 369
+  "ProductId": 688,
+  "BlobId": 337
 }
 ```
 

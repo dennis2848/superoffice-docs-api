@@ -15,6 +15,7 @@ Take an incoming set of minimally populated restrictions (name + operator is req
 
 
 This includes column information, display values (including list value lookup), and calculated/default values where the value hints specify read-only (R).
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -84,22 +85,22 @@ OK
 POST /api/v1/Agents/Find/PopulateRestrictions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Hilpert-Hermann",
+  "ProviderName": "Halvorson-Kertzmann",
   "Restrictions": [
     {
-      "Name": "Crist, Lesch and Satterfield",
-      "Operator": "architecto",
+      "Name": "Swift-Wehner",
+      "Operator": "labore",
       "Values": [
-        "fuga",
-        "quia"
+        "nulla",
+        "tempora"
       ],
       "DisplayValues": [
-        "perferendis",
-        "consequatur"
+        "officiis",
+        "esse"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -107,9 +108,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 691,
+      "InterParenthesis": 580,
       "InterOperator": "And",
-      "UniqueHash": 747
+      "UniqueHash": 914
     }
   ]
 }
@@ -123,29 +124,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "D'Amore LLC",
-    "Operator": "sint",
+    "Name": "Powlowski Group",
+    "Operator": "cumque",
     "Values": [
-      "molestiae",
-      "quia"
+      "consequuntur",
+      "quidem"
     ],
     "DisplayValues": [
       "est",
-      "omnis"
+      "magni"
     ],
     "ColumnInfo": null,
     "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Kiehn-Becker",
-        "Operator": "eos",
+        "Name": "Weimann Inc and Sons",
+        "Operator": "architecto",
         "Values": [
-          "sapiente",
-          "voluptate"
+          "exercitationem",
+          "ut"
         ],
         "DisplayValues": [
-          "quia",
-          "voluptatem"
+          "quasi",
+          "possimus"
         ],
         "ColumnInfo": null,
         "IsActive": true,
@@ -153,14 +154,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 802,
+        "InterParenthesis": 65,
         "InterOperator": "And",
-        "UniqueHash": 704
+        "UniqueHash": 469
       }
     ],
-    "InterParenthesis": 254,
+    "InterParenthesis": 4,
     "InterOperator": "And",
-    "UniqueHash": 23
+    "UniqueHash": 882
   }
 ]
 ```

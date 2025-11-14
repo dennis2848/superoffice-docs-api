@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/DeleteFromListName
 Delete a list item from the specified list defintion
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -70,8 +72,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 554,
-  "UdListDefinitionName": "Bauch Inc and Sons"
+  "Id": 368,
+  "UdListDefinitionName": "Boyer, Stiedemann and Nolan"
 }
 ```
 

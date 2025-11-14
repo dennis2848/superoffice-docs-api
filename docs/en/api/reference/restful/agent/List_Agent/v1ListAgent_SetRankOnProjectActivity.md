@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/SetRankOnProjectActivity
 Set rank order on project activity
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -66,14 +68,14 @@ No Content
 POST /api/v1/Agents/List/SetRankOnProjectActivity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectTypeStatusLinkId": 293,
+  "ProjectTypeStatusLinkId": 622,
   "ItemsIds": [
-    175,
-    828
+    981,
+    633
   ]
 }
 ```

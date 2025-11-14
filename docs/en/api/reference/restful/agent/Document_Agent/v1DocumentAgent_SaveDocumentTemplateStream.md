@@ -14,6 +14,8 @@ POST /api/v1/Agents/Document/SaveDocumentTemplateStream
 Saves content in stream to document template file
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -83,10 +85,10 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 357,
+  "DocumentTemplateId": 363,
   "Content": "GIF89....File contents as raw bytes...",
-  "LanguageCode": "et",
-  "PluginId": 356
+  "LanguageCode": "aut",
+  "PluginId": 686
 }
 ```
 
@@ -97,10 +99,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Boyer, Beatty and Kuhn",
-  "Description": "Exclusive empowering Graphic Interface",
-  "ExternalReference": "earum",
-  "MimeType": "sed",
-  "PluginId": 845
+  "Name": "Brakus-Weissnat",
+  "Description": "Digitized tangible approach",
+  "ExternalReference": "neque",
+  "MimeType": "aperiam",
+  "PluginId": 245
 }
 ```

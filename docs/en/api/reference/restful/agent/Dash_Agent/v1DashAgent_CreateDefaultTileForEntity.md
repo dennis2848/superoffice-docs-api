@@ -14,6 +14,8 @@ POST /api/v1/Agents/Dash/CreateDefaultTileForEntity
 Set Measure to CountAll and MeasureField to primary key field
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -79,11 +81,11 @@ OK
 POST /api/v1/Agents/Dash/CreateDefaultTileForEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EntityName": "Frami-Wiegand"
+  "EntityName": "Weissnat, Sawayn and Willms"
 }
 ```
 
@@ -94,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 584,
-  "DashboardId": 159,
-  "Height": 119,
-  "Width": 197,
-  "Rank": 212,
+  "DashboardTileId": 209,
+  "DashboardId": 603,
+  "Height": 25,
+  "Width": 957,
+  "Rank": 623,
   "DashTileDefinition": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 711
+      "FieldLength": 560
     }
   }
 }

@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/GetSelectionCategoryList
 Gets an array of SelectionCategory objects.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -84,28 +86,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 923,
-    "Value": "molestiae",
-    "Tooltip": "eum",
+    "Id": 782,
+    "Value": "eius",
+    "Tooltip": "ut",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 619
+        "FieldType": "System.Int32",
+        "FieldLength": 167
       }
     }
   },
   {
-    "Id": 923,
-    "Value": "molestiae",
-    "Tooltip": "eum",
+    "Id": 782,
+    "Value": "eius",
+    "Tooltip": "ut",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 619
+        "FieldType": "System.Int32",
+        "FieldLength": 167
       }
     }
   }

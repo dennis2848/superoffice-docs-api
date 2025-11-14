@@ -14,6 +14,9 @@ POST /api/v1/Agents/User/GetUserInfo
 Gets a UserInfo object.
 
 
+NsApiSlow threshold: 1000 ms.
+
+
 ## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
 
 
@@ -29,7 +32,7 @@ Gets a UserInfo object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/User/GetUserInfo?userInfoId=108
+POST /api/v1/Agents/User/GetUserInfo?userInfoId=513
 POST /api/v1/Agents/User/GetUserInfo?$select=name,department,category/id
 ```
 
@@ -94,30 +97,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Deleted": false,
-  "UserInfoId": 607,
-  "UserName": "Russel-Vandervort",
-  "PersonId": 810,
-  "Rank": 605,
-  "Tooltip": "sint",
-  "UserGroupId": 935,
-  "EjUserId": 270,
+  "Deleted": true,
+  "UserInfoId": 523,
+  "UserName": "Boehm LLC",
+  "PersonId": 757,
+  "Rank": 706,
+  "Tooltip": "ut",
+  "UserGroupId": 908,
+  "EjUserId": 841,
   "UserType": "AnonymousAssociate",
   "GrantedLicenses": [
-    "alias",
-    "earum"
+    "mollitia",
+    "soluta"
   ],
   "CanLogon": false,
-  "RoleName": "Bradtke, Harris and Swift",
-  "RoleTooltip": "sunt",
-  "UserGroupName": "Wunsch, Wyman and Hermann",
-  "UserGroupTooltip": "est",
+  "RoleName": "Labadie Group",
+  "RoleTooltip": "quibusdam",
+  "UserGroupName": "Kuhlman LLC",
+  "UserGroupTooltip": "molestiae",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 605
+      "FieldType": "System.Int32",
+      "FieldLength": 356
     }
   }
 }

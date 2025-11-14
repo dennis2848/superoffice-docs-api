@@ -14,6 +14,8 @@ POST /api/v1/Agents/Saint/GetStatusMonitorPeriods
 Returns the StatusMonitorPeriods entity.
 
 
+NsApiSlow threshold: 1000 ms.
+
 
 
 
@@ -68,7 +70,7 @@ OK
 POST /api/v1/Agents/Saint/GetStatusMonitorPeriods
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -78,15 +80,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Period1": 303,
-  "Period2": 608,
-  "Period3": 920,
+  "Period1": 968,
+  "Period2": 907,
+  "Period3": 541,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 506
+      "FieldType": "System.Int32",
+      "FieldLength": 750
     }
   }
 }

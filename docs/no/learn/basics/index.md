@@ -110,9 +110,9 @@ Administratoren kan [legge til og tilpasse prosjektguider][1] for deg.
 [7]: ../../project/learn/create.md
 [8]: ../../diary/learn/create-follow-up.md
 [10]: ../../diary/learn/invitation/add-attendee.md
-[11]: ../../../en/diary/video-meeting/index.md
+[11]: ../../../../integrations/video-meetings/index.md
 [12]: activity.md
-[13]: ../../globalization-and-localization/learn/change-language.md
+[13]: ../getting-started/change-language.md
 [14]: fav.md
 [15]: deleting-elements.md
 [16]: duplicates.md

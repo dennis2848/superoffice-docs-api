@@ -15,6 +15,7 @@ Calculate the default desired columns, i.
 
 
 e., the result columns for a given search. The search is defined by a storage type, provider name and storage key, which are used to fetch the corresponding restrictions from the database (in the same way as Find does). If you want to specify the restriction directly, use the GetDefaultDesiredColumnsFromRestrictions method instead. This is the algorithm that is used by the Find service method.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -88,13 +89,13 @@ OK
 POST /api/v1/Agents/Find/GetDefaultDesiredColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "commodi",
-  "ProviderName": "Kessler, Kerluke and Kemmer",
-  "StorageKey": "soluta"
+  "StorageType": "est",
+  "ProviderName": "Pfannerstill, Kihn and Kulas",
+  "StorageKey": "placeat"
 }
 ```
 
@@ -106,19 +107,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Bogan-Ankunding",
-    "DisplayTooltip": "et",
-    "DisplayType": "ipsum",
-    "CanOrderBy": false,
-    "Name": "Mosciski Inc and Sons",
-    "CanRestrictBy": true,
-    "RestrictionType": "rerum",
-    "RestrictionListName": "Kshlerin-Halvorson",
-    "IsVisible": true,
-    "ExtraInfo": "error",
-    "Width": "beatae",
-    "IconHint": "ad",
-    "HeadingIconHint": "tenetur"
+    "DisplayName": "Stokes-Hagenes",
+    "DisplayTooltip": "itaque",
+    "DisplayType": "eum",
+    "CanOrderBy": true,
+    "Name": "Robel Group",
+    "CanRestrictBy": false,
+    "RestrictionType": "sit",
+    "RestrictionListName": "Greenfelder, Harris and O'Reilly",
+    "IsVisible": false,
+    "ExtraInfo": "nihil",
+    "Width": "sint",
+    "IconHint": "nam",
+    "HeadingIconHint": "facere"
   }
 ]
 ```

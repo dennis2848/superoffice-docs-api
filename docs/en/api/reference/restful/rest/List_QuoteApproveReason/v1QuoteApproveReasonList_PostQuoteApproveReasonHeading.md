@@ -76,16 +76,16 @@ OK
 POST /api/v1/List/QuoteApproveReason/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 347,
-  "Name": "Friesen, Jenkins and Reichert",
-  "Tooltip": "aliquid",
-  "Deleted": true,
-  "Rank": 529,
-  "UdListDefinitionId": 86
+  "HeadingId": 731,
+  "Name": "Lind Inc and Sons",
+  "Tooltip": "non",
+  "Deleted": false,
+  "Rank": 373,
+  "UdListDefinitionId": 489
 }
 ```
 
@@ -96,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 724,
-  "Name": "Murphy, Gorczany and Russel",
-  "Tooltip": "repudiandae",
-  "Deleted": false,
-  "Rank": 487,
-  "UdListDefinitionId": 460,
+  "HeadingId": 59,
+  "Name": "Yundt-Sanford",
+  "Tooltip": "expedita",
+  "Deleted": true,
+  "Rank": 533,
+  "UdListDefinitionId": 712,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 683
+      "FieldLength": 340
     }
   }
 }

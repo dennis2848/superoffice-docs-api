@@ -15,6 +15,7 @@ Set default values into a new ListEntity.
 
 
 NetServer calculates default values on the entity, which is required when creating/storing a new instance Calls the List agent service CreateDefaultListEntity.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -77,22 +78,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 633,
-  "Name": "Schroeder-Reinger",
-  "Tooltip": "dolorem",
+  "Id": 252,
+  "Name": "Hammes LLC",
+  "Tooltip": "aliquid",
   "Deleted": false,
-  "Rank": 753,
-  "IsCustomList": false,
+  "Rank": 490,
+  "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "voluptatem",
+  "UseGroupsAndHeadings": true,
+  "ListType": "aut",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 435
+      "FieldType": "System.String",
+      "FieldLength": 371
     }
   }
 }

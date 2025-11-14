@@ -14,6 +14,9 @@ POST /api/v1/Agents/ErpSync/GetErpSyncConnectionSummary
 Get a summary of the current ErpSync configuration/setup
 
 
+NsApiSlow threshold: 5000 ms.
+
+
 ## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
 
 
@@ -85,7 +88,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpSyncConnectionId": 989
+  "ErpSyncConnectionId": 739
 }
 ```
 
@@ -96,37 +99,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DisplayName": "Aufderhar-Torphy",
-  "DisplayDescription": "Sharable foreground instruction set",
-  "Active": false,
-  "Deleted": false,
-  "LastSync": "2012-11-20T03:46:54.8007556+01:00",
+  "DisplayName": "Erdman-Gutmann",
+  "DisplayDescription": "Organized tertiary database",
+  "Active": true,
+  "Deleted": true,
+  "LastSync": "2022-05-31T02:30:47.3194579+02:00",
   "Actors": [
     {
       "ActorType": "Customer",
-      "HasMappings": false,
-      "Defaults": "laudantium",
-      "Mappings": "cum",
+      "HasMappings": true,
+      "Defaults": "laborum",
+      "Mappings": "in",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 601
+          "FieldLength": 64
         }
       }
     },
     {
       "ActorType": "Customer",
-      "HasMappings": false,
-      "Defaults": "laudantium",
-      "Mappings": "cum",
+      "HasMappings": true,
+      "Defaults": "laborum",
+      "Mappings": "in",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 601
+          "FieldLength": 64
         }
       }
     }
@@ -136,7 +139,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 65
+      "FieldLength": 370
     }
   }
 }

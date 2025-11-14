@@ -15,6 +15,7 @@ Calculates the set of dates that represents a recurrence pattern.
 
 
 Adds conflict information to each date.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -100,10 +101,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 553,
-  "StartDate": "2005-11-16T03:46:54.1445302+01:00",
-  "EndDate": "2005-09-20T03:46:54.1445302+02:00",
-  "RecurrenceCounter": 451,
+  "RecurrenceId": 311,
+  "StartDate": "2018-01-22T02:30:46.6163546+01:00",
+  "EndDate": "2017-07-28T02:30:46.6163546+02:00",
+  "RecurrenceCounter": 235,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": null,
@@ -112,20 +113,20 @@ Content-Type: application/json; charset=utf-8
   "YearPattern": null,
   "Dates": [
     {
-      "Date": "2010-09-24T03:46:54.1445302+02:00",
-      "IsConflict": true,
-      "Description": "Down-sized dynamic function",
-      "DescriptionStyleHint": "Face to face hybrid Graphic Interface",
-      "Tooltip": "distinctio"
+      "Date": "2021-10-21T02:30:46.6163546+02:00",
+      "IsConflict": false,
+      "Description": "Public-key local project",
+      "DescriptionStyleHint": "Optional zero defect archive",
+      "Tooltip": "repellendus"
     },
     {
-      "Date": "2010-09-24T03:46:54.1445302+02:00",
-      "IsConflict": true,
-      "Description": "Down-sized dynamic function",
-      "DescriptionStyleHint": "Face to face hybrid Graphic Interface",
-      "Tooltip": "distinctio"
+      "Date": "2021-10-21T02:30:46.6163546+02:00",
+      "IsConflict": false,
+      "Description": "Public-key local project",
+      "DescriptionStyleHint": "Optional zero defect archive",
+      "Tooltip": "repellendus"
     }
   ],
-  "IsRecurrence": false
+  "IsRecurrence": true
 }
 ```

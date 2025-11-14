@@ -14,6 +14,8 @@ PUT /api/v1/PreferenceDescriptionLine/{id}
 Updates the existing PreferenceDescriptionLine
 
 
+NsApiSlow threshold: 1000 ms.
+
 
 
 
@@ -90,16 +92,16 @@ PreferenceDescriptionLine updated.
 PUT /api/v1/PreferenceDescriptionLine/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 605,
-  "PrefDescId": 240,
-  "PrefValue": "qui",
-  "PrefShowValue": "recusandae",
-  "Description": "Open-source actuating encoding",
-  "IsBuiltin": false
+  "PrefDescLineId": 174,
+  "PrefDescId": 15,
+  "PrefValue": "doloribus",
+  "PrefShowValue": "placeat",
+  "Description": "Assimilated 4th generation structure",
+  "IsBuiltin": true
 }
 ```
 
@@ -110,23 +112,23 @@ HTTP/1.1 200 PreferenceDescriptionLine updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 72,
-  "PrefDescId": 32,
-  "PrefValue": "aliquid",
-  "PrefShowValue": "in",
-  "Description": "Cross-platform object-oriented extranet",
+  "PrefDescLineId": 142,
+  "PrefDescId": 766,
+  "PrefValue": "earum",
+  "PrefShowValue": "ut",
+  "Description": "Integrated secondary customer loyalty",
   "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 76
+      "FieldType": "System.Int32",
+      "FieldLength": 826
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

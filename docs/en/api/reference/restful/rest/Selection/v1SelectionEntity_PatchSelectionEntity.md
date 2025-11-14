@@ -14,7 +14,8 @@ PATCH /api/v1/Selection/{id}
 Update a SelectionEntity with changes, as described in a JSON Patch or a JSON Merge Patch document.
 
 
-See <a href="https://tools.ietf.org/html/rfc6902">RFC6902</a> and <a href="https://tools.ietf.org/html/rfc7386">RFC 7396</a>. Update the Department field to "foo" can be done either as a JSON PATCH:
+See <a href="https://tools.ietf.org/html/rfc6902">RFC6902</a> and <a href="https://tools.ietf.org/html/rfc7386">RFC 7396</a>.
+NsApiSlow threshold: 5000 ms. Update the Department field to "foo" can be done either as a JSON PATCH:
 
 ```js
 
@@ -149,18 +150,18 @@ SelectionEntity  updated.
 PATCH /api/v1/Selection/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "veritatis",
+    "path": "aperiam",
     "value": {}
   },
   {
     "op": "add",
-    "path": "veritatis",
+    "path": "aperiam",
     "value": {}
   }
 ]
@@ -173,70 +174,70 @@ HTTP/1.1 200 SelectionEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Customizable human-resource help-desk",
+  "Description": "Centralized 5th generation architecture",
   "Postit": "est",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 226,
-  "IncludePerson": 661,
+  "GroupIdx": 823,
+  "IncludePerson": 695,
   "MemberCount": 99.99,
-  "Name": "Conroy-Quitzon",
-  "PostitTextId": 241,
-  "CreatedDate": "2012-09-27T03:47:00.3005605+02:00",
-  "SelectionId": 452,
-  "SoundEx": "cupiditate",
-  "Source": 142,
-  "TextId": 130,
-  "UpdatedDate": "2005-02-07T03:47:00.3005605+01:00",
-  "UpdatedCount": 267,
-  "Visibility": 111,
+  "Name": "Cronin Inc and Sons",
+  "PostitTextId": 739,
+  "CreatedDate": "1998-09-30T02:30:52.9286519+02:00",
+  "SelectionId": 14,
+  "SoundEx": "placeat",
+  "Source": 668,
+  "TextId": 466,
+  "UpdatedDate": "2019-10-26T02:30:52.9286519+02:00",
+  "UpdatedCount": 40,
+  "Visibility": 364,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 889,
-  "TargetTableName": "Dicki, Labadie and Rogahn",
+  "CompanyUnique": true,
+  "TargetTableNumber": 615,
+  "TargetTableName": "Bruen-Dickens",
   "Completed": false,
-  "LeftSelectionId": 167,
-  "RightSelectionId": 832,
+  "LeftSelectionId": 755,
+  "RightSelectionId": 694,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Fadel-Rempel",
-  "ShadowProviderName": "Gislason Group",
-  "ChartKey": "quia",
-  "LastLoaded": "2018-05-10T03:47:00.3005605+02:00",
-  "LastLoadedBy": 291,
+  "MainProviderName": "Tremblay-Friesen",
+  "ShadowProviderName": "Pacocha Inc and Sons",
+  "ChartKey": "sint",
+  "LastLoaded": "2014-12-10T02:30:52.9286519+01:00",
+  "LastLoadedBy": 235,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2012-10-16T03:47:00.3005605+02:00",
-  "LastMembershipChangeBy": 830,
+  "LastMembershipChange": "2020-11-25T02:30:52.9286519+01:00",
+  "LastMembershipChangeBy": 38,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "ex",
-  "MemberTabHeading": "asperiores",
-  "MailingsProviderName": "Bergnaum-Aufderhar",
-  "DashboardTileDefinitionId": 132,
+  "MainHeading": "totam",
+  "MemberTabHeading": "rerum",
+  "MailingsProviderName": "Emard Inc and Sons",
+  "DashboardTileDefinitionId": 805,
   "VisibleFor": [
     {
-      "VisibleId": 770,
+      "VisibleId": 214,
       "Visibility": "All",
-      "DisplayValue": "consequatur",
+      "DisplayValue": "est",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 971
+          "FieldLength": 140
         }
       }
     },
     {
-      "VisibleId": 770,
+      "VisibleId": 214,
       "Visibility": "All",
-      "DisplayValue": "consequatur",
+      "DisplayValue": "est",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 971
+          "FieldLength": 140
         }
       }
     }
@@ -246,7 +247,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 469
+      "FieldLength": 772
     }
   },
   "_Links": {

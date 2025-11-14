@@ -15,6 +15,7 @@ Get HTML for a dashboard tile definition with TileType = HTML.
 
 
 Retrieve a list with all registered languages.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -77,11 +78,11 @@ OK
 POST /api/v1/Agents/Dash/GetDashTileHtmlList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 491
+  "DashboardTileDefinitionId": 226
 }
 ```
 
@@ -93,26 +94,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageCode": "animi",
-    "Html": "nam",
+    "LanguageCode": "maiores",
+    "Html": "vel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 13
+        "FieldType": "System.String",
+        "FieldLength": 298
       }
     }
   },
   {
-    "LanguageCode": "animi",
-    "Html": "nam",
+    "LanguageCode": "maiores",
+    "Html": "vel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 13
+        "FieldType": "System.String",
+        "FieldLength": 298
       }
     }
   }

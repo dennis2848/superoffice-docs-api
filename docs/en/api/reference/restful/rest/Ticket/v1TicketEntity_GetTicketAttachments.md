@@ -78,20 +78,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 342,
-    "Name": "Walter Group",
-    "ContentType": "tenetur",
-    "AttSize": 448,
+    "AttachmentId": 453,
+    "Name": "Bahringer-O'Conner",
+    "ContentType": "placeat",
+    "AttSize": 535,
     "InlineImage": true,
-    "ContentId": "magni",
-    "AuthKey": "ipsa",
-    "IsSafeFileExtension": true,
+    "ContentId": "laboriosam",
+    "AuthKey": "eveniet",
+    "IsSafeFileExtension": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 268
+        "FieldLength": 555
       }
     }
   }

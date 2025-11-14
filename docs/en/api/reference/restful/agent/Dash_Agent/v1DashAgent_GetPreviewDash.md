@@ -14,6 +14,8 @@ POST /api/v1/Agents/Dash/GetPreviewDash
 Get a dashboard from its id
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -83,7 +85,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 589
+  "DashboardId": 567
 }
 ```
 
@@ -94,33 +96,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 418,
-  "Name": "Hermiston-Oberbrunner",
-  "Description": "Virtual optimal help-desk",
-  "OwnedByFullName": "Emmitt Rice",
-  "Registered": "2019-10-28T03:46:54.6132622+01:00",
+  "DashboardId": 980,
+  "Name": "McCullough, Cremin and Veum",
+  "Description": "Ergonomic discrete database",
+  "OwnedByFullName": "Elvie Ward PhD",
+  "Registered": "2007-07-18T02:30:47.0694635+02:00",
   "Tiles": [
     {
-      "Name": "Krajcik, Block and McCullough",
+      "Name": "Wehner, Bergstrom and Blick",
       "TileType": "Area",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 561
+          "FieldLength": 147
         }
       }
     },
     {
-      "Name": "Krajcik, Block and McCullough",
+      "Name": "Wehner, Bergstrom and Blick",
       "TileType": "Area",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 561
+          "FieldLength": 147
         }
       }
     }
@@ -129,8 +131,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 495
+      "FieldType": "System.Int32",
+      "FieldLength": 283
     }
   }
 }

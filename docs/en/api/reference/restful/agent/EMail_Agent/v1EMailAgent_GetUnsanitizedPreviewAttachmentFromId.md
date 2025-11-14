@@ -15,6 +15,7 @@ Retrieve an attachment from an e-mail.
 
 
 The returned data is intended to be use for a preview. The returned data is not sanitized.
+NsApiSlow threshold: 5000 ms.
 
 
 ## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
@@ -90,14 +91,14 @@ OK
 POST /api/v1/Agents/EMail/GetUnsanitizedPreviewAttachmentFromId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailItemId": 713,
-  "AttachmentId": "et",
-  "AttachmentType": "sed",
-  "AttachmentFilename": "quisquam"
+  "MailItemId": 794,
+  "AttachmentId": "quo",
+  "AttachmentType": "magni",
+  "AttachmentFilename": "qui"
 }
 ```
 
@@ -108,21 +109,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Centralized coherent collaboration",
-  "Filename": "non",
-  "Size": 201,
-  "Type": "quas",
-  "Encoding": "consequatur",
-  "Id": "sapiente",
-  "Disposition": "dolor",
-  "IsSafeFileExtension": false,
+  "Description": "Triple-buffered client-driven open system",
+  "Filename": "cum",
+  "Size": 190,
+  "Type": "dolor",
+  "Encoding": "non",
+  "Id": "rerum",
+  "Disposition": "modi",
+  "IsSafeFileExtension": true,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 322
+      "FieldLength": 658
     }
   }
 }

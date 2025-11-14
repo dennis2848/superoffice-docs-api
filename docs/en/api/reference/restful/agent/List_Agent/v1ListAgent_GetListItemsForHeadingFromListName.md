@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/GetListItemsForHeadingFromListName
 List of list items that is selected if under this heading
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -89,12 +91,12 @@ OK
 POST /api/v1/Agents/List/GetListItemsForHeadingFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Simonis, Cole and Cole",
-  "HeadingId": 624
+  "UdListDefinitionName": "Hand-Lesch",
+  "HeadingId": 822
 }
 ```
 
@@ -106,56 +108,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 483,
-    "Name": "Senger, Nicolas and Roob",
-    "ToolTip": "Itaque doloribus ducimus id.",
-    "Deleted": false,
-    "Rank": 24,
-    "Type": "soluta",
-    "ColorBlock": 71,
-    "IconHint": "quas",
+    "Id": 268,
+    "Name": "Fadel-Schuster",
+    "ToolTip": "Qui tempore nam possimus quisquam.",
+    "Deleted": true,
+    "Rank": 719,
+    "Type": "libero",
+    "ColorBlock": 255,
+    "IconHint": "ullam",
     "Selected": false,
-    "LastChanged": "2014-12-29T03:46:54.9569999+01:00",
+    "LastChanged": "2007-09-06T02:30:47.4132046+02:00",
     "ChildItems": [
       {
-        "Id": 874,
-        "Name": "Cummerata Inc and Sons",
-        "ToolTip": "Veniam perspiciatis asperiores.",
+        "Id": 194,
+        "Name": "O'Conner, Thompson and Bauch",
+        "ToolTip": "Voluptatem sed perferendis.",
         "Deleted": false,
-        "Rank": 403,
-        "Type": "ea",
-        "ColorBlock": 919,
-        "IconHint": "ex",
+        "Rank": 582,
+        "Type": "sint",
+        "ColorBlock": 909,
+        "IconHint": "eos",
         "Selected": false,
-        "LastChanged": "2020-07-01T03:46:54.9569999+02:00",
+        "LastChanged": "2025-08-25T02:30:47.4132046+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "est",
-        "StyleHint": "iste",
-        "Hidden": false,
-        "FullName": "Alexandra Schroeder",
+        "ExtraInfo": "dolorum",
+        "StyleHint": "aliquam",
+        "Hidden": true,
+        "FullName": "Miss Lee Rosemarie Auer",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 699
+            "FieldLength": 928
           }
         }
       }
     ],
-    "ExtraInfo": "blanditiis",
-    "StyleHint": "iure",
+    "ExtraInfo": "ut",
+    "StyleHint": "deleniti",
     "Hidden": false,
-    "FullName": "Jeanie Betsy Bayer Jr.",
+    "FullName": "Alexandro Franecki",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 471
+        "FieldLength": 327
       }
     }
   }

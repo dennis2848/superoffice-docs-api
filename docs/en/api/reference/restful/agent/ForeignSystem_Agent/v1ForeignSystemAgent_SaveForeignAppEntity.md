@@ -14,6 +14,8 @@ POST /api/v1/Agents/ForeignSystem/SaveForeignAppEntity
 Updates the existing ForeignAppEntity or creates a new ForeignAppEntity if the id parameter is 0.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -76,27 +78,27 @@ OK
 POST /api/v1/Agents/ForeignSystem/SaveForeignAppEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 548,
-  "Name": "Nolan Group",
-  "CreatedDate": "2003-04-08T03:46:54.8320045+02:00",
-  "UpdatedDate": "2012-07-08T03:46:54.8320045+02:00",
+  "ForeignAppId": 760,
+  "Name": "Schimmel-Maggio",
+  "CreatedDate": "2009-12-31T02:30:47.350707+01:00",
+  "UpdatedDate": "2000-11-02T02:30:47.350707+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 594,
-      "Name": "Schumm-Champlin",
-      "CreatedDate": "2007-04-05T03:46:54.8320045+02:00",
-      "UpdatedDate": "2023-07-09T03:46:54.8320045+02:00",
-      "AssociateFullName": "Cleo Watsica III",
-      "CreatedBy": "omnis",
-      "UpdatedBy": "sit",
-      "DeviceIdentifier": "voluptatum",
-      "ForeignAppId": 595
+      "ForeignDeviceId": 877,
+      "Name": "Wiegand-Ullrich",
+      "CreatedDate": "2012-12-05T02:30:47.350707+01:00",
+      "UpdatedDate": "2011-09-08T02:30:47.350707+02:00",
+      "AssociateFullName": "Prof. Maudie Halvorson V",
+      "CreatedBy": "voluptas",
+      "UpdatedBy": "molestias",
+      "DeviceIdentifier": "qui",
+      "ForeignAppId": 568
     }
   ]
 }
@@ -109,29 +111,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 710,
-  "Name": "Leannon-Greenholt",
-  "CreatedDate": "2017-08-11T03:46:54.8320045+02:00",
-  "UpdatedDate": "2024-08-07T03:46:54.8320045+02:00",
+  "ForeignAppId": 291,
+  "Name": "Dickens-Little",
+  "CreatedDate": "2013-08-25T02:30:47.350707+02:00",
+  "UpdatedDate": "2002-06-18T02:30:47.350707+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 574,
-      "Name": "Wisozk-Reilly",
-      "CreatedDate": "2008-02-13T03:46:54.8320045+01:00",
-      "UpdatedDate": "2025-05-25T03:46:54.8320045+02:00",
-      "AssociateFullName": "Wilburn Gibson",
-      "CreatedBy": "tenetur",
-      "UpdatedBy": "est",
-      "DeviceIdentifier": "vel",
-      "ForeignAppId": 884,
+      "ForeignDeviceId": 260,
+      "Name": "Lind-Kuhlman",
+      "CreatedDate": "2019-10-29T02:30:47.350707+01:00",
+      "UpdatedDate": "2015-09-28T02:30:47.350707+02:00",
+      "AssociateFullName": "Ismael Paucek",
+      "CreatedBy": "excepturi",
+      "UpdatedBy": "ea",
+      "DeviceIdentifier": "accusamus",
+      "ForeignAppId": 833,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 568
+          "FieldLength": 377
         }
       }
     }
@@ -141,7 +143,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 304
+      "FieldLength": 727
     }
   }
 }

@@ -31,7 +31,7 @@ Change a DocumentEntity user-defined field's type based on the prog-id or label.
 | isIndexed | bool |  Should we put data in an indexed column for faster access? Default no |
 
 ```http
-POST /api/v1/Document/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=True
+POST /api/v1/Document/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=False
 ```
 
 
@@ -105,7 +105,7 @@ DocumentEntity found.
 POST /api/v1/Document/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -115,46 +115,46 @@ HTTP/1.1 200 DocumentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 371,
-  "ColumnId": 483,
-  "FieldDefault": "in",
-  "FieldHeight": 293,
-  "FieldLabel": "et",
-  "FieldLeft": 869,
-  "FieldTop": 991,
+  "UDefFieldId": 532,
+  "ColumnId": 986,
+  "FieldDefault": "ratione",
+  "FieldHeight": 657,
+  "FieldLabel": "quia",
+  "FieldLeft": 458,
+  "FieldTop": 288,
   "FieldType": "Checkbox",
-  "FieldWidth": 926,
-  "FormatMask": "quidem",
+  "FieldWidth": 814,
+  "FormatMask": "dolor",
   "HideLabel": false,
-  "IsIndexed": false,
-  "LabelHeight": 456,
-  "LabelLeft": 738,
-  "LabelTop": 34,
-  "LabelWidth": 406,
-  "LastVersionId": 381,
-  "ListTableId": 18,
+  "IsIndexed": true,
+  "LabelHeight": 280,
+  "LabelLeft": 571,
+  "LabelTop": 356,
+  "LabelWidth": 751,
+  "LastVersionId": 814,
+  "ListTableId": 864,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 143,
-  "ProgId": "repellat",
-  "IsReadOnly": false,
-  "ShortLabel": "officia",
-  "TabOrder": 368,
-  "TextLength": 98,
-  "Tooltip": "sed",
-  "UdefIdentity": 877,
-  "UDListDefinitionId": 375,
+  "Page1LineNo": 605,
+  "ProgId": "minima",
+  "IsReadOnly": true,
+  "ShortLabel": "veniam",
+  "TabOrder": 515,
+  "TextLength": 459,
+  "Tooltip": "vel",
+  "UdefIdentity": 293,
+  "UDListDefinitionId": 45,
   "Justification": "Center",
-  "Version": 918,
-  "TemplateVariableName": "Kemmer-Greenholt",
+  "Version": 640,
+  "TemplateVariableName": "Bergstrom LLC",
   "HasBeenPublished": true,
-  "MdoListName": "Flatley, Rohan and Yundt",
+  "MdoListName": "Hayes-Ratke",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 72
+      "FieldLength": 992
     }
   }
 }

@@ -85,20 +85,20 @@ OK
 PUT /api/v1/List/Priority
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 838,
-  "Name": "Grimes Group",
-  "Tooltip": "ut",
-  "Deleted": true,
-  "Rank": 211,
+  "Id": 665,
+  "Name": "White-Borer",
+  "Tooltip": "numquam",
+  "Deleted": false,
+  "Rank": 534,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "repudiandae",
-  "InUseByUserDefinedFields": false
+  "UseGroupsAndHeadings": true,
+  "ListType": "ratione",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -109,22 +109,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 135,
-  "Name": "McCullough, Rice and Cartwright",
-  "Tooltip": "tenetur",
-  "Deleted": false,
-  "Rank": 952,
-  "IsCustomList": true,
+  "Id": 430,
+  "Name": "Ward LLC",
+  "Tooltip": "autem",
+  "Deleted": true,
+  "Rank": 883,
+  "IsCustomList": false,
   "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "velit",
+  "ListType": "voluptatem",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 435
+      "FieldLength": 785
     }
   }
 }

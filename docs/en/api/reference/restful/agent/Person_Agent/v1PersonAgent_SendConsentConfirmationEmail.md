@@ -14,6 +14,8 @@ POST /api/v1/Agents/Person/SendConsentConfirmationEmail
 Send confirmation email to the provided person, email address (id), using the document template
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -69,15 +71,15 @@ No Content
 POST /api/v1/Agents/Person/SendConsentConfirmationEmail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 911,
-  "EmailAddress": "dalton@lynch.biz",
-  "EmailTemplateId": 201,
-  "CultureLcidId": 745,
-  "Subject": "animi"
+  "PersonId": 741,
+  "EmailAddress": "amya@reichel.co.uk",
+  "EmailTemplateId": 220,
+  "CultureLcidId": 538,
+  "Subject": "tenetur"
 }
 ```
 

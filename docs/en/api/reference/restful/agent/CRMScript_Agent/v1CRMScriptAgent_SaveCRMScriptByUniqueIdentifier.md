@@ -14,6 +14,9 @@ POST /api/v1/Agents/CRMScript/SaveCRMScriptByUniqueIdentifier
 Create or Update the CRMScript information
 
 
+NsApiSlow threshold: 5000 ms.
+
+
 ## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 
@@ -87,11 +90,11 @@ OK
 POST /api/v1/Agents/CRMScript/SaveCRMScriptByUniqueIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "possimus",
+  "UniqueIdentifier": "assumenda",
   "Crmscript": null
 }
 ```
@@ -104,22 +107,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "UniqueIdentifier": "est",
-  "Name": "Stanton, Runolfsdottir and Kuhn",
-  "Description": "Total bifurcated forecast",
-  "IncludeId": "excepturi",
-  "Source": "voluptatem",
-  "Registered": "1998-06-07T03:46:54.5663888+02:00",
-  "RegisteredBy": "voluptatem",
-  "Updated": "2005-04-05T03:46:54.5663888+02:00",
-  "UpdatedBy": "unde",
-  "Path": "vitae",
+  "Name": "D'Amore, Kilback and Bergnaum",
+  "Description": "Proactive contextually-based pricing structure",
+  "IncludeId": "qui",
+  "Source": "earum",
+  "Registered": "2002-01-02T02:30:47.0382145+01:00",
+  "RegisteredBy": "quo",
+  "Updated": "2000-07-28T02:30:47.0382145+02:00",
+  "UpdatedBy": "facere",
+  "Path": "voluptatem",
   "BlockedVerbs": "BlockAll",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 980
+      "FieldLength": 941
     }
   }
 }

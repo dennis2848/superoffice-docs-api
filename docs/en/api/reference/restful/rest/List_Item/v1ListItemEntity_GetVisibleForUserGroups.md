@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/{udListDefinitionId}/Items/{listItemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 391,
-    "Name": "Bednar LLC",
-    "ToolTip": "Est voluptas quis delectus quia non.",
+    "Id": 863,
+    "Name": "Durgan-Conn",
+    "ToolTip": "Eius impedit.",
     "Deleted": true,
-    "Rank": 472,
-    "Type": "consequuntur",
-    "ColorBlock": 856,
-    "IconHint": "incidunt",
-    "Selected": true,
-    "LastChanged": "2025-08-28T03:47:00.5505518+02:00",
+    "Rank": 515,
+    "Type": "sit",
+    "ColorBlock": 530,
+    "IconHint": "aliquid",
+    "Selected": false,
+    "LastChanged": "2016-12-24T02:30:53.1786436+01:00",
     "ChildItems": [
       {
-        "Id": 205,
-        "Name": "Kunze-Tremblay",
-        "ToolTip": "Rerum quidem facilis possimus eligendi.",
-        "Deleted": false,
-        "Rank": 446,
-        "Type": "odit",
-        "ColorBlock": 451,
-        "IconHint": "sed",
+        "Id": 20,
+        "Name": "Brown LLC",
+        "ToolTip": "Dicta ipsa.",
+        "Deleted": true,
+        "Rank": 496,
+        "Type": "dolor",
+        "ColorBlock": 54,
+        "IconHint": "nemo",
         "Selected": true,
-        "LastChanged": "2011-09-18T03:47:00.5505518+02:00",
+        "LastChanged": "2003-04-17T02:30:53.1786436+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sunt",
-        "StyleHint": "atque",
+        "ExtraInfo": "modi",
+        "StyleHint": "quod",
         "Hidden": false,
-        "FullName": "Ms. Clemens Lubowitz MD",
+        "FullName": "Courtney Hudson",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 734
+            "FieldType": "System.Int32",
+            "FieldLength": 416
           }
         }
       }
     ],
-    "ExtraInfo": "tempora",
-    "StyleHint": "voluptas",
-    "Hidden": true,
-    "FullName": "Miss Giovanni Ivy Hoeger",
+    "ExtraInfo": "reprehenderit",
+    "StyleHint": "sunt",
+    "Hidden": false,
+    "FullName": "Selina D'Amore",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 207
+        "FieldLength": 767
       }
     }
   }

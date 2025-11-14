@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/SaveTicketPriorityEntity
 Updates the existing TicketPriorityEntity or creates a new TicketPriorityEntity if the id parameter is 0.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -122,54 +124,54 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketPriorityId": 780,
-  "Name": "Lakin-Weber",
+  "TicketPriorityId": 351,
+  "Name": "Goyette-Leuschke",
   "Status": "Deleted",
   "Flags": "AlertSchedule",
-  "SortOrder": 835,
+  "SortOrder": 471,
   "TicketRead": "Continue",
   "ChangedOwner": "Continue",
   "TicketNewinfo": "Continue",
   "TicketClosed": "Continue",
   "TicketChangedPriority": "Continue",
   "TicketNew": "Continue",
-  "Deadline": 937,
-  "MonStart": "2018-11-29T03:46:54.9257675+01:00",
-  "MonStop": "2006-01-07T03:46:54.9257675+01:00",
-  "TueStart": "1998-10-20T03:46:54.9257675+02:00",
-  "TueStop": "2004-02-16T03:46:54.9257675+01:00",
-  "WedStart": "2017-03-30T03:46:54.9257675+02:00",
-  "WedStop": "1999-05-27T03:46:54.9257675+02:00",
-  "ThuStart": "2014-05-31T03:46:54.9257675+02:00",
-  "ThuStop": "2006-09-12T03:46:54.9257675+02:00",
-  "FriStart": "2011-08-25T03:46:54.9257675+02:00",
-  "FriStop": "2023-11-27T03:46:54.9257675+01:00",
-  "SatStart": "2014-02-08T03:46:54.9257675+01:00",
-  "SatStop": "2002-03-05T03:46:54.9257675+01:00",
-  "SunStart": "2000-02-23T03:46:54.9257675+01:00",
-  "SunStop": "2010-12-16T03:46:54.9257675+01:00",
+  "Deadline": 543,
+  "MonStart": "2021-06-05T02:30:47.3819557+02:00",
+  "MonStop": "2000-03-21T02:30:47.3819557+01:00",
+  "TueStart": "2025-08-12T02:30:47.3819557+02:00",
+  "TueStop": "2023-02-23T02:30:47.3819557+01:00",
+  "WedStart": "2003-10-19T02:30:47.3819557+02:00",
+  "WedStop": "2019-08-30T02:30:47.3819557+02:00",
+  "ThuStart": "2009-05-09T02:30:47.3819557+02:00",
+  "ThuStop": "2017-12-17T02:30:47.3819557+01:00",
+  "FriStart": "2000-06-01T02:30:47.3819557+02:00",
+  "FriStop": "2014-04-07T02:30:47.3819557+02:00",
+  "SatStart": "2023-03-03T02:30:47.3819557+01:00",
+  "SatStop": "2017-06-20T02:30:47.3819557+02:00",
+  "SunStart": "2007-02-25T02:30:47.3819557+01:00",
+  "SunStop": "2003-06-19T02:30:47.3819557+02:00",
   "NonDates": [
-    "illo",
-    "modi"
+    "est",
+    "dolorum"
   ],
   "EscalationLevels": [
     {
-      "TicketAlertId": 42,
-      "AlertLevel": 951,
-      "AlertTimeout": 298,
-      "Action": 117,
-      "DelegateTo": 961,
-      "ScriptId": 24,
-      "EmailTo": "marley_kihn@erdman.ca",
-      "SmsTo": "amet",
-      "ReplyTemplateIdCustomer": 532,
-      "ReplyTemplateIdUser": 922,
-      "ReplyTemplateIdCatmast": 906,
-      "ReplyTemplateIdEmail": 331,
-      "RtiCustomerSms": 925,
-      "ReplyTemplateIdUserSms": 833,
-      "ReplyTemplateIdCatmastSms": 702,
-      "ReplyTemplateIdSms": 851
+      "TicketAlertId": 817,
+      "AlertLevel": 102,
+      "AlertTimeout": 243,
+      "Action": 343,
+      "DelegateTo": 692,
+      "ScriptId": 473,
+      "EmailTo": "demetris.spinka@barton.biz",
+      "SmsTo": "nesciunt",
+      "ReplyTemplateIdCustomer": 316,
+      "ReplyTemplateIdUser": 86,
+      "ReplyTemplateIdCatmast": 342,
+      "ReplyTemplateIdEmail": 737,
+      "RtiCustomerSms": 967,
+      "ReplyTemplateIdUserSms": 498,
+      "ReplyTemplateIdCatmastSms": 270,
+      "ReplyTemplateIdSms": 42
     }
   ]
 }
@@ -182,60 +184,60 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketPriorityId": 296,
-  "Name": "Abernathy LLC",
+  "TicketPriorityId": 138,
+  "Name": "Schuster, Gislason and Medhurst",
   "Status": "Deleted",
   "Flags": "AlertSchedule",
-  "SortOrder": 489,
+  "SortOrder": 927,
   "TicketRead": "Continue",
   "ChangedOwner": "Continue",
   "TicketNewinfo": "Continue",
   "TicketClosed": "Continue",
   "TicketChangedPriority": "Continue",
   "TicketNew": "Continue",
-  "Deadline": 344,
-  "MonStart": "2020-08-26T03:46:54.9257675+02:00",
-  "MonStop": "2002-03-08T03:46:54.9257675+01:00",
-  "TueStart": "2015-07-17T03:46:54.9257675+02:00",
-  "TueStop": "2000-07-26T03:46:54.9257675+02:00",
-  "WedStart": "2021-10-03T03:46:54.9257675+02:00",
-  "WedStop": "2004-09-19T03:46:54.9257675+02:00",
-  "ThuStart": "2004-12-06T03:46:54.9257675+01:00",
-  "ThuStop": "2009-11-16T03:46:54.9257675+01:00",
-  "FriStart": "2019-02-06T03:46:54.9257675+01:00",
-  "FriStop": "2018-08-11T03:46:54.9257675+02:00",
-  "SatStart": "2010-04-23T03:46:54.9257675+02:00",
-  "SatStop": "1999-04-02T03:46:54.9257675+02:00",
-  "SunStart": "2019-09-11T03:46:54.9257675+02:00",
-  "SunStop": "2003-02-10T03:46:54.9257675+01:00",
+  "Deadline": 83,
+  "MonStart": "2015-03-13T02:30:47.3819557+01:00",
+  "MonStop": "2004-11-15T02:30:47.3819557+01:00",
+  "TueStart": "2023-02-10T02:30:47.3819557+01:00",
+  "TueStop": "2003-05-05T02:30:47.3819557+02:00",
+  "WedStart": "2008-01-11T02:30:47.3819557+01:00",
+  "WedStop": "2019-05-19T02:30:47.3819557+02:00",
+  "ThuStart": "1998-10-31T02:30:47.3819557+01:00",
+  "ThuStop": "2025-05-15T02:30:47.3819557+02:00",
+  "FriStart": "2025-02-12T02:30:47.3819557+01:00",
+  "FriStop": "1999-01-24T02:30:47.3819557+01:00",
+  "SatStart": "2003-07-30T02:30:47.3819557+02:00",
+  "SatStop": "2000-05-05T02:30:47.3819557+02:00",
+  "SunStart": "2003-01-14T02:30:47.3819557+01:00",
+  "SunStop": "2003-03-22T02:30:47.3819557+01:00",
   "NonDates": [
-    "in",
-    "autem"
+    "omnis",
+    "temporibus"
   ],
   "EscalationLevels": [
     {
-      "TicketAlertId": 433,
-      "AlertLevel": 800,
-      "AlertTimeout": 266,
-      "Action": 251,
-      "DelegateTo": 993,
-      "ScriptId": 176,
-      "EmailTo": "chester.breitenberg@lehnerconn.com",
-      "SmsTo": "nam",
-      "ReplyTemplateIdCustomer": 178,
-      "ReplyTemplateIdUser": 756,
-      "ReplyTemplateIdCatmast": 917,
-      "ReplyTemplateIdEmail": 14,
-      "RtiCustomerSms": 405,
-      "ReplyTemplateIdUserSms": 193,
-      "ReplyTemplateIdCatmastSms": 470,
-      "ReplyTemplateIdSms": 393,
+      "TicketAlertId": 757,
+      "AlertLevel": 937,
+      "AlertTimeout": 9,
+      "Action": 116,
+      "DelegateTo": 703,
+      "ScriptId": 633,
+      "EmailTo": "william_schultz@jones.co.uk",
+      "SmsTo": "et",
+      "ReplyTemplateIdCustomer": 488,
+      "ReplyTemplateIdUser": 643,
+      "ReplyTemplateIdCatmast": 759,
+      "ReplyTemplateIdEmail": 890,
+      "RtiCustomerSms": 157,
+      "ReplyTemplateIdUserSms": 451,
+      "ReplyTemplateIdCatmastSms": 729,
+      "ReplyTemplateIdSms": 150,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 542
+          "FieldLength": 327
         }
       }
     }
@@ -245,7 +247,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 879
+      "FieldLength": 240
     }
   }
 }

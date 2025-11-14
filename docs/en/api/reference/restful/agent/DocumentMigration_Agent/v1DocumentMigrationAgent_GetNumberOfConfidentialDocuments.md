@@ -14,6 +14,9 @@ POST /api/v1/Agents/DocumentMigration/GetNumberOfConfidentialDocuments
 Gets the total number of documents that is not visible to everyone
 
 
+NsApiSlow threshold: 5000 ms.
+
+
 ## Online Restricted: ## The DocumentMigration agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for SuperOffice-internal apps.
 
 
@@ -72,5 +75,5 @@ Accept-Language: en
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-809
+184
 ```

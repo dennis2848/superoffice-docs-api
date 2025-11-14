@@ -14,6 +14,8 @@ PUT /api/v1/Pricelist/{id}
 Updates the existing PriceList
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -98,20 +100,20 @@ PriceList updated.
 PUT /api/v1/Pricelist/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 429,
-  "ERPPriceListKey": "enim",
-  "QuoteConnectionId": 599,
-  "Name": "Predovic-Jast",
-  "Description": "Vision-oriented explicit success",
-  "Currency": "esse",
-  "CurrencyName": "Gerhold Group",
-  "ValidFrom": "2018-11-07T03:47:00.7067961+01:00",
-  "ValidTo": "2017-04-08T03:47:00.7067961+02:00",
-  "IsActive": true
+  "PriceListId": 94,
+  "ERPPriceListKey": "id",
+  "QuoteConnectionId": 49,
+  "Name": "Bailey-Torp",
+  "Description": "Multi-channelled cohesive initiative",
+  "Currency": "consequatur",
+  "CurrencyName": "Berge-Spencer",
+  "ValidFrom": "2024-07-01T02:30:53.3348881+02:00",
+  "ValidTo": "2013-01-18T02:30:53.3348881+01:00",
+  "IsActive": false
 }
 ```
 
@@ -122,22 +124,22 @@ HTTP/1.1 200 PriceList updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 156,
-  "ERPPriceListKey": "possimus",
-  "QuoteConnectionId": 613,
-  "Name": "Altenwerth, Lehner and Wunsch",
-  "Description": "Adaptive global project",
-  "Currency": "modi",
-  "CurrencyName": "Prohaska, Stiedemann and Jast",
-  "ValidFrom": "2003-11-03T03:47:00.7067961+01:00",
-  "ValidTo": "2024-10-05T03:47:00.7067961+02:00",
-  "IsActive": true,
+  "PriceListId": 252,
+  "ERPPriceListKey": "at",
+  "QuoteConnectionId": 923,
+  "Name": "Rodriguez LLC",
+  "Description": "Vision-oriented foreground software",
+  "Currency": "maxime",
+  "CurrencyName": "Leffler-McGlynn",
+  "ValidFrom": "2025-03-21T02:30:53.3348881+01:00",
+  "ValidTo": "2001-04-16T02:30:53.3348881+02:00",
+  "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 983
+      "FieldLength": 966
     }
   },
   "_Links": {

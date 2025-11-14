@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/GetTicketTypes
 Get all TicketTypes
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -84,7 +86,7 @@ OK
 POST /api/v1/Agents/List/GetTicketTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -95,40 +97,40 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketTypeId": 804,
-    "Name": "Gibson Group",
-    "Rank": 222,
-    "Tooltip": "laborum",
-    "Icon": "voluptatum",
-    "DefaultTicketStatus": 353,
+    "TicketTypeId": 974,
+    "Name": "Halvorson, Murray and Stehr",
+    "Rank": 269,
+    "Tooltip": "est",
+    "Icon": "quo",
+    "DefaultTicketStatus": 678,
     "TicketStatuses": [
-      46,
-      258
+      561,
+      711
     ],
-    "DefaultTicketPriority": 966,
+    "DefaultTicketPriority": 823,
     "TicketPriorities": [
-      524,
-      261
+      239,
+      491
     ],
-    "ReplyTemplate": 144,
+    "ReplyTemplate": 73,
     "IsExternalVisible": false,
     "IsDefault": false,
     "ShowInNew": true,
-    "ExcludeSignature": false,
+    "ExcludeSignature": true,
     "ExcludeEmailRecipients": false,
-    "ExternalAsDefault": true,
+    "ExternalAsDefault": false,
     "VisibleForGroups": [
-      518,
-      932
+      271,
+      247
     ],
-    "ReplyForwardNoSignature": false,
-    "ReplyExternalAsDefault": true,
+    "ReplyForwardNoSignature": true,
+    "ReplyExternalAsDefault": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 187
+        "FieldType": "System.String",
+        "FieldLength": 570
       }
     }
   }

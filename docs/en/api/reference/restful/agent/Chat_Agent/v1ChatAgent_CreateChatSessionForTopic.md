@@ -14,6 +14,8 @@ POST /api/v1/Agents/Chat/CreateChatSessionForTopic
 Create a new session on a chat topic
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -104,11 +106,11 @@ OK
 POST /api/v1/Agents/Chat/CreateChatSessionForTopic
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 749
+  "ChatTopicId": 397
 }
 ```
 
@@ -119,43 +121,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 908,
-  "TopicId": 837,
+  "ChatSessionId": 649,
+  "TopicId": 60,
   "User": null,
   "Person": null,
-  "CustomerAlias": "provident",
-  "CustomerHost": "distinctio",
-  "CustomerName": "Rice, McLaughlin and Runolfsdottir",
-  "CustomerEmail": "joey.mante@bosco.name",
-  "CustomerPhone": "941.854.3494 x803",
-  "CustomerConsented": true,
-  "CustomerCompanyName": "Heidenreich-Brown",
+  "CustomerAlias": "saepe",
+  "CustomerHost": "dolorum",
+  "CustomerName": "Lang-Kunde",
+  "CustomerEmail": "beatrice.klocko@leffler.info",
+  "CustomerPhone": "201-354-4025 x95796",
+  "CustomerConsented": false,
+  "CustomerCompanyName": "Ankunding-Wehner",
   "Status": "Closed",
-  "FirstMessage": "aut",
-  "LastMessage": "quo",
-  "WhenRequested": "2017-04-09T03:46:54.4257689+02:00",
-  "WhenStarted": "2017-04-30T03:46:54.4257689+02:00",
-  "WhenEnded": "2004-04-16T03:46:54.4257689+02:00",
-  "WhenIdle": "2020-12-25T03:46:54.4257689+01:00",
-  "WhenFetched": "2018-08-13T03:46:54.4257689+02:00",
-  "SessionKey": "omnis",
-  "InitialQueuePos": 394,
-  "AlertLevel": 674,
-  "Rank": 458,
+  "FirstMessage": "illum",
+  "LastMessage": "nihil",
+  "WhenRequested": "1998-11-25T02:30:46.9132188+01:00",
+  "WhenStarted": "2000-12-22T02:30:46.9132188+01:00",
+  "WhenEnded": "2022-01-06T02:30:46.9132188+01:00",
+  "WhenIdle": "1998-08-27T02:30:46.9132188+02:00",
+  "WhenFetched": "2021-08-20T02:30:46.9132188+02:00",
+  "SessionKey": "reiciendis",
+  "InitialQueuePos": 74,
+  "AlertLevel": 468,
+  "Rank": 129,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": false,
-  "Rating": 938,
+  "ChatbotIsActive": true,
+  "Rating": 851,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 861
+      "FieldLength": 731
     }
   }
 }

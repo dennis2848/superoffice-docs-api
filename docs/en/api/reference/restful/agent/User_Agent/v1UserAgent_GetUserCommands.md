@@ -14,6 +14,9 @@ POST /api/v1/Agents/User/GetUserCommands
 Get registered custom commands for User
 
 
+NsApiSlow threshold: 2000 ms.
+
+
 ## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
 
 
@@ -108,18 +111,18 @@ OK
 POST /api/v1/Agents/User/GetUserCommands
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 547,
-  "Name": "Schamberger Inc and Sons",
-  "Rank": 298,
-  "Tooltip": "est",
+  "AssociateId": 27,
+  "Name": "Metz-Schiller",
+  "Rank": 1002,
+  "Tooltip": "eos",
   "LicenseOwners": [
     {
-      "Name": "Herman LLC",
-      "Description": "Focused bottom-line throughput",
+      "Name": "Weimann, Konopelski and Jacobi",
+      "Description": "Stand-alone scalable website",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -130,8 +133,8 @@ Content-Type: application/json; charset=utf-8
       ]
     },
     {
-      "Name": "Herman LLC",
-      "Description": "Focused bottom-line throughput",
+      "Name": "Weimann, Konopelski and Jacobi",
+      "Description": "Stand-alone scalable website",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -146,87 +149,87 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "quidem",
-      "Tooltip": "et",
-      "Id": 690,
-      "Rank": 47,
-      "Deleted": false
+      "Value": "omnis",
+      "Tooltip": "quia",
+      "Id": 941,
+      "Rank": 812,
+      "Deleted": true
     },
     {
-      "Value": "quidem",
-      "Tooltip": "et",
-      "Id": 690,
-      "Rank": 47,
-      "Deleted": false
+      "Value": "omnis",
+      "Tooltip": "quia",
+      "Id": 941,
+      "Rank": 812,
+      "Deleted": true
     }
   ],
   "Person": null,
   "Deleted": false,
-  "Lastlogin": "2006-07-27T03:46:55.5976024+02:00",
-  "Lastlogout": "2020-07-09T03:46:55.5976024+02:00",
-  "EjUserId": 186,
-  "RequestSignature": "distinctio",
+  "Lastlogin": "2008-11-04T02:30:48.1006818+01:00",
+  "Lastlogout": "2001-08-11T02:30:48.1006818+02:00",
+  "EjUserId": 623,
+  "RequestSignature": "esse",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": false,
-  "IsOnTravel": false,
+  "IsOnTravel": true,
   "Credentials": [
     {
       "Type": null,
-      "Value": "dolores",
+      "Value": "qui",
       "DisplayValue": "explicabo"
     },
     {
       "Type": null,
-      "Value": "dolores",
+      "Value": "qui",
       "DisplayValue": "explicabo"
     }
   ],
-  "UserName": "Parker-Ratke",
+  "UserName": "Moore Inc and Sons",
   "TicketCategories": [
     {
-      "Id": 699,
-      "Name": "Hahn, Wolff and Tromp",
-      "ToolTip": "Beatae et quod non nobis libero in.",
-      "Deleted": true,
-      "Rank": 178,
-      "Type": "quia",
+      "Id": 890,
+      "Name": "Koepp LLC",
+      "ToolTip": "Similique possimus veritatis eum est fugiat ut consectetur.",
+      "Deleted": false,
+      "Rank": 743,
+      "Type": "accusantium",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "corporis",
-      "ColorBlock": 917,
-      "ExtraInfo": "accusamus",
-      "StyleHint": "iure",
-      "FullName": "Edgar Herzog III"
+      "IconHint": "nisi",
+      "ColorBlock": 259,
+      "ExtraInfo": "placeat",
+      "StyleHint": "ipsum",
+      "FullName": "Prof. Antone Hattie Murazik DVM"
     }
   ],
-  "NickName": "Corwin, Conroy and Moore",
+  "NickName": "Zboncak Group",
   "WaitingForApproval": false,
   "ExtraFields": {
-    "ExtraFields1": "fugiat",
-    "ExtraFields2": "et"
+    "ExtraFields1": "ut",
+    "ExtraFields2": "inventore"
   },
   "CustomFields": {
-    "CustomFields1": "pariatur",
-    "CustomFields2": "quidem"
+    "CustomFields1": "nihil",
+    "CustomFields2": "est"
   },
   "PostSaveCommands": [
     {
-      "Name": "Rowe LLC",
-      "DisplayName": "Pacocha-Quigley",
-      "Description": "Fundamental client-server help-desk",
-      "ToolTip": "Ea provident perspiciatis qui quas fugiat.",
+      "Name": "Feil LLC",
+      "DisplayName": "Powlowski, Schneider and Huels",
+      "Description": "Upgradable attitude-oriented service-desk",
+      "ToolTip": "Atque et porro aut consequatur eaque.",
       "Actions": "Implicit",
-      "ActionData": "voluptatem"
+      "ActionData": "rem"
     },
     {
-      "Name": "Rowe LLC",
-      "DisplayName": "Pacocha-Quigley",
-      "Description": "Fundamental client-server help-desk",
-      "ToolTip": "Ea provident perspiciatis qui quas fugiat.",
+      "Name": "Feil LLC",
+      "DisplayName": "Powlowski, Schneider and Huels",
+      "Description": "Upgradable attitude-oriented service-desk",
+      "ToolTip": "Atque et porro aut consequatur eaque.",
       "Actions": "Implicit",
-      "ActionData": "voluptatem"
+      "ActionData": "rem"
     }
   ]
 }
@@ -240,18 +243,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Rosenbaum, Nikolaus and Schneider",
-    "DisplayName": "Shields Group",
-    "Description": "Reduced cohesive standardization",
-    "ToolTip": "Consequatur voluptatibus minus voluptas ullam neque.",
+    "Name": "Jacobson, Bode and Sanford",
+    "DisplayName": "Schneider-Schneider",
+    "Description": "Re-contextualized homogeneous website",
+    "ToolTip": "Placeat fugiat.",
     "Actions": "Implicit",
-    "ActionData": "optio",
+    "ActionData": "quaerat",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 257
+        "FieldType": "System.Int32",
+        "FieldLength": 423
       }
     }
   }

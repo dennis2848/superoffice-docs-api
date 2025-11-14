@@ -11,8 +11,10 @@ content_type: reference
 POST /api/v1/Agents/Selection/GetBoardViewSettingsForSelection
 ```
 
-Get BoardViewSettings by selection id, associate id, and settings type
+Get BoardViewSettings by associate id and selection id
 
+
+NsApiSlow threshold: 1000 ms.
 
 
 
@@ -84,12 +86,12 @@ OK
 POST /api/v1/Agents/Selection/GetBoardViewSettingsForSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 866,
-  "SelectionId": 926
+  "AssociateId": 737,
+  "SelectionId": 828
 }
 ```
 
@@ -100,17 +102,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BoardViewSettingsId": 895,
-  "EntityType": "None",
-  "AssociateId": 131,
-  "SelectionId": 623,
+  "BoardViewSettingsId": 349,
+  "EntityType": "ContactPerson",
+  "AssociateId": 363,
+  "SelectionId": 450,
   "HideEmptyGroups": false,
-  "GroupBy": "nemo",
-  "SubGroupBy": "rerum",
-  "SortBy": "vel",
-  "SortDesc": true,
-  "SumBy": "aut",
-  "ColorBy": "iusto",
-  "Filters": "ut"
+  "GroupBy": "reprehenderit",
+  "SubGroupBy": "itaque",
+  "SortBy": "consequatur",
+  "SortDesc": false,
+  "SumBy": "dolorem",
+  "ColorBy": "fuga",
+  "Filters": "suscipit"
 }
 ```

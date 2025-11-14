@@ -15,6 +15,7 @@ Gets a Dash object.
 
 
 Calls the Dash agent service GetDash.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -86,7 +87,7 @@ Dash found.
 GET /api/v1/Dash/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,37 +97,37 @@ HTTP/1.1 200 Dash found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 898,
-  "UniqueId": "voluptatem",
-  "Name": "Nikolaus-Gleason",
-  "Description": "Automated full-range algorithm",
-  "AssociateId": 599,
-  "Columns": 856,
+  "DashboardId": 383,
+  "UniqueId": "dolor",
+  "Name": "Parker Inc and Sons",
+  "Description": "Cloned reciprocal complexity",
+  "AssociateId": 442,
+  "Columns": 922,
   "Theme": null,
-  "VisibleForAll": 532,
+  "VisibleForAll": 240,
   "VisibleForAssociates": [
-    97,
-    758
+    459,
+    117
   ],
   "VisibleForGroups": [
-    706,
-    457
+    486,
+    475
   ],
-  "PinForAll": 474,
+  "PinForAll": 171,
   "PinForAssociates": [
-    666,
-    519
+    62,
+    974
   ],
   "PinForGroups": [
-    320,
-    101
+    951,
+    823
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 994
+      "FieldType": "System.String",
+      "FieldLength": 730
     }
   },
   "_Links": {

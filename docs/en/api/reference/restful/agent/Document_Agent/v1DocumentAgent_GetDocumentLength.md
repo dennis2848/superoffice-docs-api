@@ -14,6 +14,8 @@ POST /api/v1/Agents/Document/GetDocumentLength
 Get length of the document content in bytes.
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -74,8 +76,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 951,
-  "VersionId": "voluptatem"
+  "DocumentId": 37,
+  "VersionId": "rerum"
 }
 ```
 

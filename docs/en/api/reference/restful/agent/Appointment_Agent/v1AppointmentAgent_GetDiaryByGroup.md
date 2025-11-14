@@ -11,7 +11,7 @@ content_type: reference
 POST /api/v1/Agents/Appointment/GetDiaryByGroup
 ```
 
-
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -132,15 +132,15 @@ OK
 POST /api/v1/Agents/Appointment/GetDiaryByGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GroupId": 195,
-  "GroupType": 846,
-  "StartTime": "2010-04-10T03:46:54.0039095+02:00",
-  "EndTime": "2004-11-24T03:46:54.0039095+01:00",
-  "Count": 905
+  "GroupId": 868,
+  "GroupType": 913,
+  "StartTime": "2011-08-10T02:30:46.522607+02:00",
+  "EndTime": "2023-11-03T02:30:46.522607+01:00",
+  "Count": 103
 }
 ```
 
@@ -152,67 +152,67 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 635,
-    "StartDate": "2020-05-30T03:46:54.0039095+02:00",
-    "EndDate": "2011-05-26T03:46:54.0039095+02:00",
+    "AppointmentId": 665,
+    "StartDate": "1999-06-18T02:30:46.522607+02:00",
+    "EndDate": "2009-07-16T02:30:46.522607+02:00",
     "Type": "BookingForChecklist",
-    "Task": "qui",
-    "AssociateFullName": "Mr. Karelle Kilback",
-    "ContactName": "Kautzer-Bogisich",
-    "Description": "Exclusive local core",
-    "PersonFullName": "Stefan O'Connell",
-    "PersonId": 880,
-    "ContactId": 640,
-    "ProjectId": 638,
-    "ProjectName": "Monahan-Mueller",
-    "IsPublished": true,
-    "AssociateId": 497,
-    "ColorIndex": 228,
-    "IsFree": true,
-    "HasAlarm": true,
+    "Task": "maiores",
+    "AssociateFullName": "Deondre Roberts DVM",
+    "ContactName": "Runolfsson Inc and Sons",
+    "Description": "Robust fresh-thinking conglomeration",
+    "PersonFullName": "Alfred Murazik",
+    "PersonId": 443,
+    "ContactId": 815,
+    "ProjectId": 297,
+    "ProjectName": "Kutch Group",
+    "IsPublished": false,
+    "AssociateId": 470,
+    "ColorIndex": 887,
+    "IsFree": false,
+    "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 832,
-    "PriorityName": "Willms-Kris",
+    "PriorityId": 994,
+    "PriorityName": "Wyman-Walsh",
     "TaskType": "Appointment",
     "IsBookingMain": false,
     "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "2016-02-29T03:46:54.0039095+01:00",
+    "ActiveDate": "2024-07-09T02:30:46.522607+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2000-02-05T03:46:54.0039095+01:00",
-    "RecurringEndDate": "2004-09-06T03:46:54.0039095+02:00",
-    "MotherId": 527,
-    "AssignedBy": 334,
-    "AssignedByFullName": "Wilford Hauck",
-    "RejectReason": "synthesize front-end models",
-    "Location": "similique",
-    "AlarmLeadTime": "omnis",
-    "SaleId": 205,
-    "SaleName": "Botsford Inc and Sons",
-    "AssociateName": "Dicki-Sipes",
-    "CreatedDate": "2013-06-25T03:46:54.0039095+02:00",
-    "CreatedBy": "magni",
-    "CreatedByFullName": "Natalie Lueilwitz",
-    "CreatedByAssociateId": 940,
+    "RecurringStartDate": "2017-04-13T02:30:46.522607+02:00",
+    "RecurringEndDate": "2004-08-23T02:30:46.522607+02:00",
+    "MotherId": 604,
+    "AssignedBy": 244,
+    "AssignedByFullName": "Candido Wuckert",
+    "RejectReason": "",
+    "Location": "pariatur",
+    "AlarmLeadTime": "laboriosam",
+    "SaleId": 363,
+    "SaleName": "Jones LLC",
+    "AssociateName": "Stanton Inc and Sons",
+    "CreatedDate": "2008-03-19T02:30:46.522607+01:00",
+    "CreatedBy": "pariatur",
+    "CreatedByFullName": "Sincere Huel",
+    "CreatedByAssociateId": 141,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "OwnedExternally": "Google",
-    "MotherAssociateId": 702,
+    "MotherAssociateId": 110,
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 196,
-    "Title": "minus",
-    "Agenda": "tenetur",
-    "InternalNotes": "eaque",
+    "PreferredTZLocation": 643,
+    "Title": "optio",
+    "Agenda": "beatae",
+    "InternalNotes": "ullam",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 299
+        "FieldLength": 231
       }
     }
   }

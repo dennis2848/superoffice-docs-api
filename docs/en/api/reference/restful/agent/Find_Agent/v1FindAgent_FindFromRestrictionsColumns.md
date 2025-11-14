@@ -14,7 +14,8 @@ POST /api/v1/Agents/Find/FindFromRestrictionsColumns
 Execute a Find operation and return a page of results.
 
 
-&lt;para/&gt;The criteria for the Find are passed in directly, not fetched by a restriction storage provider. &lt;para/&gt;The desired columns of the result set are also passed in directly.&lt;para/&gt;The orderby information is calculated by the system.&lt;para/&gt;Use the GetCriteriaInformation and GetDefaultDesiredColumns service methods to let the system calculate these values, if you want to use or modify them. 
+&lt;para/&gt;The criteria for the Find are passed in directly, not fetched by a restriction storage provider. &lt;para/&gt;The desired columns of the result set are also passed in directly.&lt;para/&gt;The orderby information is calculated by the system.&lt;para/&gt;Use the GetCriteriaInformation and GetDefaultDesiredColumns service methods to let the system calculate these values, if you want to use or modify them.
+NsApiSlow threshold: 5000 ms. 
 Archive Restriction Info objects represent search terms.
 
 
@@ -101,40 +102,40 @@ OK
 POST /api/v1/Agents/Find/FindFromRestrictionsColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Restrictions": [
     {
-      "Name": "Frami-Huels",
-      "Operator": "tenetur",
+      "Name": "Borer, Gulgowski and Ritchie",
+      "Operator": "corrupti",
       "Values": [
-        "autem",
-        "laborum"
+        "aliquid",
+        "quo"
       ],
       "DisplayValues": [
-        "itaque",
-        "officia"
+        "qui",
+        "quia"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 687,
+      "InterParenthesis": 999,
       "InterOperator": "And",
-      "UniqueHash": 501
+      "UniqueHash": 711
     }
   ],
-  "ProviderName": "Hane, Strosin and McDermott",
+  "ProviderName": "Zulauf, Friesen and Ernser",
   "DesiredColumns": [
-    "ut",
-    "deleniti"
+    "facilis",
+    "neque"
   ],
-  "PageSize": 651,
-  "PageNumber": 625
+  "PageSize": 802,
+  "PageNumber": 883
 }
 ```
 
@@ -147,51 +148,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Sanford, West and Schimmel",
-      "DisplayTooltip": "est",
-      "DisplayType": "molestias",
+      "DisplayName": "Emard, Wisoky and Hyatt",
+      "DisplayTooltip": "et",
+      "DisplayType": "qui",
       "CanOrderBy": false,
-      "Name": "Fahey-Vandervort",
-      "CanRestrictBy": true,
-      "RestrictionType": "doloremque",
-      "RestrictionListName": "Schmidt-Schoen",
+      "Name": "Mertz-Brekke",
+      "CanRestrictBy": false,
+      "RestrictionType": "blanditiis",
+      "RestrictionListName": "Schaefer, Johnson and Rodriguez",
       "IsVisible": true,
-      "ExtraInfo": "excepturi",
-      "Width": "voluptas",
-      "IconHint": "nihil",
-      "HeadingIconHint": "voluptate"
+      "ExtraInfo": "et",
+      "Width": "saepe",
+      "IconHint": "voluptas",
+      "HeadingIconHint": "cum"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Boyle-Beahan",
-      "PrimaryKey": 614,
+      "EntityName": "Morar LLC",
+      "PrimaryKey": 508,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "hic",
-          "TooltipHint": "dolor",
+          "DisplayValue": "quia",
+          "TooltipHint": "laborum",
           "LinkHint": "et"
         }
       },
-      "LinkHint": "nulla",
-      "StyleHint": "consequatur",
+      "LinkHint": "eligendi",
+      "StyleHint": "soluta",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 126
+          "FieldType": "System.Int32",
+          "FieldLength": 464
         }
       }
     }
   ],
-  "RowCount": 991,
+  "RowCount": 834,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 351
+      "FieldLength": 559
     }
   }
 }

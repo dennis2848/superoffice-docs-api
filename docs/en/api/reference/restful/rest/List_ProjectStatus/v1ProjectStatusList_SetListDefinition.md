@@ -89,15 +89,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 936,
-  "Name": "Goyette, Conn and Mann",
-  "Tooltip": "sapiente",
+  "Id": 273,
+  "Name": "Nader, Auer and Russel",
+  "Tooltip": "non",
   "Deleted": true,
-  "Rank": 443,
+  "Rank": 885,
   "IsCustomList": false,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "voluptatem",
+  "UseGroupsAndHeadings": true,
+  "ListType": "beatae",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -109,22 +109,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 74,
-  "Name": "Gerhold-Welch",
-  "Tooltip": "adipisci",
-  "Deleted": false,
-  "Rank": 79,
+  "Id": 600,
+  "Name": "Mueller-Balistreri",
+  "Tooltip": "autem",
+  "Deleted": true,
+  "Rank": 890,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "dicta",
+  "ListType": "dolorem",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 427
+      "FieldLength": 815
     }
   }
 }

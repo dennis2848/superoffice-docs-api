@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/Currency/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -85,19 +85,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CurrencyId": 851,
-    "Name": "Fay, Crooks and Volkman",
-    "Tooltip": "ullam",
-    "Rank": 455,
-    "Rate": 27889.466,
-    "Units": 19998.054,
-    "Deleted": true,
+    "CurrencyId": 906,
+    "Name": "Hyatt, Bradtke and Blanda",
+    "Tooltip": "asperiores",
+    "Rank": 564,
+    "Rate": 27199.986,
+    "Units": 14212.689999999999,
+    "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 251
+        "FieldType": "System.Int32",
+        "FieldLength": 375
       }
     }
   }

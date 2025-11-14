@@ -14,6 +14,8 @@ POST /api/v1/Agents/Contact/GetMyContact
 Gets the contact belonging to the currently logged on user.
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -97,7 +99,7 @@ OK
 | ActiveErpLinks | int32 | The number of active erp links |
 | BounceEmails | array | Email addresses with a positive bounce counter. |
 | Domains | array | Web domains for this contact, ordered in array by rank |
-| InitialUtmParameters | InitalUtmParameters | Initial utm parameters when creating first person, readonly field |
+| UtmParameters | SavedUtmParameters | Utm parameters when creating first person and contact, readonly field |
 | UserDefinedFields | object | Deprecated: Use {SuperOffice.CRM.Services.ContactEntity.CustomFields} instead. Dictionary of user defined field data. The key string is the ProgId of the UdefField, or if the ProgId is empty it is a string of the format "SuperOffice:[UdefFieldIdentity]", e.g. "SuperOffice:1234" |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.ContactEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.ContactEntity.ExtraFields} and UserDefinedFields properties are deprecated in favor of this combined collection. |
@@ -110,7 +112,7 @@ OK
 POST /api/v1/Agents/Contact/GetMyContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -120,157 +122,157 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 581,
-  "Name": "Jaskolski-Cartwright",
+  "ContactId": 46,
+  "Name": "Hauck Group",
   "Department": "",
-  "OrgNr": "1308867",
-  "Number1": "1379308",
-  "Number2": "516450",
-  "UpdatedDate": "2024-02-02T03:46:54.5195154+01:00",
-  "CreatedDate": "2007-12-26T03:46:54.5195154+01:00",
+  "OrgNr": "131677",
+  "Number1": "1276850",
+  "Number2": "1259007",
+  "UpdatedDate": "2013-02-13T02:30:46.9757163+01:00",
+  "CreatedDate": "2006-03-06T02:30:46.9757163+01:00",
   "Emails": [
     {
       "Value": "aut",
-      "StrippedValue": "voluptatibus",
-      "Description": "Centralized mobile frame",
+      "StrippedValue": "quas",
+      "Description": "Face to face 4th generation customer loyalty",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 975
+          "FieldLength": 996
         }
       }
     },
     {
       "Value": "aut",
-      "StrippedValue": "voluptatibus",
-      "Description": "Centralized mobile frame",
+      "StrippedValue": "quas",
+      "Description": "Face to face 4th generation customer loyalty",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 975
+          "FieldLength": 996
         }
       }
     }
   ],
   "Interests": [
     {
-      "Id": 886,
-      "Name": "Lemke, Bednar and Effertz",
-      "ToolTip": "Repellat ullam tempora commodi et rerum quia sunt.",
-      "Deleted": true,
-      "Rank": 123,
-      "Type": "debitis",
-      "ColorBlock": 783,
-      "IconHint": "veritatis",
-      "Selected": false,
-      "LastChanged": "2022-11-26T03:46:54.5195154+01:00",
+      "Id": 864,
+      "Name": "Abbott, Kuhic and Smith",
+      "ToolTip": "Eos reprehenderit alias voluptas occaecati et.",
+      "Deleted": false,
+      "Rank": 885,
+      "Type": "enim",
+      "ColorBlock": 458,
+      "IconHint": "et",
+      "Selected": true,
+      "LastChanged": "2021-01-23T02:30:46.9757163+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "cumque",
-      "StyleHint": "omnis",
-      "Hidden": false,
-      "FullName": "Lucius Daugherty",
+      "ExtraInfo": "laudantium",
+      "StyleHint": "sit",
+      "Hidden": true,
+      "FullName": "Evangeline Greenfelder MD",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 605
+          "FieldType": "System.Int32",
+          "FieldLength": 93
         }
       }
     }
   ],
   "Urls": [
     {
-      "Value": "error",
-      "StrippedValue": "voluptas",
-      "Description": "Total value-added paradigm",
+      "Value": "et",
+      "StrippedValue": "quibusdam",
+      "Description": "Diverse incremental protocol",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 112
+          "FieldType": "System.String",
+          "FieldLength": 541
         }
       }
     },
     {
-      "Value": "error",
-      "StrippedValue": "voluptas",
-      "Description": "Total value-added paradigm",
+      "Value": "et",
+      "StrippedValue": "quibusdam",
+      "Description": "Diverse incremental protocol",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 112
+          "FieldType": "System.String",
+          "FieldLength": 541
         }
       }
     }
   ],
   "Phones": [
     {
-      "Value": "est",
-      "StrippedValue": "debitis",
-      "Description": "Horizontal coherent instruction set",
+      "Value": "odit",
+      "StrippedValue": "et",
+      "Description": "Public-key local local area network",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 911
+          "FieldLength": 214
         }
       }
     },
     {
-      "Value": "est",
-      "StrippedValue": "debitis",
-      "Description": "Horizontal coherent instruction set",
+      "Value": "odit",
+      "StrippedValue": "et",
+      "Description": "Public-key local local area network",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 911
+          "FieldLength": 214
         }
       }
     }
   ],
   "Faxes": [
     {
-      "Value": "qui",
-      "StrippedValue": "corporis",
-      "Description": "Assimilated systemic product",
+      "Value": "error",
+      "StrippedValue": "occaecati",
+      "Description": "Synchronised actuating instruction set",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 949
+          "FieldType": "System.Int32",
+          "FieldLength": 874
         }
       }
     },
     {
-      "Value": "qui",
-      "StrippedValue": "corporis",
-      "Description": "Assimilated systemic product",
+      "Value": "error",
+      "StrippedValue": "occaecati",
+      "Description": "Synchronised actuating instruction set",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 949
+          "FieldType": "System.Int32",
+          "FieldLength": 874
         }
       }
     }
   ],
-  "Description": "Front-line background hardware",
+  "Description": "Open-source bi-directional standardization",
   "UpdatedBy": null,
   "CreatedBy": null,
   "Associate": null,
@@ -279,102 +281,102 @@ Content-Type: application/json; charset=utf-8
   "Country": null,
   "Persons": [
     {
-      "Position": "atque",
-      "PersonId": 91,
-      "Mrmrs": "fugiat",
-      "Firstname": "Ottis",
-      "Lastname": "Hills",
-      "MiddleName": "Brakus-McClure",
-      "Title": "ex",
-      "Description": "Exclusive multi-state hierarchy",
-      "Email": "litzy@greenholttremblay.info",
-      "FullName": "Leif Cartwright",
-      "DirectPhone": "(638)098-2899 x96785",
-      "FormalName": "Ondricka, Cronin and Rogahn",
-      "CountryId": 980,
-      "ContactId": 128,
-      "ContactName": "Baumbach LLC",
-      "Retired": 342,
-      "Rank": 974,
-      "ActiveInterests": 361,
+      "Position": "ipsum",
+      "PersonId": 168,
+      "Mrmrs": "cumque",
+      "Firstname": "Soledad",
+      "Lastname": "Konopelski",
+      "MiddleName": "Mueller, Bergstrom and Schimmel",
+      "Title": "quia",
+      "Description": "Inverse holistic forecast",
+      "Email": "yvonne.keebler@metz.com",
+      "FullName": "Greg Aditya Schulist DDS",
+      "DirectPhone": "594-883-8383 x60910",
+      "FormalName": "Gibson Inc and Sons",
+      "CountryId": 317,
+      "ContactId": 863,
+      "ContactName": "Weissnat, Goldner and Satterfield",
+      "Retired": 793,
+      "Rank": 92,
+      "ActiveInterests": 978,
       "ContactDepartment": "",
-      "ContactCountryId": 101,
-      "ContactOrgNr": "1296138",
-      "FaxPhone": "445.019.0634",
-      "MobilePhone": "1-625-106-8068 x923",
-      "ContactPhone": "1-443-519-4857 x1424",
-      "AssociateName": "Ruecker-Parker",
-      "AssociateId": 938,
-      "UsePersonAddress": true,
-      "ContactFax": "ipsum",
-      "Kanafname": "repellendus",
-      "Kanalname": "neque",
-      "Post1": "perspiciatis",
-      "Post2": "et",
-      "Post3": "ab",
-      "EmailName": "isidro.luettgen@vandervort.name",
-      "ContactFullName": "Nettie Powlowski",
-      "ActiveErpLinks": 937,
-      "TicketPriorityId": 297,
-      "SupportLanguageId": 698,
-      "SupportAssociateId": 823,
+      "ContactCountryId": 283,
+      "ContactOrgNr": "1745902",
+      "FaxPhone": "163-667-1363 x5615",
+      "MobilePhone": "(811)842-7908 x654",
+      "ContactPhone": "301.610.7962",
+      "AssociateName": "Bartoletti Group",
+      "AssociateId": 652,
+      "UsePersonAddress": false,
+      "ContactFax": "aut",
+      "Kanafname": "fugiat",
+      "Kanalname": "rerum",
+      "Post1": "possimus",
+      "Post2": "eligendi",
+      "Post3": "vero",
+      "EmailName": "leo.pagac@macejkovic.us",
+      "ContactFullName": "Saige Gibson",
+      "ActiveErpLinks": 180,
+      "TicketPriorityId": 622,
+      "SupportLanguageId": 823,
+      "SupportAssociateId": 976,
       "CategoryName": "VIP Customer",
-      "PersonNumber": "965804",
+      "PersonNumber": "573898",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 750
+          "FieldType": "System.Int32",
+          "FieldLength": 460
         }
       }
     }
   ],
-  "NoMailing": true,
-  "Kananame": "est",
-  "Xstop": false,
-  "ActiveInterests": 951,
-  "GroupId": 201,
-  "ActiveStatusMonitorId": 776,
+  "NoMailing": false,
+  "Kananame": "officia",
+  "Xstop": true,
+  "ActiveInterests": 618,
+  "GroupId": 916,
+  "ActiveStatusMonitorId": 285,
   "SupportAssociate": null,
   "TicketPriority": null,
   "CustomerLanguage": null,
-  "Deleted": 704,
-  "DbiAgentId": 74,
-  "DbiLastSyncronized": "2016-04-07T03:46:54.5195154+02:00",
-  "DbiKey": "pariatur",
-  "DbiLastModified": "2007-04-11T03:46:54.5195154+02:00",
+  "Deleted": 904,
+  "DbiAgentId": 779,
+  "DbiLastSyncronized": "2019-06-16T02:30:46.9757163+02:00",
+  "DbiKey": "optio",
+  "DbiLastModified": "2021-02-25T02:30:46.9757163+01:00",
   "SupportPerson": null,
   "Address": null,
-  "Source": 830,
-  "ActiveErpLinks": 364,
+  "Source": 616,
+  "ActiveErpLinks": 54,
   "BounceEmails": [
-    "jordane@block.co.uk",
-    "coy@dach.name"
+    "ludwig@yundt.us",
+    "emerson@deckow.name"
   ],
   "Domains": [
-    "atque",
-    "eligendi"
+    "est",
+    "temporibus"
   ],
-  "InitialUtmParameters": null,
+  "UtmParameters": null,
   "UserDefinedFields": {
-    "SuperOffice:1": "Justyn Weimann",
-    "SuperOffice:2": "Ms. Mable Xzavier Kling"
+    "SuperOffice:1": "215734437",
+    "SuperOffice:2": "Mr. Raymond Roob V"
   },
   "ExtraFields": {
-    "ExtraFields1": "et",
-    "ExtraFields2": "architecto"
+    "ExtraFields1": "quidem",
+    "ExtraFields2": "ut"
   },
   "CustomFields": {
-    "CustomFields1": "ea",
-    "CustomFields2": "doloremque"
+    "CustomFields1": "fuga",
+    "CustomFields2": "sequi"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 908
+      "FieldType": "System.Int32",
+      "FieldLength": 589
     }
   }
 }

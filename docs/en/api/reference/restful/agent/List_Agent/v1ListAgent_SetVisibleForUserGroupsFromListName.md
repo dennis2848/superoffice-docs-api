@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/SetVisibleForUserGroupsFromListName
 Update User groups that this list item is visible for
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -90,32 +92,32 @@ OK
 POST /api/v1/Agents/List/SetVisibleForUserGroupsFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Runolfsson Group",
-  "ListItemId": 110,
+  "UdListDefinitionName": "Carroll, Schmitt and Goldner",
+  "ListItemId": 58,
   "UserGroups": [
     {
-      "Id": 933,
-      "Name": "Ferry-Roob",
-      "ToolTip": "Quod veniam adipisci.",
-      "Deleted": true,
-      "Rank": 344,
-      "Type": "eos",
-      "ColorBlock": 155,
-      "IconHint": "ducimus",
+      "Id": 347,
+      "Name": "Lubowitz Inc and Sons",
+      "ToolTip": "Incidunt quo.",
+      "Deleted": false,
+      "Rank": 801,
+      "Type": "inventore",
+      "ColorBlock": 977,
+      "IconHint": "omnis",
       "Selected": true,
-      "LastChanged": "2015-09-07T03:46:54.9569999+02:00",
+      "LastChanged": "2002-06-08T02:30:47.4132046+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "ut",
-      "StyleHint": "nihil",
+      "ExtraInfo": "accusantium",
+      "StyleHint": "non",
       "Hidden": true,
-      "FullName": "Christophe Cummings"
+      "FullName": "Dominique Deckow"
     }
   ]
 }
@@ -129,56 +131,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 814,
-    "Name": "Anderson LLC",
-    "ToolTip": "Quia eaque quas cumque aliquam similique.",
-    "Deleted": false,
-    "Rank": 559,
-    "Type": "eum",
-    "ColorBlock": 114,
-    "IconHint": "in",
-    "Selected": false,
-    "LastChanged": "2020-10-07T03:46:54.9569999+02:00",
+    "Id": 465,
+    "Name": "Rutherford Inc and Sons",
+    "ToolTip": "Illum consequatur et et ullam laudantium.",
+    "Deleted": true,
+    "Rank": 561,
+    "Type": "corporis",
+    "ColorBlock": 863,
+    "IconHint": "adipisci",
+    "Selected": true,
+    "LastChanged": "2015-12-09T02:30:47.4132046+01:00",
     "ChildItems": [
       {
-        "Id": 355,
-        "Name": "Bernier, Jacobson and Tillman",
-        "ToolTip": "Rerum et sint.",
-        "Deleted": true,
-        "Rank": 223,
-        "Type": "aut",
-        "ColorBlock": 158,
-        "IconHint": "ex",
-        "Selected": true,
-        "LastChanged": "1999-07-11T03:46:54.9569999+02:00",
+        "Id": 510,
+        "Name": "Deckow Inc and Sons",
+        "ToolTip": "Veniam sed.",
+        "Deleted": false,
+        "Rank": 542,
+        "Type": "voluptas",
+        "ColorBlock": 493,
+        "IconHint": "quia",
+        "Selected": false,
+        "LastChanged": "2016-08-16T02:30:47.4132046+02:00",
         "ChildItems": [
           {},
           {}
         ],
         "ExtraInfo": "et",
-        "StyleHint": "nemo",
+        "StyleHint": "quod",
         "Hidden": true,
-        "FullName": "Isidro Walker",
+        "FullName": "Pearline Muller",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 734
+            "FieldLength": 616
           }
         }
       }
     ],
-    "ExtraInfo": "amet",
-    "StyleHint": "officia",
-    "Hidden": true,
-    "FullName": "Jules Abernathy",
+    "ExtraInfo": "magnam",
+    "StyleHint": "necessitatibus",
+    "Hidden": false,
+    "FullName": "Dariana Bergstrom",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 75
+        "FieldType": "System.Int32",
+        "FieldLength": 623
       }
     }
   }

@@ -14,7 +14,8 @@ POST /api/v1/Agents/Find/FindWithExtraRestrictions2
 Execute a Find operation and return a page of results.
 
 
-The criteria for the Find are fetched from the restriction storage provider according to the given parameters. In addition an extra set of restrictions can be added to the search. These restrictions will not be saved, they are only valid for the current search. Extra restrictions will override restrictions with the same key already stored on the storagekey. 
+The criteria for the Find are fetched from the restriction storage provider according to the given parameters. In addition an extra set of restrictions can be added to the search. These restrictions will not be saved, they are only valid for the current search. Extra restrictions will override restrictions with the same key already stored on the storagekey.
+NsApiSlow threshold: 5000 ms. 
 
 Archive Restriction strings are OData or SQL-ish.
 They are parsed and converted into ArchiveRestrictions.
@@ -168,18 +169,18 @@ OK
 POST /api/v1/Agents/Find/FindWithExtraRestrictions2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "non",
-  "ProviderName": "Murazik, Pfeffer and Stamm",
-  "StorageKey": "qui",
-  "ExtraRestrictions": "quos",
-  "OrderBy": "rerum",
-  "DesiredColumns": "rerum",
-  "PageSize": 955,
-  "PageNumber": 780
+  "StorageType": "ab",
+  "ProviderName": "Cormier-Effertz",
+  "StorageKey": "modi",
+  "ExtraRestrictions": "et",
+  "OrderBy": "nulla",
+  "DesiredColumns": "non",
+  "PageSize": 967,
+  "PageNumber": 500
 }
 ```
 
@@ -192,51 +193,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Metz, Rempel and Barrows",
-      "DisplayTooltip": "sapiente",
-      "DisplayType": "autem",
+      "DisplayName": "Fadel LLC",
+      "DisplayTooltip": "repudiandae",
+      "DisplayType": "ut",
       "CanOrderBy": false,
-      "Name": "Batz-Gulgowski",
-      "CanRestrictBy": true,
-      "RestrictionType": "voluptates",
-      "RestrictionListName": "Schamberger, Willms and Champlin",
+      "Name": "Gaylord, Brown and Goodwin",
+      "CanRestrictBy": false,
+      "RestrictionType": "inventore",
+      "RestrictionListName": "Kuvalis Group",
       "IsVisible": false,
-      "ExtraInfo": "voluptas",
-      "Width": "a",
-      "IconHint": "qui",
-      "HeadingIconHint": "voluptatem"
+      "ExtraInfo": "repudiandae",
+      "Width": "consequatur",
+      "IconHint": "vel",
+      "HeadingIconHint": "odit"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Runolfsson-Stroman",
-      "PrimaryKey": 426,
+      "EntityName": "Lesch, Murazik and Bernhard",
+      "PrimaryKey": 423,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "cupiditate",
-          "TooltipHint": "cum",
-          "LinkHint": "vel"
+          "DisplayValue": "voluptatum",
+          "TooltipHint": "et",
+          "LinkHint": "tempore"
         }
       },
-      "LinkHint": "aperiam",
-      "StyleHint": "est",
+      "LinkHint": "qui",
+      "StyleHint": "consequuntur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 279
+          "FieldLength": 990
         }
       }
     }
   ],
-  "RowCount": 872,
+  "RowCount": 542,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 270
+      "FieldLength": 916
     }
   }
 }

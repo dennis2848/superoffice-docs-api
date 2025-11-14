@@ -14,6 +14,8 @@ POST /api/v1/Agents/BLOB/GetChatImageWithSize
 Returns the chat image that is displayed in chat with a specified maximum size.
 
 
+NsApiSlow threshold: 3000 ms.
+
 
 
 
@@ -75,9 +77,9 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 619,
-  "Width": 920,
-  "Height": 862
+  "ChatTopicId": 788,
+  "Width": 949,
+  "Height": 2
 }
 ```
 

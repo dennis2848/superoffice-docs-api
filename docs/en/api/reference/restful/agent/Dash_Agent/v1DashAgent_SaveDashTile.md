@@ -14,6 +14,8 @@ POST /api/v1/Agents/Dash/SaveDashTile
 Updates the existing DashTile or creates a new DashTile if the id parameter is 0.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -74,15 +76,15 @@ OK
 POST /api/v1/Agents/Dash/SaveDashTile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 939,
-  "DashboardId": 52,
-  "Height": 382,
-  "Width": 761,
-  "Rank": 787,
+  "DashboardTileId": 174,
+  "DashboardId": 941,
+  "Height": 588,
+  "Width": 278,
+  "Rank": 640,
   "DashTileDefinition": null
 }
 ```
@@ -94,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 239,
-  "DashboardId": 787,
-  "Height": 281,
-  "Width": 178,
-  "Rank": 807,
+  "DashboardTileId": 19,
+  "DashboardId": 54,
+  "Height": 918,
+  "Width": 465,
+  "Rank": 609,
   "DashTileDefinition": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 836
+      "FieldLength": 449
     }
   }
 }

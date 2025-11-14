@@ -98,47 +98,47 @@ OK
 PUT /api/v1/List/Rating/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 658,
-    "Name": "Emmerich Group",
-    "ToolTip": "Nostrum doloremque commodi sunt ipsum at.",
+    "Id": 541,
+    "Name": "Mayert-Bernier",
+    "ToolTip": "Ut consectetur.",
     "Deleted": false,
-    "Rank": 180,
-    "Type": "et",
-    "ColorBlock": 941,
-    "IconHint": "sint",
+    "Rank": 982,
+    "Type": "dolorem",
+    "ColorBlock": 174,
+    "IconHint": "voluptates",
     "Selected": false,
-    "LastChanged": "2016-10-20T03:47:00.7849183+02:00",
+    "LastChanged": "2017-01-24T02:30:53.4130107+01:00",
     "ChildItems": [
       {
-        "Id": 925,
-        "Name": "Kihn, Toy and Heller",
-        "ToolTip": "Qui labore.",
-        "Deleted": false,
-        "Rank": 996,
-        "Type": "voluptatum",
-        "ColorBlock": 51,
-        "IconHint": "optio",
-        "Selected": true,
-        "LastChanged": "2011-03-22T03:47:00.7849183+01:00",
+        "Id": 494,
+        "Name": "Bailey-Fay",
+        "ToolTip": "Et repellendus et repellat odio.",
+        "Deleted": true,
+        "Rank": 682,
+        "Type": "fugit",
+        "ColorBlock": 833,
+        "IconHint": "non",
+        "Selected": false,
+        "LastChanged": "2009-05-14T02:30:53.4130107+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "rem",
-        "StyleHint": "sapiente",
+        "ExtraInfo": "iusto",
+        "StyleHint": "facilis",
         "Hidden": true,
-        "FullName": "Jennyfer Greenfelder Jr."
+        "FullName": "Elian Bailey"
       }
     ],
-    "ExtraInfo": "maiores",
-    "StyleHint": "dicta",
-    "Hidden": true,
-    "FullName": "Albertha Stroman"
+    "ExtraInfo": "necessitatibus",
+    "StyleHint": "quidem",
+    "Hidden": false,
+    "FullName": "Marilou Hyatt"
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 101,
-    "Name": "Simonis-Hammes",
-    "ToolTip": "Rerum qui et et et dicta voluptas.",
+    "Id": 46,
+    "Name": "Batz-Lebsack",
+    "ToolTip": "Impedit fugiat minus qui quia libero et.",
     "Deleted": false,
-    "Rank": 200,
-    "Type": "voluptatibus",
-    "ColorBlock": 491,
-    "IconHint": "quos",
+    "Rank": 662,
+    "Type": "ut",
+    "ColorBlock": 583,
+    "IconHint": "atque",
     "Selected": true,
-    "LastChanged": "2016-07-26T03:47:00.7849183+02:00",
+    "LastChanged": "2015-06-07T02:30:53.4130107+02:00",
     "ChildItems": [
       {
-        "Id": 7,
-        "Name": "Hagenes-Farrell",
-        "ToolTip": "Qui suscipit odit.",
-        "Deleted": true,
-        "Rank": 852,
-        "Type": "velit",
-        "ColorBlock": 118,
-        "IconHint": "voluptatem",
-        "Selected": false,
-        "LastChanged": "2013-08-06T03:47:00.7849183+02:00",
+        "Id": 113,
+        "Name": "Casper-Stoltenberg",
+        "ToolTip": "Tempora rerum sit.",
+        "Deleted": false,
+        "Rank": 682,
+        "Type": "veniam",
+        "ColorBlock": 244,
+        "IconHint": "culpa",
+        "Selected": true,
+        "LastChanged": "2001-04-07T02:30:53.4130107+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "rem",
-        "StyleHint": "a",
+        "ExtraInfo": "nostrum",
+        "StyleHint": "voluptas",
         "Hidden": false,
-        "FullName": "Miss Rozella Bailee Hermann Jr.",
+        "FullName": "Mr. Lia Alicia Homenick PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 709
+            "FieldLength": 947
           }
         }
       }
     ],
-    "ExtraInfo": "quia",
-    "StyleHint": "hic",
+    "ExtraInfo": "totam",
+    "StyleHint": "omnis",
     "Hidden": true,
-    "FullName": "Chloe Yost",
+    "FullName": "Zena Romaguera",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 801
+        "FieldLength": 324
       }
     }
   }

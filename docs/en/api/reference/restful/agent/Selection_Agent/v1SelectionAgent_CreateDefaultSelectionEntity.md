@@ -14,6 +14,8 @@ POST /api/v1/Agents/Selection/CreateDefaultSelectionEntity
 Loading default values into a new SelectionEntity.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -96,7 +98,7 @@ OK
 POST /api/v1/Agents/Selection/CreateDefaultSelectionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -106,70 +108,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Digitized optimizing encryption",
-  "Postit": "enim",
+  "Description": "Focused multi-state structure",
+  "Postit": "et",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 853,
-  "IncludePerson": 829,
+  "GroupIdx": 531,
+  "IncludePerson": 93,
   "MemberCount": 99.99,
-  "Name": "Miller, Kessler and Koch",
-  "PostitTextId": 195,
-  "CreatedDate": "2001-07-17T03:46:55.3007553+02:00",
-  "SelectionId": 556,
-  "SoundEx": "blanditiis",
-  "Source": 811,
-  "TextId": 168,
-  "UpdatedDate": "2015-06-12T03:46:55.3007553+02:00",
-  "UpdatedCount": 805,
-  "Visibility": 152,
+  "Name": "Predovic Inc and Sons",
+  "PostitTextId": 184,
+  "CreatedDate": "2001-05-19T02:30:47.8038176+02:00",
+  "SelectionId": 650,
+  "SoundEx": "adipisci",
+  "Source": 524,
+  "TextId": 177,
+  "UpdatedDate": "2005-07-18T02:30:47.8038176+02:00",
+  "UpdatedCount": 476,
+  "Visibility": 259,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 194,
-  "TargetTableName": "Adams-Bergstrom",
+  "TargetTableNumber": 991,
+  "TargetTableName": "Wiegand, Watsica and Wintheiser",
   "Completed": false,
-  "LeftSelectionId": 956,
-  "RightSelectionId": 349,
+  "LeftSelectionId": 150,
+  "RightSelectionId": 541,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Russel, Douglas and Hilll",
-  "ShadowProviderName": "McDermott-Cummerata",
-  "ChartKey": "dicta",
-  "LastLoaded": "2000-07-16T03:46:55.3007553+02:00",
-  "LastLoadedBy": 994,
+  "MainProviderName": "Russel LLC",
+  "ShadowProviderName": "Raynor Inc and Sons",
+  "ChartKey": "molestias",
+  "LastLoaded": "2005-09-10T02:30:47.8038176+02:00",
+  "LastLoadedBy": 927,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2001-06-03T03:46:55.3007553+02:00",
-  "LastMembershipChangeBy": 739,
+  "LastMembershipChange": "2025-08-16T02:30:47.8038176+02:00",
+  "LastMembershipChangeBy": 41,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "excepturi",
-  "MemberTabHeading": "provident",
-  "MailingsProviderName": "Durgan, Kub and Schamberger",
-  "DashboardTileDefinitionId": 991,
+  "MainHeading": "et",
+  "MemberTabHeading": "sit",
+  "MailingsProviderName": "Olson-Kertzmann",
+  "DashboardTileDefinitionId": 404,
   "VisibleFor": [
     {
-      "VisibleId": 6,
+      "VisibleId": 741,
       "Visibility": "All",
-      "DisplayValue": "sapiente",
+      "DisplayValue": "voluptatibus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 250
+          "FieldLength": 132
         }
       }
     },
     {
-      "VisibleId": 6,
+      "VisibleId": 741,
       "Visibility": "All",
-      "DisplayValue": "sapiente",
+      "DisplayValue": "voluptatibus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 250
+          "FieldLength": 132
         }
       }
     }
@@ -179,7 +181,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 225
+      "FieldLength": 848
     }
   }
 }

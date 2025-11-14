@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/{udListDefinitionName}/Items/{listItemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 866,
-    "Name": "Leffler-Howell",
-    "ToolTip": "Molestias officiis eum blanditiis aspernatur fugiat quia porro.",
-    "Deleted": true,
-    "Rank": 627,
-    "Type": "quisquam",
-    "ColorBlock": 515,
-    "IconHint": "recusandae",
-    "Selected": true,
-    "LastChanged": "2011-06-25T03:47:00.5661762+02:00",
+    "Id": 602,
+    "Name": "Anderson, Barton and Williamson",
+    "ToolTip": "Distinctio rerum numquam nemo sunt blanditiis.",
+    "Deleted": false,
+    "Rank": 439,
+    "Type": "architecto",
+    "ColorBlock": 150,
+    "IconHint": "quo",
+    "Selected": false,
+    "LastChanged": "2003-11-03T02:30:53.194268+01:00",
     "ChildItems": [
       {
-        "Id": 318,
-        "Name": "Rohan-Homenick",
-        "ToolTip": "Mollitia rerum sed eos.",
-        "Deleted": true,
-        "Rank": 434,
-        "Type": "placeat",
-        "ColorBlock": 887,
-        "IconHint": "quod",
-        "Selected": true,
-        "LastChanged": "2016-01-10T03:47:00.5661762+01:00",
+        "Id": 523,
+        "Name": "Predovic, Klocko and Braun",
+        "ToolTip": "Tenetur omnis.",
+        "Deleted": false,
+        "Rank": 639,
+        "Type": "inventore",
+        "ColorBlock": 152,
+        "IconHint": "nihil",
+        "Selected": false,
+        "LastChanged": "2010-01-01T02:30:53.194268+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "omnis",
-        "StyleHint": "est",
+        "ExtraInfo": "fugit",
+        "StyleHint": "dolorum",
         "Hidden": false,
-        "FullName": "Mrs. Levi Moen"
+        "FullName": "Glenna Tillman"
       }
     ],
-    "ExtraInfo": "sit",
-    "StyleHint": "voluptatem",
-    "Hidden": false,
-    "FullName": "Miss Adolfo Greenholt DDS"
+    "ExtraInfo": "doloremque",
+    "StyleHint": "ad",
+    "Hidden": true,
+    "FullName": "Mrs. Leilani Gerhold V"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 38,
-    "Name": "Waters-Gorczany",
-    "ToolTip": "Consectetur beatae alias rem.",
-    "Deleted": false,
-    "Rank": 849,
-    "Type": "ratione",
-    "ColorBlock": 818,
-    "IconHint": "sint",
-    "Selected": true,
-    "LastChanged": "2002-09-26T03:47:00.5661762+02:00",
+    "Id": 412,
+    "Name": "Hudson, Bartoletti and Schroeder",
+    "ToolTip": "Modi quia et omnis porro ut commodi id.",
+    "Deleted": true,
+    "Rank": 214,
+    "Type": "quia",
+    "ColorBlock": 112,
+    "IconHint": "necessitatibus",
+    "Selected": false,
+    "LastChanged": "2013-10-17T02:30:53.194268+02:00",
     "ChildItems": [
       {
-        "Id": 207,
-        "Name": "Rogahn LLC",
-        "ToolTip": "Quos voluptatibus ea temporibus mollitia.",
+        "Id": 516,
+        "Name": "Oberbrunner-Runte",
+        "ToolTip": "Eius laborum et.",
         "Deleted": true,
-        "Rank": 594,
-        "Type": "libero",
-        "ColorBlock": 252,
-        "IconHint": "vel",
+        "Rank": 894,
+        "Type": "perferendis",
+        "ColorBlock": 87,
+        "IconHint": "incidunt",
         "Selected": true,
-        "LastChanged": "2008-08-31T03:47:00.5661762+02:00",
+        "LastChanged": "2014-03-08T02:30:53.194268+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "sit",
-        "Hidden": false,
-        "FullName": "Deborah Bogan",
+        "ExtraInfo": "incidunt",
+        "StyleHint": "et",
+        "Hidden": true,
+        "FullName": "Maude Dicki",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 105
+            "FieldType": "System.String",
+            "FieldLength": 808
           }
         }
       }
     ],
-    "ExtraInfo": "voluptas",
-    "StyleHint": "tempora",
+    "ExtraInfo": "deserunt",
+    "StyleHint": "ullam",
     "Hidden": false,
-    "FullName": "Mr. Clotilde Ali Schmeler PhD",
+    "FullName": "Keven Fanny Reichert DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 880
+        "FieldLength": 250
       }
     }
   }

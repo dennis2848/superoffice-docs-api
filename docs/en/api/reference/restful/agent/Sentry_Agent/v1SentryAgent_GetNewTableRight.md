@@ -14,6 +14,8 @@ POST /api/v1/Agents/Sentry/GetNewTableRight
 Returns a TableRight for a new row based on tableName parameter.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -77,7 +79,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Kihn Group"
+  "TableName": "Moen LLC"
 }
 ```
 
@@ -88,7 +90,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Mask": "nihil",
+  "Mask": "quos",
   "Reason": ""
 }
 ```

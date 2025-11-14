@@ -15,6 +15,7 @@ This method create a new ticket in the same way as importMail would import an em
 
 
 It accepts RFC822 formatted data
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -84,12 +85,12 @@ OK
 POST /api/v1/Agents/CustomerService/CreateTicketFromMailData
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailboxId": 37,
-  "Data": "consectetur"
+  "MailboxId": 417,
+  "Data": "nobis"
 }
 ```
 
@@ -100,20 +101,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 410,
-  "Title": "incidunt",
-  "OwnerName": "Wuckert, Boyle and Kovacek",
+  "TicketId": 19,
+  "Title": "earum",
+  "OwnerName": "Feest-Wehner",
   "CategoryName": "VIP Customer",
-  "PriorityName": "Jacobs Group",
+  "PriorityName": "Yost-Huel",
   "TicketUrl": "http://www.example.com/",
-  "PersonName": "Haag Inc and Sons",
-  "ContactName": "Flatley-Windler",
+  "PersonName": "Labadie Group",
+  "ContactName": "Crist Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 654
+      "FieldLength": 257
     }
   }
 }

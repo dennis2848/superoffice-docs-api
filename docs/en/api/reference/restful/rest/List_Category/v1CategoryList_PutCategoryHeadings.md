@@ -76,25 +76,25 @@ OK
 PUT /api/v1/List/Category/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 705,
-    "Name": "Thiel-Lehner",
-    "Tooltip": "hic",
-    "Deleted": true,
-    "Rank": 509,
-    "UdListDefinitionId": 535
+    "HeadingId": 525,
+    "Name": "Langworth Group",
+    "Tooltip": "necessitatibus",
+    "Deleted": false,
+    "Rank": 53,
+    "UdListDefinitionId": 871
   },
   {
-    "HeadingId": 705,
-    "Name": "Thiel-Lehner",
-    "Tooltip": "hic",
-    "Deleted": true,
-    "Rank": 509,
-    "UdListDefinitionId": 535
+    "HeadingId": 525,
+    "Name": "Langworth Group",
+    "Tooltip": "necessitatibus",
+    "Deleted": false,
+    "Rank": 53,
+    "UdListDefinitionId": 871
   }
 ]
 ```
@@ -107,18 +107,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 67,
-    "Name": "Weimann LLC",
-    "Tooltip": "aut",
+    "HeadingId": 717,
+    "Name": "Champlin, Skiles and Barrows",
+    "Tooltip": "accusantium",
     "Deleted": false,
-    "Rank": 842,
-    "UdListDefinitionId": 461,
+    "Rank": 45,
+    "UdListDefinitionId": 548,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 923
+        "FieldType": "System.String",
+        "FieldLength": 870
       }
     }
   }

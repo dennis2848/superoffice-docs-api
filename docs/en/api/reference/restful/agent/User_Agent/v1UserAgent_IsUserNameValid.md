@@ -11,7 +11,7 @@ content_type: reference
 POST /api/v1/Agents/User/IsUserNameValid
 ```
 
-<para />
+NsApiSlow threshold: 2000 ms.
 
 
 ## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
@@ -78,10 +78,10 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 569,
+  "AssociateId": 112,
   "Type": "AnonymousAssociate",
-  "PersonId": 144,
-  "UserName": "Grady-Torphy"
+  "PersonId": 758,
+  "UserName": "Marks-Renner"
 }
 ```
 
@@ -91,5 +91,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-false
+true
 ```

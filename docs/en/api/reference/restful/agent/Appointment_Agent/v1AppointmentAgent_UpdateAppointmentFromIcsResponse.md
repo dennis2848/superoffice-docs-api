@@ -14,6 +14,8 @@ POST /api/v1/Agents/Appointment/UpdateAppointmentFromIcsResponse
 Update the attendance to an appointment based on incoming ICS RSVPs.
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -70,11 +72,11 @@ OK
 POST /api/v1/Agents/Appointment/UpdateAppointmentFromIcsResponse
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailAddress": "ansley.franecki@blickhilll.name",
+  "EmailAddress": "ansel.yost@stoltenberg.uk",
   "IcsData": "GIF89....File contents as raw bytes..."
 }
 ```

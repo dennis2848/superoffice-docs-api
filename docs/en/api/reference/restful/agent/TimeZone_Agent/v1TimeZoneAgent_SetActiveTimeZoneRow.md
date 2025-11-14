@@ -14,6 +14,8 @@ POST /api/v1/Agents/TimeZone/SetActiveTimeZoneRow
 Set active state of singe row in the TZLocation table
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -70,8 +72,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 424,
-  "Active": false
+  "Id": 738,
+  "Active": true
 }
 ```
 

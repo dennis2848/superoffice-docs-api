@@ -71,18 +71,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 35,
-  "Name": "Block LLC",
-  "Tooltip": "quae",
-  "Deleted": false,
-  "UdListDefinitionId": 459,
-  "Rank": 466,
+  "Id": 110,
+  "Name": "Reichel Group",
+  "Tooltip": "error",
+  "Deleted": true,
+  "UdListDefinitionId": 57,
+  "Rank": 433,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 555
+      "FieldType": "System.String",
+      "FieldLength": 828
     }
   }
 }

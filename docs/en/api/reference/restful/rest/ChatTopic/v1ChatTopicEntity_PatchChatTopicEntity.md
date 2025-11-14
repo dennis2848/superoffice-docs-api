@@ -14,7 +14,8 @@ PATCH /api/v1/ChatTopic/{id}
 Update a ChatTopicEntity with changes, as described in a JSON Patch or a JSON Merge Patch document.
 
 
-See <a href="https://tools.ietf.org/html/rfc6902">RFC6902</a> and <a href="https://tools.ietf.org/html/rfc7386">RFC 7396</a>. Update the Department field to "foo" can be done either as a JSON PATCH:
+See <a href="https://tools.ietf.org/html/rfc6902">RFC6902</a> and <a href="https://tools.ietf.org/html/rfc7386">RFC 7396</a>.
+NsApiSlow threshold: 5000 ms. Update the Department field to "foo" can be done either as a JSON PATCH:
 
 ```js
 
@@ -145,12 +146,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "blanditiis",
+    "path": "quisquam",
     "value": {}
   },
   {
     "op": "add",
-    "path": "blanditiis",
+    "path": "quisquam",
     "value": {}
   }
 ]
@@ -163,22 +164,22 @@ HTTP/1.1 200 ChatTopicEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 916,
-  "Name": "Schaden, Volkman and Dare",
-  "Description": "Ameliorated tangible portal",
-  "WelcomeMessage": "voluptatem",
+  "ChatTopicId": 627,
+  "Name": "Hettinger Group",
+  "Description": "Up-sized fault-tolerant core",
+  "WelcomeMessage": "beatae",
   "Language": null,
-  "LastAccept": "2007-06-24T03:46:59.8005718+02:00",
-  "SecondsPrAccept": 112,
-  "AlertRecipient": "sint",
+  "LastAccept": "2022-12-11T02:30:52.4286686+01:00",
+  "SecondsPrAccept": 198,
+  "AlertRecipient": "error",
   "AlertTemplate": null,
-  "CollectConsent": true,
-  "BadgeHeader": "quos",
-  "CustomQueueTextEnabled": true,
-  "CustomQueueText": "eligendi",
-  "WarnNewChatMinutes": 679,
-  "WarnManagerNewChatMinutes": 296,
-  "TicketEnabled": false,
+  "CollectConsent": false,
+  "BadgeHeader": "ab",
+  "CustomQueueTextEnabled": false,
+  "CustomQueueText": "expedita",
+  "WarnNewChatMinutes": 511,
+  "WarnManagerNewChatMinutes": 280,
+  "TicketEnabled": true,
   "TicketCategory": null,
   "TicketPriority": null,
   "OpeningHoursEnabled": false,
@@ -187,19 +188,19 @@ Content-Type: application/json; charset=utf-8
   "BotEnabled": false,
   "BotSettings": null,
   "OfflineCollectConsent": true,
-  "WarnChatMessageMinutes": 4,
-  "WarnManagerChatMessageMinutes": 276,
-  "UseQueueOfflineForm": true,
-  "OfflineFormTimeLimit": 122,
-  "OfflineFormQueueLength": 106,
-  "WidgetEnableRating": false,
-  "WidgetRatingText": "distinctio",
+  "WarnChatMessageMinutes": 933,
+  "WarnManagerChatMessageMinutes": 683,
+  "UseQueueOfflineForm": false,
+  "OfflineFormTimeLimit": 840,
+  "OfflineFormQueueLength": 944,
+  "WidgetEnableRating": true,
+  "WidgetRatingText": "cumque",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 157
+      "FieldType": "System.Int32",
+      "FieldLength": 980
     }
   },
   "_Links": {

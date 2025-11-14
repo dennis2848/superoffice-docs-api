@@ -66,7 +66,7 @@ OK
 GET /api/v1/List/QuoteDenyReason/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -76,18 +76,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 414,
-  "Name": "Jewess Group",
-  "Tooltip": "nihil",
-  "Deleted": true,
-  "UdListDefinitionId": 55,
-  "Rank": 139,
+  "Id": 252,
+  "Name": "Kemmer, Cronin and Rath",
+  "Tooltip": "et",
+  "Deleted": false,
+  "UdListDefinitionId": 113,
+  "Rank": 164,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 722
+      "FieldType": "System.Int32",
+      "FieldLength": 253
     }
   }
 }

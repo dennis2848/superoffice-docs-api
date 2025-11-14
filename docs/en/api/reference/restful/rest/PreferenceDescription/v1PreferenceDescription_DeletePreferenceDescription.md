@@ -15,6 +15,7 @@ Deletes the PreferenceDescription
 
 
 Calls the Preference agent service DeletePreferenceDescription.
+NsApiSlow threshold: 1000 ms.
 
 
 

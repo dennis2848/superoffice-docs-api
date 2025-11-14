@@ -14,6 +14,8 @@ POST /api/v1/Agents/Configuration/SaveSystemEventEntity
 Updates the existing SystemEventEntity or creates a new SystemEventEntity if the id parameter is 0.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -82,19 +84,19 @@ OK
 POST /api/v1/Agents/Configuration/SaveSystemEventEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 262,
+  "SystemEventId": 5,
   "Scope": "Database",
-  "Eta": "2010-03-11T03:46:54.4570178+01:00",
-  "Eventkey": "quisquam",
-  "Eventmess": "molestiae",
-  "ExtraInfo": 111,
-  "Owner": 564,
-  "UpdatedCount": 863,
-  "Registered": "2017-05-21T03:46:54.4570178+02:00",
+  "Eta": "2000-02-28T02:30:46.9288431+01:00",
+  "Eventkey": "accusantium",
+  "Eventmess": "voluptas",
+  "ExtraInfo": 756,
+  "Owner": 965,
+  "UpdatedCount": 609,
+  "Registered": "2003-08-27T02:30:46.9288431+02:00",
   "ActivatedBy": null
 }
 ```
@@ -106,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 742,
+  "SystemEventId": 712,
   "Scope": "Database",
-  "Eta": "2007-09-07T03:46:54.4570178+02:00",
-  "Eventkey": "veniam",
-  "Eventmess": "at",
-  "ExtraInfo": 142,
-  "Owner": 251,
-  "UpdatedCount": 204,
-  "Registered": "2011-08-12T03:46:54.4570178+02:00",
+  "Eta": "2013-08-24T02:30:46.9288431+02:00",
+  "Eventkey": "impedit",
+  "Eventmess": "quia",
+  "ExtraInfo": 117,
+  "Owner": 537,
+  "UpdatedCount": 708,
+  "Registered": "2009-10-15T02:30:46.9288431+02:00",
   "ActivatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 862
+      "FieldType": "System.String",
+      "FieldLength": 123
     }
   }
 }

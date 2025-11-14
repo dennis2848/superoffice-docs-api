@@ -14,6 +14,8 @@ POST /api/v1/Agents/Document/GetPublishedDocument
 Get the document if it's published
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -93,11 +95,11 @@ OK
 POST /api/v1/Agents/Document/GetPublishedDocument
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 866
+  "DocumentId": 74
 }
 ```
 
@@ -108,32 +110,32 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 15,
-  "Attention": "nam",
-  "Header": "voluptas",
-  "Name": "Jaskolski, Willms and Glover",
-  "OurRef": "ipsa",
-  "YourRef": "eaque",
-  "Description": "Cloned web-enabled migration",
-  "DocumentTemplate": "deleniti",
-  "IsPublished": true,
-  "PersonId": 272,
-  "PersonFullName": "Miss Patsy Cierra Wunsch Sr.",
-  "AssociateFullName": "Wellington Zakary Cassin Jr.",
-  "ContactId": 329,
-  "ContactName": "Skiles Group",
-  "ProjectId": 904,
-  "ProjectName": "Tremblay Group",
-  "AssociateId": 23,
-  "Snum": 351,
-  "SaleId": 34,
-  "SaleName": "Balistreri, Renner and Terry",
+  "DocumentId": 547,
+  "Attention": "magnam",
+  "Header": "sunt",
+  "Name": "Johnston-Wisoky",
+  "OurRef": "ea",
+  "YourRef": "amet",
+  "Description": "Automated composite array",
+  "DocumentTemplate": "quia",
+  "IsPublished": false,
+  "PersonId": 555,
+  "PersonFullName": "Mr. Alverta Oswald Watsica",
+  "AssociateFullName": "Mr. Liliana Terry IV",
+  "ContactId": 472,
+  "ContactName": "Gleason, Bahringer and Rohan",
+  "ProjectId": 17,
+  "ProjectName": "Dickens-Senger",
+  "AssociateId": 550,
+  "Snum": 489,
+  "SaleId": 66,
+  "SaleName": "Gorczany, Braun and Stark",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 432
+      "FieldType": "System.Int32",
+      "FieldLength": 528
     }
   }
 }

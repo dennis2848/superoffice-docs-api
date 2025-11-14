@@ -32,7 +32,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/DocumentTemplate/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/DocumentTemplate/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -86,7 +86,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -97,56 +97,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 109,
-    "Name": "Johnston Inc and Sons",
-    "ToolTip": "Omnis ea sed et sapiente fugit numquam.",
-    "Deleted": true,
-    "Rank": 320,
-    "Type": "occaecati",
-    "ColorBlock": 103,
-    "IconHint": "quas",
-    "Selected": false,
-    "LastChanged": "2020-08-20T03:47:00.6599229+02:00",
+    "Id": 890,
+    "Name": "Rodriguez LLC",
+    "ToolTip": "Animi id nam voluptatibus reprehenderit.",
+    "Deleted": false,
+    "Rank": 539,
+    "Type": "id",
+    "ColorBlock": 72,
+    "IconHint": "expedita",
+    "Selected": true,
+    "LastChanged": "2012-06-15T02:30:53.288015+02:00",
     "ChildItems": [
       {
-        "Id": 601,
-        "Name": "Grimes-Ryan",
-        "ToolTip": "Esse aut et et ratione est consequuntur earum.",
+        "Id": 211,
+        "Name": "Feil-Dooley",
+        "ToolTip": "Atque ratione laudantium quisquam quasi ad iure ut.",
         "Deleted": false,
-        "Rank": 110,
-        "Type": "labore",
-        "ColorBlock": 117,
-        "IconHint": "mollitia",
-        "Selected": true,
-        "LastChanged": "2004-08-23T03:47:00.6599229+02:00",
+        "Rank": 194,
+        "Type": "voluptatem",
+        "ColorBlock": 921,
+        "IconHint": "voluptatem",
+        "Selected": false,
+        "LastChanged": "2002-08-23T02:30:53.288015+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "fuga",
-        "StyleHint": "quos",
+        "ExtraInfo": "nihil",
+        "StyleHint": "quas",
         "Hidden": false,
-        "FullName": "Mr. Amira Schowalter",
+        "FullName": "Dr. Bernie Crona",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 225
+            "FieldLength": 233
           }
         }
       }
     ],
-    "ExtraInfo": "possimus",
-    "StyleHint": "enim",
-    "Hidden": true,
-    "FullName": "Mrs. Rosalind Ryder Windler",
+    "ExtraInfo": "dolor",
+    "StyleHint": "consequatur",
+    "Hidden": false,
+    "FullName": "Erling Cremin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 462
+        "FieldType": "System.Int32",
+        "FieldLength": 130
       }
     }
   }

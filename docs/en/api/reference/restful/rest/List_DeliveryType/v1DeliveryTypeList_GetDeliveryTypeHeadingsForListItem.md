@@ -32,7 +32,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/DeliveryType/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/DeliveryType/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -97,56 +97,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 187,
-    "Name": "Quigley-Mohr",
-    "ToolTip": "Doloribus occaecati doloribus.",
+    "Id": 238,
+    "Name": "Cronin-Bernhard",
+    "ToolTip": "Reprehenderit voluptas veniam.",
     "Deleted": true,
-    "Rank": 565,
-    "Type": "et",
-    "ColorBlock": 610,
-    "IconHint": "harum",
+    "Rank": 359,
+    "Type": "optio",
+    "ColorBlock": 318,
+    "IconHint": "sit",
     "Selected": false,
-    "LastChanged": "2024-12-30T03:47:00.6442984+01:00",
+    "LastChanged": "2020-10-30T02:30:53.288015+01:00",
     "ChildItems": [
       {
-        "Id": 616,
-        "Name": "Rutherford-Upton",
-        "ToolTip": "Eum ex.",
+        "Id": 481,
+        "Name": "Feeney-Predovic",
+        "ToolTip": "Qui autem inventore iste nesciunt quos fugit.",
         "Deleted": true,
-        "Rank": 385,
-        "Type": "alias",
-        "ColorBlock": 485,
-        "IconHint": "pariatur",
+        "Rank": 539,
+        "Type": "minus",
+        "ColorBlock": 327,
+        "IconHint": "minima",
         "Selected": false,
-        "LastChanged": "2011-01-23T03:47:00.6442984+01:00",
+        "LastChanged": "2006-12-28T02:30:53.288015+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "corrupti",
-        "StyleHint": "est",
+        "ExtraInfo": "doloribus",
+        "StyleHint": "exercitationem",
         "Hidden": true,
-        "FullName": "Dr. Nels Erdman",
+        "FullName": "Miss Kayleigh Shields",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 580
+            "FieldLength": 931
           }
         }
       }
     ],
-    "ExtraInfo": "beatae",
-    "StyleHint": "qui",
+    "ExtraInfo": "et",
+    "StyleHint": "ab",
     "Hidden": false,
-    "FullName": "Sister Predovic",
+    "FullName": "Gavin Gleichner",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 164
+        "FieldType": "System.String",
+        "FieldLength": 169
       }
     }
   }

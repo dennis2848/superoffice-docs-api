@@ -14,7 +14,8 @@ POST /api/v1/Agents/Document/GetProjectMemberDocuments
 Method that returns a specified number of document appointments within a time range.
 
 
-The document appointments belong to the project member specified.
+The document appointments belong to the project member specified. 
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -98,14 +99,14 @@ OK
 POST /api/v1/Agents/Document/GetProjectMemberDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 283,
-  "StartTime": "2008-05-03T03:46:54.6132622+02:00",
-  "EndTime": "2012-11-09T03:46:54.6132622+01:00",
-  "Count": 994
+  "PersonId": 924,
+  "StartTime": "2020-10-06T02:30:47.0850878+02:00",
+  "EndTime": "2011-09-24T02:30:47.0850878+02:00",
+  "Count": 949
 }
 ```
 
@@ -117,32 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 506,
-    "Attention": "cumque",
-    "Header": "dolor",
-    "Name": "Swift-Kovacek",
-    "OurRef": "quos",
-    "YourRef": "pariatur",
-    "Description": "Function-based intangible data-warehouse",
-    "DocumentTemplate": "cumque",
+    "DocumentId": 488,
+    "Attention": "tempora",
+    "Header": "impedit",
+    "Name": "Fay LLC",
+    "OurRef": "distinctio",
+    "YourRef": "ex",
+    "Description": "Re-contextualized uniform groupware",
+    "DocumentTemplate": "vero",
     "IsPublished": true,
-    "PersonId": 933,
-    "PersonFullName": "Annamarie Eriberto Murray III",
-    "AssociateFullName": "Nils Blanda",
-    "ContactId": 541,
-    "ContactName": "Nolan, Rolfson and Lowe",
-    "ProjectId": 258,
-    "ProjectName": "Crona, Jacobson and Tromp",
-    "AssociateId": 613,
-    "Snum": 786,
-    "SaleId": 871,
-    "SaleName": "Dare-Ziemann",
+    "PersonId": 785,
+    "PersonFullName": "Prof. Arvid Lia Fay",
+    "AssociateFullName": "Prof. Manley Haley Jr.",
+    "ContactId": 223,
+    "ContactName": "Aufderhar Inc and Sons",
+    "ProjectId": 793,
+    "ProjectName": "Legros-Lind",
+    "AssociateId": 87,
+    "Snum": 630,
+    "SaleId": 649,
+    "SaleName": "Lakin-Stoltenberg",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 686
+        "FieldLength": 964
       }
     }
   }

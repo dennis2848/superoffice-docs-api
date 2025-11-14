@@ -14,6 +14,8 @@ POST /api/v1/Agents/Selection/ExportSelectionMembers
 ExportSelectionMembers will generate a string that is the result of substituting the template variables with values from selectionmembers.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -71,12 +73,12 @@ OK
 POST /api/v1/Agents/Selection/ExportSelectionMembers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 856,
-  "TemplateName": "Schoen-Jerde",
+  "SelectionId": 678,
+  "TemplateName": "Spinka Inc and Sons",
   "UseContacts": false
 }
 ```

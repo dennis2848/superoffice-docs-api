@@ -14,6 +14,8 @@ POST /api/v1/Agents/Archive/GetActivityFilter
 Get activity filter for the specified list.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -70,7 +72,7 @@ OK
 POST /api/v1/Agents/Archive/GetActivityFilter
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -80,91 +82,91 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FromDate": "2024-11-23T03:46:54.2851489+01:00",
-  "ToDate": "2022-10-20T03:46:54.2851489+02:00",
+  "FromDate": "2003-08-14T02:30:46.7882228+02:00",
+  "ToDate": "2024-11-03T02:30:46.7882228+01:00",
   "AssociateList": [
     {
-      "Id": 410,
-      "Name": "Donnelly-O'Hara",
-      "ToolTip": "Quia ut nesciunt quo voluptatem aut.",
+      "Id": 570,
+      "Name": "Hand Group",
+      "ToolTip": "Facilis sint.",
       "Deleted": true,
-      "Rank": 717,
-      "Type": "ullam",
-      "ColorBlock": 422,
-      "IconHint": "cupiditate",
-      "Selected": true,
-      "LastChanged": "2015-04-18T03:46:54.2851489+02:00",
+      "Rank": 733,
+      "Type": "reprehenderit",
+      "ColorBlock": 865,
+      "IconHint": "qui",
+      "Selected": false,
+      "LastChanged": "2022-05-13T02:30:46.7882228+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "error",
-      "StyleHint": "animi",
-      "Hidden": true,
-      "FullName": "Emerald Aufderhar",
+      "ExtraInfo": "dolorum",
+      "StyleHint": "voluptas",
+      "Hidden": false,
+      "FullName": "Mr. Mayra Brain Padberg",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 683
+          "FieldType": "System.Int32",
+          "FieldLength": 741
         }
       }
     }
   ],
   "GroupList": [
     {
-      "Id": 164,
-      "Name": "Stehr Group",
-      "ToolTip": "Explicabo vel laboriosam et dolores.",
-      "Deleted": true,
-      "Rank": 133,
-      "Type": "et",
-      "ColorBlock": 68,
-      "IconHint": "odio",
-      "Selected": true,
-      "LastChanged": "2009-05-23T03:46:54.2851489+02:00",
+      "Id": 394,
+      "Name": "Bode-Davis",
+      "ToolTip": "Provident voluptatem velit est aut.",
+      "Deleted": false,
+      "Rank": 802,
+      "Type": "temporibus",
+      "ColorBlock": 51,
+      "IconHint": "voluptas",
+      "Selected": false,
+      "LastChanged": "2007-05-03T02:30:46.7882228+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "maxime",
-      "StyleHint": "rem",
+      "ExtraInfo": "aliquid",
+      "StyleHint": "nihil",
       "Hidden": false,
-      "FullName": "Dr. Price Padberg I",
+      "FullName": "Ms. Lyric Francis Kutch",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 708
+          "FieldType": "System.Int32",
+          "FieldLength": 903
         }
       }
     }
   ],
   "FutureDateList": [
     {
-      "Id": 705,
-      "Name": "Harber-Trantow",
-      "ToolTip": "Sed dolorem laboriosam et repellat et.",
+      "Id": 737,
+      "Name": "O'Reilly-Cartwright",
+      "ToolTip": "Repellat temporibus pariatur amet ut placeat voluptates non.",
       "Deleted": false,
-      "Rank": 562,
+      "Rank": 10,
       "Type": "qui",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "rem",
-      "ColorBlock": 284,
-      "ExtraInfo": "qui",
-      "StyleHint": "consequatur",
-      "FullName": "Michelle Sawayn",
+      "IconHint": "dolor",
+      "ColorBlock": 113,
+      "ExtraInfo": "adipisci",
+      "StyleHint": "deserunt",
+      "FullName": "Miss Gwen Lily Powlowski",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 855
+          "FieldType": "System.Int32",
+          "FieldLength": 41
         }
       }
     }
@@ -173,8 +175,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 111
+      "FieldType": "System.String",
+      "FieldLength": 705
     }
   }
 }

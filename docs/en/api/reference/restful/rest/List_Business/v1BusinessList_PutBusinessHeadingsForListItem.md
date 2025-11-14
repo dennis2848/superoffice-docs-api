@@ -98,47 +98,47 @@ OK
 PUT /api/v1/List/Business/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 883,
-    "Name": "Wisoky Group",
-    "ToolTip": "Minus repellat.",
+    "Id": 24,
+    "Name": "Gulgowski, Marvin and Kozey",
+    "ToolTip": "Eum ad aliquam qui.",
     "Deleted": true,
-    "Rank": 1001,
-    "Type": "et",
-    "ColorBlock": 199,
-    "IconHint": "impedit",
+    "Rank": 273,
+    "Type": "eaque",
+    "ColorBlock": 151,
+    "IconHint": "sint",
     "Selected": true,
-    "LastChanged": "2011-05-03T03:47:00.5818006+02:00",
+    "LastChanged": "2014-10-01T02:30:53.2098926+02:00",
     "ChildItems": [
       {
-        "Id": 325,
-        "Name": "Bogisich, Vandervort and McGlynn",
-        "ToolTip": "Molestiae est placeat similique reprehenderit vel blanditiis eveniet.",
+        "Id": 828,
+        "Name": "Hackett Inc and Sons",
+        "ToolTip": "Eos officiis architecto unde vel.",
         "Deleted": false,
-        "Rank": 262,
-        "Type": "et",
-        "ColorBlock": 364,
-        "IconHint": "quae",
+        "Rank": 385,
+        "Type": "qui",
+        "ColorBlock": 527,
+        "IconHint": "impedit",
         "Selected": false,
-        "LastChanged": "2004-02-04T03:47:00.5818006+01:00",
+        "LastChanged": "2016-01-17T02:30:53.2098926+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quos",
-        "StyleHint": "error",
+        "ExtraInfo": "ipsum",
+        "StyleHint": "aliquam",
         "Hidden": false,
-        "FullName": "Dr. Brain Bahringer IV"
+        "FullName": "Eliane Eichmann"
       }
     ],
-    "ExtraInfo": "possimus",
-    "StyleHint": "et",
+    "ExtraInfo": "ut",
+    "StyleHint": "reiciendis",
     "Hidden": false,
-    "FullName": "Jayda Geovanny Runolfsdottir DDS"
+    "FullName": "Christina Edison Beer Jr."
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 812,
-    "Name": "Gorczany, Bergnaum and Bernier",
-    "ToolTip": "Iste similique dolor qui.",
-    "Deleted": true,
-    "Rank": 610,
-    "Type": "rerum",
-    "ColorBlock": 970,
-    "IconHint": "ratione",
-    "Selected": true,
-    "LastChanged": "2021-04-03T03:47:00.5818006+02:00",
+    "Id": 778,
+    "Name": "Green, Huel and Bernhard",
+    "ToolTip": "Non repudiandae quasi aut optio nostrum ipsam.",
+    "Deleted": false,
+    "Rank": 310,
+    "Type": "vero",
+    "ColorBlock": 762,
+    "IconHint": "doloremque",
+    "Selected": false,
+    "LastChanged": "2012-09-01T02:30:53.2098926+02:00",
     "ChildItems": [
       {
-        "Id": 506,
-        "Name": "Hermiston, Crist and Ferry",
-        "ToolTip": "Nostrum architecto dolor odit corrupti excepturi facere assumenda.",
-        "Deleted": true,
-        "Rank": 867,
-        "Type": "alias",
-        "ColorBlock": 948,
-        "IconHint": "eos",
+        "Id": 335,
+        "Name": "Prohaska Inc and Sons",
+        "ToolTip": "Architecto tenetur adipisci aut ipsum quis fuga consequatur.",
+        "Deleted": false,
+        "Rank": 533,
+        "Type": "sunt",
+        "ColorBlock": 475,
+        "IconHint": "voluptatem",
         "Selected": true,
-        "LastChanged": "2009-09-11T03:47:00.5818006+02:00",
+        "LastChanged": "2003-12-24T02:30:53.2098926+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eligendi",
-        "StyleHint": "quos",
+        "ExtraInfo": "dolorem",
+        "StyleHint": "aliquid",
         "Hidden": false,
-        "FullName": "Mr. Angelina Bauch",
+        "FullName": "Kristopher Hermiston",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 695
+            "FieldLength": 979
           }
         }
       }
     ],
-    "ExtraInfo": "sit",
-    "StyleHint": "sint",
+    "ExtraInfo": "consequatur",
+    "StyleHint": "laudantium",
     "Hidden": true,
-    "FullName": "Stanford Welch",
+    "FullName": "Heather Smith",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 757
+        "FieldType": "System.String",
+        "FieldLength": 278
       }
     }
   }

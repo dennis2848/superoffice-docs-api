@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/CreateDefaultCountry
 Gets a new country
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -83,7 +85,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultCountry
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -93,30 +95,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 930,
-  "Name": "Schaefer, Adams and Rolfson",
-  "CurrencyId": 796,
-  "EnglishName": "Lowe, Gusikowski and Fay",
+  "CountryId": 99,
+  "Name": "Hoeger, Bins and Marvin",
+  "CurrencyId": 336,
+  "EnglishName": "Mayert Group",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Decentralized methodical moderator",
-  "OrgNrText": "545533",
-  "InterAreaPrefix": "sed",
-  "DialInPrefix": "natus",
+  "ImageDescription": "Right-sized zero defect support",
+  "OrgNrText": "631935",
+  "InterAreaPrefix": "in",
+  "DialInPrefix": "cupiditate",
   "ZipPrefix": "ut",
-  "DomainName": "Schmidt, Schuppe and Quigley",
-  "AddressLayoutId": 369,
-  "DomesticAddressLayoutId": 70,
-  "ForeignAddressLayoutId": 292,
-  "Rank": 296,
-  "Tooltip": "eveniet",
-  "Deleted": false,
+  "DomainName": "Wolff-Walter",
+  "AddressLayoutId": 96,
+  "DomesticAddressLayoutId": 348,
+  "ForeignAddressLayoutId": 714,
+  "Rank": 819,
+  "Tooltip": "sit",
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 260
+      "FieldType": "System.String",
+      "FieldLength": 131
     }
   }
 }

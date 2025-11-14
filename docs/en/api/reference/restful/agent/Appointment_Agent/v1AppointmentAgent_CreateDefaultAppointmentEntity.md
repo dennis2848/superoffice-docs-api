@@ -14,6 +14,8 @@ POST /api/v1/Agents/Appointment/CreateDefaultAppointmentEntity
 Loading default values into a new AppointmentEntity.
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -115,7 +117,7 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultAppointmentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -129,121 +131,121 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2013-08-01T03:46:54.0351587+02:00",
-  "AppointmentId": 83,
-  "Description": "Inverse transitional model",
-  "Title": "nostrum",
-  "Agenda": "et",
-  "InternalNotes": "delectus",
-  "StartDate": "2019-05-08T03:46:54.0351587+02:00",
-  "EndDate": "2011-12-24T03:46:54.0351587+01:00",
+  "CreatedDate": "2022-06-25T02:30:46.5538551+02:00",
+  "AppointmentId": 618,
+  "Description": "Multi-tiered secondary benchmark",
+  "Title": "nihil",
+  "Agenda": "animi",
+  "InternalNotes": "commodi",
+  "StartDate": "2004-07-02T02:30:46.5538551+02:00",
+  "EndDate": "2021-04-17T02:30:46.5538551+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 500,
+  "MotherId": 90,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2012-06-18T03:46:54.0351587+02:00",
+  "UpdatedDate": "2003-06-07T02:30:46.5694798+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 686,
+  "ActiveLinks": 747,
   "Links": [
     {
-      "EntityName": "Baumbach, Brakus and Kuphal",
-      "Id": 50,
-      "Description": "Diverse real-time application",
-      "ExtraInfo": "minus",
-      "LinkId": 764,
+      "EntityName": "Wehner Inc and Sons",
+      "Id": 524,
+      "Description": "Realigned upward-trending pricing structure",
+      "ExtraInfo": "rerum",
+      "LinkId": 223,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 896
+          "FieldLength": 410
         }
       }
     }
   ],
-  "AlarmLeadTime": "quas",
+  "AlarmLeadTime": "id",
   "HasAlarm": false,
-  "ColorIndex": 282,
-  "IsFree": false,
+  "ColorIndex": 97,
+  "IsFree": true,
   "IsAlldayEvent": false,
-  "LagTime": "possimus",
-  "LeadTime": "qui",
-  "Location": "adipisci",
-  "RejectCounter": 118,
+  "LagTime": "nemo",
+  "LeadTime": "quae",
+  "Location": "omnis",
+  "RejectCounter": 729,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 91,
-      "PersonId": 615,
-      "ContactId": 391,
-      "EmailId": 318,
+      "AssociateId": 497,
+      "PersonId": 214,
+      "ContactId": 680,
+      "EmailId": 321,
       "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "rahul_nicolas@zieme.name",
-      "Description": "Configurable holistic product"
+      "EmailAddress": "axel@johnspfannerstill.co.uk",
+      "Description": "Ameliorated context-sensitive matrix"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2010-04-05T03:46:54.0351587+02:00",
+  "ActiveDate": "2025-05-28T02:30:46.5694798+02:00",
   "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 359,
+  "PreferredTZLocation": 701,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 652,
+  "SuggestedAppointmentId": 118,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "OwnedExternally": "Google",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "voluptates",
+  "CentralserviceVideomeetId": "sed",
   "UserDefinedFields": {
-    "SuperOffice:1": "301244631",
-    "SuperOffice:2": "1955108899"
+    "SuperOffice:1": "Wilber Kiehn",
+    "SuperOffice:2": "Ms. Enid Kshlerin DVM"
   },
   "ExtraFields": {
-    "ExtraFields1": "recusandae",
-    "ExtraFields2": "ab"
+    "ExtraFields1": "voluptate",
+    "ExtraFields2": "dolorem"
   },
   "CustomFields": {
-    "CustomFields1": "consequatur",
-    "CustomFields2": "culpa"
+    "CustomFields1": "in",
+    "CustomFields2": "est"
   },
-  "PublishEventDate": "2018-10-08T03:46:54.050783+02:00",
-  "PublishTo": "2021-12-31T03:46:54.050783+01:00",
-  "PublishFrom": "2015-09-25T03:46:54.050783+02:00",
+  "PublishEventDate": "2023-04-19T02:30:46.5694798+02:00",
+  "PublishTo": "2013-03-08T02:30:46.5694798+01:00",
+  "PublishFrom": "2007-01-11T02:30:46.5694798+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 1001,
+      "VisibleId": 131,
       "Visibility": "All",
-      "DisplayValue": "iste",
+      "DisplayValue": "tempora",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 972
+          "FieldType": "System.Int32",
+          "FieldLength": 171
         }
       }
     },
     {
-      "VisibleId": 1001,
+      "VisibleId": 131,
       "Visibility": "All",
-      "DisplayValue": "iste",
+      "DisplayValue": "tempora",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 972
+          "FieldType": "System.Int32",
+          "FieldLength": 171
         }
       }
     }
@@ -252,8 +254,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 118
+      "FieldType": "System.String",
+      "FieldLength": 631
     }
   }
 }

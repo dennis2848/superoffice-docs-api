@@ -14,6 +14,9 @@ POST /api/v1/Agents/EMail/GetEMailAccountFromEMailAddress
 Returns the email account corresponding to this email address (for the current associate).
 
 
+NsApiSlow threshold: 5000 ms.
+
+
 ## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
 
 
@@ -91,7 +94,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "FromAddress": "occaecati"
+  "FromAddress": "quia"
 }
 ```
 
@@ -102,24 +105,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EMailAccountId": 715,
+  "EMailAccountId": 417,
   "EMailAddress": "voluptas",
-  "AssociateId": 465,
+  "AssociateId": 704,
   "IncomingCredentials": null,
   "OutgoingCredentials": null,
-  "AccountStatus": 120,
-  "ErrorCount": 887,
+  "AccountStatus": 234,
+  "ErrorCount": 708,
   "ErrorReason": "",
-  "InboxFolder": "quasi",
-  "SentFolder": "repellendus",
-  "SimpleMode": 917,
-  "LastFetch": "2008-06-21T03:46:54.7538824+02:00",
+  "InboxFolder": "fuga",
+  "SentFolder": "est",
+  "SimpleMode": 596,
+  "LastFetch": "2006-12-05T02:30:47.2725845+01:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 505
+      "FieldLength": 393
     }
   }
 }

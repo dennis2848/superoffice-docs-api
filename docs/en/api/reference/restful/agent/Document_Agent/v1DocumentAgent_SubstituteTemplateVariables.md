@@ -14,6 +14,8 @@ POST /api/v1/Agents/Document/SubstituteTemplateVariables
 Parse the source string, and replace any template variable tags with their values, based on the ID's given in the other parameters.
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -82,15 +84,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Source": "placeat",
+  "Source": "vero",
   "GeneratorEncoding": "Html",
-  "ContactId": 216,
-  "PersonId": 602,
-  "AppointmentId": 13,
-  "DocumentId": 620,
-  "SaleId": 849,
-  "SelectionId": 695,
-  "ProjectId": 968,
+  "ContactId": 5,
+  "PersonId": 207,
+  "AppointmentId": 486,
+  "DocumentId": 356,
+  "SaleId": 696,
+  "SelectionId": 419,
+  "ProjectId": 727,
   "CultureName": "sv"
 }
 ```
@@ -101,5 +103,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"maiores"
+"optio"
 ```

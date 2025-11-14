@@ -42,11 +42,11 @@ I detta avsnitt kan du konfigurera inställningarna för Service så att de pass
 [6]: status/index.md
 [8]: system-templates.md
 [9]: type/index.md
-[10]: ../../admin/options/learn/custlang/index.md
-[11]: ../../admin/preferences/learn/global-preferences/system.md
-[12]: ../../admin/user-management/learn/role/index.md
-[13]: ../../admin/user-management/learn/index.md
-[14]: ../../admin/learn/configure-soap.md
+[10]: ../../localization/learn/customer-languages.md
+[11]: ../../admin/preferences/service-settings.md
+[12]: ../../admin/user-management/role/index.md
+[13]: ../../admin/user-management/index.md
+[14]: ../../admin/onsite/configure-soap.md
 [15]: ../../ui/blogic/learn/index.md
 [16]: ../../ui/blogic/learn/profiles/index.md
 

@@ -14,6 +14,8 @@ POST /api/v1/Agents/MDO/GetListWithRestriction
 Method to get a MDO list with restrictions.
 
 
+NsApiSlow threshold: 1700 ms.
+
 
 
 
@@ -87,13 +89,13 @@ OK
 POST /api/v1/Agents/MDO/GetListWithRestriction
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Schuppe LLC",
-  "AdditionalInfo": "alias",
-  "SearchValue": "accusamus"
+  "Name": "Wisoky-Schoen",
+  "AdditionalInfo": "dicta",
+  "SearchValue": "et"
 }
 ```
 
@@ -105,50 +107,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 402,
-    "Name": "Jakubowski, West and Stracke",
-    "ToolTip": "Id enim nihil officia quod quia quisquam.",
-    "Deleted": true,
-    "Rank": 630,
-    "Type": "earum",
+    "Id": 208,
+    "Name": "Stanton, Cole and Larkin",
+    "ToolTip": "Quis quo dolore non omnis.",
+    "Deleted": false,
+    "Rank": 272,
+    "Type": "qui",
     "ChildItems": [
       {
-        "Id": 409,
-        "Name": "Jacobs Inc and Sons",
-        "ToolTip": "Fuga omnis deleniti odit cum.",
+        "Id": 160,
+        "Name": "Morissette LLC",
+        "ToolTip": "Laborum omnis consequatur labore cupiditate autem eos ut.",
         "Deleted": false,
-        "Rank": 754,
-        "Type": "impedit",
+        "Rank": 365,
+        "Type": "ut",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "qui",
-        "ColorBlock": 695,
-        "ExtraInfo": "voluptates",
-        "StyleHint": "et",
-        "FullName": "Lazaro O'Reilly",
+        "IconHint": "at",
+        "ColorBlock": 938,
+        "ExtraInfo": "sit",
+        "StyleHint": "molestiae",
+        "FullName": "Dr. Mossie Randall Morar MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 284
+            "FieldLength": 358
           }
         }
       }
     ],
-    "IconHint": "quibusdam",
-    "ColorBlock": 908,
-    "ExtraInfo": "velit",
-    "StyleHint": "quia",
-    "FullName": "Lauren Huel",
+    "IconHint": "aliquid",
+    "ColorBlock": 631,
+    "ExtraInfo": "molestiae",
+    "StyleHint": "facilis",
+    "FullName": "Laury Schiller",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 976
+        "FieldType": "System.Int32",
+        "FieldLength": 483
       }
     }
   }

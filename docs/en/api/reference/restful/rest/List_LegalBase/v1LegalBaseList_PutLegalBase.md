@@ -85,12 +85,12 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 161,
-  "Name": "Muller Group",
-  "Tooltip": "modi",
-  "Rank": 401,
-  "Key": "possimus",
-  "Deleted": true
+  "LegalBaseId": 160,
+  "Name": "Beier-Ebert",
+  "Tooltip": "accusamus",
+  "Rank": 22,
+  "Key": "beatae",
+  "Deleted": false
 }
 ```
 
@@ -101,18 +101,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 777,
-  "Name": "Reichel Group",
-  "Tooltip": "possimus",
-  "Rank": 243,
-  "Key": "non",
+  "LegalBaseId": 865,
+  "Name": "Cormier, Emmerich and Wuckert",
+  "Tooltip": "dolores",
+  "Rank": 630,
+  "Key": "porro",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 666
+      "FieldLength": 863
     }
   }
 }

@@ -14,6 +14,8 @@ POST /api/v1/Agents/Favourite/AddFavourites
 Add a list of record ids as favourites for an associate
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -68,17 +70,17 @@ No Content
 POST /api/v1/Agents/Favourite/AddFavourites
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Nienow, Boyer and Torp",
+  "TableName": "Goyette-Botsford",
   "RecordIds": [
-    413,
-    824
+    330,
+    188
   ],
-  "AssociateId": 448,
-  "ExtraInfo": "dolorem"
+  "AssociateId": 814,
+  "ExtraInfo": "numquam"
 }
 ```
 

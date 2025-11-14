@@ -11,7 +11,7 @@ content_type: reference
 POST /api/v1/Agents/Project/OfferAutoNextStatusOnApppointmentCompleted
 ```
 
-
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -69,11 +69,11 @@ OK
 POST /api/v1/Agents/Project/OfferAutoNextStatusOnApppointmentCompleted
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 799
+  "AppointmentId": 699
 }
 ```
 

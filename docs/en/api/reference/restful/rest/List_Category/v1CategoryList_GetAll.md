@@ -71,7 +71,7 @@ OK
 GET /api/v1/List/Category/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -82,18 +82,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 539,
-    "Name": "Hegmann Group",
-    "Tooltip": "qui",
+    "Id": 157,
+    "Name": "Hammes Group",
+    "Tooltip": "est",
     "Deleted": false,
-    "UdListDefinitionId": 21,
-    "Rank": 790,
+    "UdListDefinitionId": 296,
+    "Rank": 554,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 251
+        "FieldType": "System.Int32",
+        "FieldLength": 245
       }
     }
   }

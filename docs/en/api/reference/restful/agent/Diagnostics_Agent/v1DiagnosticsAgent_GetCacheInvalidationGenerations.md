@@ -14,6 +14,8 @@ POST /api/v1/Agents/Diagnostics/GetCacheInvalidationGenerations
 Get generation for provided names
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -73,13 +75,13 @@ OK
 POST /api/v1/Agents/Diagnostics/GetCacheInvalidationGenerations
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Names": [
-    "Rice LLC",
-    "Fritsch, Littel and Fadel"
+    "Lebsack-Ankunding",
+    "Hyatt-Reichert"
   ]
 }
 ```
@@ -92,12 +94,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Osinski, Orn and Nienow",
-    "Generation": 429
+    "Name": "Brown, Hegmann and Koepp",
+    "Generation": 7
   },
   {
-    "Name": "Osinski, Orn and Nienow",
-    "Generation": 429
+    "Name": "Brown, Hegmann and Koepp",
+    "Generation": 7
   }
 ]
 ```

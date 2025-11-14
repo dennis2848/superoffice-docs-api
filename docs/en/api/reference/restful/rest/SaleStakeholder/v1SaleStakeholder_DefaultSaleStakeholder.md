@@ -15,6 +15,7 @@ Set default values into a new SaleStakeholder.
 
 
 NetServer calculates default values on the entity, which is required when creating/storing a new instance Calls the Sale agent service CreateDefaultSaleStakeholder.
+NsApiSlow threshold: 1000 ms.
 
 
 
@@ -76,7 +77,7 @@ OK
 GET /api/v1/SaleStakeholder/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,31 +87,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Lemke LLC",
-  "Comment": "ab",
-  "StakeholderRoleId": 685,
-  "CountryId": 603,
-  "PersonId": 912,
-  "EmailDescription": "sterling_zboncak@langlind.biz",
-  "EmailId": 700,
-  "EmailAddress": "connor.carter@ankunding.biz",
-  "PhoneId": 899,
-  "ContactName": "Brekke-Jerde",
-  "ContactId": 3,
-  "SaleId": 415,
-  "Mrmrs": "optio",
-  "Firstname": "Ines",
-  "MiddleName": "Sipes Inc and Sons",
-  "Lastname": "Predovic",
-  "SaleStakeholderId": 970,
-  "Rank": 593,
-  "Phone": "(775)785-4224 x2030",
+  "StakeholderRoleName": "Hilll, Gutkowski and Kub",
+  "Comment": "quod",
+  "StakeholderRoleId": 212,
+  "CountryId": 745,
+  "PersonId": 653,
+  "EmailDescription": "shirley.ernser@oreilly.name",
+  "EmailId": 869,
+  "EmailAddress": "mia_cartwright@friesenjaskolski.us",
+  "PhoneId": 970,
+  "ContactName": "Padberg-Zulauf",
+  "ContactId": 692,
+  "SaleId": 760,
+  "Mrmrs": "blanditiis",
+  "Firstname": "Winifred",
+  "MiddleName": "Hane, Daniel and Swift",
+  "Lastname": "Bashirian",
+  "SaleStakeholderId": 619,
+  "Rank": 1000,
+  "Phone": "1-490-759-9047",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 211
+      "FieldLength": 628
     }
   }
 }

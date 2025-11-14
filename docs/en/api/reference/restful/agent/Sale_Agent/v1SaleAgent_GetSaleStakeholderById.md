@@ -11,7 +11,7 @@ content_type: reference
 POST /api/v1/Agents/Sale/GetSaleStakeholderById
 ```
 
-
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -92,13 +92,13 @@ OK
 POST /api/v1/Agents/Sale/GetSaleStakeholderById
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "SaleStakeholderIds": [
-    353,
-    612
+    268,
+    220
   ]
 }
 ```
@@ -111,31 +111,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "StakeholderRoleName": "Morissette-Ruecker",
-    "Comment": "qui",
-    "StakeholderRoleId": 697,
-    "CountryId": 81,
-    "PersonId": 286,
-    "EmailDescription": "alaina_will@schmitt.info",
-    "EmailId": 862,
-    "EmailAddress": "camryn@runtewolf.uk",
-    "PhoneId": 302,
-    "ContactName": "Zulauf, Hackett and Romaguera",
-    "ContactId": 352,
-    "SaleId": 595,
-    "Mrmrs": "aut",
-    "Firstname": "Oda",
-    "MiddleName": "Gutkowski Group",
-    "Lastname": "Thiel",
-    "SaleStakeholderId": 816,
-    "Rank": 102,
-    "Phone": "1-553-482-8464",
+    "StakeholderRoleName": "Upton-Klein",
+    "Comment": "sunt",
+    "StakeholderRoleId": 137,
+    "CountryId": 326,
+    "PersonId": 856,
+    "EmailDescription": "zelma.monahan@champlin.uk",
+    "EmailId": 718,
+    "EmailAddress": "nayeli@kshlerinvandervort.co.uk",
+    "PhoneId": 853,
+    "ContactName": "Ondricka, McGlynn and Schroeder",
+    "ContactId": 835,
+    "SaleId": 40,
+    "Mrmrs": "officiis",
+    "Firstname": "Josephine",
+    "MiddleName": "Waelchi, Ernser and Farrell",
+    "Lastname": "Sipes",
+    "SaleStakeholderId": 943,
+    "Rank": 284,
+    "Phone": "815.079.5147 x8501",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 447
+        "FieldLength": 226
       }
     }
   }

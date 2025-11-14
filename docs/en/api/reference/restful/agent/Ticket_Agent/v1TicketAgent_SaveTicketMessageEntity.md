@@ -15,6 +15,7 @@ Updates the existing TicketMessageEntity or creates a new TicketMessageEntity if
 
 
 Does not notify users of save.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -116,67 +117,67 @@ OK
 POST /api/v1/Agents/Ticket/SaveTicketMessageEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 601,
+  "EjMessageId": 326,
   "Ticket": null,
-  "CreatedAt": "2003-04-02T03:46:55.5351045+02:00",
+  "CreatedAt": "2019-01-20T02:30:47.9913108+01:00",
   "CreatedBy": null,
-  "Author": "illo",
+  "Author": "possimus",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "voluptate",
-  "TimeSpent": 586,
-  "Body": "voluptatem",
-  "HtmlBody": "eum",
-  "EmailHeader": "chadrick.collier@miller.us",
-  "DebugInfo": "qui",
-  "MailSorter": "dolores",
+  "MessageId": "vel",
+  "TimeSpent": 449,
+  "Body": "consequatur",
+  "HtmlBody": "odit",
+  "EmailHeader": "breanne.hahn@boyer.uk",
+  "DebugInfo": "iure",
+  "MailSorter": "ab",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "aliquid",
+  "SearchTitle": "et",
   "MessageHeaders": [
     {
-      "Id": 515,
-      "Name": "Deckow, Abshire and Walsh",
-      "Value": "laborum",
+      "Id": 502,
+      "Name": "Marvin-Batz",
+      "Value": "possimus",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     },
     {
-      "Id": 515,
-      "Name": "Deckow, Abshire and Walsh",
-      "Value": "laborum",
+      "Id": 502,
+      "Name": "Marvin-Batz",
+      "Value": "possimus",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     }
   ],
-  "Important": true,
-  "Language": "ea",
-  "Sentiment": 688,
-  "SentimentConfidence": 39,
+  "Important": false,
+  "Language": "doloremque",
+  "Sentiment": 319,
+  "SentimentConfidence": 332,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 860,
-      "Name": "Kris Group",
-      "ContentType": "impedit",
-      "AttSize": 999,
-      "InlineImage": false,
-      "ContentId": "deleniti",
-      "AuthKey": "aliquam",
-      "IsSafeFileExtension": true
+      "AttachmentId": 530,
+      "Name": "Steuber Inc and Sons",
+      "ContentType": "sapiente",
+      "AttSize": 175,
+      "InlineImage": true,
+      "ContentId": "voluptatem",
+      "AuthKey": "in",
+      "IsSafeFileExtension": false
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "et",
-    "ExtraFields2": "voluptates"
+    "ExtraFields1": "consequuntur",
+    "ExtraFields2": "ex"
   },
   "CustomFields": {
-    "CustomFields1": "excepturi",
-    "CustomFields2": "adipisci"
+    "CustomFields1": "ea",
+    "CustomFields2": "amet"
   }
 }
 ```
@@ -188,79 +189,79 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 531,
+  "EjMessageId": 203,
   "Ticket": null,
-  "CreatedAt": "2023-06-30T03:46:55.5351045+02:00",
+  "CreatedAt": "1999-08-15T02:30:47.9913108+02:00",
   "CreatedBy": null,
-  "Author": "rem",
+  "Author": "in",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "itaque",
-  "TimeSpent": 432,
-  "Body": "ut",
-  "HtmlBody": "sit",
-  "EmailHeader": "dawn@hammes.co.uk",
-  "DebugInfo": "tempore",
-  "MailSorter": "fuga",
+  "MessageId": "perferendis",
+  "TimeSpent": 619,
+  "Body": "nobis",
+  "HtmlBody": "recusandae",
+  "EmailHeader": "rick.halvorson@okeefelemke.com",
+  "DebugInfo": "quaerat",
+  "MailSorter": "et",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "eaque",
+  "SearchTitle": "ipsum",
   "MessageHeaders": [
     {
-      "Id": 834,
-      "Name": "Hauck-Hamill",
-      "Value": "nihil",
+      "Id": 806,
+      "Name": "Stracke-Borer",
+      "Value": "sit",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 981
+          "FieldType": "System.String",
+          "FieldLength": 116
         }
       }
     }
   ],
   "Important": false,
-  "Language": "dignissimos",
-  "Sentiment": 486,
-  "SentimentConfidence": 894,
+  "Language": "quam",
+  "Sentiment": 662,
+  "SentimentConfidence": 20,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 861,
-      "Name": "Hoeger Group",
-      "ContentType": "nisi",
-      "AttSize": 186,
+      "AttachmentId": 212,
+      "Name": "Rath LLC",
+      "ContentType": "ut",
+      "AttSize": 587,
       "InlineImage": false,
-      "ContentId": "omnis",
-      "AuthKey": "aut",
-      "IsSafeFileExtension": false,
+      "ContentId": "ex",
+      "AuthKey": "iste",
+      "IsSafeFileExtension": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 989
+          "FieldType": "System.String",
+          "FieldLength": 779
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "non",
-    "ExtraFields2": "eos"
+    "ExtraFields1": "soluta",
+    "ExtraFields2": "voluptas"
   },
   "CustomFields": {
-    "CustomFields1": "possimus",
-    "CustomFields2": "sit"
+    "CustomFields1": "consequuntur",
+    "CustomFields2": "nostrum"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 961
+      "FieldLength": 492
     }
   }
 }

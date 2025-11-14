@@ -88,7 +88,7 @@ OK
 POST /api/v1/ChatSession/Pickup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -98,43 +98,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 145,
-  "TopicId": 359,
+  "ChatSessionId": 134,
+  "TopicId": 470,
   "User": null,
   "Person": null,
-  "CustomerAlias": "dolore",
-  "CustomerHost": "hic",
-  "CustomerName": "Mante, Ebert and Haley",
-  "CustomerEmail": "franco.muller@boyer.biz",
-  "CustomerPhone": "(477)388-8459 x463",
-  "CustomerConsented": false,
-  "CustomerCompanyName": "Cormier Group",
+  "CustomerAlias": "unde",
+  "CustomerHost": "tempora",
+  "CustomerName": "Sipes, Mayert and Dibbert",
+  "CustomerEmail": "marcos.fahey@stokesborer.us",
+  "CustomerPhone": "(340)913-6834 x705",
+  "CustomerConsented": true,
+  "CustomerCompanyName": "Mitchell-Kunze",
   "Status": "Closed",
-  "FirstMessage": "et",
-  "LastMessage": "sit",
-  "WhenRequested": "2024-01-08T03:46:59.7849459+01:00",
-  "WhenStarted": "2015-03-27T03:46:59.7849459+01:00",
-  "WhenEnded": "2017-06-28T03:46:59.7849459+02:00",
-  "WhenIdle": "2004-08-24T03:46:59.7849459+02:00",
-  "WhenFetched": "2011-12-23T03:46:59.7849459+01:00",
-  "SessionKey": "incidunt",
-  "InitialQueuePos": 949,
-  "AlertLevel": 496,
-  "Rank": 204,
+  "FirstMessage": "quaerat",
+  "LastMessage": "cupiditate",
+  "WhenRequested": "2017-01-30T02:30:52.413044+01:00",
+  "WhenStarted": "1999-12-04T02:30:52.413044+01:00",
+  "WhenEnded": "2007-08-26T02:30:52.413044+02:00",
+  "WhenIdle": "2015-07-05T02:30:52.413044+02:00",
+  "WhenFetched": "2001-07-05T02:30:52.413044+02:00",
+  "SessionKey": "qui",
+  "InitialQueuePos": 446,
+  "AlertLevel": 195,
+  "Rank": 36,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": true,
-  "Rating": 958,
+  "ChatbotIsActive": false,
+  "Rating": 584,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 537
+      "FieldType": "System.Int32",
+      "FieldLength": 515
     }
   }
 }

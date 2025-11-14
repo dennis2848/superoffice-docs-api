@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/SaveResourceEntity
 Updates the existing ResourceEntity or creates a new ResourceEntity if the id parameter is 0.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -76,17 +78,17 @@ OK
 POST /api/v1/Agents/List/SaveResourceEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ResourceId": 672,
-  "Name": "Ortiz, Wisozk and Wiza",
-  "Rank": 577,
-  "Tooltip": "quod",
+  "ResourceId": 823,
+  "Name": "Kuhlman-Pagac",
+  "Rank": 935,
+  "Tooltip": "officia",
   "Deleted": true,
   "IsLocation": false,
-  "LocationAddress": "reiciendis"
+  "LocationAddress": "ut"
 }
 ```
 
@@ -97,19 +99,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ResourceId": 735,
-  "Name": "Goyette Inc and Sons",
-  "Rank": 33,
-  "Tooltip": "at",
+  "ResourceId": 471,
+  "Name": "Ritchie LLC",
+  "Rank": 349,
+  "Tooltip": "et",
   "Deleted": false,
   "IsLocation": false,
-  "LocationAddress": "voluptate",
+  "LocationAddress": "neque",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 286
+      "FieldType": "System.String",
+      "FieldLength": 413
     }
   }
 }

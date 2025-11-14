@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/SaveTicketTypeEntity
 Updates the existing TicketTypeEntity or creates a new TicketTypeEntity if the id parameter is 0.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -104,34 +106,34 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 336,
-  "Name": "Mante, Huels and Murphy",
-  "Rank": 470,
-  "Tooltip": "ipsa",
-  "Icon": "quibusdam",
-  "DefaultTicketStatus": 97,
+  "TicketTypeId": 184,
+  "Name": "Kiehn Inc and Sons",
+  "Rank": 167,
+  "Tooltip": "occaecati",
+  "Icon": "rerum",
+  "DefaultTicketStatus": 695,
   "TicketStatuses": [
-    581,
-    56
+    919,
+    830
   ],
-  "DefaultTicketPriority": 480,
+  "DefaultTicketPriority": 845,
   "TicketPriorities": [
-    471,
-    248
+    877,
+    334
   ],
-  "ReplyTemplate": 900,
-  "IsExternalVisible": false,
-  "IsDefault": false,
-  "ShowInNew": true,
-  "ExcludeSignature": false,
-  "ExcludeEmailRecipients": true,
+  "ReplyTemplate": 264,
+  "IsExternalVisible": true,
+  "IsDefault": true,
+  "ShowInNew": false,
+  "ExcludeSignature": true,
+  "ExcludeEmailRecipients": false,
   "ExternalAsDefault": false,
   "VisibleForGroups": [
-    951,
-    487
+    357,
+    349
   ],
   "ReplyForwardNoSignature": false,
-  "ReplyExternalAsDefault": true
+  "ReplyExternalAsDefault": false
 }
 ```
 
@@ -142,40 +144,40 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 607,
-  "Name": "Jacobs-Huels",
-  "Rank": 251,
-  "Tooltip": "et",
-  "Icon": "deserunt",
-  "DefaultTicketStatus": 172,
+  "TicketTypeId": 243,
+  "Name": "Haley-Boyer",
+  "Rank": 224,
+  "Tooltip": "voluptatem",
+  "Icon": "et",
+  "DefaultTicketStatus": 566,
   "TicketStatuses": [
-    385,
-    551
+    334,
+    73
   ],
-  "DefaultTicketPriority": 618,
+  "DefaultTicketPriority": 579,
   "TicketPriorities": [
-    222,
-    243
+    551,
+    796
   ],
-  "ReplyTemplate": 777,
+  "ReplyTemplate": 41,
   "IsExternalVisible": false,
   "IsDefault": false,
   "ShowInNew": false,
   "ExcludeSignature": false,
-  "ExcludeEmailRecipients": false,
-  "ExternalAsDefault": true,
+  "ExcludeEmailRecipients": true,
+  "ExternalAsDefault": false,
   "VisibleForGroups": [
-    783,
-    143
+    672,
+    240
   ],
-  "ReplyForwardNoSignature": true,
+  "ReplyForwardNoSignature": false,
   "ReplyExternalAsDefault": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 888
+      "FieldLength": 580
     }
   }
 }

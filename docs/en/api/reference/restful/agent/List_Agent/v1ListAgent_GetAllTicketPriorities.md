@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/GetAllTicketPriorities
 Returns all available ticket priorities.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -101,7 +103,7 @@ OK
 POST /api/v1/Agents/List/GetAllTicketPriorities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -117,60 +119,60 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketPriorityId": 735,
-    "Name": "Padberg, O'Conner and Bosco",
+    "TicketPriorityId": 840,
+    "Name": "Schoen LLC",
     "Status": "Deleted",
     "Flags": "AlertSchedule",
-    "SortOrder": 843,
+    "SortOrder": 983,
     "TicketRead": "Continue",
     "ChangedOwner": "Continue",
     "TicketNewinfo": "Continue",
     "TicketClosed": "Continue",
     "TicketChangedPriority": "Continue",
     "TicketNew": "Continue",
-    "Deadline": 286,
-    "MonStart": "2022-07-29T03:46:54.9257675+02:00",
-    "MonStop": "2000-09-05T03:46:54.9257675+02:00",
-    "TueStart": "2005-04-21T03:46:54.9257675+02:00",
-    "TueStop": "2013-12-27T03:46:54.9257675+01:00",
-    "WedStart": "2017-05-01T03:46:54.9257675+02:00",
-    "WedStop": "2006-11-07T03:46:54.9257675+01:00",
-    "ThuStart": "2002-12-26T03:46:54.9257675+01:00",
-    "ThuStop": "1999-05-17T03:46:54.9257675+02:00",
-    "FriStart": "1998-08-27T03:46:54.9257675+02:00",
-    "FriStop": "2006-12-17T03:46:54.9257675+01:00",
-    "SatStart": "2013-03-31T03:46:54.9257675+02:00",
-    "SatStop": "2023-10-11T03:46:54.9257675+02:00",
-    "SunStart": "2002-07-20T03:46:54.9257675+02:00",
-    "SunStop": "2009-01-24T03:46:54.9257675+01:00",
+    "Deadline": 635,
+    "MonStart": "2006-02-20T02:30:47.3819557+01:00",
+    "MonStop": "2019-04-03T02:30:47.3819557+02:00",
+    "TueStart": "2011-01-12T02:30:47.3819557+01:00",
+    "TueStop": "2009-03-25T02:30:47.3819557+01:00",
+    "WedStart": "2016-10-16T02:30:47.3819557+02:00",
+    "WedStop": "2008-06-17T02:30:47.3819557+02:00",
+    "ThuStart": "2002-03-07T02:30:47.3819557+01:00",
+    "ThuStop": "2013-10-25T02:30:47.3819557+02:00",
+    "FriStart": "2004-05-16T02:30:47.3819557+02:00",
+    "FriStop": "2024-07-22T02:30:47.3819557+02:00",
+    "SatStart": "2024-12-28T02:30:47.3819557+01:00",
+    "SatStop": "2011-12-19T02:30:47.3819557+01:00",
+    "SunStart": "2003-06-28T02:30:47.3819557+02:00",
+    "SunStop": "2018-01-02T02:30:47.3819557+01:00",
     "NonDates": [
-      "eum",
-      "nemo"
+      "qui",
+      "sunt"
     ],
     "EscalationLevels": [
       {
-        "TicketAlertId": 788,
-        "AlertLevel": 264,
-        "AlertTimeout": 578,
-        "Action": 870,
-        "DelegateTo": 332,
-        "ScriptId": 261,
-        "EmailTo": "ottis_senger@buckridge.uk",
-        "SmsTo": "ipsam",
-        "ReplyTemplateIdCustomer": 847,
-        "ReplyTemplateIdUser": 949,
-        "ReplyTemplateIdCatmast": 761,
-        "ReplyTemplateIdEmail": 38,
-        "RtiCustomerSms": 903,
-        "ReplyTemplateIdUserSms": 600,
-        "ReplyTemplateIdCatmastSms": 758,
-        "ReplyTemplateIdSms": 434,
+        "TicketAlertId": 862,
+        "AlertLevel": 312,
+        "AlertTimeout": 237,
+        "Action": 354,
+        "DelegateTo": 366,
+        "ScriptId": 211,
+        "EmailTo": "jeffrey.hoeger@goyettelind.com",
+        "SmsTo": "quidem",
+        "ReplyTemplateIdCustomer": 714,
+        "ReplyTemplateIdUser": 978,
+        "ReplyTemplateIdCatmast": 407,
+        "ReplyTemplateIdEmail": 534,
+        "RtiCustomerSms": 763,
+        "ReplyTemplateIdUserSms": 645,
+        "ReplyTemplateIdCatmastSms": 650,
+        "ReplyTemplateIdSms": 15,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 351
+            "FieldLength": 348
           }
         }
       }
@@ -180,7 +182,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 309
+        "FieldLength": 440
       }
     }
   }

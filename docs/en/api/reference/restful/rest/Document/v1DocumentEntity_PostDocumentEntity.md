@@ -15,6 +15,7 @@ Creates a new DocumentEntity Save the document entity.
 
 
 If the entity already exists and the file name of the incoming entity is different from the existing one, a corresponding renaming of the physical document will be attempted. This may cause an amended file name to be substituted into the document entity, since a document plugin may have aribitrary rules on file names and collisions. Clients should always inspect the return value from this call and not assume that what they sent for saving is the final truth. Calls the Document agent service SaveDocumentEntity.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -147,73 +148,73 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 349,
+  "DocumentId": 313,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "veniam",
-  "Header": "sint",
-  "Name": "Huels-Von",
-  "OurRef": "et",
-  "YourRef": "sit",
-  "CreatedDate": "2009-09-10T03:46:59.9099453+02:00",
-  "UpdatedDate": "2021-12-30T03:46:59.9099453+01:00",
-  "Description": "Fundamental local circuit",
+  "Attention": "sed",
+  "Header": "repellendus",
+  "Name": "Pouros, Nicolas and Schmeler",
+  "OurRef": "consectetur",
+  "YourRef": "et",
+  "CreatedDate": "2025-06-10T02:30:52.5380403+02:00",
+  "UpdatedDate": "2021-05-07T02:30:52.5380403+02:00",
+  "Description": "Enterprise-wide grid-enabled ability",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2007-03-19T03:46:59.9099453+01:00",
-  "ExternalRef": "et",
+  "Date": "2014-04-18T02:30:52.5380403+02:00",
+  "ExternalRef": "expedita",
   "Completed": "Completed",
-  "ActiveLinks": 357,
+  "ActiveLinks": 556,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Stracke Group",
-      "Id": 575,
-      "Description": "Managed executive utilisation",
-      "ExtraInfo": "harum",
-      "LinkId": 927
+      "EntityName": "Casper Inc and Sons",
+      "Id": 305,
+      "Description": "Operative 5th generation Graphical User Interface",
+      "ExtraInfo": "quasi",
+      "LinkId": 491
     },
     {
-      "EntityName": "Stracke Group",
-      "Id": 575,
-      "Description": "Managed executive utilisation",
-      "ExtraInfo": "harum",
-      "LinkId": 927
+      "EntityName": "Casper Inc and Sons",
+      "Id": 305,
+      "Description": "Operative 5th generation Graphical User Interface",
+      "ExtraInfo": "quasi",
+      "LinkId": 491
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 953,
-  "Snum": 867,
+  "SuggestedDocumentId": 91,
+  "Snum": 14,
   "UserDefinedFields": {
-    "SuperOffice:1": "Elsa Vandervort",
-    "SuperOffice:2": "False"
+    "SuperOffice:1": "Penelope Senger",
+    "SuperOffice:2": "Mrs. Lavonne Schimmel"
   },
   "ExtraFields": {
-    "ExtraFields1": "pariatur",
-    "ExtraFields2": "architecto"
+    "ExtraFields1": "amet",
+    "ExtraFields2": "aperiam"
   },
   "CustomFields": {
-    "CustomFields1": "doloremque",
-    "CustomFields2": "aperiam"
+    "CustomFields1": "voluptatibus",
+    "CustomFields2": "recusandae"
   },
-  "PublishEventDate": "2001-11-13T03:46:59.9099453+01:00",
-  "PublishTo": "2023-11-16T03:46:59.9099453+01:00",
-  "PublishFrom": "2021-07-11T03:46:59.9099453+02:00",
+  "PublishEventDate": "2019-06-12T02:30:52.5380403+02:00",
+  "PublishTo": "2012-07-31T02:30:52.5380403+02:00",
+  "PublishFrom": "2006-03-07T02:30:52.5380403+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 443,
+      "VisibleId": 939,
       "Visibility": "All",
-      "DisplayValue": "aliquid"
+      "DisplayValue": "nobis"
     },
     {
-      "VisibleId": 443,
+      "VisibleId": 939,
       "Visibility": "All",
-      "DisplayValue": "aliquid"
+      "DisplayValue": "nobis"
     }
   ]
 }
@@ -226,88 +227,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 865,
+  "DocumentId": 926,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "atque",
-  "Header": "dolores",
-  "Name": "Bartell, Veum and Will",
-  "OurRef": "eos",
-  "YourRef": "et",
-  "CreatedDate": "2018-09-26T03:46:59.9724437+02:00",
-  "UpdatedDate": "2014-03-16T03:46:59.9724437+01:00",
-  "Description": "Quality-focused needs-based monitoring",
+  "Attention": "quisquam",
+  "Header": "reiciendis",
+  "Name": "Hessel, Johnston and Daugherty",
+  "OurRef": "facilis",
+  "YourRef": "impedit",
+  "CreatedDate": "2015-04-15T02:30:52.5380403+02:00",
+  "UpdatedDate": "2017-07-06T02:30:52.5380403+02:00",
+  "Description": "Realigned explicit solution",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2011-10-08T03:46:59.9724437+02:00",
-  "ExternalRef": "atque",
+  "Date": "2016-03-08T02:30:52.5536645+01:00",
+  "ExternalRef": "dolore",
   "Completed": "Completed",
-  "ActiveLinks": 952,
+  "ActiveLinks": 888,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Rempel, Becker and Sporer",
-      "Id": 713,
-      "Description": "Proactive human-resource database",
-      "ExtraInfo": "quia",
-      "LinkId": 767,
+      "EntityName": "Lindgren Group",
+      "Id": 509,
+      "Description": "Extended mission-critical hierarchy",
+      "ExtraInfo": "qui",
+      "LinkId": 297,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 680
+          "FieldLength": 662
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 238,
-  "Snum": 588,
+  "SuggestedDocumentId": 22,
+  "Snum": 776,
   "UserDefinedFields": {
-    "SuperOffice:1": "Moriah Greenholt",
-    "SuperOffice:2": "Kaitlyn Hirthe"
+    "SuperOffice:1": "Miss Joe Stewart Brown III",
+    "SuperOffice:2": "Noble Will"
   },
   "ExtraFields": {
-    "ExtraFields1": "doloribus",
-    "ExtraFields2": "dolorem"
+    "ExtraFields1": "aut",
+    "ExtraFields2": "qui"
   },
   "CustomFields": {
-    "CustomFields1": "soluta",
-    "CustomFields2": "ipsa"
+    "CustomFields1": "sed",
+    "CustomFields2": "iusto"
   },
-  "PublishEventDate": "2000-06-28T03:46:59.9724437+02:00",
-  "PublishTo": "2017-01-09T03:46:59.9724437+01:00",
-  "PublishFrom": "2012-06-02T03:46:59.9724437+02:00",
+  "PublishEventDate": "2021-11-02T02:30:52.5693012+01:00",
+  "PublishTo": "2022-07-11T02:30:52.5693012+02:00",
+  "PublishFrom": "2000-11-04T02:30:52.5693012+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 23,
+      "VisibleId": 960,
       "Visibility": "All",
-      "DisplayValue": "quasi",
+      "DisplayValue": "unde",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 183
+          "FieldType": "System.String",
+          "FieldLength": 702
         }
       }
     },
     {
-      "VisibleId": 23,
+      "VisibleId": 960,
       "Visibility": "All",
-      "DisplayValue": "quasi",
+      "DisplayValue": "unde",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 183
+          "FieldType": "System.String",
+          "FieldLength": 702
         }
       }
     }
@@ -317,12 +318,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 139
+      "FieldLength": 93
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

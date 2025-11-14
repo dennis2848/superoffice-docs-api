@@ -15,6 +15,7 @@ Gets a ProjectMember object.
 
 
 Calls the Project agent service GetProjectMember.
+NsApiSlow threshold: 2000 ms.
 
 
 
@@ -84,6 +85,8 @@ ProjectMember found.
 | EmailAddressName | string | The e-mail address description |
 | Comment | string | Comment text on the project membership |
 | FullName | string | The person's full name localized to the current culture/country.  (internal name used in clients for employees) |
+| Registered | date-time | The date and time when the project member was registered  in UTC. |
+| Updated | date-time | The date and time when the project member was last updated  in UTC. |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 | _Links | object |  |
@@ -104,38 +107,40 @@ HTTP/1.1 200 ProjectMember found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectmemberId": 607,
-  "ContactId": 915,
-  "ProjectId": 734,
-  "ContactName": "Howell LLC",
+  "ProjectmemberId": 664,
+  "ContactId": 23,
+  "ProjectId": 186,
+  "ContactName": "Cole LLC",
   "ContactDepartment": "",
-  "ProjectName": "Brown Inc and Sons",
-  "EmailId": 318,
-  "EmailAddress": "remington_heathcote@hessel.info",
-  "CountryId": 812,
-  "Firstname": "Nella",
-  "MiddleName": "Lockman, Fay and Stokes",
-  "Lastname": "McGlynn",
-  "PersonId": 959,
-  "Mrmrs": "mollitia",
-  "ProjectMemberTypeName": "Green-Spencer",
-  "Phone": "(192)112-4007",
-  "PhoneId": 432,
-  "ProjectMemberTypeId": 236,
-  "EmailAddressName": "beth@grahamschimmel.com",
-  "Comment": "qui",
-  "FullName": "Madilyn Wolff",
+  "ProjectName": "Bauch, Bailey and Koepp",
+  "EmailId": 230,
+  "EmailAddress": "tara.bayer@howelljacobs.co.uk",
+  "CountryId": 386,
+  "Firstname": "Paris",
+  "MiddleName": "Koch Inc and Sons",
+  "Lastname": "Gibson",
+  "PersonId": 896,
+  "Mrmrs": "molestiae",
+  "ProjectMemberTypeName": "Christiansen, Cremin and Dicki",
+  "Phone": "529-943-0184 x09136",
+  "PhoneId": 744,
+  "ProjectMemberTypeId": 292,
+  "EmailAddressName": "agustin_feeney@vandervortolson.co.uk",
+  "Comment": "eum",
+  "FullName": "Mr. Ahmed Senger I",
+  "Registered": "2008-04-28T02:30:53.0692723+02:00",
+  "Updated": "2006-11-18T02:30:53.0692723+01:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 396
+      "FieldLength": 529
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/CreateDefaultSaleTypeEntity
 Loading default values into a new SaleTypeEntity.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -87,53 +89,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 547,
-  "Name": "Jenkins, Kulas and Auer",
-  "Tooltip": "fugit",
-  "Rank": 402,
+  "SaleTypeId": 529,
+  "Name": "Heller Inc and Sons",
+  "Tooltip": "atque",
+  "Rank": 81,
   "DurationUnit": "Century",
-  "SaleDuration": 633,
-  "SaleTypeCatId": 84,
-  "Deleted": true,
-  "HasGuide": false,
-  "HasStakeholders": false,
-  "IsAutoAdvance": false,
+  "SaleDuration": 224,
+  "SaleTypeCatId": 799,
+  "Deleted": false,
+  "HasGuide": true,
+  "HasStakeholders": true,
+  "IsAutoAdvance": true,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 231,
-  "QuoteLinesTemplate": 704,
-  "ConfirmationLinesTemplate": 19,
+  "DefaultQuoteValidity": 743,
+  "QuoteLinesTemplate": 64,
+  "ConfirmationLinesTemplate": 423,
   "MaxDiscountPercentSet": false,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 669,
-  "MinEarningPercent": 340,
-  "GroupQuoteLinesBy": 649,
-  "SortGroupLinesBy": 226,
+  "MaxDiscountPercent": 551,
+  "MinEarningPercent": 971,
+  "GroupQuoteLinesBy": 66,
+  "SortGroupLinesBy": 465,
   "Stages": [
     {
-      "Id": 739,
-      "Name": "Crist LLC",
-      "ToolTip": "Officiis non id quis.",
-      "Deleted": true,
-      "Rank": 334,
-      "Type": "rerum",
-      "ColorBlock": 30,
-      "IconHint": "et",
-      "Selected": true,
-      "LastChanged": "2006-08-16T03:46:54.9413809+02:00",
+      "Id": 341,
+      "Name": "Reichert Inc and Sons",
+      "ToolTip": "Nesciunt quia est et.",
+      "Deleted": false,
+      "Rank": 985,
+      "Type": "veritatis",
+      "ColorBlock": 721,
+      "IconHint": "distinctio",
+      "Selected": false,
+      "LastChanged": "2002-08-20T02:30:47.3975807+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "dolorum",
-      "StyleHint": "vero",
-      "Hidden": false,
-      "FullName": "Mr. Quincy Brooklyn Waters Jr.",
+      "ExtraInfo": "et",
+      "StyleHint": "vel",
+      "Hidden": true,
+      "FullName": "Ms. Jett Toy II",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 507
+          "FieldType": "System.String",
+          "FieldLength": 620
         }
       }
     }
@@ -143,7 +145,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 209
+      "FieldLength": 907
     }
   }
 }

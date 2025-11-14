@@ -15,6 +15,7 @@ Get a list of the column names corresponding to available restrictions for a cer
 
 
 Such columns have CanRestrict set to true, and are supported by the given restriction storage provider.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -76,8 +77,8 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "odio",
-  "ProviderName": "Witting, Ankunding and Mayert"
+  "StorageType": "alias",
+  "ProviderName": "Koss Group"
 }
 ```
 
@@ -88,7 +89,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  "impedit",
-  "magni"
+  "tempora",
+  "et"
 ]
 ```

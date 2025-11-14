@@ -86,7 +86,7 @@ OK
 GET /api/v1/List/SaleType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -97,56 +97,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 298,
-    "Name": "Hane-Wisozk",
-    "ToolTip": "Non dolorum quos facere expedita voluptas.",
+    "Id": 212,
+    "Name": "Gusikowski-Thiel",
+    "ToolTip": "Eligendi ipsam id accusantium maxime.",
     "Deleted": false,
-    "Rank": 345,
-    "Type": "facere",
-    "ColorBlock": 650,
-    "IconHint": "suscipit",
-    "Selected": false,
-    "LastChanged": "2005-04-15T03:47:00.8161673+02:00",
+    "Rank": 444,
+    "Type": "sit",
+    "ColorBlock": 162,
+    "IconHint": "placeat",
+    "Selected": true,
+    "LastChanged": "2025-08-09T02:30:53.4442597+02:00",
     "ChildItems": [
       {
-        "Id": 990,
-        "Name": "Zulauf Inc and Sons",
-        "ToolTip": "Quaerat et.",
-        "Deleted": true,
-        "Rank": 238,
-        "Type": "quibusdam",
-        "ColorBlock": 142,
-        "IconHint": "unde",
+        "Id": 895,
+        "Name": "Funk-Cassin",
+        "ToolTip": "Sapiente eos eligendi sunt eos.",
+        "Deleted": false,
+        "Rank": 888,
+        "Type": "quas",
+        "ColorBlock": 565,
+        "IconHint": "quia",
         "Selected": false,
-        "LastChanged": "1999-12-25T03:47:00.8161673+01:00",
+        "LastChanged": "2006-05-13T02:30:53.4442597+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sunt",
-        "StyleHint": "qui",
-        "Hidden": true,
-        "FullName": "Danyka Walker",
+        "ExtraInfo": "mollitia",
+        "StyleHint": "ex",
+        "Hidden": false,
+        "FullName": "Prof. Makenzie Kunde II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 938
+            "FieldLength": 396
           }
         }
       }
     ],
-    "ExtraInfo": "voluptas",
-    "StyleHint": "facilis",
+    "ExtraInfo": "quisquam",
+    "StyleHint": "eligendi",
     "Hidden": false,
-    "FullName": "Aditya Kilback",
+    "FullName": "Callie Turner Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 645
+        "FieldType": "System.String",
+        "FieldLength": 312
       }
     }
   }

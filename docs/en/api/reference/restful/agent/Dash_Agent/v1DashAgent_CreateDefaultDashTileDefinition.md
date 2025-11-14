@@ -14,6 +14,8 @@ POST /api/v1/Agents/Dash/CreateDefaultDashTileDefinition
 Loading default values into a new DashTileDefinition.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -84,31 +86,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 684,
-  "Name": "Kozey LLC",
-  "Description": "Diverse cohesive circuit",
-  "DefaultHeight": 150,
-  "DefaultWidth": 985,
+  "DashboardTileDefinitionId": 404,
+  "Name": "Powlowski Inc and Sons",
+  "Description": "Extended eco-centric architecture",
+  "DefaultHeight": 166,
+  "DefaultWidth": 767,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Metz, Johnson and Larson",
-  "SelectionId": 335,
+  "EntityName": "Sawayn Inc and Sons",
+  "SelectionId": 679,
   "CurrencyMode": "Base",
-  "CurrencyCode": "natus",
+  "CurrencyCode": "enim",
   "Measure": "Average",
-  "MeasureField": "quia",
-  "SortBy": "ex",
-  "LayoutConfig": "temporibus",
-  "SecondarySelectionId": 260,
-  "MeasureByField": "unde",
+  "MeasureField": "maxime",
+  "SortBy": "voluptas",
+  "LayoutConfig": "magnam",
+  "SecondarySelectionId": 584,
+  "MeasureByField": "nam",
   "Usage": "Dashboard",
-  "ProviderName": "Schinner Inc and Sons",
+  "ProviderName": "Bernier-Murphy",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 58
+      "FieldLength": 133
     }
   }
 }

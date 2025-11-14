@@ -103,7 +103,7 @@ Employees, resources and other users - except for External persons
 |[ConsentPerson](consentperson.md)  |Link table that defines who has which consents |
 |[ConsentPurpose](consentpurpose.md)  |GDPR purpose alternatives |
 |[ConsentSource](consentsource.md)  |Consent source for GDPR |
-|[contact](contact.md)  |Companies and Organizations.   This table features a special record containing information about the contact that owns the database.   |
+|[contact](contact.md)  |Companies and Organizations. |
 |[contactinterest](contactinterest.md)  |Link-table between contact and interests in ContInt |
 |[ContInt](contint.md)  |ContInt list table. List-text of all valid contact interest types. |
 |[ContIntGroupLink](contintgrouplink.md)  |User group link table for ContInt, for MDO item hiding |
@@ -161,6 +161,7 @@ Employees, resources and other users - except for External persons
 |[ExtApp](extapp.md)  |ExtApp list table. Applications startable from SuperOffice |
 |[ExtAppGroupLink](extappgrouplink.md)  |User group link table for ExtApp, for MDO item hiding |
 |[ExtAppHeadingLink](extappheadinglink.md)  |Heading link table for ExtApp, for MDO headers |
+|[external\_owner](external-owner.md)  |Owner of external data imported into the system |
 |[ExternalEvent](externalevent.md)  |The definition of projects as events in Audience (or other Collaborative apps) |
 |[Favourite](favourite.md)  |Favourite records (star-marking) |
 |[FieldLabel](fieldlabel.md)  |Field label override table, makes it possible to override internal string resources. Define your own text for the panels in SuperOffice, e.g. rename Project to Cars in SOAdmin - System Options - Labels  This table contains controlling data for the string substitution mechanism. There is one row in this table for each label or string that can be substituted; the active field indicates whether the string is actually being substituted or not. Initially, all rows have this field set to 0. The table is loaded with initial data during database setup.  Only SuperOffice Development has the necessary expertise to safely add rows to this table.  If a row has active = 1, the table LocaleText should contain one or more rows pointing back to this table, with the actual text to be used.  |
@@ -216,7 +217,7 @@ Employees, resources and other users - except for External persons
 |[PersInt](persint.md)  |PersInt list table. List of Person interests. |
 |[PersIntGroupLink](persintgrouplink.md)  |User group link table for PersInt, for MDO item hiding |
 |[PersIntHeadingLink](persintheadinglink.md)  |Heading link table for PersInt, for MDO headers |
-|[person](person.md)  |Persons in a company or an organizations. All associates have a corresponding person record |
+|[person](person.md)  |Persons |
 |[personinterest](personinterest.md)  |Note: If you add or remove rows in this table, you will need to update the interestCount field in the person table accordingly. This field should always reflect the number of interest records a person has, to enable the correct setting of the interest indicator on the tab in the person dialog.  Replication note: The combination of person_id and pinterest_idx is unique. If a duplicate is made on a replicated database, the system will replace the record in the target database with the one derived from the source database during replication. Therefore, do not assume that a record in this table will retain its ID indefinitely, even if the person keeps the interest. |
 |[PersPos](perspos.md)  |PersPos list table. Contact person position list |
 |[PersPosGroupLink](persposgrouplink.md)  |User group link table for PersPos, for MDO item hiding |
@@ -261,6 +262,7 @@ Employees, resources and other users - except for External persons
 |[ProjTypeHeadingLink](projtypeheadinglink.md)  |Heading link table for ProjType, for MDO headers |
 |[Publish](publish.md)  |Publishing system for external users |
 |[PushNotificationService](pushnotificationservice.md)  |Used for storing handles to user devices that should receive push notifications |
+|[quick\_filter\_info](quick-filter-info.md)  |Connect quick filter info from a specific provider to a dashboard |
 |[quick\_reply](quick-reply.md)  |Personal quick reply text fragments |
 |[Quote](quote.md)  |Quote root level, at most one per Sale, always connected to one Sale |
 |[QuoteAlternative](quotealternative.md)  |Quote Version is made up of one or more Alternatives. One of 1..n possible alternatives in a Quote Version. The reason we have alternatives is that a quote can say to a customer, “we can solve you problem in two (or more) different ways, with different technology and sideeffects (and price)”. An Alternative may have discounts on the total amount. The Alternative tracks whether the user on the order level entered the Discount , Earning amount or the TotalPrice fields so that the discount and earning and total can be re-calculated correctly when Quote Lines are added or changed. |
@@ -383,6 +385,7 @@ Employees, resources and other users - except for External persons
 |[ticket\_type](ticket-type.md)  |A ticket (request) type |
 |[ticket\_type\_priority](ticket-type-priority.md)  |Link table defining what Priorities are relevant to a particular Ticket type |
 |[ticket\_type\_status](ticket-type-status.md)  |Link table defining what Statuses are relevant to a particular Ticket type |
+|[time\_keeping](time-keeping.md)  |Time keeping for how much time a sale or project or other entity has spent in a given stage or other state |
 |[travelcurrent](travelcurrent.md)  |Information about this database and its place in the hierarchy |
 |[travelgenerateddatabase](travelgenerateddatabase.md)  |Information about all databases generated from this database |
 |[travelgeneratedtransaction](travelgeneratedtransaction.md)  |Record of all generated replication data files from this database (*.dwn files from mother database to child, *.up from child database to mother) |

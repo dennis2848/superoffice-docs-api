@@ -14,6 +14,8 @@ POST /api/v1/Agents/List/UpdateCategoryMemberships
 Updates category memberships
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -68,39 +70,39 @@ No Content
 POST /api/v1/Agents/List/UpdateCategoryMemberships
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 753,
+  "TicketCategoryId": 504,
   "MembershipsToAdd": [
     {
       "User": null,
-      "Weight": 494
+      "Weight": 237
     },
     {
       "User": null,
-      "Weight": 494
+      "Weight": 237
     }
   ],
   "MembershipsToUpdate": [
     {
       "User": null,
-      "Weight": 324
+      "Weight": 845
     },
     {
       "User": null,
-      "Weight": 324
+      "Weight": 845
     }
   ],
   "MembershipsToDelete": [
     {
       "User": null,
-      "Weight": 529
+      "Weight": 946
     },
     {
       "User": null,
-      "Weight": 529
+      "Weight": 946
     }
   ]
 }

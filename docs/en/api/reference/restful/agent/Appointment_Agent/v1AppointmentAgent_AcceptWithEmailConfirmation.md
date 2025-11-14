@@ -14,6 +14,8 @@ POST /api/v1/Agents/Appointment/AcceptWithEmailConfirmation
 Accepting an appointment invitation and send an email confirmation to the meeting organizer.
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -66,11 +68,11 @@ No Content
 POST /api/v1/Agents/Appointment/AcceptWithEmailConfirmation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 560,
+  "AppointmentId": 87,
   "UpdateMode": "OnlyThis"
 }
 ```

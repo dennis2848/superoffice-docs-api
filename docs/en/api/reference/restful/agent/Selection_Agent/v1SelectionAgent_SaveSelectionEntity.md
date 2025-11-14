@@ -14,6 +14,8 @@ POST /api/v1/Agents/Selection/SaveSelectionEntity
 Updates the existing SelectionEntity or creates a new SelectionEntity if the id parameter is 0.
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -144,60 +146,60 @@ OK
 POST /api/v1/Agents/Selection/SaveSelectionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Diverse value-added solution",
-  "Postit": "nam",
+  "Description": "Total content-based leverage",
+  "Postit": "id",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 203,
-  "IncludePerson": 482,
+  "GroupIdx": 109,
+  "IncludePerson": 696,
   "MemberCount": 99.99,
-  "Name": "Renner LLC",
-  "PostitTextId": 106,
-  "CreatedDate": "2012-06-28T03:46:55.3007553+02:00",
-  "SelectionId": 906,
-  "SoundEx": "commodi",
-  "Source": 777,
-  "TextId": 525,
-  "UpdatedDate": "2000-03-10T03:46:55.3007553+01:00",
-  "UpdatedCount": 869,
-  "Visibility": 452,
+  "Name": "Littel-Ward",
+  "PostitTextId": 620,
+  "CreatedDate": "2020-10-03T02:30:47.8038176+02:00",
+  "SelectionId": 351,
+  "SoundEx": "consectetur",
+  "Source": 424,
+  "TextId": 880,
+  "UpdatedDate": "2011-10-11T02:30:47.8038176+02:00",
+  "UpdatedCount": 900,
+  "Visibility": 393,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 704,
-  "TargetTableName": "Champlin, Strosin and Baumbach",
+  "TargetTableNumber": 56,
+  "TargetTableName": "Breitenberg Group",
   "Completed": false,
-  "LeftSelectionId": 557,
-  "RightSelectionId": 684,
+  "LeftSelectionId": 535,
+  "RightSelectionId": 195,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Zemlak, Schmidt and Runte",
-  "ShadowProviderName": "Kerluke-Heller",
-  "ChartKey": "expedita",
-  "LastLoaded": "2003-11-17T03:46:55.3007553+01:00",
-  "LastLoadedBy": 84,
+  "MainProviderName": "Terry-O'Reilly",
+  "ShadowProviderName": "Muller, Price and Doyle",
+  "ChartKey": "ipsam",
+  "LastLoaded": "2021-10-14T02:30:47.8038176+02:00",
+  "LastLoadedBy": 532,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2024-02-12T03:46:55.3007553+01:00",
-  "LastMembershipChangeBy": 654,
+  "LastMembershipChange": "2011-06-09T02:30:47.8038176+02:00",
+  "LastMembershipChangeBy": 307,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "natus",
-  "MemberTabHeading": "tempore",
-  "MailingsProviderName": "Heathcote Group",
-  "DashboardTileDefinitionId": 164,
+  "MainHeading": "corrupti",
+  "MemberTabHeading": "explicabo",
+  "MailingsProviderName": "Ziemann, Hoeger and Leuschke",
+  "DashboardTileDefinitionId": 407,
   "VisibleFor": [
     {
-      "VisibleId": 11,
+      "VisibleId": 484,
       "Visibility": "All",
-      "DisplayValue": "quaerat"
+      "DisplayValue": "quis"
     },
     {
-      "VisibleId": 11,
+      "VisibleId": 484,
       "Visibility": "All",
-      "DisplayValue": "quaerat"
+      "DisplayValue": "quis"
     }
   ]
 }
@@ -210,70 +212,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Ameliorated dynamic extranet",
-  "Postit": "sequi",
+  "Description": "Stand-alone maximized portal",
+  "Postit": "consequuntur",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 502,
-  "IncludePerson": 129,
+  "GroupIdx": 490,
+  "IncludePerson": 341,
   "MemberCount": 99.99,
-  "Name": "Hammes-Kertzmann",
-  "PostitTextId": 627,
-  "CreatedDate": "2001-02-15T03:46:55.3007553+01:00",
-  "SelectionId": 56,
-  "SoundEx": "est",
-  "Source": 388,
-  "TextId": 845,
-  "UpdatedDate": "2013-01-15T03:46:55.3007553+01:00",
-  "UpdatedCount": 836,
-  "Visibility": 13,
+  "Name": "Blick, Schmidt and Marks",
+  "PostitTextId": 153,
+  "CreatedDate": "2021-07-11T02:30:47.8038176+02:00",
+  "SelectionId": 494,
+  "SoundEx": "optio",
+  "Source": 894,
+  "TextId": 212,
+  "UpdatedDate": "2020-08-17T02:30:47.8038176+02:00",
+  "UpdatedCount": 976,
+  "Visibility": 299,
   "SelectionType": "Combined",
-  "CompanyUnique": true,
-  "TargetTableNumber": 699,
-  "TargetTableName": "Hane Inc and Sons",
+  "CompanyUnique": false,
+  "TargetTableNumber": 700,
+  "TargetTableName": "Conroy, Roob and Schinner",
   "Completed": false,
-  "LeftSelectionId": 732,
-  "RightSelectionId": 617,
+  "LeftSelectionId": 817,
+  "RightSelectionId": 163,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Leuschke-Ondricka",
-  "ShadowProviderName": "Cole-Hahn",
-  "ChartKey": "possimus",
-  "LastLoaded": "2020-06-16T03:46:55.3007553+02:00",
-  "LastLoadedBy": 127,
+  "MainProviderName": "Kuhic, Gerhold and Schiller",
+  "ShadowProviderName": "Schimmel, Bode and Parisian",
+  "ChartKey": "hic",
+  "LastLoaded": "2014-10-13T02:30:47.8038176+02:00",
+  "LastLoadedBy": 99,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2006-04-20T03:46:55.3007553+02:00",
-  "LastMembershipChangeBy": 220,
+  "LastMembershipChange": "2020-11-04T02:30:47.8038176+01:00",
+  "LastMembershipChangeBy": 258,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "asperiores",
-  "MemberTabHeading": "vitae",
-  "MailingsProviderName": "Parker Inc and Sons",
-  "DashboardTileDefinitionId": 535,
+  "MainHeading": "est",
+  "MemberTabHeading": "debitis",
+  "MailingsProviderName": "Orn LLC",
+  "DashboardTileDefinitionId": 325,
   "VisibleFor": [
     {
-      "VisibleId": 815,
+      "VisibleId": 192,
       "Visibility": "All",
-      "DisplayValue": "numquam",
+      "DisplayValue": "quam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 675
+          "FieldLength": 49
         }
       }
     },
     {
-      "VisibleId": 815,
+      "VisibleId": 192,
       "Visibility": "All",
-      "DisplayValue": "numquam",
+      "DisplayValue": "quam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 675
+          "FieldLength": 49
         }
       }
     }
@@ -282,8 +284,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 170
+      "FieldType": "System.String",
+      "FieldLength": 11
     }
   }
 }

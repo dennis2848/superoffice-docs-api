@@ -15,6 +15,7 @@ Deletes all specified occurrences of a key, belonging to the ForeignApp and Fore
 
 
 Specifying a blank table name will delete ALL keys of the given name; specifying a recordId of 0 will delete ALL keys of the given name for the given table.
+NsApiSlow threshold: 5000 ms.
 
 
 
@@ -77,11 +78,11 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ForeignKey": null,
-  "ApplicationName": "Hackett-Mante",
-  "DeviceName": "Kling, Price and Conroy",
-  "DeviceIdentifier": "inventore",
-  "TableName": "Beier-Weissnat",
-  "RecordId": 38
+  "ApplicationName": "Stamm, Stehr and O'Keefe",
+  "DeviceName": "Russel-Rath",
+  "DeviceIdentifier": "nesciunt",
+  "TableName": "Nicolas-Green",
+  "RecordId": 94
 }
 ```
 

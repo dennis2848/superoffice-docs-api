@@ -14,6 +14,8 @@ POST /api/v1/Agents/Dash/CreateDefaultTileDefinitionForEntity
 Set Measure to CountAll and MeasureField to primary key field
 
 
+NsApiSlow threshold: 5000 ms.
+
 
 
 
@@ -96,7 +98,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EntityName": "McClure-Borer"
+  "EntityName": "Heathcote Inc and Sons"
 }
 ```
 
@@ -107,31 +109,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 722,
-  "Name": "Stamm-Rowe",
-  "Description": "Secured 3rd generation moderator",
-  "DefaultHeight": 353,
-  "DefaultWidth": 689,
+  "DashboardTileDefinitionId": 669,
+  "Name": "Jaskolski-Ryan",
+  "Description": "Versatile leading edge circuit",
+  "DefaultHeight": 670,
+  "DefaultWidth": 818,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Carter Inc and Sons",
-  "SelectionId": 363,
+  "EntityName": "Schaden-Casper",
+  "SelectionId": 19,
   "CurrencyMode": "Base",
-  "CurrencyCode": "et",
+  "CurrencyCode": "provident",
   "Measure": "Average",
-  "MeasureField": "saepe",
-  "SortBy": "eos",
-  "LayoutConfig": "commodi",
-  "SecondarySelectionId": 780,
-  "MeasureByField": "ad",
+  "MeasureField": "praesentium",
+  "SortBy": "et",
+  "LayoutConfig": "et",
+  "SecondarySelectionId": 237,
+  "MeasureByField": "asperiores",
   "Usage": "Dashboard",
-  "ProviderName": "Schmidt Inc and Sons",
+  "ProviderName": "Will Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 277
+      "FieldType": "System.Int32",
+      "FieldLength": 4
     }
   }
 }

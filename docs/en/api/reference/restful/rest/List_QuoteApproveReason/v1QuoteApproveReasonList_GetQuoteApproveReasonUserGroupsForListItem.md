@@ -76,7 +76,7 @@ OK
 GET /api/v1/List/QuoteApproveReason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -87,56 +87,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 745,
-    "Name": "Kub-Sipes",
-    "ToolTip": "Expedita repellendus neque.",
+    "Id": 287,
+    "Name": "Block-Greenholt",
+    "ToolTip": "Quo non sit.",
     "Deleted": false,
-    "Rank": 763,
-    "Type": "delectus",
-    "ColorBlock": 626,
-    "IconHint": "voluptas",
-    "Selected": false,
-    "LastChanged": "2003-05-13T03:47:00.7536695+02:00",
+    "Rank": 741,
+    "Type": "asperiores",
+    "ColorBlock": 808,
+    "IconHint": "ut",
+    "Selected": true,
+    "LastChanged": "2011-05-31T02:30:53.3973865+02:00",
     "ChildItems": [
       {
-        "Id": 524,
-        "Name": "Kiehn-Shields",
-        "ToolTip": "Consequuntur quia voluptas.",
+        "Id": 758,
+        "Name": "Kozey-Aufderhar",
+        "ToolTip": "Optio magni temporibus omnis perferendis fugit.",
         "Deleted": true,
-        "Rank": 707,
-        "Type": "temporibus",
-        "ColorBlock": 57,
-        "IconHint": "animi",
+        "Rank": 206,
+        "Type": "ratione",
+        "ColorBlock": 433,
+        "IconHint": "corporis",
         "Selected": true,
-        "LastChanged": "2022-12-26T03:47:00.7536695+01:00",
+        "LastChanged": "2017-05-03T02:30:53.3973865+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "fugit",
-        "StyleHint": "omnis",
+        "ExtraInfo": "rerum",
+        "StyleHint": "ducimus",
         "Hidden": false,
-        "FullName": "Tyrell Hintz",
+        "FullName": "Tressa Lavinia Spinka DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 44
+            "FieldType": "System.Int32",
+            "FieldLength": 619
           }
         }
       }
     ],
-    "ExtraInfo": "est",
-    "StyleHint": "iste",
+    "ExtraInfo": "ratione",
+    "StyleHint": "nulla",
     "Hidden": false,
-    "FullName": "Miguel O'Connell",
+    "FullName": "Arch O'Connell",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 318
+        "FieldLength": 567
       }
     }
   }

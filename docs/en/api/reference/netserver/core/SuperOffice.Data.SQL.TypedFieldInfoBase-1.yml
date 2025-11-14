@@ -99,6 +99,7 @@ items:
   - SuperOffice.Data.SQL.EmailTypeFieldInfo
   - SuperOffice.Data.SQL.ErpActorTypeFieldInfo
   - SuperOffice.Data.SQL.ExecuteOnEventFieldInfo
+  - SuperOffice.Data.SQL.ExternalOwnerFieldInfo
   - SuperOffice.Data.SQL.FieldAccessFieldInfo
   - SuperOffice.Data.SQL.FieldMetadataTypeFieldInfo
   - SuperOffice.Data.SQL.FormSubmissionStatusFieldInfo
@@ -168,6 +169,7 @@ items:
   - SuperOffice.Data.SQL.TicketReadStatusFieldInfo
   - SuperOffice.Data.SQL.TicketSecurityLevelFieldInfo
   - SuperOffice.Data.SQL.TicketStatusTimeCounterFieldInfo
+  - SuperOffice.Data.SQL.TimeKeepingTypeFieldInfo
   - SuperOffice.Data.SQL.TravelEncryptionChildFieldInfo
   - SuperOffice.Data.SQL.TravelEncryptionOwnFieldInfo
   - SuperOffice.Data.SQL.TrlogTransTypeFieldInfo

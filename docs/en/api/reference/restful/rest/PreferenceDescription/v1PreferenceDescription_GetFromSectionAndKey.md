@@ -88,30 +88,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 212,
-  "Section": "unde",
-  "Key": "nobis",
-  "Name": "Kessler, Conn and Anderson",
+  "PrefDescId": 741,
+  "Section": "placeat",
+  "Key": "quia",
+  "Name": "Cormier LLC",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Right-sized value-added architecture",
+  "Description": "Monitored systematic approach",
   "IsBuiltin": false,
-  "TableName": "Schmidt, Russel and Moore",
-  "UserDefinedListId": 768,
-  "Rank": 271,
-  "SubGroup": "recusandae",
-  "MinLevel": 357,
-  "MaxValue": 870,
-  "MinValue": 268,
-  "RequiredLicense": "consectetur",
+  "TableName": "Blanda LLC",
+  "UserDefinedListId": 93,
+  "Rank": 648,
+  "SubGroup": "voluptatem",
+  "MinLevel": 525,
+  "MaxValue": 451,
+  "MinValue": 593,
+  "RequiredLicense": "dolorem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 369
+      "FieldLength": 343
     }
   }
 }

@@ -26,7 +26,7 @@ Saves a ticket message and performs any user notifications
 | notify | bool |  If true, then the notification will be sent along with the save |
 
 ```http
-POST /api/v1/TicketMessage?notify=False
+POST /api/v1/TicketMessage?notify=True
 ```
 
 
@@ -128,63 +128,63 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 940,
+  "EjMessageId": 949,
   "Ticket": null,
-  "CreatedAt": "2000-03-02T03:47:00.3630582+01:00",
+  "CreatedAt": "2010-05-03T02:30:53.0067748+02:00",
   "CreatedBy": null,
-  "Author": "a",
+  "Author": "porro",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "rem",
-  "TimeSpent": 277,
-  "Body": "earum",
-  "HtmlBody": "minima",
-  "EmailHeader": "rollin@boehm.us",
-  "DebugInfo": "quis",
-  "MailSorter": "voluptatibus",
+  "MessageId": "quia",
+  "TimeSpent": 1001,
+  "Body": "laudantium",
+  "HtmlBody": "id",
+  "EmailHeader": "nicholas.osinski@larson.uk",
+  "DebugInfo": "possimus",
+  "MailSorter": "repellat",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "dolor",
+  "SearchTitle": "consequatur",
   "MessageHeaders": [
     {
-      "Id": 514,
-      "Name": "Jakubowski, Borer and Wyman",
-      "Value": "est",
+      "Id": 631,
+      "Name": "Jones, Kovacek and Schimmel",
+      "Value": "earum",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     },
     {
-      "Id": 514,
-      "Name": "Jakubowski, Borer and Wyman",
-      "Value": "est",
+      "Id": 631,
+      "Name": "Jones, Kovacek and Schimmel",
+      "Value": "earum",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     }
   ],
-  "Important": false,
-  "Language": "ut",
-  "Sentiment": 513,
-  "SentimentConfidence": 897,
+  "Important": true,
+  "Language": "rerum",
+  "Sentiment": 180,
+  "SentimentConfidence": 510,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 410,
-      "Name": "Senger Inc and Sons",
-      "ContentType": "modi",
-      "AttSize": 493,
+      "AttachmentId": 540,
+      "Name": "Gutkowski, Lubowitz and Stark",
+      "ContentType": "dolorem",
+      "AttSize": 231,
       "InlineImage": false,
-      "ContentId": "cum",
-      "AuthKey": "ipsam",
-      "IsSafeFileExtension": true
+      "ContentId": "vitae",
+      "AuthKey": "nesciunt",
+      "IsSafeFileExtension": false
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "molestiae",
-    "ExtraFields2": "distinctio"
+    "ExtraFields1": "quidem",
+    "ExtraFields2": "consectetur"
   },
   "CustomFields": {
-    "CustomFields1": "velit",
-    "CustomFields2": "id"
+    "CustomFields1": "minima",
+    "CustomFields2": "esse"
   }
 }
 ```
@@ -196,28 +196,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 129,
+  "EjMessageId": 413,
   "Ticket": null,
-  "CreatedAt": "1999-06-16T03:47:00.3786828+02:00",
+  "CreatedAt": "2000-08-14T02:30:53.0067748+02:00",
   "CreatedBy": null,
-  "Author": "dignissimos",
+  "Author": "ab",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "ex",
-  "TimeSpent": 148,
-  "Body": "est",
-  "HtmlBody": "officia",
-  "EmailHeader": "arnaldo@farrell.co.uk",
-  "DebugInfo": "esse",
-  "MailSorter": "atque",
+  "MessageId": "et",
+  "TimeSpent": 484,
+  "Body": "sequi",
+  "HtmlBody": "et",
+  "EmailHeader": "reanna_damore@damore.us",
+  "DebugInfo": "quod",
+  "MailSorter": "et",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "sit",
+  "SearchTitle": "nemo",
   "MessageHeaders": [
     {
-      "Id": 803,
-      "Name": "Crooks-Ward",
-      "Value": "vero",
+      "Id": 28,
+      "Name": "Walker LLC",
+      "Value": "laboriosam",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -225,50 +225,50 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 171
+          "FieldLength": 624
         }
       }
     }
   ],
   "Important": false,
-  "Language": "aut",
-  "Sentiment": 522,
-  "SentimentConfidence": 59,
+  "Language": "consequatur",
+  "Sentiment": 358,
+  "SentimentConfidence": 17,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 384,
-      "Name": "Vandervort, Gutkowski and Kohler",
-      "ContentType": "ipsum",
-      "AttSize": 375,
-      "InlineImage": true,
-      "ContentId": "itaque",
-      "AuthKey": "ullam",
-      "IsSafeFileExtension": false,
+      "AttachmentId": 139,
+      "Name": "Wyman-Dickinson",
+      "ContentType": "laboriosam",
+      "AttSize": 841,
+      "InlineImage": false,
+      "ContentId": "qui",
+      "AuthKey": "voluptatum",
+      "IsSafeFileExtension": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 60
+          "FieldType": "System.String",
+          "FieldLength": 433
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "dolorum",
-    "ExtraFields2": "ut"
+    "ExtraFields1": "molestiae",
+    "ExtraFields2": "distinctio"
   },
   "CustomFields": {
-    "CustomFields1": "ducimus",
-    "CustomFields2": "eum"
+    "CustomFields1": "ea",
+    "CustomFields2": "ut"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 983
+      "FieldType": "System.String",
+      "FieldLength": 920
     }
   }
 }

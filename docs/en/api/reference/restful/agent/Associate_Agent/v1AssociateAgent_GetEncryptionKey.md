@@ -14,6 +14,8 @@ POST /api/v1/Agents/Associate/GetEncryptionKey
 Get unique key made from AssociateId and dbTag used for local storage encryption operations.
 
 
+NsApiSlow threshold: 2000 ms.
+
 
 
 
@@ -70,5 +72,5 @@ Accept-Language: en
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"et"
+"quia"
 ```
