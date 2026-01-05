@@ -250,6 +250,14 @@ items:
   - SuperOffice.CRM.Rows.AudienceVisibilityRows.IdxControllingTableControllingRecord
   - SuperOffice.CRM.Rows.AudienceVisibilityRows.IdxSourceTable
   - SuperOffice.CRM.Rows.AudienceVisibilityRows.IdxSourceTableSourceRecord
+  - SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordData
+  - SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordDataExtensions
+  - SuperOffice.CRM.Rows.AutomatedCategoryUpdateRow
+  - SuperOffice.CRM.Rows.AutomatedCategoryUpdateRow.CustomSearch
+  - SuperOffice.CRM.Rows.AutomatedCategoryUpdateRow.IdxAutomatedCategoryUpdateId
+  - SuperOffice.CRM.Rows.AutomatedCategoryUpdateRow.IdxTriggerType
+  - SuperOffice.CRM.Rows.AutomatedCategoryUpdateRows
+  - SuperOffice.CRM.Rows.AutomatedCategoryUpdateRows.CustomSearch
   - SuperOffice.CRM.Rows.AutosaveRecordData
   - SuperOffice.CRM.Rows.AutosaveRecordDataExtensions
   - SuperOffice.CRM.Rows.AutosaveRow
@@ -606,6 +614,27 @@ items:
   - SuperOffice.CRM.Rows.ContactRows.IdxSupportPersonId
   - SuperOffice.CRM.Rows.ContactRows.IdxUserdef2Id
   - SuperOffice.CRM.Rows.ContactRows.IdxUserdefId
+  - SuperOffice.CRM.Rows.CopilotDataSourceRecordData
+  - SuperOffice.CRM.Rows.CopilotDataSourceRecordDataExtensions
+  - SuperOffice.CRM.Rows.CopilotDataSourceRow
+  - SuperOffice.CRM.Rows.CopilotDataSourceRow.CustomSearch
+  - SuperOffice.CRM.Rows.CopilotDataSourceRow.IdxCopilotDataSourceId
+  - SuperOffice.CRM.Rows.CopilotDataSourceRows
+  - SuperOffice.CRM.Rows.CopilotDataSourceRows.CustomSearch
+  - SuperOffice.CRM.Rows.CopilotDataSourceSettingRecordData
+  - SuperOffice.CRM.Rows.CopilotDataSourceSettingRecordDataExtensions
+  - SuperOffice.CRM.Rows.CopilotDataSourceSettingRow
+  - SuperOffice.CRM.Rows.CopilotDataSourceSettingRow.CustomSearch
+  - SuperOffice.CRM.Rows.CopilotDataSourceSettingRow.IdxCopilotDataSourceSettingId
+  - SuperOffice.CRM.Rows.CopilotDataSourceSettingRows
+  - SuperOffice.CRM.Rows.CopilotDataSourceSettingRows.CustomSearch
+  - SuperOffice.CRM.Rows.CopilotRecordData
+  - SuperOffice.CRM.Rows.CopilotRecordDataExtensions
+  - SuperOffice.CRM.Rows.CopilotRow
+  - SuperOffice.CRM.Rows.CopilotRow.CustomSearch
+  - SuperOffice.CRM.Rows.CopilotRow.IdxCopilotId
+  - SuperOffice.CRM.Rows.CopilotRows
+  - SuperOffice.CRM.Rows.CopilotRows.CustomSearch
   - SuperOffice.CRM.Rows.CounterValueBulkImportFacade
   - SuperOffice.CRM.Rows.CounterValueRecordData
   - SuperOffice.CRM.Rows.CounterValueRecordDataExtensions
@@ -4501,6 +4530,33 @@ items:
   - SuperOffice.CRM.Rows.TicketPriorityRows.CustomSearch
   - SuperOffice.CRM.Rows.TicketRecordData
   - SuperOffice.CRM.Rows.TicketRecordDataExtensions
+  - SuperOffice.CRM.Rows.TicketRelDefTicketTypeRecordData
+  - SuperOffice.CRM.Rows.TicketRelDefTicketTypeRecordDataExtensions
+  - SuperOffice.CRM.Rows.TicketRelDefTicketTypeRow
+  - SuperOffice.CRM.Rows.TicketRelDefTicketTypeRow.CustomSearch
+  - SuperOffice.CRM.Rows.TicketRelDefTicketTypeRow.IdxTicketRelDefTicketTypeId
+  - SuperOffice.CRM.Rows.TicketRelDefTicketTypeRow.IdxTicketRelationDefIdSourceTicketTypeIdDestinationTicketTypeId
+  - SuperOffice.CRM.Rows.TicketRelDefTicketTypeRows
+  - SuperOffice.CRM.Rows.TicketRelDefTicketTypeRows.CustomSearch
+  - SuperOffice.CRM.Rows.TicketRelDefTicketTypeRows.IdxTicketRelationDefId
+  - SuperOffice.CRM.Rows.TicketRelDefTicketTypeRows.IdxTicketRelationDefIdSourceTicketTypeId
+  - SuperOffice.CRM.Rows.TicketRelationDefRecordData
+  - SuperOffice.CRM.Rows.TicketRelationDefRecordDataExtensions
+  - SuperOffice.CRM.Rows.TicketRelationDefRow
+  - SuperOffice.CRM.Rows.TicketRelationDefRow.CustomSearch
+  - SuperOffice.CRM.Rows.TicketRelationDefRow.IdxName
+  - SuperOffice.CRM.Rows.TicketRelationDefRow.IdxTicketRelationDefId
+  - SuperOffice.CRM.Rows.TicketRelationDefRows
+  - SuperOffice.CRM.Rows.TicketRelationDefRows.CustomSearch
+  - SuperOffice.CRM.Rows.TicketRelationRecordData
+  - SuperOffice.CRM.Rows.TicketRelationRecordDataExtensions
+  - SuperOffice.CRM.Rows.TicketRelationRow
+  - SuperOffice.CRM.Rows.TicketRelationRow.CustomSearch
+  - SuperOffice.CRM.Rows.TicketRelationRow.IdxTicketRelationId
+  - SuperOffice.CRM.Rows.TicketRelationRows
+  - SuperOffice.CRM.Rows.TicketRelationRows.CustomSearch
+  - SuperOffice.CRM.Rows.TicketRelationRows.IdxDestinationTicketId
+  - SuperOffice.CRM.Rows.TicketRelationRows.IdxSourceTicketId
   - SuperOffice.CRM.Rows.TicketRow
   - SuperOffice.CRM.Rows.TicketRow.CustomSearch
   - SuperOffice.CRM.Rows.TicketRow.IdxTicketId
@@ -4577,9 +4633,9 @@ items:
   - SuperOffice.CRM.Rows.TimeKeepingRow.IdxTimeKeepingId
   - SuperOffice.CRM.Rows.TimeKeepingRows
   - SuperOffice.CRM.Rows.TimeKeepingRows.CustomSearch
-  - SuperOffice.CRM.Rows.TimeKeepingRows.IdxEntityId
-  - SuperOffice.CRM.Rows.TimeKeepingRows.IdxEntityIdStateId
-  - SuperOffice.CRM.Rows.TimeKeepingRows.IdxEntityIdStateIdTimeKeepingType
+  - SuperOffice.CRM.Rows.TimeKeepingRows.IdxOwnerRecord
+  - SuperOffice.CRM.Rows.TimeKeepingRows.IdxOwnerRecordStateId
+  - SuperOffice.CRM.Rows.TimeKeepingRows.IdxOwnerRecordStateIdTimeKeepingType
   - SuperOffice.CRM.Rows.TimestampsRecordData
   - SuperOffice.CRM.Rows.TimestampsRecordDataExtensions
   - SuperOffice.CRM.Rows.TimestampsRow
@@ -10338,6 +10394,148 @@ references:
   name: AudienceVisibilityRecordDataExtensions
   nameWithType: AudienceVisibilityRecordDataExtensions
   fullName: SuperOffice.CRM.Rows.AudienceVisibilityRecordDataExtensions
+- uid: SuperOffice.CRM.Rows.AutomatedCategoryUpdateRows
+  commentId: T:SuperOffice.CRM.Rows.AutomatedCategoryUpdateRows
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  href: SuperOffice.CRM.Rows.AutomatedCategoryUpdateRows.html
+  name: AutomatedCategoryUpdateRows
+  nameWithType: AutomatedCategoryUpdateRows
+  fullName: SuperOffice.CRM.Rows.AutomatedCategoryUpdateRows
+- uid: SuperOffice.CRM.Rows.AutomatedCategoryUpdateRows.CustomSearch
+  commentId: T:SuperOffice.CRM.Rows.AutomatedCategoryUpdateRows.CustomSearch
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  href: SuperOffice.CRM.Rows.AutomatedCategoryUpdateRows.html
+  name: AutomatedCategoryUpdateRows.CustomSearch
+  nameWithType: AutomatedCategoryUpdateRows.CustomSearch
+  fullName: SuperOffice.CRM.Rows.AutomatedCategoryUpdateRows.CustomSearch
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.AutomatedCategoryUpdateRows
+    name: AutomatedCategoryUpdateRows
+    isExternal: true
+    href: SuperOffice.CRM.Rows.AutomatedCategoryUpdateRows.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows.AutomatedCategoryUpdateRows.CustomSearch
+    name: CustomSearch
+    isExternal: true
+    href: SuperOffice.CRM.Rows.AutomatedCategoryUpdateRows.CustomSearch.html
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.AutomatedCategoryUpdateRows
+    name: AutomatedCategoryUpdateRows
+    isExternal: true
+    href: SuperOffice.CRM.Rows.AutomatedCategoryUpdateRows.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows.AutomatedCategoryUpdateRows.CustomSearch
+    name: CustomSearch
+    isExternal: true
+    href: SuperOffice.CRM.Rows.AutomatedCategoryUpdateRows.CustomSearch.html
+- uid: SuperOffice.CRM.Rows.AutomatedCategoryUpdateRow
+  commentId: T:SuperOffice.CRM.Rows.AutomatedCategoryUpdateRow
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  href: SuperOffice.CRM.Rows.AutomatedCategoryUpdateRow.html
+  name: AutomatedCategoryUpdateRow
+  nameWithType: AutomatedCategoryUpdateRow
+  fullName: SuperOffice.CRM.Rows.AutomatedCategoryUpdateRow
+- uid: SuperOffice.CRM.Rows.AutomatedCategoryUpdateRow.IdxAutomatedCategoryUpdateId
+  commentId: T:SuperOffice.CRM.Rows.AutomatedCategoryUpdateRow.IdxAutomatedCategoryUpdateId
+  isExternal: true
+  href: SuperOffice.CRM.Rows.AutomatedCategoryUpdateRow.html
+  name: AutomatedCategoryUpdateRow.IdxAutomatedCategoryUpdateId
+  nameWithType: AutomatedCategoryUpdateRow.IdxAutomatedCategoryUpdateId
+  fullName: SuperOffice.CRM.Rows.AutomatedCategoryUpdateRow.IdxAutomatedCategoryUpdateId
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.AutomatedCategoryUpdateRow
+    name: AutomatedCategoryUpdateRow
+    isExternal: true
+    href: SuperOffice.CRM.Rows.AutomatedCategoryUpdateRow.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows.AutomatedCategoryUpdateRow.IdxAutomatedCategoryUpdateId
+    name: IdxAutomatedCategoryUpdateId
+    isExternal: true
+    href: SuperOffice.CRM.Rows.AutomatedCategoryUpdateRow.IdxAutomatedCategoryUpdateId.html
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.AutomatedCategoryUpdateRow
+    name: AutomatedCategoryUpdateRow
+    isExternal: true
+    href: SuperOffice.CRM.Rows.AutomatedCategoryUpdateRow.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows.AutomatedCategoryUpdateRow.IdxAutomatedCategoryUpdateId
+    name: IdxAutomatedCategoryUpdateId
+    isExternal: true
+    href: SuperOffice.CRM.Rows.AutomatedCategoryUpdateRow.IdxAutomatedCategoryUpdateId.html
+- uid: SuperOffice.CRM.Rows.AutomatedCategoryUpdateRow.IdxTriggerType
+  commentId: T:SuperOffice.CRM.Rows.AutomatedCategoryUpdateRow.IdxTriggerType
+  isExternal: true
+  href: SuperOffice.CRM.Rows.AutomatedCategoryUpdateRow.html
+  name: AutomatedCategoryUpdateRow.IdxTriggerType
+  nameWithType: AutomatedCategoryUpdateRow.IdxTriggerType
+  fullName: SuperOffice.CRM.Rows.AutomatedCategoryUpdateRow.IdxTriggerType
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.AutomatedCategoryUpdateRow
+    name: AutomatedCategoryUpdateRow
+    isExternal: true
+    href: SuperOffice.CRM.Rows.AutomatedCategoryUpdateRow.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows.AutomatedCategoryUpdateRow.IdxTriggerType
+    name: IdxTriggerType
+    isExternal: true
+    href: SuperOffice.CRM.Rows.AutomatedCategoryUpdateRow.IdxTriggerType.html
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.AutomatedCategoryUpdateRow
+    name: AutomatedCategoryUpdateRow
+    isExternal: true
+    href: SuperOffice.CRM.Rows.AutomatedCategoryUpdateRow.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows.AutomatedCategoryUpdateRow.IdxTriggerType
+    name: IdxTriggerType
+    isExternal: true
+    href: SuperOffice.CRM.Rows.AutomatedCategoryUpdateRow.IdxTriggerType.html
+- uid: SuperOffice.CRM.Rows.AutomatedCategoryUpdateRow.CustomSearch
+  commentId: T:SuperOffice.CRM.Rows.AutomatedCategoryUpdateRow.CustomSearch
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  href: SuperOffice.CRM.Rows.AutomatedCategoryUpdateRow.html
+  name: AutomatedCategoryUpdateRow.CustomSearch
+  nameWithType: AutomatedCategoryUpdateRow.CustomSearch
+  fullName: SuperOffice.CRM.Rows.AutomatedCategoryUpdateRow.CustomSearch
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.AutomatedCategoryUpdateRow
+    name: AutomatedCategoryUpdateRow
+    isExternal: true
+    href: SuperOffice.CRM.Rows.AutomatedCategoryUpdateRow.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows.AutomatedCategoryUpdateRow.CustomSearch
+    name: CustomSearch
+    isExternal: true
+    href: SuperOffice.CRM.Rows.AutomatedCategoryUpdateRow.CustomSearch.html
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.AutomatedCategoryUpdateRow
+    name: AutomatedCategoryUpdateRow
+    isExternal: true
+    href: SuperOffice.CRM.Rows.AutomatedCategoryUpdateRow.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows.AutomatedCategoryUpdateRow.CustomSearch
+    name: CustomSearch
+    isExternal: true
+    href: SuperOffice.CRM.Rows.AutomatedCategoryUpdateRow.CustomSearch.html
+- uid: SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordData
+  commentId: T:SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordData
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  href: SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordData.html
+  name: AutomatedCategoryUpdateRecordData
+  nameWithType: AutomatedCategoryUpdateRecordData
+  fullName: SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordData
+- uid: SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordDataExtensions
+  commentId: T:SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordDataExtensions
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  href: SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordDataExtensions.html
+  name: AutomatedCategoryUpdateRecordDataExtensions
+  nameWithType: AutomatedCategoryUpdateRecordDataExtensions
+  fullName: SuperOffice.CRM.Rows.AutomatedCategoryUpdateRecordDataExtensions
 - uid: SuperOffice.CRM.Rows.AutosaveRows
   commentId: T:SuperOffice.CRM.Rows.AutosaveRows
   parent: SuperOffice.CRM.Rows
@@ -17037,6 +17235,351 @@ references:
   name: ContIntHeadingLinkRecordDataExtensions
   nameWithType: ContIntHeadingLinkRecordDataExtensions
   fullName: SuperOffice.CRM.Rows.ContIntHeadingLinkRecordDataExtensions
+- uid: SuperOffice.CRM.Rows.CopilotRows
+  commentId: T:SuperOffice.CRM.Rows.CopilotRows
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  href: SuperOffice.CRM.Rows.CopilotRows.html
+  name: CopilotRows
+  nameWithType: CopilotRows
+  fullName: SuperOffice.CRM.Rows.CopilotRows
+- uid: SuperOffice.CRM.Rows.CopilotRows.CustomSearch
+  commentId: T:SuperOffice.CRM.Rows.CopilotRows.CustomSearch
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  href: SuperOffice.CRM.Rows.CopilotRows.html
+  name: CopilotRows.CustomSearch
+  nameWithType: CopilotRows.CustomSearch
+  fullName: SuperOffice.CRM.Rows.CopilotRows.CustomSearch
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.CopilotRows
+    name: CopilotRows
+    isExternal: true
+    href: SuperOffice.CRM.Rows.CopilotRows.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows.CopilotRows.CustomSearch
+    name: CustomSearch
+    isExternal: true
+    href: SuperOffice.CRM.Rows.CopilotRows.CustomSearch.html
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.CopilotRows
+    name: CopilotRows
+    isExternal: true
+    href: SuperOffice.CRM.Rows.CopilotRows.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows.CopilotRows.CustomSearch
+    name: CustomSearch
+    isExternal: true
+    href: SuperOffice.CRM.Rows.CopilotRows.CustomSearch.html
+- uid: SuperOffice.CRM.Rows.CopilotRow
+  commentId: T:SuperOffice.CRM.Rows.CopilotRow
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  href: SuperOffice.CRM.Rows.CopilotRow.html
+  name: CopilotRow
+  nameWithType: CopilotRow
+  fullName: SuperOffice.CRM.Rows.CopilotRow
+- uid: SuperOffice.CRM.Rows.CopilotRow.IdxCopilotId
+  commentId: T:SuperOffice.CRM.Rows.CopilotRow.IdxCopilotId
+  isExternal: true
+  href: SuperOffice.CRM.Rows.CopilotRow.html
+  name: CopilotRow.IdxCopilotId
+  nameWithType: CopilotRow.IdxCopilotId
+  fullName: SuperOffice.CRM.Rows.CopilotRow.IdxCopilotId
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.CopilotRow
+    name: CopilotRow
+    isExternal: true
+    href: SuperOffice.CRM.Rows.CopilotRow.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows.CopilotRow.IdxCopilotId
+    name: IdxCopilotId
+    isExternal: true
+    href: SuperOffice.CRM.Rows.CopilotRow.IdxCopilotId.html
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.CopilotRow
+    name: CopilotRow
+    isExternal: true
+    href: SuperOffice.CRM.Rows.CopilotRow.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows.CopilotRow.IdxCopilotId
+    name: IdxCopilotId
+    isExternal: true
+    href: SuperOffice.CRM.Rows.CopilotRow.IdxCopilotId.html
+- uid: SuperOffice.CRM.Rows.CopilotRow.CustomSearch
+  commentId: T:SuperOffice.CRM.Rows.CopilotRow.CustomSearch
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  href: SuperOffice.CRM.Rows.CopilotRow.html
+  name: CopilotRow.CustomSearch
+  nameWithType: CopilotRow.CustomSearch
+  fullName: SuperOffice.CRM.Rows.CopilotRow.CustomSearch
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.CopilotRow
+    name: CopilotRow
+    isExternal: true
+    href: SuperOffice.CRM.Rows.CopilotRow.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows.CopilotRow.CustomSearch
+    name: CustomSearch
+    isExternal: true
+    href: SuperOffice.CRM.Rows.CopilotRow.CustomSearch.html
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.CopilotRow
+    name: CopilotRow
+    isExternal: true
+    href: SuperOffice.CRM.Rows.CopilotRow.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows.CopilotRow.CustomSearch
+    name: CustomSearch
+    isExternal: true
+    href: SuperOffice.CRM.Rows.CopilotRow.CustomSearch.html
+- uid: SuperOffice.CRM.Rows.CopilotRecordData
+  commentId: T:SuperOffice.CRM.Rows.CopilotRecordData
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  href: SuperOffice.CRM.Rows.CopilotRecordData.html
+  name: CopilotRecordData
+  nameWithType: CopilotRecordData
+  fullName: SuperOffice.CRM.Rows.CopilotRecordData
+- uid: SuperOffice.CRM.Rows.CopilotRecordDataExtensions
+  commentId: T:SuperOffice.CRM.Rows.CopilotRecordDataExtensions
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  href: SuperOffice.CRM.Rows.CopilotRecordDataExtensions.html
+  name: CopilotRecordDataExtensions
+  nameWithType: CopilotRecordDataExtensions
+  fullName: SuperOffice.CRM.Rows.CopilotRecordDataExtensions
+- uid: SuperOffice.CRM.Rows.CopilotDataSourceRows
+  commentId: T:SuperOffice.CRM.Rows.CopilotDataSourceRows
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  href: SuperOffice.CRM.Rows.CopilotDataSourceRows.html
+  name: CopilotDataSourceRows
+  nameWithType: CopilotDataSourceRows
+  fullName: SuperOffice.CRM.Rows.CopilotDataSourceRows
+- uid: SuperOffice.CRM.Rows.CopilotDataSourceRows.CustomSearch
+  commentId: T:SuperOffice.CRM.Rows.CopilotDataSourceRows.CustomSearch
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  href: SuperOffice.CRM.Rows.CopilotDataSourceRows.html
+  name: CopilotDataSourceRows.CustomSearch
+  nameWithType: CopilotDataSourceRows.CustomSearch
+  fullName: SuperOffice.CRM.Rows.CopilotDataSourceRows.CustomSearch
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.CopilotDataSourceRows
+    name: CopilotDataSourceRows
+    isExternal: true
+    href: SuperOffice.CRM.Rows.CopilotDataSourceRows.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows.CopilotDataSourceRows.CustomSearch
+    name: CustomSearch
+    isExternal: true
+    href: SuperOffice.CRM.Rows.CopilotDataSourceRows.CustomSearch.html
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.CopilotDataSourceRows
+    name: CopilotDataSourceRows
+    isExternal: true
+    href: SuperOffice.CRM.Rows.CopilotDataSourceRows.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows.CopilotDataSourceRows.CustomSearch
+    name: CustomSearch
+    isExternal: true
+    href: SuperOffice.CRM.Rows.CopilotDataSourceRows.CustomSearch.html
+- uid: SuperOffice.CRM.Rows.CopilotDataSourceRow
+  commentId: T:SuperOffice.CRM.Rows.CopilotDataSourceRow
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  href: SuperOffice.CRM.Rows.CopilotDataSourceRow.html
+  name: CopilotDataSourceRow
+  nameWithType: CopilotDataSourceRow
+  fullName: SuperOffice.CRM.Rows.CopilotDataSourceRow
+- uid: SuperOffice.CRM.Rows.CopilotDataSourceRow.IdxCopilotDataSourceId
+  commentId: T:SuperOffice.CRM.Rows.CopilotDataSourceRow.IdxCopilotDataSourceId
+  isExternal: true
+  href: SuperOffice.CRM.Rows.CopilotDataSourceRow.html
+  name: CopilotDataSourceRow.IdxCopilotDataSourceId
+  nameWithType: CopilotDataSourceRow.IdxCopilotDataSourceId
+  fullName: SuperOffice.CRM.Rows.CopilotDataSourceRow.IdxCopilotDataSourceId
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.CopilotDataSourceRow
+    name: CopilotDataSourceRow
+    isExternal: true
+    href: SuperOffice.CRM.Rows.CopilotDataSourceRow.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows.CopilotDataSourceRow.IdxCopilotDataSourceId
+    name: IdxCopilotDataSourceId
+    isExternal: true
+    href: SuperOffice.CRM.Rows.CopilotDataSourceRow.IdxCopilotDataSourceId.html
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.CopilotDataSourceRow
+    name: CopilotDataSourceRow
+    isExternal: true
+    href: SuperOffice.CRM.Rows.CopilotDataSourceRow.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows.CopilotDataSourceRow.IdxCopilotDataSourceId
+    name: IdxCopilotDataSourceId
+    isExternal: true
+    href: SuperOffice.CRM.Rows.CopilotDataSourceRow.IdxCopilotDataSourceId.html
+- uid: SuperOffice.CRM.Rows.CopilotDataSourceRow.CustomSearch
+  commentId: T:SuperOffice.CRM.Rows.CopilotDataSourceRow.CustomSearch
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  href: SuperOffice.CRM.Rows.CopilotDataSourceRow.html
+  name: CopilotDataSourceRow.CustomSearch
+  nameWithType: CopilotDataSourceRow.CustomSearch
+  fullName: SuperOffice.CRM.Rows.CopilotDataSourceRow.CustomSearch
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.CopilotDataSourceRow
+    name: CopilotDataSourceRow
+    isExternal: true
+    href: SuperOffice.CRM.Rows.CopilotDataSourceRow.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows.CopilotDataSourceRow.CustomSearch
+    name: CustomSearch
+    isExternal: true
+    href: SuperOffice.CRM.Rows.CopilotDataSourceRow.CustomSearch.html
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.CopilotDataSourceRow
+    name: CopilotDataSourceRow
+    isExternal: true
+    href: SuperOffice.CRM.Rows.CopilotDataSourceRow.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows.CopilotDataSourceRow.CustomSearch
+    name: CustomSearch
+    isExternal: true
+    href: SuperOffice.CRM.Rows.CopilotDataSourceRow.CustomSearch.html
+- uid: SuperOffice.CRM.Rows.CopilotDataSourceRecordData
+  commentId: T:SuperOffice.CRM.Rows.CopilotDataSourceRecordData
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  href: SuperOffice.CRM.Rows.CopilotDataSourceRecordData.html
+  name: CopilotDataSourceRecordData
+  nameWithType: CopilotDataSourceRecordData
+  fullName: SuperOffice.CRM.Rows.CopilotDataSourceRecordData
+- uid: SuperOffice.CRM.Rows.CopilotDataSourceRecordDataExtensions
+  commentId: T:SuperOffice.CRM.Rows.CopilotDataSourceRecordDataExtensions
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  href: SuperOffice.CRM.Rows.CopilotDataSourceRecordDataExtensions.html
+  name: CopilotDataSourceRecordDataExtensions
+  nameWithType: CopilotDataSourceRecordDataExtensions
+  fullName: SuperOffice.CRM.Rows.CopilotDataSourceRecordDataExtensions
+- uid: SuperOffice.CRM.Rows.CopilotDataSourceSettingRows
+  commentId: T:SuperOffice.CRM.Rows.CopilotDataSourceSettingRows
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  href: SuperOffice.CRM.Rows.CopilotDataSourceSettingRows.html
+  name: CopilotDataSourceSettingRows
+  nameWithType: CopilotDataSourceSettingRows
+  fullName: SuperOffice.CRM.Rows.CopilotDataSourceSettingRows
+- uid: SuperOffice.CRM.Rows.CopilotDataSourceSettingRows.CustomSearch
+  commentId: T:SuperOffice.CRM.Rows.CopilotDataSourceSettingRows.CustomSearch
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  href: SuperOffice.CRM.Rows.CopilotDataSourceSettingRows.html
+  name: CopilotDataSourceSettingRows.CustomSearch
+  nameWithType: CopilotDataSourceSettingRows.CustomSearch
+  fullName: SuperOffice.CRM.Rows.CopilotDataSourceSettingRows.CustomSearch
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.CopilotDataSourceSettingRows
+    name: CopilotDataSourceSettingRows
+    isExternal: true
+    href: SuperOffice.CRM.Rows.CopilotDataSourceSettingRows.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows.CopilotDataSourceSettingRows.CustomSearch
+    name: CustomSearch
+    isExternal: true
+    href: SuperOffice.CRM.Rows.CopilotDataSourceSettingRows.CustomSearch.html
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.CopilotDataSourceSettingRows
+    name: CopilotDataSourceSettingRows
+    isExternal: true
+    href: SuperOffice.CRM.Rows.CopilotDataSourceSettingRows.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows.CopilotDataSourceSettingRows.CustomSearch
+    name: CustomSearch
+    isExternal: true
+    href: SuperOffice.CRM.Rows.CopilotDataSourceSettingRows.CustomSearch.html
+- uid: SuperOffice.CRM.Rows.CopilotDataSourceSettingRow
+  commentId: T:SuperOffice.CRM.Rows.CopilotDataSourceSettingRow
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  href: SuperOffice.CRM.Rows.CopilotDataSourceSettingRow.html
+  name: CopilotDataSourceSettingRow
+  nameWithType: CopilotDataSourceSettingRow
+  fullName: SuperOffice.CRM.Rows.CopilotDataSourceSettingRow
+- uid: SuperOffice.CRM.Rows.CopilotDataSourceSettingRow.IdxCopilotDataSourceSettingId
+  commentId: T:SuperOffice.CRM.Rows.CopilotDataSourceSettingRow.IdxCopilotDataSourceSettingId
+  isExternal: true
+  href: SuperOffice.CRM.Rows.CopilotDataSourceSettingRow.html
+  name: CopilotDataSourceSettingRow.IdxCopilotDataSourceSettingId
+  nameWithType: CopilotDataSourceSettingRow.IdxCopilotDataSourceSettingId
+  fullName: SuperOffice.CRM.Rows.CopilotDataSourceSettingRow.IdxCopilotDataSourceSettingId
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.CopilotDataSourceSettingRow
+    name: CopilotDataSourceSettingRow
+    isExternal: true
+    href: SuperOffice.CRM.Rows.CopilotDataSourceSettingRow.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows.CopilotDataSourceSettingRow.IdxCopilotDataSourceSettingId
+    name: IdxCopilotDataSourceSettingId
+    isExternal: true
+    href: SuperOffice.CRM.Rows.CopilotDataSourceSettingRow.IdxCopilotDataSourceSettingId.html
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.CopilotDataSourceSettingRow
+    name: CopilotDataSourceSettingRow
+    isExternal: true
+    href: SuperOffice.CRM.Rows.CopilotDataSourceSettingRow.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows.CopilotDataSourceSettingRow.IdxCopilotDataSourceSettingId
+    name: IdxCopilotDataSourceSettingId
+    isExternal: true
+    href: SuperOffice.CRM.Rows.CopilotDataSourceSettingRow.IdxCopilotDataSourceSettingId.html
+- uid: SuperOffice.CRM.Rows.CopilotDataSourceSettingRow.CustomSearch
+  commentId: T:SuperOffice.CRM.Rows.CopilotDataSourceSettingRow.CustomSearch
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  href: SuperOffice.CRM.Rows.CopilotDataSourceSettingRow.html
+  name: CopilotDataSourceSettingRow.CustomSearch
+  nameWithType: CopilotDataSourceSettingRow.CustomSearch
+  fullName: SuperOffice.CRM.Rows.CopilotDataSourceSettingRow.CustomSearch
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.CopilotDataSourceSettingRow
+    name: CopilotDataSourceSettingRow
+    isExternal: true
+    href: SuperOffice.CRM.Rows.CopilotDataSourceSettingRow.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows.CopilotDataSourceSettingRow.CustomSearch
+    name: CustomSearch
+    isExternal: true
+    href: SuperOffice.CRM.Rows.CopilotDataSourceSettingRow.CustomSearch.html
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.CopilotDataSourceSettingRow
+    name: CopilotDataSourceSettingRow
+    isExternal: true
+    href: SuperOffice.CRM.Rows.CopilotDataSourceSettingRow.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows.CopilotDataSourceSettingRow.CustomSearch
+    name: CustomSearch
+    isExternal: true
+    href: SuperOffice.CRM.Rows.CopilotDataSourceSettingRow.CustomSearch.html
+- uid: SuperOffice.CRM.Rows.CopilotDataSourceSettingRecordData
+  commentId: T:SuperOffice.CRM.Rows.CopilotDataSourceSettingRecordData
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  href: SuperOffice.CRM.Rows.CopilotDataSourceSettingRecordData.html
+  name: CopilotDataSourceSettingRecordData
+  nameWithType: CopilotDataSourceSettingRecordData
+  fullName: SuperOffice.CRM.Rows.CopilotDataSourceSettingRecordData
+- uid: SuperOffice.CRM.Rows.CopilotDataSourceSettingRecordDataExtensions
+  commentId: T:SuperOffice.CRM.Rows.CopilotDataSourceSettingRecordDataExtensions
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  href: SuperOffice.CRM.Rows.CopilotDataSourceSettingRecordDataExtensions.html
+  name: CopilotDataSourceSettingRecordDataExtensions
+  nameWithType: CopilotDataSourceSettingRecordDataExtensions
+  fullName: SuperOffice.CRM.Rows.CopilotDataSourceSettingRecordDataExtensions
 - uid: SuperOffice.CRM.Rows.CounterValueRows
   commentId: T:SuperOffice.CRM.Rows.CounterValueRows
   parent: SuperOffice.CRM.Rows
@@ -90827,6 +91370,513 @@ references:
   name: TicketPriorityRecordDataExtensions
   nameWithType: TicketPriorityRecordDataExtensions
   fullName: SuperOffice.CRM.Rows.TicketPriorityRecordDataExtensions
+- uid: SuperOffice.CRM.Rows.TicketRelationRows
+  commentId: T:SuperOffice.CRM.Rows.TicketRelationRows
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  href: SuperOffice.CRM.Rows.TicketRelationRows.html
+  name: TicketRelationRows
+  nameWithType: TicketRelationRows
+  fullName: SuperOffice.CRM.Rows.TicketRelationRows
+- uid: SuperOffice.CRM.Rows.TicketRelationRows.IdxSourceTicketId
+  commentId: T:SuperOffice.CRM.Rows.TicketRelationRows.IdxSourceTicketId
+  isExternal: true
+  href: SuperOffice.CRM.Rows.TicketRelationRows.html
+  name: TicketRelationRows.IdxSourceTicketId
+  nameWithType: TicketRelationRows.IdxSourceTicketId
+  fullName: SuperOffice.CRM.Rows.TicketRelationRows.IdxSourceTicketId
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.TicketRelationRows
+    name: TicketRelationRows
+    isExternal: true
+    href: SuperOffice.CRM.Rows.TicketRelationRows.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows.TicketRelationRows.IdxSourceTicketId
+    name: IdxSourceTicketId
+    isExternal: true
+    href: SuperOffice.CRM.Rows.TicketRelationRows.IdxSourceTicketId.html
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.TicketRelationRows
+    name: TicketRelationRows
+    isExternal: true
+    href: SuperOffice.CRM.Rows.TicketRelationRows.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows.TicketRelationRows.IdxSourceTicketId
+    name: IdxSourceTicketId
+    isExternal: true
+    href: SuperOffice.CRM.Rows.TicketRelationRows.IdxSourceTicketId.html
+- uid: SuperOffice.CRM.Rows.TicketRelationRows.IdxDestinationTicketId
+  commentId: T:SuperOffice.CRM.Rows.TicketRelationRows.IdxDestinationTicketId
+  isExternal: true
+  href: SuperOffice.CRM.Rows.TicketRelationRows.html
+  name: TicketRelationRows.IdxDestinationTicketId
+  nameWithType: TicketRelationRows.IdxDestinationTicketId
+  fullName: SuperOffice.CRM.Rows.TicketRelationRows.IdxDestinationTicketId
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.TicketRelationRows
+    name: TicketRelationRows
+    isExternal: true
+    href: SuperOffice.CRM.Rows.TicketRelationRows.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows.TicketRelationRows.IdxDestinationTicketId
+    name: IdxDestinationTicketId
+    isExternal: true
+    href: SuperOffice.CRM.Rows.TicketRelationRows.IdxDestinationTicketId.html
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.TicketRelationRows
+    name: TicketRelationRows
+    isExternal: true
+    href: SuperOffice.CRM.Rows.TicketRelationRows.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows.TicketRelationRows.IdxDestinationTicketId
+    name: IdxDestinationTicketId
+    isExternal: true
+    href: SuperOffice.CRM.Rows.TicketRelationRows.IdxDestinationTicketId.html
+- uid: SuperOffice.CRM.Rows.TicketRelationRows.CustomSearch
+  commentId: T:SuperOffice.CRM.Rows.TicketRelationRows.CustomSearch
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  href: SuperOffice.CRM.Rows.TicketRelationRows.html
+  name: TicketRelationRows.CustomSearch
+  nameWithType: TicketRelationRows.CustomSearch
+  fullName: SuperOffice.CRM.Rows.TicketRelationRows.CustomSearch
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.TicketRelationRows
+    name: TicketRelationRows
+    isExternal: true
+    href: SuperOffice.CRM.Rows.TicketRelationRows.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows.TicketRelationRows.CustomSearch
+    name: CustomSearch
+    isExternal: true
+    href: SuperOffice.CRM.Rows.TicketRelationRows.CustomSearch.html
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.TicketRelationRows
+    name: TicketRelationRows
+    isExternal: true
+    href: SuperOffice.CRM.Rows.TicketRelationRows.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows.TicketRelationRows.CustomSearch
+    name: CustomSearch
+    isExternal: true
+    href: SuperOffice.CRM.Rows.TicketRelationRows.CustomSearch.html
+- uid: SuperOffice.CRM.Rows.TicketRelationRow
+  commentId: T:SuperOffice.CRM.Rows.TicketRelationRow
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  href: SuperOffice.CRM.Rows.TicketRelationRow.html
+  name: TicketRelationRow
+  nameWithType: TicketRelationRow
+  fullName: SuperOffice.CRM.Rows.TicketRelationRow
+- uid: SuperOffice.CRM.Rows.TicketRelationRow.IdxTicketRelationId
+  commentId: T:SuperOffice.CRM.Rows.TicketRelationRow.IdxTicketRelationId
+  isExternal: true
+  href: SuperOffice.CRM.Rows.TicketRelationRow.html
+  name: TicketRelationRow.IdxTicketRelationId
+  nameWithType: TicketRelationRow.IdxTicketRelationId
+  fullName: SuperOffice.CRM.Rows.TicketRelationRow.IdxTicketRelationId
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.TicketRelationRow
+    name: TicketRelationRow
+    isExternal: true
+    href: SuperOffice.CRM.Rows.TicketRelationRow.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows.TicketRelationRow.IdxTicketRelationId
+    name: IdxTicketRelationId
+    isExternal: true
+    href: SuperOffice.CRM.Rows.TicketRelationRow.IdxTicketRelationId.html
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.TicketRelationRow
+    name: TicketRelationRow
+    isExternal: true
+    href: SuperOffice.CRM.Rows.TicketRelationRow.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows.TicketRelationRow.IdxTicketRelationId
+    name: IdxTicketRelationId
+    isExternal: true
+    href: SuperOffice.CRM.Rows.TicketRelationRow.IdxTicketRelationId.html
+- uid: SuperOffice.CRM.Rows.TicketRelationRow.CustomSearch
+  commentId: T:SuperOffice.CRM.Rows.TicketRelationRow.CustomSearch
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  href: SuperOffice.CRM.Rows.TicketRelationRow.html
+  name: TicketRelationRow.CustomSearch
+  nameWithType: TicketRelationRow.CustomSearch
+  fullName: SuperOffice.CRM.Rows.TicketRelationRow.CustomSearch
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.TicketRelationRow
+    name: TicketRelationRow
+    isExternal: true
+    href: SuperOffice.CRM.Rows.TicketRelationRow.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows.TicketRelationRow.CustomSearch
+    name: CustomSearch
+    isExternal: true
+    href: SuperOffice.CRM.Rows.TicketRelationRow.CustomSearch.html
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.TicketRelationRow
+    name: TicketRelationRow
+    isExternal: true
+    href: SuperOffice.CRM.Rows.TicketRelationRow.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows.TicketRelationRow.CustomSearch
+    name: CustomSearch
+    isExternal: true
+    href: SuperOffice.CRM.Rows.TicketRelationRow.CustomSearch.html
+- uid: SuperOffice.CRM.Rows.TicketRelationRecordData
+  commentId: T:SuperOffice.CRM.Rows.TicketRelationRecordData
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  href: SuperOffice.CRM.Rows.TicketRelationRecordData.html
+  name: TicketRelationRecordData
+  nameWithType: TicketRelationRecordData
+  fullName: SuperOffice.CRM.Rows.TicketRelationRecordData
+- uid: SuperOffice.CRM.Rows.TicketRelationRecordDataExtensions
+  commentId: T:SuperOffice.CRM.Rows.TicketRelationRecordDataExtensions
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  href: SuperOffice.CRM.Rows.TicketRelationRecordDataExtensions.html
+  name: TicketRelationRecordDataExtensions
+  nameWithType: TicketRelationRecordDataExtensions
+  fullName: SuperOffice.CRM.Rows.TicketRelationRecordDataExtensions
+- uid: SuperOffice.CRM.Rows.TicketRelationDefRows
+  commentId: T:SuperOffice.CRM.Rows.TicketRelationDefRows
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  href: SuperOffice.CRM.Rows.TicketRelationDefRows.html
+  name: TicketRelationDefRows
+  nameWithType: TicketRelationDefRows
+  fullName: SuperOffice.CRM.Rows.TicketRelationDefRows
+- uid: SuperOffice.CRM.Rows.TicketRelationDefRows.CustomSearch
+  commentId: T:SuperOffice.CRM.Rows.TicketRelationDefRows.CustomSearch
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  href: SuperOffice.CRM.Rows.TicketRelationDefRows.html
+  name: TicketRelationDefRows.CustomSearch
+  nameWithType: TicketRelationDefRows.CustomSearch
+  fullName: SuperOffice.CRM.Rows.TicketRelationDefRows.CustomSearch
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.TicketRelationDefRows
+    name: TicketRelationDefRows
+    isExternal: true
+    href: SuperOffice.CRM.Rows.TicketRelationDefRows.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows.TicketRelationDefRows.CustomSearch
+    name: CustomSearch
+    isExternal: true
+    href: SuperOffice.CRM.Rows.TicketRelationDefRows.CustomSearch.html
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.TicketRelationDefRows
+    name: TicketRelationDefRows
+    isExternal: true
+    href: SuperOffice.CRM.Rows.TicketRelationDefRows.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows.TicketRelationDefRows.CustomSearch
+    name: CustomSearch
+    isExternal: true
+    href: SuperOffice.CRM.Rows.TicketRelationDefRows.CustomSearch.html
+- uid: SuperOffice.CRM.Rows.TicketRelationDefRow
+  commentId: T:SuperOffice.CRM.Rows.TicketRelationDefRow
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  href: SuperOffice.CRM.Rows.TicketRelationDefRow.html
+  name: TicketRelationDefRow
+  nameWithType: TicketRelationDefRow
+  fullName: SuperOffice.CRM.Rows.TicketRelationDefRow
+- uid: SuperOffice.CRM.Rows.TicketRelationDefRow.IdxTicketRelationDefId
+  commentId: T:SuperOffice.CRM.Rows.TicketRelationDefRow.IdxTicketRelationDefId
+  isExternal: true
+  href: SuperOffice.CRM.Rows.TicketRelationDefRow.html
+  name: TicketRelationDefRow.IdxTicketRelationDefId
+  nameWithType: TicketRelationDefRow.IdxTicketRelationDefId
+  fullName: SuperOffice.CRM.Rows.TicketRelationDefRow.IdxTicketRelationDefId
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.TicketRelationDefRow
+    name: TicketRelationDefRow
+    isExternal: true
+    href: SuperOffice.CRM.Rows.TicketRelationDefRow.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows.TicketRelationDefRow.IdxTicketRelationDefId
+    name: IdxTicketRelationDefId
+    isExternal: true
+    href: SuperOffice.CRM.Rows.TicketRelationDefRow.IdxTicketRelationDefId.html
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.TicketRelationDefRow
+    name: TicketRelationDefRow
+    isExternal: true
+    href: SuperOffice.CRM.Rows.TicketRelationDefRow.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows.TicketRelationDefRow.IdxTicketRelationDefId
+    name: IdxTicketRelationDefId
+    isExternal: true
+    href: SuperOffice.CRM.Rows.TicketRelationDefRow.IdxTicketRelationDefId.html
+- uid: SuperOffice.CRM.Rows.TicketRelationDefRow.IdxName
+  commentId: T:SuperOffice.CRM.Rows.TicketRelationDefRow.IdxName
+  isExternal: true
+  href: SuperOffice.CRM.Rows.TicketRelationDefRow.html
+  name: TicketRelationDefRow.IdxName
+  nameWithType: TicketRelationDefRow.IdxName
+  fullName: SuperOffice.CRM.Rows.TicketRelationDefRow.IdxName
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.TicketRelationDefRow
+    name: TicketRelationDefRow
+    isExternal: true
+    href: SuperOffice.CRM.Rows.TicketRelationDefRow.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows.TicketRelationDefRow.IdxName
+    name: IdxName
+    isExternal: true
+    href: SuperOffice.CRM.Rows.TicketRelationDefRow.IdxName.html
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.TicketRelationDefRow
+    name: TicketRelationDefRow
+    isExternal: true
+    href: SuperOffice.CRM.Rows.TicketRelationDefRow.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows.TicketRelationDefRow.IdxName
+    name: IdxName
+    isExternal: true
+    href: SuperOffice.CRM.Rows.TicketRelationDefRow.IdxName.html
+- uid: SuperOffice.CRM.Rows.TicketRelationDefRow.CustomSearch
+  commentId: T:SuperOffice.CRM.Rows.TicketRelationDefRow.CustomSearch
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  href: SuperOffice.CRM.Rows.TicketRelationDefRow.html
+  name: TicketRelationDefRow.CustomSearch
+  nameWithType: TicketRelationDefRow.CustomSearch
+  fullName: SuperOffice.CRM.Rows.TicketRelationDefRow.CustomSearch
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.TicketRelationDefRow
+    name: TicketRelationDefRow
+    isExternal: true
+    href: SuperOffice.CRM.Rows.TicketRelationDefRow.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows.TicketRelationDefRow.CustomSearch
+    name: CustomSearch
+    isExternal: true
+    href: SuperOffice.CRM.Rows.TicketRelationDefRow.CustomSearch.html
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.TicketRelationDefRow
+    name: TicketRelationDefRow
+    isExternal: true
+    href: SuperOffice.CRM.Rows.TicketRelationDefRow.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows.TicketRelationDefRow.CustomSearch
+    name: CustomSearch
+    isExternal: true
+    href: SuperOffice.CRM.Rows.TicketRelationDefRow.CustomSearch.html
+- uid: SuperOffice.CRM.Rows.TicketRelationDefRecordData
+  commentId: T:SuperOffice.CRM.Rows.TicketRelationDefRecordData
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  href: SuperOffice.CRM.Rows.TicketRelationDefRecordData.html
+  name: TicketRelationDefRecordData
+  nameWithType: TicketRelationDefRecordData
+  fullName: SuperOffice.CRM.Rows.TicketRelationDefRecordData
+- uid: SuperOffice.CRM.Rows.TicketRelationDefRecordDataExtensions
+  commentId: T:SuperOffice.CRM.Rows.TicketRelationDefRecordDataExtensions
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  href: SuperOffice.CRM.Rows.TicketRelationDefRecordDataExtensions.html
+  name: TicketRelationDefRecordDataExtensions
+  nameWithType: TicketRelationDefRecordDataExtensions
+  fullName: SuperOffice.CRM.Rows.TicketRelationDefRecordDataExtensions
+- uid: SuperOffice.CRM.Rows.TicketRelDefTicketTypeRows
+  commentId: T:SuperOffice.CRM.Rows.TicketRelDefTicketTypeRows
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  href: SuperOffice.CRM.Rows.TicketRelDefTicketTypeRows.html
+  name: TicketRelDefTicketTypeRows
+  nameWithType: TicketRelDefTicketTypeRows
+  fullName: SuperOffice.CRM.Rows.TicketRelDefTicketTypeRows
+- uid: SuperOffice.CRM.Rows.TicketRelDefTicketTypeRows.IdxTicketRelationDefId
+  commentId: T:SuperOffice.CRM.Rows.TicketRelDefTicketTypeRows.IdxTicketRelationDefId
+  isExternal: true
+  href: SuperOffice.CRM.Rows.TicketRelDefTicketTypeRows.html
+  name: TicketRelDefTicketTypeRows.IdxTicketRelationDefId
+  nameWithType: TicketRelDefTicketTypeRows.IdxTicketRelationDefId
+  fullName: SuperOffice.CRM.Rows.TicketRelDefTicketTypeRows.IdxTicketRelationDefId
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.TicketRelDefTicketTypeRows
+    name: TicketRelDefTicketTypeRows
+    isExternal: true
+    href: SuperOffice.CRM.Rows.TicketRelDefTicketTypeRows.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows.TicketRelDefTicketTypeRows.IdxTicketRelationDefId
+    name: IdxTicketRelationDefId
+    isExternal: true
+    href: SuperOffice.CRM.Rows.TicketRelDefTicketTypeRows.IdxTicketRelationDefId.html
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.TicketRelDefTicketTypeRows
+    name: TicketRelDefTicketTypeRows
+    isExternal: true
+    href: SuperOffice.CRM.Rows.TicketRelDefTicketTypeRows.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows.TicketRelDefTicketTypeRows.IdxTicketRelationDefId
+    name: IdxTicketRelationDefId
+    isExternal: true
+    href: SuperOffice.CRM.Rows.TicketRelDefTicketTypeRows.IdxTicketRelationDefId.html
+- uid: SuperOffice.CRM.Rows.TicketRelDefTicketTypeRows.IdxTicketRelationDefIdSourceTicketTypeId
+  commentId: T:SuperOffice.CRM.Rows.TicketRelDefTicketTypeRows.IdxTicketRelationDefIdSourceTicketTypeId
+  isExternal: true
+  href: SuperOffice.CRM.Rows.TicketRelDefTicketTypeRows.html
+  name: TicketRelDefTicketTypeRows.IdxTicketRelationDefIdSourceTicketTypeId
+  nameWithType: TicketRelDefTicketTypeRows.IdxTicketRelationDefIdSourceTicketTypeId
+  fullName: SuperOffice.CRM.Rows.TicketRelDefTicketTypeRows.IdxTicketRelationDefIdSourceTicketTypeId
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.TicketRelDefTicketTypeRows
+    name: TicketRelDefTicketTypeRows
+    isExternal: true
+    href: SuperOffice.CRM.Rows.TicketRelDefTicketTypeRows.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows.TicketRelDefTicketTypeRows.IdxTicketRelationDefIdSourceTicketTypeId
+    name: IdxTicketRelationDefIdSourceTicketTypeId
+    isExternal: true
+    href: SuperOffice.CRM.Rows.TicketRelDefTicketTypeRows.IdxTicketRelationDefIdSourceTicketTypeId.html
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.TicketRelDefTicketTypeRows
+    name: TicketRelDefTicketTypeRows
+    isExternal: true
+    href: SuperOffice.CRM.Rows.TicketRelDefTicketTypeRows.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows.TicketRelDefTicketTypeRows.IdxTicketRelationDefIdSourceTicketTypeId
+    name: IdxTicketRelationDefIdSourceTicketTypeId
+    isExternal: true
+    href: SuperOffice.CRM.Rows.TicketRelDefTicketTypeRows.IdxTicketRelationDefIdSourceTicketTypeId.html
+- uid: SuperOffice.CRM.Rows.TicketRelDefTicketTypeRows.CustomSearch
+  commentId: T:SuperOffice.CRM.Rows.TicketRelDefTicketTypeRows.CustomSearch
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  href: SuperOffice.CRM.Rows.TicketRelDefTicketTypeRows.html
+  name: TicketRelDefTicketTypeRows.CustomSearch
+  nameWithType: TicketRelDefTicketTypeRows.CustomSearch
+  fullName: SuperOffice.CRM.Rows.TicketRelDefTicketTypeRows.CustomSearch
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.TicketRelDefTicketTypeRows
+    name: TicketRelDefTicketTypeRows
+    isExternal: true
+    href: SuperOffice.CRM.Rows.TicketRelDefTicketTypeRows.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows.TicketRelDefTicketTypeRows.CustomSearch
+    name: CustomSearch
+    isExternal: true
+    href: SuperOffice.CRM.Rows.TicketRelDefTicketTypeRows.CustomSearch.html
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.TicketRelDefTicketTypeRows
+    name: TicketRelDefTicketTypeRows
+    isExternal: true
+    href: SuperOffice.CRM.Rows.TicketRelDefTicketTypeRows.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows.TicketRelDefTicketTypeRows.CustomSearch
+    name: CustomSearch
+    isExternal: true
+    href: SuperOffice.CRM.Rows.TicketRelDefTicketTypeRows.CustomSearch.html
+- uid: SuperOffice.CRM.Rows.TicketRelDefTicketTypeRow
+  commentId: T:SuperOffice.CRM.Rows.TicketRelDefTicketTypeRow
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  href: SuperOffice.CRM.Rows.TicketRelDefTicketTypeRow.html
+  name: TicketRelDefTicketTypeRow
+  nameWithType: TicketRelDefTicketTypeRow
+  fullName: SuperOffice.CRM.Rows.TicketRelDefTicketTypeRow
+- uid: SuperOffice.CRM.Rows.TicketRelDefTicketTypeRow.IdxTicketRelDefTicketTypeId
+  commentId: T:SuperOffice.CRM.Rows.TicketRelDefTicketTypeRow.IdxTicketRelDefTicketTypeId
+  isExternal: true
+  href: SuperOffice.CRM.Rows.TicketRelDefTicketTypeRow.html
+  name: TicketRelDefTicketTypeRow.IdxTicketRelDefTicketTypeId
+  nameWithType: TicketRelDefTicketTypeRow.IdxTicketRelDefTicketTypeId
+  fullName: SuperOffice.CRM.Rows.TicketRelDefTicketTypeRow.IdxTicketRelDefTicketTypeId
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.TicketRelDefTicketTypeRow
+    name: TicketRelDefTicketTypeRow
+    isExternal: true
+    href: SuperOffice.CRM.Rows.TicketRelDefTicketTypeRow.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows.TicketRelDefTicketTypeRow.IdxTicketRelDefTicketTypeId
+    name: IdxTicketRelDefTicketTypeId
+    isExternal: true
+    href: SuperOffice.CRM.Rows.TicketRelDefTicketTypeRow.IdxTicketRelDefTicketTypeId.html
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.TicketRelDefTicketTypeRow
+    name: TicketRelDefTicketTypeRow
+    isExternal: true
+    href: SuperOffice.CRM.Rows.TicketRelDefTicketTypeRow.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows.TicketRelDefTicketTypeRow.IdxTicketRelDefTicketTypeId
+    name: IdxTicketRelDefTicketTypeId
+    isExternal: true
+    href: SuperOffice.CRM.Rows.TicketRelDefTicketTypeRow.IdxTicketRelDefTicketTypeId.html
+- uid: SuperOffice.CRM.Rows.TicketRelDefTicketTypeRow.IdxTicketRelationDefIdSourceTicketTypeIdDestinationTicketTypeId
+  commentId: T:SuperOffice.CRM.Rows.TicketRelDefTicketTypeRow.IdxTicketRelationDefIdSourceTicketTypeIdDestinationTicketTypeId
+  isExternal: true
+  href: SuperOffice.CRM.Rows.TicketRelDefTicketTypeRow.html
+  name: TicketRelDefTicketTypeRow.IdxTicketRelationDefIdSourceTicketTypeIdDestinationTicketTypeId
+  nameWithType: TicketRelDefTicketTypeRow.IdxTicketRelationDefIdSourceTicketTypeIdDestinationTicketTypeId
+  fullName: SuperOffice.CRM.Rows.TicketRelDefTicketTypeRow.IdxTicketRelationDefIdSourceTicketTypeIdDestinationTicketTypeId
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.TicketRelDefTicketTypeRow
+    name: TicketRelDefTicketTypeRow
+    isExternal: true
+    href: SuperOffice.CRM.Rows.TicketRelDefTicketTypeRow.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows.TicketRelDefTicketTypeRow.IdxTicketRelationDefIdSourceTicketTypeIdDestinationTicketTypeId
+    name: IdxTicketRelationDefIdSourceTicketTypeIdDestinationTicketTypeId
+    isExternal: true
+    href: SuperOffice.CRM.Rows.TicketRelDefTicketTypeRow.IdxTicketRelationDefIdSourceTicketTypeIdDestinationTicketTypeId.html
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.TicketRelDefTicketTypeRow
+    name: TicketRelDefTicketTypeRow
+    isExternal: true
+    href: SuperOffice.CRM.Rows.TicketRelDefTicketTypeRow.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows.TicketRelDefTicketTypeRow.IdxTicketRelationDefIdSourceTicketTypeIdDestinationTicketTypeId
+    name: IdxTicketRelationDefIdSourceTicketTypeIdDestinationTicketTypeId
+    isExternal: true
+    href: SuperOffice.CRM.Rows.TicketRelDefTicketTypeRow.IdxTicketRelationDefIdSourceTicketTypeIdDestinationTicketTypeId.html
+- uid: SuperOffice.CRM.Rows.TicketRelDefTicketTypeRow.CustomSearch
+  commentId: T:SuperOffice.CRM.Rows.TicketRelDefTicketTypeRow.CustomSearch
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  href: SuperOffice.CRM.Rows.TicketRelDefTicketTypeRow.html
+  name: TicketRelDefTicketTypeRow.CustomSearch
+  nameWithType: TicketRelDefTicketTypeRow.CustomSearch
+  fullName: SuperOffice.CRM.Rows.TicketRelDefTicketTypeRow.CustomSearch
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.TicketRelDefTicketTypeRow
+    name: TicketRelDefTicketTypeRow
+    isExternal: true
+    href: SuperOffice.CRM.Rows.TicketRelDefTicketTypeRow.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows.TicketRelDefTicketTypeRow.CustomSearch
+    name: CustomSearch
+    isExternal: true
+    href: SuperOffice.CRM.Rows.TicketRelDefTicketTypeRow.CustomSearch.html
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.TicketRelDefTicketTypeRow
+    name: TicketRelDefTicketTypeRow
+    isExternal: true
+    href: SuperOffice.CRM.Rows.TicketRelDefTicketTypeRow.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows.TicketRelDefTicketTypeRow.CustomSearch
+    name: CustomSearch
+    isExternal: true
+    href: SuperOffice.CRM.Rows.TicketRelDefTicketTypeRow.CustomSearch.html
+- uid: SuperOffice.CRM.Rows.TicketRelDefTicketTypeRecordData
+  commentId: T:SuperOffice.CRM.Rows.TicketRelDefTicketTypeRecordData
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  href: SuperOffice.CRM.Rows.TicketRelDefTicketTypeRecordData.html
+  name: TicketRelDefTicketTypeRecordData
+  nameWithType: TicketRelDefTicketTypeRecordData
+  fullName: SuperOffice.CRM.Rows.TicketRelDefTicketTypeRecordData
+- uid: SuperOffice.CRM.Rows.TicketRelDefTicketTypeRecordDataExtensions
+  commentId: T:SuperOffice.CRM.Rows.TicketRelDefTicketTypeRecordDataExtensions
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  href: SuperOffice.CRM.Rows.TicketRelDefTicketTypeRecordDataExtensions.html
+  name: TicketRelDefTicketTypeRecordDataExtensions
+  nameWithType: TicketRelDefTicketTypeRecordDataExtensions
+  fullName: SuperOffice.CRM.Rows.TicketRelDefTicketTypeRecordDataExtensions
 - uid: SuperOffice.CRM.Rows.TicketStatusRows
   commentId: T:SuperOffice.CRM.Rows.TicketStatusRows
   parent: SuperOffice.CRM.Rows
@@ -91626,87 +92676,87 @@ references:
   name: TimeKeepingRows
   nameWithType: TimeKeepingRows
   fullName: SuperOffice.CRM.Rows.TimeKeepingRows
-- uid: SuperOffice.CRM.Rows.TimeKeepingRows.IdxEntityId
-  commentId: T:SuperOffice.CRM.Rows.TimeKeepingRows.IdxEntityId
+- uid: SuperOffice.CRM.Rows.TimeKeepingRows.IdxOwnerRecord
+  commentId: T:SuperOffice.CRM.Rows.TimeKeepingRows.IdxOwnerRecord
   isExternal: true
   href: SuperOffice.CRM.Rows.TimeKeepingRows.html
-  name: TimeKeepingRows.IdxEntityId
-  nameWithType: TimeKeepingRows.IdxEntityId
-  fullName: SuperOffice.CRM.Rows.TimeKeepingRows.IdxEntityId
+  name: TimeKeepingRows.IdxOwnerRecord
+  nameWithType: TimeKeepingRows.IdxOwnerRecord
+  fullName: SuperOffice.CRM.Rows.TimeKeepingRows.IdxOwnerRecord
   spec.csharp:
   - uid: SuperOffice.CRM.Rows.TimeKeepingRows
     name: TimeKeepingRows
     isExternal: true
     href: SuperOffice.CRM.Rows.TimeKeepingRows.html
   - name: .
-  - uid: SuperOffice.CRM.Rows.TimeKeepingRows.IdxEntityId
-    name: IdxEntityId
+  - uid: SuperOffice.CRM.Rows.TimeKeepingRows.IdxOwnerRecord
+    name: IdxOwnerRecord
     isExternal: true
-    href: SuperOffice.CRM.Rows.TimeKeepingRows.IdxEntityId.html
+    href: SuperOffice.CRM.Rows.TimeKeepingRows.IdxOwnerRecord.html
   spec.vb:
   - uid: SuperOffice.CRM.Rows.TimeKeepingRows
     name: TimeKeepingRows
     isExternal: true
     href: SuperOffice.CRM.Rows.TimeKeepingRows.html
   - name: .
-  - uid: SuperOffice.CRM.Rows.TimeKeepingRows.IdxEntityId
-    name: IdxEntityId
+  - uid: SuperOffice.CRM.Rows.TimeKeepingRows.IdxOwnerRecord
+    name: IdxOwnerRecord
     isExternal: true
-    href: SuperOffice.CRM.Rows.TimeKeepingRows.IdxEntityId.html
-- uid: SuperOffice.CRM.Rows.TimeKeepingRows.IdxEntityIdStateId
-  commentId: T:SuperOffice.CRM.Rows.TimeKeepingRows.IdxEntityIdStateId
+    href: SuperOffice.CRM.Rows.TimeKeepingRows.IdxOwnerRecord.html
+- uid: SuperOffice.CRM.Rows.TimeKeepingRows.IdxOwnerRecordStateId
+  commentId: T:SuperOffice.CRM.Rows.TimeKeepingRows.IdxOwnerRecordStateId
   isExternal: true
   href: SuperOffice.CRM.Rows.TimeKeepingRows.html
-  name: TimeKeepingRows.IdxEntityIdStateId
-  nameWithType: TimeKeepingRows.IdxEntityIdStateId
-  fullName: SuperOffice.CRM.Rows.TimeKeepingRows.IdxEntityIdStateId
+  name: TimeKeepingRows.IdxOwnerRecordStateId
+  nameWithType: TimeKeepingRows.IdxOwnerRecordStateId
+  fullName: SuperOffice.CRM.Rows.TimeKeepingRows.IdxOwnerRecordStateId
   spec.csharp:
   - uid: SuperOffice.CRM.Rows.TimeKeepingRows
     name: TimeKeepingRows
     isExternal: true
     href: SuperOffice.CRM.Rows.TimeKeepingRows.html
   - name: .
-  - uid: SuperOffice.CRM.Rows.TimeKeepingRows.IdxEntityIdStateId
-    name: IdxEntityIdStateId
+  - uid: SuperOffice.CRM.Rows.TimeKeepingRows.IdxOwnerRecordStateId
+    name: IdxOwnerRecordStateId
     isExternal: true
-    href: SuperOffice.CRM.Rows.TimeKeepingRows.IdxEntityIdStateId.html
+    href: SuperOffice.CRM.Rows.TimeKeepingRows.IdxOwnerRecordStateId.html
   spec.vb:
   - uid: SuperOffice.CRM.Rows.TimeKeepingRows
     name: TimeKeepingRows
     isExternal: true
     href: SuperOffice.CRM.Rows.TimeKeepingRows.html
   - name: .
-  - uid: SuperOffice.CRM.Rows.TimeKeepingRows.IdxEntityIdStateId
-    name: IdxEntityIdStateId
+  - uid: SuperOffice.CRM.Rows.TimeKeepingRows.IdxOwnerRecordStateId
+    name: IdxOwnerRecordStateId
     isExternal: true
-    href: SuperOffice.CRM.Rows.TimeKeepingRows.IdxEntityIdStateId.html
-- uid: SuperOffice.CRM.Rows.TimeKeepingRows.IdxEntityIdStateIdTimeKeepingType
-  commentId: T:SuperOffice.CRM.Rows.TimeKeepingRows.IdxEntityIdStateIdTimeKeepingType
+    href: SuperOffice.CRM.Rows.TimeKeepingRows.IdxOwnerRecordStateId.html
+- uid: SuperOffice.CRM.Rows.TimeKeepingRows.IdxOwnerRecordStateIdTimeKeepingType
+  commentId: T:SuperOffice.CRM.Rows.TimeKeepingRows.IdxOwnerRecordStateIdTimeKeepingType
   isExternal: true
   href: SuperOffice.CRM.Rows.TimeKeepingRows.html
-  name: TimeKeepingRows.IdxEntityIdStateIdTimeKeepingType
-  nameWithType: TimeKeepingRows.IdxEntityIdStateIdTimeKeepingType
-  fullName: SuperOffice.CRM.Rows.TimeKeepingRows.IdxEntityIdStateIdTimeKeepingType
+  name: TimeKeepingRows.IdxOwnerRecordStateIdTimeKeepingType
+  nameWithType: TimeKeepingRows.IdxOwnerRecordStateIdTimeKeepingType
+  fullName: SuperOffice.CRM.Rows.TimeKeepingRows.IdxOwnerRecordStateIdTimeKeepingType
   spec.csharp:
   - uid: SuperOffice.CRM.Rows.TimeKeepingRows
     name: TimeKeepingRows
     isExternal: true
     href: SuperOffice.CRM.Rows.TimeKeepingRows.html
   - name: .
-  - uid: SuperOffice.CRM.Rows.TimeKeepingRows.IdxEntityIdStateIdTimeKeepingType
-    name: IdxEntityIdStateIdTimeKeepingType
+  - uid: SuperOffice.CRM.Rows.TimeKeepingRows.IdxOwnerRecordStateIdTimeKeepingType
+    name: IdxOwnerRecordStateIdTimeKeepingType
     isExternal: true
-    href: SuperOffice.CRM.Rows.TimeKeepingRows.IdxEntityIdStateIdTimeKeepingType.html
+    href: SuperOffice.CRM.Rows.TimeKeepingRows.IdxOwnerRecordStateIdTimeKeepingType.html
   spec.vb:
   - uid: SuperOffice.CRM.Rows.TimeKeepingRows
     name: TimeKeepingRows
     isExternal: true
     href: SuperOffice.CRM.Rows.TimeKeepingRows.html
   - name: .
-  - uid: SuperOffice.CRM.Rows.TimeKeepingRows.IdxEntityIdStateIdTimeKeepingType
-    name: IdxEntityIdStateIdTimeKeepingType
+  - uid: SuperOffice.CRM.Rows.TimeKeepingRows.IdxOwnerRecordStateIdTimeKeepingType
+    name: IdxOwnerRecordStateIdTimeKeepingType
     isExternal: true
-    href: SuperOffice.CRM.Rows.TimeKeepingRows.IdxEntityIdStateIdTimeKeepingType.html
+    href: SuperOffice.CRM.Rows.TimeKeepingRows.IdxOwnerRecordStateIdTimeKeepingType.html
 - uid: SuperOffice.CRM.Rows.TimeKeepingRows.CustomSearch
   commentId: T:SuperOffice.CRM.Rows.TimeKeepingRows.CustomSearch
   parent: SuperOffice.CRM.Rows
