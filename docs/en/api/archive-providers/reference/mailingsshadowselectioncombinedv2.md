@@ -674,7 +674,7 @@ Implementation of the provider for the combined selection
 ## Sample
 
 ```http!
-GET /api/v1/archive/MailingsShadowSelectionCombinedV2?$select=mailingSubscriptionType,mailingClickRate,mailingAddr/contact/contactFax/description,mailingAddr/person/correspondingAssociate/locationAddress,emailFlow/overrideConsentSubscription
+GET /api/v1/archive/MailingsShadowSelectionCombinedV2?$select=mailingAddr/contact/streetAddress/line1,mailingAddr/contact/streetAddress/line2,mailingAddr/contact/saintActivityType,mailingAddr/person/portraitThumbnail,mailingAddr/person/personUdef/SuperOffice:2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

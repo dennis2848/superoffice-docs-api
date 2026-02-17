@@ -669,7 +669,7 @@ Mailings selection archive using the selectionId as criterionmapping.
 ## Sample
 
 ```http!
-GET /api/v1/archive/MailingsDynamicSelectionSingleCriteriaGroup?$select=mailingSentCount,mailingAddr/contact/registeredByFullName,mailingAddr/contact/contactAssociate/simultaneousEjUser,mailingAddr/contact/NumberOfSales,mailingAddr/person/restrictionAddress/addressId
+GET /api/v1/archive/MailingsDynamicSelectionSingleCriteriaGroup?$select=mailingId,mailingAddr/contact/contactAssociate/contactFullName,mailingAddr/person/fullName,mailingAddr/person/restrictionAddress/line3,mailingAddr/person/personAssociate/usergroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

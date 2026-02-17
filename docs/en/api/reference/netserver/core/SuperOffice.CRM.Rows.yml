@@ -266,6 +266,13 @@ items:
   - SuperOffice.CRM.Rows.AutosaveRows
   - SuperOffice.CRM.Rows.AutosaveRows.CustomSearch
   - SuperOffice.CRM.Rows.AutosaveRows.IdxIndexId
+  - SuperOffice.CRM.Rows.AvailableFontsRecordData
+  - SuperOffice.CRM.Rows.AvailableFontsRecordDataExtensions
+  - SuperOffice.CRM.Rows.AvailableFontsRow
+  - SuperOffice.CRM.Rows.AvailableFontsRow.CustomSearch
+  - SuperOffice.CRM.Rows.AvailableFontsRow.IdxAvailableFontsId
+  - SuperOffice.CRM.Rows.AvailableFontsRows
+  - SuperOffice.CRM.Rows.AvailableFontsRows.CustomSearch
   - SuperOffice.CRM.Rows.BaseTZLocationRecordData
   - SuperOffice.CRM.Rows.BaseTZLocationRecordDataExtensions
   - SuperOffice.CRM.Rows.BaseTZLocationRow
@@ -10678,6 +10685,121 @@ references:
   name: AutosaveRecordDataExtensions
   nameWithType: AutosaveRecordDataExtensions
   fullName: SuperOffice.CRM.Rows.AutosaveRecordDataExtensions
+- uid: SuperOffice.CRM.Rows.AvailableFontsRows
+  commentId: T:SuperOffice.CRM.Rows.AvailableFontsRows
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  href: SuperOffice.CRM.Rows.AvailableFontsRows.html
+  name: AvailableFontsRows
+  nameWithType: AvailableFontsRows
+  fullName: SuperOffice.CRM.Rows.AvailableFontsRows
+- uid: SuperOffice.CRM.Rows.AvailableFontsRows.CustomSearch
+  commentId: T:SuperOffice.CRM.Rows.AvailableFontsRows.CustomSearch
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  href: SuperOffice.CRM.Rows.AvailableFontsRows.html
+  name: AvailableFontsRows.CustomSearch
+  nameWithType: AvailableFontsRows.CustomSearch
+  fullName: SuperOffice.CRM.Rows.AvailableFontsRows.CustomSearch
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.AvailableFontsRows
+    name: AvailableFontsRows
+    isExternal: true
+    href: SuperOffice.CRM.Rows.AvailableFontsRows.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows.AvailableFontsRows.CustomSearch
+    name: CustomSearch
+    isExternal: true
+    href: SuperOffice.CRM.Rows.AvailableFontsRows.CustomSearch.html
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.AvailableFontsRows
+    name: AvailableFontsRows
+    isExternal: true
+    href: SuperOffice.CRM.Rows.AvailableFontsRows.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows.AvailableFontsRows.CustomSearch
+    name: CustomSearch
+    isExternal: true
+    href: SuperOffice.CRM.Rows.AvailableFontsRows.CustomSearch.html
+- uid: SuperOffice.CRM.Rows.AvailableFontsRow
+  commentId: T:SuperOffice.CRM.Rows.AvailableFontsRow
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  href: SuperOffice.CRM.Rows.AvailableFontsRow.html
+  name: AvailableFontsRow
+  nameWithType: AvailableFontsRow
+  fullName: SuperOffice.CRM.Rows.AvailableFontsRow
+- uid: SuperOffice.CRM.Rows.AvailableFontsRow.IdxAvailableFontsId
+  commentId: T:SuperOffice.CRM.Rows.AvailableFontsRow.IdxAvailableFontsId
+  isExternal: true
+  href: SuperOffice.CRM.Rows.AvailableFontsRow.html
+  name: AvailableFontsRow.IdxAvailableFontsId
+  nameWithType: AvailableFontsRow.IdxAvailableFontsId
+  fullName: SuperOffice.CRM.Rows.AvailableFontsRow.IdxAvailableFontsId
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.AvailableFontsRow
+    name: AvailableFontsRow
+    isExternal: true
+    href: SuperOffice.CRM.Rows.AvailableFontsRow.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows.AvailableFontsRow.IdxAvailableFontsId
+    name: IdxAvailableFontsId
+    isExternal: true
+    href: SuperOffice.CRM.Rows.AvailableFontsRow.IdxAvailableFontsId.html
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.AvailableFontsRow
+    name: AvailableFontsRow
+    isExternal: true
+    href: SuperOffice.CRM.Rows.AvailableFontsRow.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows.AvailableFontsRow.IdxAvailableFontsId
+    name: IdxAvailableFontsId
+    isExternal: true
+    href: SuperOffice.CRM.Rows.AvailableFontsRow.IdxAvailableFontsId.html
+- uid: SuperOffice.CRM.Rows.AvailableFontsRow.CustomSearch
+  commentId: T:SuperOffice.CRM.Rows.AvailableFontsRow.CustomSearch
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  href: SuperOffice.CRM.Rows.AvailableFontsRow.html
+  name: AvailableFontsRow.CustomSearch
+  nameWithType: AvailableFontsRow.CustomSearch
+  fullName: SuperOffice.CRM.Rows.AvailableFontsRow.CustomSearch
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.AvailableFontsRow
+    name: AvailableFontsRow
+    isExternal: true
+    href: SuperOffice.CRM.Rows.AvailableFontsRow.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows.AvailableFontsRow.CustomSearch
+    name: CustomSearch
+    isExternal: true
+    href: SuperOffice.CRM.Rows.AvailableFontsRow.CustomSearch.html
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.AvailableFontsRow
+    name: AvailableFontsRow
+    isExternal: true
+    href: SuperOffice.CRM.Rows.AvailableFontsRow.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows.AvailableFontsRow.CustomSearch
+    name: CustomSearch
+    isExternal: true
+    href: SuperOffice.CRM.Rows.AvailableFontsRow.CustomSearch.html
+- uid: SuperOffice.CRM.Rows.AvailableFontsRecordData
+  commentId: T:SuperOffice.CRM.Rows.AvailableFontsRecordData
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  href: SuperOffice.CRM.Rows.AvailableFontsRecordData.html
+  name: AvailableFontsRecordData
+  nameWithType: AvailableFontsRecordData
+  fullName: SuperOffice.CRM.Rows.AvailableFontsRecordData
+- uid: SuperOffice.CRM.Rows.AvailableFontsRecordDataExtensions
+  commentId: T:SuperOffice.CRM.Rows.AvailableFontsRecordDataExtensions
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  href: SuperOffice.CRM.Rows.AvailableFontsRecordDataExtensions.html
+  name: AvailableFontsRecordDataExtensions
+  nameWithType: AvailableFontsRecordDataExtensions
+  fullName: SuperOffice.CRM.Rows.AvailableFontsRecordDataExtensions
 - uid: SuperOffice.CRM.Rows.BaseTZLocationRows
   commentId: T:SuperOffice.CRM.Rows.BaseTZLocationRows
   parent: SuperOffice.CRM.Rows

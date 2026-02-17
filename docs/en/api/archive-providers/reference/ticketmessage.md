@@ -636,7 +636,7 @@ Messages on support tickets. Messages are typically e-mail messages with attachm
 |ticket/sale/soldReason|listAny|Request - Reason (sold): Reason (sold)| x |
 |ticket/sale/saleNumber|string|Request - Number: Number| x |
 |ticket/sale/hasStakeholders|bool|Request - Has stakeholders: Does this sale have stakeholders| x |
-|ticket/sale/stakeholdersEnabled|bool|Request - Stakeholders enabled: Does this sale have stakeholders enabled| x |
+|ticket/sale/stakeholdersEnabled|bool|Request - Stakeholders enabled: Possibility to add stakeholders to the sale| x |
 |ticket/sale/hasQuote|bool|Request - Has quote?: Does the sale have a quote attached?| x |
 |ticket/sale/hasGuide|bool|Request - Guided: Does this sale have a Sales Guide| x |
 |ticket/sale/description|string|Request - Description: The long description field on Sale|  |
@@ -873,7 +873,7 @@ Messages on support tickets. Messages are typically e-mail messages with attachm
 ## Sample
 
 ```http!
-GET /api/v1/archive/TicketMessage?$select=ticket/ticketPriority/rank,ticket/person/isStakeholder,ticket/contact/postAddress/wgs84latitude,ticket/contact/contactAssociate/portraitThumbnail,ticket/contact/contactUdef/SuperOffice:5
+GET /api/v1/archive/TicketMessage?$select=ticket/contact/contactUdef/SuperOffice:6,ticket/contact/contactExtra/x_contact_default_integer,ticket/contact/NumberOfNotCompletedSalesInPeriod,ticket/project/projectAssociate/contactDepartment,person/portraitThumbnail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

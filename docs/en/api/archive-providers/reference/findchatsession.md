@@ -494,7 +494,7 @@ ChatSession provider for Find
 ## Sample
 
 ```http!
-GET /api/v1/archive/FindChatSession?$select=person/email/emailProtocol,person/personAssociate/usergroup,contact/contactFax/description,contact/streetAddress/addressId
+GET /api/v1/archive/FindChatSession?$select=associate/assocName,person/personDirectFax/description,person/personInterestIds,person/personAssociate/assocTooltip,contact/contactAssociate/assocType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -14,9 +14,11 @@ items:
   - SuperOffice.CRM.BatchProcessing.Plugins.ImportBatchPlugin
   - SuperOffice.CRM.BatchProcessing.Plugins.ImportProductImageBatchPlugin
   - SuperOffice.CRM.BatchProcessing.Plugins.ProgressHandler
+  - SuperOffice.CRM.BatchProcessing.Plugins.RagUpdateAllNamesPlugin
   - SuperOffice.CRM.BatchProcessing.Plugins.RagUpdatePlugin
   - SuperOffice.CRM.BatchProcessing.Plugins.SaintRegenBatchPlugin
   - SuperOffice.CRM.BatchProcessing.Plugins.UdefPublishBatchPlugin
+  - SuperOffice.CRM.BatchProcessing.Plugins.UnitTestPlugin
   langs:
   - csharp
   - vb
@@ -90,6 +92,13 @@ references:
   name: ImportProductImageBatchPlugin
   nameWithType: ImportProductImageBatchPlugin
   fullName: SuperOffice.CRM.BatchProcessing.Plugins.ImportProductImageBatchPlugin
+- uid: SuperOffice.CRM.BatchProcessing.Plugins.RagUpdateAllNamesPlugin
+  commentId: T:SuperOffice.CRM.BatchProcessing.Plugins.RagUpdateAllNamesPlugin
+  isExternal: true
+  href: SuperOffice.CRM.BatchProcessing.Plugins.RagUpdateAllNamesPlugin.html
+  name: RagUpdateAllNamesPlugin
+  nameWithType: RagUpdateAllNamesPlugin
+  fullName: SuperOffice.CRM.BatchProcessing.Plugins.RagUpdateAllNamesPlugin
 - uid: SuperOffice.CRM.BatchProcessing.Plugins.RagUpdatePlugin
   commentId: T:SuperOffice.CRM.BatchProcessing.Plugins.RagUpdatePlugin
   isExternal: true
@@ -118,3 +127,10 @@ references:
   name: UdefPublishBatchPlugin
   nameWithType: UdefPublishBatchPlugin
   fullName: SuperOffice.CRM.BatchProcessing.Plugins.UdefPublishBatchPlugin
+- uid: SuperOffice.CRM.BatchProcessing.Plugins.UnitTestPlugin
+  commentId: T:SuperOffice.CRM.BatchProcessing.Plugins.UnitTestPlugin
+  isExternal: true
+  href: SuperOffice.CRM.BatchProcessing.Plugins.UnitTestPlugin.html
+  name: UnitTestPlugin
+  nameWithType: UnitTestPlugin
+  fullName: SuperOffice.CRM.BatchProcessing.Plugins.UnitTestPlugin

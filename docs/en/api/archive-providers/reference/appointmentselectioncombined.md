@@ -639,7 +639,7 @@ Implementation of the provider for the combined selection
 |sale/soldReason|listAny|Reason (sold: Reason (sold)| x |
 |sale/saleNumber|string|Number: Number| x |
 |sale/hasStakeholders|bool|Has stakeholders: Does this sale have stakeholders| x |
-|sale/stakeholdersEnabled|bool|Stakeholders enabled: Does this sale have stakeholders enabled| x |
+|sale/stakeholdersEnabled|bool|Stakeholders enabled: Possibility to add stakeholders to the sale| x |
 |sale/hasQuote|bool|Has quote?: Does the sale have a quote attached?| x |
 
 ## Supported Columns (cont.)
@@ -755,7 +755,7 @@ Implementation of the provider for the combined selection
 ## Sample
 
 ```http!
-GET /api/v1/archive/AppointmentSelectionCombined?$select=person/hasCompany,person/personUdef/SuperOffice:7,person/hasEmarketingConsent,person/legalBaseEmarketing,person/consentSourceEmarketing
+GET /api/v1/archive/AppointmentSelectionCombined?$select=contact/contactSource,contact/postAddress/zip,person/personExtra/y_rental/x_amount,person/personAssociate/assocType,person/isMailingRecipient
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

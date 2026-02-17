@@ -674,7 +674,7 @@ Shadow contact provider for the Mailings provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/MailingsShadowSelectionV2?$select=mailingBounceRate,mailingAddr/person/ticketPriority,mailingAddr/person/isStakeholder,mailingAddr/person/personDirectPhone/description,project/projectPublish/publishedBy
+GET /api/v1/archive/MailingsShadowSelectionV2?$select=mailingDescription,mailingAddr/contact/contactId,mailingAddr/contact/department,mailingAddr/contact/contactAssociate/lastName,mailingAddr/contact/contactAssociate/role
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

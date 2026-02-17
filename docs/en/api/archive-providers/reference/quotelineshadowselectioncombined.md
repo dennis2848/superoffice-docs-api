@@ -175,7 +175,7 @@ Implementation of the provider for the combined selection
 |alternative/version/quote/sale/soldReason|listAny|Sale - Reason (sold): Reason (sold)| x |
 |alternative/version/quote/sale/saleNumber|string|Sale - Number: Number| x |
 |alternative/version/quote/sale/hasStakeholders|bool|Sale - Has stakeholders: Does this sale have stakeholders| x |
-|alternative/version/quote/sale/stakeholdersEnabled|bool|Sale - Stakeholders enabled: Does this sale have stakeholders enabled| x |
+|alternative/version/quote/sale/stakeholdersEnabled|bool|Sale - Stakeholders enabled: Possibility to add stakeholders to the sale| x |
 |alternative/version/quote/sale/hasQuote|bool|Sale - Has quote?: Does the sale have a quote attached?| x |
 |alternative/version/quote/sale/hasGuide|bool|Sale - Guided: Does this sale have a Sales Guide| x |
 |alternative/version/quote/sale/description|string|Sale - Description: The long description field on Sale|  |
@@ -779,7 +779,7 @@ Implementation of the provider for the combined selection
 ## Sample
 
 ```http!
-GET /api/v1/archive/QuoteLineShadowSelectionCombined?$select=productCategoryKey,alternative/version/quote/sale/person/personActiveErpLinks,alternative/version/quote/sale/person/personUdef/SuperOffice:11,alternative/version/quote/sale/person/hasEmarketingConsent,alternative/version/quote/sale/contact/contactNoMail
+GET /api/v1/archive/QuoteLineShadowSelectionCombined?$select=alternative/version/number,alternative/version/quote/sale/recordType,alternative/version/quote/sale/soldReason,alternative/version/quote/sale/person/portraitThumbnail,alternative/version/quote/sale/person/personAssociate/otherGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -22,6 +22,7 @@ items:
   - SuperOffice.Globalization.RC.ACT_Unknown
   - SuperOffice.Globalization.RC.ACT_WriteUpdate
   - SuperOffice.Globalization.RC.ACT_WriteUpdateAll
+  - SuperOffice.Globalization.RC.ADMIN_TICKET_RELATION_BUILT_IN_INFORMATION
   - SuperOffice.Globalization.RC.CS_BOOL_FALSE
   - SuperOffice.Globalization.RC.EXPL_DISABLE_ERP_CONNECTION
   - SuperOffice.Globalization.RC.EXPL_ErpSync
@@ -91,6 +92,9 @@ items:
   - SuperOffice.Globalization.RC.MM_MRGD_TT_THIS_COMPANY_WILL_BE_DELETED
   - SuperOffice.Globalization.RC.MM_MRGD_TT_THIS_COMPANY_WILL_BE_THE_REMAINING
   - SuperOffice.Globalization.RC.NO_SYSTEM_NOTIFICATIONS
+  - SuperOffice.Globalization.RC.RELATION_IS_A_CHILD_OF
+  - SuperOffice.Globalization.RC.RELATION_IS_A_PARENT_OF
+  - SuperOffice.Globalization.RC.RELATION_IS_RELATED_TO
   - SuperOffice.Globalization.RC.REPLY_TO_ALWAYS_FORWARD
   - SuperOffice.Globalization.RC.REPLY_TO_EMPTY
   - SuperOffice.Globalization.RC.REPLY_TO_SALES_CONTACT
@@ -378,6 +382,15 @@ items:
   - SuperOffice.Globalization.RC.SR_ADMIN_CONSENT_PURPOSE_EDIT
   - SuperOffice.Globalization.RC.SR_ADMIN_CONSENT_SETTINGS
   - SuperOffice.Globalization.RC.SR_ADMIN_CONSENT_STRICTGDPR
+  - SuperOffice.Globalization.RC.SR_ADMIN_COPILOT_EXCLUDECSS
+  - SuperOffice.Globalization.RC.SR_ADMIN_COPILOT_EXCLUDECSS_TOOLTIP
+  - SuperOffice.Globalization.RC.SR_ADMIN_COPILOT_INCLUDECSS
+  - SuperOffice.Globalization.RC.SR_ADMIN_COPILOT_INCLUDECSS_TOOLTIP
+  - SuperOffice.Globalization.RC.SR_ADMIN_COPILOT_SITEMAP_TOOLTIP
+  - SuperOffice.Globalization.RC.SR_ADMIN_COPILOT_SKIPCSS
+  - SuperOffice.Globalization.RC.SR_ADMIN_COPILOT_SKIPCSS_TOOLTIP
+  - SuperOffice.Globalization.RC.SR_ADMIN_COPILOT_SKIPURLS
+  - SuperOffice.Globalization.RC.SR_ADMIN_COPILOT_SKIPURLS_TOOLTIP
   - SuperOffice.Globalization.RC.SR_ADMIN_CREDTYPE
   - SuperOffice.Globalization.RC.SR_ADMIN_CREDTYPE_TOOLTIP
   - SuperOffice.Globalization.RC.SR_ADMIN_CREDVALUE
@@ -687,6 +700,8 @@ items:
   - SuperOffice.Globalization.RC.SR_ADMIN_LIST_ADD_AS_MENU_ITEM
   - SuperOffice.Globalization.RC.SR_ADMIN_LIST_ADD_AS_TASK
   - SuperOffice.Globalization.RC.SR_ADMIN_LIST_ADD_AS_WEB_PANEL
+  - SuperOffice.Globalization.RC.SR_ADMIN_LIST_ALLOW_LOCAL
+  - SuperOffice.Globalization.RC.SR_ADMIN_LIST_ALLOW_LOCAL_TOOLTIP
   - SuperOffice.Globalization.RC.SR_ADMIN_LIST_ANSI
   - SuperOffice.Globalization.RC.SR_ADMIN_LIST_APP
   - SuperOffice.Globalization.RC.SR_ADMIN_LIST_ASSIGN_TO_USERGROUP
@@ -766,6 +781,7 @@ items:
   - SuperOffice.Globalization.RC.SR_ADMIN_LIST_SHOW_COMPANY_MINICARD
   - SuperOffice.Globalization.RC.SR_ADMIN_LIST_SHOW_CONTACTARCHIVE
   - SuperOffice.Globalization.RC.SR_ADMIN_LIST_SHOW_CONTACTCARD
+  - SuperOffice.Globalization.RC.SR_ADMIN_LIST_SHOW_CUSTOMOBJECTARCHIVE
   - SuperOffice.Globalization.RC.SR_ADMIN_LIST_SHOW_DASHBOARD
   - SuperOffice.Globalization.RC.SR_ADMIN_LIST_SHOW_DIARY_MINICARD
   - SuperOffice.Globalization.RC.SR_ADMIN_LIST_SHOW_DOCUMENTDIALOG
@@ -1297,6 +1313,9 @@ items:
   - SuperOffice.Globalization.RC.SR_ADMIN_TICKETPRIORITY_TOOTHERS
   - SuperOffice.Globalization.RC.SR_ADMIN_TICKETPRIORITY_TOOWNER
   - SuperOffice.Globalization.RC.SR_ADMIN_TICKETPRIORITY_TOPHONE
+  - SuperOffice.Globalization.RC.SR_ADMIN_TICKETRELATION_CONFIRM_DELETE
+  - SuperOffice.Globalization.RC.SR_ADMIN_TICKETRELATION_DELETE
+  - SuperOffice.Globalization.RC.SR_ADMIN_TICKETRELATION_NAME_ALREADY_EXIST
   - SuperOffice.Globalization.RC.SR_ADMIN_TICKETSTATUS_CANT_DELETE_DEFAULT_STATUS_FOR_TICKET_TYPE_ERROR
   - SuperOffice.Globalization.RC.SR_ADMIN_TICKETSTATUS_DEFAULTSTATUS
   - SuperOffice.Globalization.RC.SR_ADMIN_TICKETSTATUS_DELETETICKETSTATUS
@@ -1652,6 +1671,9 @@ items:
   - SuperOffice.Globalization.RC.SR_APPOINTMENT_STATS_ATTENDEES
   - SuperOffice.Globalization.RC.SR_APPOINTMENT_STATS_CONFLICTS
   - SuperOffice.Globalization.RC.SR_APPOINTMENT_TOGGLE_EMAIL_ERROR
+  - SuperOffice.Globalization.RC.SR_APPOINTMENT_TYPE_OPTIONAL
+  - SuperOffice.Globalization.RC.SR_APPOINTMENT_TYPE_ORGANIZER
+  - SuperOffice.Globalization.RC.SR_APPOINTMENT_TYPE_REQUIRED
   - SuperOffice.Globalization.RC.SR_APPOINTMENT_UNKNOWN_ORGANIZER
   - SuperOffice.Globalization.RC.SR_APPOINTMENT_VIDEO_LINK
   - SuperOffice.Globalization.RC.SR_APPOINTMENT_VIDEO_MEETING_CAPTION
@@ -4357,6 +4379,7 @@ items:
   - SuperOffice.Globalization.RC.SR_DASHBOARD_ADDTILE
   - SuperOffice.Globalization.RC.SR_DASHBOARD_ADD_EDIT_LAYOUT
   - SuperOffice.Globalization.RC.SR_DASHBOARD_ADD_QUICK_FILTER
+  - SuperOffice.Globalization.RC.SR_DASHBOARD_ADD_QUICK_FILTER_DISABLED_TOOLTIP
   - SuperOffice.Globalization.RC.SR_DASHBOARD_AFDFA704A8644AA58699384B9FCBB29A_CAPTION
   - SuperOffice.Globalization.RC.SR_DASHBOARD_AFDFA704A8644AA58699384B9FCBB29A_DATASOURCENAME
   - SuperOffice.Globalization.RC.SR_DASHBOARD_AFDFA704A8644AA58699384B9FCBB29A_DESC
@@ -5411,6 +5434,13 @@ items:
   - SuperOffice.Globalization.RC.SR_ENUM_ERPACTORTYPE_SALE
   - SuperOffice.Globalization.RC.SR_ENUM_ERPACTORTYPE_SUPPLIER
   - SuperOffice.Globalization.RC.SR_ENUM_ERPACTORTYPE_UNKNOWN
+  - SuperOffice.Globalization.RC.SR_ENUM_KB_ACCESS_INTERNAL
+  - SuperOffice.Globalization.RC.SR_ENUM_KB_ACCESS_PRIVATE
+  - SuperOffice.Globalization.RC.SR_ENUM_KB_ACCESS_PUBLIC
+  - SuperOffice.Globalization.RC.SR_ENUM_KB_ACCESS_PUBLIC_AUTHENTICATED
+  - SuperOffice.Globalization.RC.SR_ENUM_REPLYTEMPLATE_ACCESS_FULL
+  - SuperOffice.Globalization.RC.SR_ENUM_REPLYTEMPLATE_ACCESS_NONE
+  - SuperOffice.Globalization.RC.SR_ENUM_REPLYTEMPLATE_ACCESS_READ
   - SuperOffice.Globalization.RC.SR_ENUM_TICKETCATEGORYDELEGATEMETHOD_EVEN_DESC
   - SuperOffice.Globalization.RC.SR_ENUM_TICKETCATEGORYDELEGATEMETHOD_NOT_DESC
   - SuperOffice.Globalization.RC.SR_ENUM_TICKETCATEGORYDELEGATEMETHOD_UNFAIR_DESC
@@ -6441,6 +6471,17 @@ items:
   - SuperOffice.Globalization.RC.SR_FORMARCHIVE_FORMTHUMBNAIL
   - SuperOffice.Globalization.RC.SR_FORMARCHIVE_FORMTHUMBNAIL_TOOLTIP
   - SuperOffice.Globalization.RC.SR_FORMAT
+  - SuperOffice.Globalization.RC.SR_FORMFONTS_ADD_FONT
+  - SuperOffice.Globalization.RC.SR_FORMFONTS_BOLD
+  - SuperOffice.Globalization.RC.SR_FORMFONTS_CONFIRM_DELETE
+  - SuperOffice.Globalization.RC.SR_FORMFONTS_ENABLEDFONTS
+  - SuperOffice.Globalization.RC.SR_FORMFONTS_FONTPREVIEW
+  - SuperOffice.Globalization.RC.SR_FORMFONTS_INFOBADGE
+  - SuperOffice.Globalization.RC.SR_FORMFONTS_ITALIC
+  - SuperOffice.Globalization.RC.SR_FORMFONTS_LABEL
+  - SuperOffice.Globalization.RC.SR_FORMFONTS_NOTAVAILABLE
+  - SuperOffice.Globalization.RC.SR_FORMFONTS_REGULAR
+  - SuperOffice.Globalization.RC.SR_FORMFONTS_SEARCHBYNAME
   - SuperOffice.Globalization.RC.SR_FORMSUBMISSIONARCHIVE_FORMID
   - SuperOffice.Globalization.RC.SR_FORMSUBMISSIONARCHIVE_FORMID_TOOLTIP
   - SuperOffice.Globalization.RC.SR_FORMSUBMISSIONARCHIVE_SUBMISSIONID
@@ -6516,6 +6557,7 @@ items:
   - SuperOffice.Globalization.RC.SR_FORMS_CONSENT_SHOW
   - SuperOffice.Globalization.RC.SR_FORMS_CSS
   - SuperOffice.Globalization.RC.SR_FORMS_CSS_ADDBUTTON
+  - SuperOffice.Globalization.RC.SR_FORMS_CSS_ADD_CLASS
   - SuperOffice.Globalization.RC.SR_FORMS_CSS_BACKGROUND
   - SuperOffice.Globalization.RC.SR_FORMS_CSS_BUTTON
   - SuperOffice.Globalization.RC.SR_FORMS_CSS_CHECKBOX
@@ -6531,6 +6573,7 @@ items:
   - SuperOffice.Globalization.RC.SR_FORMS_CSS_INFO
   - SuperOffice.Globalization.RC.SR_FORMS_CSS_INPUT
   - SuperOffice.Globalization.RC.SR_FORMS_CSS_INTEGER
+  - SuperOffice.Globalization.RC.SR_FORMS_CSS_LABEL
   - SuperOffice.Globalization.RC.SR_FORMS_CSS_PAGE
   - SuperOffice.Globalization.RC.SR_FORMS_CSS_PAGEFOOTER
   - SuperOffice.Globalization.RC.SR_FORMS_CSS_PAGEPROGRESS
@@ -7124,6 +7167,7 @@ items:
   - SuperOffice.Globalization.RC.SR_INVITE_MOVEDSEEN
   - SuperOffice.Globalization.RC.SR_INVITE_NEW
   - SuperOffice.Globalization.RC.SR_INVITE_NO
+  - SuperOffice.Globalization.RC.SR_INVITE_NOT_SEEN
   - SuperOffice.Globalization.RC.SR_INVITE_NO_ALL
   - SuperOffice.Globalization.RC.SR_INVITE_OK_ALL
   - SuperOffice.Globalization.RC.SR_INVITE_PARTICIPANTS
@@ -7138,6 +7182,7 @@ items:
   - SuperOffice.Globalization.RC.SR_INVITE_SHOW_RECURRING_TOOLTIP
   - SuperOffice.Globalization.RC.SR_INVITE_SHOW_RESPONSES
   - SuperOffice.Globalization.RC.SR_INVITE_SHOW_RESPONSES_TOOLTIP
+  - SuperOffice.Globalization.RC.SR_INVITE_TENTATIVE
   - SuperOffice.Globalization.RC.SR_INVITE_TIME
   - SuperOffice.Globalization.RC.SR_INVITE_YES
   - SuperOffice.Globalization.RC.SR_INVITE_YES_ALL
@@ -7151,6 +7196,9 @@ items:
   - SuperOffice.Globalization.RC.SR_JAPANESE
   - SuperOffice.Globalization.RC.SR_KANNADA
   - SuperOffice.Globalization.RC.SR_KAZAKH
+  - SuperOffice.Globalization.RC.SR_KB_WORKFLOW_EXPIRED
+  - SuperOffice.Globalization.RC.SR_KB_WORKFLOW_PUBLISHED
+  - SuperOffice.Globalization.RC.SR_KB_WORKFLOW_UNPUBLISHED
   - SuperOffice.Globalization.RC.SR_KEYWORDS
   - SuperOffice.Globalization.RC.SR_KONKANI
   - SuperOffice.Globalization.RC.SR_KOREAN
@@ -7721,6 +7769,7 @@ items:
   - SuperOffice.Globalization.RC.SR_MAILLOGIN_EMAILADDRESS
   - SuperOffice.Globalization.RC.SR_MAILLOGIN_PLEASE_ENTER
   - SuperOffice.Globalization.RC.SR_MAILLOGIN_SETACCOUNT
+  - SuperOffice.Globalization.RC.SR_MAILLOGIN_SIGN_IN_TO_EMAIL_SERVICE
   - SuperOffice.Globalization.RC.SR_MAILLOGIN_SIMPLE
   - SuperOffice.Globalization.RC.SR_MAILMERGEDRAFT
   - SuperOffice.Globalization.RC.SR_MAILMERGE_ADD
@@ -8334,6 +8383,7 @@ items:
   - SuperOffice.Globalization.RC.SR_MENU_LIST_VERSION_COMMAND_TWO
   - SuperOffice.Globalization.RC.SR_MENU_LOOK_AND_FEEL
   - SuperOffice.Globalization.RC.SR_MENU_MORE
+  - SuperOffice.Globalization.RC.SR_MENU_ONBOARDING
   - SuperOffice.Globalization.RC.SR_MENU_OPEN_TARGETS
   - SuperOffice.Globalization.RC.SR_MENU_PERSON
   - SuperOffice.Globalization.RC.SR_MENU_POPUP_CANCEL
@@ -8728,6 +8778,8 @@ items:
   - SuperOffice.Globalization.RC.SR_NOTIFY_CUSTOM_MESSAGE
   - SuperOffice.Globalization.RC.SR_NOTIFY_DECLINED
   - SuperOffice.Globalization.RC.SR_NOTIFY_DONE
+  - SuperOffice.Globalization.RC.SR_NOTIFY_EMAIL_EXPIRED_DESC
+  - SuperOffice.Globalization.RC.SR_NOTIFY_EMAIL_EXPIRED_TITLE
   - SuperOffice.Globalization.RC.SR_NOTIFY_MEETING_CANCELLED
   - SuperOffice.Globalization.RC.SR_NOTIFY_MEETING_CHANGED
   - SuperOffice.Globalization.RC.SR_NOTIFY_MEETING_CONFLICT
@@ -8743,6 +8795,7 @@ items:
   - SuperOffice.Globalization.RC.SR_NOTIFY_SETTINGS
   - SuperOffice.Globalization.RC.SR_NOTIFY_SETTINGS_APPOINTMENT_HEADING
   - SuperOffice.Globalization.RC.SR_NOTIFY_SETTINGS_ASSIGNMENT_HEADING
+  - SuperOffice.Globalization.RC.SR_NOTIFY_SETTINGS_EMAIL_HEADING
   - SuperOffice.Globalization.RC.SR_NOTIFY_SETTINGS_REQUEST_HEADING
   - SuperOffice.Globalization.RC.SR_NOTIFY_SETTINGS_SYSTEM_HEADING
   - SuperOffice.Globalization.RC.SR_NOTIFY_SETTINGS_notifyAppointmentAssociateRejected
@@ -8752,6 +8805,7 @@ items:
   - SuperOffice.Globalization.RC.SR_NOTIFY_SETTINGS_notifyAppointmentInvitation
   - SuperOffice.Globalization.RC.SR_NOTIFY_SETTINGS_notifyContactOwnership
   - SuperOffice.Globalization.RC.SR_NOTIFY_SETTINGS_notifyCustomMessage
+  - SuperOffice.Globalization.RC.SR_NOTIFY_SETTINGS_notifyExpiredEmailAuthentication
   - SuperOffice.Globalization.RC.SR_NOTIFY_SETTINGS_notifyFavouriteRequest
   - SuperOffice.Globalization.RC.SR_NOTIFY_SETTINGS_notifyNewMessage
   - SuperOffice.Globalization.RC.SR_NOTIFY_SETTINGS_notifyNewRequest
@@ -8808,6 +8862,58 @@ items:
   - SuperOffice.Globalization.RC.SR_OBSERVING_DST
   - SuperOffice.Globalization.RC.SR_OLDER_THAN
   - SuperOffice.Globalization.RC.SR_OLD_PASSWORD
+  - SuperOffice.Globalization.RC.SR_ONBOARDING_ALREADY_HAVE_WEBTOOLS
+  - SuperOffice.Globalization.RC.SR_ONBOARDING_AUTHENTICATION_ERROR
+  - SuperOffice.Globalization.RC.SR_ONBOARDING_BUTT_BACK
+  - SuperOffice.Globalization.RC.SR_ONBOARDING_BUTT_CANCEL
+  - SuperOffice.Globalization.RC.SR_ONBOARDING_BUTT_CLOSE
+  - SuperOffice.Globalization.RC.SR_ONBOARDING_BUTT_CONNECT
+  - SuperOffice.Globalization.RC.SR_ONBOARDING_BUTT_DISCONNECT
+  - SuperOffice.Globalization.RC.SR_ONBOARDING_BUTT_GET_STARTED
+  - SuperOffice.Globalization.RC.SR_ONBOARDING_BUTT_LOGIN
+  - SuperOffice.Globalization.RC.SR_ONBOARDING_BUTT_NEXT
+  - SuperOffice.Globalization.RC.SR_ONBOARDING_BUTT_SAVE
+  - SuperOffice.Globalization.RC.SR_ONBOARDING_BUTT_SIGN_IN
+  - SuperOffice.Globalization.RC.SR_ONBOARDING_BUTT_UPDATE
+  - SuperOffice.Globalization.RC.SR_ONBOARDING_CLICK_TO_CONNECT
+  - SuperOffice.Globalization.RC.SR_ONBOARDING_CONNECTED_TO
+  - SuperOffice.Globalization.RC.SR_ONBOARDING_CONNECT_EMAIL_TEXT
+  - SuperOffice.Globalization.RC.SR_ONBOARDING_CONNECT_EMAIL_TITLE
+  - SuperOffice.Globalization.RC.SR_ONBOARDING_CONNECT_TO_EMAIL
+  - SuperOffice.Globalization.RC.SR_ONBOARDING_CONNECT_TO_EMAIL_INFO_MESSAGE
+  - SuperOffice.Globalization.RC.SR_ONBOARDING_CONNECT_TO_EMAIL_SERVICE
+  - SuperOffice.Globalization.RC.SR_ONBOARDING_DOCUMENT_TEXT
+  - SuperOffice.Globalization.RC.SR_ONBOARDING_DOCUMENT_TITLE
+  - SuperOffice.Globalization.RC.SR_ONBOARDING_DONE_TEXT
+  - SuperOffice.Globalization.RC.SR_ONBOARDING_DONE_TITLE
+  - SuperOffice.Globalization.RC.SR_ONBOARDING_DOWNLOAD_WEBTOOLS
+  - SuperOffice.Globalization.RC.SR_ONBOARDING_DUPLICATE_ACCOUNT_ERROR
+  - SuperOffice.Globalization.RC.SR_ONBOARDING_EMAIL_ACCOUNT
+  - SuperOffice.Globalization.RC.SR_ONBOARDING_EMAIL_ADVANCED_SETTINGS
+  - SuperOffice.Globalization.RC.SR_ONBOARDING_EMAIL_OAUTH_AUTH_ERROR
+  - SuperOffice.Globalization.RC.SR_ONBOARDING_EMAIL_OAUTH_SYSTEM_ERROR
+  - SuperOffice.Globalization.RC.SR_ONBOARDING_EMAIL_PASSWORD
+  - SuperOffice.Globalization.RC.SR_ONBOARDING_EMAIL_REDIRECTING
+  - SuperOffice.Globalization.RC.SR_ONBOARDING_EMAIL_USERNAME
+  - SuperOffice.Globalization.RC.SR_ONBOARDING_EMAIL_USE_SSL
+  - SuperOffice.Globalization.RC.SR_ONBOARDING_HELLO_TEXT
+  - SuperOffice.Globalization.RC.SR_ONBOARDING_HELLO_TITLE
+  - SuperOffice.Globalization.RC.SR_ONBOARDING_INCOMING_SERVER_NAME
+  - SuperOffice.Globalization.RC.SR_ONBOARDING_OR
+  - SuperOffice.Globalization.RC.SR_ONBOARDING_OUTGOING_SERVER_NAME
+  - SuperOffice.Globalization.RC.SR_ONBOARDING_RESUME_CONNECT
+  - SuperOffice.Globalization.RC.SR_ONBOARDING_RESUME_SIGN_IN
+  - SuperOffice.Globalization.RC.SR_ONBOARDING_SELECT_LANGUAGE
+  - SuperOffice.Globalization.RC.SR_ONBOARDING_SETTING_LANGUAGE
+  - SuperOffice.Globalization.RC.SR_ONBOARDING_WEBTOOLS_SWITCH_ARIA_LABEL
+  - SuperOffice.Globalization.RC.SR_ONBOARDING_WEBTOOLS_SWITCH_LABEL
+  - SuperOffice.Globalization.RC.SR_ONBOARDING_WEBTOOLS_UPDATE_AVAILABLE_PAGE
+  - SuperOffice.Globalization.RC.SR_ONBOARDING_WEBTOOLS_UPDATE_AVAILABLE_TEXT
+  - SuperOffice.Globalization.RC.SR_ONBOARDING_WEBTOOLS_UPDATE_AVAILABLE_TITLE
+  - SuperOffice.Globalization.RC.SR_ONBOARDING_WEBTOOLS_UPDATE_REQUIRED_PAGE
+  - SuperOffice.Globalization.RC.SR_ONBOARDING_WEBTOOLS_UPDATE_REQUIRED_TEXT
+  - SuperOffice.Globalization.RC.SR_ONBOARDING_WEBTOOLS_UPDATE_REQUIRED_TITLE
+  - SuperOffice.Globalization.RC.SR_ONBOARDING_WELCOME
   - SuperOffice.Globalization.RC.SR_ONLY_ASSOC_HAVE_USERGROUP
   - SuperOffice.Globalization.RC.SR_ONLY_EXTERN_CAN_BE_PERSON_ON_NON_OWNER_CONTACTS
   - SuperOffice.Globalization.RC.SR_ONLY_INTERNAL_USERS_HAVE_GROUPS
@@ -10008,6 +10114,10 @@ items:
   - SuperOffice.Globalization.RC.SR_PD_ccAuthentication_minUC_NAME
   - SuperOffice.Globalization.RC.SR_PD_ccAuthentication_rulesEnabled_DESC
   - SuperOffice.Globalization.RC.SR_PD_ccAuthentication_rulesEnabled_NAME
+  - SuperOffice.Globalization.RC.SR_PD_emailNotification_DESC
+  - SuperOffice.Globalization.RC.SR_PD_emailNotification_NAME
+  - SuperOffice.Globalization.RC.SR_PD_emailNotification_notifyExpiredEmailAuthentication_DESC
+  - SuperOffice.Globalization.RC.SR_PD_emailNotification_notifyExpiredEmailAuthentication_NAME
   - SuperOffice.Globalization.RC.SR_PD_notificationEmail_DESC
   - SuperOffice.Globalization.RC.SR_PD_notificationEmail_NAME
   - SuperOffice.Globalization.RC.SR_PD_notificationEmail_notifyEmailCustomMessage_DESC
@@ -13416,12 +13526,16 @@ items:
   - SuperOffice.Globalization.RC.SR_TICKETPRIORITY_HIGH
   - SuperOffice.Globalization.RC.SR_TICKETPRIORITY_LOW
   - SuperOffice.Globalization.RC.SR_TICKETPRIORITY_MEDIUM
+  - SuperOffice.Globalization.RC.SR_TICKETREL_ADD
+  - SuperOffice.Globalization.RC.SR_TICKETREL_DESTINATION_VALUE_INVALID_TOOLTIP
+  - SuperOffice.Globalization.RC.SR_TICKETREL_PARENT_REQUEST
   - SuperOffice.Globalization.RC.SR_TICKETREL_RELDEF_NAME1
   - SuperOffice.Globalization.RC.SR_TICKETREL_RELDEF_NAME2
   - SuperOffice.Globalization.RC.SR_TICKETREL_RELDEF_NAME3
   - SuperOffice.Globalization.RC.SR_TICKETREL_RELDEF_TOOLTIP1
   - SuperOffice.Globalization.RC.SR_TICKETREL_RELDEF_TOOLTIP2
   - SuperOffice.Globalization.RC.SR_TICKETREL_RELDEF_TOOLTIP3
+  - SuperOffice.Globalization.RC.SR_TICKETREL_REMOVE
   - SuperOffice.Globalization.RC.SR_TICKETSENTRY_ONLYMEMBERS
   - SuperOffice.Globalization.RC.SR_TICKETSENTRY_ONLYOWN
   - SuperOffice.Globalization.RC.SR_TICKETSENTRY_ONLYOWNCAT
@@ -13446,6 +13560,8 @@ items:
   - SuperOffice.Globalization.RC.SR_TICKET_ACTION_PUBLISH
   - SuperOffice.Globalization.RC.SR_TICKET_ACTION_SPLIT
   - SuperOffice.Globalization.RC.SR_TICKET_ACTION_SPLIT_REQUEST
+  - SuperOffice.Globalization.RC.SR_TICKET_ADD_LINK_FROM
+  - SuperOffice.Globalization.RC.SR_TICKET_ADD_LINK_TO
   - SuperOffice.Globalization.RC.SR_TICKET_AI_BAD_RESPONSE
   - SuperOffice.Globalization.RC.SR_TICKET_AI_GENERATED_REPLY
   - SuperOffice.Globalization.RC.SR_TICKET_AI_GOOD_RESPONSE
@@ -13472,6 +13588,8 @@ items:
   - SuperOffice.Globalization.RC.SR_TICKET_CONNECTED_TO_FORM_SUBMISSION_NO_EMAIL
   - SuperOffice.Globalization.RC.SR_TICKET_CONNECTED_TO_FORM_SUBMISSION_WITH_EMAIL
   - SuperOffice.Globalization.RC.SR_TICKET_CONNECT_KNOWN_SENDER
+  - SuperOffice.Globalization.RC.SR_TICKET_CREATE_AND_CONTINUE
+  - SuperOffice.Globalization.RC.SR_TICKET_CREATE_NEW_REQUEST
   - SuperOffice.Globalization.RC.SR_TICKET_DEADLINE1
   - SuperOffice.Globalization.RC.SR_TICKET_DETAILS
   - SuperOffice.Globalization.RC.SR_TICKET_ERROR_MERGED
@@ -13483,6 +13601,7 @@ items:
   - SuperOffice.Globalization.RC.SR_TICKET_INSERT_REPLY
   - SuperOffice.Globalization.RC.SR_TICKET_INTERNAL_EXPLANATION
   - SuperOffice.Globalization.RC.SR_TICKET_LAST_TICKETS
+  - SuperOffice.Globalization.RC.SR_TICKET_LINK_TO_EXISTING
   - SuperOffice.Globalization.RC.SR_TICKET_MESSAGES1
   - SuperOffice.Globalization.RC.SR_TICKET_MESSAGES_QUICK_ACTIONS_SETTINGS
   - SuperOffice.Globalization.RC.SR_TICKET_MESSAGES_QUICK_ACTION_HIDE_FORWARD
@@ -13512,6 +13631,8 @@ items:
   - SuperOffice.Globalization.RC.SR_TICKET_MESSAGE_SHOW_REPLIES
   - SuperOffice.Globalization.RC.SR_TICKET_MESSAGE_TIMESPENT
   - SuperOffice.Globalization.RC.SR_TICKET_MESSAGE_VIEWHEADER_CAPTION
+  - SuperOffice.Globalization.RC.SR_TICKET_NEW_RELATION
+  - SuperOffice.Globalization.RC.SR_TICKET_NEW_REQUEST_TITLE
   - SuperOffice.Globalization.RC.SR_TICKET_NEXT_IN_QUEUE
   - SuperOffice.Globalization.RC.SR_TICKET_NO_TICKETS_IN_QUEUE
   - SuperOffice.Globalization.RC.SR_TICKET_ONLY_ONE_ATTACHMENT_TO_ARCHIVE
@@ -13527,6 +13648,12 @@ items:
   - SuperOffice.Globalization.RC.SR_TICKET_READSTATUS_CHANGED
   - SuperOffice.Globalization.RC.SR_TICKET_READSTATUS_READ
   - SuperOffice.Globalization.RC.SR_TICKET_READSTATUS_UNREAD
+  - SuperOffice.Globalization.RC.SR_TICKET_RELATE
+  - SuperOffice.Globalization.RC.SR_TICKET_RELATION_ALREADY_EXIST
+  - SuperOffice.Globalization.RC.SR_TICKET_RELATION_PARENT_ALREADY_EXIST
+  - SuperOffice.Globalization.RC.SR_TICKET_RELATION_TYPE_CHILD
+  - SuperOffice.Globalization.RC.SR_TICKET_RELATION_TYPE_PARENT
+  - SuperOffice.Globalization.RC.SR_TICKET_RELATION_TYPE_RELATED
   - SuperOffice.Globalization.RC.SR_TICKET_REPLY_TEMPLATES_AND_FAQ
   - SuperOffice.Globalization.RC.SR_TICKET_REPLY_TEMPLATES_SERVICE_COPILOT
   - SuperOffice.Globalization.RC.SR_TICKET_REPLY_TEMPLATES_SERVICE_COPILOT_GENERATE_REPLY
@@ -13541,6 +13668,7 @@ items:
   - SuperOffice.Globalization.RC.SR_TICKET_REQUEST_DOESNT_EXIST
   - SuperOffice.Globalization.RC.SR_TICKET_REQUEST_PROPERTIES
   - SuperOffice.Globalization.RC.SR_TICKET_SALE
+  - SuperOffice.Globalization.RC.SR_TICKET_SELECT_DIFFERENT_FROM_SOURCE
   - SuperOffice.Globalization.RC.SR_TICKET_SENTIMENT
   - SuperOffice.Globalization.RC.SR_TICKET_SENTIMENT_NEGATIVE
   - SuperOffice.Globalization.RC.SR_TICKET_SENTIMENT_NEGATIVE_TOOLTIP
@@ -14918,6 +15046,27 @@ items:
     return:
       type: System.String
     content.vb: Public Const ACT_WriteUpdateAll As String = "[ACT_WriteUpdateAll]"
+- uid: SuperOffice.Globalization.RC.ADMIN_TICKET_RELATION_BUILT_IN_INFORMATION
+  commentId: F:SuperOffice.Globalization.RC.ADMIN_TICKET_RELATION_BUILT_IN_INFORMATION
+  id: ADMIN_TICKET_RELATION_BUILT_IN_INFORMATION
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: ADMIN_TICKET_RELATION_BUILT_IN_INFORMATION
+  nameWithType: RC.ADMIN_TICKET_RELATION_BUILT_IN_INFORMATION
+  fullName: SuperOffice.Globalization.RC.ADMIN_TICKET_RELATION_BUILT_IN_INFORMATION
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'&lt;b&gt;Default system relation.&lt;/b&gt;&lt;br&gt;This relation cannot be modified. Create a new relation to apply custom settings.'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string ADMIN_TICKET_RELATION_BUILT_IN_INFORMATION = "[ADMIN_TICKET_RELATION_BUILT_IN_INFORMATION]"
+    return:
+      type: System.String
+    content.vb: Public Const ADMIN_TICKET_RELATION_BUILT_IN_INFORMATION As String = "[ADMIN_TICKET_RELATION_BUILT_IN_INFORMATION]"
 - uid: SuperOffice.Globalization.RC.CS_BOOL_FALSE
   commentId: F:SuperOffice.Globalization.RC.CS_BOOL_FALSE
   id: CS_BOOL_FALSE
@@ -16367,6 +16516,69 @@ items:
     return:
       type: System.String
     content.vb: Public Const NO_SYSTEM_NOTIFICATIONS As String = "[NO_SYSTEM_NOTIFICATIONS]"
+- uid: SuperOffice.Globalization.RC.RELATION_IS_A_CHILD_OF
+  commentId: F:SuperOffice.Globalization.RC.RELATION_IS_A_CHILD_OF
+  id: RELATION_IS_A_CHILD_OF
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: RELATION_IS_A_CHILD_OF
+  nameWithType: RC.RELATION_IS_A_CHILD_OF
+  fullName: SuperOffice.Globalization.RC.RELATION_IS_A_CHILD_OF
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'is a child of'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string RELATION_IS_A_CHILD_OF = "[RELATION_IS_A_CHILD_OF]"
+    return:
+      type: System.String
+    content.vb: Public Const RELATION_IS_A_CHILD_OF As String = "[RELATION_IS_A_CHILD_OF]"
+- uid: SuperOffice.Globalization.RC.RELATION_IS_A_PARENT_OF
+  commentId: F:SuperOffice.Globalization.RC.RELATION_IS_A_PARENT_OF
+  id: RELATION_IS_A_PARENT_OF
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: RELATION_IS_A_PARENT_OF
+  nameWithType: RC.RELATION_IS_A_PARENT_OF
+  fullName: SuperOffice.Globalization.RC.RELATION_IS_A_PARENT_OF
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'is a parent of'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string RELATION_IS_A_PARENT_OF = "[RELATION_IS_A_PARENT_OF]"
+    return:
+      type: System.String
+    content.vb: Public Const RELATION_IS_A_PARENT_OF As String = "[RELATION_IS_A_PARENT_OF]"
+- uid: SuperOffice.Globalization.RC.RELATION_IS_RELATED_TO
+  commentId: F:SuperOffice.Globalization.RC.RELATION_IS_RELATED_TO
+  id: RELATION_IS_RELATED_TO
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: RELATION_IS_RELATED_TO
+  nameWithType: RC.RELATION_IS_RELATED_TO
+  fullName: SuperOffice.Globalization.RC.RELATION_IS_RELATED_TO
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'is related to'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string RELATION_IS_RELATED_TO = "[RELATION_IS_RELATED_TO]"
+    return:
+      type: System.String
+    content.vb: Public Const RELATION_IS_RELATED_TO As String = "[RELATION_IS_RELATED_TO]"
 - uid: SuperOffice.Globalization.RC.REPLY_TO_ALWAYS_FORWARD
   commentId: F:SuperOffice.Globalization.RC.REPLY_TO_ALWAYS_FORWARD
   id: REPLY_TO_ALWAYS_FORWARD
@@ -22394,6 +22606,195 @@ items:
     return:
       type: System.String
     content.vb: Public Const SR_ADMIN_CONSENT_STRICTGDPR As String = "[SR_ADMIN_CONSENT_STRICTGDPR]"
+- uid: SuperOffice.Globalization.RC.SR_ADMIN_COPILOT_EXCLUDECSS
+  commentId: F:SuperOffice.Globalization.RC.SR_ADMIN_COPILOT_EXCLUDECSS
+  id: SR_ADMIN_COPILOT_EXCLUDECSS
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_ADMIN_COPILOT_EXCLUDECSS
+  nameWithType: RC.SR_ADMIN_COPILOT_EXCLUDECSS
+  fullName: SuperOffice.Globalization.RC.SR_ADMIN_COPILOT_EXCLUDECSS
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Exclude CSS'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_ADMIN_COPILOT_EXCLUDECSS = "[SR_ADMIN_COPILOT_EXCLUDECSS]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_ADMIN_COPILOT_EXCLUDECSS As String = "[SR_ADMIN_COPILOT_EXCLUDECSS]"
+- uid: SuperOffice.Globalization.RC.SR_ADMIN_COPILOT_EXCLUDECSS_TOOLTIP
+  commentId: F:SuperOffice.Globalization.RC.SR_ADMIN_COPILOT_EXCLUDECSS_TOOLTIP
+  id: SR_ADMIN_COPILOT_EXCLUDECSS_TOOLTIP
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_ADMIN_COPILOT_EXCLUDECSS_TOOLTIP
+  nameWithType: RC.SR_ADMIN_COPILOT_EXCLUDECSS_TOOLTIP
+  fullName: SuperOffice.Globalization.RC.SR_ADMIN_COPILOT_EXCLUDECSS_TOOLTIP
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Ignore content matching these CSS selectors.?Example: #footer, div.nav'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_ADMIN_COPILOT_EXCLUDECSS_TOOLTIP = "[SR_ADMIN_COPILOT_EXCLUDECSS_TOOLTIP]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_ADMIN_COPILOT_EXCLUDECSS_TOOLTIP As String = "[SR_ADMIN_COPILOT_EXCLUDECSS_TOOLTIP]"
+- uid: SuperOffice.Globalization.RC.SR_ADMIN_COPILOT_INCLUDECSS
+  commentId: F:SuperOffice.Globalization.RC.SR_ADMIN_COPILOT_INCLUDECSS
+  id: SR_ADMIN_COPILOT_INCLUDECSS
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_ADMIN_COPILOT_INCLUDECSS
+  nameWithType: RC.SR_ADMIN_COPILOT_INCLUDECSS
+  fullName: SuperOffice.Globalization.RC.SR_ADMIN_COPILOT_INCLUDECSS
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Include CSS'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_ADMIN_COPILOT_INCLUDECSS = "[SR_ADMIN_COPILOT_INCLUDECSS]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_ADMIN_COPILOT_INCLUDECSS As String = "[SR_ADMIN_COPILOT_INCLUDECSS]"
+- uid: SuperOffice.Globalization.RC.SR_ADMIN_COPILOT_INCLUDECSS_TOOLTIP
+  commentId: F:SuperOffice.Globalization.RC.SR_ADMIN_COPILOT_INCLUDECSS_TOOLTIP
+  id: SR_ADMIN_COPILOT_INCLUDECSS_TOOLTIP
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_ADMIN_COPILOT_INCLUDECSS_TOOLTIP
+  nameWithType: RC.SR_ADMIN_COPILOT_INCLUDECSS_TOOLTIP
+  fullName: SuperOffice.Globalization.RC.SR_ADMIN_COPILOT_INCLUDECSS_TOOLTIP
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Include only content matching these CSS selectors.?Example: article, div.main'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_ADMIN_COPILOT_INCLUDECSS_TOOLTIP = "[SR_ADMIN_COPILOT_INCLUDECSS_TOOLTIP]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_ADMIN_COPILOT_INCLUDECSS_TOOLTIP As String = "[SR_ADMIN_COPILOT_INCLUDECSS_TOOLTIP]"
+- uid: SuperOffice.Globalization.RC.SR_ADMIN_COPILOT_SITEMAP_TOOLTIP
+  commentId: F:SuperOffice.Globalization.RC.SR_ADMIN_COPILOT_SITEMAP_TOOLTIP
+  id: SR_ADMIN_COPILOT_SITEMAP_TOOLTIP
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_ADMIN_COPILOT_SITEMAP_TOOLTIP
+  nameWithType: RC.SR_ADMIN_COPILOT_SITEMAP_TOOLTIP
+  fullName: SuperOffice.Globalization.RC.SR_ADMIN_COPILOT_SITEMAP_TOOLTIP
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Use this if the URL is a list of links (a sitemap, for example).?&lt;br/&gt;If unchecked, the URL is treated as a starting page and links on the site are followed.'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_ADMIN_COPILOT_SITEMAP_TOOLTIP = "[SR_ADMIN_COPILOT_SITEMAP_TOOLTIP]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_ADMIN_COPILOT_SITEMAP_TOOLTIP As String = "[SR_ADMIN_COPILOT_SITEMAP_TOOLTIP]"
+- uid: SuperOffice.Globalization.RC.SR_ADMIN_COPILOT_SKIPCSS
+  commentId: F:SuperOffice.Globalization.RC.SR_ADMIN_COPILOT_SKIPCSS
+  id: SR_ADMIN_COPILOT_SKIPCSS
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_ADMIN_COPILOT_SKIPCSS
+  nameWithType: RC.SR_ADMIN_COPILOT_SKIPCSS
+  fullName: SuperOffice.Globalization.RC.SR_ADMIN_COPILOT_SKIPCSS
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Skip CSS'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_ADMIN_COPILOT_SKIPCSS = "[SR_ADMIN_COPILOT_SKIPCSS]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_ADMIN_COPILOT_SKIPCSS As String = "[SR_ADMIN_COPILOT_SKIPCSS]"
+- uid: SuperOffice.Globalization.RC.SR_ADMIN_COPILOT_SKIPCSS_TOOLTIP
+  commentId: F:SuperOffice.Globalization.RC.SR_ADMIN_COPILOT_SKIPCSS_TOOLTIP
+  id: SR_ADMIN_COPILOT_SKIPCSS_TOOLTIP
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_ADMIN_COPILOT_SKIPCSS_TOOLTIP
+  nameWithType: RC.SR_ADMIN_COPILOT_SKIPCSS_TOOLTIP
+  fullName: SuperOffice.Globalization.RC.SR_ADMIN_COPILOT_SKIPCSS_TOOLTIP
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Skip pages that contain these CSS selectors.?Example: div#homepage'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_ADMIN_COPILOT_SKIPCSS_TOOLTIP = "[SR_ADMIN_COPILOT_SKIPCSS_TOOLTIP]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_ADMIN_COPILOT_SKIPCSS_TOOLTIP As String = "[SR_ADMIN_COPILOT_SKIPCSS_TOOLTIP]"
+- uid: SuperOffice.Globalization.RC.SR_ADMIN_COPILOT_SKIPURLS
+  commentId: F:SuperOffice.Globalization.RC.SR_ADMIN_COPILOT_SKIPURLS
+  id: SR_ADMIN_COPILOT_SKIPURLS
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_ADMIN_COPILOT_SKIPURLS
+  nameWithType: RC.SR_ADMIN_COPILOT_SKIPURLS
+  fullName: SuperOffice.Globalization.RC.SR_ADMIN_COPILOT_SKIPURLS
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Skip URLs'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_ADMIN_COPILOT_SKIPURLS = "[SR_ADMIN_COPILOT_SKIPURLS]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_ADMIN_COPILOT_SKIPURLS As String = "[SR_ADMIN_COPILOT_SKIPURLS]"
+- uid: SuperOffice.Globalization.RC.SR_ADMIN_COPILOT_SKIPURLS_TOOLTIP
+  commentId: F:SuperOffice.Globalization.RC.SR_ADMIN_COPILOT_SKIPURLS_TOOLTIP
+  id: SR_ADMIN_COPILOT_SKIPURLS_TOOLTIP
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_ADMIN_COPILOT_SKIPURLS_TOOLTIP
+  nameWithType: RC.SR_ADMIN_COPILOT_SKIPURLS_TOOLTIP
+  fullName: SuperOffice.Globalization.RC.SR_ADMIN_COPILOT_SKIPURLS_TOOLTIP
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Skip pages if the URL contains any of these values.?Example: /api, learn'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_ADMIN_COPILOT_SKIPURLS_TOOLTIP = "[SR_ADMIN_COPILOT_SKIPURLS_TOOLTIP]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_ADMIN_COPILOT_SKIPURLS_TOOLTIP As String = "[SR_ADMIN_COPILOT_SKIPURLS_TOOLTIP]"
 - uid: SuperOffice.Globalization.RC.SR_ADMIN_CREDTYPE
   commentId: F:SuperOffice.Globalization.RC.SR_ADMIN_CREDTYPE
   id: SR_ADMIN_CREDTYPE
@@ -27910,7 +28311,7 @@ items:
   assemblies:
   - SoCore
   namespace: SuperOffice.Globalization
-  summary: "'Lead categorization'<br />\r\nUse the word lead for all languages<br />\r\nUsage: None"
+  summary: "'Lead categorisation'<br />\r\nUse the word lead for all languages<br />\r\nUsage: None"
   example: []
   syntax:
     content: public const string SR_ADMIN_LC_LABEL = "[SR_ADMIN_LC_LABEL]"
@@ -28883,6 +29284,48 @@ items:
     return:
       type: System.String
     content.vb: Public Const SR_ADMIN_LIST_ADD_AS_WEB_PANEL As String = "[SR_ADMIN_LIST_ADD_AS_WEB_PANEL]"
+- uid: SuperOffice.Globalization.RC.SR_ADMIN_LIST_ALLOW_LOCAL
+  commentId: F:SuperOffice.Globalization.RC.SR_ADMIN_LIST_ALLOW_LOCAL
+  id: SR_ADMIN_LIST_ALLOW_LOCAL
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_ADMIN_LIST_ALLOW_LOCAL
+  nameWithType: RC.SR_ADMIN_LIST_ALLOW_LOCAL
+  fullName: SuperOffice.Globalization.RC.SR_ADMIN_LIST_ALLOW_LOCAL
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Allow local network content'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_ADMIN_LIST_ALLOW_LOCAL = "[SR_ADMIN_LIST_ALLOW_LOCAL]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_ADMIN_LIST_ALLOW_LOCAL As String = "[SR_ADMIN_LIST_ALLOW_LOCAL]"
+- uid: SuperOffice.Globalization.RC.SR_ADMIN_LIST_ALLOW_LOCAL_TOOLTIP
+  commentId: F:SuperOffice.Globalization.RC.SR_ADMIN_LIST_ALLOW_LOCAL_TOOLTIP
+  id: SR_ADMIN_LIST_ALLOW_LOCAL_TOOLTIP
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_ADMIN_LIST_ALLOW_LOCAL_TOOLTIP
+  nameWithType: RC.SR_ADMIN_LIST_ALLOW_LOCAL_TOOLTIP
+  fullName: SuperOffice.Globalization.RC.SR_ADMIN_LIST_ALLOW_LOCAL_TOOLTIP
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Use this option when the panel needs to show tools or pages that are available inside your company network'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_ADMIN_LIST_ALLOW_LOCAL_TOOLTIP = "[SR_ADMIN_LIST_ALLOW_LOCAL_TOOLTIP]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_ADMIN_LIST_ALLOW_LOCAL_TOOLTIP As String = "[SR_ADMIN_LIST_ALLOW_LOCAL_TOOLTIP]"
 - uid: SuperOffice.Globalization.RC.SR_ADMIN_LIST_ANSI
   commentId: F:SuperOffice.Globalization.RC.SR_ADMIN_LIST_ANSI
   id: SR_ADMIN_LIST_ANSI
@@ -30542,6 +30985,27 @@ items:
     return:
       type: System.String
     content.vb: Public Const SR_ADMIN_LIST_SHOW_CONTACTCARD As String = "[SR_ADMIN_LIST_SHOW_CONTACTCARD]"
+- uid: SuperOffice.Globalization.RC.SR_ADMIN_LIST_SHOW_CUSTOMOBJECTARCHIVE
+  commentId: F:SuperOffice.Globalization.RC.SR_ADMIN_LIST_SHOW_CUSTOMOBJECTARCHIVE
+  id: SR_ADMIN_LIST_SHOW_CUSTOMOBJECTARCHIVE
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_ADMIN_LIST_SHOW_CUSTOMOBJECTARCHIVE
+  nameWithType: RC.SR_ADMIN_LIST_SHOW_CUSTOMOBJECTARCHIVE
+  fullName: SuperOffice.Globalization.RC.SR_ADMIN_LIST_SHOW_CUSTOMOBJECTARCHIVE
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Custom object screen section tab'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_ADMIN_LIST_SHOW_CUSTOMOBJECTARCHIVE = "[SR_ADMIN_LIST_SHOW_CUSTOMOBJECTARCHIVE]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_ADMIN_LIST_SHOW_CUSTOMOBJECTARCHIVE As String = "[SR_ADMIN_LIST_SHOW_CUSTOMOBJECTARCHIVE]"
 - uid: SuperOffice.Globalization.RC.SR_ADMIN_LIST_SHOW_DASHBOARD
   commentId: F:SuperOffice.Globalization.RC.SR_ADMIN_LIST_SHOW_DASHBOARD
   id: SR_ADMIN_LIST_SHOW_DASHBOARD
@@ -41693,6 +42157,69 @@ items:
     return:
       type: System.String
     content.vb: Public Const SR_ADMIN_TICKETPRIORITY_TOPHONE As String = "[SR_ADMIN_TICKETPRIORITY_TOPHONE]"
+- uid: SuperOffice.Globalization.RC.SR_ADMIN_TICKETRELATION_CONFIRM_DELETE
+  commentId: F:SuperOffice.Globalization.RC.SR_ADMIN_TICKETRELATION_CONFIRM_DELETE
+  id: SR_ADMIN_TICKETRELATION_CONFIRM_DELETE
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_ADMIN_TICKETRELATION_CONFIRM_DELETE
+  nameWithType: RC.SR_ADMIN_TICKETRELATION_CONFIRM_DELETE
+  fullName: SuperOffice.Globalization.RC.SR_ADMIN_TICKETRELATION_CONFIRM_DELETE
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Are you sure you want to delete this request relation?&lt;br/&gt;'<br />\r\nAre you sure you want to delete this request relation?&lt;br/&gt;<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_ADMIN_TICKETRELATION_CONFIRM_DELETE = "[SR_ADMIN_TICKETRELATION_CONFIRM_DELETE]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_ADMIN_TICKETRELATION_CONFIRM_DELETE As String = "[SR_ADMIN_TICKETRELATION_CONFIRM_DELETE]"
+- uid: SuperOffice.Globalization.RC.SR_ADMIN_TICKETRELATION_DELETE
+  commentId: F:SuperOffice.Globalization.RC.SR_ADMIN_TICKETRELATION_DELETE
+  id: SR_ADMIN_TICKETRELATION_DELETE
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_ADMIN_TICKETRELATION_DELETE
+  nameWithType: RC.SR_ADMIN_TICKETRELATION_DELETE
+  fullName: SuperOffice.Globalization.RC.SR_ADMIN_TICKETRELATION_DELETE
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Delete request relation'<br />\r\nDelete request relation<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_ADMIN_TICKETRELATION_DELETE = "[SR_ADMIN_TICKETRELATION_DELETE]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_ADMIN_TICKETRELATION_DELETE As String = "[SR_ADMIN_TICKETRELATION_DELETE]"
+- uid: SuperOffice.Globalization.RC.SR_ADMIN_TICKETRELATION_NAME_ALREADY_EXIST
+  commentId: F:SuperOffice.Globalization.RC.SR_ADMIN_TICKETRELATION_NAME_ALREADY_EXIST
+  id: SR_ADMIN_TICKETRELATION_NAME_ALREADY_EXIST
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_ADMIN_TICKETRELATION_NAME_ALREADY_EXIST
+  nameWithType: RC.SR_ADMIN_TICKETRELATION_NAME_ALREADY_EXIST
+  fullName: SuperOffice.Globalization.RC.SR_ADMIN_TICKETRELATION_NAME_ALREADY_EXIST
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'A request relation with this name already exists in the database. Duplicate request type name is'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_ADMIN_TICKETRELATION_NAME_ALREADY_EXIST = "[SR_ADMIN_TICKETRELATION_NAME_ALREADY_EXIST]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_ADMIN_TICKETRELATION_NAME_ALREADY_EXIST As String = "[SR_ADMIN_TICKETRELATION_NAME_ALREADY_EXIST]"
 - uid: SuperOffice.Globalization.RC.SR_ADMIN_TICKETSTATUS_CANT_DELETE_DEFAULT_STATUS_FOR_TICKET_TYPE_ERROR
   commentId: F:SuperOffice.Globalization.RC.SR_ADMIN_TICKETSTATUS_CANT_DELETE_DEFAULT_STATUS_FOR_TICKET_TYPE_ERROR
   id: SR_ADMIN_TICKETSTATUS_CANT_DELETE_DEFAULT_STATUS_FOR_TICKET_TYPE_ERROR
@@ -42715,7 +43242,7 @@ items:
   assemblies:
   - SoCore
   namespace: SuperOffice.Globalization
-  summary: "'Offer to close all related when parent is closed'<br />\r\nWhen the main ticket is closed, the system should suggest also closing all sub-tickets.<br />\r\nUsage: None"
+  summary: "'Offer to close all related child requests when parent is closed'<br />\r\nWhen the main ticket is closed, the system should suggest also closing all sub-tickets.<br />\r\nUsage: None"
   example: []
   syntax:
     content: public const string SR_ADMIN_TICKET_OFFER_TO_CLOSE_ALL_RELATED = "[SR_ADMIN_TICKET_OFFER_TO_CLOSE_ALL_RELATED]"
@@ -49148,6 +49675,69 @@ items:
     return:
       type: System.String
     content.vb: Public Const SR_APPOINTMENT_TOGGLE_EMAIL_ERROR As String = "[SR_APPOINTMENT_TOGGLE_EMAIL_ERROR]"
+- uid: SuperOffice.Globalization.RC.SR_APPOINTMENT_TYPE_OPTIONAL
+  commentId: F:SuperOffice.Globalization.RC.SR_APPOINTMENT_TYPE_OPTIONAL
+  id: SR_APPOINTMENT_TYPE_OPTIONAL
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_APPOINTMENT_TYPE_OPTIONAL
+  nameWithType: RC.SR_APPOINTMENT_TYPE_OPTIONAL
+  fullName: SuperOffice.Globalization.RC.SR_APPOINTMENT_TYPE_OPTIONAL
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Optional'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_APPOINTMENT_TYPE_OPTIONAL = "[SR_APPOINTMENT_TYPE_OPTIONAL]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_APPOINTMENT_TYPE_OPTIONAL As String = "[SR_APPOINTMENT_TYPE_OPTIONAL]"
+- uid: SuperOffice.Globalization.RC.SR_APPOINTMENT_TYPE_ORGANIZER
+  commentId: F:SuperOffice.Globalization.RC.SR_APPOINTMENT_TYPE_ORGANIZER
+  id: SR_APPOINTMENT_TYPE_ORGANIZER
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_APPOINTMENT_TYPE_ORGANIZER
+  nameWithType: RC.SR_APPOINTMENT_TYPE_ORGANIZER
+  fullName: SuperOffice.Globalization.RC.SR_APPOINTMENT_TYPE_ORGANIZER
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Organizer'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_APPOINTMENT_TYPE_ORGANIZER = "[SR_APPOINTMENT_TYPE_ORGANIZER]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_APPOINTMENT_TYPE_ORGANIZER As String = "[SR_APPOINTMENT_TYPE_ORGANIZER]"
+- uid: SuperOffice.Globalization.RC.SR_APPOINTMENT_TYPE_REQUIRED
+  commentId: F:SuperOffice.Globalization.RC.SR_APPOINTMENT_TYPE_REQUIRED
+  id: SR_APPOINTMENT_TYPE_REQUIRED
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_APPOINTMENT_TYPE_REQUIRED
+  nameWithType: RC.SR_APPOINTMENT_TYPE_REQUIRED
+  fullName: SuperOffice.Globalization.RC.SR_APPOINTMENT_TYPE_REQUIRED
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Required'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_APPOINTMENT_TYPE_REQUIRED = "[SR_APPOINTMENT_TYPE_REQUIRED]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_APPOINTMENT_TYPE_REQUIRED As String = "[SR_APPOINTMENT_TYPE_REQUIRED]"
 - uid: SuperOffice.Globalization.RC.SR_APPOINTMENT_UNKNOWN_ORGANIZER
   commentId: F:SuperOffice.Globalization.RC.SR_APPOINTMENT_UNKNOWN_ORGANIZER
   id: SR_APPOINTMENT_UNKNOWN_ORGANIZER
@@ -58150,7 +58740,7 @@ items:
   assemblies:
   - SoCore
   namespace: SuperOffice.Globalization
-  summary: "'Does this sale have stakeholders enabled'<br />\r\nTooltip on archive column<br />\r\nUsage: None"
+  summary: "'Possibility to add stakeholders to the sale'<br />\r\nTooltip on archive column<br />\r\nUsage: None"
   example: []
   syntax:
     content: public const string SR_ARCHIVE_STAKEHOLDERS_ENABLED_TOOLTIP = "[SR_ARCHIVE_STAKEHOLDERS_ENABLED_TOOLTIP]"
@@ -65626,7 +66216,7 @@ items:
   assemblies:
   - SoCore
   namespace: SuperOffice.Globalization
-  summary: "'Days in stage'<br />\r\nUsage: None"
+  summary: "'Total number of days in this stage'<br />\r\nUsage: None"
   example: []
   syntax:
     content: public const string SR_BOARD_SALE_DATE_BADGE_STAGE = "[SR_BOARD_SALE_DATE_BADGE_STAGE]"
@@ -105953,6 +106543,27 @@ items:
     return:
       type: System.String
     content.vb: Public Const SR_DASHBOARD_ADD_QUICK_FILTER As String = "[SR_DASHBOARD_ADD_QUICK_FILTER]"
+- uid: SuperOffice.Globalization.RC.SR_DASHBOARD_ADD_QUICK_FILTER_DISABLED_TOOLTIP
+  commentId: F:SuperOffice.Globalization.RC.SR_DASHBOARD_ADD_QUICK_FILTER_DISABLED_TOOLTIP
+  id: SR_DASHBOARD_ADD_QUICK_FILTER_DISABLED_TOOLTIP
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_DASHBOARD_ADD_QUICK_FILTER_DISABLED_TOOLTIP
+  nameWithType: RC.SR_DASHBOARD_ADD_QUICK_FILTER_DISABLED_TOOLTIP
+  fullName: SuperOffice.Globalization.RC.SR_DASHBOARD_ADD_QUICK_FILTER_DISABLED_TOOLTIP
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'You can add up to 5 quick filters.'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_DASHBOARD_ADD_QUICK_FILTER_DISABLED_TOOLTIP = "[SR_DASHBOARD_ADD_QUICK_FILTER_DISABLED_TOOLTIP]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_DASHBOARD_ADD_QUICK_FILTER_DISABLED_TOOLTIP As String = "[SR_DASHBOARD_ADD_QUICK_FILTER_DISABLED_TOOLTIP]"
 - uid: SuperOffice.Globalization.RC.SR_DASHBOARD_AFDFA704A8644AA58699384B9FCBB29A_CAPTION
   commentId: F:SuperOffice.Globalization.RC.SR_DASHBOARD_AFDFA704A8644AA58699384B9FCBB29A_CAPTION
   id: SR_DASHBOARD_AFDFA704A8644AA58699384B9FCBB29A_CAPTION
@@ -128087,6 +128698,153 @@ items:
     return:
       type: System.String
     content.vb: Public Const SR_ENUM_ERPACTORTYPE_UNKNOWN As String = "[SR_ENUM_ERPACTORTYPE_UNKNOWN]"
+- uid: SuperOffice.Globalization.RC.SR_ENUM_KB_ACCESS_INTERNAL
+  commentId: F:SuperOffice.Globalization.RC.SR_ENUM_KB_ACCESS_INTERNAL
+  id: SR_ENUM_KB_ACCESS_INTERNAL
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_ENUM_KB_ACCESS_INTERNAL
+  nameWithType: RC.SR_ENUM_KB_ACCESS_INTERNAL
+  fullName: SuperOffice.Globalization.RC.SR_ENUM_KB_ACCESS_INTERNAL
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Accessible to internal users'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_ENUM_KB_ACCESS_INTERNAL = "[SR_ENUM_KB_ACCESS_INTERNAL]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_ENUM_KB_ACCESS_INTERNAL As String = "[SR_ENUM_KB_ACCESS_INTERNAL]"
+- uid: SuperOffice.Globalization.RC.SR_ENUM_KB_ACCESS_PRIVATE
+  commentId: F:SuperOffice.Globalization.RC.SR_ENUM_KB_ACCESS_PRIVATE
+  id: SR_ENUM_KB_ACCESS_PRIVATE
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_ENUM_KB_ACCESS_PRIVATE
+  nameWithType: RC.SR_ENUM_KB_ACCESS_PRIVATE
+  fullName: SuperOffice.Globalization.RC.SR_ENUM_KB_ACCESS_PRIVATE
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Private'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_ENUM_KB_ACCESS_PRIVATE = "[SR_ENUM_KB_ACCESS_PRIVATE]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_ENUM_KB_ACCESS_PRIVATE As String = "[SR_ENUM_KB_ACCESS_PRIVATE]"
+- uid: SuperOffice.Globalization.RC.SR_ENUM_KB_ACCESS_PUBLIC
+  commentId: F:SuperOffice.Globalization.RC.SR_ENUM_KB_ACCESS_PUBLIC
+  id: SR_ENUM_KB_ACCESS_PUBLIC
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_ENUM_KB_ACCESS_PUBLIC
+  nameWithType: RC.SR_ENUM_KB_ACCESS_PUBLIC
+  fullName: SuperOffice.Globalization.RC.SR_ENUM_KB_ACCESS_PUBLIC
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Accessible to everyone'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_ENUM_KB_ACCESS_PUBLIC = "[SR_ENUM_KB_ACCESS_PUBLIC]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_ENUM_KB_ACCESS_PUBLIC As String = "[SR_ENUM_KB_ACCESS_PUBLIC]"
+- uid: SuperOffice.Globalization.RC.SR_ENUM_KB_ACCESS_PUBLIC_AUTHENTICATED
+  commentId: F:SuperOffice.Globalization.RC.SR_ENUM_KB_ACCESS_PUBLIC_AUTHENTICATED
+  id: SR_ENUM_KB_ACCESS_PUBLIC_AUTHENTICATED
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_ENUM_KB_ACCESS_PUBLIC_AUTHENTICATED
+  nameWithType: RC.SR_ENUM_KB_ACCESS_PUBLIC_AUTHENTICATED
+  fullName: SuperOffice.Globalization.RC.SR_ENUM_KB_ACCESS_PUBLIC_AUTHENTICATED
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Accessible to registered customers'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_ENUM_KB_ACCESS_PUBLIC_AUTHENTICATED = "[SR_ENUM_KB_ACCESS_PUBLIC_AUTHENTICATED]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_ENUM_KB_ACCESS_PUBLIC_AUTHENTICATED As String = "[SR_ENUM_KB_ACCESS_PUBLIC_AUTHENTICATED]"
+- uid: SuperOffice.Globalization.RC.SR_ENUM_REPLYTEMPLATE_ACCESS_FULL
+  commentId: F:SuperOffice.Globalization.RC.SR_ENUM_REPLYTEMPLATE_ACCESS_FULL
+  id: SR_ENUM_REPLYTEMPLATE_ACCESS_FULL
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_ENUM_REPLYTEMPLATE_ACCESS_FULL
+  nameWithType: RC.SR_ENUM_REPLYTEMPLATE_ACCESS_FULL
+  fullName: SuperOffice.Globalization.RC.SR_ENUM_REPLYTEMPLATE_ACCESS_FULL
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Everyone can read and edit'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_ENUM_REPLYTEMPLATE_ACCESS_FULL = "[SR_ENUM_REPLYTEMPLATE_ACCESS_FULL]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_ENUM_REPLYTEMPLATE_ACCESS_FULL As String = "[SR_ENUM_REPLYTEMPLATE_ACCESS_FULL]"
+- uid: SuperOffice.Globalization.RC.SR_ENUM_REPLYTEMPLATE_ACCESS_NONE
+  commentId: F:SuperOffice.Globalization.RC.SR_ENUM_REPLYTEMPLATE_ACCESS_NONE
+  id: SR_ENUM_REPLYTEMPLATE_ACCESS_NONE
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_ENUM_REPLYTEMPLATE_ACCESS_NONE
+  nameWithType: RC.SR_ENUM_REPLYTEMPLATE_ACCESS_NONE
+  fullName: SuperOffice.Globalization.RC.SR_ENUM_REPLYTEMPLATE_ACCESS_NONE
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Only you can read or edit'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_ENUM_REPLYTEMPLATE_ACCESS_NONE = "[SR_ENUM_REPLYTEMPLATE_ACCESS_NONE]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_ENUM_REPLYTEMPLATE_ACCESS_NONE As String = "[SR_ENUM_REPLYTEMPLATE_ACCESS_NONE]"
+- uid: SuperOffice.Globalization.RC.SR_ENUM_REPLYTEMPLATE_ACCESS_READ
+  commentId: F:SuperOffice.Globalization.RC.SR_ENUM_REPLYTEMPLATE_ACCESS_READ
+  id: SR_ENUM_REPLYTEMPLATE_ACCESS_READ
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_ENUM_REPLYTEMPLATE_ACCESS_READ
+  nameWithType: RC.SR_ENUM_REPLYTEMPLATE_ACCESS_READ
+  fullName: SuperOffice.Globalization.RC.SR_ENUM_REPLYTEMPLATE_ACCESS_READ
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Everyone can read, but only you can edit'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_ENUM_REPLYTEMPLATE_ACCESS_READ = "[SR_ENUM_REPLYTEMPLATE_ACCESS_READ]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_ENUM_REPLYTEMPLATE_ACCESS_READ As String = "[SR_ENUM_REPLYTEMPLATE_ACCESS_READ]"
 - uid: SuperOffice.Globalization.RC.SR_ENUM_TICKETCATEGORYDELEGATEMETHOD_EVEN_DESC
   commentId: F:SuperOffice.Globalization.RC.SR_ENUM_TICKETCATEGORYDELEGATEMETHOD_EVEN_DESC
   id: SR_ENUM_TICKETCATEGORYDELEGATEMETHOD_EVEN_DESC
@@ -149717,6 +150475,237 @@ items:
     return:
       type: System.String
     content.vb: Public Const SR_FORMAT As String = "[SR_FORMAT]"
+- uid: SuperOffice.Globalization.RC.SR_FORMFONTS_ADD_FONT
+  commentId: F:SuperOffice.Globalization.RC.SR_FORMFONTS_ADD_FONT
+  id: SR_FORMFONTS_ADD_FONT
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_FORMFONTS_ADD_FONT
+  nameWithType: RC.SR_FORMFONTS_ADD_FONT
+  fullName: SuperOffice.Globalization.RC.SR_FORMFONTS_ADD_FONT
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Add font'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_FORMFONTS_ADD_FONT = "[SR_FORMFONTS_ADD_FONT]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_FORMFONTS_ADD_FONT As String = "[SR_FORMFONTS_ADD_FONT]"
+- uid: SuperOffice.Globalization.RC.SR_FORMFONTS_BOLD
+  commentId: F:SuperOffice.Globalization.RC.SR_FORMFONTS_BOLD
+  id: SR_FORMFONTS_BOLD
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_FORMFONTS_BOLD
+  nameWithType: RC.SR_FORMFONTS_BOLD
+  fullName: SuperOffice.Globalization.RC.SR_FORMFONTS_BOLD
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'BOLD'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_FORMFONTS_BOLD = "[SR_FORMFONTS_BOLD]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_FORMFONTS_BOLD As String = "[SR_FORMFONTS_BOLD]"
+- uid: SuperOffice.Globalization.RC.SR_FORMFONTS_CONFIRM_DELETE
+  commentId: F:SuperOffice.Globalization.RC.SR_FORMFONTS_CONFIRM_DELETE
+  id: SR_FORMFONTS_CONFIRM_DELETE
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_FORMFONTS_CONFIRM_DELETE
+  nameWithType: RC.SR_FORMFONTS_CONFIRM_DELETE
+  fullName: SuperOffice.Globalization.RC.SR_FORMFONTS_CONFIRM_DELETE
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Are you sure you want to remove this font?'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_FORMFONTS_CONFIRM_DELETE = "[SR_FORMFONTS_CONFIRM_DELETE]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_FORMFONTS_CONFIRM_DELETE As String = "[SR_FORMFONTS_CONFIRM_DELETE]"
+- uid: SuperOffice.Globalization.RC.SR_FORMFONTS_ENABLEDFONTS
+  commentId: F:SuperOffice.Globalization.RC.SR_FORMFONTS_ENABLEDFONTS
+  id: SR_FORMFONTS_ENABLEDFONTS
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_FORMFONTS_ENABLEDFONTS
+  nameWithType: RC.SR_FORMFONTS_ENABLEDFONTS
+  fullName: SuperOffice.Globalization.RC.SR_FORMFONTS_ENABLEDFONTS
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Enabled fonts for forms'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_FORMFONTS_ENABLEDFONTS = "[SR_FORMFONTS_ENABLEDFONTS]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_FORMFONTS_ENABLEDFONTS As String = "[SR_FORMFONTS_ENABLEDFONTS]"
+- uid: SuperOffice.Globalization.RC.SR_FORMFONTS_FONTPREVIEW
+  commentId: F:SuperOffice.Globalization.RC.SR_FORMFONTS_FONTPREVIEW
+  id: SR_FORMFONTS_FONTPREVIEW
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_FORMFONTS_FONTPREVIEW
+  nameWithType: RC.SR_FORMFONTS_FONTPREVIEW
+  fullName: SuperOffice.Globalization.RC.SR_FORMFONTS_FONTPREVIEW
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Font preview'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_FORMFONTS_FONTPREVIEW = "[SR_FORMFONTS_FONTPREVIEW]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_FORMFONTS_FONTPREVIEW As String = "[SR_FORMFONTS_FONTPREVIEW]"
+- uid: SuperOffice.Globalization.RC.SR_FORMFONTS_INFOBADGE
+  commentId: F:SuperOffice.Globalization.RC.SR_FORMFONTS_INFOBADGE
+  id: SR_FORMFONTS_INFOBADGE
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_FORMFONTS_INFOBADGE
+  nameWithType: RC.SR_FORMFONTS_INFOBADGE
+  fullName: SuperOffice.Globalization.RC.SR_FORMFONTS_INFOBADGE
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Choose and manage the fonts available for your forms to ensure consistent design and branding.&lt;br&gt;You can add fonts from our standard collection or select from the Google Fonts library, preview each font before adding it, and arrange them in the order you prefer.&lt;br&gt;Existing forms will keep their fonts even if you remove them later.'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_FORMFONTS_INFOBADGE = "[SR_FORMFONTS_INFOBADGE]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_FORMFONTS_INFOBADGE As String = "[SR_FORMFONTS_INFOBADGE]"
+- uid: SuperOffice.Globalization.RC.SR_FORMFONTS_ITALIC
+  commentId: F:SuperOffice.Globalization.RC.SR_FORMFONTS_ITALIC
+  id: SR_FORMFONTS_ITALIC
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_FORMFONTS_ITALIC
+  nameWithType: RC.SR_FORMFONTS_ITALIC
+  fullName: SuperOffice.Globalization.RC.SR_FORMFONTS_ITALIC
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'ITALIC'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_FORMFONTS_ITALIC = "[SR_FORMFONTS_ITALIC]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_FORMFONTS_ITALIC As String = "[SR_FORMFONTS_ITALIC]"
+- uid: SuperOffice.Globalization.RC.SR_FORMFONTS_LABEL
+  commentId: F:SuperOffice.Globalization.RC.SR_FORMFONTS_LABEL
+  id: SR_FORMFONTS_LABEL
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_FORMFONTS_LABEL
+  nameWithType: RC.SR_FORMFONTS_LABEL
+  fullName: SuperOffice.Globalization.RC.SR_FORMFONTS_LABEL
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Form fonts'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_FORMFONTS_LABEL = "[SR_FORMFONTS_LABEL]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_FORMFONTS_LABEL As String = "[SR_FORMFONTS_LABEL]"
+- uid: SuperOffice.Globalization.RC.SR_FORMFONTS_NOTAVAILABLE
+  commentId: F:SuperOffice.Globalization.RC.SR_FORMFONTS_NOTAVAILABLE
+  id: SR_FORMFONTS_NOTAVAILABLE
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_FORMFONTS_NOTAVAILABLE
+  nameWithType: RC.SR_FORMFONTS_NOTAVAILABLE
+  fullName: SuperOffice.Globalization.RC.SR_FORMFONTS_NOTAVAILABLE
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Not available for this font'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_FORMFONTS_NOTAVAILABLE = "[SR_FORMFONTS_NOTAVAILABLE]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_FORMFONTS_NOTAVAILABLE As String = "[SR_FORMFONTS_NOTAVAILABLE]"
+- uid: SuperOffice.Globalization.RC.SR_FORMFONTS_REGULAR
+  commentId: F:SuperOffice.Globalization.RC.SR_FORMFONTS_REGULAR
+  id: SR_FORMFONTS_REGULAR
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_FORMFONTS_REGULAR
+  nameWithType: RC.SR_FORMFONTS_REGULAR
+  fullName: SuperOffice.Globalization.RC.SR_FORMFONTS_REGULAR
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'REGULAR'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_FORMFONTS_REGULAR = "[SR_FORMFONTS_REGULAR]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_FORMFONTS_REGULAR As String = "[SR_FORMFONTS_REGULAR]"
+- uid: SuperOffice.Globalization.RC.SR_FORMFONTS_SEARCHBYNAME
+  commentId: F:SuperOffice.Globalization.RC.SR_FORMFONTS_SEARCHBYNAME
+  id: SR_FORMFONTS_SEARCHBYNAME
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_FORMFONTS_SEARCHBYNAME
+  nameWithType: RC.SR_FORMFONTS_SEARCHBYNAME
+  fullName: SuperOffice.Globalization.RC.SR_FORMFONTS_SEARCHBYNAME
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Search fonts by name'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_FORMFONTS_SEARCHBYNAME = "[SR_FORMFONTS_SEARCHBYNAME]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_FORMFONTS_SEARCHBYNAME As String = "[SR_FORMFONTS_SEARCHBYNAME]"
 - uid: SuperOffice.Globalization.RC.SR_FORMSUBMISSIONARCHIVE_FORMID
   commentId: F:SuperOffice.Globalization.RC.SR_FORMSUBMISSIONARCHIVE_FORMID
   id: SR_FORMSUBMISSIONARCHIVE_FORMID
@@ -151292,6 +152281,27 @@ items:
     return:
       type: System.String
     content.vb: Public Const SR_FORMS_CSS_ADDBUTTON As String = "[SR_FORMS_CSS_ADDBUTTON]"
+- uid: SuperOffice.Globalization.RC.SR_FORMS_CSS_ADD_CLASS
+  commentId: F:SuperOffice.Globalization.RC.SR_FORMS_CSS_ADD_CLASS
+  id: SR_FORMS_CSS_ADD_CLASS
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_FORMS_CSS_ADD_CLASS
+  nameWithType: RC.SR_FORMS_CSS_ADD_CLASS
+  fullName: SuperOffice.Globalization.RC.SR_FORMS_CSS_ADD_CLASS
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Search for available classes and add to editor'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_FORMS_CSS_ADD_CLASS = "[SR_FORMS_CSS_ADD_CLASS]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_FORMS_CSS_ADD_CLASS As String = "[SR_FORMS_CSS_ADD_CLASS]"
 - uid: SuperOffice.Globalization.RC.SR_FORMS_CSS_BACKGROUND
   commentId: F:SuperOffice.Globalization.RC.SR_FORMS_CSS_BACKGROUND
   id: SR_FORMS_CSS_BACKGROUND
@@ -151607,6 +152617,27 @@ items:
     return:
       type: System.String
     content.vb: Public Const SR_FORMS_CSS_INTEGER As String = "[SR_FORMS_CSS_INTEGER]"
+- uid: SuperOffice.Globalization.RC.SR_FORMS_CSS_LABEL
+  commentId: F:SuperOffice.Globalization.RC.SR_FORMS_CSS_LABEL
+  id: SR_FORMS_CSS_LABEL
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_FORMS_CSS_LABEL
+  nameWithType: RC.SR_FORMS_CSS_LABEL
+  fullName: SuperOffice.Globalization.RC.SR_FORMS_CSS_LABEL
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Label'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_FORMS_CSS_LABEL = "[SR_FORMS_CSS_LABEL]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_FORMS_CSS_LABEL As String = "[SR_FORMS_CSS_LABEL]"
 - uid: SuperOffice.Globalization.RC.SR_FORMS_CSS_PAGE
   commentId: F:SuperOffice.Globalization.RC.SR_FORMS_CSS_PAGE
   id: SR_FORMS_CSS_PAGE
@@ -151915,7 +152946,7 @@ items:
   assemblies:
   - SoCore
   namespace: SuperOffice.Globalization
-  summary: "'Add custom CSS to style your form'<br />\r\nUsage: None"
+  summary: "'Add custom CSS to style your form. Your custom CSS will override the default form styles.'<br />\r\nUsage: None"
   example: []
   syntax:
     content: public const string SR_FORMS_CSS_SUB = "[SR_FORMS_CSS_SUB]"
@@ -163675,7 +164706,7 @@ items:
   assemblies:
   - SoCore
   namespace: SuperOffice.Globalization
-  summary: "'This meeting was created in Google Calendar and can only be edited and deleted in Google Calendar.&lt;br/&gt;'<br />\r\nUsage: None"
+  summary: "'This meeting was created in Google Calendar and should only be edited and/or deleted in Google Calendar.&lt;br/&gt;'<br />\r\nUsage: None"
   example: []
   syntax:
     content: public const string SR_INVITATION_OWNED_EXTERNALLY_GOOGLE = "[SR_INVITATION_OWNED_EXTERNALLY_GOOGLE]"
@@ -163717,7 +164748,7 @@ items:
   assemblies:
   - SoCore
   namespace: SuperOffice.Globalization
-  summary: "'This meeting was created in Outlook and can only be edited and deleted in Outlook.'<br />\r\nUsage: None"
+  summary: "'This meeting was created in Outlook and should only be edited and/or deleted in Outlook.'<br />\r\nUsage: None"
   example: []
   syntax:
     content: public const string SR_INVITATION_OWNED_EXTERNALLY_OUTLOOK = "[SR_INVITATION_OWNED_EXTERNALLY_OUTLOOK]"
@@ -164060,6 +165091,27 @@ items:
     return:
       type: System.String
     content.vb: Public Const SR_INVITE_NO As String = "[SR_INVITE_NO]"
+- uid: SuperOffice.Globalization.RC.SR_INVITE_NOT_SEEN
+  commentId: F:SuperOffice.Globalization.RC.SR_INVITE_NOT_SEEN
+  id: SR_INVITE_NOT_SEEN
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_INVITE_NOT_SEEN
+  nameWithType: RC.SR_INVITE_NOT_SEEN
+  fullName: SuperOffice.Globalization.RC.SR_INVITE_NOT_SEEN
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Not seen'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_INVITE_NOT_SEEN = "[SR_INVITE_NOT_SEEN]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_INVITE_NOT_SEEN As String = "[SR_INVITE_NOT_SEEN]"
 - uid: SuperOffice.Globalization.RC.SR_INVITE_NO_ALL
   commentId: F:SuperOffice.Globalization.RC.SR_INVITE_NO_ALL
   id: SR_INVITE_NO_ALL
@@ -164354,6 +165406,27 @@ items:
     return:
       type: System.String
     content.vb: Public Const SR_INVITE_SHOW_RESPONSES_TOOLTIP As String = "[SR_INVITE_SHOW_RESPONSES_TOOLTIP]"
+- uid: SuperOffice.Globalization.RC.SR_INVITE_TENTATIVE
+  commentId: F:SuperOffice.Globalization.RC.SR_INVITE_TENTATIVE
+  id: SR_INVITE_TENTATIVE
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_INVITE_TENTATIVE
+  nameWithType: RC.SR_INVITE_TENTATIVE
+  fullName: SuperOffice.Globalization.RC.SR_INVITE_TENTATIVE
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Tentative'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_INVITE_TENTATIVE = "[SR_INVITE_TENTATIVE]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_INVITE_TENTATIVE As String = "[SR_INVITE_TENTATIVE]"
 - uid: SuperOffice.Globalization.RC.SR_INVITE_TIME
   commentId: F:SuperOffice.Globalization.RC.SR_INVITE_TIME
   id: SR_INVITE_TIME
@@ -164627,6 +165700,69 @@ items:
     return:
       type: System.String
     content.vb: Public Const SR_KAZAKH As String = "[SR_KAZAKH]"
+- uid: SuperOffice.Globalization.RC.SR_KB_WORKFLOW_EXPIRED
+  commentId: F:SuperOffice.Globalization.RC.SR_KB_WORKFLOW_EXPIRED
+  id: SR_KB_WORKFLOW_EXPIRED
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_KB_WORKFLOW_EXPIRED
+  nameWithType: RC.SR_KB_WORKFLOW_EXPIRED
+  fullName: SuperOffice.Globalization.RC.SR_KB_WORKFLOW_EXPIRED
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Expired'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_KB_WORKFLOW_EXPIRED = "[SR_KB_WORKFLOW_EXPIRED]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_KB_WORKFLOW_EXPIRED As String = "[SR_KB_WORKFLOW_EXPIRED]"
+- uid: SuperOffice.Globalization.RC.SR_KB_WORKFLOW_PUBLISHED
+  commentId: F:SuperOffice.Globalization.RC.SR_KB_WORKFLOW_PUBLISHED
+  id: SR_KB_WORKFLOW_PUBLISHED
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_KB_WORKFLOW_PUBLISHED
+  nameWithType: RC.SR_KB_WORKFLOW_PUBLISHED
+  fullName: SuperOffice.Globalization.RC.SR_KB_WORKFLOW_PUBLISHED
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Published'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_KB_WORKFLOW_PUBLISHED = "[SR_KB_WORKFLOW_PUBLISHED]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_KB_WORKFLOW_PUBLISHED As String = "[SR_KB_WORKFLOW_PUBLISHED]"
+- uid: SuperOffice.Globalization.RC.SR_KB_WORKFLOW_UNPUBLISHED
+  commentId: F:SuperOffice.Globalization.RC.SR_KB_WORKFLOW_UNPUBLISHED
+  id: SR_KB_WORKFLOW_UNPUBLISHED
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_KB_WORKFLOW_UNPUBLISHED
+  nameWithType: RC.SR_KB_WORKFLOW_UNPUBLISHED
+  fullName: SuperOffice.Globalization.RC.SR_KB_WORKFLOW_UNPUBLISHED
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Unpublished'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_KB_WORKFLOW_UNPUBLISHED = "[SR_KB_WORKFLOW_UNPUBLISHED]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_KB_WORKFLOW_UNPUBLISHED As String = "[SR_KB_WORKFLOW_UNPUBLISHED]"
 - uid: SuperOffice.Globalization.RC.SR_KEYWORDS
   commentId: F:SuperOffice.Globalization.RC.SR_KEYWORDS
   id: SR_KEYWORDS
@@ -167749,7 +168885,7 @@ items:
   assemblies:
   - SoCore
   namespace: SuperOffice.Globalization
-  summary: "'&lt;br&gt;Either the text or tooltip (or both) are too long to fit in the database.&lt;br&gt;If you continue saving, the text might become corrupted.&lt;br&gt; To support longer names and tooltips, you can turn on the global preference &lt;br&gt;&lt;b&gt;'Grouped lists' -&gt; 'Enable long list names and tooltips'.&lt;/b&gt;&lt;br&gt;Note that there is a performance penalty if this is turned on.&lt;br&gt;&lt;a href='default.aspx?adminpreferences.system'&gt;Click here to go to global preferences&lt;/a&gt;&lt;br&gt;&lt;br&gt;Do you still want to save?'<br />\r\nUsage: None"
+  summary: "'&lt;br&gt;Either the text or tooltip (or both) are too long to fit in the database.&lt;br&gt;If you continue saving, the text might become corrupted.&lt;br&gt; To support longer names and tooltips, you can either remove the languages not in use to free up space,&lt;br&gt;or you can turn on the global preference &lt;b&gt;'Grouped lists' -&gt; 'Enable long list names and tooltips'.&lt;/b&gt;&lt;br&gt;Note that there is a performance penalty if this is turned on.&lt;br&gt;&lt;a href='default.aspx?adminpreferences.system'&gt;Click here to go to global preferences&lt;/a&gt;&lt;br&gt;&lt;br&gt;Do you still want to save?'<br />\r\nUsage: None"
   example: []
   syntax:
     content: public const string SR_LISTITEM_TEXT_TOO_LONG = "[SR_LISTITEM_TEXT_TOO_LONG]"
@@ -176597,6 +177733,27 @@ items:
     return:
       type: System.String
     content.vb: Public Const SR_MAILLOGIN_SETACCOUNT As String = "[SR_MAILLOGIN_SETACCOUNT]"
+- uid: SuperOffice.Globalization.RC.SR_MAILLOGIN_SIGN_IN_TO_EMAIL_SERVICE
+  commentId: F:SuperOffice.Globalization.RC.SR_MAILLOGIN_SIGN_IN_TO_EMAIL_SERVICE
+  id: SR_MAILLOGIN_SIGN_IN_TO_EMAIL_SERVICE
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_MAILLOGIN_SIGN_IN_TO_EMAIL_SERVICE
+  nameWithType: RC.SR_MAILLOGIN_SIGN_IN_TO_EMAIL_SERVICE
+  fullName: SuperOffice.Globalization.RC.SR_MAILLOGIN_SIGN_IN_TO_EMAIL_SERVICE
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'&lt;span class='font-normal bold'&gt;You need to sign in to continue.&lt;/span&gt; &lt;span class='font-small'&gt;Your session has expired.&lt;/span&gt;'<br />\r\nHTML tags must be preserved.<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_MAILLOGIN_SIGN_IN_TO_EMAIL_SERVICE = "[SR_MAILLOGIN_SIGN_IN_TO_EMAIL_SERVICE]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_MAILLOGIN_SIGN_IN_TO_EMAIL_SERVICE As String = "[SR_MAILLOGIN_SIGN_IN_TO_EMAIL_SERVICE]"
 - uid: SuperOffice.Globalization.RC.SR_MAILLOGIN_SIMPLE
   commentId: F:SuperOffice.Globalization.RC.SR_MAILLOGIN_SIMPLE
   id: SR_MAILLOGIN_SIMPLE
@@ -189470,6 +190627,27 @@ items:
     return:
       type: System.String
     content.vb: Public Const SR_MENU_MORE As String = "[SR_MENU_MORE]"
+- uid: SuperOffice.Globalization.RC.SR_MENU_ONBOARDING
+  commentId: F:SuperOffice.Globalization.RC.SR_MENU_ONBOARDING
+  id: SR_MENU_ONBOARDING
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_MENU_ONBOARDING
+  nameWithType: RC.SR_MENU_ONBOARDING
+  fullName: SuperOffice.Globalization.RC.SR_MENU_ONBOARDING
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Onboarding'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_MENU_ONBOARDING = "[SR_MENU_ONBOARDING]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_MENU_ONBOARDING As String = "[SR_MENU_ONBOARDING]"
 - uid: SuperOffice.Globalization.RC.SR_MENU_OPEN_TARGETS
   commentId: F:SuperOffice.Globalization.RC.SR_MENU_OPEN_TARGETS
   id: SR_MENU_OPEN_TARGETS
@@ -197744,6 +198922,48 @@ items:
     return:
       type: System.String
     content.vb: Public Const SR_NOTIFY_DONE As String = "[SR_NOTIFY_DONE]"
+- uid: SuperOffice.Globalization.RC.SR_NOTIFY_EMAIL_EXPIRED_DESC
+  commentId: F:SuperOffice.Globalization.RC.SR_NOTIFY_EMAIL_EXPIRED_DESC
+  id: SR_NOTIFY_EMAIL_EXPIRED_DESC
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_NOTIFY_EMAIL_EXPIRED_DESC
+  nameWithType: RC.SR_NOTIFY_EMAIL_EXPIRED_DESC
+  fullName: SuperOffice.Globalization.RC.SR_NOTIFY_EMAIL_EXPIRED_DESC
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Sign in to reconnect and keep everything running smoothly'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_NOTIFY_EMAIL_EXPIRED_DESC = "[SR_NOTIFY_EMAIL_EXPIRED_DESC]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_NOTIFY_EMAIL_EXPIRED_DESC As String = "[SR_NOTIFY_EMAIL_EXPIRED_DESC]"
+- uid: SuperOffice.Globalization.RC.SR_NOTIFY_EMAIL_EXPIRED_TITLE
+  commentId: F:SuperOffice.Globalization.RC.SR_NOTIFY_EMAIL_EXPIRED_TITLE
+  id: SR_NOTIFY_EMAIL_EXPIRED_TITLE
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_NOTIFY_EMAIL_EXPIRED_TITLE
+  nameWithType: RC.SR_NOTIFY_EMAIL_EXPIRED_TITLE
+  fullName: SuperOffice.Globalization.RC.SR_NOTIFY_EMAIL_EXPIRED_TITLE
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Your e-mail connection has expired'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_NOTIFY_EMAIL_EXPIRED_TITLE = "[SR_NOTIFY_EMAIL_EXPIRED_TITLE]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_NOTIFY_EMAIL_EXPIRED_TITLE As String = "[SR_NOTIFY_EMAIL_EXPIRED_TITLE]"
 - uid: SuperOffice.Globalization.RC.SR_NOTIFY_MEETING_CANCELLED
   commentId: F:SuperOffice.Globalization.RC.SR_NOTIFY_MEETING_CANCELLED
   id: SR_NOTIFY_MEETING_CANCELLED
@@ -198059,6 +199279,27 @@ items:
     return:
       type: System.String
     content.vb: Public Const SR_NOTIFY_SETTINGS_ASSIGNMENT_HEADING As String = "[SR_NOTIFY_SETTINGS_ASSIGNMENT_HEADING]"
+- uid: SuperOffice.Globalization.RC.SR_NOTIFY_SETTINGS_EMAIL_HEADING
+  commentId: F:SuperOffice.Globalization.RC.SR_NOTIFY_SETTINGS_EMAIL_HEADING
+  id: SR_NOTIFY_SETTINGS_EMAIL_HEADING
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_NOTIFY_SETTINGS_EMAIL_HEADING
+  nameWithType: RC.SR_NOTIFY_SETTINGS_EMAIL_HEADING
+  fullName: SuperOffice.Globalization.RC.SR_NOTIFY_SETTINGS_EMAIL_HEADING
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'E-mail notifications'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_NOTIFY_SETTINGS_EMAIL_HEADING = "[SR_NOTIFY_SETTINGS_EMAIL_HEADING]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_NOTIFY_SETTINGS_EMAIL_HEADING As String = "[SR_NOTIFY_SETTINGS_EMAIL_HEADING]"
 - uid: SuperOffice.Globalization.RC.SR_NOTIFY_SETTINGS_REQUEST_HEADING
   commentId: F:SuperOffice.Globalization.RC.SR_NOTIFY_SETTINGS_REQUEST_HEADING
   id: SR_NOTIFY_SETTINGS_REQUEST_HEADING
@@ -198248,6 +199489,27 @@ items:
     return:
       type: System.String
     content.vb: Public Const SR_NOTIFY_SETTINGS_notifyCustomMessage As String = "[SR_NOTIFY_SETTINGS_notifyCustomMessage]"
+- uid: SuperOffice.Globalization.RC.SR_NOTIFY_SETTINGS_notifyExpiredEmailAuthentication
+  commentId: F:SuperOffice.Globalization.RC.SR_NOTIFY_SETTINGS_notifyExpiredEmailAuthentication
+  id: SR_NOTIFY_SETTINGS_notifyExpiredEmailAuthentication
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_NOTIFY_SETTINGS_notifyExpiredEmailAuthentication
+  nameWithType: RC.SR_NOTIFY_SETTINGS_notifyExpiredEmailAuthentication
+  fullName: SuperOffice.Globalization.RC.SR_NOTIFY_SETTINGS_notifyExpiredEmailAuthentication
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Show notifications for expired e-mail connection'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_NOTIFY_SETTINGS_notifyExpiredEmailAuthentication = "[SR_NOTIFY_SETTINGS_notifyExpiredEmailAuthentication]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_NOTIFY_SETTINGS_notifyExpiredEmailAuthentication As String = "[SR_NOTIFY_SETTINGS_notifyExpiredEmailAuthentication]"
 - uid: SuperOffice.Globalization.RC.SR_NOTIFY_SETTINGS_notifyFavouriteRequest
   commentId: F:SuperOffice.Globalization.RC.SR_NOTIFY_SETTINGS_notifyFavouriteRequest
   id: SR_NOTIFY_SETTINGS_notifyFavouriteRequest
@@ -199424,6 +200686,1098 @@ items:
     return:
       type: System.String
     content.vb: Public Const SR_OLD_PASSWORD As String = "[SR_OLD_PASSWORD]"
+- uid: SuperOffice.Globalization.RC.SR_ONBOARDING_ALREADY_HAVE_WEBTOOLS
+  commentId: F:SuperOffice.Globalization.RC.SR_ONBOARDING_ALREADY_HAVE_WEBTOOLS
+  id: SR_ONBOARDING_ALREADY_HAVE_WEBTOOLS
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_ONBOARDING_ALREADY_HAVE_WEBTOOLS
+  nameWithType: RC.SR_ONBOARDING_ALREADY_HAVE_WEBTOOLS
+  fullName: SuperOffice.Globalization.RC.SR_ONBOARDING_ALREADY_HAVE_WEBTOOLS
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Already have SuperOffice WebTools installed?'<br />\r\nSmall section underneath the \"Download webtools\" button in the S&amp;M Web webtools download-wizard<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_ONBOARDING_ALREADY_HAVE_WEBTOOLS = "[SR_ONBOARDING_ALREADY_HAVE_WEBTOOLS]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_ONBOARDING_ALREADY_HAVE_WEBTOOLS As String = "[SR_ONBOARDING_ALREADY_HAVE_WEBTOOLS]"
+- uid: SuperOffice.Globalization.RC.SR_ONBOARDING_AUTHENTICATION_ERROR
+  commentId: F:SuperOffice.Globalization.RC.SR_ONBOARDING_AUTHENTICATION_ERROR
+  id: SR_ONBOARDING_AUTHENTICATION_ERROR
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_ONBOARDING_AUTHENTICATION_ERROR
+  nameWithType: RC.SR_ONBOARDING_AUTHENTICATION_ERROR
+  fullName: SuperOffice.Globalization.RC.SR_ONBOARDING_AUTHENTICATION_ERROR
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Authentication failed.'<br />\r\nError message shown when SuperOffice Inbox fails to authenticate with the IMAP server.<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_ONBOARDING_AUTHENTICATION_ERROR = "[SR_ONBOARDING_AUTHENTICATION_ERROR]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_ONBOARDING_AUTHENTICATION_ERROR As String = "[SR_ONBOARDING_AUTHENTICATION_ERROR]"
+- uid: SuperOffice.Globalization.RC.SR_ONBOARDING_BUTT_BACK
+  commentId: F:SuperOffice.Globalization.RC.SR_ONBOARDING_BUTT_BACK
+  id: SR_ONBOARDING_BUTT_BACK
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_ONBOARDING_BUTT_BACK
+  nameWithType: RC.SR_ONBOARDING_BUTT_BACK
+  fullName: SuperOffice.Globalization.RC.SR_ONBOARDING_BUTT_BACK
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Back'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_ONBOARDING_BUTT_BACK = "[SR_ONBOARDING_BUTT_BACK]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_ONBOARDING_BUTT_BACK As String = "[SR_ONBOARDING_BUTT_BACK]"
+- uid: SuperOffice.Globalization.RC.SR_ONBOARDING_BUTT_CANCEL
+  commentId: F:SuperOffice.Globalization.RC.SR_ONBOARDING_BUTT_CANCEL
+  id: SR_ONBOARDING_BUTT_CANCEL
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_ONBOARDING_BUTT_CANCEL
+  nameWithType: RC.SR_ONBOARDING_BUTT_CANCEL
+  fullName: SuperOffice.Globalization.RC.SR_ONBOARDING_BUTT_CANCEL
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'~Cancel'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_ONBOARDING_BUTT_CANCEL = "[SR_ONBOARDING_BUTT_CANCEL]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_ONBOARDING_BUTT_CANCEL As String = "[SR_ONBOARDING_BUTT_CANCEL]"
+- uid: SuperOffice.Globalization.RC.SR_ONBOARDING_BUTT_CLOSE
+  commentId: F:SuperOffice.Globalization.RC.SR_ONBOARDING_BUTT_CLOSE
+  id: SR_ONBOARDING_BUTT_CLOSE
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_ONBOARDING_BUTT_CLOSE
+  nameWithType: RC.SR_ONBOARDING_BUTT_CLOSE
+  fullName: SuperOffice.Globalization.RC.SR_ONBOARDING_BUTT_CLOSE
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Clos~e'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_ONBOARDING_BUTT_CLOSE = "[SR_ONBOARDING_BUTT_CLOSE]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_ONBOARDING_BUTT_CLOSE As String = "[SR_ONBOARDING_BUTT_CLOSE]"
+- uid: SuperOffice.Globalization.RC.SR_ONBOARDING_BUTT_CONNECT
+  commentId: F:SuperOffice.Globalization.RC.SR_ONBOARDING_BUTT_CONNECT
+  id: SR_ONBOARDING_BUTT_CONNECT
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_ONBOARDING_BUTT_CONNECT
+  nameWithType: RC.SR_ONBOARDING_BUTT_CONNECT
+  fullName: SuperOffice.Globalization.RC.SR_ONBOARDING_BUTT_CONNECT
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Connect'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_ONBOARDING_BUTT_CONNECT = "[SR_ONBOARDING_BUTT_CONNECT]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_ONBOARDING_BUTT_CONNECT As String = "[SR_ONBOARDING_BUTT_CONNECT]"
+- uid: SuperOffice.Globalization.RC.SR_ONBOARDING_BUTT_DISCONNECT
+  commentId: F:SuperOffice.Globalization.RC.SR_ONBOARDING_BUTT_DISCONNECT
+  id: SR_ONBOARDING_BUTT_DISCONNECT
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_ONBOARDING_BUTT_DISCONNECT
+  nameWithType: RC.SR_ONBOARDING_BUTT_DISCONNECT
+  fullName: SuperOffice.Globalization.RC.SR_ONBOARDING_BUTT_DISCONNECT
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Disconnect'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_ONBOARDING_BUTT_DISCONNECT = "[SR_ONBOARDING_BUTT_DISCONNECT]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_ONBOARDING_BUTT_DISCONNECT As String = "[SR_ONBOARDING_BUTT_DISCONNECT]"
+- uid: SuperOffice.Globalization.RC.SR_ONBOARDING_BUTT_GET_STARTED
+  commentId: F:SuperOffice.Globalization.RC.SR_ONBOARDING_BUTT_GET_STARTED
+  id: SR_ONBOARDING_BUTT_GET_STARTED
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_ONBOARDING_BUTT_GET_STARTED
+  nameWithType: RC.SR_ONBOARDING_BUTT_GET_STARTED
+  fullName: SuperOffice.Globalization.RC.SR_ONBOARDING_BUTT_GET_STARTED
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Get started'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_ONBOARDING_BUTT_GET_STARTED = "[SR_ONBOARDING_BUTT_GET_STARTED]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_ONBOARDING_BUTT_GET_STARTED As String = "[SR_ONBOARDING_BUTT_GET_STARTED]"
+- uid: SuperOffice.Globalization.RC.SR_ONBOARDING_BUTT_LOGIN
+  commentId: F:SuperOffice.Globalization.RC.SR_ONBOARDING_BUTT_LOGIN
+  id: SR_ONBOARDING_BUTT_LOGIN
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_ONBOARDING_BUTT_LOGIN
+  nameWithType: RC.SR_ONBOARDING_BUTT_LOGIN
+  fullName: SuperOffice.Globalization.RC.SR_ONBOARDING_BUTT_LOGIN
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Log in'<br />\r\nText for a login button.<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_ONBOARDING_BUTT_LOGIN = "[SR_ONBOARDING_BUTT_LOGIN]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_ONBOARDING_BUTT_LOGIN As String = "[SR_ONBOARDING_BUTT_LOGIN]"
+- uid: SuperOffice.Globalization.RC.SR_ONBOARDING_BUTT_NEXT
+  commentId: F:SuperOffice.Globalization.RC.SR_ONBOARDING_BUTT_NEXT
+  id: SR_ONBOARDING_BUTT_NEXT
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_ONBOARDING_BUTT_NEXT
+  nameWithType: RC.SR_ONBOARDING_BUTT_NEXT
+  fullName: SuperOffice.Globalization.RC.SR_ONBOARDING_BUTT_NEXT
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'~Next'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_ONBOARDING_BUTT_NEXT = "[SR_ONBOARDING_BUTT_NEXT]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_ONBOARDING_BUTT_NEXT As String = "[SR_ONBOARDING_BUTT_NEXT]"
+- uid: SuperOffice.Globalization.RC.SR_ONBOARDING_BUTT_SAVE
+  commentId: F:SuperOffice.Globalization.RC.SR_ONBOARDING_BUTT_SAVE
+  id: SR_ONBOARDING_BUTT_SAVE
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_ONBOARDING_BUTT_SAVE
+  nameWithType: RC.SR_ONBOARDING_BUTT_SAVE
+  fullName: SuperOffice.Globalization.RC.SR_ONBOARDING_BUTT_SAVE
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'~Save'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_ONBOARDING_BUTT_SAVE = "[SR_ONBOARDING_BUTT_SAVE]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_ONBOARDING_BUTT_SAVE As String = "[SR_ONBOARDING_BUTT_SAVE]"
+- uid: SuperOffice.Globalization.RC.SR_ONBOARDING_BUTT_SIGN_IN
+  commentId: F:SuperOffice.Globalization.RC.SR_ONBOARDING_BUTT_SIGN_IN
+  id: SR_ONBOARDING_BUTT_SIGN_IN
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_ONBOARDING_BUTT_SIGN_IN
+  nameWithType: RC.SR_ONBOARDING_BUTT_SIGN_IN
+  fullName: SuperOffice.Globalization.RC.SR_ONBOARDING_BUTT_SIGN_IN
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Sign in'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_ONBOARDING_BUTT_SIGN_IN = "[SR_ONBOARDING_BUTT_SIGN_IN]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_ONBOARDING_BUTT_SIGN_IN As String = "[SR_ONBOARDING_BUTT_SIGN_IN]"
+- uid: SuperOffice.Globalization.RC.SR_ONBOARDING_BUTT_UPDATE
+  commentId: F:SuperOffice.Globalization.RC.SR_ONBOARDING_BUTT_UPDATE
+  id: SR_ONBOARDING_BUTT_UPDATE
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_ONBOARDING_BUTT_UPDATE
+  nameWithType: RC.SR_ONBOARDING_BUTT_UPDATE
+  fullName: SuperOffice.Globalization.RC.SR_ONBOARDING_BUTT_UPDATE
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Update'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_ONBOARDING_BUTT_UPDATE = "[SR_ONBOARDING_BUTT_UPDATE]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_ONBOARDING_BUTT_UPDATE As String = "[SR_ONBOARDING_BUTT_UPDATE]"
+- uid: SuperOffice.Globalization.RC.SR_ONBOARDING_CLICK_TO_CONNECT
+  commentId: F:SuperOffice.Globalization.RC.SR_ONBOARDING_CLICK_TO_CONNECT
+  id: SR_ONBOARDING_CLICK_TO_CONNECT
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_ONBOARDING_CLICK_TO_CONNECT
+  nameWithType: RC.SR_ONBOARDING_CLICK_TO_CONNECT
+  fullName: SuperOffice.Globalization.RC.SR_ONBOARDING_CLICK_TO_CONNECT
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Click here to connect'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_ONBOARDING_CLICK_TO_CONNECT = "[SR_ONBOARDING_CLICK_TO_CONNECT]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_ONBOARDING_CLICK_TO_CONNECT As String = "[SR_ONBOARDING_CLICK_TO_CONNECT]"
+- uid: SuperOffice.Globalization.RC.SR_ONBOARDING_CONNECTED_TO
+  commentId: F:SuperOffice.Globalization.RC.SR_ONBOARDING_CONNECTED_TO
+  id: SR_ONBOARDING_CONNECTED_TO
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_ONBOARDING_CONNECTED_TO
+  nameWithType: RC.SR_ONBOARDING_CONNECTED_TO
+  fullName: SuperOffice.Globalization.RC.SR_ONBOARDING_CONNECTED_TO
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Connected to ${data}'<br />\r\n${data} will be replaced by an e-mail address<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_ONBOARDING_CONNECTED_TO = "[SR_ONBOARDING_CONNECTED_TO]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_ONBOARDING_CONNECTED_TO As String = "[SR_ONBOARDING_CONNECTED_TO]"
+- uid: SuperOffice.Globalization.RC.SR_ONBOARDING_CONNECT_EMAIL_TEXT
+  commentId: F:SuperOffice.Globalization.RC.SR_ONBOARDING_CONNECT_EMAIL_TEXT
+  id: SR_ONBOARDING_CONNECT_EMAIL_TEXT
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_ONBOARDING_CONNECT_EMAIL_TEXT
+  nameWithType: RC.SR_ONBOARDING_CONNECT_EMAIL_TEXT
+  fullName: SuperOffice.Globalization.RC.SR_ONBOARDING_CONNECT_EMAIL_TEXT
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Connect your e-mail account to SuperOffice CRM to easily create new e-mails, open and respond to stored e-mails, and send and receive meeting invitations.'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_ONBOARDING_CONNECT_EMAIL_TEXT = "[SR_ONBOARDING_CONNECT_EMAIL_TEXT]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_ONBOARDING_CONNECT_EMAIL_TEXT As String = "[SR_ONBOARDING_CONNECT_EMAIL_TEXT]"
+- uid: SuperOffice.Globalization.RC.SR_ONBOARDING_CONNECT_EMAIL_TITLE
+  commentId: F:SuperOffice.Globalization.RC.SR_ONBOARDING_CONNECT_EMAIL_TITLE
+  id: SR_ONBOARDING_CONNECT_EMAIL_TITLE
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_ONBOARDING_CONNECT_EMAIL_TITLE
+  nameWithType: RC.SR_ONBOARDING_CONNECT_EMAIL_TITLE
+  fullName: SuperOffice.Globalization.RC.SR_ONBOARDING_CONNECT_EMAIL_TITLE
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Connect your e-mail!'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_ONBOARDING_CONNECT_EMAIL_TITLE = "[SR_ONBOARDING_CONNECT_EMAIL_TITLE]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_ONBOARDING_CONNECT_EMAIL_TITLE As String = "[SR_ONBOARDING_CONNECT_EMAIL_TITLE]"
+- uid: SuperOffice.Globalization.RC.SR_ONBOARDING_CONNECT_TO_EMAIL
+  commentId: F:SuperOffice.Globalization.RC.SR_ONBOARDING_CONNECT_TO_EMAIL
+  id: SR_ONBOARDING_CONNECT_TO_EMAIL
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_ONBOARDING_CONNECT_TO_EMAIL
+  nameWithType: RC.SR_ONBOARDING_CONNECT_TO_EMAIL
+  fullName: SuperOffice.Globalization.RC.SR_ONBOARDING_CONNECT_TO_EMAIL
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Connect to an e-mail account'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_ONBOARDING_CONNECT_TO_EMAIL = "[SR_ONBOARDING_CONNECT_TO_EMAIL]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_ONBOARDING_CONNECT_TO_EMAIL As String = "[SR_ONBOARDING_CONNECT_TO_EMAIL]"
+- uid: SuperOffice.Globalization.RC.SR_ONBOARDING_CONNECT_TO_EMAIL_INFO_MESSAGE
+  commentId: F:SuperOffice.Globalization.RC.SR_ONBOARDING_CONNECT_TO_EMAIL_INFO_MESSAGE
+  id: SR_ONBOARDING_CONNECT_TO_EMAIL_INFO_MESSAGE
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_ONBOARDING_CONNECT_TO_EMAIL_INFO_MESSAGE
+  nameWithType: RC.SR_ONBOARDING_CONNECT_TO_EMAIL_INFO_MESSAGE
+  fullName: SuperOffice.Globalization.RC.SR_ONBOARDING_CONNECT_TO_EMAIL_INFO_MESSAGE
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Set up your e-mail to send and receive messages, reply to stored e-mails, and handle meeting invitations without leaving SuperOffice.'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_ONBOARDING_CONNECT_TO_EMAIL_INFO_MESSAGE = "[SR_ONBOARDING_CONNECT_TO_EMAIL_INFO_MESSAGE]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_ONBOARDING_CONNECT_TO_EMAIL_INFO_MESSAGE As String = "[SR_ONBOARDING_CONNECT_TO_EMAIL_INFO_MESSAGE]"
+- uid: SuperOffice.Globalization.RC.SR_ONBOARDING_CONNECT_TO_EMAIL_SERVICE
+  commentId: F:SuperOffice.Globalization.RC.SR_ONBOARDING_CONNECT_TO_EMAIL_SERVICE
+  id: SR_ONBOARDING_CONNECT_TO_EMAIL_SERVICE
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_ONBOARDING_CONNECT_TO_EMAIL_SERVICE
+  nameWithType: RC.SR_ONBOARDING_CONNECT_TO_EMAIL_SERVICE
+  fullName: SuperOffice.Globalization.RC.SR_ONBOARDING_CONNECT_TO_EMAIL_SERVICE
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Please connect to your preferred e-mail service'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_ONBOARDING_CONNECT_TO_EMAIL_SERVICE = "[SR_ONBOARDING_CONNECT_TO_EMAIL_SERVICE]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_ONBOARDING_CONNECT_TO_EMAIL_SERVICE As String = "[SR_ONBOARDING_CONNECT_TO_EMAIL_SERVICE]"
+- uid: SuperOffice.Globalization.RC.SR_ONBOARDING_DOCUMENT_TEXT
+  commentId: F:SuperOffice.Globalization.RC.SR_ONBOARDING_DOCUMENT_TEXT
+  id: SR_ONBOARDING_DOCUMENT_TEXT
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_ONBOARDING_DOCUMENT_TEXT
+  nameWithType: RC.SR_ONBOARDING_DOCUMENT_TEXT
+  fullName: SuperOffice.Globalization.RC.SR_ONBOARDING_DOCUMENT_TEXT
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'SuperOffice WebTools makes it easy to open, edit, and save documents with other SuperOffice users.&lt;br/&gt;When downloaded, follow the instructions on your computer.'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_ONBOARDING_DOCUMENT_TEXT = "[SR_ONBOARDING_DOCUMENT_TEXT]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_ONBOARDING_DOCUMENT_TEXT As String = "[SR_ONBOARDING_DOCUMENT_TEXT]"
+- uid: SuperOffice.Globalization.RC.SR_ONBOARDING_DOCUMENT_TITLE
+  commentId: F:SuperOffice.Globalization.RC.SR_ONBOARDING_DOCUMENT_TITLE
+  id: SR_ONBOARDING_DOCUMENT_TITLE
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_ONBOARDING_DOCUMENT_TITLE
+  nameWithType: RC.SR_ONBOARDING_DOCUMENT_TITLE
+  fullName: SuperOffice.Globalization.RC.SR_ONBOARDING_DOCUMENT_TITLE
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Work faster with documents'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_ONBOARDING_DOCUMENT_TITLE = "[SR_ONBOARDING_DOCUMENT_TITLE]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_ONBOARDING_DOCUMENT_TITLE As String = "[SR_ONBOARDING_DOCUMENT_TITLE]"
+- uid: SuperOffice.Globalization.RC.SR_ONBOARDING_DONE_TEXT
+  commentId: F:SuperOffice.Globalization.RC.SR_ONBOARDING_DONE_TEXT
+  id: SR_ONBOARDING_DONE_TEXT
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_ONBOARDING_DONE_TEXT
+  nameWithType: RC.SR_ONBOARDING_DONE_TEXT
+  fullName: SuperOffice.Globalization.RC.SR_ONBOARDING_DONE_TEXT
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'You have completed the most important steps. If you skipped anything, you can finish the setup later from the personal settings menu.'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_ONBOARDING_DONE_TEXT = "[SR_ONBOARDING_DONE_TEXT]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_ONBOARDING_DONE_TEXT As String = "[SR_ONBOARDING_DONE_TEXT]"
+- uid: SuperOffice.Globalization.RC.SR_ONBOARDING_DONE_TITLE
+  commentId: F:SuperOffice.Globalization.RC.SR_ONBOARDING_DONE_TITLE
+  id: SR_ONBOARDING_DONE_TITLE
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_ONBOARDING_DONE_TITLE
+  nameWithType: RC.SR_ONBOARDING_DONE_TITLE
+  fullName: SuperOffice.Globalization.RC.SR_ONBOARDING_DONE_TITLE
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'All good!'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_ONBOARDING_DONE_TITLE = "[SR_ONBOARDING_DONE_TITLE]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_ONBOARDING_DONE_TITLE As String = "[SR_ONBOARDING_DONE_TITLE]"
+- uid: SuperOffice.Globalization.RC.SR_ONBOARDING_DOWNLOAD_WEBTOOLS
+  commentId: F:SuperOffice.Globalization.RC.SR_ONBOARDING_DOWNLOAD_WEBTOOLS
+  id: SR_ONBOARDING_DOWNLOAD_WEBTOOLS
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_ONBOARDING_DOWNLOAD_WEBTOOLS
+  nameWithType: RC.SR_ONBOARDING_DOWNLOAD_WEBTOOLS
+  fullName: SuperOffice.Globalization.RC.SR_ONBOARDING_DOWNLOAD_WEBTOOLS
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Download SuperOffice WebTools'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_ONBOARDING_DOWNLOAD_WEBTOOLS = "[SR_ONBOARDING_DOWNLOAD_WEBTOOLS]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_ONBOARDING_DOWNLOAD_WEBTOOLS As String = "[SR_ONBOARDING_DOWNLOAD_WEBTOOLS]"
+- uid: SuperOffice.Globalization.RC.SR_ONBOARDING_DUPLICATE_ACCOUNT_ERROR
+  commentId: F:SuperOffice.Globalization.RC.SR_ONBOARDING_DUPLICATE_ACCOUNT_ERROR
+  id: SR_ONBOARDING_DUPLICATE_ACCOUNT_ERROR
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_ONBOARDING_DUPLICATE_ACCOUNT_ERROR
+  nameWithType: RC.SR_ONBOARDING_DUPLICATE_ACCOUNT_ERROR
+  fullName: SuperOffice.Globalization.RC.SR_ONBOARDING_DUPLICATE_ACCOUNT_ERROR
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'An error occurred when trying to register the e-mail account. Please make sure it is not already registered on another associate.'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_ONBOARDING_DUPLICATE_ACCOUNT_ERROR = "[SR_ONBOARDING_DUPLICATE_ACCOUNT_ERROR]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_ONBOARDING_DUPLICATE_ACCOUNT_ERROR As String = "[SR_ONBOARDING_DUPLICATE_ACCOUNT_ERROR]"
+- uid: SuperOffice.Globalization.RC.SR_ONBOARDING_EMAIL_ACCOUNT
+  commentId: F:SuperOffice.Globalization.RC.SR_ONBOARDING_EMAIL_ACCOUNT
+  id: SR_ONBOARDING_EMAIL_ACCOUNT
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_ONBOARDING_EMAIL_ACCOUNT
+  nameWithType: RC.SR_ONBOARDING_EMAIL_ACCOUNT
+  fullName: SuperOffice.Globalization.RC.SR_ONBOARDING_EMAIL_ACCOUNT
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'E-mail account'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_ONBOARDING_EMAIL_ACCOUNT = "[SR_ONBOARDING_EMAIL_ACCOUNT]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_ONBOARDING_EMAIL_ACCOUNT As String = "[SR_ONBOARDING_EMAIL_ACCOUNT]"
+- uid: SuperOffice.Globalization.RC.SR_ONBOARDING_EMAIL_ADVANCED_SETTINGS
+  commentId: F:SuperOffice.Globalization.RC.SR_ONBOARDING_EMAIL_ADVANCED_SETTINGS
+  id: SR_ONBOARDING_EMAIL_ADVANCED_SETTINGS
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_ONBOARDING_EMAIL_ADVANCED_SETTINGS
+  nameWithType: RC.SR_ONBOARDING_EMAIL_ADVANCED_SETTINGS
+  fullName: SuperOffice.Globalization.RC.SR_ONBOARDING_EMAIL_ADVANCED_SETTINGS
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Advanced settings'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_ONBOARDING_EMAIL_ADVANCED_SETTINGS = "[SR_ONBOARDING_EMAIL_ADVANCED_SETTINGS]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_ONBOARDING_EMAIL_ADVANCED_SETTINGS As String = "[SR_ONBOARDING_EMAIL_ADVANCED_SETTINGS]"
+- uid: SuperOffice.Globalization.RC.SR_ONBOARDING_EMAIL_OAUTH_AUTH_ERROR
+  commentId: F:SuperOffice.Globalization.RC.SR_ONBOARDING_EMAIL_OAUTH_AUTH_ERROR
+  id: SR_ONBOARDING_EMAIL_OAUTH_AUTH_ERROR
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_ONBOARDING_EMAIL_OAUTH_AUTH_ERROR
+  nameWithType: RC.SR_ONBOARDING_EMAIL_OAUTH_AUTH_ERROR
+  fullName: SuperOffice.Globalization.RC.SR_ONBOARDING_EMAIL_OAUTH_AUTH_ERROR
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Could not log in. Does the selected account match the e-mail address? Is IMAP access turned on at the user level (Microsoft 365 Admin Center)? Maybe an administrator must allow access to the SuperOffice application?'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_ONBOARDING_EMAIL_OAUTH_AUTH_ERROR = "[SR_ONBOARDING_EMAIL_OAUTH_AUTH_ERROR]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_ONBOARDING_EMAIL_OAUTH_AUTH_ERROR As String = "[SR_ONBOARDING_EMAIL_OAUTH_AUTH_ERROR]"
+- uid: SuperOffice.Globalization.RC.SR_ONBOARDING_EMAIL_OAUTH_SYSTEM_ERROR
+  commentId: F:SuperOffice.Globalization.RC.SR_ONBOARDING_EMAIL_OAUTH_SYSTEM_ERROR
+  id: SR_ONBOARDING_EMAIL_OAUTH_SYSTEM_ERROR
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_ONBOARDING_EMAIL_OAUTH_SYSTEM_ERROR
+  nameWithType: RC.SR_ONBOARDING_EMAIL_OAUTH_SYSTEM_ERROR
+  fullName: SuperOffice.Globalization.RC.SR_ONBOARDING_EMAIL_OAUTH_SYSTEM_ERROR
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'A system error occured. Please try again.'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_ONBOARDING_EMAIL_OAUTH_SYSTEM_ERROR = "[SR_ONBOARDING_EMAIL_OAUTH_SYSTEM_ERROR]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_ONBOARDING_EMAIL_OAUTH_SYSTEM_ERROR As String = "[SR_ONBOARDING_EMAIL_OAUTH_SYSTEM_ERROR]"
+- uid: SuperOffice.Globalization.RC.SR_ONBOARDING_EMAIL_PASSWORD
+  commentId: F:SuperOffice.Globalization.RC.SR_ONBOARDING_EMAIL_PASSWORD
+  id: SR_ONBOARDING_EMAIL_PASSWORD
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_ONBOARDING_EMAIL_PASSWORD
+  nameWithType: RC.SR_ONBOARDING_EMAIL_PASSWORD
+  fullName: SuperOffice.Globalization.RC.SR_ONBOARDING_EMAIL_PASSWORD
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Password'<br />\r\nThe text in the password-label on the login-page<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_ONBOARDING_EMAIL_PASSWORD = "[SR_ONBOARDING_EMAIL_PASSWORD]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_ONBOARDING_EMAIL_PASSWORD As String = "[SR_ONBOARDING_EMAIL_PASSWORD]"
+- uid: SuperOffice.Globalization.RC.SR_ONBOARDING_EMAIL_REDIRECTING
+  commentId: F:SuperOffice.Globalization.RC.SR_ONBOARDING_EMAIL_REDIRECTING
+  id: SR_ONBOARDING_EMAIL_REDIRECTING
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_ONBOARDING_EMAIL_REDIRECTING
+  nameWithType: RC.SR_ONBOARDING_EMAIL_REDIRECTING
+  fullName: SuperOffice.Globalization.RC.SR_ONBOARDING_EMAIL_REDIRECTING
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Redirecting to {0} to complete the login process.'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_ONBOARDING_EMAIL_REDIRECTING = "[SR_ONBOARDING_EMAIL_REDIRECTING]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_ONBOARDING_EMAIL_REDIRECTING As String = "[SR_ONBOARDING_EMAIL_REDIRECTING]"
+- uid: SuperOffice.Globalization.RC.SR_ONBOARDING_EMAIL_USERNAME
+  commentId: F:SuperOffice.Globalization.RC.SR_ONBOARDING_EMAIL_USERNAME
+  id: SR_ONBOARDING_EMAIL_USERNAME
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_ONBOARDING_EMAIL_USERNAME
+  nameWithType: RC.SR_ONBOARDING_EMAIL_USERNAME
+  fullName: SuperOffice.Globalization.RC.SR_ONBOARDING_EMAIL_USERNAME
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'User name'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_ONBOARDING_EMAIL_USERNAME = "[SR_ONBOARDING_EMAIL_USERNAME]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_ONBOARDING_EMAIL_USERNAME As String = "[SR_ONBOARDING_EMAIL_USERNAME]"
+- uid: SuperOffice.Globalization.RC.SR_ONBOARDING_EMAIL_USE_SSL
+  commentId: F:SuperOffice.Globalization.RC.SR_ONBOARDING_EMAIL_USE_SSL
+  id: SR_ONBOARDING_EMAIL_USE_SSL
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_ONBOARDING_EMAIL_USE_SSL
+  nameWithType: RC.SR_ONBOARDING_EMAIL_USE_SSL
+  fullName: SuperOffice.Globalization.RC.SR_ONBOARDING_EMAIL_USE_SSL
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Use SSL'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_ONBOARDING_EMAIL_USE_SSL = "[SR_ONBOARDING_EMAIL_USE_SSL]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_ONBOARDING_EMAIL_USE_SSL As String = "[SR_ONBOARDING_EMAIL_USE_SSL]"
+- uid: SuperOffice.Globalization.RC.SR_ONBOARDING_HELLO_TEXT
+  commentId: F:SuperOffice.Globalization.RC.SR_ONBOARDING_HELLO_TEXT
+  id: SR_ONBOARDING_HELLO_TEXT
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_ONBOARDING_HELLO_TEXT
+  nameWithType: RC.SR_ONBOARDING_HELLO_TEXT
+  fullName: SuperOffice.Globalization.RC.SR_ONBOARDING_HELLO_TEXT
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'This short onboarding will guide you through a few quick setup steps to help you get started smoothly and efficiently.'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_ONBOARDING_HELLO_TEXT = "[SR_ONBOARDING_HELLO_TEXT]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_ONBOARDING_HELLO_TEXT As String = "[SR_ONBOARDING_HELLO_TEXT]"
+- uid: SuperOffice.Globalization.RC.SR_ONBOARDING_HELLO_TITLE
+  commentId: F:SuperOffice.Globalization.RC.SR_ONBOARDING_HELLO_TITLE
+  id: SR_ONBOARDING_HELLO_TITLE
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_ONBOARDING_HELLO_TITLE
+  nameWithType: RC.SR_ONBOARDING_HELLO_TITLE
+  fullName: SuperOffice.Globalization.RC.SR_ONBOARDING_HELLO_TITLE
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Hi, ${data}!'<br />\r\n${data} is replaced by the name, for example Hi, Roar!<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_ONBOARDING_HELLO_TITLE = "[SR_ONBOARDING_HELLO_TITLE]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_ONBOARDING_HELLO_TITLE As String = "[SR_ONBOARDING_HELLO_TITLE]"
+- uid: SuperOffice.Globalization.RC.SR_ONBOARDING_INCOMING_SERVER_NAME
+  commentId: F:SuperOffice.Globalization.RC.SR_ONBOARDING_INCOMING_SERVER_NAME
+  id: SR_ONBOARDING_INCOMING_SERVER_NAME
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_ONBOARDING_INCOMING_SERVER_NAME
+  nameWithType: RC.SR_ONBOARDING_INCOMING_SERVER_NAME
+  fullName: SuperOffice.Globalization.RC.SR_ONBOARDING_INCOMING_SERVER_NAME
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Incoming e-mail server'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_ONBOARDING_INCOMING_SERVER_NAME = "[SR_ONBOARDING_INCOMING_SERVER_NAME]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_ONBOARDING_INCOMING_SERVER_NAME As String = "[SR_ONBOARDING_INCOMING_SERVER_NAME]"
+- uid: SuperOffice.Globalization.RC.SR_ONBOARDING_OR
+  commentId: F:SuperOffice.Globalization.RC.SR_ONBOARDING_OR
+  id: SR_ONBOARDING_OR
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_ONBOARDING_OR
+  nameWithType: RC.SR_ONBOARDING_OR
+  fullName: SuperOffice.Globalization.RC.SR_ONBOARDING_OR
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'OR'<br />\r\nText used in selection filter list to indicate the criterias are OR'ed together<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_ONBOARDING_OR = "[SR_ONBOARDING_OR]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_ONBOARDING_OR As String = "[SR_ONBOARDING_OR]"
+- uid: SuperOffice.Globalization.RC.SR_ONBOARDING_OUTGOING_SERVER_NAME
+  commentId: F:SuperOffice.Globalization.RC.SR_ONBOARDING_OUTGOING_SERVER_NAME
+  id: SR_ONBOARDING_OUTGOING_SERVER_NAME
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_ONBOARDING_OUTGOING_SERVER_NAME
+  nameWithType: RC.SR_ONBOARDING_OUTGOING_SERVER_NAME
+  fullName: SuperOffice.Globalization.RC.SR_ONBOARDING_OUTGOING_SERVER_NAME
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Outgoing e-mail server'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_ONBOARDING_OUTGOING_SERVER_NAME = "[SR_ONBOARDING_OUTGOING_SERVER_NAME]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_ONBOARDING_OUTGOING_SERVER_NAME As String = "[SR_ONBOARDING_OUTGOING_SERVER_NAME]"
+- uid: SuperOffice.Globalization.RC.SR_ONBOARDING_RESUME_CONNECT
+  commentId: F:SuperOffice.Globalization.RC.SR_ONBOARDING_RESUME_CONNECT
+  id: SR_ONBOARDING_RESUME_CONNECT
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_ONBOARDING_RESUME_CONNECT
+  nameWithType: RC.SR_ONBOARDING_RESUME_CONNECT
+  fullName: SuperOffice.Globalization.RC.SR_ONBOARDING_RESUME_CONNECT
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Resume connecting'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_ONBOARDING_RESUME_CONNECT = "[SR_ONBOARDING_RESUME_CONNECT]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_ONBOARDING_RESUME_CONNECT As String = "[SR_ONBOARDING_RESUME_CONNECT]"
+- uid: SuperOffice.Globalization.RC.SR_ONBOARDING_RESUME_SIGN_IN
+  commentId: F:SuperOffice.Globalization.RC.SR_ONBOARDING_RESUME_SIGN_IN
+  id: SR_ONBOARDING_RESUME_SIGN_IN
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_ONBOARDING_RESUME_SIGN_IN
+  nameWithType: RC.SR_ONBOARDING_RESUME_SIGN_IN
+  fullName: SuperOffice.Globalization.RC.SR_ONBOARDING_RESUME_SIGN_IN
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Resume sign in'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_ONBOARDING_RESUME_SIGN_IN = "[SR_ONBOARDING_RESUME_SIGN_IN]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_ONBOARDING_RESUME_SIGN_IN As String = "[SR_ONBOARDING_RESUME_SIGN_IN]"
+- uid: SuperOffice.Globalization.RC.SR_ONBOARDING_SELECT_LANGUAGE
+  commentId: F:SuperOffice.Globalization.RC.SR_ONBOARDING_SELECT_LANGUAGE
+  id: SR_ONBOARDING_SELECT_LANGUAGE
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_ONBOARDING_SELECT_LANGUAGE
+  nameWithType: RC.SR_ONBOARDING_SELECT_LANGUAGE
+  fullName: SuperOffice.Globalization.RC.SR_ONBOARDING_SELECT_LANGUAGE
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Select language'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_ONBOARDING_SELECT_LANGUAGE = "[SR_ONBOARDING_SELECT_LANGUAGE]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_ONBOARDING_SELECT_LANGUAGE As String = "[SR_ONBOARDING_SELECT_LANGUAGE]"
+- uid: SuperOffice.Globalization.RC.SR_ONBOARDING_SETTING_LANGUAGE
+  commentId: F:SuperOffice.Globalization.RC.SR_ONBOARDING_SETTING_LANGUAGE
+  id: SR_ONBOARDING_SETTING_LANGUAGE
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_ONBOARDING_SETTING_LANGUAGE
+  nameWithType: RC.SR_ONBOARDING_SETTING_LANGUAGE
+  fullName: SuperOffice.Globalization.RC.SR_ONBOARDING_SETTING_LANGUAGE
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Setting language...'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_ONBOARDING_SETTING_LANGUAGE = "[SR_ONBOARDING_SETTING_LANGUAGE]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_ONBOARDING_SETTING_LANGUAGE As String = "[SR_ONBOARDING_SETTING_LANGUAGE]"
+- uid: SuperOffice.Globalization.RC.SR_ONBOARDING_WEBTOOLS_SWITCH_ARIA_LABEL
+  commentId: F:SuperOffice.Globalization.RC.SR_ONBOARDING_WEBTOOLS_SWITCH_ARIA_LABEL
+  id: SR_ONBOARDING_WEBTOOLS_SWITCH_ARIA_LABEL
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_ONBOARDING_WEBTOOLS_SWITCH_ARIA_LABEL
+  nameWithType: RC.SR_ONBOARDING_WEBTOOLS_SWITCH_ARIA_LABEL
+  fullName: SuperOffice.Globalization.RC.SR_ONBOARDING_WEBTOOLS_SWITCH_ARIA_LABEL
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Enable SuperOffice WebTools (Recommended)'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_ONBOARDING_WEBTOOLS_SWITCH_ARIA_LABEL = "[SR_ONBOARDING_WEBTOOLS_SWITCH_ARIA_LABEL]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_ONBOARDING_WEBTOOLS_SWITCH_ARIA_LABEL As String = "[SR_ONBOARDING_WEBTOOLS_SWITCH_ARIA_LABEL]"
+- uid: SuperOffice.Globalization.RC.SR_ONBOARDING_WEBTOOLS_SWITCH_LABEL
+  commentId: F:SuperOffice.Globalization.RC.SR_ONBOARDING_WEBTOOLS_SWITCH_LABEL
+  id: SR_ONBOARDING_WEBTOOLS_SWITCH_LABEL
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_ONBOARDING_WEBTOOLS_SWITCH_LABEL
+  nameWithType: RC.SR_ONBOARDING_WEBTOOLS_SWITCH_LABEL
+  fullName: SuperOffice.Globalization.RC.SR_ONBOARDING_WEBTOOLS_SWITCH_LABEL
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'&lt;span class=\"color-text\"&gt;Enable SuperOffice WebTools&lt;/span&gt;&lt;span class=\"color-grey-neutral-600\"&gt; (Recommended)&lt;/span&gt;'<br />\r\nHTML tags must be preserved.<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_ONBOARDING_WEBTOOLS_SWITCH_LABEL = "[SR_ONBOARDING_WEBTOOLS_SWITCH_LABEL]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_ONBOARDING_WEBTOOLS_SWITCH_LABEL As String = "[SR_ONBOARDING_WEBTOOLS_SWITCH_LABEL]"
+- uid: SuperOffice.Globalization.RC.SR_ONBOARDING_WEBTOOLS_UPDATE_AVAILABLE_PAGE
+  commentId: F:SuperOffice.Globalization.RC.SR_ONBOARDING_WEBTOOLS_UPDATE_AVAILABLE_PAGE
+  id: SR_ONBOARDING_WEBTOOLS_UPDATE_AVAILABLE_PAGE
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_ONBOARDING_WEBTOOLS_UPDATE_AVAILABLE_PAGE
+  nameWithType: RC.SR_ONBOARDING_WEBTOOLS_UPDATE_AVAILABLE_PAGE
+  fullName: SuperOffice.Globalization.RC.SR_ONBOARDING_WEBTOOLS_UPDATE_AVAILABLE_PAGE
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Update SuperOffice WebTools'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_ONBOARDING_WEBTOOLS_UPDATE_AVAILABLE_PAGE = "[SR_ONBOARDING_WEBTOOLS_UPDATE_AVAILABLE_PAGE]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_ONBOARDING_WEBTOOLS_UPDATE_AVAILABLE_PAGE As String = "[SR_ONBOARDING_WEBTOOLS_UPDATE_AVAILABLE_PAGE]"
+- uid: SuperOffice.Globalization.RC.SR_ONBOARDING_WEBTOOLS_UPDATE_AVAILABLE_TEXT
+  commentId: F:SuperOffice.Globalization.RC.SR_ONBOARDING_WEBTOOLS_UPDATE_AVAILABLE_TEXT
+  id: SR_ONBOARDING_WEBTOOLS_UPDATE_AVAILABLE_TEXT
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_ONBOARDING_WEBTOOLS_UPDATE_AVAILABLE_TEXT
+  nameWithType: RC.SR_ONBOARDING_WEBTOOLS_UPDATE_AVAILABLE_TEXT
+  fullName: SuperOffice.Globalization.RC.SR_ONBOARDING_WEBTOOLS_UPDATE_AVAILABLE_TEXT
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Update now to ensure the best performance and compatibility with SuperOffice CRM. It only takes a moment!'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_ONBOARDING_WEBTOOLS_UPDATE_AVAILABLE_TEXT = "[SR_ONBOARDING_WEBTOOLS_UPDATE_AVAILABLE_TEXT]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_ONBOARDING_WEBTOOLS_UPDATE_AVAILABLE_TEXT As String = "[SR_ONBOARDING_WEBTOOLS_UPDATE_AVAILABLE_TEXT]"
+- uid: SuperOffice.Globalization.RC.SR_ONBOARDING_WEBTOOLS_UPDATE_AVAILABLE_TITLE
+  commentId: F:SuperOffice.Globalization.RC.SR_ONBOARDING_WEBTOOLS_UPDATE_AVAILABLE_TITLE
+  id: SR_ONBOARDING_WEBTOOLS_UPDATE_AVAILABLE_TITLE
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_ONBOARDING_WEBTOOLS_UPDATE_AVAILABLE_TITLE
+  nameWithType: RC.SR_ONBOARDING_WEBTOOLS_UPDATE_AVAILABLE_TITLE
+  fullName: SuperOffice.Globalization.RC.SR_ONBOARDING_WEBTOOLS_UPDATE_AVAILABLE_TITLE
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'A new version is available'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_ONBOARDING_WEBTOOLS_UPDATE_AVAILABLE_TITLE = "[SR_ONBOARDING_WEBTOOLS_UPDATE_AVAILABLE_TITLE]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_ONBOARDING_WEBTOOLS_UPDATE_AVAILABLE_TITLE As String = "[SR_ONBOARDING_WEBTOOLS_UPDATE_AVAILABLE_TITLE]"
+- uid: SuperOffice.Globalization.RC.SR_ONBOARDING_WEBTOOLS_UPDATE_REQUIRED_PAGE
+  commentId: F:SuperOffice.Globalization.RC.SR_ONBOARDING_WEBTOOLS_UPDATE_REQUIRED_PAGE
+  id: SR_ONBOARDING_WEBTOOLS_UPDATE_REQUIRED_PAGE
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_ONBOARDING_WEBTOOLS_UPDATE_REQUIRED_PAGE
+  nameWithType: RC.SR_ONBOARDING_WEBTOOLS_UPDATE_REQUIRED_PAGE
+  fullName: SuperOffice.Globalization.RC.SR_ONBOARDING_WEBTOOLS_UPDATE_REQUIRED_PAGE
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Required SuperOffice WebTools update'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_ONBOARDING_WEBTOOLS_UPDATE_REQUIRED_PAGE = "[SR_ONBOARDING_WEBTOOLS_UPDATE_REQUIRED_PAGE]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_ONBOARDING_WEBTOOLS_UPDATE_REQUIRED_PAGE As String = "[SR_ONBOARDING_WEBTOOLS_UPDATE_REQUIRED_PAGE]"
+- uid: SuperOffice.Globalization.RC.SR_ONBOARDING_WEBTOOLS_UPDATE_REQUIRED_TEXT
+  commentId: F:SuperOffice.Globalization.RC.SR_ONBOARDING_WEBTOOLS_UPDATE_REQUIRED_TEXT
+  id: SR_ONBOARDING_WEBTOOLS_UPDATE_REQUIRED_TEXT
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_ONBOARDING_WEBTOOLS_UPDATE_REQUIRED_TEXT
+  nameWithType: RC.SR_ONBOARDING_WEBTOOLS_UPDATE_REQUIRED_TEXT
+  fullName: SuperOffice.Globalization.RC.SR_ONBOARDING_WEBTOOLS_UPDATE_REQUIRED_TEXT
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'You need to update SuperOffice WebTools to the latest version. This ensures optimal performance and compatibility.'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_ONBOARDING_WEBTOOLS_UPDATE_REQUIRED_TEXT = "[SR_ONBOARDING_WEBTOOLS_UPDATE_REQUIRED_TEXT]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_ONBOARDING_WEBTOOLS_UPDATE_REQUIRED_TEXT As String = "[SR_ONBOARDING_WEBTOOLS_UPDATE_REQUIRED_TEXT]"
+- uid: SuperOffice.Globalization.RC.SR_ONBOARDING_WEBTOOLS_UPDATE_REQUIRED_TITLE
+  commentId: F:SuperOffice.Globalization.RC.SR_ONBOARDING_WEBTOOLS_UPDATE_REQUIRED_TITLE
+  id: SR_ONBOARDING_WEBTOOLS_UPDATE_REQUIRED_TITLE
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_ONBOARDING_WEBTOOLS_UPDATE_REQUIRED_TITLE
+  nameWithType: RC.SR_ONBOARDING_WEBTOOLS_UPDATE_REQUIRED_TITLE
+  fullName: SuperOffice.Globalization.RC.SR_ONBOARDING_WEBTOOLS_UPDATE_REQUIRED_TITLE
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Update required'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_ONBOARDING_WEBTOOLS_UPDATE_REQUIRED_TITLE = "[SR_ONBOARDING_WEBTOOLS_UPDATE_REQUIRED_TITLE]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_ONBOARDING_WEBTOOLS_UPDATE_REQUIRED_TITLE As String = "[SR_ONBOARDING_WEBTOOLS_UPDATE_REQUIRED_TITLE]"
+- uid: SuperOffice.Globalization.RC.SR_ONBOARDING_WELCOME
+  commentId: F:SuperOffice.Globalization.RC.SR_ONBOARDING_WELCOME
+  id: SR_ONBOARDING_WELCOME
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_ONBOARDING_WELCOME
+  nameWithType: RC.SR_ONBOARDING_WELCOME
+  fullName: SuperOffice.Globalization.RC.SR_ONBOARDING_WELCOME
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Welcome to SuperOffice CRM'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_ONBOARDING_WELCOME = "[SR_ONBOARDING_WELCOME]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_ONBOARDING_WELCOME As String = "[SR_ONBOARDING_WELCOME]"
 - uid: SuperOffice.Globalization.RC.SR_ONLY_ASSOC_HAVE_USERGROUP
   commentId: F:SuperOffice.Globalization.RC.SR_ONLY_ASSOC_HAVE_USERGROUP
   id: SR_ONLY_ASSOC_HAVE_USERGROUP
@@ -216049,7 +218403,7 @@ items:
   assemblies:
   - SoCore
   namespace: SuperOffice.Globalization
-  summary: "'Show my e-mails in SuperOffice'<br />\r\nUsage: None"
+  summary: "'Show my e-mail inbox in SuperOffice'<br />\r\nUsage: None"
   example: []
   syntax:
     content: public const string SR_PD_Mail_ShowMyEmails_NAME = "[SR_PD_Mail_ShowMyEmails_NAME]"
@@ -224624,6 +226978,90 @@ items:
     return:
       type: System.String
     content.vb: Public Const SR_PD_ccAuthentication_rulesEnabled_NAME As String = "[SR_PD_ccAuthentication_rulesEnabled_NAME]"
+- uid: SuperOffice.Globalization.RC.SR_PD_emailNotification_DESC
+  commentId: F:SuperOffice.Globalization.RC.SR_PD_emailNotification_DESC
+  id: SR_PD_emailNotification_DESC
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_PD_emailNotification_DESC
+  nameWithType: RC.SR_PD_emailNotification_DESC
+  fullName: SuperOffice.Globalization.RC.SR_PD_emailNotification_DESC
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Notifications for e-mail'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_PD_emailNotification_DESC = "[SR_PD_emailNotification_DESC]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_PD_emailNotification_DESC As String = "[SR_PD_emailNotification_DESC]"
+- uid: SuperOffice.Globalization.RC.SR_PD_emailNotification_NAME
+  commentId: F:SuperOffice.Globalization.RC.SR_PD_emailNotification_NAME
+  id: SR_PD_emailNotification_NAME
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_PD_emailNotification_NAME
+  nameWithType: RC.SR_PD_emailNotification_NAME
+  fullName: SuperOffice.Globalization.RC.SR_PD_emailNotification_NAME
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Notifications for e-mail'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_PD_emailNotification_NAME = "[SR_PD_emailNotification_NAME]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_PD_emailNotification_NAME As String = "[SR_PD_emailNotification_NAME]"
+- uid: SuperOffice.Globalization.RC.SR_PD_emailNotification_notifyExpiredEmailAuthentication_DESC
+  commentId: F:SuperOffice.Globalization.RC.SR_PD_emailNotification_notifyExpiredEmailAuthentication_DESC
+  id: SR_PD_emailNotification_notifyExpiredEmailAuthentication_DESC
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_PD_emailNotification_notifyExpiredEmailAuthentication_DESC
+  nameWithType: RC.SR_PD_emailNotification_notifyExpiredEmailAuthentication_DESC
+  fullName: SuperOffice.Globalization.RC.SR_PD_emailNotification_notifyExpiredEmailAuthentication_DESC
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'If this option is checked, the user will receive a notification about having to reauthenticate the e-mail account'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_PD_emailNotification_notifyExpiredEmailAuthentication_DESC = "[SR_PD_emailNotification_notifyExpiredEmailAuthentication_DESC]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_PD_emailNotification_notifyExpiredEmailAuthentication_DESC As String = "[SR_PD_emailNotification_notifyExpiredEmailAuthentication_DESC]"
+- uid: SuperOffice.Globalization.RC.SR_PD_emailNotification_notifyExpiredEmailAuthentication_NAME
+  commentId: F:SuperOffice.Globalization.RC.SR_PD_emailNotification_notifyExpiredEmailAuthentication_NAME
+  id: SR_PD_emailNotification_notifyExpiredEmailAuthentication_NAME
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_PD_emailNotification_notifyExpiredEmailAuthentication_NAME
+  nameWithType: RC.SR_PD_emailNotification_notifyExpiredEmailAuthentication_NAME
+  fullName: SuperOffice.Globalization.RC.SR_PD_emailNotification_notifyExpiredEmailAuthentication_NAME
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Expired e-mail connection'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_PD_emailNotification_notifyExpiredEmailAuthentication_NAME = "[SR_PD_emailNotification_notifyExpiredEmailAuthentication_NAME]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_PD_emailNotification_notifyExpiredEmailAuthentication_NAME As String = "[SR_PD_emailNotification_notifyExpiredEmailAuthentication_NAME]"
 - uid: SuperOffice.Globalization.RC.SR_PD_notificationEmail_DESC
   commentId: F:SuperOffice.Globalization.RC.SR_PD_notificationEmail_DESC
   id: SR_PD_notificationEmail_DESC
@@ -296192,6 +298630,69 @@ items:
     return:
       type: System.String
     content.vb: Public Const SR_TICKETPRIORITY_MEDIUM As String = "[SR_TICKETPRIORITY_MEDIUM]"
+- uid: SuperOffice.Globalization.RC.SR_TICKETREL_ADD
+  commentId: F:SuperOffice.Globalization.RC.SR_TICKETREL_ADD
+  id: SR_TICKETREL_ADD
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_TICKETREL_ADD
+  nameWithType: RC.SR_TICKETREL_ADD
+  fullName: SuperOffice.Globalization.RC.SR_TICKETREL_ADD
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Add relation'<br />\r\nbutton label<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_TICKETREL_ADD = "[SR_TICKETREL_ADD]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_TICKETREL_ADD As String = "[SR_TICKETREL_ADD]"
+- uid: SuperOffice.Globalization.RC.SR_TICKETREL_DESTINATION_VALUE_INVALID_TOOLTIP
+  commentId: F:SuperOffice.Globalization.RC.SR_TICKETREL_DESTINATION_VALUE_INVALID_TOOLTIP
+  id: SR_TICKETREL_DESTINATION_VALUE_INVALID_TOOLTIP
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_TICKETREL_DESTINATION_VALUE_INVALID_TOOLTIP
+  nameWithType: RC.SR_TICKETREL_DESTINATION_VALUE_INVALID_TOOLTIP
+  fullName: SuperOffice.Globalization.RC.SR_TICKETREL_DESTINATION_VALUE_INVALID_TOOLTIP
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'You can't relate a request to itself.'<br />\r\ninvalid value tooltip<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_TICKETREL_DESTINATION_VALUE_INVALID_TOOLTIP = "[SR_TICKETREL_DESTINATION_VALUE_INVALID_TOOLTIP]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_TICKETREL_DESTINATION_VALUE_INVALID_TOOLTIP As String = "[SR_TICKETREL_DESTINATION_VALUE_INVALID_TOOLTIP]"
+- uid: SuperOffice.Globalization.RC.SR_TICKETREL_PARENT_REQUEST
+  commentId: F:SuperOffice.Globalization.RC.SR_TICKETREL_PARENT_REQUEST
+  id: SR_TICKETREL_PARENT_REQUEST
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_TICKETREL_PARENT_REQUEST
+  nameWithType: RC.SR_TICKETREL_PARENT_REQUEST
+  fullName: SuperOffice.Globalization.RC.SR_TICKETREL_PARENT_REQUEST
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Parent request'<br />\r\nfield label<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_TICKETREL_PARENT_REQUEST = "[SR_TICKETREL_PARENT_REQUEST]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_TICKETREL_PARENT_REQUEST As String = "[SR_TICKETREL_PARENT_REQUEST]"
 - uid: SuperOffice.Globalization.RC.SR_TICKETREL_RELDEF_NAME1
   commentId: F:SuperOffice.Globalization.RC.SR_TICKETREL_RELDEF_NAME1
   id: SR_TICKETREL_RELDEF_NAME1
@@ -296311,13 +298812,34 @@ items:
   assemblies:
   - SoCore
   namespace: SuperOffice.Globalization
-  summary: "'Request is a child of other request'<br />\r\ninitial priming data for request relations<br />\r\nUsage: None"
+  summary: "'Request is a child of another request'<br />\r\ninitial priming data for request relations<br />\r\nUsage: None"
   example: []
   syntax:
     content: public const string SR_TICKETREL_RELDEF_TOOLTIP3 = "[SR_TICKETREL_RELDEF_TOOLTIP3]"
     return:
       type: System.String
     content.vb: Public Const SR_TICKETREL_RELDEF_TOOLTIP3 As String = "[SR_TICKETREL_RELDEF_TOOLTIP3]"
+- uid: SuperOffice.Globalization.RC.SR_TICKETREL_REMOVE
+  commentId: F:SuperOffice.Globalization.RC.SR_TICKETREL_REMOVE
+  id: SR_TICKETREL_REMOVE
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_TICKETREL_REMOVE
+  nameWithType: RC.SR_TICKETREL_REMOVE
+  fullName: SuperOffice.Globalization.RC.SR_TICKETREL_REMOVE
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Remove relation'<br />\r\nbutton label<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_TICKETREL_REMOVE = "[SR_TICKETREL_REMOVE]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_TICKETREL_REMOVE As String = "[SR_TICKETREL_REMOVE]"
 - uid: SuperOffice.Globalization.RC.SR_TICKETSENTRY_ONLYMEMBERS
   commentId: F:SuperOffice.Globalization.RC.SR_TICKETSENTRY_ONLYMEMBERS
   id: SR_TICKETSENTRY_ONLYMEMBERS
@@ -296822,6 +299344,48 @@ items:
     return:
       type: System.String
     content.vb: Public Const SR_TICKET_ACTION_SPLIT_REQUEST As String = "[SR_TICKET_ACTION_SPLIT_REQUEST]"
+- uid: SuperOffice.Globalization.RC.SR_TICKET_ADD_LINK_FROM
+  commentId: F:SuperOffice.Globalization.RC.SR_TICKET_ADD_LINK_FROM
+  id: SR_TICKET_ADD_LINK_FROM
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_TICKET_ADD_LINK_FROM
+  nameWithType: RC.SR_TICKET_ADD_LINK_FROM
+  fullName: SuperOffice.Globalization.RC.SR_TICKET_ADD_LINK_FROM
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Add link from'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_TICKET_ADD_LINK_FROM = "[SR_TICKET_ADD_LINK_FROM]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_TICKET_ADD_LINK_FROM As String = "[SR_TICKET_ADD_LINK_FROM]"
+- uid: SuperOffice.Globalization.RC.SR_TICKET_ADD_LINK_TO
+  commentId: F:SuperOffice.Globalization.RC.SR_TICKET_ADD_LINK_TO
+  id: SR_TICKET_ADD_LINK_TO
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_TICKET_ADD_LINK_TO
+  nameWithType: RC.SR_TICKET_ADD_LINK_TO
+  fullName: SuperOffice.Globalization.RC.SR_TICKET_ADD_LINK_TO
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Link to'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_TICKET_ADD_LINK_TO = "[SR_TICKET_ADD_LINK_TO]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_TICKET_ADD_LINK_TO As String = "[SR_TICKET_ADD_LINK_TO]"
 - uid: SuperOffice.Globalization.RC.SR_TICKET_AI_BAD_RESPONSE
   commentId: F:SuperOffice.Globalization.RC.SR_TICKET_AI_BAD_RESPONSE
   id: SR_TICKET_AI_BAD_RESPONSE
@@ -297368,6 +299932,48 @@ items:
     return:
       type: System.String
     content.vb: Public Const SR_TICKET_CONNECT_KNOWN_SENDER As String = "[SR_TICKET_CONNECT_KNOWN_SENDER]"
+- uid: SuperOffice.Globalization.RC.SR_TICKET_CREATE_AND_CONTINUE
+  commentId: F:SuperOffice.Globalization.RC.SR_TICKET_CREATE_AND_CONTINUE
+  id: SR_TICKET_CREATE_AND_CONTINUE
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_TICKET_CREATE_AND_CONTINUE
+  nameWithType: RC.SR_TICKET_CREATE_AND_CONTINUE
+  fullName: SuperOffice.Globalization.RC.SR_TICKET_CREATE_AND_CONTINUE
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Create and continue'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_TICKET_CREATE_AND_CONTINUE = "[SR_TICKET_CREATE_AND_CONTINUE]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_TICKET_CREATE_AND_CONTINUE As String = "[SR_TICKET_CREATE_AND_CONTINUE]"
+- uid: SuperOffice.Globalization.RC.SR_TICKET_CREATE_NEW_REQUEST
+  commentId: F:SuperOffice.Globalization.RC.SR_TICKET_CREATE_NEW_REQUEST
+  id: SR_TICKET_CREATE_NEW_REQUEST
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_TICKET_CREATE_NEW_REQUEST
+  nameWithType: RC.SR_TICKET_CREATE_NEW_REQUEST
+  fullName: SuperOffice.Globalization.RC.SR_TICKET_CREATE_NEW_REQUEST
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Create new request'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_TICKET_CREATE_NEW_REQUEST = "[SR_TICKET_CREATE_NEW_REQUEST]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_TICKET_CREATE_NEW_REQUEST As String = "[SR_TICKET_CREATE_NEW_REQUEST]"
 - uid: SuperOffice.Globalization.RC.SR_TICKET_DEADLINE1
   commentId: F:SuperOffice.Globalization.RC.SR_TICKET_DEADLINE1
   id: SR_TICKET_DEADLINE1
@@ -297599,6 +300205,27 @@ items:
     return:
       type: System.String
     content.vb: Public Const SR_TICKET_LAST_TICKETS As String = "[SR_TICKET_LAST_TICKETS]"
+- uid: SuperOffice.Globalization.RC.SR_TICKET_LINK_TO_EXISTING
+  commentId: F:SuperOffice.Globalization.RC.SR_TICKET_LINK_TO_EXISTING
+  id: SR_TICKET_LINK_TO_EXISTING
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_TICKET_LINK_TO_EXISTING
+  nameWithType: RC.SR_TICKET_LINK_TO_EXISTING
+  fullName: SuperOffice.Globalization.RC.SR_TICKET_LINK_TO_EXISTING
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Link to existing'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_TICKET_LINK_TO_EXISTING = "[SR_TICKET_LINK_TO_EXISTING]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_TICKET_LINK_TO_EXISTING As String = "[SR_TICKET_LINK_TO_EXISTING]"
 - uid: SuperOffice.Globalization.RC.SR_TICKET_MESSAGES1
   commentId: F:SuperOffice.Globalization.RC.SR_TICKET_MESSAGES1
   id: SR_TICKET_MESSAGES1
@@ -298208,6 +300835,48 @@ items:
     return:
       type: System.String
     content.vb: Public Const SR_TICKET_MESSAGE_VIEWHEADER_CAPTION As String = "[SR_TICKET_MESSAGE_VIEWHEADER_CAPTION]"
+- uid: SuperOffice.Globalization.RC.SR_TICKET_NEW_RELATION
+  commentId: F:SuperOffice.Globalization.RC.SR_TICKET_NEW_RELATION
+  id: SR_TICKET_NEW_RELATION
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_TICKET_NEW_RELATION
+  nameWithType: RC.SR_TICKET_NEW_RELATION
+  fullName: SuperOffice.Globalization.RC.SR_TICKET_NEW_RELATION
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'New relation'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_TICKET_NEW_RELATION = "[SR_TICKET_NEW_RELATION]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_TICKET_NEW_RELATION As String = "[SR_TICKET_NEW_RELATION]"
+- uid: SuperOffice.Globalization.RC.SR_TICKET_NEW_REQUEST_TITLE
+  commentId: F:SuperOffice.Globalization.RC.SR_TICKET_NEW_REQUEST_TITLE
+  id: SR_TICKET_NEW_REQUEST_TITLE
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_TICKET_NEW_REQUEST_TITLE
+  nameWithType: RC.SR_TICKET_NEW_REQUEST_TITLE
+  fullName: SuperOffice.Globalization.RC.SR_TICKET_NEW_REQUEST_TITLE
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'New request title'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_TICKET_NEW_REQUEST_TITLE = "[SR_TICKET_NEW_REQUEST_TITLE]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_TICKET_NEW_REQUEST_TITLE As String = "[SR_TICKET_NEW_REQUEST_TITLE]"
 - uid: SuperOffice.Globalization.RC.SR_TICKET_NEXT_IN_QUEUE
   commentId: F:SuperOffice.Globalization.RC.SR_TICKET_NEXT_IN_QUEUE
   id: SR_TICKET_NEXT_IN_QUEUE
@@ -298523,6 +301192,132 @@ items:
     return:
       type: System.String
     content.vb: Public Const SR_TICKET_READSTATUS_UNREAD As String = "[SR_TICKET_READSTATUS_UNREAD]"
+- uid: SuperOffice.Globalization.RC.SR_TICKET_RELATE
+  commentId: F:SuperOffice.Globalization.RC.SR_TICKET_RELATE
+  id: SR_TICKET_RELATE
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_TICKET_RELATE
+  nameWithType: RC.SR_TICKET_RELATE
+  fullName: SuperOffice.Globalization.RC.SR_TICKET_RELATE
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Relate'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_TICKET_RELATE = "[SR_TICKET_RELATE]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_TICKET_RELATE As String = "[SR_TICKET_RELATE]"
+- uid: SuperOffice.Globalization.RC.SR_TICKET_RELATION_ALREADY_EXIST
+  commentId: F:SuperOffice.Globalization.RC.SR_TICKET_RELATION_ALREADY_EXIST
+  id: SR_TICKET_RELATION_ALREADY_EXIST
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_TICKET_RELATION_ALREADY_EXIST
+  nameWithType: RC.SR_TICKET_RELATION_ALREADY_EXIST
+  fullName: SuperOffice.Globalization.RC.SR_TICKET_RELATION_ALREADY_EXIST
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Ticket relation between ticket {0} and ticket {1} already already exists.'<br />\r\nValidation message displayed when attempting to create a duplicate ticket relation.<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_TICKET_RELATION_ALREADY_EXIST = "[SR_TICKET_RELATION_ALREADY_EXIST]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_TICKET_RELATION_ALREADY_EXIST As String = "[SR_TICKET_RELATION_ALREADY_EXIST]"
+- uid: SuperOffice.Globalization.RC.SR_TICKET_RELATION_PARENT_ALREADY_EXIST
+  commentId: F:SuperOffice.Globalization.RC.SR_TICKET_RELATION_PARENT_ALREADY_EXIST
+  id: SR_TICKET_RELATION_PARENT_ALREADY_EXIST
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_TICKET_RELATION_PARENT_ALREADY_EXIST
+  nameWithType: RC.SR_TICKET_RELATION_PARENT_ALREADY_EXIST
+  fullName: SuperOffice.Globalization.RC.SR_TICKET_RELATION_PARENT_ALREADY_EXIST
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Ticket {0} already has a parent {1} set. Please remove parent before setting new.'<br />\r\nValidation message displayed when attempting to assign a new parent to a ticket that already has one.<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_TICKET_RELATION_PARENT_ALREADY_EXIST = "[SR_TICKET_RELATION_PARENT_ALREADY_EXIST]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_TICKET_RELATION_PARENT_ALREADY_EXIST As String = "[SR_TICKET_RELATION_PARENT_ALREADY_EXIST]"
+- uid: SuperOffice.Globalization.RC.SR_TICKET_RELATION_TYPE_CHILD
+  commentId: F:SuperOffice.Globalization.RC.SR_TICKET_RELATION_TYPE_CHILD
+  id: SR_TICKET_RELATION_TYPE_CHILD
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_TICKET_RELATION_TYPE_CHILD
+  nameWithType: RC.SR_TICKET_RELATION_TYPE_CHILD
+  fullName: SuperOffice.Globalization.RC.SR_TICKET_RELATION_TYPE_CHILD
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Child'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_TICKET_RELATION_TYPE_CHILD = "[SR_TICKET_RELATION_TYPE_CHILD]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_TICKET_RELATION_TYPE_CHILD As String = "[SR_TICKET_RELATION_TYPE_CHILD]"
+- uid: SuperOffice.Globalization.RC.SR_TICKET_RELATION_TYPE_PARENT
+  commentId: F:SuperOffice.Globalization.RC.SR_TICKET_RELATION_TYPE_PARENT
+  id: SR_TICKET_RELATION_TYPE_PARENT
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_TICKET_RELATION_TYPE_PARENT
+  nameWithType: RC.SR_TICKET_RELATION_TYPE_PARENT
+  fullName: SuperOffice.Globalization.RC.SR_TICKET_RELATION_TYPE_PARENT
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Parent'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_TICKET_RELATION_TYPE_PARENT = "[SR_TICKET_RELATION_TYPE_PARENT]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_TICKET_RELATION_TYPE_PARENT As String = "[SR_TICKET_RELATION_TYPE_PARENT]"
+- uid: SuperOffice.Globalization.RC.SR_TICKET_RELATION_TYPE_RELATED
+  commentId: F:SuperOffice.Globalization.RC.SR_TICKET_RELATION_TYPE_RELATED
+  id: SR_TICKET_RELATION_TYPE_RELATED
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_TICKET_RELATION_TYPE_RELATED
+  nameWithType: RC.SR_TICKET_RELATION_TYPE_RELATED
+  fullName: SuperOffice.Globalization.RC.SR_TICKET_RELATION_TYPE_RELATED
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Related'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_TICKET_RELATION_TYPE_RELATED = "[SR_TICKET_RELATION_TYPE_RELATED]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_TICKET_RELATION_TYPE_RELATED As String = "[SR_TICKET_RELATION_TYPE_RELATED]"
 - uid: SuperOffice.Globalization.RC.SR_TICKET_REPLY_TEMPLATES_AND_FAQ
   commentId: F:SuperOffice.Globalization.RC.SR_TICKET_REPLY_TEMPLATES_AND_FAQ
   id: SR_TICKET_REPLY_TEMPLATES_AND_FAQ
@@ -298817,6 +301612,27 @@ items:
     return:
       type: System.String
     content.vb: Public Const SR_TICKET_SALE As String = "[SR_TICKET_SALE]"
+- uid: SuperOffice.Globalization.RC.SR_TICKET_SELECT_DIFFERENT_FROM_SOURCE
+  commentId: F:SuperOffice.Globalization.RC.SR_TICKET_SELECT_DIFFERENT_FROM_SOURCE
+  id: SR_TICKET_SELECT_DIFFERENT_FROM_SOURCE
+  parent: SuperOffice.Globalization.RC
+  langs:
+  - csharp
+  - vb
+  name: SR_TICKET_SELECT_DIFFERENT_FROM_SOURCE
+  nameWithType: RC.SR_TICKET_SELECT_DIFFERENT_FROM_SOURCE
+  fullName: SuperOffice.Globalization.RC.SR_TICKET_SELECT_DIFFERENT_FROM_SOURCE
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Globalization
+  summary: "'Please select a ticket different from the source ticket.'<br />\r\nUsage: None"
+  example: []
+  syntax:
+    content: public const string SR_TICKET_SELECT_DIFFERENT_FROM_SOURCE = "[SR_TICKET_SELECT_DIFFERENT_FROM_SOURCE]"
+    return:
+      type: System.String
+    content.vb: Public Const SR_TICKET_SELECT_DIFFERENT_FROM_SOURCE As String = "[SR_TICKET_SELECT_DIFFERENT_FROM_SOURCE]"
 - uid: SuperOffice.Globalization.RC.SR_TICKET_SENTIMENT
   commentId: F:SuperOffice.Globalization.RC.SR_TICKET_SENTIMENT
   id: SR_TICKET_SENTIMENT

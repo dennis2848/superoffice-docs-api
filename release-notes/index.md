@@ -3,7 +3,7 @@ uid: release-notes
 title: What's new in SuperOffice
 description: Release notes. Here you will find all the small and big changes that has been released for SuperOffice in the different versions.
 author: kirstiaa
-date: 01.13.2026
+date: 02.17.2026
 content_type: release-note
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -15,26 +15,22 @@ Here you will find all the small and big changes that has been released for Supe
 
 ## SuperOffice CRM versions
 
-The latest online release is [**version 11.8**][11] - 13.01.2026.
+The latest online release is [**version 11.10**][11] - 17.02.2026.
 
 Recent versions:
 
-* [11.5][11]
-* [11.4][11]
-* [11.3][11]
-* [11.2][11]
-* [11.1][11]
+* [11.1 - 11.10][11]
 * [10.5][9]
 
 Older versions are listed in the table of contents.
 
 ### Onsite
 
-The latest onsite release is **10.5**. See the [version history][19] for details.
+The latest onsite release is **11.6** - 22.01.2026. See the [version history][19] for details.
 
 ## Mobile CRM versions
 
-The latest release is [**version 11.1.5**][7] - 07.01.2026.
+The latest release is [**version 11.1.9**][7] - 17.02.2026.
 
 ## Product integrations
 
@@ -42,19 +38,14 @@ Different integration components are released on separate schedules. See the [in
 
 ## Developer Portal
 
+* 2.9 (17.12.2025): Refactored log section, Export list of tenants
 * 2.8 (17.11.2025): Refreshed and modernized user interface
-
 * 2.7 (04.11.2025): Improved categorization
-
 * 2.6 (30.09.2025): Dark mode
-
 * 2.5 (02.09.2025):
   * Role assignment, Simplified management, Improved security
-
 * 2.4 (20.08.2025): Bug fixing release
-
 * 2.3 (11.06.2025): Bug fixing release
-
 * 2.2 (07.05.2025):
   * [Publish Status widget][18] shows all pending requests to publish app configurations, partner profiles, and App Store information.
 
@@ -68,7 +59,8 @@ Different integration components are released on separate schedules. See the [in
 
 We use **pilot programs** to assess how well the features and functions meet our users' **needs and expectations**, to collect feedback, and identify potential problems. The feedback from the pilot phase is valuable for refining the features and functions in SuperOffice. It helps us address any issues or concerns before releasing them to all our users. For more details, see our [overview of pilot programs][17].
 
-* [CSS Mode for Form styling][16] (available from 11.8 - 13.01.2026)
+* [Synchronizer: See attendees and don't lose edits][16] (available from Synchronizer v.117 - 16.02.2026)
+* [Forms - Custom styling][16] (available from 11.8 - 13.01.2026)
 * [SuperOffice Service - Custom objects][16] (available from 10.3.4 - 09.04.2024)
 * [SuperOffice CRM - AI Lab][16] (available from 10.3.2 - 20.02.2024)
 * [SuperOffice Service - New Service Request][16] (available on demand from 10.2.1 - 27.01.2023)

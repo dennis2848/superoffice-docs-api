@@ -29,12 +29,12 @@ items:
   - SuperOffice.Util.DurationTimeHelper
   - SuperOffice.Util.Encoding
   - SuperOffice.Util.EnumerableWriter
-  - SuperOffice.Util.ExpiringDictionary`2
   - SuperOffice.Util.ExpressionUtil
   - SuperOffice.Util.FileExtensionValidator
   - SuperOffice.Util.FileNameHelper
   - SuperOffice.Util.GlobalTestFlag
   - SuperOffice.Util.HtmlHelper
+  - SuperOffice.Util.Http11EnforcingHandler
   - SuperOffice.Util.HttpHelper
   - SuperOffice.Util.HttpHelper.HttpServiceJwtConfig
   - SuperOffice.Util.HttpHelper.RequestType
@@ -95,6 +95,8 @@ items:
   - SuperOffice.Util.TimeZoneUtility
   - SuperOffice.Util.TrackEvent
   - SuperOffice.Util.TrackEventDispatcher
+  - SuperOffice.Util.TrackEventItem
+  - SuperOffice.Util.TrackEventNames
   - SuperOffice.Util.TrackEventSender
   - SuperOffice.Util.TwipsConverter
   - SuperOffice.Util.TwoWayDictionary`2
@@ -273,40 +275,6 @@ references:
   name: EnumerableWriter
   nameWithType: EnumerableWriter
   fullName: SuperOffice.Util.EnumerableWriter
-- uid: SuperOffice.Util.ExpiringDictionary`2
-  commentId: T:SuperOffice.Util.ExpiringDictionary`2
-  isExternal: true
-  href: SuperOffice.Util.ExpiringDictionary-2.html
-  name: ExpiringDictionary<TKey, TValue>
-  nameWithType: ExpiringDictionary<TKey, TValue>
-  fullName: SuperOffice.Util.ExpiringDictionary<TKey, TValue>
-  nameWithType.vb: ExpiringDictionary(Of TKey, TValue)
-  fullName.vb: SuperOffice.Util.ExpiringDictionary(Of TKey, TValue)
-  name.vb: ExpiringDictionary(Of TKey, TValue)
-  spec.csharp:
-  - uid: SuperOffice.Util.ExpiringDictionary`2
-    name: ExpiringDictionary
-    isExternal: true
-    href: SuperOffice.Util.ExpiringDictionary-2.html
-  - name: <
-  - name: TKey
-  - name: ','
-  - name: " "
-  - name: TValue
-  - name: '>'
-  spec.vb:
-  - uid: SuperOffice.Util.ExpiringDictionary`2
-    name: ExpiringDictionary
-    isExternal: true
-    href: SuperOffice.Util.ExpiringDictionary-2.html
-  - name: (
-  - name: Of
-  - name: " "
-  - name: TKey
-  - name: ','
-  - name: " "
-  - name: TValue
-  - name: )
 - uid: SuperOffice.Util.ExpressionUtil
   commentId: T:SuperOffice.Util.ExpressionUtil
   isExternal: true
@@ -1152,6 +1120,13 @@ references:
   name: DocumentSaveChangeAnalyzer
   nameWithType: DocumentSaveChangeAnalyzer
   fullName: SuperOffice.Util.DocumentSaveChangeAnalyzer
+- uid: SuperOffice.Util.Http11EnforcingHandler
+  commentId: T:SuperOffice.Util.Http11EnforcingHandler
+  isExternal: true
+  href: SuperOffice.Util.Http11EnforcingHandler.html
+  name: Http11EnforcingHandler
+  nameWithType: Http11EnforcingHandler
+  fullName: SuperOffice.Util.Http11EnforcingHandler
 - uid: SuperOffice.Util.NSWinContactHelper
   commentId: T:SuperOffice.Util.NSWinContactHelper
   isExternal: true
@@ -1535,11 +1510,19 @@ references:
   fullName: SuperOffice.Util.TargetHelper
 - uid: SuperOffice.Util.TrackEvent
   commentId: T:SuperOffice.Util.TrackEvent
+  parent: SuperOffice.Util
   isExternal: true
   href: SuperOffice.Util.TrackEvent.html
   name: TrackEvent
   nameWithType: TrackEvent
   fullName: SuperOffice.Util.TrackEvent
+- uid: SuperOffice.Util.TrackEventItem
+  commentId: T:SuperOffice.Util.TrackEventItem
+  isExternal: true
+  href: SuperOffice.Util.TrackEventItem.html
+  name: TrackEventItem
+  nameWithType: TrackEventItem
+  fullName: SuperOffice.Util.TrackEventItem
 - uid: SuperOffice.Util.ITrackEventDispatcher
   commentId: T:SuperOffice.Util.ITrackEventDispatcher
   parent: SuperOffice.Util
@@ -1555,6 +1538,13 @@ references:
   name: TrackEventDispatcher
   nameWithType: TrackEventDispatcher
   fullName: SuperOffice.Util.TrackEventDispatcher
+- uid: SuperOffice.Util.TrackEventNames
+  commentId: T:SuperOffice.Util.TrackEventNames
+  isExternal: true
+  href: SuperOffice.Util.TrackEventNames.html
+  name: TrackEventNames
+  nameWithType: TrackEventNames
+  fullName: SuperOffice.Util.TrackEventNames
 - uid: SuperOffice.Util.TrackEventSender
   commentId: T:SuperOffice.Util.TrackEventSender
   isExternal: true
