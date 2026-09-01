@@ -3,11 +3,12 @@ uid: help-de-request-category
 title: Anfragekategorien
 description: Anfragekategorien
 keywords: Anfragekategorie, Kategorien-Registerkarte, Anfrage, Kategorie
-author: Bergfrid Dias
-date: 02.11.2025
-version: 10.5.2
+author: digitaldiina
+date: 06.10.2026
+version: 12.0
 content_type: concept
 license: serviceessentials
+tier: starter
 audience: settings
 audience_tooltip: Einstellungen und Verwaltung
 language: de
@@ -35,7 +36,7 @@ Benutzer können entweder individuell oder über die Benutzergruppen, denen sie 
 
 * In **Einstellungen und Verwaltung** den Punkt **Anfragen** im Navigator auswählen und anschließend die Registerkarte **Kategorien** öffnen.
 
-Die Kategorien sind in einer Baumstruktur organisiert.
+Die Kategorien sind in einer Baumstruktur organisiert. Um die ID einer Kategorie zu finden, bewegen Sie den Mauszeiger über den Kategorienamen in der Liste. Die ID wird im Tooltip angezeigt.
 
 [!include[Restricted access](../../../learn/includes/note-insufficient-rights.md)]
 

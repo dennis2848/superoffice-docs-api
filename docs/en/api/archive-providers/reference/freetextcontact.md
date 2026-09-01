@@ -41,7 +41,7 @@ as well as before any ORDER BY, are applied.
 |contactId|int|Company ID: Database ID of company| x |
 |name|stringorPK|Company name| x |
 |department|string|Department| x |
-|nameDepartment| *None* |Company: Displays the company an activity is linked to| x |
+|nameDepartment|string|Company: Displays the company an activity is linked to| x |
 |hasInfoText|bool|Has note: Displays an icon indicating if there is additional information available about the contact| x |
 |hasInterests|bool|Has interests: Displays an Icon indicating if the contact has active interests| x |
 |associateId|associate|Our contact: Displays our contact| x |
@@ -207,7 +207,7 @@ as well as before any ORDER BY, are applied.
 |contactSupportPerson/firstName|string|User support contact - First name: Displays the contact's first name| x |
 |contactSupportPerson/lastName|string|User support contact - Last name: Displays the contact's last name| x |
 |contactSupportPerson/middleName|string|User support contact - Middle name: Displays the contact's middle name.| x |
-|contactSupportPerson/fullName|stringorPK|User support contact - Contact: Displays the contact to which an item is linked| x |
+|contactSupportPerson/fullName|string|User support contact - Contact: Displays the contact to which an item is linked| x |
 |contactSupportPerson/contactId|int|User support contact - Company ID: Database ID of company| x |
 |contactSupportPerson/hasInfoText|bool|User support contact - Has note: Displays an icon indicating if there is additional information available about the contact| x |
 |contactSupportPerson/hasInterests|bool|User support contact - Has interests: Displays an Icon indicating if the contact has active interests| x |
@@ -380,7 +380,7 @@ as well as before any ORDER BY, are applied.
 ## Sample
 
 ```http!
-GET /api/v1/archive/FreetextContact?$select=contactPhone/formattedNumber,restrictionAddress/line1,contactSupportPerson/birthMonth,contactSupportPerson/supportLanguage
+GET /api/v1/archive/FreetextContact?$select=contactSupportAssociate/fullName,contactSupportPerson/personBusiness,contactAssociate/usergroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

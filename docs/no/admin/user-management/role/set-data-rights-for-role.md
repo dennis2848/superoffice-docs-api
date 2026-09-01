@@ -4,21 +4,22 @@ title: Angi datarettigheter for rolle
 description: Angi datarettigheter for rolle
 keywords: brukeradministrasjon, rolle, tilgang, rettigheter
 author: digitaldiina
-date: 03.27.2025
-version: 10.4
+date: 06.10.2026
+version: 12.0
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 category: identity management
 topic: role
 index: true
+tier: starter
 redirect_from: /no/admin/user-management/learn/role/set-data-rights-for-role
 language: no
 ---
 
 # Angi datarettigheter for rolle
 
-[!include[Requirement](../includes/note-anon-req.md)]
+[!include[Requirement](../../../includes/lim-starter.md)]
 
 Du kan angi rettigheter for dataobjekter  basert på hvem som eier objektet. Alle brukere som tilhører denne [rollen][2], tilordnes rettigheter basert på innstillingene du gjør her.
 
@@ -26,9 +27,7 @@ Du kan angi rettigheter for dataobjekter  basert på hvem som eier objektet. All
 
 1. [!include[Open Roles](../includes/open-roles.md)]
 
-1. Velg fanen **Medarbeidere** eller fanen **Eksterne** (onsite).
-
-    [Slik redigerer du rollen for anonyme brukere.][1]
+1. Velg fanen **Medarbeidere**.
 
 1. Merk ønsket rolle i listen **Roller**. Rettighetene for den valgte rollen vises i fanen **Datarettigheter**.
 
@@ -52,26 +51,21 @@ Du kan angi rettigheter for dataobjekter  basert på hvem som eier objektet. All
 |---|---|---|---|---|
 | Min egen | Opprettet av deg | Eierfeltet brukes | Ansvarlig-feltet brukes | Du er "Vår kontakt" |
 | Primærgruppe (A) | Opprettet av din primærgruppe (avdeling) | Eierfeltet brukes | Ansvarlig-feltet brukes | "Vår kontakt" er en medarbeider i din primærgruppe |
-| Mitt firma (E)<br />Kun ONSITE | Opprettet av en ekstern brukers firma | Eierfeltet brukes | Ansvarlig-feltet brukes | "Vår kontakt" gjelder |
 | Andre grupper (A) | Opprettet av en brukergruppe du tilhører | Eierfeltet brukes | Ansvarlig-feltet brukes | "Vår kontakt" er en medarbeider i en gruppe du tilhører |
-| Samme prosjekt (E)<br />Kun ONSITE | Opprettet i et prosjekt som en ekstern bruker tilhører | Eierfeltet brukes | Ansvarlig-feltet brukes | "Vår kontakt" gjelder |
 | Andre medarbeidere | Opprettet av andre medarbeidere i bedriften | Eierfeltet brukes | Ansvarlig-feltet brukes | "Vår kontakt" er en medarbeider du ikke deler gruppe med |
-| Ekstern bruker | Opprettet av eksterne brukere (Audience-brukere) | Eierfeltet brukes | Ansvarlig-feltet brukes | "Vår kontakt" gjelder |
 | Anonyme | Opprettet av anonyme brukere | Ikke relevant | Ikke relevant | Ikke relevant |
 
-**A** = medarbeidere, **E** = ekstern
+**A** = medarbeidere
 
 I personkortet hentes feltet **Vår kontakt** alltid fra firmakortet som personen tilhører.
-
-## Hvordan viser jeg dataobjekter for eksterne brukere?
-
-Hvis dataobjekter (firmaer, prosjekter, dokumenter og så videre) skal gjøres tilgjengelige for eksterne brukere (Audience-brukere), holder det ikke bare å gi de eksterne brukerne lesetilgang eller høyere tilgang. Dataobjektene må i tillegg publiseres i SuperOffice.
 
 ## Relatert innhold
 
 * [Datarettigheter][3]
+* [Onsite-datarettigheter][4]
 
 <!-- Referenced links -->
-[1]: ../onsite/other-users.md#rights
+
 [2]: index.md
 [3]: functional-rights.md
+[4]: https://help.superoffice.com/docs/11/no/admin/user-management/role/set-data-rights-for-role.html

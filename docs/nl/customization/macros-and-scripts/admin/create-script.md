@@ -4,13 +4,14 @@ title: Een script maken of bewerken
 description: Een script maken
 keywords: script, macro
 author: digitaldiina
-date: 11.26.2025
-version: 11.6
+date: 06.10.2026
+version: 12.0
 content_type: howto
 category: automation
 topic: CRMScript
 audience: settings
 audience_tooltip: Settings and maintenance
+tier: core
 redirect_from:
   - /nl/automation/crmscript/learn/create-folder
   - /nl/automation/crmscript/learn/create-script
@@ -19,6 +20,8 @@ index: true
 ---
 
 # Een script maken of bewerken
+
+[!include[License requirement](../../../includes/req-dev-tools-transition.md)]
 
 ## Steps
 

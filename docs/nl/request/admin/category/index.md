@@ -3,11 +3,12 @@ uid: help-nl-request-category
 title: Verzoekcategorieën
 description: Verzoekcategorieën
 keywords: verzoekcategorie, categorie, verzoek
-author: Bergfrid Dias
-date: 03.14.2025
-version: 10.5.2
+author: digitaldiina
+date: 06.10.2026
+version: 12.0
 content_type: concept
 license: serviceessentials
+tier: starter
 audience: settings
 audience_tooltip: Settings and maintenance
 language: nl
@@ -35,7 +36,7 @@ Gebruikers kunnen individueel of via gebruikersgroepen als lid aan categorieën 
 
 * Ga naar **Instellingen en onderhoud**, klik op **Verzoeken** in de navigator en selecteer het tabblad **Categorieën**.
 
-De categorieën zijn gerangschikt in een boomstructuur.
+De categorieën zijn gerangschikt in een boomstructuur. Om de ID van een categorie te vinden, houdt u de muisaanwijzer boven de categorienaam in de lijst. De ID wordt weergegeven in de tooltip.
 
 [!include[Restricted access](../../../learn/includes/note-insufficient-rights.md)]
 

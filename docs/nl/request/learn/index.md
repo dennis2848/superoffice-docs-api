@@ -3,15 +3,16 @@ uid: help-nl-request
 title: Verzoeken
 description: Inleiding tot verzoeken in SuperOffice
 keywords: verzoek, ticket, service
-author: Bergfrid Dias
-date: 09.01.2025
-version: 11.3
+author: digitaldiina
+date: 06.10.2026
+version: 12.0
 content_type: concept
 license: serviceessentials
+tier: starter
 audience: person
 audience_tooltip: SuperOffice Service
 language: nl
-redirect_from: 
+redirect_from:
   - /nl/request/learn/screen/index
   - /nl/request/learn/screen/ticket-log
 ---
@@ -49,6 +50,7 @@ Het scherm Verzoeken bevat de volgende secties:
 * Onder de koptekst staat een rij knoppen voor het uitvoeren van taken met betrekking tot verzoeken, zoals Beantwoorden, Allen beantwoorden, Doorsturen en Opmerking toevoegen.
 * Het tabblad **Berichten** geeft de berichten weer met betrekking tot het verzoek.
 * Het tabblad **Details** bevat een overzicht van de gegevens die zijn geregistreerd voor het verzoek.
+* Het tabblad **Relaties** toont [gekoppelde verzoeken][21] (bovenliggend, onderliggend of gerelateerd).
 * Het tabblad **Logboek** bevat de historie van dit verzoek. In dit logboek zijn alle handelingen met betrekking tot het verzoek opgenomen sinds het voor de eerste keer werd geregistreerd.
 
 ### Koptekst van verzoek
@@ -97,6 +99,9 @@ Bovenaan het tabblad **Berichten** kunt u berichten beantwoorden en berichten do
 Het tabblad **Details** bevat een overzicht van alle velden voor het verzoek.
 
 ### <a id="log"></a>Logboek wijzigen
+
+> [!NOTE]
+> Voor het logboek is een **Service Premium**-licentie of het **Growth**-plan vereist.
 
 Dit scherm bevat het logboek voor dit verzoek. Alle gebeurtenissen worden vastgelegd, inclusief het tijdstip, wat er is gebeurd en wie dit heeft gedaan.
 
@@ -150,6 +155,7 @@ Een contactservicesysteem draait om het bieden van de antwoorden die uw personen
 * [Berichten of meerdere verzoeken doorsturen naar externe partijen][8]
 * [Verzoeken aan de lijst met favorieten toevoegen][18]
 * [Verzoeken sluiten][3]
+* [Verzoeken markeren als spam][27]
 
 Verschillende bedrijven hebben verschillende routines voor verzoekafhandeling en kunnen SuperOffice Service op verschillende manieren gebruiken. Hieronder staan twee praktijkgevallen die enkele van de beschikbare opties laten zien. Deze scenario's laten u zien hoe u efficiënt kunt antwoorden wanneer een persoon een verzoek per e-mail heeft ingediend en wanneer een persoon belt met een probleem of een vraag.
 
@@ -199,6 +205,20 @@ U kunt verzoeken aanpassen aan uw workflow:
 
 1. Klik op **Opslaan** om je wijzigingen toe te passen.
 
+## <a id="available"></a>Uw beschikbaarheidsstatus
+
+Uw beschikbaarheidsstatus bepaalt of u verzoeken ontvangt via automatische toewijzing. Dit heeft ook invloed op de toewijzing van personen.
+
+Klik in de werkbalk op <i class="ph ph-user-circle" aria-hidden="true"></i> **Persoonlijke instellingen** en selecteer **Uw beschikbaarheidsstatus** om uw status bij te werken.
+
+* **Aanwezig:** U bent beschikbaar voor automatische toewijzing van verzoeken en personen.
+* **Afwezig:** Er worden geen nieuwe verzoeken aan u toegewezen. Uw afwezigheidsmelding wordt naast uw naam weergegeven wanneer iemand handmatig een item toewijst.
+
+> [!TIP]
+> Als een medewerker vergeet de status bij te werken of onverwacht afwezig is, kan een beheerder de beschikbaarheidsstatus namens de medewerker wijzigen in **Instellingen en onderhoud** > **Gebruikers**.
+
+Hoe verzoeken worden herverdeeld wanneer een gebruiker afwezig is, hangt af van de [toewijzingsmethode][6] die voor de categorie is geconfigureerd.
+
 ## Globale voorkeuren
 
 Beheerders kunnen Service voor alle gebruikers aanpassen in Instellingen en onderhoud.
@@ -241,6 +261,7 @@ Enkele instellingen die ondersteuningsagenten beïnvloeden zijn:
 [16]: merge.md
 [17]: ../../dashboard/learn/show-requests.md
 [19]: split-message.md
+[21]: request-relations.md
 [22]: tags.md
 [24]: ../admin/priority/escalation-levels.md
 [25]: ../admin/category/index.md
@@ -251,6 +272,7 @@ Enkele instellingen die ondersteuningsagenten beïnvloeden zijn:
 [23]: ../../knowledge-base/learn/reply-templates/index.md
 [20]: https://community.superoffice.com/en/learning/best-practices-tips/service/7-tips-to-provide-best-in-class-customer-service-with-superoffice-service/
 [26]: ../../admin/preferences/service-settings.md
+[27]: spam.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/request/request-list-preview.png

@@ -3,11 +3,12 @@ uid: help-de-request-create
 title: Anfrage erstellen
 description: Anfrage erstellen
 keywords: Anfrage erstellen, neue Anfrage, Anfrage hinzufügen, Anfrageneigenschaften, Nachricht
-author: Bergfrid Dias
-date: 07.01.2025
-version: 11.2
+author: digitaldiina
+date: 06.10.2026
+version: 12.0
 content_type: howto
 license: serviceessentials
+tier: starter
 audience: person
 audience_tooltip: SuperOffice Service
 language: de
@@ -34,7 +35,7 @@ Eine Anfrage kann per E-Mail vom Kunden im System eingehen oder manuell über de
     * Wählen Sie **Anfragetyp**, **Status**, **Eigentümer**, **Kategorie**, **Priorität** und weitere Eigenschaften aus.
 
     > [!NOTE]
-    > Der Anfragetyp beeinflusst Standardwerte sowie verfügbare Status und Prioritäten.
+    > Der Anfragetyp beeinflusst Standardwerte sowie verfügbare Status und Prioritäten. Wenn eine [Beziehungsregel][20] erfordert, dass ein übergeordnetes Objekt für diesen Typ angegeben wird, müssen Sie eine übergeordnete Anfrage angeben, bevor Sie speichern.
 
 1. Gehen Sie zur Registerkarte **Nachrichten**, um die Mitteilung zu verfassen:
 
@@ -154,6 +155,7 @@ Die automatische Speicherung wird standardmäßig aktiviert, wenn Sie Anfragen a
 * [Verwenden von Tags in Anfragen][4]
 * [Antwortvorlagen-Variablen][18]
 * [Antwortvorlage erstellen][19]
+* [Anfragen-Beziehungen][21]
 
 <!-- Referenced links -->
 [2]: reply.md#reply-templ
@@ -164,6 +166,8 @@ Die automatische Speicherung wird standardmäßig aktiviert, wenn Sie Anfragen a
 [16]: ../../custom-objects/admin/create-extra-field.md
 [18]: ../../knowledge-base/learn/reply-templates/template-variables.md
 [19]: ../../knowledge-base/learn/reply-templates/index.md
+[20]: ../admin/relation-rules.md
+[21]: request-relations.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/request/create-request.png

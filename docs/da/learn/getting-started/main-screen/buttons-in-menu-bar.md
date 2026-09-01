@@ -3,12 +3,13 @@ uid: help-da-ui-top-bar
 title: Knapper på toplinjen
 description: Knapper på toplinjen
 keywords: toplinje, knap, personlige indstillinger, menulinjen, hovedmenu
-author: Kirsti Aakerholt, Bergfrid Dias
-date: 09.17.2025
-version: 11.3
+author: digitaldiina
+date: 05.04.2026
+version: 11.13
 content_type: reference
 audience: person
 audience_tooltip: SuperOffice CRM
+tier: starter
 language: da
 ---
 
@@ -26,7 +27,7 @@ language: da
 | <i class="ph ph-bell" aria-label="Klokke ikon"></i> | [**Notifikationer**][9] | Se nye notifikationer, såsom invitationer, tildelte sager og godkendte salg. Klik på en notifikation for at åbne den tilhørende post. |
 | <i class="ph ph-user-circle" aria-label="Kontakt ikon"></i> | **Personlige indstillinger** | Rediger præferencer, e-mailsignatur og adgangskoder. Viser dit profilbillede, hvis det er tilføjet til dit personkort. |
 | <i class="ph ph-list" aria-label="Hovedmenu"></i> | **Hovedmenu** | Få adgang til generelle systemindstillinger, skift mellem moduler eller åbn andre applikationer. |
-| <i class="ph ph-lightbulb" aria-label="Pære ikon"></i> | **In-app Resource Center** | Åbn vejledninger, brugervejledning og inspirationsressourcer (kun online). |
+| <i class="ph ph-lightbulb" aria-label="Pære ikon"></i> | **In-app Resource Center** | Åbn vejledninger, brugervejledning og inspirationsressourcer |
 | **Hjælp** | **Hjælp** | Få adgang til brugervejledninger og information tilpasset den aktuelle opgave eller det aktuelle modul. |
 
 ## Menuen Personlige indstillinger
@@ -36,7 +37,7 @@ language: da
 | **Præferencer** | Juster [personlige præferencer][6], såsom standardværdier, sortering og visuelle effekter. |
 | **Rediger personlig signatur** | Rediger den [e-mailsignatur][7], der bruges i udgående e-mails eller sager. |
 | **E-mailindstillinger** | Konfigurer indstillinger for indbakke. |
-| **Din tilgængelighedsstatus** | Vælg, om du er tilgængelig for automatisk tildeling af sager og personer. Hvis du sætter din status til *Ikke til stede*, bliver nye sager ikke tildelt dig, og din fraværsbesked vises ved dit navn, når nogen manuelt tildeler en sag. |
+| **Din tilgængelighedsstatus** | Vælg, om du er [tilgængelig for automatisk tildeling af sager og personer][18]. Hvis du sætter din status til *Ikke til stede*, bliver nye sager ikke tildelt dig, og din fraværsbesked vises ved dit navn, når nogen manuelt tildeler en sag. |
 | **Vis mine kontaktoplysninger** | Åbn dit personkort for at redigere detaljer såsom telefonnumre eller titel. |
 | **Lokale indstillinger** | Skift sprog, nummer-/datoformat og e-mailklientindstillinger. |
 | **Få mobilappen** | Konfigurer indstillinger for SuperOffice Mobile CRM. |
@@ -94,3 +95,4 @@ language: da
 [10]: ../../../search-options/learn/freetext-search.md
 [15]: ../../basics/creating-shortcuts-to-entries-in-crm.md
 [17]: ../../../sale/learn/sales-targets/index.md
+[18]: ../../../request/learn/index.md#available

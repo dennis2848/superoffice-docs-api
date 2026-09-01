@@ -67,7 +67,7 @@ Archive provider for Document type activities. This provider can be used on its 
 |person/firstName|string|First name: Displays the contact's first name| x |
 |person/lastName|string|Last name: Displays the contact's last name| x |
 |person/middleName|string|Middle name: Displays the contact's middle name.| x |
-|person/fullName|stringorPK|Contact: Displays the contact to which an item is linked| x |
+|person/fullName|string|Contact: Displays the contact to which an item is linked| x |
 |person/contactId|int|Company ID: Database ID of company| x |
 |person/hasInfoText|bool|Has note: Displays an icon indicating if there is additional information available about the contact| x |
 |person/hasInterests|bool|Has interests: Displays an Icon indicating if the contact has active interests| x |
@@ -289,7 +289,7 @@ Archive provider for Document type activities. This provider can be used on its 
 |contact/contactId|int|Company ID: Database ID of company| x |
 |contact/name|stringorPK|Company name| x |
 |contact/department|string|Department| x |
-|contact/nameDepartment| *None* |Company: Displays the company an activity is linked to| x |
+|contact/nameDepartment|string|Company: Displays the company an activity is linked to| x |
 |contact/hasInfoText|bool|Has note: Displays an icon indicating if there is additional information available about the contact| x |
 |contact/hasInterests|bool|Has interests: Displays an Icon indicating if the contact has active interests| x |
 |contact/associateId|associate|Our contact: Displays our contact| x |
@@ -494,6 +494,8 @@ Archive provider for Document type activities. This provider can be used on its 
 |project/endDate|date|End date: End date of project| x |
 |project/imageThumbnail| *None* |Thumbnail: Scaled-down image of project image|  |
 |project/activeErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
+|project/eventId|int|Event ID: Event ID| x |
+|project/startDate|date|Start date: Project start date| x |
 |project/projectPublish/isPublished|bool|Published: Displays an icon indicating if the project or sale has been published| x |
 |project/projectPublish/publishedFrom|date|From date: Start date for publishing. The record will not be visible prior to this date| x |
 |project/projectPublish/publishedTo|date|To date: End date for publishing. The record will not be visible after this date| x |
@@ -536,12 +538,12 @@ Archive provider for Document type activities. This provider can be used on its 
 |project/projectAssociate/userName|string|User name: User name| x |
 |project/projectAssociate/personEmail|string|E-mail| x |
 |project/projectAssociate/locationAddress|string|Location: Location| x |
-|project/projectAssociate/isLocation|bool|Is a location: Is a location| x |
-|project/projectUdef/SuperOffice:1|string|projectshorttext| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|project/projectAssociate/isLocation|bool|Is a location: Is a location| x |
+|project/projectUdef/SuperOffice:1|string|projectshorttext| x |
 |project/projectUdef/SuperOffice:2|string|projectlongtext| x |
 |project/projectUdef/SuperOffice:3|int|projectnumber| x |
 |project/projectUdef/SuperOffice:4|date|projectdate| x |
@@ -640,12 +642,12 @@ Archive provider for Document type activities. This provider can be used on its 
 |sale/currency|listAny|Currency: The currency of the sale| x |
 |sale/credited|listAny|Credited: The user to be credited with the sale| x |
 |sale/lossReason|listAny|Reason (lost: The reason for losing the sale| x |
-|sale/source|listAny|Source: The source (lead) of the sale| x |
-|sale/competitor|listAny|Competitor: The competitor who won the sale| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|sale/source|listAny|Source: The source (lead) of the sale| x |
+|sale/competitor|listAny|Competitor: The competitor who won the sale| x |
 |sale/heading|stringorPK|Sale: The name of the sale| x |
 |sale/amount|decimal|Amount: The gross sales total| x |
 |sale/amountWeighted|decimal|Weighted amount: Virtual field calculated from amount * probability percent.| x |
@@ -675,7 +677,8 @@ Archive provider for Document type activities. This provider can be used on its 
 |sale/createdByWorkflow|listAny|Created by flow: Created by flow| x |
 |sale/amountInBaseCurrency| *None* |Amount (BaseCurrency: The gross sales total| x |
 |sale/amountWeightedInBaseCurrency| *None* |Weighted amount (BaseCurrency: Virtual field calculated from amount * probability percent.| x |
-|sale/daysInStage| *None* |Days in stage: Total number of days in this stage| x |
+|sale/daysInStage|int|Days in stage: Total number of days in this stage| x |
+|sale/saleCycle|int|Sale cycle: Number of days from a sale was registered until it was closed (sold or lost)| x |
 |sale/visibleFor|listAny|Visible for|  |
 |sale/sale/textId|int|Text ID| x |
 |sale/sale/description|positiveString|Text: Displays the text entered in the description field| x |
@@ -730,7 +733,7 @@ Archive provider for Document type activities. This provider can be used on its 
 ## Sample
 
 ```http!
-GET /api/v1/archive/Document?$select=person/createdByForm,person/personAssociate/isLocation,contact/email/emailLastSent,contact/LastCompletedSale,contact/SaintStatus2
+GET /api/v1/archive/Document?$select=who,person/birthDay,person/restrictionAddress/state,person/correspondingAssociate/middleName,person/withdrawnStoreConsent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

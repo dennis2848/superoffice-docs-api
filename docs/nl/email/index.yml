@@ -26,8 +26,8 @@ landingContent:
       - itemType: list
         typeDesc: how-to-guide
         links:
-        - text: E-mail, documenten en agenda koppelen
-          url: ../learn/getting-started/connect-email-doc/index.md
+        - text: Accounts koppelen
+          url: ../learn/getting-started/connect-your-accounts.md
         - text: Standaard e-mailclient wijzigen
           url: learn/change-default-mail-client.md
 
@@ -67,7 +67,7 @@ landingContent:
           - text: Centraal uitrollen
             url: ../../../integrations/superoffice-for-outlook/deploy.md
           - text: Opslaan in SuperOffice
-            url: ../../../integrations/superoffice-for-outlook/save-to-superoffice.md
+            url: ../../../integrations/superoffice-for-outlook/archive-email.md
           - text: Contactpersoon toevoegen aan SuperOffice
             url: ../../../integrations/superoffice-for-outlook/add-contact-to-superoffice.md
           - text: Vervolgactiviteit aanmaken

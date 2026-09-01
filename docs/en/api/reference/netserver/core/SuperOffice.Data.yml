@@ -54,6 +54,8 @@ items:
   - SuperOffice.Data.CsLoginAuthType
   - SuperOffice.Data.CsLoginOrigin
   - SuperOffice.Data.CsLoginStatus
+  - SuperOffice.Data.CtaFlavor
+  - SuperOffice.Data.CtaType
   - SuperOffice.Data.CustomFieldType
   - SuperOffice.Data.DashTileCurrencyMode
   - SuperOffice.Data.DashTileEntityType
@@ -109,6 +111,7 @@ items:
   - SuperOffice.Data.FieldAccess
   - SuperOffice.Data.FieldDataType
   - SuperOffice.Data.FieldMetadataType
+  - SuperOffice.Data.FormFieldRestrictionType
   - SuperOffice.Data.FormSubmissionStatus
   - SuperOffice.Data.FormType
   - SuperOffice.Data.FormsRecaptchaMode
@@ -157,6 +160,8 @@ items:
   - SuperOffice.Data.MessageHeaderStdItem
   - SuperOffice.Data.MessageHeaderStdItemCol
   - SuperOffice.Data.MessagingStatus
+  - SuperOffice.Data.MeteringEventType
+  - SuperOffice.Data.MeteringStatus
   - SuperOffice.Data.ModifiedAppointmentFields
   - SuperOffice.Data.MoveMergeOperation
   - SuperOffice.Data.Navigation
@@ -164,6 +169,7 @@ items:
   - SuperOffice.Data.NestedPersist
   - SuperOffice.Data.NestedPersistFacade
   - SuperOffice.Data.NetServerBuildType
+  - SuperOffice.Data.NewsFeedItemStatus
   - SuperOffice.Data.NotificationEventType
   - SuperOffice.Data.NotificationMessageType
   - SuperOffice.Data.NotificationPlatform
@@ -181,6 +187,7 @@ items:
   - SuperOffice.Data.PrefDescCacheExtensions
   - SuperOffice.Data.PrefDescValueType
   - SuperOffice.Data.PreferenceLevel
+  - SuperOffice.Data.ProjectMemberEventParticipantStatus
   - SuperOffice.Data.ProjectStatusConstants
   - SuperOffice.Data.ProjectTypeConstants
   - SuperOffice.Data.PublishType
@@ -306,6 +313,7 @@ items:
   - SuperOffice.Data.TicketPriorityFlags
   - SuperOffice.Data.TicketPriorityStatus
   - SuperOffice.Data.TicketReadStatus
+  - SuperOffice.Data.TicketRelationError
   - SuperOffice.Data.TicketRelationType
   - SuperOffice.Data.TicketSecurityLevel
   - SuperOffice.Data.TicketStatusTimeCounter
@@ -329,6 +337,8 @@ items:
   - SuperOffice.Data.ValueOverride
   - SuperOffice.Data.VideoMeetingStatus
   - SuperOffice.Data.Visibility
+  - SuperOffice.Data.WebhookNotifyVia
+  - SuperOffice.Data.WebhookNotifyWhen
   - SuperOffice.Data.WebhookState
   - SuperOffice.Data.WeekOfMonth
   - SuperOffice.Data.Weekday
@@ -383,6 +393,14 @@ references:
   name: AppointmentExternalOwner
   nameWithType: AppointmentExternalOwner
   fullName: SuperOffice.Data.AppointmentExternalOwner
+- uid: SuperOffice.Data.ConfigType
+  commentId: T:SuperOffice.Data.ConfigType
+  parent: SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.Data.ConfigType.html
+  name: ConfigType
+  nameWithType: ConfigType
+  fullName: SuperOffice.Data.ConfigType
 - uid: SuperOffice.Data.ExternallyOwnedType
   commentId: T:SuperOffice.Data.ExternallyOwnedType
   parent: SuperOffice.Data
@@ -1623,6 +1641,22 @@ references:
   name: WebhookState
   nameWithType: WebhookState
   fullName: SuperOffice.Data.WebhookState
+- uid: SuperOffice.Data.WebhookNotifyVia
+  commentId: T:SuperOffice.Data.WebhookNotifyVia
+  parent: SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.Data.WebhookNotifyVia.html
+  name: WebhookNotifyVia
+  nameWithType: WebhookNotifyVia
+  fullName: SuperOffice.Data.WebhookNotifyVia
+- uid: SuperOffice.Data.WebhookNotifyWhen
+  commentId: T:SuperOffice.Data.WebhookNotifyWhen
+  parent: SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.Data.WebhookNotifyWhen.html
+  name: WebhookNotifyWhen
+  nameWithType: WebhookNotifyWhen
+  fullName: SuperOffice.Data.WebhookNotifyWhen
 - uid: SuperOffice.Data.CommandAction
   commentId: T:SuperOffice.Data.CommandAction
   parent: SuperOffice.Data
@@ -1927,6 +1961,62 @@ references:
   name: CategoryUpdateTrigger
   nameWithType: CategoryUpdateTrigger
   fullName: SuperOffice.Data.CategoryUpdateTrigger
+- uid: SuperOffice.Data.ProjectMemberEventParticipantStatus
+  commentId: T:SuperOffice.Data.ProjectMemberEventParticipantStatus
+  parent: SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.Data.ProjectMemberEventParticipantStatus.html
+  name: ProjectMemberEventParticipantStatus
+  nameWithType: ProjectMemberEventParticipantStatus
+  fullName: SuperOffice.Data.ProjectMemberEventParticipantStatus
+- uid: SuperOffice.Data.FormFieldRestrictionType
+  commentId: T:SuperOffice.Data.FormFieldRestrictionType
+  parent: SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.Data.FormFieldRestrictionType.html
+  name: FormFieldRestrictionType
+  nameWithType: FormFieldRestrictionType
+  fullName: SuperOffice.Data.FormFieldRestrictionType
+- uid: SuperOffice.Data.MeteringEventType
+  commentId: T:SuperOffice.Data.MeteringEventType
+  parent: SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.Data.MeteringEventType.html
+  name: MeteringEventType
+  nameWithType: MeteringEventType
+  fullName: SuperOffice.Data.MeteringEventType
+- uid: SuperOffice.Data.MeteringStatus
+  commentId: T:SuperOffice.Data.MeteringStatus
+  parent: SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.Data.MeteringStatus.html
+  name: MeteringStatus
+  nameWithType: MeteringStatus
+  fullName: SuperOffice.Data.MeteringStatus
+- uid: SuperOffice.Data.NewsFeedItemStatus
+  commentId: T:SuperOffice.Data.NewsFeedItemStatus
+  parent: SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.Data.NewsFeedItemStatus.html
+  name: NewsFeedItemStatus
+  nameWithType: NewsFeedItemStatus
+  fullName: SuperOffice.Data.NewsFeedItemStatus
+- uid: SuperOffice.Data.CtaType
+  commentId: T:SuperOffice.Data.CtaType
+  parent: SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.Data.CtaType.html
+  name: CtaType
+  nameWithType: CtaType
+  fullName: SuperOffice.Data.CtaType
+- uid: SuperOffice.Data.CtaFlavor
+  commentId: T:SuperOffice.Data.CtaFlavor
+  parent: SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.Data.CtaFlavor.html
+  name: CtaFlavor
+  nameWithType: CtaFlavor
+  fullName: SuperOffice.Data.CtaFlavor
 - uid: SuperOffice.Data.EventHandlerType
   commentId: T:SuperOffice.Data.EventHandlerType
   parent: SuperOffice.Data
@@ -2127,6 +2217,14 @@ references:
   name: TicketRelationType
   nameWithType: TicketRelationType
   fullName: SuperOffice.Data.TicketRelationType
+- uid: SuperOffice.Data.TicketRelationError
+  commentId: T:SuperOffice.Data.TicketRelationError
+  parent: SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.Data.TicketRelationError.html
+  name: TicketRelationError
+  nameWithType: TicketRelationError
+  fullName: SuperOffice.Data.TicketRelationError
 - uid: SuperOffice.Data.NotifyType
   commentId: T:SuperOffice.Data.NotifyType
   parent: SuperOffice.Data
@@ -2199,14 +2297,6 @@ references:
   name: ChatStatus
   nameWithType: ChatStatus
   fullName: SuperOffice.Data.ChatStatus
-- uid: SuperOffice.Data.ConfigType
-  commentId: T:SuperOffice.Data.ConfigType
-  parent: SuperOffice.Data
-  isExternal: true
-  href: SuperOffice.Data.ConfigType.html
-  name: ConfigType
-  nameWithType: ConfigType
-  fullName: SuperOffice.Data.ConfigType
 - uid: SuperOffice.Data.FormType
   commentId: T:SuperOffice.Data.FormType
   parent: SuperOffice.Data

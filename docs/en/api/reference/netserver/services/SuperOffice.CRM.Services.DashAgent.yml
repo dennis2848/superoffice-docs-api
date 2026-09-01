@@ -6,7 +6,7 @@ items:
   parent: SuperOffice.CRM.Services
   children:
   - SuperOffice.CRM.Services.DashAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IDashImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IDashCollectionImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IDashThemeImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IDashTileImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IDashTileDefinitionImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IDashTileHtmlImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IPreviewDashImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IPreviewDashTileImplementation,SuperOffice.Factory.ISoRequestItemsAccessor)
-  - SuperOffice.CRM.Services.DashAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IDashImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IDashCollectionImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IDashThemeImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IDashTileImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IDashTileDefinitionImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IDashTileHtmlImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IPreviewDashImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IPreviewDashTileImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository,SuperOffice.Configuration.ConfigFile.IScriptingConfiguration,SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
+  - SuperOffice.CRM.Services.DashAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IDashImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IDashCollectionImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IDashThemeImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IDashTileImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IDashTileDefinitionImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IDashTileHtmlImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IPreviewDashImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IPreviewDashTileImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)
   - SuperOffice.CRM.Services.DashAgent.AddNewTileToDashboardAsync(System.Int32,SuperOffice.CRM.Services.DashTileDefinition,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.DashAgent.AddTileToDashboardAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.DashAgent.CopyTileSelectionAsync(System.Int32,System.Threading.CancellationToken)
@@ -36,6 +36,7 @@ items:
   - SuperOffice.CRM.Services.DashAgent.GetDashTileHtmlAsync(System.Int32,System.String,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.DashAgent.GetDashTileHtmlListAsync(System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.DashAgent.GetDashTilesAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.DashAgent.GetDashboardFencingInfoAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.DashAgent.GetPossibleDashQuickFiltersAsync(System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.DashAgent.GetPreviewDashAsync(System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.DashAgent.GetSecondaryTempTileSelectionAsync(System.Int32,System.Threading.CancellationToken)
@@ -120,22 +121,22 @@ items:
   nameWithType.vb: DashAgent.New(IDashImplementation, IDashCollectionImplementation, IDashThemeImplementation, IDashTileImplementation, IDashTileDefinitionImplementation, IDashTileHtmlImplementation, IPreviewDashImplementation, IPreviewDashTileImplementation, ISoRequestItemsAccessor)
   fullName.vb: SuperOffice.CRM.Services.DashAgent.New(SuperOffice.CRM.Services.Implementation.BL.Contracts.IDashImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IDashCollectionImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IDashThemeImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IDashTileImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IDashTileDefinitionImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IDashTileHtmlImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IPreviewDashImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IPreviewDashTileImplementation, SuperOffice.Factory.ISoRequestItemsAccessor)
   name.vb: New(IDashImplementation, IDashCollectionImplementation, IDashThemeImplementation, IDashTileImplementation, IDashTileDefinitionImplementation, IDashTileHtmlImplementation, IPreviewDashImplementation, IPreviewDashTileImplementation, ISoRequestItemsAccessor)
-- uid: SuperOffice.CRM.Services.DashAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IDashImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IDashCollectionImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IDashThemeImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IDashTileImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IDashTileDefinitionImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IDashTileHtmlImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IPreviewDashImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IPreviewDashTileImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository,SuperOffice.Configuration.ConfigFile.IScriptingConfiguration,SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
-  commentId: M:SuperOffice.CRM.Services.DashAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IDashImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IDashCollectionImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IDashThemeImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IDashTileImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IDashTileDefinitionImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IDashTileHtmlImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IPreviewDashImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IPreviewDashTileImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository,SuperOffice.Configuration.ConfigFile.IScriptingConfiguration,SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
-  id: '#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IDashImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IDashCollectionImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IDashThemeImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IDashTileImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IDashTileDefinitionImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IDashTileHtmlImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IPreviewDashImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IPreviewDashTileImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository,SuperOffice.Configuration.ConfigFile.IScriptingConfiguration,SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)'
+- uid: SuperOffice.CRM.Services.DashAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IDashImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IDashCollectionImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IDashThemeImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IDashTileImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IDashTileDefinitionImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IDashTileHtmlImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IPreviewDashImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IPreviewDashTileImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)
+  commentId: M:SuperOffice.CRM.Services.DashAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IDashImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IDashCollectionImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IDashThemeImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IDashTileImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IDashTileDefinitionImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IDashTileHtmlImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IPreviewDashImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IPreviewDashTileImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)
+  id: '#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IDashImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IDashCollectionImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IDashThemeImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IDashTileImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IDashTileDefinitionImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IDashTileHtmlImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IPreviewDashImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IPreviewDashTileImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)'
   parent: SuperOffice.CRM.Services.DashAgent
   langs:
   - csharp
   - vb
-  name: DashAgent(IDashImplementation, IDashCollectionImplementation, IDashThemeImplementation, IDashTileImplementation, IDashTileDefinitionImplementation, IDashTileHtmlImplementation, IPreviewDashImplementation, IPreviewDashTileImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository, IScriptingConfiguration, IOnlineConfiguration)
-  nameWithType: DashAgent.DashAgent(IDashImplementation, IDashCollectionImplementation, IDashThemeImplementation, IDashTileImplementation, IDashTileDefinitionImplementation, IDashTileHtmlImplementation, IPreviewDashImplementation, IPreviewDashTileImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository, ConfigFile.IScriptingConfiguration, ConfigFile.IOnlineConfiguration)
-  fullName: SuperOffice.CRM.Services.DashAgent.DashAgent(SuperOffice.CRM.Services.Implementation.BL.Contracts.IDashImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IDashCollectionImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IDashThemeImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IDashTileImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IDashTileDefinitionImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IDashTileHtmlImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IPreviewDashImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IPreviewDashTileImplementation, SuperOffice.Factory.ISoRequestItemsAccessor, SuperOffice.Data.IDebugUser, SuperOffice.Diagnostics.IServiceCallsRepository, SuperOffice.Configuration.ConfigFile.IScriptingConfiguration, SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
+  name: DashAgent(IDashImplementation, IDashCollectionImplementation, IDashThemeImplementation, IDashTileImplementation, IDashTileDefinitionImplementation, IDashTileHtmlImplementation, IPreviewDashImplementation, IPreviewDashTileImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
+  nameWithType: DashAgent.DashAgent(IDashImplementation, IDashCollectionImplementation, IDashThemeImplementation, IDashTileImplementation, IDashTileDefinitionImplementation, IDashTileHtmlImplementation, IPreviewDashImplementation, IPreviewDashTileImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
+  fullName: SuperOffice.CRM.Services.DashAgent.DashAgent(SuperOffice.CRM.Services.Implementation.BL.Contracts.IDashImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IDashCollectionImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IDashThemeImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IDashTileImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IDashTileDefinitionImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IDashTileHtmlImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IPreviewDashImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IPreviewDashTileImplementation, SuperOffice.Factory.ISoRequestItemsAccessor, SuperOffice.Data.IDebugUser, SuperOffice.Diagnostics.IServiceCallsRepository)
   type: Constructor
   assemblies:
   - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
   syntax:
-    content: public DashAgent(IDashImplementation dashImplementation, IDashCollectionImplementation dashCollectionImplementation, IDashThemeImplementation dashThemeImplementation, IDashTileImplementation dashTileImplementation, IDashTileDefinitionImplementation dashTileDefinitionImplementation, IDashTileHtmlImplementation dashTileHtmlImplementation, IPreviewDashImplementation previewDashImplementation, IPreviewDashTileImplementation previewDashTileImplementation, ISoRequestItemsAccessor accessor, IDebugUser debugUser, IServiceCallsRepository serviceCallsRepository, ConfigFile.IScriptingConfiguration scriptingConfiguration, ConfigFile.IOnlineConfiguration onlineConfiguration)
+    content: public DashAgent(IDashImplementation dashImplementation, IDashCollectionImplementation dashCollectionImplementation, IDashThemeImplementation dashThemeImplementation, IDashTileImplementation dashTileImplementation, IDashTileDefinitionImplementation dashTileDefinitionImplementation, IDashTileHtmlImplementation dashTileHtmlImplementation, IPreviewDashImplementation previewDashImplementation, IPreviewDashTileImplementation previewDashTileImplementation, ISoRequestItemsAccessor accessor, IDebugUser debugUser, IServiceCallsRepository serviceCallsRepository)
     parameters:
     - id: dashImplementation
       type: SuperOffice.CRM.Services.Implementation.BL.Contracts.IDashImplementation
@@ -159,15 +160,11 @@ items:
       type: SuperOffice.Data.IDebugUser
     - id: serviceCallsRepository
       type: SuperOffice.Diagnostics.IServiceCallsRepository
-    - id: scriptingConfiguration
-      type: SuperOffice.Configuration.ConfigFile.IScriptingConfiguration
-    - id: onlineConfiguration
-      type: SuperOffice.Configuration.ConfigFile.IOnlineConfiguration
-    content.vb: Public Sub New(dashImplementation As IDashImplementation, dashCollectionImplementation As IDashCollectionImplementation, dashThemeImplementation As IDashThemeImplementation, dashTileImplementation As IDashTileImplementation, dashTileDefinitionImplementation As IDashTileDefinitionImplementation, dashTileHtmlImplementation As IDashTileHtmlImplementation, previewDashImplementation As IPreviewDashImplementation, previewDashTileImplementation As IPreviewDashTileImplementation, accessor As ISoRequestItemsAccessor, debugUser As IDebugUser, serviceCallsRepository As IServiceCallsRepository, scriptingConfiguration As ConfigFile.IScriptingConfiguration, onlineConfiguration As ConfigFile.IOnlineConfiguration)
+    content.vb: Public Sub New(dashImplementation As IDashImplementation, dashCollectionImplementation As IDashCollectionImplementation, dashThemeImplementation As IDashThemeImplementation, dashTileImplementation As IDashTileImplementation, dashTileDefinitionImplementation As IDashTileDefinitionImplementation, dashTileHtmlImplementation As IDashTileHtmlImplementation, previewDashImplementation As IPreviewDashImplementation, previewDashTileImplementation As IPreviewDashTileImplementation, accessor As ISoRequestItemsAccessor, debugUser As IDebugUser, serviceCallsRepository As IServiceCallsRepository)
   overload: SuperOffice.CRM.Services.DashAgent.#ctor*
-  nameWithType.vb: DashAgent.New(IDashImplementation, IDashCollectionImplementation, IDashThemeImplementation, IDashTileImplementation, IDashTileDefinitionImplementation, IDashTileHtmlImplementation, IPreviewDashImplementation, IPreviewDashTileImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository, ConfigFile.IScriptingConfiguration, ConfigFile.IOnlineConfiguration)
-  fullName.vb: SuperOffice.CRM.Services.DashAgent.New(SuperOffice.CRM.Services.Implementation.BL.Contracts.IDashImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IDashCollectionImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IDashThemeImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IDashTileImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IDashTileDefinitionImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IDashTileHtmlImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IPreviewDashImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IPreviewDashTileImplementation, SuperOffice.Factory.ISoRequestItemsAccessor, SuperOffice.Data.IDebugUser, SuperOffice.Diagnostics.IServiceCallsRepository, SuperOffice.Configuration.ConfigFile.IScriptingConfiguration, SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
-  name.vb: New(IDashImplementation, IDashCollectionImplementation, IDashThemeImplementation, IDashTileImplementation, IDashTileDefinitionImplementation, IDashTileHtmlImplementation, IPreviewDashImplementation, IPreviewDashTileImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository, IScriptingConfiguration, IOnlineConfiguration)
+  nameWithType.vb: DashAgent.New(IDashImplementation, IDashCollectionImplementation, IDashThemeImplementation, IDashTileImplementation, IDashTileDefinitionImplementation, IDashTileHtmlImplementation, IPreviewDashImplementation, IPreviewDashTileImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
+  fullName.vb: SuperOffice.CRM.Services.DashAgent.New(SuperOffice.CRM.Services.Implementation.BL.Contracts.IDashImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IDashCollectionImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IDashThemeImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IDashTileImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IDashTileDefinitionImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IDashTileHtmlImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IPreviewDashImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IPreviewDashTileImplementation, SuperOffice.Factory.ISoRequestItemsAccessor, SuperOffice.Data.IDebugUser, SuperOffice.Diagnostics.IServiceCallsRepository)
+  name.vb: New(IDashImplementation, IDashCollectionImplementation, IDashThemeImplementation, IDashTileImplementation, IDashTileDefinitionImplementation, IDashTileHtmlImplementation, IPreviewDashImplementation, IPreviewDashTileImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
 - uid: SuperOffice.CRM.Services.DashAgent.CreateDefaultDashAsync(System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Services.DashAgent.CreateDefaultDashAsync(System.Threading.CancellationToken)
   id: CreateDefaultDashAsync(System.Threading.CancellationToken)
@@ -556,6 +553,35 @@ items:
   nameWithType.vb: DashAgent.GetPossibleDashQuickFiltersAsync(Integer, CancellationToken)
   fullName.vb: SuperOffice.CRM.Services.DashAgent.GetPossibleDashQuickFiltersAsync(Integer, System.Threading.CancellationToken)
   name.vb: GetPossibleDashQuickFiltersAsync(Integer, CancellationToken)
+- uid: SuperOffice.CRM.Services.DashAgent.GetDashboardFencingInfoAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.DashAgent.GetDashboardFencingInfoAsync(System.Threading.CancellationToken)
+  id: GetDashboardFencingInfoAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.DashAgent
+  langs:
+  - csharp
+  - vb
+  name: GetDashboardFencingInfoAsync(CancellationToken)
+  nameWithType: DashAgent.GetDashboardFencingInfoAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.DashAgent.GetDashboardFencingInfoAsync(System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.Services
+  summary: Get the current dashboard fencing status for the tenant
+  example: []
+  syntax:
+    content: public Task<FencingInfo> GetDashboardFencingInfoAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.FencingInfo}
+      description: Current fencing status including count, maximum, and warning state
+    content.vb: Public Function GetDashboardFencingInfoAsync(cancellationToken As CancellationToken = Nothing) As Task(Of FencingInfo)
+  overload: SuperOffice.CRM.Services.DashAgent.GetDashboardFencingInfoAsync*
+  implements:
+  - SuperOffice.CRM.Services.IDashAgent.GetDashboardFencingInfoAsync(System.Threading.CancellationToken)
 - uid: SuperOffice.CRM.Services.DashAgent.CreateDefaultDashCollectionAsync(System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Services.DashAgent.CreateDefaultDashCollectionAsync(System.Threading.CancellationToken)
   id: CreateDefaultDashCollectionAsync(System.Threading.CancellationToken)
@@ -1979,16 +2005,6 @@ references:
   name: IServiceCallsRepository
   nameWithType: IServiceCallsRepository
   fullName: SuperOffice.Diagnostics.IServiceCallsRepository
-- uid: SuperOffice.Configuration.ConfigFile.IScriptingConfiguration
-  isExternal: true
-  name: IScriptingConfiguration
-  nameWithType: ConfigFile.IScriptingConfiguration
-  fullName: SuperOffice.Configuration.ConfigFile.IScriptingConfiguration
-- uid: SuperOffice.Configuration.ConfigFile.IOnlineConfiguration
-  isExternal: true
-  name: IOnlineConfiguration
-  nameWithType: ConfigFile.IOnlineConfiguration
-  fullName: SuperOffice.Configuration.ConfigFile.IOnlineConfiguration
 - uid: SuperOffice.CRM.Services.DashAgent.CreateDefaultDashAsync*
   commentId: Overload:SuperOffice.CRM.Services.DashAgent.CreateDefaultDashAsync
   isExternal: true
@@ -2910,6 +2926,76 @@ references:
     name: CancellationToken
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: SuperOffice.CRM.Services.DashAgent.GetDashboardFencingInfoAsync*
+  commentId: Overload:SuperOffice.CRM.Services.DashAgent.GetDashboardFencingInfoAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.DashAgent.html#SuperOffice_CRM_Services_DashAgent_GetDashboardFencingInfoAsync_System_Threading_CancellationToken_
+  name: GetDashboardFencingInfoAsync
+  nameWithType: DashAgent.GetDashboardFencingInfoAsync
+  fullName: SuperOffice.CRM.Services.DashAgent.GetDashboardFencingInfoAsync
+- uid: SuperOffice.CRM.Services.IDashAgent.GetDashboardFencingInfoAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IDashAgent.GetDashboardFencingInfoAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IDashAgent
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: GetDashboardFencingInfoAsync(CancellationToken)
+  nameWithType: IDashAgent.GetDashboardFencingInfoAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.IDashAgent.GetDashboardFencingInfoAsync(System.Threading.CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IDashAgent.GetDashboardFencingInfoAsync(System.Threading.CancellationToken)
+    name: GetDashboardFencingInfoAsync
+    isExternal: true
+  - name: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IDashAgent.GetDashboardFencingInfoAsync(System.Threading.CancellationToken)
+    name: GetDashboardFencingInfoAsync
+    isExternal: true
+  - name: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.FencingInfo}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.FencingInfo}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<FencingInfo>
+  nameWithType: Task<FencingInfo>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.FencingInfo>
+  nameWithType.vb: Task(Of FencingInfo)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.FencingInfo)
+  name.vb: Task(Of FencingInfo)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.CRM.Services.FencingInfo
+    name: FencingInfo
+    isExternal: true
+    href: SuperOffice.CRM.Services.FencingInfo.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Services.FencingInfo
+    name: FencingInfo
+    isExternal: true
+    href: SuperOffice.CRM.Services.FencingInfo.html
   - name: )
 - uid: SuperOffice.CRM.Services.DashAgent.CreateDefaultDashCollectionAsync*
   commentId: Overload:SuperOffice.CRM.Services.DashAgent.CreateDefaultDashCollectionAsync

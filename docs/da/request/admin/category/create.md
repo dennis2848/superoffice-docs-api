@@ -3,11 +3,12 @@ uid: help-da-request-category-create
 title: Opret sagskategori
 description: Opret sagskategori
 keywords: tilføj sagskategori, opret sagskategori, ny sagskategori, sagskategori, fanen Kategorier, sag, kategori
-author: Bergfrid Dias
-date: 12.02.2025
-version: 11.7
+author: digitaldiina
+date: 06.10.2026
+version: 12.0
 content_type: howto
 license: serviceessentials
+tier: starter
 audience: settings
 audience_tooltip: Settings and maintenance
 language: da
@@ -81,7 +82,9 @@ index: true
 ## Relateret indhold
 
 * [Sådan konfigurerer du Hent næste sag i køen][3]
+* [Tilgængelighedsstatus][4]
 
 <!-- Referenced links -->
 [1]: ../../../admin/preferences/index.md
 [3]: ../next-in-queue.md
+[4]: ../../learn/index.md#available

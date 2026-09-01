@@ -4,19 +4,20 @@ title: Expander Services
 description: Expander Services
 keywords: expander services, license, development tools
 author: digitaldiina
-date: 10.22.2025
-version: 11.5
+date: 06.10.2026
+version: 12.0
 content_type: concept
 category: customization
 deployment: online
 platform: web
 index: true
+tier: starter
 language: sv
 ---
 
 # Expander Services
 
-Du kan anpassa SuperOffice efter din affärsmodell och dina behov genom alternativ som finns tillgängliga i modulen **Inställningar och underhåll**.
+Du kan anpassa SuperOffice efter din affärsmodell och dina behov genom alternativ som finns tillgängliga i **Inställningar och underhåll**.
 
 Men ibland behöver du mer än vad som finns tillgängligt direkt från start. För dessa situationer erbjuder vi Expander Services, som innehåller en rad verktyg och tillägg som du kan använda för att skapa unika anpassningar av din SuperOffice CRM-lösning.
 
@@ -42,11 +43,13 @@ Utvecklingsprodukter är **fristående produkter** som hjälper kunder att anvä
 
 ## <a id="tools"></a>Utvecklingsverktyg
 
-Utvecklingsverktyg är en **webbplatsomfattande licens** som gör det möjligt för kunder och partners att utöka, optimera, konfigurera och automatisera SuperOffice CRM efter sina behov. Det är en **prenumerationsbaserad licens** som är tillgänglig för alla SuperOffice CRM-kunder – både i molnet och på plats.
+Development Tools är en **webbplatsomfattande licens** som gör det möjligt för kunder och partners att utöka, optimera, konfigurera och automatisera SuperOffice CRM efter sina behov. Det är tillgängligt som **prenumeration** för alla SuperOffice CRM-kunder – både i molnet och på plats. I **CRM Suite** ingår Development Tools i **Core-planen** och högre — ingen separat prenumeration krävs.
+
+Applikationsutvecklare kan få åtkomst till en utvecklings- och testmiljö genom att [registrera sig i Developer Portal][13].
 
 ### Viktiga funktioner
 
-Med Utvecklingsverktyg kan du:
+Med Development Tools kan du:
 
 * Anpassa arbetsflöden och automatisering med:
   * [CRMScript][2]: en flexibel skriptmotor inbyggd i SuperOffice.
@@ -64,45 +67,6 @@ Dessa verktyg nås via klienten **Inställningar och underhåll** och kräver l�
 
 Alla anpassningar som skapas med dessa verktyg distribueras och underhålls automatiskt på plattformen – vilket säkerställer att dina ändringar är **robusta**, **hållbara** och **framtidssäkra**.
 
-### Hur fungerar Utvecklingsverktyg?
-
-När du prenumererar på Utvecklingsverktyg blir ytterligare alternativ tillgängliga i modulen **Inställningar och underhåll**.
-
-Licensen läggs till i din [tenant][19] via SuperOffice Operation Center och faktureras månadsvis till kunden.
-
-Du kan fortsätta att använda Utvecklingsverktyg så länge du vill, tills du säger upp prenumerationen. Du kan lägga till hur många anpassningar du vill utan att det påverkar prenumerationsavgiften.
-
-Ingen [anpassad applikation][16] görs tillgänglig i din SuperOffice CRM Online-lösning utan en aktiv prenumeration. Om kunden säger upp prenumerationen blir applikationen inaktiv/otillgänglig.
-
-> [!NOTE]
-> API-användning (vilket är avgiftsbelagt) aktiveras genom användning av vissa av dessa verktyg.
-
-### När behöver du köpa Utvecklingsverktyg?
-
-Om du behöver åtkomst till SuperOffice API:er eller någon av de avancerade utbyggnadsfunktionerna, behöver du troligen prenumerera på Utvecklingsverktyg. Priserna finns på [SuperOffice.com][20].
-
-| Scenario/miljö | Online | Lokalt installerad |
-|---|---|---|
-| Använda verktyg för anpassning i Inställningar och underhåll | nej | nej |
-| Publicera standardapplikation | nej (inbäddad) | ja |
-| Aktivera anpassad applikation | ja | ja |
-
-Du är fri att anpassa din lösning i **Inställningar och underhåll** med till exempel listdefinitioner, sekretessinställningar, mallar, försäljnings- och projektguider samt användardefinierade fält.
-
-Dessutom behöver du *inte* ha Utvecklingsverktyg om ditt företag kör SuperOffice CRM i molnet och du vill använda någon av de [standardapplikationer][17] som finns tillgängliga i [SuperOffice App Store][21].
-
-Men om du kör SuperOffice CRM lokalt, behöver du *alltid* Utvecklingsverktyg för att lägga till integrationer eller anpassningar, oavsett om de är anpassade för dig eller standardtillägg.
-
-Samma sak gäller för alla [anpassade SuperOffice CRM Online-applikationer][16]. Du kan bygga egna eller [kontakta leverantörer direkt][24] för att ta reda på vilka alternativ som finns för att skapa en skräddarsydd version för ditt företag. Leverantörerna kan säga om en applikation är tillgänglig även om du kör SuperOffice CRM lokalt.
-
-### Hur får jag Utvecklingsverktyg?
-
-Applikationsutvecklare får åtkomst till Utvecklingsverktyg [vid registrering][13]. Kunder kan kontakta sin lokala SuperOffice-partner eller representant för rekommendationer utifrån sina specifika affärsbehov.
-
-Vilka av dessa anpassningsverktyg du använder beror på dina behov, vilken kompetens du har och din vilja att betala för expertis.
-
-### Vad innehåller Utvecklingsverktyg?
-
 #### CRMScript: Anpassa dina arbetsflöden och automatiseringar
 
 [CRMScript][2] är ett mycket flexibelt **skriptspråk** som är inbäddat i SuperOffice CRM. Det gör att du kan skapa olika typer av automatiseringar och arbetsflöden som passar just din verksamhet.
@@ -119,16 +83,17 @@ SuperOffice CRM levereras med en uppsättning fördefinierade tabeller där du k
 
 Vissa av dessa standardtabeller är flexibla: du kan definiera vilken typ av data och egenskaper dessa tabeller ska ha. Dessa **användardefinierade fält** gör det möjligt att lägga till datum, nummer, text- eller kryssrutor, som du sedan kan placera på företag, projekt eller uppföljningar.
 
-Om du behöver fler tabeller kan du lägga till extratabeller i databasen genom en prenumeration på Utvecklingsverktyg.
+Om du behöver fler tabeller kan du lägga till extratabeller i databasen genom en prenumeration på Development Tools.
 
 * Användare med en SuperOffice Service [användarplan][1] har full åtkomst till dessa tabeller och kan visa, redigera, söka och inkludera dem i rapporter.
+
 * Användare med Standard-, Sales- eller Marketing-planer får tillgång till extratabeller via webbpaneler (ytterligare flikar). Dessa användare kan endast visa och redigera data – inte söka eller inkludera data i urval eller instrumentpaneler.
 
 För att lägga till extratabeller krävs teknisk kompetens. Extratabeller används ofta tillsammans med anpassade skärmar.
 
 #### Anpassade skärmar: Skapa nya skärmar i Service som stödjer dina processer
 
-Med Utvecklingsverktyg kan du skapa nya skärmar i SuperOffice Service för att anpassa systemet efter dina affärsprocesser.
+Med Development Tools kan du skapa nya skärmar i SuperOffice Service för att anpassa systemet efter dina affärsprocesser.
 
 Till exempel, om du behöver andra fält än standardinformationen när du registrerar ett nytt ärende, kan du anpassa detta i systemet.
 
@@ -140,7 +105,7 @@ För att skapa anpassade skärmar krävs omfattande teknisk kunskap.
 
 #### SuperOffice API:er: Skapa skräddarsydda lösningar
 
-Du får också tillgång till alla tillgängliga SuperOffice API:er:
+Med Development Tools får du också tillgång till alla tillgängliga SuperOffice API:er:
 
 * REST- och SOAP-webbtjänster
 * WebHooks
@@ -151,7 +116,7 @@ API:erna levereras som [nuget-paket][22]. SuperOffice Docs innehåller SDK-dokum
 
 SuperOffice-partner använder vanligtvis SDK för att utveckla standardapplikationer och integrationer som de erbjuder i SuperOffice App Store.
 
-### Vad kan Utvecklingsverktyg användas till?
+### Vad kan Development Tools användas till?
 
 * Anpassa användargränssnittet i SuperOffice CRM – vad användaren ser och kan göra.
 * Anpassa SuperOffice Service genom att lägga till extratabeller och skärmar, skapa nya skript och makron.
@@ -161,8 +126,51 @@ SuperOffice-partner använder vanligtvis SDK för att utveckla standardapplikati
 
 I takt med att dina behov växer, kan även möjligheterna i din CRM-lösning växa.
 
-<!-- Referenced links -->
+<!-- markdownlint-disable-file MD051 -->
+### När behöver du köpa Development Tools?
 
+#### [Modulbaserade prenumerationer](#tab/module-based)
+
+Om du behöver åtkomst till SuperOffice API:er eller någon av de avancerade utbyggnadsfunktionerna, behöver du troligen prenumerera på Development Tools. Priserna finns på [SuperOffice.com][20].
+
+| Scenario/miljö | Online | Lokalt installerad |
+|----------------|--------|-------------------|
+| Använda verktyg för anpassning i Inställningar och underhåll | nej | nej |
+| Publicera standardapplikation | nej (inbäddad) | ja |
+| Aktivera anpassad applikation | ja | ja |
+
+Du är fri att anpassa din lösning i **Inställningar och underhåll** med till exempel listdefinitioner, sekretessinställningar, mallar, försäljnings- och projektguider samt användardefinierade fält.
+
+Dessutom behöver du *inte* Development Tools om ditt företag kör SuperOffice CRM i molnet och du vill använda någon av de [standardapplikationer][17] som finns tillgängliga i [SuperOffice App Store][21].
+
+Men om du kör SuperOffice CRM lokalt, behöver du *alltid* Development Tools för att lägga till integrationer eller anpassningar, oavsett om de är anpassade för dig eller standardtillägg.
+
+Samma sak gäller för alla [anpassade SuperOffice CRM Online-applikationer][16]. Du kan bygga egna eller [kontakta leverantörer direkt][24] för att ta reda på vilka alternativ som finns för att skapa en skräddarsydd version för ditt företag. Leverantörerna kan säga om en applikation är tillgänglig även om du kör SuperOffice CRM lokalt.
+
+Kunder kan kontakta sin lokala SuperOffice-partner eller representant för rekommendationer utifrån sina specifika affärsbehov.
+
+**Så här fungerar det:**
+
+* När du prenumererar på Development Tools blir ytterligare alternativ tillgängliga i **Inställningar och underhåll**.
+
+* Licensen läggs till i din [tenant][19] via SuperOffice Operation Center och faktureras månadsvis till kunden.
+
+* Du kan fortsätta att använda Development Tools så länge du vill, tills du säger upp prenumerationen. Du kan lägga till hur många anpassningar du vill utan att det påverkar prenumerationsavgiften.
+
+* Ingen [anpassad applikation][16] görs tillgänglig i din SuperOffice CRM Online-lösning utan en aktiv prenumeration. Om kunden säger upp prenumerationen blir applikationen inaktiv/otillgänglig.
+
+> [!NOTE]
+> API-användning (vilket är avgiftsbelagt) aktiveras genom användning av vissa av dessa verktyg.
+
+#### [CRM Suite](#tab/suite)
+
+Development Tools ingår i **Core-planen**. Ingen separat prenumeration eller aktivering behövs – funktionerna är tillgängliga i **Inställningar och underhåll** som en del av ditt abonnemang.
+
+***
+
+Vilka av dessa anpassningsverktyg du använder beror på dina behov, vilken kompetens du har och din vilja att betala för expertis.
+
+<!-- Referenced links -->
 [1]: user-plans.md
 [2]: ../../../en/automation/crmscript/overview/index.md
 [3]: ../../../en/automation/trigger/create-trigger-macro.md
@@ -172,10 +180,12 @@ I takt med att dina behov växer, kan även möjligheterna i din CRM-lösning v�
 [7]: ../../../en/online/sandbox/index.md
 [8]: ../../../en/online/identity/scim/index.yml
 [9]: ../../../en/online/mirroring/index.yml
+
 [13]: ../../../en/developer-portal/getting-started/get-access-to-sod.md
 [16]: ../../../en/developer-portal/custom-app/index.md
 [17]: ../../../en/developer-portal/standard-app/index.md
 [19]: ../../../en/developer-portal/getting-started/index.md#tenant
+
 [20]: https://www.superoffice.com/pricing/
 [21]: https://online.superoffice.com/appstore/
 [22]: https://www.nuget.org/profiles/SuperOffice

@@ -8,9 +8,8 @@ items:
   href: login.md
 - name: Preferences
   href: preferences.md
-- name: Connect email, document and diary
-  href: connect-email-doc/toc.yml
-  topicHref: connect-email-doc/index.md
+- name: Connect your accounts
+  href: connect-your-accounts.md
 - name: Edit email signature
   href: edit-email-signature.md
 - name: Change active language

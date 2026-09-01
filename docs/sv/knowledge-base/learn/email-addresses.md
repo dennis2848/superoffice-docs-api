@@ -4,12 +4,13 @@ title: Arbeta med e-postadresser
 description: Arbeta med e-postadresser
 keywords: kunskapsbas
 author: SuperOffice Product and Engineering
-date: 02.25.2025
-version: 10.5
+date: 06.10.2026
+version: 12.0
 content_type: concept
 category: service
 topic: knowledge base
 license: servicepremium
+tier: growth
 functional_right: knowledge-base
 audience: person
 audience_tooltip: SuperOffice Service
@@ -23,8 +24,7 @@ redirect_from:
 
 Du kan skapa en lista över e-postadresser som du använder ofta men som inte är registrerade för användare eller kontakter i SuperOffice Service. Till exempel leverantörer, partner eller produktspecialister. Dessa adresser blir tillgängliga på de flesta ställen där du skickar e-post, till exempel i fönstren **Nytt ärende** och **Lägg till meddelande**.
 
-> [!NOTE]
-> Den här funktionen kräver användarlicensen Service-Premium.
+[!include[Requirement](../../includes/req-growth-transition-service.md)]
 
 ## Lista med e-postadresser
 
@@ -46,7 +46,7 @@ Om du vill ha detaljerad information om registrerade e-postadresser går du till
 
 1. I fältet **E-postadress** anger du personens e-postadress.
 
-1. In the **Mobile phone number** field, you can enter their mobile number. This can be used to send messages by SMS. (ONLINE only)
+1. In the **Mobile phone number** field, you can enter their mobile number. This can be used to send messages by SMS.
 
 1. Klicka på **OK**. E-postadressen läggs in i den valda mappen och är tillgänglig nästa gång du ska skicka e-post.
 

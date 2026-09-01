@@ -4,12 +4,13 @@ title: Arbeide med FAQ-oppføringer
 description: Arbeide med FAQ-oppføringer
 keywords: FAQ, kunnskapsbase
 author: Bergfrid Dias
-date: 07.15.2025
-version: 10.5
+date: 06.10.2026
+version: 12.0
 content_type: concept
 category: service
 topic: faq
 license: servicepremium
+tier: growth
 functional_right: knowledge-base
 audience: person
 audience_tooltip: SuperOffice Service
@@ -24,7 +25,7 @@ redirect_from:
 
 Ofte stilte spørsmål (FAQ) er en viktig del av håndteringen av service-saker. Siden mange kundehenvendelser gjentar seg over tid, er det en god idé å lage vanlige spørsmål som inneholder svar på slike tilbakevendende spørsmål.
 
-[!include[Requirement](../../../learn/includes/req-cep.md)]
+[!include[Requirement](../../../includes/req-cep.md)]
 
 ## Fordeler med å ha et FAQ-bibliotek
 

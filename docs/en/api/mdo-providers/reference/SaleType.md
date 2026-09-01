@@ -44,7 +44,7 @@ foreach (var item in listProvider.RootItems) {
 | --- | ----- | ------- | -------- |
 |1|General sale||43200|
 |4|Staged Sale||44640|
-|3|Stakeholders||129600|
+|3|Stakeholders||132480|
 |2|Guided Sale||44640|
 
 

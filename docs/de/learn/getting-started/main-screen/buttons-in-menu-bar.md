@@ -3,12 +3,13 @@ uid: help-de-ui-top-bar
 title: Schaltflächen in der oberen Leiste
 description: Schaltflächen in der oberen Leiste
 keywords: Obere Leiste, Schaltfläche, Persönliche Einstellungen, Hauptmenü
-author: Bergfrid Dias
-date: 09.17.2025
-version: 11.3
+author: digitaldiina
+date: 05.04.2026
+version: 11.13
 content_type: reference
 audience: person
 audience_tooltip: SuperOffice CRM
+tier: starter
 language: de
 ---
 
@@ -26,7 +27,7 @@ Die **obere Leiste** bietet grundlegende Tools zur Navigation in SuperOffice CRM
 | <i class="ph ph-bell" aria-label="Bell icon"></i> | [**Benachrichtigungen**][9] | Sehen Sie neue Benachrichtigungen wie Einladungen, zugewiesene Anfragen oder genehmigte Verkäufe. Klicken Sie auf eine Benachrichtigung, um den zugehörigen Eintrag zu öffnen. |
 | <i class="ph ph-user-circle" aria-label="Contact icon"></i> | **Persönliche Einstellungen** | Bearbeiten Sie Voreinstellungen und E-Mail-Signaturen. Ihr Profilbild wird angezeigt, wenn es in Ihrer Personenkarte hinterlegt ist. |
 | <i class="ph ph-list" aria-label="Main menu"></i> | **Hauptmenü** | Greifen Sie auf allgemeine Systemeinstellungen zu, wechseln Sie zwischen Modulen oder starten Sie andere Anwendungen. |
-| <i class="ph ph-lightbulb" aria-label="Lightbulb icon"></i> | **In-App-Resource-Center** | Öffnen Sie geführte Touren, Benutzerhandbücher und Inspiration (nur online verfügbar). |
+| <i class="ph ph-lightbulb" aria-label="Lightbulb icon"></i> | **In-App-Resource-Center** | Öffnen Sie geführte Touren, Benutzerhandbücher und Inspiration |
 | **Hilfe** | **Hilfe** | Erhalten Sie kontextbezogene Anleitungen zur Nutzung von SuperOffice CRM, passend zu Ihrer aktuellen Aufgabe oder dem jeweiligen Modul. |
 
 ## Optionen im Menü Persönliche Einstellungen
@@ -36,7 +37,7 @@ Die **obere Leiste** bietet grundlegende Tools zur Navigation in SuperOffice CRM
 | **Voreinstellungen** | Bearbeiten Sie [persönliche Voreinstellungen][6], wie Standardwerte oder visuelle Layouts. |
 | **Persönliche Signatur bearbeiten** | Bearbeiten Sie die [E-Mail-Signatur][7] für ausgehende E-Mails und Anfragen. |
 | **E-Mail-Optionen** | Konfigurieren Sie die Einstellungen für das Postfach. |
-| **Ihr Verfügbarkeitsstatus** | Wählen Sie, ob Sie für die automatische Zuweisung von Anfragen und Personen verfügbar sind. Wenn Sie Ihren Status auf *Nicht anwesend* setzen, werden Ihnen keine neuen Anfragen zugewiesen, und Ihre Abwesenheitsnotiz wird neben Ihrem Namen angezeigt, wenn Ihnen manuell etwas zugewiesen wird. |
+| **Ihr Verfügbarkeitsstatus** | Wählen Sie, ob Sie [für die automatische Zuweisung von Anfragen und Personen verfügbar sind][18]. Wenn Sie Ihren Status auf *Nicht anwesend* setzen, werden Ihnen keine neuen Anfragen zugewiesen, und Ihre Abwesenheitsnotiz wird neben Ihrem Namen angezeigt, wenn Ihnen manuell etwas zugewiesen wird. |
 | **Meine Kontaktdaten anzeigen** | Öffnen Sie Ihre Personenkarte, um Details wie Telefonnummer oder Titel zu ändern. |
 | **Lokale Einstellungen** | Ändern Sie Sprache, Zahlen-/Datumsformat und E-Mail-Client-Einstellungen. |
 | **Mobile App holen** | Konfigurieren Sie Einstellungen für die SuperOffice Mobile CRM-App. |
@@ -93,5 +94,6 @@ Die **obere Leiste** bietet grundlegende Tools zur Navigation in SuperOffice CRM
 [10]: ../../../search-options/learn/freetext-search.md
 [15]: ../../basics/creating-shortcuts-to-entries-in-crm.md
 [17]: ../../../sale/learn/sales-targets/index.md
+[18]: ../../../request/learn/index.md#available
 
 <!-- Referenced images -->

@@ -3,10 +3,10 @@ uid: dp-app-config
 title: Application configuration
 description: Reference of application configuration in the SuperOffice Developer Portal.
 keywords: apps, Developer Portal, authentication, integration settings
-author: Bergfrid Dias
-date: 02.26.2025
+author: digitaldiina
+date: 07.10.2026
 version: 2.0
-version_devportal: 2.0
+version_devportal: 2.16
 content_type: reference
 deployment: online
 ---
@@ -21,7 +21,7 @@ deployment: online
 | Allowed redirect URLs | Context-specific URLs that will be called by the browser after successful sign-in or when a user clicks one of the available buttons on your application entry. | [Add or update][18] | [About redirects and CORS][7] |
 | Authorize | The description shown in the concent dialog when the admin is prompted to approve the application. | [Get consent][34], [Add or update text][35] | [About consent][33] |
 | Certificates | RSA encryption keys | [Create new certificate][19], [Sign system user token][9] | [SuperID certificates][24] |
-| Client ID | Uniquely identifies the application. | [Find client ID][16] | [Terminology][8] |
+| Client ID | Uniquely identifies the application. Assigned automatically and unique per environment — you cannot edit it manually, but you can regenerate it. | [Find client ID][16] | [Terminology][8] |
 | CORS URLs | | [Add or update][18] | [About redirects and CORS][7] |
 | Is native or mobile app | Type if application. OAuth2 Native App flow if checked. | [Create native app][20] | [OAuth2 Native app flow][21] |
 | Secrets | The application token (password). Must be supplied when invoking any of the SuperOffice CRM Online web services. | [Create new client secret][17] | [Terminology][8] |
@@ -35,7 +35,7 @@ deployment: online
 |---|---|---|---|
 | Customer state change endpoint | URL SuperOffice can push notifications to you when a tenant change status (off/on) | [Manage notifications][14] | [About tenant status][11] |
 | ERP sync | For integration with an ERP system. | [Create sync app][26] | [ERP connector API][28] |
-| Mirroring | For local processing when real-time data is not the most important consideration. | [Create mirror app][25] | [About mirroring][12] |
+| Mirroring | For local processing when real-time data is not the most important consideration. | | [About mirroring][12] |
 | Quote connector | | [Create sync app][26] | [Quote connector API][27] |
 
 For each of the above:
@@ -108,7 +108,6 @@ These settings except "Support dark mode" and "Remove remember me" must be chang
 [21]: ../../../api/authentication/online/sign-in-user/auth-code-flow.md
 [23]: update-endpoints.md
 [24]: ../../../api/authentication/online/certificates/index.md
-[25]: ../mirror-app.md
 [26]: ../sync-app.md
 [27]: ../../../api/plugins/quote-connectors/index.md
 [28]: ../../../api/plugins/erp-connectors/index.md

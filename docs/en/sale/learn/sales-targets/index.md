@@ -3,11 +3,12 @@ uid: help-en-sales-targets
 title: Sales targets
 description: The possibility to keep track of your sales opportunities is one of the key functionalities in SuperOffice CRM. With the help of our sales target functionality, you can compare your actual sales to your targets.
 keywords: sales targets
-author: SuperOffice Product and Engineering
-date: 09.19.2025
-version: 10.5
+author: digitaldiina
+date: 06.10.2026
+version: 12.0
 content_type: concept
 license: salespremium
+tier: growth
 deployment: online
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -17,9 +18,7 @@ language: en
 # Sales targets
 
 > [!NOTE]
-> Only available for Online customers. (Not available for Onsite customers.)
->
-> This feature requires the Sales Premium licence. To be able to add new target types, you have to have the Sales Targets unlimited license. See details below.
+> This feature requires a **Sales Premium** license or the **Growth** plan. To add new target types, you also need the **Sales Targets Unlimited** license or the **Super** plan. See details below.
 
 The possibility to keep track of your sales opportunities is one of the key functionalities in SuperOffice CRM. With the help of our sales target functionality, you can compare your actual sales to your targets.
 
@@ -49,7 +48,7 @@ The access to targets is set by your administrator in Settings and maintenance, 
 
 ### Licenses
 
-The following functions are only available with the Sales Targets Unlimited licence in addition to the Sales Premium licence:
+The following functions are only available with a **Sales Premium** license or the **Growth** plan and the **Sales Targets Unlimited** add-on, or the **Super** plan:
 
 * Adding additional target types (dimensions)
 * Creating targets for multiple groups/teams

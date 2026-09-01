@@ -4,12 +4,13 @@ title: Benutzereinstellungen für SuperOffice Service
 description: Globale Einstellungen für Benutzereinstellungen für SuperOffice Service
 keywords: Service Einstellungen
 author: digitaldiina
-date: 10.17.2025
-version: 11.5
+date: 05.04.2026
+version: 11.13
 content_type: reference
 category: Settings and maintenance
 topic: preferences
 license: serviceessentials
+tier: core
 functional_right: Service administration, General Administrator
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -40,7 +41,15 @@ Gehen Sie im Navigator zum <i class="ph ph-gear" aria-hidden="true"></i> **Einst
 
 * **Standardabsender**: Die Absenderadresse der Standard-E-Mail des Systems. Diese Adresse wird normalerweise durch die Adressen ersetzt, die für die Postfächer eingegeben wurden. Hierbei muss es sich um eine E-Mail-Adresse handeln, die in SuperOffice Service importiert wurde. Zum Beispiel, `<support@company.com>`.
 
-* **E-Mail-Tag**: Aus diesem E-Mail-Tag und der Anfragenummer wird eine eindeutige Kennung in der Betreffzeile von E-Mails erzeugt, die mit SuperOffice Service gesendet werden. Ändern Sie diesen Wert nur, wenn Sie mit den Auswirkungen vertraut sind. Eine Änderung kann zur Folge haben, dass erhaltene E-Mails vorhandenen Anfragen nicht richtig verknüpft werden.
+* **E-Mail-Tag**: Der Name, der als Tag-Schlüssel in der Betreffzeile ausgehender E-Mails verwendet wird. Der Standardwert ist `ejTag`. In Kombination mit der Anfragenummer wird eine eindeutige Kennung erstellt — zum Beispiel `ejTag: 12345` —, die Service verwendet, um eingehende Antworten der richtigen Anfrage zuzuordnen.
+
+    Wenn eine E-Mail eingeht, prüft Service zuerst den Standard-E-Mail-Header `In-Reply-To`, um sie einer vorhandenen Anfrage zuzuordnen. Der E-Mail-Tag in der Betreffzeile wird als Fallback verwendet. Ändern Sie diesen Wert nur, wenn Sie die Konsequenzen verstehen — eine Änderung des Namens unterbricht die Zuordnung für E-Mails, die noch den alten Tag referenzieren.
+
+    > [!NOTE]
+    > Zwei Registrierungseinstellungen ändern dieses Verhalten:
+    >
+    > * **reg_id=72** (Wert `1`): Service durchsucht nur den E-Mail-Header (Betreffzeile) nach dem Tag, nicht den Nachrichtentext.
+    > * **reg_id=175** (Wert `1`): Service prüft die Betreffzeile auf den E-Mail-Tag *bevor* der `In-Reply-To`-Header geprüft wird, was die Standardpriorität umkehrt.
 
 * **Systemzeit**: Wählen Sie, ob ein 24-Stunden-Format und ein 12-Stunden-Format (am/pm) verwendet werden soll. Benutzerspezifische Zeitangaben (zum Beispiel die Anzeige von Anfragen) werden durch die Einstellungen des jeweiligen Benutzers und nicht durch diesen Wert gesteuert.
 
@@ -64,17 +73,10 @@ Gehen Sie im Navigator zum <i class="ph ph-gear" aria-hidden="true"></i> **Einst
 
 * **Alle Links überwachen**: Schauen Sie hier, um alle Links in Kampagnen zu überwachen.
 
-* **Interne URL**: Die Basisadresse für den Zugriff auf das SuperOffice Service-System. (nur VOR ORT)
+## Verwandte Inhalte
 
-* **Externe URL**: Die Basisadresse für den externen Zugriff auf das SuperOffice Service-System. (nur VOR ORT)
-
-* **Cgi-Bin-Pfad**: Der Pfad des Ordners, in dem sich die Cgi-Bin-Anwendungsdateien von SuperOffice Service befinden. Der Pfad muss mit einem Trennzeichen (Schrägstrich) eingeleitet werden, darf aber nicht mit einem Trennzeichen enden. Zum Beispiel: */bin* oder */Scripts*. (nur VOR ORT)
-
-* **Benutzerauthentifizierung über Webserver**: Wenn diese Option aktiviert ist, gestattet SuperOffice Service die Benutzerauthentifizierung vom Web-Server (Microsoft IIS). (nur VOR ORT)
-
-* **Kundenauthentifizierung über Webserver**: Wenn diese Option aktiviert ist, gestattet SuperOffice Service die Benutzerauthentifizierung vom Web-Server des Kundenzentrums (Microsoft IIS). (nur VOR ORT)
-
-* **Online im Internet**: Aktivieren Sie diese Option, wenn SuperOffice Service im Internet verfügbar ist. Damit steuern Sie Teile der in SuperOffice Service verfügbaren Funktionen, weil für einige Funktionen das System online sein muss. (nur VOR ORT)
+* [Service-Einstellungen (vor Ort)][2]
 
 <!-- Referenced links -->
 [1]: ../../knowledge-base/learn/reply-templates/create.md#faq
+[2]: https://help.superoffice.com/docs/11/de/admin/preferences/service-settings.html

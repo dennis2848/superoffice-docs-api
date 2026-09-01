@@ -4,13 +4,14 @@ title: Service-E-Mails
 description: Service-E-Mails
 author: digitaldiina
 keywords: postfach
-date: 11.27.2025
-version: 11.6
+date: 05.04.2026
+version: 11.13
 content_type: concept
 category: email
 topic: Service mailbox
 functional_right:
 license: serviceessentials
+tier: core
 audience: settings
 audience_tooltip: Settings and maintenance
 index: true
@@ -39,7 +40,6 @@ Die Registerkarte **Postfächer** enthält eine Liste der installierten Postfäc
 * **Kategorie**: Anfragen aus dem Postfach werden dieser Kategorie zugewiesen.
 * **Priorität**: Die Priorität, die neue Anfragen zugewiesen wird, wenn sie vom Postfach erfasst werden.
 * **Weiterleitungsadresse**: Wenn Sie die E-Mail-Funktionen in SuperOffice nicht verwenden, werden die E-Mails an diese Adresse weitergeleitet.
-* **Protokoll**: Das von den Postfächern verwendete Protokoll.
 
 ### <a id="email-in"></a>Posteingang für E-Mail
 

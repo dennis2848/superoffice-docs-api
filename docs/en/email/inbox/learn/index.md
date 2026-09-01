@@ -4,10 +4,11 @@ title: SuperOffice Inbox
 description: Learn how to use SuperOffice Inbox to read, send, and manage email in SuperOffice CRM
 keywords: SuperOffice Inbox, read email, send email, email client, inbox, email
 author: Bergfrid Dias
-date: 05.28.2025
-version: 10.5
+date: 05.04.2026
+version: 11.13
 content_type: concept
 license: salesessentials, serviceessentials, marketingessentials
+tier: starter
 audience: person
 audience_tooltip: SuperOffice CRM
 language: en
@@ -46,7 +47,7 @@ The inbox screen is split into two panes:
 | <i class="ph ph-arrow-clockwise" aria-label="Refresh icon"></i> | Refresh the message list. |
 
 > [!NOTE]
-> Even if a folder is subscribed and refreshed, only the most recent emails are shown. By default, SuperOffice downloads emails from the past 30 days (Online) or 180 days (Onsite). Contact support to change this limit if needed.
+> Even if a folder is subscribed and refreshed, only the most recent emails are shown. By default, SuperOffice downloads emails from the past 30 days. Contact support to change this limit if needed.
 
 ## Related content
 

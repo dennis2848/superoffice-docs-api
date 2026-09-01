@@ -1,14 +1,15 @@
-﻿---
+---
 uid: help-de-marketing
 title: SuperOffice Marketing
 description: Zu den Funktionen für das Marketing gehören Kampagnen und Web-Formulare, die den Benutzern helfen, Informationen zu sammeln und besser mit Interessenten und Kunden zu kommunizieren. In Kombination können Sie Ihnen helfen, mehr Leads zu erstellen, mehr an vorhandene Kunden zu verkaufen und die Kundenbindung zu stärken.
 keywords: Marketing
 author: SuperOffice Product and Engineering
-date: 09.26.2025
-version: 10.5
+date: 06.10.2026
+version: 12.0
 content_type: concept
 category: marketing
 license: marketingessentials
+tier: growth
 audience: person
 audience_tooltip: SuperOffice Marketing
 redirect_from: /de/marketing/learn/screen/index
@@ -69,7 +70,7 @@ Es gibt drei Schlüsselbereiche, in denen sich die DSGVO auf die Arbeit von Mark
 ## Anforderungen
 
 > [!NOTE]
-> Überwachte Links und Berichtsfunktionen erfordern die Marketing-Benutzerlizenz. Funktionelle Rechte benötigen Sie auch zum Bearbeiten und Versenden von Kampagnen.
+> Überwachte Links und Berichtsfunktionen erfordern eine **Marketing Essentials**-Lizenz oder den **Growth**-Plan. Funktionelle Rechte benötigen Sie auch zum Bearbeiten und Versenden von Kampagnen.
 
 ## Erforderliche Fähigkeiten
 
@@ -91,10 +92,6 @@ Um von den Marketingfunktionen von SuperOffice profitieren zu können, benötige
 | Automatisierung der Kundenreise | | x |
 | Cross-Selling und Up-Selling | | x |
 | Marketing/Sales-Alignment | x | x |
-
-## Unterschiede zwischen Vor-Ort- und Online-Installationen
-
-SuperOffice Marketing ist als Online-Anwendung (Cloud-basiert) und als Vor-Ort-Anwendung (am Kundenstandort installiert) verfügbar. Zwischen den beiden Versionen gibt es einige kleine Unterschiede. Auf spezifische Funktionsunterschiede wird durch die Symbole in den Überschriften der Themen hingewiesen.
 
 ## Registerkarte SuperOffice Marketing
 

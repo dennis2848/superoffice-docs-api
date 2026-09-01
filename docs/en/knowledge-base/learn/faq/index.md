@@ -4,12 +4,13 @@ title: Work with FAQ entries
 description: Work with FAQ entries
 keywords: FAQ, knowledge base
 author: Bergfrid Dias
-date: 07.15.2025
-version: 10.5
+date: 06.10.2026
+version: 12.0
 content_type: concept
 category: service
 topic: faq
 license: servicepremium
+tier: growth
 functional_right: knowledge-base
 audience: person
 audience_tooltip: SuperOffice Service
@@ -24,7 +25,7 @@ redirect_from:
 
 Frequently Asked Questions (FAQs) are an important part of service request handling. Since many customer inquiries repeat over time, it is a good idea to create FAQs that contain answers to such recurring questions.
 
-[!include[Requirement](../../../learn/includes/req-cep.md)]
+[!include[Requirement](../../../includes/req-cep.md)]
 
 ## Advantages to having an FAQ library
 

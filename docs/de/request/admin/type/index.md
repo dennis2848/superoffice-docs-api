@@ -3,11 +3,12 @@ uid: help-de-request-type
 title: Anfragetyp
 description: Anfragetyp
 keywords: Anfragetyp, Anfragetypliste, Typ, Anfrage
-author: Bergfrid Dias
-date: 02.11.2025
-version: 10.5.2
+author: digitaldiina
+date: 06.10.2026
+version: 12.0
 content_type: concept
 license: servicepremium
+tier: growth
 audience: settings
 audience_tooltip: Einstellungen und Verwaltung
 language: de
@@ -20,7 +21,7 @@ index: true
 Alle Anfragen, die in SuperOffice registriert sind, haben einen Typ. Der Standardtyp ist **Request**. Um Anfragetypen anzuzeigen, hinzuzufügen, zu aktualisieren oder zu löschen, wechseln Sie zu **Einstellungen und Verwaltung**.
 
 > [!NOTE]
-> Diese Funktion erfordert einen Service Premium-Benutzerplan (zum Erstellen und Aktualisieren von Anfragetypen) sowie eine Development Tools-Lizenz, um Ansichts-Layouts basierend auf Anfragetypen im **Screen Designer** zu definieren.
+> Diese Funktion erfordert eine **Service Premium**-Lizenz oder den **Growth**-Plan. Um Ansichts-Layouts basierend auf Anfragetypen im Screen Designer zu definieren, benötigen **Service Premium**-Benutzer außerdem die **Development Tools**-Lizenz (enthalten im **Core**-Plan und höher).
 
 ## Warum Anfragetypen verwenden?
 
@@ -54,10 +55,12 @@ Das Finanzteam nutzt Anfragen zur Verwaltung eingehender Rechnungsansprüche und
 
 * [Anfragetyp erstellen][1]
 * [Anfragetyp löschen][2]
+* [Beziehungsregeln][6]
 
 <!-- Referenced links -->
 [1]: create.md
 [2]: delete.md
+[6]: ../relation-rules.md
 [3]: ../priority/index.md
 [4]: ../status/index.md
 [5]: ../../../knowledge-base/learn/reply-templates/index.md

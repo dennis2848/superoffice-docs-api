@@ -4,12 +4,13 @@ title: Arbeide med e-postadresser
 description: Arbeide med e-postadresser
 keywords: Kunnskapsbase
 author: Bergfrid Dias
-date: 03.16.2023
-version: 10.5
+date: 06.10.2026
+version: 12.0
 content_type: concept
 category: service
 topic: knowledge base
 license: servicepremium
+tier: growth
 functional_right: knowledge-base
 audience: person
 audience_tooltip: SuperOffice Service
@@ -23,8 +24,7 @@ redirect_from:
 
 Du kan opprette en liste over e-postadresser du bruker ofte, men som ikke er registrert på brukere eller personer i SuperOffice Service. For eksempel leverandører, partnere eller produktspesialister. Disse adressene er tilgjengelige de fleste steder der du sender e-post, for eksempel i skjermbildene **Ny sak** og **Legg til melding**.
 
-> [!NOTE]
-> Denne funksjonen krever brukerplanen Service-Premium.
+[!include[Requirement](../../includes/req-growth-transition-service.md)]
 
 ## Oppgi e-postadresser
 
@@ -46,7 +46,7 @@ Hvis du vil ha detaljer om de registrerte e-postadressene, går du til <i class=
 
 1. I feltet **E-postadresse** skriver du inn personens e-postadresse.
 
-1. In the **Mobile phone number** field, you can enter their mobile number. This can be used to send messages by SMS. (ONLINE only)
+1. In the **Mobile phone number** field, you can enter their mobile number. This can be used to send messages by SMS.
 
 1. Klikk på **OK**. E-postadressen legges til i den angitte mappen og er tilgjengelig neste gang du vil sende en e-post.
 

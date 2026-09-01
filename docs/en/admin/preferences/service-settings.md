@@ -4,12 +4,13 @@ title: SuperOffice Service system settings
 description: Global preferences for SuperOffice Service system settings
 keywords: Service settings
 author: digitaldiina
-date: 10.17.2025
-version: 11.5
+date: 05.04.2026
+version: 11.13
 content_type: reference
 category: Settings and maintenance
 topic: preferences
 license: serviceessentials
+tier: core
 functional_right: Service administration, General Administrator
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -40,7 +41,15 @@ Go to <i class="ph ph-gear" aria-hidden="true"></i> **Preferences** in the navig
 
 * **Default From address**: The system's default email sender address. This address will normally be overridden by the addresses entered into mailboxes. This must be an email address that is imported into SuperOffice Service. For example, `support@company.com`.
 
-* **Email tag**: The email tag which, in conjunction with the request number, creates a unique key for the subject in emails that are sent out from SuperOffice Service. You must not change this value unless you know what you are doing! If this value is changed, received emails will not be correctly linked to existing requests.
+* **Email tag**: The name used as the tag key in outbound email subjects. The default value is `ejTag`. Combined with the request number, it creates a unique identifier — for example, `ejTag: 12345` — that Service uses to match incoming replies to the correct request.
+
+    When an email arrives, Service first checks the standard `In-Reply-To` email header to match it to an existing request. The email tag in the subject line is used as a fallback. Do not change this value unless you understand the consequences — changing the name breaks the match for any emails that still reference the old tag.
+
+    > [!NOTE]
+    > Two registry settings modify this behavior:
+    >
+    > * **reg_id=72** (value `1`): Service searches only the email header (subject) for the tag, not the message body.
+    > * **reg_id=175** (value `1`): Service checks the subject for the email tag *before* checking the `In-Reply-To` header, reversing the default priority.
 
 * **System clock**: Select if to use a 24-hour or 12-hour (am/pm) clock in the system. User-specific clocks (for example, display of requests) are controlled by each individual user's settings, and not by this value.
 
@@ -64,17 +73,10 @@ Go to <i class="ph ph-gear" aria-hidden="true"></i> **Preferences** in the navig
 
 * **Track all links**: Check here to track all links in mailings.
 
-* **Internal URL**: The base address for access to the SuperOffice Service system. (ONSITE only)
+## Related content
 
-* **External URL**: The base address for external access to the SuperOffice Service system. (ONSITE only)
-
-* **Cgi-Bin path**: The path to the folder where SuperOffice Service's Cgi-Bin application files reside. This path must have a leading folder separator sign (slash), but not a trailing one. For example, */bin* or */Scripts*. (ONSITE only)
-
-* **Use user authentication from web server**: If checked, SuperOffice Service allows user authentication deriving from the web server (Microsoft IIS). (ONSITE only)
-
-* **Use customer authentication from web server**: If checked, SuperOffice Service allows user authentication deriving from the customer centre web server (Microsoft IIS). (ONSITE only)
-
-* **Online on the Internet**: Check here if SuperOffice Service is available on the Internet. This will control parts of the functionality available in SuperOffice Service, because some functionality actually requires the solution to be online. (ONSITE only)
+* [Service settings (onsite)][2]
 
 <!-- Referenced links -->
 [1]: ../../knowledge-base/learn/reply-templates/create.md#faq
+[2]: https://help.superoffice.com/docs/11/en/admin/preferences/service-settings.html

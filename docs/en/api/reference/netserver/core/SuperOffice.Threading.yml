@@ -11,11 +11,13 @@ items:
   - SuperOffice.Threading.AsyncQueueHandler`2
   - SuperOffice.Threading.AsyncQueueProcessItemAsync`1
   - SuperOffice.Threading.AsyncQueueProcessor`2
+  - SuperOffice.Threading.AsyncQueueTracker
   - SuperOffice.Threading.AsyncQueue`1
   - SuperOffice.Threading.AsynchronousHandlerProcessor`1
   - SuperOffice.Threading.BackgroundThreadCleanupPluginAttribute
   - SuperOffice.Threading.DelayedItem`1
   - SuperOffice.Threading.IAsyncQueueBase`1
+  - SuperOffice.Threading.IAsyncQueueInstance
   - SuperOffice.Threading.IAsyncQueueProcessItemContext`1
   - SuperOffice.Threading.IAsyncQueue`1
   - SuperOffice.Threading.IBackgroundThreadCleanupPlugin
@@ -29,7 +31,6 @@ items:
   - SuperOffice.Threading.ParallelizedProcessor
   - SuperOffice.Threading.SafeBlockingTasks
   - SuperOffice.Threading.TaskHelper
-  - SuperOffice.Threading.ThreadwiseKeyCache`1
   langs:
   - csharp
   - vb
@@ -297,6 +298,14 @@ references:
   - name: " "
   - name: TItem
   - name: )
+- uid: SuperOffice.Threading.AsyncQueueTracker
+  commentId: T:SuperOffice.Threading.AsyncQueueTracker
+  parent: SuperOffice.Threading
+  isExternal: true
+  href: SuperOffice.Threading.AsyncQueueTracker.html
+  name: AsyncQueueTracker
+  nameWithType: AsyncQueueTracker
+  fullName: SuperOffice.Threading.AsyncQueueTracker
 - uid: SuperOffice.Threading.BackgroundThreadCleanupPluginAttribute
   commentId: T:SuperOffice.Threading.BackgroundThreadCleanupPluginAttribute
   isExternal: true
@@ -311,6 +320,14 @@ references:
   name: IBackgroundThreadCleanupPlugin
   nameWithType: IBackgroundThreadCleanupPlugin
   fullName: SuperOffice.Threading.IBackgroundThreadCleanupPlugin
+- uid: SuperOffice.Threading.IAsyncQueueInstance
+  commentId: T:SuperOffice.Threading.IAsyncQueueInstance
+  parent: SuperOffice.Threading
+  isExternal: true
+  href: SuperOffice.Threading.IAsyncQueueInstance.html
+  name: IAsyncQueueInstance
+  nameWithType: IAsyncQueueInstance
+  fullName: SuperOffice.Threading.IAsyncQueueInstance
 - uid: SuperOffice.Threading.IAsyncQueueProcessItemContext`1
   commentId: T:SuperOffice.Threading.IAsyncQueueProcessItemContext`1
   isExternal: true
@@ -607,34 +624,6 @@ references:
   name: TaskHelper
   nameWithType: TaskHelper
   fullName: SuperOffice.Threading.TaskHelper
-- uid: SuperOffice.Threading.ThreadwiseKeyCache`1
-  commentId: T:SuperOffice.Threading.ThreadwiseKeyCache`1
-  isExternal: true
-  href: SuperOffice.Threading.ThreadwiseKeyCache-1.html
-  name: ThreadwiseKeyCache<Item>
-  nameWithType: ThreadwiseKeyCache<Item>
-  fullName: SuperOffice.Threading.ThreadwiseKeyCache<Item>
-  nameWithType.vb: ThreadwiseKeyCache(Of Item)
-  fullName.vb: SuperOffice.Threading.ThreadwiseKeyCache(Of Item)
-  name.vb: ThreadwiseKeyCache(Of Item)
-  spec.csharp:
-  - uid: SuperOffice.Threading.ThreadwiseKeyCache`1
-    name: ThreadwiseKeyCache
-    isExternal: true
-    href: SuperOffice.Threading.ThreadwiseKeyCache-1.html
-  - name: <
-  - name: Item
-  - name: '>'
-  spec.vb:
-  - uid: SuperOffice.Threading.ThreadwiseKeyCache`1
-    name: ThreadwiseKeyCache
-    isExternal: true
-    href: SuperOffice.Threading.ThreadwiseKeyCache-1.html
-  - name: (
-  - name: Of
-  - name: " "
-  - name: Item
-  - name: )
 - uid: SuperOffice.Threading
   commentId: N:SuperOffice.Threading
   isExternal: true

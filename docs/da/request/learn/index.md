@@ -3,15 +3,16 @@ uid: help-da-request
 title: Sager
 description: Introduktion til sager i SuperOffice
 keywords: sag, ticket, service
-author: Bergfrid Dias
-date: 09.01.2025
-version: 11.3
+author: digitaldiina
+date: 06.10.2026
+version: 12.0
 content_type: concept
 license: serviceessentials
+tier: starter
 audience: person
 audience_tooltip: SuperOffice Service
 language: da
-redirect_from: 
+redirect_from:
   - /da/request/learn/screen/index
   - /da/request/learn/screen/ticket-log
 ---
@@ -49,6 +50,7 @@ Skærmbilledet Sag har følgende sektioner:
 * Nedenunder headeren finder du en række knapper, som du kan bruge til at udføre opgaver, der er knyttet til sager, som for eksempel Svar, Svar til alle, Videresend og Tilføj kommentar.
 * Fanen **Meddelelser** viser meddelelser vedrørende sagen.
 * Fanen **Detaljer** indeholder en oversigt over de registrerede data for sagen.
+* Fanen **Relationer** viser [tilknyttede sager][21] (overordnet, underordnet eller relateret).
 * Fanen **Ændringslog** indeholder historikken for denne sag. Sagsloggen viser alt, hvad der er sket i denne sag, siden den blev registreret.
 
 ### Sagsoverskrift
@@ -97,6 +99,9 @@ Klik på <i class="ph ph-dots-three-circle-vertical" aria-label="Task menu"></i>
 Fanen **Detaljer** indeholder en oversigt over alle felter til sagen.
 
 ### <a id="log"></a>Ændringslog
+
+> [!NOTE]
+> Ændringslog kræver en **Service Premium**-licens eller **Growth**-planen.
 
 Dette skærmbillede viser loggen for sagen. Den indeholder alle hændelser i sagen med oplysninger om, hvornår de opstod, hvad der skete, og hvem der er ansvarlig.
 
@@ -150,6 +155,7 @@ SuperOffice Service hjælper dig med at give personer de svar, de har brug for, 
 * [Videresend meddelelser eller flere sager til eksterne parter][8]
 * [Tilføj sager til listen over favoritter][18]
 * [Luk sager][3]
+* [Markér sager som spam][27]
 
 Forskellige firmaer har forskellige rutiner for sagsbehandling og kan bruge SuperOffice Service på forskellige måder. Nedenfor har vi sat to scenarier fra den virkelige verden op, der viser nogle af de muligheder, der findes. Disse scenarier viser dig, hvordan du kan svare effektivt, når en person har sendt en sag via e-mail, og når en person ringer ind med et problem eller et spørgsmål.
 
@@ -199,6 +205,20 @@ Du kan tilpasse sager, så de passer til din arbejdsproces:
 
 1. Klik på **Gem** for at anvende dine ændringer.
 
+## <a id="available"></a>Din tilgængelighedsstatus
+
+Din tilgængelighedsstatus bestemmer, om du modtager sager via automatisk tildeling. Den påvirker også tildelingen af personer.
+
+Klik på <i class="ph ph-user-circle" aria-hidden="true"></i> **Personlige indstillinger** i topmenuen, og vælg **Din tilgængelighedsstatus** for at opdatere din status.
+
+* **Til stede:** Du er tilgængelig for automatisk tildeling af sager og personer.
+* **Ikke til stede:** Nye sager tildeles ikke til dig. Din fraværsbesked vises ved dit navn, når nogen manuelt tildeler en sag.
+
+> [!TIP]
+> Hvis en sagsbehandler glemmer at opdatere sin status eller er uventet fraværende, kan en administrator ændre sagsbehandlerens tilgængelighedsstatus på vedkommendes vegne i **Indstillinger og vedligeholdelse** > **Brugere**.
+
+Hvordan sager fordeles igen, når en bruger ikke er til stede, afhænger af den [fordelingsregel][6], der er konfigureret for kategorien.
+
 ## Globale præferencer
 
 Administratorer kan tilpasse Service for alle brugere i Indstillinger og vedligeholdelse.
@@ -241,6 +261,7 @@ Nogle indstillinger, der påvirker supportagenter, inkluderer:
 [16]: merge.md
 [17]: ../../dashboard/learn/show-requests.md
 [19]: split-message.md
+[21]: request-relations.md
 [22]: tags.md
 [24]: ../admin/priority/escalation-levels.md
 [25]: ../admin/category/index.md
@@ -251,6 +272,7 @@ Nogle indstillinger, der påvirker supportagenter, inkluderer:
 [23]: ../../knowledge-base/learn/reply-templates/index.md
 [20]: https://community.superoffice.com/en/learning/best-practices-tips/service/7-tips-to-provide-best-in-class-customer-service-with-superoffice-service/
 [26]: ../../admin/preferences/service-settings.md
+[27]: spam.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/request/request-list-preview.png

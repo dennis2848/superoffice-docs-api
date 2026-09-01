@@ -4,13 +4,14 @@ title: Skript erstellen oder bearbeiten
 description: Ein Skript erstellen
 keywords: Skript, Makro
 author: digitaldiina
-date: 11.26.2025
-version: 11.6
+date: 06.10.2026
+version: 12.0
 content_type: howto
 category: automation
 topic: CRMScript
 audience: settings
 audience_tooltip: Settings and maintenance
+tier: core
 redirect_from:
   - /de/automation/crmscript/learn/create-folder
   - /de/automation/crmscript/learn/create-script
@@ -19,6 +20,8 @@ index: true
 ---
 
 # Skript erstellen oder bearbeiten
+
+[!include[License requirement](../../../includes/req-dev-tools-transition.md)]
 
 ## Steps
 

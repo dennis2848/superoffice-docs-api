@@ -4,9 +4,10 @@ title: Manage user groups
 description: How to create and delete user groups
 keywords: user group
 author: digitaldiina
-date: 10.24.2025
-version: 10.4
+date: 05.04.2026
+version: 11.13
 content_type: howto
+tier: starter
 audience: settings
 audience_tooltip: Settings and maintenance
 category: identity management
@@ -47,12 +48,10 @@ To group colleagues together and grant them access to CRM data based on this gro
 ## Related content
 
 * [Create user][1]
-* [Import users][2] (onsite)
 * [Configure what information the users of your company can access in SuperOffice CRM][3]
 
 <!-- Referenced links -->
 [1]: add-associate.md
-[2]: onsite/import-users.md
 [3]: role/index.md
 [4]: ../../request/admin/category/index.md
 

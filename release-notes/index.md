@@ -1,43 +1,66 @@
 ---
 uid: release-notes
 title: What's new in SuperOffice
-description: Release notes. Here you will find all the small and big changes that has been released for SuperOffice in the different versions.
+description: Release notes. Here you will find all the small and big changes that have been released for SuperOffice in the different versions.
 author: kirstiaa
-date: 02.17.2026
+date: 07.09.2026
 content_type: release-note
 audience: person
 audience_tooltip: SuperOffice CRM
+language: en
 ---
 
 # What's new in SuperOffice
 
-Here you will find all the small and big changes that has been released for SuperOffice in the different versions. We aim to give you an understanding on why we have created the feature and function and how to use it. Hope you will find this inspiring and try out our new functionality.
+**SuperOffice 12** - a new version of SuperOffice CRM where AI becomes part of how you work every day.
+
+SuperOffice 12 introduces a new way to license SuperOffice for new customers, bringing Sales, Marketing, and Service together across [five plans - Starter, Core, Growth, Plus, and Super][23]. Sales, Marketing, and Service functionality is included in all plans. AI capabilities are also available across all areas of SuperOffice, included in the different plans.
+
+At SuperOffice, relationships are at the heart of everything we do — and we believe the right tools should make those relationships easier to build and maintain. We look forward to sharing what's ahead.
 
 ## SuperOffice CRM versions
 
-The latest online release is [**version 11.10**][11] - 17.02.2026.
+The latest SuperOffice Online release is [**version 12.2**][9] - 09.07.2026.
 
 Recent versions:
 
-* [11.1 - 11.10][11]
-* [10.5][9]
+* [12.0 and newer][9]
+* [11.1 - 11.13][11]
+* [10.5][10]
 
 Older versions are listed in the table of contents.
 
-### Onsite
+### SuperOffice Onsite
 
-The latest onsite release is **11.6** - 22.01.2026. See the [version history][19] for details.
+The latest onsite release is **11.15** - 24.06.2026. See the [version history][19] for details.
 
 ## Mobile CRM versions
 
-The latest release is [**version 11.1.9**][7] - 17.02.2026.
+The latest release is [**version 11.1.13**][7] - 17.06.2026.
 
 ## Product integrations
 
 Different integration components are released on separate schedules. See the [integration release overview][12] for the latest versions.
 
+## <a id="pilot"></a>Ongoing pilot programs
+
+We use **pilot programs** to assess how well the features and functions meet our users' **needs and expectations**, to collect feedback, and identify potential problems. The feedback from the pilot phase is valuable for refining the features and functions in SuperOffice. It helps us address any issues or concerns before releasing them to all our users. For more details, see our [overview of pilot programs][17].
+
+* [SuperOffice for Teams][16] (available from 01.06.2026)
+* [SuperOffice Online Replication: Stream CRM data to own infrastructure][16] (available from 13.02.2026)
+* [AI styling for Form][16] (available from 11.13 - 28.04.2026)
+* [Custom objects][22] (available from 10.3.4 - 09.04.2024)
+* [SuperOffice CRM - AI Lab][21] (available from 10.3.2 - 20.02.2024)
+* [SuperOffice Service - New Service Request][16] (available on demand from 10.2.1 - 27.01.2023)
+* [Forms - Custom styling][16] (available from 11.8 - 13.01.2026 - Generally available from 11.11 (17.03.2026))
+* [Synchronizer: See attendees and don't lose edits][16] (available from Synchronizer - 16.02.2026 - Generally available from (13.05.2026))
+
 ## Developer Portal
 
+* 2.15 (30.06.2026): Messages (reply to shared customers and get notified about support requests you need to answer), renamed from Messaging Center; partner Support emails
+* 2.14 (17.06.2026): Messaging center
+* 2.13 (15.05.2026): LinkedIn link preview, Notify partners before tenant deletion
+* 2.11 (25.02.2026): App Store information visible with a standard application, Required Partner profile feedback before publish to stage
 * 2.9 (17.12.2025): Refactored log section, Export list of tenants
 * 2.8 (17.11.2025): Refreshed and modernized user interface
 * 2.7 (04.11.2025): Improved categorization
@@ -51,19 +74,10 @@ Different integration components are released on separate schedules. See the [in
 
 ## User guides
 
-* [SuperOffice version 11 User guide][15] (available in six languages)
+* [SuperOffice version 12 User guide][15] (available in six languages)
 * [SuperOffice for Outlook User guide][13] (English only)
 * [SuperOffice Mobile CRM User guide][14] (English only)
-
-## <a id="pilot"></a>Ongoing pilot programs
-
-We use **pilot programs** to assess how well the features and functions meet our users' **needs and expectations**, to collect feedback, and identify potential problems. The feedback from the pilot phase is valuable for refining the features and functions in SuperOffice. It helps us address any issues or concerns before releasing them to all our users. For more details, see our [overview of pilot programs][17].
-
-* [Synchronizer: See attendees and don't lose edits][16] (available from Synchronizer v.117 - 16.02.2026)
-* [Forms - Custom styling][16] (available from 11.8 - 13.01.2026)
-* [SuperOffice Service - Custom objects][16] (available from 10.3.4 - 09.04.2024)
-* [SuperOffice CRM - AI Lab][16] (available from 10.3.2 - 20.02.2024)
-* [SuperOffice Service - New Service Request][16] (available on demand from 10.2.1 - 27.01.2023)
+* [SuperNotes Integration][20] (English only)
 
 ## How to navigate this content
 
@@ -85,16 +99,21 @@ We use **pilot programs** to assess how well the features and functions meet our
 
 <!-- Referenced links-->
 [7]: mobile/index.md
-[9]: 10.5/index.md
+[9]: 12/index.md
+[10]: 10.5/index.md
 [11]: 11/index.md
 [12]: integrations/index.md
 [13]: ../integrations/superoffice-for-outlook/index.md
-[14]: ../docs/en/mobile/superoffice-mobile/index.md
+[14]: ../docs/en/mobile/index.md
 [15]: ../docs/en/learn/index.yml
 [16]: https://community.superoffice.com/en/product-releases/pilot-programs/current-pilot-programs/?utm_medium=docs&utm_source=release%20notes&utm_campaign=pilot
 [17]: https://community.superoffice.com/en/product-releases/pilot-programs/
 [18]: ../docs/en/developer-portal/widgets/index.md#publish-status
 [19]: ../docs/en/onsite/version-history.md
+[20]: ../integrations/supernotes/index.md
+[21]: https://community.superoffice.com/en/product-releases/pilot-programs/current-pilot-programs/ai-lab/?utm_medium=docs&utm_source=release%20notes&utm_campaign=pilot
+[22]: https://community.superoffice.com/en/product-releases/pilot-programs/current-pilot-programs/custom-objects/?utm_medium=docs&utm_source=release%20notes&utm_campaign=pilot
+[23]: https://www.superoffice.com/pricing/?utm_medium=docs&utm_source=release%20notes&utm_campaign=crmsuites
 
 <!-- Referenced images-->
 [img1]: media/expand-toc.png

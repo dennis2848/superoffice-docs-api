@@ -4,14 +4,15 @@ title: Aktivering af licens
 description: Aktivere licens til SuperOffice
 keywords: aktiver licens
 author: digitaldiina, xt1
-date: 10.22.2025
-version: 11.5
+date: 06.10.2026
+version: 12.0
 content_type: howto
 category: Settings and maintenance
 topic: licenses
 audience: settings
 audience_tooltip: Settings and maintenance
 index: true
+tier: starter
 language: da
 redirect_from: /da/admin/license/learn/activate
 ---
@@ -41,7 +42,7 @@ Hvis det samlede antal nye licenser er mindre end det antal licenser, der er i b
     * **Aktivér ny licens** – en ny licens er tilgængelig, men den kan ikke aktiveres automatisk. Klik på linket for at åbne dialogboksen **Aktivér ny licens**. Listen viser kun ændrede licenser.
 
     > [!CAUTION]
-    > Hvis du ikke har det rigtige antal licenser eller licens til et forkert modul, skal du kontakte SuperOffice. Aktivér IKKE licenserne, hvis antallet er forkert.
+    > Hvis antallet af licenser er forkert — eller, for modulbaserede abonnementer, hvis du har licenser til det forkerte modul — skal du kontakte SuperOffice. Aktivér IKKE, før oplysningerne er korrekte.
 
 1. Klik på knappen **Aktivér** i dialogboksen.
 

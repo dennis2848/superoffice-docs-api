@@ -33,6 +33,7 @@ items:
   - SuperOffice.CRM.Data.EmailAccountTableInfo.UpdatedAssociateId
   - SuperOffice.CRM.Data.EmailAccountTableInfo.UpdatedAssociateId_InnerJoin_Associate
   - SuperOffice.CRM.Data.EmailAccountTableInfo.UpdatedCount
+  - SuperOffice.CRM.Data.EmailAccountTableInfo.UseGraphApi
   langs:
   - csharp
   - vb
@@ -76,12 +77,10 @@ items:
   - SuperOffice.Data.SQL.TableInfo.Clone
   - SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
   - SuperOffice.Data.SQL.TableInfo.FindField(System.String)
-  - SuperOffice.Data.SQL.TableInfo.ProtAll
   - SuperOffice.Data.SQL.TableInfo.UseNolockIfPossible
   - SuperOffice.Data.SQL.TableInfo.HashCheckFields
   - SuperOffice.Data.SQL.TableInfo.TableName
   - SuperOffice.Data.SQL.TableInfo.DbName
-  - SuperOffice.Data.SQL.TableInfo.IsDictionaryTable
   - SuperOffice.Data.SQL.TableInfo.All
   - SuperOffice.Data.SQL.TableInfo.Item(System.String)
   - SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
@@ -650,6 +649,32 @@ items:
       type: SuperOffice.Data.SQL.DateTimeFieldInfo
     content.vb: Public ReadOnly Property LastFetch As DateTimeFieldInfo
   overload: SuperOffice.CRM.Data.EmailAccountTableInfo.LastFetch*
+- uid: SuperOffice.CRM.Data.EmailAccountTableInfo.UseGraphApi
+  commentId: P:SuperOffice.CRM.Data.EmailAccountTableInfo.UseGraphApi
+  id: UseGraphApi
+  parent: SuperOffice.CRM.Data.EmailAccountTableInfo
+  langs:
+  - csharp
+  - vb
+  name: UseGraphApi
+  nameWithType: EmailAccountTableInfo.UseGraphApi
+  fullName: SuperOffice.CRM.Data.EmailAccountTableInfo.UseGraphApi
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: >-
+    Field 'use_graph_api' in table 'email_account': Dictionary type Bool, .NET type: <xref href="System.Int16" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Use the GraphApi for this account
+  example: []
+  syntax:
+    content: public UInt16FieldInfo UseGraphApi { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.UInt16FieldInfo
+    content.vb: Public ReadOnly Property UseGraphApi As UInt16FieldInfo
+  overload: SuperOffice.CRM.Data.EmailAccountTableInfo.UseGraphApi*
 - uid: SuperOffice.CRM.Data.EmailAccountTableInfo.AssociateId_InnerJoin_Associate
   commentId: P:SuperOffice.CRM.Data.EmailAccountTableInfo.AssociateId_InnerJoin_Associate
   id: AssociateId_InnerJoin_Associate
@@ -1054,14 +1079,6 @@ references:
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
-- uid: SuperOffice.Data.SQL.TableInfo.ProtAll
-  commentId: P:SuperOffice.Data.SQL.TableInfo.ProtAll
-  parent: SuperOffice.Data.SQL.TableInfo
-  isExternal: true
-  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_ProtAll
-  name: ProtAll
-  nameWithType: TableInfo.ProtAll
-  fullName: SuperOffice.Data.SQL.TableInfo.ProtAll
 - uid: SuperOffice.Data.SQL.TableInfo.UseNolockIfPossible
   commentId: P:SuperOffice.Data.SQL.TableInfo.UseNolockIfPossible
   parent: SuperOffice.Data.SQL.TableInfo
@@ -1094,14 +1111,6 @@ references:
   name: DbName
   nameWithType: TableInfo.DbName
   fullName: SuperOffice.Data.SQL.TableInfo.DbName
-- uid: SuperOffice.Data.SQL.TableInfo.IsDictionaryTable
-  commentId: P:SuperOffice.Data.SQL.TableInfo.IsDictionaryTable
-  parent: SuperOffice.Data.SQL.TableInfo
-  isExternal: true
-  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_IsDictionaryTable
-  name: IsDictionaryTable
-  nameWithType: TableInfo.IsDictionaryTable
-  fullName: SuperOffice.Data.SQL.TableInfo.IsDictionaryTable
 - uid: SuperOffice.Data.SQL.TableInfo.All
   commentId: P:SuperOffice.Data.SQL.TableInfo.All
   parent: SuperOffice.Data.SQL.TableInfo
@@ -1937,6 +1946,13 @@ references:
   name: LastFetch
   nameWithType: EmailAccountTableInfo.LastFetch
   fullName: SuperOffice.CRM.Data.EmailAccountTableInfo.LastFetch
+- uid: SuperOffice.CRM.Data.EmailAccountTableInfo.UseGraphApi*
+  commentId: Overload:SuperOffice.CRM.Data.EmailAccountTableInfo.UseGraphApi
+  isExternal: true
+  href: SuperOffice.CRM.Data.EmailAccountTableInfo.html#SuperOffice_CRM_Data_EmailAccountTableInfo_UseGraphApi
+  name: UseGraphApi
+  nameWithType: EmailAccountTableInfo.UseGraphApi
+  fullName: SuperOffice.CRM.Data.EmailAccountTableInfo.UseGraphApi
 - uid: SuperOffice.CRM.Data.AssociateTableInfo
   commentId: T:SuperOffice.CRM.Data.AssociateTableInfo
   parent: SuperOffice.CRM.Data

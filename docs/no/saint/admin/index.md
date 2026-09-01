@@ -4,11 +4,12 @@ title: SAINT i Innstillinger og vedlikehold
 description: Lær om nøkkelbegrepene i SuperOffice SAINT, inkludert kriterier, bilder, tellere og standardoppfølginger.
 keywords: SAINT, aktivitetsovervåking, statusovervåking
 author: SuperOffice Product and Engineering
-date: 09.23.2025
-version: 10.5
+date: 06.10.2026
+version: 12.0
 content_type: concept
 audience: settings
 audience_tooltip: Settings and maintenance
+tier: growth
 language: no
 index: true
 redirect_from: /no/sale/saint/learn/admin/index
@@ -24,7 +25,7 @@ Før du implementerer SAINT, er det viktig å vite hva du ønsker å forbedre og
 * Ringe alle kunder i SAINT-utvalget
 * Følge opp alle forespørsler
 
-[!include[Requirement](../includes/note-saint-req.md)]
+[!include[Requirement](../../includes/note-req-saint.md)]
 
 ![SAINT-skjerm med statusliste, beskrivelse, bilde og kriterier -screenshot][img1]
 

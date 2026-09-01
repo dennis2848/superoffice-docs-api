@@ -45,7 +45,10 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |endDate|date|End date: End date of project| x |
 |imageThumbnail| *None* |Thumbnail: Scaled-down image of project image|  |
 |activeErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
+|eventId|int|Event ID: Event ID| x |
+|startDate|date|Start date: Project start date| x |
 |personId|int|Contact ID: Database ID of the contact row| x |
+|eventParticipantStatus|listAny|Project member - Event status: Project member - Event status| x |
 |projectPublish/isPublished|bool|Published: Displays an icon indicating if the project or sale has been published| x |
 |projectPublish/publishedFrom|date|From date: Start date for publishing. The record will not be visible prior to this date| x |
 |projectPublish/publishedTo|date|To date: End date for publishing. The record will not be visible after this date| x |
@@ -116,13 +119,13 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |SaintStatus3|saintStatus|Not completed activites with intention sale: Number of not completed activities for intention sale > 0.|  |
 |saintSaleStatus|listAny|With status|  |
 |saintAmountClass|listAny|Amount class|  |
-|saintActivityType|listAny|SAINT type|  |
-|saintDirection|listAny|Direction|  |
-|saintIntention|listAny|Intention|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|saintActivityType|listAny|SAINT type|  |
+|saintDirection|listAny|Direction|  |
+|saintIntention|listAny|Intention|  |
 |saintTicketStatus|listAny|Status|  |
 |saintTicketCategory|listAny|Category|  |
 |project/textId|int|Text ID| x |
@@ -131,7 +134,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/PersonProjects?$select=personId,projectUrl/URLAddress,projectAssociate/role
+GET /api/v1/archive/PersonProjects?$select=number,projectPublish/publishedFrom,projectAssociate/isActiveText,saintActivityType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

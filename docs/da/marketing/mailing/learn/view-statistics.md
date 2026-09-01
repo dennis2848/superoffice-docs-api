@@ -1,15 +1,16 @@
-﻿---
+---
 uid: help-da-mailing-view-statistics
 title: Se statistik for udsendelser
 description: Se statistik for udsendelser
 keywords: mailing results, statistics
 author: SuperOffice Product and Engineering
-date: 09.26.2025
-version: 10.5
+date: 06.10.2026
+version: 12.0
 content_type: howto
 category: marketing
 topic: mailing
 license: marketingessentials
+tier: growth
 audience: person
 audience_tooltip: SuperOffice Marketing
 redirect_from: /da/marketing/mailing/learn/follow-up/view-statistics
@@ -71,7 +72,7 @@ Når din mailing er sendt ud, kan du se i fanen **Oversigt**, hvordan den klared
 * **Administrere afviste udsendelser**: En oversigt over alle afviste e-mails. Brug handlingerne til at [rydde op i dine afviste mailadresser][1], enten ved at sætte kontakterne som tidligere ansatte eller ved at slette mailadresserne.
 
 > [!NOTE]
-> Fanerne **Rapporter** og **Sporede links** kræver brugerlicensen: Marketing. Nogle faner er ikke tilgængelige for SMS-forsendelser og dokumentforsendelser.
+> Fanerne **Rapporter** og **Sporede links** kræver en **Marketing Essentials**-licens eller **Growth**-planen. Nogle faner er ikke tilgængelige for SMS-forsendelser og dokumentforsendelser.
 
 <!-- Referenced links -->
 [1]: ../../recipients/learn/manage-bounces.md

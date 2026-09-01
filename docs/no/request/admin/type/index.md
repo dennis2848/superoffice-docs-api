@@ -3,11 +3,12 @@ uid: help-no-request-type
 title: Sakstype
 description: Sakstype
 keywords: sakstype, fanen Sakstyper, type, sak
-author: Bergfrid Dias
-date: 02.05.2025
-version: 10.5.1
+author: digitaldiina
+date: 06.10.2026
+version: 12.0
 content_type: concept
 license: servicepremium
+tier: growth
 audience: settings
 audience_tooltip: Innstillinger og vedlikehold
 language: no
@@ -20,7 +21,7 @@ index: true
 Alle saker som er registrert i SuperOffice har en type. Standardtypen er "Sak". For å se, legge til, oppdatere og slette sakstyper, gå til **Innstillinger og vedlikehold**.
 
 > [!NOTE]
-> Denne funksjonen krever en Service Premium-brukerplan (for å opprette og oppdatere sakstyper) og en Development Tools-lisens for å definere layouter basert på sakstyper i Skjermdesigner.
+> Denne funksjonen krever en **Service Premium**-lisens eller **Growth**-planen. For å definere layouter basert på sakstyper i Screen Designer trenger **Service Premium**-brukere også **Development Tools**-lisensen (inkludert i **Core**-planen og høyere).
 
 ## Hvorfor bruke sakstyper?
 
@@ -54,10 +55,12 @@ Hovedfordelen med sakstyper er effektiv kundestøtte. En spesifikk sakstype tilp
 
 * [Legg til sakstype][1]
 * [Slett sakstype][2]
+* [Relasjonsregler][6]
 
 <!-- Referenced links -->
 [1]: create.md
 [2]: delete.md
+[6]: ../relation-rules.md
 [3]: ../priority/index.md
 [4]: ../status/index.md
 [5]: ../../../knowledge-base/learn/reply-templates/index.md

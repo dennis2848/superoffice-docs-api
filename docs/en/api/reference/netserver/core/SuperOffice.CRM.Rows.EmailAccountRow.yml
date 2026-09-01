@@ -47,6 +47,7 @@ items:
   - SuperOffice.CRM.Rows.EmailAccountRow.Updated
   - SuperOffice.CRM.Rows.EmailAccountRow.UpdatedAssociateId
   - SuperOffice.CRM.Rows.EmailAccountRow.UpdatedCount
+  - SuperOffice.CRM.Rows.EmailAccountRow.UseGraphApi
   - SuperOffice.CRM.Rows.EmailAccountRow.Validate(SuperOffice.CRM.Rows.RowValidator)
   - SuperOffice.CRM.Rows.EmailAccountRow._currentAccountStatus
   - SuperOffice.CRM.Rows.EmailAccountRow._currentAssociateId
@@ -65,6 +66,7 @@ items:
   - SuperOffice.CRM.Rows.EmailAccountRow._currentUpdated
   - SuperOffice.CRM.Rows.EmailAccountRow._currentUpdatedAssociateId
   - SuperOffice.CRM.Rows.EmailAccountRow._currentUpdatedCount
+  - SuperOffice.CRM.Rows.EmailAccountRow._currentUseGraphApi
   - SuperOffice.CRM.Rows.EmailAccountRow._persistedAccountStatus
   - SuperOffice.CRM.Rows.EmailAccountRow._persistedAssociateId
   - SuperOffice.CRM.Rows.EmailAccountRow._persistedDefault
@@ -82,6 +84,7 @@ items:
   - SuperOffice.CRM.Rows.EmailAccountRow._persistedUpdated
   - SuperOffice.CRM.Rows.EmailAccountRow._persistedUpdatedAssociateId
   - SuperOffice.CRM.Rows.EmailAccountRow._persistedUpdatedCount
+  - SuperOffice.CRM.Rows.EmailAccountRow._persistedUseGraphApi
   langs:
   - csharp
   - vb
@@ -226,6 +229,7 @@ items:
   - SuperOffice.CRM.Rows.EmailAccountRow.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Rows.EmailAccountRow.SuperOffice.CRM.Rows.EmailAccountRecordDataExtensions.ToRecordData
   - SuperOffice.CRM.Rows.EmailAccountRow.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  - SuperOffice.Data.SQL.SqlCommand.SuperOffice.Data.QueryExectionExtensions.ExecuteBatchedReaderAsync(System.Boolean,System.Int32,System.Threading.CancellationToken)
   - SuperOffice.Data.SQL.SqlCommand.SuperOffice.Data.QueryExectionExtensions.ExecuteNonQuery
   - SuperOffice.Data.SQL.SqlCommand.SuperOffice.Data.QueryExectionExtensions.ExecuteNonQueryAsync(System.Threading.CancellationToken)
   - SuperOffice.Data.SQL.SqlCommand.SuperOffice.Data.QueryExectionExtensions.ExecuteReader(System.Boolean)
@@ -590,6 +594,27 @@ items:
     return:
       type: System.DateTime
     content.vb: Protected _persistedLastFetch As Date
+- uid: SuperOffice.CRM.Rows.EmailAccountRow._persistedUseGraphApi
+  commentId: F:SuperOffice.CRM.Rows.EmailAccountRow._persistedUseGraphApi
+  id: _persistedUseGraphApi
+  parent: SuperOffice.CRM.Rows.EmailAccountRow
+  langs:
+  - csharp
+  - vb
+  name: _persistedUseGraphApi
+  nameWithType: EmailAccountRow._persistedUseGraphApi
+  fullName: SuperOffice.CRM.Rows.EmailAccountRow._persistedUseGraphApi
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Persisted value, see property <xref href="SuperOffice.CRM.Rows.EmailAccountRow.UseGraphApi" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: protected short _persistedUseGraphApi
+    return:
+      type: System.Int16
+    content.vb: Protected _persistedUseGraphApi As Short
 - uid: SuperOffice.CRM.Rows.EmailAccountRow._currentEmailAccountId
   commentId: F:SuperOffice.CRM.Rows.EmailAccountRow._currentEmailAccountId
   id: _currentEmailAccountId
@@ -947,6 +972,27 @@ items:
     return:
       type: System.DateTime
     content.vb: Protected _currentLastFetch As Date
+- uid: SuperOffice.CRM.Rows.EmailAccountRow._currentUseGraphApi
+  commentId: F:SuperOffice.CRM.Rows.EmailAccountRow._currentUseGraphApi
+  id: _currentUseGraphApi
+  parent: SuperOffice.CRM.Rows.EmailAccountRow
+  langs:
+  - csharp
+  - vb
+  name: _currentUseGraphApi
+  nameWithType: EmailAccountRow._currentUseGraphApi
+  fullName: SuperOffice.CRM.Rows.EmailAccountRow._currentUseGraphApi
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Current value, see property <xref href="SuperOffice.CRM.Rows.EmailAccountRow.UseGraphApi" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: protected short _currentUseGraphApi
+    return:
+      type: System.Int16
+    content.vb: Protected _currentUseGraphApi As Short
 - uid: SuperOffice.CRM.Rows.EmailAccountRow.InternalSetValue(System.String,System.Object)
   commentId: M:SuperOffice.CRM.Rows.EmailAccountRow.InternalSetValue(System.String,System.Object)
   id: InternalSetValue(System.String,System.Object)
@@ -2235,6 +2281,37 @@ items:
       type: System.DateTime
     content.vb: Public Overridable Property LastFetch As Date
   overload: SuperOffice.CRM.Rows.EmailAccountRow.LastFetch*
+- uid: SuperOffice.CRM.Rows.EmailAccountRow.UseGraphApi
+  commentId: P:SuperOffice.CRM.Rows.EmailAccountRow.UseGraphApi
+  id: UseGraphApi
+  parent: SuperOffice.CRM.Rows.EmailAccountRow
+  langs:
+  - csharp
+  - vb
+  name: UseGraphApi
+  nameWithType: EmailAccountRow.UseGraphApi
+  fullName: SuperOffice.CRM.Rows.EmailAccountRow.UseGraphApi
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: '.NET type: short. Use the GraphApi for this account'
+  remarks: >-
+    Original type in dictionary:  Bool.
+
+    <p>Setting this field to a new value will not affect the Sentry calculations and your rights</p>
+
+    <p>This field is not protected by the Sentry system, and can always be read</p>
+
+    <p>This field is not protected by the Sentry system, and can be written to unless other restrictions prevent it</p>
+  example: []
+  syntax:
+    content: public virtual short UseGraphApi { get; set; }
+    parameters: []
+    return:
+      type: System.Int16
+    content.vb: Public Overridable Property UseGraphApi As Short
+  overload: SuperOffice.CRM.Rows.EmailAccountRow.UseGraphApi*
 references:
 - uid: SuperOffice.CRM.Rows.EmailAccountRow.CreateNew
   commentId: M:SuperOffice.CRM.Rows.EmailAccountRow.CreateNew
@@ -4273,6 +4350,75 @@ references:
     isExternal: true
     href: SuperOffice.CRM.Rows.EmailAccountRow.html
   - name: )
+- uid: SuperOffice.Data.SQL.SqlCommand.SuperOffice.Data.QueryExectionExtensions.ExecuteBatchedReaderAsync(System.Boolean,System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Data.QueryExectionExtensions.ExecuteBatchedReaderAsync(SuperOffice.Data.SQL.SqlCommand,System.Boolean,System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.Data.QueryExectionExtensions
+  definition: SuperOffice.Data.QueryExectionExtensions.ExecuteBatchedReaderAsync(SuperOffice.Data.SQL.SqlCommand,System.Boolean,System.Int32,System.Threading.CancellationToken)
+  href: SuperOffice.Data.QueryExectionExtensions.html#SuperOffice_Data_QueryExectionExtensions_ExecuteBatchedReaderAsync_SuperOffice_Data_SQL_SqlCommand_System_Boolean_System_Int32_System_Threading_CancellationToken_
+  name: ExecuteBatchedReaderAsync(SqlCommand, bool, int, CancellationToken)
+  nameWithType: QueryExectionExtensions.ExecuteBatchedReaderAsync(SqlCommand, bool, int, CancellationToken)
+  fullName: SuperOffice.Data.QueryExectionExtensions.ExecuteBatchedReaderAsync(SuperOffice.Data.SQL.SqlCommand, bool, int, System.Threading.CancellationToken)
+  nameWithType.vb: QueryExectionExtensions.ExecuteBatchedReaderAsync(SqlCommand, Boolean, Integer, CancellationToken)
+  fullName.vb: SuperOffice.Data.QueryExectionExtensions.ExecuteBatchedReaderAsync(SuperOffice.Data.SQL.SqlCommand, Boolean, Integer, System.Threading.CancellationToken)
+  name.vb: ExecuteBatchedReaderAsync(SqlCommand, Boolean, Integer, CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.Data.QueryExectionExtensions.ExecuteBatchedReaderAsync(SuperOffice.Data.SQL.SqlCommand,System.Boolean,System.Int32,System.Threading.CancellationToken)
+    name: ExecuteBatchedReaderAsync
+    isExternal: true
+    href: SuperOffice.Data.QueryExectionExtensions.html#SuperOffice_Data_QueryExectionExtensions_ExecuteBatchedReaderAsync_SuperOffice_Data_SQL_SqlCommand_System_Boolean_System_Int32_System_Threading_CancellationToken_
+  - name: (
+  - uid: SuperOffice.Data.SQL.SqlCommand
+    name: SqlCommand
+    isExternal: true
+    href: SuperOffice.Data.SQL.SqlCommand.html
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Data.QueryExectionExtensions.ExecuteBatchedReaderAsync(SuperOffice.Data.SQL.SqlCommand,System.Boolean,System.Int32,System.Threading.CancellationToken)
+    name: ExecuteBatchedReaderAsync
+    isExternal: true
+    href: SuperOffice.Data.QueryExectionExtensions.html#SuperOffice_Data_QueryExectionExtensions_ExecuteBatchedReaderAsync_SuperOffice_Data_SQL_SqlCommand_System_Boolean_System_Int32_System_Threading_CancellationToken_
+  - name: (
+  - uid: SuperOffice.Data.SQL.SqlCommand
+    name: SqlCommand
+    isExternal: true
+    href: SuperOffice.Data.SQL.SqlCommand.html
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
 - uid: SuperOffice.Data.SQL.SqlCommand.SuperOffice.Data.QueryExectionExtensions.ExecuteNonQuery
   commentId: M:SuperOffice.Data.QueryExectionExtensions.ExecuteNonQuery(SuperOffice.Data.SQL.SqlCommand)
   parent: SuperOffice.Data.QueryExectionExtensions
@@ -4917,6 +5063,82 @@ references:
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Data.QueryExectionExtensions.ExecuteBatchedReaderAsync(SuperOffice.Data.SQL.SqlCommand,System.Boolean,System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Data.QueryExectionExtensions.ExecuteBatchedReaderAsync(SuperOffice.Data.SQL.SqlCommand,System.Boolean,System.Int32,System.Threading.CancellationToken)
+  isExternal: true
+  href: SuperOffice.Data.QueryExectionExtensions.html#SuperOffice_Data_QueryExectionExtensions_ExecuteBatchedReaderAsync_SuperOffice_Data_SQL_SqlCommand_System_Boolean_System_Int32_System_Threading_CancellationToken_
+  name: ExecuteBatchedReaderAsync(SqlCommand, bool, int, CancellationToken)
+  nameWithType: QueryExectionExtensions.ExecuteBatchedReaderAsync(SqlCommand, bool, int, CancellationToken)
+  fullName: SuperOffice.Data.QueryExectionExtensions.ExecuteBatchedReaderAsync(SuperOffice.Data.SQL.SqlCommand, bool, int, System.Threading.CancellationToken)
+  nameWithType.vb: QueryExectionExtensions.ExecuteBatchedReaderAsync(SqlCommand, Boolean, Integer, CancellationToken)
+  fullName.vb: SuperOffice.Data.QueryExectionExtensions.ExecuteBatchedReaderAsync(SuperOffice.Data.SQL.SqlCommand, Boolean, Integer, System.Threading.CancellationToken)
+  name.vb: ExecuteBatchedReaderAsync(SqlCommand, Boolean, Integer, CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.Data.QueryExectionExtensions.ExecuteBatchedReaderAsync(SuperOffice.Data.SQL.SqlCommand,System.Boolean,System.Int32,System.Threading.CancellationToken)
+    name: ExecuteBatchedReaderAsync
+    isExternal: true
+    href: SuperOffice.Data.QueryExectionExtensions.html#SuperOffice_Data_QueryExectionExtensions_ExecuteBatchedReaderAsync_SuperOffice_Data_SQL_SqlCommand_System_Boolean_System_Int32_System_Threading_CancellationToken_
+  - name: (
+  - uid: SuperOffice.Data.SQL.SqlCommand
+    name: SqlCommand
+    isExternal: true
+    href: SuperOffice.Data.SQL.SqlCommand.html
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Data.QueryExectionExtensions.ExecuteBatchedReaderAsync(SuperOffice.Data.SQL.SqlCommand,System.Boolean,System.Int32,System.Threading.CancellationToken)
+    name: ExecuteBatchedReaderAsync
+    isExternal: true
+    href: SuperOffice.Data.QueryExectionExtensions.html#SuperOffice_Data_QueryExectionExtensions_ExecuteBatchedReaderAsync_SuperOffice_Data_SQL_SqlCommand_System_Boolean_System_Int32_System_Threading_CancellationToken_
+  - name: (
+  - uid: SuperOffice.Data.SQL.SqlCommand
+    name: SqlCommand
+    isExternal: true
+    href: SuperOffice.Data.SQL.SqlCommand.html
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: SuperOffice.Data.QueryExectionExtensions
+  commentId: T:SuperOffice.Data.QueryExectionExtensions
+  parent: SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.Data.QueryExectionExtensions.html
+  name: QueryExectionExtensions
+  nameWithType: QueryExectionExtensions
+  fullName: SuperOffice.Data.QueryExectionExtensions
 - uid: SuperOffice.Data.QueryExectionExtensions.ExecuteNonQuery(SuperOffice.Data.SQL.SqlCommand)
   commentId: M:SuperOffice.Data.QueryExectionExtensions.ExecuteNonQuery(SuperOffice.Data.SQL.SqlCommand)
   isExternal: true
@@ -4946,14 +5168,6 @@ references:
     isExternal: true
     href: SuperOffice.Data.SQL.SqlCommand.html
   - name: )
-- uid: SuperOffice.Data.QueryExectionExtensions
-  commentId: T:SuperOffice.Data.QueryExectionExtensions
-  parent: SuperOffice.Data
-  isExternal: true
-  href: SuperOffice.Data.QueryExectionExtensions.html
-  name: QueryExectionExtensions
-  nameWithType: QueryExectionExtensions
-  fullName: SuperOffice.Data.QueryExectionExtensions
 - uid: SuperOffice.Data.QueryExectionExtensions.ExecuteNonQueryAsync(SuperOffice.Data.SQL.SqlCommand,System.Threading.CancellationToken)
   commentId: M:SuperOffice.Data.QueryExectionExtensions.ExecuteNonQueryAsync(SuperOffice.Data.SQL.SqlCommand,System.Threading.CancellationToken)
   isExternal: true
@@ -5459,6 +5673,13 @@ references:
   name: LastFetch
   nameWithType: EmailAccountRow.LastFetch
   fullName: SuperOffice.CRM.Rows.EmailAccountRow.LastFetch
+- uid: SuperOffice.CRM.Rows.EmailAccountRow.UseGraphApi
+  commentId: P:SuperOffice.CRM.Rows.EmailAccountRow.UseGraphApi
+  isExternal: true
+  href: SuperOffice.CRM.Rows.EmailAccountRow.html#SuperOffice_CRM_Rows_EmailAccountRow_UseGraphApi
+  name: UseGraphApi
+  nameWithType: EmailAccountRow.UseGraphApi
+  fullName: SuperOffice.CRM.Rows.EmailAccountRow.UseGraphApi
 - uid: SuperOffice.CRM.Rows.TableRowBase.InternalSetValue(System.String,System.Object)
   commentId: M:SuperOffice.CRM.Rows.TableRowBase.InternalSetValue(System.String,System.Object)
   parent: SuperOffice.CRM.Rows.TableRowBase
@@ -6487,3 +6708,10 @@ references:
   name: LastFetch
   nameWithType: EmailAccountRow.LastFetch
   fullName: SuperOffice.CRM.Rows.EmailAccountRow.LastFetch
+- uid: SuperOffice.CRM.Rows.EmailAccountRow.UseGraphApi*
+  commentId: Overload:SuperOffice.CRM.Rows.EmailAccountRow.UseGraphApi
+  isExternal: true
+  href: SuperOffice.CRM.Rows.EmailAccountRow.html#SuperOffice_CRM_Rows_EmailAccountRow_UseGraphApi
+  name: UseGraphApi
+  nameWithType: EmailAccountRow.UseGraphApi
+  fullName: SuperOffice.CRM.Rows.EmailAccountRow.UseGraphApi

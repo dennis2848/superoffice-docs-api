@@ -26,12 +26,14 @@ items:
   - SuperOffice.WebApi.Agents.IProjectAgent.GetNextProjectStatusAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IProjectAgent.GetProjectAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IProjectAgent.GetProjectEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IProjectAgent.GetProjectEntityWithoutMembersAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IProjectAgent.GetProjectEventAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IProjectAgent.GetProjectEventEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IProjectAgent.GetProjectEventEntityFromProjectIdAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IProjectAgent.GetProjectEventListAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IProjectAgent.GetProjectEventOnPersonAsync(System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IProjectAgent.GetProjectEventsOnPersonAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IProjectAgent.GetProjectFencingInfoAsync(SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IProjectAgent.GetProjectImageAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IProjectAgent.GetProjectListAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IProjectAgent.GetProjectMemberAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
@@ -48,6 +50,7 @@ items:
   - SuperOffice.WebApi.Agents.IProjectAgent.MergeAsync(System.Int32,System.Int32,System.Boolean,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IProjectAgent.OfferAutoNextStatusOnApppointmentCompletedAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IProjectAgent.SaveProjectEntityAsync(SuperOffice.WebApi.Data.ProjectEntity,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IProjectAgent.SaveProjectEntityWithoutMembersAsync(SuperOffice.WebApi.Data.ProjectEntity,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IProjectAgent.SaveProjectEventEntityAsync(SuperOffice.WebApi.Data.ProjectEventEntity,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IProjectAgent.SaveProjectMemberAsync(SuperOffice.WebApi.Data.ProjectMember,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IProjectAgent.SaveProjectMembersFunctionAndCommentAsync(System.Int32[],System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
@@ -523,7 +526,7 @@ items:
       description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task{System.Byte[]}
-      description: The image as a System.Drawing.Image. (If the the image is returned over webservices, the stream is returned as a Base64 encoded string.)
+      description: The project image.
     content.vb: Function GetProjectImageAsync(projectId As Integer, returnContentType As String = "application/octet-stream", requestOptions As RequestOptions = Nothing) As Task(Of Byte())
   overload: SuperOffice.WebApi.Agents.IProjectAgent.GetProjectImageAsync*
   nameWithType.vb: IProjectAgent.GetProjectImageAsync(Integer, String, RequestOptions)
@@ -553,7 +556,7 @@ items:
       description: The project id of the project the image belongs to.
     - id: image
       type: System.Byte[]
-      description: The image that is stored on the project (System.Drawing.Image)
+      description: The project image.
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
       description: Override language/culture codes on this request.
@@ -1027,6 +1030,96 @@ items:
   nameWithType.vb: IProjectAgent.SetCompletedAsync(Integer, Boolean, RequestOptions)
   fullName.vb: SuperOffice.WebApi.Agents.IProjectAgent.SetCompletedAsync(Integer, Boolean, SuperOffice.WebApi.RequestOptions)
   name.vb: SetCompletedAsync(Integer, Boolean, RequestOptions)
+- uid: SuperOffice.WebApi.Agents.IProjectAgent.GetProjectEntityWithoutMembersAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IProjectAgent.GetProjectEntityWithoutMembersAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: GetProjectEntityWithoutMembersAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IProjectAgent
+  langs:
+  - csharp
+  - vb
+  name: GetProjectEntityWithoutMembersAsync(int, RequestOptions)
+  nameWithType: IProjectAgent.GetProjectEntityWithoutMembersAsync(int, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IProjectAgent.GetProjectEntityWithoutMembersAsync(int, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: Get a project entity with no project members. Project members property is always an empty array.
+  example: []
+  syntax:
+    content: Task<ProjectEntity> GetProjectEntityWithoutMembersAsync(int projectId, RequestOptions requestOptions = null)
+    parameters:
+    - id: projectId
+      type: System.Int32
+      description: The project id of the project.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: Override language/culture codes on this request.
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ProjectEntity}
+      description: Project entity with the specified id. The project members property is always an empty array.
+    content.vb: Function GetProjectEntityWithoutMembersAsync(projectId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of ProjectEntity)
+  overload: SuperOffice.WebApi.Agents.IProjectAgent.GetProjectEntityWithoutMembersAsync*
+  nameWithType.vb: IProjectAgent.GetProjectEntityWithoutMembersAsync(Integer, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IProjectAgent.GetProjectEntityWithoutMembersAsync(Integer, SuperOffice.WebApi.RequestOptions)
+  name.vb: GetProjectEntityWithoutMembersAsync(Integer, RequestOptions)
+- uid: SuperOffice.WebApi.Agents.IProjectAgent.SaveProjectEntityWithoutMembersAsync(SuperOffice.WebApi.Data.ProjectEntity,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IProjectAgent.SaveProjectEntityWithoutMembersAsync(SuperOffice.WebApi.Data.ProjectEntity,SuperOffice.WebApi.RequestOptions)
+  id: SaveProjectEntityWithoutMembersAsync(SuperOffice.WebApi.Data.ProjectEntity,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IProjectAgent
+  langs:
+  - csharp
+  - vb
+  name: SaveProjectEntityWithoutMembersAsync(ProjectEntity, RequestOptions)
+  nameWithType: IProjectAgent.SaveProjectEntityWithoutMembersAsync(ProjectEntity, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IProjectAgent.SaveProjectEntityWithoutMembersAsync(SuperOffice.WebApi.Data.ProjectEntity, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: Save a project entity, the project members are ignored.
+  example: []
+  syntax:
+    content: Task<ProjectEntity> SaveProjectEntityWithoutMembersAsync(ProjectEntity projectEntity, RequestOptions requestOptions = null)
+    parameters:
+    - id: projectEntity
+      type: SuperOffice.WebApi.Data.ProjectEntity
+      description: The project entity to save. Any set project members are ignored.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: Override language/culture codes on this request.
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ProjectEntity}
+      description: The saved project entity without any project members. The project members property is always an empty array.
+    content.vb: Function SaveProjectEntityWithoutMembersAsync(projectEntity As ProjectEntity, requestOptions As RequestOptions = Nothing) As Task(Of ProjectEntity)
+  overload: SuperOffice.WebApi.Agents.IProjectAgent.SaveProjectEntityWithoutMembersAsync*
+- uid: SuperOffice.WebApi.Agents.IProjectAgent.GetProjectFencingInfoAsync(SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IProjectAgent.GetProjectFencingInfoAsync(SuperOffice.WebApi.RequestOptions)
+  id: GetProjectFencingInfoAsync(SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IProjectAgent
+  langs:
+  - csharp
+  - vb
+  name: GetProjectFencingInfoAsync(RequestOptions)
+  nameWithType: IProjectAgent.GetProjectFencingInfoAsync(RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IProjectAgent.GetProjectFencingInfoAsync(SuperOffice.WebApi.RequestOptions)
+  type: Method
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: Get the current project fencing status for the tenant
+  example: []
+  syntax:
+    content: Task<FencingInfo> GetProjectFencingInfoAsync(RequestOptions requestOptions = null)
+    parameters:
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: Override language/culture codes on this request.
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.FencingInfo}
+      description: Current fencing status including count, maximum, and warning state
+    content.vb: Function GetProjectFencingInfoAsync(requestOptions As RequestOptions = Nothing) As Task(Of FencingInfo)
+  overload: SuperOffice.WebApi.Agents.IProjectAgent.GetProjectFencingInfoAsync*
 - uid: SuperOffice.WebApi.Agents.IProjectAgent.GetProjectEventAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IProjectAgent.GetProjectEventAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   id: GetProjectEventAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
@@ -2816,6 +2909,62 @@ references:
   name: SetCompletedAsync
   nameWithType: IProjectAgent.SetCompletedAsync
   fullName: SuperOffice.WebApi.Agents.IProjectAgent.SetCompletedAsync
+- uid: SuperOffice.WebApi.Agents.IProjectAgent.GetProjectEntityWithoutMembersAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IProjectAgent.GetProjectEntityWithoutMembersAsync
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.IProjectAgent.html#SuperOffice_WebApi_Agents_IProjectAgent_GetProjectEntityWithoutMembersAsync_System_Int32_SuperOffice_WebApi_RequestOptions_
+  name: GetProjectEntityWithoutMembersAsync
+  nameWithType: IProjectAgent.GetProjectEntityWithoutMembersAsync
+  fullName: SuperOffice.WebApi.Agents.IProjectAgent.GetProjectEntityWithoutMembersAsync
+- uid: SuperOffice.WebApi.Agents.IProjectAgent.SaveProjectEntityWithoutMembersAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IProjectAgent.SaveProjectEntityWithoutMembersAsync
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.IProjectAgent.html#SuperOffice_WebApi_Agents_IProjectAgent_SaveProjectEntityWithoutMembersAsync_SuperOffice_WebApi_Data_ProjectEntity_SuperOffice_WebApi_RequestOptions_
+  name: SaveProjectEntityWithoutMembersAsync
+  nameWithType: IProjectAgent.SaveProjectEntityWithoutMembersAsync
+  fullName: SuperOffice.WebApi.Agents.IProjectAgent.SaveProjectEntityWithoutMembersAsync
+- uid: SuperOffice.WebApi.Agents.IProjectAgent.GetProjectFencingInfoAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IProjectAgent.GetProjectFencingInfoAsync
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.IProjectAgent.html#SuperOffice_WebApi_Agents_IProjectAgent_GetProjectFencingInfoAsync_SuperOffice_WebApi_RequestOptions_
+  name: GetProjectFencingInfoAsync
+  nameWithType: IProjectAgent.GetProjectFencingInfoAsync
+  fullName: SuperOffice.WebApi.Agents.IProjectAgent.GetProjectFencingInfoAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.FencingInfo}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.FencingInfo}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<FencingInfo>
+  nameWithType: Task<FencingInfo>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.FencingInfo>
+  nameWithType.vb: Task(Of FencingInfo)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.FencingInfo)
+  name.vb: Task(Of FencingInfo)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.WebApi.Data.FencingInfo
+    name: FencingInfo
+    isExternal: true
+    href: SuperOffice.WebApi.Data.FencingInfo.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.WebApi.Data.FencingInfo
+    name: FencingInfo
+    isExternal: true
+    href: SuperOffice.WebApi.Data.FencingInfo.html
+  - name: )
 - uid: SuperOffice.WebApi.Agents.IProjectAgent.GetProjectEventAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IProjectAgent.GetProjectEventAsync
   isExternal: true

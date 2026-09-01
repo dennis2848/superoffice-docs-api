@@ -4,12 +4,13 @@ title: Work with email addresses
 description: Work with email addresses
 keywords: email address
 author: Bergfrid Dias
-date: 03.16.2023
-version: 10.5
+date: 06.10.2026
+version: 12.0
 content_type: concept
 category: service
 topic: knowledge base
 license: servicepremium
+tier: growth
 functional_right: knowledge-base
 audience: person
 audience_tooltip: SuperOffice Service
@@ -23,8 +24,7 @@ redirect_from:
 
 You can create a list of email addresses that you often use, but which are not registered for users or contacts in SuperOffice Service. For example, suppliers, partners, or product specialists. These addresses are accessible in most places where you send emails, such as in the **New request** and **Add message** screens.
 
-> [!NOTE]
-> This feature requires the Service-Premium user plan.
+[!include[Requirement](../../includes/req-growth-transition-service.md)]
 
 ## List email addresses
 
@@ -46,7 +46,7 @@ If you want details of the registered email addresses, go to <i class="ph ph-lis
 
 1. In the **Email address** field, enter the person's email address.
 
-1. In the **Mobile phone number** field, you can enter their mobile number. This can be used to send messages by SMS. (ONLINE only)
+1. In the **Mobile phone number** field, you can enter their mobile number. This can be used to send messages by SMS.
 
 1. Click **OK**. The email address is added to the specified folder and available the next time you want to send an email.
 

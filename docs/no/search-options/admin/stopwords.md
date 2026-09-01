@@ -4,12 +4,13 @@ title: Stoppord
 description: Stoppord
 keywords: fritekst, søk, stoppord
 author: digitaldiina
-date: 10.17.2025
-version: 11.5
+date: 05.04.2026
+version: 11.13
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 index: true
+tier: starter
 language: no
 redirect_from: /no/admin/options/learn/freetext-search/stopwords
 ---
@@ -20,16 +21,9 @@ Et stoppord er et ord som ikke indekseres (ikke inkluderes i fritekstsøk). Dett
 
 De ordene som er definert som stoppord for fritekstsøk, vises i tabellen under **Stoppordliste** i fanen **Fritekstsøk** i Systemvalg-bildet.
 
-## Før du begynner
+## Legge til stoppord
 
 1. [!include[Go to freetext search tab](includes/goto-freetext.md)]
-
-1. I lokale installasjoner må du kontrollere at alternativet **Aktiver fritekstsøk** er valgt. I CRM Online er dette alternativet alltid aktivert.
-
-> [!TIP]
-> Hvis du vil at endringene dine skal ha tilbakevirkende kraft, må du [generere fritekstindeksen på nytt][3]. Gjør dette etter at du har lagt til stoppord, etter at systemet har foreslått stoppord, eller etter at du har importert en stor mengde tekst.
-
-## Legge til stoppord
 
 1. Klikk på **Legg til**-knappen under stoppordlisten.
 
@@ -60,8 +54,5 @@ Hensikten med å slette stoppord er å inkludere dem i fritekstsøk likevel, ett
 1. Merk ønsket stoppord.
 
 1. Klikk på **Slett**-knappen under stoppordlisten.
-
-<!-- Referenced links -->
-[3]: regenerate-index.md
 
 <!-- Referenced images -->

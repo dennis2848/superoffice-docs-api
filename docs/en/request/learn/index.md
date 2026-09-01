@@ -3,15 +3,16 @@ uid: help-en-request
 title: Requests
 description: Introduction to requests in SuperOffice
 keywords: request management, request, ticket, service
-author: Bergfrid Dias
-date: 09.01.2025
-version: 11.3
+author: digitaldiina
+date: 06.10.2026
+version: 12.0
 content_type: concept
 license: serviceessentials
+tier: starter
 audience: person
 audience_tooltip: SuperOffice Service
 language: en
-redirect_from: 
+redirect_from:
   - /en/request/learn/screen/index
   - /en/request/learn/screen/ticket-log
 ---
@@ -20,7 +21,7 @@ redirect_from:
 
 Our ticketing system allows you to efficiently handle incoming requests and helps you offer outstanding customer service every day. This selection of how-to guides contains guidelines to help you keep track of, answer and analyze all incoming questions and inquiries using SuperOffice Service. No matter whether they come in by phone, email, chat, web form, or other channels.
 
-**Requests** is one of the main features of SuperOffice. Here you manage requests and enquiries that are in the system. You can also create internal and external requests, respond to incoming enquiries and obtain an overview of the statuses of all requests in the system. Click the **Requests** button (<i class="ph ph-ticket" aria-hidden="true"></i>) to open the Requests screen or click the **Requests** text to open the navigator options with search, history and favourites.
+**Requests** is one of the main features of SuperOffice. Here you manage requests and enquiries that are in the system. You can also create internal and external requests, respond to incoming enquiries and obtain an overview of the statuses of all requests in the system. Click the **Requests** button (<i class="ph ph-ticket" aria-hidden="true"></i>) to open the Requests screen or click the **Requests** text to open the navigator options with search, history and favorites.
 
 Each question and query can be defined as a request. These questions range from support issues, questions about the product and services, or questions about invoices. Whenever a request comes in, you want to handle them as quickly and efficiently as possible and professional customer service.
 
@@ -49,6 +50,7 @@ The Request screen has the following sections:
 * Below the header is a row of buttons for performing tasks associated with requests, such as Reply, Reply all, Forward, and Add comment.
 * The **Messages** tab displays the messages related to the request.
 * The **Details** tab contains an overview of the data registered for the request.
+* The **Relations** tab shows [linked requests][21] (parent, child, or related).
 * The **Change log** tab contains the history of this request. The request log shows everything that has happened to this request since it was first registered.
 
 ### Request header
@@ -97,6 +99,9 @@ At the top of the **Messages** tab, you can send replies and forward messages, a
 The **Details** tab contains an overview of all the fields for the request.
 
 ### <a id="log"></a>Change log
+
+> [!NOTE]
+> The Change log requires a **Service Premium** license or the **Growth** plan.
 
 This screen shows the log for this request. All events are recorded, including when they occurred, what happened and who was responsible.
 
@@ -150,6 +155,7 @@ A contact service system is all about providing your contacts the answers they a
 * [Forward messages or multiple requests to external parties][8]
 * [Add requests to the favorites list][18]
 * [Close requests][3]
+* [Mark requests as spam][27]
 
 Different companies have different routines for request handling and can use SuperOffice Service in different ways. Below we have set up two real-life scenarios showing some of the available options. These scenarios will show you how you can reply efficiently when a contact has submitted a request by email and when a contact calls in with a problem or a question.
 
@@ -199,6 +205,20 @@ You can customize requests to suit your workflow:
 
 1. Click **Save** to apply your changes.
 
+## <a id="available"></a>Your availability status
+
+Your availability status determines whether you receive requests through automatic assignment. It also affects the assignment of contacts.
+
+To update your status, click <i class="ph ph-user-circle" aria-hidden="true"></i> **Personal settings** in the top bar and select **Your availability status**.
+
+* **Present:** You are available for automatic assignment of requests and contacts.
+* **Not present:** New requests will not be assigned to you. Your out-of-office message will be shown next to your name when someone manually assigns an item.
+
+> [!TIP]
+> If an agent forgets to update their status or is unexpectedly absent, an administrator can change the agent's availability status on their behalf in **Settings and maintenance** > **Users**.
+
+How requests are redistributed when a user is not present depends on the [assignment method][6] configured for the category.
+
 ## Global preferences
 
 Administrators can customize Service for all users in Settings and maintenance.
@@ -240,6 +260,7 @@ Some settings that affect support agents include:
 [16]: merge.md
 [17]: ../../dashboard/learn/show-requests.md
 [19]: split-message.md
+[21]: request-relations.md
 [22]: tags.md
 [24]: ../admin/priority/escalation-levels.md
 [25]: ../admin/category/index.md
@@ -250,6 +271,7 @@ Some settings that affect support agents include:
 [18]: ../../learn/basics/fav.md
 [23]: ../../knowledge-base/learn/reply-templates/index.md
 [26]: ../../admin/preferences/service-settings.md
+[27]: spam.md
 
 [20]: https://community.superoffice.com/en/learning/best-practices-tips/service/7-tips-to-provide-best-in-class-customer-service-with-superoffice-service/
 

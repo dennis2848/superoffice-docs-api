@@ -1,14 +1,15 @@
-﻿---
+---
 uid: help-no-marketing
 title: SuperOffice Marketing
 description: Funksjonene for markedsføring inkluderer utsendelser og webskjemaer, og hjelper brukerne med å samle inn informasjon og kommunisere bedre med potensielle kunder og kunder. Kombinert kan de hjelpe deg med å generere flere potensielle salgsmuligheter, selge mer til eksisterende kunder og bygge kundelojalitet.
 keywords: Markedsføring
 author: SuperOffice Product and Engineering
-date: 09.26.2025
-version: 10.5
+date: 06.10.2026
+version: 12.0
 content_type: concept
 category: marketing
 license: marketingessentials
+tier: growth
 audience: person
 audience_tooltip: SuperOffice Marketing
 redirect_from: /no/marketing/learn/screen/index
@@ -69,7 +70,7 @@ Det er tre hovedområder der GDPR påvirker arbeidet til markedsførere:
 ## Krav
 
 > [!NOTE]
-> Sporede koblinger og rapporteringsfunksjoner krever Marketing User-lisensen. Du trenger også funksjonelle rettigheter for å kunne redigere og sende utsendelser.
+> Sporede koblinger og rapporteringsfunksjoner krever en **Marketing Essentials**-lisens eller **Growth**-planen. Du trenger også funksjonelle rettigheter for å kunne redigere og sende utsendelser.
 
 ## Nødvendige kunnskaper
 
@@ -91,10 +92,6 @@ For å kunne dra nytte av markedsføringsfunksjonene i SuperOffice trenger du en
 | Kundereiseautomatisering​ | | x |
 | Kryss-salg og opp-salg​ | | x |
 | Markedsføring/salg samarbeid​ | x | x |
-
-## Forskjeller mellom installasjoner på stedet og på nettet
-
-SuperOffice Marketing tilbys som et nettbasert program (skybasert) og som et lokalt program (installert hos kunden). Det finnes mindre forskjeller mellom de to. Spesifikke funksjonsforskjeller er markert med ikonene i selve fremgangsmåtene eller i emnetitler.
 
 ## Faner i SuperOffice Marketing
 

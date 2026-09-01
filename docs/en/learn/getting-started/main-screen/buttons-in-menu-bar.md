@@ -3,10 +3,11 @@ uid: help-en-ui-top-bar
 title: Buttons on the top bar
 description: Buttons on the top bar
 keywords: top bar, button, Personal settings menu, Main menu options
-author: Kirsti Aakerholt, Bergfrid Dias
-date: 09.17.2025
-version: 11.3
+author: Kirsti Aakerholt, digitaldiina
+date: 05.04.2026
+version: 11.13
 content_type: reference
+tier: starter
 audience: person
 audience_tooltip: SuperOffice CRM
 language: en
@@ -26,7 +27,7 @@ The **top bar** contains essential tools for navigating SuperOffice CRM. The but
 | <i class="ph ph-bell" aria-label="Bell icon"></i> | [**Notifications**][9] | View new notifications, such as invitations, assigned requests, and approved sales. Click a notification to open the associated record. |
 | <i class="ph ph-user-circle" aria-label="Contact icon"></i> | **Personal settings** | Edit preferences, email signatures, and passwords. Displays your profile image if added to your contact card. |
 | <i class="ph ph-list" aria-label="Main menu"></i> | **Main menu** | Access general system settings, switch between modules, or launch other applications. |
-| <i class="ph ph-lightbulb" aria-label="Lightbulb icon"></i> | **In-app Resource Centre** | Open guided tours, user guide, and inspiration resources (online only). |
+| <i class="ph ph-lightbulb" aria-label="Lightbulb icon"></i> | **In-app Resource Centre** | Open guided tours, user guide, and inspiration resources |
 | **Help** | **Help** | Access user guides and information tailored to the current task or module. |
 
 ## Personal settings menu options
@@ -36,7 +37,7 @@ The **top bar** contains essential tools for navigating SuperOffice CRM. The but
 | **Preferences** | Adjust [personal preferences][6], such as default values, sorting, and visual effects. |
 | **Edit personal signature** | Edit the [email signature][7] used in outgoing emails or requests. |
 | **Email options** | Configure inbox settings. |
-| **Your availability status** | Choose whether you are available for automatic assignment of requests and contacts. If you set your status to *Not present*, new requests will not be assigned to you, and your out of office message will be shown next to your name when someone manually assigns an item. |
+| **Your availability status** | Choose whether you are [available for automatic assignment of requests and contacts][18]. If you set your status to *Not present*, new requests will not be assigned to you, and your out of office message will be shown next to your name when someone manually assigns an item. |
 | **Show my contact info** | Open your contact card to edit details like phone numbers or title. |
 | **Local settings** | Change app language, number/date format, and email client settings. |
 | **Get the mobile app** | Configure settings for SuperOffice Mobile CRM. |
@@ -94,5 +95,6 @@ The **top bar** contains essential tools for navigating SuperOffice CRM. The but
 [10]: ../../../search-options/learn/freetext-search.md
 [15]: ../../basics/creating-shortcuts-to-entries-in-crm.md
 [17]: ../../../sale/learn/sales-targets/index.md
+[18]: ../../../request/learn/index.md#available
 
 <!-- Referenced images -->

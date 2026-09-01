@@ -76,7 +76,7 @@ Appointment selection archive using the selectionId as criterionmapping.
 |contact/contactId|int|Company ID: Database ID of company| x |
 |contact/name|stringorPK|Company name| x |
 |contact/department|string|Department| x |
-|contact/nameDepartment| *None* |Company: Displays the company an activity is linked to| x |
+|contact/nameDepartment|string|Company: Displays the company an activity is linked to| x |
 |contact/hasInfoText|bool|Has note: Displays an icon indicating if there is additional information available about the contact| x |
 |contact/hasInterests|bool|Has interests: Displays an Icon indicating if the contact has active interests| x |
 |contact/associateId|associate|Our contact: Displays our contact| x |
@@ -262,7 +262,7 @@ Appointment selection archive using the selectionId as criterionmapping.
 |person/firstName|string|First name: Displays the contact's first name| x |
 |person/lastName|string|Last name: Displays the contact's last name| x |
 |person/middleName|string|Middle name: Displays the contact's middle name.| x |
-|person/fullName|stringorPK|Contact: Displays the contact to which an item is linked| x |
+|person/fullName|string|Contact: Displays the contact to which an item is linked| x |
 |person/contactId|int|Company ID: Database ID of company| x |
 |person/hasInfoText|bool|Has note: Displays an icon indicating if there is additional information available about the contact| x |
 |person/hasInterests|bool|Has interests: Displays an Icon indicating if the contact has active interests| x |
@@ -512,6 +512,8 @@ Appointment selection archive using the selectionId as criterionmapping.
 |project/endDate|date|End date: End date of project| x |
 |project/imageThumbnail| *None* |Thumbnail: Scaled-down image of project image|  |
 |project/activeErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
+|project/eventId|int|Event ID: Event ID| x |
+|project/startDate|date|Start date: Project start date| x |
 |project/projectPublish/isPublished|bool|Published: Displays an icon indicating if the project or sale has been published| x |
 |project/projectPublish/publishedFrom|date|From date: Start date for publishing. The record will not be visible prior to this date| x |
 |project/projectPublish/publishedTo|date|To date: End date for publishing. The record will not be visible after this date| x |
@@ -535,12 +537,12 @@ Appointment selection archive using the selectionId as criterionmapping.
 |project/projectAssociate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
 |project/projectAssociate/usergroup|userGroup|Primary group: The user's primary user group| x |
 |project/projectAssociate/usergroupId|int|Group ID: The user's primary user group| x |
-|project/projectAssociate/contactFullName|string|Owner: Name and department of the company the user belongs to| x |
-|project/projectAssociate/contactCategory|listAny|Category: Category| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|project/projectAssociate/contactFullName|string|Owner: Name and department of the company the user belongs to| x |
+|project/projectAssociate/contactCategory|listAny|Category: Category| x |
 |project/projectAssociate/role|listAny|Role : Role| x |
 |project/projectAssociate/assocName|associate|User ID : User ID| x |
 |project/projectAssociate/assocTooltip|string|Description : Description|  |
@@ -639,12 +641,12 @@ Appointment selection archive using the selectionId as criterionmapping.
 |sale/saleTypeCategory|listAny|Sale type category: Sale type category| x |
 |sale/soldReason|listAny|Reason (sold: Reason (sold)| x |
 |sale/saleNumber|string|Number: Number| x |
-|sale/hasStakeholders|bool|Has stakeholders: Does this sale have stakeholders| x |
-|sale/stakeholdersEnabled|bool|Stakeholders enabled: Possibility to add stakeholders to the sale| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|sale/hasStakeholders|bool|Has stakeholders: Does this sale have stakeholders| x |
+|sale/stakeholdersEnabled|bool|Stakeholders enabled: Possibility to add stakeholders to the sale| x |
 |sale/hasQuote|bool|Has quote?: Does the sale have a quote attached?| x |
 |sale/hasGuide|bool|Guided: Does this sale have a Sales Guide| x |
 |sale/description|string|Description: The long description field on Sale|  |
@@ -652,7 +654,8 @@ Appointment selection archive using the selectionId as criterionmapping.
 |sale/createdByWorkflow|listAny|Created by flow: Created by flow| x |
 |sale/amountInBaseCurrency| *None* |Amount (BaseCurrency: The gross sales total| x |
 |sale/amountWeightedInBaseCurrency| *None* |Weighted amount (BaseCurrency: Virtual field calculated from amount * probability percent.| x |
-|sale/daysInStage| *None* |Days in stage: Total number of days in this stage| x |
+|sale/daysInStage|int|Days in stage: Total number of days in this stage| x |
+|sale/saleCycle|int|Sale cycle: Number of days from a sale was registered until it was closed (sold or lost)| x |
 |sale/visibleFor|listAny|Visible for|  |
 |sale/sale/textId|int|Text ID| x |
 |sale/sale/description|positiveString|Text: Displays the text entered in the description field| x |
@@ -734,6 +737,7 @@ Appointment selection archive using the selectionId as criterionmapping.
 |associate/personEmail|string|E-mail| x |
 |associate/locationAddress|string|Location: Location| x |
 |associate/isLocation|bool|Is a location: Is a location| x |
+|appointment/text|positiveString|Text: Displays a descriptive text for the item| x |
 |appointment/description|positiveString|Text: Displays the text entered in the description field| x |
 |appointment/title|positiveString|Title| x |
 |appointment/titleHtml| *None* |!!Title Html| x |
@@ -741,13 +745,17 @@ Appointment selection archive using the selectionId as criterionmapping.
 |appointment/agendaHtml| *None* |!!Agenda Html| x |
 |appointment/isConverted| *None* |!!Is Converted|  |
 |appointment/textId|int|Text ID| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |appointment/internalNotes|positiveString|Internal notes: Displays the text entered in the description field| x |
 |appointment/internalNotesHtml|positiveString|!!Internal Notes Html| x |
 
 ## Sample
 
 ```http!
-GET /api/v1/archive/AppointmentDynamicSelectionSingleCriteriaGroup?$select=registeredBy,duration,contact/email/emailLastSent,contact/restrictionAddress/addressId,contact/NumberOfNotCompletedActivities
+GET /api/v1/archive/AppointmentDynamicSelectionSingleCriteriaGroup?$select=rawStatus,contact/contactAssociate/usergroup,contact/LastSale,person/personUdef/SuperOffice:7,person/personExtra/x_person_integer
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

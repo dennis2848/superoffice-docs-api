@@ -49,6 +49,8 @@ Project selection archive with OR-able selection groups. Each group is represent
 |endDate|date|End date: End date of project| x |
 |imageThumbnail| *None* |Thumbnail: Scaled-down image of project image|  |
 |activeErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
+|eventId|int|Event ID: Event ID| x |
+|startDate|date|Start date: Project start date| x |
 |projectPublish/isPublished|bool|Published: Displays an icon indicating if the project or sale has been published| x |
 |projectPublish/publishedFrom|date|From date: Start date for publishing. The record will not be visible prior to this date| x |
 |projectPublish/publishedTo|date|To date: End date for publishing. The record will not be visible after this date| x |
@@ -119,12 +121,12 @@ Project selection archive with OR-able selection groups. Each group is represent
 |SaintStatus3|saintStatus|Not completed activites with intention sale: Number of not completed activities for intention sale > 0.|  |
 |saintSaleStatus|listAny|With status|  |
 |saintAmountClass|listAny|Amount class|  |
-|saintActivityType|listAny|SAINT type|  |
-|saintDirection|listAny|Direction|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|saintActivityType|listAny|SAINT type|  |
+|saintDirection|listAny|Direction|  |
 |saintIntention|listAny|Intention|  |
 |saintTicketStatus|listAny|Status|  |
 |saintTicketCategory|listAny|Category|  |
@@ -183,7 +185,8 @@ Project selection archive with OR-able selection groups. Each group is represent
 |sale/createdByWorkflow|listAny|Created by flow: Created by flow| x |
 |sale/amountInBaseCurrency| *None* |Amount (BaseCurrency: The gross sales total| x |
 |sale/amountWeightedInBaseCurrency| *None* |Weighted amount (BaseCurrency: Virtual field calculated from amount * probability percent.| x |
-|sale/daysInStage| *None* |Days in stage: Total number of days in this stage| x |
+|sale/daysInStage|int|Days in stage: Total number of days in this stage| x |
+|sale/saleCycle|int|Sale cycle: Number of days from a sale was registered until it was closed (sold or lost)| x |
 |sale/visibleFor|listAny|Visible for|  |
 |sale/sale/textId|int|Text ID| x |
 |sale/sale/description|positiveString|Text: Displays the text entered in the description field| x |
@@ -222,13 +225,13 @@ Project selection archive with OR-able selection groups. Each group is represent
 |sale/associate/otherGroups|userGroup|Other groups: Other groups|  |
 |sale/associate/userName|string|User name: User name| x |
 |sale/associate/personEmail|string|E-mail| x |
-|sale/associate/locationAddress|string|Location: Location| x |
-|sale/associate/isLocation|bool|Is a location: Is a location| x |
-|sale/saleUdef/SuperOffice:1|string|saleshorttext| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|sale/associate/locationAddress|string|Location: Location| x |
+|sale/associate/isLocation|bool|Is a location: Is a location| x |
+|sale/saleUdef/SuperOffice:1|string|saleshorttext| x |
 |sale/saleUdef/SuperOffice:2|string|salelongtext| x |
 |sale/saleUdef/SuperOffice:3|int|salenumber| x |
 |sale/saleUdef/SuperOffice:4|date|saledate| x |
@@ -325,14 +328,15 @@ Project selection archive with OR-able selection groups. Each group is represent
 |appointment/associate/personEmail|string|E-mail| x |
 |appointment/associate/locationAddress|string|Location: Location| x |
 |appointment/associate/isLocation|bool|Is a location: Is a location| x |
-|appointment/appointment/description|positiveString|Text: Displays the text entered in the description field| x |
-|appointment/appointment/title|positiveString|Title| x |
-|appointment/appointment/titleHtml| *None* |!!Title Html| x |
-|appointment/appointment/agenda|positiveString|Agenda| x |
+|appointment/appointment/text|positiveString|Text: Displays a descriptive text for the item| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|appointment/appointment/description|positiveString|Text: Displays the text entered in the description field| x |
+|appointment/appointment/title|positiveString|Title| x |
+|appointment/appointment/titleHtml| *None* |!!Title Html| x |
+|appointment/appointment/agenda|positiveString|Agenda| x |
 |appointment/appointment/agendaHtml| *None* |!!Agenda Html| x |
 |appointment/appointment/isConverted| *None* |!!Is Converted|  |
 |appointment/appointment/textId|int|Text ID| x |
@@ -423,20 +427,21 @@ Project selection archive with OR-able selection groups. Each group is represent
 |projectMember/projectId|int|Project ID: Project ID| x |
 |projectMember/contactId|int|Company ID: Database ID of company| x |
 |projectMember/personId|int|Contact ID: Database ID of the contact row| x |
-|projectMember/function|listAny|Function: Displays the project member's function in the project| x |
-|projectMember/hasInfoText|bool|Project member information: Displays an icon indicating that there is additional information available for the project member| x |
-|projectMember/registered|datetime|Registered date: The date/time the data was registered in UTC.| x |
-|projectMember/updated|datetime|Updated: The date/time the data was last updated in UTC.| x |
+|projectMember/eventParticipantStatus|listAny|Project member - Event status: Project member - Event status| x |
+|projectMember/function|listAny|Project member - Function: Displays the project member's function in the project| x |
+|projectMember/hasInfoText|bool|Project member - Has info text: Displays an icon indicating that there is additional information available for the project member| x |
+|projectMember/registered|datetime|Project member - Registered date: The date/time the data was registered in UTC.| x |
+|projectMember/updated|datetime|Project member - Updated: The date/time the data was last updated in UTC.| x |
 |projectMember/textId|int|Text ID| x |
-|projectMember/infoText|positiveString|Information: Displays the text entered in the description field| x |
-|projectMember/firstName|string|First name: Displays the contact's first name| x |
-|projectMember/lastName|string|Last name: Displays the contact's last name| x |
-|projectMember/middleName|string|Middle name: Displays the contact's middle name.| x |
-|projectMember/fullName|stringorPK|Contact: Displays the contact to which an item is linked| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|projectMember/infoText|positiveString|Information: Displays the text entered in the description field| x |
+|projectMember/firstName|string|First name: Displays the contact's first name| x |
+|projectMember/lastName|string|Last name: Displays the contact's last name| x |
+|projectMember/middleName|string|Middle name: Displays the contact's middle name.| x |
+|projectMember/fullName|string|Contact: Displays the contact to which an item is linked| x |
 |projectMember/hasInterests|bool|Has interests: Displays an Icon indicating if the contact has active interests| x |
 |projectMember/personHasInterests|bool|Has interests: Displays an Icon indicating if the contact has active interests| x |
 |projectMember/mrMrs|string|Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
@@ -532,15 +537,15 @@ Project selection archive with OR-able selection groups. Each group is represent
 |projectMember/restrictionAddress/wgs84latitude|decimal|Search address - Latitude: Latitude| x |
 |projectMember/restrictionAddress/wgs84longitude|decimal|Search address - Longitude: Longitude| x |
 |projectMember/restrictionAddress/formattedAddress| *None* |Search address - {formattedAddress}: {formattedAddress}|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |projectMember/restrictionAddress/formattedMultiLineAddress| *None* |Search address - {formattedAddress}: {formattedAddress}|  |
 |projectMember/personInterestIds|listInterest|Contact interest: This criterion corresponds to a contact's interests.  It is available via the Contact dialog's Interests tab.|  |
 |projectMember/personUdef/SuperOffice:1|string|contactshorttext: tooltipshorttext| x |
 |projectMember/personUdef/SuperOffice:2|string|contactlongtext: tooltiplongtext| x |
 |projectMember/personUdef/SuperOffice:3|int|contactnumber| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |projectMember/personUdef/SuperOffice:4|date|contactdate| x |
 |projectMember/personUdef/SuperOffice:5|unlimitedDate|contactunlimiteddate: tooltipunlimiteddate| x |
 |projectMember/personUdef/SuperOffice:6|bool|contactcheckbox| x |
@@ -636,15 +641,15 @@ Project selection archive with OR-able selection groups. Each group is represent
 |projectMember/correspondingAssociate/portraitThumbnail| *None* |Person image: Person image|  |
 |projectMember/correspondingAssociate/otherGroups|userGroup|Other groups: Other groups|  |
 |projectMember/correspondingAssociate/userName|string|User name: User name| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |projectMember/correspondingAssociate/personEmail|string|E-mail| x |
 |projectMember/correspondingAssociate/locationAddress|string|Location: Location| x |
 |projectMember/correspondingAssociate/isLocation|bool|Is a location: Is a location| x |
 |projectMember/isMailingRecipient|bool|Is mailing recipient: isMailingRecipient| x |
 |projectMember/hasStoreConsent|bool|Consent - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.|  |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |projectMember/withdrawnStoreConsent|bool|Consent is withdrawn - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.|  |
 |projectMember/hasEmarketingConsent|bool|Consent - E-marketing: The purpose is to gain the explicit consent to communicate electronically (bulk e-mail) on topics related to our products and services. This might include newsletters, invitations and product-related content. The subscription system is used to refine the individual marketing choices this contact makes.|  |
 |projectMember/withdrawnEmarketingConsent|bool|Consent is withdrawn - E-marketing: The purpose is to gain the explicit consent to communicate electronically (bulk e-mail) on topics related to our products and services. This might include newsletters, invitations and product-related content. The subscription system is used to refine the individual marketing choices this contact makes.|  |
@@ -655,7 +660,7 @@ Project selection archive with OR-able selection groups. Each group is represent
 |projectMember/consentSourceEmarketing|listAny|Source - E-marketing: The purpose is to gain the explicit consent to communicate electronically (bulk e-mail) on topics related to our products and services. This might include newsletters, invitations and product-related content. The subscription system is used to refine the individual marketing choices this contact makes.| x |
 |projectMember/name|stringorPK|Company name| x |
 |projectMember/department|string|Department| x |
-|projectMember/nameDepartment| *None* |Company: Displays the company an activity is linked to| x |
+|projectMember/nameDepartment|string|Company: Displays the company an activity is linked to| x |
 |projectMember/associateId|associate|Our contact: Displays our contact| x |
 |projectMember/category|listAny|Category| x |
 |projectMember/categoryGroup|listAny|Category group| x |
@@ -740,15 +745,15 @@ Project selection archive with OR-able selection groups. Each group is represent
 |projectMember/contactAssociate/ejUserId|int|Service user ID: The database ID of a Service user|  |
 |projectMember/contactAssociate/simultaneousEjUser|bool|Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
 |projectMember/contactAssociate/ejDisplayName|string|Nickname: User's nickname in Service| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |projectMember/contactAssociate/ejStatus|int|Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |projectMember/contactAssociate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in| x |
 |projectMember/contactAssociate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
 |projectMember/contactAssociate/isActive|bool|Active: Is this user active, and should be able to log in?| x |
 |projectMember/contactAssociate/isActiveText|bool|Active status: Is this user active, and should be able to log in?| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |projectMember/contactAssociate/portraitThumbnail| *None* |Person image: Person image|  |
 |projectMember/contactAssociate/otherGroups|userGroup|Other groups: Other groups|  |
 |projectMember/contactAssociate/userName|string|User name: User name| x |
@@ -822,7 +827,7 @@ Project selection archive with OR-able selection groups. Each group is represent
 ## Sample
 
 ```http!
-GET /api/v1/archive/ProjectDynamicSelectionV2?$select=NumberOfNotCompletedSalesInPeriod,LastSale,sale/currency,sale/associate/usergroupId,appointment/associate/isActiveText
+GET /api/v1/archive/ProjectDynamicSelectionV2?$select=sale/time,appointment/appointmentUdef/SuperOffice:2,projectMember/email/emailLastSent,projectMember/personExtra/x_person_request_relation,projectMember/consentSourceEmarketing
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -3,15 +3,16 @@ uid: help-sv-request
 title: Ärenden
 description: Introduktion till ärenden i SuperOffice
 keywords: ärendehantering, ärende, ticket, service
-author: Bergfrid Dias
-date: 09.01.2025
-version: 11.3
+author: digitaldiina
+date: 06.10.2026
+version: 12.0
 content_type: concept
 license: serviceessentials
+tier: starter
 audience: person
 audience_tooltip: SuperOffice Service
 language: sv
-redirect_from: 
+redirect_from:
   - /sv/request/learn/screen/index
   - /sv/request/learn/screen/ticket-log
 ---
@@ -49,6 +50,7 @@ Fönstret Ärende har följande delar:
 * Under huvudet finns en rad med knappar som du kan använda för att utföra uppgifter kopplade till ärenden, som Svara, Svara alla, Vidarebefordra och Lägg till kommentar.
 * Fliken **Meddelanden** visar de meddelanden som är kopplade till ärendet.
 * På fliken **Detaljer** visas en översikt över den information som finns registrerad för ärendet.
+* Fliken **Relationer** visar [länkade ärenden][21] (överordnade, underordnade eller relaterade).
 * Fliken **Ändringslogg** innehåller historiken för detta ärende. Ärendeloggen visar allt som har skett i ärendet sedan det registrerades.
 
 ### Ärendehuvud
@@ -97,6 +99,9 @@ Längst upp på fliken **Meddelande** kan du skicka svar och vidarebefordra medd
 På fliken **Detaljer** visas en översikt över alla fält som finns registrerad för ärendet.
 
 ### <a id="log"></a>Ändringslogg
+
+> [!NOTE]
+> Ändringsloggen kräver en **Service Premium**-licens eller **Growth**-planen.
 
 På denna skärm visas loggen för ärendet. Alla händelser registreras, inkl. när de inträffade, vad som hände och vem som var ansvarig.
 
@@ -150,6 +155,7 @@ Ett kontaktservicesystem handlar om att ge dina kunder de svar de söker på ett
 * [Vidarebefordra ärenden till externa parter][8]
 * [Lägga till ärenden i favoriter][18]
 * [Avsluta ärenden][3]
+* [Markera ärenden som skräppost][27]
 
 Olika företag har olika rutiner för ärendehantering och kan använda SuperOffice Service på varierande sätt beroende på sina behov och arbetsflöden. Nedan har vi beskrivit två verkliga scenarier som illustrerar några av de olika alternativ som finns tillgängliga. Dessa exempel visar hur du kan hantera och besvara kundförfrågningar effektivt, både när en kund skickar in ett ärende via e-post och när en kund ringer in med ett problem eller en fråga.
 
@@ -199,6 +205,20 @@ Du kan anpassa ärenden så att de passar ditt arbetsflöde:
 
 1. Klicka på **Spara** för att tillämpa dina ändringar.
 
+## <a id="available"></a>Din tillgänglighetsstatus
+
+Din tillgänglighetsstatus avgör om du tar emot ärenden via automatisk tilldelning. Den påverkar även tilldelningen av kontakter.
+
+Klicka på <i class="ph ph-user-circle" aria-hidden="true"></i> **Personliga inställningar** i verktygsfältet och välj **Din tillgänglighetsstatus** för att uppdatera din status.
+
+* **Tillgänglig:** Du är tillgänglig för automatisk tilldelning av ärenden och kontakter.
+* **Ej närvarande:** Inga nya ärenden tilldelas till dig. Ditt frånvaromeddelande visas bredvid ditt namn när någon manuellt tilldelar ett objekt.
+
+> [!TIP]
+> Om en handläggare glömmer att uppdatera sin status eller är oväntat frånvarande kan en administratör ändra handläggarens tillgänglighetsstatus för dennes räkning i **Inställningar och underhåll** > **Användare**.
+
+Hur ärenden omfördelas när en användare inte är tillgänglig beror på den [tilldelningsmetod][6] som har konfigurerats för kategorin.
+
 ## Globala inställningar
 
 Administratörer kan anpassa Service för alla användare i Inställningar och underhåll.
@@ -241,6 +261,7 @@ Några inställningar som påverkar supportagenter inkluderar:
 [16]: merge.md
 [17]: ../../dashboard/learn/show-requests.md
 [19]: split-message.md
+[21]: request-relations.md
 [22]: tags.md
 [24]: ../admin/priority/escalation-levels.md
 [25]: ../admin/category/index.md
@@ -251,6 +272,7 @@ Några inställningar som påverkar supportagenter inkluderar:
 [23]: ../../knowledge-base/learn/reply-templates/index.md
 [20]: https://community.superoffice.com/en/learning/best-practices-tips/service/7-tips-to-provide-best-in-class-customer-service-with-superoffice-service/
 [26]: ../../admin/preferences/service-settings.md
+[27]: spam.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/request/request-list-preview.png

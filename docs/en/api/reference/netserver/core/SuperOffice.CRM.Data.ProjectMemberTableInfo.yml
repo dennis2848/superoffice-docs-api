@@ -10,6 +10,7 @@ items:
   - SuperOffice.CRM.Data.ProjectMemberTableInfo.Definition
   - SuperOffice.CRM.Data.ProjectMemberTableInfo.DictionaryTableName
   - SuperOffice.CRM.Data.ProjectMemberTableInfo.DictionaryTableNumber
+  - SuperOffice.CRM.Data.ProjectMemberTableInfo.EventParticipantStatus
   - SuperOffice.CRM.Data.ProjectMemberTableInfo.IdxProjectId(System.Int32)
   - SuperOffice.CRM.Data.ProjectMemberTableInfo.MtypeIdx
   - SuperOffice.CRM.Data.ProjectMemberTableInfo.MtypeIdx_InnerJoin_PMembType
@@ -72,12 +73,10 @@ items:
   - SuperOffice.Data.SQL.TableInfo.Clone
   - SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
   - SuperOffice.Data.SQL.TableInfo.FindField(System.String)
-  - SuperOffice.Data.SQL.TableInfo.ProtAll
   - SuperOffice.Data.SQL.TableInfo.UseNolockIfPossible
   - SuperOffice.Data.SQL.TableInfo.HashCheckFields
   - SuperOffice.Data.SQL.TableInfo.TableName
   - SuperOffice.Data.SQL.TableInfo.DbName
-  - SuperOffice.Data.SQL.TableInfo.IsDictionaryTable
   - SuperOffice.Data.SQL.TableInfo.All
   - SuperOffice.Data.SQL.TableInfo.Item(System.String)
   - SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
@@ -547,6 +546,32 @@ items:
       type: SuperOffice.Data.SQL.UInt16FieldInfo
     content.vb: Public ReadOnly Property UpdatedCount As UInt16FieldInfo
   overload: SuperOffice.CRM.Data.ProjectMemberTableInfo.UpdatedCount*
+- uid: SuperOffice.CRM.Data.ProjectMemberTableInfo.EventParticipantStatus
+  commentId: P:SuperOffice.CRM.Data.ProjectMemberTableInfo.EventParticipantStatus
+  id: EventParticipantStatus
+  parent: SuperOffice.CRM.Data.ProjectMemberTableInfo
+  langs:
+  - csharp
+  - vb
+  name: EventParticipantStatus
+  nameWithType: ProjectMemberTableInfo.EventParticipantStatus
+  fullName: SuperOffice.CRM.Data.ProjectMemberTableInfo.EventParticipantStatus
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: >-
+    Field 'event_participant_status' in table 'projectmember': Dictionary type Enum, .NET type: <xref href="SuperOffice.Data.ProjectMemberEventParticipantStatus" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Reserved field for Lyyti event participants.
+  example: []
+  syntax:
+    content: public ProjectMemberEventParticipantStatusFieldInfo EventParticipantStatus { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.ProjectMemberEventParticipantStatusFieldInfo
+    content.vb: Public ReadOnly Property EventParticipantStatus As ProjectMemberEventParticipantStatusFieldInfo
+  overload: SuperOffice.CRM.Data.ProjectMemberTableInfo.EventParticipantStatus*
 - uid: SuperOffice.CRM.Data.ProjectMemberTableInfo.ProjectId_InnerJoin_Project
   commentId: P:SuperOffice.CRM.Data.ProjectMemberTableInfo.ProjectId_InnerJoin_Project
   id: ProjectId_InnerJoin_Project
@@ -951,14 +976,6 @@ references:
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
-- uid: SuperOffice.Data.SQL.TableInfo.ProtAll
-  commentId: P:SuperOffice.Data.SQL.TableInfo.ProtAll
-  parent: SuperOffice.Data.SQL.TableInfo
-  isExternal: true
-  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_ProtAll
-  name: ProtAll
-  nameWithType: TableInfo.ProtAll
-  fullName: SuperOffice.Data.SQL.TableInfo.ProtAll
 - uid: SuperOffice.Data.SQL.TableInfo.UseNolockIfPossible
   commentId: P:SuperOffice.Data.SQL.TableInfo.UseNolockIfPossible
   parent: SuperOffice.Data.SQL.TableInfo
@@ -991,14 +1008,6 @@ references:
   name: DbName
   nameWithType: TableInfo.DbName
   fullName: SuperOffice.Data.SQL.TableInfo.DbName
-- uid: SuperOffice.Data.SQL.TableInfo.IsDictionaryTable
-  commentId: P:SuperOffice.Data.SQL.TableInfo.IsDictionaryTable
-  parent: SuperOffice.Data.SQL.TableInfo
-  isExternal: true
-  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_IsDictionaryTable
-  name: IsDictionaryTable
-  nameWithType: TableInfo.IsDictionaryTable
-  fullName: SuperOffice.Data.SQL.TableInfo.IsDictionaryTable
 - uid: SuperOffice.Data.SQL.TableInfo.All
   commentId: P:SuperOffice.Data.SQL.TableInfo.All
   parent: SuperOffice.Data.SQL.TableInfo
@@ -1763,6 +1772,56 @@ references:
   name: UpdatedCount
   nameWithType: ProjectMemberTableInfo.UpdatedCount
   fullName: SuperOffice.CRM.Data.ProjectMemberTableInfo.UpdatedCount
+- uid: SuperOffice.Data.ProjectMemberEventParticipantStatus
+  commentId: T:SuperOffice.Data.ProjectMemberEventParticipantStatus
+  parent: SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.Data.ProjectMemberEventParticipantStatus.html
+  name: ProjectMemberEventParticipantStatus
+  nameWithType: ProjectMemberEventParticipantStatus
+  fullName: SuperOffice.Data.ProjectMemberEventParticipantStatus
+- uid: SuperOffice.CRM.Data.ProjectMemberTableInfo.EventParticipantStatus*
+  commentId: Overload:SuperOffice.CRM.Data.ProjectMemberTableInfo.EventParticipantStatus
+  isExternal: true
+  href: SuperOffice.CRM.Data.ProjectMemberTableInfo.html#SuperOffice_CRM_Data_ProjectMemberTableInfo_EventParticipantStatus
+  name: EventParticipantStatus
+  nameWithType: ProjectMemberTableInfo.EventParticipantStatus
+  fullName: SuperOffice.CRM.Data.ProjectMemberTableInfo.EventParticipantStatus
+- uid: SuperOffice.Data.SQL.ProjectMemberEventParticipantStatusFieldInfo
+  commentId: T:SuperOffice.Data.SQL.ProjectMemberEventParticipantStatusFieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  href: SuperOffice.Data.SQL.ProjectMemberEventParticipantStatusFieldInfo.html
+  name: ProjectMemberEventParticipantStatusFieldInfo
+  nameWithType: ProjectMemberEventParticipantStatusFieldInfo
+  fullName: SuperOffice.Data.SQL.ProjectMemberEventParticipantStatusFieldInfo
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
 - uid: SuperOffice.CRM.Data.ProjectTableInfo
   commentId: T:SuperOffice.CRM.Data.ProjectTableInfo
   parent: SuperOffice.CRM.Data

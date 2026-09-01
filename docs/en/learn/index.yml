@@ -61,7 +61,7 @@ highlightedContent:
     - title: Mobile
       itemType: /media/common/device-mobile.png
       isImage: "true"
-      url: ../../en/mobile/superoffice-mobile/index.md
+      url: ../../en/mobile/index.md
 
 # conceptualContent section (optional)
 conceptualContent:
@@ -94,10 +94,10 @@ conceptualContent:
         itemType: list
         typeDesc: how-to-guide
         url: getting-started/preferences.md
-      - text: Connect email, document, diary
+      - text: Connect your accounts
         itemType: list
         typeDesc: how-to-guide
-        url: getting-started/connect-email-doc/index.md
+        url: getting-started/connect-your-accounts.md
       - text: Edit email signature
         itemType: list
         typeDesc: how-to-guide

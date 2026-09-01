@@ -4,18 +4,19 @@ title: Gebruikersinterface aanpassen
 description: Gebruikersinterface aanpassen
 keywords: udef, aangepast veld
 author: Bergfrid Dias
-date: 01.30.2024
-version: 10
+date: 06.10.2026
+version: 12.0
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
+tier: core
 language: nl
 index: true
 ---
 
 # Gebruikersinterface aanpassen
 
-[!include[License requirement](../../includes/req-dev-tools.md)]
+[!include[License requirement](../../includes/req-dev-tools-transition.md)]
 
 SuperOffice versie 10 (uitgebracht in oktober 2021) introduceerde [Schermontwerper][1] met aanpasbare schermopmaken voor specifieke gebruikersgroepen. Eventuele aangepaste schermopmaken met de Schermontwerper kunnen de hieronder beschreven instellingen overschrijven.
 

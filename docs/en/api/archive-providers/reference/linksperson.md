@@ -35,7 +35,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |firstName|string|First name: Displays the contact's first name| x |
 |lastName|string|Last name: Displays the contact's last name| x |
 |middleName|string|Middle name: Displays the contact's middle name.| x |
-|fullName|stringorPK|Contact: Displays the contact to which an item is linked| x |
+|fullName|string|Contact: Displays the contact to which an item is linked| x |
 |contactId|int|Company ID: Database ID of company| x |
 |hasInfoText|bool|Has note: Displays an icon indicating if there is additional information available about the contact| x |
 |hasInterests|bool|Has interests: Displays an Icon indicating if the contact has active interests| x |
@@ -94,7 +94,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |contact/contactId|int|Company ID: Database ID of company| x |
 |contact/name|stringorPK|Company name| x |
 |contact/department|string|Department| x |
-|contact/nameDepartment| *None* |Company: Displays the company an activity is linked to| x |
+|contact/nameDepartment|string|Company: Displays the company an activity is linked to| x |
 |contact/hasInfoText|bool|Has note: Displays an icon indicating if there is additional information available about the contact| x |
 |contact/hasInterests|bool|Has interests: Displays an Icon indicating if the contact has active interests| x |
 |contact/associateId|associate|Our contact: Displays our contact| x |
@@ -130,7 +130,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/LinksPerson?$select=birthMonth,personAssociateFullName
+GET /api/v1/archive/LinksPerson?$select=birthdate,birthMonth,personAssociateFullName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

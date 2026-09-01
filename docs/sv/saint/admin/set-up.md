@@ -4,11 +4,12 @@ title: Konfigurera ny aktivitetsövervakning
 description: Konfigurera ny aktivitetsövervakning
 keywords: SAINT, aktivitetsövervakning, statusövervakning
 author: SuperOffice Product and Engineering
-date: 09.23.2025
-version: 10.5
+date: 06.10.2026
+version: 12.0
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
+tier: growth
 language: sv
 index: true
 redirect_from: 
@@ -20,7 +21,7 @@ redirect_from:
 
 # Konfigurera ny aktivitetsövervakning
 
-[!include[Requirement](../includes/note-saint-req.md)]
+[!include[Requirement](../../includes/note-req-saint.md)]
 
 Med statusövervakning ser du enkelt alla kunder som behöver uppmärksamhet.
 

@@ -247,6 +247,7 @@ items:
   - SuperOffice.CRM.Data.DBC.ForeignAppFields
   - SuperOffice.CRM.Data.DBC.ForeignDeviceFields
   - SuperOffice.CRM.Data.DBC.ForeignKeyFields
+  - SuperOffice.CRM.Data.DBC.FormFieldRestrictionFields
   - SuperOffice.CRM.Data.DBC.FormFieldValueFields
   - SuperOffice.CRM.Data.DBC.FormFields
   - SuperOffice.CRM.Data.DBC.FormKeysFields
@@ -290,6 +291,8 @@ items:
   - SuperOffice.CRM.Data.DBC.KbSolutionFinderFields
   - SuperOffice.CRM.Data.DBC.KbWorkflowAccessFields
   - SuperOffice.CRM.Data.DBC.KbWorkflowFields
+  - SuperOffice.CRM.Data.DBC.LandingPageFields
+  - SuperOffice.CRM.Data.DBC.LandingPagePinFields
   - SuperOffice.CRM.Data.DBC.LanguageInfoCountryFields
   - SuperOffice.CRM.Data.DBC.LanguageInfoFields
   - SuperOffice.CRM.Data.DBC.LeadstatusFields
@@ -314,6 +317,7 @@ items:
   - SuperOffice.CRM.Data.DBC.MessageHandlerFields
   - SuperOffice.CRM.Data.DBC.MessageHeaderFields
   - SuperOffice.CRM.Data.DBC.MessageIdFields
+  - SuperOffice.CRM.Data.DBC.MeteringLogFields
   - SuperOffice.CRM.Data.DBC.ModuleLicenseFields
   - SuperOffice.CRM.Data.DBC.ModuleOwnerFields
   - SuperOffice.CRM.Data.DBC.MrMrsFields
@@ -323,18 +327,12 @@ items:
   - SuperOffice.CRM.Data.DBC.MsFilterMailFields
   - SuperOffice.CRM.Data.DBC.MsSubstituteFields
   - SuperOffice.CRM.Data.DBC.MsTrashbinFields
+  - SuperOffice.CRM.Data.DBC.NewsFeedItemCtaFields
+  - SuperOffice.CRM.Data.DBC.NewsFeedItemFields
+  - SuperOffice.CRM.Data.DBC.NewsFeedItemHtmlFields
+  - SuperOffice.CRM.Data.DBC.NewsFeedItemRecipientFields
   - SuperOffice.CRM.Data.DBC.NoticeFrameFields
   - SuperOffice.CRM.Data.DBC.NotifyFields
-  - SuperOffice.CRM.Data.DBC.OLEFieldFields
-  - SuperOffice.CRM.Data.DBC.OLEFieldTextFields
-  - SuperOffice.CRM.Data.DBC.OLESubjectFields
-  - SuperOffice.CRM.Data.DBC.OLESubjectTextFields
-  - SuperOffice.CRM.Data.DBC.OLEViewFields
-  - SuperOffice.CRM.Data.DBC.OLEViewTextFields
-  - SuperOffice.CRM.Data.DBC.Obsolete1Fields
-  - SuperOffice.CRM.Data.DBC.Obsolete2Fields
-  - SuperOffice.CRM.Data.DBC.Obsolete3Fields
-  - SuperOffice.CRM.Data.DBC.Obsolete4Fields
   - SuperOffice.CRM.Data.DBC.OnlineAppFields
   - SuperOffice.CRM.Data.DBC.OutboxFields
   - SuperOffice.CRM.Data.DBC.OutgoingMessageFields
@@ -437,7 +435,6 @@ items:
   - SuperOffice.CRM.Data.DBC.ReplyTemplateBodyFields
   - SuperOffice.CRM.Data.DBC.ReplyTemplateFields
   - SuperOffice.CRM.Data.DBC.ReplyTemplateFolderFields
-  - SuperOffice.CRM.Data.DBC.ReporterListDefFields
   - SuperOffice.CRM.Data.DBC.ResourceOverrideFields
   - SuperOffice.CRM.Data.DBC.RoleCategoryFields
   - SuperOffice.CRM.Data.DBC.RoleElementFields
@@ -456,15 +453,7 @@ items:
   - SuperOffice.CRM.Data.DBC.SListShipmentFields
   - SuperOffice.CRM.Data.DBC.SMessageFields
   - SuperOffice.CRM.Data.DBC.SMessageblockFields
-  - SuperOffice.CRM.Data.DBC.SORCriteriaFields
-  - SuperOffice.CRM.Data.DBC.SORFCTFields
-  - SuperOffice.CRM.Data.DBC.SORFieldFields
   - SuperOffice.CRM.Data.DBC.SORLabelLayoutFields
-  - SuperOffice.CRM.Data.DBC.SOROperatorsFields
-  - SuperOffice.CRM.Data.DBC.SORPublishFields
-  - SuperOffice.CRM.Data.DBC.SORPublishGroupLinkFields
-  - SuperOffice.CRM.Data.DBC.SORSectionFields
-  - SuperOffice.CRM.Data.DBC.SORTemplateFields
   - SuperOffice.CRM.Data.DBC.SPictureEntryFields
   - SuperOffice.CRM.Data.DBC.SPictureFolderFields
   - SuperOffice.CRM.Data.DBC.SSentMessageFields
@@ -608,7 +597,6 @@ items:
   - SuperOffice.CRM.Data.DBC.UDefFieldFields
   - SuperOffice.CRM.Data.DBC.UDefFieldGLFields
   - SuperOffice.CRM.Data.DBC.URLFields
-  - SuperOffice.CRM.Data.DBC.UsageStatsFields
   - SuperOffice.CRM.Data.DBC.UserAttributeFields
   - SuperOffice.CRM.Data.DBC.UserCandidateFields
   - SuperOffice.CRM.Data.DBC.UserGroupFields
@@ -619,6 +607,7 @@ items:
   - SuperOffice.CRM.Data.DBC.VisibleForFields
   - SuperOffice.CRM.Data.DBC.WebAppUsageFields
   - SuperOffice.CRM.Data.DBC.WebhookFields
+  - SuperOffice.CRM.Data.DBC.WebhookNotifyFields
   - SuperOffice.CRM.Data.DBC.WebhookUsageFields
   - SuperOffice.CRM.Data.DBC.WinPosSizeFields
   - SuperOffice.CRM.Data.DBC.WordRelationsFields
@@ -715,6 +704,7 @@ items:
   - SuperOffice.CRM.Data.ForeignAppTableInfo
   - SuperOffice.CRM.Data.ForeignDeviceTableInfo
   - SuperOffice.CRM.Data.ForeignKeyTableInfo
+  - SuperOffice.CRM.Data.FormFieldRestrictionTableInfo
   - SuperOffice.CRM.Data.FormFieldValueTableInfo
   - SuperOffice.CRM.Data.FormKeysTableInfo
   - SuperOffice.CRM.Data.FormSubmissionTableInfo
@@ -759,6 +749,8 @@ items:
   - SuperOffice.CRM.Data.KbSolutionFinderTableInfo
   - SuperOffice.CRM.Data.KbWorkflowAccessTableInfo
   - SuperOffice.CRM.Data.KbWorkflowTableInfo
+  - SuperOffice.CRM.Data.LandingPagePinTableInfo
+  - SuperOffice.CRM.Data.LandingPageTableInfo
   - SuperOffice.CRM.Data.LanguageInfoCountryTableInfo
   - SuperOffice.CRM.Data.LanguageInfoTableInfo
   - SuperOffice.CRM.Data.LeadstatusTableInfo
@@ -783,6 +775,7 @@ items:
   - SuperOffice.CRM.Data.MessageHeaderTableInfo
   - SuperOffice.CRM.Data.MessageIdTableInfo
   - SuperOffice.CRM.Data.MessageTableInfo
+  - SuperOffice.CRM.Data.MeteringLogTableInfo
   - SuperOffice.CRM.Data.ModuleLicenseTableInfo
   - SuperOffice.CRM.Data.ModuleOwnerTableInfo
   - SuperOffice.CRM.Data.MrMrsGroupLinkTableInfo
@@ -792,18 +785,12 @@ items:
   - SuperOffice.CRM.Data.MsFilterTableInfo
   - SuperOffice.CRM.Data.MsSubstituteTableInfo
   - SuperOffice.CRM.Data.MsTrashbinTableInfo
+  - SuperOffice.CRM.Data.NewsFeedItemCtaTableInfo
+  - SuperOffice.CRM.Data.NewsFeedItemHtmlTableInfo
+  - SuperOffice.CRM.Data.NewsFeedItemRecipientTableInfo
+  - SuperOffice.CRM.Data.NewsFeedItemTableInfo
   - SuperOffice.CRM.Data.NoticeFrameTableInfo
   - SuperOffice.CRM.Data.NotifyTableInfo
-  - SuperOffice.CRM.Data.OLEFieldTableInfo
-  - SuperOffice.CRM.Data.OLEFieldTextTableInfo
-  - SuperOffice.CRM.Data.OLESubjectTableInfo
-  - SuperOffice.CRM.Data.OLESubjectTextTableInfo
-  - SuperOffice.CRM.Data.OLEViewTableInfo
-  - SuperOffice.CRM.Data.OLEViewTextTableInfo
-  - SuperOffice.CRM.Data.Obsolete1TableInfo
-  - SuperOffice.CRM.Data.Obsolete2TableInfo
-  - SuperOffice.CRM.Data.Obsolete3TableInfo
-  - SuperOffice.CRM.Data.Obsolete4TableInfo
   - SuperOffice.CRM.Data.OnlineAppTableInfo
   - SuperOffice.CRM.Data.OutboxTableInfo
   - SuperOffice.CRM.Data.OutgoingMessageTableInfo
@@ -906,7 +893,6 @@ items:
   - SuperOffice.CRM.Data.ReplyTemplateBodyTableInfo
   - SuperOffice.CRM.Data.ReplyTemplateFolderTableInfo
   - SuperOffice.CRM.Data.ReplyTemplateTableInfo
-  - SuperOffice.CRM.Data.ReporterListDefTableInfo
   - SuperOffice.CRM.Data.ResourceOverrideTableInfo
   - SuperOffice.CRM.Data.RoleCategoryTableInfo
   - SuperOffice.CRM.Data.RoleElementTableInfo
@@ -925,15 +911,7 @@ items:
   - SuperOffice.CRM.Data.SListTableInfo
   - SuperOffice.CRM.Data.SMessageTableInfo
   - SuperOffice.CRM.Data.SMessageblockTableInfo
-  - SuperOffice.CRM.Data.SORCriteriaTableInfo
-  - SuperOffice.CRM.Data.SORFCTTableInfo
-  - SuperOffice.CRM.Data.SORFieldTableInfo
   - SuperOffice.CRM.Data.SORLabelLayoutTableInfo
-  - SuperOffice.CRM.Data.SOROperatorsTableInfo
-  - SuperOffice.CRM.Data.SORPublishGroupLinkTableInfo
-  - SuperOffice.CRM.Data.SORPublishTableInfo
-  - SuperOffice.CRM.Data.SORSectionTableInfo
-  - SuperOffice.CRM.Data.SORTemplateTableInfo
   - SuperOffice.CRM.Data.SPictureEntryTableInfo
   - SuperOffice.CRM.Data.SPictureFolderTableInfo
   - SuperOffice.CRM.Data.SSentMessageTableInfo
@@ -1077,7 +1055,6 @@ items:
   - SuperOffice.CRM.Data.UDefFieldGLTableInfo
   - SuperOffice.CRM.Data.UDefFieldTableInfo
   - SuperOffice.CRM.Data.URLTableInfo
-  - SuperOffice.CRM.Data.UsageStatsTableInfo
   - SuperOffice.CRM.Data.UserAttributeTableInfo
   - SuperOffice.CRM.Data.UserCandidateTableInfo
   - SuperOffice.CRM.Data.UserGroupLinkTableInfo
@@ -1087,6 +1064,7 @@ items:
   - SuperOffice.CRM.Data.UtmParametersTableInfo
   - SuperOffice.CRM.Data.VisibleForTableInfo
   - SuperOffice.CRM.Data.WebAppUsageTableInfo
+  - SuperOffice.CRM.Data.WebhookNotifyTableInfo
   - SuperOffice.CRM.Data.WebhookTableInfo
   - SuperOffice.CRM.Data.WebhookUsageTableInfo
   - SuperOffice.CRM.Data.WinPosSizeTableInfo
@@ -2514,33 +2492,6 @@ references:
     name: SelectionMemberFields
     isExternal: true
     href: SuperOffice.CRM.Data.DBC.SelectionMemberFields.html
-- uid: SuperOffice.CRM.Data.DBC.SORPublishGroupLinkFields
-  commentId: T:SuperOffice.CRM.Data.DBC.SORPublishGroupLinkFields
-  isExternal: true
-  href: SuperOffice.CRM.Data.DBC.html
-  name: DBC.SORPublishGroupLinkFields
-  nameWithType: DBC.SORPublishGroupLinkFields
-  fullName: SuperOffice.CRM.Data.DBC.SORPublishGroupLinkFields
-  spec.csharp:
-  - uid: SuperOffice.CRM.Data.DBC
-    name: DBC
-    isExternal: true
-    href: SuperOffice.CRM.Data.DBC.html
-  - name: .
-  - uid: SuperOffice.CRM.Data.DBC.SORPublishGroupLinkFields
-    name: SORPublishGroupLinkFields
-    isExternal: true
-    href: SuperOffice.CRM.Data.DBC.SORPublishGroupLinkFields.html
-  spec.vb:
-  - uid: SuperOffice.CRM.Data.DBC
-    name: DBC
-    isExternal: true
-    href: SuperOffice.CRM.Data.DBC.html
-  - name: .
-  - uid: SuperOffice.CRM.Data.DBC.SORPublishGroupLinkFields
-    name: SORPublishGroupLinkFields
-    isExternal: true
-    href: SuperOffice.CRM.Data.DBC.SORPublishGroupLinkFields.html
 - uid: SuperOffice.CRM.Data.DBC.QuoteConnectionFields
   commentId: T:SuperOffice.CRM.Data.DBC.QuoteConnectionFields
   isExternal: true
@@ -6186,168 +6137,6 @@ references:
     name: SaleTypeStageLinkFields
     isExternal: true
     href: SuperOffice.CRM.Data.DBC.SaleTypeStageLinkFields.html
-- uid: SuperOffice.CRM.Data.DBC.OLESubjectFields
-  commentId: T:SuperOffice.CRM.Data.DBC.OLESubjectFields
-  isExternal: true
-  href: SuperOffice.CRM.Data.DBC.html
-  name: DBC.OLESubjectFields
-  nameWithType: DBC.OLESubjectFields
-  fullName: SuperOffice.CRM.Data.DBC.OLESubjectFields
-  spec.csharp:
-  - uid: SuperOffice.CRM.Data.DBC
-    name: DBC
-    isExternal: true
-    href: SuperOffice.CRM.Data.DBC.html
-  - name: .
-  - uid: SuperOffice.CRM.Data.DBC.OLESubjectFields
-    name: OLESubjectFields
-    isExternal: true
-    href: SuperOffice.CRM.Data.DBC.OLESubjectFields.html
-  spec.vb:
-  - uid: SuperOffice.CRM.Data.DBC
-    name: DBC
-    isExternal: true
-    href: SuperOffice.CRM.Data.DBC.html
-  - name: .
-  - uid: SuperOffice.CRM.Data.DBC.OLESubjectFields
-    name: OLESubjectFields
-    isExternal: true
-    href: SuperOffice.CRM.Data.DBC.OLESubjectFields.html
-- uid: SuperOffice.CRM.Data.DBC.OLESubjectTextFields
-  commentId: T:SuperOffice.CRM.Data.DBC.OLESubjectTextFields
-  isExternal: true
-  href: SuperOffice.CRM.Data.DBC.html
-  name: DBC.OLESubjectTextFields
-  nameWithType: DBC.OLESubjectTextFields
-  fullName: SuperOffice.CRM.Data.DBC.OLESubjectTextFields
-  spec.csharp:
-  - uid: SuperOffice.CRM.Data.DBC
-    name: DBC
-    isExternal: true
-    href: SuperOffice.CRM.Data.DBC.html
-  - name: .
-  - uid: SuperOffice.CRM.Data.DBC.OLESubjectTextFields
-    name: OLESubjectTextFields
-    isExternal: true
-    href: SuperOffice.CRM.Data.DBC.OLESubjectTextFields.html
-  spec.vb:
-  - uid: SuperOffice.CRM.Data.DBC
-    name: DBC
-    isExternal: true
-    href: SuperOffice.CRM.Data.DBC.html
-  - name: .
-  - uid: SuperOffice.CRM.Data.DBC.OLESubjectTextFields
-    name: OLESubjectTextFields
-    isExternal: true
-    href: SuperOffice.CRM.Data.DBC.OLESubjectTextFields.html
-- uid: SuperOffice.CRM.Data.DBC.OLEViewFields
-  commentId: T:SuperOffice.CRM.Data.DBC.OLEViewFields
-  isExternal: true
-  href: SuperOffice.CRM.Data.DBC.html
-  name: DBC.OLEViewFields
-  nameWithType: DBC.OLEViewFields
-  fullName: SuperOffice.CRM.Data.DBC.OLEViewFields
-  spec.csharp:
-  - uid: SuperOffice.CRM.Data.DBC
-    name: DBC
-    isExternal: true
-    href: SuperOffice.CRM.Data.DBC.html
-  - name: .
-  - uid: SuperOffice.CRM.Data.DBC.OLEViewFields
-    name: OLEViewFields
-    isExternal: true
-    href: SuperOffice.CRM.Data.DBC.OLEViewFields.html
-  spec.vb:
-  - uid: SuperOffice.CRM.Data.DBC
-    name: DBC
-    isExternal: true
-    href: SuperOffice.CRM.Data.DBC.html
-  - name: .
-  - uid: SuperOffice.CRM.Data.DBC.OLEViewFields
-    name: OLEViewFields
-    isExternal: true
-    href: SuperOffice.CRM.Data.DBC.OLEViewFields.html
-- uid: SuperOffice.CRM.Data.DBC.OLEViewTextFields
-  commentId: T:SuperOffice.CRM.Data.DBC.OLEViewTextFields
-  isExternal: true
-  href: SuperOffice.CRM.Data.DBC.html
-  name: DBC.OLEViewTextFields
-  nameWithType: DBC.OLEViewTextFields
-  fullName: SuperOffice.CRM.Data.DBC.OLEViewTextFields
-  spec.csharp:
-  - uid: SuperOffice.CRM.Data.DBC
-    name: DBC
-    isExternal: true
-    href: SuperOffice.CRM.Data.DBC.html
-  - name: .
-  - uid: SuperOffice.CRM.Data.DBC.OLEViewTextFields
-    name: OLEViewTextFields
-    isExternal: true
-    href: SuperOffice.CRM.Data.DBC.OLEViewTextFields.html
-  spec.vb:
-  - uid: SuperOffice.CRM.Data.DBC
-    name: DBC
-    isExternal: true
-    href: SuperOffice.CRM.Data.DBC.html
-  - name: .
-  - uid: SuperOffice.CRM.Data.DBC.OLEViewTextFields
-    name: OLEViewTextFields
-    isExternal: true
-    href: SuperOffice.CRM.Data.DBC.OLEViewTextFields.html
-- uid: SuperOffice.CRM.Data.DBC.OLEFieldFields
-  commentId: T:SuperOffice.CRM.Data.DBC.OLEFieldFields
-  isExternal: true
-  href: SuperOffice.CRM.Data.DBC.html
-  name: DBC.OLEFieldFields
-  nameWithType: DBC.OLEFieldFields
-  fullName: SuperOffice.CRM.Data.DBC.OLEFieldFields
-  spec.csharp:
-  - uid: SuperOffice.CRM.Data.DBC
-    name: DBC
-    isExternal: true
-    href: SuperOffice.CRM.Data.DBC.html
-  - name: .
-  - uid: SuperOffice.CRM.Data.DBC.OLEFieldFields
-    name: OLEFieldFields
-    isExternal: true
-    href: SuperOffice.CRM.Data.DBC.OLEFieldFields.html
-  spec.vb:
-  - uid: SuperOffice.CRM.Data.DBC
-    name: DBC
-    isExternal: true
-    href: SuperOffice.CRM.Data.DBC.html
-  - name: .
-  - uid: SuperOffice.CRM.Data.DBC.OLEFieldFields
-    name: OLEFieldFields
-    isExternal: true
-    href: SuperOffice.CRM.Data.DBC.OLEFieldFields.html
-- uid: SuperOffice.CRM.Data.DBC.OLEFieldTextFields
-  commentId: T:SuperOffice.CRM.Data.DBC.OLEFieldTextFields
-  isExternal: true
-  href: SuperOffice.CRM.Data.DBC.html
-  name: DBC.OLEFieldTextFields
-  nameWithType: DBC.OLEFieldTextFields
-  fullName: SuperOffice.CRM.Data.DBC.OLEFieldTextFields
-  spec.csharp:
-  - uid: SuperOffice.CRM.Data.DBC
-    name: DBC
-    isExternal: true
-    href: SuperOffice.CRM.Data.DBC.html
-  - name: .
-  - uid: SuperOffice.CRM.Data.DBC.OLEFieldTextFields
-    name: OLEFieldTextFields
-    isExternal: true
-    href: SuperOffice.CRM.Data.DBC.OLEFieldTextFields.html
-  spec.vb:
-  - uid: SuperOffice.CRM.Data.DBC
-    name: DBC
-    isExternal: true
-    href: SuperOffice.CRM.Data.DBC.html
-  - name: .
-  - uid: SuperOffice.CRM.Data.DBC.OLEFieldTextFields
-    name: OLEFieldTextFields
-    isExternal: true
-    href: SuperOffice.CRM.Data.DBC.OLEFieldTextFields.html
 - uid: SuperOffice.CRM.Data.DBC.OwnerContactLinkFields
   commentId: T:SuperOffice.CRM.Data.DBC.OwnerContactLinkFields
   isExternal: true
@@ -6429,33 +6218,6 @@ references:
     name: LocaleTextFields
     isExternal: true
     href: SuperOffice.CRM.Data.DBC.LocaleTextFields.html
-- uid: SuperOffice.CRM.Data.DBC.ReporterListDefFields
-  commentId: T:SuperOffice.CRM.Data.DBC.ReporterListDefFields
-  isExternal: true
-  href: SuperOffice.CRM.Data.DBC.html
-  name: DBC.ReporterListDefFields
-  nameWithType: DBC.ReporterListDefFields
-  fullName: SuperOffice.CRM.Data.DBC.ReporterListDefFields
-  spec.csharp:
-  - uid: SuperOffice.CRM.Data.DBC
-    name: DBC
-    isExternal: true
-    href: SuperOffice.CRM.Data.DBC.html
-  - name: .
-  - uid: SuperOffice.CRM.Data.DBC.ReporterListDefFields
-    name: ReporterListDefFields
-    isExternal: true
-    href: SuperOffice.CRM.Data.DBC.ReporterListDefFields.html
-  spec.vb:
-  - uid: SuperOffice.CRM.Data.DBC
-    name: DBC
-    isExternal: true
-    href: SuperOffice.CRM.Data.DBC.html
-  - name: .
-  - uid: SuperOffice.CRM.Data.DBC.ReporterListDefFields
-    name: ReporterListDefFields
-    isExternal: true
-    href: SuperOffice.CRM.Data.DBC.ReporterListDefFields.html
 - uid: SuperOffice.CRM.Data.DBC.RefCountsFields
   commentId: T:SuperOffice.CRM.Data.DBC.RefCountsFields
   isExternal: true
@@ -6510,195 +6272,6 @@ references:
     name: RefCountRangeFields
     isExternal: true
     href: SuperOffice.CRM.Data.DBC.RefCountRangeFields.html
-- uid: SuperOffice.CRM.Data.DBC.SORTemplateFields
-  commentId: T:SuperOffice.CRM.Data.DBC.SORTemplateFields
-  isExternal: true
-  href: SuperOffice.CRM.Data.DBC.html
-  name: DBC.SORTemplateFields
-  nameWithType: DBC.SORTemplateFields
-  fullName: SuperOffice.CRM.Data.DBC.SORTemplateFields
-  spec.csharp:
-  - uid: SuperOffice.CRM.Data.DBC
-    name: DBC
-    isExternal: true
-    href: SuperOffice.CRM.Data.DBC.html
-  - name: .
-  - uid: SuperOffice.CRM.Data.DBC.SORTemplateFields
-    name: SORTemplateFields
-    isExternal: true
-    href: SuperOffice.CRM.Data.DBC.SORTemplateFields.html
-  spec.vb:
-  - uid: SuperOffice.CRM.Data.DBC
-    name: DBC
-    isExternal: true
-    href: SuperOffice.CRM.Data.DBC.html
-  - name: .
-  - uid: SuperOffice.CRM.Data.DBC.SORTemplateFields
-    name: SORTemplateFields
-    isExternal: true
-    href: SuperOffice.CRM.Data.DBC.SORTemplateFields.html
-- uid: SuperOffice.CRM.Data.DBC.SORPublishFields
-  commentId: T:SuperOffice.CRM.Data.DBC.SORPublishFields
-  isExternal: true
-  href: SuperOffice.CRM.Data.DBC.html
-  name: DBC.SORPublishFields
-  nameWithType: DBC.SORPublishFields
-  fullName: SuperOffice.CRM.Data.DBC.SORPublishFields
-  spec.csharp:
-  - uid: SuperOffice.CRM.Data.DBC
-    name: DBC
-    isExternal: true
-    href: SuperOffice.CRM.Data.DBC.html
-  - name: .
-  - uid: SuperOffice.CRM.Data.DBC.SORPublishFields
-    name: SORPublishFields
-    isExternal: true
-    href: SuperOffice.CRM.Data.DBC.SORPublishFields.html
-  spec.vb:
-  - uid: SuperOffice.CRM.Data.DBC
-    name: DBC
-    isExternal: true
-    href: SuperOffice.CRM.Data.DBC.html
-  - name: .
-  - uid: SuperOffice.CRM.Data.DBC.SORPublishFields
-    name: SORPublishFields
-    isExternal: true
-    href: SuperOffice.CRM.Data.DBC.SORPublishFields.html
-- uid: SuperOffice.CRM.Data.DBC.SORCriteriaFields
-  commentId: T:SuperOffice.CRM.Data.DBC.SORCriteriaFields
-  isExternal: true
-  href: SuperOffice.CRM.Data.DBC.html
-  name: DBC.SORCriteriaFields
-  nameWithType: DBC.SORCriteriaFields
-  fullName: SuperOffice.CRM.Data.DBC.SORCriteriaFields
-  spec.csharp:
-  - uid: SuperOffice.CRM.Data.DBC
-    name: DBC
-    isExternal: true
-    href: SuperOffice.CRM.Data.DBC.html
-  - name: .
-  - uid: SuperOffice.CRM.Data.DBC.SORCriteriaFields
-    name: SORCriteriaFields
-    isExternal: true
-    href: SuperOffice.CRM.Data.DBC.SORCriteriaFields.html
-  spec.vb:
-  - uid: SuperOffice.CRM.Data.DBC
-    name: DBC
-    isExternal: true
-    href: SuperOffice.CRM.Data.DBC.html
-  - name: .
-  - uid: SuperOffice.CRM.Data.DBC.SORCriteriaFields
-    name: SORCriteriaFields
-    isExternal: true
-    href: SuperOffice.CRM.Data.DBC.SORCriteriaFields.html
-- uid: SuperOffice.CRM.Data.DBC.SOROperatorsFields
-  commentId: T:SuperOffice.CRM.Data.DBC.SOROperatorsFields
-  isExternal: true
-  href: SuperOffice.CRM.Data.DBC.html
-  name: DBC.SOROperatorsFields
-  nameWithType: DBC.SOROperatorsFields
-  fullName: SuperOffice.CRM.Data.DBC.SOROperatorsFields
-  spec.csharp:
-  - uid: SuperOffice.CRM.Data.DBC
-    name: DBC
-    isExternal: true
-    href: SuperOffice.CRM.Data.DBC.html
-  - name: .
-  - uid: SuperOffice.CRM.Data.DBC.SOROperatorsFields
-    name: SOROperatorsFields
-    isExternal: true
-    href: SuperOffice.CRM.Data.DBC.SOROperatorsFields.html
-  spec.vb:
-  - uid: SuperOffice.CRM.Data.DBC
-    name: DBC
-    isExternal: true
-    href: SuperOffice.CRM.Data.DBC.html
-  - name: .
-  - uid: SuperOffice.CRM.Data.DBC.SOROperatorsFields
-    name: SOROperatorsFields
-    isExternal: true
-    href: SuperOffice.CRM.Data.DBC.SOROperatorsFields.html
-- uid: SuperOffice.CRM.Data.DBC.SORSectionFields
-  commentId: T:SuperOffice.CRM.Data.DBC.SORSectionFields
-  isExternal: true
-  href: SuperOffice.CRM.Data.DBC.html
-  name: DBC.SORSectionFields
-  nameWithType: DBC.SORSectionFields
-  fullName: SuperOffice.CRM.Data.DBC.SORSectionFields
-  spec.csharp:
-  - uid: SuperOffice.CRM.Data.DBC
-    name: DBC
-    isExternal: true
-    href: SuperOffice.CRM.Data.DBC.html
-  - name: .
-  - uid: SuperOffice.CRM.Data.DBC.SORSectionFields
-    name: SORSectionFields
-    isExternal: true
-    href: SuperOffice.CRM.Data.DBC.SORSectionFields.html
-  spec.vb:
-  - uid: SuperOffice.CRM.Data.DBC
-    name: DBC
-    isExternal: true
-    href: SuperOffice.CRM.Data.DBC.html
-  - name: .
-  - uid: SuperOffice.CRM.Data.DBC.SORSectionFields
-    name: SORSectionFields
-    isExternal: true
-    href: SuperOffice.CRM.Data.DBC.SORSectionFields.html
-- uid: SuperOffice.CRM.Data.DBC.SORFCTFields
-  commentId: T:SuperOffice.CRM.Data.DBC.SORFCTFields
-  isExternal: true
-  href: SuperOffice.CRM.Data.DBC.html
-  name: DBC.SORFCTFields
-  nameWithType: DBC.SORFCTFields
-  fullName: SuperOffice.CRM.Data.DBC.SORFCTFields
-  spec.csharp:
-  - uid: SuperOffice.CRM.Data.DBC
-    name: DBC
-    isExternal: true
-    href: SuperOffice.CRM.Data.DBC.html
-  - name: .
-  - uid: SuperOffice.CRM.Data.DBC.SORFCTFields
-    name: SORFCTFields
-    isExternal: true
-    href: SuperOffice.CRM.Data.DBC.SORFCTFields.html
-  spec.vb:
-  - uid: SuperOffice.CRM.Data.DBC
-    name: DBC
-    isExternal: true
-    href: SuperOffice.CRM.Data.DBC.html
-  - name: .
-  - uid: SuperOffice.CRM.Data.DBC.SORFCTFields
-    name: SORFCTFields
-    isExternal: true
-    href: SuperOffice.CRM.Data.DBC.SORFCTFields.html
-- uid: SuperOffice.CRM.Data.DBC.SORFieldFields
-  commentId: T:SuperOffice.CRM.Data.DBC.SORFieldFields
-  isExternal: true
-  href: SuperOffice.CRM.Data.DBC.html
-  name: DBC.SORFieldFields
-  nameWithType: DBC.SORFieldFields
-  fullName: SuperOffice.CRM.Data.DBC.SORFieldFields
-  spec.csharp:
-  - uid: SuperOffice.CRM.Data.DBC
-    name: DBC
-    isExternal: true
-    href: SuperOffice.CRM.Data.DBC.html
-  - name: .
-  - uid: SuperOffice.CRM.Data.DBC.SORFieldFields
-    name: SORFieldFields
-    isExternal: true
-    href: SuperOffice.CRM.Data.DBC.SORFieldFields.html
-  spec.vb:
-  - uid: SuperOffice.CRM.Data.DBC
-    name: DBC
-    isExternal: true
-    href: SuperOffice.CRM.Data.DBC.html
-  - name: .
-  - uid: SuperOffice.CRM.Data.DBC.SORFieldFields
-    name: SORFieldFields
-    isExternal: true
-    href: SuperOffice.CRM.Data.DBC.SORFieldFields.html
 - uid: SuperOffice.CRM.Data.DBC.SORLabelLayoutFields
   commentId: T:SuperOffice.CRM.Data.DBC.SORLabelLayoutFields
   isExternal: true
@@ -6969,33 +6542,6 @@ references:
     name: ImportDefaultFields
     isExternal: true
     href: SuperOffice.CRM.Data.DBC.ImportDefaultFields.html
-- uid: SuperOffice.CRM.Data.DBC.UsageStatsFields
-  commentId: T:SuperOffice.CRM.Data.DBC.UsageStatsFields
-  isExternal: true
-  href: SuperOffice.CRM.Data.DBC.html
-  name: DBC.UsageStatsFields
-  nameWithType: DBC.UsageStatsFields
-  fullName: SuperOffice.CRM.Data.DBC.UsageStatsFields
-  spec.csharp:
-  - uid: SuperOffice.CRM.Data.DBC
-    name: DBC
-    isExternal: true
-    href: SuperOffice.CRM.Data.DBC.html
-  - name: .
-  - uid: SuperOffice.CRM.Data.DBC.UsageStatsFields
-    name: UsageStatsFields
-    isExternal: true
-    href: SuperOffice.CRM.Data.DBC.UsageStatsFields.html
-  spec.vb:
-  - uid: SuperOffice.CRM.Data.DBC
-    name: DBC
-    isExternal: true
-    href: SuperOffice.CRM.Data.DBC.html
-  - name: .
-  - uid: SuperOffice.CRM.Data.DBC.UsageStatsFields
-    name: UsageStatsFields
-    isExternal: true
-    href: SuperOffice.CRM.Data.DBC.UsageStatsFields.html
 - uid: SuperOffice.CRM.Data.DBC.RoleFields
   commentId: T:SuperOffice.CRM.Data.DBC.RoleFields
   isExternal: true
@@ -14016,114 +13562,6 @@ references:
     name: EjCategoryGroupLinkFields
     isExternal: true
     href: SuperOffice.CRM.Data.DBC.EjCategoryGroupLinkFields.html
-- uid: SuperOffice.CRM.Data.DBC.Obsolete1Fields
-  commentId: T:SuperOffice.CRM.Data.DBC.Obsolete1Fields
-  isExternal: true
-  href: SuperOffice.CRM.Data.DBC.html
-  name: DBC.Obsolete1Fields
-  nameWithType: DBC.Obsolete1Fields
-  fullName: SuperOffice.CRM.Data.DBC.Obsolete1Fields
-  spec.csharp:
-  - uid: SuperOffice.CRM.Data.DBC
-    name: DBC
-    isExternal: true
-    href: SuperOffice.CRM.Data.DBC.html
-  - name: .
-  - uid: SuperOffice.CRM.Data.DBC.Obsolete1Fields
-    name: Obsolete1Fields
-    isExternal: true
-    href: SuperOffice.CRM.Data.DBC.Obsolete1Fields.html
-  spec.vb:
-  - uid: SuperOffice.CRM.Data.DBC
-    name: DBC
-    isExternal: true
-    href: SuperOffice.CRM.Data.DBC.html
-  - name: .
-  - uid: SuperOffice.CRM.Data.DBC.Obsolete1Fields
-    name: Obsolete1Fields
-    isExternal: true
-    href: SuperOffice.CRM.Data.DBC.Obsolete1Fields.html
-- uid: SuperOffice.CRM.Data.DBC.Obsolete2Fields
-  commentId: T:SuperOffice.CRM.Data.DBC.Obsolete2Fields
-  isExternal: true
-  href: SuperOffice.CRM.Data.DBC.html
-  name: DBC.Obsolete2Fields
-  nameWithType: DBC.Obsolete2Fields
-  fullName: SuperOffice.CRM.Data.DBC.Obsolete2Fields
-  spec.csharp:
-  - uid: SuperOffice.CRM.Data.DBC
-    name: DBC
-    isExternal: true
-    href: SuperOffice.CRM.Data.DBC.html
-  - name: .
-  - uid: SuperOffice.CRM.Data.DBC.Obsolete2Fields
-    name: Obsolete2Fields
-    isExternal: true
-    href: SuperOffice.CRM.Data.DBC.Obsolete2Fields.html
-  spec.vb:
-  - uid: SuperOffice.CRM.Data.DBC
-    name: DBC
-    isExternal: true
-    href: SuperOffice.CRM.Data.DBC.html
-  - name: .
-  - uid: SuperOffice.CRM.Data.DBC.Obsolete2Fields
-    name: Obsolete2Fields
-    isExternal: true
-    href: SuperOffice.CRM.Data.DBC.Obsolete2Fields.html
-- uid: SuperOffice.CRM.Data.DBC.Obsolete3Fields
-  commentId: T:SuperOffice.CRM.Data.DBC.Obsolete3Fields
-  isExternal: true
-  href: SuperOffice.CRM.Data.DBC.html
-  name: DBC.Obsolete3Fields
-  nameWithType: DBC.Obsolete3Fields
-  fullName: SuperOffice.CRM.Data.DBC.Obsolete3Fields
-  spec.csharp:
-  - uid: SuperOffice.CRM.Data.DBC
-    name: DBC
-    isExternal: true
-    href: SuperOffice.CRM.Data.DBC.html
-  - name: .
-  - uid: SuperOffice.CRM.Data.DBC.Obsolete3Fields
-    name: Obsolete3Fields
-    isExternal: true
-    href: SuperOffice.CRM.Data.DBC.Obsolete3Fields.html
-  spec.vb:
-  - uid: SuperOffice.CRM.Data.DBC
-    name: DBC
-    isExternal: true
-    href: SuperOffice.CRM.Data.DBC.html
-  - name: .
-  - uid: SuperOffice.CRM.Data.DBC.Obsolete3Fields
-    name: Obsolete3Fields
-    isExternal: true
-    href: SuperOffice.CRM.Data.DBC.Obsolete3Fields.html
-- uid: SuperOffice.CRM.Data.DBC.Obsolete4Fields
-  commentId: T:SuperOffice.CRM.Data.DBC.Obsolete4Fields
-  isExternal: true
-  href: SuperOffice.CRM.Data.DBC.html
-  name: DBC.Obsolete4Fields
-  nameWithType: DBC.Obsolete4Fields
-  fullName: SuperOffice.CRM.Data.DBC.Obsolete4Fields
-  spec.csharp:
-  - uid: SuperOffice.CRM.Data.DBC
-    name: DBC
-    isExternal: true
-    href: SuperOffice.CRM.Data.DBC.html
-  - name: .
-  - uid: SuperOffice.CRM.Data.DBC.Obsolete4Fields
-    name: Obsolete4Fields
-    isExternal: true
-    href: SuperOffice.CRM.Data.DBC.Obsolete4Fields.html
-  spec.vb:
-  - uid: SuperOffice.CRM.Data.DBC
-    name: DBC
-    isExternal: true
-    href: SuperOffice.CRM.Data.DBC.html
-  - name: .
-  - uid: SuperOffice.CRM.Data.DBC.Obsolete4Fields
-    name: Obsolete4Fields
-    isExternal: true
-    href: SuperOffice.CRM.Data.DBC.Obsolete4Fields.html
 - uid: SuperOffice.CRM.Data.DBC.FavouriteFields
   commentId: T:SuperOffice.CRM.Data.DBC.FavouriteFields
   isExternal: true
@@ -15069,6 +14507,33 @@ references:
     name: FormSubmissionFields
     isExternal: true
     href: SuperOffice.CRM.Data.DBC.FormSubmissionFields.html
+- uid: SuperOffice.CRM.Data.DBC.FormFieldRestrictionFields
+  commentId: T:SuperOffice.CRM.Data.DBC.FormFieldRestrictionFields
+  isExternal: true
+  href: SuperOffice.CRM.Data.DBC.html
+  name: DBC.FormFieldRestrictionFields
+  nameWithType: DBC.FormFieldRestrictionFields
+  fullName: SuperOffice.CRM.Data.DBC.FormFieldRestrictionFields
+  spec.csharp:
+  - uid: SuperOffice.CRM.Data.DBC
+    name: DBC
+    isExternal: true
+    href: SuperOffice.CRM.Data.DBC.html
+  - name: .
+  - uid: SuperOffice.CRM.Data.DBC.FormFieldRestrictionFields
+    name: FormFieldRestrictionFields
+    isExternal: true
+    href: SuperOffice.CRM.Data.DBC.FormFieldRestrictionFields.html
+  spec.vb:
+  - uid: SuperOffice.CRM.Data.DBC
+    name: DBC
+    isExternal: true
+    href: SuperOffice.CRM.Data.DBC.html
+  - name: .
+  - uid: SuperOffice.CRM.Data.DBC.FormFieldRestrictionFields
+    name: FormFieldRestrictionFields
+    isExternal: true
+    href: SuperOffice.CRM.Data.DBC.FormFieldRestrictionFields.html
 - uid: SuperOffice.CRM.Data.DBC.EmailAccountFields
   commentId: T:SuperOffice.CRM.Data.DBC.EmailAccountFields
   isExternal: true
@@ -15231,6 +14696,60 @@ references:
     name: InvitationFields
     isExternal: true
     href: SuperOffice.CRM.Data.DBC.InvitationFields.html
+- uid: SuperOffice.CRM.Data.DBC.LandingPageFields
+  commentId: T:SuperOffice.CRM.Data.DBC.LandingPageFields
+  isExternal: true
+  href: SuperOffice.CRM.Data.DBC.html
+  name: DBC.LandingPageFields
+  nameWithType: DBC.LandingPageFields
+  fullName: SuperOffice.CRM.Data.DBC.LandingPageFields
+  spec.csharp:
+  - uid: SuperOffice.CRM.Data.DBC
+    name: DBC
+    isExternal: true
+    href: SuperOffice.CRM.Data.DBC.html
+  - name: .
+  - uid: SuperOffice.CRM.Data.DBC.LandingPageFields
+    name: LandingPageFields
+    isExternal: true
+    href: SuperOffice.CRM.Data.DBC.LandingPageFields.html
+  spec.vb:
+  - uid: SuperOffice.CRM.Data.DBC
+    name: DBC
+    isExternal: true
+    href: SuperOffice.CRM.Data.DBC.html
+  - name: .
+  - uid: SuperOffice.CRM.Data.DBC.LandingPageFields
+    name: LandingPageFields
+    isExternal: true
+    href: SuperOffice.CRM.Data.DBC.LandingPageFields.html
+- uid: SuperOffice.CRM.Data.DBC.LandingPagePinFields
+  commentId: T:SuperOffice.CRM.Data.DBC.LandingPagePinFields
+  isExternal: true
+  href: SuperOffice.CRM.Data.DBC.html
+  name: DBC.LandingPagePinFields
+  nameWithType: DBC.LandingPagePinFields
+  fullName: SuperOffice.CRM.Data.DBC.LandingPagePinFields
+  spec.csharp:
+  - uid: SuperOffice.CRM.Data.DBC
+    name: DBC
+    isExternal: true
+    href: SuperOffice.CRM.Data.DBC.html
+  - name: .
+  - uid: SuperOffice.CRM.Data.DBC.LandingPagePinFields
+    name: LandingPagePinFields
+    isExternal: true
+    href: SuperOffice.CRM.Data.DBC.LandingPagePinFields.html
+  spec.vb:
+  - uid: SuperOffice.CRM.Data.DBC
+    name: DBC
+    isExternal: true
+    href: SuperOffice.CRM.Data.DBC.html
+  - name: .
+  - uid: SuperOffice.CRM.Data.DBC.LandingPagePinFields
+    name: LandingPagePinFields
+    isExternal: true
+    href: SuperOffice.CRM.Data.DBC.LandingPagePinFields.html
 - uid: SuperOffice.CRM.Data.DBC.SMessageblockFields
   commentId: T:SuperOffice.CRM.Data.DBC.SMessageblockFields
   isExternal: true
@@ -15285,6 +14804,33 @@ references:
     name: MailingDomainsFields
     isExternal: true
     href: SuperOffice.CRM.Data.DBC.MailingDomainsFields.html
+- uid: SuperOffice.CRM.Data.DBC.MeteringLogFields
+  commentId: T:SuperOffice.CRM.Data.DBC.MeteringLogFields
+  isExternal: true
+  href: SuperOffice.CRM.Data.DBC.html
+  name: DBC.MeteringLogFields
+  nameWithType: DBC.MeteringLogFields
+  fullName: SuperOffice.CRM.Data.DBC.MeteringLogFields
+  spec.csharp:
+  - uid: SuperOffice.CRM.Data.DBC
+    name: DBC
+    isExternal: true
+    href: SuperOffice.CRM.Data.DBC.html
+  - name: .
+  - uid: SuperOffice.CRM.Data.DBC.MeteringLogFields
+    name: MeteringLogFields
+    isExternal: true
+    href: SuperOffice.CRM.Data.DBC.MeteringLogFields.html
+  spec.vb:
+  - uid: SuperOffice.CRM.Data.DBC
+    name: DBC
+    isExternal: true
+    href: SuperOffice.CRM.Data.DBC.html
+  - name: .
+  - uid: SuperOffice.CRM.Data.DBC.MeteringLogFields
+    name: MeteringLogFields
+    isExternal: true
+    href: SuperOffice.CRM.Data.DBC.MeteringLogFields.html
 - uid: SuperOffice.CRM.Data.DBC.TypicalSearchFields
   commentId: T:SuperOffice.CRM.Data.DBC.TypicalSearchFields
   isExternal: true
@@ -15366,6 +14912,114 @@ references:
     name: TimeKeepingFields
     isExternal: true
     href: SuperOffice.CRM.Data.DBC.TimeKeepingFields.html
+- uid: SuperOffice.CRM.Data.DBC.NewsFeedItemFields
+  commentId: T:SuperOffice.CRM.Data.DBC.NewsFeedItemFields
+  isExternal: true
+  href: SuperOffice.CRM.Data.DBC.html
+  name: DBC.NewsFeedItemFields
+  nameWithType: DBC.NewsFeedItemFields
+  fullName: SuperOffice.CRM.Data.DBC.NewsFeedItemFields
+  spec.csharp:
+  - uid: SuperOffice.CRM.Data.DBC
+    name: DBC
+    isExternal: true
+    href: SuperOffice.CRM.Data.DBC.html
+  - name: .
+  - uid: SuperOffice.CRM.Data.DBC.NewsFeedItemFields
+    name: NewsFeedItemFields
+    isExternal: true
+    href: SuperOffice.CRM.Data.DBC.NewsFeedItemFields.html
+  spec.vb:
+  - uid: SuperOffice.CRM.Data.DBC
+    name: DBC
+    isExternal: true
+    href: SuperOffice.CRM.Data.DBC.html
+  - name: .
+  - uid: SuperOffice.CRM.Data.DBC.NewsFeedItemFields
+    name: NewsFeedItemFields
+    isExternal: true
+    href: SuperOffice.CRM.Data.DBC.NewsFeedItemFields.html
+- uid: SuperOffice.CRM.Data.DBC.NewsFeedItemHtmlFields
+  commentId: T:SuperOffice.CRM.Data.DBC.NewsFeedItemHtmlFields
+  isExternal: true
+  href: SuperOffice.CRM.Data.DBC.html
+  name: DBC.NewsFeedItemHtmlFields
+  nameWithType: DBC.NewsFeedItemHtmlFields
+  fullName: SuperOffice.CRM.Data.DBC.NewsFeedItemHtmlFields
+  spec.csharp:
+  - uid: SuperOffice.CRM.Data.DBC
+    name: DBC
+    isExternal: true
+    href: SuperOffice.CRM.Data.DBC.html
+  - name: .
+  - uid: SuperOffice.CRM.Data.DBC.NewsFeedItemHtmlFields
+    name: NewsFeedItemHtmlFields
+    isExternal: true
+    href: SuperOffice.CRM.Data.DBC.NewsFeedItemHtmlFields.html
+  spec.vb:
+  - uid: SuperOffice.CRM.Data.DBC
+    name: DBC
+    isExternal: true
+    href: SuperOffice.CRM.Data.DBC.html
+  - name: .
+  - uid: SuperOffice.CRM.Data.DBC.NewsFeedItemHtmlFields
+    name: NewsFeedItemHtmlFields
+    isExternal: true
+    href: SuperOffice.CRM.Data.DBC.NewsFeedItemHtmlFields.html
+- uid: SuperOffice.CRM.Data.DBC.NewsFeedItemCtaFields
+  commentId: T:SuperOffice.CRM.Data.DBC.NewsFeedItemCtaFields
+  isExternal: true
+  href: SuperOffice.CRM.Data.DBC.html
+  name: DBC.NewsFeedItemCtaFields
+  nameWithType: DBC.NewsFeedItemCtaFields
+  fullName: SuperOffice.CRM.Data.DBC.NewsFeedItemCtaFields
+  spec.csharp:
+  - uid: SuperOffice.CRM.Data.DBC
+    name: DBC
+    isExternal: true
+    href: SuperOffice.CRM.Data.DBC.html
+  - name: .
+  - uid: SuperOffice.CRM.Data.DBC.NewsFeedItemCtaFields
+    name: NewsFeedItemCtaFields
+    isExternal: true
+    href: SuperOffice.CRM.Data.DBC.NewsFeedItemCtaFields.html
+  spec.vb:
+  - uid: SuperOffice.CRM.Data.DBC
+    name: DBC
+    isExternal: true
+    href: SuperOffice.CRM.Data.DBC.html
+  - name: .
+  - uid: SuperOffice.CRM.Data.DBC.NewsFeedItemCtaFields
+    name: NewsFeedItemCtaFields
+    isExternal: true
+    href: SuperOffice.CRM.Data.DBC.NewsFeedItemCtaFields.html
+- uid: SuperOffice.CRM.Data.DBC.NewsFeedItemRecipientFields
+  commentId: T:SuperOffice.CRM.Data.DBC.NewsFeedItemRecipientFields
+  isExternal: true
+  href: SuperOffice.CRM.Data.DBC.html
+  name: DBC.NewsFeedItemRecipientFields
+  nameWithType: DBC.NewsFeedItemRecipientFields
+  fullName: SuperOffice.CRM.Data.DBC.NewsFeedItemRecipientFields
+  spec.csharp:
+  - uid: SuperOffice.CRM.Data.DBC
+    name: DBC
+    isExternal: true
+    href: SuperOffice.CRM.Data.DBC.html
+  - name: .
+  - uid: SuperOffice.CRM.Data.DBC.NewsFeedItemRecipientFields
+    name: NewsFeedItemRecipientFields
+    isExternal: true
+    href: SuperOffice.CRM.Data.DBC.NewsFeedItemRecipientFields.html
+  spec.vb:
+  - uid: SuperOffice.CRM.Data.DBC
+    name: DBC
+    isExternal: true
+    href: SuperOffice.CRM.Data.DBC.html
+  - name: .
+  - uid: SuperOffice.CRM.Data.DBC.NewsFeedItemRecipientFields
+    name: NewsFeedItemRecipientFields
+    isExternal: true
+    href: SuperOffice.CRM.Data.DBC.NewsFeedItemRecipientFields.html
 - uid: SuperOffice.CRM.Data.DBC.OnlineAppFields
   commentId: T:SuperOffice.CRM.Data.DBC.OnlineAppFields
   isExternal: true
@@ -15771,6 +15425,33 @@ references:
     name: WebhookUsageFields
     isExternal: true
     href: SuperOffice.CRM.Data.DBC.WebhookUsageFields.html
+- uid: SuperOffice.CRM.Data.DBC.WebhookNotifyFields
+  commentId: T:SuperOffice.CRM.Data.DBC.WebhookNotifyFields
+  isExternal: true
+  href: SuperOffice.CRM.Data.DBC.html
+  name: DBC.WebhookNotifyFields
+  nameWithType: DBC.WebhookNotifyFields
+  fullName: SuperOffice.CRM.Data.DBC.WebhookNotifyFields
+  spec.csharp:
+  - uid: SuperOffice.CRM.Data.DBC
+    name: DBC
+    isExternal: true
+    href: SuperOffice.CRM.Data.DBC.html
+  - name: .
+  - uid: SuperOffice.CRM.Data.DBC.WebhookNotifyFields
+    name: WebhookNotifyFields
+    isExternal: true
+    href: SuperOffice.CRM.Data.DBC.WebhookNotifyFields.html
+  spec.vb:
+  - uid: SuperOffice.CRM.Data.DBC
+    name: DBC
+    isExternal: true
+    href: SuperOffice.CRM.Data.DBC.html
+  - name: .
+  - uid: SuperOffice.CRM.Data.DBC.WebhookNotifyFields
+    name: WebhookNotifyFields
+    isExternal: true
+    href: SuperOffice.CRM.Data.DBC.WebhookNotifyFields.html
 - uid: SuperOffice.CRM.Data.DBC.WorkflowFields
   commentId: T:SuperOffice.CRM.Data.DBC.WorkflowFields
   isExternal: true
@@ -17219,6 +16900,14 @@ references:
   name: FormTableInfo
   nameWithType: FormTableInfo
   fullName: SuperOffice.CRM.Data.FormTableInfo
+- uid: SuperOffice.CRM.Data.FormFieldRestrictionTableInfo
+  commentId: T:SuperOffice.CRM.Data.FormFieldRestrictionTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  href: SuperOffice.CRM.Data.FormFieldRestrictionTableInfo.html
+  name: FormFieldRestrictionTableInfo
+  nameWithType: FormFieldRestrictionTableInfo
+  fullName: SuperOffice.CRM.Data.FormFieldRestrictionTableInfo
 - uid: SuperOffice.CRM.Data.FormFieldValueTableInfo
   commentId: T:SuperOffice.CRM.Data.FormFieldValueTableInfo
   parent: SuperOffice.CRM.Data
@@ -17562,6 +17251,22 @@ references:
   name: KbWorkflowAccessTableInfo
   nameWithType: KbWorkflowAccessTableInfo
   fullName: SuperOffice.CRM.Data.KbWorkflowAccessTableInfo
+- uid: SuperOffice.CRM.Data.LandingPageTableInfo
+  commentId: T:SuperOffice.CRM.Data.LandingPageTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  href: SuperOffice.CRM.Data.LandingPageTableInfo.html
+  name: LandingPageTableInfo
+  nameWithType: LandingPageTableInfo
+  fullName: SuperOffice.CRM.Data.LandingPageTableInfo
+- uid: SuperOffice.CRM.Data.LandingPagePinTableInfo
+  commentId: T:SuperOffice.CRM.Data.LandingPagePinTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  href: SuperOffice.CRM.Data.LandingPagePinTableInfo.html
+  name: LandingPagePinTableInfo
+  nameWithType: LandingPagePinTableInfo
+  fullName: SuperOffice.CRM.Data.LandingPagePinTableInfo
 - uid: SuperOffice.CRM.Data.LanguageInfoTableInfo
   commentId: T:SuperOffice.CRM.Data.LanguageInfoTableInfo
   parent: SuperOffice.CRM.Data
@@ -17754,6 +17459,14 @@ references:
   name: MessageIdTableInfo
   nameWithType: MessageIdTableInfo
   fullName: SuperOffice.CRM.Data.MessageIdTableInfo
+- uid: SuperOffice.CRM.Data.MeteringLogTableInfo
+  commentId: T:SuperOffice.CRM.Data.MeteringLogTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  href: SuperOffice.CRM.Data.MeteringLogTableInfo.html
+  name: MeteringLogTableInfo
+  nameWithType: MeteringLogTableInfo
+  fullName: SuperOffice.CRM.Data.MeteringLogTableInfo
 - uid: SuperOffice.CRM.Data.ModuleLicenseTableInfo
   commentId: T:SuperOffice.CRM.Data.ModuleLicenseTableInfo
   parent: SuperOffice.CRM.Data
@@ -17826,6 +17539,38 @@ references:
   name: MsTrashbinTableInfo
   nameWithType: MsTrashbinTableInfo
   fullName: SuperOffice.CRM.Data.MsTrashbinTableInfo
+- uid: SuperOffice.CRM.Data.NewsFeedItemTableInfo
+  commentId: T:SuperOffice.CRM.Data.NewsFeedItemTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  href: SuperOffice.CRM.Data.NewsFeedItemTableInfo.html
+  name: NewsFeedItemTableInfo
+  nameWithType: NewsFeedItemTableInfo
+  fullName: SuperOffice.CRM.Data.NewsFeedItemTableInfo
+- uid: SuperOffice.CRM.Data.NewsFeedItemCtaTableInfo
+  commentId: T:SuperOffice.CRM.Data.NewsFeedItemCtaTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  href: SuperOffice.CRM.Data.NewsFeedItemCtaTableInfo.html
+  name: NewsFeedItemCtaTableInfo
+  nameWithType: NewsFeedItemCtaTableInfo
+  fullName: SuperOffice.CRM.Data.NewsFeedItemCtaTableInfo
+- uid: SuperOffice.CRM.Data.NewsFeedItemHtmlTableInfo
+  commentId: T:SuperOffice.CRM.Data.NewsFeedItemHtmlTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  href: SuperOffice.CRM.Data.NewsFeedItemHtmlTableInfo.html
+  name: NewsFeedItemHtmlTableInfo
+  nameWithType: NewsFeedItemHtmlTableInfo
+  fullName: SuperOffice.CRM.Data.NewsFeedItemHtmlTableInfo
+- uid: SuperOffice.CRM.Data.NewsFeedItemRecipientTableInfo
+  commentId: T:SuperOffice.CRM.Data.NewsFeedItemRecipientTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  href: SuperOffice.CRM.Data.NewsFeedItemRecipientTableInfo.html
+  name: NewsFeedItemRecipientTableInfo
+  nameWithType: NewsFeedItemRecipientTableInfo
+  fullName: SuperOffice.CRM.Data.NewsFeedItemRecipientTableInfo
 - uid: SuperOffice.CRM.Data.NoticeFrameTableInfo
   commentId: T:SuperOffice.CRM.Data.NoticeFrameTableInfo
   parent: SuperOffice.CRM.Data
@@ -17842,86 +17587,6 @@ references:
   name: NotifyTableInfo
   nameWithType: NotifyTableInfo
   fullName: SuperOffice.CRM.Data.NotifyTableInfo
-- uid: SuperOffice.CRM.Data.Obsolete1TableInfo
-  commentId: T:SuperOffice.CRM.Data.Obsolete1TableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  href: SuperOffice.CRM.Data.Obsolete1TableInfo.html
-  name: Obsolete1TableInfo
-  nameWithType: Obsolete1TableInfo
-  fullName: SuperOffice.CRM.Data.Obsolete1TableInfo
-- uid: SuperOffice.CRM.Data.Obsolete2TableInfo
-  commentId: T:SuperOffice.CRM.Data.Obsolete2TableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  href: SuperOffice.CRM.Data.Obsolete2TableInfo.html
-  name: Obsolete2TableInfo
-  nameWithType: Obsolete2TableInfo
-  fullName: SuperOffice.CRM.Data.Obsolete2TableInfo
-- uid: SuperOffice.CRM.Data.Obsolete3TableInfo
-  commentId: T:SuperOffice.CRM.Data.Obsolete3TableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  href: SuperOffice.CRM.Data.Obsolete3TableInfo.html
-  name: Obsolete3TableInfo
-  nameWithType: Obsolete3TableInfo
-  fullName: SuperOffice.CRM.Data.Obsolete3TableInfo
-- uid: SuperOffice.CRM.Data.Obsolete4TableInfo
-  commentId: T:SuperOffice.CRM.Data.Obsolete4TableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  href: SuperOffice.CRM.Data.Obsolete4TableInfo.html
-  name: Obsolete4TableInfo
-  nameWithType: Obsolete4TableInfo
-  fullName: SuperOffice.CRM.Data.Obsolete4TableInfo
-- uid: SuperOffice.CRM.Data.OLEFieldTableInfo
-  commentId: T:SuperOffice.CRM.Data.OLEFieldTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  href: SuperOffice.CRM.Data.OLEFieldTableInfo.html
-  name: OLEFieldTableInfo
-  nameWithType: OLEFieldTableInfo
-  fullName: SuperOffice.CRM.Data.OLEFieldTableInfo
-- uid: SuperOffice.CRM.Data.OLEFieldTextTableInfo
-  commentId: T:SuperOffice.CRM.Data.OLEFieldTextTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  href: SuperOffice.CRM.Data.OLEFieldTextTableInfo.html
-  name: OLEFieldTextTableInfo
-  nameWithType: OLEFieldTextTableInfo
-  fullName: SuperOffice.CRM.Data.OLEFieldTextTableInfo
-- uid: SuperOffice.CRM.Data.OLESubjectTableInfo
-  commentId: T:SuperOffice.CRM.Data.OLESubjectTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  href: SuperOffice.CRM.Data.OLESubjectTableInfo.html
-  name: OLESubjectTableInfo
-  nameWithType: OLESubjectTableInfo
-  fullName: SuperOffice.CRM.Data.OLESubjectTableInfo
-- uid: SuperOffice.CRM.Data.OLESubjectTextTableInfo
-  commentId: T:SuperOffice.CRM.Data.OLESubjectTextTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  href: SuperOffice.CRM.Data.OLESubjectTextTableInfo.html
-  name: OLESubjectTextTableInfo
-  nameWithType: OLESubjectTextTableInfo
-  fullName: SuperOffice.CRM.Data.OLESubjectTextTableInfo
-- uid: SuperOffice.CRM.Data.OLEViewTableInfo
-  commentId: T:SuperOffice.CRM.Data.OLEViewTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  href: SuperOffice.CRM.Data.OLEViewTableInfo.html
-  name: OLEViewTableInfo
-  nameWithType: OLEViewTableInfo
-  fullName: SuperOffice.CRM.Data.OLEViewTableInfo
-- uid: SuperOffice.CRM.Data.OLEViewTextTableInfo
-  commentId: T:SuperOffice.CRM.Data.OLEViewTextTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  href: SuperOffice.CRM.Data.OLEViewTextTableInfo.html
-  name: OLEViewTextTableInfo
-  nameWithType: OLEViewTextTableInfo
-  fullName: SuperOffice.CRM.Data.OLEViewTextTableInfo
 - uid: SuperOffice.CRM.Data.OnlineAppTableInfo
   commentId: T:SuperOffice.CRM.Data.OnlineAppTableInfo
   parent: SuperOffice.CRM.Data
@@ -18738,14 +18403,6 @@ references:
   name: ReplyTemplateFolderTableInfo
   nameWithType: ReplyTemplateFolderTableInfo
   fullName: SuperOffice.CRM.Data.ReplyTemplateFolderTableInfo
-- uid: SuperOffice.CRM.Data.ReporterListDefTableInfo
-  commentId: T:SuperOffice.CRM.Data.ReporterListDefTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  href: SuperOffice.CRM.Data.ReporterListDefTableInfo.html
-  name: ReporterListDefTableInfo
-  nameWithType: ReporterListDefTableInfo
-  fullName: SuperOffice.CRM.Data.ReporterListDefTableInfo
 - uid: SuperOffice.CRM.Data.ResourceOverrideTableInfo
   commentId: T:SuperOffice.CRM.Data.ResourceOverrideTableInfo
   parent: SuperOffice.CRM.Data
@@ -19242,30 +18899,6 @@ references:
   name: SoapAccessTableInfo
   nameWithType: SoapAccessTableInfo
   fullName: SuperOffice.CRM.Data.SoapAccessTableInfo
-- uid: SuperOffice.CRM.Data.SORCriteriaTableInfo
-  commentId: T:SuperOffice.CRM.Data.SORCriteriaTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  href: SuperOffice.CRM.Data.SORCriteriaTableInfo.html
-  name: SORCriteriaTableInfo
-  nameWithType: SORCriteriaTableInfo
-  fullName: SuperOffice.CRM.Data.SORCriteriaTableInfo
-- uid: SuperOffice.CRM.Data.SORFCTTableInfo
-  commentId: T:SuperOffice.CRM.Data.SORFCTTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  href: SuperOffice.CRM.Data.SORFCTTableInfo.html
-  name: SORFCTTableInfo
-  nameWithType: SORFCTTableInfo
-  fullName: SuperOffice.CRM.Data.SORFCTTableInfo
-- uid: SuperOffice.CRM.Data.SORFieldTableInfo
-  commentId: T:SuperOffice.CRM.Data.SORFieldTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  href: SuperOffice.CRM.Data.SORFieldTableInfo.html
-  name: SORFieldTableInfo
-  nameWithType: SORFieldTableInfo
-  fullName: SuperOffice.CRM.Data.SORFieldTableInfo
 - uid: SuperOffice.CRM.Data.SORLabelLayoutTableInfo
   commentId: T:SuperOffice.CRM.Data.SORLabelLayoutTableInfo
   parent: SuperOffice.CRM.Data
@@ -19274,46 +18907,6 @@ references:
   name: SORLabelLayoutTableInfo
   nameWithType: SORLabelLayoutTableInfo
   fullName: SuperOffice.CRM.Data.SORLabelLayoutTableInfo
-- uid: SuperOffice.CRM.Data.SOROperatorsTableInfo
-  commentId: T:SuperOffice.CRM.Data.SOROperatorsTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  href: SuperOffice.CRM.Data.SOROperatorsTableInfo.html
-  name: SOROperatorsTableInfo
-  nameWithType: SOROperatorsTableInfo
-  fullName: SuperOffice.CRM.Data.SOROperatorsTableInfo
-- uid: SuperOffice.CRM.Data.SORPublishTableInfo
-  commentId: T:SuperOffice.CRM.Data.SORPublishTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  href: SuperOffice.CRM.Data.SORPublishTableInfo.html
-  name: SORPublishTableInfo
-  nameWithType: SORPublishTableInfo
-  fullName: SuperOffice.CRM.Data.SORPublishTableInfo
-- uid: SuperOffice.CRM.Data.SORPublishGroupLinkTableInfo
-  commentId: T:SuperOffice.CRM.Data.SORPublishGroupLinkTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  href: SuperOffice.CRM.Data.SORPublishGroupLinkTableInfo.html
-  name: SORPublishGroupLinkTableInfo
-  nameWithType: SORPublishGroupLinkTableInfo
-  fullName: SuperOffice.CRM.Data.SORPublishGroupLinkTableInfo
-- uid: SuperOffice.CRM.Data.SORSectionTableInfo
-  commentId: T:SuperOffice.CRM.Data.SORSectionTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  href: SuperOffice.CRM.Data.SORSectionTableInfo.html
-  name: SORSectionTableInfo
-  nameWithType: SORSectionTableInfo
-  fullName: SuperOffice.CRM.Data.SORSectionTableInfo
-- uid: SuperOffice.CRM.Data.SORTemplateTableInfo
-  commentId: T:SuperOffice.CRM.Data.SORTemplateTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  href: SuperOffice.CRM.Data.SORTemplateTableInfo.html
-  name: SORTemplateTableInfo
-  nameWithType: SORTemplateTableInfo
-  fullName: SuperOffice.CRM.Data.SORTemplateTableInfo
 - uid: SuperOffice.CRM.Data.SourceTableInfo
   commentId: T:SuperOffice.CRM.Data.SourceTableInfo
   parent: SuperOffice.CRM.Data
@@ -20106,14 +19699,6 @@ references:
   name: URLTableInfo
   nameWithType: URLTableInfo
   fullName: SuperOffice.CRM.Data.URLTableInfo
-- uid: SuperOffice.CRM.Data.UsageStatsTableInfo
-  commentId: T:SuperOffice.CRM.Data.UsageStatsTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  href: SuperOffice.CRM.Data.UsageStatsTableInfo.html
-  name: UsageStatsTableInfo
-  nameWithType: UsageStatsTableInfo
-  fullName: SuperOffice.CRM.Data.UsageStatsTableInfo
 - uid: SuperOffice.CRM.Data.UserAttributeTableInfo
   commentId: T:SuperOffice.CRM.Data.UserAttributeTableInfo
   parent: SuperOffice.CRM.Data
@@ -20194,6 +19779,14 @@ references:
   name: WebhookTableInfo
   nameWithType: WebhookTableInfo
   fullName: SuperOffice.CRM.Data.WebhookTableInfo
+- uid: SuperOffice.CRM.Data.WebhookNotifyTableInfo
+  commentId: T:SuperOffice.CRM.Data.WebhookNotifyTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  href: SuperOffice.CRM.Data.WebhookNotifyTableInfo.html
+  name: WebhookNotifyTableInfo
+  nameWithType: WebhookNotifyTableInfo
+  fullName: SuperOffice.CRM.Data.WebhookNotifyTableInfo
 - uid: SuperOffice.CRM.Data.WebhookUsageTableInfo
   commentId: T:SuperOffice.CRM.Data.WebhookUsageTableInfo
   parent: SuperOffice.CRM.Data

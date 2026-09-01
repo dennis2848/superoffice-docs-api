@@ -4,12 +4,13 @@ title: SuperOffice Service-systeeminstellingen
 description: Algemene voorkeuren voor SuperOffice Service-systeeminstellingen
 keywords: Service instellingen, systeeminstellingen, Algemene voorkeuren
 author: digitaldiina
-date: 10.17.2025
-version: 11.5
+date: 05.04.2026
+version: 11.13
 content_type: reference
 category: Settings and maintenance
 topic: preferences
 license: serviceessentials
+tier: core
 functional_right: Service administration, General Administrator
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -40,7 +41,15 @@ Ga naar <i class="ph ph-gear" aria-hidden="true"></i> **Voorkeuren** in de navig
 
 * **Standaard Van-adres**: Het standaard afzenderadres van de e-mail van het systeem. Dit adres wordt meestal vervangen door de adressen die in de postbussen zijn ingevoerd. Dit moet een e-mailadres zijn dat in SuperOffice Service is geïmporteerd. Bijvoorbeeld, `<support@company.com>`.
 
-* **E-mailcode**: De e-mailcode die, samen met de verzoek-ID, wordt gebruikt om een unieke sleutel te maken voor de onderwerpregel van e-mailberichten die vanuit SuperOffice Service worden verstuurd. Deze waarde mag alleen worden gewijzigd wanneer u exact weet wat voor gevolgen dit kan hebben! Wanneer deze waarde wordt gewijzigd, worden ontvangen e-mailberichten niet meer goed gelinkt aan bestaande verzoeken.
+* **E-mailcode**: De naam die wordt gebruikt als codesleutel in de onderwerpregel van uitgaande e-mails. De standaardwaarde is `ejTag`. Gecombineerd met het verzoeknummer wordt een unieke identificatie aangemaakt — bijvoorbeeld `ejTag: 12345` — die Service gebruikt om binnenkomende antwoorden aan het juiste verzoek te koppelen.
+
+    Wanneer een e-mail binnenkomt, controleert Service eerst de standaard `In-Reply-To`-header om deze aan een bestaand verzoek te koppelen. De e-mailcode in de onderwerpregel wordt gebruikt als terugvaloptie. Wijzig deze waarde alleen als u de gevolgen begrijpt — het wijzigen van de naam verbreekt de koppeling voor e-mails die nog naar de oude code verwijzen.
+
+    > [!NOTE]
+    > Twee registerinstellingen wijzigen dit gedrag:
+    >
+    > * **reg_id=72** (waarde `1`): Service doorzoekt alleen de e-mailheader (onderwerpregel) op de code, niet de berichttekst.
+    > * **reg_id=175** (waarde `1`): Service controleert de onderwerpregel op de e-mailcode *vóór* de `In-Reply-To`-header, wat de standaardprioriteit omkeert.
 
 * **Systeemklok**: Kies de tijdnotatie 24 of 12 uur (am/pm) voor het systeem. Gebruikersspecifieke klokken (bijvoorbeeld weergave van verzoeken) worden bepaald door de instellingen van de betreffende gebruiker, niet door deze waarde.
 
@@ -64,17 +73,10 @@ Ga naar <i class="ph ph-gear" aria-hidden="true"></i> **Voorkeuren** in de navig
 
 * **Alle links traceren**: schakel in om alle links in mailings te traceren.
 
-* **Interne URL**: Het basisadres voor toegang tot het SuperOffice Service-systeem. (ALLEEN ter plaatse)
+## Gerelateerde inhoud
 
-* **Externe URL**: Het basisadres voor externe toegang tot het SuperOffice Service-systeem. (ALLEEN ter plaatse)
-
-* **Cgi-bin-pad**: Het pad naar de map waar de Cgi-bin-toepassingsbestanden van SuperOffice Service zich bevinden. Dit pad moet beginnen met een slash maar mag niet eindigen met een slash. Bijvoorbeeld */bin* of */Scripts*. (ALLEEN ter plaatse)
-
-* **Gebruikers verifiëren vanaf webserver**: Wanneer deze optie is ingeschakeld, accepteert SuperOffice Service de verificatiegegevens voor gebruikers van de webserver (Microsoft IIS). (ALLEEN ter plaatse)
-
-* **Klanten verifiëren vanaf webserver**: Wanneer deze optie is ingeschakeld, accepteert SuperOffice Service de verificatiegegevens voor gebruikers van de webserver van het klantencentrum (Microsoft IIS). (ALLEEN ter plaatse)
-
-* **Online op internet**: Schakel deze optie in als SuperOffice Service op internet beschikbaar is. Hiermee worden onderdelen van de beschikbare functionaliteit van SuperOffice Service aangestuurd, aangezien voor sommige functies de oplossing online moet zijn. (ALLEEN ter plaatse)
+* [Service-instellingen (lokaal)][2]
 
 <!-- Referenced links -->
 [1]: ../../knowledge-base/learn/reply-templates/create.md#faq
+[2]: https://help.superoffice.com/docs/11/nl/admin/preferences/service-settings.html

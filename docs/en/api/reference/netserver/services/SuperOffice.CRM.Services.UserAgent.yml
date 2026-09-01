@@ -6,7 +6,7 @@ items:
   parent: SuperOffice.CRM.Services
   children:
   - SuperOffice.CRM.Services.UserAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IAccessGatewayInfoImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ICredentialImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IRoleImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IRoleEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IServiceAuthImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ITokenManagementInfoImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IUntrustedCredentialsImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IUserImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IUserGroupImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IUserGroupListImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IUserInfoImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IUserInfoListImplementation,SuperOffice.Factory.ISoRequestItemsAccessor)
-  - SuperOffice.CRM.Services.UserAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IAccessGatewayInfoImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ICredentialImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IRoleImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IRoleEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IServiceAuthImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ITokenManagementInfoImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IUntrustedCredentialsImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IUserImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IUserGroupImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IUserGroupListImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IUserInfoImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IUserInfoListImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository,SuperOffice.Configuration.ConfigFile.IScriptingConfiguration,SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
+  - SuperOffice.CRM.Services.UserAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IAccessGatewayInfoImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ICredentialImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IRoleImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IRoleEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IServiceAuthImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ITokenManagementInfoImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IUntrustedCredentialsImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IUserImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IUserGroupImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IUserGroupListImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IUserInfoImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IUserInfoListImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)
   - SuperOffice.CRM.Services.UserAgent.AddOwnerContactAsync(System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.UserAgent.CanChangePasswordAsync(System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.UserAgent.ChangeOwnPasswordAsync(System.String,System.String,System.Threading.CancellationToken)
@@ -32,6 +32,7 @@ items:
   - SuperOffice.CRM.Services.UserAgent.DeleteUserAsync(System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.UserAgent.DeleteUserFromNameAsync(System.String,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.UserAgent.DeleteUserGroupAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.UserAgent.ExchangeCodeAndSaveTokensAsync(System.String,System.String,System.String,System.String,System.String,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.UserAgent.ExecuteUserCommandAsync(System.String,SuperOffice.Data.CommandActionResult,SuperOffice.CRM.Services.User,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.UserAgent.FindCredentialUsersAsync(System.String,System.String,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.UserAgent.FindCredentialsGroupsAsync(System.String,System.String,System.Threading.CancellationToken)
@@ -188,22 +189,22 @@ items:
   nameWithType.vb: UserAgent.New(IAccessGatewayInfoImplementation, ICredentialImplementation, IRoleImplementation, IRoleEntityImplementation, IServiceAuthImplementation, ITokenManagementInfoImplementation, IUntrustedCredentialsImplementation, IUserImplementation, IUserGroupImplementation, IUserGroupListImplementation, IUserInfoImplementation, IUserInfoListImplementation, ISoRequestItemsAccessor)
   fullName.vb: SuperOffice.CRM.Services.UserAgent.New(SuperOffice.CRM.Services.Implementation.BL.Contracts.IAccessGatewayInfoImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.ICredentialImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IRoleImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IRoleEntityImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IServiceAuthImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.ITokenManagementInfoImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IUntrustedCredentialsImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IUserImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IUserGroupImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IUserGroupListImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IUserInfoImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IUserInfoListImplementation, SuperOffice.Factory.ISoRequestItemsAccessor)
   name.vb: New(IAccessGatewayInfoImplementation, ICredentialImplementation, IRoleImplementation, IRoleEntityImplementation, IServiceAuthImplementation, ITokenManagementInfoImplementation, IUntrustedCredentialsImplementation, IUserImplementation, IUserGroupImplementation, IUserGroupListImplementation, IUserInfoImplementation, IUserInfoListImplementation, ISoRequestItemsAccessor)
-- uid: SuperOffice.CRM.Services.UserAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IAccessGatewayInfoImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ICredentialImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IRoleImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IRoleEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IServiceAuthImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ITokenManagementInfoImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IUntrustedCredentialsImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IUserImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IUserGroupImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IUserGroupListImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IUserInfoImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IUserInfoListImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository,SuperOffice.Configuration.ConfigFile.IScriptingConfiguration,SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
-  commentId: M:SuperOffice.CRM.Services.UserAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IAccessGatewayInfoImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ICredentialImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IRoleImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IRoleEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IServiceAuthImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ITokenManagementInfoImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IUntrustedCredentialsImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IUserImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IUserGroupImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IUserGroupListImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IUserInfoImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IUserInfoListImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository,SuperOffice.Configuration.ConfigFile.IScriptingConfiguration,SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
-  id: '#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IAccessGatewayInfoImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ICredentialImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IRoleImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IRoleEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IServiceAuthImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ITokenManagementInfoImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IUntrustedCredentialsImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IUserImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IUserGroupImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IUserGroupListImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IUserInfoImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IUserInfoListImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository,SuperOffice.Configuration.ConfigFile.IScriptingConfiguration,SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)'
+- uid: SuperOffice.CRM.Services.UserAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IAccessGatewayInfoImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ICredentialImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IRoleImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IRoleEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IServiceAuthImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ITokenManagementInfoImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IUntrustedCredentialsImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IUserImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IUserGroupImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IUserGroupListImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IUserInfoImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IUserInfoListImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)
+  commentId: M:SuperOffice.CRM.Services.UserAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IAccessGatewayInfoImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ICredentialImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IRoleImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IRoleEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IServiceAuthImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ITokenManagementInfoImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IUntrustedCredentialsImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IUserImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IUserGroupImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IUserGroupListImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IUserInfoImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IUserInfoListImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)
+  id: '#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IAccessGatewayInfoImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ICredentialImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IRoleImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IRoleEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IServiceAuthImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ITokenManagementInfoImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IUntrustedCredentialsImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IUserImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IUserGroupImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IUserGroupListImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IUserInfoImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IUserInfoListImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)'
   parent: SuperOffice.CRM.Services.UserAgent
   langs:
   - csharp
   - vb
-  name: UserAgent(IAccessGatewayInfoImplementation, ICredentialImplementation, IRoleImplementation, IRoleEntityImplementation, IServiceAuthImplementation, ITokenManagementInfoImplementation, IUntrustedCredentialsImplementation, IUserImplementation, IUserGroupImplementation, IUserGroupListImplementation, IUserInfoImplementation, IUserInfoListImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository, IScriptingConfiguration, IOnlineConfiguration)
-  nameWithType: UserAgent.UserAgent(IAccessGatewayInfoImplementation, ICredentialImplementation, IRoleImplementation, IRoleEntityImplementation, IServiceAuthImplementation, ITokenManagementInfoImplementation, IUntrustedCredentialsImplementation, IUserImplementation, IUserGroupImplementation, IUserGroupListImplementation, IUserInfoImplementation, IUserInfoListImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository, ConfigFile.IScriptingConfiguration, ConfigFile.IOnlineConfiguration)
-  fullName: SuperOffice.CRM.Services.UserAgent.UserAgent(SuperOffice.CRM.Services.Implementation.BL.Contracts.IAccessGatewayInfoImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.ICredentialImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IRoleImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IRoleEntityImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IServiceAuthImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.ITokenManagementInfoImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IUntrustedCredentialsImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IUserImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IUserGroupImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IUserGroupListImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IUserInfoImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IUserInfoListImplementation, SuperOffice.Factory.ISoRequestItemsAccessor, SuperOffice.Data.IDebugUser, SuperOffice.Diagnostics.IServiceCallsRepository, SuperOffice.Configuration.ConfigFile.IScriptingConfiguration, SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
+  name: UserAgent(IAccessGatewayInfoImplementation, ICredentialImplementation, IRoleImplementation, IRoleEntityImplementation, IServiceAuthImplementation, ITokenManagementInfoImplementation, IUntrustedCredentialsImplementation, IUserImplementation, IUserGroupImplementation, IUserGroupListImplementation, IUserInfoImplementation, IUserInfoListImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
+  nameWithType: UserAgent.UserAgent(IAccessGatewayInfoImplementation, ICredentialImplementation, IRoleImplementation, IRoleEntityImplementation, IServiceAuthImplementation, ITokenManagementInfoImplementation, IUntrustedCredentialsImplementation, IUserImplementation, IUserGroupImplementation, IUserGroupListImplementation, IUserInfoImplementation, IUserInfoListImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
+  fullName: SuperOffice.CRM.Services.UserAgent.UserAgent(SuperOffice.CRM.Services.Implementation.BL.Contracts.IAccessGatewayInfoImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.ICredentialImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IRoleImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IRoleEntityImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IServiceAuthImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.ITokenManagementInfoImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IUntrustedCredentialsImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IUserImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IUserGroupImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IUserGroupListImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IUserInfoImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IUserInfoListImplementation, SuperOffice.Factory.ISoRequestItemsAccessor, SuperOffice.Data.IDebugUser, SuperOffice.Diagnostics.IServiceCallsRepository)
   type: Constructor
   assemblies:
   - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
   syntax:
-    content: public UserAgent(IAccessGatewayInfoImplementation accessGatewayInfoImplementation, ICredentialImplementation credentialImplementation, IRoleImplementation roleImplementation, IRoleEntityImplementation roleEntityImplementation, IServiceAuthImplementation serviceAuthImplementation, ITokenManagementInfoImplementation tokenManagementInfoImplementation, IUntrustedCredentialsImplementation untrustedCredentialsImplementation, IUserImplementation userImplementation, IUserGroupImplementation userGroupImplementation, IUserGroupListImplementation userGroupListImplementation, IUserInfoImplementation userInfoImplementation, IUserInfoListImplementation userInfoListImplementation, ISoRequestItemsAccessor accessor, IDebugUser debugUser, IServiceCallsRepository serviceCallsRepository, ConfigFile.IScriptingConfiguration scriptingConfiguration, ConfigFile.IOnlineConfiguration onlineConfiguration)
+    content: public UserAgent(IAccessGatewayInfoImplementation accessGatewayInfoImplementation, ICredentialImplementation credentialImplementation, IRoleImplementation roleImplementation, IRoleEntityImplementation roleEntityImplementation, IServiceAuthImplementation serviceAuthImplementation, ITokenManagementInfoImplementation tokenManagementInfoImplementation, IUntrustedCredentialsImplementation untrustedCredentialsImplementation, IUserImplementation userImplementation, IUserGroupImplementation userGroupImplementation, IUserGroupListImplementation userGroupListImplementation, IUserInfoImplementation userInfoImplementation, IUserInfoListImplementation userInfoListImplementation, ISoRequestItemsAccessor accessor, IDebugUser debugUser, IServiceCallsRepository serviceCallsRepository)
     parameters:
     - id: accessGatewayInfoImplementation
       type: SuperOffice.CRM.Services.Implementation.BL.Contracts.IAccessGatewayInfoImplementation
@@ -235,15 +236,11 @@ items:
       type: SuperOffice.Data.IDebugUser
     - id: serviceCallsRepository
       type: SuperOffice.Diagnostics.IServiceCallsRepository
-    - id: scriptingConfiguration
-      type: SuperOffice.Configuration.ConfigFile.IScriptingConfiguration
-    - id: onlineConfiguration
-      type: SuperOffice.Configuration.ConfigFile.IOnlineConfiguration
-    content.vb: Public Sub New(accessGatewayInfoImplementation As IAccessGatewayInfoImplementation, credentialImplementation As ICredentialImplementation, roleImplementation As IRoleImplementation, roleEntityImplementation As IRoleEntityImplementation, serviceAuthImplementation As IServiceAuthImplementation, tokenManagementInfoImplementation As ITokenManagementInfoImplementation, untrustedCredentialsImplementation As IUntrustedCredentialsImplementation, userImplementation As IUserImplementation, userGroupImplementation As IUserGroupImplementation, userGroupListImplementation As IUserGroupListImplementation, userInfoImplementation As IUserInfoImplementation, userInfoListImplementation As IUserInfoListImplementation, accessor As ISoRequestItemsAccessor, debugUser As IDebugUser, serviceCallsRepository As IServiceCallsRepository, scriptingConfiguration As ConfigFile.IScriptingConfiguration, onlineConfiguration As ConfigFile.IOnlineConfiguration)
+    content.vb: Public Sub New(accessGatewayInfoImplementation As IAccessGatewayInfoImplementation, credentialImplementation As ICredentialImplementation, roleImplementation As IRoleImplementation, roleEntityImplementation As IRoleEntityImplementation, serviceAuthImplementation As IServiceAuthImplementation, tokenManagementInfoImplementation As ITokenManagementInfoImplementation, untrustedCredentialsImplementation As IUntrustedCredentialsImplementation, userImplementation As IUserImplementation, userGroupImplementation As IUserGroupImplementation, userGroupListImplementation As IUserGroupListImplementation, userInfoImplementation As IUserInfoImplementation, userInfoListImplementation As IUserInfoListImplementation, accessor As ISoRequestItemsAccessor, debugUser As IDebugUser, serviceCallsRepository As IServiceCallsRepository)
   overload: SuperOffice.CRM.Services.UserAgent.#ctor*
-  nameWithType.vb: UserAgent.New(IAccessGatewayInfoImplementation, ICredentialImplementation, IRoleImplementation, IRoleEntityImplementation, IServiceAuthImplementation, ITokenManagementInfoImplementation, IUntrustedCredentialsImplementation, IUserImplementation, IUserGroupImplementation, IUserGroupListImplementation, IUserInfoImplementation, IUserInfoListImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository, ConfigFile.IScriptingConfiguration, ConfigFile.IOnlineConfiguration)
-  fullName.vb: SuperOffice.CRM.Services.UserAgent.New(SuperOffice.CRM.Services.Implementation.BL.Contracts.IAccessGatewayInfoImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.ICredentialImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IRoleImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IRoleEntityImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IServiceAuthImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.ITokenManagementInfoImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IUntrustedCredentialsImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IUserImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IUserGroupImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IUserGroupListImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IUserInfoImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IUserInfoListImplementation, SuperOffice.Factory.ISoRequestItemsAccessor, SuperOffice.Data.IDebugUser, SuperOffice.Diagnostics.IServiceCallsRepository, SuperOffice.Configuration.ConfigFile.IScriptingConfiguration, SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
-  name.vb: New(IAccessGatewayInfoImplementation, ICredentialImplementation, IRoleImplementation, IRoleEntityImplementation, IServiceAuthImplementation, ITokenManagementInfoImplementation, IUntrustedCredentialsImplementation, IUserImplementation, IUserGroupImplementation, IUserGroupListImplementation, IUserInfoImplementation, IUserInfoListImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository, IScriptingConfiguration, IOnlineConfiguration)
+  nameWithType.vb: UserAgent.New(IAccessGatewayInfoImplementation, ICredentialImplementation, IRoleImplementation, IRoleEntityImplementation, IServiceAuthImplementation, ITokenManagementInfoImplementation, IUntrustedCredentialsImplementation, IUserImplementation, IUserGroupImplementation, IUserGroupListImplementation, IUserInfoImplementation, IUserInfoListImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
+  fullName.vb: SuperOffice.CRM.Services.UserAgent.New(SuperOffice.CRM.Services.Implementation.BL.Contracts.IAccessGatewayInfoImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.ICredentialImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IRoleImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IRoleEntityImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IServiceAuthImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.ITokenManagementInfoImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IUntrustedCredentialsImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IUserImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IUserGroupImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IUserGroupListImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IUserInfoImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IUserInfoListImplementation, SuperOffice.Factory.ISoRequestItemsAccessor, SuperOffice.Data.IDebugUser, SuperOffice.Diagnostics.IServiceCallsRepository)
+  name.vb: New(IAccessGatewayInfoImplementation, ICredentialImplementation, IRoleImplementation, IRoleEntityImplementation, IServiceAuthImplementation, ITokenManagementInfoImplementation, IUntrustedCredentialsImplementation, IUserImplementation, IUserGroupImplementation, IUserGroupListImplementation, IUserInfoImplementation, IUserInfoListImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
 - uid: SuperOffice.CRM.Services.UserAgent.GetAccessGatewayInfoAsync(System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Services.UserAgent.GetAccessGatewayInfoAsync(System.Threading.CancellationToken)
   id: GetAccessGatewayInfoAsync(System.Threading.CancellationToken)
@@ -372,6 +369,53 @@ items:
   overload: SuperOffice.CRM.Services.UserAgent.CheckAccessGatewayRegistrationAsync*
   implements:
   - SuperOffice.CRM.Services.IUserAgent.CheckAccessGatewayRegistrationAsync(System.Threading.CancellationToken)
+- uid: SuperOffice.CRM.Services.UserAgent.ExchangeCodeAndSaveTokensAsync(System.String,System.String,System.String,System.String,System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.UserAgent.ExchangeCodeAndSaveTokensAsync(System.String,System.String,System.String,System.String,System.String,System.Threading.CancellationToken)
+  id: ExchangeCodeAndSaveTokensAsync(System.String,System.String,System.String,System.String,System.String,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.UserAgent
+  langs:
+  - csharp
+  - vb
+  name: ExchangeCodeAndSaveTokensAsync(string, string, string, string, string, CancellationToken)
+  nameWithType: UserAgent.ExchangeCodeAndSaveTokensAsync(string, string, string, string, string, CancellationToken)
+  fullName: SuperOffice.CRM.Services.UserAgent.ExchangeCodeAndSaveTokensAsync(string, string, string, string, string, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.Services
+  summary: Exchanges an authorization code for tokens.
+  example: []
+  syntax:
+    content: public Task<string> ExchangeCodeAndSaveTokensAsync(string provider, string authorizationCode, string nonce, string pkceVerifier, string redirectUri, CancellationToken cancellationToken = default)
+    parameters:
+    - id: provider
+      type: System.String
+      description: The provider of the underlying data.
+    - id: authorizationCode
+      type: System.String
+      description: The authorization code to exchange for a token.
+    - id: nonce
+      type: System.String
+      description: The nonce to verify against the id_token's nonce if present.
+    - id: pkceVerifier
+      type: System.String
+      description: The cryptographic proof for the client to verify.
+    - id: redirectUri
+      type: System.String
+      description: We need to be able to dynamically inject the redirect based on location(app.superoffice.com vs online2.superoffice.com)
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
+    return:
+      type: System.Threading.Tasks.Task{System.String}
+      description: Reference to the key for the tokens in the database, and extracted claims.
+    content.vb: Public Function ExchangeCodeAndSaveTokensAsync(provider As String, authorizationCode As String, nonce As String, pkceVerifier As String, redirectUri As String, cancellationToken As CancellationToken = Nothing) As Task(Of String)
+  overload: SuperOffice.CRM.Services.UserAgent.ExchangeCodeAndSaveTokensAsync*
+  implements:
+  - SuperOffice.CRM.Services.IUserAgent.ExchangeCodeAndSaveTokensAsync(System.String,System.String,System.String,System.String,System.String,System.Threading.CancellationToken)
+  nameWithType.vb: UserAgent.ExchangeCodeAndSaveTokensAsync(String, String, String, String, String, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.UserAgent.ExchangeCodeAndSaveTokensAsync(String, String, String, String, String, System.Threading.CancellationToken)
+  name.vb: ExchangeCodeAndSaveTokensAsync(String, String, String, String, String, CancellationToken)
 - uid: SuperOffice.CRM.Services.UserAgent.SaveCredentialAsync(System.Int32,SuperOffice.CRM.Services.Credential,System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Services.UserAgent.SaveCredentialAsync(System.Int32,SuperOffice.CRM.Services.Credential,System.Threading.CancellationToken)
   id: SaveCredentialAsync(System.Int32,SuperOffice.CRM.Services.Credential,System.Threading.CancellationToken)
@@ -4199,16 +4243,6 @@ references:
   name: IServiceCallsRepository
   nameWithType: IServiceCallsRepository
   fullName: SuperOffice.Diagnostics.IServiceCallsRepository
-- uid: SuperOffice.Configuration.ConfigFile.IScriptingConfiguration
-  isExternal: true
-  name: IScriptingConfiguration
-  nameWithType: ConfigFile.IScriptingConfiguration
-  fullName: SuperOffice.Configuration.ConfigFile.IScriptingConfiguration
-- uid: SuperOffice.Configuration.ConfigFile.IOnlineConfiguration
-  isExternal: true
-  name: IOnlineConfiguration
-  nameWithType: ConfigFile.IOnlineConfiguration
-  fullName: SuperOffice.Configuration.ConfigFile.IOnlineConfiguration
 - uid: SuperOffice.CRM.Services.UserAgent.GetAccessGatewayInfoAsync*
   commentId: Overload:SuperOffice.CRM.Services.UserAgent.GetAccessGatewayInfoAsync
   isExternal: true
@@ -4559,6 +4593,139 @@ references:
     name: Boolean
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+- uid: SuperOffice.CRM.Services.UserAgent.ExchangeCodeAndSaveTokensAsync*
+  commentId: Overload:SuperOffice.CRM.Services.UserAgent.ExchangeCodeAndSaveTokensAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.UserAgent.html#SuperOffice_CRM_Services_UserAgent_ExchangeCodeAndSaveTokensAsync_System_String_System_String_System_String_System_String_System_String_System_Threading_CancellationToken_
+  name: ExchangeCodeAndSaveTokensAsync
+  nameWithType: UserAgent.ExchangeCodeAndSaveTokensAsync
+  fullName: SuperOffice.CRM.Services.UserAgent.ExchangeCodeAndSaveTokensAsync
+- uid: SuperOffice.CRM.Services.IUserAgent.ExchangeCodeAndSaveTokensAsync(System.String,System.String,System.String,System.String,System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IUserAgent.ExchangeCodeAndSaveTokensAsync(System.String,System.String,System.String,System.String,System.String,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IUserAgent
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: ExchangeCodeAndSaveTokensAsync(string, string, string, string, string, CancellationToken)
+  nameWithType: IUserAgent.ExchangeCodeAndSaveTokensAsync(string, string, string, string, string, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IUserAgent.ExchangeCodeAndSaveTokensAsync(string, string, string, string, string, System.Threading.CancellationToken)
+  nameWithType.vb: IUserAgent.ExchangeCodeAndSaveTokensAsync(String, String, String, String, String, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IUserAgent.ExchangeCodeAndSaveTokensAsync(String, String, String, String, String, System.Threading.CancellationToken)
+  name.vb: ExchangeCodeAndSaveTokensAsync(String, String, String, String, String, CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IUserAgent.ExchangeCodeAndSaveTokensAsync(System.String,System.String,System.String,System.String,System.String,System.Threading.CancellationToken)
+    name: ExchangeCodeAndSaveTokensAsync
+    isExternal: true
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IUserAgent.ExchangeCodeAndSaveTokensAsync(System.String,System.String,System.String,System.String,System.String,System.Threading.CancellationToken)
+    name: ExchangeCodeAndSaveTokensAsync
+    isExternal: true
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: System.Threading.Tasks.Task{System.String}
+  commentId: T:System.Threading.Tasks.Task{System.String}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<string>
+  nameWithType: Task<string>
+  fullName: System.Threading.Tasks.Task<string>
+  nameWithType.vb: Task(Of String)
+  fullName.vb: System.Threading.Tasks.Task(Of String)
+  name.vb: Task(Of String)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
 - uid: SuperOffice.CRM.Services.UserAgent.SaveCredentialAsync*
   commentId: Overload:SuperOffice.CRM.Services.UserAgent.SaveCredentialAsync
@@ -5865,41 +6032,6 @@ references:
     name: CancellationToken
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
-  - name: )
-- uid: System.Threading.Tasks.Task{System.String}
-  commentId: T:System.Threading.Tasks.Task{System.String}
-  parent: System.Threading.Tasks
-  definition: System.Threading.Tasks.Task`1
-  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  name: Task<string>
-  nameWithType: Task<string>
-  fullName: System.Threading.Tasks.Task<string>
-  nameWithType.vb: Task(Of String)
-  fullName.vb: System.Threading.Tasks.Task(Of String)
-  name.vb: Task(Of String)
-  spec.csharp:
-  - uid: System.Threading.Tasks.Task`1
-    name: Task
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  - name: <
-  - uid: System.String
-    name: string
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: '>'
-  spec.vb:
-  - uid: System.Threading.Tasks.Task`1
-    name: Task
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: System.String
-    name: String
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
 - uid: SuperOffice.CRM.Services.UserAgent.GetDataRightsAsync*
   commentId: Overload:SuperOffice.CRM.Services.UserAgent.GetDataRightsAsync

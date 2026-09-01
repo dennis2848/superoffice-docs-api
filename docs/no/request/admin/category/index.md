@@ -2,12 +2,13 @@
 uid: help-no-request-category
 title: Sakskategorier
 description: Sakskategorier
-author: Hanne Gunnarsson
-date: 02.05.2025
-version: 10.5.1
+author: digitaldiina
+date: 06.10.2026
+version: 12.0
 keywords: sakskategori, fanen Kategorier, sak, kategori
 content_type: concept
 license: serviceessentials
+tier: starter
 audience: settings
 audience_tooltip: Innstillinger og vedlikehold
 language: no
@@ -35,7 +36,7 @@ Brukere kan legges til som medlemmer i kategorier individuelt eller via brukergr
 
 * **I Innstillinger og vedlikehold**, velg **Saker** i navigatoren og deretter fanen **Kategorier**.
 
-Kategoriene er arrangert i en trestruktur.
+Kategoriene er arrangert i en trestruktur. For å finne ID-en til en kategori holder du musepekeren over kategorinavnet i listen. ID-en vises i et verktøytips.
 
 [!include[Restricted access](../../../learn/includes/note-insufficient-rights.md)]
 

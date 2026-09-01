@@ -4,11 +4,12 @@ title: Opprett en ny person
 description: Slik oppretter du en ny person i SuperOffice CRM.
 keywords: opprett person, interesser, Interesser-fanen, personbilde, foretrukket språk, hjemmel, person, kontakt
 author: Bergfrid Dias
-date: 01.27.2025
-version: 10.5
+date: 06.10.2026
+version: 12.0
 content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
+tier: starter
 language: no
 ---
 
@@ -46,7 +47,7 @@ Du kan legge til en person i SuperOffice CRM på flere måter:
 
     * Skriv inn nøkkelopplysninger som **Stilling**, **Fødselsdato** og **Foretrukket språk**.
     * Legg til spesifikke kommunikasjonsdetaljer: **Nettside**, **Chatsamtale** og **Internett-tlf.** (f.eks. Skype eller Microsoft Teams).
-    * Hvis relevant, angi Serviceprioritet og velg en "Vår servicekontakt" (krever SuperOffice Service-lisens).
+    * Hvis relevant, angi Serviceprioritet og velg en "Vår servicekontakt" (krever en **Service Premium**-lisens, en **CEP**-lisens eller **Growth**-planen).
 
     ![Detaljer-fanen med tilleggsfelter -screenshot][img2]
 
@@ -122,7 +123,7 @@ Nedenfor finner du en oversikt over feltene i personkortet. Enkelte felt fylles 
 * **Internett-tlf.:** Legg til en VOIP-adresse, som Skype eller en annen internettbasert telefontjeneste.
 * **Direkte faks:** Skriv inn personens faksnummer.
 
-**Service-spesifikke felter** *(krever SuperOffice Service- eller Kundesenter-lisens)*
+**Service-spesifikke felter** *(krever en **Service Premium**-lisens, en **CEP**-lisens eller **Growth**-planen)*
 
 * **Foretrukket språk:** Velg personens foretrukne språk for alle svarmaler.
 * **Serviceprioritet:** Angi prioriteten for nye saker (for eksempel Lav, Middels, Høy eller egendefinert). Standard er firmaets prioritet hvis den ikke er angitt.
@@ -187,7 +188,7 @@ Interesser er nyttige for å opprette målrettede utvalg, for eksempel markedsf�
 * [Legg til som favoritt][4]
 
 <!-- Referenced links -->
-[1]: ../../../en/mobile/superoffice-mobile/contact/scan-business-card.md
+[1]: ../../../en/mobile/contact/scan-business-card.md
 [2]: ../../admin/import/index.md
 [4]: ../../learn/basics/fav.md
 [7]: ../../security/privacy/learn/edit-legal-base.md

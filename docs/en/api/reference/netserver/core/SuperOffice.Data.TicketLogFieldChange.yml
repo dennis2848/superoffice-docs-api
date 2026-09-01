@@ -57,6 +57,9 @@ items:
   - SuperOffice.Data.TicketLogFieldChange.RealTimeSpentQueue
   - SuperOffice.Data.TicketLogFieldChange.RealTimeToClose
   - SuperOffice.Data.TicketLogFieldChange.RealTimeToReply
+  - SuperOffice.Data.TicketLogFieldChange.Relation_Child
+  - SuperOffice.Data.TicketLogFieldChange.Relation_Parent
+  - SuperOffice.Data.TicketLogFieldChange.Relation_Related
   - SuperOffice.Data.TicketLogFieldChange.RepliedAt
   - SuperOffice.Data.TicketLogFieldChange.SLevel
   - SuperOffice.Data.TicketLogFieldChange.SaleId
@@ -84,11 +87,11 @@ items:
   example: []
   syntax:
     content: >-
-      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.9.0.0")]
+      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/12.2.0.0")]
 
       public enum TicketLogFieldChange
     content.vb: >-
-      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.9.0.0")>
+      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/12.2.0.0")>
 
       Public Enum TicketLogFieldChange
   extensionMethods:
@@ -97,6 +100,7 @@ items:
   - SuperOffice.Data.TicketLogFieldChange.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.TicketLogFieldChange)
   - SuperOffice.Data.TicketLogFieldChange.SuperOffice.Util.ObjectExtensions.GraphCopy``1
   - System.Enum.EnumUtil.GetDescription
+  - System.Enum.ExtensionMethods.ResourceManagerExt.ToResourceString
   attributes:
   - type: System.Runtime.Serialization.DataContractAttribute
     ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
@@ -104,7 +108,7 @@ items:
     namedArguments:
     - name: Namespace
       type: System.String
-      value: http://www.superoffice.net/ws/crm/NetServer/11.9.0.0
+      value: http://www.superoffice.net/ws/crm/NetServer/12.2.0.0
 - uid: SuperOffice.Data.TicketLogFieldChange.CreatedAt
   commentId: F:SuperOffice.Data.TicketLogFieldChange.CreatedAt
   id: CreatedAt
@@ -2120,6 +2124,99 @@ items:
   - type: System.Runtime.Serialization.EnumMemberAttribute
     ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
     arguments: []
+- uid: SuperOffice.Data.TicketLogFieldChange.Relation_Child
+  commentId: F:SuperOffice.Data.TicketLogFieldChange.Relation_Child
+  id: Relation_Child
+  parent: SuperOffice.Data.TicketLogFieldChange
+  langs:
+  - csharp
+  - vb
+  name: Relation_Child
+  nameWithType: TicketLogFieldChange.Relation_Child
+  fullName: SuperOffice.Data.TicketLogFieldChange.Relation_Child
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: '20001: Ticket child relation changed'
+  example: []
+  syntax:
+    content: >-
+      [EnumMember]
+
+      Relation_Child = 20001
+    return:
+      type: SuperOffice.Data.TicketLogFieldChange
+    content.vb: >-
+      <EnumMember>
+
+      Relation_Child = 20001
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.Data.TicketLogFieldChange.Relation_Related
+  commentId: F:SuperOffice.Data.TicketLogFieldChange.Relation_Related
+  id: Relation_Related
+  parent: SuperOffice.Data.TicketLogFieldChange
+  langs:
+  - csharp
+  - vb
+  name: Relation_Related
+  nameWithType: TicketLogFieldChange.Relation_Related
+  fullName: SuperOffice.Data.TicketLogFieldChange.Relation_Related
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: '20002: Ticket related relation changed'
+  example: []
+  syntax:
+    content: >-
+      [EnumMember]
+
+      Relation_Related = 20002
+    return:
+      type: SuperOffice.Data.TicketLogFieldChange
+    content.vb: >-
+      <EnumMember>
+
+      Relation_Related = 20002
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.Data.TicketLogFieldChange.Relation_Parent
+  commentId: F:SuperOffice.Data.TicketLogFieldChange.Relation_Parent
+  id: Relation_Parent
+  parent: SuperOffice.Data.TicketLogFieldChange
+  langs:
+  - csharp
+  - vb
+  name: Relation_Parent
+  nameWithType: TicketLogFieldChange.Relation_Parent
+  fullName: SuperOffice.Data.TicketLogFieldChange.Relation_Parent
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: '20003: Ticket parent relation changed'
+  example: []
+  syntax:
+    content: >-
+      [EnumMember]
+
+      Relation_Parent = 20003
+    return:
+      type: SuperOffice.Data.TicketLogFieldChange
+    content.vb: >-
+      <EnumMember>
+
+      Relation_Parent = 20003
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 references:
 - uid: SuperOffice.Data
   commentId: N:SuperOffice.Data
@@ -2390,6 +2487,36 @@ references:
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.enum
   - name: )
+- uid: System.Enum.ExtensionMethods.ResourceManagerExt.ToResourceString
+  commentId: M:ExtensionMethods.ResourceManagerExt.ToResourceString(System.Enum)
+  parent: ExtensionMethods.ResourceManagerExt
+  definition: ExtensionMethods.ResourceManagerExt.ToResourceString(System.Enum)
+  href: ExtensionMethods.ResourceManagerExt.html#ExtensionMethods_ResourceManagerExt_ToResourceString_System_Enum_
+  name: ToResourceString(Enum)
+  nameWithType: ResourceManagerExt.ToResourceString(Enum)
+  fullName: ExtensionMethods.ResourceManagerExt.ToResourceString(System.Enum)
+  spec.csharp:
+  - uid: ExtensionMethods.ResourceManagerExt.ToResourceString(System.Enum)
+    name: ToResourceString
+    isExternal: true
+    href: ExtensionMethods.ResourceManagerExt.html#ExtensionMethods_ResourceManagerExt_ToResourceString_System_Enum_
+  - name: (
+  - uid: System.Enum
+    name: Enum
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.enum
+  - name: )
+  spec.vb:
+  - uid: ExtensionMethods.ResourceManagerExt.ToResourceString(System.Enum)
+    name: ToResourceString
+    isExternal: true
+    href: ExtensionMethods.ResourceManagerExt.html#ExtensionMethods_ResourceManagerExt_ToResourceString_System_Enum_
+  - name: (
+  - uid: System.Enum
+    name: Enum
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.enum
+  - name: )
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
@@ -2596,6 +2723,43 @@ references:
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.enum
   - name: )
+- uid: ExtensionMethods.ResourceManagerExt.ToResourceString(System.Enum)
+  commentId: M:ExtensionMethods.ResourceManagerExt.ToResourceString(System.Enum)
+  isExternal: true
+  href: ExtensionMethods.ResourceManagerExt.html#ExtensionMethods_ResourceManagerExt_ToResourceString_System_Enum_
+  name: ToResourceString(Enum)
+  nameWithType: ResourceManagerExt.ToResourceString(Enum)
+  fullName: ExtensionMethods.ResourceManagerExt.ToResourceString(System.Enum)
+  spec.csharp:
+  - uid: ExtensionMethods.ResourceManagerExt.ToResourceString(System.Enum)
+    name: ToResourceString
+    isExternal: true
+    href: ExtensionMethods.ResourceManagerExt.html#ExtensionMethods_ResourceManagerExt_ToResourceString_System_Enum_
+  - name: (
+  - uid: System.Enum
+    name: Enum
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.enum
+  - name: )
+  spec.vb:
+  - uid: ExtensionMethods.ResourceManagerExt.ToResourceString(System.Enum)
+    name: ToResourceString
+    isExternal: true
+    href: ExtensionMethods.ResourceManagerExt.html#ExtensionMethods_ResourceManagerExt_ToResourceString_System_Enum_
+  - name: (
+  - uid: System.Enum
+    name: Enum
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.enum
+  - name: )
+- uid: ExtensionMethods.ResourceManagerExt
+  commentId: T:ExtensionMethods.ResourceManagerExt
+  parent: ExtensionMethods
+  isExternal: true
+  href: ExtensionMethods.ResourceManagerExt.html
+  name: ResourceManagerExt
+  nameWithType: ResourceManagerExt
+  fullName: ExtensionMethods.ResourceManagerExt
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
@@ -2660,6 +2824,13 @@ references:
     name: Util
     isExternal: true
     href: SuperOffice.Util.html
+- uid: ExtensionMethods
+  commentId: N:ExtensionMethods
+  isExternal: true
+  href: ExtensionMethods.html
+  name: ExtensionMethods
+  nameWithType: ExtensionMethods
+  fullName: ExtensionMethods
 - uid: SuperOffice.Data.TicketLogFieldChange
   commentId: T:SuperOffice.Data.TicketLogFieldChange
   parent: SuperOffice.Data

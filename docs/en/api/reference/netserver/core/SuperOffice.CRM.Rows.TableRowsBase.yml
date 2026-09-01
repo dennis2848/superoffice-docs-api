@@ -239,6 +239,7 @@ items:
   - SuperOffice.CRM.Rows.ForeignAppRows
   - SuperOffice.CRM.Rows.ForeignDeviceRows
   - SuperOffice.CRM.Rows.ForeignKeyRows
+  - SuperOffice.CRM.Rows.FormFieldRestrictionRows
   - SuperOffice.CRM.Rows.FormFieldValueRows
   - SuperOffice.CRM.Rows.FormKeysRows
   - SuperOffice.CRM.Rows.FormRows
@@ -282,6 +283,8 @@ items:
   - SuperOffice.CRM.Rows.KbSolutionFinderRows
   - SuperOffice.CRM.Rows.KbWorkflowAccessRows
   - SuperOffice.CRM.Rows.KbWorkflowRows
+  - SuperOffice.CRM.Rows.LandingPagePinRows
+  - SuperOffice.CRM.Rows.LandingPageRows
   - SuperOffice.CRM.Rows.LanguageInfoCountryRows
   - SuperOffice.CRM.Rows.LanguageInfoRows
   - SuperOffice.CRM.Rows.LeadstatusRows
@@ -306,6 +309,7 @@ items:
   - SuperOffice.CRM.Rows.MessageHeaderRows
   - SuperOffice.CRM.Rows.MessageIdRows
   - SuperOffice.CRM.Rows.MessageRows
+  - SuperOffice.CRM.Rows.MeteringLogRows
   - SuperOffice.CRM.Rows.ModuleLicenseRows
   - SuperOffice.CRM.Rows.ModuleOwnerRows
   - SuperOffice.CRM.Rows.MrMrsGroupLinkRows
@@ -315,18 +319,12 @@ items:
   - SuperOffice.CRM.Rows.MsFilterRows
   - SuperOffice.CRM.Rows.MsSubstituteRows
   - SuperOffice.CRM.Rows.MsTrashbinRows
+  - SuperOffice.CRM.Rows.NewsFeedItemCtaRows
+  - SuperOffice.CRM.Rows.NewsFeedItemHtmlRows
+  - SuperOffice.CRM.Rows.NewsFeedItemRecipientRows
+  - SuperOffice.CRM.Rows.NewsFeedItemRows
   - SuperOffice.CRM.Rows.NoticeFrameRows
   - SuperOffice.CRM.Rows.NotifyRows
-  - SuperOffice.CRM.Rows.OLEFieldRows
-  - SuperOffice.CRM.Rows.OLEFieldTextRows
-  - SuperOffice.CRM.Rows.OLESubjectRows
-  - SuperOffice.CRM.Rows.OLESubjectTextRows
-  - SuperOffice.CRM.Rows.OLEViewRows
-  - SuperOffice.CRM.Rows.OLEViewTextRows
-  - SuperOffice.CRM.Rows.Obsolete1Rows
-  - SuperOffice.CRM.Rows.Obsolete2Rows
-  - SuperOffice.CRM.Rows.Obsolete3Rows
-  - SuperOffice.CRM.Rows.Obsolete4Rows
   - SuperOffice.CRM.Rows.OnlineAppRows
   - SuperOffice.CRM.Rows.OutboxRows
   - SuperOffice.CRM.Rows.OutgoingMessageRows
@@ -429,7 +427,6 @@ items:
   - SuperOffice.CRM.Rows.ReplyTemplateBodyRows
   - SuperOffice.CRM.Rows.ReplyTemplateFolderRows
   - SuperOffice.CRM.Rows.ReplyTemplateRows
-  - SuperOffice.CRM.Rows.ReporterListDefRows
   - SuperOffice.CRM.Rows.ResourceOverrideRows
   - SuperOffice.CRM.Rows.RoleCategoryRows
   - SuperOffice.CRM.Rows.RoleElementRows
@@ -448,15 +445,7 @@ items:
   - SuperOffice.CRM.Rows.SListShipmentRows
   - SuperOffice.CRM.Rows.SMessageRows
   - SuperOffice.CRM.Rows.SMessageblockRows
-  - SuperOffice.CRM.Rows.SORCriteriaRows
-  - SuperOffice.CRM.Rows.SORFCTRows
-  - SuperOffice.CRM.Rows.SORFieldRows
   - SuperOffice.CRM.Rows.SORLabelLayoutRows
-  - SuperOffice.CRM.Rows.SOROperatorsRows
-  - SuperOffice.CRM.Rows.SORPublishGroupLinkRows
-  - SuperOffice.CRM.Rows.SORPublishRows
-  - SuperOffice.CRM.Rows.SORSectionRows
-  - SuperOffice.CRM.Rows.SORTemplateRows
   - SuperOffice.CRM.Rows.SPictureEntryRows
   - SuperOffice.CRM.Rows.SPictureFolderRows
   - SuperOffice.CRM.Rows.SSentMessageRows
@@ -600,7 +589,6 @@ items:
   - SuperOffice.CRM.Rows.UDefFieldGLRows
   - SuperOffice.CRM.Rows.UDefFieldRows
   - SuperOffice.CRM.Rows.URLRows
-  - SuperOffice.CRM.Rows.UsageStatsRows
   - SuperOffice.CRM.Rows.UserAttributeRows
   - SuperOffice.CRM.Rows.UserCandidateRows
   - SuperOffice.CRM.Rows.UserGroupLinkRows
@@ -610,6 +598,7 @@ items:
   - SuperOffice.CRM.Rows.UtmParametersRows
   - SuperOffice.CRM.Rows.VisibleForRows
   - SuperOffice.CRM.Rows.WebAppUsageRows
+  - SuperOffice.CRM.Rows.WebhookNotifyRows
   - SuperOffice.CRM.Rows.WebhookRows
   - SuperOffice.CRM.Rows.WebhookUsageRows
   - SuperOffice.CRM.Rows.WinPosSizeRows

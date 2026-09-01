@@ -7,6 +7,7 @@ author: Bergfrid Dias, Eivind Fasting
 date: 12.10.2025
 version: 11
 content_type: howto
+tier: growth
 audience: settings
 audience_tooltip: Settings and maintenance
 language: en
@@ -70,7 +71,7 @@ In SuperOffice you can create web panels that can contain table information. To 
 
 <!-- Referenced links -->
 [1]: create-extra-field.md
-[2]: ../../automation/webhook/overview.md
+[2]: ../../automation/webhook/dev/index.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/custom-objects/create-extra-tables-and-fields.png

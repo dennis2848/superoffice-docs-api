@@ -67,6 +67,7 @@ items:
   - SuperOffice.CRM.Lists.DocumentMailingTemplateProvider
   - SuperOffice.CRM.Lists.DocumentTypesListProvider
   - SuperOffice.CRM.Lists.DynamicMDOProviderPluginAttribute
+  - SuperOffice.CRM.Lists.EMailPriorityProvider
   - SuperOffice.CRM.Lists.EjCategoryProvider
   - SuperOffice.CRM.Lists.EjUserProvider
   - SuperOffice.CRM.Lists.EmailAddressProvider
@@ -93,6 +94,7 @@ items:
   - SuperOffice.CRM.Lists.FindProduct
   - SuperOffice.CRM.Lists.FontSizeProvider
   - SuperOffice.CRM.Lists.FontTypeProvider
+  - SuperOffice.CRM.Lists.FormFieldsProvider
   - SuperOffice.CRM.Lists.FormFolderProvider
   - SuperOffice.CRM.Lists.FormMailingsProvider
   - SuperOffice.CRM.Lists.FormProvider
@@ -135,6 +137,7 @@ items:
   - SuperOffice.CRM.Lists.KbAccessLevelProvider
   - SuperOffice.CRM.Lists.KbEntryListProvider
   - SuperOffice.CRM.Lists.KbWorkflowProvider
+  - SuperOffice.CRM.Lists.LandingpageProvider
   - SuperOffice.CRM.Lists.LanguageProvider
   - SuperOffice.CRM.Lists.LeadStatusListProvider
   - SuperOffice.CRM.Lists.LegalBaseListProvider
@@ -171,6 +174,7 @@ items:
   - SuperOffice.CRM.Lists.MergeDocumentListProvider
   - SuperOffice.CRM.Lists.MergeTagsProvider
   - SuperOffice.CRM.Lists.MonthProvider
+  - SuperOffice.CRM.Lists.NewsFeedItemStatusProvider
   - SuperOffice.CRM.Lists.OfMonthProvider
   - SuperOffice.CRM.Lists.OnlineFontLibraryProvider
   - SuperOffice.CRM.Lists.OwnerContactProvider
@@ -193,6 +197,7 @@ items:
   - SuperOffice.CRM.Lists.ProjectAssociateMDOProvider
   - SuperOffice.CRM.Lists.ProjectFavouriteListProvider
   - SuperOffice.CRM.Lists.ProjectImageProvider
+  - SuperOffice.CRM.Lists.ProjectMemberEventParticipantStatusProvider
   - SuperOffice.CRM.Lists.ProjectStatusProvider
   - SuperOffice.CRM.Lists.ProjectTypeFlatListProvider
   - SuperOffice.CRM.Lists.ProjectTypeProvider
@@ -313,6 +318,8 @@ items:
   - SuperOffice.CRM.Lists.VisibleInTaskProvider
   - SuperOffice.CRM.Lists.WebPanelGroupProvider
   - SuperOffice.CRM.Lists.WebPanelProvider
+  - SuperOffice.CRM.Lists.WebhookEntityListProvider
+  - SuperOffice.CRM.Lists.WebhookEventListProvider
   - SuperOffice.CRM.Lists.WeekNumberProvider
   - SuperOffice.CRM.Lists.WeekdayProvider
   - SuperOffice.CRM.Lists.WildcardMDOProviderPluginAttribute
@@ -912,6 +919,13 @@ references:
   name: EmailPhoneProvider
   nameWithType: EmailPhoneProvider
   fullName: SuperOffice.CRM.Lists.EmailPhoneProvider
+- uid: SuperOffice.CRM.Lists.EMailPriorityProvider
+  commentId: T:SuperOffice.CRM.Lists.EMailPriorityProvider
+  isExternal: true
+  href: SuperOffice.CRM.Lists.EMailPriorityProvider.html
+  name: EMailPriorityProvider
+  nameWithType: EMailPriorityProvider
+  fullName: SuperOffice.CRM.Lists.EMailPriorityProvider
 - uid: SuperOffice.CRM.Lists.EmailReplyToTypeProvider
   commentId: T:SuperOffice.CRM.Lists.EmailReplyToTypeProvider
   isExternal: true
@@ -1123,6 +1137,13 @@ references:
   name: FontTypeProvider
   nameWithType: FontTypeProvider
   fullName: SuperOffice.CRM.Lists.FontTypeProvider
+- uid: SuperOffice.CRM.Lists.FormFieldsProvider
+  commentId: T:SuperOffice.CRM.Lists.FormFieldsProvider
+  isExternal: true
+  href: SuperOffice.CRM.Lists.FormFieldsProvider.html
+  name: FormFieldsProvider
+  nameWithType: FormFieldsProvider
+  fullName: SuperOffice.CRM.Lists.FormFieldsProvider
 - uid: SuperOffice.CRM.Lists.FormFolderProvider
   commentId: T:SuperOffice.CRM.Lists.FormFolderProvider
   isExternal: true
@@ -1314,6 +1335,13 @@ references:
   name: KbWorkflowProvider
   nameWithType: KbWorkflowProvider
   fullName: SuperOffice.CRM.Lists.KbWorkflowProvider
+- uid: SuperOffice.CRM.Lists.LandingpageProvider
+  commentId: T:SuperOffice.CRM.Lists.LandingpageProvider
+  isExternal: true
+  href: SuperOffice.CRM.Lists.LandingpageProvider.html
+  name: LandingpageProvider
+  nameWithType: LandingpageProvider
+  fullName: SuperOffice.CRM.Lists.LandingpageProvider
 - uid: SuperOffice.CRM.Lists.LanguageProvider
   commentId: T:SuperOffice.CRM.Lists.LanguageProvider
   isExternal: true
@@ -1447,6 +1475,13 @@ references:
   name: MergeTagsProvider
   nameWithType: MergeTagsProvider
   fullName: SuperOffice.CRM.Lists.MergeTagsProvider
+- uid: SuperOffice.CRM.Lists.NewsFeedItemStatusProvider
+  commentId: T:SuperOffice.CRM.Lists.NewsFeedItemStatusProvider
+  isExternal: true
+  href: SuperOffice.CRM.Lists.NewsFeedItemStatusProvider.html
+  name: NewsFeedItemStatusProvider
+  nameWithType: NewsFeedItemStatusProvider
+  fullName: SuperOffice.CRM.Lists.NewsFeedItemStatusProvider
 - uid: SuperOffice.CRM.Lists.OnlineFontLibraryProvider
   commentId: T:SuperOffice.CRM.Lists.OnlineFontLibraryProvider
   isExternal: true
@@ -1588,6 +1623,13 @@ references:
   name: ProjectImageProvider
   nameWithType: ProjectImageProvider
   fullName: SuperOffice.CRM.Lists.ProjectImageProvider
+- uid: SuperOffice.CRM.Lists.ProjectMemberEventParticipantStatusProvider
+  commentId: T:SuperOffice.CRM.Lists.ProjectMemberEventParticipantStatusProvider
+  isExternal: true
+  href: SuperOffice.CRM.Lists.ProjectMemberEventParticipantStatusProvider.html
+  name: ProjectMemberEventParticipantStatusProvider
+  nameWithType: ProjectMemberEventParticipantStatusProvider
+  fullName: SuperOffice.CRM.Lists.ProjectMemberEventParticipantStatusProvider
 - uid: SuperOffice.CRM.Lists.ProjectStatusProvider
   commentId: T:SuperOffice.CRM.Lists.ProjectStatusProvider
   isExternal: true
@@ -2334,6 +2376,20 @@ references:
   name: VisibleInTaskProvider
   nameWithType: VisibleInTaskProvider
   fullName: SuperOffice.CRM.Lists.VisibleInTaskProvider
+- uid: SuperOffice.CRM.Lists.WebhookEntityListProvider
+  commentId: T:SuperOffice.CRM.Lists.WebhookEntityListProvider
+  isExternal: true
+  href: SuperOffice.CRM.Lists.WebhookEntityListProvider.html
+  name: WebhookEntityListProvider
+  nameWithType: WebhookEntityListProvider
+  fullName: SuperOffice.CRM.Lists.WebhookEntityListProvider
+- uid: SuperOffice.CRM.Lists.WebhookEventListProvider
+  commentId: T:SuperOffice.CRM.Lists.WebhookEventListProvider
+  isExternal: true
+  href: SuperOffice.CRM.Lists.WebhookEventListProvider.html
+  name: WebhookEventListProvider
+  nameWithType: WebhookEventListProvider
+  fullName: SuperOffice.CRM.Lists.WebhookEventListProvider
 - uid: SuperOffice.CRM.Lists.WebPanelGroupProvider
   commentId: T:SuperOffice.CRM.Lists.WebPanelGroupProvider
   isExternal: true

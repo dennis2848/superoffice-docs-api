@@ -41,6 +41,8 @@ Projects
 |nextMilestoneDate|Calculated date, reflects date of closest non-complete future milestone activity|DateTime|&#x25CF;|
 |nmdAppointment\_id|ID of appointment that &quot;caused&quot; the nextMilestoneDate, can be 0|FK [appointment](appointment.md)|&#x25CF;|
 |activeErpLinks|The number of Erp Sync connections this record is synced with; count of the ErpExternalKey+ErpInternalKey relations|Int|&#x25CF;|
+|event\_id|Reserved field for Lyyti event when project is linked to an event.|Int|&#x25CF;|
+|startDate|Reserved field for Lyyti event when project is linked to an event, is the event start date.|DateTime|&#x25CF;|
 
 
 ![project table relationship diagram](./media/project.png)
@@ -67,6 +69,7 @@ Projects
 |[chat\_session](chat-session.md)  |This table contains chat sessions. |
 |[CounterValue](countervalue.md)  |Visible for rights |
 |[Email](email.md)  |Email addresses for contacts, projects and persons |
+|[NewsFeedItem](newsfeeditem.md)  |Contains news feed items - published to one or more users, with one or more language descriptions |
 |[projectmember](projectmember.md)  |Project members. Link-table between person and project |
 |[ProjStatus](projstatus.md)  |ProjStatus list table. Project status |
 |[ProjType](projtype.md)  |ProjType list table. List of valid Project types. |

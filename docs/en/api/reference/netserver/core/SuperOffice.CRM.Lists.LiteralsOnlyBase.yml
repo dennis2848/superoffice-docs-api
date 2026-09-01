@@ -86,6 +86,7 @@ items:
   - SuperOffice.CRM.Lists.DocumentGroupProvider
   - SuperOffice.CRM.Lists.DocumentHandlerProvider
   - SuperOffice.CRM.Lists.DocumentTypesListProvider
+  - SuperOffice.CRM.Lists.EMailPriorityProvider
   - SuperOffice.CRM.Lists.EjUserProvider
   - SuperOffice.CRM.Lists.EmailFromTypeProvider
   - SuperOffice.CRM.Lists.EmailReplyToTypeProvider
@@ -99,6 +100,7 @@ items:
   - SuperOffice.CRM.Lists.FindProduct
   - SuperOffice.CRM.Lists.FontSizeProvider
   - SuperOffice.CRM.Lists.FontTypeProvider
+  - SuperOffice.CRM.Lists.FormFieldsProvider
   - SuperOffice.CRM.Lists.FormMailingsProvider
   - SuperOffice.CRM.Lists.FormProvider
   - SuperOffice.CRM.Lists.FormSubmissionStatusProvider
@@ -119,6 +121,7 @@ items:
   - SuperOffice.CRM.Lists.Iso6391LanguageProvider
   - SuperOffice.CRM.Lists.KbAccessLevelProvider
   - SuperOffice.CRM.Lists.KbWorkflowProvider
+  - SuperOffice.CRM.Lists.LandingpageProvider
   - SuperOffice.CRM.Lists.LanguageProvider
   - SuperOffice.CRM.Lists.MailClientProvider
   - SuperOffice.CRM.Lists.MailingFavouriteListProvider
@@ -126,6 +129,7 @@ items:
   - SuperOffice.CRM.Lists.MailingTypeProvider
   - SuperOffice.CRM.Lists.MergeTagsProvider
   - SuperOffice.CRM.Lists.MonthProvider
+  - SuperOffice.CRM.Lists.NewsFeedItemStatusProvider
   - SuperOffice.CRM.Lists.OfMonthProvider
   - SuperOffice.CRM.Lists.OnlineFontLibraryProvider
   - SuperOffice.CRM.Lists.PeriodProvider
@@ -138,6 +142,7 @@ items:
   - SuperOffice.CRM.Lists.PreferenceLineItemProvider
   - SuperOffice.CRM.Lists.PreferenceSectionProvider
   - SuperOffice.CRM.Lists.ProjectFavouriteListProvider
+  - SuperOffice.CRM.Lists.ProjectMemberEventParticipantStatusProvider
   - SuperOffice.CRM.Lists.QuoteAlternativeProvider
   - SuperOffice.CRM.Lists.QuoteApprovers
   - SuperOffice.CRM.Lists.QuoteConnections
@@ -197,6 +202,8 @@ items:
   - SuperOffice.CRM.Lists.VisibleInMenuProvider
   - SuperOffice.CRM.Lists.VisibleInProvider
   - SuperOffice.CRM.Lists.VisibleInTaskProvider
+  - SuperOffice.CRM.Lists.WebhookEntityListProvider
+  - SuperOffice.CRM.Lists.WebhookEventListProvider
   - SuperOffice.CRM.Lists.WeekNumberProvider
   - SuperOffice.CRM.Lists.WeekdayProvider
   - SuperOffice.CRM.Lists.WorkflowDefinitionStatusProvider

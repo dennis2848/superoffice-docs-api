@@ -4,11 +4,12 @@ title: Tellers en tellerinstellingen
 description: Tellers voor SAINT definiëren en configureren
 keywords: SAINT, statuscontroles, teller, periode
 author: SuperOffice Product and Engineering
-date: 09.23.2025
-version: 10.5
+date: 06.10.2026
+version: 12.0
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
+tier: growth
 language: nl
 index: true
 redirect_from:
@@ -18,7 +19,7 @@ redirect_from:
 
 # Tellers en tellerinstellingen
 
-[!include[Requirement](../includes/note-saint-req.md)]
+[!include[Requirement](../../includes/note-req-saint.md)]
 
 Een **teller** is een waarde zoals het aantal verkopen in een periode of de datum van de laatst voltooide verkoop. Tellers kunnen worden gebruikt als zoekcriteria om bedrijven, personen of projecten te vinden.
 

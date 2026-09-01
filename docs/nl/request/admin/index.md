@@ -3,11 +3,12 @@ uid: help-nl-service-settings
 title: Systeeminstellingen
 description: Systeeminstellingen
 keywords: Service
-author: Bergfrid Dias
-date: 03.14.2025
-version: 10.5.2
+author: digitaldiina
+date: 06.10.2026
+version: 12.0
 content_type: reference
 license: serviceessentials
+tier: starter
 audience: settings
 audience_tooltip: Settings and maintenance
 language: nl
@@ -22,8 +23,10 @@ In deze sectie kunt u de instellingen voor Service configureren en aanpassen aan
 ## Gerelateerde inhoud
 
 * [Verzoektypes][9]
+* [Relatieregels][17]
 * [Rollen][12]
 * [Gebruikers][13]
+* [Beschikbaarheidsstatus][7]
 * [Categorieën][4]
 * [Prioriteiten][5]
 * [Verzoekstatus][6]
@@ -33,7 +36,6 @@ In deze sectie kunt u de instellingen voor Service configureren en aanpassen aan
 * [Klanttalen][10]
 * [Configuratie klantportaal en bronbestanden][21]
 * [Chatten][23]
-* [SOAP][14] (ALLEEN ter plaatse)
 * [Systeemontwerp][15]
 * [Profiel][16] - wijzigingen hier verschijnen nergens in de SuperOffice CRM-module (alleen in de servicemodule)
 
@@ -43,11 +45,12 @@ In deze sectie kunt u de instellingen voor Service configureren en aanpassen aan
 [6]: status/index.md
 [8]: system-templates.md
 [9]: type/index.md
+[17]: relation-rules.md
 [10]: ../../localization/learn/customer-languages.md
 [11]: ../../admin/preferences/service-settings.md
 [12]: ../../admin/user-management/role/index.md
 [13]: ../../admin/user-management/index.md
-[14]: ../../admin/onsite/configure-soap.md
+[7]: ../learn/index.md#available
 [15]: ../../ui/blogic/learn/index.md
 [16]: ../../ui/blogic/learn/profiles/index.md
 

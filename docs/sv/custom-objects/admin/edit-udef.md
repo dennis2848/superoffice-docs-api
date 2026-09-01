@@ -9,13 +9,14 @@ keywords: udef, anpassa fält
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
+tier: core
 language: sv
 index: true
 ---
 
 # Redigera användardefinierade fält
 
-1. [!inkludera[Gå till Fält och välj flik](includes/goto-fields.md)]
+1. [!include[Gå till Fält och välj flik](includes/goto-fields.md)]
 
 1. Dubbelklicka på det nödvändiga fältet i listan **Fält**.
 

@@ -4,31 +4,31 @@ title: Rolle erstellen
 description: Rolle erstellen
 keywords: Rolle, Benutzerverwaltung
 author: digitaldiina
-date: 10.24.2025
-version: 10.4
+date: 06.10.2026
+version: 12.0
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 category: identity management
 topic: role
 index: true
+tier: starter
 redirect_from: /de/admin/user-management/learn/role/create-role
 language: de
 ---
 
 # Rolle erstellen
 
-[!include[Requirement](../includes/note-anon-req.md)]
+[!include[Requirement](../../../includes/lim-starter.md)]
+
+> [!NOTE]
+> Für anonyme Benutzer ist nur eine einzige Rolle vorhanden. Sie können keine neue Rolle erstellen.
+
+## Schritte
 
 1. [!include[Open Roles](../includes/open-roles.md)]
 
-1. Wählen Sie eine der folgenden Registerkarten:
-
-    * **Mitarbeiter**: Hier können Sie Rollen für Mitarbeiter Ihrer Firma hinzufügen.
-    * **Extern**:  Hier können Sie Rollen für externe Benutzer (nur Vor Ort) hinzufügen.
-
-    > [!NOTE]
-    > Für anonyme Benutzer ist nur eine einzige Rolle vorhanden. Sie können keine neue Rolle erstellen. Siehe [Rechte für anonyme Benutzer bearbeiten][8].
+1. Wählen Sie die Registerkarte **Mitarbeiter**.
 
 1. Klicken Sie unter der Liste auf **Hinzufügen**.
 
@@ -47,7 +47,7 @@ language: de
 
 1. [Geben Sie die Datenrechte auf der Registerkarte **Datenrechte** ein][7].
 
-1. Beim Erstellen von Rollen für Mitarbeiter: Klicken Sie auf die Registerkarte **Funktionelle Rechte**.
+1. Klicken Sie auf die Registerkarte **Funktionelle Rechte**.
 
     Auf dieser Registerkarte können Sie festlegen, welche Funktionen für die Rolle verfügbar sind, wie zum Beispiel Serienbrief erstellen, veröffentlichen, Selektionen exportieren und Administratorzugriff in Einstellungen und Verwaltung.
 
@@ -70,4 +70,3 @@ language: de
 [5]: ../add-associate.md
 [6]: functional-rights.md
 [7]: set-data-rights-for-role.md
-[8]: ../onsite/other-users.md#rights

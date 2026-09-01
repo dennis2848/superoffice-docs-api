@@ -9,6 +9,7 @@ version: 11
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
+tier: growth
 language: nl
 redirect_from: /nl/custom-objects/learn/extra-table/create
 index: true
@@ -70,7 +71,7 @@ In SuperOffice CRM kunt u webvensters maken die tabelinformatie bevatten. Als u 
 
 <!-- Referenced links -->
 [1]: create-extra-field.md
-[2]: ../../en/automation/webhook/overview.md
+[2]: ../../../en/automation/webhook/dev/index.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/custom-objects/create-extra-tables-and-fields.png

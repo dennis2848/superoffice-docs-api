@@ -31,10 +31,12 @@ items:
   - SuperOffice.CRM.Entities.RecurrenceManager.GetRecurrenceInfo(SuperOffice.CRM.Entities.Appointment)
   - SuperOffice.CRM.Entities.RecurrenceManager.GetRecurrenceInfo(SuperOffice.CRM.Rows.RecurrenceRuleRow,System.DateTime)
   - SuperOffice.CRM.Entities.RecurrenceManager.GetWeekDayInMonth(SuperOffice.Data.Weekday,System.Int32,System.DateTime)
+  - SuperOffice.CRM.Entities.RecurrenceManager.HasRecurrenceChangedDuringSave
   - SuperOffice.CRM.Entities.RecurrenceManager.IsRecurrencePatternChanged
   - SuperOffice.CRM.Entities.RecurrenceManager.OnAgendaHTMLTextChange(SuperOffice.CRM.Entities.Appointment,System.String,System.String,System.String)
   - SuperOffice.CRM.Entities.RecurrenceManager.OnAgendaTextChange(SuperOffice.CRM.Entities.Appointment,System.String,System.String,System.String)
   - SuperOffice.CRM.Entities.RecurrenceManager.OnAppointmentRowValueChanged(SuperOffice.CRM.Entities.Appointment,SuperOffice.CRM.Rows.TableRowBase,SuperOffice.Data.SQL.FieldInfo,System.Object,System.Object,System.Object)
+  - SuperOffice.CRM.Entities.RecurrenceManager.OnDoByChange(System.DateTime)
   - SuperOffice.CRM.Entities.RecurrenceManager.OnInternalNotesHtmlTextChange(SuperOffice.CRM.Entities.Appointment,System.String,System.String,System.String)
   - SuperOffice.CRM.Entities.RecurrenceManager.OnInternalNotesTextChange(SuperOffice.CRM.Entities.Appointment,System.String,System.String,System.String)
   - SuperOffice.CRM.Entities.RecurrenceManager.OnLinksAddedAsync(SuperOffice.CRM.Entities.Appointment,SuperOffice.CRM.Entities.ActivityLinksHelper,SuperOffice.CRM.Rows.AppointmentRow,SuperOffice.CRM.Rows.RelationsRow,System.Threading.CancellationToken)
@@ -45,6 +47,7 @@ items:
   - SuperOffice.CRM.Entities.RecurrenceManager.OnUdefValueChangeAsync(SuperOffice.CRM.Entities.Appointment,System.String,System.Object,System.Object,System.Threading.CancellationToken)
   - SuperOffice.CRM.Entities.RecurrenceManager.PrepareForSave(System.Boolean,System.Boolean)
   - SuperOffice.CRM.Entities.RecurrenceManager.RecalculateDays
+  - SuperOffice.CRM.Entities.RecurrenceManager.RecalculateDays(System.Int32)
   - SuperOffice.CRM.Entities.RecurrenceManager.RecurrenceInfo
   - SuperOffice.CRM.Entities.RecurrenceManager.UpdateAppointmentWithDate(SuperOffice.CRM.Entities.Appointment,SuperOffice.CRM.Services.RecurrenceDate)
   - SuperOffice.CRM.Entities.RecurrenceManager.UpdateConflictsAsync(System.Int32,System.Int32,System.TimeSpan,System.TimeSpan,System.Threading.CancellationToken,SuperOffice.CRM.Services.ParticipantInfo[])
@@ -320,6 +323,50 @@ items:
     content: public void RecalculateDays()
     content.vb: Public Sub RecalculateDays()
   overload: SuperOffice.CRM.Entities.RecurrenceManager.RecalculateDays*
+- uid: SuperOffice.CRM.Entities.RecurrenceManager.RecalculateDays(System.Int32)
+  commentId: M:SuperOffice.CRM.Entities.RecurrenceManager.RecalculateDays(System.Int32)
+  id: RecalculateDays(System.Int32)
+  parent: SuperOffice.CRM.Entities.RecurrenceManager
+  langs:
+  - csharp
+  - vb
+  name: RecalculateDays(int)
+  nameWithType: RecurrenceManager.RecalculateDays(int)
+  fullName: SuperOffice.CRM.Entities.RecurrenceManager.RecalculateDays(int)
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.Entities
+  summary: Re-calculate the days in the containing <xref href="SuperOffice.CRM.Entities.RecurrenceManager.RecurrenceInfo" data-throw-if-not-resolved="false"></xref>.
+  example:
+  - >-
+    <pre><code class="lang-csharp">// Make some modifications to the  object.
+
+    recurrenceManager.RecalculateDays();
+
+    RecurrenceDate[] newDates = recurrenceManager.Days;</code></pre>
+  syntax:
+    content: public void RecalculateDays(int maxDates)
+    parameters:
+    - id: maxDates
+      type: System.Int32
+      attributes:
+      - type: System.ComponentModel.DataAnnotations.RangeAttribute
+        ctor: System.ComponentModel.DataAnnotations.RangeAttribute.#ctor(System.Int32,System.Int32)
+        arguments:
+        - type: System.Int32
+          value: 1
+        - type: System.Int32
+          value: 1000
+        namedArguments:
+        - name: ErrorMessage
+          type: System.String
+          value: Max dates should be between 1 and 1000.
+    content.vb: Public Sub RecalculateDays(maxDates As Integer)
+  overload: SuperOffice.CRM.Entities.RecurrenceManager.RecalculateDays*
+  nameWithType.vb: RecurrenceManager.RecalculateDays(Integer)
+  fullName.vb: SuperOffice.CRM.Entities.RecurrenceManager.RecalculateDays(Integer)
+  name.vb: RecalculateDays(Integer)
 - uid: SuperOffice.CRM.Entities.RecurrenceManager.GetEstimatedCount
   commentId: M:SuperOffice.CRM.Entities.RecurrenceManager.GetEstimatedCount
   id: GetEstimatedCount
@@ -1123,6 +1170,30 @@ items:
   nameWithType.vb: RecurrenceManager.UpdateFromRecord(RecurrenceInfo, RecurrenceRuleRecordData, Date)
   fullName.vb: SuperOffice.CRM.Entities.RecurrenceManager.UpdateFromRecord(SuperOffice.CRM.Services.RecurrenceInfo, SuperOffice.CRM.Rows.RecurrenceRuleRecordData, Date)
   name.vb: UpdateFromRecord(RecurrenceInfo, RecurrenceRuleRecordData, Date)
+- uid: SuperOffice.CRM.Entities.RecurrenceManager.OnDoByChange(System.DateTime)
+  commentId: M:SuperOffice.CRM.Entities.RecurrenceManager.OnDoByChange(System.DateTime)
+  id: OnDoByChange(System.DateTime)
+  parent: SuperOffice.CRM.Entities.RecurrenceManager
+  langs:
+  - csharp
+  - vb
+  name: OnDoByChange(DateTime)
+  nameWithType: RecurrenceManager.OnDoByChange(DateTime)
+  fullName: SuperOffice.CRM.Entities.RecurrenceManager.OnDoByChange(System.DateTime)
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: public void OnDoByChange(DateTime doBy)
+    parameters:
+    - id: doBy
+      type: System.DateTime
+    content.vb: Public Sub OnDoByChange(doBy As Date)
+  overload: SuperOffice.CRM.Entities.RecurrenceManager.OnDoByChange*
+  nameWithType.vb: RecurrenceManager.OnDoByChange(Date)
+  fullName.vb: SuperOffice.CRM.Entities.RecurrenceManager.OnDoByChange(Date)
+  name.vb: OnDoByChange(Date)
 - uid: SuperOffice.CRM.Entities.RecurrenceManager.GetRecurrenceInfo(SuperOffice.CRM.Entities.Appointment)
   commentId: M:SuperOffice.CRM.Entities.RecurrenceManager.GetRecurrenceInfo(SuperOffice.CRM.Entities.Appointment)
   id: GetRecurrenceInfo(SuperOffice.CRM.Entities.Appointment)
@@ -1316,6 +1387,27 @@ items:
       type: System.Boolean
     content.vb: Public ReadOnly Property IsRecurrencePatternChanged As Boolean
   overload: SuperOffice.CRM.Entities.RecurrenceManager.IsRecurrencePatternChanged*
+- uid: SuperOffice.CRM.Entities.RecurrenceManager.HasRecurrenceChangedDuringSave
+  commentId: P:SuperOffice.CRM.Entities.RecurrenceManager.HasRecurrenceChangedDuringSave
+  id: HasRecurrenceChangedDuringSave
+  parent: SuperOffice.CRM.Entities.RecurrenceManager
+  langs:
+  - csharp
+  - vb
+  name: HasRecurrenceChangedDuringSave
+  nameWithType: RecurrenceManager.HasRecurrenceChangedDuringSave
+  fullName: SuperOffice.CRM.Entities.RecurrenceManager.HasRecurrenceChangedDuringSave
+  type: Property
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: public bool HasRecurrenceChangedDuringSave { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property HasRecurrenceChangedDuringSave As Boolean
+  overload: SuperOffice.CRM.Entities.RecurrenceManager.HasRecurrenceChangedDuringSave*
 references:
 - uid: SuperOffice.CRM.Entities.AppointmentMatrix
   commentId: T:SuperOffice.CRM.Entities.AppointmentMatrix
@@ -2923,6 +3015,13 @@ references:
   name: RecurrenceRuleRecordData
   nameWithType: RecurrenceRuleRecordData
   fullName: SuperOffice.CRM.Rows.RecurrenceRuleRecordData
+- uid: SuperOffice.CRM.Entities.RecurrenceManager.OnDoByChange*
+  commentId: Overload:SuperOffice.CRM.Entities.RecurrenceManager.OnDoByChange
+  isExternal: true
+  href: SuperOffice.CRM.Entities.RecurrenceManager.html#SuperOffice_CRM_Entities_RecurrenceManager_OnDoByChange_System_DateTime_
+  name: OnDoByChange
+  nameWithType: RecurrenceManager.OnDoByChange
+  fullName: SuperOffice.CRM.Entities.RecurrenceManager.OnDoByChange
 - uid: SuperOffice.CRM.Entities.RecurrenceManager.GetRecurrenceInfo*
   commentId: Overload:SuperOffice.CRM.Entities.RecurrenceManager.GetRecurrenceInfo
   isExternal: true
@@ -2988,3 +3087,10 @@ references:
   name: IsRecurrencePatternChanged
   nameWithType: RecurrenceManager.IsRecurrencePatternChanged
   fullName: SuperOffice.CRM.Entities.RecurrenceManager.IsRecurrencePatternChanged
+- uid: SuperOffice.CRM.Entities.RecurrenceManager.HasRecurrenceChangedDuringSave*
+  commentId: Overload:SuperOffice.CRM.Entities.RecurrenceManager.HasRecurrenceChangedDuringSave
+  isExternal: true
+  href: SuperOffice.CRM.Entities.RecurrenceManager.html#SuperOffice_CRM_Entities_RecurrenceManager_HasRecurrenceChangedDuringSave
+  name: HasRecurrenceChangedDuringSave
+  nameWithType: RecurrenceManager.HasRecurrenceChangedDuringSave
+  fullName: SuperOffice.CRM.Entities.RecurrenceManager.HasRecurrenceChangedDuringSave

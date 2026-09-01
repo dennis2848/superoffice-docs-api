@@ -2,13 +2,14 @@
 uid: release-notes-11
 title: What's new in SuperOffice 11
 description: Release notes. What's new in SuperOffice CRM 11
-keywords: SuperOffice, CRM, Admin, Settings and maintenance, Service, requests, Marketing, flows, lead distribution, form fonts, google fonts
+keywords: SuperOffice, CRM, Admin, Settings and maintenance, Service, requests, Marketing, flows, lead distribution, form fonts, google fonts, request relations, related requests, forms, restrictions, field, custom field
 author: kirstiaa
-date: 02.17.2026
+date: 05.04.2026
 version: 11
 content_type: release-note
 audience: person
 audience_tooltip: SuperOffice CRM
+language: en
 ---
 
 # What's new in SuperOffice 11
@@ -24,6 +25,23 @@ At SuperOffice, relationships are at the heart of everything we do — and stron
 See our [Product Roundup 2025][31]: Highlights across Marketing, Sales, Service, and Integrations.
 
 ## Feature updates
+
+### 11.13 (28.04.2026)
+
+* [Forms - Add custom contact and company fields][42] in Marketing
+* [Marketing - Form field restrictions][43] in Settings and maintenance
+
+### 11.12 (07.04.2026)
+
+* [Request relations - better control and overview][41] in Service
+* [Requests - Add relation rules][40] in Settings and maintenance
+
+### 11.11 (17.03.2026)
+
+* [User setup to configure e-mail and document management][36] in Service
+* [Forms - Custom styling of your form][37] in Marketing
+* [Requests - Created date to use in columns and criteria][38] in Service
+* [Subscription page styling - Change text Unsubscribe and Confirmations pages][39] in Settings and maintenance
 
 ### 11.10 (17.02.2026)
 
@@ -154,5 +172,13 @@ Some features are available to selected customers as part of ongoing pilots. See
 [31]: https://community.superoffice.com/en/product-releases/whats-new/product/product-roundup---2025-highlights/?utm_medium=docs&utm_source=release%20notes&utm_campaign=11
 [34]: https://appstore.superoffice.com/
 [35]: https://appstore.superoffice.com/Category/new-and-updated
+[36]: core-crm/11.11-update.md
+[37]: marketing/11.11-update.md
+[38]: service/11.11-update.md
+[39]: admin/11.11-update.md
+[40]: admin/11.12-update.md
+[41]: service/11.12-update.md
+[42]: marketing/11.13-update.md
+[43]: admin/11.13-update.md
 
 <!-- Referenced images -->

@@ -8,7 +8,6 @@ items:
   - SuperOffice.Security.Principal.AsyncLocalPrincipalAccessor
   - SuperOffice.Security.Principal.AuthorizationState
   - SuperOffice.Security.Principal.ClaimsIdentityExtensions
-  - SuperOffice.Security.Principal.CurrentWindowsIdentitySupplier
   - SuperOffice.Security.Principal.DefaultTokenContextResolver
   - SuperOffice.Security.Principal.IClaimsPrincipalJwtSigningCredentialsResolver
   - SuperOffice.Security.Principal.IContextInitializer
@@ -17,6 +16,7 @@ items:
   - SuperOffice.Security.Principal.INSPrincipalAccessor
   - SuperOffice.Security.Principal.IPostAuthenticationPlugin
   - SuperOffice.Security.Principal.IPostLoginPlugin
+  - SuperOffice.Security.Principal.IPrincipalStateAccessor
   - SuperOffice.Security.Principal.ISoIdentityValidator
   - SuperOffice.Security.Principal.ISoTimeZone
   - SuperOffice.Security.Principal.ITicketPrincipalCache
@@ -26,6 +26,8 @@ items:
   - SuperOffice.Security.Principal.OidcSoIdentityResolver
   - SuperOffice.Security.Principal.PostAuthenticationPluginAttribute
   - SuperOffice.Security.Principal.PostLoginPluginAttribute
+  - SuperOffice.Security.Principal.PrincipalCacheInvalidator
+  - SuperOffice.Security.Principal.PrincipalStatePostAuthenticationPlugin
   - SuperOffice.Security.Principal.ProcessPrincipalAccessor
   - SuperOffice.Security.Principal.ShortClaimNames
   - SuperOffice.Security.Principal.SoAccessToken
@@ -77,13 +79,6 @@ references:
   name: IContextResolver
   nameWithType: IContextResolver
   fullName: SuperOffice.Security.Principal.IContextResolver
-- uid: SuperOffice.Security.Principal.CurrentWindowsIdentitySupplier
-  commentId: T:SuperOffice.Security.Principal.CurrentWindowsIdentitySupplier
-  isExternal: true
-  href: SuperOffice.Security.Principal.CurrentWindowsIdentitySupplier.html
-  name: CurrentWindowsIdentitySupplier
-  nameWithType: CurrentWindowsIdentitySupplier
-  fullName: SuperOffice.Security.Principal.CurrentWindowsIdentitySupplier
 - uid: SuperOffice.Security.Principal.INSAuthenticator
   commentId: T:SuperOffice.Security.Principal.INSAuthenticator
   isExternal: true
@@ -137,6 +132,14 @@ references:
   name: PostLoginPluginAttribute
   nameWithType: PostLoginPluginAttribute
   fullName: SuperOffice.Security.Principal.PostLoginPluginAttribute
+- uid: SuperOffice.Security.Principal.IPrincipalStateAccessor
+  commentId: T:SuperOffice.Security.Principal.IPrincipalStateAccessor
+  parent: SuperOffice.Security.Principal
+  isExternal: true
+  href: SuperOffice.Security.Principal.IPrincipalStateAccessor.html
+  name: IPrincipalStateAccessor
+  nameWithType: IPrincipalStateAccessor
+  fullName: SuperOffice.Security.Principal.IPrincipalStateAccessor
 - uid: SuperOffice.Security.Principal.IUserInfoService
   commentId: T:SuperOffice.Security.Principal.IUserInfoService
   parent: SuperOffice.Security.Principal
@@ -155,6 +158,7 @@ references:
   fullName: SuperOffice.Security.Principal.NSIdentityClaimValues
 - uid: SuperOffice.Security.Principal.PostAuthenticationPluginAttribute
   commentId: T:SuperOffice.Security.Principal.PostAuthenticationPluginAttribute
+  parent: SuperOffice.Security.Principal
   isExternal: true
   href: SuperOffice.Security.Principal.PostAuthenticationPluginAttribute.html
   name: PostAuthenticationPluginAttribute
@@ -162,6 +166,7 @@ references:
   fullName: SuperOffice.Security.Principal.PostAuthenticationPluginAttribute
 - uid: SuperOffice.Security.Principal.IPostAuthenticationPlugin
   commentId: T:SuperOffice.Security.Principal.IPostAuthenticationPlugin
+  parent: SuperOffice.Security.Principal
   isExternal: true
   href: SuperOffice.Security.Principal.IPostAuthenticationPlugin.html
   name: IPostAuthenticationPlugin
@@ -264,6 +269,20 @@ references:
   name: OidcSoIdentityResolver
   nameWithType: OidcSoIdentityResolver
   fullName: SuperOffice.Security.Principal.OidcSoIdentityResolver
+- uid: SuperOffice.Security.Principal.PrincipalCacheInvalidator
+  commentId: T:SuperOffice.Security.Principal.PrincipalCacheInvalidator
+  isExternal: true
+  href: SuperOffice.Security.Principal.PrincipalCacheInvalidator.html
+  name: PrincipalCacheInvalidator
+  nameWithType: PrincipalCacheInvalidator
+  fullName: SuperOffice.Security.Principal.PrincipalCacheInvalidator
+- uid: SuperOffice.Security.Principal.PrincipalStatePostAuthenticationPlugin
+  commentId: T:SuperOffice.Security.Principal.PrincipalStatePostAuthenticationPlugin
+  isExternal: true
+  href: SuperOffice.Security.Principal.PrincipalStatePostAuthenticationPlugin.html
+  name: PrincipalStatePostAuthenticationPlugin
+  nameWithType: PrincipalStatePostAuthenticationPlugin
+  fullName: SuperOffice.Security.Principal.PrincipalStatePostAuthenticationPlugin
 - uid: SuperOffice.Security.Principal.SoAccessTokenClaimsExpander
   commentId: T:SuperOffice.Security.Principal.SoAccessTokenClaimsExpander
   isExternal: true

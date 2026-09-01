@@ -4,14 +4,15 @@ title: Uppdatera roll
 description: Så redigerar du en roll.
 keywords: roll, administrera användare
 author: digitaldiina
-date: 10.24.2025
-version: 10.4
+date: 06.10.2026
+version: 12.0
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 category: identity management
 topic: role
 index: true
+tier: starter
 redirect_from: 
   - /sv/admin/user-management/learn/role/editing-role
   - /sv/admin/user-management/learn/role/deleting-role
@@ -20,15 +21,13 @@ language: sv
 
 # Uppdatera roll
 
-[!include[Requirement](../includes/note-anon-req.md)]
+[!include[Requirement](../../../includes/lim-starter.md)]
 
-För att uppdatera eller ta bort en [roll][3] börjar du med att välja rollen på fliken **Medarbetare** eller **Externa**.
+För att uppdatera eller ta bort en [roll][3] börjar du med att välja rollen på fliken **Medarbetare**.
 
 1. [!include[Open Roles](../includes/open-roles.md)]
 
-1. Gå till fliken **Medarbetare** eller **Externa**.
-
-    [Så redigerar du rollen för anonyma användare.][1]
+1. Gå till fliken **Medarbetare**.
 
 1. I listan, dubbelklicka på den roll du vill redigera.
 
@@ -38,7 +37,7 @@ För att uppdatera eller ta bort en [roll][3] börjar du med att välja rollen p
 
 1. [Redigera rollens rättigheter.][4]
 
-1. Om du redigerar roller för medarbetare: Gå till fliken **Funktionella behörigheter** och redigera rollens funktionella behörigheter.
+1. Gå till fliken **Funktionella behörigheter** och redigera rollens funktionella behörigheter.
 
     [!include[How to set functional rights](../includes/add-remove-right.md)]
 
@@ -64,6 +63,6 @@ När du tar bort en roll måste du flytta de användare som har rollen till en a
     * Rollen tas bort från listan.
 
 <!-- Referenced links -->
-[1]: ../onsite/other-users.md#rights
+
 [3]: index.md
 [4]: set-data-rights-for-role.md

@@ -26,8 +26,8 @@ landingContent:
       - itemType: list
         typeDesc: how-to-guide
         links:
-        - text: Forbind e-mail, dokumenter og dagbog
-          url: ../learn/getting-started/connect-email-doc/index.md
+        - text: Tilslut dine konti
+          url: ../learn/getting-started/connect-your-accounts.md
         - text: Skift standard e-mailklient
           url: learn/change-default-mail-client.md
 
@@ -67,7 +67,7 @@ landingContent:
           - text: Implementér centralt
             url: ../../../integrations/superoffice-for-outlook/deploy.md
           - text: Gem til SuperOffice
-            url: ../../../integrations/superoffice-for-outlook/save-to-superoffice.md
+            url: ../../../integrations/superoffice-for-outlook/archive-email.md
           - text: Tilføj person til SuperOffice
             url: ../../../integrations/superoffice-for-outlook/add-contact-to-superoffice.md
           - text: Opret opfølgning

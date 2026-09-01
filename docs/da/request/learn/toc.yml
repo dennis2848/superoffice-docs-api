@@ -13,6 +13,8 @@ items:
   href: edit-message.md
 - name: Automatisk tildeling
   href: assign.md
+- name: Marker sag som spam
+  href: spam.md
 - name: Tag ansvar for sag
   href: accept.md
 - name: Bed en anden sagsbehandler om hjælp
@@ -21,6 +23,8 @@ items:
   href: forward.md
 - name: Svar til kunde
   href: reply.md
+- name: Sagsrelationer
+  href: request-relations.md
 - name: Tags
   href: tags.md
 - name: Hold styr på meddelelser

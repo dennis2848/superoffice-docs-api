@@ -1,15 +1,16 @@
-﻿---
+---
 uid: help-en-flows
 title: Marketing automation - flows
 description: Introduction to SuperOffice marketing automation and flows.
 keywords: flow, marketing automation, campaign, success criteria, segment
 author: Bergfrid Dias, Trude Lien Smedbråten
-date: 09.26.2025
-version: 11.3
+date: 06.10.2026
+version: 12.0
 content_type: concept
 category: marketing
 topic: flows
 license: marketingpremium
+tier: plus
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: en
@@ -39,7 +40,7 @@ The drag-and-drop flow designer is your tool for building these dynamic flows.
 
 * **Welcome new customers:** Send personalized emails, discounts, and share your brand story. Support the onboarding of new products.
 * **Engagement campaigns:** Keep active customers engaged and informed with relevant content, product updates, and exclusive offers.
-* **Up/cross sell campaigns:** Recommend related items based on purchase history or behaviors to drive revenue.
+* **Up/cross-sell campaigns:** Recommend related items based on purchase history or behaviors to drive revenue.
 * **Event sign-up processes:** Including reaching out via SMS, webinar reminders, and follow-up.
 
 ## What is a flow
@@ -77,8 +78,8 @@ Choose between list or tile **view mode** in the lower-right corner.
 
 | Icon | Mode | Description |
 |:-:|---|---|
-| <i class="ph ph-squares-four" aria-label="2x2 tiles"></i> | Tile (thumbnail) | Shoes a thumbnail of each flow with essential data. Click <i class="ph ph-dots-three-circle-vertical" aria-label="Task menu"></i> to open, edit, copy, or delete the flow. |
-| <i class="ph ph-list" aria-label="List"></i> | List (archive, grid) | Shows a list of all flows with information presented in columns. You cam group, filter, and customize the columns similar to columns in [section tabs][12]. Right-click to open the context menu to open, edit, copy, or delete the flow. |
+| <i class="ph ph-squares-four" aria-label="2x2 tiles"></i> | Tile (thumbnail) | Shows a thumbnail of each flow with essential data. Click <i class="ph ph-dots-three-circle-vertical" aria-label="Task menu"></i> to open, edit, copy, or delete the flow. |
+| <i class="ph ph-list" aria-label="List"></i> | List (archive, grid) | Shows a list of all flows with information presented in columns. You can group, filter, and customize the columns similar to columns in [section tabs][12]. Right-click to open the context menu to open, edit, copy, or delete the flow. |
 
 ## <a id="view"></a>The View flow screen
 
@@ -113,7 +114,7 @@ By defining success criteria, you can gauge the efficacy of the flow: Are we ach
 
 A success criterion may entail a change in a contact's category (such as transitioning to a sales-ready lead) while they are engaged in the flow. All interactions with the contact contribute to this change.
 
-Any associate can fulfill success criteria by modifying data in the CRM database. The flow automation will respond appropriately, regardless of how the success criteria were met. Whether data is updated automatically by the flow or manually by a sales representative, the system functions consistently.
+Any associate can fulfill the success criteria by modifying data in the CRM database. The flow automation will respond appropriately, regardless of how the success criteria were met. Whether data is updated automatically by the flow or manually by a sales representative, the system functions consistently.
 
 Upon meeting a success criterion, the campaign may either stop or proceed for the participant. In both cases, the participant is considered successful. You can determine if these successful participants should transition to a more relevant flow.
 
@@ -121,10 +122,13 @@ It is advisable for most automated flows to set success criteria for enrolled pa
 
 ## <a id="req"></a>Requirements
 
-* Marketing Premium license (new tier)
-* Sales essential or premium - to create a sale
-* Service essential or premium - to create a request
+* **Marketing Premium** license or the **Plus** plan
+* **Sales Essentials or Premium** license to create a sale
+* **Service Essentials or Premium** license to create a request
 * SMS connector - to send SMS
+
+> [!NOTE]
+> **CRM Suite (Plus plan):** Your plan includes a maximum of 10 active flows at any one time. Both running and paused flows count toward this limit. When you approach the limit, a warning appears in the flow header. When the limit is reached, the **Running** toggle is unavailable for inactive flows. See [Plan limits][13] for details.
 
 ### Functional rights
 
@@ -145,6 +149,7 @@ Access to flows and flow content is controlled by a user's role and [functional 
 * [View statistics][3]
 
 <!-- Referenced links -->
+[13]: ../../../admin/license/crm-suite.md
 [1]: create.md
 [2]: run-pause-end.md
 [3]: view-statistics.md

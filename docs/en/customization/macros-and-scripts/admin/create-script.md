@@ -1,12 +1,13 @@
-﻿---
+---
 uid: help-en-automation-script-create
 title: Create or edit a script
 description: Create a script
 keywords: script, macro
 author: digitaldiina
-date: 11.26.2025
-version: 11.6
+date: 06.10.2026
+version: 12.0
 content_type: howto
+tier: core
 category: automation
 topic: CRMScript
 audience: settings
@@ -19,6 +20,8 @@ index: true
 ---
 
 # Create or edit a script
+
+[!include[License requirement](../../../includes/req-dev-tools-transition.md)]
 
 ## Steps
 

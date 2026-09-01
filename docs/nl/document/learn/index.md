@@ -4,10 +4,11 @@ title: Werken met documenten
 description: Deze handleiding laat u zien hoe u documenten kunt maken en opslaan in SuperOffice CRM en hoe u documenten rechtstreeks in uw CRM-oplossing kunt verzenden en ontvangen.
 keywords: document
 author: SuperOffice RnD
-date: 02.25.2025
-version: 10.5.2
+date: 05.04.2026
+version: 11.13
 content_type: concept
 license: salesessentials, serviceessentials, marketingessentials
+tier: starter
 audience: person
 audience_tooltip: SuperOffice CRM
 language: nl
@@ -82,6 +83,6 @@ Het [tabblad **Meer**][12] bevat door gebruikers gedefinieerde velden voor de do
 [4]: edit.md
 [5]: send-as-email.md
 [7]: lock.md
-[9]: ../../learn/getting-started/connect-email-doc/index.md
+[9]: ../../learn/getting-started/connect-your-accounts.md
 [11]: ../templates/learn/index.md
 [12]: ../../custom-objects/learn/more-tab.md

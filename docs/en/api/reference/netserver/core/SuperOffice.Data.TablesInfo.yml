@@ -167,6 +167,7 @@ items:
   - SuperOffice.Data.TablesInfo.GetForeignAppTableInfo
   - SuperOffice.Data.TablesInfo.GetForeignDeviceTableInfo
   - SuperOffice.Data.TablesInfo.GetForeignKeyTableInfo
+  - SuperOffice.Data.TablesInfo.GetFormFieldRestrictionTableInfo
   - SuperOffice.Data.TablesInfo.GetFormFieldValueTableInfo
   - SuperOffice.Data.TablesInfo.GetFormKeysTableInfo
   - SuperOffice.Data.TablesInfo.GetFormSubmissionTableInfo
@@ -210,6 +211,8 @@ items:
   - SuperOffice.Data.TablesInfo.GetKbSolutionFinderTableInfo
   - SuperOffice.Data.TablesInfo.GetKbWorkflowAccessTableInfo
   - SuperOffice.Data.TablesInfo.GetKbWorkflowTableInfo
+  - SuperOffice.Data.TablesInfo.GetLandingPagePinTableInfo
+  - SuperOffice.Data.TablesInfo.GetLandingPageTableInfo
   - SuperOffice.Data.TablesInfo.GetLanguageInfoCountryTableInfo
   - SuperOffice.Data.TablesInfo.GetLanguageInfoTableInfo
   - SuperOffice.Data.TablesInfo.GetLeadstatusTableInfo
@@ -234,6 +237,7 @@ items:
   - SuperOffice.Data.TablesInfo.GetMessageHeaderTableInfo
   - SuperOffice.Data.TablesInfo.GetMessageIdTableInfo
   - SuperOffice.Data.TablesInfo.GetMessageTableInfo
+  - SuperOffice.Data.TablesInfo.GetMeteringLogTableInfo
   - SuperOffice.Data.TablesInfo.GetModuleLicenseTableInfo
   - SuperOffice.Data.TablesInfo.GetModuleOwnerTableInfo
   - SuperOffice.Data.TablesInfo.GetMrMrsGroupLinkTableInfo
@@ -243,18 +247,12 @@ items:
   - SuperOffice.Data.TablesInfo.GetMsFilterTableInfo
   - SuperOffice.Data.TablesInfo.GetMsSubstituteTableInfo
   - SuperOffice.Data.TablesInfo.GetMsTrashbinTableInfo
+  - SuperOffice.Data.TablesInfo.GetNewsFeedItemCtaTableInfo
+  - SuperOffice.Data.TablesInfo.GetNewsFeedItemHtmlTableInfo
+  - SuperOffice.Data.TablesInfo.GetNewsFeedItemRecipientTableInfo
+  - SuperOffice.Data.TablesInfo.GetNewsFeedItemTableInfo
   - SuperOffice.Data.TablesInfo.GetNoticeFrameTableInfo
   - SuperOffice.Data.TablesInfo.GetNotifyTableInfo
-  - SuperOffice.Data.TablesInfo.GetOLEFieldTableInfo
-  - SuperOffice.Data.TablesInfo.GetOLEFieldTextTableInfo
-  - SuperOffice.Data.TablesInfo.GetOLESubjectTableInfo
-  - SuperOffice.Data.TablesInfo.GetOLESubjectTextTableInfo
-  - SuperOffice.Data.TablesInfo.GetOLEViewTableInfo
-  - SuperOffice.Data.TablesInfo.GetOLEViewTextTableInfo
-  - SuperOffice.Data.TablesInfo.GetObsolete1TableInfo
-  - SuperOffice.Data.TablesInfo.GetObsolete2TableInfo
-  - SuperOffice.Data.TablesInfo.GetObsolete3TableInfo
-  - SuperOffice.Data.TablesInfo.GetObsolete4TableInfo
   - SuperOffice.Data.TablesInfo.GetOnlineAppTableInfo
   - SuperOffice.Data.TablesInfo.GetOutboxTableInfo
   - SuperOffice.Data.TablesInfo.GetOutgoingMessageTableInfo
@@ -357,7 +355,6 @@ items:
   - SuperOffice.Data.TablesInfo.GetReplyTemplateBodyTableInfo
   - SuperOffice.Data.TablesInfo.GetReplyTemplateFolderTableInfo
   - SuperOffice.Data.TablesInfo.GetReplyTemplateTableInfo
-  - SuperOffice.Data.TablesInfo.GetReporterListDefTableInfo
   - SuperOffice.Data.TablesInfo.GetResourceOverrideTableInfo
   - SuperOffice.Data.TablesInfo.GetRoleCategoryTableInfo
   - SuperOffice.Data.TablesInfo.GetRoleElementTableInfo
@@ -376,15 +373,7 @@ items:
   - SuperOffice.Data.TablesInfo.GetSListTableInfo
   - SuperOffice.Data.TablesInfo.GetSMessageTableInfo
   - SuperOffice.Data.TablesInfo.GetSMessageblockTableInfo
-  - SuperOffice.Data.TablesInfo.GetSORCriteriaTableInfo
-  - SuperOffice.Data.TablesInfo.GetSORFCTTableInfo
-  - SuperOffice.Data.TablesInfo.GetSORFieldTableInfo
   - SuperOffice.Data.TablesInfo.GetSORLabelLayoutTableInfo
-  - SuperOffice.Data.TablesInfo.GetSOROperatorsTableInfo
-  - SuperOffice.Data.TablesInfo.GetSORPublishGroupLinkTableInfo
-  - SuperOffice.Data.TablesInfo.GetSORPublishTableInfo
-  - SuperOffice.Data.TablesInfo.GetSORSectionTableInfo
-  - SuperOffice.Data.TablesInfo.GetSORTemplateTableInfo
   - SuperOffice.Data.TablesInfo.GetSPictureEntryTableInfo
   - SuperOffice.Data.TablesInfo.GetSPictureFolderTableInfo
   - SuperOffice.Data.TablesInfo.GetSSentMessageTableInfo
@@ -533,7 +522,6 @@ items:
   - SuperOffice.Data.TablesInfo.GetUDefFieldGLTableInfo
   - SuperOffice.Data.TablesInfo.GetUDefFieldTableInfo
   - SuperOffice.Data.TablesInfo.GetURLTableInfo
-  - SuperOffice.Data.TablesInfo.GetUsageStatsTableInfo
   - SuperOffice.Data.TablesInfo.GetUserAttributeTableInfo
   - SuperOffice.Data.TablesInfo.GetUserCandidateTableInfo
   - SuperOffice.Data.TablesInfo.GetUserGroupLinkTableInfo
@@ -543,6 +531,7 @@ items:
   - SuperOffice.Data.TablesInfo.GetUtmParametersTableInfo
   - SuperOffice.Data.TablesInfo.GetVisibleForTableInfo
   - SuperOffice.Data.TablesInfo.GetWebAppUsageTableInfo
+  - SuperOffice.Data.TablesInfo.GetWebhookNotifyTableInfo
   - SuperOffice.Data.TablesInfo.GetWebhookTableInfo
   - SuperOffice.Data.TablesInfo.GetWebhookUsageTableInfo
   - SuperOffice.Data.TablesInfo.GetWinPosSizeTableInfo
@@ -572,127 +561,139 @@ items:
   example: []
   syntax:
     content: >-
-      [DatabaseStep]
+      [DatabaseStep("ai", 2)]
 
-      [DatabaseStep]
+      [DatabaseStep("chat", 22)]
 
-      [DatabaseStep]
+      [DatabaseStep("CollaborationMeeting", 1)]
 
-      [DatabaseStep]
+      [DatabaseStep("configurablescreens", 11)]
 
-      [DatabaseStep]
+      [DatabaseStep("Copilot", 2)]
 
-      [DatabaseStep]
+      [DatabaseStep("CRMScript", 11)]
 
-      [DatabaseStep]
+      [DatabaseStep("dashboard", 24)]
 
-      [DatabaseStep]
+      [DatabaseStep("ExternalOwner", 1)]
 
-      [DatabaseStep]
+      [DatabaseStep("forms", 11)]
 
-      [DatabaseStep]
+      [DatabaseStep("inbox", 13)]
 
-      [DatabaseStep]
+      [DatabaseStep("invitation", 6)]
 
-      [DatabaseStep]
+      [DatabaseStep("LandingPage", 1)]
 
-      [DatabaseStep]
+      [DatabaseStep("Mailings", 16)]
 
-      [DatabaseStep]
+      [DatabaseStep("Metering", 1)]
 
-      [DatabaseStep]
+      [DatabaseStep("NewFollowupDialog", 4)]
 
-      [DatabaseStep]
+      [DatabaseStep("NewSelection", 12)]
 
-      [DatabaseStep]
+      [DatabaseStep("NewsFeed", 1)]
 
-      [DatabaseStep]
+      [DatabaseStep("Notifications", 2)]
 
-      [DatabaseStep]
+      [DatabaseStep("Online", 1)]
 
-      [DatabaseStep]
+      [DatabaseStep("Optimization", 2)]
 
-      [DatabaseStep]
+      [DatabaseStep("Pocket", 6)]
 
-      [DatabaseStep]
+      [DatabaseStep("R_Service", 3)]
 
-      [DatabaseStep]
+      [DatabaseStep("SubscriptionMgmt", 7)]
 
-      [DatabaseStep]
+      [DatabaseStep("SuperId", 3)]
 
-      [DatabaseStep]
+      [DatabaseStep("targets", 8)]
 
-      [DatabaseStep]
+      [DatabaseStep("TechnicalDebt", 1)]
 
-      [DatabaseStep]
+      [DatabaseStep("UserPreference", 4)]
 
-      [DatabaseStep]
+      [DatabaseStep("Webhooks", 5)]
 
-      [DatabaseStep]
+      [DatabaseStep("Workflows", 22)]
 
-      [DatabaseStep]
+      [DatabaseStep("SuperOffice", 151)]
+
+      [DatabaseStep("ConsentManagement", 24)]
+
+      [DatabaseStep("CS", 72)]
+
+      [DatabaseStep("customerCenter", 28)]
 
       public static class TablesInfo
     content.vb: >-
-      <DatabaseStep>
+      <DatabaseStep("ai", 2)>
 
-      <DatabaseStep>
+      <DatabaseStep("chat", 22)>
 
-      <DatabaseStep>
+      <DatabaseStep("CollaborationMeeting", 1)>
 
-      <DatabaseStep>
+      <DatabaseStep("configurablescreens", 11)>
 
-      <DatabaseStep>
+      <DatabaseStep("Copilot", 2)>
 
-      <DatabaseStep>
+      <DatabaseStep("CRMScript", 11)>
 
-      <DatabaseStep>
+      <DatabaseStep("dashboard", 24)>
 
-      <DatabaseStep>
+      <DatabaseStep("ExternalOwner", 1)>
 
-      <DatabaseStep>
+      <DatabaseStep("forms", 11)>
 
-      <DatabaseStep>
+      <DatabaseStep("inbox", 13)>
 
-      <DatabaseStep>
+      <DatabaseStep("invitation", 6)>
 
-      <DatabaseStep>
+      <DatabaseStep("LandingPage", 1)>
 
-      <DatabaseStep>
+      <DatabaseStep("Mailings", 16)>
 
-      <DatabaseStep>
+      <DatabaseStep("Metering", 1)>
 
-      <DatabaseStep>
+      <DatabaseStep("NewFollowupDialog", 4)>
 
-      <DatabaseStep>
+      <DatabaseStep("NewSelection", 12)>
 
-      <DatabaseStep>
+      <DatabaseStep("NewsFeed", 1)>
 
-      <DatabaseStep>
+      <DatabaseStep("Notifications", 2)>
 
-      <DatabaseStep>
+      <DatabaseStep("Online", 1)>
 
-      <DatabaseStep>
+      <DatabaseStep("Optimization", 2)>
 
-      <DatabaseStep>
+      <DatabaseStep("Pocket", 6)>
 
-      <DatabaseStep>
+      <DatabaseStep("R_Service", 3)>
 
-      <DatabaseStep>
+      <DatabaseStep("SubscriptionMgmt", 7)>
 
-      <DatabaseStep>
+      <DatabaseStep("SuperId", 3)>
 
-      <DatabaseStep>
+      <DatabaseStep("targets", 8)>
 
-      <DatabaseStep>
+      <DatabaseStep("TechnicalDebt", 1)>
 
-      <DatabaseStep>
+      <DatabaseStep("UserPreference", 4)>
 
-      <DatabaseStep>
+      <DatabaseStep("Webhooks", 5)>
 
-      <DatabaseStep>
+      <DatabaseStep("Workflows", 22)>
 
-      <DatabaseStep>
+      <DatabaseStep("SuperOffice", 151)>
+
+      <DatabaseStep("ConsentManagement", 24)>
+
+      <DatabaseStep("CS", 72)>
+
+      <DatabaseStep("customerCenter", 28)>
 
       Public Module TablesInfo
   inheritance:
@@ -707,95 +708,236 @@ items:
   - System.Object.MemberwiseClone
   attributes:
   - type: SuperOffice.Data.DatabaseStepAttribute
-    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32,SuperOffice.CD.DSL.V1.StepModel.ReleaseState)
-    arguments: []
+    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32)
+    arguments:
+    - type: System.String
+      value: ai
+    - type: System.Int32
+      value: 2
   - type: SuperOffice.Data.DatabaseStepAttribute
-    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32,SuperOffice.CD.DSL.V1.StepModel.ReleaseState)
-    arguments: []
+    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32)
+    arguments:
+    - type: System.String
+      value: chat
+    - type: System.Int32
+      value: 22
   - type: SuperOffice.Data.DatabaseStepAttribute
-    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32,SuperOffice.CD.DSL.V1.StepModel.ReleaseState)
-    arguments: []
+    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32)
+    arguments:
+    - type: System.String
+      value: CollaborationMeeting
+    - type: System.Int32
+      value: 1
   - type: SuperOffice.Data.DatabaseStepAttribute
-    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32,SuperOffice.CD.DSL.V1.StepModel.ReleaseState)
-    arguments: []
+    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32)
+    arguments:
+    - type: System.String
+      value: configurablescreens
+    - type: System.Int32
+      value: 11
   - type: SuperOffice.Data.DatabaseStepAttribute
-    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32,SuperOffice.CD.DSL.V1.StepModel.ReleaseState)
-    arguments: []
+    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32)
+    arguments:
+    - type: System.String
+      value: Copilot
+    - type: System.Int32
+      value: 2
   - type: SuperOffice.Data.DatabaseStepAttribute
-    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32,SuperOffice.CD.DSL.V1.StepModel.ReleaseState)
-    arguments: []
+    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32)
+    arguments:
+    - type: System.String
+      value: CRMScript
+    - type: System.Int32
+      value: 11
   - type: SuperOffice.Data.DatabaseStepAttribute
-    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32,SuperOffice.CD.DSL.V1.StepModel.ReleaseState)
-    arguments: []
+    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32)
+    arguments:
+    - type: System.String
+      value: dashboard
+    - type: System.Int32
+      value: 24
   - type: SuperOffice.Data.DatabaseStepAttribute
-    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32,SuperOffice.CD.DSL.V1.StepModel.ReleaseState)
-    arguments: []
+    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32)
+    arguments:
+    - type: System.String
+      value: ExternalOwner
+    - type: System.Int32
+      value: 1
   - type: SuperOffice.Data.DatabaseStepAttribute
-    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32,SuperOffice.CD.DSL.V1.StepModel.ReleaseState)
-    arguments: []
+    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32)
+    arguments:
+    - type: System.String
+      value: forms
+    - type: System.Int32
+      value: 11
   - type: SuperOffice.Data.DatabaseStepAttribute
-    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32,SuperOffice.CD.DSL.V1.StepModel.ReleaseState)
-    arguments: []
+    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32)
+    arguments:
+    - type: System.String
+      value: inbox
+    - type: System.Int32
+      value: 13
   - type: SuperOffice.Data.DatabaseStepAttribute
-    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32,SuperOffice.CD.DSL.V1.StepModel.ReleaseState)
-    arguments: []
+    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32)
+    arguments:
+    - type: System.String
+      value: invitation
+    - type: System.Int32
+      value: 6
   - type: SuperOffice.Data.DatabaseStepAttribute
-    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32,SuperOffice.CD.DSL.V1.StepModel.ReleaseState)
-    arguments: []
+    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32)
+    arguments:
+    - type: System.String
+      value: LandingPage
+    - type: System.Int32
+      value: 1
   - type: SuperOffice.Data.DatabaseStepAttribute
-    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32,SuperOffice.CD.DSL.V1.StepModel.ReleaseState)
-    arguments: []
+    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32)
+    arguments:
+    - type: System.String
+      value: Mailings
+    - type: System.Int32
+      value: 16
   - type: SuperOffice.Data.DatabaseStepAttribute
-    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32,SuperOffice.CD.DSL.V1.StepModel.ReleaseState)
-    arguments: []
+    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32)
+    arguments:
+    - type: System.String
+      value: Metering
+    - type: System.Int32
+      value: 1
   - type: SuperOffice.Data.DatabaseStepAttribute
-    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32,SuperOffice.CD.DSL.V1.StepModel.ReleaseState)
-    arguments: []
+    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32)
+    arguments:
+    - type: System.String
+      value: NewFollowupDialog
+    - type: System.Int32
+      value: 4
   - type: SuperOffice.Data.DatabaseStepAttribute
-    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32,SuperOffice.CD.DSL.V1.StepModel.ReleaseState)
-    arguments: []
+    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32)
+    arguments:
+    - type: System.String
+      value: NewSelection
+    - type: System.Int32
+      value: 12
   - type: SuperOffice.Data.DatabaseStepAttribute
-    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32,SuperOffice.CD.DSL.V1.StepModel.ReleaseState)
-    arguments: []
+    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32)
+    arguments:
+    - type: System.String
+      value: NewsFeed
+    - type: System.Int32
+      value: 1
   - type: SuperOffice.Data.DatabaseStepAttribute
-    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32,SuperOffice.CD.DSL.V1.StepModel.ReleaseState)
-    arguments: []
+    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32)
+    arguments:
+    - type: System.String
+      value: Notifications
+    - type: System.Int32
+      value: 2
   - type: SuperOffice.Data.DatabaseStepAttribute
-    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32,SuperOffice.CD.DSL.V1.StepModel.ReleaseState)
-    arguments: []
+    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32)
+    arguments:
+    - type: System.String
+      value: Online
+    - type: System.Int32
+      value: 1
   - type: SuperOffice.Data.DatabaseStepAttribute
-    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32,SuperOffice.CD.DSL.V1.StepModel.ReleaseState)
-    arguments: []
+    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32)
+    arguments:
+    - type: System.String
+      value: Optimization
+    - type: System.Int32
+      value: 2
   - type: SuperOffice.Data.DatabaseStepAttribute
-    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32,SuperOffice.CD.DSL.V1.StepModel.ReleaseState)
-    arguments: []
+    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32)
+    arguments:
+    - type: System.String
+      value: Pocket
+    - type: System.Int32
+      value: 6
   - type: SuperOffice.Data.DatabaseStepAttribute
-    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32,SuperOffice.CD.DSL.V1.StepModel.ReleaseState)
-    arguments: []
+    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32)
+    arguments:
+    - type: System.String
+      value: R_Service
+    - type: System.Int32
+      value: 3
   - type: SuperOffice.Data.DatabaseStepAttribute
-    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32,SuperOffice.CD.DSL.V1.StepModel.ReleaseState)
-    arguments: []
+    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32)
+    arguments:
+    - type: System.String
+      value: SubscriptionMgmt
+    - type: System.Int32
+      value: 7
   - type: SuperOffice.Data.DatabaseStepAttribute
-    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32,SuperOffice.CD.DSL.V1.StepModel.ReleaseState)
-    arguments: []
+    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32)
+    arguments:
+    - type: System.String
+      value: SuperId
+    - type: System.Int32
+      value: 3
   - type: SuperOffice.Data.DatabaseStepAttribute
-    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32,SuperOffice.CD.DSL.V1.StepModel.ReleaseState)
-    arguments: []
+    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32)
+    arguments:
+    - type: System.String
+      value: targets
+    - type: System.Int32
+      value: 8
   - type: SuperOffice.Data.DatabaseStepAttribute
-    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32,SuperOffice.CD.DSL.V1.StepModel.ReleaseState)
-    arguments: []
+    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32)
+    arguments:
+    - type: System.String
+      value: TechnicalDebt
+    - type: System.Int32
+      value: 1
   - type: SuperOffice.Data.DatabaseStepAttribute
-    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32,SuperOffice.CD.DSL.V1.StepModel.ReleaseState)
-    arguments: []
+    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32)
+    arguments:
+    - type: System.String
+      value: UserPreference
+    - type: System.Int32
+      value: 4
   - type: SuperOffice.Data.DatabaseStepAttribute
-    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32,SuperOffice.CD.DSL.V1.StepModel.ReleaseState)
-    arguments: []
+    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32)
+    arguments:
+    - type: System.String
+      value: Webhooks
+    - type: System.Int32
+      value: 5
   - type: SuperOffice.Data.DatabaseStepAttribute
-    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32,SuperOffice.CD.DSL.V1.StepModel.ReleaseState)
-    arguments: []
+    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32)
+    arguments:
+    - type: System.String
+      value: Workflows
+    - type: System.Int32
+      value: 22
   - type: SuperOffice.Data.DatabaseStepAttribute
-    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32,SuperOffice.CD.DSL.V1.StepModel.ReleaseState)
-    arguments: []
+    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32)
+    arguments:
+    - type: System.String
+      value: SuperOffice
+    - type: System.Int32
+      value: 151
+  - type: SuperOffice.Data.DatabaseStepAttribute
+    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32)
+    arguments:
+    - type: System.String
+      value: ConsentManagement
+    - type: System.Int32
+      value: 24
+  - type: SuperOffice.Data.DatabaseStepAttribute
+    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32)
+    arguments:
+    - type: System.String
+      value: CS
+    - type: System.Int32
+      value: 72
+  - type: SuperOffice.Data.DatabaseStepAttribute
+    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32)
+    arguments:
+    - type: System.String
+      value: customerCenter
+    - type: System.Int32
+      value: 28
 - uid: SuperOffice.Data.TablesInfo.GetSequenceTableInfo
   commentId: M:SuperOffice.Data.TablesInfo.GetSequenceTableInfo
   id: GetSequenceTableInfo
@@ -1421,31 +1563,6 @@ items:
       type: SuperOffice.CRM.Data.SelectionMemberTableInfo
     content.vb: Public Shared Function GetSelectionMemberTableInfo() As SelectionMemberTableInfo
   overload: SuperOffice.Data.TablesInfo.GetSelectionMemberTableInfo*
-- uid: SuperOffice.Data.TablesInfo.GetSORPublishGroupLinkTableInfo
-  commentId: M:SuperOffice.Data.TablesInfo.GetSORPublishGroupLinkTableInfo
-  id: GetSORPublishGroupLinkTableInfo
-  parent: SuperOffice.Data.TablesInfo
-  langs:
-  - csharp
-  - vb
-  name: GetSORPublishGroupLinkTableInfo()
-  nameWithType: TablesInfo.GetSORPublishGroupLinkTableInfo()
-  fullName: SuperOffice.Data.TablesInfo.GetSORPublishGroupLinkTableInfo()
-  type: Method
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.Data
-  summary: >-
-    New instance of SORPublishGroupLinkTableInfo:
-
-    Link table used for filtering reports by user group
-  example: []
-  syntax:
-    content: public static SORPublishGroupLinkTableInfo GetSORPublishGroupLinkTableInfo()
-    return:
-      type: SuperOffice.CRM.Data.SORPublishGroupLinkTableInfo
-    content.vb: Public Shared Function GetSORPublishGroupLinkTableInfo() As SORPublishGroupLinkTableInfo
-  overload: SuperOffice.Data.TablesInfo.GetSORPublishGroupLinkTableInfo*
 - uid: SuperOffice.Data.TablesInfo.GetQuoteConnectionTableInfo
   commentId: M:SuperOffice.Data.TablesInfo.GetQuoteConnectionTableInfo
   id: GetQuoteConnectionTableInfo
@@ -4821,156 +4938,6 @@ items:
       type: SuperOffice.CRM.Data.SaleTypeStageLinkTableInfo
     content.vb: Public Shared Function GetSaleTypeStageLinkTableInfo() As SaleTypeStageLinkTableInfo
   overload: SuperOffice.Data.TablesInfo.GetSaleTypeStageLinkTableInfo*
-- uid: SuperOffice.Data.TablesInfo.GetOLESubjectTableInfo
-  commentId: M:SuperOffice.Data.TablesInfo.GetOLESubjectTableInfo
-  id: GetOLESubjectTableInfo
-  parent: SuperOffice.Data.TablesInfo
-  langs:
-  - csharp
-  - vb
-  name: GetOLESubjectTableInfo()
-  nameWithType: TablesInfo.GetOLESubjectTableInfo()
-  fullName: SuperOffice.Data.TablesInfo.GetOLESubjectTableInfo()
-  type: Method
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.Data
-  summary: >-
-    New instance of OLESubjectTableInfo:
-
-    Control data table for the OLE DB Provider
-  example: []
-  syntax:
-    content: public static OLESubjectTableInfo GetOLESubjectTableInfo()
-    return:
-      type: SuperOffice.CRM.Data.OLESubjectTableInfo
-    content.vb: Public Shared Function GetOLESubjectTableInfo() As OLESubjectTableInfo
-  overload: SuperOffice.Data.TablesInfo.GetOLESubjectTableInfo*
-- uid: SuperOffice.Data.TablesInfo.GetOLESubjectTextTableInfo
-  commentId: M:SuperOffice.Data.TablesInfo.GetOLESubjectTextTableInfo
-  id: GetOLESubjectTextTableInfo
-  parent: SuperOffice.Data.TablesInfo
-  langs:
-  - csharp
-  - vb
-  name: GetOLESubjectTextTableInfo()
-  nameWithType: TablesInfo.GetOLESubjectTextTableInfo()
-  fullName: SuperOffice.Data.TablesInfo.GetOLESubjectTextTableInfo()
-  type: Method
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.Data
-  summary: >-
-    New instance of OLESubjectTextTableInfo:
-
-    Control data table for the OLE DB Provider
-  example: []
-  syntax:
-    content: public static OLESubjectTextTableInfo GetOLESubjectTextTableInfo()
-    return:
-      type: SuperOffice.CRM.Data.OLESubjectTextTableInfo
-    content.vb: Public Shared Function GetOLESubjectTextTableInfo() As OLESubjectTextTableInfo
-  overload: SuperOffice.Data.TablesInfo.GetOLESubjectTextTableInfo*
-- uid: SuperOffice.Data.TablesInfo.GetOLEViewTableInfo
-  commentId: M:SuperOffice.Data.TablesInfo.GetOLEViewTableInfo
-  id: GetOLEViewTableInfo
-  parent: SuperOffice.Data.TablesInfo
-  langs:
-  - csharp
-  - vb
-  name: GetOLEViewTableInfo()
-  nameWithType: TablesInfo.GetOLEViewTableInfo()
-  fullName: SuperOffice.Data.TablesInfo.GetOLEViewTableInfo()
-  type: Method
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.Data
-  summary: >-
-    New instance of OLEViewTableInfo:
-
-    Control data table for the OLE DB Provider
-  example: []
-  syntax:
-    content: public static OLEViewTableInfo GetOLEViewTableInfo()
-    return:
-      type: SuperOffice.CRM.Data.OLEViewTableInfo
-    content.vb: Public Shared Function GetOLEViewTableInfo() As OLEViewTableInfo
-  overload: SuperOffice.Data.TablesInfo.GetOLEViewTableInfo*
-- uid: SuperOffice.Data.TablesInfo.GetOLEViewTextTableInfo
-  commentId: M:SuperOffice.Data.TablesInfo.GetOLEViewTextTableInfo
-  id: GetOLEViewTextTableInfo
-  parent: SuperOffice.Data.TablesInfo
-  langs:
-  - csharp
-  - vb
-  name: GetOLEViewTextTableInfo()
-  nameWithType: TablesInfo.GetOLEViewTextTableInfo()
-  fullName: SuperOffice.Data.TablesInfo.GetOLEViewTextTableInfo()
-  type: Method
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.Data
-  summary: >-
-    New instance of OLEViewTextTableInfo:
-
-    Control data table for the OLE DB Provider
-  example: []
-  syntax:
-    content: public static OLEViewTextTableInfo GetOLEViewTextTableInfo()
-    return:
-      type: SuperOffice.CRM.Data.OLEViewTextTableInfo
-    content.vb: Public Shared Function GetOLEViewTextTableInfo() As OLEViewTextTableInfo
-  overload: SuperOffice.Data.TablesInfo.GetOLEViewTextTableInfo*
-- uid: SuperOffice.Data.TablesInfo.GetOLEFieldTableInfo
-  commentId: M:SuperOffice.Data.TablesInfo.GetOLEFieldTableInfo
-  id: GetOLEFieldTableInfo
-  parent: SuperOffice.Data.TablesInfo
-  langs:
-  - csharp
-  - vb
-  name: GetOLEFieldTableInfo()
-  nameWithType: TablesInfo.GetOLEFieldTableInfo()
-  fullName: SuperOffice.Data.TablesInfo.GetOLEFieldTableInfo()
-  type: Method
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.Data
-  summary: >-
-    New instance of OLEFieldTableInfo:
-
-    Control data table for the OLE DB Provider
-  example: []
-  syntax:
-    content: public static OLEFieldTableInfo GetOLEFieldTableInfo()
-    return:
-      type: SuperOffice.CRM.Data.OLEFieldTableInfo
-    content.vb: Public Shared Function GetOLEFieldTableInfo() As OLEFieldTableInfo
-  overload: SuperOffice.Data.TablesInfo.GetOLEFieldTableInfo*
-- uid: SuperOffice.Data.TablesInfo.GetOLEFieldTextTableInfo
-  commentId: M:SuperOffice.Data.TablesInfo.GetOLEFieldTextTableInfo
-  id: GetOLEFieldTextTableInfo
-  parent: SuperOffice.Data.TablesInfo
-  langs:
-  - csharp
-  - vb
-  name: GetOLEFieldTextTableInfo()
-  nameWithType: TablesInfo.GetOLEFieldTextTableInfo()
-  fullName: SuperOffice.Data.TablesInfo.GetOLEFieldTextTableInfo()
-  type: Method
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.Data
-  summary: >-
-    New instance of OLEFieldTextTableInfo:
-
-    Control data table for the OLE DB Provider
-  example: []
-  syntax:
-    content: public static OLEFieldTextTableInfo GetOLEFieldTextTableInfo()
-    return:
-      type: SuperOffice.CRM.Data.OLEFieldTextTableInfo
-    content.vb: Public Shared Function GetOLEFieldTextTableInfo() As OLEFieldTextTableInfo
-  overload: SuperOffice.Data.TablesInfo.GetOLEFieldTextTableInfo*
 - uid: SuperOffice.Data.TablesInfo.GetOwnerContactLinkTableInfo
   commentId: M:SuperOffice.Data.TablesInfo.GetOwnerContactLinkTableInfo
   id: GetOwnerContactLinkTableInfo
@@ -5046,31 +5013,6 @@ items:
       type: SuperOffice.CRM.Data.LocaleTextTableInfo
     content.vb: Public Shared Function GetLocaleTextTableInfo() As LocaleTextTableInfo
   overload: SuperOffice.Data.TablesInfo.GetLocaleTextTableInfo*
-- uid: SuperOffice.Data.TablesInfo.GetReporterListDefTableInfo
-  commentId: M:SuperOffice.Data.TablesInfo.GetReporterListDefTableInfo
-  id: GetReporterListDefTableInfo
-  parent: SuperOffice.Data.TablesInfo
-  langs:
-  - csharp
-  - vb
-  name: GetReporterListDefTableInfo()
-  nameWithType: TablesInfo.GetReporterListDefTableInfo()
-  fullName: SuperOffice.Data.TablesInfo.GetReporterListDefTableInfo()
-  type: Method
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.Data
-  summary: >-
-    New instance of ReporterListDefTableInfo:
-
-    Reporter definitions
-  example: []
-  syntax:
-    content: public static ReporterListDefTableInfo GetReporterListDefTableInfo()
-    return:
-      type: SuperOffice.CRM.Data.ReporterListDefTableInfo
-    content.vb: Public Shared Function GetReporterListDefTableInfo() As ReporterListDefTableInfo
-  overload: SuperOffice.Data.TablesInfo.GetReporterListDefTableInfo*
 - uid: SuperOffice.Data.TablesInfo.GetRefCountsTableInfo
   commentId: M:SuperOffice.Data.TablesInfo.GetRefCountsTableInfo
   id: GetRefCountsTableInfo
@@ -5121,181 +5063,6 @@ items:
       type: SuperOffice.CRM.Data.RefCountRangeTableInfo
     content.vb: Public Shared Function GetRefCountRangeTableInfo() As RefCountRangeTableInfo
   overload: SuperOffice.Data.TablesInfo.GetRefCountRangeTableInfo*
-- uid: SuperOffice.Data.TablesInfo.GetSORTemplateTableInfo
-  commentId: M:SuperOffice.Data.TablesInfo.GetSORTemplateTableInfo
-  id: GetSORTemplateTableInfo
-  parent: SuperOffice.Data.TablesInfo
-  langs:
-  - csharp
-  - vb
-  name: GetSORTemplateTableInfo()
-  nameWithType: TablesInfo.GetSORTemplateTableInfo()
-  fullName: SuperOffice.Data.TablesInfo.GetSORTemplateTableInfo()
-  type: Method
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.Data
-  summary: >-
-    New instance of SORTemplateTableInfo:
-
-    SuperOffice reporter data
-  example: []
-  syntax:
-    content: public static SORTemplateTableInfo GetSORTemplateTableInfo()
-    return:
-      type: SuperOffice.CRM.Data.SORTemplateTableInfo
-    content.vb: Public Shared Function GetSORTemplateTableInfo() As SORTemplateTableInfo
-  overload: SuperOffice.Data.TablesInfo.GetSORTemplateTableInfo*
-- uid: SuperOffice.Data.TablesInfo.GetSORPublishTableInfo
-  commentId: M:SuperOffice.Data.TablesInfo.GetSORPublishTableInfo
-  id: GetSORPublishTableInfo
-  parent: SuperOffice.Data.TablesInfo
-  langs:
-  - csharp
-  - vb
-  name: GetSORPublishTableInfo()
-  nameWithType: TablesInfo.GetSORPublishTableInfo()
-  fullName: SuperOffice.Data.TablesInfo.GetSORPublishTableInfo()
-  type: Method
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.Data
-  summary: >-
-    New instance of SORPublishTableInfo:
-
-    SuperOffice reporter data
-  example: []
-  syntax:
-    content: public static SORPublishTableInfo GetSORPublishTableInfo()
-    return:
-      type: SuperOffice.CRM.Data.SORPublishTableInfo
-    content.vb: Public Shared Function GetSORPublishTableInfo() As SORPublishTableInfo
-  overload: SuperOffice.Data.TablesInfo.GetSORPublishTableInfo*
-- uid: SuperOffice.Data.TablesInfo.GetSORCriteriaTableInfo
-  commentId: M:SuperOffice.Data.TablesInfo.GetSORCriteriaTableInfo
-  id: GetSORCriteriaTableInfo
-  parent: SuperOffice.Data.TablesInfo
-  langs:
-  - csharp
-  - vb
-  name: GetSORCriteriaTableInfo()
-  nameWithType: TablesInfo.GetSORCriteriaTableInfo()
-  fullName: SuperOffice.Data.TablesInfo.GetSORCriteriaTableInfo()
-  type: Method
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.Data
-  summary: >-
-    New instance of SORCriteriaTableInfo:
-
-    SuperOffice reporter data
-  example: []
-  syntax:
-    content: public static SORCriteriaTableInfo GetSORCriteriaTableInfo()
-    return:
-      type: SuperOffice.CRM.Data.SORCriteriaTableInfo
-    content.vb: Public Shared Function GetSORCriteriaTableInfo() As SORCriteriaTableInfo
-  overload: SuperOffice.Data.TablesInfo.GetSORCriteriaTableInfo*
-- uid: SuperOffice.Data.TablesInfo.GetSOROperatorsTableInfo
-  commentId: M:SuperOffice.Data.TablesInfo.GetSOROperatorsTableInfo
-  id: GetSOROperatorsTableInfo
-  parent: SuperOffice.Data.TablesInfo
-  langs:
-  - csharp
-  - vb
-  name: GetSOROperatorsTableInfo()
-  nameWithType: TablesInfo.GetSOROperatorsTableInfo()
-  fullName: SuperOffice.Data.TablesInfo.GetSOROperatorsTableInfo()
-  type: Method
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.Data
-  summary: >-
-    New instance of SOROperatorsTableInfo:
-
-    SuperOffice reporter data
-  example: []
-  syntax:
-    content: public static SOROperatorsTableInfo GetSOROperatorsTableInfo()
-    return:
-      type: SuperOffice.CRM.Data.SOROperatorsTableInfo
-    content.vb: Public Shared Function GetSOROperatorsTableInfo() As SOROperatorsTableInfo
-  overload: SuperOffice.Data.TablesInfo.GetSOROperatorsTableInfo*
-- uid: SuperOffice.Data.TablesInfo.GetSORSectionTableInfo
-  commentId: M:SuperOffice.Data.TablesInfo.GetSORSectionTableInfo
-  id: GetSORSectionTableInfo
-  parent: SuperOffice.Data.TablesInfo
-  langs:
-  - csharp
-  - vb
-  name: GetSORSectionTableInfo()
-  nameWithType: TablesInfo.GetSORSectionTableInfo()
-  fullName: SuperOffice.Data.TablesInfo.GetSORSectionTableInfo()
-  type: Method
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.Data
-  summary: >-
-    New instance of SORSectionTableInfo:
-
-    SuperOffice reporter data
-  example: []
-  syntax:
-    content: public static SORSectionTableInfo GetSORSectionTableInfo()
-    return:
-      type: SuperOffice.CRM.Data.SORSectionTableInfo
-    content.vb: Public Shared Function GetSORSectionTableInfo() As SORSectionTableInfo
-  overload: SuperOffice.Data.TablesInfo.GetSORSectionTableInfo*
-- uid: SuperOffice.Data.TablesInfo.GetSORFCTTableInfo
-  commentId: M:SuperOffice.Data.TablesInfo.GetSORFCTTableInfo
-  id: GetSORFCTTableInfo
-  parent: SuperOffice.Data.TablesInfo
-  langs:
-  - csharp
-  - vb
-  name: GetSORFCTTableInfo()
-  nameWithType: TablesInfo.GetSORFCTTableInfo()
-  fullName: SuperOffice.Data.TablesInfo.GetSORFCTTableInfo()
-  type: Method
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.Data
-  summary: >-
-    New instance of SORFCTTableInfo:
-
-    SuperOffice reporter data
-  example: []
-  syntax:
-    content: public static SORFCTTableInfo GetSORFCTTableInfo()
-    return:
-      type: SuperOffice.CRM.Data.SORFCTTableInfo
-    content.vb: Public Shared Function GetSORFCTTableInfo() As SORFCTTableInfo
-  overload: SuperOffice.Data.TablesInfo.GetSORFCTTableInfo*
-- uid: SuperOffice.Data.TablesInfo.GetSORFieldTableInfo
-  commentId: M:SuperOffice.Data.TablesInfo.GetSORFieldTableInfo
-  id: GetSORFieldTableInfo
-  parent: SuperOffice.Data.TablesInfo
-  langs:
-  - csharp
-  - vb
-  name: GetSORFieldTableInfo()
-  nameWithType: TablesInfo.GetSORFieldTableInfo()
-  fullName: SuperOffice.Data.TablesInfo.GetSORFieldTableInfo()
-  type: Method
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.Data
-  summary: >-
-    New instance of SORFieldTableInfo:
-
-    SuperOffice reporter data
-  example: []
-  syntax:
-    content: public static SORFieldTableInfo GetSORFieldTableInfo()
-    return:
-      type: SuperOffice.CRM.Data.SORFieldTableInfo
-    content.vb: Public Shared Function GetSORFieldTableInfo() As SORFieldTableInfo
-  overload: SuperOffice.Data.TablesInfo.GetSORFieldTableInfo*
 - uid: SuperOffice.Data.TablesInfo.GetSORLabelLayoutTableInfo
   commentId: M:SuperOffice.Data.TablesInfo.GetSORLabelLayoutTableInfo
   id: GetSORLabelLayoutTableInfo
@@ -5546,31 +5313,6 @@ items:
       type: SuperOffice.CRM.Data.ImportDefaultTableInfo
     content.vb: Public Shared Function GetImportDefaultTableInfo() As ImportDefaultTableInfo
   overload: SuperOffice.Data.TablesInfo.GetImportDefaultTableInfo*
-- uid: SuperOffice.Data.TablesInfo.GetUsageStatsTableInfo
-  commentId: M:SuperOffice.Data.TablesInfo.GetUsageStatsTableInfo
-  id: GetUsageStatsTableInfo
-  parent: SuperOffice.Data.TablesInfo
-  langs:
-  - csharp
-  - vb
-  name: GetUsageStatsTableInfo()
-  nameWithType: TablesInfo.GetUsageStatsTableInfo()
-  fullName: SuperOffice.Data.TablesInfo.GetUsageStatsTableInfo()
-  type: Method
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.Data
-  summary: >-
-    New instance of UsageStatsTableInfo:
-
-    Usage statistics
-  example: []
-  syntax:
-    content: public static UsageStatsTableInfo GetUsageStatsTableInfo()
-    return:
-      type: SuperOffice.CRM.Data.UsageStatsTableInfo
-    content.vb: Public Shared Function GetUsageStatsTableInfo() As UsageStatsTableInfo
-  overload: SuperOffice.Data.TablesInfo.GetUsageStatsTableInfo*
 - uid: SuperOffice.Data.TablesInfo.GetRoleTableInfo
   commentId: M:SuperOffice.Data.TablesInfo.GetRoleTableInfo
   id: GetRoleTableInfo
@@ -12071,106 +11813,6 @@ items:
       type: SuperOffice.CRM.Data.EjCategoryGroupLinkTableInfo
     content.vb: Public Shared Function GetEjCategoryGroupLinkTableInfo() As EjCategoryGroupLinkTableInfo
   overload: SuperOffice.Data.TablesInfo.GetEjCategoryGroupLinkTableInfo*
-- uid: SuperOffice.Data.TablesInfo.GetObsolete1TableInfo
-  commentId: M:SuperOffice.Data.TablesInfo.GetObsolete1TableInfo
-  id: GetObsolete1TableInfo
-  parent: SuperOffice.Data.TablesInfo
-  langs:
-  - csharp
-  - vb
-  name: GetObsolete1TableInfo()
-  nameWithType: TablesInfo.GetObsolete1TableInfo()
-  fullName: SuperOffice.Data.TablesInfo.GetObsolete1TableInfo()
-  type: Method
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.Data
-  summary: >-
-    New instance of Obsolete1TableInfo:
-
-    Obsolete table for functionality that was never implemented
-  example: []
-  syntax:
-    content: public static Obsolete1TableInfo GetObsolete1TableInfo()
-    return:
-      type: SuperOffice.CRM.Data.Obsolete1TableInfo
-    content.vb: Public Shared Function GetObsolete1TableInfo() As Obsolete1TableInfo
-  overload: SuperOffice.Data.TablesInfo.GetObsolete1TableInfo*
-- uid: SuperOffice.Data.TablesInfo.GetObsolete2TableInfo
-  commentId: M:SuperOffice.Data.TablesInfo.GetObsolete2TableInfo
-  id: GetObsolete2TableInfo
-  parent: SuperOffice.Data.TablesInfo
-  langs:
-  - csharp
-  - vb
-  name: GetObsolete2TableInfo()
-  nameWithType: TablesInfo.GetObsolete2TableInfo()
-  fullName: SuperOffice.Data.TablesInfo.GetObsolete2TableInfo()
-  type: Method
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.Data
-  summary: >-
-    New instance of Obsolete2TableInfo:
-
-    Obsolete table for functionality that was never implemented
-  example: []
-  syntax:
-    content: public static Obsolete2TableInfo GetObsolete2TableInfo()
-    return:
-      type: SuperOffice.CRM.Data.Obsolete2TableInfo
-    content.vb: Public Shared Function GetObsolete2TableInfo() As Obsolete2TableInfo
-  overload: SuperOffice.Data.TablesInfo.GetObsolete2TableInfo*
-- uid: SuperOffice.Data.TablesInfo.GetObsolete3TableInfo
-  commentId: M:SuperOffice.Data.TablesInfo.GetObsolete3TableInfo
-  id: GetObsolete3TableInfo
-  parent: SuperOffice.Data.TablesInfo
-  langs:
-  - csharp
-  - vb
-  name: GetObsolete3TableInfo()
-  nameWithType: TablesInfo.GetObsolete3TableInfo()
-  fullName: SuperOffice.Data.TablesInfo.GetObsolete3TableInfo()
-  type: Method
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.Data
-  summary: >-
-    New instance of Obsolete3TableInfo:
-
-    Obsolete table for functionality that was never implemented
-  example: []
-  syntax:
-    content: public static Obsolete3TableInfo GetObsolete3TableInfo()
-    return:
-      type: SuperOffice.CRM.Data.Obsolete3TableInfo
-    content.vb: Public Shared Function GetObsolete3TableInfo() As Obsolete3TableInfo
-  overload: SuperOffice.Data.TablesInfo.GetObsolete3TableInfo*
-- uid: SuperOffice.Data.TablesInfo.GetObsolete4TableInfo
-  commentId: M:SuperOffice.Data.TablesInfo.GetObsolete4TableInfo
-  id: GetObsolete4TableInfo
-  parent: SuperOffice.Data.TablesInfo
-  langs:
-  - csharp
-  - vb
-  name: GetObsolete4TableInfo()
-  nameWithType: TablesInfo.GetObsolete4TableInfo()
-  fullName: SuperOffice.Data.TablesInfo.GetObsolete4TableInfo()
-  type: Method
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.Data
-  summary: >-
-    New instance of Obsolete4TableInfo:
-
-    Obsolete table for functionality that was never implemented
-  example: []
-  syntax:
-    content: public static Obsolete4TableInfo GetObsolete4TableInfo()
-    return:
-      type: SuperOffice.CRM.Data.Obsolete4TableInfo
-    content.vb: Public Shared Function GetObsolete4TableInfo() As Obsolete4TableInfo
-  overload: SuperOffice.Data.TablesInfo.GetObsolete4TableInfo*
 - uid: SuperOffice.Data.TablesInfo.GetFavouriteTableInfo
   commentId: M:SuperOffice.Data.TablesInfo.GetFavouriteTableInfo
   id: GetFavouriteTableInfo
@@ -13046,6 +12688,31 @@ items:
       type: SuperOffice.CRM.Data.FormSubmissionTableInfo
     content.vb: Public Shared Function GetFormSubmissionTableInfo() As FormSubmissionTableInfo
   overload: SuperOffice.Data.TablesInfo.GetFormSubmissionTableInfo*
+- uid: SuperOffice.Data.TablesInfo.GetFormFieldRestrictionTableInfo
+  commentId: M:SuperOffice.Data.TablesInfo.GetFormFieldRestrictionTableInfo
+  id: GetFormFieldRestrictionTableInfo
+  parent: SuperOffice.Data.TablesInfo
+  langs:
+  - csharp
+  - vb
+  name: GetFormFieldRestrictionTableInfo()
+  nameWithType: TablesInfo.GetFormFieldRestrictionTableInfo()
+  fullName: SuperOffice.Data.TablesInfo.GetFormFieldRestrictionTableInfo()
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: >-
+    New instance of FormFieldRestrictionTableInfo:
+
+    This table contains all form fields restrictions
+  example: []
+  syntax:
+    content: public static FormFieldRestrictionTableInfo GetFormFieldRestrictionTableInfo()
+    return:
+      type: SuperOffice.CRM.Data.FormFieldRestrictionTableInfo
+    content.vb: Public Shared Function GetFormFieldRestrictionTableInfo() As FormFieldRestrictionTableInfo
+  overload: SuperOffice.Data.TablesInfo.GetFormFieldRestrictionTableInfo*
 - uid: SuperOffice.Data.TablesInfo.GetEmailAccountTableInfo
   commentId: M:SuperOffice.Data.TablesInfo.GetEmailAccountTableInfo
   id: GetEmailAccountTableInfo
@@ -13196,6 +12863,56 @@ items:
       type: SuperOffice.CRM.Data.InvitationTableInfo
     content.vb: Public Shared Function GetInvitationTableInfo() As InvitationTableInfo
   overload: SuperOffice.Data.TablesInfo.GetInvitationTableInfo*
+- uid: SuperOffice.Data.TablesInfo.GetLandingPageTableInfo
+  commentId: M:SuperOffice.Data.TablesInfo.GetLandingPageTableInfo
+  id: GetLandingPageTableInfo
+  parent: SuperOffice.Data.TablesInfo
+  langs:
+  - csharp
+  - vb
+  name: GetLandingPageTableInfo()
+  nameWithType: TablesInfo.GetLandingPageTableInfo()
+  fullName: SuperOffice.Data.TablesInfo.GetLandingPageTableInfo()
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: >-
+    New instance of LandingPageTableInfo:
+
+    Per-associate landing page configuration for a given entity type
+  example: []
+  syntax:
+    content: public static LandingPageTableInfo GetLandingPageTableInfo()
+    return:
+      type: SuperOffice.CRM.Data.LandingPageTableInfo
+    content.vb: Public Shared Function GetLandingPageTableInfo() As LandingPageTableInfo
+  overload: SuperOffice.Data.TablesInfo.GetLandingPageTableInfo*
+- uid: SuperOffice.Data.TablesInfo.GetLandingPagePinTableInfo
+  commentId: M:SuperOffice.Data.TablesInfo.GetLandingPagePinTableInfo
+  id: GetLandingPagePinTableInfo
+  parent: SuperOffice.Data.TablesInfo
+  langs:
+  - csharp
+  - vb
+  name: GetLandingPagePinTableInfo()
+  nameWithType: TablesInfo.GetLandingPagePinTableInfo()
+  fullName: SuperOffice.Data.TablesInfo.GetLandingPagePinTableInfo()
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: >-
+    New instance of LandingPagePinTableInfo:
+
+    A pinned selection or entity record on a landing page
+  example: []
+  syntax:
+    content: public static LandingPagePinTableInfo GetLandingPagePinTableInfo()
+    return:
+      type: SuperOffice.CRM.Data.LandingPagePinTableInfo
+    content.vb: Public Shared Function GetLandingPagePinTableInfo() As LandingPagePinTableInfo
+  overload: SuperOffice.Data.TablesInfo.GetLandingPagePinTableInfo*
 - uid: SuperOffice.Data.TablesInfo.GetSMessageblockTableInfo
   commentId: M:SuperOffice.Data.TablesInfo.GetSMessageblockTableInfo
   id: GetSMessageblockTableInfo
@@ -13246,6 +12963,31 @@ items:
       type: SuperOffice.CRM.Data.MailingDomainsTableInfo
     content.vb: Public Shared Function GetMailingDomainsTableInfo() As MailingDomainsTableInfo
   overload: SuperOffice.Data.TablesInfo.GetMailingDomainsTableInfo*
+- uid: SuperOffice.Data.TablesInfo.GetMeteringLogTableInfo
+  commentId: M:SuperOffice.Data.TablesInfo.GetMeteringLogTableInfo
+  id: GetMeteringLogTableInfo
+  parent: SuperOffice.Data.TablesInfo
+  langs:
+  - csharp
+  - vb
+  name: GetMeteringLogTableInfo()
+  nameWithType: TablesInfo.GetMeteringLogTableInfo()
+  fullName: SuperOffice.Data.TablesInfo.GetMeteringLogTableInfo()
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: >-
+    New instance of MeteringLogTableInfo:
+
+    Metering log table
+  example: []
+  syntax:
+    content: public static MeteringLogTableInfo GetMeteringLogTableInfo()
+    return:
+      type: SuperOffice.CRM.Data.MeteringLogTableInfo
+    content.vb: Public Shared Function GetMeteringLogTableInfo() As MeteringLogTableInfo
+  overload: SuperOffice.Data.TablesInfo.GetMeteringLogTableInfo*
 - uid: SuperOffice.Data.TablesInfo.GetTypicalSearchTableInfo
   commentId: M:SuperOffice.Data.TablesInfo.GetTypicalSearchTableInfo
   id: GetTypicalSearchTableInfo
@@ -13321,6 +13063,106 @@ items:
       type: SuperOffice.CRM.Data.TimeKeepingTableInfo
     content.vb: Public Shared Function GetTimeKeepingTableInfo() As TimeKeepingTableInfo
   overload: SuperOffice.Data.TablesInfo.GetTimeKeepingTableInfo*
+- uid: SuperOffice.Data.TablesInfo.GetNewsFeedItemTableInfo
+  commentId: M:SuperOffice.Data.TablesInfo.GetNewsFeedItemTableInfo
+  id: GetNewsFeedItemTableInfo
+  parent: SuperOffice.Data.TablesInfo
+  langs:
+  - csharp
+  - vb
+  name: GetNewsFeedItemTableInfo()
+  nameWithType: TablesInfo.GetNewsFeedItemTableInfo()
+  fullName: SuperOffice.Data.TablesInfo.GetNewsFeedItemTableInfo()
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: >-
+    New instance of NewsFeedItemTableInfo:
+
+    Contains news feed items - published to one or more users, with one or more language descriptions
+  example: []
+  syntax:
+    content: public static NewsFeedItemTableInfo GetNewsFeedItemTableInfo()
+    return:
+      type: SuperOffice.CRM.Data.NewsFeedItemTableInfo
+    content.vb: Public Shared Function GetNewsFeedItemTableInfo() As NewsFeedItemTableInfo
+  overload: SuperOffice.Data.TablesInfo.GetNewsFeedItemTableInfo*
+- uid: SuperOffice.Data.TablesInfo.GetNewsFeedItemHtmlTableInfo
+  commentId: M:SuperOffice.Data.TablesInfo.GetNewsFeedItemHtmlTableInfo
+  id: GetNewsFeedItemHtmlTableInfo
+  parent: SuperOffice.Data.TablesInfo
+  langs:
+  - csharp
+  - vb
+  name: GetNewsFeedItemHtmlTableInfo()
+  nameWithType: TablesInfo.GetNewsFeedItemHtmlTableInfo()
+  fullName: SuperOffice.Data.TablesInfo.GetNewsFeedItemHtmlTableInfo()
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: >-
+    New instance of NewsFeedItemHtmlTableInfo:
+
+    Detailed description of the news item, in a specific language.
+  example: []
+  syntax:
+    content: public static NewsFeedItemHtmlTableInfo GetNewsFeedItemHtmlTableInfo()
+    return:
+      type: SuperOffice.CRM.Data.NewsFeedItemHtmlTableInfo
+    content.vb: Public Shared Function GetNewsFeedItemHtmlTableInfo() As NewsFeedItemHtmlTableInfo
+  overload: SuperOffice.Data.TablesInfo.GetNewsFeedItemHtmlTableInfo*
+- uid: SuperOffice.Data.TablesInfo.GetNewsFeedItemCtaTableInfo
+  commentId: M:SuperOffice.Data.TablesInfo.GetNewsFeedItemCtaTableInfo
+  id: GetNewsFeedItemCtaTableInfo
+  parent: SuperOffice.Data.TablesInfo
+  langs:
+  - csharp
+  - vb
+  name: GetNewsFeedItemCtaTableInfo()
+  nameWithType: TablesInfo.GetNewsFeedItemCtaTableInfo()
+  fullName: SuperOffice.Data.TablesInfo.GetNewsFeedItemCtaTableInfo()
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: >-
+    New instance of NewsFeedItemCtaTableInfo:
+
+    List of Calls-to-Action buttons to attach to a given news item. One item may have multiple CTAs (e.g. Approve + Reject).
+  example: []
+  syntax:
+    content: public static NewsFeedItemCtaTableInfo GetNewsFeedItemCtaTableInfo()
+    return:
+      type: SuperOffice.CRM.Data.NewsFeedItemCtaTableInfo
+    content.vb: Public Shared Function GetNewsFeedItemCtaTableInfo() As NewsFeedItemCtaTableInfo
+  overload: SuperOffice.Data.TablesInfo.GetNewsFeedItemCtaTableInfo*
+- uid: SuperOffice.Data.TablesInfo.GetNewsFeedItemRecipientTableInfo
+  commentId: M:SuperOffice.Data.TablesInfo.GetNewsFeedItemRecipientTableInfo
+  id: GetNewsFeedItemRecipientTableInfo
+  parent: SuperOffice.Data.TablesInfo
+  langs:
+  - csharp
+  - vb
+  name: GetNewsFeedItemRecipientTableInfo()
+  nameWithType: TablesInfo.GetNewsFeedItemRecipientTableInfo()
+  fullName: SuperOffice.Data.TablesInfo.GetNewsFeedItemRecipientTableInfo()
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: >-
+    New instance of NewsFeedItemRecipientTableInfo:
+
+    Recipients of the news feed item. One news feed item may be sent to multiple recipients (users).
+  example: []
+  syntax:
+    content: public static NewsFeedItemRecipientTableInfo GetNewsFeedItemRecipientTableInfo()
+    return:
+      type: SuperOffice.CRM.Data.NewsFeedItemRecipientTableInfo
+    content.vb: Public Shared Function GetNewsFeedItemRecipientTableInfo() As NewsFeedItemRecipientTableInfo
+  overload: SuperOffice.Data.TablesInfo.GetNewsFeedItemRecipientTableInfo*
 - uid: SuperOffice.Data.TablesInfo.GetOnlineAppTableInfo
   commentId: M:SuperOffice.Data.TablesInfo.GetOnlineAppTableInfo
   id: GetOnlineAppTableInfo
@@ -13696,6 +13538,31 @@ items:
       type: SuperOffice.CRM.Data.WebhookUsageTableInfo
     content.vb: Public Shared Function GetWebhookUsageTableInfo() As WebhookUsageTableInfo
   overload: SuperOffice.Data.TablesInfo.GetWebhookUsageTableInfo*
+- uid: SuperOffice.Data.TablesInfo.GetWebhookNotifyTableInfo
+  commentId: M:SuperOffice.Data.TablesInfo.GetWebhookNotifyTableInfo
+  id: GetWebhookNotifyTableInfo
+  parent: SuperOffice.Data.TablesInfo
+  langs:
+  - csharp
+  - vb
+  name: GetWebhookNotifyTableInfo()
+  nameWithType: TablesInfo.GetWebhookNotifyTableInfo()
+  fullName: SuperOffice.Data.TablesInfo.GetWebhookNotifyTableInfo()
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: >-
+    New instance of WebhookNotifyTableInfo:
+
+    Notification recipients for webhook failure events. Each row defines one recipient (associate or ad-hoc email) that should be notified when a webhook fails.
+  example: []
+  syntax:
+    content: public static WebhookNotifyTableInfo GetWebhookNotifyTableInfo()
+    return:
+      type: SuperOffice.CRM.Data.WebhookNotifyTableInfo
+    content.vb: Public Shared Function GetWebhookNotifyTableInfo() As WebhookNotifyTableInfo
+  overload: SuperOffice.Data.TablesInfo.GetWebhookNotifyTableInfo*
 - uid: SuperOffice.Data.TablesInfo.GetWorkflowTableInfo
   commentId: M:SuperOffice.Data.TablesInfo.GetWorkflowTableInfo
   id: GetWorkflowTableInfo
@@ -15316,21 +15183,6 @@ references:
   name: SelectionMemberTableInfo
   nameWithType: SelectionMemberTableInfo
   fullName: SuperOffice.CRM.Data.SelectionMemberTableInfo
-- uid: SuperOffice.Data.TablesInfo.GetSORPublishGroupLinkTableInfo*
-  commentId: Overload:SuperOffice.Data.TablesInfo.GetSORPublishGroupLinkTableInfo
-  isExternal: true
-  href: SuperOffice.Data.TablesInfo.html#SuperOffice_Data_TablesInfo_GetSORPublishGroupLinkTableInfo
-  name: GetSORPublishGroupLinkTableInfo
-  nameWithType: TablesInfo.GetSORPublishGroupLinkTableInfo
-  fullName: SuperOffice.Data.TablesInfo.GetSORPublishGroupLinkTableInfo
-- uid: SuperOffice.CRM.Data.SORPublishGroupLinkTableInfo
-  commentId: T:SuperOffice.CRM.Data.SORPublishGroupLinkTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  href: SuperOffice.CRM.Data.SORPublishGroupLinkTableInfo.html
-  name: SORPublishGroupLinkTableInfo
-  nameWithType: SORPublishGroupLinkTableInfo
-  fullName: SuperOffice.CRM.Data.SORPublishGroupLinkTableInfo
 - uid: SuperOffice.Data.TablesInfo.GetQuoteConnectionTableInfo*
   commentId: Overload:SuperOffice.Data.TablesInfo.GetQuoteConnectionTableInfo
   isExternal: true
@@ -17356,96 +17208,6 @@ references:
   name: SaleTypeStageLinkTableInfo
   nameWithType: SaleTypeStageLinkTableInfo
   fullName: SuperOffice.CRM.Data.SaleTypeStageLinkTableInfo
-- uid: SuperOffice.Data.TablesInfo.GetOLESubjectTableInfo*
-  commentId: Overload:SuperOffice.Data.TablesInfo.GetOLESubjectTableInfo
-  isExternal: true
-  href: SuperOffice.Data.TablesInfo.html#SuperOffice_Data_TablesInfo_GetOLESubjectTableInfo
-  name: GetOLESubjectTableInfo
-  nameWithType: TablesInfo.GetOLESubjectTableInfo
-  fullName: SuperOffice.Data.TablesInfo.GetOLESubjectTableInfo
-- uid: SuperOffice.CRM.Data.OLESubjectTableInfo
-  commentId: T:SuperOffice.CRM.Data.OLESubjectTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  href: SuperOffice.CRM.Data.OLESubjectTableInfo.html
-  name: OLESubjectTableInfo
-  nameWithType: OLESubjectTableInfo
-  fullName: SuperOffice.CRM.Data.OLESubjectTableInfo
-- uid: SuperOffice.Data.TablesInfo.GetOLESubjectTextTableInfo*
-  commentId: Overload:SuperOffice.Data.TablesInfo.GetOLESubjectTextTableInfo
-  isExternal: true
-  href: SuperOffice.Data.TablesInfo.html#SuperOffice_Data_TablesInfo_GetOLESubjectTextTableInfo
-  name: GetOLESubjectTextTableInfo
-  nameWithType: TablesInfo.GetOLESubjectTextTableInfo
-  fullName: SuperOffice.Data.TablesInfo.GetOLESubjectTextTableInfo
-- uid: SuperOffice.CRM.Data.OLESubjectTextTableInfo
-  commentId: T:SuperOffice.CRM.Data.OLESubjectTextTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  href: SuperOffice.CRM.Data.OLESubjectTextTableInfo.html
-  name: OLESubjectTextTableInfo
-  nameWithType: OLESubjectTextTableInfo
-  fullName: SuperOffice.CRM.Data.OLESubjectTextTableInfo
-- uid: SuperOffice.Data.TablesInfo.GetOLEViewTableInfo*
-  commentId: Overload:SuperOffice.Data.TablesInfo.GetOLEViewTableInfo
-  isExternal: true
-  href: SuperOffice.Data.TablesInfo.html#SuperOffice_Data_TablesInfo_GetOLEViewTableInfo
-  name: GetOLEViewTableInfo
-  nameWithType: TablesInfo.GetOLEViewTableInfo
-  fullName: SuperOffice.Data.TablesInfo.GetOLEViewTableInfo
-- uid: SuperOffice.CRM.Data.OLEViewTableInfo
-  commentId: T:SuperOffice.CRM.Data.OLEViewTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  href: SuperOffice.CRM.Data.OLEViewTableInfo.html
-  name: OLEViewTableInfo
-  nameWithType: OLEViewTableInfo
-  fullName: SuperOffice.CRM.Data.OLEViewTableInfo
-- uid: SuperOffice.Data.TablesInfo.GetOLEViewTextTableInfo*
-  commentId: Overload:SuperOffice.Data.TablesInfo.GetOLEViewTextTableInfo
-  isExternal: true
-  href: SuperOffice.Data.TablesInfo.html#SuperOffice_Data_TablesInfo_GetOLEViewTextTableInfo
-  name: GetOLEViewTextTableInfo
-  nameWithType: TablesInfo.GetOLEViewTextTableInfo
-  fullName: SuperOffice.Data.TablesInfo.GetOLEViewTextTableInfo
-- uid: SuperOffice.CRM.Data.OLEViewTextTableInfo
-  commentId: T:SuperOffice.CRM.Data.OLEViewTextTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  href: SuperOffice.CRM.Data.OLEViewTextTableInfo.html
-  name: OLEViewTextTableInfo
-  nameWithType: OLEViewTextTableInfo
-  fullName: SuperOffice.CRM.Data.OLEViewTextTableInfo
-- uid: SuperOffice.Data.TablesInfo.GetOLEFieldTableInfo*
-  commentId: Overload:SuperOffice.Data.TablesInfo.GetOLEFieldTableInfo
-  isExternal: true
-  href: SuperOffice.Data.TablesInfo.html#SuperOffice_Data_TablesInfo_GetOLEFieldTableInfo
-  name: GetOLEFieldTableInfo
-  nameWithType: TablesInfo.GetOLEFieldTableInfo
-  fullName: SuperOffice.Data.TablesInfo.GetOLEFieldTableInfo
-- uid: SuperOffice.CRM.Data.OLEFieldTableInfo
-  commentId: T:SuperOffice.CRM.Data.OLEFieldTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  href: SuperOffice.CRM.Data.OLEFieldTableInfo.html
-  name: OLEFieldTableInfo
-  nameWithType: OLEFieldTableInfo
-  fullName: SuperOffice.CRM.Data.OLEFieldTableInfo
-- uid: SuperOffice.Data.TablesInfo.GetOLEFieldTextTableInfo*
-  commentId: Overload:SuperOffice.Data.TablesInfo.GetOLEFieldTextTableInfo
-  isExternal: true
-  href: SuperOffice.Data.TablesInfo.html#SuperOffice_Data_TablesInfo_GetOLEFieldTextTableInfo
-  name: GetOLEFieldTextTableInfo
-  nameWithType: TablesInfo.GetOLEFieldTextTableInfo
-  fullName: SuperOffice.Data.TablesInfo.GetOLEFieldTextTableInfo
-- uid: SuperOffice.CRM.Data.OLEFieldTextTableInfo
-  commentId: T:SuperOffice.CRM.Data.OLEFieldTextTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  href: SuperOffice.CRM.Data.OLEFieldTextTableInfo.html
-  name: OLEFieldTextTableInfo
-  nameWithType: OLEFieldTextTableInfo
-  fullName: SuperOffice.CRM.Data.OLEFieldTextTableInfo
 - uid: SuperOffice.Data.TablesInfo.GetOwnerContactLinkTableInfo*
   commentId: Overload:SuperOffice.Data.TablesInfo.GetOwnerContactLinkTableInfo
   isExternal: true
@@ -17491,21 +17253,6 @@ references:
   name: LocaleTextTableInfo
   nameWithType: LocaleTextTableInfo
   fullName: SuperOffice.CRM.Data.LocaleTextTableInfo
-- uid: SuperOffice.Data.TablesInfo.GetReporterListDefTableInfo*
-  commentId: Overload:SuperOffice.Data.TablesInfo.GetReporterListDefTableInfo
-  isExternal: true
-  href: SuperOffice.Data.TablesInfo.html#SuperOffice_Data_TablesInfo_GetReporterListDefTableInfo
-  name: GetReporterListDefTableInfo
-  nameWithType: TablesInfo.GetReporterListDefTableInfo
-  fullName: SuperOffice.Data.TablesInfo.GetReporterListDefTableInfo
-- uid: SuperOffice.CRM.Data.ReporterListDefTableInfo
-  commentId: T:SuperOffice.CRM.Data.ReporterListDefTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  href: SuperOffice.CRM.Data.ReporterListDefTableInfo.html
-  name: ReporterListDefTableInfo
-  nameWithType: ReporterListDefTableInfo
-  fullName: SuperOffice.CRM.Data.ReporterListDefTableInfo
 - uid: SuperOffice.Data.TablesInfo.GetRefCountsTableInfo*
   commentId: Overload:SuperOffice.Data.TablesInfo.GetRefCountsTableInfo
   isExternal: true
@@ -17536,111 +17283,6 @@ references:
   name: RefCountRangeTableInfo
   nameWithType: RefCountRangeTableInfo
   fullName: SuperOffice.CRM.Data.RefCountRangeTableInfo
-- uid: SuperOffice.Data.TablesInfo.GetSORTemplateTableInfo*
-  commentId: Overload:SuperOffice.Data.TablesInfo.GetSORTemplateTableInfo
-  isExternal: true
-  href: SuperOffice.Data.TablesInfo.html#SuperOffice_Data_TablesInfo_GetSORTemplateTableInfo
-  name: GetSORTemplateTableInfo
-  nameWithType: TablesInfo.GetSORTemplateTableInfo
-  fullName: SuperOffice.Data.TablesInfo.GetSORTemplateTableInfo
-- uid: SuperOffice.CRM.Data.SORTemplateTableInfo
-  commentId: T:SuperOffice.CRM.Data.SORTemplateTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  href: SuperOffice.CRM.Data.SORTemplateTableInfo.html
-  name: SORTemplateTableInfo
-  nameWithType: SORTemplateTableInfo
-  fullName: SuperOffice.CRM.Data.SORTemplateTableInfo
-- uid: SuperOffice.Data.TablesInfo.GetSORPublishTableInfo*
-  commentId: Overload:SuperOffice.Data.TablesInfo.GetSORPublishTableInfo
-  isExternal: true
-  href: SuperOffice.Data.TablesInfo.html#SuperOffice_Data_TablesInfo_GetSORPublishTableInfo
-  name: GetSORPublishTableInfo
-  nameWithType: TablesInfo.GetSORPublishTableInfo
-  fullName: SuperOffice.Data.TablesInfo.GetSORPublishTableInfo
-- uid: SuperOffice.CRM.Data.SORPublishTableInfo
-  commentId: T:SuperOffice.CRM.Data.SORPublishTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  href: SuperOffice.CRM.Data.SORPublishTableInfo.html
-  name: SORPublishTableInfo
-  nameWithType: SORPublishTableInfo
-  fullName: SuperOffice.CRM.Data.SORPublishTableInfo
-- uid: SuperOffice.Data.TablesInfo.GetSORCriteriaTableInfo*
-  commentId: Overload:SuperOffice.Data.TablesInfo.GetSORCriteriaTableInfo
-  isExternal: true
-  href: SuperOffice.Data.TablesInfo.html#SuperOffice_Data_TablesInfo_GetSORCriteriaTableInfo
-  name: GetSORCriteriaTableInfo
-  nameWithType: TablesInfo.GetSORCriteriaTableInfo
-  fullName: SuperOffice.Data.TablesInfo.GetSORCriteriaTableInfo
-- uid: SuperOffice.CRM.Data.SORCriteriaTableInfo
-  commentId: T:SuperOffice.CRM.Data.SORCriteriaTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  href: SuperOffice.CRM.Data.SORCriteriaTableInfo.html
-  name: SORCriteriaTableInfo
-  nameWithType: SORCriteriaTableInfo
-  fullName: SuperOffice.CRM.Data.SORCriteriaTableInfo
-- uid: SuperOffice.Data.TablesInfo.GetSOROperatorsTableInfo*
-  commentId: Overload:SuperOffice.Data.TablesInfo.GetSOROperatorsTableInfo
-  isExternal: true
-  href: SuperOffice.Data.TablesInfo.html#SuperOffice_Data_TablesInfo_GetSOROperatorsTableInfo
-  name: GetSOROperatorsTableInfo
-  nameWithType: TablesInfo.GetSOROperatorsTableInfo
-  fullName: SuperOffice.Data.TablesInfo.GetSOROperatorsTableInfo
-- uid: SuperOffice.CRM.Data.SOROperatorsTableInfo
-  commentId: T:SuperOffice.CRM.Data.SOROperatorsTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  href: SuperOffice.CRM.Data.SOROperatorsTableInfo.html
-  name: SOROperatorsTableInfo
-  nameWithType: SOROperatorsTableInfo
-  fullName: SuperOffice.CRM.Data.SOROperatorsTableInfo
-- uid: SuperOffice.Data.TablesInfo.GetSORSectionTableInfo*
-  commentId: Overload:SuperOffice.Data.TablesInfo.GetSORSectionTableInfo
-  isExternal: true
-  href: SuperOffice.Data.TablesInfo.html#SuperOffice_Data_TablesInfo_GetSORSectionTableInfo
-  name: GetSORSectionTableInfo
-  nameWithType: TablesInfo.GetSORSectionTableInfo
-  fullName: SuperOffice.Data.TablesInfo.GetSORSectionTableInfo
-- uid: SuperOffice.CRM.Data.SORSectionTableInfo
-  commentId: T:SuperOffice.CRM.Data.SORSectionTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  href: SuperOffice.CRM.Data.SORSectionTableInfo.html
-  name: SORSectionTableInfo
-  nameWithType: SORSectionTableInfo
-  fullName: SuperOffice.CRM.Data.SORSectionTableInfo
-- uid: SuperOffice.Data.TablesInfo.GetSORFCTTableInfo*
-  commentId: Overload:SuperOffice.Data.TablesInfo.GetSORFCTTableInfo
-  isExternal: true
-  href: SuperOffice.Data.TablesInfo.html#SuperOffice_Data_TablesInfo_GetSORFCTTableInfo
-  name: GetSORFCTTableInfo
-  nameWithType: TablesInfo.GetSORFCTTableInfo
-  fullName: SuperOffice.Data.TablesInfo.GetSORFCTTableInfo
-- uid: SuperOffice.CRM.Data.SORFCTTableInfo
-  commentId: T:SuperOffice.CRM.Data.SORFCTTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  href: SuperOffice.CRM.Data.SORFCTTableInfo.html
-  name: SORFCTTableInfo
-  nameWithType: SORFCTTableInfo
-  fullName: SuperOffice.CRM.Data.SORFCTTableInfo
-- uid: SuperOffice.Data.TablesInfo.GetSORFieldTableInfo*
-  commentId: Overload:SuperOffice.Data.TablesInfo.GetSORFieldTableInfo
-  isExternal: true
-  href: SuperOffice.Data.TablesInfo.html#SuperOffice_Data_TablesInfo_GetSORFieldTableInfo
-  name: GetSORFieldTableInfo
-  nameWithType: TablesInfo.GetSORFieldTableInfo
-  fullName: SuperOffice.Data.TablesInfo.GetSORFieldTableInfo
-- uid: SuperOffice.CRM.Data.SORFieldTableInfo
-  commentId: T:SuperOffice.CRM.Data.SORFieldTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  href: SuperOffice.CRM.Data.SORFieldTableInfo.html
-  name: SORFieldTableInfo
-  nameWithType: SORFieldTableInfo
-  fullName: SuperOffice.CRM.Data.SORFieldTableInfo
 - uid: SuperOffice.Data.TablesInfo.GetSORLabelLayoutTableInfo*
   commentId: Overload:SuperOffice.Data.TablesInfo.GetSORLabelLayoutTableInfo
   isExternal: true
@@ -17791,21 +17433,6 @@ references:
   name: ImportDefaultTableInfo
   nameWithType: ImportDefaultTableInfo
   fullName: SuperOffice.CRM.Data.ImportDefaultTableInfo
-- uid: SuperOffice.Data.TablesInfo.GetUsageStatsTableInfo*
-  commentId: Overload:SuperOffice.Data.TablesInfo.GetUsageStatsTableInfo
-  isExternal: true
-  href: SuperOffice.Data.TablesInfo.html#SuperOffice_Data_TablesInfo_GetUsageStatsTableInfo
-  name: GetUsageStatsTableInfo
-  nameWithType: TablesInfo.GetUsageStatsTableInfo
-  fullName: SuperOffice.Data.TablesInfo.GetUsageStatsTableInfo
-- uid: SuperOffice.CRM.Data.UsageStatsTableInfo
-  commentId: T:SuperOffice.CRM.Data.UsageStatsTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  href: SuperOffice.CRM.Data.UsageStatsTableInfo.html
-  name: UsageStatsTableInfo
-  nameWithType: UsageStatsTableInfo
-  fullName: SuperOffice.CRM.Data.UsageStatsTableInfo
 - uid: SuperOffice.Data.TablesInfo.GetRoleTableInfo*
   commentId: Overload:SuperOffice.Data.TablesInfo.GetRoleTableInfo
   isExternal: true
@@ -21706,66 +21333,6 @@ references:
   name: EjCategoryGroupLinkTableInfo
   nameWithType: EjCategoryGroupLinkTableInfo
   fullName: SuperOffice.CRM.Data.EjCategoryGroupLinkTableInfo
-- uid: SuperOffice.Data.TablesInfo.GetObsolete1TableInfo*
-  commentId: Overload:SuperOffice.Data.TablesInfo.GetObsolete1TableInfo
-  isExternal: true
-  href: SuperOffice.Data.TablesInfo.html#SuperOffice_Data_TablesInfo_GetObsolete1TableInfo
-  name: GetObsolete1TableInfo
-  nameWithType: TablesInfo.GetObsolete1TableInfo
-  fullName: SuperOffice.Data.TablesInfo.GetObsolete1TableInfo
-- uid: SuperOffice.CRM.Data.Obsolete1TableInfo
-  commentId: T:SuperOffice.CRM.Data.Obsolete1TableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  href: SuperOffice.CRM.Data.Obsolete1TableInfo.html
-  name: Obsolete1TableInfo
-  nameWithType: Obsolete1TableInfo
-  fullName: SuperOffice.CRM.Data.Obsolete1TableInfo
-- uid: SuperOffice.Data.TablesInfo.GetObsolete2TableInfo*
-  commentId: Overload:SuperOffice.Data.TablesInfo.GetObsolete2TableInfo
-  isExternal: true
-  href: SuperOffice.Data.TablesInfo.html#SuperOffice_Data_TablesInfo_GetObsolete2TableInfo
-  name: GetObsolete2TableInfo
-  nameWithType: TablesInfo.GetObsolete2TableInfo
-  fullName: SuperOffice.Data.TablesInfo.GetObsolete2TableInfo
-- uid: SuperOffice.CRM.Data.Obsolete2TableInfo
-  commentId: T:SuperOffice.CRM.Data.Obsolete2TableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  href: SuperOffice.CRM.Data.Obsolete2TableInfo.html
-  name: Obsolete2TableInfo
-  nameWithType: Obsolete2TableInfo
-  fullName: SuperOffice.CRM.Data.Obsolete2TableInfo
-- uid: SuperOffice.Data.TablesInfo.GetObsolete3TableInfo*
-  commentId: Overload:SuperOffice.Data.TablesInfo.GetObsolete3TableInfo
-  isExternal: true
-  href: SuperOffice.Data.TablesInfo.html#SuperOffice_Data_TablesInfo_GetObsolete3TableInfo
-  name: GetObsolete3TableInfo
-  nameWithType: TablesInfo.GetObsolete3TableInfo
-  fullName: SuperOffice.Data.TablesInfo.GetObsolete3TableInfo
-- uid: SuperOffice.CRM.Data.Obsolete3TableInfo
-  commentId: T:SuperOffice.CRM.Data.Obsolete3TableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  href: SuperOffice.CRM.Data.Obsolete3TableInfo.html
-  name: Obsolete3TableInfo
-  nameWithType: Obsolete3TableInfo
-  fullName: SuperOffice.CRM.Data.Obsolete3TableInfo
-- uid: SuperOffice.Data.TablesInfo.GetObsolete4TableInfo*
-  commentId: Overload:SuperOffice.Data.TablesInfo.GetObsolete4TableInfo
-  isExternal: true
-  href: SuperOffice.Data.TablesInfo.html#SuperOffice_Data_TablesInfo_GetObsolete4TableInfo
-  name: GetObsolete4TableInfo
-  nameWithType: TablesInfo.GetObsolete4TableInfo
-  fullName: SuperOffice.Data.TablesInfo.GetObsolete4TableInfo
-- uid: SuperOffice.CRM.Data.Obsolete4TableInfo
-  commentId: T:SuperOffice.CRM.Data.Obsolete4TableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  href: SuperOffice.CRM.Data.Obsolete4TableInfo.html
-  name: Obsolete4TableInfo
-  nameWithType: Obsolete4TableInfo
-  fullName: SuperOffice.CRM.Data.Obsolete4TableInfo
 - uid: SuperOffice.Data.TablesInfo.GetFavouriteTableInfo*
   commentId: Overload:SuperOffice.Data.TablesInfo.GetFavouriteTableInfo
   isExternal: true
@@ -22291,6 +21858,21 @@ references:
   name: FormSubmissionTableInfo
   nameWithType: FormSubmissionTableInfo
   fullName: SuperOffice.CRM.Data.FormSubmissionTableInfo
+- uid: SuperOffice.Data.TablesInfo.GetFormFieldRestrictionTableInfo*
+  commentId: Overload:SuperOffice.Data.TablesInfo.GetFormFieldRestrictionTableInfo
+  isExternal: true
+  href: SuperOffice.Data.TablesInfo.html#SuperOffice_Data_TablesInfo_GetFormFieldRestrictionTableInfo
+  name: GetFormFieldRestrictionTableInfo
+  nameWithType: TablesInfo.GetFormFieldRestrictionTableInfo
+  fullName: SuperOffice.Data.TablesInfo.GetFormFieldRestrictionTableInfo
+- uid: SuperOffice.CRM.Data.FormFieldRestrictionTableInfo
+  commentId: T:SuperOffice.CRM.Data.FormFieldRestrictionTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  href: SuperOffice.CRM.Data.FormFieldRestrictionTableInfo.html
+  name: FormFieldRestrictionTableInfo
+  nameWithType: FormFieldRestrictionTableInfo
+  fullName: SuperOffice.CRM.Data.FormFieldRestrictionTableInfo
 - uid: SuperOffice.Data.TablesInfo.GetEmailAccountTableInfo*
   commentId: Overload:SuperOffice.Data.TablesInfo.GetEmailAccountTableInfo
   isExternal: true
@@ -22381,6 +21963,36 @@ references:
   name: InvitationTableInfo
   nameWithType: InvitationTableInfo
   fullName: SuperOffice.CRM.Data.InvitationTableInfo
+- uid: SuperOffice.Data.TablesInfo.GetLandingPageTableInfo*
+  commentId: Overload:SuperOffice.Data.TablesInfo.GetLandingPageTableInfo
+  isExternal: true
+  href: SuperOffice.Data.TablesInfo.html#SuperOffice_Data_TablesInfo_GetLandingPageTableInfo
+  name: GetLandingPageTableInfo
+  nameWithType: TablesInfo.GetLandingPageTableInfo
+  fullName: SuperOffice.Data.TablesInfo.GetLandingPageTableInfo
+- uid: SuperOffice.CRM.Data.LandingPageTableInfo
+  commentId: T:SuperOffice.CRM.Data.LandingPageTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  href: SuperOffice.CRM.Data.LandingPageTableInfo.html
+  name: LandingPageTableInfo
+  nameWithType: LandingPageTableInfo
+  fullName: SuperOffice.CRM.Data.LandingPageTableInfo
+- uid: SuperOffice.Data.TablesInfo.GetLandingPagePinTableInfo*
+  commentId: Overload:SuperOffice.Data.TablesInfo.GetLandingPagePinTableInfo
+  isExternal: true
+  href: SuperOffice.Data.TablesInfo.html#SuperOffice_Data_TablesInfo_GetLandingPagePinTableInfo
+  name: GetLandingPagePinTableInfo
+  nameWithType: TablesInfo.GetLandingPagePinTableInfo
+  fullName: SuperOffice.Data.TablesInfo.GetLandingPagePinTableInfo
+- uid: SuperOffice.CRM.Data.LandingPagePinTableInfo
+  commentId: T:SuperOffice.CRM.Data.LandingPagePinTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  href: SuperOffice.CRM.Data.LandingPagePinTableInfo.html
+  name: LandingPagePinTableInfo
+  nameWithType: LandingPagePinTableInfo
+  fullName: SuperOffice.CRM.Data.LandingPagePinTableInfo
 - uid: SuperOffice.Data.TablesInfo.GetSMessageblockTableInfo*
   commentId: Overload:SuperOffice.Data.TablesInfo.GetSMessageblockTableInfo
   isExternal: true
@@ -22411,6 +22023,21 @@ references:
   name: MailingDomainsTableInfo
   nameWithType: MailingDomainsTableInfo
   fullName: SuperOffice.CRM.Data.MailingDomainsTableInfo
+- uid: SuperOffice.Data.TablesInfo.GetMeteringLogTableInfo*
+  commentId: Overload:SuperOffice.Data.TablesInfo.GetMeteringLogTableInfo
+  isExternal: true
+  href: SuperOffice.Data.TablesInfo.html#SuperOffice_Data_TablesInfo_GetMeteringLogTableInfo
+  name: GetMeteringLogTableInfo
+  nameWithType: TablesInfo.GetMeteringLogTableInfo
+  fullName: SuperOffice.Data.TablesInfo.GetMeteringLogTableInfo
+- uid: SuperOffice.CRM.Data.MeteringLogTableInfo
+  commentId: T:SuperOffice.CRM.Data.MeteringLogTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  href: SuperOffice.CRM.Data.MeteringLogTableInfo.html
+  name: MeteringLogTableInfo
+  nameWithType: MeteringLogTableInfo
+  fullName: SuperOffice.CRM.Data.MeteringLogTableInfo
 - uid: SuperOffice.Data.TablesInfo.GetTypicalSearchTableInfo*
   commentId: Overload:SuperOffice.Data.TablesInfo.GetTypicalSearchTableInfo
   isExternal: true
@@ -22456,6 +22083,66 @@ references:
   name: TimeKeepingTableInfo
   nameWithType: TimeKeepingTableInfo
   fullName: SuperOffice.CRM.Data.TimeKeepingTableInfo
+- uid: SuperOffice.Data.TablesInfo.GetNewsFeedItemTableInfo*
+  commentId: Overload:SuperOffice.Data.TablesInfo.GetNewsFeedItemTableInfo
+  isExternal: true
+  href: SuperOffice.Data.TablesInfo.html#SuperOffice_Data_TablesInfo_GetNewsFeedItemTableInfo
+  name: GetNewsFeedItemTableInfo
+  nameWithType: TablesInfo.GetNewsFeedItemTableInfo
+  fullName: SuperOffice.Data.TablesInfo.GetNewsFeedItemTableInfo
+- uid: SuperOffice.CRM.Data.NewsFeedItemTableInfo
+  commentId: T:SuperOffice.CRM.Data.NewsFeedItemTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  href: SuperOffice.CRM.Data.NewsFeedItemTableInfo.html
+  name: NewsFeedItemTableInfo
+  nameWithType: NewsFeedItemTableInfo
+  fullName: SuperOffice.CRM.Data.NewsFeedItemTableInfo
+- uid: SuperOffice.Data.TablesInfo.GetNewsFeedItemHtmlTableInfo*
+  commentId: Overload:SuperOffice.Data.TablesInfo.GetNewsFeedItemHtmlTableInfo
+  isExternal: true
+  href: SuperOffice.Data.TablesInfo.html#SuperOffice_Data_TablesInfo_GetNewsFeedItemHtmlTableInfo
+  name: GetNewsFeedItemHtmlTableInfo
+  nameWithType: TablesInfo.GetNewsFeedItemHtmlTableInfo
+  fullName: SuperOffice.Data.TablesInfo.GetNewsFeedItemHtmlTableInfo
+- uid: SuperOffice.CRM.Data.NewsFeedItemHtmlTableInfo
+  commentId: T:SuperOffice.CRM.Data.NewsFeedItemHtmlTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  href: SuperOffice.CRM.Data.NewsFeedItemHtmlTableInfo.html
+  name: NewsFeedItemHtmlTableInfo
+  nameWithType: NewsFeedItemHtmlTableInfo
+  fullName: SuperOffice.CRM.Data.NewsFeedItemHtmlTableInfo
+- uid: SuperOffice.Data.TablesInfo.GetNewsFeedItemCtaTableInfo*
+  commentId: Overload:SuperOffice.Data.TablesInfo.GetNewsFeedItemCtaTableInfo
+  isExternal: true
+  href: SuperOffice.Data.TablesInfo.html#SuperOffice_Data_TablesInfo_GetNewsFeedItemCtaTableInfo
+  name: GetNewsFeedItemCtaTableInfo
+  nameWithType: TablesInfo.GetNewsFeedItemCtaTableInfo
+  fullName: SuperOffice.Data.TablesInfo.GetNewsFeedItemCtaTableInfo
+- uid: SuperOffice.CRM.Data.NewsFeedItemCtaTableInfo
+  commentId: T:SuperOffice.CRM.Data.NewsFeedItemCtaTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  href: SuperOffice.CRM.Data.NewsFeedItemCtaTableInfo.html
+  name: NewsFeedItemCtaTableInfo
+  nameWithType: NewsFeedItemCtaTableInfo
+  fullName: SuperOffice.CRM.Data.NewsFeedItemCtaTableInfo
+- uid: SuperOffice.Data.TablesInfo.GetNewsFeedItemRecipientTableInfo*
+  commentId: Overload:SuperOffice.Data.TablesInfo.GetNewsFeedItemRecipientTableInfo
+  isExternal: true
+  href: SuperOffice.Data.TablesInfo.html#SuperOffice_Data_TablesInfo_GetNewsFeedItemRecipientTableInfo
+  name: GetNewsFeedItemRecipientTableInfo
+  nameWithType: TablesInfo.GetNewsFeedItemRecipientTableInfo
+  fullName: SuperOffice.Data.TablesInfo.GetNewsFeedItemRecipientTableInfo
+- uid: SuperOffice.CRM.Data.NewsFeedItemRecipientTableInfo
+  commentId: T:SuperOffice.CRM.Data.NewsFeedItemRecipientTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  href: SuperOffice.CRM.Data.NewsFeedItemRecipientTableInfo.html
+  name: NewsFeedItemRecipientTableInfo
+  nameWithType: NewsFeedItemRecipientTableInfo
+  fullName: SuperOffice.CRM.Data.NewsFeedItemRecipientTableInfo
 - uid: SuperOffice.Data.TablesInfo.GetOnlineAppTableInfo*
   commentId: Overload:SuperOffice.Data.TablesInfo.GetOnlineAppTableInfo
   isExternal: true
@@ -22681,6 +22368,21 @@ references:
   name: WebhookUsageTableInfo
   nameWithType: WebhookUsageTableInfo
   fullName: SuperOffice.CRM.Data.WebhookUsageTableInfo
+- uid: SuperOffice.Data.TablesInfo.GetWebhookNotifyTableInfo*
+  commentId: Overload:SuperOffice.Data.TablesInfo.GetWebhookNotifyTableInfo
+  isExternal: true
+  href: SuperOffice.Data.TablesInfo.html#SuperOffice_Data_TablesInfo_GetWebhookNotifyTableInfo
+  name: GetWebhookNotifyTableInfo
+  nameWithType: TablesInfo.GetWebhookNotifyTableInfo
+  fullName: SuperOffice.Data.TablesInfo.GetWebhookNotifyTableInfo
+- uid: SuperOffice.CRM.Data.WebhookNotifyTableInfo
+  commentId: T:SuperOffice.CRM.Data.WebhookNotifyTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  href: SuperOffice.CRM.Data.WebhookNotifyTableInfo.html
+  name: WebhookNotifyTableInfo
+  nameWithType: WebhookNotifyTableInfo
+  fullName: SuperOffice.CRM.Data.WebhookNotifyTableInfo
 - uid: SuperOffice.Data.TablesInfo.GetWorkflowTableInfo*
   commentId: Overload:SuperOffice.Data.TablesInfo.GetWorkflowTableInfo
   isExternal: true

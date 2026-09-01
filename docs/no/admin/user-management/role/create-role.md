@@ -4,31 +4,31 @@ title: Opprette rolle
 description: Opprette rolle
 keywords: rolle, brukeradministrasjon
 author: digitaldiina
-date: 10.24.2025
-version: 10.4
+date: 06.10.2026
+version: 12.0
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 category: identity management
 topic: role
 index: true
+tier: starter
 redirect_from: /no/admin/user-management/learn/role/create-role
 language: no
 ---
 
 # Opprett en rolle
 
-[!include[Requirement](../includes/note-anon-req.md)]
+[!include[Requirement](../../../includes/lim-starter.md)]
+
+> [!NOTE]
+> Det finnes bare én rolle for anonyme brukere, og du kan ikke opprette nye.
+
+## Trinn
 
 1. [!include[Open Roles](../includes/open-roles.md)]
 
-1. Velg en av følgende faner:
-
-    * **Medarbeidere**: Her kan du legge til roller for ansatte i bedriften din.
-    * **Ekstern**:  Her kan du legge til roller for eksterne brukere (bare onsite).
-
-    > [!NOTE]
-    > Det finnes bare én rolle for anonyme brukere, og du kan ikke opprette nye. Se [Redigere rettigheter for anonyme brukere][8].
+1. Velg fanen **Medarbeidere**.
 
 1. Klikk på **Legg til** under listen.
 
@@ -47,7 +47,7 @@ language: no
 
 1. [Angi datarettighetene i fanen **Datarettigheter**][7].
 
-1. Hvis du oppretter roller for medarbeidere: Klikk på fanen **Funksjonelle rettigheter**.
+1. Klikk på fanen **Funksjonelle rettigheter**.
 
     I denne fanen kan du bestemme hvilke funksjoner som skal være tilgjengelige for rollen, for eksempel brevfletting, publisering, eksport av utvalg og administratortilgang i Innstillinger og vedlikehold.
 
@@ -70,4 +70,3 @@ language: no
 [5]: ../add-associate.md
 [6]: functional-rights.md
 [7]: set-data-rights-for-role.md
-[8]: ../onsite/other-users.md#rights

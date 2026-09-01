@@ -8,9 +8,8 @@ items:
   href: login.md
 - name: Voorkeuren
   href: preferences.md
-- name: E-mail en documenten verbinden
-  href: connect-email-doc/toc.yml
-  topicHref: connect-email-doc/index.md
+- name: Accounts koppelen
+  href: connect-your-accounts.md
 - name: E-mail-handtekening bewerken
   href: edit-email-signature.md
 - name: Actieve taal wijzigen

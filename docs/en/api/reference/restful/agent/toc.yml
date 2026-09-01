@@ -14,6 +14,8 @@ items:
     href: AI_Agent/v1AIAgent_AnswerAccepted.md
   - name: AnswerFeedback
     href: AI_Agent/v1AIAgent_AnswerFeedback.md
+  - name: AnswerUsingContext
+    href: AI_Agent/v1AIAgent_AnswerUsingContext.md
   - name: CancelIndexing
     href: AI_Agent/v1AIAgent_CancelIndexing.md
   - name: ClearChatbotTurns
@@ -44,12 +46,22 @@ items:
     href: AI_Agent/v1AIAgent_GetCopilotDataSourceEntity.md
   - name: GetCopilotEntity
     href: AI_Agent/v1AIAgent_GetCopilotEntity.md
+  - name: GetFirstFormDesignCssFromImage
+    href: AI_Agent/v1AIAgent_GetFirstFormDesignCssFromImage.md
+  - name: GetFirstFormDesignCssFromUrl
+    href: AI_Agent/v1AIAgent_GetFirstFormDesignCssFromUrl.md
+  - name: GetFormDesignCssFromImage
+    href: AI_Agent/v1AIAgent_GetFormDesignCssFromImage.md
+  - name: GetFormDesignCssFromUrl
+    href: AI_Agent/v1AIAgent_GetFormDesignCssFromUrl.md
   - name: GetFormDesignFromImage
     href: AI_Agent/v1AIAgent_GetFormDesignFromImage.md
   - name: GetFormDesignFromUrl
     href: AI_Agent/v1AIAgent_GetFormDesignFromUrl.md
   - name: GetIndexingStatus
     href: AI_Agent/v1AIAgent_GetIndexingStatus.md
+  - name: GetNextFormDesignCss
+    href: AI_Agent/v1AIAgent_GetNextFormDesignCss.md
   - name: GetSummarizeContactPrompt
     href: AI_Agent/v1AIAgent_GetSummarizeContactPrompt.md
   - name: GetSummarizeSalePrompt
@@ -598,12 +610,16 @@ items:
     href: Configuration_Agent/v1ConfigurationAgent_CreateDefaultConfigurableScreenDelta.md
   - name: CreateDefaultDiaryViewEntity
     href: Configuration_Agent/v1ConfigurationAgent_CreateDefaultDiaryViewEntity.md
+  - name: CreateDefaultLandingPageEntity
+    href: Configuration_Agent/v1ConfigurationAgent_CreateDefaultLandingPageEntity.md
   - name: CreateDefaultSystemEventEntity
     href: Configuration_Agent/v1ConfigurationAgent_CreateDefaultSystemEventEntity.md
   - name: DeleteConfigurableScreenDelta
     href: Configuration_Agent/v1ConfigurationAgent_DeleteConfigurableScreenDelta.md
   - name: DeleteDiaryViewEntity
     href: Configuration_Agent/v1ConfigurationAgent_DeleteDiaryViewEntity.md
+  - name: DeleteLandingPageEntity
+    href: Configuration_Agent/v1ConfigurationAgent_DeleteLandingPageEntity.md
   - name: DeleteSystemEventEntity
     href: Configuration_Agent/v1ConfigurationAgent_DeleteSystemEventEntity.md
   - name: DeleteWindowPosSize
@@ -626,6 +642,8 @@ items:
     href: Configuration_Agent/v1ConfigurationAgent_GetCRMUrl.md
   - name: GetCSAuthUrl
     href: Configuration_Agent/v1ConfigurationAgent_GetCSAuthUrl.md
+  - name: GetCsCgiUrl
+    href: Configuration_Agent/v1ConfigurationAgent_GetCsCgiUrl.md
   - name: GetCsCgiUrlInternal
     href: Configuration_Agent/v1ConfigurationAgent_GetCsCgiUrlInternal.md
   - name: GetCsProgramUrl
@@ -646,6 +664,10 @@ items:
     href: Configuration_Agent/v1ConfigurationAgent_GetFilterList.md
   - name: GetHelpDispatcherUrl
     href: Configuration_Agent/v1ConfigurationAgent_GetHelpDispatcherUrl.md
+  - name: GetLandingPage
+    href: Configuration_Agent/v1ConfigurationAgent_GetLandingPage.md
+  - name: GetLandingPageEntity
+    href: Configuration_Agent/v1ConfigurationAgent_GetLandingPageEntity.md
   - name: GetMyWindowPosSizes
     href: Configuration_Agent/v1ConfigurationAgent_GetMyWindowPosSizes.md
   - name: GetObjectMapping
@@ -690,6 +712,8 @@ items:
     href: Configuration_Agent/v1ConfigurationAgent_SaveConfigurableScreenDelta.md
   - name: SaveDiaryViewEntity
     href: Configuration_Agent/v1ConfigurationAgent_SaveDiaryViewEntity.md
+  - name: SaveLandingPageEntity
+    href: Configuration_Agent/v1ConfigurationAgent_SaveLandingPageEntity.md
   - name: SaveSystemEventEntity
     href: Configuration_Agent/v1ConfigurationAgent_SaveSystemEventEntity.md
   - name: SaveWindowPosSize
@@ -698,6 +722,8 @@ items:
     href: Configuration_Agent/v1ConfigurationAgent_SaveWindowPosSizes.md
   - name: SetAppliesToKey
     href: Configuration_Agent/v1ConfigurationAgent_SetAppliesToKey.md
+  - name: SetLandingPagePinForAssociate
+    href: Configuration_Agent/v1ConfigurationAgent_SetLandingPagePinForAssociate.md
 - name: Contact
   href: Contact_Agent/index.md
   items:
@@ -771,6 +797,8 @@ items:
     href: Contact_Agent/v1ContactAgent_SetDuplicateRulesStatus.md
   - name: Undelete
     href: Contact_Agent/v1ContactAgent_Undelete.md
+  - name: UpdateInterests
+    href: Contact_Agent/v1ContactAgent_UpdateInterests.md
   - name: ValidateContactEntity
     href: Contact_Agent/v1ContactAgent_ValidateContactEntity.md
 - name: CRMScript
@@ -911,6 +939,27 @@ items:
     href: CustomerService_Agent/v1CustomerServiceAgent_TestSmtpServer.md
   - name: UpdateFeatureToggles
     href: CustomerService_Agent/v1CustomerServiceAgent_UpdateFeatureToggles.md
+- name: CustomObject
+  href: CustomObject_Agent/index.md
+  items:
+  - name: CreateDefaultCustomObject
+    href: CustomObject_Agent/v1CustomObjectAgent_CreateDefaultCustomObject.md
+  - name: CreateDefaultCustomObjectDefinition
+    href: CustomObject_Agent/v1CustomObjectAgent_CreateDefaultCustomObjectDefinition.md
+  - name: DeleteCustomObject
+    href: CustomObject_Agent/v1CustomObjectAgent_DeleteCustomObject.md
+  - name: GetCustomObject
+    href: CustomObject_Agent/v1CustomObjectAgent_GetCustomObject.md
+  - name: GetCustomObjectDefinition
+    href: CustomObject_Agent/v1CustomObjectAgent_GetCustomObjectDefinition.md
+  - name: GetCustomObjectsIcons
+    href: CustomObject_Agent/v1CustomObjectAgent_GetCustomObjectsIcons.md
+  - name: GetCustomObjectsMetadata
+    href: CustomObject_Agent/v1CustomObjectAgent_GetCustomObjectsMetadata.md
+  - name: HasScreenChooser
+    href: CustomObject_Agent/v1CustomObjectAgent_HasScreenChooser.md
+  - name: SaveCustomObject
+    href: CustomObject_Agent/v1CustomObjectAgent_SaveCustomObject.md
 - name: Dash
   href: Dash_Agent/index.md
   items:
@@ -954,6 +1003,8 @@ items:
     href: Dash_Agent/v1DashAgent_DuplicateTile.md
   - name: GetDash
     href: Dash_Agent/v1DashAgent_GetDash.md
+  - name: GetDashboardFencingInfo
+    href: Dash_Agent/v1DashAgent_GetDashboardFencingInfo.md
   - name: GetDashCollection
     href: Dash_Agent/v1DashAgent_GetDashCollection.md
   - name: GetDashList
@@ -1065,6 +1116,8 @@ items:
     href: Diagnostics_Agent/v1DiagnosticsAgent_PerformTasksAfterCustomObjectTableDeleted.md
   - name: PerformTasksAfterUpgrade
     href: Diagnostics_Agent/v1DiagnosticsAgent_PerformTasksAfterUpgrade.md
+  - name: RegisterClosedTicketsUsage
+    href: Diagnostics_Agent/v1DiagnosticsAgent_RegisterClosedTicketsUsage.md
   - name: RemoveExpiredSystemMessages
     href: Diagnostics_Agent/v1DiagnosticsAgent_RemoveExpiredSystemMessages.md
   - name: RemoveSystemMessage
@@ -1336,6 +1389,8 @@ items:
     href: EMail_Agent/v1EMailAgent_DeleteExtended.md
   - name: DeleteFolder
     href: EMail_Agent/v1EMailAgent_DeleteFolder.md
+  - name: DeleteFromServerIdentifier
+    href: EMail_Agent/v1EMailAgent_DeleteFromServerIdentifier.md
   - name: EmptyFolder
     href: EMail_Agent/v1EMailAgent_EmptyFolder.md
   - name: FindAddress
@@ -1348,6 +1403,8 @@ items:
     href: EMail_Agent/v1EMailAgent_GetAttachment.md
   - name: GetAttachmentFromId
     href: EMail_Agent/v1EMailAgent_GetAttachmentFromId.md
+  - name: GetAttachmentFromServerIdentifier
+    href: EMail_Agent/v1EMailAgent_GetAttachmentFromServerIdentifier.md
   - name: GetCurrentAccount
     href: EMail_Agent/v1EMailAgent_GetCurrentAccount.md
   - name: GetCurrentAccountId
@@ -1364,12 +1421,18 @@ items:
     href: EMail_Agent/v1EMailAgent_GetEmailAppointment.md
   - name: GetEmailAppointmentRecurrence
     href: EMail_Agent/v1EMailAgent_GetEmailAppointmentRecurrence.md
+  - name: GetEMailAsEmlStream
+    href: EMail_Agent/v1EMailAgent_GetEMailAsEmlStream.md
   - name: GetEMailAsStream
     href: EMail_Agent/v1EMailAgent_GetEMailAsStream.md
+  - name: GetEMailAsStreamFromServerIdentifier
+    href: EMail_Agent/v1EMailAgent_GetEMailAsStreamFromServerIdentifier.md
   - name: GetEmailDocumentAsMimeStream
     href: EMail_Agent/v1EMailAgent_GetEmailDocumentAsMimeStream.md
   - name: GetEMailEnvelopes
     href: EMail_Agent/v1EMailAgent_GetEMailEnvelopes.md
+  - name: GetEMailEnvelopesFromServerIds
+    href: EMail_Agent/v1EMailAgent_GetEMailEnvelopesFromServerIds.md
   - name: GetEMailFromAttachmentId
     href: EMail_Agent/v1EMailAgent_GetEMailFromAttachmentId.md
   - name: GetEMailFromDocumentAttachmentId
@@ -1380,6 +1443,8 @@ items:
     href: EMail_Agent/v1EMailAgent_GetEMailFromDocumentIdWithoutAttachmentStream.md
   - name: GetEMailFromId
     href: EMail_Agent/v1EMailAgent_GetEMailFromId.md
+  - name: GetEMailFromServerIdentifier
+    href: EMail_Agent/v1EMailAgent_GetEMailFromServerIdentifier.md
   - name: GetEMailFromTemp
     href: EMail_Agent/v1EMailAgent_GetEMailFromTemp.md
   - name: GetEmailMessageIds
@@ -1440,6 +1505,8 @@ items:
     href: EMail_Agent/v1EMailAgent_LatestItemIdByFolder.md
   - name: MarkAsRead
     href: EMail_Agent/v1EMailAgent_MarkAsRead.md
+  - name: MarkAsReadFromServerIdentifiers
+    href: EMail_Agent/v1EMailAgent_MarkAsReadFromServerIdentifiers.md
   - name: MarkEmailsAsRead
     href: EMail_Agent/v1EMailAgent_MarkEmailsAsRead.md
   - name: MoveEmailsToFolder
@@ -1448,6 +1515,8 @@ items:
     href: EMail_Agent/v1EMailAgent_MoveEmailsToTrash.md
   - name: MoveToFolder
     href: EMail_Agent/v1EMailAgent_MoveToFolder.md
+  - name: MoveToFolderFromServerIdentifier
+    href: EMail_Agent/v1EMailAgent_MoveToFolderFromServerIdentifier.md
   - name: RefreshFolder
     href: EMail_Agent/v1EMailAgent_RefreshFolder.md
   - name: RefreshFolderForAssociate
@@ -1789,6 +1858,8 @@ items:
     href: License_Agent/v1LicenseAgent_ChangeSerialNumber.md
   - name: GetCentralLicense
     href: License_Agent/v1LicenseAgent_GetCentralLicense.md
+  - name: GetFencingInfo
+    href: License_Agent/v1LicenseAgent_GetFencingInfo.md
   - name: GetLicenseForAllOwnersFromDB
     href: License_Agent/v1LicenseAgent_GetLicenseForAllOwnersFromDB.md
   - name: GetLicenseFromDB
@@ -1964,6 +2035,8 @@ items:
     href: List_Agent/v1ListAgent_GetAllTasks.md
   - name: GetAllTicketPriorities
     href: List_Agent/v1ListAgent_GetAllTicketPriorities.md
+  - name: GetAllTicketRelationDefinitionEntities
+    href: List_Agent/v1ListAgent_GetAllTicketRelationDefinitionEntities.md
   - name: GetAmountClassEntity
     href: List_Agent/v1ListAgent_GetAmountClassEntity.md
   - name: GetAppTaskMenus
@@ -2448,6 +2521,8 @@ items:
     href: List_Agent/v1ListAgent_UpdateCategoryMemberships.md
   - name: UpdateHierarchyFromPath
     href: List_Agent/v1ListAgent_UpdateHierarchyFromPath.md
+  - name: ValidateTicketRelationDefinition
+    href: List_Agent/v1ListAgent_ValidateTicketRelationDefinition.md
 - name: Marketing
   href: Marketing_Agent/index.md
   items:
@@ -2505,6 +2580,8 @@ items:
     href: Marketing_Agent/v1MarketingAgent_SaveShipmentMessageBlockEntity.md
   - name: SaveShipmentMessageEntity
     href: Marketing_Agent/v1MarketingAgent_SaveShipmentMessageEntity.md
+  - name: SetAllFormFieldRestrictions
+    href: Marketing_Agent/v1MarketingAgent_SetAllFormFieldRestrictions.md
   - name: SetFontRank
     href: Marketing_Agent/v1MarketingAgent_SetFontRank.md
   - name: VerifyGoogleRecaptcha
@@ -2536,6 +2613,21 @@ items:
     href: MDO_Agent/v1MDOAgent_GetSimpleList.md
   - name: SetSelected
     href: MDO_Agent/v1MDOAgent_SetSelected.md
+- name: Messaging
+  href: Messaging_Agent/index.md
+  items:
+  - name: CreateMessage
+    href: Messaging_Agent/v1MessagingAgent_CreateMessage.md
+  - name: GetDeliveryStatus
+    href: Messaging_Agent/v1MessagingAgent_GetDeliveryStatus.md
+  - name: GetPlugins
+    href: Messaging_Agent/v1MessagingAgent_GetPlugins.md
+  - name: SendMessages
+    href: Messaging_Agent/v1MessagingAgent_SendMessages.md
+  - name: SendMessagesWithConfig
+    href: Messaging_Agent/v1MessagingAgent_SendMessagesWithConfig.md
+  - name: SetDeliveryStatus
+    href: Messaging_Agent/v1MessagingAgent_SetDeliveryStatus.md
 - name: Navigator
   href: Navigator_Agent/index.md
   items:
@@ -2545,6 +2637,27 @@ items:
     href: Navigator_Agent/v1NavigatorAgent_GetNavigatorCompanies.md
   - name: GetNavigatorCompanyList
     href: Navigator_Agent/v1NavigatorAgent_GetNavigatorCompanyList.md
+- name: NewsFeed
+  href: NewsFeed_Agent/index.md
+  items:
+  - name: CreateDefaultNewsFeedItem
+    href: NewsFeed_Agent/v1NewsFeedAgent_CreateDefaultNewsFeedItem.md
+  - name: DeleteNewsFeedItem
+    href: NewsFeed_Agent/v1NewsFeedAgent_DeleteNewsFeedItem.md
+  - name: GetNewsFeedItem
+    href: NewsFeed_Agent/v1NewsFeedAgent_GetNewsFeedItem.md
+  - name: GetNewsFeedItemsById
+    href: NewsFeed_Agent/v1NewsFeedAgent_GetNewsFeedItemsById.md
+  - name: GetNewsItemsForUser
+    href: NewsFeed_Agent/v1NewsFeedAgent_GetNewsItemsForUser.md
+  - name: MarkAsHandled
+    href: NewsFeed_Agent/v1NewsFeedAgent_MarkAsHandled.md
+  - name: MarkAsRead
+    href: NewsFeed_Agent/v1NewsFeedAgent_MarkAsRead.md
+  - name: PostNewsFeedItem
+    href: NewsFeed_Agent/v1NewsFeedAgent_PostNewsFeedItem.md
+  - name: StartHandling
+    href: NewsFeed_Agent/v1NewsFeedAgent_StartHandling.md
 - name: NumberAllocation
   href: NumberAllocation_Agent/index.md
   items:
@@ -2689,6 +2802,8 @@ items:
     href: Person_Agent/v1PersonAgent_TryAddPersonsToEmailFlow.md
   - name: Undelete
     href: Person_Agent/v1PersonAgent_Undelete.md
+  - name: UpdateInterests
+    href: Person_Agent/v1PersonAgent_UpdateInterests.md
   - name: ValidatePersonEntity
     href: Person_Agent/v1PersonAgent_ValidatePersonEntity.md
 - name: PhoneList
@@ -2796,6 +2911,8 @@ items:
     href: Preference_Agent/v1PreferenceAgent_GetTabOrders.md
   - name: GetXsrfPaths
     href: Preference_Agent/v1PreferenceAgent_GetXsrfPaths.md
+  - name: GetXsrfValue
+    href: Preference_Agent/v1PreferenceAgent_GetXsrfValue.md
   - name: SaveFromSectionAndKey
     href: Preference_Agent/v1PreferenceAgent_SaveFromSectionAndKey.md
   - name: SavePreference
@@ -2818,6 +2935,8 @@ items:
     href: Preference_Agent/v1PreferenceAgent_SaveTabOrders.md
   - name: SetXsrfPaths
     href: Preference_Agent/v1PreferenceAgent_SetXsrfPaths.md
+  - name: SetXsrfValue
+    href: Preference_Agent/v1PreferenceAgent_SetXsrfValue.md
   - name: UpdateNetServicesStatus
     href: Preference_Agent/v1PreferenceAgent_UpdateNetServicesStatus.md
 - name: Previews
@@ -2870,6 +2989,8 @@ items:
     href: Project_Agent/v1ProjectAgent_GetProject.md
   - name: GetProjectEntity
     href: Project_Agent/v1ProjectAgent_GetProjectEntity.md
+  - name: GetProjectEntityWithoutMembers
+    href: Project_Agent/v1ProjectAgent_GetProjectEntityWithoutMembers.md
   - name: GetProjectEvent
     href: Project_Agent/v1ProjectAgent_GetProjectEvent.md
   - name: GetProjectEventEntity
@@ -2882,6 +3003,8 @@ items:
     href: Project_Agent/v1ProjectAgent_GetProjectEventOnPerson.md
   - name: GetProjectEventsOnPerson
     href: Project_Agent/v1ProjectAgent_GetProjectEventsOnPerson.md
+  - name: GetProjectFencingInfo
+    href: Project_Agent/v1ProjectAgent_GetProjectFencingInfo.md
   - name: GetProjectImage
     href: Project_Agent/v1ProjectAgent_GetProjectImage.md
   - name: GetProjectList
@@ -2914,6 +3037,8 @@ items:
     href: Project_Agent/v1ProjectAgent_OfferAutoNextStatusOnApppointmentCompleted.md
   - name: SaveProjectEntity
     href: Project_Agent/v1ProjectAgent_SaveProjectEntity.md
+  - name: SaveProjectEntityWithoutMembers
+    href: Project_Agent/v1ProjectAgent_SaveProjectEntityWithoutMembers.md
   - name: SaveProjectEventEntity
     href: Project_Agent/v1ProjectAgent_SaveProjectEventEntity.md
   - name: SaveProjectMember
@@ -3502,6 +3627,8 @@ items:
     href: Ticket_Agent/v1TicketAgent_CreateDefaultTicketMessageEntity.md
   - name: CreateDefaultTicketRelationEntity
     href: Ticket_Agent/v1TicketAgent_CreateDefaultTicketRelationEntity.md
+  - name: CreateTicketRelations
+    href: Ticket_Agent/v1TicketAgent_CreateTicketRelations.md
   - name: DeleteMessageHeaders
     href: Ticket_Agent/v1TicketAgent_DeleteMessageHeaders.md
   - name: DeleteTicketEntity
@@ -3554,6 +3681,14 @@ items:
     href: Ticket_Agent/v1TicketAgent_GetTicketMessageWithEmbeddedData.md
   - name: GetTicketMessageWithOptions
     href: Ticket_Agent/v1TicketAgent_GetTicketMessageWithOptions.md
+  - name: GetTicketParentId
+    href: Ticket_Agent/v1TicketAgent_GetTicketParentId.md
+  - name: GetTicketRelationActions
+    href: Ticket_Agent/v1TicketAgent_GetTicketRelationActions.md
+  - name: GetTicketRelationEntity
+    href: Ticket_Agent/v1TicketAgent_GetTicketRelationEntity.md
+  - name: GetTicketRelations
+    href: Ticket_Agent/v1TicketAgent_GetTicketRelations.md
   - name: GetTickets
     href: Ticket_Agent/v1TicketAgent_GetTickets.md
   - name: GetTicketSummaries
@@ -3600,8 +3735,14 @@ items:
     href: Ticket_Agent/v1TicketAgent_SetDeletedStatusByIds.md
   - name: SetDeletedStatusByProvider
     href: Ticket_Agent/v1TicketAgent_SetDeletedStatusByProvider.md
+  - name: SetSpamStatusByIds
+    href: Ticket_Agent/v1TicketAgent_SetSpamStatusByIds.md
+  - name: SetSpamStatusByProvider
+    href: Ticket_Agent/v1TicketAgent_SetSpamStatusByProvider.md
   - name: SetTicketMessageImportant
     href: Ticket_Agent/v1TicketAgent_SetTicketMessageImportant.md
+  - name: SetTicketParent
+    href: Ticket_Agent/v1TicketAgent_SetTicketParent.md
   - name: SetTicketReadByOwner
     href: Ticket_Agent/v1TicketAgent_SetTicketReadByOwner.md
   - name: SplitTicket
@@ -3618,6 +3759,8 @@ items:
     href: Ticket_Agent/v1TicketAgent_UploadAttachment.md
   - name: ValidateAttachments
     href: Ticket_Agent/v1TicketAgent_ValidateAttachments.md
+  - name: ValidateTicketRelations
+    href: Ticket_Agent/v1TicketAgent_ValidateTicketRelations.md
 - name: TimeZone
   href: TimeZone_Agent/index.md
   items:
@@ -3703,6 +3846,8 @@ items:
     href: User_Agent/v1UserAgent_DeleteUserFromName.md
   - name: DeleteUserGroup
     href: User_Agent/v1UserAgent_DeleteUserGroup.md
+  - name: ExchangeCodeAndSaveTokens
+    href: User_Agent/v1UserAgent_ExchangeCodeAndSaveTokens.md
   - name: ExecuteUserCommand
     href: User_Agent/v1UserAgent_ExecuteUserCommand.md
   - name: FindCredentialsGroups
@@ -4009,6 +4154,8 @@ items:
     href: Workflow_Agent/v1WorkflowAgent_DeleteWorkflowWaitForAction.md
   - name: GetEmailFlow
     href: Workflow_Agent/v1WorkflowAgent_GetEmailFlow.md
+  - name: GetWorkflowFencingInfo
+    href: Workflow_Agent/v1WorkflowAgent_GetWorkflowFencingInfo.md
   - name: GetWorkflowGoal
     href: Workflow_Agent/v1WorkflowAgent_GetWorkflowGoal.md
   - name: GetWorkflowStep

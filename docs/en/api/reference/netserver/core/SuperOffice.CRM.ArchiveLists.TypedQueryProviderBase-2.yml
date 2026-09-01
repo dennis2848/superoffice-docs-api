@@ -49,13 +49,8 @@ items:
   - SuperOffice.CRM.ArchiveLists.QueryProviderBase{{RowType}}
   derivedClasses:
   - SuperOffice.CRM.ArchiveLists.ActivityProviderBase`1
-  - SuperOffice.CRM.ArchiveLists.AppointmentAcceptedNotificationSubProvider
-  - SuperOffice.CRM.ArchiveLists.AppointmentCancelledNotificationSubProvider
   - SuperOffice.CRM.ArchiveLists.AppointmentFavouritesProvider
-  - SuperOffice.CRM.ArchiveLists.AppointmentNewNotificationSubProvider
   - SuperOffice.CRM.ArchiveLists.AppointmentNotificationAggregatorProvider
-  - SuperOffice.CRM.ArchiveLists.AppointmentRejectedNotificationSubProvider
-  - SuperOffice.CRM.ArchiveLists.AppointmentUpdatedNotificationSubProvider
   - SuperOffice.CRM.ArchiveLists.Archive.AppointmentSelectionStaticProvider
   - SuperOffice.CRM.ArchiveLists.Archive.DocumentSelectionStaticProvider
   - SuperOffice.CRM.ArchiveLists.Archive.DummySelectionContactProvider
@@ -102,9 +97,11 @@ items:
   - SuperOffice.CRM.ArchiveLists.LinksByDestinationProviderBase`1
   - SuperOffice.CRM.ArchiveLists.LinksBySourceProviderBase`1
   - SuperOffice.CRM.ArchiveLists.MailingFavouritesProvider
+  - SuperOffice.CRM.ArchiveLists.MailingFolderProvider
   - SuperOffice.CRM.ArchiveLists.MailingsProviderBase
   - SuperOffice.CRM.ArchiveLists.MemberProvider`1
   - SuperOffice.CRM.ArchiveLists.NewCategoryMembersProvider
+  - SuperOffice.CRM.ArchiveLists.NewsFeedItemProvider
   - SuperOffice.CRM.ArchiveLists.NumbersProviderBase
   - SuperOffice.CRM.ArchiveLists.OwnerContactsProvider
   - SuperOffice.CRM.ArchiveLists.PersonFavouritesProvider
@@ -154,10 +151,10 @@ items:
   - SuperOffice.CRM.ArchiveLists.TicketNewNotificationSubProvider
   - SuperOffice.CRM.ArchiveLists.TicketProvider
   - SuperOffice.CRM.ArchiveLists.TicketTransferredNotificationSubProvider
-  - SuperOffice.CRM.ArchiveLists.UsageStatsProvider
   - SuperOffice.CRM.ArchiveLists.UserPreferenceTableProvider
   - SuperOffice.CRM.ArchiveLists.UsersProviderBase
   - SuperOffice.CRM.ArchiveLists.WebAppUsageProvider
+  - SuperOffice.CRM.ArchiveLists.WebhookProvider
   - SuperOffice.CRM.ModuleLicenceProvider
   implements:
   - SuperOffice.CRM.ArchiveLists.IArchiveProviderQueryMapping

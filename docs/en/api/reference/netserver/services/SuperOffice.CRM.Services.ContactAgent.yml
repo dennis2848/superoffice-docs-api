@@ -6,7 +6,7 @@ items:
   parent: SuperOffice.CRM.Services
   children:
   - SuperOffice.CRM.Services.ContactAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IContactImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IContactActivityListImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IContactEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IContactListImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IPreviewContactImplementation,SuperOffice.Factory.ISoRequestItemsAccessor)
-  - SuperOffice.CRM.Services.ContactAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IContactImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IContactActivityListImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IContactEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IContactListImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IPreviewContactImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository,SuperOffice.Configuration.ConfigFile.IScriptingConfiguration,SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
+  - SuperOffice.CRM.Services.ContactAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IContactImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IContactActivityListImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IContactEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IContactListImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IPreviewContactImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)
   - SuperOffice.CRM.Services.ContactAgent.AddPersonAsync(System.Int32,SuperOffice.CRM.Services.PersonEntity,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.ContactAgent.ChangeCountryAsync(SuperOffice.CRM.Services.ContactEntity,System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.ContactAgent.CopyAsync(System.Int32,System.String,System.String,System.Boolean,System.Threading.CancellationToken)
@@ -42,6 +42,7 @@ items:
   - SuperOffice.CRM.Services.ContactAgent.SaveQuoteVersionAddressAsync(System.Int32,SuperOffice.CRM.Services.Address,SuperOffice.Data.AddressType,System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.ContactAgent.SetDuplicateRulesStatusAsync(SuperOffice.CRM.Services.DuplicateRule[],System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.ContactAgent.UndeleteAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.ContactAgent.UpdateInterestsAsync(System.Int32,System.Int32[],System.Int32[],System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.ContactAgent.ValidateContactEntityAsync(SuperOffice.CRM.Services.ContactEntity,System.Threading.CancellationToken)
   langs:
   - csharp
@@ -110,22 +111,22 @@ items:
   nameWithType.vb: ContactAgent.New(IContactImplementation, IContactActivityListImplementation, IContactEntityImplementation, IContactListImplementation, IPreviewContactImplementation, ISoRequestItemsAccessor)
   fullName.vb: SuperOffice.CRM.Services.ContactAgent.New(SuperOffice.CRM.Services.Implementation.BL.Contracts.IContactImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IContactActivityListImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IContactEntityImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IContactListImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IPreviewContactImplementation, SuperOffice.Factory.ISoRequestItemsAccessor)
   name.vb: New(IContactImplementation, IContactActivityListImplementation, IContactEntityImplementation, IContactListImplementation, IPreviewContactImplementation, ISoRequestItemsAccessor)
-- uid: SuperOffice.CRM.Services.ContactAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IContactImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IContactActivityListImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IContactEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IContactListImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IPreviewContactImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository,SuperOffice.Configuration.ConfigFile.IScriptingConfiguration,SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
-  commentId: M:SuperOffice.CRM.Services.ContactAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IContactImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IContactActivityListImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IContactEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IContactListImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IPreviewContactImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository,SuperOffice.Configuration.ConfigFile.IScriptingConfiguration,SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
-  id: '#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IContactImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IContactActivityListImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IContactEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IContactListImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IPreviewContactImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository,SuperOffice.Configuration.ConfigFile.IScriptingConfiguration,SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)'
+- uid: SuperOffice.CRM.Services.ContactAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IContactImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IContactActivityListImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IContactEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IContactListImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IPreviewContactImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)
+  commentId: M:SuperOffice.CRM.Services.ContactAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IContactImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IContactActivityListImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IContactEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IContactListImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IPreviewContactImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)
+  id: '#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IContactImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IContactActivityListImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IContactEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IContactListImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IPreviewContactImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)'
   parent: SuperOffice.CRM.Services.ContactAgent
   langs:
   - csharp
   - vb
-  name: ContactAgent(IContactImplementation, IContactActivityListImplementation, IContactEntityImplementation, IContactListImplementation, IPreviewContactImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository, IScriptingConfiguration, IOnlineConfiguration)
-  nameWithType: ContactAgent.ContactAgent(IContactImplementation, IContactActivityListImplementation, IContactEntityImplementation, IContactListImplementation, IPreviewContactImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository, ConfigFile.IScriptingConfiguration, ConfigFile.IOnlineConfiguration)
-  fullName: SuperOffice.CRM.Services.ContactAgent.ContactAgent(SuperOffice.CRM.Services.Implementation.BL.Contracts.IContactImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IContactActivityListImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IContactEntityImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IContactListImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IPreviewContactImplementation, SuperOffice.Factory.ISoRequestItemsAccessor, SuperOffice.Data.IDebugUser, SuperOffice.Diagnostics.IServiceCallsRepository, SuperOffice.Configuration.ConfigFile.IScriptingConfiguration, SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
+  name: ContactAgent(IContactImplementation, IContactActivityListImplementation, IContactEntityImplementation, IContactListImplementation, IPreviewContactImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
+  nameWithType: ContactAgent.ContactAgent(IContactImplementation, IContactActivityListImplementation, IContactEntityImplementation, IContactListImplementation, IPreviewContactImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
+  fullName: SuperOffice.CRM.Services.ContactAgent.ContactAgent(SuperOffice.CRM.Services.Implementation.BL.Contracts.IContactImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IContactActivityListImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IContactEntityImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IContactListImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IPreviewContactImplementation, SuperOffice.Factory.ISoRequestItemsAccessor, SuperOffice.Data.IDebugUser, SuperOffice.Diagnostics.IServiceCallsRepository)
   type: Constructor
   assemblies:
   - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
   syntax:
-    content: public ContactAgent(IContactImplementation contactImplementation, IContactActivityListImplementation contactActivityListImplementation, IContactEntityImplementation contactEntityImplementation, IContactListImplementation contactListImplementation, IPreviewContactImplementation previewContactImplementation, ISoRequestItemsAccessor accessor, IDebugUser debugUser, IServiceCallsRepository serviceCallsRepository, ConfigFile.IScriptingConfiguration scriptingConfiguration, ConfigFile.IOnlineConfiguration onlineConfiguration)
+    content: public ContactAgent(IContactImplementation contactImplementation, IContactActivityListImplementation contactActivityListImplementation, IContactEntityImplementation contactEntityImplementation, IContactListImplementation contactListImplementation, IPreviewContactImplementation previewContactImplementation, ISoRequestItemsAccessor accessor, IDebugUser debugUser, IServiceCallsRepository serviceCallsRepository)
     parameters:
     - id: contactImplementation
       type: SuperOffice.CRM.Services.Implementation.BL.Contracts.IContactImplementation
@@ -143,15 +144,11 @@ items:
       type: SuperOffice.Data.IDebugUser
     - id: serviceCallsRepository
       type: SuperOffice.Diagnostics.IServiceCallsRepository
-    - id: scriptingConfiguration
-      type: SuperOffice.Configuration.ConfigFile.IScriptingConfiguration
-    - id: onlineConfiguration
-      type: SuperOffice.Configuration.ConfigFile.IOnlineConfiguration
-    content.vb: Public Sub New(contactImplementation As IContactImplementation, contactActivityListImplementation As IContactActivityListImplementation, contactEntityImplementation As IContactEntityImplementation, contactListImplementation As IContactListImplementation, previewContactImplementation As IPreviewContactImplementation, accessor As ISoRequestItemsAccessor, debugUser As IDebugUser, serviceCallsRepository As IServiceCallsRepository, scriptingConfiguration As ConfigFile.IScriptingConfiguration, onlineConfiguration As ConfigFile.IOnlineConfiguration)
+    content.vb: Public Sub New(contactImplementation As IContactImplementation, contactActivityListImplementation As IContactActivityListImplementation, contactEntityImplementation As IContactEntityImplementation, contactListImplementation As IContactListImplementation, previewContactImplementation As IPreviewContactImplementation, accessor As ISoRequestItemsAccessor, debugUser As IDebugUser, serviceCallsRepository As IServiceCallsRepository)
   overload: SuperOffice.CRM.Services.ContactAgent.#ctor*
-  nameWithType.vb: ContactAgent.New(IContactImplementation, IContactActivityListImplementation, IContactEntityImplementation, IContactListImplementation, IPreviewContactImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository, ConfigFile.IScriptingConfiguration, ConfigFile.IOnlineConfiguration)
-  fullName.vb: SuperOffice.CRM.Services.ContactAgent.New(SuperOffice.CRM.Services.Implementation.BL.Contracts.IContactImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IContactActivityListImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IContactEntityImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IContactListImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IPreviewContactImplementation, SuperOffice.Factory.ISoRequestItemsAccessor, SuperOffice.Data.IDebugUser, SuperOffice.Diagnostics.IServiceCallsRepository, SuperOffice.Configuration.ConfigFile.IScriptingConfiguration, SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
-  name.vb: New(IContactImplementation, IContactActivityListImplementation, IContactEntityImplementation, IContactListImplementation, IPreviewContactImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository, IScriptingConfiguration, IOnlineConfiguration)
+  nameWithType.vb: ContactAgent.New(IContactImplementation, IContactActivityListImplementation, IContactEntityImplementation, IContactListImplementation, IPreviewContactImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
+  fullName.vb: SuperOffice.CRM.Services.ContactAgent.New(SuperOffice.CRM.Services.Implementation.BL.Contracts.IContactImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IContactActivityListImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IContactEntityImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IContactListImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IPreviewContactImplementation, SuperOffice.Factory.ISoRequestItemsAccessor, SuperOffice.Data.IDebugUser, SuperOffice.Diagnostics.IServiceCallsRepository)
+  name.vb: New(IContactImplementation, IContactActivityListImplementation, IContactEntityImplementation, IContactListImplementation, IPreviewContactImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
 - uid: SuperOffice.CRM.Services.ContactAgent.GetContactAsync(System.Int32,System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Services.ContactAgent.GetContactAsync(System.Int32,System.Threading.CancellationToken)
   id: GetContactAsync(System.Int32,System.Threading.CancellationToken)
@@ -1217,6 +1214,47 @@ items:
   nameWithType.vb: ContactAgent.EnrichContactEntityAsync(ContactEntity, String, CancellationToken)
   fullName.vb: SuperOffice.CRM.Services.ContactAgent.EnrichContactEntityAsync(SuperOffice.CRM.Services.ContactEntity, String, System.Threading.CancellationToken)
   name.vb: EnrichContactEntityAsync(ContactEntity, String, CancellationToken)
+- uid: SuperOffice.CRM.Services.ContactAgent.UpdateInterestsAsync(System.Int32,System.Int32[],System.Int32[],System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ContactAgent.UpdateInterestsAsync(System.Int32,System.Int32[],System.Int32[],System.Threading.CancellationToken)
+  id: UpdateInterestsAsync(System.Int32,System.Int32[],System.Int32[],System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.ContactAgent
+  langs:
+  - csharp
+  - vb
+  name: UpdateInterestsAsync(int, int[], int[], CancellationToken)
+  nameWithType: ContactAgent.UpdateInterestsAsync(int, int[], int[], CancellationToken)
+  fullName: SuperOffice.CRM.Services.ContactAgent.UpdateInterestsAsync(int, int[], int[], System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.Services
+  summary: Update interests on contact. Will throw exception if id is in both arrays
+  example: []
+  syntax:
+    content: public Task UpdateInterestsAsync(int contactId, int[] enableInterestIds, int[] disableInterestIds, CancellationToken cancellationToken = default)
+    parameters:
+    - id: contactId
+      type: System.Int32
+      description: Contact id to update interests for
+    - id: enableInterestIds
+      type: System.Int32[]
+      description: The interest ids to set on the contact. This will set these interests to true and not touch any other interests.
+    - id: disableInterestIds
+      type: System.Int32[]
+      description: The interest ids to diable on the contact. This will set these interests to false and not touch any other interests.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
+    return:
+      type: System.Threading.Tasks.Task
+      description: This method has no return value
+    content.vb: Public Function UpdateInterestsAsync(contactId As Integer, enableInterestIds As Integer(), disableInterestIds As Integer(), cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Services.ContactAgent.UpdateInterestsAsync*
+  implements:
+  - SuperOffice.CRM.Services.IContactAgent.UpdateInterestsAsync(System.Int32,System.Int32[],System.Int32[],System.Threading.CancellationToken)
+  nameWithType.vb: ContactAgent.UpdateInterestsAsync(Integer, Integer(), Integer(), CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.ContactAgent.UpdateInterestsAsync(Integer, Integer(), Integer(), System.Threading.CancellationToken)
+  name.vb: UpdateInterestsAsync(Integer, Integer(), Integer(), CancellationToken)
 - uid: SuperOffice.CRM.Services.ContactAgent.GetContactListAsync(System.Int32[],System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Services.ContactAgent.GetContactListAsync(System.Int32[],System.Threading.CancellationToken)
   id: GetContactListAsync(System.Int32[],System.Threading.CancellationToken)
@@ -1835,16 +1873,6 @@ references:
   name: IServiceCallsRepository
   nameWithType: IServiceCallsRepository
   fullName: SuperOffice.Diagnostics.IServiceCallsRepository
-- uid: SuperOffice.Configuration.ConfigFile.IScriptingConfiguration
-  isExternal: true
-  name: IScriptingConfiguration
-  nameWithType: ConfigFile.IScriptingConfiguration
-  fullName: SuperOffice.Configuration.ConfigFile.IScriptingConfiguration
-- uid: SuperOffice.Configuration.ConfigFile.IOnlineConfiguration
-  isExternal: true
-  name: IOnlineConfiguration
-  nameWithType: ConfigFile.IOnlineConfiguration
-  fullName: SuperOffice.Configuration.ConfigFile.IOnlineConfiguration
 - uid: SuperOffice.CRM.Services.ContactAgent.GetContactAsync*
   commentId: Overload:SuperOffice.CRM.Services.ContactAgent.GetContactAsync
   isExternal: true
@@ -4221,6 +4249,88 @@ references:
     name: String
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: SuperOffice.CRM.Services.ContactAgent.UpdateInterestsAsync*
+  commentId: Overload:SuperOffice.CRM.Services.ContactAgent.UpdateInterestsAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.ContactAgent.html#SuperOffice_CRM_Services_ContactAgent_UpdateInterestsAsync_System_Int32_System_Int32___System_Int32___System_Threading_CancellationToken_
+  name: UpdateInterestsAsync
+  nameWithType: ContactAgent.UpdateInterestsAsync
+  fullName: SuperOffice.CRM.Services.ContactAgent.UpdateInterestsAsync
+- uid: SuperOffice.CRM.Services.IContactAgent.UpdateInterestsAsync(System.Int32,System.Int32[],System.Int32[],System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IContactAgent.UpdateInterestsAsync(System.Int32,System.Int32[],System.Int32[],System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IContactAgent
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: UpdateInterestsAsync(int, int[], int[], CancellationToken)
+  nameWithType: IContactAgent.UpdateInterestsAsync(int, int[], int[], CancellationToken)
+  fullName: SuperOffice.CRM.Services.IContactAgent.UpdateInterestsAsync(int, int[], int[], System.Threading.CancellationToken)
+  nameWithType.vb: IContactAgent.UpdateInterestsAsync(Integer, Integer(), Integer(), CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IContactAgent.UpdateInterestsAsync(Integer, Integer(), Integer(), System.Threading.CancellationToken)
+  name.vb: UpdateInterestsAsync(Integer, Integer(), Integer(), CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IContactAgent.UpdateInterestsAsync(System.Int32,System.Int32[],System.Int32[],System.Threading.CancellationToken)
+    name: UpdateInterestsAsync
+    isExternal: true
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '['
+  - name: ']'
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '['
+  - name: ']'
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IContactAgent.UpdateInterestsAsync(System.Int32,System.Int32[],System.Int32[],System.Threading.CancellationToken)
+    name: UpdateInterestsAsync
+    isExternal: true
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: (
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: (
+  - name: )
   - name: ','
   - name: " "
   - uid: System.Threading.CancellationToken

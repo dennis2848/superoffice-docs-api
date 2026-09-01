@@ -58,6 +58,16 @@ content_type: reference
 
 * [POST Agents/AI/GetFormDesignFromUrl](v1AIAgent_GetFormDesignFromUrl.md)
 
+* [POST Agents/AI/GetFormDesignCssFromImage](v1AIAgent_GetFormDesignCssFromImage.md)
+
+* [POST Agents/AI/GetFormDesignCssFromUrl](v1AIAgent_GetFormDesignCssFromUrl.md)
+
+* [POST Agents/AI/GetFirstFormDesignCssFromImage](v1AIAgent_GetFirstFormDesignCssFromImage.md)
+
+* [POST Agents/AI/GetFirstFormDesignCssFromUrl](v1AIAgent_GetFirstFormDesignCssFromUrl.md)
+
+* [POST Agents/AI/GetNextFormDesignCss](v1AIAgent_GetNextFormDesignCss.md)
+
 * [POST Agents/AI/DetectLanguage](v1AIAgent_DetectLanguage.md)
 
 * [POST Agents/AI/DetectSentiment](v1AIAgent_DetectSentiment.md)
@@ -75,6 +85,8 @@ content_type: reference
 * [POST Agents/AI/AnswerFeedback](v1AIAgent_AnswerFeedback.md)
 
 * [POST Agents/AI/AnswerAccepted](v1AIAgent_AnswerAccepted.md)
+
+* [POST Agents/AI/AnswerUsingContext](v1AIAgent_AnswerUsingContext.md)
 
 * [POST Agents/AI/Search](v1AIAgent_Search.md)
 

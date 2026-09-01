@@ -8,9 +8,11 @@ date: 01.03.2025
 version: 10
 content_type: howto
 license: salespremium, servicepremium, marketingessentials
+tier: core
 audience: settings
 audience_tooltip: Settings and maintenance
 language: en
+index: true
 redirect_from:
   - /en/project/learn/screen/project-type-admin
   - /en/admin/lists/learn/project-type

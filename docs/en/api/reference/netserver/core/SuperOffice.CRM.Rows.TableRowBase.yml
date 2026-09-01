@@ -247,6 +247,7 @@ items:
   - SuperOffice.CRM.Rows.ForeignAppRow
   - SuperOffice.CRM.Rows.ForeignDeviceRow
   - SuperOffice.CRM.Rows.ForeignKeyRow
+  - SuperOffice.CRM.Rows.FormFieldRestrictionRow
   - SuperOffice.CRM.Rows.FormFieldValueRow
   - SuperOffice.CRM.Rows.FormKeysRow
   - SuperOffice.CRM.Rows.FormRow
@@ -290,6 +291,8 @@ items:
   - SuperOffice.CRM.Rows.KbSolutionFinderRow
   - SuperOffice.CRM.Rows.KbWorkflowAccessRow
   - SuperOffice.CRM.Rows.KbWorkflowRow
+  - SuperOffice.CRM.Rows.LandingPagePinRow
+  - SuperOffice.CRM.Rows.LandingPageRow
   - SuperOffice.CRM.Rows.LanguageInfoCountryRow
   - SuperOffice.CRM.Rows.LanguageInfoRow
   - SuperOffice.CRM.Rows.LeadstatusRow
@@ -314,6 +317,7 @@ items:
   - SuperOffice.CRM.Rows.MessageHeaderRow
   - SuperOffice.CRM.Rows.MessageIdRow
   - SuperOffice.CRM.Rows.MessageRow
+  - SuperOffice.CRM.Rows.MeteringLogRow
   - SuperOffice.CRM.Rows.ModuleLicenseRow
   - SuperOffice.CRM.Rows.ModuleOwnerRow
   - SuperOffice.CRM.Rows.MrMrsGroupLinkRow
@@ -323,18 +327,12 @@ items:
   - SuperOffice.CRM.Rows.MsFilterRow
   - SuperOffice.CRM.Rows.MsSubstituteRow
   - SuperOffice.CRM.Rows.MsTrashbinRow
+  - SuperOffice.CRM.Rows.NewsFeedItemCtaRow
+  - SuperOffice.CRM.Rows.NewsFeedItemHtmlRow
+  - SuperOffice.CRM.Rows.NewsFeedItemRecipientRow
+  - SuperOffice.CRM.Rows.NewsFeedItemRow
   - SuperOffice.CRM.Rows.NoticeFrameRow
   - SuperOffice.CRM.Rows.NotifyRow
-  - SuperOffice.CRM.Rows.OLEFieldRow
-  - SuperOffice.CRM.Rows.OLEFieldTextRow
-  - SuperOffice.CRM.Rows.OLESubjectRow
-  - SuperOffice.CRM.Rows.OLESubjectTextRow
-  - SuperOffice.CRM.Rows.OLEViewRow
-  - SuperOffice.CRM.Rows.OLEViewTextRow
-  - SuperOffice.CRM.Rows.Obsolete1Row
-  - SuperOffice.CRM.Rows.Obsolete2Row
-  - SuperOffice.CRM.Rows.Obsolete3Row
-  - SuperOffice.CRM.Rows.Obsolete4Row
   - SuperOffice.CRM.Rows.OnlineAppRow
   - SuperOffice.CRM.Rows.OutboxRow
   - SuperOffice.CRM.Rows.OutgoingMessageRow
@@ -437,7 +435,6 @@ items:
   - SuperOffice.CRM.Rows.ReplyTemplateBodyRow
   - SuperOffice.CRM.Rows.ReplyTemplateFolderRow
   - SuperOffice.CRM.Rows.ReplyTemplateRow
-  - SuperOffice.CRM.Rows.ReporterListDefRow
   - SuperOffice.CRM.Rows.ResourceOverrideRow
   - SuperOffice.CRM.Rows.RoleCategoryRow
   - SuperOffice.CRM.Rows.RoleElementRow
@@ -456,15 +453,7 @@ items:
   - SuperOffice.CRM.Rows.SListShipmentRow
   - SuperOffice.CRM.Rows.SMessageRow
   - SuperOffice.CRM.Rows.SMessageblockRow
-  - SuperOffice.CRM.Rows.SORCriteriaRow
-  - SuperOffice.CRM.Rows.SORFCTRow
-  - SuperOffice.CRM.Rows.SORFieldRow
   - SuperOffice.CRM.Rows.SORLabelLayoutRow
-  - SuperOffice.CRM.Rows.SOROperatorsRow
-  - SuperOffice.CRM.Rows.SORPublishGroupLinkRow
-  - SuperOffice.CRM.Rows.SORPublishRow
-  - SuperOffice.CRM.Rows.SORSectionRow
-  - SuperOffice.CRM.Rows.SORTemplateRow
   - SuperOffice.CRM.Rows.SPictureEntryRow
   - SuperOffice.CRM.Rows.SPictureFolderRow
   - SuperOffice.CRM.Rows.SSentMessageRow
@@ -608,7 +597,6 @@ items:
   - SuperOffice.CRM.Rows.UDefFieldGLRow
   - SuperOffice.CRM.Rows.UDefFieldRow
   - SuperOffice.CRM.Rows.URLRow
-  - SuperOffice.CRM.Rows.UsageStatsRow
   - SuperOffice.CRM.Rows.UserAttributeRow
   - SuperOffice.CRM.Rows.UserCandidateRow
   - SuperOffice.CRM.Rows.UserGroupLinkRow
@@ -618,6 +606,7 @@ items:
   - SuperOffice.CRM.Rows.UtmParametersRow
   - SuperOffice.CRM.Rows.VisibleForRow
   - SuperOffice.CRM.Rows.WebAppUsageRow
+  - SuperOffice.CRM.Rows.WebhookNotifyRow
   - SuperOffice.CRM.Rows.WebhookRow
   - SuperOffice.CRM.Rows.WebhookUsageRow
   - SuperOffice.CRM.Rows.WinPosSizeRow
@@ -671,6 +660,7 @@ items:
   extensionMethods:
   - SuperOffice.CRM.Rows.TableRowBase.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Rows.TableRowBase.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  - SuperOffice.Data.SQL.SqlCommand.SuperOffice.Data.QueryExectionExtensions.ExecuteBatchedReaderAsync(System.Boolean,System.Int32,System.Threading.CancellationToken)
   - SuperOffice.Data.SQL.SqlCommand.SuperOffice.Data.QueryExectionExtensions.ExecuteNonQuery
   - SuperOffice.Data.SQL.SqlCommand.SuperOffice.Data.QueryExectionExtensions.ExecuteNonQueryAsync(System.Threading.CancellationToken)
   - SuperOffice.Data.SQL.SqlCommand.SuperOffice.Data.QueryExectionExtensions.ExecuteReader(System.Boolean)
@@ -3064,6 +3054,75 @@ references:
     isExternal: true
     href: SuperOffice.CRM.Rows.TableRowBase.html
   - name: )
+- uid: SuperOffice.Data.SQL.SqlCommand.SuperOffice.Data.QueryExectionExtensions.ExecuteBatchedReaderAsync(System.Boolean,System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Data.QueryExectionExtensions.ExecuteBatchedReaderAsync(SuperOffice.Data.SQL.SqlCommand,System.Boolean,System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.Data.QueryExectionExtensions
+  definition: SuperOffice.Data.QueryExectionExtensions.ExecuteBatchedReaderAsync(SuperOffice.Data.SQL.SqlCommand,System.Boolean,System.Int32,System.Threading.CancellationToken)
+  href: SuperOffice.Data.QueryExectionExtensions.html#SuperOffice_Data_QueryExectionExtensions_ExecuteBatchedReaderAsync_SuperOffice_Data_SQL_SqlCommand_System_Boolean_System_Int32_System_Threading_CancellationToken_
+  name: ExecuteBatchedReaderAsync(SqlCommand, bool, int, CancellationToken)
+  nameWithType: QueryExectionExtensions.ExecuteBatchedReaderAsync(SqlCommand, bool, int, CancellationToken)
+  fullName: SuperOffice.Data.QueryExectionExtensions.ExecuteBatchedReaderAsync(SuperOffice.Data.SQL.SqlCommand, bool, int, System.Threading.CancellationToken)
+  nameWithType.vb: QueryExectionExtensions.ExecuteBatchedReaderAsync(SqlCommand, Boolean, Integer, CancellationToken)
+  fullName.vb: SuperOffice.Data.QueryExectionExtensions.ExecuteBatchedReaderAsync(SuperOffice.Data.SQL.SqlCommand, Boolean, Integer, System.Threading.CancellationToken)
+  name.vb: ExecuteBatchedReaderAsync(SqlCommand, Boolean, Integer, CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.Data.QueryExectionExtensions.ExecuteBatchedReaderAsync(SuperOffice.Data.SQL.SqlCommand,System.Boolean,System.Int32,System.Threading.CancellationToken)
+    name: ExecuteBatchedReaderAsync
+    isExternal: true
+    href: SuperOffice.Data.QueryExectionExtensions.html#SuperOffice_Data_QueryExectionExtensions_ExecuteBatchedReaderAsync_SuperOffice_Data_SQL_SqlCommand_System_Boolean_System_Int32_System_Threading_CancellationToken_
+  - name: (
+  - uid: SuperOffice.Data.SQL.SqlCommand
+    name: SqlCommand
+    isExternal: true
+    href: SuperOffice.Data.SQL.SqlCommand.html
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Data.QueryExectionExtensions.ExecuteBatchedReaderAsync(SuperOffice.Data.SQL.SqlCommand,System.Boolean,System.Int32,System.Threading.CancellationToken)
+    name: ExecuteBatchedReaderAsync
+    isExternal: true
+    href: SuperOffice.Data.QueryExectionExtensions.html#SuperOffice_Data_QueryExectionExtensions_ExecuteBatchedReaderAsync_SuperOffice_Data_SQL_SqlCommand_System_Boolean_System_Int32_System_Threading_CancellationToken_
+  - name: (
+  - uid: SuperOffice.Data.SQL.SqlCommand
+    name: SqlCommand
+    isExternal: true
+    href: SuperOffice.Data.SQL.SqlCommand.html
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
 - uid: SuperOffice.Data.SQL.SqlCommand.SuperOffice.Data.QueryExectionExtensions.ExecuteNonQuery
   commentId: M:SuperOffice.Data.QueryExectionExtensions.ExecuteNonQuery(SuperOffice.Data.SQL.SqlCommand)
   parent: SuperOffice.Data.QueryExectionExtensions
@@ -3600,6 +3659,82 @@ references:
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Data.QueryExectionExtensions.ExecuteBatchedReaderAsync(SuperOffice.Data.SQL.SqlCommand,System.Boolean,System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Data.QueryExectionExtensions.ExecuteBatchedReaderAsync(SuperOffice.Data.SQL.SqlCommand,System.Boolean,System.Int32,System.Threading.CancellationToken)
+  isExternal: true
+  href: SuperOffice.Data.QueryExectionExtensions.html#SuperOffice_Data_QueryExectionExtensions_ExecuteBatchedReaderAsync_SuperOffice_Data_SQL_SqlCommand_System_Boolean_System_Int32_System_Threading_CancellationToken_
+  name: ExecuteBatchedReaderAsync(SqlCommand, bool, int, CancellationToken)
+  nameWithType: QueryExectionExtensions.ExecuteBatchedReaderAsync(SqlCommand, bool, int, CancellationToken)
+  fullName: SuperOffice.Data.QueryExectionExtensions.ExecuteBatchedReaderAsync(SuperOffice.Data.SQL.SqlCommand, bool, int, System.Threading.CancellationToken)
+  nameWithType.vb: QueryExectionExtensions.ExecuteBatchedReaderAsync(SqlCommand, Boolean, Integer, CancellationToken)
+  fullName.vb: SuperOffice.Data.QueryExectionExtensions.ExecuteBatchedReaderAsync(SuperOffice.Data.SQL.SqlCommand, Boolean, Integer, System.Threading.CancellationToken)
+  name.vb: ExecuteBatchedReaderAsync(SqlCommand, Boolean, Integer, CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.Data.QueryExectionExtensions.ExecuteBatchedReaderAsync(SuperOffice.Data.SQL.SqlCommand,System.Boolean,System.Int32,System.Threading.CancellationToken)
+    name: ExecuteBatchedReaderAsync
+    isExternal: true
+    href: SuperOffice.Data.QueryExectionExtensions.html#SuperOffice_Data_QueryExectionExtensions_ExecuteBatchedReaderAsync_SuperOffice_Data_SQL_SqlCommand_System_Boolean_System_Int32_System_Threading_CancellationToken_
+  - name: (
+  - uid: SuperOffice.Data.SQL.SqlCommand
+    name: SqlCommand
+    isExternal: true
+    href: SuperOffice.Data.SQL.SqlCommand.html
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Data.QueryExectionExtensions.ExecuteBatchedReaderAsync(SuperOffice.Data.SQL.SqlCommand,System.Boolean,System.Int32,System.Threading.CancellationToken)
+    name: ExecuteBatchedReaderAsync
+    isExternal: true
+    href: SuperOffice.Data.QueryExectionExtensions.html#SuperOffice_Data_QueryExectionExtensions_ExecuteBatchedReaderAsync_SuperOffice_Data_SQL_SqlCommand_System_Boolean_System_Int32_System_Threading_CancellationToken_
+  - name: (
+  - uid: SuperOffice.Data.SQL.SqlCommand
+    name: SqlCommand
+    isExternal: true
+    href: SuperOffice.Data.SQL.SqlCommand.html
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: SuperOffice.Data.QueryExectionExtensions
+  commentId: T:SuperOffice.Data.QueryExectionExtensions
+  parent: SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.Data.QueryExectionExtensions.html
+  name: QueryExectionExtensions
+  nameWithType: QueryExectionExtensions
+  fullName: SuperOffice.Data.QueryExectionExtensions
 - uid: SuperOffice.Data.QueryExectionExtensions.ExecuteNonQuery(SuperOffice.Data.SQL.SqlCommand)
   commentId: M:SuperOffice.Data.QueryExectionExtensions.ExecuteNonQuery(SuperOffice.Data.SQL.SqlCommand)
   isExternal: true
@@ -3629,14 +3764,6 @@ references:
     isExternal: true
     href: SuperOffice.Data.SQL.SqlCommand.html
   - name: )
-- uid: SuperOffice.Data.QueryExectionExtensions
-  commentId: T:SuperOffice.Data.QueryExectionExtensions
-  parent: SuperOffice.Data
-  isExternal: true
-  href: SuperOffice.Data.QueryExectionExtensions.html
-  name: QueryExectionExtensions
-  nameWithType: QueryExectionExtensions
-  fullName: SuperOffice.Data.QueryExectionExtensions
 - uid: SuperOffice.Data.QueryExectionExtensions.ExecuteNonQueryAsync(SuperOffice.Data.SQL.SqlCommand,System.Threading.CancellationToken)
   commentId: M:SuperOffice.Data.QueryExectionExtensions.ExecuteNonQueryAsync(SuperOffice.Data.SQL.SqlCommand,System.Threading.CancellationToken)
   isExternal: true

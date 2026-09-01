@@ -325,6 +325,8 @@ items:
   href: foreignkey.md
 - name: form
   href: form.md
+- name: form_field_restriction
+  href: form-field-restriction.md
 - name: form_field_value
   href: form-field-value.md
 - name: form_keys
@@ -409,6 +411,10 @@ items:
   href: kb-workflow.md
 - name: kb_workflow_access
   href: kb-workflow-access.md
+- name: landing_page
+  href: landing-page.md
+- name: landing_page_pin
+  href: landing-page-pin.md
 - name: LanguageInfo
   href: languageinfo.md
 - name: LanguageInfoCountry
@@ -457,6 +463,8 @@ items:
   href: message-id.md
 - name: MessageHandler
   href: messagehandler.md
+- name: metering_log
+  href: metering-log.md
 - name: ModuleLicense
   href: modulelicense.md
 - name: ModuleOwner
@@ -475,30 +483,18 @@ items:
   href: ms-substitute.md
 - name: ms_trashbin
   href: ms-trashbin.md
+- name: NewsFeedItem
+  href: newsfeeditem.md
+- name: NewsFeedItemCta
+  href: newsfeeditemcta.md
+- name: NewsFeedItemHtml
+  href: newsfeeditemhtml.md
+- name: NewsFeedItemRecipient
+  href: newsfeeditemrecipient.md
 - name: notice_frame
   href: notice-frame.md
 - name: notify
   href: notify.md
-- name: obsolete_1
-  href: obsolete-1.md
-- name: obsolete_2
-  href: obsolete-2.md
-- name: obsolete_3
-  href: obsolete-3.md
-- name: obsolete_4
-  href: obsolete-4.md
-- name: OLEField
-  href: olefield.md
-- name: OLEFieldText
-  href: olefieldtext.md
-- name: OLESubject
-  href: olesubject.md
-- name: OLESubjectText
-  href: olesubjecttext.md
-- name: OLEView
-  href: oleview.md
-- name: OLEViewText
-  href: oleviewtext.md
 - name: OnlineApp
   href: onlineapp.md
 - name: outbox
@@ -703,8 +699,6 @@ items:
   href: reply-template-body.md
 - name: reply_template_folder
   href: reply-template-folder.md
-- name: ReporterListDef
-  href: reporterlistdef.md
 - name: ResourceOverride
   href: resourceoverride.md
 - name: Role
@@ -845,24 +839,8 @@ items:
   href: snapshot.md
 - name: soap_access
   href: soap-access.md
-- name: SORCriteria
-  href: sorcriteria.md
-- name: SORFCT
-  href: sorfct.md
-- name: SORField
-  href: sorfield.md
 - name: SORLabelLayout
   href: sorlabellayout.md
-- name: SOROperators
-  href: soroperators.md
-- name: SORPublish
-  href: sorpublish.md
-- name: SORPublishGroupLink
-  href: sorpublishgrouplink.md
-- name: SORSection
-  href: sorsection.md
-- name: SORTemplate
-  href: sortemplate.md
 - name: Source
   href: source.md
 - name: SourceGroupLink
@@ -1045,8 +1023,6 @@ items:
   href: udtempsmall.md
 - name: URL
   href: url.md
-- name: UsageStats
-  href: usagestats.md
 - name: user_attribute
   href: user-attribute.md
 - name: user_candidate
@@ -1067,6 +1043,8 @@ items:
   href: webappusage.md
 - name: Webhook
   href: webhook.md
+- name: Webhook_notify
+  href: webhook-notify.md
 - name: Webhook_usage
   href: webhook-usage.md
 - name: WinPosSize
@@ -1161,6 +1139,10 @@ items:
     href: enums/criterionoperator.md
   - name: CrmActorType
     href: enums/crmactortype.md
+  - name: CtaFlavor
+    href: enums/ctaflavor.md
+  - name: CtaType
+    href: enums/ctatype.md
   - name: DashTileCurrencyMode
     href: enums/dashtilecurrencymode.md
   - name: DashTileEntityType
@@ -1215,6 +1197,8 @@ items:
     href: enums/fieldaccess.md
   - name: FieldMetadataType
     href: enums/fieldmetadatatype.md
+  - name: FormFieldRestrictionType
+    href: enums/formfieldrestrictiontype.md
   - name: FormSubmissionStatus
     href: enums/formsubmissionstatus.md
   - name: FormType
@@ -1231,10 +1215,16 @@ items:
     href: enums/loginflags.md
   - name: MailboxType
     href: enums/mailboxtype.md
+  - name: MeteringEventType
+    href: enums/meteringeventtype.md
+  - name: MeteringStatus
+    href: enums/meteringstatus.md
   - name: ModifiedAppointmentFields
     href: enums/modifiedappointmentfields.md
   - name: Navigation
     href: enums/navigation.md
+  - name: NewsFeedItemStatus
+    href: enums/newsfeeditemstatus.md
   - name: NotificationPlatform
     href: enums/notificationplatform.md
   - name: OfficialLanguage
@@ -1251,6 +1241,8 @@ items:
     href: enums/prefdescvaluetype.md
   - name: PreferenceLevel
     href: enums/preferencelevel.md
+  - name: ProjectMemberEventParticipantStatus
+    href: enums/projectmembereventparticipantstatus.md
   - name: PublishType
     href: enums/publishtype.md
   - name: QuoteStatus
@@ -1373,6 +1365,10 @@ items:
     href: enums/valueoverride.md
   - name: VideoMeetingStatus
     href: enums/videomeetingstatus.md
+  - name: WebhookNotifyVia
+    href: enums/webhooknotifyvia.md
+  - name: WebhookNotifyWhen
+    href: enums/webhooknotifywhen.md
   - name: WebhookState
     href: enums/webhookstate.md
   - name: Weekday

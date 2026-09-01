@@ -173,6 +173,7 @@ Employees, resources and other users - except for External persons
 |[foreigndevice](foreigndevice.md)  |Middle level of Foreign Key system |
 |[foreignkey](foreignkey.md)  |Foreign Key - enables storage of arbitrary extra key information for every table/row in SuperOffice. You may use this table to store your extra information instead of using the dictionary SDK to create your own tables. |
 |[form](form.md)  |A form which can be published on a webpage and submitted by visitors |
+|[form\_field\_restriction](form-field-restriction.md)  |This table contains all form fields restrictions |
 |[form\_field\_value](form-field-value.md)  |Form field values saved in a searchable format |
 |[FunctionRight](functionright.md)  |Functional right definition |
 |[FunctionRightRoleLink](functionrightrolelink.md)  |Functional right definition |
@@ -187,6 +188,8 @@ Employees, resources and other users - except for External persons
 |[IntentGroupLink](intentgrouplink.md)  |User group link table for Intent, for MDO item hiding |
 |[IntentHeadingLink](intentheadinglink.md)  |Heading link table for Intent, for MDO headers |
 |[invitation](invitation.md)  |Invitations to events |
+|[landing\_page](landing-page.md)  |Per-associate landing page configuration for a given entity type |
+|[landing\_page\_pin](landing-page-pin.md)  |A pinned selection or entity record on a landing page |
 |[LanguageInfo](languageinfo.md)  |Information about languages, from ISO standards and related information |
 |[LanguageInfoCountry](languageinfocountry.md)  |Many-many link between countries and languages, to give intelligent choices for language |
 |[LegalBase](legalbase.md)  |Legal base for GDPR (Article 6) |
@@ -197,18 +200,15 @@ Employees, resources and other users - except for External persons
 |[MergeMoveLog](mergemovelog.md)  |Log of merge and move operations (person, contact, project) |
 |[Message](message.md)  |Definition of a message, corresponding to the header of a protocol |
 |[MessageHandler](messagehandler.md)  |Presence and heartbeat of a message handler, should be updated once a minute. Older records are stale |
+|[metering\_log](metering-log.md)  |Metering log table |
 |[ModuleLicense](modulelicense.md)  |Module licenses, belonging to one single owner |
 |[ModuleOwner](moduleowner.md)  |Unique owner of a set of licensed modules |
 |[MrMrs](mrmrs.md)  |MrMrs list table. List of salutations. |
 |[MrMrsGroupLink](mrmrsgrouplink.md)  |User group link table for MrMrs, for MDO item hiding |
 |[MrMrsHeadingLink](mrmrsheadinglink.md)  |Heading link table for MrMrs, for MDO headers |
+|[NewsFeedItem](newsfeeditem.md)  |Contains news feed items - published to one or more users, with one or more language descriptions |
+|[NewsFeedItemRecipient](newsfeeditemrecipient.md)  |Recipients of the news feed item. One news feed item may be sent to multiple recipients (users). |
 |[notify](notify.md)  |This table contains the pop-up messages displayed for users for various events, such as &amp;apos;new ticket&amp;apos;, etc. |
-|[OLEField](olefield.md)  |Control data table for the OLE DB Provider |
-|[OLEFieldText](olefieldtext.md)  |Control data table for the OLE DB Provider |
-|[OLESubject](olesubject.md)  |Control data table for the OLE DB Provider |
-|[OLESubjectText](olesubjecttext.md)  |Control data table for the OLE DB Provider |
-|[OLEView](oleview.md)  |Control data table for the OLE DB Provider |
-|[OLEViewText](oleviewtext.md)  |Control data table for the OLE DB Provider |
 |[OnlineApp](onlineapp.md)  |Echo and track information about Online Apps and their usage |
 |[outgoing\_message](outgoing-message.md)  |Delivery of outgoing messages to messageplugins, updated with status asynchroneously |
 |[OwnerContactLink](ownercontactlink.md)  |Table specifying which contacts can own associates.  All contacts that have rows in this table (i.e. rows with contact_id pointing to them) will be offered as associate owners in the maintenance client and as candidate Satellite owners. Such contacts have restrictions on editing and deletion to protect database consistency.  |
@@ -302,7 +302,6 @@ Employees, resources and other users - except for External persons
 |[relationtarget](relationtarget.md)  |Definition of targets for a relation. Links a relation definition (RelDef) to source and target tables. In general, a relation can be created between any pair of tables. This table is used for specifying which table pairs a particular relation can be used for. A relation definition should have at least one row in this table, and can have more. Note: The 5.0 Maintenance and GUI only support contact and person as valid values for the source_table and destination_table fields, in any combination. Other relations will not be shown, and relation definitions pointing to other tables will not be editable from the Maintenance GUI; however, nothing will crash. |
 |[RelDefGroupLink](reldefgrouplink.md)  |User group link table for RelDef, for MDO item hiding |
 |[RelDefHeadingLink](reldefheadinglink.md)  |Heading link table for RelDef, for MDO headers |
-|[ReporterListDef](reporterlistdef.md)  |Reporter definitions |
 |[ResourceOverride](resourceoverride.md)  |Generic mechanism for overriding (or even defining new) text resources, in multiple languages |
 |[Role](role.md)  |User roles for role-based security, names and tooltips are in LocaleText. For more information regarding role based security, see http://techdoc.superoffice.com |
 |[s\_link](s-link.md)  |Links in messages to measure success rate of a campaign. |
@@ -341,15 +340,7 @@ Employees, resources and other users - except for External persons
 |[service\_auth](service-auth.md)  |Authentication for a service (imap, smtp...) |
 |[ShipmentType](shipmenttype.md)  |Shipment type list table. Classification of a mailing, allowing recipients to subscribe to lists |
 |[ShipmentTypeReservation](shipmenttypereservation.md)  |ShipmentTypes a person has reserved against. Note that the absense of a record here implies acceptance of a mailings of this type |
-|[SORCriteria](sorcriteria.md)  |SuperOffice reporter data |
-|[SORFCT](sorfct.md)  |SuperOffice reporter data |
-|[SORField](sorfield.md)  |SuperOffice reporter data |
 |[SORLabelLayout](sorlabellayout.md)  |SuperOffice reporter data |
-|[SOROperators](soroperators.md)  |SuperOffice reporter data |
-|[SORPublish](sorpublish.md)  |SuperOffice reporter data |
-|[SORPublishGroupLink](sorpublishgrouplink.md)  |Link table used for filtering reports by user group |
-|[SORSection](sorsection.md)  |SuperOffice reporter data |
-|[SORTemplate](sortemplate.md)  |SuperOffice reporter data |
 |[Source](source.md)  |Source list table. Source for sale (list) |
 |[SourceGroupLink](sourcegrouplink.md)  |User group link table for Source, for MDO item hiding |
 |[SourceHeadingLink](sourceheadinglink.md)  |Heading link table for Source, for MDO headers |
@@ -410,7 +401,6 @@ Employees, resources and other users - except for External persons
 |[UDListGroupLink](udlistgrouplink.md)  |User group link table for UDList, for MDO item hiding. Note - MDO mode for userdefinede lists are either turned on or off, you may not have it on for one userdefined list and off for the others. |
 |[UDListHeadingLink](udlistheadinglink.md)  |Heading link table for UDList, for MDO headers. Note - MDO mode for userdefinede lists are either turned on or off, you may not have it on for one userdefined list and off for the others. |
 |[URL](url.md)  |Unified Resource Locators, URL to contacts, persons or projects. |
-|[UsageStats](usagestats.md)  |Usage statistics |
 |[UserGroup](usergroup.md)  |Secondary user groups |
 |[UserGroupLink](usergrouplink.md)  |Link table between associate and usergroup, specifies secondary group membership. From SIX an associate may belong to more than one usergroup. Http://techdoc.superoffice.com has more information about how roles are implemented. |
 |[UserPreference](userpreference.md)  |Preference system. If deflevel is set to 5; the user may change the preferences |
@@ -419,6 +409,7 @@ Employees, resources and other users - except for External persons
 |[VisibleFor](visiblefor.md)  |Visible for rights, who may see this appointment/document, sale,  salehist or selection |
 |[WebAppUsage](webappusage.md)  |Usage statistics for web applications |
 |[Webhook](webhook.md)  |Webhook URL to call when events occur in the client or in NetServer. Also tracks call+error statistics. |
+|[Webhook\_notify](webhook-notify.md)  |Notification recipients for webhook failure events. Each row defines one recipient (associate or ad-hoc email) that should be notified when a webhook fails. |
 |[Webhook\_usage](webhook-usage.md)  |Webhook usage statistics - tracks call+error statistics. Same primary key as the webhook. |
 |[WinPosSize](winpossize.md)  |Stores the position and size of each window, so they can be shown in the same place again |
 |[workflow](workflow.md)  |SuperOffice specific info about a workflow |

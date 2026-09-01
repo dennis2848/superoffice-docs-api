@@ -105,6 +105,8 @@ items:
   - SuperOffice.WebApi.Data.Currency
   - SuperOffice.WebApi.Data.CurrencyEntity
   - SuperOffice.WebApi.Data.CustomCommand
+  - SuperOffice.WebApi.Data.CustomObject
+  - SuperOffice.WebApi.Data.CustomObjectDefinition
   - SuperOffice.WebApi.Data.CustomerCenterConfig
   - SuperOffice.WebApi.Data.CustomerLanguage
   - SuperOffice.WebApi.Data.CustomerServiceConfig
@@ -167,6 +169,7 @@ items:
   - SuperOffice.WebApi.Data.ExportArchiveResult
   - SuperOffice.WebApi.Data.ExtAppEntity
   - SuperOffice.WebApi.Data.Favourite
+  - SuperOffice.WebApi.Data.FencingInfo
   - SuperOffice.WebApi.Data.FieldMetadata
   - SuperOffice.WebApi.Data.FieldValue
   - SuperOffice.WebApi.Data.FindResults
@@ -174,6 +177,7 @@ items:
   - SuperOffice.WebApi.Data.ForeignDevice
   - SuperOffice.WebApi.Data.ForeignKey
   - SuperOffice.WebApi.Data.FormEntity
+  - SuperOffice.WebApi.Data.FormFieldRestriction
   - SuperOffice.WebApi.Data.FormSubmissionEntity
   - SuperOffice.WebApi.Data.FreeText
   - SuperOffice.WebApi.Data.GrantedModuleLicense
@@ -186,6 +190,7 @@ items:
   - SuperOffice.WebApi.Data.ImportLine
   - SuperOffice.WebApi.Data.IncomingMessage
   - SuperOffice.WebApi.Data.Installation
+  - SuperOffice.WebApi.Data.LandingPageEntity
   - SuperOffice.WebApi.Data.LanguageInfo
   - SuperOffice.WebApi.Data.LegalBase
   - SuperOffice.WebApi.Data.License
@@ -358,6 +363,7 @@ items:
   - SuperOffice.WebApi.Data.TicketStatusEntity
   - SuperOffice.WebApi.Data.TicketType
   - SuperOffice.WebApi.Data.TicketTypeEntity
+  - SuperOffice.WebApi.Data.TicketUsage
   - SuperOffice.WebApi.Data.TokenManagementInfo
   - SuperOffice.WebApi.Data.Tooltips
   - SuperOffice.WebApi.Data.TriggerScriptEntity

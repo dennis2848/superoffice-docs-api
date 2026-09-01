@@ -1,15 +1,16 @@
-﻿---
+---
 uid: help-en-form-create
 title: Create a new form
 description: Learn how you can create a web form in this how-to guide.
-keywords: form, form template, multi-page
-author: SuperOffice Product and Engineering
-date: 01.27.2026
-version: 11.9
+keywords: form, form template, multi-page, custom styling, css
+author: digitaldiina
+date: 05.04.2026
+version: 11.13
 content_type: howto
 category: marketing
 topic: forms
 license: marketingessentials
+tier: growth
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: en
@@ -85,13 +86,13 @@ In the **Fields** category you add the fields that should be included in the for
 
 3. In the **Add element** window, select one of the following field categories:
 
-    * **SuperOffice elements**: Fields that are linked to SuperOffice data, such as contact name, country, email address, and so on. Depending on the type of field, values from submitted forms can either replace existing values (such as country or title) or be added to the relevant SuperOffice field (such as mobile phone).
+    * **SuperOffice elements**: Fields that are linked to SuperOffice data, such as contact name, country, email address, and so on. Standard and custom fields are available. Depending on the type of field, values from submitted forms can either overwrite existing values or be added to the relevant SuperOffice field. When you enable overwrite for a field, a warning is displayed. If a field is missing or the overwrite option is unavailable, an administrator may have applied a [field restriction][10].
 
     * **Form elements**: Fields for entering text or date, fields for selecting values (lists, checkboxes and radio buttons) and file upload fields.
 
     * **View elements**: Sections, texts and images. Use sections to [create multi-page forms](#multi-page).
 
-4. Select a field in the list.
+4. Select a field in the list. If the list is long, use the search box to find a field by name.
 
 5. Click **Add**. The window closes and the field is added to the form and the form preview.
 
@@ -129,6 +130,61 @@ The preview on the right updates automatically when you change any settings. If 
 Select a **font** from the dropdown to apply it to all text in the form. The [available fonts][9] are managed by administrators in Settings and maintenance.
 
 The chosen font applies to field labels and all other text elements within the form. You can also use the font size dropdown and formatting buttons to style all text.
+
+#### <a id="custom-style"></a>Custom styling
+
+For full control over how your form looks, you can write CSS in the **Custom styling** field. This lets you go beyond the standard editor options and match your brand guidelines precisely.
+
+![Form editor - custom styling with CSS -screenshot][img16]
+
+* **For experienced users:** Type or paste your CSS code directly in the field.
+* **For less advanced users:** Select a CSS class from the list, then add your code. This approach makes styling less overwhelming and gives you better control over what you are changing.
+
+If your organization has [AI Lab][11] enabled, you can automatically extract CSS from an existing website instead of writing it manually.
+
+![Form editor - extract styles with AI -screenshot][img17]
+
+1. Enter the URL of the web page whose styling you want to apply.
+1. Select **Extract styles with AI**. The extracted CSS is inserted into the field.
+1. Review and adjust the generated CSS as needed.
+
+The following CSS classes are available:
+
+| Class | Description |
+|---|---|
+| `.form-background` | The background or page area surrounding the form. |
+| `.form-form` | The background of the form container. |
+| `.form-table` | The table used to lay out the fields. |
+| `.form-required` | All required fields. |
+| `.form-id-[fieldName]` | A specific field. The selector must end with the field identifier. |
+| `.form-textarea` | Text area or request message fields. |
+| `.form-radio` | All radio button fields. |
+| `.form-checkbox` | All checkbox fields. |
+| `.form-dropdown` | All dropdown fields. |
+| `.form-date` | All date fields. |
+| `.form-datetime` | All date and time fields. |
+| `.form-text` | All text input fields. |
+| `.form-integer` | All integer fields. |
+| `.form-decimal` | All decimal fields. |
+| `.form-textblock` | All text block fields. |
+| `.form-image` | All image fields. |
+| `.form-button` | All button fields. |
+| `.form-uploadfile` | All file upload fields. |
+| `.form-rating` | All rating fields. |
+| `.form-rating-dice` | Rating fields of type "dice". |
+| `.form-rating-thumbs` | Rating fields of type "thumbs". |
+| `.form-rating-smiley` | Rating fields of type "smiley". |
+| `.form-rating-nps` | Rating fields of type "NPS". |
+| `.form-rating-stars` | Rating fields of type "stars". |
+| `.form-consent` | All consent fields. |
+| `.form-recaptcha` | All Google reCAPTCHA fields. |
+| `.form-input` | All input fields. |
+| `.form-pages` | The container of all pages in a multi-page form. |
+| `.form-page` | The container of a single page in a multi-page form. |
+| `.form-page-1` | The container of a specific page (1..n) in a multi-page form. |
+| `.form-pagefooter` | The footer of a multi-page form. |
+| `.form-pageprogress` | The progress bar of a multi-page form. |
+| `.form-label` | Field labels. |
 
 ### Activate double opt-in (optional)
 
@@ -192,6 +248,10 @@ Here you can [define what happens when someone submits a form response][3].
 [4]: field-options.md
 [8]: ../../learn/create-folder.md
 [9]: ../admin/manage-fonts.md
+[10]: ../admin/form-field-restrictions.md
+[11]: ../../../ai/learn/index.md
 
 <!-- Referenced images -->
 [img15]: ../../../../media/loc/en/marketing/contact-me-form-properties.png
+[img16]: ../../../../media/loc/en/marketing/form-custom-styling.png
+[img17]: ../../../../media/loc/en/marketing/form-extract-styles-ai.png

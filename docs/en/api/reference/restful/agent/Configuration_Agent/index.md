@@ -84,6 +84,8 @@ content_type: reference
 
 * [POST Agents/Configuration/GetAllFeatureToggles](v1ConfigurationAgent_GetAllFeatureToggles.md)
 
+* [POST Agents/Configuration/GetCsCgiUrl](v1ConfigurationAgent_GetCsCgiUrl.md)
+
 * [POST Agents/Configuration/CreateDefaultDiaryViewEntity](v1ConfigurationAgent_CreateDefaultDiaryViewEntity.md)
 
 * [POST Agents/Configuration/SaveDiaryViewEntity](v1ConfigurationAgent_SaveDiaryViewEntity.md)
@@ -91,6 +93,18 @@ content_type: reference
 * [POST Agents/Configuration/DeleteDiaryViewEntity](v1ConfigurationAgent_DeleteDiaryViewEntity.md)
 
 * [POST Agents/Configuration/GetDiaryViewEntity](v1ConfigurationAgent_GetDiaryViewEntity.md)
+
+* [POST Agents/Configuration/CreateDefaultLandingPageEntity](v1ConfigurationAgent_CreateDefaultLandingPageEntity.md)
+
+* [POST Agents/Configuration/SaveLandingPageEntity](v1ConfigurationAgent_SaveLandingPageEntity.md)
+
+* [POST Agents/Configuration/DeleteLandingPageEntity](v1ConfigurationAgent_DeleteLandingPageEntity.md)
+
+* [POST Agents/Configuration/GetLandingPageEntity](v1ConfigurationAgent_GetLandingPageEntity.md)
+
+* [POST Agents/Configuration/GetLandingPage](v1ConfigurationAgent_GetLandingPage.md)
+
+* [POST Agents/Configuration/SetLandingPagePinForAssociate](v1ConfigurationAgent_SetLandingPagePinForAssociate.md)
 
 * [POST Agents/Configuration/CreateDefaultSystemEventEntity](v1ConfigurationAgent_CreateDefaultSystemEventEntity.md)
 

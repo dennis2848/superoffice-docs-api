@@ -2,13 +2,14 @@
 uid: help-sv-customer-center-subscription-page-styling
 title: Styling av prenumerationssida
 description: Hur du anpassar design och text på prenumerationssidan så att den stämmer överens med din varumärkesidentitet.
-keywords: prenumerationssida
+keywords: prenumerationssida, avregistrering, bekräftelsesida
 author: digitaldiina
-date: 02.17.2026
-version: 11.10
+date: 03.17.2026
+version: 11.11
 content_type: howto
 audience: settings
 audience_tooltip: Inställningar och underhåll
+tier: growth
 language: sv
 index: true
 redirect_from: /sv/customer-center/admin/index
@@ -31,7 +32,7 @@ Du kan anpassa design och text på prenumerationssidan så att den stämmer öve
 1. Gör dina ändringar i avsnittet **Stilmall** eller **Alternativ**.
 1. Klicka på **Spara**.
 
-Du kan göra ändringar i två avsnitt: **Stilmall** och **Alternativ**. En förhandsvisning visas till höger.
+Du kan göra ändringar i två avsnitt: **Stilmall** och **Alternativ**. En förhandsvisning visas till höger. Använd listrutan **Välj förhandsgranskning** för att kontrollera hur dina ändringar ser ut på sidorna Hantera prenumerationer, Avregistrering, Bekräftelse sparad och Bekräftelse avbrutten.
 
 ![Stil prenumerationssida i Inställningar och underhåll -screenshot][img1]
 
@@ -68,11 +69,9 @@ Använd avsnittet **Alternativ** för att anpassa text för varje språk som st�
 
 1. Välj ett språk från listan.
 
-1. Redigera följande fält:
+1. Välj den sida du vill uppdatera. En förhandsvisning visas automatiskt till höger.
 
-    * **Rubrik**
-    * **Instruktioner**
-    * **Text om samtykke**
+1. Redigera de tillgängliga textfälten.
 
 ![Prenumerationssida lokaliserad text alternativ i Inställningar och underhåll -screenshot][img2]
 

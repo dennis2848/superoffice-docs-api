@@ -7,6 +7,8 @@ items:
   children:
   - SuperOffice.Data.ConfigType.Options
   - SuperOffice.Data.ConfigType.Style
+  - SuperOffice.Data.ConfigType.SubscriptionsOptions
+  - SuperOffice.Data.ConfigType.SubscriptionsStyle
   langs:
   - csharp
   - vb
@@ -24,11 +26,11 @@ items:
   example: []
   syntax:
     content: >-
-      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.9.0.0")]
+      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/12.2.0.0")]
 
       public enum ConfigType : short
     content.vb: >-
-      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.9.0.0")>
+      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/12.2.0.0")>
 
       Public Enum ConfigType As Short
   extensionMethods:
@@ -37,6 +39,7 @@ items:
   - SuperOffice.Data.ConfigType.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.ConfigType)
   - SuperOffice.Data.ConfigType.SuperOffice.Util.ObjectExtensions.GraphCopy``1
   - System.Enum.EnumUtil.GetDescription
+  - System.Enum.ExtensionMethods.ResourceManagerExt.ToResourceString
   attributes:
   - type: System.Runtime.Serialization.DataContractAttribute
     ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
@@ -44,7 +47,7 @@ items:
     namedArguments:
     - name: Namespace
       type: System.String
-      value: http://www.superoffice.net/ws/crm/NetServer/11.9.0.0
+      value: http://www.superoffice.net/ws/crm/NetServer/12.2.0.0
 - uid: SuperOffice.Data.ConfigType.Style
   commentId: F:SuperOffice.Data.ConfigType.Style
   id: Style
@@ -59,7 +62,7 @@ items:
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '0: The row contains style data'
+  summary: '0: The row contains customer center style data'
   example: []
   syntax:
     content: >-
@@ -90,7 +93,7 @@ items:
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '1: The row contains options data'
+  summary: '1: The row contains customer center options data'
   example: []
   syntax:
     content: >-
@@ -103,6 +106,68 @@ items:
       <EnumMember>
 
       Options = 1
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.Data.ConfigType.SubscriptionsStyle
+  commentId: F:SuperOffice.Data.ConfigType.SubscriptionsStyle
+  id: SubscriptionsStyle
+  parent: SuperOffice.Data.ConfigType
+  langs:
+  - csharp
+  - vb
+  name: SubscriptionsStyle
+  nameWithType: ConfigType.SubscriptionsStyle
+  fullName: SuperOffice.Data.ConfigType.SubscriptionsStyle
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: '10: The row contains subscriptions style data'
+  example: []
+  syntax:
+    content: >-
+      [EnumMember]
+
+      SubscriptionsStyle = 10
+    return:
+      type: SuperOffice.Data.ConfigType
+    content.vb: >-
+      <EnumMember>
+
+      SubscriptionsStyle = 10
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.Data.ConfigType.SubscriptionsOptions
+  commentId: F:SuperOffice.Data.ConfigType.SubscriptionsOptions
+  id: SubscriptionsOptions
+  parent: SuperOffice.Data.ConfigType
+  langs:
+  - csharp
+  - vb
+  name: SubscriptionsOptions
+  nameWithType: ConfigType.SubscriptionsOptions
+  fullName: SuperOffice.Data.ConfigType.SubscriptionsOptions
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: '11: The row contains subscriptions options data'
+  example: []
+  syntax:
+    content: >-
+      [EnumMember]
+
+      SubscriptionsOptions = 11
+    return:
+      type: SuperOffice.Data.ConfigType
+    content.vb: >-
+      <EnumMember>
+
+      SubscriptionsOptions = 11
   attributes:
   - type: System.Runtime.Serialization.EnumMemberAttribute
     ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
@@ -377,6 +442,36 @@ references:
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.enum
   - name: )
+- uid: System.Enum.ExtensionMethods.ResourceManagerExt.ToResourceString
+  commentId: M:ExtensionMethods.ResourceManagerExt.ToResourceString(System.Enum)
+  parent: ExtensionMethods.ResourceManagerExt
+  definition: ExtensionMethods.ResourceManagerExt.ToResourceString(System.Enum)
+  href: ExtensionMethods.ResourceManagerExt.html#ExtensionMethods_ResourceManagerExt_ToResourceString_System_Enum_
+  name: ToResourceString(Enum)
+  nameWithType: ResourceManagerExt.ToResourceString(Enum)
+  fullName: ExtensionMethods.ResourceManagerExt.ToResourceString(System.Enum)
+  spec.csharp:
+  - uid: ExtensionMethods.ResourceManagerExt.ToResourceString(System.Enum)
+    name: ToResourceString
+    isExternal: true
+    href: ExtensionMethods.ResourceManagerExt.html#ExtensionMethods_ResourceManagerExt_ToResourceString_System_Enum_
+  - name: (
+  - uid: System.Enum
+    name: Enum
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.enum
+  - name: )
+  spec.vb:
+  - uid: ExtensionMethods.ResourceManagerExt.ToResourceString(System.Enum)
+    name: ToResourceString
+    isExternal: true
+    href: ExtensionMethods.ResourceManagerExt.html#ExtensionMethods_ResourceManagerExt_ToResourceString_System_Enum_
+  - name: (
+  - uid: System.Enum
+    name: Enum
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.enum
+  - name: )
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
@@ -583,6 +678,43 @@ references:
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.enum
   - name: )
+- uid: ExtensionMethods.ResourceManagerExt.ToResourceString(System.Enum)
+  commentId: M:ExtensionMethods.ResourceManagerExt.ToResourceString(System.Enum)
+  isExternal: true
+  href: ExtensionMethods.ResourceManagerExt.html#ExtensionMethods_ResourceManagerExt_ToResourceString_System_Enum_
+  name: ToResourceString(Enum)
+  nameWithType: ResourceManagerExt.ToResourceString(Enum)
+  fullName: ExtensionMethods.ResourceManagerExt.ToResourceString(System.Enum)
+  spec.csharp:
+  - uid: ExtensionMethods.ResourceManagerExt.ToResourceString(System.Enum)
+    name: ToResourceString
+    isExternal: true
+    href: ExtensionMethods.ResourceManagerExt.html#ExtensionMethods_ResourceManagerExt_ToResourceString_System_Enum_
+  - name: (
+  - uid: System.Enum
+    name: Enum
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.enum
+  - name: )
+  spec.vb:
+  - uid: ExtensionMethods.ResourceManagerExt.ToResourceString(System.Enum)
+    name: ToResourceString
+    isExternal: true
+    href: ExtensionMethods.ResourceManagerExt.html#ExtensionMethods_ResourceManagerExt_ToResourceString_System_Enum_
+  - name: (
+  - uid: System.Enum
+    name: Enum
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.enum
+  - name: )
+- uid: ExtensionMethods.ResourceManagerExt
+  commentId: T:ExtensionMethods.ResourceManagerExt
+  parent: ExtensionMethods
+  isExternal: true
+  href: ExtensionMethods.ResourceManagerExt.html
+  name: ResourceManagerExt
+  nameWithType: ResourceManagerExt
+  fullName: ExtensionMethods.ResourceManagerExt
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
@@ -647,6 +779,13 @@ references:
     name: Util
     isExternal: true
     href: SuperOffice.Util.html
+- uid: ExtensionMethods
+  commentId: N:ExtensionMethods
+  isExternal: true
+  href: ExtensionMethods.html
+  name: ExtensionMethods
+  nameWithType: ExtensionMethods
+  fullName: ExtensionMethods
 - uid: SuperOffice.Data.ConfigType
   commentId: T:SuperOffice.Data.ConfigType
   parent: SuperOffice.Data

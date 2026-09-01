@@ -3,11 +3,12 @@ uid: help-sv-request-assign
 title: Tilldelningsmetoder
 description: Tilldelningsmetoder för ärenden
 keywords: automatisk tilldelning, tilldelningsmetod, tilldela ärende, ärende
-author: Hanne Gunnarsson, Christian Mogensen, Bergfrid Dias
-date: 02.25.2025
-version: 10.5.2
+author: digitaldiina
+date: 06.10.2026
+version: 12.0
 content_type: howto
 license: serviceessentials
+tier: starter
 audience: person
 audience_tooltip: SuperOffice Service
 language: sv
@@ -98,6 +99,7 @@ Om de istället hade valt **Tilldela inte**, skulle de ha varit tvungna att gå 
 * [Acceptera ett ärende][4]
 * [Be en annan ärendehandläggare om hjälp (överför)][5]
 * [Så här konfigurerar du Hämta nästa ärende i kön][6]
+* [Tillgänglighetsstatus][7]
 
 <!-- Referenced links -->
 [1]: index.md
@@ -106,6 +108,7 @@ Om de istället hade valt **Tilldela inte**, skulle de ha varit tvungna att gå 
 [4]: accept.md
 [5]: transfer.md
 [6]: ../admin/next-in-queue.md
+[7]: index.md#available
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/request/assign-requests.png

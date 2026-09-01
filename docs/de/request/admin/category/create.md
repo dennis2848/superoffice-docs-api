@@ -3,11 +3,12 @@ uid: help-de-request-category-create
 title: Anfragekategorie erstellen
 description: Anfragekategorie erstellen
 keywords: Anfragekategorie hinzufügen, Anfragekategorie erstellen, neue Anfragekategorie, Anfragekategorie, Kategorien-Registerkarte, Anfrage, Kategorie
-author: Hanne Gunnarsson
-date: 12.02.2025
-version: 11.7
+author: digitaldiina
+date: 06.10.2026
+version: 12.0
 content_type: howto
 license: serviceessentials
+tier: starter
 audience: settings
 audience_tooltip: Einstellungen und Verwaltung
 language: de
@@ -81,9 +82,11 @@ index: true
 ## Verwandte Inhalte
 
 * [Wie man "Nächste Anfrage in der Warteschlange" einrichtet][3]
+* [Verfügbarkeitsstatus][4]
 
 <!-- Referenced links -->
 [1]: ../../../admin/preferences/index.md
 [3]: ../next-in-queue.md
+[4]: ../../learn/index.md#available
 
 <!-- Referenced images -->

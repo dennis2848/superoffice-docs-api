@@ -30,7 +30,7 @@ Contact + Person selection archive with OR-able selection groups. Each group is 
 |contactId|int|Company ID: Database ID of company| x |
 |name|stringorPK|Company name| x |
 |department|string|Department| x |
-|nameDepartment| *None* |Company: Displays the company an activity is linked to| x |
+|nameDepartment|string|Company: Displays the company an activity is linked to| x |
 |hasInfoText|bool|Has note: Displays an icon indicating if there is additional information available about the contact| x |
 |hasInterests|bool|Has interests: Displays an Icon indicating if the contact has active interests| x |
 |associateId|associate|Our contact: Displays our contact| x |
@@ -212,7 +212,7 @@ Contact + Person selection archive with OR-able selection groups. Each group is 
 |sourceRelation/contactId|int|Source - Company ID: Database ID of company| x |
 |sourceRelation/name|stringorPK|Source - Company name| x |
 |sourceRelation/department|string|Source - Department| x |
-|sourceRelation/nameDepartment| *None* |Source - Company: Displays the company an activity is linked to| x |
+|sourceRelation/nameDepartment|string|Source - Company: Displays the company an activity is linked to| x |
 |sourceRelation/hasInfoText|bool|Source - Has note: Displays an icon indicating if there is additional information available about the contact| x |
 |sourceRelation/hasInterests|bool|Source - Has interests: Displays an Icon indicating if the contact has active interests| x |
 |sourceRelation/associateId|associate|Source - Our contact: Displays our contact| x |
@@ -249,7 +249,7 @@ Contact + Person selection archive with OR-able selection groups. Each group is 
 |targetRelation/contactId|int|Target - Company ID: Database ID of company| x |
 |targetRelation/name|stringorPK|Target - Company name| x |
 |targetRelation/department|string|Target - Department| x |
-|targetRelation/nameDepartment| *None* |Target - Company: Displays the company an activity is linked to| x |
+|targetRelation/nameDepartment|string|Target - Company: Displays the company an activity is linked to| x |
 |targetRelation/hasInfoText|bool|Target - Has note: Displays an icon indicating if there is additional information available about the contact| x |
 |targetRelation/hasInterests|bool|Target - Has interests: Displays an Icon indicating if the contact has active interests| x |
 |targetRelation/associateId|associate|Target - Our contact: Displays our contact| x |
@@ -340,7 +340,8 @@ Contact + Person selection archive with OR-able selection groups. Each group is 
 |sale/createdByWorkflow|listAny|Created by flow: Created by flow| x |
 |sale/amountInBaseCurrency| *None* |Amount (BaseCurrency: The gross sales total| x |
 |sale/amountWeightedInBaseCurrency| *None* |Weighted amount (BaseCurrency: Virtual field calculated from amount * probability percent.| x |
-|sale/daysInStage| *None* |Days in stage: Total number of days in this stage| x |
+|sale/daysInStage|int|Days in stage: Total number of days in this stage| x |
+|sale/saleCycle|int|Sale cycle: Number of days from a sale was registered until it was closed (sold or lost)| x |
 |sale/visibleFor|listAny|Visible for|  |
 |sale/sale/textId|int|Text ID| x |
 |sale/sale/description|positiveString|Text: Displays the text entered in the description field| x |
@@ -433,11 +434,11 @@ Contact + Person selection archive with OR-able selection groups. Each group is 
 |appointment/duration|timeSpan|Duration: The duration of the chat session|  |
 |appointment/createdByWorkflow|listAny|Created by flow: Created by flow| x |
 |appointment/visibleFor|listAny|Visible for|  |
-|appointment/appointmentPublish/isPublished|bool|Published: Displays an icon indicating if the project or sale has been published| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|appointment/appointmentPublish/isPublished|bool|Published: Displays an icon indicating if the project or sale has been published| x |
 |appointment/appointmentPublish/publishedFrom|date|From date: Start date for publishing. The record will not be visible prior to this date| x |
 |appointment/appointmentPublish/publishedTo|date|To date: End date for publishing. The record will not be visible after this date| x |
 |appointment/appointmentPublish/publishedBy| *None* |Published by: Published by|  |
@@ -482,6 +483,7 @@ Contact + Person selection archive with OR-able selection groups. Each group is 
 |appointment/associate/personEmail|string|E-mail| x |
 |appointment/associate/locationAddress|string|Location: Location| x |
 |appointment/associate/isLocation|bool|Is a location: Is a location| x |
+|appointment/appointment/text|positiveString|Text: Displays a descriptive text for the item| x |
 |appointment/appointment/description|positiveString|Text: Displays the text entered in the description field| x |
 |appointment/appointment/title|positiveString|Title| x |
 |appointment/appointment/titleHtml| *None* |!!Title Html| x |
@@ -536,12 +538,12 @@ Contact + Person selection archive with OR-able selection groups. Each group is 
 |document/associate/contactId|int|Company ID: Database ID of the company the user belongs to|  |
 |document/associate/personId|int|Contact ID: Database ID of the contact row|  |
 |document/associate/mrMrs|string|Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
-|document/associate/title|string|Title: Displays whether the contact is addressed as Mr or Ms| x |
-|document/associate/associateDbId|associate|ID| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|document/associate/title|string|Title: Displays whether the contact is addressed as Mr or Ms| x |
+|document/associate/associateDbId|associate|ID| x |
 |document/associate/contactName|string|Owning company: Name of the company the user belongs to| x |
 |document/associate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
 |document/associate/usergroup|userGroup|Primary group: The user's primary user group| x |
@@ -580,7 +582,7 @@ Contact + Person selection archive with OR-able selection groups. Each group is 
 |firstName|string|First name: Displays the contact's first name| x |
 |lastName|string|Last name: Displays the contact's last name| x |
 |middleName|string|Middle name: Displays the contact's middle name.| x |
-|fullName|stringorPK|Contact: Displays the contact to which an item is linked| x |
+|fullName|string|Contact: Displays the contact to which an item is linked| x |
 |personHasInterests|bool|Has interests: Displays an Icon indicating if the contact has active interests| x |
 |mrMrs|string|Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
 |position|listAny|Position| x |
@@ -640,12 +642,12 @@ Contact + Person selection archive with OR-able selection groups. Each group is 
 |personDirectFax/formattedNumber|string|Fax - Phone: Displays phone number|  |
 |personDirectFax/description|string|Fax - Description: Phone number description| x |
 |personInfo/textId|int|Text ID| x |
-|personInfo/infoText|positiveString|Information: Displays the text entered in the description field| x |
-|personEmail/emailProtocol|string|Protocol: E-mail protocol, such as SMTP| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|personInfo/infoText|positiveString|Information: Displays the text entered in the description field| x |
+|personEmail/emailProtocol|string|Protocol: E-mail protocol, such as SMTP| x |
 |personEmail/emailAddress|string|E-mail| x |
 |personEmail/emailDescription|string|Description| x |
 |personEmail/emailId|int|ID| x |
@@ -707,7 +709,7 @@ Contact + Person selection archive with OR-able selection groups. Each group is 
 |personSourceRelation/firstName|string|Source - First name: Displays the contact's first name| x |
 |personSourceRelation/lastName|string|Source - Last name: Displays the contact's last name| x |
 |personSourceRelation/middleName|string|Source - Middle name: Displays the contact's middle name.| x |
-|personSourceRelation/fullName|stringorPK|Source - Contact: Displays the contact to which an item is linked| x |
+|personSourceRelation/fullName|string|Source - Contact: Displays the contact to which an item is linked| x |
 |personSourceRelation/contactId|int|Source - Company ID: Database ID of company| x |
 |personSourceRelation/hasInfoText|bool|Source - Has note: Displays an icon indicating if there is additional information available about the contact| x |
 |personSourceRelation/hasInterests|bool|Source - Has interests: Displays an Icon indicating if the contact has active interests| x |
@@ -744,12 +746,12 @@ Contact + Person selection archive with OR-able selection groups. Each group is 
 |personSourceRelation/supportAssociateFullName|associate|Source - Our service contact - Full name: Default service contact for this contact| x |
 |personSourceRelation/personAssociateId|associate|Source - Our contact: Displays our contact| x |
 |personSourceRelation/personAssociateFullName|associate|Source - Our contact - Full name: Displays our contact| x |
-|personSourceRelation/personCategory|listAny|Source - Category| x |
-|personSourceRelation/personCategoryGroup|listAny|Source - Category group| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|personSourceRelation/personCategory|listAny|Source - Category| x |
+|personSourceRelation/personCategoryGroup|listAny|Source - Category group| x |
 |personSourceRelation/personCategoryRank|int|Source - !!Category rank| x |
 |personSourceRelation/personBusiness|listAny|Source - Business| x |
 |personSourceRelation/leadStatus|listAny|Source - Lead status| x |
@@ -769,7 +771,7 @@ Contact + Person selection archive with OR-able selection groups. Each group is 
 |personTargetRelation/firstName|string|Target - First name: Displays the contact's first name| x |
 |personTargetRelation/lastName|string|Target - Last name: Displays the contact's last name| x |
 |personTargetRelation/middleName|string|Target - Middle name: Displays the contact's middle name.| x |
-|personTargetRelation/fullName|stringorPK|Target - Contact: Displays the contact to which an item is linked| x |
+|personTargetRelation/fullName|string|Target - Contact: Displays the contact to which an item is linked| x |
 |personTargetRelation/contactId|int|Target - Company ID: Database ID of company| x |
 |personTargetRelation/hasInfoText|bool|Target - Has note: Displays an icon indicating if there is additional information available about the contact| x |
 |personTargetRelation/hasInterests|bool|Target - Has interests: Displays an Icon indicating if the contact has active interests| x |
@@ -848,12 +850,12 @@ Contact + Person selection archive with OR-able selection groups. Each group is 
 |personAssociate/simultaneousEjUser|bool|Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
 |personAssociate/ejDisplayName|string|Nickname: User's nickname in Service| x |
 |personAssociate/ejStatus|int|Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
-|personAssociate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in| x |
-|personAssociate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|personAssociate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in| x |
+|personAssociate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
 |personAssociate/isActive|bool|Active: Is this user active, and should be able to log in?| x |
 |personAssociate/isActiveText|bool|Active status: Is this user active, and should be able to log in?| x |
 |personAssociate/portraitThumbnail| *None* |Person image: Person image|  |
@@ -911,7 +913,7 @@ Contact + Person selection archive with OR-able selection groups. Each group is 
 |request/projectId|int|Project ID: Database ID of project record| x |
 |request/ticketStatusId|int|Status ID: Status| x |
 |request/priorityId|int|Priority ID: ID of priority in database| x |
-|request/categoryId|int|Category ID: ID of ticket category in database| x |
+|request/categoryId|int|Category ID: ID of request category in database| x |
 |request/ticketTypeName|listAny|Request type: Request type| x |
 |request/ticketStatusName|listAny|Status: Request status| x |
 |request/categoryFullName|ejCategory|Category: Request category| x |
@@ -920,6 +922,7 @@ Contact + Person selection archive with OR-able selection groups. Each group is 
 |request/ticketId|int|ID: Displays request ID| x |
 |request/title|string|Title: Displays the request title| x |
 |request/createdAt|datetime|Created: Displays when the request was created| x |
+|request/createdDate|date|Created date: Created date| x |
 |request/lastChanged|datetime|Last changed: Displays when the request was last changed| x |
 |request/author|string|Author: Displays the author of the request| x |
 |request/readByOwner|datetime|Read by owner: Displays when the request was read by the owner| x |
@@ -951,13 +954,13 @@ Contact + Person selection archive with OR-able selection groups. Each group is 
 |request/has\_attachment|bool|Has attachment: Indicates whether the e-mail has one or more attachments| x |
 |request/tags|intArray|Tags: Tags connected to a request| x |
 |request/createdBy|ejUser|Created by: Created by| x |
-|request/content|string|Content: Search for content in messages related to requests| x |
-|request/messageLanguage|listAny|Language: Recognized language in messages|  |
-|request/sentimentScore|listAny|Sentiment: Sentiment score, -100 to +100|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|request/content|string|Content: Search for content in messages related to requests| x |
+|request/messageLanguage|listAny|Language: Recognized language in messages|  |
+|request/sentimentScore|listAny|Sentiment: Sentiment score, -100 to +100|  |
 |request/sentimentConfidence|int|Sentiment confidence: Sentiment confidence| x |
 |request/suggestedCategory|listAny|Suggested category: Suggested service category|  |
 |request/createdByWorkflow|listAny|Created by flow: Created by flow| x |
@@ -1029,7 +1032,7 @@ Contact + Person selection archive with OR-able selection groups. Each group is 
 |request/ownedBy/isLocation|bool|Owner - Is a location: Is a location| x |
 |request/ticketStatus/ticketStatusId|int|Status - ID: Displays request status ID| x |
 |request/ticketStatus/name|string|Status - Name: Displays the name of the request status| x |
-|request/ticketStatus/rank|int|Status - Status rank: Sort order of the status in the ticket status list| x |
+|request/ticketStatus/rank|int|Status - Status rank: Sort order of the status in the request status list| x |
 |request/ticketPriority/ticketPriorityId|int|Priority - ID: Displays the ID of the priority| x |
 |request/ticketPriority/name|string|Priority - Name: Displays the name of the priority| x |
 |request/ticketPriority/rank|int|Priority - Priority rank: Sort order of priority in the priority list| x |
@@ -1055,13 +1058,13 @@ Contact + Person selection archive with OR-able selection groups. Each group is 
 |projectMembers/number|string|Number: Displays the project's number| x |
 |projectMembers/type|listAny|Project type: Displays the project's type| x |
 |projectMembers/status|listAny|Status: Displays the project's status| x |
-|projectMembers/statusRank| *None* |Status rank: Rank of the project status in the status list| x |
-|projectMembers/associateId|associate|ID: Displays login ID of the associate who owns the project| x |
-|projectMembers/hasInfoText|bool|Info: Displays an icon indicating if the project has a description text. The text itself will be displayed in a tooltip.| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|projectMembers/statusRank| *None* |Status rank: Rank of the project status in the status list| x |
+|projectMembers/associateId|associate|ID: Displays login ID of the associate who owns the project| x |
+|projectMembers/hasInfoText|bool|Info: Displays an icon indicating if the project has a description text. The text itself will be displayed in a tooltip.| x |
 |projectMembers/icon| *None* |Category: Displays the icon for an activity type| x |
 |projectMembers/text|string|Text: Displays a descriptive text for the item| x |
 |projectMembers/description|string|Description : Description| x |
@@ -1076,7 +1079,10 @@ Contact + Person selection archive with OR-able selection groups. Each group is 
 |projectMembers/endDate|date|End date: End date of project| x |
 |projectMembers/imageThumbnail| *None* |Thumbnail: Scaled-down image of project image|  |
 |projectMembers/activeErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
+|projectMembers/eventId|int|Event ID: Event ID| x |
+|projectMembers/startDate|date|Start date: Project start date| x |
 |projectMembers/function|listAny|Function: Displays the project member's function in the project| x |
+|projectMembers/eventParticipantStatus|listAny|Project member - Event status: Project member - Event status| x |
 |projectMembers/projectPublish/isPublished|bool|Published: Displays an icon indicating if the project or sale has been published| x |
 |projectMembers/projectPublish/publishedFrom|date|From date: Start date for publishing. The record will not be visible prior to this date| x |
 |projectMembers/projectPublish/publishedTo|date|To date: End date for publishing. The record will not be visible after this date| x |
@@ -1156,16 +1162,16 @@ Contact + Person selection archive with OR-able selection groups. Each group is 
 |projectMembers/project/infoText|positiveString|Information: Displays the text entered in the description field| x |
 |personAppointment/completed|bool|Completed: Displays a checkbox showing if an appointment is completed| x |
 |personAppointment/icon|listAny|Category: Displays the icon for an activity type| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |personAppointment/date|date|Date: Displays start date of a follow-up / sale date of a sale| x |
 |personAppointment/time| *None* |Time: Time|  |
 |personAppointment/type|listAny|Type: Displays the type of an activity| x |
 |personAppointment/recordType|string|Record type : Shows the record type| x |
 |personAppointment/text|positiveString|Text: Displays a descriptive text for the item| x |
 |personAppointment/associateId|associate|ID: Displays the login ID of the associate who owns the activity.| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |personAppointment/contactId|listAny|Company ID: Database ID of company| x |
 |personAppointment/personId|listAny|Contact ID: Database ID of the contact row| x |
 |personAppointment/projectId|listAny|Project ID: Database ID of project record| x |
@@ -1247,6 +1253,7 @@ Contact + Person selection archive with OR-able selection groups. Each group is 
 |personAppointment/associate/personEmail|string|E-mail| x |
 |personAppointment/associate/locationAddress|string|Location: Location| x |
 |personAppointment/associate/isLocation|bool|Is a location: Is a location| x |
+|personAppointment/appointment/text|positiveString|Text: Displays a descriptive text for the item| x |
 |personAppointment/appointment/description|positiveString|Text: Displays the text entered in the description field| x |
 |personAppointment/appointment/title|positiveString|Title| x |
 |personAppointment/appointment/titleHtml| *None* |!!Title Html| x |
@@ -1259,6 +1266,10 @@ Contact + Person selection archive with OR-able selection groups. Each group is 
 |fullNameWithContact| *None* |Contact and company: The fully formatted contact name, and full company name| x |
 |selectionMemberId|int|Selection member ID: The database ID of the selection member record|  |
 |selectionIdRequest|int|Selection ID: Database ID of selection which members are to be fetched from|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |linkClicked/linkId|int|Link ID: Link ID|  |
 |linkClicked/shipmentId|int|ID: Displays the ID of the mailing|  |
 |formSubmission/formSubmissionId|int|Form submission ID: ID of the form submission record| x |
@@ -1266,10 +1277,6 @@ Contact + Person selection archive with OR-able selection groups. Each group is 
 |formSubmission/formSubmissionName|string|Form name: Displays a descriptive text for the item| x |
 |formSubmission/formSubmissionStatus|listAny|Status: Status of the form submission record| x |
 |formSubmission/formSubmissionEmail|string|E-mail: The e-mail address of the person who submitted the form| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |formSubmission/icon| *None* |Category: Displays the icon for an activity type| x |
 |formSubmission/date|date|Date: Displays start date of a follow-up / sale date of a sale| x |
 |formSubmission/time| *None* |Time: Time|  |
@@ -1363,6 +1370,10 @@ Contact + Person selection archive with OR-able selection groups. Each group is 
 |sale/quote/version/paymentType|listExternal|Payment type: Payment type|  |
 |sale/quote/version/deliveryTerms|listExternal|Delivery terms: Delivery terms|  |
 |sale/quote/version/deliveryType|listExternal|Delivery type: Delivery type|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |sale/quote/version/approvedBy|associate|Approved by: Associate who approved a quote that broke one or more of the workflow rules that trigger an approval process| x |
 |sale/quote/version/approvalRegisteredBy|associate|Approval reg by: Associate who entered the approval of a quote that broke one or more of the workflow rules that trigger an approval process.  Not necessarily the person who approved the quote.| x |
 |sale/quote/version/approvedText|string|Approval comment: Comment added to the approval of a quote that broke one or more of the workflow rules that trigger an approval process| x |
@@ -1370,10 +1381,6 @@ Contact + Person selection archive with OR-able selection groups. Each group is 
 |sale/quote/version/extraField1|string|Extra field 1: One of the extra fields on the product; meaning is installation dependent| x |
 |sale/quote/version/extraField2|string|Extra field 2: One of the extra fields on the product; meaning is installation dependent| x |
 |sale/quote/version/extraField3|string|Extra field 3: One of the extra fields on the product; meaning is installation dependent| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |sale/quote/version/extraField4|string|Extra field 4: One of the extra fields on the product; meaning is installation dependent| x |
 |sale/quote/version/extraField5|string|Extra field 5: One of the extra fields on the product; meaning is installation dependent| x |
 |sale/quote/version/alternative/quoteAlternativeId|int|QuoteAlternative ID: SuperOffice database ID of the quote alternative record| x |
@@ -1447,7 +1454,7 @@ Contact + Person selection archive with OR-able selection groups. Each group is 
 ## Sample
 
 ```http!
-GET /api/v1/archive/ContactPersonDynamicSelectionV2?$select=sale/originalStage,sale/daysInStage,document/keywords,kanaFirstName,personEmail/emailDescription
+GET /api/v1/archive/ContactPersonDynamicSelectionV2?$select=contactExtra/x_contact_integer,sale/associate/fullName,personSourceRelation/portraitThumbnail,request/createdBy/mrMrs,personAppointment/endTime
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

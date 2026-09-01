@@ -1,15 +1,16 @@
-﻿---
+---
 uid: help-de-form-publish
 title: Formulare veröffentlichen
 description: Formulare veröffentlichen
 keywords: Formular, Formulare veröffentlichen, Felder vorausfüllen, vorausgefüllt, vorausgefüllts Feld, Feldidentifikator, Feldbezeichnung, Formular einbetten, Skript-Tag, veröffentlichen, UTM-Builder, UTM-Tracking hinzufügen
 author: digitaldiina
-date: 11.06.2025
-version: 11.6
+date: 06.10.2026
+version: 12.0
 content_type: howto
 category: marketing
 topic: forms
 license: marketingessentials
+tier: growth
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: de
@@ -80,7 +81,7 @@ Der integrierte **UTM-Builder** erstellt einen Formularlink mit [UTM-Parametern]
 
 ### Voraussetzungen und Einschränkungen
 
-* Sie haben einen **Marketing Premium**-Benutzerplan.
+* Sie haben eine **Marketing Premium**-Lizenz oder den **Plus**-Plan.
 * Ein Administrator hat [die Übertragung von UTM-Daten für Formularübermittlungen aktiviert][6].
 * UTM-Tracking ist nur für die Option **Direkter Link** verfügbar. Es gilt nicht für eingebettete Formulare.
 

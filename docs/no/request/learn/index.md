@@ -3,15 +3,16 @@ uid: help-no-request
 title: Saker
 description: Introduksjon til saker i SuperOffice
 keywords: sak, service
-author: Bergfrid Dias
-date: 09.01.2025
-version: 11.3
+author: digitaldiina
+date: 06.10.2026
+version: 12.0
 content_type: concept
 license: serviceessentials
+tier: starter
 audience: person
 audience_tooltip: SuperOffice Service
 language: no
-redirect_from: 
+redirect_from:
   - /no/request/learn/screen/index
   - /no/request/learn/screen/ticket-log
 ---
@@ -49,6 +50,7 @@ Bildet Sak har følgende deler:
 * Under toppteksten er det en rad med knapper til oppgaver knyttet til saker, for eksempel Svar, Svar til alle, Videresend og Legg til kommentar.
 * Fanen **Meldinger** viser meldingene som er knyttet til saken.
 * Fanen **Detaljer** inneholder en oversikt over informasjonen som er registrert for saken.
+* Fanen **Relasjoner** viser [tilknyttede saker][21] (overordnet, underordnet eller relatert).
 * Fanen **Endringslogg** inneholder historikken for denne saken. Saksloggen viser alt som har skjedd i denne saken siden den ble registrert.
 
 ### Topptekst for sak
@@ -97,6 +99,9 @@ Klikk på <i class="ph ph-dots-three-circle-vertical" aria-label="Task menu"></i
 Fanen **Detaljer** inneholder en oversikt over alle feltene for saken.
 
 ### <a id="log"></a>Endringslogg
+
+> [!NOTE]
+> Endringslogg krever en **Service Premium**-lisens eller **Growth**-planen.
 
 Dette bildet viser loggen for denne saken. Alle hendelser registreres, inkludert når de oppstod, hva som skjedde, og hvem som var ansvarlig.
 
@@ -150,6 +155,7 @@ Et personservicesystem handler om å gi personer svarene de er ute etter, og å 
 * [Videresende meldinger eller flere saker til eksterne parter][8]
 * [Legge til saker i favorittlisten][18]
 * [Avslutte saker][3]
+* [Merk saker som spam][27]
 
 Ulike firmaer har ulike rutiner for saksbehandling og kan bruke SuperOffice Service på forskjellige måter. Nedenfor har vi satt opp to scenarioer fra virkeligheten som viser noen av mulighetene som finnes. Disse scenarioene viser deg hvordan du kan svare effektivt når en person har sendt inn en sak via e-post, og når en person ringer inn med et problem eller et spørsmål.
 
@@ -200,6 +206,20 @@ Du kan tilpasse saker slik at de passer din arbeidsflyt:
 
 1. Klikk **Lagre** for å bruke endringene.
 
+## <a id="available"></a>Din tilgjengelighetsstatus
+
+Din tilgjengelighetsstatus bestemmer om du mottar saker via automatisk tildeling. Den påvirker også tildelingen av personer.
+
+Klikk på <i class="ph ph-user-circle" aria-hidden="true"></i> **Personlige innstillinger** i topmenyen, og velg **Din tilgjengelighetsstatus** for å oppdatere statusen din.
+
+* **Til stede:** Du er tilgjengelig for automatisk tildeling av saker og personer.
+* **Ikke til stede:** Nye saker tildeles ikke til deg. Fraværsmeldingen din vises ved navnet ditt når noen manuelt tildeler en sak.
+
+> [!TIP]
+> Hvis en saksbehandler glemmer å oppdatere statusen sin eller er uventet fraværende, kan en administrator endre saksbehandlerens tilgjengelighetsstatus på vedkommendes vegne i **Innstillinger og vedlikehold** > **Brukere**.
+
+Hvordan saker fordeles på nytt når en bruker ikke er til stede, avhenger av [fordelingsmetoden][6] som er konfigurert for kategorien.
+
 ## Globale preferanser
 
 Administratorer kan tilpasse Service for alle brukere i Innstillinger og vedlikehold.
@@ -242,6 +262,7 @@ Noen innstillinger som påvirker kundestøtteagenter inkluderer:
 [16]: merge.md
 [17]: ../../dashboard/learn/show-requests.md
 [19]: split-message.md
+[21]: request-relations.md
 [22]: tags.md
 [24]: ../admin/priority/escalation-levels.md
 [25]: ../admin/category/index.md
@@ -252,6 +273,7 @@ Noen innstillinger som påvirker kundestøtteagenter inkluderer:
 [23]: ../../knowledge-base/learn/reply-templates/index.md
 [20]: https://community.superoffice.com/en/learning/best-practices-tips/service/7-tips-to-provide-best-in-class-customer-service-with-superoffice-service/
 [26]: ../../admin/preferences/service-settings.md
+[27]: spam.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/request/request-list-preview.png

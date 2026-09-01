@@ -1,15 +1,16 @@
-﻿---
+---
 uid: help-nl-form-create
 title: Een nieuw formulier maken
 description: Leer hoe u een webformulier kunt maken in deze handleiding.
 keywords: formulier, opt-in
 author: digitaldiina
-date: 01.27.2026
-version: 11.9
+date: 05.04.2026
+version: 11.13
 content_type: howto
 category: marketing
 topic: forms
 license: marketingessentials
+tier: growth
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: nl
@@ -85,13 +86,13 @@ In de categorie **Velden** voegt u de velden toe die moeten worden opgenomen in 
 
 3. Selecteer in het venster **Element toevoegen** een van de volgende veldcategorieën:
 
-    * **SuperOffice-elementen**: Velden die zijn gekoppeld aan SuperOffice-gegevens, zoals naam van persoon, land, e-mailadres enzovoort. Afhankelijk van het type veld, kunnen waarden van ingediende formulieren zowel bestaande waarden vervangen (zoals land of functie) of worden toegevoegd aan het relevante SuperOffice-veld (zoals mobiel nummer).
+    * **SuperOffice-elementen**: Velden die zijn gekoppeld aan SuperOffice-gegevens, zoals naam van persoon, land, e-mailadres enzovoort. Standaard- en aangepaste velden zijn beschikbaar. Afhankelijk van het type veld, kunnen waarden van ingediende formulieren bestaande waarden overschrijven of worden toegevoegd aan het relevante SuperOffice-veld. Wanneer u overschrijven voor een veld inschakelt, wordt een waarschuwing weergegeven. Als een veld ontbreekt of de overschrijfoptie niet beschikbaar is, heeft een beheerder mogelijk een [veldrestrictie][10] toegepast.
 
     * **Formulierelementen**: Velden om tekst of datum in te voeren, velden om waarden te selecteren (lijsten, selectievakjes en keuzerondjes) en velden om bestanden te uploaden.
 
     * **Elementen weergeven**: Paragrafen, teksten en afbeeldingen. Gebruik secties om [formulieren met meerdere pagina's te maken](#multi-page).
 
-4. Selecteer een veld uit de lijst.
+4. Selecteer een veld uit de lijst. Als de lijst lang is, gebruikt u het zoekvak om een veld op naam te vinden.
 
 5. Klik op **Toevoegen**. Het venster wordt gesloten en het veld wordt toegevoegd aan het formulier en het formuliervoorbeeld.
 
@@ -129,6 +130,27 @@ Het voorbeeld rechts wordt automatisch bijgewerkt wanneer u instellingen wijzigt
 Selecteer een **lettertype** uit de vervolgkeuzelijst om het toe te passen op alle tekst in het formulier. De [beschikbare lettertypen][9] worden beheerd door beheerders in Instellingen en onderhoud.
 
 Het gekozen lettertype is van toepassing op veldlabels en alle andere tekstelementen in het formulier. U kunt ook de vervolgkeuzelijst voor de lettergrootte en de opmaakknoppen gebruiken om alle tekst op te maken.
+
+#### <a id="custom-style"></a>Aangepaste stijlen
+
+Voor volledige controle over hoe uw formulier eruitziet, kunt u CSS schrijven in het veld **Aangepaste stijlen**. Hiermee gaat u verder dan de standaard editoropties en kunt u uw merkrichtlijnen nauwkeurig afstemmen.
+
+![Formulier-editor - aangepaste styling met CSS -screenshot][img16]
+
+* **Voor ervaren gebruikers:** Typ of plak uw CSS-code rechtstreeks in het veld.
+* **Voor minder gevorderde gebruikers:** Selecteer een CSS-klasse uit de lijst en voeg uw code toe. Deze aanpak maakt styling minder overweldigend en geeft u meer controle over wat u wijzigt.
+
+Als [AI Lab][11] is ingeschakeld voor uw organisatie, kunt u automatisch CSS extraheren uit een bestaande website in plaats van dit handmatig te schrijven.
+
+![Formulier-editor - stijlen extraheren met AI -screenshot][img17]
+
+1. Voer de URL in van de webpagina waarvan u de stijl wilt toepassen.
+1. Selecteer **Stijlen extraheren met AI**. De geëxtraheerde CSS wordt ingevoegd in het veld.
+1. Controleer en pas de gegenereerde CSS aan indien nodig.
+
+De volgende CSS-klassen zijn beschikbaar:
+
+[!include[CSS-klassen](../../../../../common/includes/list-of-form-css-classes.md)]
 
 ### Dubbele opt-in activeren
 
@@ -194,6 +216,10 @@ Hier kunt u [definiëren wat er gebeurt wanneer iemand een reactie op een formul
 [4]: field-options.md
 [8]: ../../learn/create-folder.md
 [9]: ../admin/manage-fonts.md
+[10]: ../admin/form-field-restrictions.md
+[11]: ../../../ai/learn/index.md
 
 <!-- Referenced images -->
 [img15]: ../../../../media/loc/en/marketing/contact-me-form-properties.png
+[img16]: ../../../../media/loc/en/marketing/form-custom-styling.png
+[img17]: ../../../../media/loc/en/marketing/form-extract-styles-ai.png

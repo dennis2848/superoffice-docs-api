@@ -1,14 +1,15 @@
-﻿---
+---
 uid: help-nl-marketing
 title: SuperOffice Marketing
 description: De functies voor marketing omvatten mailings en webformulieren en helpen gebruikers om informatie te verzamelen en beter te communiceren met prospects en klanten. Gecombineerd kunnen ze u helpen meer leads te genereren, meer te verkopen aan bestaande klanten en klantenbinding op te bouwen.
 keywords: Marketing
 author: SuperOffice Product and Engineering
-date: 09.26.2025
-version: 10.5
+date: 06.10.2026
+version: 12.0
 content_type: concept
 category: marketing
 license: marketingessentials
+tier: growth
 audience: person
 audience_tooltip: SuperOffice Marketing
 redirect_from: /nl/marketing/learn/screen/index
@@ -69,7 +70,7 @@ Er zijn drie belangrijke gebieden waarop de AVG van invloed is op het werk van m
 ## Eisen
 
 > [!NOTE]
-> Voor functionaliteit als gevolgde koppelingen en rapporteren is de gebruikerslicentie Marketing vereist. U hebt ook functionele rechten nodig om mailings te bewerken en te verzenden.
+> Voor functionaliteit als gevolgde koppelingen en rapporteren is een **Marketing Essentials**-licentie of het **Growth**-plan vereist. U hebt ook functionele rechten nodig om mailings te bewerken en te verzenden.
 
 SMS-mailing is niet beschikbaar als u CRM Online gebruikt.
 
@@ -92,10 +93,6 @@ Om te profiteren van de marketingfuncties van SuperOffice, hebt u een basiskenni
 | Automatisering van klantreizen​ | | x |
 | Cross-sell en up-sell enablement​ | | x |
 | Marketing/verkoop afstemming​ | x | x |
-
-## Verschillen tussen lokale en online installaties
-
-SuperOffice Marketing wordt aangeboden als online toepassing (cloud-gebaseerd) en als lokale toepassing (geïnstalleerd op locatie bij de klant). Er zijn een paar kleine verschillen tussen deze twee. Specifieke functionele verschillen worden aangegeven door de pictogrammen in de procedures of in de titels van de onderwerpen.
 
 ## Tabbladen SuperOffice Marketing
 

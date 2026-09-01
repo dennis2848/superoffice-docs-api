@@ -5,6 +5,8 @@ items:
   id: S.FieldExpression
   parent: SuperOffice.Data
   children:
+  - SuperOffice.Data.S.FieldExpression.Case
+  - SuperOffice.Data.S.FieldExpression.Concat(SuperOffice.Data.SQL.Argument[])
   - SuperOffice.Data.S.FieldExpression.Count(SuperOffice.Data.SQL.Argument)
   - SuperOffice.Data.S.FieldExpression.CountAll(SuperOffice.Data.SQL.Argument)
   - SuperOffice.Data.S.FieldExpression.Distinct(SuperOffice.Data.SQL.FieldInfo)
@@ -337,6 +339,60 @@ items:
   nameWithType.vb: S.FieldExpression.JsonValue(FieldInfo, String)
   fullName.vb: SuperOffice.Data.S.FieldExpression.JsonValue(SuperOffice.Data.SQL.FieldInfo, String)
   name.vb: JsonValue(FieldInfo, String)
+- uid: SuperOffice.Data.S.FieldExpression.Case
+  commentId: M:SuperOffice.Data.S.FieldExpression.Case
+  id: Case
+  parent: SuperOffice.Data.S.FieldExpression
+  langs:
+  - csharp
+  - vb
+  name: Case()
+  nameWithType: S.FieldExpression.Case()
+  fullName: SuperOffice.Data.S.FieldExpression.Case()
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: >-
+    Create a CASE expression. Add branches with <code>.When(condition, result)</code> and optionally <code>.Else(result)</code>.
+
+    <pre><code class="lang-csharp">S.FieldExpression.Case()
+        .When(condition1, result1)
+        .When(condition2, result2)
+        .Else(elseResult);</code></pre>
+  example: []
+  syntax:
+    content: public static Case Case()
+    return:
+      type: SuperOffice.Data.SQL.Case
+    content.vb: Public Shared Function [Case]() As [Case]
+  overload: SuperOffice.Data.S.FieldExpression.Case*
+- uid: SuperOffice.Data.S.FieldExpression.Concat(SuperOffice.Data.SQL.Argument[])
+  commentId: M:SuperOffice.Data.S.FieldExpression.Concat(SuperOffice.Data.SQL.Argument[])
+  id: Concat(SuperOffice.Data.SQL.Argument[])
+  parent: SuperOffice.Data.S.FieldExpression
+  langs:
+  - csharp
+  - vb
+  name: Concat(params Argument[])
+  nameWithType: S.FieldExpression.Concat(params Argument[])
+  fullName: SuperOffice.Data.S.FieldExpression.Concat(params SuperOffice.Data.SQL.Argument[])
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  syntax:
+    content: public static Concat Concat(params Argument[] args)
+    parameters:
+    - id: args
+      type: SuperOffice.Data.SQL.Argument[]
+    return:
+      type: SuperOffice.Data.SQL.Concat
+    content.vb: Public Shared Function Concat(ParamArray args As Argument()) As Concat
+  overload: SuperOffice.Data.S.FieldExpression.Concat*
+  nameWithType.vb: S.FieldExpression.Concat(ParamArray Argument())
+  fullName.vb: SuperOffice.Data.S.FieldExpression.Concat(ParamArray SuperOffice.Data.SQL.Argument())
+  name.vb: Concat(ParamArray Argument())
 references:
 - uid: SuperOffice.Data
   commentId: N:SuperOffice.Data
@@ -827,3 +883,56 @@ references:
   name: JsonValue
   nameWithType: JsonValue
   fullName: SuperOffice.Data.SQL.JsonValue
+- uid: SuperOffice.Data.S.FieldExpression.Case*
+  commentId: Overload:SuperOffice.Data.S.FieldExpression.Case
+  isExternal: true
+  href: SuperOffice.Data.S.FieldExpression.html#SuperOffice_Data_S_FieldExpression_Case
+  name: Case
+  nameWithType: S.FieldExpression.Case
+  fullName: SuperOffice.Data.S.FieldExpression.Case
+- uid: SuperOffice.Data.SQL.Case
+  commentId: T:SuperOffice.Data.SQL.Case
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  href: SuperOffice.Data.SQL.Case.html
+  name: Case
+  nameWithType: Case
+  fullName: SuperOffice.Data.SQL.Case
+- uid: SuperOffice.Data.S.FieldExpression.Concat*
+  commentId: Overload:SuperOffice.Data.S.FieldExpression.Concat
+  isExternal: true
+  href: SuperOffice.Data.S.FieldExpression.html#SuperOffice_Data_S_FieldExpression_Concat_SuperOffice_Data_SQL_Argument___
+  name: Concat
+  nameWithType: S.FieldExpression.Concat
+  fullName: SuperOffice.Data.S.FieldExpression.Concat
+- uid: SuperOffice.Data.SQL.Argument[]
+  isExternal: true
+  href: SuperOffice.Data.SQL.Argument.html
+  name: Argument[]
+  nameWithType: Argument[]
+  fullName: SuperOffice.Data.SQL.Argument[]
+  nameWithType.vb: Argument()
+  fullName.vb: SuperOffice.Data.SQL.Argument()
+  name.vb: Argument()
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.Argument
+    name: Argument
+    isExternal: true
+    href: SuperOffice.Data.SQL.Argument.html
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.Argument
+    name: Argument
+    isExternal: true
+    href: SuperOffice.Data.SQL.Argument.html
+  - name: (
+  - name: )
+- uid: SuperOffice.Data.SQL.Concat
+  commentId: T:SuperOffice.Data.SQL.Concat
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  href: SuperOffice.Data.SQL.Concat.html
+  name: Concat
+  nameWithType: Concat
+  fullName: SuperOffice.Data.SQL.Concat

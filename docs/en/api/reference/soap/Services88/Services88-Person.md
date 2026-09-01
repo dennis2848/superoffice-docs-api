@@ -1050,20 +1050,6 @@ content_type: reference
           </xs:sequence>
         </xs:complexType>
       </xs:element>
-      <xs:element name="GetPersonImageAsStream">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="PersonId" type="xs:int" />
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="GetPersonImageAsStreamResponse">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="xs:base64Binary" />
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
       <xs:element name="SetPersonImage">
         <xs:complexType>
           <xs:sequence>
@@ -1073,19 +1059,6 @@ content_type: reference
         </xs:complexType>
       </xs:element>
       <xs:element name="SetPersonImageResponse">
-        <xs:complexType>
-          <xs:sequence />
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="SetPersonImageFromStream">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="PersonId" type="xs:int" />
-            <xs:element minOccurs="0" name="Image" nillable="true" type="xs:base64Binary" />
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="SetPersonImageFromStreamResponse">
         <xs:complexType>
           <xs:sequence />
         </xs:complexType>
@@ -1810,10 +1783,24 @@ content_type: reference
           <xs:sequence />
         </xs:complexType>
       </xs:element>
+      <xs:element name="UpdateInterests">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="PersonId" type="xs:int" />
+            <xs:element minOccurs="0" name="EnableInterestIds" nillable="true" type="q10:ArrayOfint" xmlns:q10="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="DisableInterestIds" nillable="true" type="q11:ArrayOfint" xmlns:q11="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="UpdateInterestsResponse">
+        <xs:complexType>
+          <xs:sequence />
+        </xs:complexType>
+      </xs:element>
       <xs:element name="GetPersonList">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="PersonIds" nillable="true" type="q10:ArrayOfint" xmlns:q10="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="PersonIds" nillable="true" type="q12:ArrayOfint" xmlns:q12="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -2368,23 +2355,6 @@ content_type: reference
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
-  <wsdl:message name="GetPersonImageAsStreamRequest">
-    <wsdl:part name="parameters" element="tns:GetPersonImageAsStream" />
-  </wsdl:message>
-  <wsdl:message name="GetPersonImageAsStreamRequest_Headers">
-    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
-    <wsdl:part name="Credentials" element="tns:Credentials" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="GetPersonImageAsStreamResponse">
-    <wsdl:part name="parameters" element="tns:GetPersonImageAsStreamResponse" />
-  </wsdl:message>
-  <wsdl:message name="GetPersonImageAsStreamResponse_Headers">
-    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
-    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
-    <wsdl:part name="Succeeded" element="tns:Succeeded" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
   <wsdl:message name="SetPersonImageRequest">
     <wsdl:part name="parameters" element="tns:SetPersonImage" />
   </wsdl:message>
@@ -2397,23 +2367,6 @@ content_type: reference
     <wsdl:part name="parameters" element="tns:SetPersonImageResponse" />
   </wsdl:message>
   <wsdl:message name="SetPersonImageResponse_Headers">
-    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
-    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
-    <wsdl:part name="Succeeded" element="tns:Succeeded" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="SetPersonImageFromStreamRequest">
-    <wsdl:part name="parameters" element="tns:SetPersonImageFromStream" />
-  </wsdl:message>
-  <wsdl:message name="SetPersonImageFromStreamRequest_Headers">
-    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
-    <wsdl:part name="Credentials" element="tns:Credentials" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="SetPersonImageFromStreamResponse">
-    <wsdl:part name="parameters" element="tns:SetPersonImageFromStreamResponse" />
-  </wsdl:message>
-  <wsdl:message name="SetPersonImageFromStreamResponse_Headers">
     <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
     <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
@@ -2963,6 +2916,23 @@ content_type: reference
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
+  <wsdl:message name="UpdateInterestsRequest">
+    <wsdl:part name="parameters" element="tns:UpdateInterests" />
+  </wsdl:message>
+  <wsdl:message name="UpdateInterestsRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="UpdateInterestsResponse">
+    <wsdl:part name="parameters" element="tns:UpdateInterestsResponse" />
+  </wsdl:message>
+  <wsdl:message name="UpdateInterestsResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
   <wsdl:message name="GetPersonListRequest">
     <wsdl:part name="parameters" element="tns:GetPersonList" />
   </wsdl:message>
@@ -3227,17 +3197,9 @@ content_type: reference
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Person/GetPersonImage" name="GetPersonImageRequest" message="tns:GetPersonImageRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Person/GetPersonImageResponse" name="GetPersonImageResponse" message="tns:GetPersonImageResponse" />
     </wsdl:operation>
-    <wsdl:operation name="GetPersonImageAsStream">
-      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Person/GetPersonImageAsStream" name="GetPersonImageAsStreamRequest" message="tns:GetPersonImageAsStreamRequest" />
-      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Person/GetPersonImageAsStreamResponse" name="GetPersonImageAsStreamResponse" message="tns:GetPersonImageAsStreamResponse" />
-    </wsdl:operation>
     <wsdl:operation name="SetPersonImage">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Person/SetPersonImage" name="SetPersonImageRequest" message="tns:SetPersonImageRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Person/SetPersonImageResponse" name="SetPersonImageResponse" message="tns:SetPersonImageResponse" />
-    </wsdl:operation>
-    <wsdl:operation name="SetPersonImageFromStream">
-      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Person/SetPersonImageFromStream" name="SetPersonImageFromStreamRequest" message="tns:SetPersonImageFromStreamRequest" />
-      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Person/SetPersonImageFromStreamResponse" name="SetPersonImageFromStreamResponse" message="tns:SetPersonImageFromStreamResponse" />
     </wsdl:operation>
     <wsdl:operation name="CreateDefaultByContactId">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Person/CreateDefaultByContactId" name="CreateDefaultByContactIdRequest" message="tns:CreateDefaultByContactIdRequest" />
@@ -3366,6 +3328,10 @@ content_type: reference
     <wsdl:operation name="SetUtmCreatedPersonContactForFormSubmission">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Person/SetUtmCreatedPersonContactForFormSubmission" name="SetUtmCreatedPersonContactForFormSubmissionRequest" message="tns:SetUtmCreatedPersonContactForFormSubmissionRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Person/SetUtmCreatedPersonContactForFormSubmissionResponse" name="SetUtmCreatedPersonContactForFormSubmissionResponse" message="tns:SetUtmCreatedPersonContactForFormSubmissionResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateInterests">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Person/UpdateInterests" name="UpdateInterestsRequest" message="tns:UpdateInterestsRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Person/UpdateInterestsResponse" name="UpdateInterestsResponse" message="tns:UpdateInterestsResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetPersonList">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Person/GetPersonList" name="GetPersonListRequest" message="tns:GetPersonListRequest" />
@@ -3718,22 +3684,6 @@ content_type: reference
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>
-    <wsdl:operation name="GetPersonImageAsStream">
-      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Person/GetPersonImageAsStream" style="document" />
-      <wsdl:input name="GetPersonImageAsStreamRequest">
-        <soap:header message="tns:GetPersonImageAsStreamRequest_Headers" part="ApplicationToken" use="literal" />
-        <soap:header message="tns:GetPersonImageAsStreamRequest_Headers" part="Credentials" use="literal" />
-        <soap:header message="tns:GetPersonImageAsStreamRequest_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:input>
-      <wsdl:output name="GetPersonImageAsStreamResponse">
-        <soap:header message="tns:GetPersonImageAsStreamResponse_Headers" part="ExceptionInfo" use="literal" />
-        <soap:header message="tns:GetPersonImageAsStreamResponse_Headers" part="ExtraInfo" use="literal" />
-        <soap:header message="tns:GetPersonImageAsStreamResponse_Headers" part="Succeeded" use="literal" />
-        <soap:header message="tns:GetPersonImageAsStreamResponse_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:output>
-    </wsdl:operation>
     <wsdl:operation name="SetPersonImage">
       <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Person/SetPersonImage" style="document" />
       <wsdl:input name="SetPersonImageRequest">
@@ -3747,22 +3697,6 @@ content_type: reference
         <soap:header message="tns:SetPersonImageResponse_Headers" part="ExtraInfo" use="literal" />
         <soap:header message="tns:SetPersonImageResponse_Headers" part="Succeeded" use="literal" />
         <soap:header message="tns:SetPersonImageResponse_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:output>
-    </wsdl:operation>
-    <wsdl:operation name="SetPersonImageFromStream">
-      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Person/SetPersonImageFromStream" style="document" />
-      <wsdl:input name="SetPersonImageFromStreamRequest">
-        <soap:header message="tns:SetPersonImageFromStreamRequest_Headers" part="ApplicationToken" use="literal" />
-        <soap:header message="tns:SetPersonImageFromStreamRequest_Headers" part="Credentials" use="literal" />
-        <soap:header message="tns:SetPersonImageFromStreamRequest_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:input>
-      <wsdl:output name="SetPersonImageFromStreamResponse">
-        <soap:header message="tns:SetPersonImageFromStreamResponse_Headers" part="ExceptionInfo" use="literal" />
-        <soap:header message="tns:SetPersonImageFromStreamResponse_Headers" part="ExtraInfo" use="literal" />
-        <soap:header message="tns:SetPersonImageFromStreamResponse_Headers" part="Succeeded" use="literal" />
-        <soap:header message="tns:SetPersonImageFromStreamResponse_Headers" part="TimeZone" use="literal" />
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>
@@ -4275,6 +4209,22 @@ content_type: reference
         <soap:header message="tns:SetUtmCreatedPersonContactForFormSubmissionResponse_Headers" part="ExtraInfo" use="literal" />
         <soap:header message="tns:SetUtmCreatedPersonContactForFormSubmissionResponse_Headers" part="Succeeded" use="literal" />
         <soap:header message="tns:SetUtmCreatedPersonContactForFormSubmissionResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateInterests">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Person/UpdateInterests" style="document" />
+      <wsdl:input name="UpdateInterestsRequest">
+        <soap:header message="tns:UpdateInterestsRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:UpdateInterestsRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:UpdateInterestsRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="UpdateInterestsResponse">
+        <soap:header message="tns:UpdateInterestsResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:UpdateInterestsResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:UpdateInterestsResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:UpdateInterestsResponse_Headers" part="TimeZone" use="literal" />
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>

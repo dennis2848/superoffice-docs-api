@@ -28,7 +28,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |projectId|int|Project ID: Database ID of project record| x |
 |ticketStatusId|int|Status ID: Status| x |
 |priorityId|int|Priority ID: ID of priority in database| x |
-|categoryId|int|Category ID: ID of ticket category in database| x |
+|categoryId|int|Category ID: ID of request category in database| x |
 |ticketTypeName|listAny|Request type: Request type| x |
 |ticketStatusName|listAny|Status: Request status| x |
 |categoryFullName|ejCategory|Category: Request category| x |
@@ -37,6 +37,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |ticketId|int|ID: Displays request ID| x |
 |title|string|Title: Displays the request title| x |
 |createdAt|datetime|Created: Displays when the request was created| x |
+|createdDate|date|Created date: Created date| x |
 |lastChanged|datetime|Last changed: Displays when the request was last changed| x |
 |author|string|Author: Displays the author of the request| x |
 |readByOwner|datetime|Read by owner: Displays when the request was read by the owner| x |
@@ -118,11 +119,11 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |ownedBy/contactId|int|Owner - Company ID: Database ID of the company the user belongs to|  |
 |ownedBy/personId|int|Owner - Contact ID: Database ID of the contact row|  |
 |ownedBy/mrMrs|string|Owner - Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
-|ownedBy/title|string|Owner - Title: Displays whether the contact is addressed as Mr or Ms| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|ownedBy/title|string|Owner - Title: Displays whether the contact is addressed as Mr or Ms| x |
 |ownedBy/associateDbId|associate|Owner - ID| x |
 |ownedBy/contactName|string|Owner - Owning company: Name of the company the user belongs to| x |
 |ownedBy/contactDepartment|string|Owner - Owning department: Name of the department at the company the user belongs to| x |
@@ -150,7 +151,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |ownedBy/isLocation|bool|Owner - Is a location: Is a location| x |
 |ticketStatus/ticketStatusId|int|Status - ID: Displays request status ID| x |
 |ticketStatus/name|string|Status - Name: Displays the name of the request status| x |
-|ticketStatus/rank|int|Status - Status rank: Sort order of the status in the ticket status list| x |
+|ticketStatus/rank|int|Status - Status rank: Sort order of the status in the request status list| x |
 |ticketPriority/ticketPriorityId|int|Priority - ID: Displays the ID of the priority| x |
 |ticketPriority/name|string|Priority - Name: Displays the name of the priority| x |
 |ticketPriority/rank|int|Priority - Priority rank: Sort order of priority in the priority list| x |
@@ -174,7 +175,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/ticketfavourites?$select=firstReadByUser,createdBy/personEmail,ownedBy/lastName
+GET /api/v1/archive/ticketfavourites?$select=content,createdBy/contactCategory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

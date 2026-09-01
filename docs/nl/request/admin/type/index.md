@@ -3,12 +3,13 @@ uid: help-nl-request-type
 title: Verzoektypen
 description: Verzoektypen
 keywords: verzoek, type, verzoektype, tabblad Verzoektypen
-author: Bergfrid Dias
-date: 03.14.2025
-version: 10.5.2
+author: digitaldiina
+date: 06.10.2026
+version: 12.0
 content_type: concept
 audience: settings
 audience_tooltip: Settings and maintenance
+tier: growth
 language: nl
 redirect_from: /nl/request/learn/type/index
 index: true
@@ -19,7 +20,7 @@ index: true
 Alle verzoeken die zijn geregistreerd in SuperOffice hebben een type. De standaardtype is "Request". Om verzoektypes te bekijken, toe te voegen, bij te werken en te verwijderen, ga naar **Instellingen en onderhoud**.
 
 > [!NOTE]
-> Deze functie vereist een Service Premium gebruikersplan (om verzoektypes te maken en bij te werken) en een Development Tools licentie om schermopmaak te definiëren op basis van verzoektypes in de Screen Designer.
+> Deze functie vereist een **Service Premium**-licentie of het **Growth**-plan. Om schermindelingen te definiëren op basis van verzoektypes in de Screen Designer, hebben **Service Premium**-gebruikers ook de **Development Tools**-licentie nodig (inbegrepen bij het **Core**-plan en hoger).
 
 ## Waarom verzoektypen gebruiken?
 
@@ -53,10 +54,12 @@ Het financiële team gebruikt verzoeken om inkomende factuurclaims te beheren, w
 
 * [Verzoektype aanmaken][1]
 * [Verzoektype verwijderen][2]
+* [Relatieregels][6]
 
 <!-- Referenced links -->
 [1]: create.md
 [2]: delete.md
+[6]: ../relation-rules.md
 [3]: ../priority/index.md
 [4]: ../status/index.md
 [5]: ../../../knowledge-base/learn/reply-templates/index.md

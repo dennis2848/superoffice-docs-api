@@ -1,15 +1,16 @@
-﻿---
+---
 uid: help-no-form-field-options
 title: Feltalternativer
 description: Feltalternativer
 keywords: skjema, felt, skjemaelement, reCAPTCHA
 author: SuperOffice Product and Engineering
-date: 09.26.2025
-version: 10.5
+date: 05.04.2026
+version: 11.13
 content_type: reference
 category: marketing
 topic: forms
 license: marketingessentials
+tier: growth
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: no
@@ -21,7 +22,7 @@ Dette er en oversikt over spesialalternativer i noen av de tilgjengelige feltene
 
 ## SuperOffice-elementer
 
-* **Overskriv:** Velg dette alternativet for å erstatte en eksisterende verdi i SuperOffice med verdien i skjemaet. Dette er aktuelt for land, tittel og hr/fr.
+* **Tillat overskriving av eksisterende data:** Velg dette alternativet for å erstatte en eksisterende verdi i SuperOffice med verdien som er sendt inn i skjemaet. Det vises en advarsel når du aktiverer dette alternativet. Hvis dette alternativet ikke er tilgjengelig for et felt, kan en administrator ha begrenset det. Se [begrensninger for skjemafelt][5].
 
 * **Person – samtykke**
 
@@ -95,3 +96,4 @@ Dette er en oversikt over spesialalternativer i noen av de tilgjengelige feltene
 [2]: create.md#multi-page
 [3]: ../../recipients/learn/manage-email-subscriptions.md
 [4]: ../../../security/privacy/admin/add-purpose.md
+[5]: ../admin/form-field-restrictions.md

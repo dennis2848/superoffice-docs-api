@@ -4,10 +4,11 @@ title: Delete request type
 description: Delete request type
 keywords: delete request type, use as default, transfer request type to, request type, request
 author: Bergfrid Dias
-date: 01.15.2025
-version: 10.5
+date: 06.10.2026
+version: 12.0
 content_type: howto
 license: servicepremium
+tier: growth
 audience: settings
 audience_tooltip: Settings and maintenance
 language: en

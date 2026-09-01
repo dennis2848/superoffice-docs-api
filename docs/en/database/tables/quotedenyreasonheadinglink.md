@@ -8,7 +8,7 @@ content_type: reference
 envir: onsite, online
 ---
 
-# QuoteDenyReasonHeadingLink Table (537)
+# QuoteDenyReasonHeadingLink Table (545)
 
 Heading link table for QuoteDenyReason, for MDO headers
 

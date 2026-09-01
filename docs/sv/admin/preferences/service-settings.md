@@ -4,12 +4,13 @@ title: Systeminställningar för SuperOffice Service
 description: Globala inställningar för Systeminställningar för SuperOffice Service
 keywords: systeminställningar
 author: digitaldiina
-date: 10.17.2025
-version: 11.5
+date: 05.04.2026
+version: 11.13
 content_type: reference
 category: Settings and maintenance
 topic: preferences
 license: serviceessentials
+tier: core
 functional_right: Service administration, General Administrator
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -40,7 +41,15 @@ Gå till <i class="ph ph-gear" aria-hidden="true"></i> **Inställningar** i navi
 
 * **Standardavsändare**: Systemet standardavsändare för e-post. Denna adress åsidosätts normalt av adresser som läggs till i e-postlådor. Detta måste vara en e-postadress som har importerats i SuperOffice Service. Till exempel `<support@company.com>`.
 
-* **E-posttagg**: E-posttaggen som tillsammans med ärendenumret bildar en unik nyckel på ämnesraden i de e-postmeddelanden som skickas ut från SuperOffice Service. Du får inte ändra detta värde om du inte är helt säker på vad du gör! Om det här värdet ändras kommer inte mottagna e-postmeddelanden att kopplas rätt till befintliga ärenden.
+* **E-posttagg**: Det namn som används som tagg-nyckel på ämnesraden i utgående e-postmeddelanden. Standardvärdet är `ejTag`. Kombinerat med ärendenumret skapas en unik identifierare — till exempel `ejTag: 12345` — som Service använder för att matcha inkommande svar med rätt ärende.
+
+    När ett e-postmeddelande kommer in kontrollerar Service först standard-headern `In-Reply-To` för att matcha det med ett befintligt ärende. E-posttaggen på ämnesraden används som reservalternativ. Ändra inte det här värdet om du inte förstår konsekvenserna — om du ändrar namnet bryts matchningen för e-postmeddelanden som fortfarande refererar till den gamla taggen.
+
+    > [!NOTE]
+    > Två registerinställningar ändrar det här beteendet:
+    >
+    > * **reg_id=72** (värde `1`): Service söker bara i e-posthuvudet (ämnesraden) efter taggen, inte i meddelandetexten.
+    > * **reg_id=175** (värde `1`): Service kontrollerar ämnesraden efter e-posttaggen *innan* `In-Reply-To`-headern kontrolleras, vilket vänder standardprioriteringen.
 
 * **Format för klockslag i systemet**: Välj om du vill använda 24-timmarsklocka eller 12-timmarsklocka (am/pm) i systemet. Användarspecifika klockslag (till exempel visning av ärenden) styrs av varje enskild användares inställningar och påverkas inte av detta värde.
 
@@ -64,17 +73,10 @@ Gå till <i class="ph ph-gear" aria-hidden="true"></i> **Inställningar** i navi
 
 * **Spåra alla länkar**: Klicka i den här rutan för att spåra alla länkar i utskick.
 
-* **Intern URL**: Huvudadress för åtkomst till SuperOffice Service-systemet. (endast LOKALT)
+## Relaterat innehåll
 
-* **Extern URL**: Huvudadress för extern åtkomst till SuperOffice Service-systemet. (endast LOKALT)
-
-* **Cgi-Bin-mapp**: Sökväg till den mapp där SuperOffice Service Cgi-Bin-applikationsfiler ligger. Sökvägen måste ha ett inledande mappavgränsare (snedstreck) men inget avslutande tecken. Exempel: */bin* eller */Scripts*. (endast LOKALT)
-
-* **Använd användargodkännande från webbservern**: Om du markerar det här alternativet accepterar SuperOffice Service användarautentisering från webbservern (Microsoft IIS). (endast LOKALT)
-
-* **Använd kundgodkännande från webbservern**: Om du markerar det här alternativet accepterar SuperOffice Service användarautentisering från kundcentrets webbserver (Microsoft IIS). (endast LOKALT)
-
-* **Tillgänglig på Internet**: Markera det här alternativet om SuperOffice Service är tillgängligt på Internet. Detta styr delar av den funktionalitet som finns tillgänglig i SuperOffice Service eftersom en del funktioner kräver att lösningen är online. (endast LOKALT)
+* [Service-inställningar (lokalt)][2]
 
 <!-- Referenced links -->
 [1]: ../../knowledge-base/learn/reply-templates/create.md#faq
+[2]: https://help.superoffice.com/docs/11/sv/admin/preferences/service-settings.html

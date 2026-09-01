@@ -3,11 +3,12 @@ uid: help-en-request-type
 title: Request type
 description: Request type
 keywords: request type, Request types tab, type, request
-author: Bergfrid Dias
-date: 01.15.2025
-version: 10.5
+author: digitaldiina
+date: 06.10.2026
+version: 12.0
 content_type: concept
 license: servicepremium
+tier: growth
 audience: settings
 audience_tooltip: Settings and maintenance
 language: en
@@ -20,7 +21,7 @@ redirect_from: /en/request/learn/type/index
 All requests that are registered in SuperOffice have a type. The default type is "Request". To view, add, update, and delete request types go to **Settings and maintenance**.
 
 > [!NOTE]
-> This feature requires a Service Premium user plan (to create and update request types) and a Development Tools site license to define screen layouts based on request types in the Screen Designer.
+> This feature requires a **Service Premium** license or the **Growth** plan. To define screen layouts based on request types in the Screen Designer, **Service Premium** users also need the **Development Tools** license (included with the **Core** plan and higher).
 
 ## Why use request types?
 
@@ -54,6 +55,7 @@ The finance team utilizes requests to manage incoming invoice claims, necessitat
 
 * [Create request type][1]
 * [Delete request type][2]
+* [Relation rules][6]
 
 <!-- Referenced links -->
 [1]: create.md
@@ -61,5 +63,6 @@ The finance team utilizes requests to manage incoming invoice claims, necessitat
 [3]: ../priority/index.md
 [4]: ../status/index.md
 [5]: ../../../knowledge-base/learn/reply-templates/index.md
+[6]: ../relation-rules.md
 
 <!-- Referenced images -->

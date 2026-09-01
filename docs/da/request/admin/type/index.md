@@ -3,11 +3,12 @@ uid: help-da-request-type
 title: Sagstype
 description: Sagstype
 keywords: sag, sagstype, type
-author: Bergfrid Dias
-date: 03.07.2025
-version: 10.5.2
+author: digitaldiina
+date: 06.10.2026
+version: 12.0
 content_type: concept
 license: servicepremium
+tier: growth
 audience: settings
 audience_tooltip: Settings and maintenance
 language: da
@@ -20,7 +21,7 @@ index: true
 Alle sager, der er registreret i SuperOffice, har en type. Standardtypen er "Request". For at se, tilføje, opdatere og slette sagstyper, gå til **Indstillinger og vedligeholdelse**.
 
 > [!NOTE]
-> Denne funktion kræver en Service Premium brugerplan (til at oprette og opdatere sagstyper) og en Development Tools licens for at definere skærmlayouts baseret på sagstyper i Screen Designer.
+> Denne funktion kræver en **Service Premium**-licens eller **Growth**-planen. Hvis du vil definere skærmlayouts baseret på sagstyper i Screen Designer, skal brugere med **Service Premium**-licensen også have **Development Tools**-licensen (inkluderet i **Core**-planen og højere).
 
 ## Hvorfor bruge sagstyper?
 
@@ -54,10 +55,12 @@ Finansholdet bruger sager til at håndtere indkomne fakturakrav og kræver synli
 
 * [Tilføj sagstype][1]
 * [Slet sagstype][2]
+* [Relationsregler][6]
 
 <!-- Referenced links -->
 [1]: create.md
 [2]: delete.md
+[6]: ../relation-rules.md
 [3]: ../priority/index.md
 [4]: ../status/index.md
 [5]: ../../../knowledge-base/learn/reply-templates/index.md

@@ -1,15 +1,16 @@
-﻿---
+---
 uid: help-sv-form-create
 title: Skapa nytt formulär
 description: Lär dig hur du kan skapa ett webbformulär i den här instruktionsguiden.
 keywords: formulär, webbformulär, anmäl dig
 author: digitaldiina
-date: 01.27.2026
-version: 11.9
+date: 05.04.2026
+version: 11.13
 content_type: howto
 category: marketing
 topic: forms
 license: marketingessentials
+tier: growth
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: sv
@@ -85,13 +86,13 @@ I kategorin **Fält** lägger du till fälten som ska finnas med i formuläret. 
 
 3. Välj en av följande fältkategorier i fönstret **Lägg till post**:
 
-    * **SuperOffice-poster**: Fält som är länkade till SuperOffice-data, till exempel kontaktnamn, land, e-postadress och så vidare. Beroende på typ av fält kan värden från inlämnade formulär antingen ersätta befintliga värden (t.ex. land eller titel) eller läggas till i relevant SuperOffice-fält (t.ex. mobiltelefon).
+    * **SuperOffice-poster**: Fält som är länkade till SuperOffice-data, till exempel kontaktnamn, land, e-postadress och så vidare. Standard- och anpassade fält är tillgängliga. Beroende på typ av fält kan värden från inlämnade formulär antingen skriva över befintliga värden eller läggas till i relevant SuperOffice-fält. En varning visas när du aktiverar överskrivning för ett fält. Om ett fält saknas eller överskrivningsalternativet inte är tillgängligt kan en administratör ha tillämpat en [fältbegränsning][10].
 
     * **Formulärposter**: Fält där text eller datum, fält för att välja värden (listor, kryssrutor och alternativknappar) och filöverföringsfält anges.
 
     * **Visa poster**: Avsnitt, texter och bilder. Använd avsnitt för att [skapa flersidiga formulär](#multi-page).
 
-4. Välj ett fält i listan.
+4. Välj ett fält i listan. Om listan är lång kan du använda sökrutan för att hitta ett fält med namn.
 
 5. Klicka på **Lägg till**. Fönstret stängs och fältet läggs till i formuläret och i formulärförhandsvisningen.
 
@@ -129,6 +130,27 @@ Förhandsgranskningen till höger uppdateras automatiskt när du ändrar någon 
 Välj ett **typsnitt** från rullgardinsmenyn för att tillämpa det på all text i formuläret. De [tillgängliga typsnitten][9] hanteras av administratörer i Inställningar och underhåll.
 
 Det valda teckensnittet gäller för fältetiketter och alla andra textelement i formuläret. Du kan också använda rullgardinsmenyn för teckenstorlek och formateringsknapparna för att styla all text.
+
+#### <a id="custom-style"></a>Anpassad formatering
+
+För full kontroll över hur ditt formulär ser ut kan du skriva CSS i fältet **Anpassad formatering**. Det låter dig gå bortom standardredigerarens alternativ och matcha dina varumärkesriktlinjer exakt.
+
+![Formulärredigerare - anpassad styling med CSS -screenshot][img16]
+
+* **För erfarna användare:** Skriv eller klistra in din CSS-kod direkt i fältet.
+* **För mindre avancerade användare:** Välj en CSS-klass från listan och lägg till din kod. Det här tillvägagångssättet gör styling mindre överväldigande och ger dig bättre kontroll över vad du ändrar.
+
+Om [AI Lab][11] är aktiverat för din organisation kan du automatiskt extrahera CSS från en befintlig webbplats i stället för att skriva det manuellt.
+
+![Formulärredigerare - extrahera stilar med AI -screenshot][img17]
+
+1. Ange URL-adressen till webbsidan vars stil du vill tillämpa.
+1. Välj **Extrahera stilar med AI**. Den extraherade CSS-koden infogas i fältet.
+1. Granska och justera den genererade CSS-koden efter behov.
+
+Följande CSS-klasser är tillgängliga:
+
+[!include[CSS-klasser](../../../../../common/includes/list-of-form-css-classes.md)]
 
 ### Aktivera dubbel anmälan
 
@@ -194,6 +216,10 @@ Här kan du [definiera vad som händer när någon skickar in ett svarsformulär
 [4]: field-options.md
 [8]: ../../learn/create-folder.md
 [9]: ../admin/manage-fonts.md
+[10]: ../admin/form-field-restrictions.md
+[11]: ../../../ai/learn/index.md
 
 <!-- Referenced images -->
 [img15]: ../../../../media/loc/en/marketing/contact-me-form-properties.png
+[img16]: ../../../../media/loc/en/marketing/form-custom-styling.png
+[img17]: ../../../../media/loc/en/marketing/form-extract-styles-ai.png

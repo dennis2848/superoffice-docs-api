@@ -13,6 +13,8 @@ items:
   href: edit-message.md
 - name: Automatic assignment
   href: assign.md
+- name: Mark request as spam
+  href: spam.md
 - name: Accept request
   href: accept.md
 - name: Ask another request handler for help
@@ -21,6 +23,8 @@ items:
   href: forward.md
 - name: Reply to customer
   href: reply.md
+- name: Request relations
+  href: request-relations.md
 - name: Tags
   href: tags.md
 - name: Keep track of messages

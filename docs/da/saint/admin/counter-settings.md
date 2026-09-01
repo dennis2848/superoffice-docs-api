@@ -4,11 +4,12 @@ title: Tællere og tællerindstillinger
 description: Definer og konfigurer tællere for SAINT
 keywords: SAINT, statusovervågning, tæller, periode
 author: SuperOffice Product and Engineering
-date: 09.23.2025
-version: 10.5
+date: 06.10.2026
+version: 12.0
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
+tier: growth
 language: da
 index: true
 redirect_from:
@@ -18,7 +19,7 @@ redirect_from:
 
 # Tællere og tællerindstillinger
 
-[!include[Requirement](../includes/note-saint-req.md)]
+[!include[Requirement](../../includes/note-req-saint.md)]
 
 En **tæller** er en værdi såsom antallet af salg i en periode eller datoen for det senest fuldførte salg. Tællere kan bruges som søgekriterier til at finde firmaer, personer eller projekter.
 

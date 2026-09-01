@@ -75,6 +75,8 @@ items:
   - SuperOffice.Data.SQL.CopilotDataSourceTypeFieldInfo
   - SuperOffice.Data.SQL.CredentialUsageFieldInfo
   - SuperOffice.Data.SQL.CrmActorTypeFieldInfo
+  - SuperOffice.Data.SQL.CtaFlavorFieldInfo
+  - SuperOffice.Data.SQL.CtaTypeFieldInfo
   - SuperOffice.Data.SQL.DashTileCurrencyModeFieldInfo
   - SuperOffice.Data.SQL.DashTileEntityTypeFieldInfo
   - SuperOffice.Data.SQL.DashTileMeasureFieldInfo
@@ -104,6 +106,7 @@ items:
   - SuperOffice.Data.SQL.ExternalOwnerFieldInfo
   - SuperOffice.Data.SQL.FieldAccessFieldInfo
   - SuperOffice.Data.SQL.FieldMetadataTypeFieldInfo
+  - SuperOffice.Data.SQL.FormFieldRestrictionTypeFieldInfo
   - SuperOffice.Data.SQL.FormSubmissionStatusFieldInfo
   - SuperOffice.Data.SQL.FormTypeFieldInfo
   - SuperOffice.Data.SQL.FreeBusyFieldInfo
@@ -114,13 +117,17 @@ items:
   - SuperOffice.Data.SQL.LogEventFieldInfo
   - SuperOffice.Data.SQL.LoginFlagsFieldInfo
   - SuperOffice.Data.SQL.MailboxTypeFieldInfo
+  - SuperOffice.Data.SQL.MeteringEventTypeFieldInfo
+  - SuperOffice.Data.SQL.MeteringStatusFieldInfo
   - SuperOffice.Data.SQL.ModifiedAppointmentFieldsFieldInfo
   - SuperOffice.Data.SQL.NavigationFieldInfo
+  - SuperOffice.Data.SQL.NewsFeedItemStatusFieldInfo
   - SuperOffice.Data.SQL.NotificationPlatformFieldInfo
   - SuperOffice.Data.SQL.PhoneTypeFieldInfo
   - SuperOffice.Data.SQL.PrefDescAccessFlagsFieldInfo
   - SuperOffice.Data.SQL.PrefDescValueTypeFieldInfo
   - SuperOffice.Data.SQL.PreferenceLevelFieldInfo
+  - SuperOffice.Data.SQL.ProjectMemberEventParticipantStatusFieldInfo
   - SuperOffice.Data.SQL.PublishTypeFieldInfo
   - SuperOffice.Data.SQL.QuoteStatusFieldInfo
   - SuperOffice.Data.SQL.QuoteVersionStateFieldInfo
@@ -182,6 +189,8 @@ items:
   - SuperOffice.Data.SQL.UrlEncodingFieldInfo
   - SuperOffice.Data.SQL.ValueOverrideFieldInfo
   - SuperOffice.Data.SQL.VideoMeetingStatusFieldInfo
+  - SuperOffice.Data.SQL.WebhookNotifyViaFieldInfo
+  - SuperOffice.Data.SQL.WebhookNotifyWhenFieldInfo
   - SuperOffice.Data.SQL.WebhookStateFieldInfo
   - SuperOffice.Data.SQL.WeekdayFieldInfo
   - SuperOffice.Data.SQL.WidgetRequiredFieldsFieldInfo
@@ -204,6 +213,7 @@ items:
   - SuperOffice.Data.SQL.FieldInfo.Equals(System.Object)
   - SuperOffice.Data.SQL.FieldInfo.GetHashCode
   - SuperOffice.Data.SQL.FieldInfo.GetMainField
+  - SuperOffice.Data.SQL.FieldInfo.GetReferencedFields
   - SuperOffice.Data.SQL.FieldInfo.Parent
   - SuperOffice.Data.SQL.FieldInfo.Name
   - SuperOffice.Data.SQL.FieldInfo.DbName
@@ -1122,6 +1132,28 @@ references:
     name: GetMainField
     isExternal: true
     href: SuperOffice.Data.SQL.FieldInfo.html#SuperOffice_Data_SQL_FieldInfo_GetMainField
+  - name: (
+  - name: )
+- uid: SuperOffice.Data.SQL.FieldInfo.GetReferencedFields
+  commentId: M:SuperOffice.Data.SQL.FieldInfo.GetReferencedFields
+  parent: SuperOffice.Data.SQL.FieldInfo
+  isExternal: true
+  href: SuperOffice.Data.SQL.FieldInfo.html#SuperOffice_Data_SQL_FieldInfo_GetReferencedFields
+  name: GetReferencedFields()
+  nameWithType: FieldInfo.GetReferencedFields()
+  fullName: SuperOffice.Data.SQL.FieldInfo.GetReferencedFields()
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.FieldInfo.GetReferencedFields
+    name: GetReferencedFields
+    isExternal: true
+    href: SuperOffice.Data.SQL.FieldInfo.html#SuperOffice_Data_SQL_FieldInfo_GetReferencedFields
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.FieldInfo.GetReferencedFields
+    name: GetReferencedFields
+    isExternal: true
+    href: SuperOffice.Data.SQL.FieldInfo.html#SuperOffice_Data_SQL_FieldInfo_GetReferencedFields
   - name: (
   - name: )
 - uid: SuperOffice.Data.SQL.FieldInfo.Parent

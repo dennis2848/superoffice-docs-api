@@ -1,15 +1,16 @@
-﻿---
+---
 uid: help-da-form-create
 title: Opret en ny formular
 description: Få mere at vide om, hvordan du kan oprette en webformular, i denne vejledning.
 keywords: formular, webformular
 author: digitaldiina
-date: 01.27.2026
-version: 11.9
+date: 05.04.2026
+version: 11.13
 content_type: howto
 category: marketing
 topic: forms
 license: marketingessentials
+tier: growth
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: da
@@ -85,13 +86,13 @@ I kategorien **Felter** kan du tilføje de felter, der skal medtages i formulare
 
 3. Vælg en af de følgende feltkategorier i vinduet **Tilføj element**:
 
-    * **SuperOffice-elementer**: Felter, der er knyttet til SuperOffice data, som f.eks. personnavn, land, e-mailadresse osv. Afhængig af felttypen kan værdier fra indsendte formularer enten erstatte eksisterende værdier (f. eks. land eller titel) eller føjes til det relevante SuperOffice-felt (f.eks. mobiltelefon).
+    * **SuperOffice-elementer**: Felter, der er knyttet til SuperOffice-data, som f.eks. personnavn, land, e-mailadresse osv. Standard- og brugerdefinerede felter er tilgængelige. Afhængig af felttypen kan værdier fra indsendte formularer enten overskrive eksisterende værdier eller føjes til det relevante SuperOffice-felt. Når du aktiverer overskrivning for et felt, vises en advarsel. Hvis et felt mangler, eller overskrivningsindstillingen ikke er tilgængelig, kan en administrator have anvendt en [feltbegrænsning][10].
 
     * **Formularelementer**: Felter til indtastning af tekst eller dato, felter til valg af værdier (lister, afkrydsningsfelter og alternativknapper) og filupload-felter.
 
     * **Visningselementer**: Sektioner, tekster og billeder. Brug sektioner til at [oprette formularer](#multi-page) med flere sider.
 
-4. Vælg et felt på listen.
+4. Vælg et felt på listen. Hvis listen er lang, kan du bruge søgefeltet til at finde et felt ved navn.
 
 5. Klik på **Tilføj**. Vinduet lukkes, og feltet føjes til formularen og dens forhåndsvisning.
 
@@ -129,6 +130,27 @@ Forhåndsvisningen til højre opdateres automatisk, når du ændrer indstillinge
 Vælg en **skrifttype** fra rullemenuen for at anvende den på al tekst i formularen. De [tilgængelige skrifttyper][9] administreres af administratorer i Indstillinger og vedligeholdelse.
 
 Den valgte skrifttype gælder for feltetiketter og alle andre tekstelementer i formularen. Du kan også bruge rullemenu for skriftstørrelse og formateringsknapper til at style al tekst.
+
+#### <a id="custom-style"></a>Tilpasset styling
+
+For fuld kontrol over, hvordan din formular ser ud, kan du skrive CSS i feltet **Tilpasset styling**. Det giver dig mulighed for at gå ud over standardeditorindstillingerne og matche dine brandretningslinjer præcist.
+
+![Formularredigering - tilpasset styling med CSS -screenshot][img16]
+
+* **For erfarne brugere:** Skriv eller indsæt din CSS-kode direkte i feltet.
+* **For mindre avancerede brugere:** Vælg en CSS-klasse fra listen, og tilføj din kode. Denne fremgangsmåde gør styling mindre overvældende og giver dig bedre kontrol over, hvad du ændrer.
+
+Hvis din organisation har [AI Lab][11] aktiveret, kan du automatisk udtrække CSS fra et eksisterende websted i stedet for at skrive det manuelt.
+
+![Formularredigering - udtræk stilarter med AI -screenshot][img17]
+
+1. Indtast URL-adressen på den webside, hvis styling du vil anvende.
+1. Vælg **Udtræk stilarter med AI**. Den udtrukne CSS indsættes i feltet.
+1. Gennemse og juster den genererede CSS efter behov.
+
+Følgende CSS-klasser er tilgængelige:
+
+[!include[CSS-klasser](../../../../../common/includes/list-of-form-css-classes.md)]
 
 ### Aktivere dobbelt tilsagn (valgfrit)
 
@@ -194,6 +216,10 @@ Her kan du [definere, hvad der sker, når nogen sender et svar på formularen][3
 [4]: field-options.md
 [8]: ../../learn/create-folder.md
 [9]: ../admin/manage-fonts.md
+[10]: ../admin/form-field-restrictions.md
+[11]: ../../../ai/learn/index.md
 
 <!-- Referenced images -->
 [img15]: ../../../../media/loc/en/marketing/contact-me-form-properties.png
+[img16]: ../../../../media/loc/en/marketing/form-custom-styling.png
+[img17]: ../../../../media/loc/en/marketing/form-extract-styles-ai.png

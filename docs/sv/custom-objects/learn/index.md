@@ -3,10 +3,11 @@ uid: help-sv-custom-objects
 title: Egendefinierade objekt och fält
 description: Egendefinierade objekt och fält
 author: Bergfrid Dias
-date: 01.29.2024
-version: 10
+date: 06.10.2026
+version: 12.0
 keywords: egendefinierade objekt, användardefinierade fält, extratabell, extrafält, tilläggsfält, anpassat fält
 content_type: concept
+tier: core
 audience: settings
 audience_tooltip: Settings and maintenance
 language: sv
@@ -28,21 +29,18 @@ SuperOffice CRM och Service var en gång två separata applikationer med olika m
 
 ## Krav
 
-| Anpassning | Licens | Kommentar |
-|---|---|---|
-| Lägg till/ta bort användardefinierat fält | Ingen | Visas automatiskt på [fliken Mer][12]. Behöver Development Tools för att anpassa placeringen. |
-| Anpassa layouten för fliken Mer | Development Tools | |
-| Hantera sid 1-fält | Development Tools | |
-| Extra fält | Development Tools | |
-| Extra tabell | Development Tools | |
-| [Skärmdesigner][5] | Development Tools | SuperOffice version 10 och nyare. |
-| [Anpassade skärmar][6] | Development Tools, Service | Skapa nya skärmar i Service. |
+[!include[License requirement](../../includes/req-dev-tools-transition.md)]
+
+> [!NOTE]
+> **CRM Suite (Growth-plan):** Din plan inkluderar en gräns för antalet egendefinierade objekt. När gränsen nås är det inte möjligt att skapa fler objekt. Se [Plangränser][13] för mer information.
+
+Fält visas automatiskt på [fliken Mer][12] när de har lagts till.
 
 ## Layout (positionering av fält)
 
-UI-anpassning av vilken typ som helst kräver en Development Tools-licens. Eventuella anpassade skärmlayouter (skapade i Skärmdesignern) kan åsidosätta inställningarna för enskilda anpassade fält.
+Eventuella anpassade skärmlayouter (skapade i Skärmdesignern) kan åsidosätta inställningarna för enskilda anpassade fält.
 
-Om du inte har en Development Tools-licens, använd rangordningen av de olika fälten för att sortera dem på fliken **Mer**.
+Om du inte har en Development Tools-licens eller **Core**-planen, använd rangordningen av de olika fälten för att sortera dem på fliken **Mer**.
 
 ## Relaterat innehåll
 
@@ -54,8 +52,7 @@ Om du inte har en Development Tools-licens, använd rangordningen av de olika f�
 [1]: udef.md
 [2]: extra-field.md
 [3]: extra-table.md
-[5]: ../../customization/screen-designer/admin/index.md
-[6]: ../../../en/ui/blogic/custom-screens/index.md
 [12]: more-tab.md
+[13]: ../../admin/license/crm-suite.md
 
 <!-- Referenced images -->

@@ -1,15 +1,16 @@
-﻿---
+---
 uid: help-en-forms-contact-me
 title: How to create a Contact me form
 description: This tutorial walks you through how to create a Contact me form in SuperOffice Marketing.
 keywords: form, contact me
 author: digitaldiina
-date: 01.27.2026
-version: 11.9
+date: 03.17.2026
+version: 11.11
 content_type: tutorial
 category: marketing
 topic: forms
 license: marketingessentials
+tier: growth
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: en

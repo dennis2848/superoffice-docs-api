@@ -14,12 +14,14 @@ items:
   - SuperOffice.CRM.Data.ProjectTableInfo.DictionaryTableNumber
   - SuperOffice.CRM.Data.ProjectTableInfo.Done
   - SuperOffice.CRM.Data.ProjectTableInfo.EndDate
+  - SuperOffice.CRM.Data.ProjectTableInfo.EventId
   - SuperOffice.CRM.Data.ProjectTableInfo.GroupId
   - SuperOffice.CRM.Data.ProjectTableInfo.GroupId_InnerJoin_UserGroup
   - SuperOffice.CRM.Data.ProjectTableInfo.LeftOuterJoin_Appointment_ProjectId
   - SuperOffice.CRM.Data.ProjectTableInfo.LeftOuterJoin_ChatSession_ProjectId
   - SuperOffice.CRM.Data.ProjectTableInfo.LeftOuterJoin_CounterValue_ProjectId
   - SuperOffice.CRM.Data.ProjectTableInfo.LeftOuterJoin_Email_ProjectId
+  - SuperOffice.CRM.Data.ProjectTableInfo.LeftOuterJoin_NewsFeedItem_ProjectId
   - SuperOffice.CRM.Data.ProjectTableInfo.LeftOuterJoin_ProjectMember_ProjectId
   - SuperOffice.CRM.Data.ProjectTableInfo.LeftOuterJoin_SLink_AddProject
   - SuperOffice.CRM.Data.ProjectTableInfo.LeftOuterJoin_SLink_RemoveProject
@@ -44,6 +46,7 @@ items:
   - SuperOffice.CRM.Data.ProjectTableInfo.RuntimeDefinition
   - SuperOffice.CRM.Data.ProjectTableInfo.SoundEx
   - SuperOffice.CRM.Data.ProjectTableInfo.Source
+  - SuperOffice.CRM.Data.ProjectTableInfo.StartDate
   - SuperOffice.CRM.Data.ProjectTableInfo.StatusIdx
   - SuperOffice.CRM.Data.ProjectTableInfo.StatusIdx_InnerJoin_ProjStatus
   - SuperOffice.CRM.Data.ProjectTableInfo.TextId
@@ -103,12 +106,10 @@ items:
   - SuperOffice.Data.SQL.TableInfo.Clone
   - SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
   - SuperOffice.Data.SQL.TableInfo.FindField(System.String)
-  - SuperOffice.Data.SQL.TableInfo.ProtAll
   - SuperOffice.Data.SQL.TableInfo.UseNolockIfPossible
   - SuperOffice.Data.SQL.TableInfo.HashCheckFields
   - SuperOffice.Data.SQL.TableInfo.TableName
   - SuperOffice.Data.SQL.TableInfo.DbName
-  - SuperOffice.Data.SQL.TableInfo.IsDictionaryTable
   - SuperOffice.Data.SQL.TableInfo.All
   - SuperOffice.Data.SQL.TableInfo.Item(System.String)
   - SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
@@ -885,6 +886,58 @@ items:
       type: SuperOffice.Data.SQL.Int32FieldInfo
     content.vb: Public ReadOnly Property ActiveErpLinks As Int32FieldInfo
   overload: SuperOffice.CRM.Data.ProjectTableInfo.ActiveErpLinks*
+- uid: SuperOffice.CRM.Data.ProjectTableInfo.EventId
+  commentId: P:SuperOffice.CRM.Data.ProjectTableInfo.EventId
+  id: EventId
+  parent: SuperOffice.CRM.Data.ProjectTableInfo
+  langs:
+  - csharp
+  - vb
+  name: EventId
+  nameWithType: ProjectTableInfo.EventId
+  fullName: SuperOffice.CRM.Data.ProjectTableInfo.EventId
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: >-
+    Field 'event_id' in table 'project': Dictionary type Int, .NET type: <xref href="System.Int32" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Reserved field for Lyyti event when project is linked to an event.
+  example: []
+  syntax:
+    content: public Int32FieldInfo EventId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property EventId As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.ProjectTableInfo.EventId*
+- uid: SuperOffice.CRM.Data.ProjectTableInfo.StartDate
+  commentId: P:SuperOffice.CRM.Data.ProjectTableInfo.StartDate
+  id: StartDate
+  parent: SuperOffice.CRM.Data.ProjectTableInfo
+  langs:
+  - csharp
+  - vb
+  name: StartDate
+  nameWithType: ProjectTableInfo.StartDate
+  fullName: SuperOffice.CRM.Data.ProjectTableInfo.StartDate
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: >-
+    Field 'startDate' in table 'project': Dictionary type DateTime, .NET type: <xref href="System.DateTime" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Reserved field for Lyyti event when project is linked to an event, is the event start date.
+  example: []
+  syntax:
+    content: public DateTimeFieldInfo StartDate { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.DateTimeFieldInfo
+    content.vb: Public ReadOnly Property StartDate As DateTimeFieldInfo
+  overload: SuperOffice.CRM.Data.ProjectTableInfo.StartDate*
 - uid: SuperOffice.CRM.Data.ProjectTableInfo.TypeIdx_InnerJoin_ProjType
   commentId: P:SuperOffice.CRM.Data.ProjectTableInfo.TypeIdx_InnerJoin_ProjType
   id: TypeIdx_InnerJoin_ProjType
@@ -1483,6 +1536,29 @@ items:
       type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.SLinkTableInfo}
     content.vb: Public ReadOnly Property LeftOuterJoin_SLink_TaskProject As TargetedLeftOuterJoin(Of SLinkTableInfo)
   overload: SuperOffice.CRM.Data.ProjectTableInfo.LeftOuterJoin_SLink_TaskProject*
+- uid: SuperOffice.CRM.Data.ProjectTableInfo.LeftOuterJoin_NewsFeedItem_ProjectId
+  commentId: P:SuperOffice.CRM.Data.ProjectTableInfo.LeftOuterJoin_NewsFeedItem_ProjectId
+  id: LeftOuterJoin_NewsFeedItem_ProjectId
+  parent: SuperOffice.CRM.Data.ProjectTableInfo
+  langs:
+  - csharp
+  - vb
+  name: LeftOuterJoin_NewsFeedItem_ProjectId
+  nameWithType: ProjectTableInfo.LeftOuterJoin_NewsFeedItem_ProjectId
+  fullName: SuperOffice.CRM.Data.ProjectTableInfo.LeftOuterJoin_NewsFeedItem_ProjectId
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: Generated left outer join from the primary key ProjectId on this table, to NewsFeedItem.<xref href="SuperOffice.CRM.Data.NewsFeedItemTableInfo.ProjectId" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public TargetedLeftOuterJoin<NewsFeedItemTableInfo> LeftOuterJoin_NewsFeedItem_ProjectId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.NewsFeedItemTableInfo}
+    content.vb: Public ReadOnly Property LeftOuterJoin_NewsFeedItem_ProjectId As TargetedLeftOuterJoin(Of NewsFeedItemTableInfo)
+  overload: SuperOffice.CRM.Data.ProjectTableInfo.LeftOuterJoin_NewsFeedItem_ProjectId*
 references:
 - uid: SuperOffice.CRM.Data
   commentId: N:SuperOffice.CRM.Data
@@ -1726,14 +1802,6 @@ references:
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
-- uid: SuperOffice.Data.SQL.TableInfo.ProtAll
-  commentId: P:SuperOffice.Data.SQL.TableInfo.ProtAll
-  parent: SuperOffice.Data.SQL.TableInfo
-  isExternal: true
-  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_ProtAll
-  name: ProtAll
-  nameWithType: TableInfo.ProtAll
-  fullName: SuperOffice.Data.SQL.TableInfo.ProtAll
 - uid: SuperOffice.Data.SQL.TableInfo.UseNolockIfPossible
   commentId: P:SuperOffice.Data.SQL.TableInfo.UseNolockIfPossible
   parent: SuperOffice.Data.SQL.TableInfo
@@ -1766,14 +1834,6 @@ references:
   name: DbName
   nameWithType: TableInfo.DbName
   fullName: SuperOffice.Data.SQL.TableInfo.DbName
-- uid: SuperOffice.Data.SQL.TableInfo.IsDictionaryTable
-  commentId: P:SuperOffice.Data.SQL.TableInfo.IsDictionaryTable
-  parent: SuperOffice.Data.SQL.TableInfo
-  isExternal: true
-  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_IsDictionaryTable
-  name: IsDictionaryTable
-  nameWithType: TableInfo.IsDictionaryTable
-  fullName: SuperOffice.Data.SQL.TableInfo.IsDictionaryTable
 - uid: SuperOffice.Data.SQL.TableInfo.All
   commentId: P:SuperOffice.Data.SQL.TableInfo.All
   parent: SuperOffice.Data.SQL.TableInfo
@@ -2641,6 +2701,20 @@ references:
   name: ActiveErpLinks
   nameWithType: ProjectTableInfo.ActiveErpLinks
   fullName: SuperOffice.CRM.Data.ProjectTableInfo.ActiveErpLinks
+- uid: SuperOffice.CRM.Data.ProjectTableInfo.EventId*
+  commentId: Overload:SuperOffice.CRM.Data.ProjectTableInfo.EventId
+  isExternal: true
+  href: SuperOffice.CRM.Data.ProjectTableInfo.html#SuperOffice_CRM_Data_ProjectTableInfo_EventId
+  name: EventId
+  nameWithType: ProjectTableInfo.EventId
+  fullName: SuperOffice.CRM.Data.ProjectTableInfo.EventId
+- uid: SuperOffice.CRM.Data.ProjectTableInfo.StartDate*
+  commentId: Overload:SuperOffice.CRM.Data.ProjectTableInfo.StartDate
+  isExternal: true
+  href: SuperOffice.CRM.Data.ProjectTableInfo.html#SuperOffice_CRM_Data_ProjectTableInfo_StartDate
+  name: StartDate
+  nameWithType: ProjectTableInfo.StartDate
+  fullName: SuperOffice.CRM.Data.ProjectTableInfo.StartDate
 - uid: SuperOffice.CRM.Data.ProjTypeTableInfo
   commentId: T:SuperOffice.CRM.Data.ProjTypeTableInfo
   parent: SuperOffice.CRM.Data
@@ -3784,3 +3858,52 @@ references:
   name: LeftOuterJoin_SLink_TaskProject
   nameWithType: ProjectTableInfo.LeftOuterJoin_SLink_TaskProject
   fullName: SuperOffice.CRM.Data.ProjectTableInfo.LeftOuterJoin_SLink_TaskProject
+- uid: SuperOffice.CRM.Data.NewsFeedItemTableInfo.ProjectId
+  commentId: P:SuperOffice.CRM.Data.NewsFeedItemTableInfo.ProjectId
+  isExternal: true
+  href: SuperOffice.CRM.Data.NewsFeedItemTableInfo.html#SuperOffice_CRM_Data_NewsFeedItemTableInfo_ProjectId
+  name: ProjectId
+  nameWithType: NewsFeedItemTableInfo.ProjectId
+  fullName: SuperOffice.CRM.Data.NewsFeedItemTableInfo.ProjectId
+- uid: SuperOffice.CRM.Data.ProjectTableInfo.LeftOuterJoin_NewsFeedItem_ProjectId*
+  commentId: Overload:SuperOffice.CRM.Data.ProjectTableInfo.LeftOuterJoin_NewsFeedItem_ProjectId
+  isExternal: true
+  href: SuperOffice.CRM.Data.ProjectTableInfo.html#SuperOffice_CRM_Data_ProjectTableInfo_LeftOuterJoin_NewsFeedItem_ProjectId
+  name: LeftOuterJoin_NewsFeedItem_ProjectId
+  nameWithType: ProjectTableInfo.LeftOuterJoin_NewsFeedItem_ProjectId
+  fullName: SuperOffice.CRM.Data.ProjectTableInfo.LeftOuterJoin_NewsFeedItem_ProjectId
+- uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.NewsFeedItemTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.NewsFeedItemTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+  href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
+  name: TargetedLeftOuterJoin<NewsFeedItemTableInfo>
+  nameWithType: TargetedLeftOuterJoin<NewsFeedItemTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<SuperOffice.CRM.Data.NewsFeedItemTableInfo>
+  nameWithType.vb: TargetedLeftOuterJoin(Of NewsFeedItemTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedLeftOuterJoin(Of SuperOffice.CRM.Data.NewsFeedItemTableInfo)
+  name.vb: TargetedLeftOuterJoin(Of NewsFeedItemTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
+  - name: <
+  - uid: SuperOffice.CRM.Data.NewsFeedItemTableInfo
+    name: NewsFeedItemTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.NewsFeedItemTableInfo.html
+  - name: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Data.NewsFeedItemTableInfo
+    name: NewsFeedItemTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.NewsFeedItemTableInfo.html
+  - name: )

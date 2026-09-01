@@ -84,7 +84,7 @@ This is the archive Provider for the Selection selection archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/SelectionSelectionV2?$select=combinationType,selectionAssociate/simultaneousEjUser,lastMembershipChange
+GET /api/v1/archive/SelectionSelectionV2?$select=selectionAssociate/isActive,lastMembershipChange,selectionAssociate/personId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

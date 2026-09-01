@@ -664,6 +664,7 @@ content_type: reference
               <xs:element minOccurs="0" name="Password" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="Folder" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="UseSSL" type="xs:boolean" />
+              <xs:element minOccurs="0" name="UseGraphApi" type="xs:boolean" />
             </xs:sequence>
           </xs:extension>
         </xs:complexContent>
@@ -1971,6 +1972,8 @@ content_type: reference
               <xs:element minOccurs="0" name="URLName" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="ProjectNumber" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="ActiveErpLinks" type="xs:int" />
+              <xs:element minOccurs="0" name="EventId" type="xs:int" />
+              <xs:element minOccurs="0" name="StartDate" type="xs:dateTime" />
             </xs:sequence>
           </xs:extension>
         </xs:complexContent>
@@ -2996,6 +2999,7 @@ content_type: reference
               <xs:element minOccurs="0" name="IsSent" type="xs:boolean" />
               <xs:element minOccurs="0" name="EMailSOInfo" nillable="true" type="q323:EMailSOInfo" />
               <xs:element minOccurs="0" name="ServerId" type="xs:int" />
+              <xs:element minOccurs="0" name="ServerIdentifier" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="Attachments" nillable="true" type="q323:ArrayOfEMailAttachment" />
               <xs:element minOccurs="0" name="CustomHeaderList" nillable="true" type="q323:ArrayOfEMailCustomHeader" />
               <xs:element minOccurs="0" name="FolderName" nillable="true" type="xs:string" />
@@ -3135,6 +3139,7 @@ content_type: reference
           <xs:extension base="q343:Carrier" xmlns:q343="http://www.superoffice.net/ws/crm/NetServer/Services88">
             <xs:sequence>
               <xs:element minOccurs="0" name="ServerId" type="xs:int" />
+              <xs:element minOccurs="0" name="ServerIdentifier" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="MessageId" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="Subject" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="From" nillable="true" type="q343:EMailAddress" />

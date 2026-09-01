@@ -10,10 +10,12 @@ content_type: howto
 category: marketing
 topic: forms
 license: marketingessentials
+tier: growth
 audience: settings
 audience_tooltip: Settings and maintenance
 redirect_from: /en/marketing/forms/admin/index
 language: en
+index: true
 ---
 
 # Manage fonts for forms

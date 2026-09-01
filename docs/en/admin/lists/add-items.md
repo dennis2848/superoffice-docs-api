@@ -7,10 +7,12 @@ author: digitaldiina
 date: 10.29.2025
 version: 10.5
 content_type: howto
+tier: starter
 audience: settings
 audience_tooltip: Settings and maintenance
-redirect_from: /en/admin/lists/learn/adding-items
 language: en
+index: true
+redirect_from: /en/admin/lists/learn/adding-items
 ---
 
 # Add lists items

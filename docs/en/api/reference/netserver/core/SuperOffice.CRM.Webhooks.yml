@@ -16,6 +16,8 @@ items:
   - SuperOffice.CRM.Webhooks.RetryWebhook
   - SuperOffice.CRM.Webhooks.SystemWebhookPluginAttribute
   - SuperOffice.CRM.Webhooks.Webhook
+  - SuperOffice.CRM.Webhooks.WebhookBannerNotification
+  - SuperOffice.CRM.Webhooks.WebhookBannerQueue
   - SuperOffice.CRM.Webhooks.WebhookDispatcher
   - SuperOffice.CRM.Webhooks.WebhookManager
   - SuperOffice.CRM.Webhooks.WebhookPayload
@@ -42,14 +44,6 @@ references:
   name: CrmScriptWebhookPlugin
   nameWithType: CrmScriptWebhookPlugin
   fullName: SuperOffice.CRM.Webhooks.CrmScriptWebhookPlugin
-- uid: SuperOffice.CRM.Webhooks.IWebhookTransmitter
-  commentId: T:SuperOffice.CRM.Webhooks.IWebhookTransmitter
-  parent: SuperOffice.CRM.Webhooks
-  isExternal: true
-  href: SuperOffice.CRM.Webhooks.IWebhookTransmitter.html
-  name: IWebhookTransmitter
-  nameWithType: IWebhookTransmitter
-  fullName: SuperOffice.CRM.Webhooks.IWebhookTransmitter
 - uid: SuperOffice.CRM.Webhooks.RetryWebhook
   commentId: T:SuperOffice.CRM.Webhooks.RetryWebhook
   parent: SuperOffice.CRM.Webhooks
@@ -65,6 +59,14 @@ references:
   name: DefaultWebhookPlugin
   nameWithType: DefaultWebhookPlugin
   fullName: SuperOffice.CRM.Webhooks.DefaultWebhookPlugin
+- uid: SuperOffice.CRM.Webhooks.IWebhookTransmitter
+  commentId: T:SuperOffice.CRM.Webhooks.IWebhookTransmitter
+  parent: SuperOffice.CRM.Webhooks
+  isExternal: true
+  href: SuperOffice.CRM.Webhooks.IWebhookTransmitter.html
+  name: IWebhookTransmitter
+  nameWithType: IWebhookTransmitter
+  fullName: SuperOffice.CRM.Webhooks.IWebhookTransmitter
 - uid: SuperOffice.CRM.Webhooks.WebhookDispatcher
   commentId: T:SuperOffice.CRM.Webhooks.WebhookDispatcher
   isExternal: true
@@ -163,6 +165,21 @@ references:
   name: Webhook
   nameWithType: Webhook
   fullName: SuperOffice.CRM.Webhooks.Webhook
+- uid: SuperOffice.CRM.Webhooks.WebhookBannerNotification
+  commentId: T:SuperOffice.CRM.Webhooks.WebhookBannerNotification
+  parent: SuperOffice.CRM.Webhooks
+  isExternal: true
+  href: SuperOffice.CRM.Webhooks.WebhookBannerNotification.html
+  name: WebhookBannerNotification
+  nameWithType: WebhookBannerNotification
+  fullName: SuperOffice.CRM.Webhooks.WebhookBannerNotification
+- uid: SuperOffice.CRM.Webhooks.WebhookBannerQueue
+  commentId: T:SuperOffice.CRM.Webhooks.WebhookBannerQueue
+  isExternal: true
+  href: SuperOffice.CRM.Webhooks.WebhookBannerQueue.html
+  name: WebhookBannerQueue
+  nameWithType: WebhookBannerQueue
+  fullName: SuperOffice.CRM.Webhooks.WebhookBannerQueue
 - uid: SuperOffice.CRM.Webhooks.WebhookPayload
   commentId: T:SuperOffice.CRM.Webhooks.WebhookPayload
   parent: SuperOffice.CRM.Webhooks

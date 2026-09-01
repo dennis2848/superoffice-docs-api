@@ -59,7 +59,7 @@ The TicketRelationEntity to be saved.
 | TicketRelationId | Integer | Primary key |
 | SourceTicketId | Integer | Source ticket in this relation |
 | DestinationTicketId | Integer | Destination ticket in this relation |
-| RelationType | String | Ticket relation type |
+| RelationType | String | The type of relation between the two tickets. |
 | Comment | String | Comment for relation |
 
 ## Response:
@@ -71,17 +71,18 @@ TicketRelationEntity updated.
 | 200 | TicketRelationEntity updated. |
 | 400 | Bad request. Entity to save is not in request body. |
 
-### Response body: TicketRelationEntity
+### Response body: TicketRelationEntityWithLinks
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | TicketRelationId | int32 | Primary key |
 | SourceTicketId | int32 | Source ticket in this relation |
 | DestinationTicketId | int32 | Destination ticket in this relation |
-| RelationType | string | Ticket relation type |
+| RelationType | string | The type of relation between the two tickets. |
 | Comment | string | Comment for relation |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
+| _Links | object |  |
 
 ## Sample request
 

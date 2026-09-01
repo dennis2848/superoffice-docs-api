@@ -30,7 +30,7 @@ Implementation of the provider for the combined selection
 |projectId|int|Project ID: Database ID of project record| x |
 |ticketStatusId|int|Status ID: Status| x |
 |priorityId|int|Priority ID: ID of priority in database| x |
-|categoryId|int|Category ID: ID of ticket category in database| x |
+|categoryId|int|Category ID: ID of request category in database| x |
 |ticketTypeName|listAny|Request type: Request type| x |
 |ticketStatusName|listAny|Status: Request status| x |
 |categoryFullName|ejCategory|Category: Request category| x |
@@ -39,6 +39,7 @@ Implementation of the provider for the combined selection
 |ticketId|int|ID: Displays request ID| x |
 |title|string|Title: Displays the request title| x |
 |createdAt|datetime|Created: Displays when the request was created| x |
+|createdDate|date|Created date: Created date| x |
 |lastChanged|datetime|Last changed: Displays when the request was last changed| x |
 |author|string|Author: Displays the author of the request| x |
 |readByOwner|datetime|Read by owner: Displays when the request was read by the owner| x |
@@ -120,11 +121,11 @@ Implementation of the provider for the combined selection
 |ownedBy/associateDbId|associate|Owner - ID| x |
 |ownedBy/contactName|string|Owner - Owning company: Name of the company the user belongs to| x |
 |ownedBy/contactDepartment|string|Owner - Owning department: Name of the department at the company the user belongs to| x |
-|ownedBy/usergroup|userGroup|Owner - Primary group: The user's primary user group| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|ownedBy/usergroup|userGroup|Owner - Primary group: The user's primary user group| x |
 |ownedBy/usergroupId|int|Owner - Group ID: The user's primary user group| x |
 |ownedBy/contactFullName|string|Owner - Owner: Name and department of the company the user belongs to| x |
 |ownedBy/contactCategory|listAny|Owner - Category: Category| x |
@@ -148,7 +149,7 @@ Implementation of the provider for the combined selection
 |ownedBy/isLocation|bool|Owner - Is a location: Is a location| x |
 |ticketStatus/ticketStatusId|int|Status - ID: Displays request status ID| x |
 |ticketStatus/name|string|Status - Name: Displays the name of the request status| x |
-|ticketStatus/rank|int|Status - Status rank: Sort order of the status in the ticket status list| x |
+|ticketStatus/rank|int|Status - Status rank: Sort order of the status in the request status list| x |
 |ticketPriority/ticketPriorityId|int|Priority - ID: Displays the ID of the priority| x |
 |ticketPriority/name|string|Priority - Name: Displays the name of the priority| x |
 |ticketPriority/rank|int|Priority - Priority rank: Sort order of priority in the priority list| x |
@@ -156,7 +157,7 @@ Implementation of the provider for the combined selection
 |person/firstName|string|First name: Displays the contact's first name| x |
 |person/lastName|string|Last name: Displays the contact's last name| x |
 |person/middleName|string|Middle name: Displays the contact's middle name.| x |
-|person/fullName|stringorPK|Contact: Displays the contact to which an item is linked| x |
+|person/fullName|string|Contact: Displays the contact to which an item is linked| x |
 |person/contactId|int|Company ID: Database ID of company| x |
 |person/hasInfoText|bool|Has note: Displays an icon indicating if there is additional information available about the contact| x |
 |person/hasInterests|bool|Has interests: Displays an Icon indicating if the contact has active interests| x |
@@ -224,11 +225,11 @@ Implementation of the provider for the combined selection
 |person/email/emailProtocol|string|Protocol: E-mail protocol, such as SMTP| x |
 |person/email/emailAddress|string|E-mail| x |
 |person/email/emailDescription|string|Description| x |
-|person/email/emailId|int|ID| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|person/email/emailId|int|ID| x |
 |person/email/emailLastSent|datetime|Last sent: The date and time an e-mail was last sent to this address| x |
 |person/email/emailBounceCount|int|Bounce count: Bounce count for this e-mail address| x |
 |person/email/emailLastBounce|datetime|Last bounce: Date and time for last bounce to this e-mail address| x |
@@ -328,11 +329,11 @@ Implementation of the provider for the combined selection
 |person/personAssociate/personEmail|string|E-mail| x |
 |person/personAssociate/locationAddress|string|Location: Location| x |
 |person/personAssociate/isLocation|bool|Is a location: Is a location| x |
-|person/correspondingAssociate/firstName|string|First name: Displays the contact's first name| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|person/correspondingAssociate/firstName|string|First name: Displays the contact's first name| x |
 |person/correspondingAssociate/lastName|string|Last name: Displays the contact's last name| x |
 |person/correspondingAssociate/middleName|string|Middle Name : Displays the contact's middle name.| x |
 |person/correspondingAssociate/fullName|string|Full name: Displays full name of user (first, middle, last - according to settings)| x |
@@ -378,7 +379,7 @@ Implementation of the provider for the combined selection
 |contact/contactId|int|Company ID: Database ID of company| x |
 |contact/name|stringorPK|Company name| x |
 |contact/department|string|Department| x |
-|contact/nameDepartment| *None* |Company: Displays the company an activity is linked to| x |
+|contact/nameDepartment|string|Company: Displays the company an activity is linked to| x |
 |contact/hasInfoText|bool|Has note: Displays an icon indicating if there is additional information available about the contact| x |
 |contact/hasInterests|bool|Has interests: Displays an Icon indicating if the contact has active interests| x |
 |contact/associateId|associate|Our contact: Displays our contact| x |
@@ -432,11 +433,11 @@ Implementation of the provider for the combined selection
 |contact/postAddress/wgs84longitude|decimal|Postal address - Longitude: Longitude| x |
 |contact/postAddress/formattedAddress| *None* |Postal address - {formattedAddress}: {formattedAddress}|  |
 |contact/postAddress/formattedMultiLineAddress| *None* |Postal address - {formattedAddress}: {formattedAddress}|  |
-|contact/streetAddress/addressId|int|Street address - Address ID: Database ID for the address record| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|contact/streetAddress/addressId|int|Street address - Address ID: Database ID for the address record| x |
 |contact/streetAddress/line1|string|Street address - Address 1: First line of the address| x |
 |contact/streetAddress/line2|string|Street address - Address 2: Second line of the address| x |
 |contact/streetAddress/line3|string|Street address - Address 3: Third line of the address| x |
@@ -536,11 +537,11 @@ Implementation of the provider for the combined selection
 |contact/NumberOfSales|int|Number of sales|  |
 |contact/NumberOfSalesInPeriod|int|Number of sales in last 90 days|  |
 |contact/NumberOfNotCompletedSales|int|Number of non-completed sales|  |
-|contact/NumberOfNotCompletedSalesInPeriod|int|Number of non-completed sales in last 90 days|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|contact/NumberOfNotCompletedSalesInPeriod|int|Number of non-completed sales in last 90 days|  |
 |contact/LastSale|date|Date of last sale|  |
 |contact/LastCompletedSale|date|Date of last completed sale|  |
 |contact/LastDoBySale|date|Date of last non-completed sale|  |
@@ -631,7 +632,8 @@ Implementation of the provider for the combined selection
 |sale/createdByWorkflow|listAny|Created by flow: Created by flow| x |
 |sale/amountInBaseCurrency| *None* |Amount (BaseCurrency: The gross sales total| x |
 |sale/amountWeightedInBaseCurrency| *None* |Weighted amount (BaseCurrency: Virtual field calculated from amount * probability percent.| x |
-|sale/daysInStage| *None* |Days in stage: Total number of days in this stage| x |
+|sale/daysInStage|int|Days in stage: Total number of days in this stage| x |
+|sale/saleCycle|int|Sale cycle: Number of days from a sale was registered until it was closed (sold or lost)| x |
 |sale/visibleFor|listAny|Visible for|  |
 |sale/sale/textId|int|Text ID| x |
 |sale/sale/description|positiveString|Text: Displays the text entered in the description field| x |
@@ -639,12 +641,12 @@ Implementation of the provider for the combined selection
 |sale/salePublish/publishedFrom|date|From date: Start date for publishing. The record will not be visible prior to this date| x |
 |sale/salePublish/publishedTo|date|To date: End date for publishing. The record will not be visible after this date| x |
 |sale/salePublish/publishedBy| *None* |Published by: Published by|  |
-|sale/associate/firstName|string|First name: Displays the contact's first name| x |
-|sale/associate/lastName|string|Last name: Displays the contact's last name| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|sale/associate/firstName|string|First name: Displays the contact's first name| x |
+|sale/associate/lastName|string|Last name: Displays the contact's last name| x |
 |sale/associate/middleName|string|Middle Name : Displays the contact's middle name.| x |
 |sale/associate/fullName|string|Full name: Displays full name of user (first, middle, last - according to settings)| x |
 |sale/associate/contactId|int|Company ID: Database ID of the company the user belongs to|  |
@@ -707,6 +709,8 @@ Implementation of the provider for the combined selection
 |project/endDate|date|End date: End date of project| x |
 |project/imageThumbnail| *None* |Thumbnail: Scaled-down image of project image|  |
 |project/activeErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
+|project/eventId|int|Event ID: Event ID| x |
+|project/startDate|date|Start date: Project start date| x |
 |project/projectPublish/isPublished|bool|Published: Displays an icon indicating if the project or sale has been published| x |
 |project/projectPublish/publishedFrom|date|From date: Start date for publishing. The record will not be visible prior to this date| x |
 |project/projectPublish/publishedTo|date|To date: End date for publishing. The record will not be visible after this date| x |
@@ -741,14 +745,14 @@ Implementation of the provider for the combined selection
 |project/projectAssociate/ejDisplayName|string|Nickname: User's nickname in Service| x |
 |project/projectAssociate/ejStatus|int|Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |project/projectAssociate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in| x |
-|project/projectAssociate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
-|project/projectAssociate/isActive|bool|Active: Is this user active, and should be able to log in?| x |
-|project/projectAssociate/isActiveText|bool|Active status: Is this user active, and should be able to log in?| x |
-|project/projectAssociate/portraitThumbnail| *None* |Person image: Person image|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|project/projectAssociate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
+|project/projectAssociate/isActive|bool|Active: Is this user active, and should be able to log in?| x |
+|project/projectAssociate/isActiveText|bool|Active status: Is this user active, and should be able to log in?| x |
+|project/projectAssociate/portraitThumbnail| *None* |Person image: Person image|  |
 |project/projectAssociate/otherGroups|userGroup|Other groups: Other groups|  |
 |project/projectAssociate/userName|string|User name: User name| x |
 |project/projectAssociate/personEmail|string|E-mail| x |
@@ -797,7 +801,7 @@ Implementation of the provider for the combined selection
 ## Sample
 
 ```http!
-GET /api/v1/archive/TicketSelectionCombined?$select=ownedBy/otherGroups,person/personUdef/SuperOffice:1,person/correspondingAssociate/ejStatus,person/legalBaseEmarketing,contact/contactExtra/x_contact_float
+GET /api/v1/archive/TicketSelectionCombined?$select=ownedBy/isLocation,person/birthYear,person/personAssociate/otherGroups,sale/salePublish/publishedBy
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

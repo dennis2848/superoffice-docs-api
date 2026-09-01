@@ -4,7 +4,7 @@ title: Compatibility reports
 description: Compatibility test reports for SuperOffice onsite
 keywords: requirements, compatibility test, compatibility report, onsite compatibility
 author: Martin Pavlas
-date: 01.20.2026
+date: 06.11.2026
 content_type: reference
 deployment: onsite
 ---
@@ -15,6 +15,8 @@ The published compatibility test reports. A **Test Passed** status is a 90% assu
 
 We make the compatibility reports when other vendors release newer versions after our release. This is where you see if, for example, a new version of Internet Explorer is compatible with the current releases of SuperOffice. You can also check out the [system requirements][1].
 
+[!include[Onsite phased out](./includes/onsite-phased-out.md)]
+
 ## MacOS Tahoe
 
 ![macOS Tahoe][img23]
@@ -22,7 +24,6 @@ We make the compatibility reports when other vendors release newer versions afte
 We have tested SuperOffice Web, Service, and WebTools for Mac 13.2.50.0 on MacOS Tahoe. No issues were found during testing. The report was made on December 5th 2025.
 
 <a href="../../../assets/downloads/compatibility/maclink---os-macos-tahoe.xlsx" download>Click to download report</a>
-
 
 ## Windows Server 2025
 

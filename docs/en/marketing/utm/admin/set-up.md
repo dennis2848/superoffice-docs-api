@@ -10,9 +10,11 @@ content_type: howto
 category: marketing
 topic: conversion
 license: marketingpremium
+tier: plus
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: en
+index: true
 ---
 
 # Set up UTM tracking

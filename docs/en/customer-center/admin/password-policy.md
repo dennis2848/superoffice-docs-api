@@ -6,9 +6,11 @@ author: SuperOffice RnD
 date: 03.29.2023
 keywords: Service, settings
 content_type: concept
+tier: growth
 audience: settings
 audience_tooltip: Settings and maintenance
 language: en
+index: true
 redirect_from: /en/admin/preferences/learn/global-preferences/password
 ---
 

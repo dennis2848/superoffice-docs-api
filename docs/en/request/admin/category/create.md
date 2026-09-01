@@ -4,10 +4,11 @@ title: Create request category
 description: Create request category
 keywords: add request category, create request category, new request category, request category, Categories tab, request, category
 author: digitaldiina
-date: 12.02.2025
-version: 11.7
+date: 06.10.2026
+version: 12.0
 content_type: howto
 license: serviceessentials
+tier: starter
 audience: settings
 audience_tooltip: Settings and maintenance
 language: en
@@ -81,9 +82,11 @@ index: true
 ## Related content
 
 * [How to set up Get next request in queue][3]
+* [Availability status][4]
 
 <!-- Referenced links -->
 [1]: ../../../admin/preferences/index.md
 [3]: ../next-in-queue.md
+[4]: ../../learn/index.md#available
 
 <!-- Referenced images -->

@@ -1,15 +1,16 @@
-﻿---
+---
 uid: help-no-form-create
 title: Opprette et nytt skjema
 description: Lær hvordan du kan opprette et nettskjema i denne veiledningen.
 keywords: skjema, webskjema, nettskjema, påmelding
 author: digitaldiina
-date: 01.27.2026
-version: 11.9
+date: 05.04.2026
+version: 11.13
 content_type: howto
 category: marketing
 topic: forms
 license: marketingessentials
+tier: growth
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: no
@@ -85,13 +86,13 @@ I kategorien **Felt** legger du til feltene som skal brukes i skjemaet. Når du 
 
 3. I vinduet **Legg til element** velger du en av følgende feltkategorier:
 
-    * **SuperOffice-elementer**: Felt som er koblet til SuperOffice-data, for eksempel personnavn, land, e-postadresse og så videre. Avhengig av felttypen kan verdier fra innsendte skjemaer enten erstatte eksisterende verdier (for eksempel land eller tittel) eller legges til det relevante SuperOffice-feltet (for eksempel mobiltelefon).
+    * **SuperOffice-elementer**: Felt som er koblet til SuperOffice-data, for eksempel personnavn, land, e-postadresse og så videre. Standard- og egendefinerte felt er tilgjengelige. Avhengig av felttypen kan verdier fra innsendte skjemaer enten overskrive eksisterende verdier eller legges til det relevante SuperOffice-feltet. Når du aktiverer overskriving for et felt, vises det en advarsel. Hvis et felt mangler eller overskrivingsalternativet ikke er tilgjengelig, kan en administrator ha brukt en [feltbegrensning][10].
 
     * **Skjemaelementer**: Felt for å angi tekst eller dato, felt for å velge verdier (lister, avmerkingsbokser og alternativknapper) og felt for opplasting av filer.
 
     * **Visningselementer**: Seksjoner, tekster og bilder. Bruk seksjoner til å opprette [skjemaer med flere sider](#multi-page).
 
-4. Velg et felt fra listen.
+4. Velg et felt fra listen. Hvis listen er lang, kan du bruke søkeboksen til å finne et felt ved navn.
 
 5. Klikk på **Legg til**. Vinduet lukkes, og feltet legges til skjemaet og forhåndsvisningen av skjemaet.
 
@@ -129,6 +130,27 @@ Forhåndsvisningen til høyre oppdateres automatisk når du endrer innstillingen
 Velg en **skrifttype** fra rullegardinlisten for å bruke den på all tekst i skjemaet. De [tilgjengelige skrifttypene][9] administreres av administratorer i Innstillinger og vedlikehold.
 
 Den valgte skrifttypen gjelder for feltetiketter og alle andre tekstelementer i skjemaet. Du kan også bruke listen for skriftstørrelse og formateringsknappene for å style all tekst.
+
+#### <a id="custom-style"></a>Egendefinert utseende
+
+For full kontroll over hvordan skjemaet ditt ser ut, kan du skrive CSS i feltet **Egendefinert utseende**. Dette lar deg gå utover standardredigeringsalternativene og matche retningslinjene for merkevarebygging nøyaktig.
+
+![Skjemaredigering - egendefinert styling med CSS -screenshot][img16]
+
+* **For erfarne brukere:** Skriv eller lim inn CSS-koden direkte i feltet.
+* **For mindre avanserte brukere:** Velg en CSS-klasse fra listen, og legg til koden din. Denne fremgangsmåten gjør styling mindre overveldende og gir deg bedre kontroll over hva du endrer.
+
+Hvis [AI Lab][11] er aktivert for organisasjonen din, kan du automatisk hente ut CSS fra et eksisterende nettsted i stedet for å skrive det manuelt.
+
+![Skjemaredigering - hent stiler med AI -screenshot][img17]
+
+1. Skriv inn URL-en til nettsiden du vil hente stilen fra.
+1. Velg **Hent stiler med AI**. Den hentede CSS settes inn i feltet.
+1. Se gjennom og juster den genererte CSS etter behov.
+
+Følgende CSS-klasser er tilgjengelige:
+
+[!include[CSS-klasser](../../../../../common/includes/list-of-form-css-classes.md)]
 
 ### Aktiver dobbel opt-in (valgfritt)
 
@@ -194,6 +216,10 @@ Her kan du [definere hva som skjer når noen sender inn et skjemasvar][3].
 [4]: field-options.md
 [8]: ../../learn/create-folder.md
 [9]: ../admin/manage-fonts.md
+[10]: ../admin/form-field-restrictions.md
+[11]: ../../../ai/learn/index.md
 
 <!-- Referenced images -->
 [img15]: ../../../../media/loc/en/marketing/contact-me-form-properties.png
+[img16]: ../../../../media/loc/en/marketing/form-custom-styling.png
+[img17]: ../../../../media/loc/en/marketing/form-extract-styles-ai.png

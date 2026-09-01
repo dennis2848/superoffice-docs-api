@@ -42,7 +42,7 @@ as well as before any ORDER BY, are applied.
 |firstName|string|First name: Displays the contact's first name| x |
 |lastName|string|Last name: Displays the contact's last name| x |
 |middleName|string|Middle name: Displays the contact's middle name.| x |
-|fullName|stringorPK|Contact: Displays the contact to which an item is linked| x |
+|fullName|string|Contact: Displays the contact to which an item is linked| x |
 |fullNameWithContact| *None* |Contact and company: The fully formatted contact name, and full company name| x |
 |contactId|int|Company ID: Database ID of company| x |
 |hasInfoText|bool|Has note: Displays an icon indicating if there is additional information available about the contact| x |
@@ -186,7 +186,7 @@ as well as before any ORDER BY, are applied.
 |personSourceRelation/firstName|string|Source - First name: Displays the contact's first name| x |
 |personSourceRelation/lastName|string|Source - Last name: Displays the contact's last name| x |
 |personSourceRelation/middleName|string|Source - Middle name: Displays the contact's middle name.| x |
-|personSourceRelation/fullName|stringorPK|Source - Contact: Displays the contact to which an item is linked| x |
+|personSourceRelation/fullName|string|Source - Contact: Displays the contact to which an item is linked| x |
 |personSourceRelation/contactId|int|Source - Company ID: Database ID of company| x |
 |personSourceRelation/hasInfoText|bool|Source - Has note: Displays an icon indicating if there is additional information available about the contact| x |
 |personSourceRelation/hasInterests|bool|Source - Has interests: Displays an Icon indicating if the contact has active interests| x |
@@ -248,7 +248,7 @@ as well as before any ORDER BY, are applied.
 |personTargetRelation/firstName|string|Target - First name: Displays the contact's first name| x |
 |personTargetRelation/lastName|string|Target - Last name: Displays the contact's last name| x |
 |personTargetRelation/middleName|string|Target - Middle name: Displays the contact's middle name.| x |
-|personTargetRelation/fullName|stringorPK|Target - Contact: Displays the contact to which an item is linked| x |
+|personTargetRelation/fullName|string|Target - Contact: Displays the contact to which an item is linked| x |
 |personTargetRelation/contactId|int|Target - Company ID: Database ID of company| x |
 |personTargetRelation/hasInfoText|bool|Target - Has note: Displays an icon indicating if there is additional information available about the contact| x |
 |personTargetRelation/hasInterests|bool|Target - Has interests: Displays an Icon indicating if the contact has active interests| x |
@@ -377,7 +377,7 @@ as well as before any ORDER BY, are applied.
 |personContact/contactId|int|Company ID: Database ID of company| x |
 |personContact/name|stringorPK|Company name| x |
 |personContact/department|string|Department| x |
-|personContact/nameDepartment| *None* |Company: Displays the company an activity is linked to| x |
+|personContact/nameDepartment|string|Company: Displays the company an activity is linked to| x |
 |personContact/hasInfoText|bool|Has note: Displays an icon indicating if there is additional information available about the contact| x |
 |personContact/hasInterests|bool|Has interests: Displays an Icon indicating if the contact has active interests| x |
 |personContact/associateId|associate|Our contact: Displays our contact| x |
@@ -543,7 +543,7 @@ as well as before any ORDER BY, are applied.
 |personContact/contactSupportPerson/firstName|string|User support contact - First name: Displays the contact's first name| x |
 |personContact/contactSupportPerson/lastName|string|User support contact - Last name: Displays the contact's last name| x |
 |personContact/contactSupportPerson/middleName|string|User support contact - Middle name: Displays the contact's middle name.| x |
-|personContact/contactSupportPerson/fullName|stringorPK|User support contact - Contact: Displays the contact to which an item is linked| x |
+|personContact/contactSupportPerson/fullName|string|User support contact - Contact: Displays the contact to which an item is linked| x |
 |personContact/contactSupportPerson/contactId|int|User support contact - Company ID: Database ID of company| x |
 |personContact/contactSupportPerson/hasInfoText|bool|User support contact - Has note: Displays an icon indicating if there is additional information available about the contact| x |
 |personContact/contactSupportPerson/hasInterests|bool|User support contact - Has interests: Displays an Icon indicating if the contact has active interests| x |
@@ -728,7 +728,7 @@ as well as before any ORDER BY, are applied.
 |request/projectId|int|Project ID: Database ID of project record| x |
 |request/ticketStatusId|int|Status ID: Status| x |
 |request/priorityId|int|Priority ID: ID of priority in database| x |
-|request/categoryId|int|Category ID: ID of ticket category in database| x |
+|request/categoryId|int|Category ID: ID of request category in database| x |
 |request/ticketTypeName|listAny|Request type: Request type| x |
 |request/ticketStatusName|listAny|Status: Request status| x |
 |request/categoryFullName|ejCategory|Category: Request category| x |
@@ -737,6 +737,7 @@ as well as before any ORDER BY, are applied.
 |request/ticketId|int|ID: Displays request ID| x |
 |request/title|string|Title: Displays the request title| x |
 |request/createdAt|datetime|Created: Displays when the request was created| x |
+|request/createdDate|date|Created date: Created date| x |
 |request/lastChanged|datetime|Last changed: Displays when the request was last changed| x |
 |request/author|string|Author: Displays the author of the request| x |
 |request/readByOwner|datetime|Read by owner: Displays when the request was read by the owner| x |
@@ -757,11 +758,11 @@ as well as before any ORDER BY, are applied.
 |request/timeSpentExternally|timeSpan|Time spent externally: Time spent externally| x |
 |request/timeSpentInternally|timeSpan|Time spent internally: Time spent internally| x |
 |request/timeSpent|timeSpan|Time spent: Time spent| x |
-|request/timeToReply|timeSpan|Time to reply: Time to reply| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|request/timeToReply|timeSpan|Time to reply: Time to reply| x |
 |request/timeToClose|timeSpan|Time to close: Time to close| x |
 |request/realTimeToReply|timeSpan|Real time to reply: Real time to reply| x |
 |request/realTimeToClose|timeSpan|Real time to close: Real time to close| x |
@@ -846,7 +847,7 @@ as well as before any ORDER BY, are applied.
 |request/ownedBy/isLocation|bool|Owner - Is a location: Is a location| x |
 |request/ticketStatus/ticketStatusId|int|Status - ID: Displays request status ID| x |
 |request/ticketStatus/name|string|Status - Name: Displays the name of the request status| x |
-|request/ticketStatus/rank|int|Status - Status rank: Sort order of the status in the ticket status list| x |
+|request/ticketStatus/rank|int|Status - Status rank: Sort order of the status in the request status list| x |
 |request/ticketPriority/ticketPriorityId|int|Priority - ID: Displays the ID of the priority| x |
 |request/ticketPriority/name|string|Priority - Name: Displays the name of the priority| x |
 |request/ticketPriority/rank|int|Priority - Priority rank: Sort order of priority in the priority list| x |
@@ -861,11 +862,11 @@ as well as before any ORDER BY, are applied.
 |request/extra/x\_ticket\_short\_text|string|Extra short text: Custom short text field on Request. Do not keep HTML tags. Display on new request| x |
 |request/extra/x\_ticket\_shorttext\_list|listAny|Extra Dropdown: Custom short text with list for Request Pink, Orange, Yellow, Polkadot| x |
 |request/extra/x\_ticket\_timestamp|datetime|Extra timestamp: Custom date time field on ticket with default = current date + time. Field cannot change. Hide field| x |
-|request/extra/x\_ticket\_project\_relation|stringorPK|Extra project: Custom project relation on Request| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|request/extra/x\_ticket\_project\_relation|stringorPK|Extra project: Custom project relation on Request| x |
 |request/extra/x\_ticket\_faq|stringorPK|Extra FAQ Relation: Extra FAQ Relation| x |
 |request/extra/x\_ticket\_category\_relation|listAny|Extra category relation: Category relation on request| x |
 |request/extra/y\_equipment/x\_name|string|Equipment - Name: Equpment name custom field. Cannot be null., show in table| x |
@@ -893,7 +894,10 @@ as well as before any ORDER BY, are applied.
 |projectMembers/endDate|date|End date: End date of project| x |
 |projectMembers/imageThumbnail| *None* |Thumbnail: Scaled-down image of project image|  |
 |projectMembers/activeErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
+|projectMembers/eventId|int|Event ID: Event ID| x |
+|projectMembers/startDate|date|Start date: Project start date| x |
 |projectMembers/function|listAny|Function: Displays the project member's function in the project| x |
+|projectMembers/eventParticipantStatus|listAny|Project member - Event status: Project member - Event status| x |
 |projectMembers/projectPublish/isPublished|bool|Published: Displays an icon indicating if the project or sale has been published| x |
 |projectMembers/projectPublish/publishedFrom|date|From date: Start date for publishing. The record will not be visible prior to this date| x |
 |projectMembers/projectPublish/publishedTo|date|To date: End date for publishing. The record will not be visible after this date| x |
@@ -962,14 +966,14 @@ as well as before any ORDER BY, are applied.
 |projectMembers/LastCompletedSale|date|Date of last completed sale|  |
 |projectMembers/LastDoBySale|date|Date of last non-completed sale|  |
 |projectMembers/SaintStatus3|saintStatus|Not completed activites with intention sale: Number of not completed activities for intention sale > 0.|  |
-|projectMembers/saintSaleStatus|listAny|With status|  |
-|projectMembers/saintAmountClass|listAny|Amount class|  |
-|projectMembers/saintActivityType|listAny|SAINT type|  |
-|projectMembers/saintDirection|listAny|Direction|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|projectMembers/saintSaleStatus|listAny|With status|  |
+|projectMembers/saintAmountClass|listAny|Amount class|  |
+|projectMembers/saintActivityType|listAny|SAINT type|  |
+|projectMembers/saintDirection|listAny|Direction|  |
 |projectMembers/saintIntention|listAny|Intention|  |
 |projectMembers/saintTicketStatus|listAny|Status|  |
 |projectMembers/saintTicketCategory|listAny|Category|  |
@@ -1064,16 +1068,17 @@ as well as before any ORDER BY, are applied.
 |personAppointment/associate/personEmail|string|E-mail| x |
 |personAppointment/associate/locationAddress|string|Location: Location| x |
 |personAppointment/associate/isLocation|bool|Is a location: Is a location| x |
+|personAppointment/appointment/text|positiveString|Text: Displays a descriptive text for the item| x |
 |personAppointment/appointment/description|positiveString|Text: Displays the text entered in the description field| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |personAppointment/appointment/title|positiveString|Title| x |
 |personAppointment/appointment/titleHtml| *None* |!!Title Html| x |
 |personAppointment/appointment/agenda|positiveString|Agenda| x |
 |personAppointment/appointment/agendaHtml| *None* |!!Agenda Html| x |
 |personAppointment/appointment/isConverted| *None* |!!Is Converted|  |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |personAppointment/appointment/textId|int|Text ID| x |
 |personAppointment/appointment/internalNotes|positiveString|Internal notes: Displays the text entered in the description field| x |
 |personAppointment/appointment/internalNotesHtml|positiveString|!!Internal Notes Html| x |
@@ -1081,7 +1086,7 @@ as well as before any ORDER BY, are applied.
 ## Sample
 
 ```http!
-GET /api/v1/archive/FreetextPerson?$select=lastName,personSourceRelation/isProjectMember,personTargetRelation/kanaFirstName,personContact/contactSupportAssociate/credentialType,personContact/contactExtra/x_contact_request_relation
+GET /api/v1/archive/FreetextPerson?$select=personDirectFax/formattedNumber,personAddress/line1,personSourceRelation/createdByForm,correspondingAssociate/assocType,personContact/postAddress/county
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

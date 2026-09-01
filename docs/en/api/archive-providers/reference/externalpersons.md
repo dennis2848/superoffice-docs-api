@@ -30,7 +30,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |firstName|string|First name: Displays the contact's first name| x |
 |lastName|string|Last name: Displays the contact's last name| x |
 |middleName|string|Middle name: Displays the contact's middle name.| x |
-|fullName|stringorPK|Contact: Displays the contact to which an item is linked| x |
+|fullName|string|Contact: Displays the contact to which an item is linked| x |
 |contactId|int|Company ID: Database ID of company| x |
 |hasInfoText|bool|Has note: Displays an icon indicating if there is additional information available about the contact| x |
 |hasInterests|bool|Has interests: Displays an Icon indicating if the contact has active interests| x |
@@ -173,7 +173,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |personSourceRelation/firstName|string|Source - First name: Displays the contact's first name| x |
 |personSourceRelation/lastName|string|Source - Last name: Displays the contact's last name| x |
 |personSourceRelation/middleName|string|Source - Middle name: Displays the contact's middle name.| x |
-|personSourceRelation/fullName|stringorPK|Source - Contact: Displays the contact to which an item is linked| x |
+|personSourceRelation/fullName|string|Source - Contact: Displays the contact to which an item is linked| x |
 |personSourceRelation/contactId|int|Source - Company ID: Database ID of company| x |
 |personSourceRelation/hasInfoText|bool|Source - Has note: Displays an icon indicating if there is additional information available about the contact| x |
 |personSourceRelation/hasInterests|bool|Source - Has interests: Displays an Icon indicating if the contact has active interests| x |
@@ -235,7 +235,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |personTargetRelation/firstName|string|Target - First name: Displays the contact's first name| x |
 |personTargetRelation/lastName|string|Target - Last name: Displays the contact's last name| x |
 |personTargetRelation/middleName|string|Target - Middle name: Displays the contact's middle name.| x |
-|personTargetRelation/fullName|stringorPK|Target - Contact: Displays the contact to which an item is linked| x |
+|personTargetRelation/fullName|string|Target - Contact: Displays the contact to which an item is linked| x |
 |personTargetRelation/contactId|int|Target - Company ID: Database ID of company| x |
 |personTargetRelation/hasInfoText|bool|Target - Has note: Displays an icon indicating if there is additional information available about the contact| x |
 |personTargetRelation/hasInterests|bool|Target - Has interests: Displays an Icon indicating if the contact has active interests| x |
@@ -377,7 +377,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |request/projectId|int|Project ID: Database ID of project record| x |
 |request/ticketStatusId|int|Status ID: Status| x |
 |request/priorityId|int|Priority ID: ID of priority in database| x |
-|request/categoryId|int|Category ID: ID of ticket category in database| x |
+|request/categoryId|int|Category ID: ID of request category in database| x |
 |request/ticketTypeName|listAny|Request type: Request type| x |
 |request/ticketStatusName|listAny|Status: Request status| x |
 |request/categoryFullName|ejCategory|Category: Request category| x |
@@ -386,6 +386,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |request/ticketId|int|ID: Displays request ID| x |
 |request/title|string|Title: Displays the request title| x |
 |request/createdAt|datetime|Created: Displays when the request was created| x |
+|request/createdDate|date|Created date: Created date| x |
 |request/lastChanged|datetime|Last changed: Displays when the request was last changed| x |
 |request/author|string|Author: Displays the author of the request| x |
 |request/readByOwner|datetime|Read by owner: Displays when the request was read by the owner| x |
@@ -430,11 +431,11 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |request/createdBy/contactId|int|Created by - Company ID: Database ID of the company the user belongs to|  |
 |request/createdBy/personId|int|Created by - Contact ID: Database ID of the contact row|  |
 |request/createdBy/mrMrs|string|Created by - Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
-|request/createdBy/title|string|Created by - Title: Displays whether the contact is addressed as Mr or Ms| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|request/createdBy/title|string|Created by - Title: Displays whether the contact is addressed as Mr or Ms| x |
 |request/createdBy/associateDbId|associate|Created by - ID| x |
 |request/createdBy/contactName|string|Created by - Owning company: Name of the company the user belongs to| x |
 |request/createdBy/contactDepartment|string|Created by - Owning department: Name of the department at the company the user belongs to| x |
@@ -495,7 +496,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |request/ownedBy/isLocation|bool|Owner - Is a location: Is a location| x |
 |request/ticketStatus/ticketStatusId|int|Status - ID: Displays request status ID| x |
 |request/ticketStatus/name|string|Status - Name: Displays the name of the request status| x |
-|request/ticketStatus/rank|int|Status - Status rank: Sort order of the status in the ticket status list| x |
+|request/ticketStatus/rank|int|Status - Status rank: Sort order of the status in the request status list| x |
 |request/ticketPriority/ticketPriorityId|int|Priority - ID: Displays the ID of the priority| x |
 |request/ticketPriority/name|string|Priority - Name: Displays the name of the priority| x |
 |request/ticketPriority/rank|int|Priority - Priority rank: Sort order of priority in the priority list| x |
@@ -534,15 +535,18 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |projectMembers/registeredByFullName|associate|Registered by - Full name: The user who registered the data| x |
 |projectMembers/registeredDate|date|Registered date: The date/time the data was registered in UTC.| x |
 |projectMembers/hasGuide|bool|Guided: Does this sale have a Sales Guide| x |
-|projectMembers/nextMilestone|date|Next milestone: Date of next non-completed activity that is marked as a milestone| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|projectMembers/nextMilestone|date|Next milestone: Date of next non-completed activity that is marked as a milestone| x |
 |projectMembers/endDate|date|End date: End date of project| x |
 |projectMembers/imageThumbnail| *None* |Thumbnail: Scaled-down image of project image|  |
 |projectMembers/activeErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
+|projectMembers/eventId|int|Event ID: Event ID| x |
+|projectMembers/startDate|date|Start date: Project start date| x |
 |projectMembers/function|listAny|Function: Displays the project member's function in the project| x |
+|projectMembers/eventParticipantStatus|listAny|Project member - Event status: Project member - Event status| x |
 |projectMembers/projectPublish/isPublished|bool|Published: Displays an icon indicating if the project or sale has been published| x |
 |projectMembers/projectPublish/publishedFrom|date|From date: Start date for publishing. The record will not be visible prior to this date| x |
 |projectMembers/projectPublish/publishedTo|date|To date: End date for publishing. The record will not be visible after this date| x |
@@ -635,14 +639,14 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |personAppointment/userGroup|userGroup|User group : The user group that owns the record| x |
 |personAppointment/who| *None* |Who: Contact and/or company|  |
 |personAppointment/updatedBy|associate|Updated by: The user who last updated the data| x |
-|personAppointment/updatedByFullName|associate|Updated by - Full name: The user who last updated the data| x |
-|personAppointment/updatedDate|date|Updated: The date/time the data was last updated in UTC.| x |
-|personAppointment/registeredBy|associate|Registered by: The user who registered the data| x |
-|personAppointment/registeredByFullName|associate|Registered by - Full name: The user who registered the data| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|personAppointment/updatedByFullName|associate|Updated by - Full name: The user who last updated the data| x |
+|personAppointment/updatedDate|date|Updated: The date/time the data was last updated in UTC.| x |
+|personAppointment/registeredBy|associate|Registered by: The user who registered the data| x |
+|personAppointment/registeredByFullName|associate|Registered by - Full name: The user who registered the data| x |
 |personAppointment/registeredDate|date|Registered date: The date/time the data was registered in UTC.| x |
 |personAppointment/appointmentId|int|DB ID: Displays the database ID of a row| x |
 |personAppointment/endDate|date|End date: Displays the deadline for a follow-up/sale| x |
@@ -713,6 +717,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |personAppointment/associate/personEmail|string|E-mail| x |
 |personAppointment/associate/locationAddress|string|Location: Location| x |
 |personAppointment/associate/isLocation|bool|Is a location: Is a location| x |
+|personAppointment/appointment/text|positiveString|Text: Displays a descriptive text for the item| x |
 |personAppointment/appointment/description|positiveString|Text: Displays the text entered in the description field| x |
 |personAppointment/appointment/title|positiveString|Title| x |
 |personAppointment/appointment/titleHtml| *None* |!!Title Html| x |
@@ -726,7 +731,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/ExternalPersons?$select=personCategory,personSourceRelation/birthDay,personTargetRelation/personUpdatedBy,personTargetRelation/whenUpdatedByWorkflow,personAssociate/contactName
+GET /api/v1/archive/ExternalPersons?$select=restrictionAddress/county,personExtra/y_rental/id,personTargetRelation/personHasInterests,personTargetRelation/personUpdatedByFullName,personAssociate/userName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

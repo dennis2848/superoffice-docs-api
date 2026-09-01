@@ -1,14 +1,15 @@
-﻿---
+---
 uid: help-sv-marketing
 title: SuperOffice Marknadsföring
 description: Funktionerna för marknadsföring inkluderar utskick och webbformulär och hjälper användare att samla information och kommunicera bättre med potentiella och befintliga kunder. Tillsammans kan de hjälpa dig att generera fler potentiella kunder, sälja mer till befintliga kunder och bygga kundlojalitet.
 keywords: Marknadsföring
 author: SuperOffice Product and Engineering
-date: 09.26.2025
-version: 10.5
+date: 06.10.2026
+version: 12.0
 content_type: concept
 category: marketing
 license: marketingessentials
+tier: growth
 audience: person
 audience_tooltip: SuperOffice Marketing
 redirect_from: /sv/marketing/learn/screen/index
@@ -69,7 +70,7 @@ Det finns tre nyckelområden där GDPR påverkar marknadsförarnas arbete:
 ## Krav
 
 > [!NOTE]
-> Spårade länkar och rapporteringsfunktionerna kräver licensen för användare av Marknadsföring. Du behöver även funktionella rättigheter för att redigera och skicka utskick.
+> Spårade länkar och rapporteringsfunktionerna kräver en **Marketing Essentials**-licens eller **Growth**-planen. Du behöver även funktionella rättigheter för att redigera och skicka utskick.
 
 SMS-utskick är inte tillgängligt om du använder CRM Online.
 
@@ -93,10 +94,6 @@ För att dra nytta av marknadsföringsfunktioner i SuperOffice behöver du ha en
 | Automatisering av kundresor | | x |
 | Cross-sell och up-sell-främjande | | x |
 | Marknadsföring/försäljning-anpassning | x | x |
-
-## Skillnader mellan lokala installationer och onlineinstallationer
-
-SuperOffice Marknadsföring erbjuds som onlineprogram (molnbaserat) och som ett lokalt program (installerat hos kunden). Det finns mindre skillnader mellan de två programmen. Specifika funktionsskillnader anges med ikonerna i själva procedurerna eller i avsnittsrubrikerna.
 
 ## Detaljkort SuperOffice Marknadsföring
 

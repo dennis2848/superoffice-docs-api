@@ -176,7 +176,8 @@ This is the archive Provider for the QuoteLine Archive.
 |alternative/version/quote/sale/createdByWorkflow|listAny|Sale - Created by flow: Created by flow| x |
 |alternative/version/quote/sale/amountInBaseCurrency| *None* |Sale - Amount (BaseCurrency: The gross sales total| x |
 |alternative/version/quote/sale/amountWeightedInBaseCurrency| *None* |Sale - Weighted amount (BaseCurrency: Virtual field calculated from amount * probability percent.| x |
-|alternative/version/quote/sale/daysInStage| *None* |Sale - Days in stage: Total number of days in this stage| x |
+|alternative/version/quote/sale/daysInStage|int|Sale - Days in stage: Total number of days in this stage| x |
+|alternative/version/quote/sale/saleCycle|int|Sale - Sale cycle: Number of days from a sale was registered until it was closed (sold or lost)| x |
 |alternative/version/quote/sale/visibleFor|listAny|Sale - Visible for|  |
 |alternative/version/quote/sale/sale/textId|int|Sale - Text ID| x |
 |alternative/version/quote/sale/sale/description|positiveString|Sale - Text: Displays the text entered in the description field| x |
@@ -184,7 +185,7 @@ This is the archive Provider for the QuoteLine Archive.
 |alternative/version/quote/sale/person/firstName|string|Sale - First name: Displays the contact's first name| x |
 |alternative/version/quote/sale/person/lastName|string|Sale - Last name: Displays the contact's last name| x |
 |alternative/version/quote/sale/person/middleName|string|Sale - Middle name: Displays the contact's middle name.| x |
-|alternative/version/quote/sale/person/fullName|stringorPK|Sale - Contact: Displays the contact to which an item is linked| x |
+|alternative/version/quote/sale/person/fullName|string|Sale - Contact: Displays the contact to which an item is linked| x |
 |alternative/version/quote/sale/person/contactId|int|Sale - Company ID: Database ID of company| x |
 |alternative/version/quote/sale/person/hasInfoText|bool|Sale - Has note: Displays an icon indicating if there is additional information available about the contact| x |
 |alternative/version/quote/sale/person/hasInterests|bool|Sale - Has interests: Displays an Icon indicating if the contact has active interests| x |
@@ -224,11 +225,11 @@ This is the archive Provider for the QuoteLine Archive.
 |alternative/version/quote/sale/person/personCategory|listAny|Sale - Category| x |
 |alternative/version/quote/sale/person/personCategoryGroup|listAny|Sale - Category group| x |
 |alternative/version/quote/sale/person/personCategoryRank|int|Sale - !!Category rank| x |
-|alternative/version/quote/sale/person/personBusiness|listAny|Sale - Business| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|alternative/version/quote/sale/person/personBusiness|listAny|Sale - Business| x |
 |alternative/version/quote/sale/person/leadStatus|listAny|Sale - Lead status| x |
 |alternative/version/quote/sale/person/leadstatusRank|int|Sale - !!Lead status RANK| x |
 |alternative/version/quote/sale/person/personDeletedDate|datetime|Sale - Deleted date: Deleted date|  |
@@ -328,11 +329,11 @@ This is the archive Provider for the QuoteLine Archive.
 |alternative/version/quote/sale/person/personAssociate/middleName|string|Sale - Middle Name: Displays the contact's middle name.| x |
 |alternative/version/quote/sale/person/personAssociate/fullName|string|Sale - Full name: Displays full name of user (first, middle, last - according to settings)| x |
 |alternative/version/quote/sale/person/personAssociate/contactId|int|Sale - Company ID: Database ID of the company the user belongs to|  |
-|alternative/version/quote/sale/person/personAssociate/personId|int|Sale - Contact ID: Database ID of the contact row|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|alternative/version/quote/sale/person/personAssociate/personId|int|Sale - Contact ID: Database ID of the contact row|  |
 |alternative/version/quote/sale/person/personAssociate/mrMrs|string|Sale - Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
 |alternative/version/quote/sale/person/personAssociate/title|string|Sale - Title: Displays whether the contact is addressed as Mr or Ms| x |
 |alternative/version/quote/sale/person/personAssociate/associateDbId|associate|Sale - ID| x |
@@ -406,7 +407,7 @@ This is the archive Provider for the QuoteLine Archive.
 |alternative/version/quote/sale/contact/contactId|int|Sale - Company ID: Database ID of company| x |
 |alternative/version/quote/sale/contact/name|stringorPK|Sale - Company name| x |
 |alternative/version/quote/sale/contact/department|string|Sale - Department| x |
-|alternative/version/quote/sale/contact/nameDepartment| *None* |Sale - Company: Displays the company an activity is linked to| x |
+|alternative/version/quote/sale/contact/nameDepartment|string|Sale - Company: Displays the company an activity is linked to| x |
 |alternative/version/quote/sale/contact/hasInfoText|bool|Sale - Has note: Displays an icon indicating if there is additional information available about the contact| x |
 |alternative/version/quote/sale/contact/hasInterests|bool|Sale - Has interests: Displays an Icon indicating if the contact has active interests| x |
 |alternative/version/quote/sale/contact/associateId|associate|Sale - Our contact: Displays our contact| x |
@@ -432,11 +433,11 @@ This is the archive Provider for the QuoteLine Archive.
 |alternative/version/quote/sale/contact/phone/formattedNumber|string|Sale - Phone: Displays phone number|  |
 |alternative/version/quote/sale/contact/activeErpLinks|bool|Sale - ERP connected: Is there an active ERP Sync?| x |
 |alternative/version/quote/sale/contact/deletedDate|datetime|Sale - Deleted date: Deleted date|  |
-|alternative/version/quote/sale/contact/mainContact| *None* |Sale - Main contact: Main contact for this company| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|alternative/version/quote/sale/contact/mainContact| *None* |Sale - Main contact: Main contact for this company| x |
 |alternative/version/quote/sale/contact/forceCompany|bool|Sale - Dummy: Dummy|  |
 |alternative/version/quote/sale/contact/contactPhone/formattedNumber|string|Sale - Telephone - Phone: Displays phone number|  |
 |alternative/version/quote/sale/contact/contactPhone/description|string|Sale - Telephone - Description: Phone number description| x |
@@ -536,11 +537,11 @@ This is the archive Provider for the QuoteLine Archive.
 |alternative/version/quote/sale/contact/contactUdef/SuperOffice:10|string|Sale - page1marketingonly| x |
 |alternative/version/quote/sale/contact/contactUdef/SuperOffice:11|string|Sale - page1adminonly| x |
 |alternative/version/quote/sale/contact/contactUdef/SuperOffice:12|listAny|Sale - Udlist one: Static tooltip for udlist one| x |
-|alternative/version/quote/sale/contact/contactUdef/SuperOffice:13|listAny|Sale - Udlist two: Static tooltip for udlist two| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|alternative/version/quote/sale/contact/contactUdef/SuperOffice:13|listAny|Sale - Udlist two: Static tooltip for udlist two| x |
 |alternative/version/quote/sale/contact/contactExtra/x\_contact\_integer|int|Sale - Extra Integer: Custom integer field| x |
 |alternative/version/quote/sale/contact/contactExtra/x\_contact\_hidden\_integer|int|Sale - Extra hidden integer: Custom integer field - hidden| x |
 |alternative/version/quote/sale/contact/contactExtra/x\_contact\_default\_integer|int|Sale - Extra Default Integer: Custom integer field with default value 123.| x |
@@ -640,11 +641,11 @@ This is the archive Provider for the QuoteLine Archive.
 |alternative/version/quote/sale/project/hasInfoText|bool|Sale - Project - Info: Displays an icon indicating if the project has a description text. The text itself will be displayed in a tooltip.| x |
 |alternative/version/quote/sale/project/icon| *None* |Sale - Project - Category: Displays the icon for an activity type| x |
 |alternative/version/quote/sale/project/text|string|Sale - Project - Text: Displays a descriptive text for the item| x |
-|alternative/version/quote/sale/project/description|string|Sale - Project - Description: Description| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|alternative/version/quote/sale/project/description|string|Sale - Project - Description: Description| x |
 |alternative/version/quote/sale/project/updatedBy|associate|Sale - Project - Updated by: The user who last updated the data| x |
 |alternative/version/quote/sale/project/updatedByFullName|associate|Sale - Project - Updated by - Full name: The user who last updated the data| x |
 |alternative/version/quote/sale/project/updatedDate|date|Sale - Project - Updated: The date/time the data was last updated in UTC.| x |
@@ -656,6 +657,8 @@ This is the archive Provider for the QuoteLine Archive.
 |alternative/version/quote/sale/project/endDate|date|Sale - Project - End date: End date of project| x |
 |alternative/version/quote/sale/project/imageThumbnail| *None* |Sale - Project - Thumbnail: Scaled-down image of project image|  |
 |alternative/version/quote/sale/project/activeErpLinks|bool|Sale - Project - ERP connected: Is there an active ERP Sync?| x |
+|alternative/version/quote/sale/project/eventId|int|Sale - Project - Event ID: Event ID| x |
+|alternative/version/quote/sale/project/startDate|date|Sale - Project - Start date: Project start date| x |
 |alternative/version/quote/sale/project/projectPublish/isPublished|bool|Sale - Project - Published: Displays an icon indicating if the project or sale has been published| x |
 |alternative/version/quote/sale/project/projectPublish/publishedFrom|date|Sale - Project - From date: Start date for publishing. The record will not be visible prior to this date| x |
 |alternative/version/quote/sale/project/projectPublish/publishedTo|date|Sale - Project - To date: End date for publishing. The record will not be visible after this date| x |
@@ -742,13 +745,13 @@ This is the archive Provider for the QuoteLine Archive.
 |alternative/version/quote/connection/connectorName|string|ERP connection - Quote Connector name: Name of Quote Connector module. Defined by the developer of the module.| x |
 |alternative/version/quote/connection/extraData|string|ERP connection - Extra data: XML encoded data.| x |
 |alternative/version/quote/connection/updatedBy|associate|ERP connection - Updated by: The user who last updated the data| x |
-|alternative/version/quote/connection/updatedDate|date|ERP connection - Updated: The date/time the data was last updated in UTC.| x |
-|alternative/version/quote/connection/registeredBy|associate|ERP connection - Registered by: The user who registered the data| x |
-|alternative/version/quote/connection/registeredDate|date|ERP connection - Registered date: The date/time the data was registered in UTC.| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|alternative/version/quote/connection/updatedDate|date|ERP connection - Updated: The date/time the data was last updated in UTC.| x |
+|alternative/version/quote/connection/registeredBy|associate|ERP connection - Registered by: The user who registered the data| x |
+|alternative/version/quote/connection/registeredDate|date|ERP connection - Registered date: The date/time the data was registered in UTC.| x |
 |alternative/version/quote/connection/erpConnection/id|int|ERP connection - ERP connections - Connection ID: Database key for an ERP connection|  |
 |alternative/version/quote/connection/erpConnection/name|string|ERP connection - ERP connections - Name: Name of the ERP connection in the CRM system|  |
 |alternative/version/quote/connection/erpConnection/description|string|ERP connection - ERP connections - Description: The description of the ERP connection in the CRM system|  |
@@ -772,7 +775,7 @@ This is the archive Provider for the QuoteLine Archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/ConfigurableArchiveQuoteLine?$select=alternative/version/extraField4,alternative/version/quote/sale/person/personAssociate/contactId,alternative/version/quote/sale/person/personAssociate/credentialDisplayValue,alternative/version/quote/sale/person/personAssociate/otherGroups,alternative/version/quote/sale/contact/NumberOfActivitiesInPeriod
+GET /api/v1/archive/ConfigurableArchiveQuoteLine?$select=alternative/vat,alternative/version/quote/sale/person/portraitThumbnail,alternative/version/quote/sale/person/restrictionAddress/line3,alternative/version/quote/sale/contact/forceCompany
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

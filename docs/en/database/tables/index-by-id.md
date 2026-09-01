@@ -40,7 +40,6 @@ envir: onsite, online
 |22| [preference](preference.md) |Not quite obsolete preference table; historical info mostly. From 6.1 this table now holds an upgrade stamp.|
 |23| [selection](selection.md) |Selections|
 |24| [selectionmember](selectionmember.md) |Selection detail table  Each row in a selection is represented by one record in this table. Contact_id is always filled in, person_id is optional, but if used, must point to a person belonging to the contact in contact_id.|
-|25| [SORPublishGroupLink](sorpublishgrouplink.md) |Link table used for filtering reports by user group|
 |26| [QuoteConnection](quoteconnection.md) |Primary key in the CRM database. Definition of a connection to an external system, for the Quote system.|
 |27| [QuoteConnectionAccess](quoteconnectionaccess.md) |Access control for Quote Connections|
 |28| [activeuser](activeuser.md) |Currently logged-on users. This table contains encrypted license information.  Changing it may disable login for all users and require intervention by SuperOffice support. Recommended use: for determining who is logged on, at what location, etc.|
@@ -176,25 +175,11 @@ envir: onsite, online
 |158| [udsalesmall](udsalesmall.md) |User-defined fields|
 |159| [udsalelarge](udsalelarge.md) |User-defined fields|
 |160| [SaleTypeStageLink](saletypestagelink.md) |Many-many link table between sale type and stage; and an anchor point for guide items|
-|161| [OLESubject](olesubject.md) |Control data table for the OLE DB Provider|
-|162| [OLESubjectText](olesubjecttext.md) |Control data table for the OLE DB Provider|
-|163| [OLEView](oleview.md) |Control data table for the OLE DB Provider|
-|164| [OLEViewText](oleviewtext.md) |Control data table for the OLE DB Provider|
-|165| [OLEField](olefield.md) |Control data table for the OLE DB Provider|
-|166| [OLEFieldText](olefieldtext.md) |Control data table for the OLE DB Provider|
 |167| [OwnerContactLink](ownercontactlink.md) |Table specifying which contacts can own associates.  All contacts that have rows in this table (i.e. rows with contact_id pointing to them) will be offered as associate owners in the maintenance client and as candidate Satellite owners. Such contacts have restrictions on editing and deletion to protect database consistency. |
 |168| [FieldLabel](fieldlabel.md) |Field label override table, makes it possible to override internal string resources. Define your own text for the panels in SuperOffice, e.g. rename Project to Cars in SOAdmin - System Options - Labels  This table contains controlling data for the string substitution mechanism. There is one row in this table for each label or string that can be substituted; the active field indicates whether the string is actually being substituted or not. Initially, all rows have this field set to 0. The table is loaded with initial data during database setup.  Only SuperOffice Development has the necessary expertise to safely add rows to this table.  If a row has active = 1, the table LocaleText should contain one or more rows pointing back to this table, with the actual text to be used. |
 |169| [LocaleText](localetext.md) |Multi-language text items. Used for user-defined field labels. Must be assigned correct name to match the language they start SuperOffice in.  This table should be viewed in conjunction with FieldLabel. If a row in FieldLable has active = 1 this table will need to contain at least one row with the same resourceId as the FieldLabel row. The language id can be either 0 or one of the Windows language ID&apos;s; SuperOffice will pick the correct language on startup according to the user settings. If a label cannot be found with the given language and also not with language 0, it will not be substituted. |
-|170| [ReporterListDef](reporterlistdef.md) |Reporter definitions|
 |171| [RefCounts](refcounts.md) |Number counter for all tables that generate numbers, e.g. templates, contacts...   This table is used for the number allocation system and should not be confused with sequence, used for allocating internal ID&apos;s. This table is replicated during generation of satellites and during local update for travellers, using special logic. By default it contains rows for the SuperOffice standard counters, including one row for each DocTemplate record.  It is permissible to add new rows to this table, and such records are maintainable through the Maintenance client.  Changing the contents of the standard records is not recommended. |
 |172| [RefCountRange](refcountrange.md) |Number allocation system, for keeping track of ranges of numbers loaned out to travel and satellite databases|
-|173| [SORTemplate](sortemplate.md) |SuperOffice reporter data|
-|174| [SORPublish](sorpublish.md) |SuperOffice reporter data|
-|175| [SORCriteria](sorcriteria.md) |SuperOffice reporter data|
-|176| [SOROperators](soroperators.md) |SuperOffice reporter data|
-|177| [SORSection](sorsection.md) |SuperOffice reporter data|
-|178| [SORFCT](sorfct.md) |SuperOffice reporter data|
-|179| [SORField](sorfield.md) |SuperOffice reporter data|
 |180| [SORLabelLayout](sorlabellayout.md) |SuperOffice reporter data|
 |181| [foreignapp](foreignapp.md) |Top level of Foreign Key system|
 |182| [foreigndevice](foreigndevice.md) |Middle level of Foreign Key system|
@@ -205,7 +190,6 @@ envir: onsite, online
 |187| [ImportField](importfield.md) |Import object types - see localetext for names|
 |188| [ImportRelation](importrelation.md) |Relations between import objects|
 |189| [ImportDefault](importdefault.md) |Defaults for import fields/objects|
-|190| [UsageStats](usagestats.md) |Usage statistics|
 |191| [Role](role.md) |User roles for role-based security, names and tooltips are in LocaleText. For more information regarding role based security, see http://techdoc.superoffice.com|
 |192| [UserRoleLink](userrolelink.md) |Link between user role and user|
 |193| [FunctionRight](functionright.md) |Functional right definition|
@@ -466,101 +450,106 @@ envir: onsite, online
 |448| [ResourceOverride](resourceoverride.md) |Generic mechanism for overriding (or even defining new) text resources, in multiple languages|
 |449| [ErpConfiguration](erpconfiguration.md) |Global settings for the Erp Integration Server|
 |450| [EjCategoryGroupLink](ejcategorygrouplink.md) |User group link table for EjCategory, for mass handling ej_category members|
-|451| [obsolete\_1](obsolete-1.md) |Obsolete table for functionality that was never implemented|
-|452| [obsolete\_2](obsolete-2.md) |Obsolete table for functionality that was never implemented|
-|453| [obsolete\_3](obsolete-3.md) |Obsolete table for functionality that was never implemented|
-|454| [obsolete\_4](obsolete-4.md) |Obsolete table for functionality that was never implemented|
 |455| [Favourite](favourite.md) |Favourite records (star-marking)|
 |456| [DatabaseModel](databasemodel.md) |New DatabaseModel used by Continuous Database|
-|458| [SaintConfiguration](saintconfiguration.md) |Configuration information for the Saint system|
-|459| [Tags](tags.md) |MDO List of tags for Service entities|
-|460| [TagsGroupLink](tagsgrouplink.md) |User group link table for Tags, for MDO item hiding|
-|461| [TagsHeadingLink](tagsheadinglink.md) |Heading link table for Source, for MDO headers|
-|462| [ai\_chat\_turn](ai-chat-turn.md) |Contains AI Chatbot history - contains whole chat, not just what is sent to the chatbot. History is ready ordered by timestamp|
-|463| [quick\_reply](quick-reply.md) |Personal quick reply text fragments|
-|464| [ConfigurableScreenDelta](configurablescreendelta.md) |Parts of recipes in SCIL to insert or remove in given recipes|
-|465| [ConfigurableScreenAppliesTo](configurablescreenappliesto.md) |Mapping between recipes in scil and chosen type of data (appliesToKey) to differ layouts on|
-|466| [TaskMenu](taskmenu.md) |List items to merge into menues|
-|467| [TaskMenuGroupLink](taskmenugrouplink.md) |User group link table for TaskMenu, for MDO item hiding|
-|468| [TaskMenuHeadingLink](taskmenuheadinglink.md) |Heading link table for TaskMenu, for MDO headers|
-|469| [ConsentPurpose](consentpurpose.md) |GDPR purpose alternatives|
-|470| [LegalBase](legalbase.md) |Legal base for GDPR (Article 6)|
-|471| [ConsentSource](consentsource.md) |Consent source for GDPR|
-|472| [ConsentPerson](consentperson.md) |Link table that defines who has which consents|
-|473| [CategoryFamily](categoryfamily.md) |Grouping table so that multiple company categories can be grouped under one term; to simplify searching for things like &apos;all customers&apos;|
-|474| [copilot](copilot.md) |Contains all available copilots|
-|475| [copilot\_data\_source](copilot-data-source.md) |Stores data sources for each copilot|
-|476| [copilot\_data\_source\_setting](copilot-data-source-setting.md) |Stores specific configuration values for each data source|
-|477| [script\_trace](script-trace.md) |Scripts which should be traced|
-|478| [script\_trace\_run](script-trace-run.md) |Traces of executed scripts|
-|479| [attachment\_location](attachment-location.md) |A location for storing attachments|
-|480| [cust\_config](cust-config.md) |This table contains JSON structures used for customizing the customer center|
-|481| [cc\_template](cc-template.md) |This table contains templates for the customer center|
-|482| [dashboard](dashboard.md) |Describes a dashboard|
-|483| [dashboard\_theme](dashboard-theme.md) |A set of style rules for the Dashboard|
-|484| [dashboard\_tile\_definition](dashboard-tile-definition.md) |Describes the contents of a tile|
-|485| [dashboard\_tile](dashboard-tile.md) |Represents one tile in the dashboard|
-|486| [dashboard\_tile\_field](dashboard-tile-field.md) |Describes the contents of a tile field|
-|487| [quick\_filter\_info](quick-filter-info.md) |Connect quick filter info from a specific provider to a dashboard|
-|488| [external\_owner](external-owner.md) |Owner of external data imported into the system|
-|489| [form](form.md) |A form which can be published on a webpage and submitted by visitors|
-|490| [form\_submission](form-submission.md) |A form submission|
+|457| [SaintConfiguration](saintconfiguration.md) |Configuration information for the Saint system|
+|458| [Tags](tags.md) |MDO List of tags for Service entities|
+|459| [TagsGroupLink](tagsgrouplink.md) |User group link table for Tags, for MDO item hiding|
+|460| [TagsHeadingLink](tagsheadinglink.md) |Heading link table for Source, for MDO headers|
+|461| [ai\_chat\_turn](ai-chat-turn.md) |Contains AI Chatbot history - contains whole chat, not just what is sent to the chatbot. History is ready ordered by timestamp|
+|462| [quick\_reply](quick-reply.md) |Personal quick reply text fragments|
+|463| [ConfigurableScreenDelta](configurablescreendelta.md) |Parts of recipes in SCIL to insert or remove in given recipes|
+|464| [ConfigurableScreenAppliesTo](configurablescreenappliesto.md) |Mapping between recipes in scil and chosen type of data (appliesToKey) to differ layouts on|
+|465| [TaskMenu](taskmenu.md) |List items to merge into menues|
+|466| [TaskMenuGroupLink](taskmenugrouplink.md) |User group link table for TaskMenu, for MDO item hiding|
+|467| [TaskMenuHeadingLink](taskmenuheadinglink.md) |Heading link table for TaskMenu, for MDO headers|
+|468| [ConsentPurpose](consentpurpose.md) |GDPR purpose alternatives|
+|469| [LegalBase](legalbase.md) |Legal base for GDPR (Article 6)|
+|470| [ConsentSource](consentsource.md) |Consent source for GDPR|
+|471| [ConsentPerson](consentperson.md) |Link table that defines who has which consents|
+|472| [CategoryFamily](categoryfamily.md) |Grouping table so that multiple company categories can be grouped under one term; to simplify searching for things like &apos;all customers&apos;|
+|473| [copilot](copilot.md) |Contains all available copilots|
+|474| [copilot\_data\_source](copilot-data-source.md) |Stores data sources for each copilot|
+|475| [copilot\_data\_source\_setting](copilot-data-source-setting.md) |Stores specific configuration values for each data source|
+|476| [script\_trace](script-trace.md) |Scripts which should be traced|
+|477| [script\_trace\_run](script-trace-run.md) |Traces of executed scripts|
+|478| [attachment\_location](attachment-location.md) |A location for storing attachments|
+|479| [cust\_config](cust-config.md) |This table contains JSON structures used for customizing the customer center|
+|480| [cc\_template](cc-template.md) |This table contains templates for the customer center|
+|481| [dashboard](dashboard.md) |Describes a dashboard|
+|482| [dashboard\_theme](dashboard-theme.md) |A set of style rules for the Dashboard|
+|483| [dashboard\_tile\_definition](dashboard-tile-definition.md) |Describes the contents of a tile|
+|484| [dashboard\_tile](dashboard-tile.md) |Represents one tile in the dashboard|
+|485| [dashboard\_tile\_field](dashboard-tile-field.md) |Describes the contents of a tile field|
+|486| [quick\_filter\_info](quick-filter-info.md) |Connect quick filter info from a specific provider to a dashboard|
+|487| [external\_owner](external-owner.md) |Owner of external data imported into the system|
+|488| [form](form.md) |A form which can be published on a webpage and submitted by visitors|
+|489| [form\_submission](form-submission.md) |A form submission|
+|490| [form\_field\_restriction](form-field-restriction.md) |This table contains all form fields restrictions|
 |491| [email\_account](email-account.md) |Email account information|
 |492| [email\_folder](email-folder.md) |Corresponds to an email folder on a mail server|
 |493| [service\_auth](service-auth.md) |Authentication for a service (imap, smtp...)|
 |494| [email\_item](email-item.md) |Email data|
 |495| [email\_attachment](email-attachment.md) |Attachment info related to an email_item|
 |496| [invitation](invitation.md) |Invitations to events|
-|497| [s\_messageblock](s-messageblock.md) |Contains a block of a mailing message, that can be reused in a mailing|
-|498| [MailingDomains](mailingdomains.md) |List of allowed domains used in a Mailing|
-|499| [TypicalSearch](typicalsearch.md) |Owner of a set of predefined selection criteria|
-|500| [board\_view\_settings](board-view-settings.md) |Settings for selection board view|
-|501| [time\_keeping](time-keeping.md) |Time keeping for how much time a sale or project or other entity has spent in a given stage or other state|
-|502| [OnlineApp](onlineapp.md) |Echo and track information about Online Apps and their usage|
-|503| [PushNotificationService](pushnotificationservice.md) |Used for storing handles to user devices that should receive push notifications|
-|504| [ShipmentType](shipmenttype.md) |Shipment type list table. Classification of a mailing, allowing recipients to subscribe to lists|
-|505| [ShipmentTypeReservation](shipmenttypereservation.md) |ShipmentTypes a person has reserved against. Note that the absense of a record here implies acceptance of a mailings of this type|
-|506| [TemporaryKey](temporarykey.md) |Temporary keys for lightweight authentications such as changing ones subscriptions|
-|507| [target\_group](target-group.md) |Info about a set of (sales, project, selection...) targets|
-|508| [target\_period](target-period.md) |A set of periods linked with target amounts for users/usergroups and the target groups/years.|
-|509| [target\_assignment\_info](target-assignment-info.md) |Linking associate, company or user group target and other information with target values|
-|510| [target\_assignment\_value](target-assignment-value.md) |A set of values linked to assignment info and a period in a target group.|
-|511| [target\_revision\_history](target-revision-history.md) |Revision history info in case the original target group or assignment info was deleted|
-|512| [target\_revision](target-revision.md) |One batch of changes made to targets|
-|513| [target\_change](target-change.md) |A single field change.|
-|514| [target\_dimension](target-dimension.md) |Defining target dimension|
-|515| [Webhook](webhook.md) |Webhook URL to call when events occur in the client or in NetServer. Also tracks call+error statistics.|
-|516| [Webhook\_usage](webhook-usage.md) |Webhook usage statistics - tracks call+error statistics. Same primary key as the webhook.|
-|517| [workflow](workflow.md) |SuperOffice specific info about a workflow|
-|518| [email\_flow](email-flow.md) |A set of properties related to the email workflow.|
-|519| [workflow\_instance](workflow-instance.md) |A set of properties related to the workflow instance of one participant going through the flow|
-|520| [workflow\_goal](workflow-goal.md) |A set of goals related to a workflow. Some goals will have search criterias associated with it to determine if the goal has been reached.|
-|521| [workflow\_step](workflow-step.md) |A set of steps related to a workflow.|
-|522| [workflow\_trigger](workflow-trigger.md) |A set of triggers related to a workflow.|
-|523| [workflow\_step\_option](workflow-step-option.md) |Some steps can have optional child &apos;flows&apos;, a new series of steps|
-|524| [workflow\_step\_option\_link](workflow-step-option-link.md) |Link steps to other steps through step options|
-|525| [email\_flow\_content\_link](email-flow-content-link.md) |Links content to an email workflow|
-|526| [temp\_db\_lock](temp-db-lock.md) |Represents a temporary lock on a resource identified by table_id and key|
-|527| [workflow\_wait\_for\_action](workflow-wait-for-action.md) |Some steps wait for actions, this is info about those actions|
-|528| [workflow\_root\_step\_link](workflow-root-step-link.md) |Link root steps to the workflow|
-|529| [form\_field\_value](form-field-value.md) |Form field values saved in a searchable format|
-|530| [AssociateHistory](associatehistory.md) |Historical information about associates that have been deleted. Most references are NOT declared as foreign keys; this is a historical table that should not be updated when further changes occur in the database|
-|531| [CacheInvalidation](cacheinvalidation.md) |Names and generation numbers for distributed invalidation of caches|
-|532| [QuoteApprReason](quoteapprreason.md) |Predefined reasons for quote approval|
-|533| [QuoteApprReasonGroupLink](quoteapprreasongrouplink.md) |User group link table for QuoteApprReason, for MDO item hiding|
-|534| [QuoteApprReasonHeadingLink](quoteapprreasonheadinglink.md) |Heading link table for QuoteApprReason, for MDO headers|
-|535| [QuoteDenyReason](quotedenyreason.md) |Predefined reasons for quote denial|
-|536| [QuoteDenyReasonGroupLink](quotedenyreasongrouplink.md) |User group link table for QuoteDenyReason, for MDO item hiding|
-|537| [QuoteDenyReasonHeadingLink](quotedenyreasonheadinglink.md) |Heading link table for QuoteDenyReason, for MDO headers|
-|538| [EntityCounts](entitycounts.md) |Number of different entities an associate has created for usage statistics|
-|539| [utm\_parameters](utm-parameters.md) |Table for utm parameters collected from visits and formsubmissions|
-|540| [leadstatus](leadstatus.md) |List items of lead status that is selectable for contacts and persons that have specific category|
-|541| [AutomatedCategoryUpdate](automatedcategoryupdate.md) |Info on how to autoupdate category when changing sale or leadstatus on person|
-|542| [available\_fonts](available-fonts.md) |This table contains all fonts selected to be available for external usage|
-|543| [ticket\_type](ticket-type.md) |A ticket (request) type|
-|544| [ticket\_type\_priority](ticket-type-priority.md) |Link table defining what Priorities are relevant to a particular Ticket type|
-|545| [ticket\_type\_status](ticket-type-status.md) |Link table defining what Statuses are relevant to a particular Ticket type|
-|546| [ticket\_relation\_def](ticket-relation-def.md) |Ticket relation definition|
-|547| [ticket\_rel\_def\_ticket\_type](ticket-rel-def-ticket-type.md) |Link table defining what Ticket types are involved in this relation. Will have M:N rows for a single relation definition|
-|548| [ticket\_relation](ticket-relation.md) |A relation between 2 tickets|
+|497| [landing\_page](landing-page.md) |Per-associate landing page configuration for a given entity type|
+|498| [landing\_page\_pin](landing-page-pin.md) |A pinned selection or entity record on a landing page|
+|499| [s\_messageblock](s-messageblock.md) |Contains a block of a mailing message, that can be reused in a mailing|
+|500| [MailingDomains](mailingdomains.md) |List of allowed domains used in a Mailing|
+|501| [metering\_log](metering-log.md) |Metering log table|
+|502| [TypicalSearch](typicalsearch.md) |Owner of a set of predefined selection criteria|
+|503| [board\_view\_settings](board-view-settings.md) |Settings for selection board view|
+|504| [time\_keeping](time-keeping.md) |Time keeping for how much time a sale or project or other entity has spent in a given stage or other state|
+|505| [NewsFeedItem](newsfeeditem.md) |Contains news feed items - published to one or more users, with one or more language descriptions|
+|506| [NewsFeedItemHtml](newsfeeditemhtml.md) |Detailed description of the news item, in a specific language.|
+|507| [NewsFeedItemCta](newsfeeditemcta.md) |List of Calls-to-Action buttons to attach to a given news item. One item may have multiple CTAs (e.g. Approve + Reject).|
+|508| [NewsFeedItemRecipient](newsfeeditemrecipient.md) |Recipients of the news feed item. One news feed item may be sent to multiple recipients (users).|
+|509| [OnlineApp](onlineapp.md) |Echo and track information about Online Apps and their usage|
+|510| [PushNotificationService](pushnotificationservice.md) |Used for storing handles to user devices that should receive push notifications|
+|511| [ShipmentType](shipmenttype.md) |Shipment type list table. Classification of a mailing, allowing recipients to subscribe to lists|
+|512| [ShipmentTypeReservation](shipmenttypereservation.md) |ShipmentTypes a person has reserved against. Note that the absense of a record here implies acceptance of a mailings of this type|
+|513| [TemporaryKey](temporarykey.md) |Temporary keys for lightweight authentications such as changing ones subscriptions|
+|514| [target\_group](target-group.md) |Info about a set of (sales, project, selection...) targets|
+|515| [target\_period](target-period.md) |A set of periods linked with target amounts for users/usergroups and the target groups/years.|
+|516| [target\_assignment\_info](target-assignment-info.md) |Linking associate, company or user group target and other information with target values|
+|517| [target\_assignment\_value](target-assignment-value.md) |A set of values linked to assignment info and a period in a target group.|
+|518| [target\_revision\_history](target-revision-history.md) |Revision history info in case the original target group or assignment info was deleted|
+|519| [target\_revision](target-revision.md) |One batch of changes made to targets|
+|520| [target\_change](target-change.md) |A single field change.|
+|521| [target\_dimension](target-dimension.md) |Defining target dimension|
+|522| [Webhook](webhook.md) |Webhook URL to call when events occur in the client or in NetServer. Also tracks call+error statistics.|
+|523| [Webhook\_usage](webhook-usage.md) |Webhook usage statistics - tracks call+error statistics. Same primary key as the webhook.|
+|524| [Webhook\_notify](webhook-notify.md) |Notification recipients for webhook failure events. Each row defines one recipient (associate or ad-hoc email) that should be notified when a webhook fails.|
+|525| [workflow](workflow.md) |SuperOffice specific info about a workflow|
+|526| [email\_flow](email-flow.md) |A set of properties related to the email workflow.|
+|527| [workflow\_instance](workflow-instance.md) |A set of properties related to the workflow instance of one participant going through the flow|
+|528| [workflow\_goal](workflow-goal.md) |A set of goals related to a workflow. Some goals will have search criterias associated with it to determine if the goal has been reached.|
+|529| [workflow\_step](workflow-step.md) |A set of steps related to a workflow.|
+|530| [workflow\_trigger](workflow-trigger.md) |A set of triggers related to a workflow.|
+|531| [workflow\_step\_option](workflow-step-option.md) |Some steps can have optional child &apos;flows&apos;, a new series of steps|
+|532| [workflow\_step\_option\_link](workflow-step-option-link.md) |Link steps to other steps through step options|
+|533| [email\_flow\_content\_link](email-flow-content-link.md) |Links content to an email workflow|
+|534| [temp\_db\_lock](temp-db-lock.md) |Represents a temporary lock on a resource identified by table_id and key|
+|535| [workflow\_wait\_for\_action](workflow-wait-for-action.md) |Some steps wait for actions, this is info about those actions|
+|536| [workflow\_root\_step\_link](workflow-root-step-link.md) |Link root steps to the workflow|
+|537| [form\_field\_value](form-field-value.md) |Form field values saved in a searchable format|
+|538| [AssociateHistory](associatehistory.md) |Historical information about associates that have been deleted. Most references are NOT declared as foreign keys; this is a historical table that should not be updated when further changes occur in the database|
+|539| [CacheInvalidation](cacheinvalidation.md) |Names and generation numbers for distributed invalidation of caches|
+|540| [QuoteApprReason](quoteapprreason.md) |Predefined reasons for quote approval|
+|541| [QuoteApprReasonGroupLink](quoteapprreasongrouplink.md) |User group link table for QuoteApprReason, for MDO item hiding|
+|542| [QuoteApprReasonHeadingLink](quoteapprreasonheadinglink.md) |Heading link table for QuoteApprReason, for MDO headers|
+|543| [QuoteDenyReason](quotedenyreason.md) |Predefined reasons for quote denial|
+|544| [QuoteDenyReasonGroupLink](quotedenyreasongrouplink.md) |User group link table for QuoteDenyReason, for MDO item hiding|
+|545| [QuoteDenyReasonHeadingLink](quotedenyreasonheadinglink.md) |Heading link table for QuoteDenyReason, for MDO headers|
+|546| [EntityCounts](entitycounts.md) |Number of different entities an associate has created for usage statistics|
+|547| [utm\_parameters](utm-parameters.md) |Table for utm parameters collected from visits and formsubmissions|
+|548| [leadstatus](leadstatus.md) |List items of lead status that is selectable for contacts and persons that have specific category|
+|549| [AutomatedCategoryUpdate](automatedcategoryupdate.md) |Info on how to autoupdate category when changing sale or leadstatus on person|
+|550| [available\_fonts](available-fonts.md) |This table contains all fonts selected to be available for external usage|
+|551| [ticket\_type](ticket-type.md) |A ticket (request) type|
+|552| [ticket\_type\_priority](ticket-type-priority.md) |Link table defining what Priorities are relevant to a particular Ticket type|
+|553| [ticket\_type\_status](ticket-type-status.md) |Link table defining what Statuses are relevant to a particular Ticket type|
+|554| [ticket\_relation\_def](ticket-relation-def.md) |Ticket relation definition|
+|555| [ticket\_rel\_def\_ticket\_type](ticket-rel-def-ticket-type.md) |Link table defining what Ticket types are involved in this relation. Will have M:N rows for a single relation definition|
+|556| [ticket\_relation](ticket-relation.md) |A relation between 2 tickets|
 

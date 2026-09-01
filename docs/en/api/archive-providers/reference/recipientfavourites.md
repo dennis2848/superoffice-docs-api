@@ -26,7 +26,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |firstName|string|First name: Displays the contact's first name| x |
 |lastName|string|Last name: Displays the contact's last name| x |
 |middleName|string|Middle name: Displays the contact's middle name.| x |
-|fullName|stringorPK|Contact: Displays the contact to which an item is linked| x |
+|fullName|string|Contact: Displays the contact to which an item is linked| x |
 |fullNameWithContact| *None* |Contact and company: The fully formatted contact name, and full company name| x |
 |contactId|int|Company ID: Database ID of company| x |
 |hasInfoText|bool|Has note: Displays an icon indicating if there is additional information available about the contact| x |
@@ -244,7 +244,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |correspondingAssociate/isLocation|bool|Is a location: Is a location| x |
 |name|stringorPK|Company name| x |
 |department|string|Department| x |
-|nameDepartment| *None* |Company: Displays the company an activity is linked to| x |
+|nameDepartment|string|Company: Displays the company an activity is linked to| x |
 |associateId|associate|Our contact: Displays our contact| x |
 |category|listAny|Category| x |
 |categoryGroup|listAny|Category group| x |
@@ -347,7 +347,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/recipientfavourites?$select=personAssociate/contactId,restrictionAddress/line3,personAssociate/title
+GET /api/v1/archive/recipientfavourites?$select=fullNameWithContact,personExtra/y_rental/y_equipment/x_name,streetAddress/wgs84longitude
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

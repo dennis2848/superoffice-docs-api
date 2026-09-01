@@ -71,9 +71,13 @@ items:
   - SuperOffice.CRM.ArchiveLists.HierarchyExtenderBase
   - SuperOffice.CRM.ArchiveLists.Joiners.AppointmentTextConversionExtender
   - SuperOffice.CRM.ArchiveLists.LegalBaseExtender
+  - SuperOffice.CRM.ArchiveLists.MailingFolderExtenderBase
   - SuperOffice.CRM.ArchiveLists.MailingsAddrExtenderBase
   - SuperOffice.CRM.ArchiveLists.MailingsExtenderBase
+  - SuperOffice.CRM.ArchiveLists.MailingsHistoryExtender
   - SuperOffice.CRM.ArchiveLists.ModuleLicenceExtenderBase
+  - SuperOffice.CRM.ArchiveLists.NewsFeedItemExtenderBase
+  - SuperOffice.CRM.ArchiveLists.NewsFeedItemRecipientExtender
   - SuperOffice.CRM.ArchiveLists.NotificationNotificationExtender`1
   - SuperOffice.CRM.ArchiveLists.NumbersExtenderBase
   - SuperOffice.CRM.ArchiveLists.PersonExtenderBase
@@ -108,11 +112,12 @@ items:
   - SuperOffice.CRM.ArchiveLists.TicketStatusExtenderBase
   - SuperOffice.CRM.ArchiveLists.TicketTicketRelationExtender
   - SuperOffice.CRM.ArchiveLists.UrlExtenderBase
-  - SuperOffice.CRM.ArchiveLists.UsageStatsExterderBase
   - SuperOffice.CRM.ArchiveLists.UserPreferenceExtenderBase
   - SuperOffice.CRM.ArchiveLists.UtmParametersExtenderBase
   - SuperOffice.CRM.ArchiveLists.VisibleForExtenderBase
   - SuperOffice.CRM.ArchiveLists.WebAppUsageExtenderBase
+  - SuperOffice.CRM.ArchiveLists.WebhookExtenderBase
+  - SuperOffice.CRM.ArchiveLists.WebhookUsageExtenderBase
   - SuperOffice.CRM.ArchiveLists.WorkflowExtenderBase
   - SuperOffice.CRM.ArchiveLists.WorkflowInstanceExtenderBase
   implements:

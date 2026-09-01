@@ -3,11 +3,12 @@ uid: help-da-service-settings
 title: Systemindstillinger
 description: Systemindstillinger
 keywords: Tjeneste
-author: Bergfrid Dias
-date: 01.15.2025
-version: 10.5
+author: digitaldiina
+date: 06.10.2026
+version: 12.0
 content_type: reference
 license: serviceessentials
+tier: starter
 audience: settings
 audience_tooltip: Settings and maintenance
 language: da
@@ -22,8 +23,10 @@ I denne del af SuperOffice Service kan du konfigurere indstillingerne for Servic
 ## Hvad ønsker du at få mere at vide om?
 
 * [Sagstyper][9]
+* [Relationsregler][17]
 * [Roller][12]
 * [Brugere][13]
+* [Tilgængelighedsstatus][7]
 * [Kategorier][4]
 * [Prioriteter][5]
 * [Sagsstatus][6]
@@ -33,7 +36,6 @@ I denne del af SuperOffice Service kan du konfigurere indstillingerne for Servic
 * [Kundesprog][10]
 * [Kundecenterkonfiguration og kildefiler][21]
 * [Chat][23]
-* [SOAP][14] (kun på stedet)
 * [Systemdesign][15]
 * [Profil][16] – ændringer her vises ingen steder i SuperOffice CRM-modulet (kun i Servicemodulet)
 
@@ -43,11 +45,12 @@ I denne del af SuperOffice Service kan du konfigurere indstillingerne for Servic
 [6]: status/index.md
 [8]: system-templates.md
 [9]: type/index.md
+[17]: relation-rules.md
 [10]: ../../localization/learn/customer-languages.md
 [11]: ../../admin/preferences/service-settings.md
 [12]: ../../admin/user-management/role/index.md
 [13]: ../../admin/user-management/index.md
-[14]: ../../admin/onsite/configure-soap.md
+[7]: ../learn/index.md#available
 [15]: ../../ui/blogic/learn/index.md
 [16]: ../../ui/blogic/learn/profiles/index.md
 

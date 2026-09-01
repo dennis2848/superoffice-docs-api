@@ -46,6 +46,7 @@ Application tokens must be specified if calling an Online installation. Applicat
      <EMail:Password xsi:type="xsd:string"></EMail:Password>
      <EMail:Folder xsi:type="xsd:string"></EMail:Folder>
      <EMail:UseSSL xsi:type="xsd:boolean">false</EMail:UseSSL>
+     <EMail:UseGraphApi xsi:type="xsd:boolean">false</EMail:UseGraphApi>
     </EMail:ConnectionInfo>
     <EMail:MessageServerIds xsi:type="NetServerServices882:ArrayOfint">
      <NetServerServices882:int xsi:type="xsd:int">0</NetServerServices882:int>
@@ -75,6 +76,7 @@ Application tokens must be specified if calling an Online installation. Applicat
    <EMail:Response xsi:type="EMail:ArrayOfEMailEnvelope">
     <EMail:EMailEnvelope xsi:type="EMail:EMailEnvelope">
      <EMail:ServerId xsi:type="xsd:int">0</EMail:ServerId>
+     <EMail:ServerIdentifier xsi:type="xsd:string"></EMail:ServerIdentifier>
      <EMail:MessageId xsi:type="xsd:string"></EMail:MessageId>
      <EMail:Subject xsi:type="xsd:string"></EMail:Subject>
      <EMail:From xsi:type="EMail:EMailAddress">
@@ -105,7 +107,7 @@ Application tokens must be specified if calling an Online installation. Applicat
        <EMail:Name xsi:type="xsd:string"></EMail:Name>
       </EMail:EMailAddress>
      </EMail:To>
-     <EMail:Sent xsi:type="xsd:dateTime">2026-01-26T11:33:31Z</EMail:Sent>
+     <EMail:Sent xsi:type="xsd:dateTime">2026-07-02T01:22:52Z</EMail:Sent>
      <EMail:Priority xsi:type="EMail:EMailPriority">NoPriority</EMail:Priority>
      <EMail:Flags xsi:type="EMail:EMailFlags">Seen</EMail:Flags>
      <EMail:Size xsi:type="xsd:int">0</EMail:Size>
@@ -115,7 +117,7 @@ Application tokens must be specified if calling an Online installation. Applicat
       <EMail:ProjectId xsi:type="xsd:int">0</EMail:ProjectId>
       <EMail:SaleId xsi:type="xsd:int">0</EMail:SaleId>
       <EMail:Archived xsi:type="xsd:boolean">false</EMail:Archived>
-      <EMail:ArchivedAt xsi:type="xsd:dateTime">2026-01-26T11:33:31Z</EMail:ArchivedAt>
+      <EMail:ArchivedAt xsi:type="xsd:dateTime">2026-07-02T01:22:52Z</EMail:ArchivedAt>
       <EMail:ArchivedBy xsi:type="xsd:int">0</EMail:ArchivedBy>
       <EMail:ArchivedDisplayName xsi:type="xsd:string"></EMail:ArchivedDisplayName>
      </EMail:EMailSOInfo>

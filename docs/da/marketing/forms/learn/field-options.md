@@ -1,15 +1,16 @@
-﻿---
+---
 uid: help-da-form-field-options
 title: Feltindstillinger
 description: Feltindstillinger
 keywords: formular, felt, formularelementer, reCAPTCHA
 author: SuperOffice Product and Engineering
-date: 09.26.2025
-version: 10.5
+date: 05.04.2026
+version: 11.13
 content_type: reference
 category: marketing
 topic: forms
 license: marketingessentials
+tier: growth
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: da
@@ -21,7 +22,7 @@ Dette er en oversigt over særlige indstillinger i nogle af de tilgængelige fel
 
 ## SuperOffice-elementer
 
-* **Erstat:** Vælg denne indstilling for at erstatte en eksisterende værdi i SuperOffice med værdien i formularen. Dette er relevant for land, titel og Hr./Fr.
+* **Tillad overskrivning af eksisterende data:** Vælg denne indstilling for at erstatte en eksisterende værdi i SuperOffice med den indsendte formularværdi. Der vises en advarsel, når du aktiverer denne indstilling. Hvis denne indstilling ikke er tilgængelig for et felt, kan en administrator have begrænset det. Se [begrænsninger for formularfelter][5].
 
 * **Person - samtykke**
 
@@ -95,3 +96,4 @@ Dette er en oversigt over særlige indstillinger i nogle af de tilgængelige fel
 [2]: create.md#multi-page
 [3]: ../../recipients/learn/manage-email-subscriptions.md
 [4]: ../../../security/privacy/admin/add-purpose.md
+[5]: ../admin/form-field-restrictions.md

@@ -1,14 +1,15 @@
-﻿---
+---
 uid: help-da-marketing
 title: SuperOffice Marketing
 description: Funktionerne til markedsføring omfatter udsendelser og webformularer og hjælper brugerne med at indsamle oplysninger og kommunikere bedre med kundeemner og kunder. Tilsammen kan det hjælpe dig med at generere flere kundeemner, sælge mere til dine nuværende kunder og opbygge kundeloyalitet.
 keywords: Marketing
 author: SuperOffice Product and Engineering
-date: 09.26.2025
-version: 10.5
+date: 06.10.2026
+version: 12.0
 content_type: concept
 category: marketing
 license: marketingessentials
+tier: growth
 audience: person
 audience_tooltip: SuperOffice Marketing
 redirect_from: /da/marketing/learn/screen/index
@@ -69,7 +70,7 @@ Der er tre nøgleområder, hvor GDPR påvirker marketingfolks arbejde:
 ## Krav
 
 > [!NOTE]
-> Sporede links og rapporteringsfunktioner kræver brugerlicens til Marketing. Du skal også have brugsrettigheder for at kunne redigere og udsende mails.
+> Sporede links og rapporteringsfunktioner kræver en **Marketing Essentials**-licens eller **Growth**-planen. Du skal også have brugsrettigheder for at kunne redigere og udsende mails.
 
 SMS-udsendelse er ikke tilgængelig, hvis du bruger CRM Online.
 
@@ -93,10 +94,6 @@ For at få gavn af SuperOffice marketingfunktioner skal du have en basisviden om
 | Automatisering af kunderejser​ | | x |
 | Cross-sell og up-sell-fremme​ | | x |
 | Marketing/salg-tilpasning​ | x | x |
-
-## Forskelle mellem installationer online og onsite
-
-SuperOffice Marketing leveres som en online-applikation (cloud-baseret) og som en onsite-applikation (installeret hos kunden). Der er mindre forskelle mellem de to typer. Specifikke funktionsmæssige forskelle er angivet med ikoner i selve procedurerne eller i emnetitlerne.
 
 ## Fanerne i SuperOffice Marketing
 

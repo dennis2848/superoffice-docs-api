@@ -3,11 +3,12 @@ uid: help-en-request-category
 title: Request categories
 description: Request categories
 keywords: request category, Categories tab, request, category
-author: Bergfrid Dias
-date: 01.15.2025
-version: 10.5
+author: digitaldiina
+date: 06.10.2026
+version: 12.0
 content_type: concept
 license: serviceessentials
+tier: starter
 audience: settings
 audience_tooltip: Settings and maintenance
 language: en
@@ -35,7 +36,7 @@ Users can be added as members in the categories individually or via the user gro
 
 * In **Settings and maintenance**, select **Requests** in the navigator and then the **Categories** tab.
 
-The categories are arranged in a tree structure.
+The categories are arranged in a tree structure. To find the ID of a category, hover over the category name in the list. The ID appears in the tooltip.
 
 [!include[Restricted access](../../../learn/includes/note-insufficient-rights.md)]
 

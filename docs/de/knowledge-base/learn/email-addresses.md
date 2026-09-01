@@ -4,12 +4,13 @@ title: Mit E-Mail-Adressen arbeiten
 description: Mit E-Mail-Adressen arbeiten
 keywords: Wissensdatenbank
 author: SuperOffice Product and Engineering
-date: 03.16.2023
-version: 10.5
+date: 06.10.2026
+version: 12.0
 content_type: concept
 category: service
 topic: knowledge base
 license: servicepremium
+tier: growth
 functional_right: knowledge-base
 audience: person
 audience_tooltip: SuperOffice Service
@@ -23,8 +24,7 @@ redirect_from:
 
 Sie können eine Liste mit E-Mail-Adressen erstellen, die Sie häufig verwenden, die aber für Benutzer oder Personen in SuperOffice Service nicht erfasst wurden. Zum Beispiel Lieferanten, Partnern oder Produktspezialisten. Diese Adressen sind in den meisten Situationen verfügbar, in denen Sie eine E-Mail senden müssen, zum Beispiel in den Ansichten **Neue Anfrage** und **Mitteilung hinzufügen**.
 
-> [!NOTE]
-> Diese Funktion erfordert den Benutzerplan Service-Premium.
+[!include[Requirement](../../includes/req-growth-transition-service.md)]
 
 ## Liste der E-Mail-Adressen
 
@@ -46,7 +46,7 @@ Wenn Sie Details zu den registrierten E-Mail-Adressen möchten, müssen Sie zum 
 
 1. Geben Sie im Feld **E-Mail-Adresse** die E-Mail-Adresse dieser Person ein.
 
-1. In the **Mobile phone number** field, you can enter their mobile number. This can be used to send messages by SMS. (ONLINE only)
+1. In the **Mobile phone number** field, you can enter their mobile number. This can be used to send messages by SMS.
 
 1. Klicken Sie auf **OK**. Die E-Mail-Adresse wird dem festgelegten Ordner hinzugefügt und steht Ihnen ab sofort beim Senden einer E-Mail zur Verfügung.
 

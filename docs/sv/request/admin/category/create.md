@@ -4,10 +4,11 @@ title: Skapa ärendekategori
 description: Skapa ärendekategori
 keywords: lägg till ärendekategori, skapa ärendekategori, ny ärendekategori, ärendekategori, Kategoriflik, ärende, kategori
 author: digitaldiina
-date: 12.02.2025
-version: 11.7
+date: 06.10.2026
+version: 12.0
 content_type: howto
 license: serviceessentials
+tier: starter
 audience: settings
 audience_tooltip: Settings and maintenance
 language: sv
@@ -81,7 +82,9 @@ index: true
 ## Relaterat innehåll
 
 * [Hur du konfigurerar Hämta nästa ärende i kön][3]
+* [Tillgänglighetsstatus][4]
 
 <!-- Referenced links -->
 [1]: ../../../admin/preferences/index.md
 [3]: ../next-in-queue.md
+[4]: ../../learn/index.md#available

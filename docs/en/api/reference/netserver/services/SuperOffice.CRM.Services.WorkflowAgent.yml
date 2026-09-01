@@ -6,7 +6,7 @@ items:
   parent: SuperOffice.CRM.Services
   children:
   - SuperOffice.CRM.Services.WorkflowAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IEmailFlowImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowEventImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowEventResultImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowFilterImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowGoalImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowStepBaseImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowStepOptionBaseImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowTriggerImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowWaitForActionImplementation,SuperOffice.Factory.ISoRequestItemsAccessor)
-  - SuperOffice.CRM.Services.WorkflowAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IEmailFlowImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowEventImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowEventResultImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowFilterImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowGoalImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowStepBaseImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowStepOptionBaseImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowTriggerImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowWaitForActionImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository,SuperOffice.Configuration.ConfigFile.IScriptingConfiguration,SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
+  - SuperOffice.CRM.Services.WorkflowAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IEmailFlowImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowEventImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowEventResultImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowFilterImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowGoalImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowStepBaseImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowStepOptionBaseImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowTriggerImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowWaitForActionImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)
   - SuperOffice.CRM.Services.WorkflowAgent.AddAfterWorkflowStepAsync(System.Int32,SuperOffice.CRM.Services.WorkflowStepBase,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.WorkflowAgent.ConnectEmailFlowContentAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.WorkflowAgent.CopyEmailFlowAsync(System.Int32,System.String,System.Threading.CancellationToken)
@@ -26,6 +26,7 @@ items:
   - SuperOffice.CRM.Services.WorkflowAgent.DeleteWorkflowTriggerAsync(System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.WorkflowAgent.DeleteWorkflowWaitForActionAsync(System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.WorkflowAgent.GetEmailFlowAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.WorkflowAgent.GetWorkflowFencingInfoAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.WorkflowAgent.GetWorkflowGoalAsync(System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.WorkflowAgent.GetWorkflowStepAsync(System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.WorkflowAgent.GetWorkflowStepOptionAsync(System.Int32,System.Threading.CancellationToken)
@@ -116,22 +117,22 @@ items:
   nameWithType.vb: WorkflowAgent.New(IEmailFlowImplementation, IWorkflowEventImplementation, IWorkflowEventResultImplementation, IWorkflowFilterImplementation, IWorkflowGoalImplementation, IWorkflowStepBaseImplementation, IWorkflowStepOptionBaseImplementation, IWorkflowTriggerImplementation, IWorkflowWaitForActionImplementation, ISoRequestItemsAccessor)
   fullName.vb: SuperOffice.CRM.Services.WorkflowAgent.New(SuperOffice.CRM.Services.Implementation.BL.Contracts.IEmailFlowImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowEventImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowEventResultImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowFilterImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowGoalImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowStepBaseImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowStepOptionBaseImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowTriggerImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowWaitForActionImplementation, SuperOffice.Factory.ISoRequestItemsAccessor)
   name.vb: New(IEmailFlowImplementation, IWorkflowEventImplementation, IWorkflowEventResultImplementation, IWorkflowFilterImplementation, IWorkflowGoalImplementation, IWorkflowStepBaseImplementation, IWorkflowStepOptionBaseImplementation, IWorkflowTriggerImplementation, IWorkflowWaitForActionImplementation, ISoRequestItemsAccessor)
-- uid: SuperOffice.CRM.Services.WorkflowAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IEmailFlowImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowEventImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowEventResultImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowFilterImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowGoalImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowStepBaseImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowStepOptionBaseImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowTriggerImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowWaitForActionImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository,SuperOffice.Configuration.ConfigFile.IScriptingConfiguration,SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
-  commentId: M:SuperOffice.CRM.Services.WorkflowAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IEmailFlowImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowEventImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowEventResultImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowFilterImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowGoalImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowStepBaseImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowStepOptionBaseImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowTriggerImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowWaitForActionImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository,SuperOffice.Configuration.ConfigFile.IScriptingConfiguration,SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
-  id: '#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IEmailFlowImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowEventImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowEventResultImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowFilterImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowGoalImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowStepBaseImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowStepOptionBaseImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowTriggerImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowWaitForActionImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository,SuperOffice.Configuration.ConfigFile.IScriptingConfiguration,SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)'
+- uid: SuperOffice.CRM.Services.WorkflowAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IEmailFlowImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowEventImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowEventResultImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowFilterImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowGoalImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowStepBaseImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowStepOptionBaseImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowTriggerImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowWaitForActionImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)
+  commentId: M:SuperOffice.CRM.Services.WorkflowAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IEmailFlowImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowEventImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowEventResultImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowFilterImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowGoalImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowStepBaseImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowStepOptionBaseImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowTriggerImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowWaitForActionImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)
+  id: '#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IEmailFlowImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowEventImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowEventResultImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowFilterImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowGoalImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowStepBaseImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowStepOptionBaseImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowTriggerImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowWaitForActionImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)'
   parent: SuperOffice.CRM.Services.WorkflowAgent
   langs:
   - csharp
   - vb
-  name: WorkflowAgent(IEmailFlowImplementation, IWorkflowEventImplementation, IWorkflowEventResultImplementation, IWorkflowFilterImplementation, IWorkflowGoalImplementation, IWorkflowStepBaseImplementation, IWorkflowStepOptionBaseImplementation, IWorkflowTriggerImplementation, IWorkflowWaitForActionImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository, IScriptingConfiguration, IOnlineConfiguration)
-  nameWithType: WorkflowAgent.WorkflowAgent(IEmailFlowImplementation, IWorkflowEventImplementation, IWorkflowEventResultImplementation, IWorkflowFilterImplementation, IWorkflowGoalImplementation, IWorkflowStepBaseImplementation, IWorkflowStepOptionBaseImplementation, IWorkflowTriggerImplementation, IWorkflowWaitForActionImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository, ConfigFile.IScriptingConfiguration, ConfigFile.IOnlineConfiguration)
-  fullName: SuperOffice.CRM.Services.WorkflowAgent.WorkflowAgent(SuperOffice.CRM.Services.Implementation.BL.Contracts.IEmailFlowImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowEventImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowEventResultImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowFilterImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowGoalImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowStepBaseImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowStepOptionBaseImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowTriggerImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowWaitForActionImplementation, SuperOffice.Factory.ISoRequestItemsAccessor, SuperOffice.Data.IDebugUser, SuperOffice.Diagnostics.IServiceCallsRepository, SuperOffice.Configuration.ConfigFile.IScriptingConfiguration, SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
+  name: WorkflowAgent(IEmailFlowImplementation, IWorkflowEventImplementation, IWorkflowEventResultImplementation, IWorkflowFilterImplementation, IWorkflowGoalImplementation, IWorkflowStepBaseImplementation, IWorkflowStepOptionBaseImplementation, IWorkflowTriggerImplementation, IWorkflowWaitForActionImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
+  nameWithType: WorkflowAgent.WorkflowAgent(IEmailFlowImplementation, IWorkflowEventImplementation, IWorkflowEventResultImplementation, IWorkflowFilterImplementation, IWorkflowGoalImplementation, IWorkflowStepBaseImplementation, IWorkflowStepOptionBaseImplementation, IWorkflowTriggerImplementation, IWorkflowWaitForActionImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
+  fullName: SuperOffice.CRM.Services.WorkflowAgent.WorkflowAgent(SuperOffice.CRM.Services.Implementation.BL.Contracts.IEmailFlowImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowEventImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowEventResultImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowFilterImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowGoalImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowStepBaseImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowStepOptionBaseImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowTriggerImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowWaitForActionImplementation, SuperOffice.Factory.ISoRequestItemsAccessor, SuperOffice.Data.IDebugUser, SuperOffice.Diagnostics.IServiceCallsRepository)
   type: Constructor
   assemblies:
   - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
   syntax:
-    content: public WorkflowAgent(IEmailFlowImplementation emailFlowImplementation, IWorkflowEventImplementation workflowEventImplementation, IWorkflowEventResultImplementation workflowEventResultImplementation, IWorkflowFilterImplementation workflowFilterImplementation, IWorkflowGoalImplementation workflowGoalImplementation, IWorkflowStepBaseImplementation workflowStepBaseImplementation, IWorkflowStepOptionBaseImplementation workflowStepOptionBaseImplementation, IWorkflowTriggerImplementation workflowTriggerImplementation, IWorkflowWaitForActionImplementation workflowWaitForActionImplementation, ISoRequestItemsAccessor accessor, IDebugUser debugUser, IServiceCallsRepository serviceCallsRepository, ConfigFile.IScriptingConfiguration scriptingConfiguration, ConfigFile.IOnlineConfiguration onlineConfiguration)
+    content: public WorkflowAgent(IEmailFlowImplementation emailFlowImplementation, IWorkflowEventImplementation workflowEventImplementation, IWorkflowEventResultImplementation workflowEventResultImplementation, IWorkflowFilterImplementation workflowFilterImplementation, IWorkflowGoalImplementation workflowGoalImplementation, IWorkflowStepBaseImplementation workflowStepBaseImplementation, IWorkflowStepOptionBaseImplementation workflowStepOptionBaseImplementation, IWorkflowTriggerImplementation workflowTriggerImplementation, IWorkflowWaitForActionImplementation workflowWaitForActionImplementation, ISoRequestItemsAccessor accessor, IDebugUser debugUser, IServiceCallsRepository serviceCallsRepository)
     parameters:
     - id: emailFlowImplementation
       type: SuperOffice.CRM.Services.Implementation.BL.Contracts.IEmailFlowImplementation
@@ -157,15 +158,11 @@ items:
       type: SuperOffice.Data.IDebugUser
     - id: serviceCallsRepository
       type: SuperOffice.Diagnostics.IServiceCallsRepository
-    - id: scriptingConfiguration
-      type: SuperOffice.Configuration.ConfigFile.IScriptingConfiguration
-    - id: onlineConfiguration
-      type: SuperOffice.Configuration.ConfigFile.IOnlineConfiguration
-    content.vb: Public Sub New(emailFlowImplementation As IEmailFlowImplementation, workflowEventImplementation As IWorkflowEventImplementation, workflowEventResultImplementation As IWorkflowEventResultImplementation, workflowFilterImplementation As IWorkflowFilterImplementation, workflowGoalImplementation As IWorkflowGoalImplementation, workflowStepBaseImplementation As IWorkflowStepBaseImplementation, workflowStepOptionBaseImplementation As IWorkflowStepOptionBaseImplementation, workflowTriggerImplementation As IWorkflowTriggerImplementation, workflowWaitForActionImplementation As IWorkflowWaitForActionImplementation, accessor As ISoRequestItemsAccessor, debugUser As IDebugUser, serviceCallsRepository As IServiceCallsRepository, scriptingConfiguration As ConfigFile.IScriptingConfiguration, onlineConfiguration As ConfigFile.IOnlineConfiguration)
+    content.vb: Public Sub New(emailFlowImplementation As IEmailFlowImplementation, workflowEventImplementation As IWorkflowEventImplementation, workflowEventResultImplementation As IWorkflowEventResultImplementation, workflowFilterImplementation As IWorkflowFilterImplementation, workflowGoalImplementation As IWorkflowGoalImplementation, workflowStepBaseImplementation As IWorkflowStepBaseImplementation, workflowStepOptionBaseImplementation As IWorkflowStepOptionBaseImplementation, workflowTriggerImplementation As IWorkflowTriggerImplementation, workflowWaitForActionImplementation As IWorkflowWaitForActionImplementation, accessor As ISoRequestItemsAccessor, debugUser As IDebugUser, serviceCallsRepository As IServiceCallsRepository)
   overload: SuperOffice.CRM.Services.WorkflowAgent.#ctor*
-  nameWithType.vb: WorkflowAgent.New(IEmailFlowImplementation, IWorkflowEventImplementation, IWorkflowEventResultImplementation, IWorkflowFilterImplementation, IWorkflowGoalImplementation, IWorkflowStepBaseImplementation, IWorkflowStepOptionBaseImplementation, IWorkflowTriggerImplementation, IWorkflowWaitForActionImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository, ConfigFile.IScriptingConfiguration, ConfigFile.IOnlineConfiguration)
-  fullName.vb: SuperOffice.CRM.Services.WorkflowAgent.New(SuperOffice.CRM.Services.Implementation.BL.Contracts.IEmailFlowImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowEventImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowEventResultImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowFilterImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowGoalImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowStepBaseImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowStepOptionBaseImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowTriggerImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowWaitForActionImplementation, SuperOffice.Factory.ISoRequestItemsAccessor, SuperOffice.Data.IDebugUser, SuperOffice.Diagnostics.IServiceCallsRepository, SuperOffice.Configuration.ConfigFile.IScriptingConfiguration, SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
-  name.vb: New(IEmailFlowImplementation, IWorkflowEventImplementation, IWorkflowEventResultImplementation, IWorkflowFilterImplementation, IWorkflowGoalImplementation, IWorkflowStepBaseImplementation, IWorkflowStepOptionBaseImplementation, IWorkflowTriggerImplementation, IWorkflowWaitForActionImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository, IScriptingConfiguration, IOnlineConfiguration)
+  nameWithType.vb: WorkflowAgent.New(IEmailFlowImplementation, IWorkflowEventImplementation, IWorkflowEventResultImplementation, IWorkflowFilterImplementation, IWorkflowGoalImplementation, IWorkflowStepBaseImplementation, IWorkflowStepOptionBaseImplementation, IWorkflowTriggerImplementation, IWorkflowWaitForActionImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
+  fullName.vb: SuperOffice.CRM.Services.WorkflowAgent.New(SuperOffice.CRM.Services.Implementation.BL.Contracts.IEmailFlowImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowEventImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowEventResultImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowFilterImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowGoalImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowStepBaseImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowStepOptionBaseImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowTriggerImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowWaitForActionImplementation, SuperOffice.Factory.ISoRequestItemsAccessor, SuperOffice.Data.IDebugUser, SuperOffice.Diagnostics.IServiceCallsRepository)
+  name.vb: New(IEmailFlowImplementation, IWorkflowEventImplementation, IWorkflowEventResultImplementation, IWorkflowFilterImplementation, IWorkflowGoalImplementation, IWorkflowStepBaseImplementation, IWorkflowStepOptionBaseImplementation, IWorkflowTriggerImplementation, IWorkflowWaitForActionImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
 - uid: SuperOffice.CRM.Services.WorkflowAgent.CreateDefaultEmailFlowAsync(System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Services.WorkflowAgent.CreateDefaultEmailFlowAsync(System.Threading.CancellationToken)
   id: CreateDefaultEmailFlowAsync(System.Threading.CancellationToken)
@@ -598,6 +595,35 @@ items:
   nameWithType.vb: WorkflowAgent.CopyEmailFlowAsync(Integer, String, CancellationToken)
   fullName.vb: SuperOffice.CRM.Services.WorkflowAgent.CopyEmailFlowAsync(Integer, String, System.Threading.CancellationToken)
   name.vb: CopyEmailFlowAsync(Integer, String, CancellationToken)
+- uid: SuperOffice.CRM.Services.WorkflowAgent.GetWorkflowFencingInfoAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.WorkflowAgent.GetWorkflowFencingInfoAsync(System.Threading.CancellationToken)
+  id: GetWorkflowFencingInfoAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.WorkflowAgent
+  langs:
+  - csharp
+  - vb
+  name: GetWorkflowFencingInfoAsync(CancellationToken)
+  nameWithType: WorkflowAgent.GetWorkflowFencingInfoAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.WorkflowAgent.GetWorkflowFencingInfoAsync(System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.Services
+  summary: Get the current Workflow fencing status for the tenant
+  example: []
+  syntax:
+    content: public Task<FencingInfo> GetWorkflowFencingInfoAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.FencingInfo}
+      description: Current fencing status including count, maximum, and warning state
+    content.vb: Public Function GetWorkflowFencingInfoAsync(cancellationToken As CancellationToken = Nothing) As Task(Of FencingInfo)
+  overload: SuperOffice.CRM.Services.WorkflowAgent.GetWorkflowFencingInfoAsync*
+  implements:
+  - SuperOffice.CRM.Services.IWorkflowAgent.GetWorkflowFencingInfoAsync(System.Threading.CancellationToken)
 - uid: SuperOffice.CRM.Services.WorkflowAgent.CreateDefaultWorkflowEventAsync(System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Services.WorkflowAgent.CreateDefaultWorkflowEventAsync(System.Threading.CancellationToken)
   id: CreateDefaultWorkflowEventAsync(System.Threading.CancellationToken)
@@ -1766,16 +1792,6 @@ references:
   name: IServiceCallsRepository
   nameWithType: IServiceCallsRepository
   fullName: SuperOffice.Diagnostics.IServiceCallsRepository
-- uid: SuperOffice.Configuration.ConfigFile.IScriptingConfiguration
-  isExternal: true
-  name: IScriptingConfiguration
-  nameWithType: ConfigFile.IScriptingConfiguration
-  fullName: SuperOffice.Configuration.ConfigFile.IScriptingConfiguration
-- uid: SuperOffice.Configuration.ConfigFile.IOnlineConfiguration
-  isExternal: true
-  name: IOnlineConfiguration
-  nameWithType: ConfigFile.IOnlineConfiguration
-  fullName: SuperOffice.Configuration.ConfigFile.IOnlineConfiguration
 - uid: SuperOffice.CRM.Services.WorkflowAgent.CreateDefaultEmailFlowAsync*
   commentId: Overload:SuperOffice.CRM.Services.WorkflowAgent.CreateDefaultEmailFlowAsync
   isExternal: true
@@ -2753,6 +2769,76 @@ references:
     name: CancellationToken
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: SuperOffice.CRM.Services.WorkflowAgent.GetWorkflowFencingInfoAsync*
+  commentId: Overload:SuperOffice.CRM.Services.WorkflowAgent.GetWorkflowFencingInfoAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.WorkflowAgent.html#SuperOffice_CRM_Services_WorkflowAgent_GetWorkflowFencingInfoAsync_System_Threading_CancellationToken_
+  name: GetWorkflowFencingInfoAsync
+  nameWithType: WorkflowAgent.GetWorkflowFencingInfoAsync
+  fullName: SuperOffice.CRM.Services.WorkflowAgent.GetWorkflowFencingInfoAsync
+- uid: SuperOffice.CRM.Services.IWorkflowAgent.GetWorkflowFencingInfoAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IWorkflowAgent.GetWorkflowFencingInfoAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IWorkflowAgent
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: GetWorkflowFencingInfoAsync(CancellationToken)
+  nameWithType: IWorkflowAgent.GetWorkflowFencingInfoAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.IWorkflowAgent.GetWorkflowFencingInfoAsync(System.Threading.CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IWorkflowAgent.GetWorkflowFencingInfoAsync(System.Threading.CancellationToken)
+    name: GetWorkflowFencingInfoAsync
+    isExternal: true
+  - name: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IWorkflowAgent.GetWorkflowFencingInfoAsync(System.Threading.CancellationToken)
+    name: GetWorkflowFencingInfoAsync
+    isExternal: true
+  - name: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.FencingInfo}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.FencingInfo}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<FencingInfo>
+  nameWithType: Task<FencingInfo>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.FencingInfo>
+  nameWithType.vb: Task(Of FencingInfo)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.FencingInfo)
+  name.vb: Task(Of FencingInfo)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.CRM.Services.FencingInfo
+    name: FencingInfo
+    isExternal: true
+    href: SuperOffice.CRM.Services.FencingInfo.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Services.FencingInfo
+    name: FencingInfo
+    isExternal: true
+    href: SuperOffice.CRM.Services.FencingInfo.html
   - name: )
 - uid: SuperOffice.CRM.Services.WorkflowAgent.CreateDefaultWorkflowEventAsync*
   commentId: Overload:SuperOffice.CRM.Services.WorkflowAgent.CreateDefaultWorkflowEventAsync

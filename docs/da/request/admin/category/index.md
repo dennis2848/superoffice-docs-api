@@ -3,11 +3,12 @@ uid: help-da-request-category
 title: Sagskategorier
 description: Sagskategorier
 keywords: sag, kategori
-author: Bergfrid Dias
-date: 03.07.2025
-version: 10.5.2
+author: digitaldiina
+date: 06.10.2026
+version: 12.0
 content_type: concept
 license: serviceessentials
+tier: starter
 audience: settings
 audience_tooltip: Settings and maintenance
 language: da
@@ -35,7 +36,7 @@ Brugere kan tilføjes som medlemmer af kategorierne individuelt eller via de bru
 
 * I **Indstillinger og vedligeholdelse**, vælg **Sager** i navigatoren og derefter fanen **Kategorier**.
 
-Kategorierne er organiseret i en træstruktur.
+Kategorierne er organiseret i en træstruktur. Hvis du vil finde ID'et på en kategori, skal du holde musemarkøren over kategorinavnet på listen. ID'et vises i et værktøjstip.
 
 [!include[Restricted access](../../../learn/includes/note-insufficient-rights.md)]
 

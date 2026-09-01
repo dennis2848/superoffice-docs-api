@@ -32,7 +32,7 @@ Shadow contact provider for the dynamic ticket provider.
 |projectId|int|Project ID: Database ID of project record| x |
 |ticketStatusId|int|Status ID: Status| x |
 |priorityId|int|Priority ID: ID of priority in database| x |
-|categoryId|int|Category ID: ID of ticket category in database| x |
+|categoryId|int|Category ID: ID of request category in database| x |
 |ticketTypeName|listAny|Request type: Request type| x |
 |ticketStatusName|listAny|Status: Request status| x |
 |categoryFullName|ejCategory|Category: Request category| x |
@@ -41,6 +41,7 @@ Shadow contact provider for the dynamic ticket provider.
 |ticketId|int|ID: Displays request ID| x |
 |title|string|Title: Displays the request title| x |
 |createdAt|datetime|Created: Displays when the request was created| x |
+|createdDate|date|Created date: Created date| x |
 |lastChanged|datetime|Last changed: Displays when the request was last changed| x |
 |author|string|Author: Displays the author of the request| x |
 |readByOwner|datetime|Read by owner: Displays when the request was read by the owner| x |
@@ -120,11 +121,11 @@ Shadow contact provider for the dynamic ticket provider.
 |ownedBy/mrMrs|string|Owner - Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
 |ownedBy/title|string|Owner - Title: Displays whether the contact is addressed as Mr or Ms| x |
 |ownedBy/associateDbId|associate|Owner - ID| x |
-|ownedBy/contactName|string|Owner - Owning company: Name of the company the user belongs to| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|ownedBy/contactName|string|Owner - Owning company: Name of the company the user belongs to| x |
 |ownedBy/contactDepartment|string|Owner - Owning department: Name of the department at the company the user belongs to| x |
 |ownedBy/usergroup|userGroup|Owner - Primary group: The user's primary user group| x |
 |ownedBy/usergroupId|int|Owner - Group ID: The user's primary user group| x |
@@ -150,7 +151,7 @@ Shadow contact provider for the dynamic ticket provider.
 |ownedBy/isLocation|bool|Owner - Is a location: Is a location| x |
 |ticketStatus/ticketStatusId|int|Status - ID: Displays request status ID| x |
 |ticketStatus/name|string|Status - Name: Displays the name of the request status| x |
-|ticketStatus/rank|int|Status - Status rank: Sort order of the status in the ticket status list| x |
+|ticketStatus/rank|int|Status - Status rank: Sort order of the status in the request status list| x |
 |ticketPriority/ticketPriorityId|int|Priority - ID: Displays the ID of the priority| x |
 |ticketPriority/name|string|Priority - Name: Displays the name of the priority| x |
 |ticketPriority/rank|int|Priority - Priority rank: Sort order of priority in the priority list| x |
@@ -158,7 +159,7 @@ Shadow contact provider for the dynamic ticket provider.
 |person/firstName|string|First name: Displays the contact's first name| x |
 |person/lastName|string|Last name: Displays the contact's last name| x |
 |person/middleName|string|Middle name: Displays the contact's middle name.| x |
-|person/fullName|stringorPK|Contact: Displays the contact to which an item is linked| x |
+|person/fullName|string|Contact: Displays the contact to which an item is linked| x |
 |person/contactId|int|Company ID: Database ID of company| x |
 |person/hasInfoText|bool|Has note: Displays an icon indicating if there is additional information available about the contact| x |
 |person/hasInterests|bool|Has interests: Displays an Icon indicating if the contact has active interests| x |
@@ -224,11 +225,11 @@ Shadow contact provider for the dynamic ticket provider.
 |person/personInfo/textId|int|Text ID| x |
 |person/personInfo/infoText|positiveString|Information: Displays the text entered in the description field| x |
 |person/email/emailProtocol|string|Protocol: E-mail protocol, such as SMTP| x |
-|person/email/emailAddress|string|E-mail| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|person/email/emailAddress|string|E-mail| x |
 |person/email/emailDescription|string|Description| x |
 |person/email/emailId|int|ID| x |
 |person/email/emailLastSent|datetime|Last sent: The date and time an e-mail was last sent to this address| x |
@@ -328,11 +329,11 @@ Shadow contact provider for the dynamic ticket provider.
 |person/personAssociate/otherGroups|userGroup|Other groups: Other groups|  |
 |person/personAssociate/userName|string|User name: User name| x |
 |person/personAssociate/personEmail|string|E-mail| x |
-|person/personAssociate/locationAddress|string|Location: Location| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|person/personAssociate/locationAddress|string|Location: Location| x |
 |person/personAssociate/isLocation|bool|Is a location: Is a location| x |
 |person/correspondingAssociate/firstName|string|First name: Displays the contact's first name| x |
 |person/correspondingAssociate/lastName|string|Last name: Displays the contact's last name| x |
@@ -380,7 +381,7 @@ Shadow contact provider for the dynamic ticket provider.
 |contact/contactId|int|Company ID: Database ID of company| x |
 |contact/name|stringorPK|Company name| x |
 |contact/department|string|Department| x |
-|contact/nameDepartment| *None* |Company: Displays the company an activity is linked to| x |
+|contact/nameDepartment|string|Company: Displays the company an activity is linked to| x |
 |contact/hasInfoText|bool|Has note: Displays an icon indicating if there is additional information available about the contact| x |
 |contact/hasInterests|bool|Has interests: Displays an Icon indicating if the contact has active interests| x |
 |contact/associateId|associate|Our contact: Displays our contact| x |
@@ -432,11 +433,11 @@ Shadow contact provider for the dynamic ticket provider.
 |contact/postAddress/state|string|Postal address - State: This criterion corresponds to the State field on the Company card.  \It will only be visible if required by a country's address format.| x |
 |contact/postAddress/wgs84latitude|decimal|Postal address - Latitude: Latitude| x |
 |contact/postAddress/wgs84longitude|decimal|Postal address - Longitude: Longitude| x |
-|contact/postAddress/formattedAddress| *None* |Postal address - {formattedAddress}: {formattedAddress}|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|contact/postAddress/formattedAddress| *None* |Postal address - {formattedAddress}: {formattedAddress}|  |
 |contact/postAddress/formattedMultiLineAddress| *None* |Postal address - {formattedAddress}: {formattedAddress}|  |
 |contact/streetAddress/addressId|int|Street address - Address ID: Database ID for the address record| x |
 |contact/streetAddress/line1|string|Street address - Address 1: First line of the address| x |
@@ -536,11 +537,11 @@ Shadow contact provider for the dynamic ticket provider.
 |contact/LastCompletedActivity|date|Date of last completed activity|  |
 |contact/LastDoByActivity|date|Date of last non-completed activity|  |
 |contact/NumberOfSales|int|Number of sales|  |
-|contact/NumberOfSalesInPeriod|int|Number of sales in last 90 days|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|contact/NumberOfSalesInPeriod|int|Number of sales in last 90 days|  |
 |contact/NumberOfNotCompletedSales|int|Number of non-completed sales|  |
 |contact/NumberOfNotCompletedSalesInPeriod|int|Number of non-completed sales in last 90 days|  |
 |contact/LastSale|date|Date of last sale|  |
@@ -633,18 +634,19 @@ Shadow contact provider for the dynamic ticket provider.
 |sale/createdByWorkflow|listAny|Created by flow: Created by flow| x |
 |sale/amountInBaseCurrency| *None* |Amount (BaseCurrency: The gross sales total| x |
 |sale/amountWeightedInBaseCurrency| *None* |Weighted amount (BaseCurrency: Virtual field calculated from amount * probability percent.| x |
-|sale/daysInStage| *None* |Days in stage: Total number of days in this stage| x |
+|sale/daysInStage|int|Days in stage: Total number of days in this stage| x |
+|sale/saleCycle|int|Sale cycle: Number of days from a sale was registered until it was closed (sold or lost)| x |
 |sale/visibleFor|listAny|Visible for|  |
 |sale/sale/textId|int|Text ID| x |
 |sale/sale/description|positiveString|Text: Displays the text entered in the description field| x |
 |sale/salePublish/isPublished|bool|Published: Displays an icon indicating if the project or sale has been published| x |
 |sale/salePublish/publishedFrom|date|From date: Start date for publishing. The record will not be visible prior to this date| x |
-|sale/salePublish/publishedTo|date|To date: End date for publishing. The record will not be visible after this date| x |
-|sale/salePublish/publishedBy| *None* |Published by: Published by|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|sale/salePublish/publishedTo|date|To date: End date for publishing. The record will not be visible after this date| x |
+|sale/salePublish/publishedBy| *None* |Published by: Published by|  |
 |sale/associate/firstName|string|First name: Displays the contact's first name| x |
 |sale/associate/lastName|string|Last name: Displays the contact's last name| x |
 |sale/associate/middleName|string|Middle Name : Displays the contact's middle name.| x |
@@ -709,6 +711,8 @@ Shadow contact provider for the dynamic ticket provider.
 |project/endDate|date|End date: End date of project| x |
 |project/imageThumbnail| *None* |Thumbnail: Scaled-down image of project image|  |
 |project/activeErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
+|project/eventId|int|Event ID: Event ID| x |
+|project/startDate|date|Start date: Project start date| x |
 |project/projectPublish/isPublished|bool|Published: Displays an icon indicating if the project or sale has been published| x |
 |project/projectPublish/publishedFrom|date|From date: Start date for publishing. The record will not be visible prior to this date| x |
 |project/projectPublish/publishedTo|date|To date: End date for publishing. The record will not be visible after this date| x |
@@ -741,14 +745,14 @@ Shadow contact provider for the dynamic ticket provider.
 |project/projectAssociate/ejUserId|int|Service user ID: The database ID of a Service user|  |
 |project/projectAssociate/simultaneousEjUser|bool|Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
 |project/projectAssociate/ejDisplayName|string|Nickname: User's nickname in Service| x |
-|project/projectAssociate/ejStatus|int|Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
-|project/projectAssociate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in| x |
-|project/projectAssociate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
-|project/projectAssociate/isActive|bool|Active: Is this user active, and should be able to log in?| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|project/projectAssociate/ejStatus|int|Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
+|project/projectAssociate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in| x |
+|project/projectAssociate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
+|project/projectAssociate/isActive|bool|Active: Is this user active, and should be able to log in?| x |
 |project/projectAssociate/isActiveText|bool|Active status: Is this user active, and should be able to log in?| x |
 |project/projectAssociate/portraitThumbnail| *None* |Person image: Person image|  |
 |project/projectAssociate/otherGroups|userGroup|Other groups: Other groups|  |
@@ -794,7 +798,7 @@ Shadow contact provider for the dynamic ticket provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/TicketShadowDynamicSelection?$select=ticketId,ownedBy/isActiveText,person/restrictionAddress/line2,person/personAssociate/isActiveText,sale/currencyId
+GET /api/v1/archive/TicketShadowDynamicSelection?$select=ownedBy/contactName,person/personAddress/zip,contact/contactUdef/SuperOffice:6,contact/NumberOfActivitiesInPeriod,contact/NumberOfSalesInPeriod
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

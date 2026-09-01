@@ -3,15 +3,16 @@ uid: help-de-request
 title: Anfragen
 description: Einführung zu Anfragen in SuperOffice
 keywords: Anfragenmanagement, Anfrage, Ticket, Service
-author: Bergfrid Dias
-date: 09.01.2025
-version: 11.3
+author: digitaldiina
+date: 06.10.2026
+version: 12.0
 content_type: concept
 license: serviceessentials
+tier: starter
 audience: person
 audience_tooltip: SuperOffice Service
 language: de
-redirect_from: 
+redirect_from:
   - /de/request/learn/screen/index
   - /de/request/learn/screen/ticket-log
 ---
@@ -49,6 +50,7 @@ Der Ansicht Anfrage enthält folgende Abschnitte:
 * Unter der Kopfzeile befindet sich eine Zeile mit Schaltflächen für Aufgaben im Zusammenhang mit Anfragen, wie Antworten, Allen antworten, Weiterleiten und Kommentar hinzufügen.
 * Auf der Registerkarte **Nachrichten** werden die mit der Anfrage verknüpften Nachrichten angezeigt.
 * Die Registerkarte **Details** enthält eine Übersicht über die für die Anfrage erfassten Daten.
+* Die Registerkarte **Beziehungen** zeigt [verknüpfte Anfragen][21] (übergeordnet, untergeordnet oder verwandt).
 * Die Registerkarte **Änderungsprotokoll** enthält den Verlauf dieser Anfrage. Das Anfrageprotokoll zeigt den Verlauf dieser Anfrage seit der ersten Erfassung.
 
 ### Kopfzeile der Anfrage
@@ -97,6 +99,9 @@ Oben auf der Registerkarte **Nachrichten** können Sie Antworten senden und Nach
 Die Registerkarte **Details** enthält eine Übersicht über alle Felder für die Anfrage.
 
 ### <a id="log"></a>Änderungsprotokoll
+
+> [!NOTE]
+> Das Änderungsprotokoll erfordert eine **Service Premium**-Lizenz oder den **Growth**-Plan.
 
 In dieser Ansicht werden die Protokolleinträge für die Anfrage angezeigt. Zu sämtlichen Ereignissen werden der Zeitpunkt, die durchgeführte Aktion und der zuständige Benutzer eingetragen.
 
@@ -150,6 +155,7 @@ Ein Kundenservicesystem dient dazu, Ihren Kunden die gesuchten Antworten bereitz
 * [Nachrichten oder mehrere Anfragen an externe Parteien weiterleiten][8]
 * [Anfragen zur Favoritenliste hinzufügen][18]
 * [Anfragen schließen][3]
+* [Anfragen als Spam markieren][27]
 
 Jedes Unternehmen hat eigene Abläufe zur Bearbeitung von Anfragen und nutzt SuperOffice Service auf unterschiedliche Weise. Nachfolgend zeigen zwei reale Szenarien, wie Anfragen effizient bearbeitet werden können.
 
@@ -198,6 +204,20 @@ Sie können Anfragen an Ihren Arbeitsablauf anpassen:
 
 1. Klicken Sie auf **Speichern**, um die Änderungen zu übernehmen.
 
+## <a id="available"></a>Ihr Verfügbarkeitsstatus
+
+Ihr Verfügbarkeitsstatus bestimmt, ob Sie Anfragen über die automatische Zuweisung erhalten. Er wirkt sich auch auf die Zuweisung von Personen aus.
+
+Um Ihren Status zu aktualisieren, klicken Sie in der Symbolleiste auf <i class="ph ph-user-circle" aria-hidden="true"></i> **Persönliche Einstellungen** und wählen Sie **Ihr Verfügbarkeitsstatus**.
+
+* **Anwesend:** Sie sind für die automatische Zuweisung von Anfragen und Personen verfügbar.
+* **Nicht anwesend:** Neue Anfragen werden Ihnen nicht zugewiesen. Ihre Abwesenheitsnotiz wird neben Ihrem Namen angezeigt, wenn jemand einen Eintrag manuell zuweist.
+
+> [!TIP]
+> Wenn ein Bearbeiter vergisst, seinen Status zu aktualisieren, oder unerwartet abwesend ist, kann ein Administrator den Verfügbarkeitsstatus des Bearbeiters in **Einstellungen und Wartung** > **Benutzer** ändern.
+
+Wie Anfragen neu verteilt werden, wenn ein Benutzer nicht anwesend ist, hängt von der für die Kategorie konfigurierten [Zuweisungsmethode][6] ab.
+
 ## Globale Einstellungen
 
 Administratoren können Service für alle Benutzer in Einstellungen und Wartung anpassen.
@@ -240,6 +260,7 @@ Einige Einstellungen, die Support-Agenten betreffen, umfassen:
 [16]: merge.md
 [17]: ../../dashboard/learn/show-requests.md
 [19]: split-message.md
+[21]: request-relations.md
 [22]: tags.md
 [24]: ../admin/priority/escalation-levels.md
 [25]: ../admin/category/index.md
@@ -250,6 +271,7 @@ Einige Einstellungen, die Support-Agenten betreffen, umfassen:
 [23]: ../../knowledge-base/learn/reply-templates/index.md
 [20]: https://community.superoffice.com/en/learning/best-practices-tips/service/7-tips-to-provide-best-in-class-customer-service-with-superoffice-service/
 [26]: ../../admin/preferences/service-settings.md
+[27]: spam.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/request/request-list-preview.png

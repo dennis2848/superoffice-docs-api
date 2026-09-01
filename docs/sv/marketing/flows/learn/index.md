@@ -1,15 +1,16 @@
-﻿---
+---
 uid: help-sv-flows
 title: Marknadsföringsautomatisering - flöden
 description: Introduktion till SuperOffice marknadsföringsautomatisering och flöden.
 keywords: flöde, marknadsföringsautomatisering, kundsegment, kundresa, kampanj, framgångskriterier, segmentera, flödespanel, Marketing premium, flödesadministratör
 author: Bergfrid Dias, Trude Lien Smedbråten
-date: 09.26.2025
-version: 11.3
+date: 06.10.2026
+version: 12.0
 content_type: howto
 category: marketing
 topic: flows
 license: marketingpremium
+tier: plus
 audience: person
 audience_tooltip: SuperOffice Marketing
 language: sv
@@ -121,10 +122,13 @@ Det är tillrådligt för de flesta automatiserade flöden att sätta framgångs
 
 ## <a id="req"></a>Krav
 
-* Marketing premium-licens (ny nivå)
-* Sales essential eller premium - för att skapa en försäljning
-* Service essential eller premium - för att skapa ett ärende
+* **Marketing Premium**-licens eller **Plus**-planen
+* **Sales Essentials eller Premium**-licens för att skapa en försäljning
+* **Service Essentials eller Premium**-licens för att skapa ett ärende
 * SMS-kontakt - för att skicka SMS
+
+> [!NOTE]
+> **CRM Suite (Plus-plan):** Din plan inkluderar maximalt 10 aktiva flöden åt gången. Både körande och pausade flöden räknas mot denna gräns. När du närmar dig gränsen visas en varning i flödets rubrik. När gränsen nås är reglaget **Körs** inte tillgängligt för inaktiva flöden. Se [Plangränser][13] för mer information.
 
 ### Funktionella rättigheter
 
@@ -155,6 +159,7 @@ Det är tillrådligt för de flesta automatiserade flöden att sätta framgångs
 [9]: ../../forms/learn/tutorial-contact-me.md
 [11]: ../../../admin/user-management/role/functional-rights.md
 [12]: ../../../learn/section-tabs/index.md
+[13]: ../../../admin/license/crm-suite.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/marketing/flows-panel.png

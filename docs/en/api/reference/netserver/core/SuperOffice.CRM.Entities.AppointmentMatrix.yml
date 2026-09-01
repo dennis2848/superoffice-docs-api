@@ -20,6 +20,7 @@ items:
   - SuperOffice.CRM.Entities.AppointmentMatrix.AssignToAsync(SuperOffice.CRM.Services.ParticipantInfo,System.Threading.CancellationToken)
   - SuperOffice.CRM.Entities.AppointmentMatrix.AssignToExternalOrganizerAsync(SuperOffice.CRM.Services.ParticipantInfo,System.Threading.CancellationToken)
   - SuperOffice.CRM.Entities.AppointmentMatrix.BookingType
+  - SuperOffice.CRM.Entities.AppointmentMatrix.CalculateDaysAsync(System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Entities.AppointmentMatrix.CalculateDaysAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Entities.AppointmentMatrix.CancelAsync(SuperOffice.CRM.Services.ParticipantInfo,System.Threading.CancellationToken)
   - SuperOffice.CRM.Entities.AppointmentMatrix.CurrentAppointmentRow
@@ -82,6 +83,7 @@ items:
   - SuperOffice.CRM.Entities.AppointmentMatrix.SetParticipantsAsync(System.Threading.CancellationToken,SuperOffice.CRM.Services.ParticipantInfo[])
   - SuperOffice.CRM.Entities.AppointmentMatrix.SetSeenAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Entities.AppointmentMatrix.SetSendMailToParticipants(System.Boolean)
+  - SuperOffice.CRM.Entities.AppointmentMatrix.SetSendMailToParticipants(System.Boolean,System.String,System.String,System.String,System.Boolean,System.String,System.String,System.String,System.Boolean,System.Boolean,System.String)
   - SuperOffice.CRM.Entities.AppointmentMatrix.SetSendMailToParticipants(System.Boolean,System.String,System.String,System.String,System.Boolean,System.String,System.String,System.String,System.Boolean,System.String)
   - SuperOffice.CRM.Entities.AppointmentMatrix.SetSendMailToParticipants(System.Boolean,System.String,System.String,System.String,System.String,System.String,System.String)
   - SuperOffice.CRM.Entities.AppointmentMatrix.SetSendMailToParticipantsAsync(System.Boolean,System.Boolean)
@@ -347,6 +349,64 @@ items:
   nameWithType.vb: AppointmentMatrix.SetSendMailToParticipants(Boolean, String, String, String, Boolean, String, String, String, Boolean, String)
   fullName.vb: SuperOffice.CRM.Entities.AppointmentMatrix.SetSendMailToParticipants(Boolean, String, String, String, Boolean, String, String, String, Boolean, String)
   name.vb: SetSendMailToParticipants(Boolean, String, String, String, Boolean, String, String, String, Boolean, String)
+- uid: SuperOffice.CRM.Entities.AppointmentMatrix.SetSendMailToParticipants(System.Boolean,System.String,System.String,System.String,System.Boolean,System.String,System.String,System.String,System.Boolean,System.Boolean,System.String)
+  commentId: M:SuperOffice.CRM.Entities.AppointmentMatrix.SetSendMailToParticipants(System.Boolean,System.String,System.String,System.String,System.Boolean,System.String,System.String,System.String,System.Boolean,System.Boolean,System.String)
+  id: SetSendMailToParticipants(System.Boolean,System.String,System.String,System.String,System.Boolean,System.String,System.String,System.String,System.Boolean,System.Boolean,System.String)
+  parent: SuperOffice.CRM.Entities.AppointmentMatrix
+  langs:
+  - csharp
+  - vb
+  name: SetSendMailToParticipants(bool, string, string, string, bool, string, string, string, bool, bool, string)
+  nameWithType: AppointmentMatrix.SetSendMailToParticipants(bool, string, string, string, bool, string, string, string, bool, bool, string)
+  fullName: SuperOffice.CRM.Entities.AppointmentMatrix.SetSendMailToParticipants(bool, string, string, string, bool, string, string, string, bool, bool, string)
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.Entities
+  summary: Set if e-mails are going to be sent to participants that are marked receive mails, with provided mail server options.
+  example: []
+  syntax:
+    content: public void SetSendMailToParticipants(bool sendEmailToParticipants, string imapServer, string imapUser, string imapPassword, bool imapSSL, string smtpServer, string smtpUser, string smtpPassword, bool smtpSSL, bool useGraphApi, string sentFolder)
+    parameters:
+    - id: sendEmailToParticipants
+      type: System.Boolean
+      description: True if e-mails are going to be sent to participants that are marked receive mails.
+    - id: imapServer
+      type: System.String
+      description: Name/IP with optional port (i.e. server:port)of the IMAP server for storing e-mail in the sent items folder.
+    - id: imapUser
+      type: System.String
+      description: User-name to use when authenticating against the IMAP server for storing e-mail in the sent items folder.
+    - id: imapPassword
+      type: System.String
+      description: Password to use when authenticating against the IMAP server for storing e-mail in the sent items folder.
+    - id: imapSSL
+      type: System.Boolean
+      description: Use secure connection.
+    - id: smtpServer
+      type: System.String
+      description: Name/IP with optional port (i.e. server:port)of the SMTP server for sending e-mail.
+    - id: smtpUser
+      type: System.String
+      description: User-name to use when authenticating against the SMTP server for sending e-mail.
+    - id: smtpPassword
+      type: System.String
+      description: Password to use when authenticating against the SMT server for sending e-mail.
+    - id: smtpSSL
+      type: System.Boolean
+      description: Use secure connection.
+    - id: useGraphApi
+      type: System.Boolean
+      description: Use graph api.
+    - id: sentFolder
+      type: System.String
+    content.vb: Public Sub SetSendMailToParticipants(sendEmailToParticipants As Boolean, imapServer As String, imapUser As String, imapPassword As String, imapSSL As Boolean, smtpServer As String, smtpUser As String, smtpPassword As String, smtpSSL As Boolean, useGraphApi As Boolean, sentFolder As String)
+  overload: SuperOffice.CRM.Entities.AppointmentMatrix.SetSendMailToParticipants*
+  implements:
+  - SuperOffice.CRM.Entities.IAppointmentMatrix.SetSendMailToParticipants(System.Boolean,System.String,System.String,System.String,System.Boolean,System.String,System.String,System.String,System.Boolean,System.Boolean,System.String)
+  nameWithType.vb: AppointmentMatrix.SetSendMailToParticipants(Boolean, String, String, String, Boolean, String, String, String, Boolean, Boolean, String)
+  fullName.vb: SuperOffice.CRM.Entities.AppointmentMatrix.SetSendMailToParticipants(Boolean, String, String, String, Boolean, String, String, String, Boolean, Boolean, String)
+  name.vb: SetSendMailToParticipants(Boolean, String, String, String, Boolean, String, String, String, Boolean, Boolean, String)
 - uid: SuperOffice.CRM.Entities.AppointmentMatrix.HasOwnership(SuperOffice.CRM.Entities.AppointmentMatrix.OwnershipIndex)
   commentId: M:SuperOffice.CRM.Entities.AppointmentMatrix.HasOwnership(SuperOffice.CRM.Entities.AppointmentMatrix.OwnershipIndex)
   id: HasOwnership(SuperOffice.CRM.Entities.AppointmentMatrix.OwnershipIndex)
@@ -474,6 +534,54 @@ items:
   overload: SuperOffice.CRM.Entities.AppointmentMatrix.CalculateDaysAsync*
   implements:
   - SuperOffice.CRM.Entities.IAppointmentMatrix.CalculateDaysAsync(System.Threading.CancellationToken)
+- uid: SuperOffice.CRM.Entities.AppointmentMatrix.CalculateDaysAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.AppointmentMatrix.CalculateDaysAsync(System.Int32,System.Threading.CancellationToken)
+  id: CalculateDaysAsync(System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Entities.AppointmentMatrix
+  langs:
+  - csharp
+  - vb
+  name: CalculateDaysAsync(int, CancellationToken)
+  nameWithType: AppointmentMatrix.CalculateDaysAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Entities.AppointmentMatrix.CalculateDaysAsync(int, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.Entities
+  summary: >-
+    Calculate the days according the the recurrence pattern described.  
+
+    Nothing will be performed if <xref href="SuperOffice.CRM.Entities.IAppointmentMatrix.RecurrenceUpdateMode" data-throw-if-not-resolved="false"></xref> is <xref href="SuperOffice.Data.RecurrenceUpdateMode.OnlyThis" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public Task CalculateDaysAsync(int maxDates, CancellationToken cancellationToken = default)
+    parameters:
+    - id: maxDates
+      type: System.Int32
+      description: The maximum calculated days the pattern will generate. Limit of 1000.
+      attributes:
+      - type: System.ComponentModel.DataAnnotations.RangeAttribute
+        ctor: System.ComponentModel.DataAnnotations.RangeAttribute.#ctor(System.Int32,System.Int32)
+        arguments:
+        - type: System.Int32
+          value: 1
+        - type: System.Int32
+          value: 1000
+        namedArguments:
+        - name: ErrorMessage
+          type: System.String
+          value: Max dates should be between 1 and 1000.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Function CalculateDaysAsync(maxDates As Integer, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Entities.AppointmentMatrix.CalculateDaysAsync*
+  implements:
+  - SuperOffice.CRM.Entities.IAppointmentMatrix.CalculateDaysAsync(System.Int32,System.Threading.CancellationToken)
+  nameWithType.vb: AppointmentMatrix.CalculateDaysAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Entities.AppointmentMatrix.CalculateDaysAsync(Integer, System.Threading.CancellationToken)
+  name.vb: CalculateDaysAsync(Integer, CancellationToken)
 - uid: SuperOffice.CRM.Entities.AppointmentMatrix.ValidateDaysAsync(System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Entities.AppointmentMatrix.ValidateDaysAsync(System.Threading.CancellationToken)
   id: ValidateDaysAsync(System.Threading.CancellationToken)
@@ -3685,6 +3793,159 @@ references:
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+- uid: SuperOffice.CRM.Entities.IAppointmentMatrix.SetSendMailToParticipants(System.Boolean,System.String,System.String,System.String,System.Boolean,System.String,System.String,System.String,System.Boolean,System.Boolean,System.String)
+  commentId: M:SuperOffice.CRM.Entities.IAppointmentMatrix.SetSendMailToParticipants(System.Boolean,System.String,System.String,System.String,System.Boolean,System.String,System.String,System.String,System.Boolean,System.Boolean,System.String)
+  parent: SuperOffice.CRM.Entities.IAppointmentMatrix
+  isExternal: true
+  href: SuperOffice.CRM.Entities.IAppointmentMatrix.html#SuperOffice_CRM_Entities_IAppointmentMatrix_SetSendMailToParticipants_System_Boolean_System_String_System_String_System_String_System_Boolean_System_String_System_String_System_String_System_Boolean_System_Boolean_System_String_
+  name: SetSendMailToParticipants(bool, string, string, string, bool, string, string, string, bool, bool, string)
+  nameWithType: IAppointmentMatrix.SetSendMailToParticipants(bool, string, string, string, bool, string, string, string, bool, bool, string)
+  fullName: SuperOffice.CRM.Entities.IAppointmentMatrix.SetSendMailToParticipants(bool, string, string, string, bool, string, string, string, bool, bool, string)
+  nameWithType.vb: IAppointmentMatrix.SetSendMailToParticipants(Boolean, String, String, String, Boolean, String, String, String, Boolean, Boolean, String)
+  fullName.vb: SuperOffice.CRM.Entities.IAppointmentMatrix.SetSendMailToParticipants(Boolean, String, String, String, Boolean, String, String, String, Boolean, Boolean, String)
+  name.vb: SetSendMailToParticipants(Boolean, String, String, String, Boolean, String, String, String, Boolean, Boolean, String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Entities.IAppointmentMatrix.SetSendMailToParticipants(System.Boolean,System.String,System.String,System.String,System.Boolean,System.String,System.String,System.String,System.Boolean,System.Boolean,System.String)
+    name: SetSendMailToParticipants
+    isExternal: true
+    href: SuperOffice.CRM.Entities.IAppointmentMatrix.html#SuperOffice_CRM_Entities_IAppointmentMatrix_SetSendMailToParticipants_System_Boolean_System_String_System_String_System_String_System_Boolean_System_String_System_String_System_String_System_Boolean_System_Boolean_System_String_
+  - name: (
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Entities.IAppointmentMatrix.SetSendMailToParticipants(System.Boolean,System.String,System.String,System.String,System.Boolean,System.String,System.String,System.String,System.Boolean,System.Boolean,System.String)
+    name: SetSendMailToParticipants
+    isExternal: true
+    href: SuperOffice.CRM.Entities.IAppointmentMatrix.html#SuperOffice_CRM_Entities_IAppointmentMatrix_SetSendMailToParticipants_System_Boolean_System_String_System_String_System_String_System_Boolean_System_String_System_String_System_String_System_Boolean_System_Boolean_System_String_
+  - name: (
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
 - uid: SuperOffice.CRM.Entities.IAppointmentMatrix.Ownership
   commentId: P:SuperOffice.CRM.Entities.IAppointmentMatrix.Ownership
   parent: SuperOffice.CRM.Entities.IAppointmentMatrix
@@ -4058,6 +4319,62 @@ references:
     name: Threading
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.threading
+- uid: SuperOffice.CRM.Entities.IAppointmentMatrix.CalculateDaysAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Entities.IAppointmentMatrix.CalculateDaysAsync(System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Entities.IAppointmentMatrix
+  isExternal: true
+  href: SuperOffice.CRM.Entities.IAppointmentMatrix.html#SuperOffice_CRM_Entities_IAppointmentMatrix_CalculateDaysAsync_System_Int32_System_Threading_CancellationToken_
+  name: CalculateDaysAsync(int, CancellationToken)
+  nameWithType: IAppointmentMatrix.CalculateDaysAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Entities.IAppointmentMatrix.CalculateDaysAsync(int, System.Threading.CancellationToken)
+  nameWithType.vb: IAppointmentMatrix.CalculateDaysAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Entities.IAppointmentMatrix.CalculateDaysAsync(Integer, System.Threading.CancellationToken)
+  name.vb: CalculateDaysAsync(Integer, CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Entities.IAppointmentMatrix.CalculateDaysAsync(System.Int32,System.Threading.CancellationToken)
+    name: CalculateDaysAsync
+    isExternal: true
+    href: SuperOffice.CRM.Entities.IAppointmentMatrix.html#SuperOffice_CRM_Entities_IAppointmentMatrix_CalculateDaysAsync_System_Int32_System_Threading_CancellationToken_
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Entities.IAppointmentMatrix.CalculateDaysAsync(System.Int32,System.Threading.CancellationToken)
+    name: CalculateDaysAsync
+    isExternal: true
+    href: SuperOffice.CRM.Entities.IAppointmentMatrix.html#SuperOffice_CRM_Entities_IAppointmentMatrix_CalculateDaysAsync_System_Int32_System_Threading_CancellationToken_
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
 - uid: SuperOffice.CRM.Entities.AppointmentMatrix.ValidateDaysAsync*
   commentId: Overload:SuperOffice.CRM.Entities.AppointmentMatrix.ValidateDaysAsync
   isExternal: true
@@ -5348,17 +5665,6 @@ references:
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-- uid: System.Int32
-  commentId: T:System.Int32
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
 - uid: SuperOffice.CRM.Entities.AppointmentMatrix.AcceptRejectedAppointmentAsync*
   commentId: Overload:SuperOffice.CRM.Entities.AppointmentMatrix.AcceptRejectedAppointmentAsync
   isExternal: true

@@ -4,8 +4,8 @@ title: Gebruikersgegevens bewerken
 description: Medewerker bewerken
 keywords: gebruiker, medewerker
 author: digitaldiina
-date: 10.24.2025
-version: 11.5
+date: 05.04.2026
+version: 11.13
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -15,6 +15,7 @@ index: true
 redirect_from: 
   - /nl/admin/user-management/learn/delete-user
   - /nl/admin/user-management/learn/update-user
+tier: starter
 language: nl
 ---
 
@@ -52,9 +53,3 @@ Om een gebruiker (medewerker) bij te werken, te verplaatsen of te verwijderen, s
 
 1. Klik op **OK**.
 
-## Gerelateerde inhoud
-
-* [Anonieme gebruikers of systeemgebruikers bewerken of verwijderen (lokaal)][1]
-
-<!-- Referenced links -->
-[1]: onsite/other-users.md

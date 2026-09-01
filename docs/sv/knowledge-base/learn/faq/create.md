@@ -4,12 +4,13 @@ title: Skapa FAQ-poster
 description: Skapa FAQ-poster
 keywords: FAQ
 author: Bergfrid Dias
-date: 07.15.2025
-version: 10.5
+date: 06.10.2026
+version: 12.0
 content_type: howto
 category: service
 topic: faq
 license: servicepremium
+tier: growth
 functional_right: knowledge-base
 audience: person
 audience_tooltip: SuperOffice Service
@@ -26,7 +27,7 @@ Genom att skapa FAQ-poster kan ditt företag bygga upp en omfattande samling fr�
 
 ## Krav
 
-* Du behöver en licens för Service Premium eller Customer Engagement-plattformen för att använda kunskapsbasen.
+* Du behöver en **Service Premium**-licens, **Customer Engagement Platform (CEP)**-tillägget eller **Growth**-planen för att använda kunskapsbasen.
 * Om du inte ser den här funktionen måste du lägga till *Kunskapsbas* som funktionell rättighet för att skapa FAQ-artiklar.
 
 ## Skapa FAQ-poster från ett ärende
